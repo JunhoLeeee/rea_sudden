@@ -1,0 +1,1280 @@
+{
+  "source_sha256": "d013c3f158f1ecfa849513c0778a7094f48d2e895a1053d69c0ef616b1ed24ea",
+  "source_bytes": 1805073,
+  "profile": "observed-warehouse-dat85-render44-v1",
+  "render_offset": 398071,
+  "render_end": 1805073,
+  "exact_eof": true,
+  "decoded_mesh_canonical_sha256": "030dc16940f5dc3a307fd4c2cb13c4a47ddf97d311b5648a8f39ec94711dc63b",
+  "totals": {
+    "worlds": 23,
+    "blocks": 39,
+    "vertices": 19332,
+    "triangles": 10599,
+    "sections": 326,
+    "lightmaps": 27,
+    "sky_portals": 5,
+    "occluders": 0
+  },
+  "shaders": {
+    "2": {
+      "sections": 27,
+      "triangles": 2571
+    },
+    "4": {
+      "sections": 135,
+      "triangles": 2571
+    },
+    "1": {
+      "sections": 164,
+      "triangles": 5457
+    }
+  },
+  "coordinate_comparisons": [
+    {
+      "world": "MAIN",
+      "render_bounds": [
+        [
+          -2341.5,
+          -463.0,
+          -1735.0
+        ],
+        [
+          2782.5,
+          513.0,
+          688.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          -4121.5,
+          -3040.0,
+          -4096.0
+        ],
+        [
+          4070.5,
+          3040.0,
+          4096.0
+        ]
+      ],
+      "equal": false
+    },
+    {
+      "world": "passage break",
+      "render_bounds": [
+        [
+          2319.5,
+          -250.0,
+          380.0
+        ],
+        [
+          2423.5,
+          -113.0,
+          382.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          2319.5,
+          -250.0,
+          380.0
+        ],
+        [
+          2423.5,
+          -113.0,
+          382.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "passage break00",
+      "render_bounds": [
+        [
+          127.5,
+          -114.0,
+          380.0
+        ],
+        [
+          255.5,
+          19.0,
+          382.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          127.5,
+          -114.0,
+          380.0
+        ],
+        [
+          255.5,
+          19.0,
+          382.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "passage break01",
+      "render_bounds": [
+        [
+          1196.5,
+          -114.0,
+          -1176.0
+        ],
+        [
+          1324.5,
+          19.0,
+          -1174.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          1196.5,
+          -114.0,
+          -1176.0
+        ],
+        [
+          1324.5,
+          19.0,
+          -1174.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "passage break02",
+      "render_bounds": [
+        [
+          -857.5,
+          -250.0,
+          -1176.0
+        ],
+        [
+          -753.5,
+          -113.0,
+          -1174.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          -857.5,
+          -250.0,
+          -1176.0
+        ],
+        [
+          -753.5,
+          -113.0,
+          -1174.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall04",
+      "render_bounds": [
+        [
+          -1341.5,
+          -463.0,
+          642.0
+        ],
+        [
+          2677.5,
+          2164.0,
+          3992.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          -1341.5,
+          -463.0,
+          642.0
+        ],
+        [
+          2677.5,
+          2164.0,
+          3992.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall03",
+      "render_bounds": [
+        [
+          -1341.5,
+          -463.0,
+          -3991.0
+        ],
+        [
+          2677.5,
+          2164.0,
+          -1435.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          -1341.5,
+          -463.0,
+          -3991.0
+        ],
+        [
+          2677.5,
+          2164.0,
+          -1435.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall02",
+      "render_bounds": [
+        [
+          -4020.5,
+          -463.0,
+          -3991.0
+        ],
+        [
+          -1341.5,
+          2164.0,
+          3992.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          -4020.5,
+          -463.0,
+          -3991.0
+        ],
+        [
+          -1341.5,
+          2164.0,
+          3992.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall05",
+      "render_bounds": [
+        [
+          2782.5,
+          -463.0,
+          -3991.0
+        ],
+        [
+          4121.5,
+          2164.0,
+          3992.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          2782.5,
+          -463.0,
+          -3991.0
+        ],
+        [
+          4121.5,
+          2164.0,
+          3992.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall06",
+      "render_bounds": [
+        [
+          -740.5,
+          -2015.0,
+          -3991.0
+        ],
+        [
+          4016.5,
+          -391.0,
+          3992.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          -740.5,
+          -2015.0,
+          -3991.0
+        ],
+        [
+          4016.5,
+          -391.0,
+          3992.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall07",
+      "render_bounds": [
+        [
+          -1341.5,
+          80.0,
+          -1435.0
+        ],
+        [
+          2677.5,
+          2164.0,
+          -936.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          -1341.5,
+          80.0,
+          -1435.0
+        ],
+        [
+          2677.5,
+          2164.0,
+          -936.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall08",
+      "render_bounds": [
+        [
+          -1341.5,
+          80.0,
+          -150.0
+        ],
+        [
+          2677.5,
+          2164.0,
+          642.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          -1341.5,
+          80.0,
+          -150.0
+        ],
+        [
+          2677.5,
+          2164.0,
+          642.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall09",
+      "render_bounds": [
+        [
+          -1341.5,
+          224.0,
+          -936.0
+        ],
+        [
+          2677.5,
+          2164.0,
+          -150.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          -1341.5,
+          224.0,
+          -936.0
+        ],
+        [
+          2677.5,
+          2164.0,
+          -150.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall10",
+      "render_bounds": [
+        [
+          -4020.5,
+          -2015.0,
+          -3991.0
+        ],
+        [
+          -740.5,
+          -456.0,
+          3992.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          -4020.5,
+          -2015.0,
+          -3991.0
+        ],
+        [
+          -740.5,
+          -456.0,
+          3992.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "DemoSkyWorldModel0",
+      "render_bounds": [
+        [
+          1450.5,
+          -1450.0,
+          -3812.0
+        ],
+        [
+          1946.5,
+          -954.0,
+          -3316.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          1450.5,
+          -1450.0,
+          -3812.0
+        ],
+        [
+          1946.5,
+          -954.0,
+          -3316.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall14",
+      "render_bounds": [
+        [
+          257.5,
+          -396.0,
+          392.0
+        ],
+        [
+          2315.5,
+          147.0,
+          510.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          257.5,
+          -396.0,
+          392.0
+        ],
+        [
+          2315.5,
+          147.0,
+          510.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall13",
+      "render_bounds": [
+        [
+          1337.5,
+          -396.0,
+          -1304.0
+        ],
+        [
+          2677.5,
+          147.0,
+          -1185.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          1337.5,
+          -396.0,
+          -1304.0
+        ],
+        [
+          2677.5,
+          147.0,
+          -1185.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall12",
+      "render_bounds": [
+        [
+          -747.5,
+          -396.0,
+          -1303.0
+        ],
+        [
+          1195.5,
+          147.0,
+          -1184.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          -747.5,
+          -396.0,
+          -1303.0
+        ],
+        [
+          1195.5,
+          147.0,
+          -1184.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall18",
+      "render_bounds": [
+        [
+          2095.5,
+          -396.0,
+          -1176.0
+        ],
+        [
+          2105.5,
+          147.0,
+          -792.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          2095.5,
+          -396.0,
+          -1176.0
+        ],
+        [
+          2105.5,
+          147.0,
+          -792.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall17",
+      "render_bounds": [
+        [
+          2095.5,
+          -396.0,
+          -595.0
+        ],
+        [
+          2105.5,
+          147.0,
+          -249.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          2095.5,
+          -396.0,
+          -595.0
+        ],
+        [
+          2105.5,
+          147.0,
+          -249.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall16",
+      "render_bounds": [
+        [
+          2095.5,
+          -396.0,
+          -52.0
+        ],
+        [
+          2105.5,
+          147.0,
+          384.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          2095.5,
+          -396.0,
+          -52.0
+        ],
+        [
+          2105.5,
+          147.0,
+          384.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall15",
+      "render_bounds": [
+        [
+          -694.5,
+          -396.0,
+          62.0
+        ],
+        [
+          -684.5,
+          147.0,
+          382.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          -694.5,
+          -396.0,
+          62.0
+        ],
+        [
+          -684.5,
+          147.0,
+          382.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "world": "EndlessFall11",
+      "render_bounds": [
+        [
+          -694.5,
+          -396.0,
+          -1184.0
+        ],
+        [
+          -684.5,
+          147.0,
+          -851.0
+        ]
+      ],
+      "collision_bounds": [
+        [
+          -694.5,
+          -396.0,
+          -1184.0
+        ],
+        [
+          -684.5,
+          147.0,
+          -851.0
+        ]
+      ],
+      "equal": true
+    }
+  ],
+  "exact_lightmap_pairs": 2571,
+  "pair_polygon_identifiers_equal": 185,
+  "texture_coverage": {
+    "file_references": 73,
+    "verified": [
+      {
+        "reference": "sa_ppl\\ad1\\warehouse_01_01.dtx",
+        "key": "sa_ppl/ad1/warehouse_01_01.dtx",
+        "png": "previews/warehouse-textures/sa_ppl/ad1/warehouse_01_01.png",
+        "png_sha256": "67afae2e5a2f0426a705517887ba8c7ee7f5a66effb1379c085b7ae7a445eb89",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "sa_ppl\\ad1\\warehouse_01_02.dtx",
+        "key": "sa_ppl/ad1/warehouse_01_02.dtx",
+        "png": "previews/warehouse-textures/sa_ppl/ad1/warehouse_01_02.png",
+        "png_sha256": "0487ff00307337f587518f94032821f6906b1fd44f9331340527d9be859b6125",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "sa_ppl\\ad1\\warehouse_01_03.dtx",
+        "key": "sa_ppl/ad1/warehouse_01_03.dtx",
+        "png": "previews/warehouse-textures/sa_ppl/ad1/warehouse_01_03.png",
+        "png_sha256": "0e145825a483a4e37dadb1a4d080403652ee035e223de77b0518665cc7fdd68f",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "sa_ppl\\ad2\\warehouse_02_01.dtx",
+        "key": "sa_ppl/ad2/warehouse_02_01.dtx",
+        "png": "previews/warehouse-textures/sa_ppl/ad2/warehouse_02_01.png",
+        "png_sha256": "806b3cc0bf52f37e910523785cc92514be5900046a89a260ac969d7e9daf9b47",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "sa_ppl\\ad3\\warehouse_03_01.dtx",
+        "key": "sa_ppl/ad3/warehouse_03_01.dtx",
+        "png": "previews/warehouse-textures/sa_ppl/ad3/warehouse_03_01.png",
+        "png_sha256": "67afae2e5a2f0426a705517887ba8c7ee7f5a66effb1379c085b7ae7a445eb89",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "sa_ppl\\ad3\\warehouse_03_02.dtx",
+        "key": "sa_ppl/ad3/warehouse_03_02.dtx",
+        "png": "previews/warehouse-textures/sa_ppl/ad3/warehouse_03_02.png",
+        "png_sha256": "0487ff00307337f587518f94032821f6906b1fd44f9331340527d9be859b6125",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "sa_ppl\\ad3\\warehouse_03_03.dtx",
+        "key": "sa_ppl/ad3/warehouse_03_03.dtx",
+        "png": "previews/warehouse-textures/sa_ppl/ad3/warehouse_03_03.png",
+        "png_sha256": "0e145825a483a4e37dadb1a4d080403652ee035e223de77b0518665cc7fdd68f",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "sa_ppl\\ad4\\warehouse_04_01.dtx",
+        "key": "sa_ppl/ad4/warehouse_04_01.dtx",
+        "png": "previews/warehouse-textures/sa_ppl/ad4/warehouse_04_01.png",
+        "png_sha256": "67afae2e5a2f0426a705517887ba8c7ee7f5a66effb1379c085b7ae7a445eb89",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "sa_ppl\\ad4\\warehouse_04_02.dtx",
+        "key": "sa_ppl/ad4/warehouse_04_02.dtx",
+        "png": "previews/warehouse-textures/sa_ppl/ad4/warehouse_04_02.png",
+        "png_sha256": "0487ff00307337f587518f94032821f6906b1fd44f9331340527d9be859b6125",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "sa_ppl\\ad4\\warehouse_04_03.dtx",
+        "key": "sa_ppl/ad4/warehouse_04_03.dtx",
+        "png": "previews/warehouse-textures/sa_ppl/ad4/warehouse_04_03.png",
+        "png_sha256": "0e145825a483a4e37dadb1a4d080403652ee035e223de77b0518665cc7fdd68f",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "sa_tex\\AlphaZero.dtx",
+        "key": "sa_tex/alphazero.dtx",
+        "png": "previews/warehouse-textures/sa_tex/alphazero.png",
+        "png_sha256": "affc13079338b5a81a038d25d2ca37802815f9a753bb17155c8d29db33d1c860",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "reference": "sa_tex\\black.dtx",
+        "key": "sa_tex/black.dtx",
+        "png": "previews/warehouse-textures/sa_tex/black.png",
+        "png_sha256": "2169ed7371fc3e2026d26d20f7373c16e2b0d0545a08bf14aaf53292ccd6d842",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "reference": "sa_tex\\DeathZone.dtx",
+        "key": "sa_tex/deathzone.dtx",
+        "png": "previews/warehouse-textures/sa_tex/deathzone.png",
+        "png_sha256": "7d68099f549274135bbf56dbda675c7549a63be58e6a88857faa4e7ac60e11e8",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "reference": "sa_tex\\egg\\target01.dtx",
+        "key": "sa_tex/egg/target01.dtx",
+        "png": "previews/warehouse-textures/sa_tex/egg/target01.png",
+        "png_sha256": "c5f1f4a5f51795308576ed6811482893d2bbe563d4f178c9d99f086706001749",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "reference": "sa_tex\\lab\\door_patton1.dtx",
+        "key": "sa_tex/lab/door_patton1.dtx",
+        "png": "previews/warehouse-textures/sa_tex/lab/door_patton1.png",
+        "png_sha256": "7d28ce7a062cf779a43cc5f4b47f609c2059cbc8267dc5cc8e0e9cb50ceca0f9",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "reference": "sa_tex\\lab\\light01.dtx",
+        "key": "sa_tex/lab/light01.dtx",
+        "png": "previews/warehouse-textures/sa_tex/lab/light01.png",
+        "png_sha256": "f3910deb87fb8758c481d3a46e51a7349a4331aa1a8bd2c18ca687e7c480aa77",
+        "width": 16,
+        "height": 64
+      },
+      {
+        "reference": "SA_TEX\\submarine\\roof_center.dtx",
+        "key": "sa_tex/submarine/roof_center.dtx",
+        "png": "previews/warehouse-textures/sa_tex/submarine/roof_center.png",
+        "png_sha256": "305ec0547c363b3a92df7e3693aab4e4970e0869ad3c6c28d9d51e6379213558",
+        "width": 256,
+        "height": 64
+      },
+      {
+        "reference": "SA_TEX\\tank\\fan.DTX",
+        "key": "sa_tex/tank/fan.dtx",
+        "png": "previews/warehouse-textures/sa_tex/tank/fan.png",
+        "png_sha256": "eb435172f11aec533fe77531a8c348c3758ece08c25f2743d5e82d6aacdb8b46",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "reference": "SA_TEX\\tank\\fance.DTX",
+        "key": "sa_tex/tank/fance.dtx",
+        "png": "previews/warehouse-textures/sa_tex/tank/fance.png",
+        "png_sha256": "ffaea766cd94f246708d5f3138473267e4103467fe0f937f927571b8e9aa2475",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\tank\\iron.DTX",
+        "key": "sa_tex/tank/iron.dtx",
+        "png": "previews/warehouse-textures/sa_tex/tank/iron.png",
+        "png_sha256": "896ace2aca96e04061c874fbca1411c400a09c9987d6185da142fd82f922fe3b",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\3map_step_wall.DTX",
+        "key": "sa_tex/ware_house/3map_step_wall.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/3map_step_wall.png",
+        "png_sha256": "0f75f984eb680b6412e97042cedaf5919f530239d2b2808b6b303a1c75f29a3e",
+        "width": 512,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\3map_wall_window.DTX",
+        "key": "sa_tex/ware_house/3map_wall_window.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/3map_wall_window.png",
+        "png_sha256": "8e1ba056ce38bbdad365d64a170cda9140cf25251904f1a88a4f6045e9ba4c05",
+        "width": 256,
+        "height": 128
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\air_road.DTX",
+        "key": "sa_tex/ware_house/air_road.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/air_road.png",
+        "png_sha256": "bcec4220090a0f2c52c2d57c2822963270f5a8311012203689ffbba6b5ab6184",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\air_road_top.DTX",
+        "key": "sa_tex/ware_house/air_road_top.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/air_road_top.png",
+        "png_sha256": "868a01f2d8012d4b721c041ef6cd14ac1b28c999398f04fe886342277c45280c",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\background_building.DTX",
+        "key": "sa_tex/ware_house/background_building.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/background_building.png",
+        "png_sha256": "589c7f4aafbb033ae209f8286f9ac2797c89feffd557fcdf4230ed64eecb220a",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\background_building_pole.DTX",
+        "key": "sa_tex/ware_house/background_building_pole.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/background_building_pole.png",
+        "png_sha256": "417cf7bb913318ae5d0e215326a90a3c940174796bed8cf036203939dc9d0363",
+        "width": 64,
+        "height": 128
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\block.dtx",
+        "key": "sa_tex/ware_house/block.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/block.png",
+        "png_sha256": "7bbd6a66f3dfe114995f1ea7b7ade531ce50ed7147f73930a208750199bc8d4f",
+        "width": 256,
+        "height": 32
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\box.DTX",
+        "key": "sa_tex/ware_house/box.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/box.png",
+        "png_sha256": "5d764edef6b761599465a0f01e7c028a8615c1b3bc3147491d248fd22381f9af",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "sa_tex\\ware_house\\container.dtx",
+        "key": "sa_tex/ware_house/container.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/container.png",
+        "png_sha256": "6d355d5fbb9ed6d98138217ff6a1242077b4a4e6cff3486239f2683291cc7572",
+        "width": 512,
+        "height": 256
+      },
+      {
+        "reference": "sa_tex\\ware_house\\container_door.dtx",
+        "key": "sa_tex/ware_house/container_door.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/container_door.png",
+        "png_sha256": "3b0d4e4696f8fd3eeed1ad004c766875418bed6fc4eee9bfe82b226f192d6bf5",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "sa_tex\\ware_house\\container_inner.dtx",
+        "key": "sa_tex/ware_house/container_inner.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/container_inner.png",
+        "png_sha256": "c6998dd5315d8480c07c2ed98d759b288e9271b1ed27b9e162a8d8e5de9179cf",
+        "width": 512,
+        "height": 256
+      },
+      {
+        "reference": "sa_tex\\ware_house\\container_s.dtx",
+        "key": "sa_tex/ware_house/container_s.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/container_s.png",
+        "png_sha256": "6228990dfba07034aca7a388f6051b029a8a62d3d370cac220d438a05d16c9f6",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\desk.DTX",
+        "key": "sa_tex/ware_house/desk.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/desk.png",
+        "png_sha256": "0263c78513392297c9805250136702451474527de9db632e04370602e40167cd",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "sa_tex\\ware_house\\door_hand.dtx",
+        "key": "sa_tex/ware_house/door_hand.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/door_hand.png",
+        "png_sha256": "50c86a2dce341869c5dccfa6ba7170760631b9e1691ba95e8843d877f809ba98",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "reference": "sa_tex\\ware_house\\door_m.dtx",
+        "key": "sa_tex/ware_house/door_m.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/door_m.png",
+        "png_sha256": "d7df36e1b23718dd4e63d9fb17eeca86e122ea9543f187836012f360ce036f5c",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\exit.DTX",
+        "key": "sa_tex/ware_house/exit.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/exit.png",
+        "png_sha256": "a38fe4ae3452902e2e9b224adde15b3132f971176d6beaefb98be7668c7f0328",
+        "width": 256,
+        "height": 128
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\fance.DTX",
+        "key": "sa_tex/ware_house/fance.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/fance.png",
+        "png_sha256": "a41c6d5b9468aac88aba69ac053a83c4fc0c5fe4ab4ebc8476bcf768c610e55f",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\ground.dtx",
+        "key": "sa_tex/ware_house/ground.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/ground.png",
+        "png_sha256": "db230eb7be703cde6972d0cbbbd09ed4000523da21c883385d490f4d73bbc28e",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\ground7.dtx",
+        "key": "sa_tex/ware_house/ground7.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/ground7.png",
+        "png_sha256": "7f801f44b3f0bdbca8b8a621f1ed69aea8f2be7026d0ee4cac14bd42cb8307fb",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\harbor_f.dtx",
+        "key": "sa_tex/ware_house/harbor_f.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/harbor_f.png",
+        "png_sha256": "4a2b237156ac588d0a1a09ca91b4c762970bee1b47ca854994e84150424c9de0",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\hyungang.DTX",
+        "key": "sa_tex/ware_house/hyungang.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/hyungang.png",
+        "png_sha256": "9f264e2f5e90bf7d7484dec73090d0bf8a2a286eec86c754533528fe87d42780",
+        "width": 128,
+        "height": 64
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\inner_door.DTX",
+        "key": "sa_tex/ware_house/inner_door.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/inner_door.png",
+        "png_sha256": "bcf7b093962ae8feb099f339f4fbfac55f49b36dcfea8d7f926d582d1df0b34f",
+        "width": 128,
+        "height": 256
+      },
+      {
+        "reference": "sa_tex\\ware_house\\iron_bone.dtx",
+        "key": "sa_tex/ware_house/iron_bone.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/iron_bone.png",
+        "png_sha256": "e91c1033794e872319a456cdadf66f3df8a611922a9b9ea1632d1ad0bf2accab",
+        "width": 256,
+        "height": 64
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\iron_door.DTX",
+        "key": "sa_tex/ware_house/iron_door.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/iron_door.png",
+        "png_sha256": "2ba70d9bc9b5ab0c2d2a6999462b64aa57b577ee46e2492a6228f2bc05ad5d8f",
+        "width": 64,
+        "height": 128
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\Light2.dtx",
+        "key": "sa_tex/ware_house/light2.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/light2.png",
+        "png_sha256": "63428694ce7f37630e6975e7f194b2bd5ec8487c6859d93ad0da82fbb597de96",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "reference": "sa_tex\\ware_house\\map.dtx",
+        "key": "sa_tex/ware_house/map.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/map.png",
+        "png_sha256": "fb069ce9a6f6d23016e960df2dcf2b4cef4787fb811bc0ae96cda042be4a8339",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\new_top_wall.DTX",
+        "key": "sa_tex/ware_house/new_top_wall.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/new_top_wall.png",
+        "png_sha256": "feaeaeaf1b72dd2f57601d06a277667290d5c46cb16a2892ea724283989336d6",
+        "width": 512,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\new_wall.DTX",
+        "key": "sa_tex/ware_house/new_wall.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/new_wall.png",
+        "png_sha256": "e0ee8d2900d8e51eac0e4e4e296f9fd32906887e624495bf9df658c3304147ad",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\new_wallout2.DTX",
+        "key": "sa_tex/ware_house/new_wallout2.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/new_wallout2.png",
+        "png_sha256": "74007b655d3b3763640ea1f9ba44e0ca90b5b3b27270ae12874f67489d27448f",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "reference": "sa_tex\\ware_house\\o_paper_box.dtx",
+        "key": "sa_tex/ware_house/o_paper_box.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/o_paper_box.png",
+        "png_sha256": "ce88fc70a38a6ffd827402616d257fcb0f1d8bd546b1522ab6663b06f6d66ba8",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\office_celling.DTX",
+        "key": "sa_tex/ware_house/office_celling.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/office_celling.png",
+        "png_sha256": "e57ff3f80efd932767b06c257b9bac05275a3557d9235b3bbecded83188ec793",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\office_wall_block.dtx",
+        "key": "sa_tex/ware_house/office_wall_block.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/office_wall_block.png",
+        "png_sha256": "3455e0598ce711c8fd83b6f8be781b8663cb5aab49d91b697adab1d98c46ab34",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\office_wall_pole.DTX",
+        "key": "sa_tex/ware_house/office_wall_pole.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/office_wall_pole.png",
+        "png_sha256": "006b406821e295ba9915c2180735b927c338c013df5b2b208338f668db2a6cd2",
+        "width": 256,
+        "height": 32
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\out_light.DTX",
+        "key": "sa_tex/ware_house/out_light.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/out_light.png",
+        "png_sha256": "170b6151cb4abdf8e2765fc92547d56c92e291282a34007ac8ba2ddad8bb6be4",
+        "width": 64,
+        "height": 64
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\paper_box.DTX",
+        "key": "sa_tex/ware_house/paper_box.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/paper_box.png",
+        "png_sha256": "2ed2f5b300b6c5fd007cdfefc3d970e2d22c1339300501d2c653a7e4eb5590e7",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\paper_box_t.dtx",
+        "key": "sa_tex/ware_house/paper_box_t.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/paper_box_t.png",
+        "png_sha256": "f9fb3ab506906dbb4fed31add77421ec0200713de1962dc9aec6e9c01cc9cc4f",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\roof.DTX",
+        "key": "sa_tex/ware_house/roof.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/roof.png",
+        "png_sha256": "4407ae78475986617ab652ebd1970196e37d35d0b448c4e66ba4530a532db059",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\shotter.DTX",
+        "key": "sa_tex/ware_house/shotter.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/shotter.png",
+        "png_sha256": "be7ccd1987589feb6f55039e2174f8f4e69529182643db3179833b2ee6d99b37",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "reference": "sa_tex\\ware_house\\tree_cabinet.dtx",
+        "key": "sa_tex/ware_house/tree_cabinet.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/tree_cabinet.png",
+        "png_sha256": "8b0cb98ccbdd2e2cbfefe23fb73c2cfab2021d4ae012319d9740128acba65893",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\wall01.DTX",
+        "key": "sa_tex/ware_house/wall01.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/wall01.png",
+        "png_sha256": "e9dc390a30345f7799bddc065dbf8a7090a7b7023fe46c911d86f2e253bf1be3",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\Wall_05.dtx",
+        "key": "sa_tex/ware_house/wall_05.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/wall_05.png",
+        "png_sha256": "a218f5757ed4f9b8e9796f7959c87631472d75b072ed9809e422de88c71f6fef",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\Wall_42.dtx",
+        "key": "sa_tex/ware_house/wall_42.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/wall_42.png",
+        "png_sha256": "f843e10b7d5d833723c395dbfcaaa7603a331eae7cc5a8d12b98f1242b74762f",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\windows.DTX",
+        "key": "sa_tex/ware_house/windows.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/windows.png",
+        "png_sha256": "4237eaef334d8a6398fefbce8f385a6816b5dd2973a2aaa5cd116eebc654ce19",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEX\\ware_house\\windows1.DTX",
+        "key": "sa_tex/ware_house/windows1.dtx",
+        "png": "previews/warehouse-textures/sa_tex/ware_house/windows1.png",
+        "png_sha256": "167966c310db5747deaa7c0ebd698b2278d0c5d17c1727aeb67960b253209f3b",
+        "width": 64,
+        "height": 128
+      },
+      {
+        "reference": "sa_tex\\zerogravity\\20060418_topblue_01.dtx",
+        "key": "sa_tex/zerogravity/20060418_topblue_01.dtx",
+        "png": "previews/warehouse-textures/sa_tex/zerogravity/20060418_topblue_01.png",
+        "png_sha256": "00d6e3e478258218c7d0b4e89cad0edf4f21b37e9ee3af30bebf8414e0792c82",
+        "width": 64,
+        "height": 64
+      },
+      {
+        "reference": "sa_tex\\zerogravity\\20060418_topblue_02.dtx",
+        "key": "sa_tex/zerogravity/20060418_topblue_02.dtx",
+        "png": "previews/warehouse-textures/sa_tex/zerogravity/20060418_topblue_02.png",
+        "png_sha256": "cef78b087427158d429467ee5be5c4939d027619c8acb26c1d30247d78418129",
+        "width": 64,
+        "height": 64
+      },
+      {
+        "reference": "sa_tex\\zerogravity\\20060418_topblue_03.dtx",
+        "key": "sa_tex/zerogravity/20060418_topblue_03.dtx",
+        "png": "previews/warehouse-textures/sa_tex/zerogravity/20060418_topblue_03.png",
+        "png_sha256": "c269c824cd5390fe30e85f6335cd8029b0d610be25c644be800d7dabb99f1fa4",
+        "width": 64,
+        "height": 64
+      },
+      {
+        "reference": "sa_tex\\zerogravity\\20060419_cen_win03.dtx",
+        "key": "sa_tex/zerogravity/20060419_cen_win03.dtx",
+        "png": "previews/warehouse-textures/sa_tex/zerogravity/20060419_cen_win03.png",
+        "png_sha256": "490f356b2999f260b36fe6f836c6c3fa9f94ec26b9ac4f7d53ab17e3db521a38",
+        "width": 64,
+        "height": 64
+      },
+      {
+        "reference": "sa_tex\\zerogravity\\bottom03.dtx",
+        "key": "sa_tex/zerogravity/bottom03.dtx",
+        "png": "previews/warehouse-textures/sa_tex/zerogravity/bottom03.png",
+        "png_sha256": "fb38ca82ebb55f11f570c68b8a846d8c6404c8f9eae2959747524dbf8afb2e1e",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "reference": "SA_TEXFX\\SKY\\darkSkyBK.dtx",
+        "key": "sa_texfx/sky/darkskybk.dtx",
+        "png": "previews/warehouse-textures/sa_texfx/sky/darkskybk.png",
+        "png_sha256": "38ea8dc0528aec156c6a86bfacefda35cb7fe5398511f53af72232fc83e24803",
+        "width": 512,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEXFX\\SKY\\darkSkyFR.dtx",
+        "key": "sa_texfx/sky/darkskyfr.dtx",
+        "png": "previews/warehouse-textures/sa_texfx/sky/darkskyfr.png",
+        "png_sha256": "724a18d9876b53088d9cea8c5e523d6f264eb98970e27aafd32e460066c6933e",
+        "width": 512,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEXFX\\SKY\\darkSkyLF.dtx",
+        "key": "sa_texfx/sky/darkskylf.dtx",
+        "png": "previews/warehouse-textures/sa_texfx/sky/darkskylf.png",
+        "png_sha256": "7d32c03a4d427da5dd0f0a9c66ba5664ad6ff9e7da568f8ab5fabe94f9b37dcc",
+        "width": 512,
+        "height": 256
+      },
+      {
+        "reference": "SA_TEXFX\\SKY\\darkSkyUP.dtx",
+        "key": "sa_texfx/sky/darkskyup.dtx",
+        "png": "previews/warehouse-textures/sa_texfx/sky/darkskyup.png",
+        "png_sha256": "f005d7509e94848086e07033e7d37898ddba2f7831e05992d4643e320c99caca",
+        "width": 512,
+        "height": 512
+      }
+    ],
+    "non_file_references": [
+      "LightAnim_BASE"
+    ],
+    "missing": [],
+    "unsupported": []
+  },
+  "limitations": [
+    "Ordinary file-byte observations; no original game/DLL executed.",
+    "Named worldmodel bounds agree in stored coordinates; runtime transforms remain unverified.",
+    "Triplet color order, blend settings, texture effects, visibility and final pixel equivalence remain unverified."
+  ]
+}

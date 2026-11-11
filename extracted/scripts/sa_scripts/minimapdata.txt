@@ -1,0 +1,2464 @@
+[DEFAULE]
+EnemyViewTime = 3.0f
+RadarMapScale = 0.7f
+
+[Map0]
+MapID = 73
+Left = 3195.0f
+Top = 9375.0f
+Right = 9877.0f
+Bottom = 2693.0f
+CLeft = 6888.0f
+CTop = 6369.0f
+scale = 0.050f
+CHeight = 1807.0f
+Alpha = 230
+1F = 1193.0f
+MapTexture = "3SupplyBase1F"
+
+
+[Map1]
+MapID = 136
+Left = 18496.0f
+Top = 8096.0f
+Right = 25536.0f
+Bottom = 1056.0f
+CLeft = 22600.0f
+CTop = 4900.0f
+scale = 0.040f
+CHeight = 715.0f
+Alpha = 230
+1F = 500.0f
+2F = 750.0f
+3F = 950.0f
+MapTexture = "cso_train_1f"
+MapTexture1 = "cso_train_2f"
+MapTexture2 = "cso_train_3f"
+
+
+[Map2]
+MapID = 134
+Left = 1052.0f
+Top = 11800.0f
+Right = 12182.0f
+Bottom = 834.0f
+CLeft = 6540.0f
+CTop = 6512.0f
+scale = 0.040f
+CHeight = 1510.0f
+Alpha = 230
+1F = 350.0f
+2F = 700.0f
+3F = 1200.0f
+4F = 1442.0f
+5F = 1642.0f
+MapTexture = "cso_nuke_1f"
+MapTexture1 = "cso_nuke_2f"
+MapTexture2 = "cso_nuke_3f"
+MapTexture3 = "cso_nuke_4f"
+MapTexture4 = "cso_nuke_5f"
+
+
+[Map3]
+MapID = 135
+Left = -6500.0f
+Top = 5500.0f
+Right = 6200.0f
+Bottom = -7140.0f
+CLeft = 90.0f
+CTop = -204.0f
+scale = 0.040f
+CHeight = 2800.0f
+Alpha = 230
+1F = 166.0f
+2F = 474.0f
+MapTexture = "cso_aztec_1f"
+MapTexture1 = "cso_aztec_2f"
+ReplayMapTexture = "cso_aztec_all"
+
+
+[Map4]
+MapID = 133
+Left = -1117.0f
+Top = -278.0f
+Right = 11715.0f
+Bottom = -13110.0f
+CLeft = 5229.0f
+CTop = -6694.0f
+scale = 0.040f
+CHeight = -1833.0f
+Alpha = 230
+1F = -2779.0f
+MapTexture = "hellgade_F1"
+
+
+[Map5]
+MapID = 145
+Left = 18654.0f
+Top = 8393.0f
+Right = 26254.0f
+Bottom = 793.0f
+CLeft = 22650.0f
+CTop = 4900.0f
+scale = 0.040f
+CHeight = 420.0f
+Alpha = 230
+1F = 100.0f
+2F = 152.0f
+3F = 615.0f
+MapTexture = "cso_italy_1F"
+MapTexture1 = "cso_italy_2F"
+MapTexture2 = "cso_italy_3F"
+
+
+[Map6]
+MapID = 148
+Left = 3400.0f
+Top = 10850.0f
+Right = 11850.0f
+Bottom = 2350.0f
+CLeft = 7333.0f
+CTop = 6863.0f
+scale = 0.032f
+CHeight = 471.0f
+Alpha = 230
+1F = -4500.0f
+2F = -400.0f
+3F = 50.0f
+4F = 450.0f
+MapTexture = "nexon_1f"
+MapTexture1 = "nexon_2f"
+MapTexture2 = "nexon_3f"
+MapTexture3 = "nexon_4f"
+
+
+[Map7]
+MapID = 152
+Left = -22369.0f
+Top = 8704.0f
+Right = 46301.0f
+Bottom = -59966.0f
+CLeft = 8500.0f
+CTop = -15500.0f
+scale = 0.0050f
+CHeight = -25631.0f
+Alpha = 230
+1F = -5400.0f
+MapTexture = "LastOne_T"
+
+
+[Map8]
+MapID = 184
+Left = -7867.0f
+Top = 5169.0f
+Right = 7109.0f
+Bottom = -9807.0f
+CLeft = -376.0f
+CTop = -1869.0f
+scale = 0.032f
+CHeight = -25631.0f
+Alpha = 230
+1F = -5400.0f
+MapTexture = "LastOne2_T"
+
+
+[Map9]
+MapID = 180
+Left = -3170.0f
+Top = 3929.0f
+Right = 4690.0f
+Bottom = -3931.0f
+CLeft = 1588.0f
+CTop = -167.0f
+scale = 0.040f
+CHeight = 24484.0f
+Alpha = 230
+1F = 22533.0f
+2F = 22805.0f
+3F = 23093.0f
+MapTexture = "convey_minimap_B1"
+MapTexture1 = "convey_minimap_F1"
+MapTexture2 = "convey_minimap_F2"
+
+
+[Map10]
+MapID = 189
+Left = 500.0f
+Top = -500.0f
+Right = 2720.0f
+Bottom = -2700.0f
+CLeft = 2450.0f
+CTop = -720.0f
+scale = 0.090f
+CHeight = 210.0f
+Alpha = 230
+1F = 50.0f
+MapTexture = "Secret_f1"
+
+
+[Map11]
+MapID = 188
+Left = 500.0f
+Top = -500.0f
+Right = 2720.0f
+Bottom = -2700.0f
+CLeft = 2450.0f
+CTop = -720.0f
+scale = 0.090f
+CHeight = 210.0f
+Alpha = 230
+1F = 50.0f
+MapTexture = "Secret_f1"
+
+
+[Map12]
+MapID = 183
+Left = -1396.0f
+Top = 7773.0f
+Right = 8105.0f
+Bottom = -1727.0f
+CLeft = 3575.0f
+CTop = 6660.0f
+scale = 0.05f
+CHeight = 3400.0f
+Alpha = 230
+1F = 2861.0f
+MapTexture = "ragusa_all"
+
+
+[Map13]
+MapID = 191
+Left = -16896.0f
+Top = 2688.0f
+Right = 13304.0f
+Bottom = -27512.0f
+CLeft = -361.0f
+CTop = -12064.0f
+scale = 0.015f
+CHeight = -2612.0f
+Alpha = 230
+1F = 50.0f
+MapTexture = "LastOne3_T"
+
+
+[Map14]
+MapID = 191
+Left = -16896.0f
+Top = 2688.0f
+Right = 13304.0f
+Bottom = -27512.0f
+CLeft = -361.0f
+CTop = -12064.0f
+scale = 0.090f
+CHeight = -2612.0f
+Alpha = 230
+1F = 50.0f
+MapTexture = "LastOne3"
+
+
+[Map15]
+MapID = 152
+Left = -22369.0f
+Top = 8704.0f
+Right = 46301.0f
+Bottom = -59966.0f
+CLeft = 8500.0f
+CTop = -15500.0f
+scale = 0.0050f
+CHeight = -25631.0f
+Alpha = 230
+1F = -5400.0f
+MapTexture = "LastOne"
+
+
+[Map16]
+MapID = 184
+Left = -7867.0f
+Top = 5169.0f
+Right = 7109.0f
+Bottom = -9807.0f
+CLeft = -376.0f
+CTop = -1869.0f
+scale = 0.032f
+CHeight = -25631.0f
+Alpha = 230
+1F = -5400.0f
+MapTexture = "LastOne2"
+
+
+[Map17]
+MapID = 197
+Left = -4650.0f
+Top = 4991.0f
+Right = 2350.0f
+Bottom = -2000.0f
+CLeft = -1981.0f
+CTop = 2258.0f
+scale = 0.05f
+CHeight = 1716.0f
+Alpha = 230
+1F = -136.0f
+MapTexture = "Thallium_all"
+
+
+[Map18]
+MapID = 196
+Left = -22369.0f
+Top = 8704.0f
+Right = 46301.0f
+Bottom = -59966.0f
+CLeft = 8500.0f
+CTop = -15500.0f
+scale = 0.0050f
+CHeight = -25631.0f
+Alpha = 230
+1F = -5400.0f
+MapTexture = "LastOne1_DUO_T"
+
+
+[Map19]
+MapID = 196
+Left = -22369.0f
+Top = 8704.0f
+Right = 46301.0f
+Bottom = -59966.0f
+CLeft = 8500.0f
+CTop = -15500.0f
+scale = 0.0050f
+CHeight = -25631.0f
+Alpha = 230
+1F = -5400.0f
+MapTexture = "LastOne1_DUO"
+
+
+[Map20]
+MapID = 203
+Left = 4728.0f
+Top = 34628.0f
+Right = 37728.0f
+Bottom = 1630.0f
+CLeft = 21228.0f
+CTop = 18192.0f
+scale = 0.015f
+CHeight = 3076.0f
+Alpha = 230
+1F = 50.0f
+MapTexture = "LastOne4_T"
+
+
+[Map21]
+MapID = 203
+Left = 4728.0f
+Top = 34628.0f
+Right = 37728.0f
+Bottom = 1630.0f
+CLeft = 21228.0f
+CTop = 18192.0f
+scale = 0.0250f
+CHeight = 3076.0f
+Alpha = 230
+1F = 50.0f
+MapTexture = "LastOne4"
+
+
+[Map22]
+MapID = 204
+Left = -3162.0f
+Top = 3849.0f
+Right = 4706.0f
+Bottom = -4021.0f
+CLeft = 2435.0f
+CTop = -577.0f
+scale = 0.040f
+CHeight = 2575.0f
+Alpha = 230
+1F = 0.0f
+2F = 320.0f
+MapTexture = "tank_God2_1f"
+MapTexture1 = "tank_God2_2f"
+
+
+[Map23]
+MapID = 206
+Left = -3539.0f
+Top = 2081.0f
+Right = 2418.0f
+Bottom = -3876.0f
+CLeft = -519.0f
+CTop = -217.0f
+scale = 0.05f
+CHeight = 1386.0f
+Alpha = 230
+1F = 520.0f
+MapTexture = "B2lab_T"
+ReplayMapTexture = "B2lab_T"
+
+[Map24]
+MapID = 212
+Left = -3562.0f
+Top = 3562.0f
+Right = 3562.0f
+Bottom = -3562.0f
+CLeft = 0.0f
+CTop = 0.0f
+scale = 0.040f
+CHeight = 0.0f
+Alpha = 230
+1F = 0.0f
+2F = 320.0f
+MapTexture = "wheatfield_f1"
+MapTexture1 = "wheatfield_f2"
+
+
+[Map25]
+MapID = 215
+Left = -3562.0f
+Top = 3562.0f
+Right = 3562.0f
+Bottom = -3562.0f
+CLeft = 0.0f
+CTop = 0.0f
+scale = 0.040f
+CHeight = 0.0f
+Alpha = 230
+1F = 0.0f
+2F = 320.0f
+MapTexture = "wheatfield_team_f1"
+MapTexture1 = "wheatfield_team_f2"
+
+
+[Map26]
+MapID = 207
+Left = -3209.0f
+Top = 4172.0f
+Right = 3758.0f
+Bottom = -2759.0f
+CLeft = 1092.0f
+CTop = 918.0f
+scale = 0.050f
+CHeight = 1152.0f
+Alpha = 230
+1F = 14.0f
+2F = 374.0f
+MapTexture = "Outlet_F1"
+MapTexture1 = "Outlet_F2"
+ReplayMapTexture = "Outlet_all"
+
+
+[Map27]
+MapID = 210
+Left = -285.0f
+Top = 9407.0f
+Right = 20693.0f
+Bottom = -11571.0f
+CLeft = 10546.0f
+CTop = -597.0f
+scale = 0.005f
+CHeight = -550.0f
+Alpha = 230
+1F = -4763.0f
+MapTexture = "sizechange_all"
+
+
+[Map28]
+MapID = 213
+Left = 3441.0f
+Top = 9045.0f
+Right = 9641.0f
+Bottom = 2845.0f
+CLeft = 5962.0f
+CTop = 5437.0f
+scale = 0.040f
+CHeight = 1845.0f
+Alpha = 230
+1F = 574.0f
+2F = 860.0f
+3F = 1149.0f
+4F = 1445.0f
+5F = 1738.0f
+MapTexture = "blast_b2"
+MapTexture1 = "blast_b1"
+MapTexture2 = "blast_f1"
+MapTexture3 = "blast_f2"
+MapTexture4 = "blast_f3"
+FloorTexture = "floor_tag_out"
+FloorTexture1 = "floor_tag_out"
+FloorTexture2 = "floor_tag_1F"
+FloorTexture3 = "floor_tag_2F"
+FloorTexture4 = "floor_tag_3F"
+
+
+[Map29]
+MapID = 114
+Left = 1536.0f
+Top = 11032.0f
+Right = 11536.0f
+Bottom = 1032.0f
+CLeft = 6648.0f
+CTop = 6368.0f
+scale = 0.050f
+CHeight = 1779.0f
+Alpha = 230
+1F = 1193.0f
+2F = 1524.0f
+MapTexture = "3supplybase_f1"
+MapTexture1 = "3supplybase_f2"
+ReplayMapTexture = "3supplybase_all"
+
+
+[Map30]
+MapID = 205
+Left = 1449.0f
+Top = 7658.0f
+Right = 9449.0f
+Bottom = -342.0f
+CLeft = 5349.0f
+CTop = 3437.0f
+scale = 0.050f
+CHeight = 2874.0f
+Alpha = 230
+1F = 2014.0f
+MapTexture = "provence_all"
+ReplayMapTexture = "provence_all"
+
+
+[Map31]
+MapID = 217
+Left = 2115.0f
+Top = 10185.0f
+Right = 10115.0f
+Bottom = 2185.0f
+CLeft = 4309.0f
+CTop = 4644.0f
+scale = 0.050f
+CHeight = 3329.0f
+Alpha = 230
+1F = 2150.0f
+2F = 2382.0f
+MapTexture = "crossport_f1"
+MapTexture1 = "crossport_f2"
+ReplayMapTexture = "crossport_all"
+
+
+[Map32]
+MapID = 218
+Left = 1756.0f
+Top = 11032.0f
+Right = 11756.0f
+Bottom = 1032.0f
+CLeft = 6648.0f
+CTop = 6368.0f
+scale = 0.050f
+CHeight = 1779.0f
+Alpha = 230
+1F = 1193.0f
+2F = 1524.0f
+MapTexture = "3SB_Reverse_f1"
+MapTexture1 = "3SB_Reverse_f2"
+
+
+[Map33]
+MapID = 219
+Left = -3102.5f
+Top = 3752.0f
+Right = 4696.0f
+Bottom = -4065.0f
+CLeft = 496.5f
+CTop = -161.5f
+scale = 0.050f
+CHeight = 1233.0f
+Alpha = 230
+1F = 17.0f
+2F = 355.0f
+3F = 625.0f
+4F = 872.0f
+MapTexture = "dragonroad_b1"
+MapTexture1 = "dragonroad_f1"
+MapTexture2 = "dragonroad_f2"
+MapTexture3 = "dragonroad_f3"
+ReplayMapTexture = "dragonroad_all"
+
+
+[Map34]
+MapID = 1
+Left = 1536.0f
+Top = 11032.0f
+Right = 11536.0f
+Bottom = 1032.0f
+CLeft = 6648.0f
+CTop = 6368.0f
+scale = 0.050f
+CHeight = 1779.0f
+Alpha = 230
+1F = 1193.0f
+2F = 1524.0f
+MapTexture = "3supplybase_f1"
+MapTexture1 = "3supplybase_f2"
+ReplayMapTexture = "3supplybase_all"
+
+
+[Map35]
+MapID = 6
+Left = -3552.5f
+Top = 3522.0f
+Right = 4246.0f
+Bottom = -4295.0f
+CLeft = 496.5f
+CTop = -161.5f
+scale = 0.050f
+CHeight = 1233.0f
+Alpha = 230
+1F = 17.0f
+2F = 355.0f
+3F = 625.0f
+4F = 872.0f
+MapTexture = "dragonroad_b1"
+MapTexture1 = "dragonroad_f1"
+MapTexture2 = "dragonroad_f2"
+MapTexture3 = "dragonroad_f3"
+ReplayMapTexture = "dragonroad_all"
+
+
+[Map36]
+MapID = 7
+Left = 13432.0f
+Top = -5652.0f
+Right = 24392.0f
+Bottom = -16612.0f
+CLeft = 18215.5f
+CTop = -11356.0f
+scale = 0.050f
+CHeight = 12972.0f
+Alpha = 230
+1F = 10470.0f
+2F = 10765.0f
+3F = 11105.0f
+MapTexture = "airport_f1"
+MapTexture1 = "airport_f2"
+MapTexture2 = "airport_f3"
+
+
+[Map37]
+MapID = 8
+Left = -5929.0f
+Top = 4930.0f
+Right = 4711.0f
+Bottom = -5904.0f
+CLeft = -85.0f
+CTop = 70.5f
+scale = 0.050f
+CHeight = 3082.5f
+Alpha = 230
+1F = 152.0f
+2F = 857.0f
+MapTexture = "frozen_city_b1"
+MapTexture1 = "frozen_city_f1"
+ReplayMapTexture = "frozen_city_all"
+
+
+[Map38]
+MapID = 10
+Left = 14710.0f
+Top = -7672.0f
+Right = 22510.0f
+Bottom = -15472.0f
+CLeft = 18674.0f
+CTop = -11757.0f
+scale = 0.050f
+CHeight = 3726.5f
+Alpha = 230
+1F = 2846.0f
+2F = 3390.0f
+3F = 3866.0f
+4F = 4307.0f
+MapTexture = "ocean_station_b1"
+MapTexture1 = "ocean_station_f1"
+MapTexture2 = "ocean_station_f2"
+MapTexture3 = "ocean_station_f3"
+ReplayMapTexture = "ocean_station_all"
+
+
+[Map39]
+MapID = 12
+Left = -1034.0f
+Top = 89.0f
+Right = 5491.0f
+Bottom = -6436.0f
+CLeft = 3269.0f
+CTop = -3074.0f
+scale = 0.050f
+CHeight = 5733.5f
+Alpha = 230
+1F = 2746.0f
+2F = 3076.0f
+3F = 3333.0f
+MapTexture = "oldtown_f1"
+MapTexture1 = "oldtown_f2"
+MapTexture2 = "oldtown_f3"
+ReplayMapTexture = "oldtown_all"
+
+
+[Map40]
+MapID = 19
+Left = 1449.0f
+Top = 7658.0f
+Right = 9449.0f
+Bottom = -342.0f
+CLeft = 5349.0f
+CTop = 3437.0f
+scale = 0.050f
+CHeight = 2874.0f
+Alpha = 230
+1F = 2014.0f
+MapTexture = "provence_all"
+ReplayMapTexture = "provence_all"
+
+
+[Map41]
+MapID = 22
+Left = -3825.0f
+Top = 3697.0f
+Right = 3402.0f
+Bottom = -3530.0f
+CLeft = -509.5f
+CTop = -420.0f
+scale = 0.050f
+CHeight = 866.5f
+Alpha = 230
+1F = 115.0f
+2F = 435.0f
+3F = 711.0f
+MapTexture = "white_squall_f1"
+MapTexture1 = "white_squall_f2"
+MapTexture2 = "white_squall_f3"
+
+
+[Map42]
+MapID = 25
+Left = 318.0f
+Top = 845.0f
+Right = 7310.0f
+Bottom = -6200.0f
+CLeft = 3935.5f
+CTop = -2540.5f
+scale = 0.050f
+CHeight = 3882.0f
+Alpha = 230
+1F = 3008.0f
+2F = 3280.0f
+MapTexture = "citycat_b1"
+MapTexture1 = "citycat_f1"
+ReplayMapTexture = "citycat_all"
+
+
+[Map43]
+MapID = 27
+Left = 2115.0f
+Top = 10185.0f
+Right = 10115.0f
+Bottom = 2185.0f
+CLeft = 4309.0f
+CTop = 4644.0f
+scale = 0.050f
+CHeight = 3329.0f
+Alpha = 230
+1F = 2150.0f
+2F = 2382.0f
+MapTexture = "crossport_f1"
+MapTexture1 = "crossport_f2"
+ReplayMapTexture = "crossport_all"
+
+
+[Map44]
+MapID = 33
+Left = -4293.0f
+Top = 3414.0f
+Right = 3311.0f
+Bottom = -4360.0f
+CLeft = 0.5f
+CTop = 0.0f
+scale = 0.050f
+CHeight = 1174.0f
+Alpha = 230
+1F = 246.0f
+2F = 576.0f
+3F = 833.0f
+MapTexture = "western_f1"
+MapTexture1 = "western_f2"
+MapTexture2 = "western_f3"
+ReplayMapTexture = "western_all"
+
+[Map45]
+MapID = 35
+Left = 2481.0f
+Top = 10094.0f
+Right = 10913.0f
+Bottom = 1662.0f
+CLeft = 6528.5f
+CTop = 6527.5f
+scale = 0.050f
+CHeight = 1920.0f
+Alpha = 230
+1F = 1192.0f
+MapTexture = "a_tank_all"
+
+
+[Map46]
+MapID = 47
+Left = -1483.0f
+Top = 5059.0f
+Right = 6275.0f
+Bottom = -3185.0f
+CLeft = 56.5f
+CTop = -2371.5f
+scale = 0.050f
+CHeight = 2882.5f
+Alpha = 230
+1F = 535.0f
+2F = 1015.0f
+MapTexture = "desert_f1"
+MapTexture1 = "desert_f2"
+ReplayMapTexture = "desert_all"
+
+
+[Map47]
+MapID = 75
+Left = 4216.0f
+Top = 10813.0f
+Right = 10640.0f
+Bottom = 4389.0f
+CLeft = 7266.5f
+CTop = 8087.0f
+scale = 0.050f
+CHeight = 2238.5f
+Alpha = 230
+1F = 1195.0f
+2F = 1445.0f
+MapTexture = "5th_tank_f1"
+MapTexture1 = "5th_tank_f2"
+ReplayMapTexture = "5th_tank_all"
+
+
+[Map48]
+MapID = 113
+Left = 2481.0f
+Top = 10094.0f
+Right = 10913.0f
+Bottom = 1662.0f
+CLeft = 6528.5f
+CTop = 6527.5f
+scale = 0.050f
+CHeight = 1920.0f
+Alpha = 230
+1F = 1192.0f
+MapTexture = "a_tank_all"
+ReplayMapTexture = "a_tank_all"
+
+
+[Map49]
+MapID = 116
+Left = 4007.0f
+Top = -4123.0f
+Right = 8613.0f
+Bottom = -8729.0f
+CLeft = 6638.0f
+CTop = -5671.0f
+scale = 0.050f
+CHeight = -4531.0f
+Alpha = 230
+1F = -5673.0f
+MapTexture = "trio_all"
+ReplayMapTexture = "trio_all"
+
+
+[Map50]
+MapID = 150
+Left = -3197.0f
+Top = 3179.0f
+Right = 2776.0f
+Bottom = -2794.0f
+CLeft = 358.5f
+CTop = 12.5f
+scale = 0.050f
+CHeight = 1618.5f
+Alpha = 230
+1F = 784.0f
+MapTexture = "duo_all"
+
+
+[Map51]
+MapID = 177
+Left = -4214.0f
+Top = 4692.0f
+Right = 4189.0f
+Bottom = -3711.0f
+CLeft = 368.0f
+CTop = 457.0f
+scale = 0.050f
+CHeight = 2030.5f
+Alpha = 230
+1F = 1465.0f
+2F = 2076.0f
+MapTexture = "subway_b1"
+MapTexture1 = "subway_f1"
+ReplayMapTexture = "subway_all"
+
+
+[Map52]
+MapID = 178
+Left = -1380.0f
+Top = 7387.0f
+Right = 5084.0f
+Bottom = 923.0f
+CLeft = 2367.0f
+CTop = 4791.5f
+scale = 0.050f
+CHeight = 1532.0f
+Alpha = 230
+1F = 1103.0f
+2F = 1215.0f
+MapTexture = "bunker_f1"
+MapTexture1 = "bunker_f2"
+
+
+[Map53]
+MapID = 200
+Left = -3038.0f
+Top = 1465.0f
+Right = 2002.0f
+Bottom = -3525.0f
+CLeft = -529.0f
+CTop = -436.0f
+scale = 0.050f
+CHeight = 6553.5f
+Alpha = 230
+1F = 232.0f
+MapTexture = "b2_all"
+ReplayMapTexture = "b2_all"
+
+
+[Map54]
+MapID = 221
+Left = 2166.0f
+Top = 6195.0f
+Right = 7191.0f
+Bottom = 1160.0f
+CLeft = 5400.0f
+CTop = 3490.5f
+scale = 0.050f
+CHeight = 2874.5f
+Alpha = 230
+1F = 2014.0f
+MapTexture = "b_provence_all"
+ReplayMapTexture = "b_provence_all"
+
+
+[Map55]
+MapID = 222
+Left = 2123.0f
+Top = 10439.0f
+Right = 9791.0f
+Bottom = 2771.0f
+CLeft = 4309.0f
+CTop = 4643.5f
+scale = 0.050f
+CHeight = 3329.0f
+Alpha = 230
+1F = 2150.0f
+2F = 2382.0f
+MapTexture = "a_crossport_f1"
+MapTexture1 = "a_crossport_f2"
+ReplayMapTexture = "a_crossport_all"
+
+
+[Map56]
+MapID = 223
+Left = -3061.0f
+Top = 2920.0f
+Right = 4630.0f
+Bottom = -4771.0f
+CLeft = 962.5f
+CTop = 66.5f
+scale = 0.050f
+CHeight = 1233.0f
+Alpha = 230
+1F = 17.0f
+2F = 320.0f
+3F = 599.0f
+4F = 842.0f
+MapTexture = "b_dragonroad_b1"
+MapTexture1 = "b_dragonroad_f1"
+MapTexture2 = "b_dragonroad_f2"
+MapTexture3 = "b_dragonroad_f3"
+ReplayMapTexture = "b_dragonroad_all"
+
+
+[Map57]
+MapID = 225
+Left = -4608.0f
+Top = 2484.0f
+Right = 4608.0f
+Bottom = -6632.0f
+CLeft = 0.5f
+CTop = -1024.5f
+scale = 0.050f
+CHeight = 0.0f
+Alpha = 230
+1F = -2565.0f
+2F = -1348.0f
+3F = -1064.0f
+MapTexture = "apocalypse_B1"
+MapTexture1 = "apocalypse_F1"
+MapTexture2 = "apocalypse_F2"
+
+
+[Map58]
+MapID = 227
+Left = 1536.0f
+Top = 11032.0f
+Right = 11536.0f
+Bottom = 1032.0f
+CLeft = 6048.0f
+CTop = 5818.0f
+scale = 0.050f
+CHeight = 4079.0f
+Alpha = 230
+1F = 1193.0f
+2F = 1524.0f
+MapTexture = "3supplybase_f1"
+MapTexture1 = "3supplybase_f2"
+
+
+[Map59]
+MapID = 228
+Left = 1709.0f
+Top = 7958.0f
+Right = 9649.0f
+Bottom = 42.0f
+CLeft = 5349.0f
+CTop = 3437.0f
+scale = 0.050f
+CHeight = 2874.0f
+Alpha = 230
+1F = 2014.0f
+MapTexture = "provence_all"
+
+
+[Map60]
+MapID = 229
+Left = 2115.0f
+Top = 10185.0f
+Right = 10115.0f
+Bottom = 2185.0f
+CLeft = 6059.0f
+CTop = 5944.0f
+scale = 0.050f
+CHeight = 5000.0f
+Alpha = 230
+1F = 2150.0f
+2F = 2382.0f
+MapTexture = "crossport_f1"
+MapTexture1 = "crossport_f2"
+
+
+[Map61]
+MapID = 230
+Left = -3100.0f
+Top = 3721.0f
+Right = 4655.0f
+Bottom = -4058.0f
+CLeft = 992.5f
+CTop = 60.5f
+scale = 0.050f
+CHeight = 1479.0f
+Alpha = 230
+1F = 17.0f
+2F = 355.0f
+3F = 625.0f
+4F = 872.0f
+MapTexture = "dragonroad_b1"
+MapTexture1 = "dragonroad_f1"
+MapTexture2 = "dragonroad_f2"
+MapTexture3 = "dragonroad_f3"
+
+
+[Map62]
+MapID = 201
+Left = 1536.0f
+Top = 11032.0f
+Right = 11536.0f
+Bottom = 1032.0f
+CLeft = 6048.0f
+CTop = 5818.0f
+scale = 0.050f
+CHeight = 4079.0f
+Alpha = 230
+1F = 1193.0f
+2F = 1524.0f
+MapTexture = "3supplybase_f1"
+MapTexture1 = "3supplybase_f2"
+
+
+[Map63]
+MapID = 231
+Left = 18254.0f
+Top = 8763.0f
+Right = 26614.0f
+Bottom = 493.0f
+CLeft = 22650.0f
+CTop = 4900.0f
+scale = 0.040f
+CHeight = 420.0f
+Alpha = 230
+1F = 100.0f
+2F = 152.0f
+3F = 615.0f
+MapTexture = "cso_italy_bomb_map_1f"
+MapTexture1 = "cso_italy_bomb_map_2f"
+MapTexture2 = "cso_italy_bomb_map_3f"
+ReplayMapTexture = "cso_italy_bomb_map_all"
+
+
+[Map64]
+MapID = 17
+Left = -3192.0f
+Top = 3816.0f
+Right = 3608.0f
+Bottom = -2984.0f
+CLeft = 1032.0f
+CTop = 776.0f
+scale = 0.050f
+CHeight = 2527.0f
+Alpha = 230
+1F = 740.0f
+2F = 881.0f
+3F = 1400.0f
+MapTexture = "nightclub_b1"
+MapTexture1 = "nightclub_1f"
+MapTexture2 = "nightclub_2f"
+
+
+[Map65]
+MapID = 14
+Left = -13260.0f
+Top = 5123.0f
+Right = -6305.0f
+Bottom = -1892.0f
+CLeft = -7569.5f
+CTop = 1017.5f
+scale = 0.050f
+CHeight = 771.0f
+Alpha = 230
+1F = -390.0f
+2F = -93.0f
+3F = 415.0f
+MapTexture = "japan_b1"
+MapTexture1 = "japan_1f"
+MapTexture2 = "japan_2f"
+
+
+[Map66]
+MapID = 193
+Left = -2584.0f
+Top = 2603.0f
+Right = 2902.0f
+Bottom = -2913.0f
+CLeft = 1192.5f
+CTop = 384.0f
+scale = 0.050f
+CHeight = 3151.0f
+Alpha = 230
+1F = 838.0f
+2F = 1064.0f
+MapTexture = "FolkVillage_1f"
+MapTexture1 = "FolkVillage_2f"
+
+
+[Map67]
+MapID = 13
+Left = -450.0f
+Top = 4687.0f
+Right = 4960.0f
+Bottom = -763.0f
+CLeft = 2468.0f
+CTop = 2213.0f
+scale = 0.050f
+CHeight = 1777.0f
+Alpha = 230
+1F = 239.0f
+2F = 511.0f
+MapTexture = "zerogravity_1f"
+MapTexture1 = "zerogravity_2f"
+
+
+[Map68]
+MapID = 28
+Left = 17976.0f
+Top = 8255.0f
+Right = 25677.0f
+Bottom = 574.0f
+CLeft = 21336.0f
+CTop = 4906.0f
+scale = 0.050f
+CHeight = 551.0f
+Alpha = 230
+1F = 204.0f
+2F = 482.0f
+MapTexture = "CrossCounter_1f"
+MapTexture1 = "CrossCounter_2f"
+
+
+//[Map69]
+//MapID = 49
+//Left = 14563.0f
+//Top = -13350.0f
+//Right = 18757.0f
+//Bottom = -17638.0f
+//CLeft = 16226.5f
+//CTop = -15471.5f
+//scale = 0.050f
+//CHeight = 18545.0f
+//Alpha = 230
+//1F = 17688.0f
+//2F = 17963.0f
+//3F = 18227.0f
+//MapTexture = "agit_1f"
+//MapTexture1 = "agit_2f"
+//MapTexture2 = "agit_3f"
+
+
+[Map69]
+MapID = 198
+Left = -1904.0f
+Top = 2594.0f
+Right = 2876.0f
+Bottom = -2186.0f
+CLeft = 379.5f
+CTop = 725.5f
+scale = 0.050f
+CHeight = 6414.0f
+Alpha = 230
+1F = 3122.0f
+2F = 3378.0f
+MapTexture = "hawkeye_1f"
+MapTexture1 = "hawkeye_2f"
+
+
+[Map70]
+MapID = 32
+Left = -3953.0f
+Top = 3342.0f
+Right = 3539.0f
+Bottom = -4225.0f
+CLeft = -52.5f
+CTop = 381.0f
+scale = 0.050f
+CHeight = 8572.5f
+Alpha = 230
+1F = 9153.0f
+2F = 9430.0f
+MapTexture = "TripleTower_1f"
+MapTexture1 = "TripleTower_2f"
+
+
+[Map71]
+MapID = 24
+Left = -2912.0f
+Top = 2592.0f
+Right = 2912.0f
+Bottom = -3202.0f
+CLeft = 33.0f
+CTop = -501.5f
+scale = 0.050f
+CHeight = 1380.5f
+Alpha = 230
+1F = 0.0f
+2F = 217.0f
+3F = 537.0f
+MapTexture = "angkor_1f"
+MapTexture1 = "angkor_2f"
+MapTexture2 = "angkor_3f"
+
+
+[Map72]
+MapID = 3
+Left = -2116.0f
+Top = 1180.0f
+Right = 7408.0f
+Bottom = -8314.0f
+CLeft = 3168.0f
+CTop = -3456.0f
+scale = 0.050f
+CHeight = 6464.0f
+Alpha = 230
+1F = 5010.0f
+2F = 5419.0f
+3F = 5648.0f
+MapTexture = "Burning_River_b1"
+MapTexture1 = "Burning_River_1f"
+MapTexture2 = "Burning_River_2f"
+
+
+[Map73]
+MapID = 36
+Left = -4193.0f
+Top = 4140.0f
+Right = 3852.0f
+Bottom = -3850.0f
+CLeft = 291.5f
+CTop = 512.5f
+scale = 0.050f
+CHeight = 2431.5f
+Alpha = 230
+1F = 789.0f
+2F = 880.0f
+3F = 1225.0f
+MapTexture = "lostroom_b1"
+MapTexture1 = "lostroom_1f"
+MapTexture2 = "lostroom_2f"
+
+
+[Map74]
+MapID = 31
+Left = -2825.0f
+Top = 962.0f
+Right = 5361.0f
+Bottom = -7224.0f
+CLeft = 1258.5f
+CTop = -2957.0f
+scale = 0.050f
+CHeight = 2973.0f
+Alpha = 230
+1F = 1938.0f
+MapTexture = "DeathMarket_all"
+
+
+[Map75]
+MapID = 0
+Left = -1607.0f
+Top = 2241.0f
+Right = 2642.0f
+Bottom = -2008.0f
+CLeft = -196.0f
+CTop = 512.0f
+scale = 0.050f
+CHeight = 1632.0f
+Alpha = 230
+1F = 1172.0f
+MapTexture = "warehouse_all"
+
+
+[Map76]
+MapID = 83
+Left = 1963.0f
+Top = 6322.0f
+Right = 6113.0f
+Bottom = 2172.0f
+CLeft = 4089.0f
+CTop = 4239.5f
+scale = 0.050f
+CHeight = 2733.0f
+Alpha = 230
+1F = 2070.0f
+MapTexture = "cage_ffa_all"
+
+
+[Map77]
+MapID = 41
+Left = -5092.0f
+Top = 5348.0f
+Right = 6407.0f
+Bottom = -6151.0f
+CLeft = 2208.0f
+CTop = -960.0f
+scale = 0.050f
+CHeight = 2337.0f
+Alpha = 230
+1F = 1999.0f
+2F = 2346.0f
+MapTexture = "RedFarm_1f"
+MapTexture1 = "RedFarm_2f"
+
+
+[Map78]
+MapID = 26
+Left = -4273.0f
+Top = 3940.0f
+Right = 4589.0f
+Bottom = -4922.0f
+CLeft = -430.0f
+CTop = -271.5f
+scale = 0.050f
+CHeight = 993.0f
+Alpha = 230
+1F = 111.0f
+2F = 426.0f
+MapTexture = "AquaBullet_b1"
+MapTexture1 = "AquaBullet_1f"
+
+
+[Map79]
+MapID = 137
+Left = -3048.0f
+Top = 3345.0f
+Right = 3120.0f
+Bottom = -2823.0f
+CLeft = -14.0f
+CTop = 871.0f
+scale = 0.050f
+CHeight = 2740.0f
+Alpha = 230
+1F = 1635.0f
+2F = 1946.0f
+MapTexture = "School_1f"
+MapTexture1 = "School_2f"
+
+
+[Map80]
+MapID = 187
+Left = 3082.0f
+Top = 9522.0f
+Right = 9995.0f
+Bottom = 2549.0f
+CLeft = 6648.5f
+CTop = 6368.0f
+scale = 0.050f
+CHeight = 1779.0f
+Alpha = 230
+1F = 1193.0f
+2F = 1507.0f
+MapTexture = "tank_weaponchallenge_1f"
+MapTexture1 = "tank_weaponchallenge_2f"
+
+
+[Map81]
+MapID = 96
+Left = 3082.0f
+Top = 9522.0f
+Right = 9995.0f
+Bottom = 2549.0f
+CLeft = 6648.5f
+CTop = 6368.0f
+scale = 0.050f
+CHeight = 1779.0f
+Alpha = 230
+1F = 1193.0f
+2F = 1507.0f
+MapTexture = "tank_ffa_1f"
+MapTexture1 = "tank_ffa_2f"
+
+
+[Map82]
+MapID = 42
+Left = 1400.0f
+Top = 30.0f
+Right = 5202.0f
+Bottom = -3655.0f
+CLeft = 2993.0f
+CTop = -1858.0f
+scale = 0.050f
+CHeight = 2317.0f
+Alpha = 230
+1F = 1625.0f
+2F = 1910.0f
+3F = 2230.0f
+4F = 2501.0f
+5F = 2774.0f
+6F = 3053.0f
+MapTexture = "observer_1f"
+MapTexture1 = "observer_2f"
+MapTexture2 = "observer_3f"
+MapTexture3 = "observer_4f"
+MapTexture4 = "observer_5f"
+MapTexture5 = "observer_6f"
+
+
+[Map83]
+MapID = 15
+Left = 830.0f
+Top = 8265.0f
+Right = 7953.0f
+Bottom = 1142.0f
+CLeft = 5524.5f
+CTop = 4452.0f
+scale = 0.050f
+CHeight = 5671.5f
+Alpha = 230
+1F = 4652.0f
+2F = 5129.0f
+MapTexture = "Stormvill_b1"
+MapTexture1 = "Stormvill_1f"
+
+
+[Map84]
+MapID = 232
+Left = 16277.0f
+Top = 22455.0f
+Right = 26207.0f
+Bottom = 12425.0f
+CLeft = 20677.0f
+CTop = 16865.0f
+scale = 0.050f
+CHeight = 2325.0f
+Alpha = 230
+1F = 1195.0f
+2F = 1528.0f
+3F = 1804.0f
+MapTexture = "8th_tank_1f"
+MapTexture1 = "8th_tank_2f"
+MapTexture2 = "8th_tank_3f"
+
+
+[Map85]
+MapID = 234
+Left = -1483.0f
+Top = 5059.0f
+Right = 6275.0f
+Bottom = -3185.0f
+CLeft = 56.5f
+CTop = -2371.5f
+scale = 0.050f
+CHeight = 2882.5f
+Alpha = 230
+1F = 535.0f
+2F = 1015.0f
+MapTexture = "desert_f1"
+MapTexture1 = "desert_f2"
+ReplayMapTexture = "desert_all"
+
+
+[Map86]
+MapID = 233
+Left = -2607.0f
+Top = 3082.0f
+Right = 3423.0f
+Bottom = -2888.0f
+CLeft = 423.0f
+CTop = -48.0f
+scale = 0.040f
+CHeight =  -18236.0f
+Alpha = 230
+1F = -62760.0f
+2F = -43659.0f
+3F = -25742.0f
+4F = -8333.0f
+5F = 11010.0f
+6F = 28524.0f
+MapTexture = "ace_a_crossport"
+MapTexture1 = "ace_duo"
+MapTexture2 = "ace_b_provence"
+MapTexture3 = "ace_B2"
+MapTexture4 = "ace_a_tank"
+MapTexture5 = "ace_ready"
+
+
+[Map87]
+MapID = 236
+Left = -3596.0f
+Top = 4096.0f
+Right = 4596.0f
+Bottom = -4096.0f
+CLeft = 0.0f
+CTop = 0.0f
+scale = 0.050f
+CHeight = 0.0f
+Alpha = 230
+1F = -680.0f
+2F = -288.0f
+3F = 88.0f
+MapTexture = "stairway_1F"
+MapTexture1 = "stairway_2F"
+MapTexture2 = "stairway_3F"
+
+
+[Map88]
+MapID = 237
+Left = -3596.0f
+Top = 4096.0f
+Right = 4596.0f
+Bottom = -4096.0f
+CLeft = 0.0f
+CTop = 0.0f
+scale = 0.050f
+CHeight = 0.0f
+Alpha = 230
+1F = -680.0f
+2F = -288.0f
+3F = 88.0f
+MapTexture = "stairway_1F"
+MapTexture1 = "stairway_2F"
+MapTexture2 = "stairway_3F"
+
+
+[Map89]
+MapID = 238
+Left = -1034.0f
+Top = 89.0f
+Right = 5491.0f
+Bottom = -6436.0f
+CLeft = 3269.0f
+CTop = -3074.0f
+scale = 0.050f
+CHeight = 5733.5f
+Alpha = 230
+1F = 2746.0f
+2F = 3076.0f
+3F = 3333.0f
+MapTexture = "oldtown_f1"
+MapTexture1 = "oldtown_f2"
+MapTexture2 = "oldtown_f3"
+ReplayMapTexture = "oldtown_all"
+
+
+[Map90]
+MapID = 239
+Left = -4281.0f
+Top = 7207.0f
+Right = 4109.0f
+Bottom = -1177.0f
+CLeft = -81.0f
+CTop = 3027.0f
+scale = 0.050f
+CHeight = 1507.5f
+Alpha = 230
+1F = -3800.0f
+MapTexture = "findspy_all"
+
+
+[Map91]
+MapID = 242
+Left = 2250.0f
+Top = 700.0f
+Right = 10350.0f
+Bottom = -7600.0f
+CLeft = 6450.0f
+CTop = -2500.5f
+scale = 0.050f
+CHeight = -3930.5f
+Alpha = 230
+1F = -4966.0f
+2F = -4736.0f
+3F = -4376.0f
+MapTexture = "MarineBase_B1"
+MapTexture1 = "MarineBase_1F"
+MapTexture2 = "MarineBase_2F"
+ReplayMapTexture = "MarineBase_all"
+
+[Map92]
+MapID = 245
+Left = -3197.0f
+Top = 3179.0f
+Right = 2776.0f
+Bottom = -2794.0f
+CLeft = 358.5f
+CTop = 12.5f
+scale = 0.050f
+CHeight = 1618.5f
+Alpha = 230
+1F = 784.0f
+MapTexture = "duo_all"
+ReplayMapTexture = "duo_all"
+
+
+[Map93]
+MapID = 243
+Left = -2950.0f
+Top = 3009.0f
+Right = 1565.0f
+Bottom = -1521.0f
+CLeft = -788.5f
+CTop = 311.0f
+scale = 0.050f
+CHeight = -7500.0f
+Alpha = 230
+1F = -4422.0f
+2F = -4176.0f
+MapTexture = "skyline_1F"
+MapTexture1 = "skyline_2F"
+ReplayMapTexture = "skyline_all"
+
+
+[Map94]
+MapID = 249
+Left = -3570.0f
+Top = 3550.0f
+Right = 4000.0f
+Bottom = -3950.0f
+CLeft = 143.0f
+CTop = 141.0f
+scale = 0.050f
+CHeight = 5037.0f
+Alpha = 230
+1F = 3670.0f
+2F = 3940.0f
+3F = 4200.0f
+MapTexture = "back_earth_B1"
+MapTexture1 = "back_earth_1F"
+MapTexture2 = "back_earth_2F"
+ReplayMapTexture = "back_earth_all"
+
+
+[Map95]
+MapID = 244
+Left = -3799.0f
+Top = 3342.0f
+Right = 3860.0f
+Bottom = -4307.0f
+CLeft = -879.0f
+CTop = -2942.0f
+scale = 0.050f
+CHeight = 1275.5f
+Alpha = 230
+1F = 1030.0f
+MapTexture = "mountain_all"
+ReplayMapTexture = "mountain_all"
+
+[Map96]
+MapID = 190
+Left = 1536.0f
+Top = 11032.0f
+Right = 11536.0f
+Bottom = 1032.0f
+CLeft = 6648.0f
+CTop = 6368.0f
+scale = 0.050f
+CHeight = 1779.0f
+Alpha = 230
+1F = 1193.0f
+2F = 1524.0f
+MapTexture = "3supplybase_ffa_1f"
+MapTexture1 = "3supplybase_ffa_2f"
+
+
+[Map97]
+MapID = 98
+Left = 1449.0f
+Top = 7658.0f
+Right = 9449.0f
+Bottom = -342.0f
+CLeft = 5349.0f
+CTop = 3437.0f
+scale = 0.050f
+CHeight = 2874.0f
+Alpha = 230
+1F = 2014.0f
+MapTexture = "provence_ffa_all"
+
+
+[Map98]
+MapID = 99
+Left = -3102.5f
+Top = 3752.0f
+Right = 4696.0f
+Bottom = -4065.0f
+CLeft = 496.5f
+CTop = -161.5f
+scale = 0.050f
+CHeight = 1233.0f
+Alpha = 230
+1F = 17.0f
+2F = 355.0f
+3F = 625.0f
+4F = 872.0f
+MapTexture = "dragonroad_ffa_B1"
+MapTexture1 = "dragonroad_ffa_1f"
+MapTexture2 = "dragonroad_ffa_2f"
+MapTexture3 = "dragonroad_ffa_3f"
+
+
+[Map99]
+MapID = 100
+Left = 2115.0f
+Top = 10185.0f
+Right = 10115.0f
+Bottom = 2185.0f
+CLeft = 4309.0f
+CTop = 4644.0f
+scale = 0.050f
+CHeight = 3329.0f
+Alpha = 230
+1F = 2150.0f
+2F = 2382.0f
+MapTexture = "crossport_ffa_1f"
+MapTexture1 = "crossport_ffa_2f"
+
+
+[Map100]
+MapID = 18
+Left = -4214.0f
+Top = 4692.0f
+Right = 4189.0f
+Bottom = -3711.0f
+CLeft = 368.0f
+CTop = 457.0f
+scale = 0.050f
+CHeight = 2030.5f
+Alpha = 230
+1F = 1465.0f
+2F = 2076.0f
+MapTexture = "subway_b1"
+MapTexture1 = "subway_f1"
+ReplayMapTexture = "subway_all"
+
+
+[Map101]
+
+MapID = 38
+Left = 318.0f
+Top = 845.0f
+Right = 7310.0f
+Bottom = -6200.0f
+CLeft = 3935.5f
+CTop = -2540.5f
+scale = 0.050f
+CHeight = 3882.0f
+Alpha = 230
+1F = 3008.0f
+2F = 3280.0f
+MapTexture = "citycat_b1"
+MapTexture1 = "citycat_f1"
+ReplayMapTexture = "citycat_all"
+
+
+[Map102]
+MapID = 258
+Left = -16896.0f
+Top = 2688.0f
+Right = 13304.0f
+Bottom = -27512.0f
+CLeft = -361.0f
+CTop = -12064.0f
+scale = 0.015f
+CHeight = -2612.0f
+Alpha = 230
+1F = 50.0f
+MapTexture = "LastOne5_T"
+
+
+[Map103]
+MapID = 258
+Left = -16896.0f
+Top = 2688.0f
+Right = 13304.0f
+Bottom = -27512.0f
+CLeft = -361.0f
+CTop = -12064.0f
+scale = 0.090f
+CHeight = -2612.0f
+Alpha = 230
+1F = 50.0f
+MapTexture = "LastOne5"
+
+
+[Map104]
+MapID = 257
+Left = 11932.0f
+Top = -5652.0f
+Right = 22892.0f
+Bottom = -16612.0f
+CLeft = 18215.5f
+CTop = -11356.0f
+scale = 0.050f
+CHeight = 12972.0f
+Alpha = 230
+1F = 10470.0f
+2F = 10765.0f
+3F = 11105.0f
+MapTexture = "airport_f1"
+MapTexture1 = "airport_f2"
+MapTexture2 = "airport_f3"
+
+
+[Map105]
+MapID = 153
+Left = 3076.0f
+Top = 9012.0f
+Right = 9152.0f
+Bottom = 3100.0f
+CLeft = 6202.0f
+CTop = 6255.0f
+scale = 0.050f
+CHeight = 1779.0f
+Alpha = 230
+1F = 1432.0f
+2F = 1630.0f
+MapTexture = "3supplybase_f1"
+MapTexture1 = "3supplybase_f2"
+ReplayMapTexture = "3supplybase_all"
+
+
+[Map106]
+MapID = 259
+Left = -5250.0f
+Top = 5545.0f
+Right = 4717.0f
+Bottom = -4354.0f
+CLeft = -186.0f
+CTop = 665.0f
+scale = 0.050f
+CHeight = 3578.0f
+Alpha = 230
+1F = 1168.0f
+2F = 1335.0f
+MapTexture = "palace_B1"
+MapTexture1 = "palace_1F"
+ReplayMapTexture = "palace_all"
+
+
+[Map107]
+MapID = 260
+Left = 1449.0f
+Top = 7658.0f
+Right = 9449.0f
+Bottom = -342.0f
+CLeft = 5349.0f
+CTop = 3437.0f
+scale = 0.050f
+CHeight = 2874.0f
+Alpha = 230
+1F = 2014.0f
+MapTexture = "respawnmatch_all"
+
+
+[Map108]
+MapID = 151
+Left = -2584.0f
+Top = 2603.0f
+Right = 2902.0f
+Bottom = -2913.0f
+CLeft = 1192.5f
+CTop = 384.0f
+scale = 0.050f
+CHeight = 3151.0f
+Alpha = 230
+1F = 838.0f
+2F = 1064.0f
+MapTexture = "FolkVillage_1f"
+MapTexture1 = "FolkVillage_2f"
+
+
+[Map109]
+MapID = 261
+Left = -3825.0f
+Top = 3697.0f
+Right = 3402.0f
+Bottom = -3530.0f
+CLeft = -509.5f
+CTop = -420.0f
+scale = 0.050f
+CHeight = 866.5f
+Alpha = 230
+1F = 115.0f
+2F = 435.0f
+3F = 711.0f
+MapTexture = "white_squall_f1"
+MapTexture1 = "white_squall_f2"
+MapTexture2 = "white_squall_f3"
+ReplayMapTexture = "white_squall_all"
+
+[Map110]
+MapID		= 262
+Left		= -2307.0f
+Top		= 2047.0f
+Right		= 2224.0f
+Bottom		= -2450.0f
+CLeft		= 8.5f
+CTop		= 1001.0f
+scale		= 0.050f
+CHeight		= 3457.5f
+Alpha		= 230
+1F		= 1115.0f
+2F		= 1394.0f
+3F		= 1699.0f
+MapTexture	= "Villa_B1"
+MapTexture1	= "Villa_1F"
+MapTexture2	= "Villa_2F"
+
+[Map111]
+MapID = 263
+Left = -2809.0f
+Top = 2508.0f
+Right = 2437.0f
+Bottom = -2737.0f
+CLeft = -581.0f
+CTop = -190.0f
+scale = 0.050f
+CHeight = 8764.0f
+Alpha = 230
+1F = 6608.0f
+2F = 7083.0f
+3F = 7398.0f
+MapTexture = "chase_BF"
+MapTexture1 = "chase_1F"
+MapTexture2 = "chase_2F"
+
+[Map112]
+MapID = 256
+Left = -450.0f
+Top = 4687.0f
+Right = 4960.0f
+Bottom = -763.0f
+CLeft = 2468.0f
+CTop = 2213.0f
+scale = 0.050f
+CHeight = 1777.0f
+Alpha = 230
+1F = 239.0f
+2F = 511.0f
+MapTexture = "zerogravity_1f"
+MapTexture1 = "zerogravity_2f"
+
+[Map113]
+MapID = 264
+Left = -2837.0f
+Top = 3093.0f
+Right = 1703.0f
+Bottom = -1429.0f
+CLeft = -2747.0f
+CTop = 557.0f
+scale = 0.050f
+CHeight = 1747.0f
+Alpha = 230
+1F = -62.0f
+2F = 265.0f
+MapTexture = "armory_1F"
+MapTexture1 = "armory_2F"
+ReplayMapTexture = "armory_all"
+
+[Map114]
+MapID = 265
+Left = -2633.0f
+Top = 3754.0f
+Right = 1387.0f
+Bottom = -318.0f
+CLeft = -24.0f
+CTop = 1677.0f
+scale = 0.050f
+CHeight = 2973.0f
+Alpha = 230
+1F = 2827.0f
+MapTexture = "redvalley_all"
+
+[Map115]
+MapID = 269
+Left = -2584.0f
+Top = 2603.0f
+Right = 2902.0f
+Bottom = -2913.0f
+CLeft = 1192.5f
+CTop = 384.0f
+scale = 0.050f
+CHeight = 3151.0f
+Alpha = 230
+1F = 838.0f
+2F = 1064.0f
+MapTexture = "FolkVillage_1f"
+MapTexture1 = "FolkVillage_2f"
+
+[Map116]
+MapID = 270
+Left = -1607.0f
+Top = 2241.0f
+Right = 2642.0f
+Bottom = -2008.0f
+CLeft = -196.0f
+CTop = 512.0f
+scale = 0.050f
+CHeight = 1632.0f
+Alpha = 230
+1F = 1172.0f
+MapTexture = "warehouse_all"
+
+[Map117]
+MapID = 179
+Left = 2481.0f
+Top = 10094.0f
+Right = 10913.0f
+Bottom = 1662.0f
+CLeft = 6528.5f
+CTop = 6527.5f
+scale = 0.050f
+CHeight = 1920.0f
+Alpha = 230
+1F = 1192.0f
+MapTexture = "a_tank_all"
+
+[Map118]
+MapID = 268
+Left = -1607.0f
+Top = 2241.0f
+Right = 2642.0f
+Bottom = -2008.0f
+CLeft = -196.0f
+CTop = 512.0f
+scale = 0.050f
+CHeight = 1632.0f
+Alpha = 230
+1F = 1172.0f
+MapTexture = "warehouse_all"
+
+[Map119]
+MapID		= 271
+Left		= 16277.0f
+Top		= 22455.0f
+Right		= 26207.0f
+Bottom		= 12425.0f
+CLeft		= 20677.0f
+CTop		= 16865.0f
+scale		= 0.050f
+CHeight		= 2325.0f
+Alpha		= 230
+1F		= 1195.0f
+2F		= 1528.0f
+3F		= 1804.0f
+MapTexture	= "realcollect_1F"
+MapTexture1	= "realcollect_2F"
+MapTexture2	= "realcollect_3F"
+ReplayMapTexture	= "realcollect_all"
+
+[Map120]
+MapID = 274
+Left = 2100.0f
+Top = 11632.0f
+Right = 12156.0f
+Bottom = 1532.0f
+CLeft = 6648.0f
+CTop = 6368.0f
+scale = 0.050f
+CHeight = 4061.0f
+Alpha = 230
+1F = 1193.0f
+2F = 1524.0f
+MapTexture = "3supplybase_f1"
+MapTexture1 = "3supplybase_f2"
+ReplayMapTexture = "3supplybase_all"
+
+[Map121]
+MapID = 272
+Left = -1182.0f
+Top = 1407.0f
+Right = 1197.0f
+Bottom = -972.0f
+CLeft = 52.5f
+CTop = -572.5f
+scale = 0.050f
+CHeight = 955.0f
+Alpha = 230
+1F = 874.0f
+MapTexture = "DNFMoon_all"
+
+[Map122]
+MapID = 276
+Left = -3640.0f
+Top = 2751.0f
+Right = 2458.0f
+Bottom = -3302.0f
+CLeft = -881.0f
+CTop = 200.5f
+scale = 0.050f
+CHeight = 1388.0f
+Alpha = 230
+1F = 784.0f
+MapTexture = "Duo_rig_all"
+ReplayMapTexture = "Duo_rig_all"
+
+[Map123]
+MapID = 279
+Left = -6050.0f
+Top = 3430.0f
+Right = -137.0f
+Bottom = -2280.0f
+CLeft = -5411.0f
+CTop = 500.0f
+scale = 0.050f
+CHeight = 861.0f
+Alpha = 230
+1F = 1577.0f
+2F = 1940.0f
+MapTexture	= "SquidGame_1F"
+MapTexture1	= "SquidGame_2F"
+
+[Map124]
+MapID = 280
+Left = -1160.0f
+Top = 1210.0f
+Right = 1400.0f
+Bottom = -1330.0f
+CLeft = 36.0f
+CTop = -33.0f
+scale = 0.050f
+CHeight = 888.0f
+Alpha = 230
+1F = 1034.0f
+MapTexture = "SquidKnife_all"
+
+[Map125]
+MapID = 16
+Left = 13306.0f
+Top = 20576.0f
+Right = 19530.0f
+Bottom = 14380.0f
+CLeft = 18370.0f
+CTop = 16395.0f
+scale = 0.050f
+CHeight = 11699.0f
+Alpha = 230
+1F = 8644.0f
+2F = 8914.0f
+3F = 9248.0f
+MapTexture = "lab_B1"
+MapTexture1 = "lab_1F"
+MapTexture2 = "lab_2F"
+
+[Map126]
+MapID = 44
+Left = 350.0f
+Top = 3313.0f
+Right = 5300.0f
+Bottom = -1700.0f
+CLeft = 2518.0f
+CTop = -108.0f
+scale = 0.050f
+CHeight = 2846.0f
+Alpha = 230
+1F = 1881.0f
+2F = 2046.0f
+3F = 2404.0f
+MapTexture = "GH2010_B1"
+MapTexture1 = "GH2010_1F"
+MapTexture2 = "GH2010_2F"
+
+[Map127]
+MapID = 283
+Left = -7352.0f
+Top = 7701.0f
+Right = 1350.0f
+Bottom = -1101.0f
+CLeft = -3180.0f
+CTop = 2695.0f
+scale = 0.050f
+CHeight = 6705.0f
+Alpha = 230
+1F = 5604.0f
+2F = 5854.0f
+MapTexture = "twofaceT_1F"
+MapTexture1 = "twofaceT_2F"
+
+[Map128]
+MapID = 124
+Left = -2965.0f
+Top = 3136.0f
+Right = 3090.0f
+Bottom = -2664.0f
+CLeft = -52.0f
+CTop = 1091.0f
+scale = 0.050f
+CHeight = 2561.0f
+Alpha = 230
+1F = 1377.0f
+2F = 1668.0f
+MapTexture = "harlem_1F"
+MapTexture1 = "harlem_2F"
+ReplayMapTexture = "harlem_all"
+
+
+[Map129]
+MapID = 199
+Left = 2050.0f
+Top = 11532.0f
+Right = 12286.0f
+Bottom = 1702.0f
+CLeft = 6648.0f
+CTop = 6368.0f
+scale = 0.050f
+CHeight = 1779.0f
+Alpha = 230
+1F = 1193.0f
+2F = 1524.0f
+MapTexture = "tank_halloween_1F"
+MapTexture1 = "tank_halloween_2F"
+
+
+[Map130]
+MapID = 161
+Left = 2481.0f
+Top = 10094.0f
+Right = 10913.0f
+Bottom = 1662.0f
+CLeft = 6528.5f
+CTop = 6527.5f
+scale = 0.050f
+CHeight = 1920.0f
+Alpha = 230
+1F = 1192.0f
+MapTexture = "a_tank_all"
+ReplayMapTexture = "a_tank_all"
+
+
+[Map131]
+MapID = 162
+Left = 1536.0f
+Top = 11032.0f
+Right = 11536.0f
+Bottom = 1032.0f
+CLeft = 6648.0f
+CTop = 6368.0f
+scale = 0.050f
+CHeight = 1779.0f
+Alpha = 230
+1F = 1193.0f
+2F = 1524.0f
+MapTexture = "3supplybase_f1"
+MapTexture1 = "3supplybase_f2"
+ReplayMapTexture = "3supplybase_all"
+
+
+
+[Map132]
+MapID = 163
+Left = -3552.5f
+Top = 3522.0f
+Right = 4246.0f
+Bottom = -4295.0f
+CLeft = 496.5f
+CTop = -161.5f
+scale = 0.050f
+CHeight = 1233.0f
+Alpha = 230
+1F = 17.0f
+2F = 355.0f
+3F = 625.0f
+4F = 872.0f
+MapTexture = "dragonroad_b1"
+MapTexture1 = "dragonroad_f1"
+MapTexture2 = "dragonroad_f2"
+MapTexture3 = "dragonroad_f3"
+ReplayMapTexture = "dragonroad_all"
+
+
+
+[Map133]
+MapID = 266
+Left = 2115.0f
+Top = 10185.0f
+Right = 10115.0f
+Bottom = 2185.0f
+CLeft = 4309.0f
+CTop = 4644.0f
+scale = 0.050f
+CHeight = 3329.0f
+Alpha = 230
+1F = 2150.0f
+2F = 2382.0f
+MapTexture = "crossport_f1"
+MapTexture1 = "crossport_f2"
+ReplayMapTexture = "crossport_all"
+
+[Map134]
+MapID	= 284
+Left	= -3186.0f
+Top		= 16309.0f
+Right	= 13314.0f
+Bottom	= 9.0f
+CLeft	= 5114.0f
+CTop	= 8009.0f
+scale	= 0.015f
+CHeight	= 0.0f
+Alpha	= 230
+1F		= -285.0f
+MapTexture = "LastOne6_T"
+
+[Map135]
+MapID	= 284
+Left	= -3186.0f
+Top		= 16309.0f
+Right	= 13314.0f
+Bottom	= 9.0f
+CLeft	= 5114.0f
+CTop	= 8009.0f
+scale	= 0.015f
+CHeight	= 0.0f
+Alpha	= 230
+1F		= -285.0f
+MapTexture = "LastOne6"
+
+[Map136]
+MapID = 286
+Left = 4216.0f
+Top = 10813.0f
+Right = 10640.0f
+Bottom = 4389.0f
+CLeft = 7266.5f
+CTop = 8087.0f
+scale = 0.050f
+CHeight = 2238.5f
+Alpha = 230
+1F = 1195.0f
+2F = 1445.0f
+MapTexture = "5th_tank_f1"
+MapTexture1 = "5th_tank_f2"
+ReplayMapTexture = "5th_tank_all"
+
+[Map137]
+MapID = 287
+Left = -5250.0f
+Top = 5545.0f
+Right = 4717.0f
+Bottom = -4354.0f
+CLeft = -186.0f
+CTop = 665.0f
+scale = 0.050f
+CHeight = 3578.0f
+Alpha = 230
+1F = 1168.0f
+2F = 1335.0f
+MapTexture = "palace_B1"
+MapTexture1 = "palace_1F"
+ReplayMapTexture = "palace_all"
+
+[Map138]
+MapID = 288
+Left = -1700.0f
+Top = 2950.0f
+Right = 5600.0f
+Bottom = -4200.0f
+CLeft = 1970.0f
+CTop = -455.0f
+scale = 0.050f
+CHeight = 152.0f
+Alpha = 230
+1F = -67.0f
+2F = 340.0f
+MapTexture = "ancient_palace_1F"
+MapTexture1 = "ancient_palace_2F"
+ReplayMapTexture = "ancientpalace_all"
+
+[Map139]
+MapID = 290
+Left = -2740.0f
+Top = 2630.0f
+Right = 1750.0f
+Bottom = -1900.0f
+CLeft = -550.5f
+CTop = 80.0f
+scale = 0.050f
+CHeight = -7500.0f
+Alpha = 230
+1F = -4535.0f
+MapTexture = "line_all"
+ReplayMapTexture = "line_all"
+
+[Map140]
+MapID = 291
+Left = -1294.0f
+Top = 2112.0f
+Right = 4642.0f
+Bottom = -3824.0f
+CLeft = 1435.5f
+CTop = -865.5f
+scale = 0.050f
+CHeight = 1293.0f
+Alpha = 230
+1F = 96.0f
+MapTexture = "shoppingcenter_all"
+ReplayMapTexture = "shoppingcenter_all"

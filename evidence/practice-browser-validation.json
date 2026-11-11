@@ -1,0 +1,17 @@
+{
+  "source_evidence_id": "ev_ee12d013402c85cb2d14a1acdd02c227cbbfc32e7920b4749c1d3cf076433e07",
+  "status": "passed",
+  "browser_steps": 12,
+  "console_or_page_errors": 0,
+  "assertions": [
+    "steps completed",
+    "no dropped events",
+    "no browser errors",
+    "shot consumes ammo",
+    "shot kills target",
+    "weapon changes",
+    "pause shows overlay",
+    "resume hides overlay"
+  ],
+  "original_game_executed": false
+}

@@ -1,0 +1,176 @@
+[VariableBlock0]
+Name = "MovableModel0"
+NumPlayers = "2,16"
+
+[VariableBlock1]
+Name = "1v1B"
+NumPlayers = "2"
+
+[VariableBlock2]
+Name = "2v2B"
+NumPlayers = "4"
+
+[VariableBlock3]
+Name = "3v3B"
+NumPlayers = "6"
+
+[VariableBlock4]
+Name = "4v4B"
+NumPlayers = "1, 8, 10, 12, 14, 16"
+
+[VariableBlock5]
+Name = "1vs1Block"
+NumPlayers = "2"
+
+[VariableBlock6]
+Name = "2vs2Block"
+NumPlayers = "4"
+
+[VariableBlock7]
+Name = "3vs3Block"
+NumPlayers = "6"
+
+
+
+[RadarObject0]
+Name = "RadarObject1"
+NumPlayers = "1,6,8,10,12,14,16"
+
+
+
+[VariableBrush0]
+Name = "EndlessFall83"
+NumPlayers = "2"
+
+[VariableBrush1]
+Name = "EndlessFall84"
+NumPlayers = "2"
+
+[VariableBrush2]   //여기까지가 1vs1에서의 데스존
+Name = "EndlessFall85"
+NumPlayers = "2"
+
+[VariableBrush3]
+Name = "EndlessFall86"
+NumPlayers = "4"
+
+[VariableBrush4] //여기까지가 2vs2에서의 데스존
+Name = "EndlessFall87"
+NumPlayers = "4"
+
+[VariableBrush5]
+Name = "EndlessFall88"
+NumPlayers = "6"
+
+[VariableBrush6]
+Name = "EndlessFall89"
+NumPlayers = "6"
+
+[VariableBrush7] //여기까지가 3vs3에서의 데스존
+Name = "EndlessFall90"
+NumPlayers = "6"
+
+[VariableBrush8] //이거는 4vs4~8vs8에서의 데스존
+Name = "EndlessFall91"
+NumPlayers = "8, 10, 12, 14, 16"
+
+
+
+
+[SoundTrigger0]
+Name = "MovableModel1"
+SoundFile = "sa_interface2\\snd\\InvertSubObjOccSuccess.wav"
+SoundRadius = 1200.0f
+
+[Barricade_Default]		//바리케이드를 이름별로 셋업하는 것은 셋업 안하는 것도 존재할 수 있으므로 디폴트
+AniBarricadeOff = "barricade_off"
+AniBarricadeOn = "barricade_5_on"
+SoundFileName_BarricadeDamaged = "\\sa_props\\SND\\Barricade_Attack.wav"
+Effect_BarricadeBreak0 = "Zom_Barricade_Debris01"
+Effect_BarricadeBreak1 = "Zom_Barricade_Debris02"
+SoundFileName_BarricadeBreak = "\\sa_props\\SND\\Barricade_Broken.wav"
+AniTime_BarricadeCreate = 166
+SoundFileName_BarricadeCreate = "\\sa_props\\SND\\Barricade_Installation.wav"
+SocketName_BarricadeCreate = "FX_3"
+Effect_BarricadeCreate = "Zom_Barricade_Creat"
+BarricadeCreate_SoundRadius = 800.0f
+BarricadeCreate_SoundVolume = 90
+nHP = 5000
+
+[Barricade0]
+Name = "NormalBarricadeObj0"
+nHP = 2000
+
+[StartPoint0]
+Name = "GameStartPoint_B1"
+NumPlayers = "2"
+
+[StartPoint1]
+Name = "GameStartPoint_R1"
+NumPlayers = "2"
+
+[StartPoint2]
+Name = "GameStartPoint00"
+NumPlayers = "4, 6, 8, 10, 12, 14, 16"
+
+//블루팀리스폰 설정
+[StartPoint3]
+Name = "GameStartPoint01"
+NumPlayers = "4, 6, 8, 10, 12, 14, 16"
+
+[StartPoint4]
+Name = "GameStartPoint02"
+NumPlayers = "4, 6, 8, 10, 12, 14, 16"
+
+[StartPoint5]
+Name = "GameStartPoint03"
+NumPlayers = "4, 6, 8, 10, 12, 14, 16"
+
+[StartPoint6]
+Name = "GameStartPoint04"
+NumPlayers = "4, 6, 8, 10, 12, 14, 16"
+
+[StartPoint7]
+Name = "GameStartPoint05"
+NumPlayers = "4, 6, 8, 10, 12, 14, 16"
+
+[StartPoint8]
+Name = "GameStartPoint06"
+NumPlayers = "4, 6, 8, 10, 12, 14, 16"
+
+[StartPoint9]
+Name = "GameStartPoint07"
+NumPlayers = "4, 6, 8, 10, 12, 14, 16"
+
+//레드팀 리스폰 설정
+[StartPoint10]
+Name = "GameStartPoint18"
+NumPlayers = "4, 6, 8, 10, 12, 14, 16"
+
+[StartPoint11]
+Name = "GameStartPoint19"
+NumPlayers = "4, 6, 8, 10, 12, 14, 16"
+
+[StartPoint12]
+Name = "GameStartPoint20"
+NumPlayers = "4, 6, 8, 10, 12, 14, 16"
+
+[StartPoint13]
+Name = "GameStartPoint21"
+NumPlayers = "4, 6, 8, 10, 12, 14, 16"
+
+[StartPoint14]
+Name = "GameStartPoint22"
+NumPlayers = "4, 6, 8, 10, 12, 14, 16"
+
+[StartPoint15]
+Name = "GameStartPoint23"
+NumPlayers = "4, 6, 8, 10, 12, 14, 16"
+
+[StartPoint16]
+Name = "GameStartPoint24"
+NumPlayers = "4, 6, 8, 10, 12, 14, 16"
+
+[StartPoint17]
+Name = "GameStartPoint25"
+NumPlayers = "4, 6, 8, 10, 12, 14, 16"

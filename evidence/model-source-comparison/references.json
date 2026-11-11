@@ -1,0 +1,72 @@
+{
+  "role": "public source comparison; not installed game source or proof of binary equivalence",
+  "source_tree": "0eab18289bed72879eddb648d3311075b108cf46",
+  "references": [
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/0eab18289bed72879eddb648d3311075b108cf46/runtime/model/src/ltb.h",
+      "path": "evidence\\model-source-comparison\\runtime__model__src__ltb.h",
+      "bytes": 1338,
+      "sha256": "1724bcfad671af87e2d0bebb1cda4b978a47e6c00bc63de2dccf9839c6375dfc"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/0eab18289bed72879eddb648d3311075b108cf46/runtime/model/src/modelallocations.cpp",
+      "path": "evidence\\model-source-comparison\\runtime__model__src__modelallocations.cpp",
+      "bytes": 3275,
+      "sha256": "9f2885e940056d61d0feb87da0defb376504414382f8b85432f77efae1d9fc46"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/0eab18289bed72879eddb648d3311075b108cf46/runtime/model/src/modelallocations.h",
+      "path": "evidence\\model-source-comparison\\runtime__model__src__modelallocations.h",
+      "bytes": 1718,
+      "sha256": "81bdff301dac5c1f9dd346de051743fa6287324b7f5bb6e914be97c5af08e5af"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/0eab18289bed72879eddb648d3311075b108cf46/runtime/model/src/sys/d3d/d3d_model_load.cpp",
+      "path": "evidence\\model-source-comparison\\runtime__model__src__sys__d3d__d3d_model_load.cpp",
+      "bytes": 1148,
+      "sha256": "455a873bc59a9534f2dff38293890f98b3b17837b56b9e7622e903cefd6f6fad"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/0eab18289bed72879eddb648d3311075b108cf46/tools/Model_Packer/ltb_file.h",
+      "path": "evidence\\model-source-comparison\\tools__Model_Packer__ltb_file.h",
+      "bytes": 3943,
+      "sha256": "5f4429b22de6306262434268360e71307eac469514b668aa8716c883bb1c107b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/0eab18289bed72879eddb648d3311075b108cf46/tools/Model_Packer/lta2ltb_d3d.cpp",
+      "path": "evidence\\model-source-comparison\\tools__Model_Packer__lta2ltb_d3d.cpp",
+      "bytes": 64715,
+      "sha256": "9c25788d5bbfb8e65c8d0c01cda286649e6ef72f198a8fe7d6d05f1078fa3dbd"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/0eab18289bed72879eddb648d3311075b108cf46/runtime/render_a/src/sys/d3d/d3dmeshrendobj_rigid.cpp",
+      "path": "evidence\\model-source-comparison\\runtime__render_a__src__sys__d3d__d3dmeshrendobj_rigid.cpp",
+      "bytes": 9494,
+      "sha256": "04dea57f8409972bc97cb21504911acd8cd8935ff95a2ca9336da2558d8a50a7"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/0eab18289bed72879eddb648d3311075b108cf46/runtime/render_a/src/sys/d3d/d3dmeshrendobj_rigid.h",
+      "path": "evidence\\model-source-comparison\\runtime__render_a__src__sys__d3d__d3dmeshrendobj_rigid.h",
+      "bytes": 2747,
+      "sha256": "09a8ed536780dbdbec20d989d1b32c510cb4a793ab7a887effaac08f3325f6d6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/0eab18289bed72879eddb648d3311075b108cf46/runtime/shared/src/renderobject.h",
+      "path": "evidence\\model-source-comparison\\runtime__shared__src__renderobject.h",
+      "bytes": 1854,
+      "sha256": "a53c8449aded2d1c72a612854dc721e1c74effaa1c310642c819828b02e00f34"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/0eab18289bed72879eddb648d3311075b108cf46/runtime/model/src/model.h",
+      "path": "evidence\\model-source-comparison\\runtime__model__src__model.h",
+      "bytes": 33746,
+      "sha256": "d40792d5a65c36950e45a9b4b1c65fa417519609a36acd3a529b18a8bc7317e3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/0eab18289bed72879eddb648d3311075b108cf46/tools/Model_Packer/lta2ltb_d3d.h",
+      "path": "evidence\\model-source-comparison\\tools__Model_Packer__lta2ltb_d3d.h",
+      "bytes": 5411,
+      "sha256": "935065a1a82e85400a9ef5ed41c7a127490bafe396e7118a6ea1233165380c55"
+    }
+  ]
+}

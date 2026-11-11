@@ -1,0 +1,58 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"revision\":1,\"scope\":\"rea-runtime\",\"active_values\":{\"status\":\"not_observed\"},\"settings\":[{\"setting\":\"ghidra.startup_timeout_ms\",\"value\":900000,\"launch_value\":330000,\"default_value\":330000,\"source\":\"runtime\",\"unit\":\"ms\",\"minimum\":1,\"maximum\":2147483647,\"applies_at\":\"next_startup\",\"provider\":\"ghidra\",\"operations\":[\"binary_overview\",\"list_documents\",\"list_procedures\",\"search_procedures\",\"list_strings\",\"search_strings\",\"procedure_pseudo_code\",\"procedure_assembly\",\"analyze_function\",\"decompile_all\",\"trace_native_values\"],\"environment\":\"REA_GHIDRA_STARTUP_TIMEOUT_MS\",\"agent_editable\":true}],\"changed\":true,\"changes\":[{\"setting\":\"ghidra.startup_timeout_ms\",\"old_value\":330000,\"new_value\":900000}],\"active_work_changed\":false,\"rea_restart_required\":false}"
+      }
+    ],
+    "structuredContent": {
+      "revision": 1,
+      "scope": "rea-runtime",
+      "active_values": {
+        "status": "not_observed"
+      },
+      "settings": [
+        {
+          "setting": "ghidra.startup_timeout_ms",
+          "value": 900000,
+          "launch_value": 330000,
+          "default_value": 330000,
+          "source": "runtime",
+          "unit": "ms",
+          "minimum": 1,
+          "maximum": 2147483647,
+          "applies_at": "next_startup",
+          "provider": "ghidra",
+          "operations": [
+            "binary_overview",
+            "list_documents",
+            "list_procedures",
+            "search_procedures",
+            "list_strings",
+            "search_strings",
+            "procedure_pseudo_code",
+            "procedure_assembly",
+            "analyze_function",
+            "decompile_all",
+            "trace_native_values"
+          ],
+          "environment": "REA_GHIDRA_STARTUP_TIMEOUT_MS",
+          "agent_editable": true
+        }
+      ],
+      "changed": true,
+      "changes": [
+        {
+          "setting": "ghidra.startup_timeout_ms",
+          "old_value": 330000,
+          "new_value": 900000
+        }
+      ],
+      "active_work_changed": false,
+      "rea_restart_required": false
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 122
+}

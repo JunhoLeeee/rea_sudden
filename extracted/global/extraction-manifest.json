@@ -1,0 +1,88 @@
+{
+  "package": "C:\\Nexon\\SuddenAttack\\game\\global_00000.pkg",
+  "header": {
+    "path": "C:\\Nexon\\SuddenAttack\\game\\global_00000.pkg",
+    "bytes": 29696,
+    "version": 3,
+    "mask_bytes": 110,
+    "masked_string_units": 13,
+    "encrypted_header_offset": 141,
+    "index_padding_bytes": 201,
+    "observed_header_sha256": "502c61b2f776c5b4ebaee043193898d1c4c2f670bba3c388e235095c5f8e64bc",
+    "identity_scope": "header-ranges-only",
+    "byteorder": "little",
+    "count": 6,
+    "checksum": 524325
+  },
+  "index_raw_sha256": "a2123a2076edd838d34340d1c3287891c698c8944f0a7d36905e12db10bc5b4d",
+  "selected_members": 6,
+  "extracted": [
+    {
+      "path": "global/models/1x1_square.ltb",
+      "offset": 1024,
+      "stored_bytes": 9952,
+      "output_bytes": 35781,
+      "ciphertext_sha256": "ebdf81987ccbe517f76364311ac57baf3dff51fadfbd6f02bb3167758d41ee7f",
+      "output_sha256": "004dcd5eef8db8d925e4ce392616fa6b89d3d62479e28b9f84f48d7a9e48f0fb",
+      "expected_md5": "ffd6f6677254fb68f62d419c2f5c5daf",
+      "md5_verified": true
+    },
+    {
+      "path": "global/models/1x1_square.ltc",
+      "offset": 11264,
+      "stored_bytes": 1116,
+      "output_bytes": 1113,
+      "ciphertext_sha256": "b18c064d68504a7f1865bdaf9750dc5123207a251b65cf129250860964305454",
+      "output_sha256": "bee3c821dcc23fbe362110a4abc086cd61d6b379e3f4e687334681150c8d3222",
+      "expected_md5": "8da8efd9c05082492d2c5d39dc85417a",
+      "md5_verified": true
+    },
+    {
+      "path": "global/models/default.ltb",
+      "offset": 13312,
+      "stored_bytes": 1720,
+      "output_bytes": 1720,
+      "ciphertext_sha256": "7f553f7fb796db24939d0492d52fcf9a8e36f3ab5a0239fa40731d34938fb50e",
+      "output_sha256": "9ab431b722374aae3a4b8b9fc0c97ded0f31776343916c1b54635ae92cb09d82",
+      "expected_md5": "a557ddded10674337bdcb132e8459782",
+      "md5_verified": true
+    },
+    {
+      "path": "global/models/default.ltc",
+      "offset": 15360,
+      "stored_bytes": 3216,
+      "output_bytes": 3216,
+      "ciphertext_sha256": "121bef5b0b96d3fbac44a2b9d57470f045de0782ce33593aed03f0f9eed854ba",
+      "output_sha256": "e5373837be110f609d710eacd5bb3f55fd7232d44fe6243d0569e1eaedcbe622",
+      "expected_md5": "b0a0be387633764c9197946ace883579",
+      "md5_verified": true
+    },
+    {
+      "path": "global/models/sphere.ltb",
+      "offset": 19456,
+      "stored_bytes": 2056,
+      "output_bytes": 5307,
+      "ciphertext_sha256": "26a2c9d637305177a21279c7e0909d2816ddcfee288a4e742bcf451df41140ab",
+      "output_sha256": "5fc2e41984107c9e0bafd5e10678c36c13b40a87ab8d8b5a3cdeab4f39dc70db",
+      "expected_md5": "e6934bb7dcc6dde469bfb30c6122b022",
+      "md5_verified": true
+    },
+    {
+      "path": "global/models/sphere.ltc",
+      "offset": 22528,
+      "stored_bytes": 6768,
+      "output_bytes": 6767,
+      "ciphertext_sha256": "fd0ccc57d72b5aa515e9969548524fcaa3de1421af6f2253c77f60ffb77f887f",
+      "output_sha256": "71b12395a632f23b6119e8bca6fdec4c9fb76f7f75799f97bc13176e73a6bbc0",
+      "expected_md5": "0df816288c753f95e23668bb220015d7",
+      "md5_verified": true
+    }
+  ],
+  "errors": [],
+  "status": "selected-members-verified",
+  "limitations": [
+    "Only profiles with flags in 0..7 and no block hash table are supported.",
+    "Archived code is never loaded or executed.",
+    "Full package digest remains unknown; selected read ranges have SHA-256."
+  ]
+}

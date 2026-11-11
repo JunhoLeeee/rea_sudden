@@ -1,0 +1,2422 @@
+{
+  "weapons": [
+    {
+      "section": "Weapon1",
+      "source": {
+        "id": 1693,
+        "line": 33030,
+        "path": "extracted\\scripts\\sa_scripts\\weapons.txt",
+        "sha256": "a39a99af3d020c1a5cf9f3b4ac53d5fb73d6f8a92f03b2d063862be2a1676dbe"
+      },
+      "fields": [
+        {
+          "name": "AmmoName0",
+          "raw": "\"SA_Eagle_Ammo\"",
+          "value_json": "\"SA_Eagle_Ammo\"",
+          "line": 33031
+        },
+        {
+          "name": "AniType",
+          "raw": "1",
+          "value_json": "1",
+          "line": 33032
+        },
+        {
+          "name": "BreachOffset",
+          "raw": "<1.000000, -2.000000, 7.000000>",
+          "value_json": "[1.0, -2.0, 7.0]",
+          "line": 33033
+        },
+        {
+          "name": "DryFireSnd",
+          "raw": "\"SA_Weapons\\Snd\\DesertEagle\\DRYFIRE.WAV\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\DesertEagle\\\\DRYFIRE.WAV\"",
+          "line": 33034
+        },
+        {
+          "name": "FireCamRecoilYaw",
+          "raw": "0.010000",
+          "value_json": "0.01",
+          "line": 33035
+        },
+        {
+          "name": "FireCamRecoilYawMax",
+          "raw": "30",
+          "value_json": "30",
+          "line": 33036
+        },
+        {
+          "name": "FireMaxGapOffset",
+          "raw": "30",
+          "value_json": "30",
+          "line": 33037
+        },
+        {
+          "name": "FireRecoilDecay",
+          "raw": "9.000000",
+          "value_json": "9.0",
+          "line": 33038
+        },
+        {
+          "name": "FireRecoilPitch",
+          "raw": "2.200000",
+          "value_json": "2.2",
+          "line": 33039
+        },
+        {
+          "name": "FireRecoilPitchMax",
+          "raw": "4.000000",
+          "value_json": "4.0",
+          "line": 33040
+        },
+        {
+          "name": "FireSnd",
+          "raw": "\"SA_Weapons\\Snd\\DesertEagle\\fire.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\DesertEagle\\\\fire.wav\"",
+          "line": 33041
+        },
+        {
+          "name": "FireSndPackCount",
+          "raw": "1",
+          "value_json": "1",
+          "line": 33042
+        },
+        {
+          "name": "FireSndRadius",
+          "raw": "2000",
+          "value_json": "2000",
+          "line": 33043
+        },
+        {
+          "name": "FireType",
+          "raw": "1",
+          "value_json": "1",
+          "line": 33044
+        },
+        {
+          "name": "HHModel",
+          "raw": "\"SA_Weapons\\Models\\TV\\DesertEgle.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\TV\\\\DesertEgle.ltb\"",
+          "line": 33045
+        },
+        {
+          "name": "HHModelScale",
+          "raw": "<1.000000, 1.000000, 1.000000>",
+          "value_json": "[1.0, 1.0, 1.0]",
+          "line": 33046
+        },
+        {
+          "name": "HHMuzzleFXName0",
+          "raw": "\"SA_Pistol_HH_Muzz0\"",
+          "value_json": "\"SA_Pistol_HH_Muzz0\"",
+          "line": 33047
+        },
+        {
+          "name": "HHMuzzleFXName1",
+          "raw": "\"SA_Pistol_HH_Muzz1\"",
+          "value_json": "\"SA_Pistol_HH_Muzz1\"",
+          "line": 33048
+        },
+        {
+          "name": "HHMuzzleFXName2",
+          "raw": "\"SA_Pistol_HH_Muzz2\"",
+          "value_json": "\"SA_Pistol_HH_Muzz2\"",
+          "line": 33049
+        },
+        {
+          "name": "HHNewModel",
+          "raw": "\"SA_Weapons\\Models\\20_tv\\DesertEagle.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\20_tv\\\\DesertEagle.ltb\"",
+          "line": 33050
+        },
+        {
+          "name": "HHNewSkin0",
+          "raw": "\"SA_Weapons\\Skins\\TV\\DesertEagle.mtl\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\TV\\\\DesertEagle.mtl\"",
+          "line": 33051
+        },
+        {
+          "name": "HHSkin0",
+          "raw": "\"SA_Weapons\\Skins\\TV\\DesertEagle.dtx\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\TV\\\\DesertEagle.dtx\"",
+          "line": 33052
+        },
+        {
+          "name": "Icon",
+          "raw": "\"SA_Interface\\weapon\\D_Eagle\"",
+          "value_json": "\"SA_Interface\\\\weapon\\\\D_Eagle\"",
+          "line": 33053
+        },
+        {
+          "name": "LicenseMainType",
+          "raw": "1",
+          "value_json": "1",
+          "line": 33054
+        },
+        {
+          "name": "LicenseSubType",
+          "raw": "0",
+          "value_json": "0",
+          "line": 33055
+        },
+        {
+          "name": "MaxPerturb",
+          "raw": "64",
+          "value_json": "64",
+          "line": 33056
+        },
+        {
+          "name": "MinPerturb",
+          "raw": "4",
+          "value_json": "4",
+          "line": 33057
+        },
+        {
+          "name": "ModName0",
+          "raw": "\"\"",
+          "value_json": "\"\"",
+          "line": 33058
+        },
+        {
+          "name": "Name",
+          "raw": "\"SA_DesertEagle\"",
+          "value_json": "\"SA_DesertEagle\"",
+          "line": 33059
+        },
+        {
+          "name": "NewBreachOffset",
+          "raw": "<5.000000, -2.000000, 10.000000>",
+          "value_json": "[5.0, -2.0, 10.0]",
+          "line": 33060
+        },
+        {
+          "name": "NewPos",
+          "raw": "<0.000000, 0.000000, 0.000000>",
+          "value_json": "[0.0, 0.0, 0.0]",
+          "line": 33061
+        },
+        {
+          "name": "PVModel",
+          "raw": "\"SA_Weapons\\Models\\PV\\SW\\000.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\PV\\\\SW\\\\000.ltb\"",
+          "line": 33062
+        },
+        {
+          "name": "PVModelAspect",
+          "raw": "1.333000",
+          "value_json": "1.333",
+          "line": 33063
+        },
+        {
+          "name": "PVModelFOVY",
+          "raw": "62.000000",
+          "value_json": "62.0",
+          "line": 33064
+        },
+        {
+          "name": "PVModelFOVYWoman",
+          "raw": "62.000000",
+          "value_json": "62.0",
+          "line": 33065
+        },
+        {
+          "name": "PVModelWoman",
+          "raw": "\"SA_Weapons\\Models\\WPV\\SW\\000.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\WPV\\\\SW\\\\000.ltb\"",
+          "line": 33066
+        },
+        {
+          "name": "PVMuzzleFXNameGI",
+          "raw": "\"2011_Pistol_PV_Muzz\"",
+          "value_json": "\"2011_Pistol_PV_Muzz\"",
+          "line": 33067
+        },
+        {
+          "name": "PVNewModel",
+          "raw": "\"SA_Weapons\\Models\\20_m\\DEagle.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\20_m\\\\DEagle.ltb\"",
+          "line": 33068
+        },
+        {
+          "name": "PVNewModelFOVY",
+          "raw": "58.000000",
+          "value_json": "58.0",
+          "line": 33069
+        },
+        {
+          "name": "PVNewModelFOVYWoman",
+          "raw": "58.000000",
+          "value_json": "58.0",
+          "line": 33070
+        },
+        {
+          "name": "PVNewModelWoman",
+          "raw": "\"SA_Weapons\\Models\\20_w\\DEagle.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\20_w\\\\DEagle.ltb\"",
+          "line": 33071
+        },
+        {
+          "name": "PVNewSkin0",
+          "raw": "\"Hands\"",
+          "value_json": "\"Hands\"",
+          "line": 33072
+        },
+        {
+          "name": "PVNewSkin1",
+          "raw": "\"Arms\"",
+          "value_json": "\"Arms\"",
+          "line": 33073
+        },
+        {
+          "name": "PVNewSkin2",
+          "raw": "\"Sleeve\"",
+          "value_json": "\"Sleeve\"",
+          "line": 33074
+        },
+        {
+          "name": "PVNewSkin3",
+          "raw": "\"SA_Weapons\\Skins\\PV\\DesertEagle.mtl\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\PV\\\\DesertEagle.mtl\"",
+          "line": 33075
+        },
+        {
+          "name": "PVSkin0",
+          "raw": "\"Hands\"",
+          "value_json": "\"Hands\"",
+          "line": 33076
+        },
+        {
+          "name": "PVSkin1",
+          "raw": "\"Arms\"",
+          "value_json": "\"Arms\"",
+          "line": 33077
+        },
+        {
+          "name": "PVSkin2",
+          "raw": "\"Sleeve\"",
+          "value_json": "\"Sleeve\"",
+          "line": 33078
+        },
+        {
+          "name": "PVSkin3",
+          "raw": "\"SA_Weapons\\Skins\\PV\\DesertEagle.dtx\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\PV\\\\DesertEagle.dtx\"",
+          "line": 33079
+        },
+        {
+          "name": "Performance",
+          "raw": "(50, 45, 67, 62)",
+          "value_json": "\"(50, 45, 67, 62)\"",
+          "line": 33080
+        },
+        {
+          "name": "PerturbDecreaseSpeedFire",
+          "raw": "1.960000",
+          "value_json": "1.96",
+          "line": 33081
+        },
+        {
+          "name": "PerturbDuck",
+          "raw": "0.000000",
+          "value_json": "0.0",
+          "line": 33082
+        },
+        {
+          "name": "PerturbIncreaseSpeedFire",
+          "raw": "0.640000",
+          "value_json": "0.64",
+          "line": 33083
+        },
+        {
+          "name": "PerturbMove",
+          "raw": "0.400000",
+          "value_json": "0.4",
+          "line": 33084
+        },
+        {
+          "name": "PerturbStandard",
+          "raw": "0.300000",
+          "value_json": "0.3",
+          "line": 33085
+        },
+        {
+          "name": "Pos",
+          "raw": "<-0.250000, 0.000000, -0.700000>",
+          "value_json": "[-0.25, 0.0, -0.7]",
+          "line": 33086
+        },
+        {
+          "name": "Range",
+          "raw": "5970",
+          "value_json": "5970",
+          "line": 33087
+        },
+        {
+          "name": "ReloadSnd1",
+          "raw": "\"SA_Weapons\\Snd\\DesertEagle\\clipout.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\DesertEagle\\\\clipout.wav\"",
+          "line": 33088
+        },
+        {
+          "name": "ReloadSnd2",
+          "raw": "\"SA_Weapons\\Snd\\DesertEagle\\clipin.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\DesertEagle\\\\clipin.wav\"",
+          "line": 33089
+        },
+        {
+          "name": "ReloadSnd3",
+          "raw": "\"SA_Weapons\\Snd\\DesertEagle\\boltup.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\DesertEagle\\\\boltup.wav\"",
+          "line": 33090
+        },
+        {
+          "name": "SelectSnd",
+          "raw": "\"SA_Weapons\\Snd\\DesertEagle\\select.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\DesertEagle\\\\select.wav\"",
+          "line": 33091
+        },
+        {
+          "name": "ShotsPerClip",
+          "raw": "7",
+          "value_json": "7",
+          "line": 33092
+        },
+        {
+          "name": "UWDryFireSnd",
+          "raw": "\"SA_Weapons\\UWSnd\\DesertEagle\\DRYFIRE.WAV\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\DesertEagle\\\\DRYFIRE.WAV\"",
+          "line": 33093
+        },
+        {
+          "name": "UWFireSnd",
+          "raw": "\"SA_Weapons\\UWSnd\\DesertEagle\\fire.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\DesertEagle\\\\fire.wav\"",
+          "line": 33094
+        },
+        {
+          "name": "UWReloadSnd1",
+          "raw": "\"SA_Weapons\\UWSnd\\DesertEagle\\clipout.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\DesertEagle\\\\clipout.wav\"",
+          "line": 33095
+        },
+        {
+          "name": "UWReloadSnd2",
+          "raw": "\"SA_Weapons\\UWSnd\\DesertEagle\\clipin.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\DesertEagle\\\\clipin.wav\"",
+          "line": 33096
+        },
+        {
+          "name": "UWReloadSnd3",
+          "raw": "\"SA_Weapons\\UWSnd\\DesertEagle\\boltup.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\DesertEagle\\\\boltup.wav\"",
+          "line": 33097
+        },
+        {
+          "name": "UWSelectSnd",
+          "raw": "\"SA_Weapons\\UWSnd\\DesertEagle\\select.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\DesertEagle\\\\select.wav\"",
+          "line": 33098
+        },
+        {
+          "name": "VectorsPerRound",
+          "raw": "1",
+          "value_json": "1",
+          "line": 33099
+        },
+        {
+          "name": "WeaponSndRadius",
+          "raw": "700",
+          "value_json": "700",
+          "line": 33100
+        },
+        {
+          "name": "Weight",
+          "raw": "150.000000",
+          "value_json": "150.0",
+          "line": 33101
+        }
+      ]
+    },
+    {
+      "section": "Weapon3",
+      "source": {
+        "id": 1695,
+        "line": 33176,
+        "path": "extracted\\scripts\\sa_scripts\\weapons.txt",
+        "sha256": "a39a99af3d020c1a5cf9f3b4ac53d5fb73d6f8a92f03b2d063862be2a1676dbe"
+      },
+      "fields": [
+        {
+          "name": "AmmoName0",
+          "raw": "\"SA_AK74u_Ammo\"",
+          "value_json": "\"SA_AK74u_Ammo\"",
+          "line": 33177
+        },
+        {
+          "name": "BreachOffset",
+          "raw": "<5.000000, -5.000000, 12.000000>",
+          "value_json": "[5.0, -5.0, 12.0]",
+          "line": 33178
+        },
+        {
+          "name": "DryFireSnd",
+          "raw": "\"SA_Weapons\\Snd\\AK74U\\DRYFIRE.WAV\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\AK74U\\\\DRYFIRE.WAV\"",
+          "line": 33179
+        },
+        {
+          "name": "FireCamRecoilYaw",
+          "raw": "0.250000",
+          "value_json": "0.25",
+          "line": 33180
+        },
+        {
+          "name": "FireCamRecoilYawMax",
+          "raw": "0.020000",
+          "value_json": "0.02",
+          "line": 33181
+        },
+        {
+          "name": "FireMaxGapOffset",
+          "raw": "10",
+          "value_json": "10",
+          "line": 33182
+        },
+        {
+          "name": "FireRecoilDecay",
+          "raw": "8.500000",
+          "value_json": "8.5",
+          "line": 33183
+        },
+        {
+          "name": "FireRecoilPitch",
+          "raw": "0.475000",
+          "value_json": "0.475",
+          "line": 33184
+        },
+        {
+          "name": "FireRecoilPitchMax",
+          "raw": "1.800000",
+          "value_json": "1.8",
+          "line": 33185
+        },
+        {
+          "name": "FireSnd",
+          "raw": "\"SA_Weapons\\Snd\\AK74U\\fire.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\AK74U\\\\fire.wav\"",
+          "line": 33186
+        },
+        {
+          "name": "FireSndPackCount",
+          "raw": "2",
+          "value_json": "2",
+          "line": 33187
+        },
+        {
+          "name": "FireSndRadius",
+          "raw": "2000",
+          "value_json": "2000",
+          "line": 33188
+        },
+        {
+          "name": "HHModel",
+          "raw": "\"SA_Weapons\\Models\\TV\\Aks74u.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\TV\\\\Aks74u.ltb\"",
+          "line": 33189
+        },
+        {
+          "name": "HHModelScale",
+          "raw": "<1.000000, 1.000000, 1.000000>",
+          "value_json": "[1.0, 1.0, 1.0]",
+          "line": 33190
+        },
+        {
+          "name": "HHMuzzleFXNameGI0",
+          "raw": "\"2011_SMG_HH_Muzz_NSF\"",
+          "value_json": "\"2011_SMG_HH_Muzz_NSF\"",
+          "line": 33191
+        },
+        {
+          "name": "HHMuzzleFXNameGI1",
+          "raw": "\"2011_SMG_HH_Muzz1_NSF\"",
+          "value_json": "\"2011_SMG_HH_Muzz1_NSF\"",
+          "line": 33192
+        },
+        {
+          "name": "HHMuzzleFXNameGI2",
+          "raw": "\"2011_SMG_HH_Muzz2_NSF\"",
+          "value_json": "\"2011_SMG_HH_Muzz2_NSF\"",
+          "line": 33193
+        },
+        {
+          "name": "HHSkin0",
+          "raw": "\"SA_Weapons\\Skins\\TV\\AKs74u.dtx\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\TV\\\\AKs74u.dtx\"",
+          "line": 33194
+        },
+        {
+          "name": "Icon",
+          "raw": "\"SA_Interface\\weapon\\AKS74U\"",
+          "value_json": "\"SA_Interface\\\\weapon\\\\AKS74U\"",
+          "line": 33195
+        },
+        {
+          "name": "MaxPerturb",
+          "raw": "40",
+          "value_json": "40",
+          "line": 33196
+        },
+        {
+          "name": "MinPerturb",
+          "raw": "3",
+          "value_json": "3",
+          "line": 33197
+        },
+        {
+          "name": "ModName0",
+          "raw": "\"\"",
+          "value_json": "\"\"",
+          "line": 33198
+        },
+        {
+          "name": "Name",
+          "raw": "\"SA_AK74u\"",
+          "value_json": "\"SA_AK74u\"",
+          "line": 33199
+        },
+        {
+          "name": "PVModel",
+          "raw": "\"SA_Weapons\\Models\\PV\\PW\\000.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\PV\\\\PW\\\\000.ltb\"",
+          "line": 33200
+        },
+        {
+          "name": "PVModelAspect",
+          "raw": "1.333333",
+          "value_json": "1.333333",
+          "line": 33201
+        },
+        {
+          "name": "PVModelFOVY",
+          "raw": "53.000000",
+          "value_json": "53.0",
+          "line": 33202
+        },
+        {
+          "name": "PVModelFOVYWoman",
+          "raw": "53.000000",
+          "value_json": "53.0",
+          "line": 33203
+        },
+        {
+          "name": "PVModelWoman",
+          "raw": "\"SA_Weapons\\Models\\WPV\\PW\\000.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\WPV\\\\PW\\\\000.ltb\"",
+          "line": 33204
+        },
+        {
+          "name": "PVMuzzleFXNameGI",
+          "raw": "\"2011_SMG_PV_Muzz_NSF\"",
+          "value_json": "\"2011_SMG_PV_Muzz_NSF\"",
+          "line": 33205
+        },
+        {
+          "name": "PVSkin0",
+          "raw": "\"Hands\"",
+          "value_json": "\"Hands\"",
+          "line": 33206
+        },
+        {
+          "name": "PVSkin1",
+          "raw": "\"Arms\"",
+          "value_json": "\"Arms\"",
+          "line": 33207
+        },
+        {
+          "name": "PVSkin2",
+          "raw": "\"Sleeve\"",
+          "value_json": "\"Sleeve\"",
+          "line": 33208
+        },
+        {
+          "name": "PVSkin3",
+          "raw": "\"SA_Weapons\\Skins\\PV\\Aks74u.dtx\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\PV\\\\Aks74u.dtx\"",
+          "line": 33209
+        },
+        {
+          "name": "Performance",
+          "raw": "(32, 80, 82, 41)",
+          "value_json": "\"(32, 80, 82, 41)\"",
+          "line": 33210
+        },
+        {
+          "name": "PerturbDecreaseSpeedFire",
+          "raw": "4.200000",
+          "value_json": "4.2",
+          "line": 33211
+        },
+        {
+          "name": "PerturbDuck",
+          "raw": "0.100000",
+          "value_json": "0.1",
+          "line": 33212
+        },
+        {
+          "name": "PerturbIncreaseSpeedFire",
+          "raw": "0.400000",
+          "value_json": "0.4",
+          "line": 33213
+        },
+        {
+          "name": "PerturbMove",
+          "raw": "0.200000",
+          "value_json": "0.2",
+          "line": 33214
+        },
+        {
+          "name": "PerturbStandard",
+          "raw": "0.150000",
+          "value_json": "0.15",
+          "line": 33215
+        },
+        {
+          "name": "Range",
+          "raw": "7600",
+          "value_json": "7600",
+          "line": 33216
+        },
+        {
+          "name": "ReloadSnd1",
+          "raw": "\"SA_Weapons\\Snd\\AK74U\\clipout.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\AK74U\\\\clipout.wav\"",
+          "line": 33217
+        },
+        {
+          "name": "ReloadSnd2",
+          "raw": "\"SA_Weapons\\Snd\\AK74U\\clipin.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\AK74U\\\\clipin.wav\"",
+          "line": 33218
+        },
+        {
+          "name": "ReloadSnd3",
+          "raw": "\"SA_Weapons\\Snd\\AK74U\\boltup.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\AK74U\\\\boltup.wav\"",
+          "line": 33219
+        },
+        {
+          "name": "SelectSnd",
+          "raw": "\"SA_Weapons\\Snd\\AK74U\\Select.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\AK74U\\\\Select.wav\"",
+          "line": 33220
+        },
+        {
+          "name": "ShotsPerClip",
+          "raw": "30",
+          "value_json": "30",
+          "line": 33221
+        },
+        {
+          "name": "SubAniType",
+          "raw": "200",
+          "value_json": "200",
+          "line": 33222
+        },
+        {
+          "name": "UWDryFireSnd",
+          "raw": "\"SA_Weapons\\UWSnd\\AK74U\\DRYFIRE.WAV\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\AK74U\\\\DRYFIRE.WAV\"",
+          "line": 33223
+        },
+        {
+          "name": "UWFireSnd",
+          "raw": "\"SA_Weapons\\UWSnd\\AK74U\\fire.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\AK74U\\\\fire.wav\"",
+          "line": 33224
+        },
+        {
+          "name": "UWReloadSnd1",
+          "raw": "\"SA_Weapons\\UWSnd\\AK74U\\clipout.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\AK74U\\\\clipout.wav\"",
+          "line": 33225
+        },
+        {
+          "name": "UWReloadSnd2",
+          "raw": "\"SA_Weapons\\UWSnd\\AK74U\\clipin.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\AK74U\\\\clipin.wav\"",
+          "line": 33226
+        },
+        {
+          "name": "UWReloadSnd3",
+          "raw": "\"SA_Weapons\\UWSnd\\AK74U\\boltup.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\AK74U\\\\boltup.wav\"",
+          "line": 33227
+        },
+        {
+          "name": "UWSelectSnd",
+          "raw": "\"SA_Weapons\\UWSnd\\AK74U\\Select.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\AK74U\\\\Select.wav\"",
+          "line": 33228
+        },
+        {
+          "name": "VectorsPerRound",
+          "raw": "1",
+          "value_json": "1",
+          "line": 33229
+        },
+        {
+          "name": "WeaponSndRadius",
+          "raw": "700",
+          "value_json": "700",
+          "line": 33230
+        },
+        {
+          "name": "Weight",
+          "raw": "225.000000",
+          "value_json": "225.0",
+          "line": 33231
+        }
+      ]
+    },
+    {
+      "section": "Weapon4",
+      "source": {
+        "id": 1696,
+        "line": 33234,
+        "path": "extracted\\scripts\\sa_scripts\\weapons.txt",
+        "sha256": "a39a99af3d020c1a5cf9f3b4ac53d5fb73d6f8a92f03b2d063862be2a1676dbe"
+      },
+      "fields": [
+        {
+          "name": "AmmoName0",
+          "raw": "\"SA_M4A3_Ammo\"",
+          "value_json": "\"SA_M4A3_Ammo\"",
+          "line": 33235
+        },
+        {
+          "name": "BreachDirMul",
+          "raw": "-1",
+          "value_json": "-1",
+          "line": 33236
+        },
+        {
+          "name": "BreachOffset",
+          "raw": "<6.000000, -6.000000, 7.000000>",
+          "value_json": "[6.0, -6.0, 7.0]",
+          "line": 33237
+        },
+        {
+          "name": "DryFireSnd",
+          "raw": "\"SA_Weapons\\Snd\\M4A3\\DRYFIRE.WAV\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\M4A3\\\\DRYFIRE.WAV\"",
+          "line": 33238
+        },
+        {
+          "name": "FireCamRecoilYaw",
+          "raw": "0.250000",
+          "value_json": "0.25",
+          "line": 33239
+        },
+        {
+          "name": "FireCamRecoilYawMax",
+          "raw": "0.030000",
+          "value_json": "0.03",
+          "line": 33240
+        },
+        {
+          "name": "FireMaxGapOffset",
+          "raw": "7",
+          "value_json": "7",
+          "line": 33241
+        },
+        {
+          "name": "FireRecoilDecay",
+          "raw": "8.250000",
+          "value_json": "8.25",
+          "line": 33242
+        },
+        {
+          "name": "FireRecoilPitch",
+          "raw": "0.300000",
+          "value_json": "0.3",
+          "line": 33243
+        },
+        {
+          "name": "FireRecoilPitchMax",
+          "raw": "2.500000",
+          "value_json": "2.5",
+          "line": 33244
+        },
+        {
+          "name": "FireSnd",
+          "raw": "\"SA_Weapons\\Snd\\M4A3\\fire.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\M4A3\\\\fire.wav\"",
+          "line": 33245
+        },
+        {
+          "name": "FireSndPackCount",
+          "raw": "2",
+          "value_json": "2",
+          "line": 33246
+        },
+        {
+          "name": "FireSndRadius",
+          "raw": "2000",
+          "value_json": "2000",
+          "line": 33247
+        },
+        {
+          "name": "HHModel",
+          "raw": "\"SA_Weapons\\Models\\TV\\M4A1.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\TV\\\\M4A1.ltb\"",
+          "line": 33248
+        },
+        {
+          "name": "HHModelScale",
+          "raw": "<2.000000, 2.000000, 2.000000>",
+          "value_json": "[2.0, 2.0, 2.0]",
+          "line": 33249
+        },
+        {
+          "name": "HHMuzzleFXName0",
+          "raw": "\"SA_Rifle_HH_Muzz\"",
+          "value_json": "\"SA_Rifle_HH_Muzz\"",
+          "line": 33250
+        },
+        {
+          "name": "HHMuzzleFXName1",
+          "raw": "\"SA_Rifle_HH_Muzz1\"",
+          "value_json": "\"SA_Rifle_HH_Muzz1\"",
+          "line": 33251
+        },
+        {
+          "name": "HHMuzzleFXName2",
+          "raw": "\"SA_Rifle_HH_Muzz2\"",
+          "value_json": "\"SA_Rifle_HH_Muzz2\"",
+          "line": 33252
+        },
+        {
+          "name": "HHNewModel",
+          "raw": "\"SA_Weapons\\Models\\20_tv\\M4A1.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\20_tv\\\\M4A1.ltb\"",
+          "line": 33253
+        },
+        {
+          "name": "HHNewSkin0",
+          "raw": "\"SA_Weapons\\Skins\\TV\\M4A1.mtl\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\TV\\\\M4A1.mtl\"",
+          "line": 33254
+        },
+        {
+          "name": "HHSkin0",
+          "raw": "\"SA_Weapons\\Skins\\TV\\M4A1.dtx\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\TV\\\\M4A1.dtx\"",
+          "line": 33255
+        },
+        {
+          "name": "Icon",
+          "raw": "\"SA_Interface\\weapon\\M4A1\"",
+          "value_json": "\"SA_Interface\\\\weapon\\\\M4A1\"",
+          "line": 33256
+        },
+        {
+          "name": "LicenseMainType",
+          "raw": "0",
+          "value_json": "0",
+          "line": 33257
+        },
+        {
+          "name": "LicenseSubType",
+          "raw": "4",
+          "value_json": "4",
+          "line": 33258
+        },
+        {
+          "name": "MaxPerturb",
+          "raw": "55",
+          "value_json": "55",
+          "line": 33259
+        },
+        {
+          "name": "MinPerturb",
+          "raw": "2",
+          "value_json": "2",
+          "line": 33260
+        },
+        {
+          "name": "ModName0",
+          "raw": "\"\"",
+          "value_json": "\"\"",
+          "line": 33261
+        },
+        {
+          "name": "Name",
+          "raw": "\"SA_M4A3\"",
+          "value_json": "\"SA_M4A3\"",
+          "line": 33262
+        },
+        {
+          "name": "NewBreachOffset",
+          "raw": "<4.000000, -4.300000, 5.500000>",
+          "value_json": "[4.0, -4.3, 5.5]",
+          "line": 33263
+        },
+        {
+          "name": "PVModel",
+          "raw": "\"SA_Weapons\\Models\\PV\\PW\\001.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\PV\\\\PW\\\\001.ltb\"",
+          "line": 33264
+        },
+        {
+          "name": "PVModelAspect",
+          "raw": "1.333333",
+          "value_json": "1.333333",
+          "line": 33265
+        },
+        {
+          "name": "PVModelFOVY",
+          "raw": "51.481000",
+          "value_json": "51.481",
+          "line": 33266
+        },
+        {
+          "name": "PVModelFOVYWoman",
+          "raw": "51.481000",
+          "value_json": "51.481",
+          "line": 33267
+        },
+        {
+          "name": "PVModelWoman",
+          "raw": "\"SA_Weapons\\Models\\WPV\\PW\\001.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\WPV\\\\PW\\\\001.ltb\"",
+          "line": 33268
+        },
+        {
+          "name": "PVMuzzleFXNameGI",
+          "raw": "\"2011_Rifle_PV_Muzz\"",
+          "value_json": "\"2011_Rifle_PV_Muzz\"",
+          "line": 33269
+        },
+        {
+          "name": "PVNewModel",
+          "raw": "\"SA_Weapons\\Models\\20_m\\M4A1.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\20_m\\\\M4A1.ltb\"",
+          "line": 33270
+        },
+        {
+          "name": "PVNewModelFOVY",
+          "raw": "52",
+          "value_json": "52",
+          "line": 33271
+        },
+        {
+          "name": "PVNewModelFOVYWoman",
+          "raw": "52",
+          "value_json": "52",
+          "line": 33272
+        },
+        {
+          "name": "PVNewModelWoman",
+          "raw": "\"SA_Weapons\\Models\\20_w\\M4A1.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\20_w\\\\M4A1.ltb\"",
+          "line": 33273
+        },
+        {
+          "name": "PVNewSkin0",
+          "raw": "\"Hands\"",
+          "value_json": "\"Hands\"",
+          "line": 33274
+        },
+        {
+          "name": "PVNewSkin1",
+          "raw": "\"Arms\"",
+          "value_json": "\"Arms\"",
+          "line": 33275
+        },
+        {
+          "name": "PVNewSkin2",
+          "raw": "\"Sleeve\"",
+          "value_json": "\"Sleeve\"",
+          "line": 33276
+        },
+        {
+          "name": "PVNewSkin3",
+          "raw": "\"SA_Weapons\\Skins\\PV\\m4a1.mtl\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\PV\\\\m4a1.mtl\"",
+          "line": 33277
+        },
+        {
+          "name": "PVSkin0",
+          "raw": "\"Hands\"",
+          "value_json": "\"Hands\"",
+          "line": 33278
+        },
+        {
+          "name": "PVSkin1",
+          "raw": "\"Arms\"",
+          "value_json": "\"Arms\"",
+          "line": 33279
+        },
+        {
+          "name": "PVSkin2",
+          "raw": "\"Sleeve\"",
+          "value_json": "\"Sleeve\"",
+          "line": 33280
+        },
+        {
+          "name": "PVSkin3",
+          "raw": "\"SA_Weapons\\Skins\\PV\\M4a1.dtx\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\PV\\\\M4a1.dtx\"",
+          "line": 33281
+        },
+        {
+          "name": "Performance",
+          "raw": "(37, 82, 88, 40)",
+          "value_json": "\"(37, 82, 88, 40)\"",
+          "line": 33282
+        },
+        {
+          "name": "PerturbDecreaseSpeedFire",
+          "raw": "2.280000",
+          "value_json": "2.28",
+          "line": 33283
+        },
+        {
+          "name": "PerturbDuck",
+          "raw": "0.000000",
+          "value_json": "0.0",
+          "line": 33284
+        },
+        {
+          "name": "PerturbIncreaseSpeedFire",
+          "raw": "0.320000",
+          "value_json": "0.32",
+          "line": 33285
+        },
+        {
+          "name": "PerturbMove",
+          "raw": "0.200000",
+          "value_json": "0.2",
+          "line": 33286
+        },
+        {
+          "name": "PerturbStandard",
+          "raw": "0.100000",
+          "value_json": "0.1",
+          "line": 33287
+        },
+        {
+          "name": "Range",
+          "raw": "7600",
+          "value_json": "7600",
+          "line": 33288
+        },
+        {
+          "name": "ReloadSnd1",
+          "raw": "\"SA_Weapons\\Snd\\M4A3\\clipout.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\M4A3\\\\clipout.wav\"",
+          "line": 33289
+        },
+        {
+          "name": "ReloadSnd2",
+          "raw": "\"SA_Weapons\\Snd\\M4A3\\clipin.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\M4A3\\\\clipin.wav\"",
+          "line": 33290
+        },
+        {
+          "name": "ReloadSnd3",
+          "raw": "\"SA_Weapons\\Snd\\M4A3\\boltup.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\M4A3\\\\boltup.wav\"",
+          "line": 33291
+        },
+        {
+          "name": "SelectSnd",
+          "raw": "\"SA_Weapons\\Snd\\M4A3\\Select.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\M4A3\\\\Select.wav\"",
+          "line": 33292
+        },
+        {
+          "name": "ShotsPerClip",
+          "raw": "30",
+          "value_json": "30",
+          "line": 33293
+        },
+        {
+          "name": "UWDryFireSnd",
+          "raw": "\"SA_Weapons\\UWSnd\\M4A3\\DRYFIRE.WAV\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\M4A3\\\\DRYFIRE.WAV\"",
+          "line": 33294
+        },
+        {
+          "name": "UWFireSnd",
+          "raw": "\"SA_Weapons\\UWSnd\\M4A3\\fire.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\M4A3\\\\fire.wav\"",
+          "line": 33295
+        },
+        {
+          "name": "UWReloadSnd1",
+          "raw": "\"SA_Weapons\\UWSnd\\M4A3\\clipout.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\M4A3\\\\clipout.wav\"",
+          "line": 33296
+        },
+        {
+          "name": "UWReloadSnd2",
+          "raw": "\"SA_Weapons\\UWSnd\\M4A3\\clipin.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\M4A3\\\\clipin.wav\"",
+          "line": 33297
+        },
+        {
+          "name": "UWReloadSnd3",
+          "raw": "\"SA_Weapons\\UWSnd\\M4A3\\boltup.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\M4A3\\\\boltup.wav\"",
+          "line": 33298
+        },
+        {
+          "name": "UWSelectSnd",
+          "raw": "\"SA_Weapons\\UWSnd\\M4A3\\Select.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\M4A3\\\\Select.wav\"",
+          "line": 33299
+        },
+        {
+          "name": "VectorsPerRound",
+          "raw": "1",
+          "value_json": "1",
+          "line": 33300
+        },
+        {
+          "name": "WeaponSndRadius",
+          "raw": "700",
+          "value_json": "700",
+          "line": 33301
+        },
+        {
+          "name": "Weight",
+          "raw": "230.000000",
+          "value_json": "230.0",
+          "line": 33302
+        }
+      ]
+    },
+    {
+      "section": "Weapon9",
+      "source": {
+        "id": 1701,
+        "line": 33540,
+        "path": "extracted\\scripts\\sa_scripts\\weapons.txt",
+        "sha256": "a39a99af3d020c1a5cf9f3b4ac53d5fb73d6f8a92f03b2d063862be2a1676dbe"
+      },
+      "fields": [
+        {
+          "name": "AmmoName0",
+          "raw": "\"SA_AKs47_Ammo\"",
+          "value_json": "\"SA_AKs47_Ammo\"",
+          "line": 33541
+        },
+        {
+          "name": "BreachDirMul",
+          "raw": "-1",
+          "value_json": "-1",
+          "line": 33542
+        },
+        {
+          "name": "BreachOffset",
+          "raw": "<3.000000, -4.000000, 9.000000>",
+          "value_json": "[3.0, -4.0, 9.0]",
+          "line": 33543
+        },
+        {
+          "name": "DryFireSnd",
+          "raw": "\"SA_Weapons\\Snd\\AK47\\DRYFIRE.WAV\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\AK47\\\\DRYFIRE.WAV\"",
+          "line": 33544
+        },
+        {
+          "name": "FireCamRecoilYaw",
+          "raw": "0.450000",
+          "value_json": "0.45",
+          "line": 33545
+        },
+        {
+          "name": "FireCamRecoilYawMax",
+          "raw": "0.060000",
+          "value_json": "0.06",
+          "line": 33546
+        },
+        {
+          "name": "FireMaxGapOffset",
+          "raw": "50",
+          "value_json": "50",
+          "line": 33547
+        },
+        {
+          "name": "FireRecoilDecay",
+          "raw": "10.700000",
+          "value_json": "10.7",
+          "line": 33548
+        },
+        {
+          "name": "FireRecoilPitch",
+          "raw": "0.730000",
+          "value_json": "0.73",
+          "line": 33549
+        },
+        {
+          "name": "FireRecoilPitchMax",
+          "raw": "4.700000",
+          "value_json": "4.7",
+          "line": 33550
+        },
+        {
+          "name": "FireSnd",
+          "raw": "\"SA_Weapons\\Snd\\AK47\\fire.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\AK47\\\\fire.wav\"",
+          "line": 33551
+        },
+        {
+          "name": "FireSndPackCount",
+          "raw": "2",
+          "value_json": "2",
+          "line": 33552
+        },
+        {
+          "name": "FireSndRadius",
+          "raw": "2000",
+          "value_json": "2000",
+          "line": 33553
+        },
+        {
+          "name": "HHModel",
+          "raw": "\"SA_Weapons\\Models\\TV\\AK47.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\TV\\\\AK47.ltb\"",
+          "line": 33554
+        },
+        {
+          "name": "HHModelScale",
+          "raw": "<1.000000, 1.000000, 1.000000>",
+          "value_json": "[1.0, 1.0, 1.0]",
+          "line": 33555
+        },
+        {
+          "name": "HHMuzzleFXName0",
+          "raw": "\"SA_Rifle_HH_Muzz_NSF\"",
+          "value_json": "\"SA_Rifle_HH_Muzz_NSF\"",
+          "line": 33556
+        },
+        {
+          "name": "HHMuzzleFXName1",
+          "raw": "\"SA_Rifle_HH_Muzz1_NSF\"",
+          "value_json": "\"SA_Rifle_HH_Muzz1_NSF\"",
+          "line": 33557
+        },
+        {
+          "name": "HHMuzzleFXName2",
+          "raw": "\"SA_Rifle_HH_Muzz2_NSF\"",
+          "value_json": "\"SA_Rifle_HH_Muzz2_NSF\"",
+          "line": 33558
+        },
+        {
+          "name": "HHNewModel",
+          "raw": "\"SA_Weapons\\Models\\20_tv\\AK47.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\20_tv\\\\AK47.ltb\"",
+          "line": 33559
+        },
+        {
+          "name": "HHNewSkin0",
+          "raw": "\"SA_Weapons\\Skins\\TV\\ak47.mtl\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\TV\\\\ak47.mtl\"",
+          "line": 33560
+        },
+        {
+          "name": "HHSkin0",
+          "raw": "\"SA_Weapons\\Skins\\TV\\ak47.dtx\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\TV\\\\ak47.dtx\"",
+          "line": 33561
+        },
+        {
+          "name": "Icon",
+          "raw": "\"SA_Interface\\weapon\\AK47\"",
+          "value_json": "\"SA_Interface\\\\weapon\\\\AK47\"",
+          "line": 33562
+        },
+        {
+          "name": "LicenseMainType",
+          "raw": "0",
+          "value_json": "0",
+          "line": 33563
+        },
+        {
+          "name": "LicenseSubType",
+          "raw": "0",
+          "value_json": "0",
+          "line": 33564
+        },
+        {
+          "name": "MaxPerturb",
+          "raw": "40",
+          "value_json": "40",
+          "line": 33565
+        },
+        {
+          "name": "MinPerturb",
+          "raw": "3",
+          "value_json": "3",
+          "line": 33566
+        },
+        {
+          "name": "ModName0",
+          "raw": "\"\"",
+          "value_json": "\"\"",
+          "line": 33567
+        },
+        {
+          "name": "Name",
+          "raw": "\"SA_AKs47\"",
+          "value_json": "\"SA_AKs47\"",
+          "line": 33568
+        },
+        {
+          "name": "NewPos",
+          "raw": "<0.000000, 0.000000, 0.000000>",
+          "value_json": "[0.0, 0.0, 0.0]",
+          "line": 33569
+        },
+        {
+          "name": "PVModel",
+          "raw": "\"SA_Weapons\\Models\\PV\\PW\\005.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\PV\\\\PW\\\\005.ltb\"",
+          "line": 33570
+        },
+        {
+          "name": "PVModelAspect",
+          "raw": "1.333333",
+          "value_json": "1.333333",
+          "line": 33571
+        },
+        {
+          "name": "PVModelFOVY",
+          "raw": "51.481000",
+          "value_json": "51.481",
+          "line": 33572
+        },
+        {
+          "name": "PVModelFOVYWoman",
+          "raw": "51.481000",
+          "value_json": "51.481",
+          "line": 33573
+        },
+        {
+          "name": "PVModelWoman",
+          "raw": "\"SA_Weapons\\Models\\WPV\\PW\\005.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\WPV\\\\PW\\\\005.ltb\"",
+          "line": 33574
+        },
+        {
+          "name": "PVMuzzleFXNameGI",
+          "raw": "\"2011_Rifle_PV_Muzz_NSF\"",
+          "value_json": "\"2011_Rifle_PV_Muzz_NSF\"",
+          "line": 33575
+        },
+        {
+          "name": "PVNewModel",
+          "raw": "\"SA_Weapons\\Models\\20_m\\AK47.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\20_m\\\\AK47.ltb\"",
+          "line": 33576
+        },
+        {
+          "name": "PVNewModelFOVY",
+          "raw": "53",
+          "value_json": "53",
+          "line": 33577
+        },
+        {
+          "name": "PVNewModelFOVYWoman",
+          "raw": "53",
+          "value_json": "53",
+          "line": 33578
+        },
+        {
+          "name": "PVNewModelWoman",
+          "raw": "\"SA_Weapons\\Models\\20_w\\AK47.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\20_w\\\\AK47.ltb\"",
+          "line": 33579
+        },
+        {
+          "name": "PVNewSkin0",
+          "raw": "\"Hands\"",
+          "value_json": "\"Hands\"",
+          "line": 33580
+        },
+        {
+          "name": "PVNewSkin1",
+          "raw": "\"Arms\"",
+          "value_json": "\"Arms\"",
+          "line": 33581
+        },
+        {
+          "name": "PVNewSkin2",
+          "raw": "\"Sleeve\"",
+          "value_json": "\"Sleeve\"",
+          "line": 33582
+        },
+        {
+          "name": "PVNewSkin3",
+          "raw": "\"SA_Weapons\\Skins\\pv\\AK47.mtl\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\pv\\\\AK47.mtl\"",
+          "line": 33583
+        },
+        {
+          "name": "PVSkin0",
+          "raw": "\"Hands\"",
+          "value_json": "\"Hands\"",
+          "line": 33584
+        },
+        {
+          "name": "PVSkin1",
+          "raw": "\"Arms\"",
+          "value_json": "\"Arms\"",
+          "line": 33585
+        },
+        {
+          "name": "PVSkin2",
+          "raw": "\"Sleeve\"",
+          "value_json": "\"Sleeve\"",
+          "line": 33586
+        },
+        {
+          "name": "PVSkin3",
+          "raw": "\"SA_Weapons\\Skins\\PV\\ak47.dtx\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\PV\\\\ak47.dtx\"",
+          "line": 33587
+        },
+        {
+          "name": "Performance",
+          "raw": "(47, 72, 87, 84)",
+          "value_json": "\"(47, 72, 87, 84)\"",
+          "line": 33588
+        },
+        {
+          "name": "PerturbDecreaseSpeedFire",
+          "raw": "2.100000",
+          "value_json": "2.1",
+          "line": 33589
+        },
+        {
+          "name": "PerturbDuck",
+          "raw": "0.000000",
+          "value_json": "0.0",
+          "line": 33590
+        },
+        {
+          "name": "PerturbIncreaseSpeedFire",
+          "raw": "0.317000",
+          "value_json": "0.317",
+          "line": 33591
+        },
+        {
+          "name": "PerturbMove",
+          "raw": "0.200000",
+          "value_json": "0.2",
+          "line": 33592
+        },
+        {
+          "name": "PerturbStandard",
+          "raw": "0.100000",
+          "value_json": "0.1",
+          "line": 33593
+        },
+        {
+          "name": "Pos",
+          "raw": "<0.000000, 0.100000, -0.100000>",
+          "value_json": "[0.0, 0.1, -0.1]",
+          "line": 33594
+        },
+        {
+          "name": "Range",
+          "raw": "7750",
+          "value_json": "7750",
+          "line": 33595
+        },
+        {
+          "name": "ReloadSnd1",
+          "raw": "\"SA_Weapons\\Snd\\AK47\\clipout.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\AK47\\\\clipout.wav\"",
+          "line": 33596
+        },
+        {
+          "name": "ReloadSnd2",
+          "raw": "\"SA_Weapons\\Snd\\AK47\\clipin.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\AK47\\\\clipin.wav\"",
+          "line": 33597
+        },
+        {
+          "name": "ReloadSnd3",
+          "raw": "\"SA_Weapons\\Snd\\AK47\\boltup.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\AK47\\\\boltup.wav\"",
+          "line": 33598
+        },
+        {
+          "name": "SelectSnd",
+          "raw": "\"SA_Weapons\\Snd\\AK47\\Select.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\AK47\\\\Select.wav\"",
+          "line": 33599
+        },
+        {
+          "name": "ShotsPerClip",
+          "raw": "30",
+          "value_json": "30",
+          "line": 33600
+        },
+        {
+          "name": "UWDryFireSnd",
+          "raw": "\"SA_Weapons\\UWSnd\\AK47\\DRYFIRE.WAV\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\AK47\\\\DRYFIRE.WAV\"",
+          "line": 33601
+        },
+        {
+          "name": "UWFireSnd",
+          "raw": "\"SA_Weapons\\UWSnd\\AK47\\fire.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\AK47\\\\fire.wav\"",
+          "line": 33602
+        },
+        {
+          "name": "UWReloadSnd1",
+          "raw": "\"SA_Weapons\\UWSnd\\AK47\\clipout.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\AK47\\\\clipout.wav\"",
+          "line": 33603
+        },
+        {
+          "name": "UWReloadSnd2",
+          "raw": "\"SA_Weapons\\UWSnd\\AK47\\clipin.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\AK47\\\\clipin.wav\"",
+          "line": 33604
+        },
+        {
+          "name": "UWReloadSnd3",
+          "raw": "\"SA_Weapons\\UWSnd\\AK47\\boltup.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\AK47\\\\boltup.wav\"",
+          "line": 33605
+        },
+        {
+          "name": "UWSelectSnd",
+          "raw": "\"SA_Weapons\\UWSnd\\AK47\\Select.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\AK47\\\\Select.wav\"",
+          "line": 33606
+        },
+        {
+          "name": "VectorsPerRound",
+          "raw": "1",
+          "value_json": "1",
+          "line": 33607
+        },
+        {
+          "name": "WeaponSndRadius",
+          "raw": "700",
+          "value_json": "700",
+          "line": 33608
+        },
+        {
+          "name": "Weight",
+          "raw": "235.000000",
+          "value_json": "235.0",
+          "line": 33609
+        }
+      ]
+    },
+    {
+      "section": "Weapon22",
+      "source": {
+        "id": 1714,
+        "line": 34306,
+        "path": "extracted\\scripts\\sa_scripts\\weapons.txt",
+        "sha256": "a39a99af3d020c1a5cf9f3b4ac53d5fb73d6f8a92f03b2d063862be2a1676dbe"
+      },
+      "fields": [
+        {
+          "name": "AmmoName0",
+          "raw": "\"SA_TRG21_Ammo\"",
+          "value_json": "\"SA_TRG21_Ammo\"",
+          "line": 34307
+        },
+        {
+          "name": "AniType",
+          "raw": "4",
+          "value_json": "4",
+          "line": 34308
+        },
+        {
+          "name": "BreachOffset",
+          "raw": "<5.000000, -3.000000, 10.000000>",
+          "value_json": "[5.0, -3.0, 10.0]",
+          "line": 34309
+        },
+        {
+          "name": "DryFireSnd",
+          "raw": "\"SA_Weapons\\Snd\\Trg21\\DRYFIRE.WAV\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\Trg21\\\\DRYFIRE.WAV\"",
+          "line": 34310
+        },
+        {
+          "name": "FireCamRecoilYaw",
+          "raw": "0.000000",
+          "value_json": "0.0",
+          "line": 34311
+        },
+        {
+          "name": "FireCamRecoilYawMax",
+          "raw": "0",
+          "value_json": "0",
+          "line": 34312
+        },
+        {
+          "name": "FireMaxGapOffset",
+          "raw": "20",
+          "value_json": "20",
+          "line": 34313
+        },
+        {
+          "name": "FireRecoilDecay",
+          "raw": "20.300000",
+          "value_json": "20.3",
+          "line": 34314
+        },
+        {
+          "name": "FireRecoilPitch",
+          "raw": "2.500000",
+          "value_json": "2.5",
+          "line": 34315
+        },
+        {
+          "name": "FireRecoilPitchMax",
+          "raw": "4.000000",
+          "value_json": "4.0",
+          "line": 34316
+        },
+        {
+          "name": "FireSnd",
+          "raw": "\"SA_Weapons\\Snd\\Trg21\\fire.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\Trg21\\\\fire.wav\"",
+          "line": 34317
+        },
+        {
+          "name": "FireSndPackCount",
+          "raw": "2",
+          "value_json": "2",
+          "line": 34318
+        },
+        {
+          "name": "FireSndRadius",
+          "raw": "2000",
+          "value_json": "2000",
+          "line": 34319
+        },
+        {
+          "name": "FireType",
+          "raw": "1",
+          "value_json": "1",
+          "line": 34320
+        },
+        {
+          "name": "HHModel",
+          "raw": "\"SA_Weapons\\Models\\TV\\Trg21.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\TV\\\\Trg21.ltb\"",
+          "line": 34321
+        },
+        {
+          "name": "HHModelScale",
+          "raw": "<1.000000, 1.000000, 1.000000>",
+          "value_json": "[1.0, 1.0, 1.0]",
+          "line": 34322
+        },
+        {
+          "name": "HHMuzzleFXName0",
+          "raw": "\"SA_Rifle_HH_Muzz_NSF\"",
+          "value_json": "\"SA_Rifle_HH_Muzz_NSF\"",
+          "line": 34323
+        },
+        {
+          "name": "HHMuzzleFXName1",
+          "raw": "\"SA_Rifle_HH_Muzz1_NSF\"",
+          "value_json": "\"SA_Rifle_HH_Muzz1_NSF\"",
+          "line": 34324
+        },
+        {
+          "name": "HHMuzzleFXName2",
+          "raw": "\"SA_Rifle_HH_Muzz2_NSF\"",
+          "value_json": "\"SA_Rifle_HH_Muzz2_NSF\"",
+          "line": 34325
+        },
+        {
+          "name": "HHNewModel",
+          "raw": "\"SA_Weapons\\Models\\20_TV\\Trg21.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\20_TV\\\\Trg21.ltb\"",
+          "line": 34326
+        },
+        {
+          "name": "HHNewSkin0",
+          "raw": "\"SA_Weapons\\Skins\\TV\\Trg21.mtl\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\TV\\\\Trg21.mtl\"",
+          "line": 34327
+        },
+        {
+          "name": "HHSkin0",
+          "raw": "\"SA_Weapons\\Skins\\TV\\Trg21.dtx\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\TV\\\\Trg21.dtx\"",
+          "line": 34328
+        },
+        {
+          "name": "Icon",
+          "raw": "\"SA_Interface\\weapon\\Trg21\"",
+          "value_json": "\"SA_Interface\\\\weapon\\\\Trg21\"",
+          "line": 34329
+        },
+        {
+          "name": "LicenseMainType",
+          "raw": "0",
+          "value_json": "0",
+          "line": 34330
+        },
+        {
+          "name": "LicenseSubType",
+          "raw": "1",
+          "value_json": "1",
+          "line": 34331
+        },
+        {
+          "name": "MaxPerturb",
+          "raw": "78",
+          "value_json": "78",
+          "line": 34332
+        },
+        {
+          "name": "ModName0",
+          "raw": "\"Li_Scope\"",
+          "value_json": "\"Li_Scope\"",
+          "line": 34333
+        },
+        {
+          "name": "ModName1",
+          "raw": "\"Li_Silencer\"",
+          "value_json": "\"Li_Silencer\"",
+          "line": 34334
+        },
+        {
+          "name": "Name",
+          "raw": "\"SA_TRG21\"",
+          "value_json": "\"SA_TRG21\"",
+          "line": 34335
+        },
+        {
+          "name": "NewBreachOffset",
+          "raw": "<5.000000, -3.000000, 4.000000>",
+          "value_json": "[5.0, -3.0, 4.0]",
+          "line": 34336
+        },
+        {
+          "name": "NewPos",
+          "raw": "<0.000000, 0.000000, 0.000000>",
+          "value_json": "[0.0, 0.0, 0.0]",
+          "line": 34337
+        },
+        {
+          "name": "PVModel",
+          "raw": "\"SA_Weapons\\Models\\PV\\PW\\014.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\PV\\\\PW\\\\014.ltb\"",
+          "line": 34338
+        },
+        {
+          "name": "PVModelAspect",
+          "raw": "1.333333",
+          "value_json": "1.333333",
+          "line": 34339
+        },
+        {
+          "name": "PVModelFOVY",
+          "raw": "64.000000",
+          "value_json": "64.0",
+          "line": 34340
+        },
+        {
+          "name": "PVModelFOVYWoman",
+          "raw": "64.000000",
+          "value_json": "64.0",
+          "line": 34341
+        },
+        {
+          "name": "PVModelWoman",
+          "raw": "\"SA_Weapons\\Models\\WPV\\PW\\014.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\WPV\\\\PW\\\\014.ltb\"",
+          "line": 34342
+        },
+        {
+          "name": "PVMuzzleFXNameGI",
+          "raw": "\"2011_Sniper_PV_Muzz\"",
+          "value_json": "\"2011_Sniper_PV_Muzz\"",
+          "line": 34343
+        },
+        {
+          "name": "PVNewModel",
+          "raw": "\"SA_Weapons\\Models\\20_m\\TRG21.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\20_m\\\\TRG21.ltb\"",
+          "line": 34344
+        },
+        {
+          "name": "PVNewModelFOVY",
+          "raw": "58",
+          "value_json": "58",
+          "line": 34345
+        },
+        {
+          "name": "PVNewModelFOVYWoman",
+          "raw": "58",
+          "value_json": "58",
+          "line": 34346
+        },
+        {
+          "name": "PVNewModelWoman",
+          "raw": "\"SA_Weapons\\Models\\20_w\\TRG21.ltb\"",
+          "value_json": "\"SA_Weapons\\\\Models\\\\20_w\\\\TRG21.ltb\"",
+          "line": 34347
+        },
+        {
+          "name": "PVNewSkin0",
+          "raw": "\"Hands\"",
+          "value_json": "\"Hands\"",
+          "line": 34348
+        },
+        {
+          "name": "PVNewSkin1",
+          "raw": "\"Arms\"",
+          "value_json": "\"Arms\"",
+          "line": 34349
+        },
+        {
+          "name": "PVNewSkin2",
+          "raw": "\"Sleeve\"",
+          "value_json": "\"Sleeve\"",
+          "line": 34350
+        },
+        {
+          "name": "PVNewSkin3",
+          "raw": "\"SA_Weapons\\Skins\\PV\\TRG21.mtl\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\PV\\\\TRG21.mtl\"",
+          "line": 34351
+        },
+        {
+          "name": "PVSkin0",
+          "raw": "\"Hands\"",
+          "value_json": "\"Hands\"",
+          "line": 34352
+        },
+        {
+          "name": "PVSkin1",
+          "raw": "\"Arms\"",
+          "value_json": "\"Arms\"",
+          "line": 34353
+        },
+        {
+          "name": "PVSkin2",
+          "raw": "\"Sleeve\"",
+          "value_json": "\"Sleeve\"",
+          "line": 34354
+        },
+        {
+          "name": "PVSkin3",
+          "raw": "\"SA_Weapons\\Skins\\PV\\TRG21.dtx\"",
+          "value_json": "\"SA_Weapons\\\\Skins\\\\PV\\\\TRG21.dtx\"",
+          "line": 34355
+        },
+        {
+          "name": "Performance",
+          "raw": "(100, 0, 100, 85)",
+          "value_json": "\"(100, 0, 100, 85)\"",
+          "line": 34356
+        },
+        {
+          "name": "PerturbDecreaseSpeedFire",
+          "raw": "1.540000",
+          "value_json": "1.54",
+          "line": 34357
+        },
+        {
+          "name": "PerturbDuck",
+          "raw": "2.000000",
+          "value_json": "2.0",
+          "line": 34358
+        },
+        {
+          "name": "PerturbIncreaseSpeedFire",
+          "raw": "1.000000",
+          "value_json": "1.0",
+          "line": 34359
+        },
+        {
+          "name": "PerturbMove",
+          "raw": "2.000000",
+          "value_json": "2.0",
+          "line": 34360
+        },
+        {
+          "name": "PerturbStandard",
+          "raw": "2.000000",
+          "value_json": "2.0",
+          "line": 34361
+        },
+        {
+          "name": "Pos",
+          "raw": "<0.000000, 0.000000, -0.300000>",
+          "value_json": "[0.0, 0.0, -0.3]",
+          "line": 34362
+        },
+        {
+          "name": "Range",
+          "raw": "9870",
+          "value_json": "9870",
+          "line": 34363
+        },
+        {
+          "name": "ReloadSnd1",
+          "raw": "\"SA_Weapons\\Snd\\Trg21\\clipout.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\Trg21\\\\clipout.wav\"",
+          "line": 34364
+        },
+        {
+          "name": "ReloadSnd2",
+          "raw": "\"SA_Weapons\\Snd\\Trg21\\clipin.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\Trg21\\\\clipin.wav\"",
+          "line": 34365
+        },
+        {
+          "name": "ReloadSnd3",
+          "raw": "\"SA_Weapons\\Snd\\Trg21\\boltup.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\Trg21\\\\boltup.wav\"",
+          "line": 34366
+        },
+        {
+          "name": "SelectSnd",
+          "raw": "\"SA_Weapons\\Snd\\Trg21\\Select.wav\"",
+          "value_json": "\"SA_Weapons\\\\Snd\\\\Trg21\\\\Select.wav\"",
+          "line": 34367
+        },
+        {
+          "name": "ShotsPerClip",
+          "raw": "5",
+          "value_json": "5",
+          "line": 34368
+        },
+        {
+          "name": "UWDryFireSnd",
+          "raw": "\"SA_Weapons\\UWSnd\\Trg21\\DRYFIRE.WAV\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\Trg21\\\\DRYFIRE.WAV\"",
+          "line": 34369
+        },
+        {
+          "name": "UWFireSnd",
+          "raw": "\"SA_Weapons\\UWSnd\\Trg21\\fire.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\Trg21\\\\fire.wav\"",
+          "line": 34370
+        },
+        {
+          "name": "UWReloadSnd1",
+          "raw": "\"SA_Weapons\\UWSnd\\Trg21\\clipout.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\Trg21\\\\clipout.wav\"",
+          "line": 34371
+        },
+        {
+          "name": "UWReloadSnd2",
+          "raw": "\"SA_Weapons\\UWSnd\\Trg21\\clipin.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\Trg21\\\\clipin.wav\"",
+          "line": 34372
+        },
+        {
+          "name": "UWReloadSnd3",
+          "raw": "\"SA_Weapons\\UWSnd\\Trg21\\boltup.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\Trg21\\\\boltup.wav\"",
+          "line": 34373
+        },
+        {
+          "name": "UWSelectSnd",
+          "raw": "\"SA_Weapons\\UWSnd\\Trg21\\Select.wav\"",
+          "value_json": "\"SA_Weapons\\\\UWSnd\\\\Trg21\\\\Select.wav\"",
+          "line": 34374
+        },
+        {
+          "name": "VectorsPerRound",
+          "raw": "1",
+          "value_json": "1",
+          "line": 34375
+        },
+        {
+          "name": "WeaponSndRadius",
+          "raw": "700",
+          "value_json": "700",
+          "line": 34376
+        },
+        {
+          "name": "Weight",
+          "raw": "270.000000",
+          "value_json": "270.0",
+          "line": 34377
+        }
+      ]
+    }
+  ],
+  "serverbutes": {
+    "path": "extracted\\scripts\\sa_scripts\\serverbutes.txt",
+    "sha256": "6655d54a65c969cd1c17096dceab7bf634a1bbd606e109340427fc3814537a0b",
+    "encoding": "utf-8-sig",
+    "declarations": [
+      {
+        "kind": "section",
+        "line": 197,
+        "section": "Player"
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 199,
+        "key": "DefaultModel",
+        "raw": "\"SA_CHARACTERS\\MODELS\\STUD\\STUD_A_Base.ltb\"",
+        "value_kind": "string",
+        "value": "SA_CHARACTERS\\MODELS\\STUD\\STUD_A_Base.ltb"
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 200,
+        "key": "DefaultWeapon",
+        "raw": "\"SA_Knife\"",
+        "value_kind": "string",
+        "value": "SA_Knife"
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 202,
+        "key": "WalkSpeed",
+        "raw": "150",
+        "value_kind": "integer",
+        "value": 150
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 203,
+        "key": "RunSpeed",
+        "raw": "330",
+        "value_kind": "integer",
+        "value": 330
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 204,
+        "key": "JumpSpeed",
+        "raw": "630",
+        "value_kind": "integer",
+        "value": 630
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 205,
+        "key": "SuperJumpSpeed",
+        "raw": "630",
+        "value_kind": "integer",
+        "value": 630
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 206,
+        "key": "LadderSpeed",
+        "raw": "170",
+        "value_kind": "integer",
+        "value": 170
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 207,
+        "key": "SwimSpeed",
+        "raw": "250",
+        "value_kind": "integer",
+        "value": 250
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 208,
+        "key": "ZipCordSpeed",
+        "raw": "250",
+        "value_kind": "integer",
+        "value": 250
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 209,
+        "key": "NumTeams",
+        "raw": "2",
+        "value_kind": "integer",
+        "value": 2
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 211,
+        "key": "WalkFootstepVolume",
+        "raw": "0.0",
+        "value_kind": "float",
+        "value": 0.0
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 212,
+        "key": "RunFootstepVolume",
+        "raw": "1.0",
+        "value_kind": "float",
+        "value": 1.0
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 213,
+        "key": "CrouchFootstepVolume",
+        "raw": "0.0",
+        "value_kind": "float",
+        "value": 0.0
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 214,
+        "key": "SnowmobileVolume",
+        "raw": "7.0",
+        "value_kind": "float",
+        "value": 7.0
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 215,
+        "key": "CoopReviveHealthPercent",
+        "raw": "0.25",
+        "value_kind": "float",
+        "value": 0.25
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 216,
+        "key": "CoopReviveArmorPercent",
+        "raw": "0.0",
+        "value_kind": "float",
+        "value": 0.0
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 217,
+        "key": "AIDamageAdjustEasy",
+        "raw": "0.08",
+        "value_kind": "float",
+        "value": 0.08
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 218,
+        "key": "AIDamageAdjustNormal",
+        "raw": "0.25",
+        "value_kind": "float",
+        "value": 0.25
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 219,
+        "key": "AIDamageAdjustHard",
+        "raw": "0.5",
+        "value_kind": "float",
+        "value": 0.5
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 220,
+        "key": "AIDamageAdjustVeryHard",
+        "raw": "1.0",
+        "value_kind": "float",
+        "value": 1.0
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 221,
+        "key": "AIDamageIncreasePerPlayer",
+        "raw": "0.2",
+        "value_kind": "float",
+        "value": 0.2
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 222,
+        "key": "PlayerDamageDecreasePerPlayer",
+        "raw": "0.2",
+        "value_kind": "float",
+        "value": 0.2
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 223,
+        "key": "SearchBodyTime",
+        "raw": "3.0",
+        "value_kind": "float",
+        "value": 3.0
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 224,
+        "key": "SearchPropTime",
+        "raw": "3.0",
+        "value_kind": "float",
+        "value": 3.0
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 225,
+        "key": "AirLossDamage",
+        "raw": "5.0",
+        "value_kind": "float",
+        "value": 5.0
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 226,
+        "key": "FullAirLostTime",
+        "raw": "25.0",
+        "value_kind": "float",
+        "value": 25.0
+      },
+      {
+        "kind": "field",
+        "section": "Player",
+        "line": 227,
+        "key": "FullAirRegenTime",
+        "raw": "2.5",
+        "value_kind": "float",
+        "value": 2.5
+      },
+      {
+        "kind": "section",
+        "line": 297,
+        "section": "SecurityCamera"
+      },
+      {
+        "kind": "section",
+        "line": 316,
+        "section": "WON"
+      },
+      {
+        "kind": "field",
+        "section": "WON",
+        "line": 317,
+        "key": "ServerAddr0",
+        "raw": "\"\"",
+        "value_kind": "string",
+        "value": ""
+      },
+      {
+        "kind": "field",
+        "section": "WON",
+        "line": 318,
+        "key": "ServerPort0",
+        "raw": "(DWORD)15101",
+        "value_kind": "uninterpreted",
+        "value": "(DWORD)15101"
+      },
+      {
+        "kind": "field",
+        "section": "WON",
+        "line": 319,
+        "key": "ServerAddr1",
+        "raw": "\"\"",
+        "value_kind": "string",
+        "value": ""
+      },
+      {
+        "kind": "field",
+        "section": "WON",
+        "line": 320,
+        "key": "ServerPort1",
+        "raw": "(DWORD)15101",
+        "value_kind": "uninterpreted",
+        "value": "(DWORD)15101"
+      },
+      {
+        "kind": "field",
+        "section": "WON",
+        "line": 321,
+        "key": "ServerAddr2",
+        "raw": "\"\"",
+        "value_kind": "string",
+        "value": ""
+      },
+      {
+        "kind": "field",
+        "section": "WON",
+        "line": 322,
+        "key": "ServerPort2",
+        "raw": "(DWORD)15101",
+        "value_kind": "uninterpreted",
+        "value": "(DWORD)15101"
+      },
+      {
+        "kind": "section",
+        "line": 329,
+        "section": "Body"
+      },
+      {
+        "kind": "field",
+        "section": "Body",
+        "line": 330,
+        "key": "StairsFallSpeed",
+        "raw": "600.0",
+        "value_kind": "float",
+        "value": 600.0
+      },
+      {
+        "kind": "field",
+        "section": "Body",
+        "line": 331,
+        "key": "StairsFallStopSpeed",
+        "raw": "200.0",
+        "value_kind": "float",
+        "value": 200.0
+      },
+      {
+        "kind": "section",
+        "line": 343,
+        "section": "Misc"
+      },
+      {
+        "kind": "field",
+        "section": "Misc",
+        "line": 344,
+        "key": "SummaryDelay",
+        "raw": "10.0f",
+        "value_kind": "uninterpreted",
+        "value": "10.0f"
+      }
+    ]
+  },
+  "limitations": [
+    "Static declarations; active mode, unit conversions, overrides and code reachability not yet verified."
+  ]
+}

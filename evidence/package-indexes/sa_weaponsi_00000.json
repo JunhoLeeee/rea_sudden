@@ -1,0 +1,82 @@
+{
+  "header": {
+    "path": "C:\\Nexon\\SuddenAttack\\game\\sa_weaponsi_00000.pkg",
+    "bytes": 1629184,
+    "version": 3,
+    "mask_bytes": 38,
+    "masked_string_units": 13,
+    "encrypted_header_offset": 69,
+    "index_padding_bytes": 161,
+    "observed_header_sha256": "022a5421a3c4c36340bd9393b13f3525fc9a16df1bb4ab7a842b65d7c5806293",
+    "identity_scope": "header-ranges-only",
+    "byteorder": "little",
+    "count": 4,
+    "checksum": 393223
+  },
+  "index_offset": 238,
+  "index_plaintext_bytes": 448,
+  "index_read_bytes": 448,
+  "index_raw_sha256": "e057fefd677fe3c38c00c0db68969a427319223c946ff2643628c134efe96132",
+  "payload_base": 1024,
+  "members": [
+    {
+      "index": 0,
+      "path": "sa_weapons/initial/language1.dtx",
+      "flags": 7,
+      "field8": 0,
+      "field12": 4194468,
+      "field16": 315896,
+      "field20": 0,
+      "checksum": 4512459,
+      "block_hashes": [],
+      "digest_hex": "d054267dcc9eb8cd5a842d6cc5991984",
+      "extra_hex": ""
+    },
+    {
+      "index": 1,
+      "path": "sa_weapons/initial/language2.dtx",
+      "flags": 7,
+      "field8": 309,
+      "field12": 4194468,
+      "field16": 331192,
+      "field20": 0,
+      "checksum": 4527716,
+      "block_hashes": [],
+      "digest_hex": "0b91e44a6a3f80f44f0347223fe1f713",
+      "extra_hex": ""
+    },
+    {
+      "index": 2,
+      "path": "sa_weapons/initial/language3.dtx",
+      "flags": 7,
+      "field8": 633,
+      "field12": 4194468,
+      "field16": 430584,
+      "field20": 0,
+      "checksum": 4627314,
+      "block_hashes": [],
+      "digest_hex": "9d86036560d85c1b7bb6437e141d00f9",
+      "extra_hex": ""
+    },
+    {
+      "index": 3,
+      "path": "sa_weapons/initial/language4.dtx",
+      "flags": 7,
+      "field8": 1054,
+      "field12": 4194468,
+      "field16": 548524,
+      "field20": 0,
+      "checksum": 4746288,
+      "block_hashes": [],
+      "digest_hex": "d7d7cacb9d7b4d0bb18991972bea464b",
+      "extra_hex": ""
+    }
+  ],
+  "limitations": [
+    "Metadata checksums verified; member payloads are unverified.",
+    "Native config-dependent field20 validation is not performed.",
+    "field8/12/16/20 retain raw coordinates until their uses are traced.",
+    "Index path names do not authorize executing any archived binaries.",
+    "Full-file SHA-256 is not computed by this bounded index operation."
+  ]
+}

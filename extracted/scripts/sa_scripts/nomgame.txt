@@ -1,0 +1,133 @@
+[GameSetup]
+InvisibleTick = 0.5f					//투명으로 변하는 동안의 시간.
+InvisibleReturnTime = 0.3f		//투명에서 돌아오는 동안의 시간
+InvisiblePlayTime = 8.0f			//투명이 유지되는 시간.
+InvisibleIndex = 3					//투명인간 유저인덱스 Player1로 셋업하려면 0로 셋업. Player2로 하려면 1..
+//DoubleJumpIndex = 0				//이중 점프 유저인덱스
+//SentryUserIndex = 5				//센트리건 유저인덱스
+//ShieldUserIndex = 3				//방패 유저인덱스
+FootStep_Left = "fx\2015All\nomnomnom\nom_footprint_l.spr"
+FootStep_Right = "fx\2015All\nomnomnom\nom_footprint_r.spr"
+FootStep_Left_Girl = "fx\2015All\nomnomnom\nom_footprintw_l.spr"
+FootStep_Right_Girl = "fx\2015All\nomnomnom\nom_footprintw_r.spr"
+bAdditive = false
+FootStepScale = 0.23f				//발자국 스케일 조정
+FootStepTick = 0.25f					//다음 발자국이 찍히는 주기.
+FootStepDelay = 2.0f				//발자국이 이 시간 뒤에 찍힘.
+FootStepLifeTime = 5.0f			//5초간 발자국이 보인다.
+FootStepSpan = 5.0f						//왼발 오른발이 중심에서 얼마나 되는지 여부
+ShieldBlockDamage = 0.0f					//방패로 막았을때 대미지 0이면 완전 막힘.
+OnlyShieldDamage = 0.0f						//캐릭터에는 맞지 않고 방매만 맞았을때 대미지 비율. 0이면 완전 막힘.
+ShieldSpeed = 0.5f					//방패를 펼쳤을 경우의 캐릭터 속도
+OtherBombShieldDamage = 0.5f			//다른 방패병이 있을때 폭탄의 대미지 비율
+BombShieldDamage = 0.5f					//방패병에 가는 폭탄의 대미지 비율
+EdgeShaderTime = 10.0f						//폭탄 맞아서 외곽선이 보임
+SlowedTime = 7.0f								//폭탄 맞아서 슬로우가 걸림.
+EdgeShaderBomb = 1689
+SlowedBomb = 1690
+SlowedSpeed = 0.5f								//느려진 속도
+DebuffFadeOutTime = 2.0f					//디버프가 UI로 표시되는데 마지막 1~2초 정도는 알파가 먹으며 흐려진다.
+
+[Player0] // 그냥놈 set 1
+MainWeapon = 1693					//ra-pdw
+SubWeapon = -1						//자기 권총
+MeleeWeapon = -1				//자기 칼
+ThrowWeapon = -1				//자기 폭탄
+SpeedScale = 1.0f					//기본 속도 
+HP = 100								//HP. 기본값은 100인데 무조건 셋업하는게 편할듯
+AP = 100								//AP. 기본값은 100인데 무조건 셋업하는게 맘 편할듯
+JumpScale = 1.0f						//점프 높이
+
+
+[Player1] // 뛰는놈 set 2
+MainWeapon = 1691					// 숏샷건
+SubWeapon = -1					// 자기것
+MeleeWeapon = -1					// 자기것
+ThrowWeapon = 1690				// 그물탄 
+SpeedScale = 1.5f					//배속 이동
+HP = 100									//HP. 기본값은 100인데 무조건 셋업하는게 편할듯
+AP = 0									//AP. 기본값은 100인데 무조건 셋업하는게 맘 편할듯
+JumpScale = 1.3f						//점프 높이
+
+
+[Player2] // 쏘는놈 set 3
+MainWeapon = 1692					//활
+SubWeapon = 1688						//박스. 현재는 c4로 들어가있음. 블루로 선택해도 C4가 나올듯?
+MeleeWeapon = -1				//자기 칼
+ThrowWeapon = 1689				// 음파탄. 임시로 개복치
+SpeedScale = 1.0f					//스피드에 곱해짐.
+HP = 100								//HP. 기본값은 100인데 무조건 셋업하는게 편할듯
+AP = 100								//AP. 기본값은 100인데 무조건 셋업하는게 맘 편할듯
+JumpScale = 1.0f						//점프 높이
+
+
+[Player3] // 숨는놈 set 4
+MainWeapon = 1686					//투명장막 생성기.
+SubWeapon = -1						//자기 권총
+MeleeWeapon = -1				//닭다리
+ThrowWeapon = -1				//수류탄
+SpeedScale = 1.2f					//1.2배 이동
+HP = 100								//HP. 기본값은 100인데 무조건 셋업하는게 편할듯
+AP = 50								//AP. 기본값은 100인데 무조건 셋업하는게 맘 편할듯
+JumpScale = 1.2f						//점프 높이
+
+
+[Player4] // 막는놈 set 5
+MainWeapon = 1687					//철가방
+SubWeapon = -1						//자기 권총
+MeleeWeapon = -1				//자기 칼
+ThrowWeapon = 1735			//회복템
+SpeedScale = 0.9f					//스피드 기본. 느림. 
+HP = 150								//HP. 기본값은 100인데 무조건 셋업하는게 편할듯
+AP = 200								//AP. 기본값은 100인데 무조건 셋업하는게 맘 편할듯
+JumpScale = 1.0f						//점프 높이
+
+/*
+[Player5] // 만든놈 - 지워질 예정
+MainWeapon = 1688					//센트리건 - 몽키스패너. (현재 밀리웨폰에 몽키스패너가 들어감)
+SubWeapon = -1						//자기 권총
+MeleeWeapon = -1				//자기 칼
+ThrowWeapon = -1				//자기 폭탄
+SpeedScale = 1.3f					//스피드에 곱해짐.
+HP = 100								//HP. 기본값은 100인데 무조건 셋업하는게 편할듯
+AP = 100								//AP. 기본값은 100인데 무조건 셋업하는게 맘 편할듯
+*/
+
+[Popup1]
+PlayerIndex = 0
+Left = 254
+Right = 374
+Top = 199
+Bottom = 477
+
+[Popup2]
+PlayerIndex = 1
+Left = 169
+Right = 253
+Top = 199
+Bottom = 477
+
+[Popup3]
+PlayerIndex = 2
+Left = 564
+Right = 641
+Top = 165
+Bottom = 477
+
+[Popup4]
+PlayerIndex = 3
+Left = 375
+Right = 472
+Top = 199
+Bottom = 477 
+
+[Popup5]
+PlayerIndex = 4
+Left = 473
+Right = 563
+Top = 199
+Bottom = 477
+
+/*
+
+*/

@@ -1,0 +1,256 @@
+// 각항목별 증가량공식 설명
+// 1.0f: 100%, 0.5: 50% , 결과값 = (기본값)+(기본값*단계*증가량)
+
+[AI_Config]
+//////////////////////////////////////////////////////////////////////////
+// 좀비구역탈출
+//////////////////////////////////////////////////////////////////////////
+// 좀비화
+DoingZombieInfectionSpeed	= 0.4f		// 좀비화 진행중 이동속도
+ZombieInfecteeSpeed		= 0.2f		// 좀비됬을때 속도
+
+// 오염구역
+PollutionAreaDamage		= 10.0f		// 오염구역 초당 대미지
+
+// 자폭좀비
+SuicideCoolTime			= 7		// 자폭 쿨타임
+SuicideSpeed			= 5.0f	        // 돌진자폭 달리기 속도
+SuicideExplosionRadius		= 350.0f	// 폭발 범위
+SuicidePoisonRange		= 200.0f	// 오염지역 범위
+SuicidePoisonFogTime		= 5.0f		// 오염지역 유지 시간
+SuicidePoisonDamage		= 10.0f		// 중독시 초당 대미지
+SuicidePoisonedTime		= 1.0f		// 중독 유지 시간
+
+// 넉백좀비
+KnockbackCoolTime		= 2		// 넉백 쿨타임
+KnockbackRushRange		= 700		// 넉백좀비 돌진거리
+KnockbackRushAccel		= 8000.0f	// 넉백좀비 돌진 가속계수
+KnockbackTime			= 1.0f		// 넉백상태 시간
+KnockbackSpeed			= 25000.0f	// 넉백상태 튕겨나가는 속도 계수
+KnockbackDistance		= 1000		// 넉백당할 거리
+KnockbackSlowTime		= 1.0f		// 패널티 이속 감소 시간
+KnockbackSlowRate		= 0.2f		// 패널티 이속 비율
+
+// 헤비좀비
+HeavyShockCoolTime		= 3		// 충격(점프)스킬 쿨타임
+HeavyShockRadius		= 300.0f	// 충격 스킬 반경
+HeavySlowTime			= 3.0f		// 패널티 이속감소 시간
+HeavySlowRate			= 0.5f		// 패널티 이속 비율
+HeavyWhirlWindCoolTime		= 6		// 휠윈드 쿨타임
+HeavyWhirlWindDurTime		= 1.0f		// 휠윈드 지속시간
+HeavyWhirlWindSpeed		= 2.5f		// 휠윈드 이동속도
+HeavyWhirlWindRadius		= 200.0f	// 휠윈드 대미지 반경
+HeavyWhirlWindDmgTick		= 0.2f		// 휠윈드 대미지 틱(초)
+
+// 임프좀비
+ImpRushCoolTime			= 5		// 추격스킬 쿨타임
+ImpRushSpeed			= 1.2f		// 추격스킬 속도
+
+// 숙주좀비
+HostDashCoolTime		= 5		// 대쉬 쿨타임
+HostDashRange			= 900   	// 대쉬 돌진거리
+HostDashAccel			= 15000.0f	// 대쉬 가속계수
+HostKnockbackTime		= 1.0f		// 넉백상태 시간
+HostKnockbackSpeed		= 25000.0f	// 넉백상태 튕겨나가는 속도 계수
+HostKnockbackDistance		= 1000		// 넉백당할 거리
+HostKnockbackSlowTime		= 2.0f		// 패널티 이속 감소 시간
+HostKnockbackSlowRate		= 0.2f		// 패널티 이속 비율
+
+HostHeadThrowCoolTime		= 20		// 머리투척스킬 쿨타임
+
+HostImpCoolTime			= 30		// 임프출산스킬 쿨타임
+HostImpIndex			= 170		// 리스폰시킬 좀비 인덱스(mob.csv 서버테이블의 인덱스)
+HostMaxImpNum			= 10		// 소환할 수 있는 최대 임프 수
+
+HostVomitCoolTime		= 10	 	// 구토 스킬 쿨타임
+HostVomitTick			= 0.15f 	// 구토 뱉어내는 틱
+
+//////////////////////////////////////////////////////////////////////////
+// 좀비구역탈출
+//////////////////////////////////////////////////////////////////////////
+
+//스텔스 모드 테스트 용
+Stealth_Delay		=	1.25f
+Stealth_FireData	=	0.80f
+Stealth_FootStep	=	0.0000f  //0.0003f
+Stealth_FootStepRun	=	0.001f
+Stealth_Jump		=	1500.0f  //숨소리 범위
+Stealth_Puls		=	0.007f // 점점 투명해 지는 단계??
+Stealth_a		=	0.03f //가중치
+Stealth_ChangeWeapon	=	0.0f  //기존 0.3
+Stealth_Team		=       0.0f // 0.0f - 레드가 스텔스   1.0f - 블루가 스텔스
+Stealth_Speed		=       1.2f
+Stealth_Recoil  =       1.0f
+
+
+// 매서커
+WavePauseTime			= 10 // 초단위
+MaxTargeting			= 5 // 유저한테 최대 붙는 AI 개수
+HealingRadius			= 500 // 힐 적용 범위
+HealingPercentage		= 0.2f //힐링의 체력대비보충량
+HealingTime			= 0.3f //몇초마다 힐링할지..
+MassiveAttackProba		= 0.5f // 강한충격 확률
+MassiveAttackImpact		= 0.9f // 강한충격의 이속 감소율 (0.9는 90%이속감소)
+LastTimeAttack			= 300.0f // 마지막보스 타임어택시간 (단위:초)
+
+//Test용 펌핑값
+WeaponDamageGrade		= 0.05f // 증가값(%) 1.0f 100%
+WeaponSpeedGrade		= 0.03f
+MoveSpeedGrade			= 0.05f
+StunGrade			= 0.1f
+PlusClipGrade			= 5
+
+BossMissileTime   		= 7.5f //보스 미사일지속시
+BossMissileInterval  		= 0.4f //보스 미사일발사속
+BossSummonTime   		= 7.5f //보스 자폭소환 지속
+BossSummonInterval  		= 0.65f //보스 자폭소환 속도
+BossSummonType   		= 75 //보스가 소환할놈의 TypeID
+BossSkillCooltime 		= 8.50f
+
+
+//좀비 관련
+
+//점프형 
+ZombieJumpActionTimer		= 3.0f //점프형 스킬 액션 타이머
+ZombieJumpActionCooltime	= 5.0f //점프형 스킬 쿨타임
+
+//방어형
+ZombieVomitActionTimer		= 15.0f //방어형 토사물 뱉는 액션 타이머
+ZombieVomitActionCooltime	= 27.0f //토사물 스킬 쿨타임
+ZombieVomitTime			= 0.15f // 방어형 토사물 뱉어내는 수 - 초당
+ZombieRampageTime		= 7.5f // 방어형 토사물 뱉은 후 광기 일으키는 유지 시간
+
+//화염 방사기
+ZombieFireDamageTime		= 4.8f // 화방 불 유지 시간
+ZombieFireDamage		= 18.0f // 불 붙었을 때 도트 대미지
+ZombieFirePerTime		= 0.9f // 몇초당 입을건지
+
+
+//하울링형
+ZombieHowlActionTimer             = 0.3f              //액션 타임 (판정 체크 해 주는 시간)
+ZombieHowlActionCooltime         = 11.5f              //쿨 타임
+ZombieHowlSpeed                    = 450.0f           //초당 하울링 나가는 속도
+ZombieHowlDistance                 = 900.0f          //하울링 거리
+ZombieHowlSlowTimer               = 2.0f              //느려져있는 시간 5.0f
+ZombieHowlSlowDecliningRate     = 0.62f              //이속 감소폭
+ZombieHowlDamage                  = 25.0f              //대미지
+ZombieHowlAngle                    = 70.0f             //각도
+ZombieHowlImmunityTime           = 1.0f              //하울링 대미지 면역시간
+
+
+//방구차형
+ZombieSingedActionTimer           = 15.3f    //독 발동시간.
+ZombieSingedPosionRange          = 170    //gas 범위
+ZombieSingedPoisonTime            = 8.0f    // gas를 내 뿜을 시간.
+ZombieSingedPoisonFireTime       = 0.9f    //독덩거리 나가는 시간.
+ZombieSingedPoisonFogTime       = 6.2f  //독안개 유지 시간
+ZombieSingedPoisonedTime         = 2.0f  //중독자가 중독되어 있을 시간 5.0f
+ZombieSingedPoisonDamage       = 5.0f  //중독자의 초당 들어오는 대미지 11.5f
+
+
+//리턴 수류탄
+ReturnRange = 260   //리턴수류탄 연기 범위
+ReturnTime = 9     //연기가 나오는 시간
+ReturnChaosTime = 11.0f   //카오스 상태인 시간
+
+
+//즉시 부활 관련 설정
+CoinRevivalKillRange	= 420.0f //265.0f
+CoinRevivalKillDamage   = 1500.0f
+
+
+//스파이더 마인 이동속도 설정
+SpiderMineVel = 300.0f	//스파이어마인 속도_인식반경은 ammo에 DetectRadius에
+
+
+
+//AI유형별 킬스코어용 웨폰 아이콘
+Icon0					= "SA_Interface\weapon\ai_normd.dtx" //일반
+Icon1					= "SA_Interface\weapon\ai_bited.dtx" //물기
+Icon2					= "SA_Interface\weapon\ai_mbossd.dtx" //중보
+Icon3					= "SA_Interface\weapon\ai_bossd.dtx" //최보
+Icon4					= "SA_Interface\weapon\ai_expld.dtx" //자폭
+
+//광기 스킬 수치 데이터
+DefenceStimpackTime               	= 10.0f	// 기본값:10.0f   스팀팩스킬의 지속시간 (초단위)
+DefenceStimpackHealth          		= 50.0f	// 기본값:30.0f   스팀팩사용시 감소체력 (소숫점이하넣지말것)           
+DefenceStimpackGold               	= 5000	// 기본값:2000    스팀팩사용시 소비골드 (정수형으로작성할것)                                       
+DefenceStimpackPlusDamage         	= 0.2f	// 기본값:0.3f    스팀팩사용시 추가뎀지 (백분위 0.3->30%)
+DefenceStimpackPlusSpeed          	= 0.3f	// 기본값:0.3f    스팀팩사용시 추가이속 (백분위 0.3->30%)
+DefenceStimpackPlusWpnSpeed       	= 1.5f	// 기본값:2.0f    스팀팩사용시 추가공속 (백분위 2.0->200%)
+
+//유령잡기
+Ghost_Stealth_Delay		=	1.25f
+Ghost_Stealth_FireData	=	1.0f //CHANGE// 0.8f
+Ghost_Stealth_FootStep	=	0.0000f  //0.0003f
+Ghost_Stealth_FootStepRun	=	0.001f
+Ghost_Stealth_Jump		=	450.0f //CHANGE// 3000.0f  //숨소리 범위
+Ghost_Stealth_Puls		=	0.005f //CHANGE// 0.007f // 점점 투명해 지는 단계??
+Ghost_Stealth_a		=	0.03f //가중치
+Ghost_Stealth_ChangeWeapon	=	0.0f  //기존 0.3
+Ghost_Stealth_Team		=       0.0f // 0.0f - 레드가 스텔스   1.0f - 블루가 스텔스
+Ghost_Stealth_Speed		=       1.2f
+Ghost_Stealth_Recoil  =       1.0f
+
+Ghost_Move_Speed_Increase_Weight = 0.05f
+Ghost_Move_Speed_Base_Mul = 0.6f
+Hunter_Move_Speed_Base_Mul = 1.0f
+Move_Speed_Up_Continue_Time = 10.0f
+
+[AI_Defence_Upgrade_WeaponDamage]
+Price1              = 1000
+Price2              = 2000
+Price3              = 3000
+Price4              = 4000
+Price5              = 5000
+Price6              = 6000
+Price7              = 8000
+Price8              = 10000
+Price9              = 12000
+Price10             = 14000
+Price11             = 16000
+Price12             = 18000
+Price13             = 20000
+Price14             = 22000
+Price15             = 25000
+Price16             = 28000
+Price17             = 32000
+Price18             = 36000
+Price19             = 40000
+Price20             = 45000
+
+[AI_Defence_Upgrade_WeaponSpeed]
+Price1              = 1000
+Price2              = 2000
+Price3              = 3000
+Price4              = 5000
+Price5              = 7000
+Price6              = 9000
+Price7              = 11000
+Price8              = 13000
+Price9              = 16000
+Price10             = 20000
+
+[AI_Defence_Upgrade_MoveSpeed]
+Price1              = 3000
+Price2              = 5000
+Price3              = 10000
+Price4              = 15000
+Price5              = 25000
+
+[AI_Defence_Upgrade_Stun]
+Price1              = 3000
+Price2              = 5000
+Price3              = 10000
+
+[AI_Defence_Upgrade_PlusClip]
+Price1              = 3000
+Price2              = 5000
+Price3              = 7000
+Price4              = 10000
+Price5              = 13000
+Price6              = 16000
+Price7              = 20000
+Price8              = 25000
+Price9              = 30000
+Price10             = 40000

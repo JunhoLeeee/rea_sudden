@@ -1,0 +1,139 @@
+[Script0]
+
+//=====================================================================
+// 피격 시 이속 감소
+//=====================================================================
+
+	//////////////////////////////////////////////////////////////////////////
+	// MVP가 인간 공격
+	MVPBoomPenalty		= 1.2	//MVP 투척무기 밀려나는 정도
+
+	// 패널티를 받는 시간 ( 1.주무기 2.보조무기 3.근접무기 4.투척무기 )
+	MVPPenaltyTime1		= 5
+	MVPPenaltyTime2		= 3
+	MVPPenaltyTime3		= 7
+	MVPPenaltyTime4		= 4
+
+	// 패널티를 받을때 느려짐 값 ( 1.주무기 2.보조무기 3.근접무기 4.투척무기 )
+	MVPPenaltyMove1		= 1.2
+	MVPPenaltyMove2		= 0.8
+	MVPPenaltyMove3		= 0.7
+	MVPPenaltyMove4		= 1.0
+	//
+	//////////////////////////////////////////////////////////////////////////
+
+	//////////////////////////////////////////////////////////////////////////
+	// 인간이 MVP 공격
+	// 패널티를 받는 시간 ( 1.주무기 2.보조무기 3.근접무기 4.투척무기 )
+	HumanPenaltyTime1	= 1
+	HumanPenaltyTime2	= 1
+	HumanPenaltyTime3	= 5
+	HumanPenaltyTime4	= 3	
+
+	// 패널티를 받을때 느려짐 값 ( 1.주무기 2.보조무기 3.근접무기 4.투척무기 )	
+	HumanPenaltyMove1	= 0.5
+	HumanPenaltyMove2	= 0.5
+	HumanPenaltyMove3	= 1.0
+	HumanPenaltyMove4	= 0.8
+
+	HumanPenaltyGodTime	= 7.0
+	//
+	//////////////////////////////////////////////////////////////////////////
+
+//=====================================================================
+// MVP
+//=====================================================================
+
+	MoveSpeed		= 1.3	//이속
+	MoveJump		= 1.1	//점프
+	FearDistance		= 1000.0	//애드립 보이스 출력 범위
+
+
+
+//=====================================================================
+// 유전자 변이
+//=====================================================================
+
+	MoveInfecteeSpeed	= 0.3	//이속
+	InfecteeCare_Time	= 4.0	//유전자 변이 상태 해제 시간
+	InfecteeCare_Distance	= 160.0	//유전자 변이 상태 해제 거리
+	MoveSkill_infecteeSpeed = 2.6	//유전자 변이 캐릭터 스킬 스피드 (인간이 1명남았을때)
+
+
+
+//=====================================================================
+// 스킬 
+//=====================================================================
+
+	//MoveSkill_Speed		= 1.2	//폭주,광기 스킬 사용 시 속도 증가량
+
+	// 일반 MVP
+	InitSkillMHighjump		= 0.1	//하이점프 시작 쿨타임
+	HighJump_RecycleTime		= 10.0	//하이점프 쿨타임
+	HighJump_LimitTime		= 5.0	//하이점프 지속시간
+	HighJump_FlyVel			= 1000.0	//하이점프 속도
+
+
+	InitSkillMHide			= 1.0	//하이드 시작 쿨타임
+	HideRecycleTime			= 15.0	//하이드 쿨타임
+	HideLimitTime			= 7.0	//하이드 지속시간
+
+	InitSkillMIntensify		= 2.0	//방어력증가 시작 쿨타임
+	IntensifyRecycleTime		= 15.0	//방어력증가 쿨타임
+	IntensifyLimitTime		= 7.0	//방어력증가 지속시간
+
+	InitSkillMFlood			= 1.0	//폭주 시작 쿨타임
+	FloodRecycleTime		= 8.0	//폭주 쿨타임
+	FloodLimitTime			= 5.0	//폭주 지속시간
+	MVPMoveSkill_Speed		= 1.1	//폭주 스킬속도
+
+
+	// 싸이
+	InitSkillPHighjump		= 0.1	//하이점프 시작 쿨타임
+	Psy_HighJump_RecycleTime	= 7.0	//하이점프 쿨타임
+	Psy_HighJump_LimitTime		= 5.0	//하이점프 지속시간
+	Psy_HighJump_FlyVel		= 1000.0 //하이점프 속도
+
+
+	InitSkillPHide			= 1.0	//하이드 시작 쿨타임
+	Psy_HideRecycleTime		= 13.0	//하이드 쿨타임
+	Psy_HideLimitTime		= 7.0	//하이드 지속시간
+
+	InitSkillPIntensify		= 2.0	//방어력증가 시작 쿨타임
+	Psy_IntensifyRecycleTime	= 10.0	//방어력증가 쿨타임
+	Psy_IntensifyLimitTime		= 7.0	//방어력증가 지속시간
+
+	InitSkillPFlood			= 1.0	//폭주 시작 쿨타임
+	Psy_FloodRecycleTime		= 7.0	//폭주 쿨타임
+	Psy_FloodLimitTime		= 5.0	//폭주 지속시간
+	PsyMoveSkill_Speed		= 1.1   //폭주 스킬속도
+	
+	InitSkillPExplosion		= 30.0	//공포 시작 쿨타임
+	ExplosionRecycleTime		= 20.0	//공포 쿨타임
+	ExplosionLimitTime		= 2.0	//공포 지속시간
+
+	// 인간
+	InitSkillStimpack		= 0.1	//광기 시작 쿨타임
+	StimpacRecycleTime		= 35.0	//광기w 쿨타임
+     	StimpacLimitTime		= 5.0	//광기 지속시간
+	HumanMoveSkill_Speed		= 1.3	//광기 스킬속도
+
+
+
+//=====================================================================
+// 내부적으로 사용 ( 수정금지 )
+//=====================================================================
+
+	MVPPenaltyTime1		= 3
+	MVPPenaltyTime3		= 10
+	HumanPenaltyTime1	= 2
+	HumanPenaltyTime3	= 10
+	MVPRecycleHP_Time	= 3.0
+	MVPRecycleHP_Amount	= 1.0
+	InfecteeRewardHP	= 1000.0
+	MoveSkill_NormalSpeed	= 1.0
+	DamageRate		= 1.0
+	DamageInfectee		= 1.0
+	DamageAccAdd		= 2.0
+	HighJump_Speed		= 1.0
+	Psy_HighJump_Speed	= 1.0

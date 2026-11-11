@@ -1,0 +1,155 @@
+{
+  "path": "C:\\Users\\PC\\Desktop\\REA\\extracted\\game-file\\game_file\\CShell.dll",
+  "sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110",
+  "decoder": "Capstone 5.0.7",
+  "image_base": "0x180000000",
+  "slices": [
+    {
+      "requested_address": "0x180019a90",
+      "traversal": "direct-branch-reachable, calls not followed",
+      "instruction_count": 14,
+      "unknowns": [],
+      "instructions": [
+        {
+          "address": "0x180019a90",
+          "bytes": "4883ec28",
+          "mnemonic": "sub",
+          "operands": "rsp, 0x28",
+          "references": []
+        },
+        {
+          "address": "0x180019a94",
+          "bytes": "488d0d95909301",
+          "mnemonic": "lea",
+          "operands": "rcx, [rip + 0x1939095]",
+          "references": [
+            {
+              "kind": "rip-memory",
+              "address": "0x181952b30",
+              "width": 8,
+              "read": true,
+              "write": false,
+              "preview": null
+            }
+          ]
+        },
+        {
+          "address": "0x180019a9b",
+          "bytes": "e8c0ca5400",
+          "mnemonic": "call",
+          "operands": "0x180566560",
+          "references": [
+            {
+              "kind": "direct-control-flow",
+              "address": "0x180566560"
+            }
+          ]
+        },
+        {
+          "address": "0x180019aa0",
+          "bytes": "488d0d09574201",
+          "mnemonic": "lea",
+          "operands": "rcx, [rip + 0x1425709]",
+          "references": [
+            {
+              "kind": "rip-memory",
+              "address": "0x18143f1b0",
+              "width": 8,
+              "read": true,
+              "write": false,
+              "preview": {
+                "bytes_hex": "488d0d79395100e9147412ffcccccccc"
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x180019aa7",
+          "bytes": "4883c428",
+          "mnemonic": "add",
+          "operands": "rsp, 0x28",
+          "references": []
+        },
+        {
+          "address": "0x180019aab",
+          "bytes": "e96ce43601",
+          "mnemonic": "jmp",
+          "operands": "0x181387f1c",
+          "references": [
+            {
+              "kind": "direct-control-flow",
+              "address": "0x181387f1c"
+            }
+          ]
+        },
+        {
+          "address": "0x181387f1c",
+          "bytes": "4883ec28",
+          "mnemonic": "sub",
+          "operands": "rsp, 0x28",
+          "references": []
+        },
+        {
+          "address": "0x181387f20",
+          "bytes": "e89bffffff",
+          "mnemonic": "call",
+          "operands": "0x181387ec0",
+          "references": [
+            {
+              "kind": "direct-control-flow",
+              "address": "0x181387ec0"
+            }
+          ]
+        },
+        {
+          "address": "0x181387f25",
+          "bytes": "48f7d8",
+          "mnemonic": "neg",
+          "operands": "rax",
+          "references": []
+        },
+        {
+          "address": "0x181387f28",
+          "bytes": "1bc0",
+          "mnemonic": "sbb",
+          "operands": "eax, eax",
+          "references": []
+        },
+        {
+          "address": "0x181387f2a",
+          "bytes": "f7d8",
+          "mnemonic": "neg",
+          "operands": "eax",
+          "references": []
+        },
+        {
+          "address": "0x181387f2c",
+          "bytes": "ffc8",
+          "mnemonic": "dec",
+          "operands": "eax",
+          "references": []
+        },
+        {
+          "address": "0x181387f2e",
+          "bytes": "4883c428",
+          "mnemonic": "add",
+          "operands": "rsp, 0x28",
+          "references": []
+        },
+        {
+          "address": "0x181387f32",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": "",
+          "references": []
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Static byte observations only; target not executed.",
+    "Unwind extents can be fragments; leaf probes are bounded.",
+    "Linear decoding does not establish reachability or recover indirect targets.",
+    "RIP memory references do not dereference pointers or prove runtime values."
+  ]
+}

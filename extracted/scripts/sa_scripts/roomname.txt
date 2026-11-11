@@ -1,0 +1,38 @@
+[Category0] //서든 어택 기본 룰 - 하드코딩이라 빈 값을 넣음.
+[Category1] //건모드 - 하드코딩
+[Category2] //출발서든팀 - 하드코딩
+[Category3] //넥슨을 털어라 - 하드코딩
+[Category4] //놈놈놈 - 하드코딩
+[Category5] //출발무한사냥
+b1vs1Channel = false
+Name1	= 15769  //샷발 대결 한판?
+Name2	= 15770  //오늘은 너로 정했다.
+Name3	= 15771  //무한사냥 출발~
+[Category6]	// 서바이벌 - 하드코딩
+[Category7] //출발무한사냥
+b1vs1Channel = false
+Name1	= 16476  //벙커러쉬
+Name2	= 16477  //벙커 사수작전
+Name3	= 16478  //벙커 침공작전 
+[Category8] //진짜를 찾아라
+b1vs1Channel = false
+Name1	= 19427  
+Name2	= 19428  
+Name3	= 19429  
+[Category9] //갓모드
+Name1	= 20648  
+Name2	= 20649  
+[Category10] //듀오토너먼트
+Name1	= 20861
+Name2	= 20862    
+[Category11] //웨어스타디움
+Name1	= 21591
+Name2	= 21592      
+[Category12] //멀티폭파미션
+Name1	= 22831
+Name2	= 22832
+[Category13] //제8보급창고
+Name1	= 27242
+Name2	= 27243
+Name3	= 27244
+[Category14] // 미로계단 (오징어게임) 위 숫자들은 Legacy 스트링 사용이라, 내부에서 심플 텍스트 사용하도록 한다.

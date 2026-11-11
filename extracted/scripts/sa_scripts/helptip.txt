@@ -1,0 +1,868 @@
+//벰파이어 모드
+[HelpTip0]
+GameType = 13
+TextIndex = 2780
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Vampire.dtx"
+
+[HelpTip1]
+GameType = 13
+TextIndex = 2781
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Vampire.dtx"
+
+[HelpTip2]
+GameType = 13
+TextIndex = 2782
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Vampire.dtx"
+
+[HelpTip3]
+GameType = 13
+TextIndex = 2783
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Vampire.dtx"
+
+[HelpTip4]
+GameType = 13
+TextIndex = 2784
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Vampire.dtx"
+
+[HelpTip5]
+GameType = 13
+TextIndex = 2785
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Vampire.dtx"
+
+[HelpTip6]
+GameType = 13
+TextIndex = 2786
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Vampire.dtx"
+
+[HelpTip7]
+GameType = 13
+TextIndex = 2787
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Vampire.dtx"
+
+[HelpTip8]
+GameType = 13
+TextIndex = 2788
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Vampire.dtx"
+
+[HelpTip9]
+GameType = 13
+TextIndex = 2789
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Vampire.dtx"
+
+[HelpTip10]
+GameType = 13
+TextIndex = 2971
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Vampire.dtx"
+
+[HelpTip11]
+GameType = 13
+TextIndex = 2972
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Vampire.dtx"
+
+[HelpTip12]
+GameType = 13
+TextIndex = 2973
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Vampire.dtx"
+
+[HelpTip13]
+GameType = 13
+TextIndex = 2974
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Vampire.dtx"
+
+[HelpTip14]
+GameType = 13
+TextIndex = 2975
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Vampire.dtx"
+
+//에피소드
+[HelpTip15]
+GameType = 19
+TextIndex = 5413
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Episode.dtx"
+
+[HelpTip16]
+GameType = 19
+TextIndex = 5862
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Episode.dtx"
+
+[HelpTip17]
+GameType = 19
+TextIndex = 5864
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Episode.dtx"
+
+[HelpTip18]
+GameType = 19
+TextIndex = 5417
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Episode.dtx"
+
+[HelpTip19]
+GameType = 19
+TextIndex = 5418
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Episode.dtx"
+
+[HelpTip20]
+GameType = 19
+TextIndex = 5419
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Episode.dtx"
+
+[HelpTip21]
+GameType = 19
+TextIndex = 5420
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Episode.dtx"
+
+[HelpTip22]
+GameType = 19
+TextIndex = 5421
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Episode.dtx"
+
+[HelpTip23]
+GameType = 19
+TextIndex = 5998
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Episode.dtx"
+
+[HelpTip24]
+GameType = 19
+TextIndex = 5422
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Episode.dtx"
+
+[HelpTip25]
+GameType = 19
+TextIndex = 5423
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Episode.dtx"
+
+[HelpTip26]
+GameType = 19
+TextIndex = 5865
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Episode.dtx"
+
+[HelpTip27]
+GameType = 19
+TextIndex = 5866
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Episode.dtx"
+
+[HelpTip28]
+GameType = 19
+TextIndex = 5999
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Episode.dtx"
+
+[HelpTip29]
+GameType = 19
+TextIndex = 6000
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Episode.dtx"
+
+[HelpTip30]
+GameType = 19
+TextIndex = 5863
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Episode.dtx"
+
+//초보용 메시지....
+[HelpTip31]
+GameType = 10000
+TextIndex = 10918
+IconPath = "sa_interface2\menu\Gametip\GameTip_001.dtx"
+
+[HelpTip32]
+GameType = 10000
+TextIndex = 10919
+IconPath = "sa_interface2\menu\Gametip\GameTip_002.dtx"
+
+[HelpTip33]
+GameType = 10000
+TextIndex = 10920
+IconPath = "sa_interface2\menu\Gametip\GameTip_003.dtx"
+
+[HelpTip34]
+GameType = 10000
+TextIndex = 10921
+IconPath = "sa_interface2\menu\Gametip\GameTip_004.dtx"
+
+[HelpTip35]
+GameType = 10000
+TextIndex = 10922
+IconPath = "sa_interface2\menu\Gametip\GameTip_005.dtx"
+
+[HelpTip36]
+GameType = 10000
+TextIndex = 10923
+IconPath = "sa_interface2\menu\Gametip\GameTip_006.dtx"
+
+[HelpTip37]
+GameType = 10000
+TextIndex = 10924
+IconPath = "sa_interface2\menu\Gametip\GameTip_007.dtx"
+
+[HelpTip38]
+GameType = 10000
+TextIndex = 10925
+IconPath = "sa_interface2\menu\Gametip\GameTip_008.dtx"
+
+[HelpTip39]
+GameType = 10000
+TextIndex = 10926
+IconPath = "sa_interface2\menu\Gametip\GameTip_009.dtx"
+
+[HelpTip40]
+GameType = 10000
+TextIndex = 10927
+IconPath = "sa_interface2\menu\Gametip\GameTip_010.dtx"
+
+[HelpTip41]
+GameType = 10000
+TextIndex = 10928
+IconPath = "sa_interface2\menu\Gametip\GameTip_011.dtx"
+
+[HelpTip42]
+GameType = 10000
+TextIndex = 10929
+IconPath = "sa_interface2\menu\Gametip\GameTip_012.dtx"
+//////////////////
+[HelpTip43]
+GameType = 10000
+TextIndex = 10930
+IconPath = "sa_interface2\menu\Gametip\GameTip_033.dtx"
+
+[HelpTip44]
+GameType = 10000
+TextIndex = 10931
+IconPath = "sa_interface2\menu\Gametip\GameTip_034.dtx"
+
+[HelpTip45]
+GameType = 10000
+TextIndex = 10932
+IconPath = "sa_interface2\menu\Gametip\GameTip_035.dtx"
+
+[HelpTip46]
+GameType = 10000
+TextIndex = 10933
+IconPath = "sa_interface2\menu\Gametip\GameTip_036.dtx"
+
+[HelpTip47]
+GameType = 10000
+TextIndex = 10934
+IconPath = "sa_interface2\menu\Gametip\GameTip_037.dtx"
+
+[HelpTip48]
+GameType = 10000
+TextIndex = 10935
+IconPath = "sa_interface2\menu\Gametip\GameTip_038.dtx"
+
+[HelpTip49]
+GameType = 10000
+TextIndex = 10936
+IconPath = "sa_interface2\menu\Gametip\GameTip_039.dtx"
+
+[HelpTip50]
+GameType = 10000
+TextIndex = 10937
+IconPath = "sa_interface2\menu\Gametip\GameTip_040.dtx"
+//////////////////////
+[HelpTip51]
+//GameType = 10000
+//TextIndex = 10938
+//IconPath = "sa_interface2\menu\Gametip\GameTip_013.dtx"
+// __CKC_CLEAN_ATTACK__ // 50번과 동일하게 설정, 어메이징 팁 안나오게
+GameType = 10000
+TextIndex = 10937
+IconPath = "sa_interface2\menu\Gametip\GameTip_040.dtx"
+
+[HelpTip52]
+GameType = 10000
+TextIndex = 10939
+IconPath = "sa_interface2\menu\Gametip\GameTip_014.dtx"
+
+[HelpTip53]
+GameType = 10000
+TextIndex = 10940
+IconPath = "sa_interface2\menu\Gametip\GameTip_015.dtx"
+
+[HelpTip54]
+GameType = 10000
+TextIndex = 10941
+IconPath = "sa_interface2\menu\Gametip\GameTip_016.dtx"
+//여기까지 초보
+//////////////////////////////////////////////////////
+
+///그다음 일반..
+[HelpTip55]
+GameType = 10001
+TextIndex = 10942
+IconPath = "sa_interface2\menu\Gametip\GameTip_017.dtx"
+
+[HelpTip56]
+GameType = 10001
+TextIndex = 10943
+IconPath = "sa_interface2\menu\Gametip\GameTip_018.dtx"
+
+[HelpTip57]
+GameType = 10000
+TextIndex = 10944
+IconPath = "sa_interface2\menu\Gametip\GameTip_019.dtx"
+
+[HelpTip58]
+GameType = 10001
+TextIndex = 10947
+IconPath = "sa_interface2\menu\Gametip\GameTip_022.dtx"
+
+[HelpTip59]
+GameType = 10001
+TextIndex = 10949
+IconPath = "sa_interface2\menu\Gametip\GameTip_024.dtx"
+
+[HelpTip60]
+GameType = 10001
+TextIndex = 10950
+IconPath = "sa_interface2\menu\Gametip\GameTip_025.dtx"
+
+[HelpTip61]
+GameType = 10001
+TextIndex = 10951
+IconPath = "sa_interface2\menu\Gametip\GameTip_026.dtx"
+
+[HelpTip62]
+GameType = 10001
+TextIndex = 10952
+IconPath = "sa_interface2\menu\Gametip\GameTip_027.dtx"
+
+[HelpTip63]
+GameType = 10001
+TextIndex = 10953
+IconPath = "sa_interface2\menu\Gametip\GameTip_028.dtx"
+
+[HelpTip64]
+GameType = 10001
+TextIndex = 10955
+IconPath = "sa_interface2\menu\Gametip\GameTip_030.dtx"
+
+[HelpTip65]
+GameType = 10001
+TextIndex = 10956
+IconPath = "sa_interface2\menu\Gametip\GameTip_031.dtx"
+
+[HelpTip66]
+GameType = 10001
+TextIndex = 10957
+IconPath = "sa_interface2\menu\Gametip\GameTip_032.dtx"
+
+[HelpTip67]
+GameType = 10001
+TextIndex = 12171
+IconPath = "sa_interface2\menu\Gametip\GameTip_041.dtx"
+
+[HelpTip68]
+GameType = 10004
+TextIndex = 13581
+IconPath = "sa_interface2\menu\Gametip\GameTip_042.dtx"
+
+[HelpTip69]
+GameType = 10006
+TextIndex = 14051
+IconPath = "sa_interface2\menu\Gametip\GameTip_044.dtx"
+
+[HelpTip70]
+GameType = 10001
+TextIndex = 14158
+IconPath = "sa_interface2\menu\MapLevelSystem\GameTip_Map.dtx"
+
+[HelpTip71]
+GameType = 10007
+TextIndex = 14306
+IconPath = "sa_interface2\menu\Gametip\GameTip_045.dtx"
+
+[HelpTip72]
+GameType = 10008
+TextIndex = 14305
+IconPath = "sa_interface2\menu\Gametip\GameTip_046.dtx"
+
+[HelpTip73]
+GameType = 10001
+TextIndex = 14507
+IconPath = "sa_interface2\menu\Gametip\GameTip_047.dtx"
+
+[HelpTip74]
+GameType = 10001
+TextIndex = 14508
+IconPath = "sa_interface2\menu\Gametip\GameTip_048.dtx"
+
+[HelpTip75]
+GameType = 10001
+TextIndex = 14508
+IconPath = "sa_interface2\menu\Gametip\GameTip_048.dtx"
+
+[HelpTip76]
+GameType = 10008
+TextIndex = 14508
+IconPath = "sa_interface2\menu\Gametip\GameTip_048.dtx"
+
+[HelpTip77]
+GameType = 10009
+TextIndex = 14665
+IconPath = "sa_interface2\menu\Gametip\GameTip_049.dtx"
+
+[HelpTip78]
+GameType = 10009
+TextIndex = 14666
+IconPath = "sa_interface2\menu\Gametip\GameTip_050.dtx"
+
+[HelpTip79]
+GameType = 10009
+TextIndex = 14667
+IconPath = "sa_interface2\menu\Gametip\GameTip_051.dtx"
+
+[HelpTip80]
+GameType = 10009
+TextIndex = 14668
+IconPath = "sa_interface2\menu\Gametip\GameTip_052.dtx"
+
+[HelpTip81]
+GameType = 10009
+TextIndex = 14669
+IconPath = "sa_interface2\menu\Gametip\GameTip_053.dtx"
+
+[HelpTip82]
+GameType = 10009
+TextIndex = 14670
+IconPath = "sa_interface2\menu\Gametip\GameTip_054.dtx"
+
+[HelpTip83]
+GameType = 10009
+TextIndex = 14671
+IconPath = "sa_interface2\menu\Gametip\GameTip_055.dtx"
+
+
+//넥슨을 털어라
+
+[HelpTip84]
+GameType = 10010
+TextIndex = 14925
+IconPath = "sa_interface2\menu\Gametip\GameTip_056.dtx"
+
+[HelpTip85]
+GameType = 10011
+TextIndex = 14926
+IconPath = "sa_interface2\menu\Gametip\GameTip_057.dtx"
+
+[HelpTip86]
+GameType = 10012
+TextIndex = 14927
+IconPath = "sa_interface2\menu\Gametip\GameTip_058.dtx"
+
+[HelpTip87]
+GameType = 10013
+TextIndex = 14928
+IconPath = "sa_interface2\menu\Gametip\GameTip_059.dtx"
+
+[HelpTip88]
+GameType = 10014
+TextIndex = 14929
+IconPath = "sa_interface2\menu\Gametip\GameTip_060.dtx"
+
+[HelpTip89]
+GameType = 10015
+TextIndex = 14930
+IconPath = "sa_interface2\menu\Gametip\GameTip_061.dtx"
+
+[HelpTip90]
+GameType = 10016
+TextIndex = 14931
+IconPath = "sa_interface2\menu\Gametip\GameTip_062.dtx"
+
+//놈놈놈
+[HelpTip91]
+GameType = 10017
+TextIndex = 15532
+IconPath = "sa_interface2\menu\Gametip\GameTip_063.dtx"
+
+[HelpTip92]
+GameType = 10018
+TextIndex = 15533
+IconPath = "sa_interface2\menu\Gametip\GameTip_064.dtx"
+
+[HelpTip93]
+GameType = 10019
+TextIndex = 15535
+IconPath = "sa_interface2\menu\Gametip\GameTip_066.dtx"
+
+[HelpTip94]
+GameType = 10020
+TextIndex = 15537
+IconPath = "sa_interface2\menu\Gametip\GameTip_067.dtx"
+
+[HelpTip95]
+GameType = 10021
+TextIndex = 15534
+IconPath = "sa_interface2\menu\Gametip\GameTip_065.dtx"
+
+[HelpTip96]
+GameType = 10022
+TextIndex = 15536
+IconPath = "sa_interface2\menu\Gametip\GameTip_068.dtx"
+
+[HelpTip97]
+GameType = 10023
+TextIndex = 15778
+IconPath = "sa_interface2\menu\Gametip\GameTip_139.dtx"
+
+[HelpTip98]
+GameType = 10024
+TextIndex = 15779
+IconPath = "sa_interface2\menu\Gametip\GameTip_140.dtx"
+
+[HelpTip99]
+GameType = 10025
+TextIndex = 15780
+IconPath = "sa_interface2\menu\Gametip\GameTip_141.dtx"
+
+[HelpTip100]
+GameType = 10026
+TextIndex = 15781
+IconPath = "sa_interface2\menu\Gametip\GameTip_142.dtx"
+
+[HelpTip101]
+GameType = 10027
+TextIndex = 15782
+IconPath = "sa_interface2\menu\Gametip\GameTip_143.dtx"
+
+[HelpTip102]
+GameType = 10028
+TextIndex = 15783
+IconPath = "sa_interface2\menu\Gametip\GameTip_144.dtx"
+
+[HelpTip103]
+GameType = 10029
+TextIndex = 16658
+IconPath = "sa_interface2\menu\Gametip\GameTip_145.dtx"
+
+[HelpTip104]
+GameType = 10032
+TextIndex = 16689
+IconPath = "sa_interface2\menu\Gametip\GameTip_148.dtx"
+
+[HelpTip105]
+GameType = 10033
+TextIndex = 16690
+IconPath = "sa_interface2\menu\Gametip\GameTip_149.dtx"
+
+[HelpTip106]
+GameType = 10034
+TextIndex = 16691
+IconPath = "sa_interface2\menu\Gametip\GameTip_150.dtx"
+
+[HelpTip107]
+GameType = 10035
+HelpMsg = "SA_TEXT_SURVIVAL_TIP_MSG_1"
+IconPath = "sa_interface2\menu\Gametip\GameTip_151.dtx"
+
+[HelpTip108]
+GameType = 10036
+HelpMsg = "SA_TEXT_SURVIVAL_TIP_MSG_2"
+IconPath = "sa_interface2\menu\Gametip\GameTip_152.dtx"
+
+[HelpTip109]
+GameType = 10037
+TextIndex = 17286
+IconPath = "sa_interface2\menu\Gametip\Arrest_001.dtx"
+
+[HelpTip110]
+GameType = 10037
+TextIndex = 17287
+IconPath = "sa_interface2\menu\Gametip\Arrest_002.dtx"
+
+[HelpTip111]
+GameType = 10037
+TextIndex = 17288
+IconPath = "sa_interface2\menu\Gametip\Arrest_003.dtx"
+
+[HelpTip112]
+GameType = 10038
+TextIndex = 17289
+IconPath = "sa_interface2\menu\Gametip\Arrest_004.dtx"
+
+[HelpTip113]
+GameType = 10038
+TextIndex = 17290
+IconPath = "sa_interface2\menu\Gametip\Arrest_005.dtx"
+
+[HelpTip114]
+GameType = 10038
+TextIndex = 17291
+IconPath = "sa_interface2\menu\Gametip\Arrest_006.dtx"
+
+[HelpTip115]
+GameType = 10039
+TextIndex = 17545
+IconPath = "sa_interface2\menu\Gametip\GameTip_153.dtx"
+
+[HelpTip116]
+GameType = 10040
+TextIndex = 17546
+IconPath = "sa_interface2\menu\Gametip\GameTip_154.dtx"
+
+[HelpTip117]
+GameType = 64
+TextIndex = 19548
+IconPath = "sa_interface2\menu\Gametip\gametip_real001.dtx"
+
+[HelpTip118]
+GameType = 64
+TextIndex = 19549
+IconPath = "sa_interface2\menu\Gametip\gametip_real002.dtx"
+
+[HelpTip119]
+GameType = 64
+TextIndex = 19550
+IconPath = "sa_interface2\menu\Gametip\gametip_real003.dtx"
+
+[HelpTip120]
+GameType = 64
+TextIndex = 19551
+IconPath = "sa_interface2\menu\Gametip\gametip_real004.dtx"
+
+[HelpTip121]
+GameType = 64
+TextIndex = 19552
+IconPath = "sa_interface2\menu\Gametip\gametip_real005.dtx"
+
+[HelpTip122]
+GameType = 64
+TextIndex = 19553
+IconPath = "sa_interface2\menu\Gametip\gametip_real006.dtx"
+
+[HelpTip123]
+GameType = 64
+TextIndex = 19554
+IconPath = "sa_interface2\menu\Gametip\gametip_real007.dtx"
+
+
+[HelpTip124]
+GameType = 10047
+TextIndex = 19583
+IconPath = "sa_interface2\menu\Gametip\GameTip_180.dtx"
+
+[HelpTip125]
+GameType = 10048
+HelpMsg = "SA_TEXT_SURVIVAL_TIP_MSG_0"
+IconPath = "sa_interface2\menu\Gametip\GameTip_181.dtx"
+
+[HelpTip126]
+GameType = 10049
+TextIndex = 19585
+IconPath = "sa_interface2\menu\Gametip\GameTip_182.dtx"
+
+[HelpTip127]
+GameType = 10050
+TextIndex = 19586
+IconPath = "sa_interface2\menu\Gametip\GameTip_183.dtx"
+
+[HelpTip128]
+GameType = 10051
+TextIndex = 19587
+IconPath = "sa_interface2\menu\Gametip\GameTip_184.dtx"
+
+[HelpTip129] //스피드업
+GameType = 10052
+TextIndex = 20728
+IconPath = "sa_interface2\menu\Gametip\GameTip_185.dtx"
+
+[HelpTip130]//무적
+GameType = 10053
+TextIndex = 20729
+IconPath = "sa_interface2\menu\Gametip\GameTip_186.dtx"
+
+[HelpTip131] //투시
+GameType = 10054
+TextIndex = 20730
+IconPath = "sa_interface2\menu\Gametip\GameTip_187.dtx"
+
+[HelpTip132] //무한 수류탄
+GameType = 10055
+TextIndex = 20731
+IconPath = "sa_interface2\menu\Gametip\GameTip_188.dtx"
+
+[HelpTip133] //헤드샷
+GameType = 10056
+TextIndex = 20732
+IconPath = "sa_interface2\menu\Gametip\GameTip_189.dtx"
+
+
+[HelpTip134] //오토에임
+GameType = 10057
+TextIndex = 20733
+IconPath = "sa_interface2\menu\Gametip\GameTip_190.dtx"
+
+[HelpTip135] //무반동
+GameType = 10058
+TextIndex = 20734
+IconPath = "sa_interface2\menu\Gametip\GameTip_191.dtx"
+
+[HelpTip136] //적군 소환
+GameType = 10059
+TextIndex = 20735
+IconPath = "sa_interface2\menu\Gametip\GameTip_192.dtx"
+
+[HelpTip137] // 뱀파이어 변신
+GameType = 10060
+TextIndex = 20736
+IconPath = "sa_interface2\menu\Gametip\GameTip_193.dtx"
+
+[HelpTip138]  //부활
+GameType = 10061
+TextIndex = 20737
+IconPath = "sa_interface2\menu\Gametip\GameTip_194.dtx"
+
+[HelpTip139]  //체인지
+GameType = 10062
+TextIndex = 21411
+IconPath = "sa_interface2\menu\Gametip\GameTip_195.dtx"
+
+[HelpTip140]  //신의 분노
+GameType = 10063
+TextIndex = 21410
+IconPath = "sa_interface2\menu\Gametip\GameTip_196.dtx"
+
+[HelpTip141]  //리셋 상자
+GameType = 10064
+TextIndex = 21412
+IconPath = "sa_interface2\menu\Gametip\GameTip_197.dtx"
+
+[HelpTip142]  //스페셜 라운드
+GameType = 10065
+TextIndex = 21413
+IconPath = "sa_interface2\menu\Gametip\GameTip_198.dtx"
+
+[HelpTip143]  //슈퍼 볼
+GameType = 10066
+TextIndex = 21681
+IconPath = "sa_interface2\menu\Gametip\GameTip_199.dtx"
+
+[HelpTip144]  //윈드장치
+GameType = 10067
+TextIndex = 21682
+IconPath = "sa_interface2\menu\Gametip\GameTip_200.dtx"
+
+[HelpTip145]  //전후반
+GameType = 10068
+TextIndex = 21683
+IconPath = "sa_interface2\menu\Gametip\GameTip_201.dtx"
+
+[HelpTip146]  //Dedicated Server
+GameType = 10069
+TextIndex = 22276
+IconPath = "sa_interface2\menu\Gametip\GameTip_202.dtx"
+
+[HelpTip147] //제3보급구역
+GameType = 10070
+TextIndex = 26445
+IconPath = "sa_interface2\menu\Gametip\GameTip_203.dtx"
+
+[HelpTip148] //제3보급구역
+GameType = 10071
+TextIndex = 26446
+IconPath = "sa_interface2\menu\Gametip\GameTip_204.dtx"
+
+[HelpTip149] //에이스
+GameType = 74
+TextIndex = 28010
+IconPath = "sa_interface2\menu\Gametip\GameTip_ace_001.dtx"
+
+[HelpTip150] //에이스
+GameType = 74
+TextIndex = 28011
+IconPath = "sa_interface2\menu\Gametip\GameTip_ace_002.dtx"
+
+[HelpTip151] //에이스
+GameType = 74
+TextIndex = 28012
+IconPath = "sa_interface2\menu\Gametip\GameTip_ace_003.dtx"
+
+[HelpTip152] //에이스
+GameType = 74
+TextIndex = 28013
+IconPath = "sa_interface2\menu\Gametip\GameTip_ace_004.dtx"
+
+[HelpTip153] //에이스
+GameType = 74
+TextIndex = 28014
+IconPath = "sa_interface2\menu\Gametip\GameTip_ace_005.dtx"
+
+[HelpTip154] //퍼스트존
+GameType = 10072
+HelpMsg = "SA_TEXT_SURVIVAL_GGANBU_1"
+IconPath = "sa_interface2\menu\Gametip\GameTip_205.dtx"
+
+[HelpTip155] //퍼스트존
+GameType = 10073
+HelpMsg = "SA_TEXT_SURVIVAL_GGANBU_2"
+IconPath = "sa_interface2\menu\Gametip\GameTip_206.dtx"
+
+[HelpTip156] //퍼스트존
+GameType = 10074
+HelpMsg = "SA_TEXT_SURVIVAL_GGANBU_3"
+IconPath = "sa_interface2\menu\Gametip\GameTip_207.dtx"
+
+[HelpTip157] //진짜를 모아라
+GameType = 79
+HelpMsg = "SA_TEXT_REALCOLLECT_MSG_22"
+IconPath = "sa_interface2\menu\Gametip\gametip_RealCollect001.dtx"
+
+[HelpTip158] //인내의 숲
+GameType = 58
+HelpMsg = "SA_TEXT_FORESTOFPATIENCE_MSG_0"
+IconPath = "sa_interface2\menu\Gametip\gametip_FOP001.dtx"
+
+[HelpTip159] //미로 계단
+GameType = 10075
+HelpMsg = "SA_TEXT_SQUIDGAME_MSG_1"
+IconPath = "sa_interface2\menu\Gametip\gametip_SG001.dtx"
+
+[HelpTip160] //UP투게더
+GameType = 10076
+HelpMsg = "SA_TEXT_UPTOGETHER_MSG_1"
+IconPath = "sa_interface2\menu\Gametip\gametip_up001.dtx"
+
+//[HelpTip160] //브래드의 초대
+//GameType = 80
+//HelpMsg = "SA_TEXT_BREADINVITE_MSG_1"
+//IconPath = "sa_interface2\menu\Gametip\gametip_BI001.dtx"
+
+//데스런의 헬프팁은 인내의 숲이 들어가게 되면서 잠시 제외시켜둠
+//추후 다시 데스런 모드를 원복하려면 하단 내용을 인덱스에 맞게 추가해두는 작업이 필요
+//이때, 인내의 숲 전용 HelpTip166 다시 삭제가 필요
+//[HelpTip109]
+//GameType = 58
+//TextIndex = 16906
+//IconPath = "sa_interface2\menu\Gametip\GameTipRunRunRun_001.dtx"
+
+//[HelpTip110]
+//GameType = 58
+//TextIndex = 16907
+//IconPath = "sa_interface2\menu\Gametip\GameTipRunRunRun_002.dtx"
+
+//[HelpTip111]
+//GameType = 58
+//TextIndex = 16908
+//IconPath = "sa_interface2\menu\Gametip\GameTipRunRunRun_003.dtx"
+
+//[HelpTip112]
+//GameType = 58
+//TextIndex = 16909
+//IconPath = "sa_interface2\menu\Gametip\GameTipRunRunRun_004.dtx"
+
+//[HelpTip113]
+//GameType = 58
+//TextIndex = 16910
+//IconPath = "sa_interface2\menu\Gametip\GameTipRunRunRun_005.dtx"
+
+//[HelpTip114]
+//GameType = 58
+//TextIndex = 16911
+//IconPath = "sa_interface2\menu\Gametip\GameTipRunRunRun_006.dtx"
+
+//[HelpTip115]
+//GameType = 58
+//TextIndex = 16912
+//IconPath = "sa_interface2\menu\Gametip\GameTipRunRunRun_007.dtx"
+
+//[HelpTip116]
+//GameType = 58
+//TextIndex = 16913
+//IconPath = "sa_interface2\menu\Gametip\GameTipRunRunRun_008.dtx"

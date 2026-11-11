@@ -1,0 +1,20 @@
+{
+  "path": "extracted\\game-file\\game_file\\CShell.dll",
+  "sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110",
+  "candidates": [
+    {
+      "source_address": "0x180019a5f",
+      "file_offset": 101983,
+      "bytes_hex": "488d156a824b01",
+      "target": "0x1814d1cd0",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180019a50",
+      "unwind_owner_end": "0x180019a82"
+    }
+  ],
+  "limitations": [
+    "Pattern matches can occur within other instructions or data; instruction boundaries are unverified.",
+    "Unwind entries can describe fragments; they do not establish canonical function starts.",
+    "This bounded search does not cover all x86 instruction forms or indirect references."
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "header": {
+    "path": "C:\\Nexon\\SuddenAttack\\game\\global_00000.pkg",
+    "bytes": 29696,
+    "version": 3,
+    "mask_bytes": 110,
+    "masked_string_units": 13,
+    "encrypted_header_offset": 141,
+    "index_padding_bytes": 201,
+    "observed_header_sha256": "502c61b2f776c5b4ebaee043193898d1c4c2f670bba3c388e235095c5f8e64bc",
+    "identity_scope": "header-ranges-only",
+    "byteorder": "little",
+    "count": 6,
+    "checksum": 524325
+  },
+  "index_offset": 350,
+  "index_plaintext_bytes": 596,
+  "index_read_bytes": 596,
+  "index_raw_sha256": "a2123a2076edd838d34340d1c3287891c698c8944f0a7d36905e12db10bc5b4d",
+  "payload_base": 1024,
+  "members": [
+    {
+      "index": 0,
+      "path": "global/models/1x1_square.ltb",
+      "flags": 7,
+      "field8": 0,
+      "field12": 35781,
+      "field16": 9952,
+      "field20": 0,
+      "checksum": 48030,
+      "block_hashes": [],
+      "digest_hex": "ffd6f6677254fb68f62d419c2f5c5daf",
+      "extra_hex": ""
+    },
+    {
+      "index": 1,
+      "path": "global/models/1x1_square.ltc",
+      "flags": 6,
+      "field8": 10,
+      "field12": 1113,
+      "field16": 1116,
+      "field20": 0,
+      "checksum": 4264,
+      "block_hashes": [],
+      "digest_hex": "8da8efd9c05082492d2c5d39dc85417a",
+      "extra_hex": ""
+    },
+    {
+      "index": 2,
+      "path": "global/models/default.ltb",
+      "flags": 6,
+      "field8": 12,
+      "field12": 1720,
+      "field16": 1720,
+      "field20": 0,
+      "checksum": 5687,
+      "block_hashes": [],
+      "digest_hex": "a557ddded10674337bdcb132e8459782",
+      "extra_hex": ""
+    },
+    {
+      "index": 3,
+      "path": "global/models/default.ltc",
+      "flags": 6,
+      "field8": 14,
+      "field12": 3216,
+      "field16": 3216,
+      "field20": 0,
+      "checksum": 8463,
+      "block_hashes": [],
+      "digest_hex": "b0a0be387633764c9197946ace883579",
+      "extra_hex": ""
+    },
+    {
+      "index": 4,
+      "path": "global/models/sphere.ltb",
+      "flags": 7,
+      "field8": 18,
+      "field12": 5307,
+      "field16": 2056,
+      "field20": 0,
+      "checksum": 9718,
+      "block_hashes": [],
+      "digest_hex": "e6934bb7dcc6dde469bfb30c6122b022",
+      "extra_hex": ""
+    },
+    {
+      "index": 5,
+      "path": "global/models/sphere.ltc",
+      "flags": 6,
+      "field8": 21,
+      "field12": 6767,
+      "field16": 6768,
+      "field20": 0,
+      "checksum": 15195,
+      "block_hashes": [],
+      "digest_hex": "0df816288c753f95e23668bb220015d7",
+      "extra_hex": ""
+    }
+  ],
+  "limitations": [
+    "Metadata checksums verified; member payloads are unverified.",
+    "field8/12/16/20 retain raw coordinates until their uses are traced.",
+    "Index path names do not authorize executing any archived binaries.",
+    "Full-file SHA-256 is not computed by this bounded index operation."
+  ]
+}

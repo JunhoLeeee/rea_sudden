@@ -1,0 +1,580 @@
+{
+	"item":
+	[
+		{
+			"id" : 0,
+			"equiptype" : 0,
+			"icon" : "item_icon01",
+			"slotsize" : 1,
+			"name" : "안테나",
+			"defenselevel" : [0,1,0,1,0,0],
+			"disastericon1" : "Item_thunderbolt_s",
+			"disastericon2" : "Item_gas_s"
+		},
+		{
+			"id" : 1,
+			"equiptype" : 1,
+			"icon" : "item_icon02",
+			"slotsize" : 1,
+			"name" : "방화복",
+			"defenselevel" : [0,0,0,1,1,0],
+			"disastericon1" : "Item_gas_s",
+			"disastericon2" : "Item_snowstorm_s"
+		},
+		{
+			"id" : 2,
+			"equiptype" : 0,
+			"icon" : "item_icon03",
+			"slotsize" : 1,
+			"name" : "헬멧",
+			"defenselevel" : [0,0,0,0,1,1],
+			"disastericon1" : "Item_snowstorm_s",
+			"disastericon2" : "Item_flood_s"
+		},
+		{
+			"id" : 3,
+			"equiptype" : 1,
+			"icon" : "item_icon04",
+			"slotsize" : 1,
+			"name" : "롱패딩",
+			"defenselevel" : [1,0,0,0,1,0],
+			"disastericon1" : "Item_tornado_s",
+			"disastericon2" : "Item_snowstorm_s"
+		},
+		{
+			"id" : 4,
+			"equiptype" : 0,
+			"icon" : "item_icon05",
+			"slotsize" : 1,
+			"name" : "우산모자",
+			"defenselevel" : [0,1,0,0,0,1],
+			"disastericon1" : "Item_thunderbolt_s",
+			"disastericon2" : "Item_flood_s"
+		},
+		{
+			"id" : 5,
+			"equiptype" : 1,
+			"icon" : "item_icon06",
+			"slotsize" : 1,
+			"name" : "우비",
+			"defenselevel" : [0,0,0,1,0,1],
+			"disastericon1" : "Item_gas_s",
+			"disastericon2" : "Item_flood_s"
+
+		},
+		{
+			"id" : 6,
+			"equiptype" : 0,
+			"icon" : "item_icon07",
+			"slotsize" : 1,
+			"name" : "방독면",
+			"defenselevel" : [1,0,0,1,0,0],
+			"disastericon1" : "Item_tornado_s",
+			"disastericon2" : "Item_gas_s"
+		},
+		{
+			"id" : 7,
+			"equiptype" : 1,
+			"icon" : "item_icon08",
+			"slotsize" : 1,
+			"name" : "솥뚜껑",
+			"defenselevel" : [1,1,0,0,0,0],
+			"disastericon1" : "Item_tornado_s",
+			"disastericon2" : "Item_thunderbolt_s"
+		},
+		{
+			"id" : 8,
+			"equiptype" : 2,
+			"icon" : "item_icon10",
+			"slotsize" : 2,
+			"name" : "치료킷",
+			"desc" : "개수 1 \r\n\r\n치유량 50",
+			"disastericon1" : "Item_epmty",
+			"disastericon2" : "Item_epmty"
+		},
+		{
+			"id" : 9,
+			"equiptype" : 2,
+			"icon" : "item_icon09",
+			"slotsize" : 2,
+			"name" : "C.USP",
+			"desc" : "대미지 19 \r\n\r\n장탄 수 12발",
+			"disastericon1" : "Item_epmty",
+			"disastericon2" : "Item_epmty"
+		},
+		{
+			"id" : 10,
+			"equiptype" : 2,
+			"icon" : "item_icon09",
+			"slotsize" : 2,
+			"name" : "B.92Fs",
+			"desc" : "대미지 22 \r\n\r\n장탄 수 15발",
+			"disastericon1" : "Item_epmty",
+			"disastericon2" : "Item_epmty"
+		},
+		{
+			"id" : 11,
+			"equiptype" : 2,
+			"icon" : "item_icon11",
+			"slotsize" : 2,
+			"name" : "AK-47",
+			"desc" : "대미지 43 \r\n\r\n장탄 수 15발",
+			"disastericon1" : "Item_epmty",
+			"disastericon2" : "Item_epmty"
+		},
+		{
+			"id" : 12,
+			"equiptype" : 2,
+			"icon" : "item_icon12",
+			"slotsize" : 2,
+			"name" : "AK-47",
+			"desc" : "대미지 43 \r\n\r\n장탄 수 60발",
+			"disastericon1" : "Item_epmty",
+			"disastericon2" : "Item_epmty"
+		},
+		{
+			"id" : 13,
+			"equiptype" : 2,
+			"icon" : "item_icon13",
+			"slotsize" : 2,
+			"name" : "TRG-21",
+			"desc" : "대미지 100 \r\n\r\n장탄 수 2발",
+			"disastericon1" : "Item_epmty",
+			"disastericon2" : "Item_epmty"
+		},
+		{
+			"id" : 14,
+			"equiptype" : 2,
+			"icon" : "item_icon14",
+			"slotsize" : 2,
+			"name" : "TRG-21",
+			"desc" : "대미지 100 \r\n\r\n장탄 수 10발",
+			"disastericon1" : "Item_epmty",
+			"disastericon2" : "Item_epmty"
+		},
+		{
+			"id" : 15,
+			"equiptype" : 2,
+			"icon" : "item_icon15",
+			"slotsize" : 2,
+			"name" : "SG-12",
+			"desc" : "대미지 78 \r\n\r\n장탄 수 6발",
+			"disastericon1" : "Item_epmty",
+			"disastericon2" : "Item_epmty"
+		},
+		{
+			"id" : 16,
+			"equiptype" : 2,
+			"icon" : "item_icon16",
+			"slotsize" : 2,
+			"name" : "SG-12",
+			"desc" : "대미지 78 \r\n\r\n장탄 수 24발",
+			"disastericon1" : "Item_epmty",
+			"disastericon2" : "Item_epmty"
+		},
+		{
+			"id" : 17,
+			"equiptype" : 2,
+			"icon" : "item_icon17",
+			"slotsize" : 2,
+			"name" : "G400",
+			"desc" : "대미지 100 \r\n\r\n장탄 수 1발",
+			"disastericon1" : "Item_epmty",
+			"disastericon2" : "Item_epmty"
+		},
+		{
+			"id" : 18,
+			"equiptype" : 2,
+			"icon" : "item_icon18",
+			"slotsize" : 2,
+			"name" : "G700",
+			"desc" : "대미지 100 \r\n\r\n장탄 수 1발",
+			"disastericon1" : "Item_epmty",
+			"disastericon2" : "Item_epmty"
+		}
+	],
+
+	"disaster":
+	[
+		{
+			"type" : 0,
+			"subtype" : 0,
+			"name" : "토네이도",
+			"icon" : "Item_tornado",
+			"damagetexture" : "Hudfx_Tornado",
+			"damageblinktime" : 0.7,
+			"damagesound" : "sa_interface2\\snd\\disaster\\hudfx_tornado.wav",
+			"shieldtexture" : "Hudfx_Shield",
+			"shieldsound" : "sa_interface2\\snd\\disaster\\hudfx_shield.wav",
+			"sky" : "Skyb"
+		},
+		{
+			"type" : 1,
+			"subtype" : 0,
+			"name" : "낙뢰",
+			"icon" : "Item_thunderbolt",
+			"damagetexture" : "Hudfx_Lightning",
+			"damageblinktime" : 3.0,
+			"damagesound" : "sa_interface2\\snd\\disaster\\hudfx_lightning.wav",
+			"shieldtexture" : "Hudfx_Shield",
+			"shieldsound" : "sa_interface2\\snd\\disaster\\hudfx_shield.wav",
+			"sky" : "Skya"
+		},
+		{
+			"type" : 2,
+			"subtype" : 0,
+			"name" : "메테오",
+			"icon" : "Item_meteor",
+			"damagetexture" : "Hudfx_Meteor",
+			"damageblinktime" : 3.0,
+			"damagesound" : "sa_interface2\\snd\\disaster\\hudfx_meteor.wav",
+			"shieldtexture" : "Hudfx_Shield",
+			"shieldsound" : "sa_interface2\\snd\\disaster\\hudfx_shield.wav",
+			"sky" : "Skyc"
+		},
+		{
+			"type" : 3,
+			"subtype" : 0,
+			"name" : "독가스",
+			"icon" : "Item_gas",
+			"damagetexture" : "Hudfx_Gas",
+			"damageblinktime" : 0.5,
+			"damagesound" : "sa_interface2\\snd\\disaster\\hudfx_gas.wav",
+			"shieldtexture" : "Hudfx_Shield",
+			"shieldsound" : "sa_interface2\\snd\\disaster\\hudfx_shield.wav",
+			"sky" : "Skyd"
+		},
+		{
+			"type" : 4,
+			"subtype" : 0,
+			"name" : "눈보라",
+			"icon" : "Item_snowstorm",
+			"damagetexture" : "Hudfx_Blizzard",
+			"damageblinktime" : 1.0,
+			"damagesound" : "sa_interface2\\snd\\disaster\\hudfx_blizzard.wav",
+			"shieldtexture" : "Hudfx_Shield",
+			"shieldsound" : "sa_interface2\\snd\\disaster\\hudfx_shield.wav",
+			"sky" : "Skye",
+			"hud_color" : "0x80646464",
+			"wave_start_sound_name" : "sa_interface2\\snd\\disaster\\blizzard_move.wav",
+			"near_sound_name" : "sa_interface2\\snd\\disaster\\blizzard_idle.wav",
+			"inner_sound_name" : "sa_interface2\\snd\\disaster\\blizzard_inner.wav",
+			"near_range" : 250.0,
+			"list_begin" : 0,
+			"list_end" : 4
+		},
+		{
+			"type" : 4,
+			"subtype" : 1,
+			"name" : "모래폭풍",
+			"icon" : "Item_snowstorm",
+			"damagetexture" : "Hudfx_sandstorm",
+			"damageblinktime" : 1.0,
+			"damagesound" : "sa_interface2\\snd\\disaster\\hudfx_gas.wav",
+			"shieldtexture" : "Hudfx_Shield",
+			"shieldsound" : "sa_interface2\\snd\\disaster\\hudfx_shield.wav",
+			"sky" : "Skye",
+			"hud_color" : "0x3caf5a00",
+			"wave_start_sound_name" : "sa_interface2\\snd\\disaster\\sandstorm_move.wav",
+			"near_sound_name" : "sa_interface2\\snd\\disaster\\sandstorm_idle.wav",
+			"inner_sound_name" : "sa_interface2\\snd\\disaster\\sandstorm_inner.wav",
+			"near_range" : 750.0,
+			"list_begin" : 5,
+			"list_end" : 9
+		},
+		{
+			"type" : 4,
+			"subtype" : 2,
+			"name" : "파이널존폭풍",
+			"icon" : "Item_snowstorm",
+			"damagetexture" : "Hudfx_sandstorm",
+			"damageblinktime" : 1.0,
+			"damagesound" : "sa_interface2\\snd\\disaster\\hudfx_gas.wav",
+			"shieldtexture" : "Hudfx_Shield",
+			"shieldsound" : "sa_interface2\\snd\\disaster\\hudfx_shield.wav",
+			"sky" : "Skye",
+			"hud_color" : "0x3caf5a00",
+			"wave_start_sound_name" : "sa_interface2\\snd\\disaster\\storm_move.wav",
+			"near_sound_name" : "sa_interface2\\snd\\disaster\\storm_idle.wav",
+			"inner_sound_name" : "sa_interface2\\snd\\disaster\\storm_inner.wav",
+			"near_range" : 750.0,
+			"list_begin" : 10,
+			"list_end" : 14
+		},
+		{
+			"type" : 4,
+			"subtype" : 3,
+			"name" : "로데오폭풍",
+			"icon" : "Item_snowstorm",
+			"damagetexture" : "Hudfx_sandstorm",
+			"damageblinktime" : 1.0,
+			"damagesound" : "sa_interface2\\snd\\disaster\\hudfx_gas.wav",
+			"shieldtexture" : "Hudfx_Shield",
+			"shieldsound" : "sa_interface2\\snd\\disaster\\hudfx_shield.wav",
+			"sky" : "Skye",
+			"hud_color" : "0x3caf5a00",
+			"wave_start_sound_name" : "sa_interface2\\snd\\disaster\\storm_move.wav",
+			"near_sound_name" : "sa_interface2\\snd\\disaster\\storm_idle.wav",
+			"inner_sound_name" : "sa_interface2\\snd\\disaster\\storm_inner.wav",
+			"near_range" : 750.0,
+			"list_begin" : 15,
+			"list_end" : 19
+		},
+		{
+			"type" : 5,
+			"subtype" : 0,
+			"name" : "홍수",
+			"damagetexture" : "Hudfx_ice",
+			"damageblinktime" : 1.0,
+			"damagesound" : "sa_interface2\\snd\\disaster\\hudfx_flood.wav",
+			"shieldtexture" : "Hudfx_Shield",
+			"shieldsound" : "sa_interface2\\snd\\disaster\\hudfx_shield.wav",
+			"watertexture" : "water_blue",
+			"watersound" : "",
+			"sight_rgb" : [84, 97, 124],
+			"sky" : "skyf"
+		},
+		{
+			"type" : 5,
+			"subtype" : 1,
+			"name" : "홍수",
+			"icon" : "Item_flood",
+			"damagetexture" : "Hudfx_ice",
+			"damageblinktime" : 1.0,
+			"damagesound" : "sa_interface2\\snd\\disaster\\hudfx_flood.wav",
+			"shieldtexture" : "Hudfx_Shield",
+			"shieldsound" : "sa_interface2\\snd\\disaster\\hudfx_shield.wav",
+			"watertexture" : "water_flood",
+			"watersound" : "",
+			"sight_rgb" : [40, 40, 40],
+			"sky" : "skyf"
+		}
+	],
+
+	"fx":
+	[
+		{
+			"id" : 0,
+			"start" : "",
+			"ing" : "Disaster_Hurricane_middle",
+			"end" : ""
+		},
+		{
+			"id" : 1,
+			"start" : "",
+			"ing" : "Disaster_Hurricane_middle_1",
+			"end" : ""
+		},
+		{
+			"id" : 2,
+			"start" : "",
+			"ing" : "Disaster_Lightning_middle",
+			"end" : ""
+		},
+		{
+			"id" : 3,
+			"start" : "",
+			"ing" : "Disaster_Lightning_middle_1",
+			"end" : ""
+		},
+		{
+			"id" : 4,
+			"start" : "Disaster_Meteor_Begin",
+			"ing" : "Disaster_Meteor_middle",
+			"end" : "Disaster_Meteor_end"
+		},
+		{
+			"id" : 5,
+			"start" : "Disaster_Meteor_Begin",
+			"ing" : "Disaster_Meteor_middle",
+			"end" : "Disaster_Meteor_end"
+		},
+		{
+			"id" : 6,
+			"start" : "Disaster_Poison_Begin",
+			"ing" : "Disaster_Poison_middle",
+			"end" : ""
+		},
+		{
+			"id" : 7,
+			"start" : "Disaster_Poison_Begin",
+			"ing" : "Disaster_Poison_middle",
+			"end" : ""
+		},
+		{
+			"id" : 8,
+			"start" : "",
+			"ing" : "Survive_Lightning_middle_1",
+			"end" : ""
+		},
+		{
+			"id" : 9,
+			"start" : "Survive_Poison_Begin",
+			"ing" : "Survive_Poison_middle",
+			"end" : ""
+		}
+	],
+	"blizzard_info":
+	[
+		{
+			"index" : 0,
+			"texture" : "sa_tex2017\\survival4\\SnowCloud.dtx",
+			"height" : 8000.0,
+			"flutterspeed": 1000.0,
+			"fallspeed" : 0.0,
+			"scale" : 1.0
+		},
+		{
+			"index" : 1,
+			"texture" : "sa_tex2017\\survival4\\SnowCloud.dtx",
+			"height" : 8000.0,
+			"flutterspeed": -1000.0,
+			"fallspeed" : 0.0,
+			"scale" : 2.0
+		},
+		{
+			"index" : 2,
+			"texture" : "SA_TEX\\FX\\blizzard1.dtx",
+			"height" : 6000.0,
+			"flutterspeed": 6000.0,
+			"fallspeed" : -2000.0,
+			"scale" : 0.5
+		},
+		{
+			"index" : 3,
+			"texture" : "SA_TEX\\FX\\blizzard2.dtx",
+			"height" : 6000.0,
+			"flutterspeed": 4000.0,
+			"fallspeed" : -1750.0,
+			"scale" : 0.7
+		},
+		{
+			"index" : 4,
+			"texture" : "SA_TEX\\FX\\blizzard3.dtx",
+			"height" : 6000.0,
+			"flutterspeed": 3000.0,
+			"fallspeed" : -1500.0,
+			"scale" : 0.6
+		},
+		{
+			"index" : 5,
+			"texture" : "sa_texfx\\disaster_tex\\SandCloud.dtx",
+			"height" : 8000.0,
+			"flutterspeed": 1000.0,
+			"fallspeed" : 0.0,
+			"scale" : 1.0
+		},
+		{
+			"index" : 6,
+			"texture" : "sa_texfx\\disaster_tex\\SandCloud.dtx",
+			"height" : 8000.0,
+			"flutterspeed": -1000.0,
+			"fallspeed" : 0.0,
+			"scale" : 2.0
+		},
+		{
+			"index" : 7,
+			"texture" : "sa_texfx\\disaster_tex\\Sblizzard1.dtx",
+			"height" : 6000.0,
+			"flutterspeed": 6000.0,
+			"fallspeed" : -2000.0,
+			"scale" : 0.5
+		},
+		{
+			"index" : 8,
+			"texture" : "sa_texfx\\disaster_tex\\Sblizzard2.dtx",
+			"height" : 6000.0,
+			"flutterspeed": 4000.0,
+			"fallspeed" : -1750.0,
+			"scale" : 0.7
+		},
+		{
+			"index" : 9,
+			"texture" : "sa_texfx\\disaster_tex\\Sblizzard3.dtx",
+			"height" : 6000.0,
+			"flutterspeed": 3000.0,
+			"fallspeed" : -1500.0,
+			"scale" : 0.6
+		},
+		{
+			"index" : 10,
+			"texture" : "sa_texfx\\storm\\final_storm01.dtx",
+			"height" : 6000.0,
+			"flutterspeed": 12000.0,
+			"fallspeed" : -4000.0,
+			"scale" : 0.8
+		},
+		{
+			"index" : 11,
+			"texture" : "sa_texfx\\storm\\final_storm03.dtx",
+			"height" : 7000.0,
+			"flutterspeed": -20000.0,
+			"fallspeed" : -1750.0,
+			"scale" : 5.0
+		},
+		{
+			"index" : 12,
+			"texture" : "sa_texfx\\storm\\final_storm03.dtx",
+			"height" : 6000.0,
+			"flutterspeed": 9000.0,
+			"fallspeed" : 2000.0,
+			"scale" : 10.0
+		},
+		{
+			"index" : 13,
+			"texture" : "sa_texfx\\storm\\final_storm04.dtx",
+		"height" : 6000.0,
+			"flutterspeed": 6000.0,
+			"fallspeed" : -500.0,
+			"scale" : 7.0
+		},
+		{
+			"index" : 14,
+			"texture" : "sa_texfx\\storm\\final_storm02.dtx",
+			"height" : 6000.0,
+			"flutterspeed": -10000.0,
+			"fallspeed" : -4000.0,
+			"scale" : 0.9
+		},
+		{
+			"index" : 15,
+			"texture" : "sa_texfx\\storm\\rodeo_storm01.dtx",
+			"height" : 6000.0,
+			"flutterspeed": 12000.0,
+			"fallspeed" : -4000.0,
+			"scale" : 0.8
+		},
+		{
+			"index" : 16,
+			"texture" : "sa_texfx\\storm\\rodeo_storm03.dtx",
+			"height" : 7000.0,
+			"flutterspeed": -20000.0,
+			"fallspeed" : -1750.0,
+			"scale" : 5.0
+		},
+		{
+			"index" : 17,
+			"texture" : "sa_texfx\\storm\\rodeo_storm03.dtx",
+			"height" : 6000.0,
+			"flutterspeed": 9000.0,
+			"fallspeed" : 2000.0,
+			"scale" : 10.0
+		},
+		{
+			"index" : 18,
+			"texture" : "sa_texfx\\storm\\rodeo_storm04.dtx",
+		"height" : 6000.0,
+			"flutterspeed": 6000.0,
+			"fallspeed" : -500.0,
+			"scale" : 7.0
+		},
+		{
+			"index" : 19,
+			"texture" : "sa_texfx\\storm\\rodeo_storm02.dtx",
+			"height" : 6000.0,
+			"flutterspeed": -10000.0,
+			"fallspeed" : -4000.0,
+			"scale" : 0.9
+		}
+	]
+}

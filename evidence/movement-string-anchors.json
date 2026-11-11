@@ -1,0 +1,149 @@
+{
+  "path": "extracted\\game-file\\game_file\\CShell.dll",
+  "bytes": 33580904,
+  "sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110",
+  "image_base": "0x180000000",
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "raw_offset": 1024,
+      "raw_size": 21292032,
+      "virtual_size": 21291790
+    },
+    {
+      "name": ".rdata",
+      "rva": 21299200,
+      "raw_offset": 21293056,
+      "raw_size": 4760064,
+      "virtual_size": 4759922
+    },
+    {
+      "name": ".data",
+      "rva": 26062848,
+      "raw_offset": 26053120,
+      "raw_size": 446464,
+      "virtual_size": 2207224
+    },
+    {
+      "name": ".pdata",
+      "rva": 28270592,
+      "raw_offset": 26499584,
+      "raw_size": 999424,
+      "virtual_size": 998916
+    },
+    {
+      "name": ".rsrc",
+      "rva": 29270016,
+      "raw_offset": 27499008,
+      "raw_size": 1536,
+      "virtual_size": 1288
+    },
+    {
+      "name": ".reloc",
+      "rva": 29274112,
+      "raw_offset": 27500544,
+      "raw_size": 300544,
+      "virtual_size": 300208
+    },
+    {
+      "name": ".vm_sec",
+      "rva": 29577216,
+      "raw_offset": 27801088,
+      "raw_size": 49664,
+      "virtual_size": 49664
+    },
+    {
+      "name": ".vlizer",
+      "rva": 29630464,
+      "raw_offset": 27850752,
+      "raw_size": 5719549,
+      "virtual_size": 5719552
+    }
+  ],
+  "pattern": "CMoveMgr|RunSpeed|WalkSpeed|JumpSpeed|PlayerAccel|MoveMgr|MoveTo|MovementSpeed|Gravity|JumpVel",
+  "matches": [
+    {
+      "offset": 23317736,
+      "bytes": 47,
+      "encoding": "ascii",
+      "address": "0x18163e4e8",
+      "value": "[CMoveMgr] CheckThroughWorldEndLess - CP_DAMAGE"
+    },
+    {
+      "offset": 23355552,
+      "bytes": 63,
+      "encoding": "ascii",
+      "address": "0x1816478a0",
+      "value": "[Game : Error] (Front) Body gravity is missing animation death."
+    },
+    {
+      "offset": 23355632,
+      "bytes": 62,
+      "encoding": "ascii",
+      "address": "0x1816478f0",
+      "value": "[Game : Error] (Back) Body gravity is missing animation death."
+    },
+    {
+      "offset": 23425656,
+      "bytes": 55,
+      "encoding": "ascii",
+      "address": "0x181658a78",
+      "value": "[Game : Error] Body gravity is missing animation death."
+    },
+    {
+      "offset": 23430000,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x181659b70",
+      "value": "MoveToFloor"
+    },
+    {
+      "offset": 23430016,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x181659b80",
+      "value": "SolidAndGravity"
+    },
+    {
+      "offset": 23487480,
+      "bytes": 7,
+      "encoding": "ascii",
+      "address": "0x181667bf8",
+      "value": "Gravity"
+    },
+    {
+      "offset": 23488640,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x181668080",
+      "value": "GravityOverride"
+    },
+    {
+      "offset": 23507776,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x18166cb40",
+      "value": "GravityScale"
+    },
+    {
+      "offset": 26382888,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x18192b828",
+      "value": ".?AVSATexMoveTo@@"
+    },
+    {
+      "offset": 26458512,
+      "bytes": 37,
+      "encoding": "ascii",
+      "address": "0x18193df90",
+      "value": ".?AVCheckCanMoveDataObject@CMoveMgr@@"
+    }
+  ],
+  "limitations": [
+    "Raw file-string anchors only; no references or function identities established.",
+    "Virtual addresses require one unique source-backed section mapping.",
+    "Only printable ASCII and ASCII-range UTF-16LE runs are scanned."
+  ]
+}

@@ -1,0 +1,14 @@
+<UIEditor>
+    <UIInfo name="mission_desc" x="18" y="24" w="300" h="15" type="1" commandid="" atlas="" texture="" comptype="Text" groupname="" hudalign="0" hudstretch="false" message="" color1="4291414471" color2="4278190080" format="0" texttype="2" textsize="12" bold="true"/>
+    <UIInfo name="mission_gauge_bg" x="15" y="47" w="320" h="8" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_mission_gauge_bg" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="mission_gauge" x="15" y="47" w="320" h="8" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_mission_gauge" comptype="Gauge" groupname="" hudalign="0" hudstretch="false"/>
+    <UIInfo name="mission_progress" x="235" y="60" w="100" h="15" type="1" commandid="" atlas="" texture="" comptype="Text" groupname="" hudalign="0" hudstretch="false" message="" color1="4294967295" color2="4294967295" format="2" texttype="1" textsize="12" bold="false"/>
+    <UIInfo name="tex_complete" x="160" y="41" w="20" h="20" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_mission_complete_check_img" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="btn_guide" x="363" y="32" w="60" h="30" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_mission_webguide_btn_n" comptype="Button" groupname="" hudalign="0" hudstretch="false"/>
+    <UIInfo name="reward3" x="451" y="-12" w="108" h="116" type="1" commandid="" atlas="" texture="" comptype="ItemCtrl" groupname="" hudalign="0" hudstretch="false"/>
+    <UIInfo name="reward2" x="561" y="-12" w="108" h="116" type="1" commandid="" atlas="" texture="" comptype="ItemCtrl" groupname="" hudalign="0" hudstretch="false"/>
+    <UIInfo name="reward1" x="671" y="-12" w="108" h="116" type="1" commandid="" atlas="" texture="" comptype="ItemCtrl" groupname="" hudalign="0" hudstretch="false"/>
+    <UIInfo name="reward_over3" x="453" y="4" w="103" h="86" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_mission_item_mouseover_img" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="true"/>
+    <UIInfo name="reward_over2" x="563" y="4" w="103" h="86" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_mission_item_mouseover_img" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="true"/>
+    <UIInfo name="reward_over1" x="673" y="4" w="103" h="86" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_mission_item_mouseover_img" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="true"/>
+</UIEditor>

@@ -1,0 +1,65 @@
+[Object0]
+//Desc   = 쉘터 셔터(임시로 박스 대체)
+RotationX   = 0
+RotationY   = 0
+RotationZ   = 0
+Model   = "sa_characters\models\nomnomnom\nom_Box.ltb"
+Skin   = "sa_props\skins\InfiniteHunting\box.dtx"
+
+[Object1]
+//Desc   = 창문
+RotationX   = 0
+RotationY   = 0
+RotationZ   = 0
+Model   = "sa_props\models\InfiniteHunting\window_01.ltb"
+Skin   = "sa_props\skins\InfiniteHunting\iww_20.dtx"
+
+
+[Object2]
+//Desc   = 두더지 흙무더기
+RotationX   = 0
+RotationY   = 0
+RotationZ   = 0
+Model   = "sa_props\models\InfiniteHunting\clay_01.ltb"
+Skin   = "sa_props\skins\InfiniteHunting\clay_01.dtx"
+
+
+[Object3]
+//Desc   = 풀
+RotationX   = 0
+RotationY   = 0
+RotationZ   = 0
+Model   = "sa_props\models\InfiniteHunting\plant_001.ltb"
+Skin   = "sa_props\skins\InfiniteHunting\plant_001.dtx"
+
+[Object4]
+//Desc   = 바위
+RotationX   = 0
+RotationY   = 0
+RotationZ   = 0
+Model   = "sa_props\models\InfiniteHunting\stone_01.ltb"
+Skin   = "sa_props\skins\InfiniteHunting\rock_001.dtx"
+
+[Object5]
+//Desc   = 구름1
+RotationX   = 0
+RotationY   = 0
+RotationZ   = 0
+Model   = "sa_props\models\InfiniteHunting\Cloud_01.ltb"
+Skin   = "sa_props\skins\InfiniteHunting\Cloud_004.dtx"
+
+[Object6]
+//Desc   = 구름2
+RotationX   = 0
+RotationY   = 0
+RotationZ   = 0
+Model   = "sa_props\models\InfiniteHunting\Cloud_02.ltb"
+Skin   = "sa_props\skins\InfiniteHunting\Cloud_003.dtx"
+
+[Object7]
+//Desc   = 바위
+RotationX   = 0
+RotationY   = 0
+RotationZ   = 0
+Model   = "sa_props\models\InfiniteHunting\stone_02.ltb"
+Skin   = "sa_props\skins\InfiniteHunting\rock_002.dtx"

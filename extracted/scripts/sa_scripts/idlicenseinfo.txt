@@ -1,0 +1,514 @@
+// type (주무기 라이선스, 보조무기 라이선스, 근접무기 라이선스)
+// kind (무기 종류)
+// licensename (무기 이름)
+// licensedesc 무기 단계별 설명
+
+// 주무기
+[IDLicenseInfo0]
+category = 0
+type = 	0
+kind =	0
+licensename = "AK-47"
+licensedesc0 = 9841
+licensedesc1 = 9842
+licensedesc2 = 9843
+licensedesc3 = 9844
+licensedesc4 = 9845
+licensedesc5 = 9846
+licensedesc6 = 9847
+licensedesc7 = 9848
+licensereward0 = -1 
+licensereward1 = 9921
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 9922
+licensereward6 = -1
+licensereward7 = 9923
+
+[IDLicenseInfo1]
+category = 0
+type = 	0
+kind =	1
+licensename = "TRG-21"
+licensedesc0 = 9849
+licensedesc1 = 9850
+licensedesc2 = 9851
+licensedesc3 = 9852
+licensedesc4 = 9853
+licensedesc5 = 9854
+licensedesc6 = 9855
+licensedesc7 = 9856
+licensereward0 = -1
+licensereward1 = 9924
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 9925
+licensereward6 = -1
+licensereward7 = 9926
+
+[IDLicenseInfo2]
+category = 0
+type = 	0
+kind =	2
+licensename = "M4A1"
+licensedesc0 = 9857
+licensedesc1 = 9858
+licensedesc2 = 9859
+licensedesc3 = 9860
+licensedesc4 = 9861
+licensedesc5 = 9862
+licensedesc6 = 9863
+licensedesc7 = 9864
+licensereward0 = -1
+licensereward1 = 9927
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 9928
+licensereward6 = -1
+licensereward7 = 9929
+
+[IDLicenseInfo3]
+category = 0
+type = 	0
+kind =	3
+licensename = "CM901"
+licensedesc0 = 9865
+licensedesc1 = 9866
+licensedesc2 = 9867
+licensedesc3 = 9868
+licensedesc4 = 9869
+licensedesc5 = 9870
+licensedesc6 = 9871
+licensedesc7 = 9872
+licensereward0 = -1
+licensereward1 = 9930
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 9931
+licensereward6 = -1
+licensereward7 = 9932
+
+[IDLicenseInfo4]
+category = 0
+type = 	0
+kind =	4
+licensename = "SG-870"
+licensedesc0 = 9873
+licensedesc1 = 9874
+licensedesc2 = 9875
+licensedesc3 = 9876
+licensedesc4 = 9877
+licensedesc5 = 9878
+licensedesc6 = 9879
+licensedesc7 = 9880
+licensereward0 = -1
+licensereward1 = 9933
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 9934
+licensereward6 = -1
+licensereward7 = 9935
+
+// 보조무기
+[IDLicenseInfo5]
+category = 0
+type = 	1
+kind =	0
+licensename = "D.Eagle"
+licensedesc0 = 9881
+licensedesc1 = 9882
+licensedesc2 = 9883
+licensedesc3 = 9884
+licensedesc4 = 9885
+licensedesc5 = 9886
+licensedesc6 = 9887
+licensedesc7 = 9888
+licensereward0 = -1
+licensereward1 = 9936
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 9937
+licensereward6 = -1
+licensereward7 = 9938
+
+[IDLicenseInfo6]
+category = 0
+type = 	1
+kind =	1
+licensename = "C.Anaconda"
+licensedesc0 = 9889
+licensedesc1 = 9890
+licensedesc2 = 9891
+licensedesc3 = 9892
+licensedesc4 = 9893
+licensedesc5 = 9894
+licensedesc6 = 9895
+licensedesc7 = 9896
+licensereward0 = -1
+licensereward1 = 9939
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 9940
+licensereward6 = -1
+licensereward7 = 9941
+
+// 근접무기
+[IDLicenseInfo7]
+category = 0
+type = 	2
+kind =	0
+licensename = "Gurkha Knife"
+licensedesc0 = 9897
+licensedesc1 = 9898
+licensedesc2 = 9899
+licensedesc3 = 9900
+licensedesc4 = 9901
+licensedesc5 = 9902
+licensedesc6 = 9903
+licensedesc7 = 9904
+licensereward0 = -1
+licensereward1 = 9942
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 9943
+licensereward6 = -1
+licensereward7 = 9944
+
+[IDLicenseInfo8]
+category = 0
+type = 	2
+kind =	1
+licensename = "AXE Knife"
+licensedesc0 = 9905
+licensedesc1 = 9906
+licensedesc2 = 9907
+licensedesc3 = 9908
+licensedesc4 = 9909
+licensedesc5 = 9910
+licensedesc6 = 9911
+licensedesc7 = 9912
+licensereward0 = -1
+licensereward1 = 9945
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 9946
+licensereward6 = -1
+licensereward7 = 9947
+
+[IDLicenseInfo9]
+category = 0
+type = 	2
+kind =	2
+licensename = "Tiger Stripe"
+licensedesc0 = 9913
+licensedesc1 = 9914
+licensedesc2 = 9915
+licensedesc3 = 9916
+licensedesc4 = 9917
+licensedesc5 = 9918
+licensedesc6 = 9919
+licensedesc7 = 9920
+licensereward0 = -1
+licensereward1 = 9948
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 9949
+licensereward6 = -1
+licensereward7 = 9950
+
+// Map
+[IDLicenseInfo10]
+category = 1
+type = 	0
+kind =	0
+licensename = "통제구역6"
+licensedesc0 = 10080
+licensedesc1 = 10081
+licensedesc2 = 10082
+licensedesc3 = 10083
+licensedesc4 = 10084
+licensedesc5 = 10085
+licensedesc6 = 10086
+licensedesc7 = 10087
+licensereward0 = -1
+licensereward1 = 10088
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 10089
+licensereward6 = -1
+licensereward7 = 10090
+
+[IDLicenseInfo11]
+category = 1
+type = 	1
+kind =	0
+licensename = "웨어하우스"
+licensedesc0 = 10091
+licensedesc1 = 10092
+licensedesc2 = 10093
+licensedesc3 = 10094
+licensedesc4 = 10095
+licensedesc5 = 10096
+licensedesc6 = 10097
+licensedesc7 = 10098
+licensereward0 = -1
+licensereward1 = 10099
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 10100
+licensereward6 = -1
+licensereward7 = 10101
+
+[IDLicenseInfo12]
+category = 1
+type = 	2
+kind =	0
+licensename = "제3보급창고"
+licensedesc0 = 10113
+licensedesc1 = 10114
+licensedesc2 = 10115
+licensedesc3 = 10116
+licensedesc4 = 10117
+licensedesc5 = 10118
+licensedesc6 = 10119
+licensedesc7 = 10120
+licensereward0 = -1
+licensereward1 = 10121
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 10122
+licensereward6 = -1
+licensereward7 = 10123
+
+[IDLicenseInfo13]
+category = 1
+type = 	3
+kind =	0
+licensename = "A보급창고"
+licensedesc0 = 10124
+licensedesc1 = 10125
+licensedesc2 = 10126
+licensedesc3 = 10127
+licensedesc4 = 10128
+licensedesc5 = 10129
+licensedesc6 = 10130
+licensedesc7 = 10131
+licensereward0 = -1
+licensereward1 = 10132
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 10133
+licensereward6 = -1
+licensereward7 = 10134
+
+[IDLicenseInfo14]
+category = 1
+type = 	3
+kind =	1
+licensename = "크로스카운터"
+licensedesc0 = 10135
+licensedesc1 = 10136
+licensedesc2 = 10137
+licensedesc3 = 10138
+licensedesc4 = 10139
+licensedesc5 = 10140
+licensedesc6 = 10141
+licensedesc7 = 10142
+licensereward0 = -1
+licensereward1 = 10143
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 10144
+licensereward6 = -1
+licensereward7 = 10145
+
+[IDLicenseInfo15]
+category = 1
+type = 	3
+kind =	2
+licensename = "몽키가든"
+licensedesc0 = 10146
+licensedesc1 = 10147
+licensedesc2 = 10148
+licensedesc3 = 10149
+licensedesc4 = 10150
+licensedesc5 = 10151
+licensedesc6 = 10152
+licensedesc7 = 10153
+licensereward0 = -1
+licensereward1 = 10154
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 10155
+licensereward6 = -1
+licensereward7 = 10156
+
+[IDLicenseInfo16]
+category = 1
+type = 	4
+kind =	0
+licensename = "스톰빌"
+licensedesc0 = 10157
+licensedesc1 = 10158
+licensedesc2 = 10159
+licensedesc3 = 10160
+licensedesc4 = 10161
+licensedesc5 = 10162
+licensedesc6 = 10163
+licensedesc7 = 10164
+licensereward0 = -1
+licensereward1 = 10165
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 10166
+licensereward6 = -1
+licensereward7 = 10167
+
+[IDLicenseInfo17]
+category = 1
+type = 	5
+kind =	0
+licensename = "데스마켓"
+licensedesc0 = 10168
+licensedesc1 = 10169
+licensedesc2 = 10170
+licensedesc3 = 10171
+licensedesc4 = 10172
+licensedesc5 = 10173
+licensedesc6 = 10174
+licensedesc7 = 10175
+licensereward0 = -1
+licensereward1 = 10176
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 10177
+licensereward6 = -1
+licensereward7 = 10178
+
+[IDLicenseInfo18]
+category = 1
+type = 	6
+kind =	0
+licensename = "아지트"
+licensedesc0 = 10179
+licensedesc1 = 10180
+licensedesc2 = 10181
+licensedesc3 = 10182
+licensedesc4 = 10183
+licensedesc5 = 10184
+licensedesc6 = 10185
+licensedesc7 = 10186
+licensereward0 = -1
+licensereward1 = 10187
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 10188
+licensereward6 = -1
+licensereward7 = 10189
+
+[IDLicenseInfo19]
+category = 1
+type = 	7
+kind =	0
+licensename = "뱀파이어런던"
+licensedesc0 = 10190
+licensedesc1 = 10191
+licensedesc2 = 10192
+licensedesc3 = 10193
+licensedesc4 = 10194
+licensedesc5 = 10195
+licensedesc6 = 10196
+licensedesc7 = 10197
+licensereward0 = -1
+licensereward1 = 10198
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 10199
+licensereward6 = -1
+licensereward7 = 10200
+
+[IDLicenseInfo20]
+category = 1
+type = 	0
+kind =	1
+licensename = "통제구역7"
+licensedesc0 = 10753
+licensedesc1 = 10754
+licensedesc2 = 10755
+licensedesc3 = 10756
+licensedesc4 = 10757
+licensedesc5 = 10758
+licensedesc6 = 10759
+licensedesc7 = 10760
+licensereward0 = -1
+licensereward1 = 10761
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 10762
+licensereward6 = -1
+licensereward7 = 10763
+
+[IDLicenseInfo21]
+category = 1
+type = 	8
+kind =	0
+licensename = "진격의 모드레드"
+licensedesc0 = 10764
+licensedesc1 = 10765
+licensedesc2 = 10766
+licensedesc3 = 10767
+licensedesc4 = 10768
+licensedesc5 = 10769
+licensedesc6 = 10770
+licensedesc7 = 10771
+licensereward0 = -1
+licensereward1 = 10772
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 10773
+licensereward6 = -1
+licensereward7 = 10774
+
+[IDLicenseInfo22]
+category = 1
+type = 	3
+kind =	3
+licensename = "트리오"
+licensedesc0 = 11720
+licensedesc1 = 11721
+licensedesc2 = 11722
+licensedesc3 = 11723
+licensedesc4 = 11724
+licensedesc5 = 11725
+licensedesc6 = 11726
+licensedesc7 = 11727
+licensereward0 = -1
+licensereward1 = 11728
+licensereward2 = -1
+licensereward3 = -1
+licensereward4 = -1
+licensereward5 = 11729
+licensereward6 = -1
+licensereward7 = 11730

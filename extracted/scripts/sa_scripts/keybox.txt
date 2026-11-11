@@ -1,0 +1,37 @@
+[KeyBox0]
+Color		= "gold"
+BoxCode		= "EET894"
+KeyCode		= "EET896"
+Title		= "SA_Interface2\Menu\Shop\KeyBox\Title_goldboxlocked.dtx"
+
+[KeyBox1]
+Color		= "silver"
+BoxCode		= "EET895"
+KeyCode		= "EET897"
+Title		= "SA_Interface2\Menu\Shop\KeyBox\Title_silverboxlocked.dtx"
+
+[KeyBox2]
+Color		= "silver"
+BoxCode		= "EET3931"
+KeyCode		= "EET3930"
+Title		= "SA_Interface2\Menu\Shop\KeyBox\title_sleepbox.dtx"
+
+[KeyBox3]
+Color		= "goldpocket"
+BoxCode		= "EET4598"
+KeyCode		= "EET4592"
+Title		= "SA_Interface2\Menu\Shop\KeyBox\title_goldpocket.dtx"
+
+[KeyBox4]
+Color		= "silverpocket"
+BoxCode		= "EET4599"
+KeyCode		= "EET4593"
+Title		= "SA_Interface2\Menu\Shop\KeyBox\title_silverpocket.dtx"
+
+[KeyBox5]
+Color		= "Luckypocket"
+BoxCode		= "EET4600"
+KeyCode		= "EET4594"
+Title		= "SA_Interface2\Menu\Shop\KeyBox\title_luckypocket.dtx"
+
+

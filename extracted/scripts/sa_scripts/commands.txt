@@ -1,0 +1,53 @@
+/************************************************************************
+**
+** C O M M A N D S
+**
+**	NOTES:
+**		If you wish to use a variable in a command in DEdit you MUST
+**		declare the variable as either a global or level specific in
+**		this file first.
+**
+**		There is a max number of 255 variables per level.
+**				
+** GLOBALS
+**
+** 	This provides a place to declare global commands.  These commands are 
+** 	executed ONCE on a new game when the player enters the first level
+** 	of the first mission.  Currently only variable declarations are valid
+** 	global commands.  Global variables will be accessible in any level 
+**	and their value will get saved across all levels.
+**
+**	Cmd0-N (String)
+**
+**		The command you wish to process.
+**
+**		Valid global commands:
+**
+**			INT - declares an Integer variable and sets its value.
+**
+** LEVELS
+**
+**	This provides a place to declare level specific commands.  These commands are
+**	executed every time you enter the level.  Every command is valid as a level
+**	specific command.
+**
+**	Cmd0-N (String)
+**
+**		The command you wish to process on level load.
+**
+*************************************************************************/
+
+[globals]
+cmd0 = "int rtmtest 0"
+
+//
+// SinglePlayer Levels...
+//
+
+// none....
+
+///
+///  Co-Op
+///
+
+// none...

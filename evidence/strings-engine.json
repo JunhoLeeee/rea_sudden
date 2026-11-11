@@ -1,0 +1,776 @@
+[
+  {
+    "address": "0x140303db8",
+    "value": "Binkw64.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 12
+    }
+  },
+  {
+    "address": "0x140303dc8",
+    "value": "Unable to find Binkw32.dll, video playback disabled.",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 53
+    }
+  },
+  {
+    "address": "0x140303f18",
+    "value": "Invalid Binkw32.dll, video playback disabled.",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 46
+    }
+  },
+  {
+    "address": "0x1403042c8",
+    "value": "IClientShell.Default",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 21
+    }
+  },
+  {
+    "address": "0x1403048d8",
+    "value": "engine.rez",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 11
+    }
+  },
+  {
+    "address": "0x140304a00",
+    "value": "LithTech build %s initialized in %.2f seconds.\n",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 48
+    }
+  },
+  {
+    "address": "0x140304cf0",
+    "value": "SACefDll.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 13
+    }
+  },
+  {
+    "address": "0x140304d00",
+    "value": "[CLIENT INIT] SACefDll.dll load Fail",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 37
+    }
+  },
+  {
+    "address": "0x140307250",
+    "value": "bdcap64.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 12
+    }
+  },
+  {
+    "address": "0x140307668",
+    "value": "initialize ClientShell DLL Entity.",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 35
+    }
+  },
+  {
+    "address": "0x140307700",
+    "value": "[ERROR] InitClientShellDE (%d)",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 31
+    }
+  },
+  {
+    "address": "0x140307840",
+    "value": "Winmm.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 10
+    }
+  },
+  {
+    "address": "0x140307860",
+    "value": "NTDLL.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 10
+    }
+  },
+  {
+    "address": "0x140307a88",
+    "value": "cdaudio.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 12
+    }
+  },
+  {
+    "address": "0x140307c68",
+    "value": "[TERM] ClientShellDE %d\n",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 25
+    }
+  },
+  {
+    "address": "0x140308970",
+    "value": ".pkg",
+    "string": {
+      "encoding": "UTF-16",
+      "termination": "present_or_not_required",
+      "byte_length": 10
+    }
+  },
+  {
+    "address": "0x140308d38",
+    "value": "psapi.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 12
+    }
+  },
+  {
+    "address": "0x140308d78",
+    "value": "wintrust.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 13
+    }
+  },
+  {
+    "address": "0x140308fe0",
+    "value": "dDrv.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 9
+    }
+  },
+  {
+    "address": "0x140309040",
+    "value": "[ENGINE] CClientShell::Init",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 28
+    }
+  },
+  {
+    "address": "0x140309060",
+    "value": "[ENGINE] CClientShell::Term",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 28
+    }
+  },
+  {
+    "address": "0x1403090a0",
+    "value": "[ENGINE] CClientShell::TermNetDriver",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 37
+    }
+  },
+  {
+    "address": "0x1403090c8",
+    "value": "[ENGINE] CClientShell::StartupClient",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 37
+    }
+  },
+  {
+    "address": "0x1403090f0",
+    "value": "[ENGINE] CClientShell::MandateHost",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 35
+    }
+  },
+  {
+    "address": "0x140309118",
+    "value": "LithTech Session",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 17
+    }
+  },
+  {
+    "address": "0x140309148",
+    "value": "CClientShell::StartupLocal",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 27
+    }
+  },
+  {
+    "address": "0x140309188",
+    "value": "[ENGINE] CClientShell::StartupLocal",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 36
+    }
+  },
+  {
+    "address": "0x1403091b0",
+    "value": "[ENGINE] CClientShell::CreateServerMgr",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 39
+    }
+  },
+  {
+    "address": "0x1403091f0",
+    "value": "CClientShell::CreateServerMgr",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 30
+    }
+  },
+  {
+    "address": "0x140309248",
+    "value": "CClientShell::Update",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 21
+    }
+  },
+  {
+    "address": "0x140309280",
+    "value": "[ENGINE] CClientShell::RemoveAllObjects",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 40
+    }
+  },
+  {
+    "address": "0x1403092a8",
+    "value": "[ENGINE] CClientShell::NotifyWorldClosing",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 42
+    }
+  },
+  {
+    "address": "0x1403092d8",
+    "value": "[ENGINE] CClientShell::BindWorlds",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 34
+    }
+  },
+  {
+    "address": "0x140309300",
+    "value": "[ENGINE] CClientShell::UnbindWorlds",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 36
+    }
+  },
+  {
+    "address": "0x1403093a0",
+    "value": "[ENGINE] CClientShell::CloseWorlds",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 35
+    }
+  },
+  {
+    "address": "0x1403093c8",
+    "value": "[ENGINE] CClientShell::DoLoadWorld   bLoad(%d)",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 47
+    }
+  },
+  {
+    "address": "0x140309430",
+    "value": "CClientShell::DoLoadWorld",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 26
+    }
+  },
+  {
+    "address": "0x1403094a8",
+    "value": "ClientShell::DoLoadWorld",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 25
+    }
+  },
+  {
+    "address": "0x14030d440",
+    "value": "game\\sa_text_00000.pkg",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 23
+    }
+  },
+  {
+    "address": "0x14030d458",
+    "value": "game\\sa_scripts_00000.pkg",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 26
+    }
+  },
+  {
+    "address": "0x14030d478",
+    "value": "game\\sa_charactersc_00000.pkg",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 30
+    }
+  },
+  {
+    "address": "0x14030d948",
+    "value": "Internal LithTech error: %1!d!.",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 32
+    }
+  },
+  {
+    "address": "0x14030dfc0",
+    "value": "cshell.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 11
+    }
+  },
+  {
+    "address": "0x14030dfe8",
+    "value": "InitClientShellDE",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 18
+    }
+  },
+  {
+    "address": "0x14030e070",
+    "value": "cres.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 9
+    }
+  },
+  {
+    "address": "0x140325d98",
+    "value": "ClientShell",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 12
+    }
+  },
+  {
+    "address": "0x14032a930",
+    "value": "api-ms-win-core-synch-l1-2-0.dll",
+    "string": {
+      "encoding": "UTF-16",
+      "termination": "present_or_not_required",
+      "byte_length": 68
+    }
+  },
+  {
+    "address": "0x14032a978",
+    "value": "kernel32.dll",
+    "string": {
+      "encoding": "UTF-16",
+      "termination": "present_or_not_required",
+      "byte_length": 28
+    }
+  },
+  {
+    "address": "0x140352ce0",
+    "value": "The application has made an erroneous API call that it had enough information to avoid. This error is intended to denote that the application should be altered to avoid the error. Use of the debug version of the DXGI.DLL will provide run-time debug output with further information.",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 282
+    }
+  },
+  {
+    "address": "0x140354a58",
+    "value": "NexonAnalytics64.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 21
+    }
+  },
+  {
+    "address": "0x1403f1078",
+    "value": ".?AV?$CAPIHolder@VIClientShell@@@@",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 40
+    }
+  },
+  {
+    "address": "0x1403f1c30",
+    "value": ".?AVCClientShell@@",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x1404d4000",
+    "value": "kernel32.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 13
+    }
+  },
+  {
+    "address": "0x1404d4020",
+    "value": "d3dx9_43.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 13
+    }
+  },
+  {
+    "address": "0x1404d4042",
+    "value": "CrashReporter.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 18
+    }
+  },
+  {
+    "address": "0x1404d4072",
+    "value": "WINMM.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 10
+    }
+  },
+  {
+    "address": "0x1404d408e",
+    "value": "WS2_32.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 11
+    }
+  },
+  {
+    "address": "0x1404d4099",
+    "value": "CrashRpt64.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 15
+    }
+  },
+  {
+    "address": "0x1404d40c6",
+    "value": "USER32.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 11
+    }
+  },
+  {
+    "address": "0x1404d40de",
+    "value": "GDI32.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 10
+    }
+  },
+  {
+    "address": "0x1404d40fb",
+    "value": "ADVAPI32.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 13
+    }
+  },
+  {
+    "address": "0x1404d411a",
+    "value": "SHELL32.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 12
+    }
+  },
+  {
+    "address": "0x1404d4136",
+    "value": "ole32.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 10
+    }
+  },
+  {
+    "address": "0x1404d4151",
+    "value": "MSVCP140.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 13
+    }
+  },
+  {
+    "address": "0x1404d4190",
+    "value": "wevtapi.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 12
+    }
+  },
+  {
+    "address": "0x1404d41a7",
+    "value": "VERSION.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 12
+    }
+  },
+  {
+    "address": "0x1404d41dc",
+    "value": "RPCRT4.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 11
+    }
+  },
+  {
+    "address": "0x1404d41f4",
+    "value": "WININET.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 12
+    }
+  },
+  {
+    "address": "0x1404d421a",
+    "value": "SAShot64.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 13
+    }
+  },
+  {
+    "address": "0x1404d4227",
+    "value": "VCRUNTIME140.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 17
+    }
+  },
+  {
+    "address": "0x1404d424d",
+    "value": "VCRUNTIME140_1.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 19
+    }
+  },
+  {
+    "address": "0x1404d4275",
+    "value": "api-ms-win-crt-runtime-l1-1-0.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 34
+    }
+  },
+  {
+    "address": "0x1404d42a6",
+    "value": "api-ms-win-crt-heap-l1-1-0.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 31
+    }
+  },
+  {
+    "address": "0x1404d42d5",
+    "value": "api-ms-win-crt-stdio-l1-1-0.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 32
+    }
+  },
+  {
+    "address": "0x1404d42fe",
+    "value": "api-ms-win-crt-time-l1-1-0.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 31
+    }
+  },
+  {
+    "address": "0x1404d4329",
+    "value": "api-ms-win-crt-string-l1-1-0.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 33
+    }
+  },
+  {
+    "address": "0x1404d4355",
+    "value": "api-ms-win-crt-filesystem-l1-1-0.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 37
+    }
+  },
+  {
+    "address": "0x1404d4383",
+    "value": "api-ms-win-crt-math-l1-1-0.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 31
+    }
+  },
+  {
+    "address": "0x1404d43a9",
+    "value": "api-ms-win-crt-convert-l1-1-0.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 34
+    }
+  },
+  {
+    "address": "0x1404d43d2",
+    "value": "api-ms-win-crt-utility-l1-1-0.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 34
+    }
+  },
+  {
+    "address": "0x1404d43fc",
+    "value": "api-ms-win-crt-multibyte-l1-1-0.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 36
+    }
+  },
+  {
+    "address": "0x1404d442a",
+    "value": "api-ms-win-crt-locale-l1-1-0.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 33
+    }
+  },
+  {
+    "address": "0x1404d445a",
+    "value": "d3d9.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 9
+    }
+  },
+  {
+    "address": "0x1404d4477",
+    "value": "OLEAUT32.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 13
+    }
+  },
+  {
+    "address": "0x1404d4484",
+    "value": "SHLWAPI.dll",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 12
+    }
+  },
+  {
+    "address": "0x140508d58",
+    "value": "Lithtech.EXE",
+    "string": {
+      "encoding": "UTF-16",
+      "termination": "present_or_not_required",
+      "byte_length": 26
+    }
+  }
+]

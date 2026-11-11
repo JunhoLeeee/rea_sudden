@@ -1,0 +1,43 @@
+{
+  "header": {
+    "path": "C:\\Nexon\\SuddenAttack\\game\\sa_weaponv_00000.pkg",
+    "bytes": 76800,
+    "version": 3,
+    "mask_bytes": 248,
+    "masked_string_units": 13,
+    "encrypted_header_offset": 279,
+    "index_padding_bytes": 67,
+    "observed_header_sha256": "b4ad2e8fa9ace2cb929312f2a6483590d36488a69dc148411f4722019706284e",
+    "identity_scope": "header-ranges-only",
+    "byteorder": "little",
+    "count": 1,
+    "checksum": 327841
+  },
+  "index_offset": 354,
+  "index_plaintext_bytes": 102,
+  "index_read_bytes": 104,
+  "index_raw_sha256": "bc037b5534c145a0dcfe54d7902b53f9748285aa8384786c4fe68d34d8424931",
+  "payload_base": 1024,
+  "members": [
+    {
+      "index": 0,
+      "path": "sa_weapons/vm/God_lycan.ltb",
+      "flags": 7,
+      "field8": 0,
+      "field12": 202954,
+      "field16": 75360,
+      "field20": 0,
+      "checksum": 280421,
+      "block_hashes": [],
+      "digest_hex": "d25dd5a010d93509414dac64e64cddbc",
+      "extra_hex": ""
+    }
+  ],
+  "limitations": [
+    "Metadata checksums verified; member payloads are unverified.",
+    "Native config-dependent field20 validation is not performed.",
+    "field8/12/16/20 retain raw coordinates until their uses are traced.",
+    "Index path names do not authorize executing any archived binaries.",
+    "Full-file SHA-256 is not computed by this bounded index operation."
+  ]
+}

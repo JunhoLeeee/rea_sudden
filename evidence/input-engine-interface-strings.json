@@ -1,0 +1,954 @@
+{
+  "path": "C:\\Nexon\\SuddenAttack\\suddenattack.exe",
+  "bytes": 7841144,
+  "sha256": "7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8",
+  "image_base": "0x140000000",
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "raw_offset": 1536,
+      "raw_size": 3132928,
+      "virtual_size": 3132647
+    },
+    {
+      "name": ".rdata",
+      "rva": 3137536,
+      "raw_offset": 3134464,
+      "raw_size": 897024,
+      "virtual_size": 896560
+    },
+    {
+      "name": ".data",
+      "rva": 4034560,
+      "raw_offset": 4031488,
+      "raw_size": 124928,
+      "virtual_size": 553292
+    },
+    {
+      "name": ".pdata",
+      "rva": 4591616,
+      "raw_offset": 4156416,
+      "raw_size": 177664,
+      "virtual_size": 177252
+    },
+    {
+      "name": "        ",
+      "rva": 4771840,
+      "raw_offset": 4334080,
+      "raw_size": 157184,
+      "virtual_size": 254048
+    },
+    {
+      "name": ".reloc",
+      "rva": 5029888,
+      "raw_offset": 4491264,
+      "raw_size": 24064,
+      "virtual_size": 23900
+    },
+    {
+      "name": ".debug",
+      "rva": 5054464,
+      "raw_offset": 4515328,
+      "raw_size": 1536,
+      "virtual_size": 4096
+    },
+    {
+      "name": ".edata",
+      "rva": 5058560,
+      "raw_offset": 4516864,
+      "raw_size": 512,
+      "virtual_size": 4096
+    },
+    {
+      "name": ".idata",
+      "rva": 5062656,
+      "raw_offset": 4517376,
+      "raw_size": 2560,
+      "virtual_size": 4096
+    },
+    {
+      "name": ".tls",
+      "rva": 5066752,
+      "raw_offset": 4519936,
+      "raw_size": 512,
+      "virtual_size": 4096
+    },
+    {
+      "name": ".rsrc",
+      "rva": 5070848,
+      "raw_offset": 4520448,
+      "raw_size": 208896,
+      "virtual_size": 208896
+    },
+    {
+      "name": ".themida",
+      "rva": 5279744,
+      "raw_offset": 4729344,
+      "raw_size": 0,
+      "virtual_size": 5939200
+    },
+    {
+      "name": ".boot",
+      "rva": 11218944,
+      "raw_offset": 4729344,
+      "raw_size": 3101184,
+      "virtual_size": 3101184
+    },
+    {
+      "name": ".reloc",
+      "rva": 14323712,
+      "raw_offset": 7830528,
+      "raw_size": 16,
+      "virtual_size": 4096
+    }
+  ],
+  "pattern": "ILTClient.Default|IsCommandOn|GetCommandState|AddAction",
+  "matches": [
+    {
+      "offset": 3165136,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x1403057d0",
+      "value": "ILTClient.Default"
+    },
+    {
+      "offset": 3185088,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x14030a5c0",
+      "value": "AddAction Forward 0"
+    },
+    {
+      "offset": 3185112,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x14030a5d8",
+      "value": "AddAction Backward 1"
+    },
+    {
+      "offset": 3185136,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x14030a5f0",
+      "value": "AddAction Activate 2"
+    },
+    {
+      "offset": 3185160,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x14030a608",
+      "value": "AddAction Reload 3"
+    },
+    {
+      "offset": 3185184,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a620",
+      "value": "AddAction TurnAround 4"
+    },
+    {
+      "offset": 3185208,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x14030a638",
+      "value": "AddAction Duck 5"
+    },
+    {
+      "offset": 3185232,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x14030a650",
+      "value": "AddAction Jump 6"
+    },
+    {
+      "offset": 3185256,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x14030a668",
+      "value": "AddAction Speed 7"
+    },
+    {
+      "offset": 3185280,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x14030a680",
+      "value": "AddAction Fire 8"
+    },
+    {
+      "offset": 3185304,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x14030a698",
+      "value": "AddAction Strafe 9"
+    },
+    {
+      "offset": 3185328,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x14030a6b0",
+      "value": "AddAction Left 10"
+    },
+    {
+      "offset": 3185352,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x14030a6c8",
+      "value": "AddAction Right 11"
+    },
+    {
+      "offset": 3185376,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x14030a6e0",
+      "value": "AddAction RunLock 12"
+    },
+    {
+      "offset": 3185400,
+      "bytes": 23,
+      "encoding": "ascii",
+      "address": "0x14030a6f8",
+      "value": "AddAction StrafeLeft 13"
+    },
+    {
+      "offset": 3185424,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x14030a710",
+      "value": "AddAction StrafeRight 14"
+    },
+    {
+      "offset": 3185456,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x14030a730",
+      "value": "AddAction LookUp 16"
+    },
+    {
+      "offset": 3185480,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030a748",
+      "value": "AddAction LookDown 17"
+    },
+    {
+      "offset": 3185504,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030a760",
+      "value": "AddAction LeanLeft 18"
+    },
+    {
+      "offset": 3185528,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a778",
+      "value": "AddAction LeanRight 19"
+    },
+    {
+      "offset": 3185552,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030a790",
+      "value": "AddAction Weapon_1 20"
+    },
+    {
+      "offset": 3185576,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030a7a8",
+      "value": "AddAction Weapon_2 21"
+    },
+    {
+      "offset": 3185600,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030a7c0",
+      "value": "AddAction Weapon_3 22"
+    },
+    {
+      "offset": 3185624,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030a7d8",
+      "value": "AddAction Weapon_4 23"
+    },
+    {
+      "offset": 3185648,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030a7f0",
+      "value": "AddAction Weapon_5 24"
+    },
+    {
+      "offset": 3185672,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030a808",
+      "value": "AddAction Weapon_6 25"
+    },
+    {
+      "offset": 3185696,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030a820",
+      "value": "AddAction Weapon_7 26"
+    },
+    {
+      "offset": 3185720,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030a838",
+      "value": "AddAction Weapon_8 27"
+    },
+    {
+      "offset": 3185744,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030a850",
+      "value": "AddAction Weapon_9 28"
+    },
+    {
+      "offset": 3185768,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a868",
+      "value": "AddAction Weapon_10 29"
+    },
+    {
+      "offset": 3185792,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a880",
+      "value": "AddAction Weapon_11 30"
+    },
+    {
+      "offset": 3185816,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a898",
+      "value": "AddAction Weapon_12 31"
+    },
+    {
+      "offset": 3185840,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a8b0",
+      "value": "AddAction Weapon_13 32"
+    },
+    {
+      "offset": 3185864,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a8c8",
+      "value": "AddAction Weapon_14 33"
+    },
+    {
+      "offset": 3185888,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a8e0",
+      "value": "AddAction Weapon_15 34"
+    },
+    {
+      "offset": 3185912,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a8f8",
+      "value": "AddAction Weapon_16 35"
+    },
+    {
+      "offset": 3185936,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a910",
+      "value": "AddAction Weapon_17 36"
+    },
+    {
+      "offset": 3185960,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a928",
+      "value": "AddAction Weapon_18 37"
+    },
+    {
+      "offset": 3185984,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a940",
+      "value": "AddAction Weapon_19 38"
+    },
+    {
+      "offset": 3186008,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a958",
+      "value": "AddAction Weapon_20 39"
+    },
+    {
+      "offset": 3186032,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a970",
+      "value": "AddAction Weapon_21 40"
+    },
+    {
+      "offset": 3186056,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a988",
+      "value": "AddAction Weapon_22 41"
+    },
+    {
+      "offset": 3186080,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a9a0",
+      "value": "AddAction Weapon_23 42"
+    },
+    {
+      "offset": 3186104,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a9b8",
+      "value": "AddAction Weapon_24 43"
+    },
+    {
+      "offset": 3186128,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a9d0",
+      "value": "AddAction Weapon_25 44"
+    },
+    {
+      "offset": 3186152,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030a9e8",
+      "value": "AddAction Weapon_26 45"
+    },
+    {
+      "offset": 3186176,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030aa00",
+      "value": "AddAction Weapon_27 46"
+    },
+    {
+      "offset": 3186200,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030aa18",
+      "value": "AddAction Weapon_28 47"
+    },
+    {
+      "offset": 3186224,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030aa30",
+      "value": "AddAction Weapon_29 48"
+    },
+    {
+      "offset": 3186248,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030aa48",
+      "value": "AddAction Weapon_30 49"
+    },
+    {
+      "offset": 3186272,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030aa60",
+      "value": "AddAction Weapon_31 50"
+    },
+    {
+      "offset": 3186296,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030aa78",
+      "value": "AddAction Weapon_32 51"
+    },
+    {
+      "offset": 3186320,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030aa90",
+      "value": "AddAction Weapon_33 52"
+    },
+    {
+      "offset": 3186344,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030aaa8",
+      "value": "AddAction Weapon_34 53"
+    },
+    {
+      "offset": 3186368,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030aac0",
+      "value": "AddAction Weapon_35 54"
+    },
+    {
+      "offset": 3186392,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030aad8",
+      "value": "AddAction Weapon_36 55"
+    },
+    {
+      "offset": 3186416,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030aaf0",
+      "value": "AddAction Weapon_37 56"
+    },
+    {
+      "offset": 3186440,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030ab08",
+      "value": "AddAction Weapon_38 57"
+    },
+    {
+      "offset": 3186464,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030ab20",
+      "value": "AddAction Weapon_39 58"
+    },
+    {
+      "offset": 3186488,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030ab38",
+      "value": "AddAction Weapon_40 59"
+    },
+    {
+      "offset": 3186512,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030ab50",
+      "value": "AddAction NextAmmo 60"
+    },
+    {
+      "offset": 3186536,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x14030ab68",
+      "value": "AddAction ZoomIn 61"
+    },
+    {
+      "offset": 3186560,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x14030ab80",
+      "value": "AddAction ZoomOut 62"
+    },
+    {
+      "offset": 3186584,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x14030ab98",
+      "value": "AddAction NextVisMode 64"
+    },
+    {
+      "offset": 3186616,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030abb8",
+      "value": "AddAction Alt-Fire 65"
+    },
+    {
+      "offset": 3186640,
+      "bytes": 23,
+      "encoding": "ascii",
+      "address": "0x14030abd0",
+      "value": "AddAction PrevWeapon 66"
+    },
+    {
+      "offset": 3186664,
+      "bytes": 23,
+      "encoding": "ascii",
+      "address": "0x14030abe8",
+      "value": "AddAction NextWeapon 67"
+    },
+    {
+      "offset": 3186688,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x14030ac00",
+      "value": "AddAction Score 68"
+    },
+    {
+      "offset": 3186712,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x14030ac18",
+      "value": "AddAction Mission 69"
+    },
+    {
+      "offset": 3186736,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030ac30",
+      "value": "AddAction MouseAim 70"
+    },
+    {
+      "offset": 3186760,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030ac48",
+      "value": "AddAction CursorTog 71"
+    },
+    {
+      "offset": 3186784,
+      "bytes": 23,
+      "encoding": "ascii",
+      "address": "0x14030ac60",
+      "value": "AddAction CenterView 72"
+    },
+    {
+      "offset": 3186808,
+      "bytes": 26,
+      "encoding": "ascii",
+      "address": "0x14030ac78",
+      "value": "AddAction HolsterWeapon 73"
+    },
+    {
+      "offset": 3186840,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x14030ac98",
+      "value": "AddAction SendMessage 74"
+    },
+    {
+      "offset": 3186872,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030acb8",
+      "value": "AddAction IncLayout 75"
+    },
+    {
+      "offset": 3186896,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030acd0",
+      "value": "AddAction DecLayout 76"
+    },
+    {
+      "offset": 3186920,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030ace8",
+      "value": "AddAction Inventory 77"
+    },
+    {
+      "offset": 3186944,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x14030ad00",
+      "value": "AddAction NextWeapon_1 78"
+    },
+    {
+      "offset": 3186976,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x14030ad20",
+      "value": "AddAction NextWeapon_2 79"
+    },
+    {
+      "offset": 3187008,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x14030ad40",
+      "value": "AddAction NextWeapon_3 80"
+    },
+    {
+      "offset": 3187040,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x14030ad60",
+      "value": "AddAction NextWeapon_4 81"
+    },
+    {
+      "offset": 3187072,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x14030ad80",
+      "value": "AddAction NextWeapon_5 82"
+    },
+    {
+      "offset": 3187104,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x14030ada0",
+      "value": "AddAction NextWeapon_6 83"
+    },
+    {
+      "offset": 3187136,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030adc0",
+      "value": "AddAction Choose_1 84"
+    },
+    {
+      "offset": 3187160,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030add8",
+      "value": "AddAction Choose_2 85"
+    },
+    {
+      "offset": 3187184,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030adf0",
+      "value": "AddAction Choose_3 86"
+    },
+    {
+      "offset": 3187208,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030ae08",
+      "value": "AddAction Choose_4 87"
+    },
+    {
+      "offset": 3187232,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030ae20",
+      "value": "AddAction Choose_5 88"
+    },
+    {
+      "offset": 3187256,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030ae38",
+      "value": "AddAction Choose_6 89"
+    },
+    {
+      "offset": 3187280,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030ae50",
+      "value": "AddAction DuckLock 92"
+    },
+    {
+      "offset": 3187304,
+      "bytes": 23,
+      "encoding": "ascii",
+      "address": "0x14030ae68",
+      "value": "AddAction LastWeapon 93"
+    },
+    {
+      "offset": 3187328,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x14030ae80",
+      "value": "AddAction TeamMessage 94"
+    },
+    {
+      "offset": 3187360,
+      "bytes": 27,
+      "encoding": "ascii",
+      "address": "0x14030aea0",
+      "value": "AddAction CompassToggle 101"
+    },
+    {
+      "offset": 3187392,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030aec0",
+      "value": "AddAction ViewKeys 102"
+    },
+    {
+      "offset": 3187416,
+      "bytes": 23,
+      "encoding": "ascii",
+      "address": "0x14030aed8",
+      "value": "AddAction ViewIntel 103"
+    },
+    {
+      "offset": 3187440,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x14030aef0",
+      "value": "AddAction MoveBody 104"
+    },
+    {
+      "offset": 3187464,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x14030af08",
+      "value": "AddAction Flashlight 105"
+    },
+    {
+      "offset": 3187496,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x14030af28",
+      "value": "AddAction Radio 106"
+    },
+    {
+      "offset": 3187520,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x14030af40",
+      "value": "AddAction SpecialKey 107"
+    },
+    {
+      "offset": 3187552,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x14030af60",
+      "value": "AddAction MiniMap 111"
+    },
+    {
+      "offset": 3187576,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x14030af78",
+      "value": "AddAction Spray 112"
+    },
+    {
+      "offset": 3187600,
+      "bytes": 23,
+      "encoding": "ascii",
+      "address": "0x14030af90",
+      "value": "AddAction ActRadio4 113"
+    },
+    {
+      "offset": 3187624,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x14030afa8",
+      "value": "AddAction SpecialKey3 114"
+    },
+    {
+      "offset": 3187656,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x14030afc8",
+      "value": "AddAction Target 115"
+    },
+    {
+      "offset": 3187680,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x14030afe0",
+      "value": "AddAction ClanMission 116"
+    },
+    {
+      "offset": 3187712,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x14030b000",
+      "value": "AddAction SpecialKey4 117"
+    },
+    {
+      "offset": 3187744,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x14030b020",
+      "value": "AddAction SpecialKey5 118"
+    },
+    {
+      "offset": 3187776,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x14030b040",
+      "value": "AddAction SpecialKey6 119"
+    },
+    {
+      "offset": 3187808,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x14030b060",
+      "value": "AddAction Compliment 120"
+    },
+    {
+      "offset": 3187840,
+      "bytes": 28,
+      "encoding": "ascii",
+      "address": "0x14030b080",
+      "value": "AddAction TacticalMoving 121"
+    },
+    {
+      "offset": 3187872,
+      "bytes": 28,
+      "encoding": "ascii",
+      "address": "0x14030b0a0",
+      "value": "AddAction OperationPing1 122"
+    },
+    {
+      "offset": 3187904,
+      "bytes": 28,
+      "encoding": "ascii",
+      "address": "0x14030b0c0",
+      "value": "AddAction OperationPing2 123"
+    },
+    {
+      "offset": 3187936,
+      "bytes": 29,
+      "encoding": "ascii",
+      "address": "0x14030b0e0",
+      "value": "AddAction LeaveUnassigned 201"
+    },
+    {
+      "offset": 3187968,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x14030b100",
+      "value": "AddAction Axis3 -3"
+    },
+    {
+      "offset": 3187992,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x14030b118",
+      "value": "AddAction Axis2 -2"
+    },
+    {
+      "offset": 3188016,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x14030b130",
+      "value": "AddAction Axis1 -1"
+    },
+    {
+      "offset": 3188040,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x14030b148",
+      "value": "AddAction AxisYaw -10001"
+    },
+    {
+      "offset": 3188072,
+      "bytes": 26,
+      "encoding": "ascii",
+      "address": "0x14030b168",
+      "value": "AddAction AxisPitch -10002"
+    },
+    {
+      "offset": 3188104,
+      "bytes": 30,
+      "encoding": "ascii",
+      "address": "0x14030b188",
+      "value": "AddAction AxisLeftRight -10003"
+    },
+    {
+      "offset": 3188136,
+      "bytes": 36,
+      "encoding": "ascii",
+      "address": "0x14030b1a8",
+      "value": "AddAction AxisForwardBackward -10004"
+    }
+  ],
+  "limitations": [
+    "Raw file-string anchors only; no references or function identities established.",
+    "Virtual addresses require one unique source-backed section mapping.",
+    "Only printable ASCII and ASCII-range UTF-16LE runs are scanned."
+  ]
+}

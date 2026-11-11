@@ -1,0 +1,1011 @@
+[Pattern0]
+//Reverse   =테스트
+//Floor   =All
+//Section   =A
+Type0   = "0,1,2,3,9,10,12,15"
+Pattern0   = "131,100"
+SpawnPoint0   = "101,100,102,100"
+//Desc0   =A 지상타겟
+Type1   = "4,5,6,8"
+Pattern1   = "143,100"
+SpawnPoint1   = "121,100,131,100,141,100,151,100,122,100,132,100,142,100,152,100"
+//Desc1   =A 공중타겟
+ 
+ 
+ 
+ 
+
+[Pattern1]
+//Reverse   =테스트
+//Floor   =지상
+//Section   =두더지
+Type0   = "0"
+Pattern0   = "159,100"
+SpawnPoint0   = "3002,100,3012,100,3013,100"
+//Desc0   =A 두더지 3군데
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern2]
+//Reverse   =테스트
+//Floor   =지상
+//Section   =사람
+Type0   = "9,10"
+Pattern0   = "158,100"
+SpawnPoint0   = "3405,100,3406,100,3407,100,3408,100"
+//Desc0   =2층 중앙 사람 테스트
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern3]
+//Reverse   =테스트
+//Floor   =공중
+//Section   =오리
+Type0   = "8"
+Pattern0   = "163,100"
+SpawnPoint0   = "1001,100,1002,100,1003,100,1004,100,1005,100,1006,100,1007,100"
+//Desc0   =오리존에 오리 생성
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern4]
+//Reverse   =Boss
+//Floor   =지상
+//Section   =Boss
+Type0   = "7,11"
+Pattern0   = "160,100"
+SpawnPoint0   = "3211,100,3212,100,3213,100,3214,100,3215,100,3216,100,3217,100,3218,100,3219,100"
+//Desc0   =보스 이동 패턴
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern5]
+//Reverse   =정
+//Floor   =지상
+//Section   =A
+Type0   = "1,2,3"
+Pattern0   = "131,100"
+SpawnPoint0   = "101,100,102,100"
+//Desc0   =A 지상타겟
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern6]
+//Reverse   =역
+//Floor   =지상
+//Section   =A
+Type0   = "1,2,3"
+Pattern0   = "132,100"
+SpawnPoint0   = "201,100,202,100"
+//Desc0   =(역)A 지상타겟
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern7]
+//Reverse   =크로스
+//Floor   =지상
+//Section   =A
+Type0   = "1,2,3"
+Pattern0   = "131,100"
+SpawnPoint0   = "101,100,102,100"
+//Desc0   =A 지상타겟
+Type1   = "1,2,3"
+Pattern1   = "132,100"
+SpawnPoint1   = "201,100,202,100"
+//Desc1   =(역)A 지상타겟
+ 
+ 
+ 
+ 
+
+[Pattern8]
+//Reverse   =정
+//Floor   =공중
+//Section   =A
+Type0   = "4,5,6,8"
+Pattern0   = "143,100"
+SpawnPoint0   = "121,100,131,100,141,100,151,100,122,100,132,100,142,100,152,100"
+//Desc0   =A 공중타겟
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern9]
+//Reverse   =역
+//Floor   =공중
+//Section   =A
+Type0   = "4,5,6,8"
+Pattern0   = "144,100"
+SpawnPoint0   = "221,100,231,100,241,100,251,100,222,100,232,100,242,100,252,100"
+//Desc0   =(역)A 공중타겟
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern10]
+//Reverse   =크로스
+//Floor   =공중
+//Section   =A
+Type0   = "4,5,6,8"
+Pattern0   = "143,100"
+SpawnPoint0   = "121,100,131,100,141,100,151,100,122,100,132,100,142,100,152,100"
+//Desc0   =A공중타겟
+Type1   = "4,5,6,8"
+Pattern1   = "144,100"
+SpawnPoint1   = "221,100,231,100,241,100,251,100,222,100,232,100,242,100,252,100"
+//Desc1   =(역)A 공중타겟
+ 
+ 
+ 
+ 
+
+[Pattern11]
+//Reverse   =크로스
+//Floor   =공중
+//Section   =A
+Type0   = "4,5,6,8"
+Pattern0   = "145,100,146,100"
+SpawnPoint0   = "3001,100,3002,100,3003,100,3011,100,3012,100,3013,100,3014,100"
+//Desc0   =A중앙생성 양끝 이동
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern12]
+//Reverse   =크로스
+//Floor   =지상
+//Section   =B
+Type0   = "1,2,3"
+Pattern0   = "133,100"
+SpawnPoint0   = "1101,100"
+//Desc0   =B 수풀사이 지상타겟
+Type1   = "1,2,3"
+Pattern1   = "134,100"
+SpawnPoint1   = "1111,100"
+//Desc1   =(역)B 수풀사이 지상타겟
+ 
+ 
+ 
+ 
+
+[Pattern13]
+//Reverse   =정
+//Floor   =공중
+//Section   =B
+Type0   = "4,5,6,8"
+Pattern0   = "147,100"
+SpawnPoint0   = "3101,100,3102,100,3103,100,3111,100,3112,100,3113,100,3114,100"
+//Desc0   =B수풀뒤에서 우측이동
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern14]
+//Reverse   =역
+//Floor   =공중
+//Section   =B
+Type0   = "4,5,6,8"
+Pattern0   = "148,100"
+SpawnPoint0   = "3101,100,3102,100,3103,100,3111,100,3112,100,3113,100,3114,100"
+//Desc0   =B수풀뒤에서 좌측이동
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern15]
+//Reverse   =크로스
+//Floor   =공중
+//Section   =B
+Type0   = "4,5,6,8"
+Pattern0   = "147,100,148,100"
+SpawnPoint0   = "3101,100,3102,100,3103,100,3111,100,3112,100,3113,100,3114,100"
+//Desc0   =B수풀뒤에서 양쪽이동
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern16]
+//Reverse   =정
+//Floor   =공중
+//Section   =B
+Type0   = "4,5,6,8"
+Pattern0   = "149,100"
+SpawnPoint0   = "123,100,133,100,143,100,153,100,124,100,134,100,144,100,154,100"
+//Desc0   =B좌측생성 우측이동
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern17]
+//Reverse   =역
+//Floor   =공중
+//Section   =B
+Type0   = "4,5,6,8"
+Pattern0   = "150,100"
+SpawnPoint0   = "223,100,233,100,243,100,253,100,224,100,234,100,244,100,254,100"
+//Desc0   =B우측생성 좌측이동
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern18]
+//Reverse   =크로스
+//Floor   =공중
+//Section   =B
+Type0   = "4,5,6,8"
+Pattern0   = "149,100"
+SpawnPoint0   = "123,100,133,100,143,100,153,100,124,100,134,100,144,100,154,100"
+//Desc0   =B좌측생성 우측이동
+Type1   = "4,5,6,8"
+Pattern1   = "150,100"
+SpawnPoint1   = "223,100,233,100,243,100,253,100,224,100,234,100,244,100,254,100"
+//Desc1   =B우측생성 좌측이동
+ 
+ 
+ 
+ 
+
+[Pattern19]
+//Reverse   =크로스
+//Floor   =공중
+//Section   =A
+Type0   = "4,5,6,8"
+Pattern0   = "151,100"
+SpawnPoint0   = "3001,100,3002,100,3003,100,3011,100,3012,100,3013,100,3014,100"
+//Desc0   =A중앙생성 중앙이동
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern20]
+//Reverse   =크로스
+//Floor   =공중
+//Section   =B
+Type0   = "4,5,6,8"
+Pattern0   = "152,100"
+SpawnPoint0   = "3101,100,3102,100,3103,100,3111,100,3112,100,3113,100,3114,100"
+//Desc0   =B중앙생성 중앙이동
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern21]
+//Reverse   =정
+//Floor   =공중
+//Section   =A
+Type0   = "4,5,6,8"
+Pattern0   = "153,100"
+SpawnPoint0   = "101,100,102,100"
+//Desc0   =A좌측생성 우측 끝/중앙 이동
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern22]
+//Reverse   =역
+//Floor   =공중
+//Section   =A
+Type0   = "4,5,6,8"
+Pattern0   = "154,100"
+SpawnPoint0   = "201,100,202,100"
+//Desc0   =(역)A우측생성 좌측 끝/중앙 이동
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern23]
+//Reverse   =정
+//Floor   =공중
+//Section   =B
+Type0   = "4,5,6,8"
+Pattern0   = "155,100"
+SpawnPoint0   = "103,100,104,100"
+//Desc0   =B좌측생성 우측 끝/중앙 이동
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern24]
+//Reverse   =역
+//Floor   =공중
+//Section   =B
+Type0   = "4,5,6,8"
+Pattern0   = "156,100"
+SpawnPoint0   = "203,100,204,100"
+//Desc0   =(역)B우측생성 좌측 끝/중앙 이동
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern25]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "9"
+Pattern0   = "157,100"
+SpawnPoint0   = "3303,100,3304,100"
+//Desc0   =1층 좌측 사람
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern26]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "9"
+Pattern0   = "157,100"
+SpawnPoint0   = "3305,100,3306,100,3307,100,3308,100"
+//Desc0   =1층 중앙 사람
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern27]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "9"
+Pattern0   = "157,100"
+SpawnPoint0   = "3309,100,3310,100"
+//Desc0   =1층 우측 사람
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern28]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "9"
+Pattern0   = "157,100"
+SpawnPoint0   = "3403,100,3404,100"
+//Desc0   =2층 좌측 사람
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern29]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "9"
+Pattern0   = "157,100"
+SpawnPoint0   = "3405,100,3406,100,3407,100,3408,100"
+//Desc0   =2층 중앙 사람
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern30]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "9"
+Pattern0   = "157,100"
+SpawnPoint0   = "3409,100,3410,100"
+//Desc0   =2층 우측 사람
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern31]
+//Reverse   =기타
+//Floor   =공중
+//Section   =오리
+Type0   = "8"
+Pattern0   = "163,100"
+SpawnPoint0   = "1001,100,1002,100,1003,100,1004,100,1005,100,1006,100,1007,100"
+//Desc0   =<오리>좌/상/우/하
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern32]
+//Reverse   =기타
+//Floor   =공중
+//Section   =오리
+Type0   = "8"
+Pattern0   = "164,100"
+SpawnPoint0   = "1001,100,1002,100,1003,100,1004,100,1005,100,1006,100,1007,100"
+//Desc0   =<오리>상/하
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern33]
+//Reverse   =기타
+//Floor   =공중
+//Section   =오리
+Type0   = "8"
+Pattern0   = "165,100"
+SpawnPoint0   = "1001,100,1002,100,1003,100,1004,100,1005,100,1006,100,1007,100"
+//Desc0   =<오리>우/좌상/우하/좌/우상/좌하
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern34]
+//Reverse   =기타
+//Floor   =공중
+//Section   =오리
+Type0   = "8"
+Pattern0   = "166,100"
+SpawnPoint0   = "1001,100,1002,100,1003,100,1004,100,1005,100,1006,100,1007,100"
+//Desc0   =<오리>중앙1/중앙2/좌또는우/중앙1또는 소멸
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern35]
+//Reverse   =기타
+//Floor   =지상
+//Section   =두더지
+Type0   = "0"
+Pattern0   = "159,100"
+SpawnPoint0   = "3002,100,3012,100,3013,100"
+//Desc0   =<두더지>3포인트
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern36]
+//Reverse   =기타
+//Floor   =지상
+//Section   =두더지
+Type0   = "0"
+Pattern0   = "159,100"
+SpawnPoint0   = "3001,100,3003,100,3011,100,3014,100"
+//Desc0   =<두더지>4포인트
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern37]
+//Reverse   =기타
+//Floor   =지상
+//Section   =두더지
+Type0   = "0"
+Pattern0   = "159,100"
+SpawnPoint0   = "3001,100,3002,100,3003,100,3011,100,3012,100,3013,100,3014,100"
+//Desc0   =<두더지>7포인트
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern38]
+//Reverse   =기타
+//Floor   =지상
+//Section   =두더지
+Type0   = "0,12"
+Pattern0   = "170,100"
+SpawnPoint0   = "6001,100,6002,100,6003,100,6004,100,6005,100,6006,100,6007,100,6008,100,6009,100"
+//Desc0   =<두더지>9홀 두더지
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern39]
+//Reverse   =기타
+//Floor   =공중
+//Section   =앵무새
+Type0   = "4"
+Pattern0   = "152,100"
+SpawnPoint0   = "3101,100,3102,100,3103,100,3111,100,3112,100,3113,100,3114,100"
+//Desc0   =B중앙생성 중앙이동-앵무새
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern40]
+//Reverse   =크로스
+//Floor   =공중
+//Section   =박쥐
+Type0   = "5"
+Pattern0   = "149,100"
+SpawnPoint0   = "123,100,133,100,143,100,153,100,124,100,134,100,144,100,154,100"
+//Desc0   =B좌측생성 우측이동-박쥐
+Type1   = "5"
+Pattern1   = "150,100"
+SpawnPoint1   = "223,100,233,100,243,100,253,100,224,100,234,100,244,100,254,100"
+//Desc1   =B우측생성 좌측이동-박쥐
+ 
+ 
+ 
+ 
+
+[Pattern41]
+//Reverse   =크로스
+//Floor   =공중
+//Section   =모기
+Type0   = "6"
+Pattern0   = "149,100"
+SpawnPoint0   = "123,100,133,100,143,100,153,100,124,100,134,100,144,100,154,100"
+//Desc0   =B좌측생성 우측이동-모기
+Type1   = "6"
+Pattern1   = "150,100"
+SpawnPoint1   = "223,100,233,100,243,100,253,100,224,100,234,100,244,100,254,100"
+//Desc1   =B우측생성 좌측이동-모기
+ 
+ 
+ 
+ 
+
+[Pattern42]
+//Reverse   =크로스
+//Floor   =지상
+//Section   =B
+Type0   = "1,2,3"
+Pattern0   = "133,100"
+SpawnPoint0   = "103,100,104,100"
+//Desc0   =B 수풀뒤 지상타겟
+Type1   = "1,2,3"
+Pattern1   = "134,100"
+SpawnPoint1   = "203,100,204,100"
+//Desc1   =(역)B 수풀뒤 지상타겟
+ 
+ 
+ 
+ 
+
+[Pattern43]
+//Reverse   =기타
+//Floor   =공중
+//Section   =오리
+Type0   = "8"
+Pattern0   = "152,100"
+SpawnPoint0   = "3101,100,3102,100,3103,100,3111,100,3112,100,3113,100,3114,100"
+//Desc0   =B중앙생성 중앙이동-오리
+Type1   = "8"
+Pattern1   = "147,100,148,100"
+SpawnPoint1   = "3101,100,3102,100,3103,100,3111,100,3112,100,3113,100,3114,100"
+//Desc1   =B수풀뒤에서 양쪽이동-오리
+ 
+ 
+ 
+ 
+
+[Pattern44]
+//Reverse   =기타
+//Floor   =지상
+//Section   =Boss
+Type0   = "7,11"
+Pattern0   = "168,100"
+SpawnPoint0   = "3213,100,3214,100,3215,100,3216,100,3217,100"
+//Desc0   =보스 중앙 생겨 직선 이동
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern45]
+//Reverse   =기타
+//Floor   =지상
+//Section   =Boss
+Type0   = "7,11"
+Pattern0   = "160,100"
+SpawnPoint0   = "3213,100,3214,100,3215,100,3216,100,3217,100"
+//Desc0   =보스 중앙 생겨 지그제그 이동
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern46]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "14"
+Pattern0   = "161,100"
+SpawnPoint0   = "3501,100,3502,100,3503,100,3504,100"
+//Desc0   =1층 좌측 폭탄
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern47]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "14"
+Pattern0   = "161,100"
+SpawnPoint0   = "3505,100,3506,100,3507,100,3508,100"
+//Desc0   =1층 중앙 폭탄
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern48]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "14"
+Pattern0   = "161,100"
+SpawnPoint0   = "3509,100,3510,100,3511,100,3512,100"
+//Desc0   =1층 우측 폭탄
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern49]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "14"
+Pattern0   = "162,100"
+SpawnPoint0   = "3601,100,3602,100,3603,100,3604,100"
+//Desc0   =2층 좌측 폭탄
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern50]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "14"
+Pattern0   = "162,100"
+SpawnPoint0   = "3605,100,3606,100,3607,100,3608,100"
+//Desc0   =2층 중앙 폭탄
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern51]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "14"
+Pattern0   = "162,100"
+SpawnPoint0   = "3609,100,3610,100,3611,100,3612,100"
+//Desc0   =2층 우측 폭탄
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern52]
+//Reverse   =기타
+//Floor   =공중
+//Section   =오리
+Type0   = "8"
+Pattern0   = "169,100"
+SpawnPoint0   = "1010,100,1020,100,1030,100,1040,100,1001,100,1003,100,1005,100,1007,100,1018,100,1028,100,1038,100,1048,100"
+//Desc0   =오리 중앙 꺾기 패턴
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern53]
+//Reverse   =기타
+//Floor   =지상
+//Section   =B
+Type0   = "15"
+Pattern0   = "167,100"
+SpawnPoint0   = "1101,100,1111,100"
+//Desc0   =잔호크
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[Pattern54]
+//Reverse   =기타
+//Floor   =공중
+//Section   =오리,ahrl
+Type0   = "6,8"
+Pattern0   = "171,100"
+SpawnPoint0   = "1010,100,1020,100,1030,100,1040,100,1001,100,1003,100,1005,100,1007,100,1018,100,1028,100,1038,100,1048,100"
+//Desc0   =오리 중앙 꺾기 패턴2
+
+
+
+[Pattern55] //반짝이 길
+Type0   = "17,18"
+Pattern0   = "132,100"
+SpawnPoint0   = "202,100"
+Type1   = "16,19,20,21"
+Pattern1   = "144,100"
+SpawnPoint1   = "252,100,242,100,232,100"
+
+
+[Pattern56]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "10"
+Pattern0   = "178,100"
+SpawnPoint0   = "3302,100,3303,100,3304,100,3305,100,3306,100,3307,100,3308,100,3309,100,3310,100"
+//Desc0   =1층 총든사람 - 8창
+
+[Pattern57]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "10"
+Pattern0   = "179,100"
+SpawnPoint0   = "3402,100,3403,100,3404,100,3405,100,3406,100,3407,100,3408,100,3409,100,3410,100"
+//Desc0   =2층 총든사람- 8창
+
+[Pattern58]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "9,14"
+Pattern0   = "174,100"
+SpawnPoint0   = "3303,100,3304,100,3305,100,3306,100,3307,100,3308,100,3309,100,3310,100"
+//Desc0   =1층 일반사람
+
+[Pattern59]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "9,14"
+Pattern0   = "175,100"
+SpawnPoint0   = "3403,100,3404,100,3405,100,3406,100,3407,100,3408,100,3409,100,3410,100"
+//Desc0   =2층 일반사람
+
+[Pattern60]
+//Reverse   =기타
+//Floor   =지상
+//Section   =C
+Type0   = "1,2"
+Pattern0   = "176,100"
+SpawnPoint0   = "310,100,320,100,318,100,328,100"
+//Desc0   =1층 빌딩 횡단
+
+[Pattern61]
+//Reverse   =기타
+//Floor   =지상
+//Section   =C
+Type0   = "1,2"
+Pattern0   = "177,100"
+SpawnPoint0   = "330,100,340,100,338,100,348,100"
+//Desc0   =2층 빌딩 횡단
+
+
+[Pattern62]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "10"
+Pattern0   = "178,100"
+SpawnPoint0   = "3305,100,3306,100,3307,100,3308,100"
+//Desc0   =1층 총든사람 - 5창
+
+
+[Pattern63]
+//Reverse   =기타
+//Floor   =지상
+//Section   =사람
+Type0   = "10"
+Pattern0   = "179,100"
+SpawnPoint0   = "3405,100,3406,100,3407,100,3408,100"
+//Desc0   =2층 총든사람- 5창

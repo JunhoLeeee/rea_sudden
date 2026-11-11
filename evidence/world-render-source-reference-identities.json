@@ -1,0 +1,21 @@
+{
+  "references": [
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/master/runtime/render_a/src/sys/d3d/d3d_renderblock.cpp",
+      "bytes": 55258,
+      "sha256": "19c72a58ee9792980b0ac178c2c8c7a4b3f29508634e901080c516c753264428"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/master/runtime/render_a/src/sys/d3d/d3d_rendershader_lightmap.cpp",
+      "bytes": 82381,
+      "sha256": "39339e78e573e579afae10098dde10ba2e3ddb8785b9854974706ad7cf17313f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/master/runtime/render_a/src/sys/d3d/d3d_rendershader_lightmap.h",
+      "bytes": 22497,
+      "sha256": "95a80907ce0bac8d90d2f048a1828f09f67b01fbf765aa1b3faf1932fb8c0e07"
+    }
+  ],
+  "role": "external source comparison, not installed game source",
+  "retrieved_date": "2026-11-11"
+}

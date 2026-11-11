@@ -1,0 +1,70 @@
+[FontItem0]
+// Cre고딕
+Name		= "CreGothicM"
+Size11		= 12
+Size12		= 13
+Size14		= 15
+Size16		= 18
+ShopIndex	= 1031
+
+[FontItem1]
+// 가시나무
+Name		= "GasiIIM"
+Size11		= 13
+Size12		= 14
+Size14		= 16
+Size16		= 18
+ShopIndex	= 1032
+
+[FontItem2]
+// 2002
+Name		= "2002L"
+Size11		= 13
+Size12		= 14
+Size14		= 16
+Size16		= 18
+ShopIndex	= 1033
+
+[FontItem3]
+// 수다공주
+Name		= "Soodagongju"
+Size11		= 14
+Size12		= 15
+Size14		= 17
+Size16		= 19
+ShopIndex	= 1034
+
+[FontItem4]
+// 보람
+Name		= "BoramM"
+Size11		= 13
+Size12		= 15
+Size14		= 16
+Size16		= 19
+ShopIndex	= 1035
+
+[FontItem5]
+// 은하수
+Name		= "Eunhasu"
+Size11		= 14
+Size12		= 15
+Size14		= 17
+Size16		= 19
+ShopIndex	= 1036
+
+[FontItem6]
+// 초코쿠키
+Name		= "CreChocoM"
+Size11		= 14
+Size12		= 15
+Size14		= 17
+Size16		= 19
+ShopIndex	= 1037
+
+[FontItem7]
+// 굴림
+Name		= "굴림"
+Size11		= 11
+Size12		= 12
+Size14		= 14
+Size16		= 16

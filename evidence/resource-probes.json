@@ -1,0 +1,267 @@
+{
+  "root": "C:\\Nexon\\SuddenAttack",
+  "observations": [
+    {
+      "path": "engine.rez",
+      "bytes": 102191,
+      "mtime_ns": 1735634210000000000,
+      "ranges": [
+        {
+          "offset": 0,
+          "bytes": 4096,
+          "sha256": "89afb037aa7d9acd03a91fe14776379524ee6c4f829ee8584dea21f512df8640",
+          "entropy_bits_per_byte": 1.3311417585527017,
+          "first_64_hex": "3f0a1b9e5d7f6c5a65f2ae0551a860b430830a0a374ae28a0100fa8e010035000000ccccccccca64f544000000000d0000001c0000000000000001d1ab7d1555",
+          "zero_fraction": 0.722900390625
+        },
+        {
+          "offset": 49047,
+          "bytes": 4096,
+          "sha256": "9c8a8509fcd438a2c00af5d558e0455581770b941d2d02719adc4116d0959eb7",
+          "entropy_bits_per_byte": 0.22311338128494576,
+          "first_64_hex": "0000000000ffffffffffffffffffffffffffffffffffffffffffffffffff000000ff0000000000000000000000000000000000000000000000ffffffffffffff",
+          "zero_fraction": 0.964111328125
+        },
+        {
+          "offset": 98095,
+          "bytes": 4096,
+          "sha256": "781f8a8397e34085c26c3a22a831b510d22d08259ce673906b4bf56b961407ab",
+          "entropy_bits_per_byte": 2.3228187819421895,
+          "first_64_hex": "00000000000fd0000055a0ffff0000740200000101fefffeff090044334458382053686164657220417373656d626c65722056657273696f6e20302e39310005",
+          "zero_fraction": 0.716796875
+        }
+      ],
+      "identity_scope": "selected-read-ranges-only"
+    },
+    {
+      "path": "game\\global_00000.pkg",
+      "bytes": 29696,
+      "mtime_ns": 1743157718000000000,
+      "ranges": [
+        {
+          "offset": 0,
+          "bytes": 4096,
+          "sha256": "9da84aaa424f9e4d9f6dea3921cdc01593082238498cfd3cfa7e9a12bb0657b7",
+          "entropy_bits_per_byte": 7.959490097466272,
+          "first_64_hex": "d2c76e9133d0bab84d8e03856f229deb5e109ad42e410f67f73564589ecce72fc4c33483751347fe5d4cbcecb42f008d8b207485b68a8691b70798fd6c611a80",
+          "zero_fraction": 0.00439453125
+        },
+        {
+          "offset": 12800,
+          "bytes": 4096,
+          "sha256": "e959f18a621098393fa62abac731410fb7be19755ea40635ad5d19e4bc44c25e",
+          "entropy_bits_per_byte": 7.951979700634076,
+          "first_64_hex": "2f5f2e101c770728a92007bd8bc0a00764d124f35ee40d663fb1f1c10561166c7bd39a51868104c4a4274ed06a82e30bcb25d48d1916574952c6cf6985442248",
+          "zero_fraction": 0.0048828125
+        },
+        {
+          "offset": 25600,
+          "bytes": 4096,
+          "sha256": "da99fbf0aeb45fd85a87e6f40c5dde479ed75955b071ec817129e1691d1893fa",
+          "entropy_bits_per_byte": 7.9586060428921925,
+          "first_64_hex": "f7a039e234b87d28c0138be10b266d5ac1cc8399f87c50ba86cdfa5fab9e0cf4f0c07018733f93ad2d64a457ba69a27a9cebb1fcc18f2691a5e33eb69fcd7653",
+          "zero_fraction": 0.00439453125
+        }
+      ],
+      "identity_scope": "selected-read-ranges-only"
+    },
+    {
+      "path": "game\\game_file_00000.pkg",
+      "bytes": 17096704,
+      "mtime_ns": 1793853103602388100,
+      "ranges": [
+        {
+          "offset": 0,
+          "bytes": 4096,
+          "sha256": "b48e294c7c6b505bd2c5edb954b33c580127b26d1dd20a947596b663bd03ce82",
+          "entropy_bits_per_byte": 7.951123216416561,
+          "first_64_hex": "bfdcda41fe00f61f16d3afad8dedde3be02323c8dee1e4bbfa95bb6fad4059c8f5e0f10c709a70ccb0866d8de4177b420a5af88d1b8987dcf71f4668448771d4",
+          "zero_fraction": 0.00732421875
+        },
+        {
+          "offset": 8546304,
+          "bytes": 4096,
+          "sha256": "eab25b826da528a3d41384a1074aaa8bc1bd8a3987af3007cb410006d844a6e1",
+          "entropy_bits_per_byte": 7.953935237653898,
+          "first_64_hex": "c2a58896af89c876dc7916cdbfb7169a191d4d0ea21323edd56ef1af231cd1235a2c6cc360cfdbdb64af58d7fb5536cc9d842851244eaf954dbc4f28bd07c5c0",
+          "zero_fraction": 0.003662109375
+        },
+        {
+          "offset": 17092608,
+          "bytes": 4096,
+          "sha256": "261827ead545307a4d4897a6b382ac9eb2cdddc819318ffc913c9b9dea2c6358",
+          "entropy_bits_per_byte": 7.955206362530734,
+          "first_64_hex": "8c51ee79d38285ce9c2e1c420e92141b7d78d6c7ea265e13eac5ce97d68fbc739a080ccdfdf411205aa94bf061fdf2e35b8793c1c96f2c513e8488ef828b1ce3",
+          "zero_fraction": 0.00341796875
+        }
+      ],
+      "identity_scope": "selected-read-ranges-only"
+    },
+    {
+      "path": "game\\sa_scripts_00000.pkg",
+      "bytes": 9332736,
+      "mtime_ns": 1793853140616349000,
+      "ranges": [
+        {
+          "offset": 0,
+          "bytes": 4096,
+          "sha256": "74e1a99f7a9f018a170504de676240f49c6f8705ddd1b1fe91a12054216c4799",
+          "entropy_bits_per_byte": 7.955101071333964,
+          "first_64_hex": "aa0a0e5026c4f6a3b1e1c513d5775b10f6f465a71e8a9b13f25fc5b2dfac59dbb8873874e499cc16008371c6ce86ab33941c88ba04d87c1f6dfa5cc6fd43c205",
+          "zero_fraction": 0.00537109375
+        },
+        {
+          "offset": 4664320,
+          "bytes": 4096,
+          "sha256": "01b58fb049c1329913019805d2e6b8329f2ca4e9937bd22e8c35b17daee8a438",
+          "entropy_bits_per_byte": 7.949596365998202,
+          "first_64_hex": "91bfe6e94c45feaeedd40d4dd15018947f18ff4d5ee0e812fb02380714bc914981a9825180fd898ee2efc8db81de8a034335c37087d195e391bd58dc1ec3b448",
+          "zero_fraction": 0.00341796875
+        },
+        {
+          "offset": 9328640,
+          "bytes": 4096,
+          "sha256": "63312a7bd642fc9ba0a7a7f7b2219da7aff3b01b810e4f8208c65b31a389bdb8",
+          "entropy_bits_per_byte": 7.932383407100344,
+          "first_64_hex": "9f445d77259b5d1cd519df8c4bac486a86184d0886b002ba8ee4608bfcbd37e7553d59f150d23a2532eddbd7162c9d15f888e8bf4eed1bb008b98530d0580a0b",
+          "zero_fraction": 0.00634765625
+        }
+      ],
+      "identity_scope": "selected-read-ranges-only"
+    },
+    {
+      "path": "game\\sa_text_00000.pkg",
+      "bytes": 1507328,
+      "mtime_ns": 1793853140706861400,
+      "ranges": [
+        {
+          "offset": 0,
+          "bytes": 4096,
+          "sha256": "cbb27eda2a532bea33c8a02f1e86091d9afc7d74f678c46db3dc79b492d11ece",
+          "entropy_bits_per_byte": 7.954114712236954,
+          "first_64_hex": "c561c74c880d448eae798719c77192477d42ac07a9ac77adcf0235e234c498107d85332284987af7ace947576cd138ec3b7d195e4bc04018e9197c86d66159e9",
+          "zero_fraction": 0.005126953125
+        },
+        {
+          "offset": 751616,
+          "bytes": 4096,
+          "sha256": "0513f1e010fcd2e9a3533e149338d2bcf096ffb59e00f69dda993575a1b11b0b",
+          "entropy_bits_per_byte": 7.955820559164719,
+          "first_64_hex": "8f45f889497912217d9ef3ad3c6ec107bf4b7ee3b7b3efe67fc8b201c5e3fd43eaed5e8480862895021bdc7dbd6bd2db086c3914899dc863e71ec8bf47275be3",
+          "zero_fraction": 0.002685546875
+        },
+        {
+          "offset": 1503232,
+          "bytes": 4096,
+          "sha256": "0b1ea1ac03aad2b01952bf1542e8df5e2b0bbf76a3737dfd3efa7d3e60f3aa88",
+          "entropy_bits_per_byte": 7.956405108826686,
+          "first_64_hex": "e0233c5916450007d15edfcaf3b43de854eb5beda958a78ba59cd66658162c35b35a6f92830d4225723acf05e11e3bbb3c2ac240dc1d0d25895d081e177d8495",
+          "zero_fraction": 0.00390625
+        }
+      ],
+      "identity_scope": "selected-read-ranges-only"
+    },
+    {
+      "path": "game\\sa_interface_00000.pkg",
+      "bytes": 105470976,
+      "mtime_ns": 1793701425989838000,
+      "ranges": [
+        {
+          "offset": 0,
+          "bytes": 4096,
+          "sha256": "229d08f8b4b9073696afd39698b4b7d74be2ed941e7beceb6f72b36503395cd9",
+          "entropy_bits_per_byte": 7.9502093065520585,
+          "first_64_hex": "d65b1f34a039820e7a434ef5c96af672f34caa3508e0bfc13ff876842e8fb33b25bd858c11c4bb8725051c45f398894b7fbe8f3ba4dd0af59b5cf3a7c1fcdfe9",
+          "zero_fraction": 0.005615234375
+        },
+        {
+          "offset": 52733440,
+          "bytes": 4096,
+          "sha256": "dab6145b81ba612e2c51ae6914f899cc762965cebcf5d3bbf7aa9f704ff891bf",
+          "entropy_bits_per_byte": 7.953529536111296,
+          "first_64_hex": "ff6127adb8c327dc3af60dd78b7db53b4efa6714e518ca096f472a6f7d0dae7e409de2a01e2db2cfa7fb9d27e257acbe5e6c493417b2ee88ca95eb462d869b7a",
+          "zero_fraction": 0.002685546875
+        },
+        {
+          "offset": 105466880,
+          "bytes": 4096,
+          "sha256": "d76e8c4ee397c0b9b897c0ef57d8c9a140091379d4bccb4a074a11c70c7de445",
+          "entropy_bits_per_byte": 7.9560056937451735,
+          "first_64_hex": "644d5fb1514760e94e2fc3e2c3e48f32eb9727eecb0218c6f8ba00a66dbd551f8eee884d84220866d8a7424a205d5fb2a6d21803dedea462fc5895bb07fb6198",
+          "zero_fraction": 0.00537109375
+        }
+      ],
+      "identity_scope": "selected-read-ranges-only"
+    },
+    {
+      "path": "game\\sa_worlds_00000.pkg",
+      "bytes": 110799872,
+      "mtime_ns": 1793701449912276500,
+      "ranges": [
+        {
+          "offset": 0,
+          "bytes": 4096,
+          "sha256": "2fd3ad65c49a910e40518f7c04a5a15c1400cea8348939fefe5163fcc93d5e71",
+          "entropy_bits_per_byte": 7.957321376012765,
+          "first_64_hex": "77fe49f1e6a935b21af557436f90d9622b3f0aa0a0347e339365a56c901a539fcdf61eb100571f3aa5612c593b63ab99d805a0c3cb5a664380155e8104c821fe",
+          "zero_fraction": 0.006103515625
+        },
+        {
+          "offset": 55397888,
+          "bytes": 4096,
+          "sha256": "0f1f1dbbbcab6492e568f16a9660074c3967fde7f98d6254e86ecad0bba97ddb",
+          "entropy_bits_per_byte": 7.949436698009196,
+          "first_64_hex": "9de7dab9abae7620a28dfeff5354010e5e86bc339b818b12f670119a05b57007976d8416d5313695eee5a0f8580e3317b21c0903ccf54c7a5c5f03c081ceeccb",
+          "zero_fraction": 0.003173828125
+        },
+        {
+          "offset": 110795776,
+          "bytes": 4096,
+          "sha256": "2a2123fdc959f3e61716a3861b23489cb234d9d1398616ae781b4cdd057e98af",
+          "entropy_bits_per_byte": 7.956036601790666,
+          "first_64_hex": "1a67df73a9bba600d1b1926aa26afc4cca6391a6fe404a9fc714a04d127fe517ba266c0b86c3c187407dd52b4acf48ca2078b15b93cac4683d8d7997237fc17b",
+          "zero_fraction": 0.00439453125
+        }
+      ],
+      "identity_scope": "selected-read-ranges-only"
+    },
+    {
+      "path": "game\\sa_weaponsi_00000.pkg",
+      "bytes": 1629184,
+      "mtime_ns": 1743157726000000000,
+      "ranges": [
+        {
+          "offset": 0,
+          "bytes": 4096,
+          "sha256": "79723e01e692fbf6fddaca6b9ed7a05b4b51309f00e2009ed00fd63db507d90d",
+          "entropy_bits_per_byte": 7.951073353509328,
+          "first_64_hex": "63105f73b396eb2837fae408cc921484f92d5f99ca8c33d09fb3da38f8356b04ae3c888351d7323c00000010006c0043004a00adffbbff86ff26002b0099ff98",
+          "zero_fraction": 0.005859375
+        },
+        {
+          "offset": 812544,
+          "bytes": 4096,
+          "sha256": "13b209f8a4416714ea0258c40380608f25567f259c42a720bf690eb7d346cda2",
+          "entropy_bits_per_byte": 7.955854062828577,
+          "first_64_hex": "f7d020ae2b55987356c5fd4459b83db6255259f6f8c44270229876f656a6b664038a096a1a7cab5a81779389087aa2bf1ffd86788b4c95f3c3d8e258ccba5b9e",
+          "zero_fraction": 0.00244140625
+        },
+        {
+          "offset": 1625088,
+          "bytes": 4096,
+          "sha256": "81258cf97f41617f361815727cbfa908742480ca30f93a93b03744b301c02a9f",
+          "entropy_bits_per_byte": 7.955553413146006,
+          "first_64_hex": "efa704192b2a4a0f1f2094ce0d73995c3657ba91095037fb669e969641e9b99f1ac0a024a4adc7ad950862a67d678a35d97f295c118ac58b1bfe31b543e417b3",
+          "zero_fraction": 0.003662109375
+        }
+      ],
+      "identity_scope": "selected-read-ranges-only"
+    }
+  ],
+  "limitations": [
+    "Ordinary Python filesystem evidence, not REA Evidence.",
+    "High entropy does not establish encryption or compression.",
+    "Only selected ranges are hashed; full-file identity remains unknown.",
+    "No file extraction, decoding or target execution."
+  ]
+}

@@ -1,0 +1,1281 @@
+/************************************************************************
+**
+** R A D E R  T Y P E S
+**
+** All RadarTypes definitions should contain the following properties:
+**
+**  Name (String)
+**
+**	The user friendly name of the RadarType (what shows up in DEdit).
+**
+**  Icon (String)
+**
+**	The name of the texture file used to display the item in the radar. 
+**
+**  DrawOrder (Int)
+**
+**	The relative order in which this item should be drawn. Higher numbered items are drawn on top of
+**		lower numbered ones. These numnbers are completely arbitrary.
+**
+*/
+
+/*
+** RadarType0 - Player Alive
+*/
+
+[RadarType0]
+
+Name		= "PlayerAlive"	// Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_player_alive.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_player_alive_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_player_alive_d.dtx"
+Icon_MiniMap      = "sa_interface2\hud\radar\MiniMap\radar_player_alive.dtx"
+IconUp_MiniMap    = "sa_interface2\hud\radar\MiniMap\radar_player_alive_u.dtx"
+IconDown_MiniMap  = "sa_interface2\hud\radar\MiniMap\radar_player_alive_d.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+/*
+** RadarType1 - Player Dead
+*/
+
+[RadarType1]
+
+Name		= "PlayerDead" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_player_dead.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_player_dead_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_player_dead_d.dtx"
+Icon_MiniMap      = "sa_interface2\hud\radar\MiniMap\radar_player_dead.dtx"
+IconUp_MiniMap    = "sa_interface2\hud\radar\MiniMap\radar_player_dead_u.dtx"
+IconDown_MiniMap  = "sa_interface2\hud\radar\MiniMap\radar_player_dead_d.dtx"
+DrawOrder 	= 15
+ObjectSize	= 16
+
+/*
+** RadarType2 - Player Enemy
+*/
+
+[RadarType2]
+
+Name		= "PlayerEnemy" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_player_enemy.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_player_enemy_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_player_enemy_d.dtx"
+Icon_MiniMap      = "sa_interface2\hud\radar\MiniMap\radar_player_enemy.dtx"
+IconUp_MiniMap    = "sa_interface2\hud\radar\MiniMap\radar_player_enemy_u.dtx"
+IconDown_MiniMap  = "sa_interface2\hud\radar\MiniMap\radar_player_enemy_d.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+/*
+** RadarType3 - Player Radio
+*/
+
+[RadarType3]
+
+Name		= "PlayerRadio" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_player_radio.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_player_radio_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_player_radio_d.dtx"
+Icon_MiniMap      = "sa_interface2\hud\radar\MiniMap\radar_player_radio.dtx"
+IconUp_MiniMap    = "sa_interface2\hud\radar\MiniMap\radar_player_radio_u.dtx"
+IconDown_MiniMap  = "sa_interface2\hud\radar\MiniMap\radar_player_radio_d.dtx"
+DrawOrder 	= 17
+ObjectSize	= 16
+
+/*
+** RadarType4 - Player Voice
+*/
+
+[RadarType4]
+
+Name		= "PlayerVoice" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_player_voice.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_player_voice_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_player_voice_d.dtx"
+Icon_MiniMap      = "sa_interface2\hud\radar\MiniMap\radar_player_voice.dtx"
+IconUp_MiniMap    = "sa_interface2\hud\radar\MiniMap\radar_player_voice_u.dtx"
+IconDown_MiniMap  = "sa_interface2\hud\radar\MiniMap\radar_player_voice_d.dtx"
+DrawOrder 	= 17
+ObjectSize	= 16
+
+
+/*
+** RadarType - Mission Point
+*/
+
+[RadarType5]
+
+Name		= "MissionPoint_A" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_a.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_a_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_a_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType6]
+
+Name		= "MissionPoint_B" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_b.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_b_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_b_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType7]
+
+Name		= "MissionPoint_C" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_c.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_c_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_c_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType8]
+
+Name		= "MissionPoint_D" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_d.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_d_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_d_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType9]
+
+Name		= "PlayerCapture" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_player_capture.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_player_capture_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_player_capture_d.dtx"
+DrawOrder 	= 15
+ObjectSize	= 16
+
+
+[RadarType10]
+
+Name		= "ReturnArea" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_s.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_s_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_s_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+
+[RadarType11]
+
+Name		= "DropObject_1" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_a.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_a_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_a_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType12]
+
+Name		= "DropObject_2" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_b.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_b_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_b_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType13]
+
+Name		= "CaptureObject_1" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_a.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_a_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_a_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType14]
+
+Name		= "CaptureObject_2" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_b.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_b_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_b_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType15]
+
+Name		= "ChangeFlag" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_t.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_t_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_t_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType16]
+Name		= "TacoDetector" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_taco_a.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_taco_a_up.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_taco_a_down.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType17]
+Name		= "AIObj" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_player_enemy.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_player_enemy_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_player_enemy_d.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+
+[RadarType18]
+Name		= "AIObj_Boss" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_boss_alive.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_boss_alive_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_boss_alive_d.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+
+[RadarType19]
+Name		= "DefenceBase" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_d.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_d_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_d_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+//__XUXU_HOSTAGE__
+[RadarType20]
+Name		= "Hostage" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_Host_a.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_Host_a_up.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_Host_a_down.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType21]
+
+Name		= "SA_Tail_A"// Used internally  DON"T change the name!
+Icon		= "sa_interface2\HUD\tail\radar_a.dtx"
+IconUp		= "sa_interface2\HUD\tail\radar_a.dtx"
+IconDown	= "sa_interface2\HUD\tail\radar_a.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType22]
+
+Name		= "SA_Tail_B"// Used internally  DON"T change the name!
+Icon		= "sa_interface2\HUD\tail\radar_b.dtx"
+IconUp		= "sa_interface2\HUD\tail\radar_b.dtx"
+IconDown	= "sa_interface2\HUD\tail\radar_b.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType23]
+
+Name		= "SA_Tail_C"// Used internally  DON"T change the name!
+Icon		= "sa_interface2\HUD\tail\radar_c.dtx"
+IconUp		= "sa_interface2\HUD\tail\radar_c.dtx"
+IconDown	= "sa_interface2\HUD\tail\radar_c.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType24]
+Name		= "SA_TailAlive_A"	// Used internally  DON"T change the name!
+Icon		= "sa_interface2\HUD\tail\alivea.dtx"
+IconUp		= "sa_interface2\HUD\tail\aliveau.dtx"
+IconDown	= "sa_interface2\HUD\tail\alivead.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+[RadarType25]
+Name		= "SA_TailAlive_B"	// Used internally  DON"T change the name!
+Icon		= "sa_interface2\HUD\tail\aliveb.dtx"
+IconUp		= "sa_interface2\HUD\tail\alivebu.dtx"
+IconDown	= "sa_interface2\HUD\tail\alivebd.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+[RadarType26]
+Name		= "SA_TailAlive_C"	// Used internally  DON"T change the name!
+Icon		= "sa_interface2\HUD\tail\alivec.dtx"
+IconUp		= "sa_interface2\HUD\tail\alivecu.dtx"
+IconDown	= "sa_interface2\HUD\tail\alivecd.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+
+//__FREEYANG_MINI_MAP__
+[RadarType27]
+Name		= "PlayerMY"    // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_player_my.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_player_my.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_player_my.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+//__FREEYANG_MINI_MAP__
+[RadarType28]
+Name		= "PlayerMYDEAD"// Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_dead_01.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_dead_01.dtx"  
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_dead_01.dtx"
+Icon_MiniMap      = "sa_interface2\hud\radar\MiniMap\radar_player_Die.dtx"
+IconUp_MiniMap    = "sa_interface2\hud\radar\MiniMap\radar_player_Die.dtx"
+IconDown_MiniMap  = "sa_interface2\hud\radar\MiniMap\radar_player_Die.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+//신병훈련소
+[RadarType29]
+Name              = "TutorialTarget" // Used internally  DON"T change the name!
+Icon                = "SA_INTERFACE\HUD\RADAR\radar_mission_t.dtx"
+IconUp             = "SA_INTERFACE\HUD\RADAR\radar_mission_t_u.dtx"
+IconDown         = "SA_INTERFACE\HUD\RADAR\radar_mission_t_d.dtx"
+DrawOrder        = 14
+ObjectSize         = 16
+
+[RadarType30]
+Name              = "ItemBox" // Used internally  DON"T change the name!
+Icon                = "SA_INTERFACE\HUD\RADAR\radar_itembox.dtx"
+IconUp             = "SA_INTERFACE\HUD\RADAR\radar_itembox.dtx"
+IconDown         = "SA_INTERFACE\HUD\RADAR\radar_itembox.dtx"
+DrawOrder        = 14
+ObjectSize         = 16
+
+//인질호위 수지
+[RadarType31]
+Name             = "SUZI" // Used internally  DON"T change the name!
+Icon             = "SA_INTERFACE2\HUD\RADAR\radar_sj.dtx"
+IconUp           = "SA_INTERFACE2\HUD\RADAR\radar_sj_u.dtx"
+IconDown         = "SA_INTERFACE2\HUD\RADAR\radar_sj_d.dtx"
+DrawOrder        = 14
+ObjectSize       = 16
+
+//인질호위 호위도착지점
+[RadarType32]
+Name             = "HOSTAGE_Goal" // Used internally  DON"T change the name!
+Icon             = "SA_INTERFACE2\HUD\RADAR\radar_Goal.dtx"
+IconUp           = "SA_INTERFACE2\HUD\RADAR\radar_Goal_u.dtx"
+IconDown         = "SA_INTERFACE2\HUD\RADAR\radar_Goal_d.dtx"
+DrawOrder        = 14
+ObjectSize       = 16
+
+//! 공룡 모드용  ----------------------------------------------------------------------------------
+//! 자코 공룡
+[RadarType33]
+Name             = "DinoJacko" // Used internally  DON"T change the name!
+Icon             = "SA_INTERFACE2\HUD\SSRadar\pv_radar_generaln.dtx"
+IconUp           = "SA_INTERFACE2\HUD\SSRadar\pv_radar_generalu.dtx"
+IconDown         = "SA_INTERFACE2\HUD\SSRadar\pv_radar_generald.dtx"
+DrawOrder        = 14
+ObjectSize       = 16
+
+//! 중간 보스
+[RadarType34]
+Name             = "DinoMBoss" // Used internally  DON"T change the name!
+Icon             = "SA_INTERFACE2\HUD\SSRadar\pv_radar_mbn.dtx"
+IconUp           = "SA_INTERFACE2\HUD\SSRadar\pv_radar_mbu.dtx"
+IconDown         = "SA_INTERFACE2\HUD\SSRadar\pv_radar_mbd.dtx"
+DrawOrder        = 14
+ObjectSize       = 32
+
+//! 보스
+[RadarType35]
+Name             = "DinoBoss" // Used internally  DON"T change the name!
+Icon             = "SA_INTERFACE2\HUD\SSRadar\pv_radar_bossn.dtx"
+IconUp           = "SA_INTERFACE2\HUD\SSRadar\pv_radar_bossu.dtx"
+IconDown         = "SA_INTERFACE2\HUD\SSRadar\pv_radar_bossd.dtx"
+DrawOrder        = 14
+ObjectSize       = 32
+//! 공룡 모드용  ---------------------------------------------------------------------------------- 끝
+
+//__DK_HIDE_AND_SEEK_MODE__
+[RadarType36]
+Name		= "Mission_1" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_mission_1.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_mission_1_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_mission_1_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType37]
+Name		= "Mission_2" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_mission_2.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_mission_2_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_mission_2_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType38]
+Name		= "Mission_3" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_mission_3.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_mission_3_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_mission_3_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType39]
+Name		= "Mission_4" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_mission_4.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_mission_4_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_mission_4_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType40]
+Name		= "Mission_5" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_mission_5.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_mission_5_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_mission_5_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType41]
+Name		= "Mission_6" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_mission_6.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_mission_6_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_mission_6_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType42]
+Name		= "Mission_7" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_mission_7.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_mission_7_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_mission_7_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType43]
+Name		= "Mission_8" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_mission_8.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_mission_8_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_mission_8_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType44]
+Name		= "Mission_9" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_mission_9.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_mission_9_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_mission_9_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType45]
+Name		= "Mission_10" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_mission_10.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_mission_10_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_mission_10_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType46]
+Name		= "Mission_11" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_mission_11.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_mission_11_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_mission_11_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType47]
+Name		= "Mission_12" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_mission_12.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_mission_12_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_mission_12_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType48]
+Name		= "Mission_0" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_mission_P.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_mission_P_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_mission_P_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+
+//double bomb begin
+[RadarType49]
+Name            = "DoubleBombTeamRadA" // Used internally  DON"T change the name!
+Icon            = "SA_INTERFACE\HUD\RADAR\radar_Red_A.dtx"
+IconUp          = "SA_INTERFACE\HUD\RADAR\radar_Red_A_up.dtx"
+IconDown        = "SA_INTERFACE\HUD\RADAR\radar_Red_A_down.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+[RadarType50]
+Name            = "DoubleBombTeamRadB" // Used internally  DON"T change the name!
+Icon            = "SA_INTERFACE\HUD\RADAR\radar_Red_B.dtx"
+IconUp          = "SA_INTERFACE\HUD\RADAR\radar_Red_B_up.dtx"
+IconDown        = "SA_INTERFACE\HUD\RADAR\radar_Red_B_down.dtx"
+DrawOrder	 	= 14
+ObjectSize		= 16
+
+[RadarType51]
+Name            = "DoubleBombTeamBlueA" // Used internally  DON"T change the name!
+Icon            = "SA_INTERFACE\HUD\RADAR\radar_Blue_A.dtx"
+IconUp          = "SA_INTERFACE\HUD\RADAR\radar_Blue_A_up.dtx"
+IconDown        = "SA_INTERFACE\HUD\RADAR\radar_Blue_A_down.dtx"
+DrawOrder		= 14
+ObjectSize		= 16
+
+[RadarType52]
+Name            = "DoubleBombTeamBlueB" // Used internally  DON"T change the name!
+Icon            = "SA_INTERFACE\HUD\RADAR\radar_Blue_B.dtx"
+IconUp          = "SA_INTERFACE\HUD\RADAR\radar_Blue_B_up.dtx"
+IconDown        = "SA_INTERFACE\HUD\RADAR\radar_Blue_B_down.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+//double bomb end-------------------------------------------------------------------------------------------
+
+//Invert Mode//////////////////////////////////////////////////////////////////////////////////////////////
+[RadarType53]
+Name            = "InvertMainObj" // Used internally  DON"T change the name!
+Icon            = "SA_INTERFACE2\HUD\RADAR\radar_SM.dtx"
+IconUp          = "SA_INTERFACE2\HUD\RADAR\radar_SM_up.dtx"
+IconDown        = "SA_INTERFACE2\HUD\RADAR\radar_SM_down.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+[RadarType54]
+Name            = "InvertSubObj1" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_a.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_a_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_a_d.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+[RadarType55]
+Name            = "InvertSubObj2" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_b.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_b_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_b_d.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+//Invert Mode End//////////////////////////////////////////////////////////////////////////////////////////
+
+[RadarType56]
+Name            = "PlayerEnemyGetOut" // Used internally  DON"T change the name!
+Icon		= "sa_interface2\hud\radar\MiniMap\radar_enemy_missing.dtx"
+IconUp		= "sa_interface2\hud\radar\MiniMap\radar_enemy_missing_u.dtx"
+IconDown	= "sa_interface2\hud\radar\MiniMap\radar_enemy_missing_d.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+[RadarType57]
+Name            = "EnemyDead" // Used internally  DON"T change the name!
+Icon		= "sa_interface2\hud\radar\MiniMap\radar_dead_enemy.dtx"
+IconUp		= "sa_interface2\hud\radar\MiniMap\radar_dead_enemy_u.dtx"
+IconDown	= "sa_interface2\hud\radar\MiniMap\radar_dead_enemy_d.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+[RadarType58]
+Name            = "PlayerAttach" // Used internally  DON"T change the name!
+Icon		= "sa_interface2\hud\radar\MiniMap\radar_player_watcher.dtx"
+IconUp		= "sa_interface2\hud\radar\MiniMap\radar_player_watcher.dtx"
+IconDown	= "sa_interface2\hud\radar\MiniMap\radar_player_watcher.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+//헬게이드
+[RadarType59] //레드 탈것
+Name            = "Vehicle_Red"
+Icon		= "sa_interface2\hud\radar\MiniMap\hg_radar_r_tank_1.dtx"
+IconUp		= "sa_interface2\hud\radar\MiniMap\hg_radar_r_tank_1.dtx"
+IconDown	= "sa_interface2\hud\radar\MiniMap\hg_radar_r_tank_1.dtx"
+DrawOrder 		= 14
+ObjectSize		= 24
+
+[RadarType60] //블루 탈것
+Name            = "Vehicle_Blue"
+Icon		= "sa_interface2\hud\radar\MiniMap\hg_radar_b_tank_1.dtx"
+IconUp		= "sa_interface2\hud\radar\MiniMap\hg_radar_b_tank_1.dtx"
+IconDown	= "sa_interface2\hud\radar\MiniMap\hg_radar_b_tank_1.dtx"
+DrawOrder 		= 14
+ObjectSize		= 24
+
+[RadarType61] //중립 탈것
+Name            = "Vehicle_Neutral"
+Icon		= "sa_interface2\hud\radar\MiniMap\hg_radar_n_tank_1.dtx"
+IconUp		= "sa_interface2\hud\radar\MiniMap\hg_radar_n_tank_1.dtx"
+IconDown	= "sa_interface2\hud\radar\MiniMap\hg_radar_n_tank_1.dtx"
+DrawOrder 		= 14
+ObjectSize		= 24
+
+[RadarType62]//가드타워_레드
+Name            = "GuardTower_Red"
+Icon		= "sa_interface2\hud\radar\MiniMap\hg_r_radar_G01.dtx"
+IconUp		= "sa_interface2\hud\radar\MiniMap\hg_r_radar_G01.dtx"
+IconDown	= "sa_interface2\hud\radar\MiniMap\hg_r_radar_G01.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+[RadarType63]//가드타워_블루
+Name            = "GuardTower_Blue"
+Icon		= "sa_interface2\hud\radar\MiniMap\hg_r_radar_G02.dtx"
+IconUp		= "sa_interface2\hud\radar\MiniMap\hg_r_radar_G02.dtx"
+IconDown	= "sa_interface2\hud\radar\MiniMap\hg_r_radar_G02.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+[RadarType64]//핵폭탄 설치 다른편
+Name            = "Nuclear_Red"
+Icon		= "sa_interface2\hud\HellGade\hg_radar\Hg_radar_bomb_r.dtx"
+IconUp		= "sa_interface2\hud\HellGade\hg_radar\Hg_radar_bomb_r.dtx"
+IconDown	= "sa_interface2\hud\HellGade\hg_radar\Hg_radar_bomb_r.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+[RadarType65]//핵폭탄 설치 같은편
+Name            = "Nuclear_Blue"
+Icon		= "sa_interface2\hud\HellGade\hg_radar\Hg_radar_bomb_b.dtx"
+IconUp		= "sa_interface2\hud\HellGade\hg_radar\Hg_radar_bomb_b.dtx"
+IconDown	= "sa_interface2\hud\HellGade\hg_radar\Hg_radar_bomb_b.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+//출발 서든팀
+[RadarType66]//스타트 포인트
+Name            = "FreeRunning_Start_Point"
+Icon		= "sa_interface\hud\radar\radar_mission_s.dtx"
+IconUp		= "sa_interface\hud\radar\radar_mission_s_u.dtx"
+IconDown	= "sa_interface\hud\radar\radar_mission_s_d.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+
+[RadarType67]//골 포인트
+Name            = "FreeRunning_Goal_Point"
+Icon		= "sa_interface2\hud\radar\radar_Goal.dtx"
+IconUp		= "sa_interface2\hud\radar\radar_Goal_u.dtx"
+IconDown	= "sa_interface2\hud\radar\radar_Goal_d.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+
+[RadarType68]//체크 포인트1
+Name            = "FreeRunning_Check_Point_1"
+Icon		= "sa_interface2\hud\radar\radar_MIssion_1.dtx"
+IconUp		= "sa_interface2\hud\radar\radar_MIssion_1_u.dtx"
+IconDown	= "sa_interface2\hud\radar\radar_MIssion_1_d.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+
+[RadarType69]//체크 포인트2
+Name            = "FreeRunning_Check_Point_2"
+Icon		= "sa_interface2\hud\radar\radar_MIssion_2.dtx"
+IconUp		= "sa_interface2\hud\radar\radar_MIssion_2_u.dtx"
+IconDown	= "sa_interface2\hud\radar\radar_MIssion_2_d.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+
+[RadarType70]//체크 포인트3
+Name            = "FreeRunning_Check_Point_3"
+Icon		= "sa_interface2\hud\radar\radar_MIssion_3.dtx"
+IconUp		= "sa_interface2\hud\radar\radar_MIssion_3_u.dtx"
+IconDown	= "sa_interface2\hud\radar\radar_MIssion_3_d.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+
+[RadarType71]//체크 포인트4
+Name            = "FreeRunning_Check_Point_4"
+Icon		= "sa_interface2\hud\radar\radar_MIssion_4.dtx"
+IconUp		= "sa_interface2\hud\radar\radar_MIssion_4_u.dtx"
+IconDown	= "sa_interface2\hud\radar\radar_MIssion_4_d.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+
+[RadarType72]//체크 포인트5
+Name            = "FreeRunning_Check_Point_5"
+Icon		= "sa_interface2\hud\radar\radar_MIssion_5.dtx"
+IconUp		= "sa_interface2\hud\radar\radar_MIssion_5_u.dtx"
+IconDown	= "sa_interface2\hud\radar\radar_MIssion_5_d.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+
+[RadarType73]//넥슨을 털어라 - 적 AI 빨강
+Name            = "WelcomeToNexon_Enemy_Red"
+Icon		= "sa_interface2\hud\radar\nexon\nexon_map_seearea_01.dtx"
+IconUp		= "sa_interface2\hud\radar\nexon\nexon_map_seearea_01.dtx"
+IconDown	= "sa_interface2\hud\radar\nexon\nexon_map_seearea_01.dtx"
+DrawOrder 		= 14
+ObjectSize		= 400
+
+[RadarType74]//넥슨을 털어라 - 적 AI 노랑
+Name            = "WelcomeToNexon_Enemy_Yellow"
+Icon		= "sa_interface2\hud\radar\nexon\nexon_map_seearea_03.dtx"
+IconUp		= "sa_interface2\hud\radar\nexon\nexon_map_seearea_01.dtx"
+IconDown	= "sa_interface2\hud\radar\nexon\nexon_map_seearea_02.dtx"
+DrawOrder 		= 14
+ObjectSize		= 400
+
+[RadarType75]//넥슨을 털어라 - 적 AI 흰색
+Name            = "WelcomeToNexon_Enemy_White"
+Icon		= "sa_interface2\hud\radar\nexon\nexon_map_seearea_03.dtx"
+IconUp		= "sa_interface2\hud\radar\nexon\nexon_map_seearea_01.dtx"
+IconDown	= "sa_interface2\hud\radar\nexon\nexon_map_seearea_02.dtx"
+DrawOrder 		= 14
+ObjectSize		= 400
+
+[RadarType76]//넥슨을 털어라 보급품(땅에 떨어진 총기 등)
+Name            = "WelcomeToNexon_Supply"
+Icon		= "sa_interface2\hud\radar\nexon\nexon_radar_07.dtx"
+IconUp		= "sa_interface2\hud\radar\nexon\nexon_radar_07.dtx"
+IconDown	= "sa_interface2\hud\radar\nexon\nexon_radar_07.dtx"
+DrawOrder 		= 8
+ObjectSize		= 8
+
+[RadarType77]//넥슨을 털어라 미션오브젝트(열쇠, 키, USB)
+Name            = "WelcomeToNexon_MissionObj"
+Icon		= "sa_interface2\hud\radar\nexon\nexon_radar_08.dtx"
+IconUp		= "sa_interface2\hud\radar\nexon\nexon_radar_08.dtx"
+IconDown	= "sa_interface2\hud\radar\nexon\nexon_radar_08.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+[RadarType78]//넥슨을 털어라 툴(탄약통, 구급상자)
+Name            = "WelcomeToNexon_Tool"
+Icon		= "sa_interface2\hud\radar\nexon\nexon_radar_07.dtx"
+IconUp		= "sa_interface2\hud\radar\nexon\nexon_radar_07.dtx"
+IconDown	= "sa_interface2\hud\radar\nexon\nexon_radar_07.dtx"
+DrawOrder 		= 8
+ObjectSize		= 8
+
+[RadarType79]//넥슨을 털어라 문
+Name            = "WelcomeToNexon_Door"
+Icon		= "sa_interface2\hud\radar\nexon\nexon_radar_05.dtx"
+IconUp		= "sa_interface2\hud\radar\nexon\nexon_radar_05.dtx"
+IconDown	= "sa_interface2\hud\radar\nexon\nexon_radar_05.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+[RadarType80]//넥슨을 털어라 금고
+Name            = "WelcomeToNexon_Vault"
+Icon		= "sa_interface2\hud\radar\nexon\nexon_radar_06.dtx"
+IconUp		= "sa_interface2\hud\radar\nexon\nexon_radar_06.dtx"
+IconDown	= "sa_interface2\hud\radar\nexon\nexon_radar_06.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+[RadarType81]//넥슨을 털어라 자동차
+Name            = "WelcomeToNexon_Car" //소스코드에서 하드코딩으로 사용함.
+Icon		= "sa_interface2\hud\radar\nexon\nexon_map_caricon.dtx"
+IconUp		= "sa_interface2\hud\radar\nexon\nexon_map_caricon.dtx"
+IconDown	= "sa_interface2\hud\radar\nexon\nexon_map_caricon.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+[RadarType82]//넥슨을 털어라 계단
+Name            = "WelcomeToNexon_Stair"
+Icon		= "sa_interface2\hud\radar\nexon\nexon_radar_10.dtx"
+IconUp		= "sa_interface2\hud\radar\nexon\nexon_radar_10.dtx"
+IconDown	= "sa_interface2\hud\radar\nexon\nexon_radar_10.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+[RadarType83]//넥슨을 털어라 - 내 위치 표시
+Name            = "WelcomeToNexon_DeadEnemy"
+Icon		= "sa_interface2\hud\radar\MiniMap\radar_dead_enemy.dtx"
+IconUp		= "sa_interface2\hud\radar\MiniMap\radar_dead_enemy.dtx"
+IconDown	= "sa_interface2\hud\radar\MiniMap\radar_dead_enemy.dtx"
+DrawOrder 		= 14
+ObjectSize		= 16
+
+[RadarType84]//태극기
+Name		= "CaptureFlag" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_Flag.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_Flag_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_Flag_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType85]
+Name		= "LastOnePlayerAlive"	// Used internally  DON"T change the name!
+Icon		= "sa_interface2\hud\radar\MiniMap\radar_player_rg.dtx"
+IconUp		= "sa_interface2\hud\radar\MiniMap\radar_player_rg_u.dtx"
+IconDown	= "sa_interface2\hud\radar\MiniMap\radar_player_rg_d.dtx"
+Icon_MiniMap      = "sa_interface2\hud\radar\MiniMap\radar_player_rg.dtx"
+IconUp_MiniMap    = "sa_interface2\hud\radar\MiniMap\radar_player_rg_u.dtx"
+IconDown_MiniMap  = "sa_interface2\hud\radar\MiniMap\radar_player_rg_d.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+
+[RadarType86]//수송미션
+Name		= "TransPortObj" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\Radar_convey_target.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\Radar_convey_target_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\Radar_convey_target_b.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType87]
+
+Name		= "ConveyPoint_R" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\Radar_convey_red.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\Radar_convey_red_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\Radar_convey_red_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType88]
+
+Name		= "ConveyPoint_B" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\Radar_convey_blue.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\Radar_convey_blue_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\Radar_convey_blue_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+
+[RadarType89] // 탈출미션
+
+Name		= "EscapePoint" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_escape_nomal.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_escape_up.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_escape_down.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType90] // 드론박스 레이더
+Name             = "LastOneDroneBox"    // Used internally  DON"T change the name!
+Icon             = "sa_interface2\hud\radar\map_box.dtx"
+IconUp           = "sa_interface2\hud\radar\map_box.dtx"
+IconDown         = "sa_interface2\hud\radar\map_box.dtx"
+Icon_MiniMap     = "sa_interface2\hud\radar\map_box.dtx"
+IconUp_MiniMap   = "sa_interface2\hud\radar\map_box.dtx"
+IconDown_MiniMap = "sa_interface2\hud\radar\map_box.dtx"
+DrawOrder     = 24
+ObjectSize    = 24
+
+[RadarType91] // 갓모드 리셋 박스
+Name             = "God_ResetBox"    // Used internally  DON"T change the name!
+Icon             = "sa_interface2\hud\radar\God_ResetBox.dtx"
+IconUp           = "sa_interface2\hud\radar\God_ResetBox.dtx"
+IconDown         = "sa_interface2\hud\radar\God_ResetBox.dtx"
+Icon_MiniMap     = "sa_interface2\hud\radar\God_ResetBox.dtx"
+IconUp_MiniMap   = "sa_interface2\hud\radar\God_ResetBox.dtx"
+IconDown_MiniMap = "sa_interface2\hud\radar\God_ResetBox.dtx"
+DrawOrder     = 24
+ObjectSize    = 24
+
+[RadarType92] //갓모드 시즌2
+Name            = "Godmode2" // Used internally  DON"T change the name!
+Icon            = "SA_INTERFACE\HUD\RADAR\radar_Blue_A.dtx"
+IconUp          = "SA_INTERFACE\HUD\RADAR\radar_Blue_A_up.dtx"
+IconDown        = "SA_INTERFACE\HUD\RADAR\radar_Blue_A_down.dtx"
+DrawOrder		= 11
+ObjectSize		= 20
+
+[RadarType93] //웨어스타디움
+Name            = "WareStadium" // Used internally  DON"T change the name!
+Icon            = "SA_INTERFACE\HUD\RADAR\radar_warestadium.dtx"
+IconUp          = "SA_INTERFACE\HUD\RADAR\radar_warestadium.dtx"
+IconDown        = "SA_INTERFACE\HUD\RADAR\radar_warestadium.dtx"
+DrawOrder		= 24
+ObjectSize		= 24
+
+[RadarType94] //사이즈체인지 - On아이콘
+Name            = "SizeChange01" // Used internally  DON"T change the name!
+Icon            = "SA_INTERFACE2\HUD\SizeChange\Scmap_radar_0.dtx"
+IconUp          = "SA_INTERFACE2\HUD\SizeChange\Scmap_radar_0.dtx"
+IconDown        = "SA_INTERFACE2\HUD\SizeChange\Scmap_radar_0.dtx"
+DrawOrder		= 24
+ObjectSize		= 24
+
+[RadarType95] //사이즈체인지 - Off아이콘
+Name            = "SizeChange02" // Used internally  DON"T change the name!
+Icon            = "SA_INTERFACE2\HUD\SizeChange\Scmap_radar_1.dtx"
+IconUp          = "SA_INTERFACE2\HUD\SizeChange\Scmap_radar_1.dtx"
+IconDown        = "SA_INTERFACE2\HUD\SizeChange\Scmap_radar_1.dtx"
+DrawOrder		= 24
+ObjectSize		= 24
+
+[RadarType96] //폭파미션(멀티) 블래스트
+Name		= "MultipleBomb" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE2\HUD\RADAR\radar_d_bomb_n.dtx"
+IconUp		= "SA_INTERFACE2\HUD\RADAR\radar_d_bomb_u.dtx"
+IconDown	= "SA_INTERFACE2\HUD\RADAR\radar_d_bomb_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 24
+
+//에이스모드
+[RadarType97]
+Name		= "BombArea_A" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_a.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_a_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_a_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType98]
+Name		= "BombArea_B" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_b.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_b_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_b_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType99]
+Name		= "BombArea_C" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_b.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_b_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_b_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType100]
+Name		= "BombArea_D" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_a.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_a_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_a_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType101]
+Name		= "BombArea_E" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission_a.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission_a_u.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission_a_d.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+//마피아모드
+[RadarType102]
+Name		= "task_1" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType103]
+Name		= "task_2" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType104]
+Name		= "task_3" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType105]
+Name		= "task_4" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType106]
+Name		= "task_5" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType107]
+Name		= "task_6" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType108]
+Name		= "task_7" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType109]
+Name		= "task_8" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType110]
+Name		= "task_9" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType111]
+Name		= "task_10" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType112]
+Name		= "task_11" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType113]
+Name		= "task_12" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType114]
+Name		= "task_13" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_mission.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType115] //긴급회의 소집
+Name		= "task_14" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_meeting.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_meeting.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_meeting.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+ 
+[RadarType116] //방해공작 해체미션
+Name		= "task_15" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType117] //방해공작 해체미션
+Name		= "task_16" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType118] //방해공작 해체미션
+Name		= "task_17" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType119] //방해공작 해체미션
+Name		= "task_18" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType120] //방해공작 해체미션
+Name		= "task_19" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType121] //방해공작 해체미션
+Name		= "task_20" // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_c4.dtx"
+DrawOrder 	= 14
+ObjectSize	= 16
+
+[RadarType122] //핑 적발견
+Name		= "Ping_Enemy_Detect" // Used internally  DON"T change the name!
+Icon		= "sa_interface2\hud\radar\minimap\vc_icon_enemy.dtx"
+IconUp		= "sa_interface2\hud\radar\minimap\vc_icon_enemy.dtx"
+IconDown	= "sa_interface2\hud\radar\minimap\vc_icon_enemy.dtx"
+DrawOrder 	= 14
+ObjectSize	= 32
+
+[RadarType123] //핑 이동
+Name		= "Ping_Move" // Used internally  DON"T change the name!
+Icon		= "sa_interface2\hud\radar\minimap\vc_icon_target.dtx"
+IconUp		= "sa_interface2\hud\radar\minimap\vc_icon_target.dtx"
+IconDown	= "sa_interface2\hud\radar\minimap\vc_icon_target.dtx"
+DrawOrder 	= 14
+ObjectSize	= 32
+
+[RadarType124] //핑 적발견
+Name		= "Ping_Enemy_Detect_SwordKit" // Used internally  DON"T change the name!
+Icon		= "sa_interface2\hud\radar\minimap\vc_icon_enemy_royal.dtx"
+IconUp		= "sa_interface2\hud\radar\minimap\vc_icon_enemy_royal.dtx"
+IconDown	= "sa_interface2\hud\radar\minimap\vc_icon_enemy_royal.dtx"
+DrawOrder 	= 14
+ObjectSize	= 32
+
+[RadarType125] //핑 이동
+Name		= "Ping_Move_SwordKit" // Used internally  DON"T change the name!
+Icon		= "sa_interface2\hud\radar\minimap\vc_icon_target_royal.dtx"
+IconUp		= "sa_interface2\hud\radar\minimap\vc_icon_target_royal.dtx"
+IconDown	= "sa_interface2\hud\radar\minimap\vc_icon_target_royal.dtx"
+DrawOrder 	= 14
+ObjectSize	= 32
+
+[RadarType126] // 작전핑1_스나이퍼
+Name		= "OperationPing1_1" // Used internally  DON"T change the name!
+Icon		= "sa_interface2\hud\radar\minimap\vc_icon_Sniper.dtx"
+IconUp		= "sa_interface2\hud\radar\minimap\vc_icon_Sniper.dtx"
+IconDown	= "sa_interface2\hud\radar\minimap\vc_icon_Sniper.dtx"
+DrawOrder 	= 14
+ObjectSize	= 32
+
+[RadarType127] // 작전핑1_다수의 적
+Name		= "OperationPing1_2" // Used internally  DON"T change the name!
+Icon		= "sa_interface2\hud\radar\minimap\vc_icon_Lotenemy.dtx"
+IconUp		= "sa_interface2\hud\radar\minimap\vc_icon_Lotenemy.dtx"
+IconDown	= "sa_interface2\hud\radar\minimap\vc_icon_Lotenemy.dtx"
+DrawOrder 	= 14
+ObjectSize	= 32
+
+[RadarType128] // 작전핑1_지원요청
+Name		= "OperationPing1_3" // Used internally  DON"T change the name!
+Icon		= "sa_interface2\hud\radar\minimap\vc_icon_support.dtx"
+IconUp		= "sa_interface2\hud\radar\minimap\vc_icon_support.dtx"
+IconDown	= "sa_interface2\hud\radar\minimap\vc_icon_support.dtx"
+DrawOrder 	= 14
+ObjectSize	= 32
+
+[RadarType129] // 작전핑1_후방조심
+Name		= "OperationPing1_4" // Used internally  DON"T change the name!
+Icon		= "sa_interface2\hud\radar\minimap\vc_icon_lookback.dtx"
+IconUp		= "sa_interface2\hud\radar\minimap\vc_icon_lookback.dtx"
+IconDown	= "sa_interface2\hud\radar\minimap\vc_icon_lookback.dtx"
+DrawOrder 	= 14
+ObjectSize	= 32
+
+[RadarType130] // 작전핑2_앉아줘
+Name		= "OperationPing2_1" // Used internally  DON"T change the name!
+Icon		= "sa_interface2\hud\radar\minimap\vc_icon_Sitdown.dtx"
+IconUp		= "sa_interface2\hud\radar\minimap\vc_icon_Sitdown.dtx"
+IconDown	= "sa_interface2\hud\radar\minimap\vc_icon_Sitdown.dtx"
+DrawOrder 	= 14
+ObjectSize	= 32
+
+[RadarType131] // 작전핑2_폭탄설치/해제
+Name		= "OperationPing2_2" // Used internally  DON"T change the name!
+Icon		= "sa_interface2\hud\radar\minimap\vc_icon_bomb.dtx"
+IconUp		= "sa_interface2\hud\radar\minimap\vc_icon_bomb.dtx"
+IconDown	= "sa_interface2\hud\radar\minimap\vc_icon_bomb.dtx"
+DrawOrder 	= 14
+ObjectSize	= 32
+
+[RadarType132] // 작전핑2_지역경계
+Name		= "OperationPing2_3" // Used internally  DON"T change the name!
+Icon		= "sa_interface2\hud\radar\minimap\vc_icon_areasenty.dtx"
+IconUp		= "sa_interface2\hud\radar\minimap\vc_icon_areasenty.dtx"
+IconDown	= "sa_interface2\hud\radar\minimap\vc_icon_areasenty.dtx"
+DrawOrder 	= 14
+ObjectSize	= 32
+
+[RadarType133] // 작전핑2_지역클리어
+Name		= "OperationPing2_4" // Used internally  DON"T change the name!
+Icon		= "sa_interface2\hud\radar\minimap\vc_icon_areaclear.dtx"
+IconUp		= "sa_interface2\hud\radar\minimap\vc_icon_areaclear.dtx"
+IconDown	= "sa_interface2\hud\radar\minimap\vc_icon_areaclear.dtx"
+DrawOrder 	= 14
+ObjectSize	= 32
+
+[RadarType134] // 생존 옵저버 - 1팀
+Name		= "SurvivalPlayerTeam1"    // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_team0.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_team0.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_team0.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+[RadarType135] // 생존 옵저버 - 2팀
+Name		= "SurvivalPlayerTeam2"		// Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_team1.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_team1.dtx"  
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_team1.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+[RadarType136] // 생존 옵저버 - 3팀
+Name		= "SurvivalPlayerTeam3"		// Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_team2.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_team2.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_team2.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+[RadarType137] // 생존 옵저버 - 4팀
+Name		= "SurvivalPlayerTeam4"    // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_team3.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_team3.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_team3.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+[RadarType138] // 생존 옵저버 - 5팀
+Name		= "SurvivalPlayerTeam5"		// Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_team4.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_team4.dtx"  
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_team4.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+[RadarType139] // 생존 옵저버 - 6팀
+Name		= "SurvivalPlayerTeam6"		// Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_team5.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_team5.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_team5.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+[RadarType140] // 생존 옵저버 - 7팀
+Name		= "SurvivalPlayerTeam7"    // Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_team6.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_team6.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_team6.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+[RadarType141] // 생존 옵저버 - 8팀
+Name		= "SurvivalPlayerTeam8"		// Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_team7.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_team7.dtx"  
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_team7.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+[RadarType142] // 생존 옵저버 - 9팀
+Name		= "SurvivalPlayerTeam9"		// Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_team8.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_team8.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_team8.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16
+
+[RadarType143] // 생존 옵저버 - 10팀
+Name		= "SurvivalPlayerTeam10"		// Used internally  DON"T change the name!
+Icon		= "SA_INTERFACE\HUD\RADAR\radar_team9.dtx"
+IconUp		= "SA_INTERFACE\HUD\RADAR\radar_team9.dtx"
+IconDown	= "SA_INTERFACE\HUD\RADAR\radar_team9.dtx"
+DrawOrder 	= 16
+ObjectSize	= 16

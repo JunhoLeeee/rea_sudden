@@ -1,0 +1,240 @@
+
+[Question0]
+Question = "인간의 감각과 이에 대응하는 센서의 연결이 옳지 않은 것은?\n① 시각 / 광센서 ② 촉각 / 가속도 센서\n③ 미각 / 이온 센서 ④ 후각 / 가스 센서\n⑤ 청각 / 소리 센서"
+CorrectAnswer = 2
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question1]
+Question = "다음 중 전자기 센서가 이용되는 장치가 아닌 것은?\n① 교통카드 ② 금속 탐지기\n③ 지뢰 탐지기 ④ 어군 탐지기\n⑤ 도서관의 도난 방지기"
+CorrectAnswer = 4
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question2]
+Question = "전기 통신과 광통신에 대한 설명으로 옳은 것만을 고른 것은?\nㄱ. 모두 유선 통신이다.\nㄴ. 모두 전기 신호를 사용하여 통신한다.\nㄷ. 광통신은 전기통신에 비해 정보 전달량이 많고\n    신호의 왜곡이 적다.\n① ㄱ ② ㄴ ③ ㄱ, ㄷ ④ ㄴ, ㄷ ⑤ ㄱ, ㄴ, ㄷ"
+CorrectAnswer = 3
+TitleLineCount = 5
+Source = "출처 - 올리드 참고서"
+
+[Question3]
+Question = "다음 중 자기장과 자기력선에 대한 설명으로 옳지 않은 것은?\n① 자석 주위에 자기장이 만들어진다.\n② 자기력선이 조밀할수록 자기장이 세다.\n③ 자기력선은 도중에 교차하거나 사라지지 않는다.\n④ 자기력선은 자석의 N극에서 나와 S극으로 들어간다.\n⑤ 자기장은 자기력선상의 한점에 그은 접선방향에 수직인 방향이다."
+CorrectAnswer = 5
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question4]
+Question = "다음 설명의 원리를 이용한 정보의 저장, 재생 매체는?\n외부에서 공급되는 자기장이 변할 때 전자기 유도 현상에 의해\n코일에 유도 전류가 흐르게 되며, 이것으로 칩이 작동하여 정보가\n기록되거나 재생된다.\n① USB ② DVD ③ 교통카드\n④ 하드 디스크 ⑤ CD ROM"
+CorrectAnswer = 3
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question5]
+Question = "저장 매체에 대한 설명으로 옳은 것만을 있는 대로 고른 것은?\nㄱ. 플래시 메모리는 비휘발성이다.\nㄴ. DVD에 저장된 정보가 재생될 때 반사된 빛의 세기가 이용된다.\nㄷ. 자기를 이용한 저장 매체에 저장되는 정보는 아날로그 신호이다.\n① ㄱ ② ㄴ ③ ㄱ, ㄴ ④ ㄱ, ㄷ ⑤ ㄴ, ㄷ"
+CorrectAnswer = 3
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question6]
+Question = "우리 눈과 사진기를 비교할 때 같은 역할을 하는 것의 연결이\n옳지 않은 것은?\n① 홍채 / 조리개 ② 수정체 / 렌즈\n③ 망막 / 필름 ④ 각막 / 셔터\n⑤ 유리체 / 어둠상자"
+CorrectAnswer = 4
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question7]
+Question = "디지털 카메라는 필름대신 CCD를 사용한다.\n다음 중 CCD를 사용하는 것은?\n① 스캐너 ② PDP 화면\n③ 화재 경보기 ④ 도난 방지기\n⑤ 초음파 진단기"
+CorrectAnswer = 1
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question8]
+Question = "다음 중 다이오드의 작용인 것은?\n① 정류 작용 ② 증폭 작용\n③ 신호 변환 ④ 스위치 작용\n⑤ 전기 에너지 저장"
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question9]
+Question = "다음 중 천연 고분자 물질이 아닌 것은?\n① 거미줄 ② 플라스틱\n③ 천연고무 ④ 셀룰로스\n⑤ 갑각류의 껍질"
+CorrectAnswer = 2
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question10]
+Question = "다음 중 고분자 물질에 대한 설명으로 옳지 않은 것은?\n① 녹는점이 일정하지 않다.\n② 분자량이 10000 이상인 물질이다.\n③ 상대적인 질량이 정해져 있지 않다.\n④ 일반적으로 열과 전기가 잘 통하지 않는다.\n⑤ 액체와 고체의 중간 정도의 성질을 갖는다."
+CorrectAnswer = 5
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question11]
+Question = "광물 자원에 대한 설명으로 옳은 것만을 있는 대로 고른 것은?\nㄱ. 광물 자원은 재생 가능한 자원이다.\nㄴ. 매장량이 한정되어 있어 언젠가는 고갈될 것이다.\nㄷ. 광물 자원은 생성되는 데 매우 오랜 시간이 걸린다.\n① ㄱ ② ㄷ ③ ㄱ, ㄴ\n④ ㄴ, ㄷ ⑤ ㄱ, ㄴ, ㄷ"
+CorrectAnswer = 4
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question12]
+Question = "철과 알루미늄에 대한 설명으로 옳은 것만을 있는 대로 고른 것은?\nㄱ. 철은 탄소의 함량이 적을수록 강도가 커진다.\nㄴ. 알루미늄은 지각에 분포하는 금속 원소 중 그 양이 가장 많다.\nㄷ. 알루미늄은 철에 비해 무겁지만 열 전도성이 커서\n    조리기구나 보일러 관 등에 이용된다.\n① ㄱ ② ㄴ ③ ㄱ, ㄴ ④ ㄱ, ㄷ ⑤ ㄴ, ㄷ"
+CorrectAnswer = 2
+TitleLineCount = 5
+Source = "출처 - 올리드 참고서"
+
+[Question13]
+Question = "광물 자원의 이용에 따른 문제점으로 옳은 것만을 고른 것은?\nㄱ. 광물 자원의 고갈\nㄴ. 이미 채굴한 광상의 재개발\nㄷ. 폐기물로부터 회수한 광물의 재활용\n① ㄱ ② ㄴ ③ ㄱ, ㄴ\n④ ㄱ, ㄷ ⑤ ㄴ, ㄷ"
+CorrectAnswer = 1
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question14]
+Question = "인간의 시각과 같은 역할을 하는 센서를 이용한 장치나 기구만을\n있는 대로 고른 것은?\nㄱ. 광마우스  ㄴ. 가속도계\nㄷ. 터치스크린  ㄹ. pH 측정기\nㅁ. 금속 탐지기\n① ㄱ ② ㄴ ③ ㄱ, ㄷ ④ ㄷ, ㄹ ⑤ ㄹ, ㅁ"
+CorrectAnswer = 1
+TitleLineCount = 5
+Source = "출처 - 올리드 참고서"
+
+[Question15]
+Question = "서로 다른 35가지의 정보를 이진수의 디지털 신호로 표현 하려면\n최소한 몇 비트가 필요한가?\n① 3비트 ② 4비트\n③ 5비트 ④ 6비트\n⑤ 8비트"
+CorrectAnswer = 4
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question16]
+Question = "순수한 실리콘에 인, 비소, 안티모니와 같은 원자가 전자가 5개인\n불순물을 조금 넣었다. 이 반도체에 전압을 걸었을 때 전하 운반자는\n무엇인가?\n① 액정 ② 양공\n③ 전류 ④ 전자\n⑤ 실리콘"
+CorrectAnswer = 4
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question17]
+Question = "여러 가지 광상에 대한 설명으로 옳은 것만을 있는 대로 고른 것은?\nㄱ. 고령토와 보크사이트 광상은 퇴적 광상에 속한다.\nㄴ. 페그마타이트 광상은 마그마가 냉각되는 과정에서 형성된다.\nㄷ. 흑연 광상, 활석 광상은 암석의 풍화, 침식, 운반, 퇴적 작용 중에\n    형성된다.\n① ㄱ ② ㄴ ③ ㄱ, ㄴ ④ ㄱ, ㄷ ⑤ ㄴ, ㄷ"
+CorrectAnswer = 3
+TitleLineCount = 5
+Source = "출처 - 올리드 참고서"
+
+[Question18]
+Question = "다음 중 식품 첨가물과 용도를 옳게 짝지은 것은?\n① 표백제 - 식품의 보존\n② 산화 방지제 - 식품의 보존\n③ 착색제 - 식품의 신선도 유지\n④ 영양 강화제 - 식품의 맛을 향상\n⑤ 감미료 - 식품의 시각적 효과 상승"
+CorrectAnswer = 2
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question19]
+Question = "다음 설명에 해당하는 행성의 운동과 관련된 법칙은?\nο 행성의 공전 속도에 관한 법칙이다.\n① 만유인력 법칙 ② 케플러 제 1법칙\n③ 케플러 제 2법칙 ④ 케플러 제 3법칙\n⑤ 행성운동 법칙"
+CorrectAnswer = 3
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question20]
+Question = "다음 설명에 해당하는 행성의 운동과 관련된 법칙은?\nο 행성의 공전 주기에 관한 법칙이다.\n① 만유인력 법칙 ② 케플러 제 1법칙\n③ 케플러 제 2법칙 ④ 케플러 제 3법칙\n⑤ 행성운동 법칙"
+CorrectAnswer = 4
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question21]
+Question = "다음 설명에 해당하는 행성의 운동과 관련된 법칙은?\nο 가장 나중에 발표된 법칙이다.\n① 만유인력 법칙 ② 케플러 제 1법칙\n③ 케플러 제 2법칙 ④ 케플러 제 3법칙\n⑤ 행성운동 법칙"
+CorrectAnswer = 1
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question22]
+Question = "다음 설명에 해당하는 현상은?\nο 프톨레마이오스의 천동설에서 설명할 수 있는 현상.\n① 일주 운동 ② 연주 시차\n③ 푸코 진자 진동면의 회전 ④ 인공위성 궤도의 서편 현상\n⑤ 계절에 따른 별자리의 변화"
+CorrectAnswer = 1
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question23]
+Question = "다음 설명에 해당하는 현상은?\nο 프톨레마이오스의 천동설로 설명할 수 없는 현상이다.\n① 일주 운동 ② 연주 시차\n③ 푸코 진자 진동면의 회전 ④ 인공위성 궤도의 서편 현상\n⑤ 계절에 따른 별자리의 변화"
+CorrectAnswer = 2
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question24]
+Question = "다음 설명에 해당하는 생물을 찾아 기호를 쓰시오.\nο 단세포이다\n① 세균 ② 버섯\n③ 아메바 ④ 고사리\n⑤ 진핵세포"
+CorrectAnswer = 3
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question25]
+Question = "다음 설명에 해당하는 생물을 찾아 기호를 쓰시오.\nο 균계에 속한다\n① 세균 ② 버섯\n③ 아메바 ④ 고사리\n⑤ 진핵세포"
+CorrectAnswer = 2
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question26]
+Question = "다음 설명에 해당하는 생물을 찾아 기호를 쓰시오.\nο 원핵세포로 이루어져 있다\n① 세균 ② 버섯\n③ 아메바 ④ 고사리\n⑤ 진핵세포"
+CorrectAnswer = 1
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question27]
+Question = "다음 설명에 해당하는 생물을 찾아 기호를 쓰시오.\nο 다세포이며, 광합성을 한다\n① 세균 ② 버섯\n③ 아메바 ④ 고사리\n⑤ 진핵세포"
+CorrectAnswer = 4
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question28]
+Question = "다음 설명과 관련이 깊은 신호를 찾아 기호를 쓰시오.\nο 자동 점멸하는 가로등은 주변의 밝기를 인식하여 날이 어두워지면\n  자동으로 켜지고, 밝아지면 자동으로 꺼진다.\n① 빛 신호 ② 소리 신호\n③ 전기 신호 ④ 냄새 신호\n⑤ 전자기파 신호"
+CorrectAnswer = 1
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question29]
+Question = "다음 설명과 관련이 깊은 신호를 찾아 기호를 쓰시오.\nο 적외선 온도계는 물체에서 나오는 적외선을 받아들여 이것으로\n  물체의 온도를 알아낸다.\n① 빛 신호 ② 소리 신호\n③ 전기 신호 ④ 냄새 신호\n⑤ 전자기파 신호"
+CorrectAnswer = 5
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question30]
+Question = "다음 설명과 관련이 깊은 신호를 찾아 기호를 쓰시오.\nο 배에서 초음파를 발사하면 1,500 m/s의 속력으로 해저면 까지\n  갔다가 되돌아오는데, 이 시간을 측정하여 수심을 알아낸다.\n① 빛 신호 ② 소리 신호\n③ 전기 신호 ④ 냄새 신호\n⑤ 전자기파 신호"
+CorrectAnswer = 2
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question31]
+Question = "다음 설명과 관련이 깊은 장치를 찾아 기호를 쓰시오.\nο 인간의 감각 중 시각과 같은 역할을 하는 센서를 이용한 장치이다.\n① 압력계 ② 지진계\n③ 교통카드 ④ 지폐 계수기\n⑤ 저항 온도계"
+CorrectAnswer = 4
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question32]
+Question = "다음 설명과 관련이 깊은 장치를 찾아 기호를 쓰시오.\nο 자기장이나 전기장의 변화를 감지하는 센서를 이용한 장치이다.\n① 압력계 ② 지진계\n③ 교통카드 ④ 지폐 계수기\n⑤ 저항 온도계"
+CorrectAnswer = 3
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question33]
+Question = "탄소 화합물의 다양성을 증가시키는 요인을 모두 고른 것은?\nㄱ. 탄소 골격의 모양이 다양하다.\nㄴ. 탄소 골격의 길이가 다양하다.\nㄷ. 탄소 골격에 탄소 이외에도 다양한 원소가 결합할 수 있다.\n① ㄱ ② ㄴ ③ ㄱ, ㄷ\n④ ㄴ, ㄷ ⑤ ㄱ, ㄴ, ㄷ"
+CorrectAnswer = 5
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question34]
+Question = "다음 중 핵산에 대한 설명으로 옳지 않은 것은?\n① 탄소 화합물이다.\n② DNA와 RNA를 구성하는 당은 서로 다르다.\n③ 생명 활동에 필요한 정보를 다음 세대로 전달한다.\n④ 염기 중 티민(T)은 DNA에는 없고, RNA에는 있다.\n⑤ DNA와 RNA의 구성 단위는 모두 뉴클레오타이드이다."
+CorrectAnswer = 4
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question35]
+Question = "코아세르베이트와 마이크로스피어의 공통점으로 옳은 것을\n모두 고른 것은?\nㄱ. 물이 있는 환경에서 생성된다.\nㄴ. 어느 정도 자라면 분열하는 특징이 있다.\nㄷ. 유기물 분자들이 모여 막으로 둘러싸여 있다.\n① ㄱ ② ㄴ ③ ㄱ, ㄷ ④ ㄴ, ㄷ ⑤ ㄱ, ㄴ, ㄷ"
+CorrectAnswer = 5
+TitleLineCount = 5
+Source = "출처 - 올리드 참고서"
+
+[Question36]
+Question = "리포솜에 대한 설명으로 옳은 것을 모두 고른 것은?\nㄱ. 인지질로 둘러싸인 막 구조이다.\nㄴ. 가수 분해 효소가 있어 물질대사를 한다.\nㄷ. 크기가 커질 경우 작은 리포솜으로 나눠진다.\n① ㄱ ② ㄴ ③ ㄷ\n④ ㄱ, ㄴ ⑤ ㄱ, ㄷ"
+CorrectAnswer = 5
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question37]
+Question = "독립 영양 생물의 출현으로 인해 발생한 결과로 옳은 것을\n모두 고른 것은?\nㄱ. 오존층의 파괴\nㄴ. 육상 생물의 출현\nㄷ. 산소 호흡을 하는 생물의 번성\n① ㄱ ② ㄴ ③ ㄱ, ㄷ ④ ㄴ, ㄷ ⑤ ㄱ, ㄴ, ㄷ"
+CorrectAnswer = 4
+TitleLineCount = 5
+Source = "출처 - 올리드 참고서"
+
+[Question38]
+Question = "원핵세포와 진핵세포의 공통점으로 옳은 것을 모두 고른 것은?\nㄱ. 핵산을 가지고 있다.\nㄴ. 스스로 단백질을 합성하며, 증식한다.\nㄷ. 막으로 둘러싸인 세포 소기관이 있다.\n① ㄱ ② ㄴ ③ ㄱ, ㄴ\n④ ㄱ, ㄷ ⑤ ㄱ, ㄴ, ㄷ"
+CorrectAnswer = 3
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question39]
+Question = "다음 중 원시 생명체가 진핵생물로 진화하는 과정에서 막 진화설에\n의해 설명되는 세포 소기관끼리 옳게 짝지은 것은?\n① 골지체, 소포체 ② 엽록체, 골지체\n③ 리보솜, 소포체 ④ 리보솜, 미토콘드리아\n⑤ 엽록체, 미토콘드리아"
+CorrectAnswer = 1
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"

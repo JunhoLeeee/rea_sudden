@@ -1,0 +1,108 @@
+{
+  "header": {
+    "path": "C:\\Nexon\\SuddenAttack\\game\\game_file_00000.pkg",
+    "bytes": 17096704,
+    "version": 3,
+    "mask_bytes": 94,
+    "masked_string_units": 13,
+    "encrypted_header_offset": 125,
+    "index_padding_bytes": 241,
+    "observed_header_sha256": "5e97fc11d04cff95fa50966daa8532b931f6bd9e4538065fe8b65b4ff2a17652",
+    "identity_scope": "header-ranges-only",
+    "byteorder": "little",
+    "count": 6,
+    "checksum": 589439
+  },
+  "index_offset": 374,
+  "index_plaintext_bytes": 518,
+  "index_read_bytes": 520,
+  "index_raw_sha256": "a770b692f07b541fb6ca63170913511246d84357a8b0ff51fcf5c6350b9a80ae",
+  "payload_base": 1024,
+  "members": [
+    {
+      "index": 0,
+      "path": "game_file/ClientFx.fxd",
+      "flags": 7,
+      "field8": 0,
+      "field12": 309608,
+      "field16": 114444,
+      "field20": 0,
+      "checksum": 425888,
+      "block_hashes": [],
+      "digest_hex": "fa0433837da57a4769fdac311a933c62",
+      "extra_hex": ""
+    },
+    {
+      "index": 1,
+      "path": "game_file/CRes.dll",
+      "flags": 7,
+      "field8": 112,
+      "field12": 671592,
+      "field16": 165100,
+      "field20": 0,
+      "checksum": 838875,
+      "block_hashes": [],
+      "digest_hex": "d0c25fcfab599980175a0fb723d83fc2",
+      "extra_hex": ""
+    },
+    {
+      "index": 2,
+      "path": "game_file/CShell.dll",
+      "flags": 7,
+      "field8": 274,
+      "field12": 33580904,
+      "field16": 14224660,
+      "field20": 0,
+      "checksum": 47807666,
+      "block_hashes": [],
+      "digest_hex": "590487abc86c4a0455a396227a9ce363",
+      "extra_hex": ""
+    },
+    {
+      "index": 3,
+      "path": "game_file/ist.dat",
+      "flags": 7,
+      "field8": 14166,
+      "field12": 31878,
+      "field16": 14732,
+      "field20": 0,
+      "checksum": 62766,
+      "block_hashes": [],
+      "digest_hex": "c72a8c3636a09141f41d82656121f6f4",
+      "extra_hex": ""
+    },
+    {
+      "index": 4,
+      "path": "game_file/Object.lto",
+      "flags": 7,
+      "field8": 14181,
+      "field12": 6690664,
+      "field16": 2567424,
+      "field20": 0,
+      "checksum": 9274702,
+      "block_hashes": [],
+      "digest_hex": "82c77cd1d24001ed76f196eef10bfc01",
+      "extra_hex": ""
+    },
+    {
+      "index": 5,
+      "path": "game_file/SRes.dll",
+      "flags": 7,
+      "field8": 16689,
+      "field12": 12288,
+      "field16": 5500,
+      "field20": 0,
+      "checksum": 36499,
+      "block_hashes": [],
+      "digest_hex": "5efb3674bb7aa1b2253d63af1f02d4eb",
+      "extra_hex": ""
+    }
+  ],
+  "limitations": [
+    "Metadata checksums verified; member payloads are unverified.",
+    "Native config-dependent field20 validation is not performed.",
+    "field8/12/16/20 retain raw coordinates until their uses are traced.",
+    "Index path names do not authorize executing any archived binaries.",
+    "Full-file SHA-256 is not computed by this bounded index operation."
+  ]
+}

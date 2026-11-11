@@ -1,0 +1,38 @@
+{
+  "package": "C:\\Nexon\\SuddenAttack\\game\\sa_atlas_00000.pkg",
+  "header": {
+    "path": "C:\\Nexon\\SuddenAttack\\game\\sa_atlas_00000.pkg",
+    "bytes": 115424256,
+    "version": 3,
+    "mask_bytes": 325,
+    "masked_string_units": 13,
+    "encrypted_header_offset": 356,
+    "index_padding_bytes": 210,
+    "observed_header_sha256": "89836026a940bde732e1e505057be643d5fb8ea6f6e5e94db6056b749141ed8c",
+    "identity_scope": "header-ranges-only",
+    "byteorder": "little",
+    "count": 502,
+    "checksum": 328276
+  },
+  "index_raw_sha256": "7d8ba60c3803889ab68fe3f498cc1791b640ad3feacbc941dea9bd2fb434419b",
+  "selected_members": 1,
+  "extracted": [
+    {
+      "path": "sa_atlas/atlas_script/Atlas.xml",
+      "offset": 2111488,
+      "stored_bytes": 79700,
+      "output_bytes": 592185,
+      "ciphertext_sha256": "fd9d129cb99efb616ca3e580d8026dbc33332dbe80cdf634b61f84ee2151566e",
+      "output_sha256": "16e91509da84fb48eb56ac35155c1c1fe1679c473c689801bd8a057a94acba3c",
+      "expected_md5": "d9f1d3cc2814caa16b6e2812a5eeb398",
+      "md5_verified": true
+    }
+  ],
+  "errors": [],
+  "status": "selected-members-verified",
+  "limitations": [
+    "Only profiles with flags in 0..7 and no block hash table are supported.",
+    "Archived code is never loaded or executed.",
+    "Full package digest remains unknown; selected read ranges have SHA-256."
+  ]
+}

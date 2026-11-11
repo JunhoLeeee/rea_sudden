@@ -1,0 +1,108 @@
+{
+  "header": {
+    "path": "C:\\Nexon\\SuddenAttack\\game\\sa_charactersc_00000.pkg",
+    "bytes": 64417792,
+    "version": 3,
+    "mask_bytes": 323,
+    "masked_string_units": 13,
+    "encrypted_header_offset": 354,
+    "index_padding_bytes": 168,
+    "observed_header_sha256": "0c1674c6f55f14063a8086b3c4a23d8a4af0d62fb3d21474974f75f96d767213",
+    "identity_scope": "header-ranges-only",
+    "byteorder": "little",
+    "count": 6,
+    "checksum": 262801
+  },
+  "index_offset": 530,
+  "index_plaintext_bytes": 662,
+  "index_read_bytes": 664,
+  "index_raw_sha256": "49342234770b711296a4bc4211b59a827cfce22886f9248ef49d24141e2d35b9",
+  "payload_base": 2048,
+  "members": [
+    {
+      "index": 0,
+      "path": "sa_characters/common/girl.ltb",
+      "flags": 7,
+      "field8": 0,
+      "field12": 7492991,
+      "field16": 3238364,
+      "field20": 0,
+      "checksum": 10733227,
+      "block_hashes": [],
+      "digest_hex": "afef11c74b0a7a639849aca42c0766d7",
+      "extra_hex": ""
+    },
+    {
+      "index": 1,
+      "path": "sa_characters/common/man.ltb",
+      "flags": 7,
+      "field8": 3163,
+      "field12": 6144104,
+      "field16": 2763704,
+      "field20": 0,
+      "checksum": 8912730,
+      "block_hashes": [],
+      "digest_hex": "5ade15c2e2e94c047027942e0bfd3419",
+      "extra_hex": ""
+    },
+    {
+      "index": 2,
+      "path": "sa_characters/common/Win_Girl.ltb",
+      "flags": 6,
+      "field8": 5862,
+      "field12": 37824830,
+      "field16": 37824832,
+      "field20": 0,
+      "checksum": 75657119,
+      "block_hashes": [],
+      "digest_hex": "c881cb455e31c0294aa2461f04ab065e",
+      "extra_hex": ""
+    },
+    {
+      "index": 3,
+      "path": "sa_characters/common/Win_Man.ltb",
+      "flags": 6,
+      "field8": 42801,
+      "field12": 18580705,
+      "field16": 18580708,
+      "field20": 0,
+      "checksum": 37206301,
+      "block_hashes": [],
+      "digest_hex": "b816d9bfaa3301a808b69860d86066e1",
+      "extra_hex": ""
+    },
+    {
+      "index": 4,
+      "path": "sa_characters/common/OBB_Girl.ltb",
+      "flags": 6,
+      "field8": 60947,
+      "field12": 1489126,
+      "field16": 1489128,
+      "field20": 0,
+      "checksum": 3041431,
+      "block_hashes": [],
+      "digest_hex": "74dff7c4a0cb8e98bf1f1fe85f535525",
+      "extra_hex": ""
+    },
+    {
+      "index": 5,
+      "path": "sa_characters/common/OBB_Man.ltb",
+      "flags": 6,
+      "field8": 62402,
+      "field12": 515789,
+      "field16": 515792,
+      "field20": 0,
+      "checksum": 1095989,
+      "block_hashes": [],
+      "digest_hex": "a1542829a5de49f04e642bdbda474aab",
+      "extra_hex": ""
+    }
+  ],
+  "limitations": [
+    "Metadata checksums verified; member payloads are unverified.",
+    "Native config-dependent field20 validation is not performed.",
+    "field8/12/16/20 retain raw coordinates until their uses are traced.",
+    "Index path names do not authorize executing any archived binaries.",
+    "Full-file SHA-256 is not computed by this bounded index operation."
+  ]
+}

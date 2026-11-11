@@ -1,0 +1,1136 @@
+{
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_e04f4c95027e0e0bdbdf56820691f109067dd38bae2649fe81dd71898e07607c\",\"subject\":{\"name\":\"suddenattack.exe\",\"digest\":{\"sha256\":\"7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8\"},\"local_path\":\"C:\\\\Nexon\\\\SuddenAttack\\\\suddenattack.exe\",\"format\":\"pe\",\"architecture\":\"x86_64\"},\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"analysis_profile\":{\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"parameters\":{\"target_kind\":\"executable\",\"target_format\":\"pe\",\"executable_role\":\"application\",\"managed\":false,\"native_aot_metadata\":{\"contract_revision\":\"rtr-9.1-x64-pe-read-only-v7\",\"source_bytes\":134217728,\"work_units\":67108864,\"working_memory_bytes\":67108864,\"report_bytes\":4194304},\"architecture\":\"x86_64\",\"available_architectures\":[\"x86_64\"],\"import_mode\":\"ephemeral-source-immutable\",\"pdb_observations\":\"program-info-v5\",\"annotation_policy\":\"atomic-function-entry-metadata-v1\",\"load_image_observations\":\"source-mappings-entry-context-v2\",\"function_body_evidence\":\"complete-inclusive-ranges-v1\",\"function_references\":\"complete-body-and-entry-reference-manager-v2\",\"call_relationship_coverage\":\"function-body-call-coverage-v5\",\"function_dossier_coverage\":\"observed-facets-and-call-relationships-v1\",\"string_inventory_evidence\":\"defined-data-coverage-v1\",\"location_resolution\":\"explicit-address-exact-entry-symbol-first-v3\",\"procedure_file_offset_resolution\":\"address-first-unique-target-source-mapping-v2\",\"instruction_flow_evidence\":\"decoded-return-pcode-v1\",\"instruction_references\":\"exact-address-incoming-without-synthetic-entry-v2\",\"function_boundary_observations\":\"ghidra-function-boundary-limitations-v4\",\"no_return_repair\":\"disabled-windows-p0\",\"process_launch\":\"official-headless-script-v1\",\"jump_table_evidence\":\"typed-case-default-blocks-v1\",\"decompiler_jump_loads\":true,\"loader\":\"auto-from-header\",\"language_id\":\"auto-from-header\",\"compiler_spec_id\":\"auto-default\",\"analyzer_preset\":\"ghidra-default\",\"function_coordinate_context\":{\"kind\":\"native-function-coordinate-context-v1\",\"selected_image\":null,\"mapping_sha256\":\"55a7964dc0bcdf067484a281c658e6ca8457a49405e0ea9dbd080366ee4c3198\"}},\"digest\":\"9b537ee6fdad293e1c8ea50e7b50d0b6b22972a83032bca093d279ab7e770ce4\"},\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_native_load_image\",\"parameters\":{},\"raw_result\":{\"executable_format\":\"Portable Executable (PE)\",\"language_id\":\"x86:LE:64:default\",\"compiler_spec_id\":\"windows\",\"image_base\":\"0x140000000\",\"default_address_space\":\"ram\",\"source_files\":[{\"name\":\"target-7e37a8098930.exe\",\"size\":7841144,\"original_sha256\":\"7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8\",\"modified_sha256\":\"7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8\"}],\"mappings\":[{\"block\":\"Headers\",\"start\":\"0x140000000\",\"end\":\"0x1400005ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":1536,\"source_file_index\":0,\"file_offset\":0,\"sha256\":\"24ad59a72f954d2d7d142126ae0520fc5543c7dfd4c6d68a07e453a132dd6efa\"},{\"block\":\".text\",\"start\":\"0x140001000\",\"end\":\"0x1402fddff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":true,\"length\":3132928,\"source_file_index\":0,\"file_offset\":1536,\"sha256\":\"d1af2e49697690c903040f938bbcbe79e2baabd53a49c19a8faf6d7698b082fc\"},{\"block\":\".rdata\",\"start\":\"0x1402fe000\",\"end\":\"0x1403d8fff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":897024,\"source_file_index\":0,\"file_offset\":3134464,\"sha256\":\"7d13aac8dc61495752e00dc42af8c10db54b86cf6ce673477ea16b0d6bd6d58d\"},{\"block\":\".data\",\"start\":\"0x1403d9000\",\"end\":\"0x1403f77ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":true,\"executable\":false,\"length\":124928,\"source_file_index\":0,\"file_offset\":4031488,\"sha256\":\"1d3e88b65916c42121081ecd97c4884199f05d0917c15b263fb60f97e0cdaa5f\"},{\"block\":\".data\",\"start\":\"0x1403f7800\",\"end\":\"0x14046014b\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":true,\"executable\":false,\"length\":428364,\"source_file_index\":null,\"file_offset\":null,\"sha256\":\"f06cc29918ad9f983a56f3b5e89a8be2b70e3c8e3cbf3cfdc5e1aba6f44f7a2f\"},{\"block\":\".pdata\",\"start\":\"0x140461000\",\"end\":\"0x14048c5ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":177664,\"source_file_index\":0,\"file_offset\":4156416,\"sha256\":\"89c110e7fc9486c46c90a622fa0522cdac9a0f1d3d5f3c3e6478588985fccc76\"},{\"block\":\"SECTION.4\",\"start\":\"0x14048d000\",\"end\":\"0x1404b35ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":157184,\"source_file_index\":0,\"file_offset\":4334080,\"sha256\":\"f3b71f6edbe50a12a43327562ba8c7f8d6be42bd3af89507e38b5343d43235be\"},{\"block\":\"SECTION.4\",\"start\":\"0x1404b3600\",\"end\":\"0x1404cb05f\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":96864,\"source_file_index\":null,\"file_offset\":null,\"sha256\":\"ae5a9455ac8503e2fb8359796c11ca27e28e846990530e2e2594407ba77437e0\"},{\"block\":\".reloc\",\"start\":\"0x1404cc000\",\"end\":\"0x1404d1dff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":24064,\"source_file_index\":0,\"file_offset\":4491264,\"sha256\":\"f91303c0e6a3155d7211cce8972b0dacdc437030325c2d8a475a30887c398f47\"},{\"block\":\".debug\",\"start\":\"0x1404d2000\",\"end\":\"0x1404d25ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":1536,\"source_file_index\":0,\"file_offset\":4515328,\"sha256\":\"8ffaa7b205932d4fdeb59423490dddc4b22a2e20ea60469fc914f1c632976fff\"},{\"block\":\".debug\",\"start\":\"0x1404d2600\",\"end\":\"0x1404d2fff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":2560,\"source_file_index\":null,\"file_offset\":null,\"sha256\":\"8ce8ba8e726ee8925e6560d86ac35be1097691d1cfac888e6bd20e804ea9eb15\"},{\"block\":\".edata\",\"start\":\"0x1404d3000\",\"end\":\"0x1404d31ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":512,\"source_file_index\":0,\"file_offset\":4516864,\"sha256\":\"6e06e3602d208dff8b9ee42290fff15913795b1a99a84c2c144cfb95676eeb37\"},{\"block\":\".edata\",\"start\":\"0x1404d3200\",\"end\":\"0x1404d3fff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":3584,\"source_file_index\":null,\"file_offset\":null,\"sha256\":\"6cf1b57d59e7111bc218dfb01dda93ac0f776715599a1c69f89035bd20c16a10\"},{\"block\":\".idata\",\"start\":\"0x1404d4000\",\"end\":\"0x1404d49ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":true,\"executable\":false,\"length\":2560,\"source_file_index\":0,\"file_offset\":4517376,\"sha256\":\"c634de46974d10e995aa37f5f4468ddc5378063b1131f261300bd12c676a6f89\"},{\"block\":\".idata\",\"start\":\"0x1404d4a00\",\"end\":\"0x1404d4fff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":true,\"executable\":false,\"length\":1536,\"source_file_index\":null,\"file_offset\":null,\"sha256\":\"80422bc3d307b4a25bdafcc84ac7fb01cb55a09810e8b0f37bb12e0edb5c48ca\"},{\"block\":\".tls\",\"start\":\"0x1404d5000\",\"end\":\"0x1404d51ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":true,\"executable\":false,\"length\":512,\"source_file_index\":0,\"file_offset\":4519936,\"sha256\":\"9d4a156e74257425d5e66b961e0b8dea935d3031790108cee62e7fba20f7da52\"},{\"block\":\".tls\",\"start\":\"0x1404d5200\",\"end\":\"0x1404d5fff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":true,\"executable\":false,\"length\":3584,\"source_file_index\":null,\"file_offset\":null,\"sha256\":\"6cf1b57d59e7111bc218dfb01dda93ac0f776715599a1c69f89035bd20c16a10\"},{\"block\":\".rsrc\",\"start\":\"0x1404d6000\",\"end\":\"0x140508fff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":208896,\"source_file_index\":0,\"file_offset\":4520448,\"sha256\":\"8deb8f5123d68477e08a4043bac26ef726798d177d7966b5667d06f8fee6f4bb\"},{\"block\":\".themida\",\"start\":\"0x140509000\",\"end\":\"0x140ab2fff\",\"address_space\":\"ram\",\"initialized\":false,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":true,\"executable\":true,\"length\":5939200,\"source_file_index\":null,\"file_offset\":null,\"sha256\":null},{\"block\":\".boot\",\"start\":\"0x140ab3000\",\"end\":\"0x140da81ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":true,\"length\":3101184,\"source_file_index\":0,\"file_offset\":4729344,\"sha256\":\"8f3831468a6780329a4ce766eb782ad14c620c9a3254b8dab9368d410ff42695\"},{\"block\":\".reloc\",\"start\":\"0x140da9000\",\"end\":\"0x140da900f\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":16,\"source_file_index\":0,\"file_offset\":7830528,\"sha256\":\"214c51dcf3babd8fadbaaf83bed5299e98de694e400dc313566e742ea5e903ad\"},{\"block\":\".reloc\",\"start\":\"0x140da9010\",\"end\":\"0x140da9fff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":4080,\"source_file_index\":null,\"file_offset\":null,\"sha256\":\"9d4e9038bfe86a9c97688e56ccd91c848bbef20d631a7cce970645162bd478ef\"},{\"block\":\"tdb\",\"start\":\"0xff00000000\",\"end\":\"0xff0000184f\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":true,\"executable\":false,\"length\":6224,\"source_file_index\":null,\"file_offset\":null,\"sha256\":\"05241e8810c4fd271e4b318b550a6f294434ebea648fad7dd406e7e45d5c40b6\"}],\"relocations\":[{\"address\":\"0x1404d5000\",\"segment\":null,\"offset\":null,\"status\":\"SKIPPED\",\"type\":0,\"values\":[],\"original_bytes_hex\":null,\"memory_bytes_hex\":null},{\"address\":\"0x1404d5018\",\"segment\":null,\"offset\":null,\"status\":\"SKIPPED\",\"type\":10,\"values\":[],\"original_bytes_hex\":null,\"memory_bytes_hex\":null},{\"address\":\"0x1404d5020\",\"segment\":null,\"offset\":null,\"status\":\"SKIPPED\",\"type\":10,\"values\":[],\"original_bytes_hex\":null,\"memory_bytes_hex\":null},{\"address\":\"0x1404d5028\",\"segment\":null,\"offset\":null,\"status\":\"SKIPPED\",\"type\":10,\"values\":[],\"original_bytes_hex\":null,\"memory_bytes_hex\":null}],\"entry_points\":[\"0x1400df0e0\",\"0x1400e5e40\",\"0x140ab3058\"],\"entry_context\":[{\"address\":\"0x1400df0e0\",\"registers\":[{\"name\":\"CS\",\"value_hex\":null},{\"name\":\"DS\",\"value_hex\":null},{\"name\":\"ES\",\"value_hex\":null},{\"name\":\"SS\",\"value_hex\":null}]},{\"address\":\"0x1400e5e40\",\"registers\":[{\"name\":\"CS\",\"value_hex\":null},{\"name\":\"DS\",\"value_hex\":null},{\"name\":\"ES\",\"value_hex\":null},{\"name\":\"SS\",\"value_hex\":null}]},{\"address\":\"0x140ab3058\",\"registers\":[{\"name\":\"CS\",\"value_hex\":null},{\"name\":\"DS\",\"value_hex\":null},{\"name\":\"ES\",\"value_hex\":null},{\"name\":\"SS\",\"value_hex\":null}]}]},\"normalized_result\":{\"status\":\"unsupported\",\"reason\":\"Independent load-image verification currently supports DOS MZ, explicit DOS COM, and caller-supplied raw-binary targets only.\",\"observations\":{\"metadata_recovery\":[{\"format\":\"dotnet-nativeaot\",\"analysis_mode\":\"read-only-derived-overlay\",\"status\":\"not_applicable\",\"reason\":\"No supported ReadyToRun directory signature was found in initialized non-executable PE sections.\",\"analysis_artifact_sha256\":\"7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8\",\"header_address\":null,\"discovery\":null,\"format_major\":null,\"format_minor\":null,\"method_tables\":0,\"types\":[],\"frozen_strings\":[],\"derived_overlay\":null,\"derived_memory\":null,\"coverage\":{\"pointer_candidates_examined\":0,\"method_tables_recovered\":0,\"frozen_string_candidates\":0,\"basis\":\"no-rtr-header\"},\"diagnostics\":[],\"limitations\":[\"This report is derived from the admitted file snapshot; it does not define or annotate Ghidra database types.\"]}],\"executable_format\":\"Portable Executable (PE)\",\"language_id\":\"x86:LE:64:default\",\"compiler_spec_id\":\"windows\",\"image_base\":\"0x140000000\",\"default_address_space\":\"ram\",\"source_files\":[{\"name\":\"target-7e37a8098930.exe\",\"size\":7841144,\"original_sha256\":\"7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8\",\"modified_sha256\":\"7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8\"}],\"mappings\":[{\"block\":\"Headers\",\"start\":\"0x140000000\",\"end\":\"0x1400005ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":1536,\"source_file_index\":0,\"file_offset\":0,\"sha256\":\"24ad59a72f954d2d7d142126ae0520fc5543c7dfd4c6d68a07e453a132dd6efa\"},{\"block\":\".text\",\"start\":\"0x140001000\",\"end\":\"0x1402fddff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":true,\"length\":3132928,\"source_file_index\":0,\"file_offset\":1536,\"sha256\":\"d1af2e49697690c903040f938bbcbe79e2baabd53a49c19a8faf6d7698b082fc\"},{\"block\":\".rdata\",\"start\":\"0x1402fe000\",\"end\":\"0x1403d8fff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":897024,\"source_file_index\":0,\"file_offset\":3134464,\"sha256\":\"7d13aac8dc61495752e00dc42af8c10db54b86cf6ce673477ea16b0d6bd6d58d\"},{\"block\":\".data\",\"start\":\"0x1403d9000\",\"end\":\"0x1403f77ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":true,\"executable\":false,\"length\":124928,\"source_file_index\":0,\"file_offset\":4031488,\"sha256\":\"1d3e88b65916c42121081ecd97c4884199f05d0917c15b263fb60f97e0cdaa5f\"},{\"block\":\".data\",\"start\":\"0x1403f7800\",\"end\":\"0x14046014b\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":true,\"executable\":false,\"length\":428364,\"source_file_index\":null,\"file_offset\":null,\"sha256\":\"f06cc29918ad9f983a56f3b5e89a8be2b70e3c8e3cbf3cfdc5e1aba6f44f7a2f\"},{\"block\":\".pdata\",\"start\":\"0x140461000\",\"end\":\"0x14048c5ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":177664,\"source_file_index\":0,\"file_offset\":4156416,\"sha256\":\"89c110e7fc9486c46c90a622fa0522cdac9a0f1d3d5f3c3e6478588985fccc76\"},{\"block\":\"SECTION.4\",\"start\":\"0x14048d000\",\"end\":\"0x1404b35ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":157184,\"source_file_index\":0,\"file_offset\":4334080,\"sha256\":\"f3b71f6edbe50a12a43327562ba8c7f8d6be42bd3af89507e38b5343d43235be\"},{\"block\":\"SECTION.4\",\"start\":\"0x1404b3600\",\"end\":\"0x1404cb05f\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":96864,\"source_file_index\":null,\"file_offset\":null,\"sha256\":\"ae5a9455ac8503e2fb8359796c11ca27e28e846990530e2e2594407ba77437e0\"},{\"block\":\".reloc\",\"start\":\"0x1404cc000\",\"end\":\"0x1404d1dff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":24064,\"source_file_index\":0,\"file_offset\":4491264,\"sha256\":\"f91303c0e6a3155d7211cce8972b0dacdc437030325c2d8a475a30887c398f47\"},{\"block\":\".debug\",\"start\":\"0x1404d2000\",\"end\":\"0x1404d25ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":1536,\"source_file_index\":0,\"file_offset\":4515328,\"sha256\":\"8ffaa7b205932d4fdeb59423490dddc4b22a2e20ea60469fc914f1c632976fff\"},{\"block\":\".debug\",\"start\":\"0x1404d2600\",\"end\":\"0x1404d2fff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":2560,\"source_file_index\":null,\"file_offset\":null,\"sha256\":\"8ce8ba8e726ee8925e6560d86ac35be1097691d1cfac888e6bd20e804ea9eb15\"},{\"block\":\".edata\",\"start\":\"0x1404d3000\",\"end\":\"0x1404d31ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":512,\"source_file_index\":0,\"file_offset\":4516864,\"sha256\":\"6e06e3602d208dff8b9ee42290fff15913795b1a99a84c2c144cfb95676eeb37\"},{\"block\":\".edata\",\"start\":\"0x1404d3200\",\"end\":\"0x1404d3fff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":3584,\"source_file_index\":null,\"file_offset\":null,\"sha256\":\"6cf1b57d59e7111bc218dfb01dda93ac0f776715599a1c69f89035bd20c16a10\"},{\"block\":\".idata\",\"start\":\"0x1404d4000\",\"end\":\"0x1404d49ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":true,\"executable\":false,\"length\":2560,\"source_file_index\":0,\"file_offset\":4517376,\"sha256\":\"c634de46974d10e995aa37f5f4468ddc5378063b1131f261300bd12c676a6f89\"},{\"block\":\".idata\",\"start\":\"0x1404d4a00\",\"end\":\"0x1404d4fff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":true,\"executable\":false,\"length\":1536,\"source_file_index\":null,\"file_offset\":null,\"sha256\":\"80422bc3d307b4a25bdafcc84ac7fb01cb55a09810e8b0f37bb12e0edb5c48ca\"},{\"block\":\".tls\",\"start\":\"0x1404d5000\",\"end\":\"0x1404d51ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":true,\"executable\":false,\"length\":512,\"source_file_index\":0,\"file_offset\":4519936,\"sha256\":\"9d4a156e74257425d5e66b961e0b8dea935d3031790108cee62e7fba20f7da52\"},{\"block\":\".tls\",\"start\":\"0x1404d5200\",\"end\":\"0x1404d5fff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":true,\"executable\":false,\"length\":3584,\"source_file_index\":null,\"file_offset\":null,\"sha256\":\"6cf1b57d59e7111bc218dfb01dda93ac0f776715599a1c69f89035bd20c16a10\"},{\"block\":\".rsrc\",\"start\":\"0x1404d6000\",\"end\":\"0x140508fff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":208896,\"source_file_index\":0,\"file_offset\":4520448,\"sha256\":\"8deb8f5123d68477e08a4043bac26ef726798d177d7966b5667d06f8fee6f4bb\"},{\"block\":\".themida\",\"start\":\"0x140509000\",\"end\":\"0x140ab2fff\",\"address_space\":\"ram\",\"initialized\":false,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":true,\"executable\":true,\"length\":5939200,\"source_file_index\":null,\"file_offset\":null,\"sha256\":null},{\"block\":\".boot\",\"start\":\"0x140ab3000\",\"end\":\"0x140da81ff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":true,\"length\":3101184,\"source_file_index\":0,\"file_offset\":4729344,\"sha256\":\"8f3831468a6780329a4ce766eb782ad14c620c9a3254b8dab9368d410ff42695\"},{\"block\":\".reloc\",\"start\":\"0x140da9000\",\"end\":\"0x140da900f\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":16,\"source_file_index\":0,\"file_offset\":7830528,\"sha256\":\"214c51dcf3babd8fadbaaf83bed5299e98de694e400dc313566e742ea5e903ad\"},{\"block\":\".reloc\",\"start\":\"0x140da9010\",\"end\":\"0x140da9fff\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":false,\"executable\":false,\"length\":4080,\"source_file_index\":null,\"file_offset\":null,\"sha256\":\"9d4e9038bfe86a9c97688e56ccd91c848bbef20d631a7cce970645162bd478ef\"},{\"block\":\"tdb\",\"start\":\"0xff00000000\",\"end\":\"0xff0000184f\",\"address_space\":\"ram\",\"initialized\":true,\"loaded\":true,\"overlay\":false,\"readable\":true,\"writable\":true,\"executable\":false,\"length\":6224,\"source_file_index\":null,\"file_offset\":null,\"sha256\":\"05241e8810c4fd271e4b318b550a6f294434ebea648fad7dd406e7e45d5c40b6\"}],\"relocations\":[{\"address\":\"0x1404d5000\",\"segment\":null,\"offset\":null,\"status\":\"SKIPPED\",\"type\":0,\"values\":[],\"original_bytes_hex\":null,\"memory_bytes_hex\":null},{\"address\":\"0x1404d5018\",\"segment\":null,\"offset\":null,\"status\":\"SKIPPED\",\"type\":10,\"values\":[],\"original_bytes_hex\":null,\"memory_bytes_hex\":null},{\"address\":\"0x1404d5020\",\"segment\":null,\"offset\":null,\"status\":\"SKIPPED\",\"type\":10,\"values\":[],\"original_bytes_hex\":null,\"memory_bytes_hex\":null},{\"address\":\"0x1404d5028\",\"segment\":null,\"offset\":null,\"status\":\"SKIPPED\",\"type\":10,\"values\":[],\"original_bytes_hex\":null,\"memory_bytes_hex\":null}],\"entry_points\":[\"0x1400df0e0\",\"0x1400e5e40\",\"0x140ab3058\"],\"entry_context\":[{\"address\":\"0x1400df0e0\",\"registers\":[{\"name\":\"CS\",\"value_hex\":null},{\"name\":\"DS\",\"value_hex\":null},{\"name\":\"ES\",\"value_hex\":null},{\"name\":\"SS\",\"value_hex\":null}]},{\"address\":\"0x1400e5e40\",\"registers\":[{\"name\":\"CS\",\"value_hex\":null},{\"name\":\"DS\",\"value_hex\":null},{\"name\":\"ES\",\"value_hex\":null},{\"name\":\"SS\",\"value_hex\":null}]},{\"address\":\"0x140ab3058\",\"registers\":[{\"name\":\"CS\",\"value_hex\":null},{\"name\":\"DS\",\"value_hex\":null},{\"name\":\"ES\",\"value_hex\":null},{\"name\":\"SS\",\"value_hex\":null}]}]},\"limitations\":[\"Load-image verification is not performed for PE targets; NativeAOT metadata observations are derived separately from the exact admitted snapshot.\"]},\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.\",\"The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.\",\"Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.\",\"Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.\",\"Independent verification covers admitted DOS MZ, explicitly selected COM with measured entry context, and caller-supplied raw-binary imports. Measured source mappings use inclusive end addresses and complete region digests; no target execution or project mutation occurs.\",\"Windows Ghidra P0 accepts native x86, x86-64, ARMNT (Thumb-2) and ARM64 PE applications and DLLs, and explicitly selected raw 6502 images; managed, hostile, sensitive, and mutable-path targets are unsupported.\",\"The Windows bridge uses authenticated IPv4 loopback because Node path-based IPC does not expose Java AF_UNIX sockets; the endpoint file contains no bearer token.\",\"Windows sessions require the matching packaged Windows x64 native addon, local NTFS targets and runtimes, and Windows 10 or later. Native handles enforce path admission, private DACLs, and Job Object ownership automatically.\",\"The Ghidra Program references PDB SuddenAttack.pdb (GUID a63e89e7-f71f-4a19-bd72-6b57d676ad47, age (hex) 1, signature unknown, version RSDS); Ghidra reports load state unknown. Original names and types may be missing; an empty name search does not prove a procedure is absent. Use list_procedures and address-based analysis to inspect recovered functions. REA does not admit a caller-selected PDB companion.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_e04f4c95027e0e0bdbdf56820691f109067dd38bae2649fe81dd71898e07607c",
+      "subject": {
+        "name": "suddenattack.exe",
+        "digest": {
+          "sha256": "7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8"
+        },
+        "local_path": "C:\\Nexon\\SuddenAttack\\suddenattack.exe",
+        "format": "pe",
+        "architecture": "x86_64"
+      },
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "analysis_profile": {
+        "provider": {
+          "id": "ghidra",
+          "name": "Ghidra",
+          "version": "12.1.4"
+        },
+        "parameters": {
+          "target_kind": "executable",
+          "target_format": "pe",
+          "executable_role": "application",
+          "managed": false,
+          "native_aot_metadata": {
+            "contract_revision": "rtr-9.1-x64-pe-read-only-v7",
+            "source_bytes": 134217728,
+            "work_units": 67108864,
+            "working_memory_bytes": 67108864,
+            "report_bytes": 4194304
+          },
+          "architecture": "x86_64",
+          "available_architectures": [
+            "x86_64"
+          ],
+          "import_mode": "ephemeral-source-immutable",
+          "pdb_observations": "program-info-v5",
+          "annotation_policy": "atomic-function-entry-metadata-v1",
+          "load_image_observations": "source-mappings-entry-context-v2",
+          "function_body_evidence": "complete-inclusive-ranges-v1",
+          "function_references": "complete-body-and-entry-reference-manager-v2",
+          "call_relationship_coverage": "function-body-call-coverage-v5",
+          "function_dossier_coverage": "observed-facets-and-call-relationships-v1",
+          "string_inventory_evidence": "defined-data-coverage-v1",
+          "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+          "procedure_file_offset_resolution": "address-first-unique-target-source-mapping-v2",
+          "instruction_flow_evidence": "decoded-return-pcode-v1",
+          "instruction_references": "exact-address-incoming-without-synthetic-entry-v2",
+          "function_boundary_observations": "ghidra-function-boundary-limitations-v4",
+          "no_return_repair": "disabled-windows-p0",
+          "process_launch": "official-headless-script-v1",
+          "jump_table_evidence": "typed-case-default-blocks-v1",
+          "decompiler_jump_loads": true,
+          "loader": "auto-from-header",
+          "language_id": "auto-from-header",
+          "compiler_spec_id": "auto-default",
+          "analyzer_preset": "ghidra-default",
+          "function_coordinate_context": {
+            "kind": "native-function-coordinate-context-v1",
+            "selected_image": null,
+            "mapping_sha256": "55a7964dc0bcdf067484a281c658e6ca8457a49405e0ea9dbd080366ee4c3198"
+          }
+        },
+        "digest": "9b537ee6fdad293e1c8ea50e7b50d0b6b22972a83032bca093d279ab7e770ce4"
+      },
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_native_load_image",
+      "parameters": {},
+      "raw_result": {
+        "executable_format": "Portable Executable (PE)",
+        "language_id": "x86:LE:64:default",
+        "compiler_spec_id": "windows",
+        "image_base": "0x140000000",
+        "default_address_space": "ram",
+        "source_files": [
+          {
+            "name": "target-7e37a8098930.exe",
+            "size": 7841144,
+            "original_sha256": "7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8",
+            "modified_sha256": "7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8"
+          }
+        ],
+        "mappings": [
+          {
+            "block": "Headers",
+            "start": "0x140000000",
+            "end": "0x1400005ff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": false,
+            "executable": false,
+            "length": 1536,
+            "source_file_index": 0,
+            "file_offset": 0,
+            "sha256": "24ad59a72f954d2d7d142126ae0520fc5543c7dfd4c6d68a07e453a132dd6efa"
+          },
+          {
+            "block": ".text",
+            "start": "0x140001000",
+            "end": "0x1402fddff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": false,
+            "executable": true,
+            "length": 3132928,
+            "source_file_index": 0,
+            "file_offset": 1536,
+            "sha256": "d1af2e49697690c903040f938bbcbe79e2baabd53a49c19a8faf6d7698b082fc"
+          },
+          {
+            "block": ".rdata",
+            "start": "0x1402fe000",
+            "end": "0x1403d8fff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": false,
+            "executable": false,
+            "length": 897024,
+            "source_file_index": 0,
+            "file_offset": 3134464,
+            "sha256": "7d13aac8dc61495752e00dc42af8c10db54b86cf6ce673477ea16b0d6bd6d58d"
+          },
+          {
+            "block": ".data",
+            "start": "0x1403d9000",
+            "end": "0x1403f77ff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": true,
+            "executable": false,
+            "length": 124928,
+            "source_file_index": 0,
+            "file_offset": 4031488,
+            "sha256": "1d3e88b65916c42121081ecd97c4884199f05d0917c15b263fb60f97e0cdaa5f"
+          },
+          {
+            "block": ".data",
+            "start": "0x1403f7800",
+            "end": "0x14046014b",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": true,
+            "executable": false,
+            "length": 428364,
+            "source_file_index": null,
+            "file_offset": null,
+            "sha256": "f06cc29918ad9f983a56f3b5e89a8be2b70e3c8e3cbf3cfdc5e1aba6f44f7a2f"
+          },
+          {
+            "block": ".pdata",
+            "start": "0x140461000",
+            "end": "0x14048c5ff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": false,
+            "executable": false,
+            "length": 177664,
+            "source_file_index": 0,
+            "file_offset": 4156416,
+            "sha256": "89c110e7fc9486c46c90a622fa0522cdac9a0f1d3d5f3c3e6478588985fccc76"
+          },
+          {
+            "block": "SECTION.4",
+            "start": "0x14048d000",
+            "end": "0x1404b35ff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": false,
+            "executable": false,
+            "length": 157184,
+            "source_file_index": 0,
+            "file_offset": 4334080,
+            "sha256": "f3b71f6edbe50a12a43327562ba8c7f8d6be42bd3af89507e38b5343d43235be"
+          },
+          {
+            "block": "SECTION.4",
+            "start": "0x1404b3600",
+            "end": "0x1404cb05f",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": false,
+            "executable": false,
+            "length": 96864,
+            "source_file_index": null,
+            "file_offset": null,
+            "sha256": "ae5a9455ac8503e2fb8359796c11ca27e28e846990530e2e2594407ba77437e0"
+          },
+          {
+            "block": ".reloc",
+            "start": "0x1404cc000",
+            "end": "0x1404d1dff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": false,
+            "executable": false,
+            "length": 24064,
+            "source_file_index": 0,
+            "file_offset": 4491264,
+            "sha256": "f91303c0e6a3155d7211cce8972b0dacdc437030325c2d8a475a30887c398f47"
+          },
+          {
+            "block": ".debug",
+            "start": "0x1404d2000",
+            "end": "0x1404d25ff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": false,
+            "executable": false,
+            "length": 1536,
+            "source_file_index": 0,
+            "file_offset": 4515328,
+            "sha256": "8ffaa7b205932d4fdeb59423490dddc4b22a2e20ea60469fc914f1c632976fff"
+          },
+          {
+            "block": ".debug",
+            "start": "0x1404d2600",
+            "end": "0x1404d2fff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": false,
+            "executable": false,
+            "length": 2560,
+            "source_file_index": null,
+            "file_offset": null,
+            "sha256": "8ce8ba8e726ee8925e6560d86ac35be1097691d1cfac888e6bd20e804ea9eb15"
+          },
+          {
+            "block": ".edata",
+            "start": "0x1404d3000",
+            "end": "0x1404d31ff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": false,
+            "executable": false,
+            "length": 512,
+            "source_file_index": 0,
+            "file_offset": 4516864,
+            "sha256": "6e06e3602d208dff8b9ee42290fff15913795b1a99a84c2c144cfb95676eeb37"
+          },
+          {
+            "block": ".edata",
+            "start": "0x1404d3200",
+            "end": "0x1404d3fff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": false,
+            "executable": false,
+            "length": 3584,
+            "source_file_index": null,
+            "file_offset": null,
+            "sha256": "6cf1b57d59e7111bc218dfb01dda93ac0f776715599a1c69f89035bd20c16a10"
+          },
+          {
+            "block": ".idata",
+            "start": "0x1404d4000",
+            "end": "0x1404d49ff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": true,
+            "executable": false,
+            "length": 2560,
+            "source_file_index": 0,
+            "file_offset": 4517376,
+            "sha256": "c634de46974d10e995aa37f5f4468ddc5378063b1131f261300bd12c676a6f89"
+          },
+          {
+            "block": ".idata",
+            "start": "0x1404d4a00",
+            "end": "0x1404d4fff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": true,
+            "executable": false,
+            "length": 1536,
+            "source_file_index": null,
+            "file_offset": null,
+            "sha256": "80422bc3d307b4a25bdafcc84ac7fb01cb55a09810e8b0f37bb12e0edb5c48ca"
+          },
+          {
+            "block": ".tls",
+            "start": "0x1404d5000",
+            "end": "0x1404d51ff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": true,
+            "executable": false,
+            "length": 512,
+            "source_file_index": 0,
+            "file_offset": 4519936,
+            "sha256": "9d4a156e74257425d5e66b961e0b8dea935d3031790108cee62e7fba20f7da52"
+          },
+          {
+            "block": ".tls",
+            "start": "0x1404d5200",
+            "end": "0x1404d5fff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": true,
+            "executable": false,
+            "length": 3584,
+            "source_file_index": null,
+            "file_offset": null,
+            "sha256": "6cf1b57d59e7111bc218dfb01dda93ac0f776715599a1c69f89035bd20c16a10"
+          },
+          {
+            "block": ".rsrc",
+            "start": "0x1404d6000",
+            "end": "0x140508fff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": false,
+            "executable": false,
+            "length": 208896,
+            "source_file_index": 0,
+            "file_offset": 4520448,
+            "sha256": "8deb8f5123d68477e08a4043bac26ef726798d177d7966b5667d06f8fee6f4bb"
+          },
+          {
+            "block": ".themida",
+            "start": "0x140509000",
+            "end": "0x140ab2fff",
+            "address_space": "ram",
+            "initialized": false,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": true,
+            "executable": true,
+            "length": 5939200,
+            "source_file_index": null,
+            "file_offset": null,
+            "sha256": null
+          },
+          {
+            "block": ".boot",
+            "start": "0x140ab3000",
+            "end": "0x140da81ff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": false,
+            "executable": true,
+            "length": 3101184,
+            "source_file_index": 0,
+            "file_offset": 4729344,
+            "sha256": "8f3831468a6780329a4ce766eb782ad14c620c9a3254b8dab9368d410ff42695"
+          },
+          {
+            "block": ".reloc",
+            "start": "0x140da9000",
+            "end": "0x140da900f",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": false,
+            "executable": false,
+            "length": 16,
+            "source_file_index": 0,
+            "file_offset": 7830528,
+            "sha256": "214c51dcf3babd8fadbaaf83bed5299e98de694e400dc313566e742ea5e903ad"
+          },
+          {
+            "block": ".reloc",
+            "start": "0x140da9010",
+            "end": "0x140da9fff",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": false,
+            "executable": false,
+            "length": 4080,
+            "source_file_index": null,
+            "file_offset": null,
+            "sha256": "9d4e9038bfe86a9c97688e56ccd91c848bbef20d631a7cce970645162bd478ef"
+          },
+          {
+            "block": "tdb",
+            "start": "0xff00000000",
+            "end": "0xff0000184f",
+            "address_space": "ram",
+            "initialized": true,
+            "loaded": true,
+            "overlay": false,
+            "readable": true,
+            "writable": true,
+            "executable": false,
+            "length": 6224,
+            "source_file_index": null,
+            "file_offset": null,
+            "sha256": "05241e8810c4fd271e4b318b550a6f294434ebea648fad7dd406e7e45d5c40b6"
+          }
+        ],
+        "relocations": [
+          {
+            "address": "0x1404d5000",
+            "segment": null,
+            "offset": null,
+            "status": "SKIPPED",
+            "type": 0,
+            "values": [],
+            "original_bytes_hex": null,
+            "memory_bytes_hex": null
+          },
+          {
+            "address": "0x1404d5018",
+            "segment": null,
+            "offset": null,
+            "status": "SKIPPED",
+            "type": 10,
+            "values": [],
+            "original_bytes_hex": null,
+            "memory_bytes_hex": null
+          },
+          {
+            "address": "0x1404d5020",
+            "segment": null,
+            "offset": null,
+            "status": "SKIPPED",
+            "type": 10,
+            "values": [],
+            "original_bytes_hex": null,
+            "memory_bytes_hex": null
+          },
+          {
+            "address": "0x1404d5028",
+            "segment": null,
+            "offset": null,
+            "status": "SKIPPED",
+            "type": 10,
+            "values": [],
+            "original_bytes_hex": null,
+            "memory_bytes_hex": null
+          }
+        ],
+        "entry_points": [
+          "0x1400df0e0",
+          "0x1400e5e40",
+          "0x140ab3058"
+        ],
+        "entry_context": [
+          {
+            "address": "0x1400df0e0",
+            "registers": [
+              {
+                "name": "CS",
+                "value_hex": null
+              },
+              {
+                "name": "DS",
+                "value_hex": null
+              },
+              {
+                "name": "ES",
+                "value_hex": null
+              },
+              {
+                "name": "SS",
+                "value_hex": null
+              }
+            ]
+          },
+          {
+            "address": "0x1400e5e40",
+            "registers": [
+              {
+                "name": "CS",
+                "value_hex": null
+              },
+              {
+                "name": "DS",
+                "value_hex": null
+              },
+              {
+                "name": "ES",
+                "value_hex": null
+              },
+              {
+                "name": "SS",
+                "value_hex": null
+              }
+            ]
+          },
+          {
+            "address": "0x140ab3058",
+            "registers": [
+              {
+                "name": "CS",
+                "value_hex": null
+              },
+              {
+                "name": "DS",
+                "value_hex": null
+              },
+              {
+                "name": "ES",
+                "value_hex": null
+              },
+              {
+                "name": "SS",
+                "value_hex": null
+              }
+            ]
+          }
+        ]
+      },
+      "normalized_result": {
+        "status": "unsupported",
+        "reason": "Independent load-image verification currently supports DOS MZ, explicit DOS COM, and caller-supplied raw-binary targets only.",
+        "observations": {
+          "metadata_recovery": [
+            {
+              "format": "dotnet-nativeaot",
+              "analysis_mode": "read-only-derived-overlay",
+              "status": "not_applicable",
+              "reason": "No supported ReadyToRun directory signature was found in initialized non-executable PE sections.",
+              "analysis_artifact_sha256": "7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8",
+              "header_address": null,
+              "discovery": null,
+              "format_major": null,
+              "format_minor": null,
+              "method_tables": 0,
+              "types": [],
+              "frozen_strings": [],
+              "derived_overlay": null,
+              "derived_memory": null,
+              "coverage": {
+                "pointer_candidates_examined": 0,
+                "method_tables_recovered": 0,
+                "frozen_string_candidates": 0,
+                "basis": "no-rtr-header"
+              },
+              "diagnostics": [],
+              "limitations": [
+                "This report is derived from the admitted file snapshot; it does not define or annotate Ghidra database types."
+              ]
+            }
+          ],
+          "executable_format": "Portable Executable (PE)",
+          "language_id": "x86:LE:64:default",
+          "compiler_spec_id": "windows",
+          "image_base": "0x140000000",
+          "default_address_space": "ram",
+          "source_files": [
+            {
+              "name": "target-7e37a8098930.exe",
+              "size": 7841144,
+              "original_sha256": "7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8",
+              "modified_sha256": "7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8"
+            }
+          ],
+          "mappings": [
+            {
+              "block": "Headers",
+              "start": "0x140000000",
+              "end": "0x1400005ff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": false,
+              "executable": false,
+              "length": 1536,
+              "source_file_index": 0,
+              "file_offset": 0,
+              "sha256": "24ad59a72f954d2d7d142126ae0520fc5543c7dfd4c6d68a07e453a132dd6efa"
+            },
+            {
+              "block": ".text",
+              "start": "0x140001000",
+              "end": "0x1402fddff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": false,
+              "executable": true,
+              "length": 3132928,
+              "source_file_index": 0,
+              "file_offset": 1536,
+              "sha256": "d1af2e49697690c903040f938bbcbe79e2baabd53a49c19a8faf6d7698b082fc"
+            },
+            {
+              "block": ".rdata",
+              "start": "0x1402fe000",
+              "end": "0x1403d8fff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": false,
+              "executable": false,
+              "length": 897024,
+              "source_file_index": 0,
+              "file_offset": 3134464,
+              "sha256": "7d13aac8dc61495752e00dc42af8c10db54b86cf6ce673477ea16b0d6bd6d58d"
+            },
+            {
+              "block": ".data",
+              "start": "0x1403d9000",
+              "end": "0x1403f77ff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": true,
+              "executable": false,
+              "length": 124928,
+              "source_file_index": 0,
+              "file_offset": 4031488,
+              "sha256": "1d3e88b65916c42121081ecd97c4884199f05d0917c15b263fb60f97e0cdaa5f"
+            },
+            {
+              "block": ".data",
+              "start": "0x1403f7800",
+              "end": "0x14046014b",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": true,
+              "executable": false,
+              "length": 428364,
+              "source_file_index": null,
+              "file_offset": null,
+              "sha256": "f06cc29918ad9f983a56f3b5e89a8be2b70e3c8e3cbf3cfdc5e1aba6f44f7a2f"
+            },
+            {
+              "block": ".pdata",
+              "start": "0x140461000",
+              "end": "0x14048c5ff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": false,
+              "executable": false,
+              "length": 177664,
+              "source_file_index": 0,
+              "file_offset": 4156416,
+              "sha256": "89c110e7fc9486c46c90a622fa0522cdac9a0f1d3d5f3c3e6478588985fccc76"
+            },
+            {
+              "block": "SECTION.4",
+              "start": "0x14048d000",
+              "end": "0x1404b35ff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": false,
+              "executable": false,
+              "length": 157184,
+              "source_file_index": 0,
+              "file_offset": 4334080,
+              "sha256": "f3b71f6edbe50a12a43327562ba8c7f8d6be42bd3af89507e38b5343d43235be"
+            },
+            {
+              "block": "SECTION.4",
+              "start": "0x1404b3600",
+              "end": "0x1404cb05f",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": false,
+              "executable": false,
+              "length": 96864,
+              "source_file_index": null,
+              "file_offset": null,
+              "sha256": "ae5a9455ac8503e2fb8359796c11ca27e28e846990530e2e2594407ba77437e0"
+            },
+            {
+              "block": ".reloc",
+              "start": "0x1404cc000",
+              "end": "0x1404d1dff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": false,
+              "executable": false,
+              "length": 24064,
+              "source_file_index": 0,
+              "file_offset": 4491264,
+              "sha256": "f91303c0e6a3155d7211cce8972b0dacdc437030325c2d8a475a30887c398f47"
+            },
+            {
+              "block": ".debug",
+              "start": "0x1404d2000",
+              "end": "0x1404d25ff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": false,
+              "executable": false,
+              "length": 1536,
+              "source_file_index": 0,
+              "file_offset": 4515328,
+              "sha256": "8ffaa7b205932d4fdeb59423490dddc4b22a2e20ea60469fc914f1c632976fff"
+            },
+            {
+              "block": ".debug",
+              "start": "0x1404d2600",
+              "end": "0x1404d2fff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": false,
+              "executable": false,
+              "length": 2560,
+              "source_file_index": null,
+              "file_offset": null,
+              "sha256": "8ce8ba8e726ee8925e6560d86ac35be1097691d1cfac888e6bd20e804ea9eb15"
+            },
+            {
+              "block": ".edata",
+              "start": "0x1404d3000",
+              "end": "0x1404d31ff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": false,
+              "executable": false,
+              "length": 512,
+              "source_file_index": 0,
+              "file_offset": 4516864,
+              "sha256": "6e06e3602d208dff8b9ee42290fff15913795b1a99a84c2c144cfb95676eeb37"
+            },
+            {
+              "block": ".edata",
+              "start": "0x1404d3200",
+              "end": "0x1404d3fff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": false,
+              "executable": false,
+              "length": 3584,
+              "source_file_index": null,
+              "file_offset": null,
+              "sha256": "6cf1b57d59e7111bc218dfb01dda93ac0f776715599a1c69f89035bd20c16a10"
+            },
+            {
+              "block": ".idata",
+              "start": "0x1404d4000",
+              "end": "0x1404d49ff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": true,
+              "executable": false,
+              "length": 2560,
+              "source_file_index": 0,
+              "file_offset": 4517376,
+              "sha256": "c634de46974d10e995aa37f5f4468ddc5378063b1131f261300bd12c676a6f89"
+            },
+            {
+              "block": ".idata",
+              "start": "0x1404d4a00",
+              "end": "0x1404d4fff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": true,
+              "executable": false,
+              "length": 1536,
+              "source_file_index": null,
+              "file_offset": null,
+              "sha256": "80422bc3d307b4a25bdafcc84ac7fb01cb55a09810e8b0f37bb12e0edb5c48ca"
+            },
+            {
+              "block": ".tls",
+              "start": "0x1404d5000",
+              "end": "0x1404d51ff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": true,
+              "executable": false,
+              "length": 512,
+              "source_file_index": 0,
+              "file_offset": 4519936,
+              "sha256": "9d4a156e74257425d5e66b961e0b8dea935d3031790108cee62e7fba20f7da52"
+            },
+            {
+              "block": ".tls",
+              "start": "0x1404d5200",
+              "end": "0x1404d5fff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": true,
+              "executable": false,
+              "length": 3584,
+              "source_file_index": null,
+              "file_offset": null,
+              "sha256": "6cf1b57d59e7111bc218dfb01dda93ac0f776715599a1c69f89035bd20c16a10"
+            },
+            {
+              "block": ".rsrc",
+              "start": "0x1404d6000",
+              "end": "0x140508fff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": false,
+              "executable": false,
+              "length": 208896,
+              "source_file_index": 0,
+              "file_offset": 4520448,
+              "sha256": "8deb8f5123d68477e08a4043bac26ef726798d177d7966b5667d06f8fee6f4bb"
+            },
+            {
+              "block": ".themida",
+              "start": "0x140509000",
+              "end": "0x140ab2fff",
+              "address_space": "ram",
+              "initialized": false,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": true,
+              "executable": true,
+              "length": 5939200,
+              "source_file_index": null,
+              "file_offset": null,
+              "sha256": null
+            },
+            {
+              "block": ".boot",
+              "start": "0x140ab3000",
+              "end": "0x140da81ff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": false,
+              "executable": true,
+              "length": 3101184,
+              "source_file_index": 0,
+              "file_offset": 4729344,
+              "sha256": "8f3831468a6780329a4ce766eb782ad14c620c9a3254b8dab9368d410ff42695"
+            },
+            {
+              "block": ".reloc",
+              "start": "0x140da9000",
+              "end": "0x140da900f",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": false,
+              "executable": false,
+              "length": 16,
+              "source_file_index": 0,
+              "file_offset": 7830528,
+              "sha256": "214c51dcf3babd8fadbaaf83bed5299e98de694e400dc313566e742ea5e903ad"
+            },
+            {
+              "block": ".reloc",
+              "start": "0x140da9010",
+              "end": "0x140da9fff",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": false,
+              "executable": false,
+              "length": 4080,
+              "source_file_index": null,
+              "file_offset": null,
+              "sha256": "9d4e9038bfe86a9c97688e56ccd91c848bbef20d631a7cce970645162bd478ef"
+            },
+            {
+              "block": "tdb",
+              "start": "0xff00000000",
+              "end": "0xff0000184f",
+              "address_space": "ram",
+              "initialized": true,
+              "loaded": true,
+              "overlay": false,
+              "readable": true,
+              "writable": true,
+              "executable": false,
+              "length": 6224,
+              "source_file_index": null,
+              "file_offset": null,
+              "sha256": "05241e8810c4fd271e4b318b550a6f294434ebea648fad7dd406e7e45d5c40b6"
+            }
+          ],
+          "relocations": [
+            {
+              "address": "0x1404d5000",
+              "segment": null,
+              "offset": null,
+              "status": "SKIPPED",
+              "type": 0,
+              "values": [],
+              "original_bytes_hex": null,
+              "memory_bytes_hex": null
+            },
+            {
+              "address": "0x1404d5018",
+              "segment": null,
+              "offset": null,
+              "status": "SKIPPED",
+              "type": 10,
+              "values": [],
+              "original_bytes_hex": null,
+              "memory_bytes_hex": null
+            },
+            {
+              "address": "0x1404d5020",
+              "segment": null,
+              "offset": null,
+              "status": "SKIPPED",
+              "type": 10,
+              "values": [],
+              "original_bytes_hex": null,
+              "memory_bytes_hex": null
+            },
+            {
+              "address": "0x1404d5028",
+              "segment": null,
+              "offset": null,
+              "status": "SKIPPED",
+              "type": 10,
+              "values": [],
+              "original_bytes_hex": null,
+              "memory_bytes_hex": null
+            }
+          ],
+          "entry_points": [
+            "0x1400df0e0",
+            "0x1400e5e40",
+            "0x140ab3058"
+          ],
+          "entry_context": [
+            {
+              "address": "0x1400df0e0",
+              "registers": [
+                {
+                  "name": "CS",
+                  "value_hex": null
+                },
+                {
+                  "name": "DS",
+                  "value_hex": null
+                },
+                {
+                  "name": "ES",
+                  "value_hex": null
+                },
+                {
+                  "name": "SS",
+                  "value_hex": null
+                }
+              ]
+            },
+            {
+              "address": "0x1400e5e40",
+              "registers": [
+                {
+                  "name": "CS",
+                  "value_hex": null
+                },
+                {
+                  "name": "DS",
+                  "value_hex": null
+                },
+                {
+                  "name": "ES",
+                  "value_hex": null
+                },
+                {
+                  "name": "SS",
+                  "value_hex": null
+                }
+              ]
+            },
+            {
+              "address": "0x140ab3058",
+              "registers": [
+                {
+                  "name": "CS",
+                  "value_hex": null
+                },
+                {
+                  "name": "DS",
+                  "value_hex": null
+                },
+                {
+                  "name": "ES",
+                  "value_hex": null
+                },
+                {
+                  "name": "SS",
+                  "value_hex": null
+                }
+              ]
+            }
+          ]
+        },
+        "limitations": [
+          "Load-image verification is not performed for PE targets; NativeAOT metadata observations are derived separately from the exact admitted snapshot."
+        ]
+      },
+      "confidence": "observed",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+        "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+        "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+        "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+        "Independent verification covers admitted DOS MZ, explicitly selected COM with measured entry context, and caller-supplied raw-binary imports. Measured source mappings use inclusive end addresses and complete region digests; no target execution or project mutation occurs.",
+        "Windows Ghidra P0 accepts native x86, x86-64, ARMNT (Thumb-2) and ARM64 PE applications and DLLs, and explicitly selected raw 6502 images; managed, hostile, sensitive, and mutable-path targets are unsupported.",
+        "The Windows bridge uses authenticated IPv4 loopback because Node path-based IPC does not expose Java AF_UNIX sockets; the endpoint file contains no bearer token.",
+        "Windows sessions require the matching packaged Windows x64 native addon, local NTFS targets and runtimes, and Windows 10 or later. Native handles enforce path admission, private DACLs, and Job Object ownership automatically.",
+        "The Ghidra Program references PDB SuddenAttack.pdb (GUID a63e89e7-f71f-4a19-bd72-6b57d676ad47, age (hex) 1, signature unknown, version RSDS); Ghidra reports load state unknown. Original names and types may be missing; an empty name search does not prove a procedure is absent. Use list_procedures and address-based analysis to inspect recovered functions. REA does not admit a caller-selected PDB companion."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 8
+}

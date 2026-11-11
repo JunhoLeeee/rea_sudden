@@ -1,0 +1,194 @@
+/*
+**
+** Name			the name of the attachable. the name is what will be entered into dedit.
+** Type			the type of the attachable. the valid types are:
+**
+**				0 - prop			a static item with no logic, like a hat, or moustache, etc
+**				1 - object			an item with logic, like a searchlight, etc
+**
+** Properties		a string with any object properties you wish to override (for example "Chrome 1;Gravity 0")
+** 
+** Class		if the type = 1 (object), the class name
+**
+** Model		if the type = 0 (prop), the name of the .ltb file
+**
+** Skin0-N		if the type = 0 (prop), the name of the .dtx file
+**              		There can be any number of skins: Skin0, Skin1, ..., SkinN
+**
+** RenderStyle0-N 	if the type = 0 (prop), the name of the .ltb file
+**				There can be any number of render styles: RenderStyle0, RenderStyle1, ..., RenderStyleN
+**
+** DeleteOnDeath    	1 if the attachment should be deleted when a character dies.
+**                  	0 if the attachment should be carried over to the body.
+**
+** DetachWhenShot   	1 if the attachment will be detached when shot at.
+**		    	0 if the attachment should remain attached when shot at.
+**
+** DebrisType		a string that is the name of a debris in debris.txt that will play if the attachment is shot
+**				and DetachWhenShot is 1.	
+**
+** Translucent		0 or 1 indicating whether or not the model contains translucent parts that need to be sorted
+**
+*/
+
+[Attachment0]
+
+Name			= "Gs_BreathFX"
+Type			= 1
+Class			= "SpecialFX"
+Properties		= "FxName Gs_Breath;Loop True;SmoothShutDown True"
+DeleteOnDeath		= 1
+DebrisType		= ""
+
+[Attachment1]
+
+Name			= "Gs_FluidSprayFX"
+Type			= 1
+Class			= "SpecialFX"
+Properties		= "FxName Gs_FluidSpray;Loop True;SmoothShutDown True"
+DeleteOnDeath		= 1
+DebrisType		= ""
+
+[Attachment2]
+
+Name			= "Gs_LightTracingFX"
+Type			= 1
+Class			= "SpecialFX"
+Properties		= "FxName Gs_LightTracing;Loop True;SmoothShutDown True"
+DeleteOnDeath		= 1
+DebrisType		= ""
+
+[Attachment3]
+
+Name			= "Gs_Nezar_Cap"
+Type			= 0
+Model			= "Gs_Attachments\Models\Nezar_Cap.ltb"
+Skin0			= "Gs_Attachments\Skins\Nezar_Cap.dtx"
+RenderStyle0 		= "RenderStyles\default.ltb"
+DeleteOnDeath		= 1
+DetachWhenShot		= 1
+DebrisType		= ""
+
+[Attachment4]
+
+Name			= "Gs_LswTest"
+Type			= 1
+Class			= "SpecialFX"
+Properties		= "FxName Gs_LswTest;Loop True;SmoothShutDown True"
+DeleteOnDeath		= 1
+DetachWhenShot		= 1
+DebrisType		= ""
+
+[Attachment5] // STUD 에서 사용 되구있는 Hair Socket!
+
+[Attachment6] // REPLICA 에서 사용 되구있는 Cap Socket!
+
+[Attachment7] // REPLICA 에서 사용 되구있는 Hair Socket!
+
+[Attachment8] // REPLICA 에서 사용 되구있는 Hair Socket!
+
+[Attachment9]  
+Name			= "Li_Ingram_Attachment"
+Type			= 0
+Model			= "SA_Weapons\Models\TV\Ingram_s.ltb"
+Skin0			= "SA_Weapons\Skins\TV\s_Ingram_01.dtx"
+Skin1			= "SA_Weapons\Skins\TV\s_Ingram_02.dtx"
+RenderStyle0 		= "RenderStyles\default.ltb"
+DeleteOnDeath		= 0
+DetachWhenShot		= 0
+DebrisType		= ""
+
+[Attachment10] 
+
+Name			= "Li_Flash2_FireFx"
+Type			= 1
+Class			= "SpecialFX"
+Properties		= "FxName Li_HH_MFX_Ingram;Loop True;SmoothShutDown True"
+DeleteOnDeath		= 1
+DebrisType		= ""
+
+[Attachment11] 
+
+Name			= "Li_Weapon_Smoke_1"
+Type			= 1
+Class			= "SpecialFX"
+Properties		= "FxName Li_smoke_small;Loop True;SmoothShutDown True"
+DeleteOnDeath		= 1
+DebrisType		= ""
+
+/*************************************************************************
+**
+**	Requirement = Required Attachments
+**
+** Model
+**	-	Model for which the attachment is required
+**
+** Style
+**	-	Style for which the attachment is required
+**		(if attachement is required for all styles, leave this blank)
+**
+** Attachment
+**	-	Name of the required attachment
+**
+** Socket
+**	-	Socket to attach to
+**
+*/
+
+
+/**************************************************************************
+**
+** Player-View Attachments
+**
+** Name				User firendly name used to reference a PVAttachment in a model record in modelbutes.txt
+**
+** Model			Filename of the model to attach
+**
+** Skin0-N			Skins for the model
+**
+** Renderstyle0-N		Renderstyles for the model
+**
+** Scale			Scale of the model
+**
+** Translucent			0 or 1 indicating whether or not the model contains translucent parts that need to be sorted
+**
+** >> 추가
+** Offset			말그대로 offset 값
+*/
+
+
+[PVAttachment0]
+
+Name			= "PV_Knife"
+Model			= "SA_Weapons\Models\PV\PV_Knife.ltb"
+Skin0			= "SA_Weapons\Skins\PV\PV_Knife.dtx"
+Skin1		    	= "SA_TexFX\RenderStyle\shinyspot.dtx"
+RenderStyle0		= "RenderStyles\default.ltb"
+RenderStyle1 	    	= "RenderStyles\pv_envmap.ltb"
+Scale			= <1.0, 1.0, 1.0>
+Translucent		= 0
+Offset			= <0.0, 0.0, 0.0>
+
+[PVAttachment1]
+
+Name			= "PV_Axe"
+Model			= "SA_Weapons\Models\PV\PV_Axe.ltb"
+Skin0			= "SA_Weapons\Skins\PV\PV_Axe.dtx"
+Skin1		    	= "SA_TexFX\RenderStyle\shinyspot.dtx"
+RenderStyle0		= "RenderStyles\default.ltb"
+RenderStyle1 	    	= "RenderStyles\pv_envmap.ltb"
+Scale			= <1.0, 1.0, 1.0>
+Translucent		= 0
+Offset			= <0.0, 1.5, 0.0>
+
+[PVAttachment2]
+
+Name			= "PV_DragonStick"
+Model			= "SA_Weapons\Models\PV\PV_DragonStick.ltb"
+Skin0			= "SA_Weapons\Skins\PV\PV_DragonStick.dtx"
+Skin1		    	= "SA_TexFX\RenderStyle\shinyspot.dtx"
+RenderStyle0		= "RenderStyles\default.ltb"
+RenderStyle1 	    	= "RenderStyles\pv_envmap.ltb"
+Scale			= <1.0, 1.0, 1.0>
+Translucent		= 0
+Offset			= <0.0, 0.0, 0.0>

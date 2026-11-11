@@ -1,0 +1,113 @@
+{
+  "converted": [
+    {
+      "source": "extracted\\login-ui\\sa_interface\\menu\\textures\\login\\login.dtx",
+      "output": "previews\\login-complete\\sa_interface\\menu\\textures\\login\\login.png",
+      "source_sha256": "f500793b6387e5b565b09b07dd5746552fe2e322bfe80cd77153a4e95610b16c",
+      "png_sha256": "c88ba480e7ca6222b7b6f49907bc685208dbf174594929dc97132960cd1e648e",
+      "width": 512,
+      "height": 256,
+      "mip_count": 1,
+      "mip_previewed": 0,
+      "dtx_format": 6,
+      "interpretation": "inferred-BC3"
+    },
+    {
+      "source": "extracted\\login-ui\\sa_interface\\menu\\textures\\login\\loginc.dtx",
+      "output": "previews\\login-complete\\sa_interface\\menu\\textures\\login\\loginc.png",
+      "source_sha256": "d8c745187a820b13477b02c69652f2086b8b893d6072ad97239fbc3f723a6b02",
+      "png_sha256": "f6ef6365a46c1db33c4fe7528ceafbe17838aa9bd27ce2380fdaa95f25fc1a40",
+      "width": 128,
+      "height": 32,
+      "mip_count": 1,
+      "mip_previewed": 0,
+      "dtx_format": 3,
+      "interpretation": "inferred-BGRA8"
+    },
+    {
+      "source": "extracted\\login-ui\\sa_interface\\menu\\textures\\login\\logind.dtx",
+      "output": "previews\\login-complete\\sa_interface\\menu\\textures\\login\\logind.png",
+      "source_sha256": "b7d916078ca1d6bce218c56346aeb6b7084c36a6b9edcf991886ba5eb7cc2732",
+      "png_sha256": "00052e59954147c42d74aa7eb729104ece914238433d804d3e675a1ecb4953fc",
+      "width": 128,
+      "height": 32,
+      "mip_count": 1,
+      "mip_previewed": 0,
+      "dtx_format": 3,
+      "interpretation": "inferred-BGRA8"
+    },
+    {
+      "source": "extracted\\login-ui\\sa_interface\\menu\\textures\\login\\loginh.dtx",
+      "output": "previews\\login-complete\\sa_interface\\menu\\textures\\login\\loginh.png",
+      "source_sha256": "80fb28513adbea08f64a7662db8ebaa83ab147eeaa5c938f7038d70613696527",
+      "png_sha256": "27870fa17d84182bfd5a2b0eb3094e48b9dcd67c68adc0e9ece03826d6f9bb25",
+      "width": 128,
+      "height": 32,
+      "mip_count": 1,
+      "mip_previewed": 0,
+      "dtx_format": 3,
+      "interpretation": "inferred-BGRA8"
+    },
+    {
+      "source": "extracted\\login-ui\\sa_interface\\menu\\textures\\login\\loginn.dtx",
+      "output": "previews\\login-complete\\sa_interface\\menu\\textures\\login\\loginn.png",
+      "source_sha256": "7bf8163955440887098bb616d4d02954bc5dfaf5ebe5cc1f32597b11457a9f71",
+      "png_sha256": "0ff2b12552d4856680602ce0b3b1508bc300fd748547b300541c7f2aa1eb2f19",
+      "width": 128,
+      "height": 32,
+      "mip_count": 1,
+      "mip_previewed": 0,
+      "dtx_format": 3,
+      "interpretation": "inferred-BGRA8"
+    },
+    {
+      "source": "extracted\\login-ui\\sa_interface\\menu\\textures\\login\\logoutc.dtx",
+      "output": "previews\\login-complete\\sa_interface\\menu\\textures\\login\\logoutc.png",
+      "source_sha256": "d8c745187a820b13477b02c69652f2086b8b893d6072ad97239fbc3f723a6b02",
+      "png_sha256": "f6ef6365a46c1db33c4fe7528ceafbe17838aa9bd27ce2380fdaa95f25fc1a40",
+      "width": 128,
+      "height": 32,
+      "mip_count": 1,
+      "mip_previewed": 0,
+      "dtx_format": 3,
+      "interpretation": "inferred-BGRA8"
+    },
+    {
+      "source": "extracted\\login-ui\\sa_interface\\menu\\textures\\login\\logoutd.dtx",
+      "output": "previews\\login-complete\\sa_interface\\menu\\textures\\login\\logoutd.png",
+      "source_sha256": "b7d916078ca1d6bce218c56346aeb6b7084c36a6b9edcf991886ba5eb7cc2732",
+      "png_sha256": "00052e59954147c42d74aa7eb729104ece914238433d804d3e675a1ecb4953fc",
+      "width": 128,
+      "height": 32,
+      "mip_count": 1,
+      "mip_previewed": 0,
+      "dtx_format": 3,
+      "interpretation": "inferred-BGRA8"
+    },
+    {
+      "source": "extracted\\login-ui\\sa_interface\\menu\\textures\\login\\logouth.dtx",
+      "output": "previews\\login-complete\\sa_interface\\menu\\textures\\login\\logouth.png",
+      "source_sha256": "80fb28513adbea08f64a7662db8ebaa83ab147eeaa5c938f7038d70613696527",
+      "png_sha256": "27870fa17d84182bfd5a2b0eb3094e48b9dcd67c68adc0e9ece03826d6f9bb25",
+      "width": 128,
+      "height": 32,
+      "mip_count": 1,
+      "mip_previewed": 0,
+      "dtx_format": 3,
+      "interpretation": "inferred-BGRA8"
+    },
+    {
+      "source": "extracted\\login-ui\\sa_interface\\menu\\textures\\login\\logoutn.dtx",
+      "output": "previews\\login-complete\\sa_interface\\menu\\textures\\login\\logoutn.png",
+      "source_sha256": "7bf8163955440887098bb616d4d02954bc5dfaf5ebe5cc1f32597b11457a9f71",
+      "png_sha256": "0ff2b12552d4856680602ce0b3b1508bc300fd748547b300541c7f2aa1eb2f19",
+      "width": 128,
+      "height": 32,
+      "mip_count": 1,
+      "mip_previewed": 0,
+      "dtx_format": 3,
+      "interpretation": "inferred-BGRA8"
+    }
+  ],
+  "unsupported": []
+}

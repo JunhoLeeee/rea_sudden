@@ -1,0 +1,26 @@
+{
+	"ForceWeaponMapList":[279],
+	"ForceWeaponList" :
+	[
+		{"Group" : "AR", "WeaponIndex" : 7569},
+		{"Group" : "SMG", "WeaponIndex" : 7575},
+		{"Group" : "MG", "WeaponIndex" : 7575},
+		{"Group" : "SD", "WeaponIndex" : 7575},
+		{"Group" : "SG", "WeaponIndex" : 7575},
+		{"Group" : "SR", "WeaponIndex" : 7577},
+		{"Group" : "PT", "WeaponIndex" : 7579},
+		{"Group" : "KN", "WeaponIndex" : 7580},
+	],
+
+	"QuickSlotList" :
+	[
+		7569, 7570, 7571, 7572, 7573, 7574, 7575, 7576, 7577, 7578
+	],
+	
+	"ForceCharacterMapList":[279],
+	"ForceCharacterList" :
+	[
+		{"0" : [3145, 3147], "Probability" : [40, 60]},
+		{"1" : [3146, 3148], "Probability" : []},
+	]
+}

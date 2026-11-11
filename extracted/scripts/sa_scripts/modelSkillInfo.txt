@@ -1,0 +1,210 @@
+[SkillInfo1]
+index    = 1
+name     = "나를 죽인 적의 HP 확인"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_01.dtx"
+desc1 	 = "- 사망 시 자신을 처치한 적의 남은 체력을"
+desc2 	 = "  화면 중앙 하단에 표시해주는 기능"
+
+
+[SkillInfo2]
+index 	 = 2
+name 	 = "실시간 타격 대미지 확인"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_02.dtx"
+desc1 	 = "- 적을 공격할 때 실시간으로 입힌 대미지를"
+desc2 	 = "  화면 중앙 하단에 표시해주는 기능"
+
+
+[SkillInfo3]
+index 	 = 3
+name 	 = "V키 특수 라디오"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_03.dtx"
+desc1 	 = "- 캐릭터 고유의 특수 라디오 메시지를 보낼 수 있는 기능"
+desc2 	 = "- [V]키로 사용"
+
+
+[SkillInfo4]
+index 	 = 4
+name 	 = "타격 부위 표시"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_04.dtx"
+desc1 	 = "- 적을 명중시켰을 때 어느 부위를 맞췄는지"
+desc2	 = "  화면에 표시해주는 기능"
+desc3	 = "- [/]키로 사용"
+
+
+[SkillInfo5]
+index 	 = 5
+name 	 = "발자국 볼륨 조절"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_05.dtx"
+desc1 	 = "- 발소리의 볼륨을 세밀하게 조절할 수 있는 기능"
+desc2	 = "- [M]키로 ON/OFF / [,], [.]키로 볼륨 조절"
+
+
+[SkillInfo6]
+index 	 = 6
+name 	 = "관전자 표시"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_06.dtx"
+desc1 	 = "- 자신을 관전하고 있는 플레이어를 표시하는 기능"
+desc2	 = "- Tab 상황판 하단에 표시"
+
+
+[SkillInfo7]
+index 	 = 7
+name 	 = "타격 효과 강화"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_07.dtx"
+desc1 	 = "- 적을 공격했을 때 남은 HP를"
+desc2	 = "  시각적으로 표시해주는 기능"
+desc3	 = "- HP가 없을수록 몸전체가 붉은색을 띔"
+desc4	 = "- [Ctrl + F2]키로 ON/OFF"
+
+
+[SkillInfo8]
+index 	 = 8
+name	 = "피아식별 강화"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_08.dtx"
+desc1 	 = "- 아군/적군 식별을 더 명확하게 표시해주는 기능"
+desc2	 = "- 적 어깨 위 붉은색(레드)/파란색(블루) 불빛 견장 표시"
+desc3	 = "- [H]키로 ON/OFF"
+
+
+[SkillInfo9]
+index 	 = 9
+name	 = "감정표현"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_09.dtx"
+desc1 	 = "- 이모션, 춤 등 캐릭터 고유의 감정표현 동작을"
+desc2	 = "  사용할 수 있는 기능"
+desc3	 = "- [`]키로 사용"
+
+
+[SkillInfo10]
+index 	 = 10
+name	 = "스프레이"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_10.dtx"
+desc1 	 = "- 지정된 위치에 스프레이를 뿌릴 수 있는 기능"
+desc2	 = "- [J]키로 사용"
+
+
+[SkillInfo11]
+index 	 = 11
+name	 = "고스트 이펙트"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_11.dtx"
+desc1 	 = "- 적 처치 시 적 캐릭터 위에 아이콘을 표시해주는 효과"
+
+
+[SkillInfo12]
+index 	 = 12
+name	 = "경험치 증가 50%"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_12.dtx"
+desc1 	 = "- 캐릭터 착용 시 50% 추가 경험치 제공"
+
+
+[SkillInfo13]
+index 	 = 13
+name	 = "경험치 증가 100%"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_13.dtx"
+desc1 	 = "- 캐릭터 착용 시 100% 추가 경험치 제공"
+
+
+[SkillInfo14]
+index 	 = 14
+name	 = "점프 사운드 묵음"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_100.dtx"
+desc1 	 = "- 점프 시 사운드를 제거하여 본인과 상대 모두에게"
+desc2	 = "  점프 소리가 들리지 않게 하는 기능"
+
+
+[SkillInfo15]
+index 	 = 15
+name	 = "아군 발소리 끄기"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_101.dtx"
+desc1 	 = "- 나를 제외한 아군 전체의 발소리를 들리지 않게 하여"
+desc2	 = "  적 발소리 식별에 집중할 수 있는 기능"
+desc3	 = "- [Ctrl + ,]키로 ON/OFF"
+
+
+[SkillInfo16]
+index 	 = 16
+name	 = "내 발소리 끄기"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_102.dtx"
+desc1 	 = "- 본인에게만 자신의 발소리가 들리지 않게 처리하는 기능"
+desc2	 = "- [Ctrl + M]키로 ON/OFF"
+
+
+[SkillInfo17]
+index 	 = 17
+name	 = "발소리 사운드 볼륨 감소"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_103.dtx"
+desc1 	 = "- 발소리의 전체 볼륨을 줄여주는 기능"
+
+
+[SkillInfo18]
+index 	 = 18
+name	 = "히트 마커"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_104.dtx"
+desc1 	 = "- 적을 명중시켰을 때 크로스헤어에"
+desc2	 = "  히트마커(타격 표시)가 나타나는 기능"
+desc3	 = "- [Ctrl + .]키로 ON/OFF"
+
+
+[SkillInfo19]
+index 	 = 19
+name	 = "수류탄 경고기능"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_105.dtx"
+desc1 	 = "- 수류탄의 피해 범위 근처에 있을 때"
+desc2	 = "  경고 알림을 표시해주는 기능"
+desc3	 = "- [Ctrl + ;]키로 ON/OFF"
+
+
+[SkillInfo20]
+index 	 = 20
+name	 = "미니맵 기능 강화"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_106.dtx"
+desc1 	 = "- 내 발소리가 드러날 때 미니맵에서 피드백을"
+desc2	 = "  제공하거나, 미니맵에 적군 표시 시간이 길어지며"
+desc3	 = "  미니맵에 표시되는 범위가 증가하는 기능"
+desc4	 = "- [Ctrl + =]키로 ON/OFF"
+
+[SkillInfo21]
+index 	 = 21
+name	 = "캐릭터 피격 효과"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_21.dtx"
+desc1 	 = "- 피격 시 일반 혈흔 대신 캐릭터 고유의 특별한 시각 효과가 표시되는 기능"
+
+[SkillInfo22]
+index 	 = 22
+name	 = "캐릭터 세트 효과"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_22.dtx"
+desc1 	 = "- 캐릭터 세트 활성화 시 전용 아이템이나 추가 혜택이 제공되는 기능"
+
+//캐릭터 외형 변경 (고정 기능)
+[SkillInfo23]
+index 	 = 23
+name	 = "캐릭터 외형 변경"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_23.dtx"
+desc1 	 = "- 무기 교체 가능 시간에 동일 캐릭터 내"
+desc2	 = "  다른 외형으로 즉시 변경할 수 있는 기능"
+
+//캐릭터 외형 변경 (변경 기능)
+[SkillInfo24]
+index 	 = 24
+name	 = "캐릭터 외형 변경"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_24.dtx"
+desc1 	 = "- 무기 교체 가능 시간에 동일 캐릭터 내"
+desc2	 = "  다른 외형으로 즉시 변경할 수 있는 기능"
+
+//피격 표시 강화 (고정 기능)
+[SkillInfo25]
+index 	 = 25
+name	 = "피격 표시 강화"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_25.dtx"
+desc1	 = "- 적에게 피격 시 전용 피격 표시가 나타나는 기능"
+desc2	 = "- [Ctrl + -]키로 ON/OFF"
+desc3	 = "- 협동플레이 모드에서는 기능 미적용"
+
+//피격 표시 강화 (변경 기능)
+[SkillInfo26]
+index 	 = 26
+name	 = "피격 표시 강화"
+iconPath = "sa_interface2\menu\modelReskill\skillIcons\chr_func_26.dtx"
+desc1	 = "- 적에게 피격 시 전용 피격 표시가 나타나는 기능"
+desc2	 = "- [Ctrl + -]키로 ON/OFF"
+desc3	 = "- 협동플레이 모드에서는 기능 미적용"

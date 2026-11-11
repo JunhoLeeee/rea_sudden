@@ -1,0 +1,318 @@
+{
+  "path": "C:\\Users\\PC\\Desktop\\REA\\extracted\\game-file\\game_file\\CShell.dll",
+  "sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110",
+  "decoder": "Capstone 5.0.7",
+  "image_base": "0x180000000",
+  "slices": [
+    {
+      "requested_address": "0x180019770",
+      "traversal": "direct-branch-reachable, calls not followed",
+      "instruction_count": 26,
+      "unknowns": [],
+      "instructions": [
+        {
+          "address": "0x180019770",
+          "bytes": "4883ec28",
+          "mnemonic": "sub",
+          "operands": "rsp, 0x28",
+          "references": []
+        },
+        {
+          "address": "0x180019774",
+          "bytes": "41b894010000",
+          "mnemonic": "mov",
+          "operands": "r8d, 0x194",
+          "references": []
+        },
+        {
+          "address": "0x18001977a",
+          "bytes": "488d15df844b01",
+          "mnemonic": "lea",
+          "operands": "rdx, [rip + 0x14b84df]",
+          "references": [
+            {
+              "kind": "rip-memory",
+              "address": "0x1814d1c60",
+              "width": 8,
+              "read": true,
+              "write": false,
+              "preview": {
+                "bytes_hex": "494c54436c69656e742e44656661756c",
+                "ascii": "ILTClient.Default"
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x180019781",
+          "bytes": "488d0d88939301",
+          "mnemonic": "lea",
+          "operands": "rcx, [rip + 0x1939388]",
+          "references": [
+            {
+              "kind": "rip-memory",
+              "address": "0x181952b10",
+              "width": 8,
+              "read": true,
+              "write": false,
+              "preview": null
+            }
+          ]
+        },
+        {
+          "address": "0x180019788",
+          "bytes": "e8e3823b00",
+          "mnemonic": "call",
+          "operands": "0x1803d1a70",
+          "references": [
+            {
+              "kind": "direct-control-flow",
+              "address": "0x1803d1a70"
+            }
+          ]
+        },
+        {
+          "address": "0x18001978d",
+          "bytes": "90",
+          "mnemonic": "nop",
+          "operands": "",
+          "references": []
+        },
+        {
+          "address": "0x18001978e",
+          "bytes": "488d05ab844b01",
+          "mnemonic": "lea",
+          "operands": "rax, [rip + 0x14b84ab]",
+          "references": [
+            {
+              "kind": "rip-memory",
+              "address": "0x1814d1c40",
+              "width": 8,
+              "read": true,
+              "write": false,
+              "preview": {
+                "bytes_hex": "c0113d800100000090113d8001000000"
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x180019795",
+          "bytes": "48890574939301",
+          "mnemonic": "mov",
+          "operands": "qword ptr [rip + 0x1939374], rax",
+          "references": [
+            {
+              "kind": "rip-memory",
+              "address": "0x181952b10",
+              "width": 8,
+              "read": false,
+              "write": true,
+              "preview": null
+            }
+          ]
+        },
+        {
+          "address": "0x18001979c",
+          "bytes": "488d059d929301",
+          "mnemonic": "lea",
+          "operands": "rax, [rip + 0x193929d]",
+          "references": [
+            {
+              "kind": "rip-memory",
+              "address": "0x181952a40",
+              "width": 8,
+              "read": true,
+              "write": false,
+              "preview": null
+            }
+          ]
+        },
+        {
+          "address": "0x1800197a3",
+          "bytes": "4889057e939301",
+          "mnemonic": "mov",
+          "operands": "qword ptr [rip + 0x193937e], rax",
+          "references": [
+            {
+              "kind": "rip-memory",
+              "address": "0x181952b28",
+              "width": 8,
+              "read": false,
+              "write": true,
+              "preview": null
+            }
+          ]
+        },
+        {
+          "address": "0x1800197aa",
+          "bytes": "48c7058b92930100000000",
+          "mnemonic": "mov",
+          "operands": "qword ptr [rip + 0x193928b], 0",
+          "references": [
+            {
+              "kind": "rip-memory",
+              "address": "0x181952a40",
+              "width": 8,
+              "read": false,
+              "write": true,
+              "preview": null
+            }
+          ]
+        },
+        {
+          "address": "0x1800197b5",
+          "bytes": "e806983b00",
+          "mnemonic": "call",
+          "operands": "0x1803d2fc0",
+          "references": [
+            {
+              "kind": "direct-control-flow",
+              "address": "0x1803d2fc0"
+            }
+          ]
+        },
+        {
+          "address": "0x1800197ba",
+          "bytes": "488d0d4f939301",
+          "mnemonic": "lea",
+          "operands": "rcx, [rip + 0x193934f]",
+          "references": [
+            {
+              "kind": "rip-memory",
+              "address": "0x181952b10",
+              "width": 8,
+              "read": true,
+              "write": false,
+              "preview": null
+            }
+          ]
+        },
+        {
+          "address": "0x1800197c1",
+          "bytes": "e8da963b00",
+          "mnemonic": "call",
+          "operands": "0x1803d2ea0",
+          "references": [
+            {
+              "kind": "direct-control-flow",
+              "address": "0x1803d2ea0"
+            }
+          ]
+        },
+        {
+          "address": "0x1800197c6",
+          "bytes": "90",
+          "mnemonic": "nop",
+          "operands": "",
+          "references": []
+        },
+        {
+          "address": "0x1800197c7",
+          "bytes": "488d0da2574201",
+          "mnemonic": "lea",
+          "operands": "rcx, [rip + 0x14257a2]",
+          "references": [
+            {
+              "kind": "rip-memory",
+              "address": "0x18143ef70",
+              "width": 8,
+              "read": true,
+              "write": false,
+              "preview": {
+                "bytes_hex": "4883ec28488d05c52c09004889058e3b",
+                "utf-16-le": "\u8348\u28ec\u8d48\uc505\u092c\u4800\u0589\u3b8eQ\u8b48\u9f05\u513b\u4800\u00c7"
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x1800197ce",
+          "bytes": "4883c428",
+          "mnemonic": "add",
+          "operands": "rsp, 0x28",
+          "references": []
+        },
+        {
+          "address": "0x1800197d2",
+          "bytes": "e945e73601",
+          "mnemonic": "jmp",
+          "operands": "0x181387f1c",
+          "references": [
+            {
+              "kind": "direct-control-flow",
+              "address": "0x181387f1c"
+            }
+          ]
+        },
+        {
+          "address": "0x181387f1c",
+          "bytes": "4883ec28",
+          "mnemonic": "sub",
+          "operands": "rsp, 0x28",
+          "references": []
+        },
+        {
+          "address": "0x181387f20",
+          "bytes": "e89bffffff",
+          "mnemonic": "call",
+          "operands": "0x181387ec0",
+          "references": [
+            {
+              "kind": "direct-control-flow",
+              "address": "0x181387ec0"
+            }
+          ]
+        },
+        {
+          "address": "0x181387f25",
+          "bytes": "48f7d8",
+          "mnemonic": "neg",
+          "operands": "rax",
+          "references": []
+        },
+        {
+          "address": "0x181387f28",
+          "bytes": "1bc0",
+          "mnemonic": "sbb",
+          "operands": "eax, eax",
+          "references": []
+        },
+        {
+          "address": "0x181387f2a",
+          "bytes": "f7d8",
+          "mnemonic": "neg",
+          "operands": "eax",
+          "references": []
+        },
+        {
+          "address": "0x181387f2c",
+          "bytes": "ffc8",
+          "mnemonic": "dec",
+          "operands": "eax",
+          "references": []
+        },
+        {
+          "address": "0x181387f2e",
+          "bytes": "4883c428",
+          "mnemonic": "add",
+          "operands": "rsp, 0x28",
+          "references": []
+        },
+        {
+          "address": "0x181387f32",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": "",
+          "references": []
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Static byte observations only; target not executed.",
+    "Unwind extents can be fragments; leaf probes are bounded.",
+    "Linear decoding does not establish reachability or recover indirect targets.",
+    "RIP memory references do not dereference pointers or prove runtime values."
+  ]
+}

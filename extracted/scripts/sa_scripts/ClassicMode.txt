@@ -1,0 +1,125 @@
+///////////////////////////////////// 클래식 모드 무기 슬롯 리스트
+// [classicWeapon + 순서대로 번호]
+
+// 클래식 TRG-21
+[classicWeapon0]
+listIndex = 1
+weaponIndex = 1814
+
+// 클래식 AK-47
+[classicWeapon1]
+listIndex = 2
+weaponIndex = 1815
+
+// 클래식 M4A1
+[classicWeapon2]
+listIndex = 3
+weaponIndex = 1816
+
+// 클래식 FAMAS
+[classicWeapon3]
+listIndex = 4
+weaponIndex = 5773
+
+// 클래식 CM901
+[classicWeapon4]
+listIndex = 5
+weaponIndex = 5774
+
+// 클래식 SG870
+[classicWeapon5]
+listIndex = 6
+weaponIndex = 1867
+
+// 클래식 D.Eagle
+[classicWeapon6]
+listIndex = 7
+weaponIndex = 1817
+
+// 클래식 Anaconda
+[classicWeapon7]
+listIndex = 8
+weaponIndex = 1872
+
+// 클래식 Knife
+[classicWeapon8]
+listIndex = 9
+weaponIndex = 1818
+
+// 클래식 Gurkha
+[classicWeapon9]
+listIndex = 0
+weaponIndex = 1874
+
+//-----------------클래식 무기끝--------------------
+/////////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////// 클래식 모델 리스트
+// [classicModel + 순서대로 번호]
+
+// 클래식 레드(RED)
+[classicModel0]
+Index = 880
+
+// 클래식 블루(BLUE)
+[classicModel1]
+Index = 881
+
+// 레드윈드(RED)_여자D
+[classicModel2]
+Index = 593
+
+// 노블아이(BLUE)_여자D
+[classicModel3]
+Index = 594
+
+//-----------------클래식 모델끝--------------------
+/////////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////// 클래식 맵 리스트
+// [classicMap + 순서대로 번호]
+
+// C-제3보급창고
+[classicMap0]
+Index = 162
+
+// C-A보급창고
+[classicMap1]
+Index = 161
+
+// C-원웨이
+[classicMap2]
+Index = 167
+
+// C-웨어하우스
+[classicMap3]
+Index = 164
+
+// C-로얄로드
+[classicMap4]
+Index = 174
+
+// C-스톤캐슬
+[classicMap5]
+Index = 175
+
+// C-크로스포트
+[classicMap6]
+Index = 266
+
+// C-버닝리버
+[classicMap7]
+Index = 166
+
+// C-드래곤로드
+[classicMap8]
+Index = 163
+
+// C-파워플랜트
+[classicMap9]
+Index = 168
+
+//-----------------클래식 맵끝--------------------
+/////////////////////////////////////////////////////////////////////////////

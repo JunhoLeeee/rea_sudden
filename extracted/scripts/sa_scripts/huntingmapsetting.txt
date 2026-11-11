@@ -1,0 +1,191 @@
+[MapGroup0]
+//Desc   =Å×½ºÆ®
+Group0   =3
+Group0WP   = "206"
+Group0Type   = 0
+Group0Value   = "1"
+Group0Scale   = <0.3, 0.3, 0.3>
+
+
+
+[MapGroup1]
+//Desc   =Ã¢¹®_1Ãþ ÁÂÃø Ç×½Ã
+Group0   =1
+Group0WP   = "5301,5302,5303,5304,5305"
+Group0Type   = 0
+Group0Value   = "1"
+Group0Scale   = <1.0, 1.0, 1.0>
+ 
+ 
+
+
+[MapGroup2]
+//Desc   =Ã¢¹®_1Ãþ Áß¾Ó Ç×½Ã
+Group0   =1
+Group0WP   = "5306,5307,5308,5309,5310"
+Group0Type   = 0
+Group0Value   = "1"
+Group0Scale   = <1.0, 1.0, 1.0>
+ 
+ 
+
+[MapGroup3]
+//Desc   =Ã¢¹®_1Ãþ ¿ìÃø Ç×½Ã
+Group0   =1
+Group0WP   = "5311,5312,5313,5314,5315"
+Group0Type   = 0
+Group0Value   = "1"
+Group0Scale   = <1.0, 1.0, 1.0>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[MapGroup4]
+//Desc   =Ã¢¹®_2Ãþ ÁÂÃø Ç×½Ã
+Group0   =1
+Group0WP   = "5316,5317,5318,5319,5320"
+Group0Type   = 0
+Group0Value   = "1"
+Group0Scale   = <1.0, 1.0, 1.0>
+ 
+
+ 
+
+[MapGroup5]
+//Desc   =Ã¢¹®_2Ãþ Áß¾Ó Ç×½Ã
+Group0   =1
+Group0WP   = "5321,5322,5323,5324,5325"
+Group0Type   = 0
+Group0Value   = "1"
+Group0Scale   = <1.0, 1.0, 1.0>
+ 
+ 
+ 
+
+
+[MapGroup6]
+//Desc   =Ã¢¹®_2Ãþ ¿ìÃø Ç×½Ã
+Group0   =1
+Group0WP   = "5326,5327,5328,5329,5330"
+Group0Type   = 0
+Group0Value   = "1"
+Group0Scale   = <1.0, 1.0, 1.0>
+ 
+
+
+[MapGroup7]
+//Desc   =Ã¢¹®_ALL Ç×½Ã
+Group0   =1
+Group0WP   = "5301,5302,5303,5304,5305,5306,5307,5308,5309,5310,5311,5312,5313,5314,5315"
+Group0Type   = 0
+Group0Value   = "1"
+Group0Scale   = <1.0, 1.0, 1.0>
+Group1   =1
+Group1WP   = "5316,5317,5318,5319,5320,5321,5322,5323,5324,5325,5326,5327,5328,5329,5330"
+Group1Type   = 0
+Group1Value   = "1"
+Group1Scale   = <1.0, 1.0, 1.0>
+ 
+
+ 
+
+[MapGroup8]
+//Desc   =Èë_3È¦
+Group0   =2
+Group0WP   = "5002,5012,5013"
+Group0Type   = 0
+Group0Value   = "1"
+Group0Scale   = <0.75, 0.75, 0.75>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[MapGroup9]
+//Desc   =Èë_4È¦
+Group0   =2
+Group0WP   = "5001,5003,5011,5014"
+Group0Type   = 0
+Group0Value   = "1"
+Group0Scale   = <0.75, 0.75, 0.75>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[MapGroup10]
+//Desc   =Èë_7È¦
+Group0   =2
+Group0WP   = "5001,5002,5003,5011,5012,5013,5014"
+Group0Type   = 0
+Group0Value   = "1"
+Group0Scale   = <0.75, 0.75, 0.75>
+ 
+ 
+ [MapGroup11]
+//Desc   =Èë_4È¦
+Group0   =2
+Group0WP   = "5011,5012,5013,5014"
+Group0Type   = 0
+Group0Value   = "1"
+Group0Scale   = <0.75, 0.75, 0.75>
+ 
+ 
+[MapGroup12]
+//Desc   =Èë_9È¦
+Group0   =2
+Group0WP   = "6011,6012,6013,6014,6015,6016,6017,6018,6019"
+Group0Type   = 0
+Group0Value   = "1"
+Group0Scale   = <0.75, 0.75, 0.75>
+
+ 
+[MapGroup13]
+//Desc   =Ã¢¹® »çÀÌµå
+Group0   =1
+Group0WP   = "5301,5302,5314,5315,5316,5317,5329,5330"
+Group0Type   = 0
+Group0Value   = "1"
+Group0Scale   = <1.0, 1.0, 1.0>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

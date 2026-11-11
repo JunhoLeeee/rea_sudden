@@ -1,0 +1,1170 @@
+
+[Word0]
+Desc = "accept\n받아들이다, 인정하다 "
+
+[Word1]
+Desc = "circumstance\n상황, 환경 "
+
+[Word2]
+Desc = "arrange\n배열하다, 준비하다 "
+
+[Word3]
+Desc = "adjust\n맞추다, 적응하다 "
+
+[Word4]
+Desc = "ordinary\n보통의, 평범한"
+
+[Word5]
+Desc = "apply\n적용하다, 지원하다 "
+
+[Word6]
+Desc = "figure\n수치, 숫자, 인물, 모양, \n~라고 생각하다 "
+
+[Word7]
+Desc = "provide\n제공하다, 공급하다 "
+
+[Word8]
+Desc = "recover\n회복하다, 되찾다"
+
+[Word9]
+Desc = "generalize\n일반화하다 "
+
+[Word10]
+Desc = "proceed\n진행하다, 나아가다 "
+
+[Word11]
+Desc = "perform\n수행하다, 연주하다, 공연하다 "
+
+[Word12]
+Desc = "compete\n경쟁하다"
+
+[Word13]
+Desc = "external\n외부의, 대외적인 "
+
+[Word14]
+Desc = "vital\n필수적인, 중대한, 활력을 주는 "
+
+[Word15]
+Desc = "reserve\n예약하다, 따로 떼어두다, \n비축하다 "
+
+[Word16]
+Desc = "remind\n생각나게하다, 상기시키다 "
+
+[Word17]
+Desc = "insight\n통찰력, 식견 "
+
+[Word18]
+Desc = "progress\n진행, 진전, 진행하다 "
+
+[Word19]
+Desc = "maintain\n지속하다, 유지하다 "
+
+[Word20]
+Desc = "observe\n준수하다, 관찰하다, 지켜보다"
+
+[Word21]
+Desc = "remain\n여전히 ~이다, 남아 있다 "
+
+[Word22]
+Desc = "seemingly\n보기에, 표면적으로 "
+
+[Word23]
+Desc = "suppose\n가정하다, 생각하다 "
+
+[Word24]
+Desc = "function\n역할, 기능, 역할을 하다, \n기능하다"
+
+[Word25]
+Desc = "decent\n괜찮은, 제대로 된, 품위 있는,\n예의바른"
+
+[Word26]
+Desc = "deserve\n~을 받을 만하다 "
+
+[Word27]
+Desc = "emerge\n나타나다, 나오다 "
+
+[Word28]
+Desc = "separate\n분리하다, 떼어놓다, 분리된 "
+
+[Word29]
+Desc = "shorten\n줄이다, 단축하다 "
+
+[Word30]
+Desc = "perceive\n~로생각하다, 이해하다 "
+
+[Word31]
+Desc = "access\n접근, 접근 방법 "
+
+[Word32]
+Desc = "former\n과거의, 전의, 전자의, 전자 "
+
+[Word33]
+Desc = "superior\n우월한, 상관의, 상급의, 상관,\n선배 "
+
+[Word34]
+Desc = "constant\n한결같은,끊임없는 "
+
+[Word35]
+Desc = "accuracy\n정확성 "
+
+[Word36]
+Desc = "excess\n과도, 초과 "
+
+[Word37]
+Desc = "guarantee\n보장하다, 보증, 품질 보증서 "
+
+[Word38]
+Desc = "ignore\n무시하다"
+
+[Word39]
+Desc = "compliment\n칭찬하다, 칭찬, 찬사 "
+
+[Word40]
+Desc = "domesticate\n길들이다, 사육하다 "
+
+[Word41]
+Desc = "interrupt\n방해하다, 가로막다 "
+
+[Word42]
+Desc = "task\n과업, 과제 "
+
+[Word43]
+Desc = "manufacture\n제조〔생산〕하다, \n(상품의 대량) 제조〔생산〕 "
+
+[Word44]
+Desc = "reduce\n줄이다, 축소하다 "
+
+[Word45]
+Desc = "inquire\n묻다, 알아보다 "
+
+[Word46]
+Desc = "disturb\n방해하다, 혼란시키다 "
+
+[Word47]
+Desc = "approve\n인정하다, 찬성하다"
+
+[Word48]
+Desc = "substance\n물질, 실체, 본질 "
+
+[Word49]
+Desc = "expand\n늘리다, 팽창시키다 "
+
+[Word50]
+Desc = "acquire\n얻다, 습득하다 "
+
+[Word51]
+Desc = "enhance\n향상시키다, 높이다"
+
+[Word52]
+Desc = "diminish\n줄이다, 약화되다 "
+
+[Word53]
+Desc = "regular\n정기적인, 규칙적인 "
+
+[Word54]
+Desc = "flexible\n융통성 있는, 유연성 있는 "
+
+[Word55]
+Desc = "bewildered\n당황한, 어찌할 바를 모르는"
+
+[Word56]
+Desc = "recognize\n알아보다, 인정하다 "
+
+[Word57]
+Desc = "available\n이용 가능한, 유효한 "
+
+[Word58]
+Desc = "blame\n비난하다, 책임으로 돌리다, \n비난 "
+
+[Word59]
+Desc = "sufficient\n충분한 "
+
+[Word60]
+Desc = "valid\n유효한, 타당한"
+
+[Word61]
+Desc = "seek\n찾다, 구하다, 노력하다 "
+
+[Word62]
+Desc = "submit\n제출하다, 항복〔굴복〕하다 "
+
+[Word63]
+Desc = "transfer\n옮기다, 환승하다, 이동, 환승 "
+
+[Word64]
+Desc = "practical\n실용적인, 경험이 많은, 노련한"
+
+[Word65]
+Desc = "dare\n감히 ~하다 "
+
+[Word66]
+Desc = "relative\n상대적인, 비교상의, 친척, \n인척 "
+
+[Word67]
+Desc = "relieve\n완화시키다, 구제하다 "
+
+[Word68]
+Desc = "engage\n약속하다, 종사하다"
+
+[Word69]
+Desc = "direct\n직접적인, 직행의, 지도하다,  \n명령하다 "
+
+[Word70]
+Desc = "carriage\n마차, 운반차 "
+
+[Word71]
+Desc = "mention\n~에 관해서 말하다, 언급하다, \n언급, 거론 "
+
+[Word72]
+Desc = "scratch\n할퀴다, 긁다,긁힌 자국, \n찰과상"
+
+[Word73]
+Desc = "specific\n구체적인, 특정한, 특효가 있는 "
+
+[Word74]
+Desc = "signal\n신호를 보내다, 시사하다, \n암시하다, 신호 "
+
+[Word75]
+Desc = "tempt\n유혹하다 "
+
+[Word76]
+Desc = "complex\n복잡한,복합의 "
+
+[Word77]
+Desc = "impact\n영향(력), 충돌, 충격, \n영향을 주다, 충돌하다"
+
+[Word78]
+Desc = "vision\n시력, 시각, 선견, 계획 "
+
+[Word79]
+Desc = "reject\n거절하다, 거부하다 "
+
+[Word80]
+Desc = "merit\n가치, 장점, 공적 "
+
+[Word81]
+Desc = "include\n포함하다 "
+
+[Word82]
+Desc = "block\n막다, 방해하다, \n(도시의) 블록, 한 구획 "
+
+[Word83]
+Desc = "portable\n휴대용의, 들고 다닐 수 있는 "
+
+[Word84]
+Desc = "represent\n상징하다, 나타내다, 대표하다 "
+
+[Word85]
+Desc = "nerve\n신경, 긴장, 불안 "
+
+[Word86]
+Desc = "exposure\n노출,진열, 폭로 "
+
+[Word87]
+Desc = "secondary\n이차적인, 부수적인, \n중등 교육의 "
+
+[Word88]
+Desc = "appear\n나타나다, ~로 보이다 "
+
+[Word89]
+Desc = "spoil\n망치다, 상하다, \n버릇없이 만들다, 전리품, 약탈품 "
+
+[Word90]
+Desc = "coward\n겁쟁이"
+
+[Word91]
+Desc = "operate\n작동하다, 움직이다, \n수술을 하다, 운영하다 "
+
+[Word92]
+Desc = "annoy\n귀찮게 하다, 괴롭히다 "
+
+[Word93]
+Desc = "value\n가치, 중요성, 가격, 평가하다,\n중시하다 "
+
+[Word94]
+Desc = "resist\n저항하다, 반대하다 "
+
+[Word95]
+Desc = "machinery\n기계(류), 기계 장치 "
+
+[Word96]
+Desc = "apparent\n분명한, 뚜렷한 "
+
+[Word97]
+Desc = "peel\n껍질을 벗기다, 벗겨지다, \n(과일의) 껍질"
+
+[Word98]
+Desc = "stare\n빤히 쳐다보기, 응시, \n 빤히 쳐다보다, 응시하다 "
+
+[Word99]
+Desc = "remove\n제거하다, 없애다, 옮기다 "
+
+[Word100]
+Desc = "comforting\n위안이 되는, 격려가 되는 "
+
+[Word101]
+Desc = "mend\n(행실·잘못등을) 고치다, \n수리하다, 수선하다 "
+
+[Word102]
+Desc = "produce\n생산하다, (열매를) 맺다, (아이를) 낳다 "
+
+[Word103]
+Desc = "terrific\n아주 멋진, 훌륭한"
+
+[Word104]
+Desc = "search\n찾아보다, 수색하다, 찾기, \n수색"
+
+[Word105]
+Desc = "concern\n관계하다, 염려하다, 관련, \n걱정  "
+
+[Word106]
+Desc = "gloom\n어둑어둑함, 우울 "
+
+[Word107]
+Desc = "height\n높이, 높음, 키,신장 , 절정 "
+
+[Word108]
+Desc = "outcome\n결과, 성과 "
+
+[Word109]
+Desc = "moral\n도덕의, 윤리적인, 교훈 "
+
+[Word110]
+Desc = "therefore\n그러므로, 따라서 "
+
+[Word111]
+Desc = "pray\n기도하다, 기원하다 "
+
+[Word112]
+Desc = "injure\n부상을 입히다, \n(감정을) 상하게 하다 "
+
+[Word113]
+Desc = "lately\n최근에, 요즈음 "
+
+[Word114]
+Desc = "afford\n~할 여유가 있다, \n~을 할 수 있다 "
+
+[Word115]
+Desc = "envelop\n싸다, 포위하다 "
+
+[Word116]
+Desc = "notice\n주목, 통고, 알아채다, \n통고하다"
+
+[Word117]
+Desc = "wrap\n포장하다, 싸다, 포장지 "
+
+[Word118]
+Desc = "likewise\n마찬가지로, 또한, 게다가 "
+
+[Word119]
+Desc = "excel\n뛰어나다, ~을 능가하다 "
+
+[Word120]
+Desc = "opportunity\n기회, 호기 "
+
+[Word121]
+Desc = "freeze\n얼다,얼게 하다, 오싹하다 "
+
+[Word122]
+Desc = "overweight\n과체중의, 비만의, 중량 초과의 "
+
+[Word123]
+Desc = "imply\n함축하다 "
+
+[Word124]
+Desc = "fridge\n냉장고 "
+
+[Word125]
+Desc = "scale\n규모, 계급, 계층 구조, 저울, \n(물고기의)비늘 "
+
+[Word126]
+Desc = "upcoming\n다가오는, 곧 있을 "
+
+[Word127]
+Desc = "respond\n대답하다, 응답하다 "
+
+[Word128]
+Desc = "overwhelm\n(격한 감정이) 압도하다, \n질리게 하다, 기를 꺾다 "
+
+[Word129]
+Desc = "assume\n가정하다, 떠맡다"
+
+[Word130]
+Desc = "humiliation\n굴욕, 창피 줌 "
+
+[Word131]
+Desc = "humility\n겸손, 겸허 "
+
+[Word132]
+Desc = "thrill\n전율, 흥분, 흥분시키다, \n신나게 하다 "
+
+[Word133]
+Desc = "essential\n본질적인, 필수의, 필수품"
+
+[Word134]
+Desc = "request\n요청, 요구, 요청하다, \n요구하다  "
+
+[Word135]
+Desc = "outward\n밖을 향한, 외부로의, 외부의, \n바깥쪽의 "
+
+[Word136]
+Desc = "mature\n잘 익은, 숙성된, 성숙한, \n분별 있는"
+
+[Word137]
+Desc = "process\n과정, 절차, 처리하다 "
+
+[Word138]
+Desc = "concentrate\n집중하다 "
+
+[Word139]
+Desc = "slice\n조각, 몫, 일부분, 얇게 썰다, \n잘라내다 "
+
+[Word140]
+Desc = "affection\n애정 "
+
+[Word141]
+Desc = "sparkle\n광채, 빛남, 반짝이다, 빛나다"
+
+[Word142]
+Desc = "personal\n개인의, 개인적인"
+
+[Word143]
+Desc = "intense\n격렬한, 극도의, 열렬한, \n열심인"
+
+[Word144]
+Desc = "exceptional\n이례적인, 예외적인, 특별한 "
+
+[Word145]
+Desc = "bubble\n거품, 거품이 일다 "
+
+[Word146]
+Desc = "heartbreaking\n가슴이 찢어질듯한 "
+
+[Word147]
+Desc = "slogan\n구호, 모토 "
+
+[Word148]
+Desc = "regardless\n관심 없는, 개의치 않는 "
+
+[Word149]
+Desc = "beforehand\n미리, 이전부터 "
+
+[Word150]
+Desc = "nevertheless\n그럼에도 불구하고, 그렇지만 "
+
+[Word151]
+Desc = "tire\n피곤하게 하다, \n(자동차) 타이어"
+
+[Word152]
+Desc = "fault\n결점, 과실 "
+
+[Word153]
+Desc = "household\n가정, 가족, 가정용의, 가족의 "
+
+[Word154]
+Desc = "purchase\n구입하다, 구매하다, \n구입, 구매"
+
+[Word155]
+Desc = "mercy\n자비, 인정, 행운, 은혜"
+
+[Word156]
+Desc = "cardboard\n판지, 보드지 "
+
+[Word157]
+Desc = "sigh\n한숨 쉬다, 한숨 "
+
+[Word158]
+Desc = "relay\n릴레이 경주, 교대, 중계하다, \n연달아 ~을 하다 "
+
+[Word159]
+Desc = "attempt\n시도하다, 시도"
+
+[Word160]
+Desc = "publish\n출판하다, 발행하다, 게재하다, \n싣다 "
+
+[Word161]
+Desc = "gorgeous\n멋진, 호화로운 "
+
+[Word162]
+Desc = "recall\n생각나게 하다, 취소하다 "
+
+[Word163]
+Desc = "polish\n닦다, 윤내다, 광택, 윤"
+
+[Word164]
+Desc = "unique\n유일한, 특별한, 독특한 "
+
+[Word165]
+Desc = "activate\n작동시키다, 활성화시키다 "
+
+[Word166]
+Desc = "crowd\n군중, 빽빽이 들어차다 "
+
+[Word167]
+Desc = "incident\n일, 사건, (국가 간의) 사건"
+
+[Word168]
+Desc = "track\n발자국, 기차선로, 추적하다,  \n발자국을 남기다"
+
+[Word169]
+Desc = "fatal\n치명적인, 불행한 "
+
+[Word170]
+Desc = "prosper\n번성하다, 번영하다 "
+
+[Word171]
+Desc = "stubborn\n완고한, 고집 센, 고질적인 "
+
+[Word172]
+Desc = "mislead\n현혹시키다, 잘못 인도하다"
+
+[Word173]
+Desc = "grill\n석쇠, 석쇠에 구운 요리, \n석쇠에  굽다 "
+
+[Word174]
+Desc = "extraordinary\n놀라운, 대단한 "
+
+[Word175]
+Desc = "yearn\n갈망하다, 동경하다 "
+
+[Word176]
+Desc = "downpour\n폭우, 호우 "
+
+[Word177]
+Desc = "likeness\n닮음, 유사성, 초상,사진 "
+
+[Word178]
+Desc = "sketch\n스케치하다, 대략적으로그리다, \n개요를 말하다, 밑그림, 스케치, 개요 "
+
+[Word179]
+Desc = "brutal\n야만적인, 잔인한 "
+
+[Word180]
+Desc = "proper\n적절한, 고유의,독특한 "
+
+[Word181]
+Desc = "nature\n자연, 자연 현상, 본성, 본질"
+
+[Word182]
+Desc = "obstacle\n장애(물), 방해(물) "
+
+[Word183]
+Desc = "eliminate\n제거하다, 생략하다 "
+
+[Word184]
+Desc = "grip\n꽉 쥠, 파악, 이해, 꽉 잡다,  \n사로잡다 "
+
+[Word185]
+Desc = "reverse\n뒤바꾸다,역전시키다, \n반대, 반대의 "
+
+[Word186]
+Desc = "differentiate\n구별하다, 식별하다 "
+
+[Word187]
+Desc = "anticipate\n예상하다, 예견하다 "
+
+[Word188]
+Desc = "tone\n어조, 논조, 색조, \n피부를 탄력 있게 만들다"
+
+[Word189]
+Desc = "sew\n바느질하다, 꿰매다 "
+
+[Word190]
+Desc = "precious\n값비싼, 소중한 "
+
+[Word191]
+Desc = "liquid\n액체, 액체의, 투명한 "
+
+[Word192]
+Desc = "scatter\n(흩)뿌리다, 흩어지다 "
+
+[Word193]
+Desc = "neglect\n무시하다, 간과하다, \n해야할 것을 안 하다, 무시"
+
+[Word194]
+Desc = "luxury\n사치(품), 호사"
+
+[Word195]
+Desc = "gradual\n점차적인, 단계적인 "
+
+[Word196]
+Desc = "depressed\n우울한, 침체된 "
+
+[Word197]
+Desc = "site\n위치, 장소, 현장 "
+
+[Word198]
+Desc = "alive\n살아 있는, 생기에 넘치는 "
+
+[Word199]
+Desc = "wheel\n바퀴, 핸들, \n(바퀴 달린 것을) 밀다〔끌다〕 "
+
+[Word200]
+Desc = "indifference\n무관심, 무심 "
+
+[Word201]
+Desc = "incentive\n동기, 자극, 장려금, 보상물 "
+
+[Word202]
+Desc = "mode\n방식, 방법 "
+
+[Word203]
+Desc = "ruin\n망치다, 파멸시키다, 파멸, \n몰락, 잔해, 유적 "
+
+[Word204]
+Desc = "screen\n가리다, 심사하다, 가리개, \n화면"
+
+[Word205]
+Desc = "dispute\n논쟁하다, 다투다, 논쟁, 토론 "
+
+[Word206]
+Desc = "loyal\n충성스러운, 충실한 , 정직한, \n성실한"
+
+[Word207]
+Desc = "interact\n상호작용을 하다, \n서로 영향을 끼치다"
+
+[Word208]
+Desc = "sweat\n땀, 고된 일, 땀을 흘리다 "
+
+[Word209]
+Desc = "unfair\n부당한, 불공평한 "
+
+[Word210]
+Desc = "tribute\n찬사, 헌사, (타국에의) 공물 "
+
+[Word211]
+Desc = "sin\n죄, 죄악 , 죄를 짓다"
+
+[Word212]
+Desc = "farewell\n작별, 작별을 고하다 "
+
+[Word213]
+Desc = "alike\n똑같은, 서로 닮은, 둘 다, \n똑같이 "
+
+[Word214]
+Desc = "indeed\n정말로, 확실히 "
+
+[Word215]
+Desc = "hence\n그러므로, 지금부터 "
+
+[Word216]
+Desc = "foul\n반칙, 반칙인,더러운, \n반칙하다, 더럽히다 "
+
+[Word217]
+Desc = "soak\n담그다, 적시다, 담그기 "
+
+[Word218]
+Desc = "upright\n(자세가) 똑바른, 꼿꼿한, \n강직한 "
+
+[Word219]
+Desc = "tease\n놀리다, 못살게 굴다"
+
+[Word220]
+Desc = "arise\n발생하다, 일어나다"
+
+[Word221]
+Desc = "tile\n타일, 기와, 타일을 붙이다 "
+
+[Word222]
+Desc = "misfortune\n불행, 불운 "
+
+[Word223]
+Desc = "browse\n방목하다, 대강 훑어보다 "
+
+[Word224]
+Desc = "tough\n힘든, 강인한, 질긴 "
+
+[Word225]
+Desc = "gasp\n숨이막히다, 헐떡거리다, \n열망하다, 숨 막힘 "
+
+[Word226]
+Desc = "thread\n실, 꿰다 "
+
+[Word227]
+Desc = "janitor\n(건물의) 관리인, 수위 "
+
+[Word228]
+Desc = "reap\n거두다, 수확하다 "
+
+[Word229]
+Desc = "stretch\n늘이다, 뻗어 있다,지역, \n구간, 스트레칭 "
+
+[Word230]
+Desc = "draft\n초안, 도안 , 초안을 작성하다 "
+
+[Word231]
+Desc = "foremost\n가장 중요한, 맨 먼저의, \n선두에"
+
+[Word232]
+Desc = "partial\n부분적인, 편파적인, 편애하는"
+
+[Word233]
+Desc = "foresee\n예견하다, 예측하다"
+
+[Word234]
+Desc = "intact\n온전한, 손상되지 않은 "
+
+[Word235]
+Desc = "hood\n두건, 모자, 덮개 "
+
+[Word236]
+Desc = "pale\n(얼굴이) 창백한, (빛이) 희미,\n창백해지다, (빛이) 엷어지다"
+
+[Word237]
+Desc = "image\n인상, 이미지, 영상 "
+
+[Word238]
+Desc = "texture\n(음식·직물의) 감촉, 질감 "
+
+[Word239]
+Desc = "mercury\n수은, 수성 "
+
+[Word240]
+Desc = "vivid\n선명한, (기억 등이) 생생한, \n활기 넘치는"
+
+[Word241]
+Desc = "shortcut\n지름길, 쉬운 방법 "
+
+[Word242]
+Desc = "willingness\n자진하여 하기, \n기꺼이 하는 마음 "
+
+[Word243]
+Desc = "bundle\n다발, 꾸러미 "
+
+[Word244]
+Desc = "flash\n번쩍이다, 휙 지나가다, \n번쩍임, 섬광"
+
+[Word245]
+Desc = "vague\n(기억이) 희미한, 모호한, \n멍청한 "
+
+[Word246]
+Desc = "long-term\n장기적인"
+
+[Word247]
+Desc = "maiden\n처녀, 처녀의, 처음의 "
+
+[Word248]
+Desc = "doze\n깜빡 잠이 들다, 졸다 "
+
+[Word249]
+Desc = "steep\n가파른, 급격한 "
+
+[Word250]
+Desc = "standby\n대기의 "
+
+[Word251]
+Desc = "conceal\n숨기다 "
+
+[Word252]
+Desc = "telegram\n전보, 전문"
+
+[Word253]
+Desc = "sneeze\n재채기하다, 재채기 "
+
+[Word254]
+Desc = "flock\n모이다, 떼 짓다, 무리, 군중 "
+
+[Word255]
+Desc = "pause\n(잠시) 멈춤, 중지, \n잠시 멈추다, 중단하다 "
+
+[Word256]
+Desc = "undo\n원래 상태로 돌리다, \n무효로 하다, (잠긴 것을) 풀다 "
+
+[Word257]
+Desc = "misunderstanding\n오해, 갈등 "
+
+[Word258]
+Desc = "herb\n풀, 약초, 허브 "
+
+[Word259]
+Desc = "eject\n쫓아내다, 탈출하다, 꺼내다"
+
+[Word260]
+Desc = "premier\n최고의, 제1의, (정부의) 수상 "
+
+[Word261]
+Desc = "weird\n기묘한, 괴상한, 으스스한 "
+
+[Word262]
+Desc = "time-consuming\n시간이 걸리는 "
+
+[Word263]
+Desc = "livelihood\n생계 (수단), 살림"
+
+[Word264]
+Desc = "breezy\n산들바람이 부는, 상쾌한, \n쾌활한 "
+
+[Word265]
+Desc = "vibrate\n흔들리다, 진동하다 "
+
+[Word266]
+Desc = "trauma\n정신적인 충격, 트라우마 "
+
+[Word267]
+Desc = "stuff\n것(들), 물건, 일, 재료, 원료,\n빽빽하게 채워 넣다 "
+
+[Word268]
+Desc = "probable\n있을 법한, 가능성이 있는 "
+
+[Word269]
+Desc = "renew\n다시 시작하다, 갱신하다 "
+
+[Word270]
+Desc = "slope\n비탈, 경사지, 경사, 기울기,  \n사지다, 기울어지다 "
+
+[Word271]
+Desc = "thankful\n고마워하는 "
+
+[Word272]
+Desc = "spray\n물보라, 분사하다, \n(향수·소독액 등의) 분사"
+
+[Word273]
+Desc = "itch\n가렵다, 가려움 "
+
+[Word274]
+Desc = "heel\n뒤꿈치, 굽, \n~의 바로 뒤에서 따라가다 "
+
+[Word275]
+Desc = "stationery\n문방구 "
+
+[Word276]
+Desc = "tissue\n조직, 화장지 "
+
+[Word277]
+Desc = "ornament\n장식, 꾸밈,장식품, 장식하다, \n꾸미다 "
+
+[Word278]
+Desc = "forcefully\n강하게, 힘차게 "
+
+[Word279]
+Desc = "wipe\n닦다, 지우다, 닦기 "
+
+[Word280]
+Desc = "vest\n조끼, 속옷 "
+
+[Word281]
+Desc = "chill\n추위, 한기, 춥게 하다, \n냉각하다"
+
+[Word282]
+Desc = "undertake\n착수하다, 떠맡다 "
+
+[Word283]
+Desc = "whistle\n경적, 휘파람(소리), 호각, \n휘파람을 불다, 호각을 불다 "
+
+[Word284]
+Desc = "spit\n침, (침·음식 등을) 뱉다 "
+
+[Word285]
+Desc = "leakage\n누출,새어나감"
+
+[Word286]
+Desc = "shallow\n얕은, 피상적인 "
+
+[Word287]
+Desc = "erect\n꼿꼿이 선, 세우다 "
+
+[Word288]
+Desc = "joint\n이음매, 접합 부분, 관절, \n마디, 공동의, 합동의 "
+
+[Word289]
+Desc = "parcel\n소포, 꾸러미,한 구획, 한 떼, \n한 무리, 꾸리다, 나누다 "
+
+[Word290]
+Desc = "toll\n통행료, 사상자 수 "
+
+[Word291]
+Desc = "lottery\n복권, 추첨, 제비뽑기 "
+
+[Word292]
+Desc = "rehearsal\n예행 연습 "
+
+[Word293]
+Desc = "sprinkle\n뿌리다"
+
+[Word294]
+Desc = "curb\n억제하다, 구속하다 "
+
+[Word295]
+Desc = "thorn\n(식물의) 가시 "
+
+[Word296]
+Desc = "sneakers\n운동화 "
+
+[Word297]
+Desc = "overlook\n바라보다, 내려다보다, \n감독하다 , 간과하다 "
+
+[Word298]
+Desc = "hollow\n속이 빈, 무의미한"
+
+[Word299]
+Desc = "partly\n부분적으로, 얼마간, \n어느 정도까지 "
+
+[Word300]
+Desc = "whereas\n~하는 반면 "
+
+[Word301]
+Desc = "hiss\n쉿 소리를 내다 "
+
+[Word302]
+Desc = "loop\n고리, 테, 만곡(선), \n고리로만들다, 고리로 잇다 "
+
+[Word303]
+Desc = "worn-out\n닳아빠진, 지친 "
+
+[Word304]
+Desc = "earplug\n귀마개 "
+
+[Word305]
+Desc = "namely\n즉, 다시 말하자면 "
+
+[Word306]
+Desc = "win-win\n모두에게 유리한 "
+
+[Word307]
+Desc = "stiff\n빳빳한, 뻣뻣한, 딱딱한"
+
+[Word308]
+Desc = "priceless\n아주 귀중한 "
+
+[Word309]
+Desc = "framework\n골조, 뼈대, 구조, 체계 "
+
+[Word310]
+Desc = "costly\n비용이 많이 드는 "
+
+[Word311]
+Desc = "bang\n쾅 하는 소리, 쾅 소리를 내다"
+
+[Word312]
+Desc = "toss\n가볍게 던지다, 뒤척이다, \n던지기 "
+
+[Word313]
+Desc = "future-oriented\n미래 지향적인 "
+
+[Word314]
+Desc = "soothe\n달래다, 진정시키다 "
+
+[Word315]
+Desc = "virgin\n처녀, 무경험자"
+
+[Word316]
+Desc = "Mediterranean\n지중해의, 지중해 "
+
+[Word317]
+Desc = "slum\n빈민가, 슬럼가 "
+
+[Word318]
+Desc = "tug\n끌어당기다, 끌어당김 "
+
+[Word319]
+Desc = "paw\n발, 손, 앞발로 할퀴다〔치다〕 "
+
+[Word320]
+Desc = "reef\n암초 "
+
+[Word321]
+Desc = "oddity\n기이함,괴상함 , 괴짜, \n진묘한것 "
+
+[Word322]
+Desc = "mud\n진흙, 진창 , 하찮은 것, \n불명예 스러운 것 "
+
+[Word323]
+Desc = "fixedly\n꼼짝 않고, 확고하게 "
+
+[Word324]
+Desc = "moan\n신음, 불평, 신음하다,불평하다"
+
+[Word325]
+Desc = "feminine\n여성의, 여성스러운 "
+
+[Word326]
+Desc = "caring\n배려하는, 돌보는 "
+
+[Word327]
+Desc = "indulgent\n멋대로 하게 하는, 관대한 "
+
+[Word328]
+Desc = "deliberate\n신중한, 고의적인 "
+
+[Word329]
+Desc = "arrogant\n오만한, 건방진 "
+
+[Word330]
+Desc = "earnest\n진실한, 성실한 "
+
+[Word331]
+Desc = "miser\n구두쇠, 욕심쟁이 "
+
+[Word332]
+Desc = "brave\n용감한, (용감히) 맞서다 "
+
+[Word333]
+Desc = "open-minded\n편견이 없는, 마음이 열린 "
+
+[Word334]
+Desc = "integrity\n진실성, 도덕성 "
+
+[Word335]
+Desc = "mean\n심술궂은, 못된, 뜻하다, \n의미하다, 의도하다 "
+
+[Word336]
+Desc = "considerate\n사려 깊은, 이해심이 있는 "
+
+[Word337]
+Desc = "energetic\n정력적인, 활동적인"
+
+[Word338]
+Desc = "closet\n벽장 "
+
+[Word339]
+Desc = "trim\n다듬다, 손질하다, 손질, \n정돈(된 상태) "
+
+[Word340]
+Desc = "brother-in-law\n매형, 처남, 시동생 "
+
+[Word341]
+Desc = "upbringing\n가정교육, 양육 "
+
+[Word342]
+Desc = "twin\n쌍둥이,결연을 맺다 "
+
+[Word343]
+Desc = "errand\n심부름 "
+
+[Word344]
+Desc = "rug\n깔개, 양탄자 "
+
+[Word345]
+Desc = "couch\n소파, 긴 의자 "
+
+[Word346]
+Desc = "wag\n꼬리를 흔들다 "
+
+[Word347]
+Desc = "utensil\n(가정용) 기구, 도구 "
+
+[Word348]
+Desc = "babysit\n아이를 돌보다"
+
+[Word349]
+Desc = "niece\n여자 조카 "
+
+[Word350]
+Desc = "pillow\n베개"
+
+[Word351]
+Desc = "mansion\n대저택 "
+
+[Word352]
+Desc = "dwell\n살다, 거주하다 "
+
+[Word353]
+Desc = "region\n지방, 지역, 영역, 범위 "
+
+[Word354]
+Desc = "interior\n내부의, 국내의, 내부, 실내 "
+
+[Word355]
+Desc = "lighting\n조명, 점화, 점등"
+
+[Word356]
+Desc = "suburb\n근교, 교외 "
+
+[Word357]
+Desc = "toilet\n변기, 화장실 "
+
+[Word358]
+Desc = "terrace\n테라스 "
+
+[Word359]
+Desc = "settle\n정착하다, 해결하다, \n합의를 보다 "
+
+[Word360]
+Desc = "local\n지역의, 지방의, 장소의, \n공간의, 지역주민, 현지인 "
+
+[Word361]
+Desc = "fence\n울타리, 담 "
+
+[Word362]
+Desc = "lounge\n빈둥거리다, 한가로이 거닐다, \n라운지, 휴게실 "
+
+[Word363]
+Desc = "knot\n매듭, 무리, 소집단, 매다, \n매듭을 짓다"
+
+[Word364]
+Desc = "academy\n학교, 학원 "
+
+[Word365]
+Desc = "comprehend\n이해하다 "
+
+[Word366]
+Desc = "research\n조사, 연구, 조사하다, \n연구하다  "
+
+[Word367]
+Desc = "assign\n할당하다, 배당하다 "
+
+[Word368]
+Desc = "tuition\n수업료, 수업"
+
+[Word369]
+Desc = "sophomore\n2학년, 2년차 "
+
+[Word370]
+Desc = "lecture\n강연, 강의, 강의하다 "
+
+[Word371]
+Desc = "kindergarten\n유치원 "
+
+[Word372]
+Desc = "deskbound\n책상에서〔앉아서〕 일하는, \n내근의 "
+
+[Word373]
+Desc = "yearbook\n연감, 연보, 졸업 앨범"
+
+[Word374]
+Desc = "tutor\n가정교사, 개인 지도를 하다 "
+
+[Word375]
+Desc = "edutainment\n에듀테인먼트, 교육용 오락물 "
+
+[Word376]
+Desc = "exemplify\n예시가 되다, 예증하다"
+
+[Word377]
+Desc = "amaze\n놀라게 하다 "
+
+[Word378]
+Desc = "elated\n의기양양한, 우쭐대는 "
+
+[Word379]
+Desc = "rage\n분노, 격노, 사나움, 맹렬 "
+
+[Word380]
+Desc = "astonish\n놀라게 하다 "
+
+[Word381]
+Desc = "sentiment\n감정, 정서, 의견, 의향 "
+
+[Word382]
+Desc = "mindset\n사고방식 "
+
+[Word383]
+Desc = "mindful\n의식하는, 염두에 두는 "
+
+[Word384]
+Desc = "long\n갈망하다, 간절히 바라다 "
+
+[Word385]
+Desc = "embarrassed\n창피한, 당황스러운 "
+
+[Word386]
+Desc = "wishful\n갈망하는, 소원하는, 희망적인 "
+
+[Word387]
+Desc = "ambivalent\n반대 감정이 양립하는 "
+
+[Word388]
+Desc = "halfhearted\n성의가 없는 "
+
+[Word389]
+Desc = "inspire\n고무하다, 격려하다, \n영감을 주다"

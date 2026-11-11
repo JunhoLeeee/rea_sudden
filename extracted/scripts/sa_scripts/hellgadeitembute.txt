@@ -1,0 +1,38 @@
+// AIWeaponType
+//    0 : ¾øÀ½
+//    1 : Ç×°øÆø°Ý
+
+
+[HellgadeItem2108] // ÇÙÆøÅº À¯µµ±â
+WeaponID = 1174
+AIWeaponType = 0
+
+[HellgadeItem2107] // ½ÃÇÑ ÆøÅº
+WeaponID = -1
+AIWeaponType = 0
+
+[HellgadeItem2106] // ¿ø°Ý ÆøÅº
+WeaponID = -1
+AIWeaponType = 0
+
+[HellgadeItem2105] // Áö·Ú
+WeaponID = -1
+AIWeaponType = 0
+
+[HellgadeItem2109] // ½ÃÇÑ ÆøÅº_2
+WeaponID = -1
+AIWeaponType = 0
+
+[HellgadeItem2104] // Ç×°ø Æø°Ý
+WeaponID = -1
+AIWeaponType = 1
+
+[HellgadeItem1164] // ·ÎÄÏ
+WeaponID = 1164
+AIWeaponType = 0
+
+[HellgadeItem1165] // ·ÎÄÏ
+WeaponID = 1165
+AIWeaponType = 0
+
+

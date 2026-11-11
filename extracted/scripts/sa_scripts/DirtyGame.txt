@@ -1,0 +1,83 @@
+[GameSetup]
+
+MoojukTime = 3.0f					//무적 시간
+InvisibleTime = 8.0f
+SkillMaxHP = 999.0f
+LongAxeWeapon = 1552
+
+VampireHP = 2000.0f
+VampireAP = 2000.0f
+VampireTimeBombPos = <0.0, 0.0, 20.0>
+VampireTimeBombScale = 0.3f
+
+ReviveTime = 3.0f									//3초 뒤 부활
+//ReviveStopTime = 5.0f						// 부활 이후 2초간 움직이지 못함. 삭제됨.
+ReviveMoojukTime = 2.0f				// 움직이면 2초간 무적
+
+WarpTime = 3.0f									//명령 내리고 3초뒤 워프
+
+SpeedUp = 1.5f										//스피드업
+
+MyDirtySkillInitPos		= (400, 100)
+MyDirtySkillPos				= (760, 395)
+MyDirtySkillPlayTime = 1.0f
+MyDirtySkillPlayInitTime = 3.0f
+
+m_MoojukHUDOffset		= (400, 500)					//무적 UI 가 가린다고 해서 변동하기
+m_CharSkillPos			= (-20, 2)									//닉네임 왼쪽으로 스킬 보이기 닉네임 기준
+
+AimRatio = 0.44f					//0.5를 기준으로 좌우 이내로 에임
+
+DualWarpStartTime = 3.0f		//위치 변경 쓸때 E키 누르고 대기시간
+DualWarpExecTime = 3.0f			//위치 변경 궁 실행 대기 시간. 서로 위치 바뀜
+
+SkillTutorials = "2,4,11,12"		//스킬 표시 리스트 1부터 사용하세요. 1이 스피디해짐.
+
+[MuhanPok]                                                            //20개 이내만 등록 가능함.
+Prob1 = 80
+Weapon1 = 3241
+Prob2 = 10
+Weapon2 = 2808
+Prob3 = 10
+Weapon3 = 2809
+
+[HealPoctan]                                                                      //힐 폭탄, 4개 이상 등록시 임시점검해야 함.
+Tick1 = 1.0f
+Heal1 = 40.0f
+Tick2 = 1.0f
+Heal2 = 30.0f
+Tick3 = 1.0f
+Heal3 = 20.0f
+Tick4 = 1.0f
+Heal4 = 10.0f
+
+[HighLightCam]
+YOffset = 40.0f
+Angle = 15.0f
+Distance = 100.0f
+
+[HighLightModel1] //오마이걸 일반
+Model = "1411,1412,1413,1414,1415,1416,1417"
+ChangeHUD = "sa_interface2\hud\GodMode\SpecialCharacterUI\ohmygirl_hud.dtx"
+ChangeHUD_Position = (0, 0) //화면 가운데를 기준으로, 이미지 가운데를 정렬함
+ChangeHUD_Size = (1024, 512)
+Emotion = "0"								//0부터 시작해야 함.
+
+[HighLightModel2] //오마이걸 PC방
+Model = "1418,1419,1420,1421,1422,1423,1424"
+ChangeHUD = "sa_interface2\hud\GodMode\SpecialCharacterUI\ohmygirl_hud.dtx"
+ChangeHUD_Position = (0, 0) //화면 가운데를 기준으로, 이미지 가운데를 정렬함
+ChangeHUD_Size = (1024, 512)
+Emotion = "0"								//0부터 시작해야 함.
+
+//[MapOption201]
+//VampIndex = 1590
+//VampWeaponIndex = 3311
+//LycanIndex = 1591
+//LycanWeaponIndex = 3322
+
+[MapOption204]
+LightningPercent = 3
+LightningSoundPath1 = "sa_interface2/snd/GodMode/god_thunder01.wav"
+LightningSoundPath2 = "sa_interface2/snd/GodMode/god_thunder02.wav"
+

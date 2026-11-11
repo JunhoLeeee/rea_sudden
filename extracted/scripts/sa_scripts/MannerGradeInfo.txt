@@ -1,0 +1,289 @@
+{
+	"grade":[
+		{
+			"index" : 0,
+			"name" : "비활성",
+			"atlas" : "UserDetailInfo",
+			"icon" : "Icon_manner08",
+			"small_icon" : "Icon_manner08_s",
+			"small_small_icon" : "Icon_manner08_s",
+			"color" : [208, 208, 208]
+		},
+		{
+			"index" : 1,
+			"name" : "위험",
+			"atlas" : "UserDetailInfo",
+			"icon" : "Icon_manner07",
+			"small_icon" : "Icon_manner07_s",
+			"small_small_icon" : "Icon_manner07_ss",
+			"color" : [243, 45, 45]
+		},
+		{
+			"index" : 2,
+			"name" : "우려",
+			"atlas" : "UserDetailInfo",
+			"icon" : "Icon_manner06",
+			"small_icon" : "Icon_manner06_s",
+			"small_small_icon" : "Icon_manner06_ss",
+			"color" : [239, 127, 52]
+		},
+		{
+			"index" : 3,
+			"name" : "나쁨",
+			"atlas" : "UserDetailInfo",
+			"icon" : "Icon_manner05",
+			"small_icon" : "Icon_manner05_s",
+			"color" : [232, 77, 110]
+		},
+		{
+			"index" : 4,
+			"name" : "보통",
+			"atlas" : "UserDetailInfo",
+			"icon" : "Icon_manner04",
+			"small_icon" : "Icon_manner04_s",
+			"color" : [144, 238, 98]
+		},
+		{
+			"index" : 5,
+			"name" : "좋음",
+			"atlas" : "UserDetailInfo",
+			"icon" : "Icon_manner03",
+			"small_icon" : "Icon_manner03_s",
+			"color" : [81, 224, 182]
+		},
+		{
+			"index" : 6,
+			"name" : "매우좋음",
+			"atlas" : "UserDetailInfo",
+			"icon" : "Icon_manner02",
+			"small_icon" : "Icon_manner02_s",
+			"color" : [240, 99, 189]
+		},
+		{
+			"index" : 7,
+			"name" : "최고",
+			"atlas" : "UserDetailInfo",
+			"icon" : "Icon_manner01",
+			"small_icon" : "Icon_manner01_s",
+			"color" : [243, 205, 73]
+		}
+	],
+	"reword_type":[
+		{
+			"index" : 0,
+			"name" : "아이템"
+		},
+		{
+			"index" : 1,
+			"name" : "모드 활성화"
+		},
+		{
+			"index" : 2,
+			"name" : "플레이트 꾸미기"
+		},
+	],
+	"reword":[
+		{
+			"index" : 0,
+			"type" : 0,
+			"name" : "레드 플레이트",
+			"code" : "EET09455998"
+		},
+		{
+			"index" : 1,
+			"type" : 0,
+			"name" : "실버 플레이트",
+			"code" : "EET09454998"
+
+		},
+		{
+			"index" : 2,
+			"type" : 0,
+			"name" : "골드 플레이트",
+			"code" : "EET09453998"
+		},
+		{
+			"index" : 3,
+			"type" : 0,
+			"name" : "금따봉 백팩",
+			"code" : "EBP09477998"
+		},
+		{
+			"index" : 4,
+			"type" : 0,
+			"name" : "은따봉 백팩",
+			"code" : "EBP09478998"
+		},
+		{
+			"index" : 5,
+			"type" : 1,
+			"name" : "클랜전 가능",
+			"atlas" : "UserDetailInfo",
+			"icon" : "Icon_Clan"
+		},
+		{
+			"index" : 6,
+			"type" : 1,
+			"name" : "랭크전/클랜랭크전/생존전 가능",
+			"atlas" : "UserDetailInfo",
+			"icon" : "Icon_Clanclanrank"
+		},
+		{
+			"index" : 7,
+			"type" : 1,
+			"name" : "토너먼트 가능",
+			"atlas" : "UserDetailInfo",
+			"icon" : "Icon_Tournament"
+		},
+		{
+			"index" : 8,
+			"type" : 1,
+			"name" : "클랜전 제한",
+			"atlas" : "UserDetailInfo",
+			"icon" : "Icon_Clan"
+		},
+		{
+			"index" : 9,
+			"type" : 1,
+			"name" : "랭크전/클랜랭크전/생존전 제한",
+			"atlas" : "UserDetailInfo",
+			"icon" : "Icon_Clanclanrank"
+		},
+		{
+			"index" : 10,
+			"type" : 1,
+			"name" : "토너먼트 제한",
+			"atlas" : "UserDetailInfo",
+			"icon" : "Icon_Tournament"
+		},
+		{
+			"index" : 11,
+			"type" : 0,
+			"name" : "등장효과 - 은따봉",
+			"code" : "EFX10189998"
+		},
+		{
+			"index" : 12,
+			"type" : 0,
+			"name" : "등장효과 - 금따봉",
+			"code" : "EFX10188998"
+		}
+	],
+	"grade_down":[
+		{
+			"index" : 1,
+			"desc_1" : "매너 등급이 하락하였습니다!",
+			"desc_2" : "다음 컨텐츠 이용이 제한됩니다.",
+			"reword" : [
+				10, 8, 9
+			]
+		},
+		{
+			"index" : 2,
+			"desc_1" : "매너 등급이 하락하였습니다!",
+			"desc_2" : "다음 컨텐츠 이용이 제한됩니다.",
+			"reword" : [
+				10, 8, 9
+			]
+		},
+		{
+			"index" : 3,
+			"desc_1" : "매너 등급이 하락하여 토너먼트를 이용할 수 없습니다.",
+			"desc_2" : "더 낮아질 경우 다른 컨텐츠도 이용이 제한됩니다.",
+			"reword" : [
+				10
+			]
+		},
+		{
+			"index" : 4,
+			"desc_1" : "",
+			"desc_2" : "매너 등급이 하락하였습니다!",
+			"reword" : [
+				
+			]
+		},
+		{
+			"index" : 5,
+			"desc_1" : "매너 등급이 하락하였습니다!",
+			"desc_2" : "아래 아이템을 사용할 수 없습니다.",
+			"reword" : [
+				1, 4, 11
+			]
+		},
+		{
+			"index" : 6,
+			"desc_1" : "매너 등급이 하락하였습니다!",
+			"desc_2" : "아래 아이템을 사용할 수 없습니다.",
+			"reword" : [
+				2, 3, 12
+			]
+		}
+	],
+	"grade_up":
+	[
+		{
+			"index" : 0,
+			"desc_1" : "매너 등급을 획득 하셨습니다!",
+			"desc_2" : "매너 등급을 높이면 다양한 혜택을 얻을 수 있습니다!",
+			"reword" : [
+				
+			]
+		},
+		{
+			"index" : 1,
+			"desc_1" : "",
+			"desc_2" : "매너 등급이 상승하였습니다!",
+			"reword" : [
+				
+			]
+		},
+		{
+			"index" : 2,
+			"desc_1" : "매너 등급이 상승하였습니다!",
+			"desc_2" : "다음 컨텐츠를 이용하실 수 있습니다.",
+			"reword" : [
+				8, 9
+			]
+		},
+		{
+			"index" : 3,
+			"desc_1" : "매너 등급이 상승하였습니다!",
+			"desc_2" : "다음 컨텐츠를 이용하실 수 있습니다.",
+			"reword" : [
+				5, 6
+			]
+		},
+		{
+			"index" : 4,
+			"desc_1" : "매너 등급이 상승하였습니다!",
+			"desc_2" : "다음 컨텐츠를 이용하실 수 있습니다.",
+			"reword" : [
+				7, 5, 6
+			]
+		},
+		{
+			"index" : 5,
+			"desc_1" : "",
+			"desc_2" : "매너 등급이 상승하였습니다!",
+			"reword" : [
+				
+			]
+		},
+		{
+			"index" : 6,
+			"desc_1" : "매너 등급이 상승하였습니다!",
+			"desc_2" : "아래 아이템을 사용할 수 있습니다.",
+			"reword" : [
+				1, 4, 11
+			]
+		},
+		{
+			"index" : 7,
+			"desc_1" : "매너 등급이 상승하였습니다!",
+			"desc_2" : "아래 아이템을 사용할 수 있습니다.",
+			"reword" : [
+				2, 3, 12
+			]
+		}
+	]
+}

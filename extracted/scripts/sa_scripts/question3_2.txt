@@ -1,0 +1,222 @@
+
+[Question0]
+Question = "다음 중 별의 진화 과정을 결정짓는 물리량은 무엇인가?\n① 질량 ② 부피 ③ 거리\n④ 밝기 ⑤ 표면 온도"
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question1]
+Question = "태양 에너지는 식물의 광합성에 의해 어떤 에너지로 전환 되는가?\n① 열에너지 ② 운동 에너지\n③ 위치 에너지 ④ 전기 에너지\n⑤ 화학 에너지"
+CorrectAnswer = 5
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question2]
+Question = "태양계의 형성 과정인 성운설에 대한 설명으로 옳지 않은 것은?\n① 회전하는 원반에서 행성이 형성되었다.\n② 미행성의 충돌로 원시 행성이 형성되었다.\n③ 성운의 중심부에서 원시 태양이 형성되었다.\n④ 성운이 수축하면서 회전 속도는 더욱 빨라졌다.\n⑤ 태양과 행성들은 모두 같은 물질로 이루어져 있다."
+CorrectAnswer = 5
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question3]
+Question = "다음 설명에 해당하는 태양의 부분으로 옳은 것은?\nο 수소 핵융합 반응이 일어난다.\nο 태양에서 에너지가 생성되는 곳이다.\nο 태양에서 온도와 압력이 가장 높은 부분이다.\n① 핵 ② 광구 ③ 채층\n④ 복사층 ⑤ 대류층"
+CorrectAnswer = 1
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question4]
+Question = "다음 중 태양계를 구성하는 천체가 아닌 것은?\n① 혜성 ② 위성 ③ 명왕성\n④ 북극성 ⑤ 소행성"
+CorrectAnswer = 4
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question5]
+Question = "다음 중 지구형 행성의 핵을 이루고 있는 물질로 옳은 것은?\n① 철 ② 헬륨 ③ 얼음\n④ 수소 ⑤ 규산염 암석"
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question6]
+Question = "다음 설명 중 지구형 행성의 특징으로 옳은 것은?\n① 질량이 크다.\n② 편평도가 크다.\n③ 가벼운 대기 성분을 가지고 있다.\n④ 암석으로 이루어진 핵을 가지고 있다.\n⑤ 녹는점이 높은 물질들로 구성되어 있다."
+CorrectAnswer = 5
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question7]
+Question = "목성형 행성보다 지구형 행성에서 더 큰 값을 가지는 물리량을\n있는 대로 고른 것은?\nㄱ. 반지름  ㄴ. 질량  ㄷ. 밀도\nㄹ. 자전 주기  ㅁ. 대기의 평균 분자량\n① ㄱ, ㄴ ② ㄱ, ㄷ ③ ㄹ, ㅁ\n④ ㄴ, ㄷ, ㅁ ⑤ ㄷ, ㄹ, ㅁ"
+CorrectAnswer = 5
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question8]
+Question = "어떤 행성의 공전 궤도 장반경이 4 AU라면, 이 행성의 공전 주기는?\n① 1년 ② 2년\n③ 4년 ④ 8년\n⑤ 16년"
+CorrectAnswer = 4
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question9]
+Question = "지구 자전에 의한 별의 일주 운동 방향과 공전에 의한 별자리의\n연주 운동 방향을 옳게 짝지은 것은?\n① 서 → 동 / 서 → 동 ② 서 → 동 / 동 → 서\n③ 동 → 서 / 서 → 동 ④ 동 → 서 / 동 → 서\n⑤ 동 → 서 / 불규칙"
+CorrectAnswer = 4
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question10]
+Question = "다음 중 기체 분자의 평균 운동 에너지에 영향을 주는 물리량은?\n① 행성의 질량 ② 행성의 표면 온도\n③ 기체 분자의 크기 ④ 기체 분자의 종류\n⑤ 기체 분자의 구조"
+CorrectAnswer = 2
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question11]
+Question = "다음 기체 중 극성 분자는?\n① 물(수증기) ② 수소\n③ 산소 ④ 질소\n⑤ 이산화탄소"
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question12]
+Question = "다음 중 새로운 해양판이 생성되는 곳은?\n① 해령 ② 해구\n③ 습곡 산맥 ④ 호상 열도\n⑤ 변환 단층"
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question13]
+Question = "수권의 염류를 구성하는 물질들은 지구계의 구성 요소 중\n주로 어디로부터 유입되었는가?\n① 지권 ② 기권\n③ 수권 ④ 생물권\n⑤ 외권"
+CorrectAnswer = 1
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question14]
+Question = "다음 중 화학적으로 가장 안정한 원소는?\n① 수소 ② 헬륨\n③ 탄소 ④ 산소\n⑤ 나트륨"
+CorrectAnswer = 2
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question15]
+Question = "다음 중 지구 자기장에 대한 설명으로 옳지 않은 것은?\n① 태양풍에 의해 형성된다.\n② 자기 북극은 자석의 S극이다.\n③ 대전 입자는 자기장 내에서 힘을 받는다.\n④ 우주선으로부터 지상의 생명체를 보호한다.\n⑤ 나침반의 바늘은 자기력선을 따라 움직인다."
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question16]
+Question = "태양 에너지에 대한 설명으로 옳은 것만을 있는 대로 고른 것은?\nㄱ. 대기와 해수의 순환을 일으킨다.\nㄴ. 생명체의 생명 활동을 유지시킨다.\nㄷ. 광합성 작용에 의해 화학 에너지로 전환된다.\n① ㄱ ② ㄴ ③ ㄱ, ㄷ\n④ ㄴ, ㄷ ⑤ ㄱ, ㄴ, ㄷ"
+CorrectAnswer = 5
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question17]
+Question = "태양계의 특징에 대한 설명으로 옳은 것만을 있는 대로 고른 것은?\nㄱ. 소행성대는 혜성의 주공급원이다.\nㄴ. 목성형 행성들은 층상 구조를 갖지 않는다.\nㄷ. 태양이 태양계 전체 질량의 대부분을 차지한다.\n① ㄱ ② ㄷ ③ ㄱ, ㄴ\n④ ㄴ, ㄷ ⑤ ㄱ, ㄴ, ㄷ"
+CorrectAnswer = 2
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question18]
+Question = "다음 중 선캄브리아대에 대한 설명으로 옳은 것은?\n① 오존층 형성 ② 판게아의 분리\n③ 공룡의 대 멸종 ④ 캄브리아기 폭발\n⑤ 에디아카라 동물군"
+CorrectAnswer = 5
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question19]
+Question = "다음 중 현대의 진화설에서 집단의 유전자풀을 변화시키는\n가장 주된 요인은?\n① 이주 ② 돌연변이\n③ 자연선택 ④ 인위 선택\n⑤ 유전적 부동"
+CorrectAnswer = 3
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question20]
+Question = "컴퓨터는 2개의 신호를 표현할 수 있는 비트 단위로 정보를\n처리한다. 4비트를 이용하여 표현할 수 있는 서로 다른 정보의\n개수는 몇 개인가?\n① 2개 ② 4개\n③ 8개 ④ 16개\n⑤ 32개"
+CorrectAnswer = 4
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question21]
+Question = "아날로그 신호를 디지털 신호로 변환하는 이유에 대한 설명으로\n옳은 것만을 있는 대로 고른 것은?\nㄱ. 장기간 보존이 가능하다.\nㄴ. 오차에 덜 민감하여 안정적이다.\nㄷ. 아날로그 신호보다 더 빠르게 전송할 수 있다.\n① ㄱ ② ㄷ ③ ㄱ, ㄴ ④ ㄴ, ㄷ ⑤ ㄱ, ㄴ, ㄷ"
+CorrectAnswer = 3
+TitleLineCount = 5
+Source = "출처 - 올리드 참고서"
+
+[Question22]
+Question = "성간 물질이 주위의 별빛을 산란시켜 밝게 빛나는 성운은?\n① 반사 성운\n② 발광 성운(방출 성운)\n③ 암흑성운\n④ 녹색성운\n⑤ 독수리 성운"
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question23]
+Question = "고온의 별로부터 에너지를 흡수하여 스스로 빛을 내는 성운은?\n① 반사 성운\n② 발광 성운(방출 성운)\n③ 암흑성운\n④ 녹색성운\n⑤ 독수리 성운"
+CorrectAnswer = 2
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question24]
+Question = "성간 물질이 뒤에서 오는 별빛을 차단시켜 어둡게 보이는 성운은?\n① 반사 성운\n② 발광 성운(방출 성운)\n③ 암흑성운\n④ 녹색성운\n⑤ 독수리 성운"
+CorrectAnswer = 3
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question25]
+Question = "다음 설명에 해당하는 태양계의 형성과 관련된 천체는?\nο 태양계 성운이 회전 수축하여 태양계 성운의 중심부에 형성된\n  천체이다.\n① 운석 ② 혜성\n③ 미행성체 ④ 원시태양\n⑤ 은하"
+CorrectAnswer = 4
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question26]
+Question = "다음 설명에 해당하는 태양계의 형성과 관련된 천체는?\nο 태양계 성운의 원반을 이루고 있던 물질들이 응집되어 성장한\n  것으로, 이 천체의 충돌과 병합에 의해 원시 행성이 형성되었다.\n① 운석 ② 혜성\n③ 미행성체 ④ 원시태양\n⑤ 은하"
+CorrectAnswer = 3
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question27]
+Question = "다음 설명에 해당하는 태양계를 구성하는 행성은?\nο 표면이 암석으로 된 지각이 있는 행성이다.\n① 화성 ② 목성\n③ 토성 ④ 천왕성\n⑤ 해왕성"
+CorrectAnswer = 1
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question28]
+Question = "다음 설명에 해당하는 태양계를 구성하는 행성은?\nο 고리를 가지고 있는 행성이다.\n① 수성 ② 금성\n③ 지구 ④ 화성\n⑤ 토성"
+CorrectAnswer = 5
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question29]
+Question = "다음 중 연주 시차에 대한 설명으로 옳은 것은?\n① 연주 시차는 가까운 별일수록 크게 나타난다.\n② 연주 시차는 별이 실제로 운동하기 때문에 생긴다.\n③ 연주 시차는 천구에서 밝은 별을 기준으로 측정한다.\n④ 연주 시차는 지구가 자전하기 때문에 나타나는 현상이다.\n⑤ 연주 시차를 측정하여 모든 별까지의 거리를 구할 수 있다."
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question30]
+Question = "다음 중 연주 시차가 작은 별에 대한 설명으로 가장 적절한 것은?\n① 거리가 먼 별\n② 반지름이 작은 별\n③ 절대 등급이 작은 별\n④ 표면 온도가 낮은 별\n⑤ 겉보기 등급이 작은 별"
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question31]
+Question = "다음의 스펙트럼에 대한 설명 중 옳지 않은 것은?\n① 분광기를 통해 볼 수 있다.\n② 불꽃색이 비슷한 원소도 스펙트럼은 다르다.\n③ 나트륨의 선 스펙트럼에서는 선명한 노란색이 나타난다.\n④ 금속의 불꽃을 분광기로 보면 연속된 무지개 색이 나타난다.\n⑤ 선 스펙트럼의 위치를 분석하여 원소의 종류를 알 수 있다."
+CorrectAnswer = 4
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question32]
+Question = "허블 상수 값이 현재보다 작아질 때 나타나는 현상으로 옳은 것을\n모두 고른 것은?\nㄱ. 우주의 팽창 속도가 작아질 것이다.\nㄴ. 외부 은하의 적색 편이가 작아질 것이다.\nㄷ. 외부 은하의 후퇴 속도가 작아질 것이다.\n① ㄱ ② ㄷ ③ ㄱ, ㄴ ④ ㄴ, ㄷ ⑤ ㄱ, ㄴ, ㄷ"
+CorrectAnswer = 5
+TitleLineCount = 5
+Source = "출처 - 올리드 참고서"
+
+[Question33]
+Question = "허블 상수를 구하기 위한 방법으로 가장 적절한 것은?\n① 멀리 있는 외부 은하의 거리와 후퇴 속도를 관측한다.\n② 우리 은하에 있는 구상 성단의 공간 분포를 조사한다.\n③ 안드로메다 은하에 있는 방출 성운의 온도를 조사한다.\n④ 태양의 선 스펙트럼을 분석하여 대기 성분을 분석한다.\n⑤ 행성상 성운의 스펙트럼을 분석하여 팽창 속도를 조사한다."
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question34]
+Question = "자연계의 4가지 힘이 아닌 것을 모두 고른 것은?\nㄱ. 중력 ㄴ. 전자기력 ㄷ. 원심력\nㄹ. 마찰력 ㅁ. 강한 힘 ㅂ. 약한 힘\n① ㄱ, ㄴ ② ㄷ, ㄹ ③ ㄷ, ㅁ\n④ ㄱ, ㄷ, ㅁ ⑤ ㄴ, ㅁ, ㅂ"
+CorrectAnswer = 2
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question35]
+Question = "자연계의 4가지 힘에 대한 설명 중 옳지 않은 것은?\n① 쿼크를 결합시키는 힘은 강한 힘이다.\n② 중력은 매우 먼 거리까지 힘이 작용한다.\n③ 우주 내에서 가장 강한 힘은 전자기력이다.\n④ 전자기력은 원자핵이 전자를 잡아두는 힘이다.\n⑤ 전자기력과 약한 힘이 가장 나중에 분리되었다."
+CorrectAnswer = 3
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question36]
+Question = "다음 중 우주 배경 복사가 방출된 시기에 대한 설명으로 옳은 것은?\n① 빅뱅이 일어난 직후 쿼크가 형성되기 전\n② 쿼크가 모여 양성자와 중성자를 형성한 시기\n③ 양성자와 중성자가 모여 원자핵을 형성한 시기\n④ 원자핵과 전자가 결합하여 원자를 형성한 시기\n⑤ 성간 물질이 수축하여 최초의 별이 형성된 시기"
+CorrectAnswer = 4
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"

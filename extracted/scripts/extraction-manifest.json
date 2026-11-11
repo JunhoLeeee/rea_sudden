@@ -1,0 +1,2418 @@
+{
+  "package": "C:\\Nexon\\SuddenAttack\\game\\sa_scripts_00000.pkg",
+  "header": {
+    "path": "C:\\Nexon\\SuddenAttack\\game\\sa_scripts_00000.pkg",
+    "bytes": 9332736,
+    "version": 3,
+    "mask_bytes": 256,
+    "masked_string_units": 13,
+    "encrypted_header_offset": 287,
+    "index_padding_bytes": 91,
+    "observed_header_sha256": "88797434d503db5f0d5cf54342df2a3695fe6d0e6d473d4f97f36c423911beb2",
+    "identity_scope": "header-ranges-only",
+    "byteorder": "little",
+    "count": 239,
+    "checksum": 524613
+  },
+  "index_raw_sha256": "6bcfcbe5c396f804355b7fded38b2433fdea9a94e8d1bfdd3592031a597ecbe7",
+  "selected_members": 239,
+  "extracted": [
+    {
+      "path": "sa_scripts/ActionEventLua1.lua",
+      "offset": 25600,
+      "stored_bytes": 2744,
+      "output_bytes": 24212,
+      "ciphertext_sha256": "28464651b4c1273fb479a7f6f605fd02f71da483e8859a9876ee16e71f624080",
+      "output_sha256": "72c41bf4e4a515bcb2305d3bbd422d431a03765c477c7f96e747174548d7ae2a",
+      "expected_md5": "4c7e2c0619d26988ab6785e30a68059c",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ActionEventLua2.lua",
+      "offset": 28672,
+      "stored_bytes": 1248,
+      "output_bytes": 5504,
+      "ciphertext_sha256": "189adceb3c9cc9ae9023cdb048de65991399804b59d5aca4aef2faf419b694c6",
+      "output_sha256": "03aeb5a0c6692e2567c35c5ec7ed23dbbedee8ee293a8bafec42fcb4a4859e1f",
+      "expected_md5": "ac7df2c2306babde755edfe791f81d4b",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ActionEventLua3.lua",
+      "offset": 30720,
+      "stored_bytes": 1112,
+      "output_bytes": 3389,
+      "ciphertext_sha256": "82ed6e9dbab846146700dab1fcb78b0e9228096661677005c3fb7d226b706379",
+      "output_sha256": "2fe8f07d9c5a0faf2f5b1f0a7d5d3e11fa6a3b04b1ac0aa93aa045999a4b6c18",
+      "expected_md5": "a32f27b8c06900006ae0d7735bb65b76",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ActionEventLua4.lua",
+      "offset": 32768,
+      "stored_bytes": 1448,
+      "output_bytes": 16045,
+      "ciphertext_sha256": "fcd2cea2506c1134a6ed1a86c03d9d3a67e33d88ad3bac9384fc18e846b6cabf",
+      "output_sha256": "0a42d7344312d35ea1db6c60dc53cd4d5f6072374f77c5092f5a96f1e262755d",
+      "expected_md5": "2ce9482417264d61188288bdeb846fd5",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/actioneventlua_ai_data.lua",
+      "offset": 34816,
+      "stored_bytes": 14060,
+      "output_bytes": 268514,
+      "ciphertext_sha256": "e6f7200872f9b83133d289ed2fb63c81c591d56fcf7ff581e208992401aaed50",
+      "output_sha256": "a9d2ee01e901fec57dede58542a20db7042644a44d60319a4e2b83bbb5ad92df",
+      "expected_md5": "2a99af39af8638e6fa3b2bda1f4996ab",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/actioneventlua_ai_func.lua",
+      "offset": 49152,
+      "stored_bytes": 4284,
+      "output_bytes": 31088,
+      "ciphertext_sha256": "fbe8d714573d8f12d68b983769ea8d068c4cec1ca208b29c1f41e8a15b457cb1",
+      "output_sha256": "08117bebc9f236e107e1fd080ba59dbd4063758b4b3e5f741c7842bdd460569c",
+      "expected_md5": "74f6679abde6496d6b8e20a96bfd9261",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/actioneventlua_ai_table.lua",
+      "offset": 54272,
+      "stored_bytes": 4976,
+      "output_bytes": 44355,
+      "ciphertext_sha256": "119162a80e98c890b6eaa72d99998eed4c77bf651ce6c9aeb4b848f61ad19cbe",
+      "output_sha256": "3d5ba0cfea9dc06969723711bfcbfd11040c0b8b75b1da36aaf3822a295766ed",
+      "expected_md5": "9bb8f0acf971d6b94fc2a0d261757c57",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/actioneventlua_elevator.lua",
+      "offset": 59392,
+      "stored_bytes": 8416,
+      "output_bytes": 31319,
+      "ciphertext_sha256": "68c7c177fa86f694d11bb9c02a589a63771b3ee025280702ff65319773028d37",
+      "output_sha256": "562c6fcdc3e51b12721941b3e1d65ab9086f00dc3f6db068099968b0f470bd2c",
+      "expected_md5": "23352342ac2de4222b3be8b74ae92534",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/activatetypes.txt",
+      "offset": 68608,
+      "stored_bytes": 444,
+      "output_bytes": 1146,
+      "ciphertext_sha256": "e512e75c5139a797023f6998fdf1179e6579803cbdbe3d519a30ae3b2ddd86df",
+      "output_sha256": "7178b68237df8ee4570e3c50a1da30f24faaa0e8ae24a187caa1fa0c872c2548",
+      "expected_md5": "cbe2fac83a84323e9b3dcf2c16077001",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/additionaloption.txt",
+      "offset": 69632,
+      "stored_bytes": 10240,
+      "output_bytes": 180216,
+      "ciphertext_sha256": "21fc7e1c79e2d68b8330db39bd04723ed1822874df088c2b56fcfd5c09b8d16e",
+      "output_sha256": "5c562c4f36a389a138faba13a4a4dc19572553bbf640c654396258e5a1617b34",
+      "expected_md5": "a98eb64a71113266ab2d281e11e95956",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/aditem.txt",
+      "offset": 79872,
+      "stored_bytes": 264,
+      "output_bytes": 262,
+      "ciphertext_sha256": "285d01b7b1a8ed0c5279787959910fdb4863a7b81de733a7c5fce0f0e2b63a24",
+      "output_sha256": "7a18c51509d9f96c74da4d426acfd6bbf656f9a29d6ed9a205a4ed65e697d142",
+      "expected_md5": "66f9ddb94ca70e4950929bc00d37740a",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ai_common.txt",
+      "offset": 80896,
+      "stored_bytes": 3204,
+      "output_bytes": 9353,
+      "ciphertext_sha256": "429f59a496ba220659e1a9821e351343af784a5791a81adc93e7631d091e0d13",
+      "output_sha256": "6780c48a915a50a0d558158e0ebf98b0fdcd97b927b15e7ecf47e3c122ef53e2",
+      "expected_md5": "7a064403d73b95b28fb4d3221efe8e06",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ai_modelbutes.txt",
+      "offset": 84992,
+      "stored_bytes": 7516,
+      "output_bytes": 111323,
+      "ciphertext_sha256": "3ad1ab381a7f3aced1a9602ad317159bd3e86cb392d20a1f819749859dd3bac6",
+      "output_sha256": "7f939855e45f54d6bead908e9969f17db3cfbedd3badb7cda94a08c5a70a2595",
+      "expected_md5": "9da48aeaa0837109aa2a96f1c4034c54",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ai_monsters.txt",
+      "offset": 93184,
+      "stored_bytes": 3108,
+      "output_bytes": 56523,
+      "ciphertext_sha256": "2109f35a4c9a52c39f8ba15e8db9d8aad482d4cb1af6d36ac541588e3025ed03",
+      "output_sha256": "8058aa2f56ac68c203bbc1c1fb3f87aeb81cfb45e5fee37595bfb13457b1378c",
+      "expected_md5": "5a1fb1838a68d1e4289c2cf8fdb85033",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ai_suzi.txt",
+      "offset": 97280,
+      "stored_bytes": 340,
+      "output_bytes": 836,
+      "ciphertext_sha256": "897a6aed5626d61f62beca3aded68b5e88e5059e22ce8bb85257ce57ff801385",
+      "output_sha256": "13adbc76b2e86c1f53ecf3c89f9976aaa70985a0bc312a0b7a0b7f52699735e7",
+      "expected_md5": "750e23b6543133b2b476ffa85f8b3489",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ai_trigger.txt",
+      "offset": 98304,
+      "stored_bytes": 1424,
+      "output_bytes": 6398,
+      "ciphertext_sha256": "8f3e6a3f46e109151ff89184f92eb87f3ce8efdd3ae8aecfc2a3fcdce58bf27e",
+      "output_sha256": "9cdcaffa124de728df08785704f0077f73fc1dba99f2081b3eed08e9453a67c7",
+      "expected_md5": "284da3857158ce0232a3adf6a3e9de82",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/aibotability.txt",
+      "offset": 100352,
+      "stored_bytes": 11464,
+      "output_bytes": 145334,
+      "ciphertext_sha256": "cfb8d3851cc97f6fa202c09bbb7f2ae6462744210a8dd820915d865ba99a00f6",
+      "output_sha256": "72ccc64f7c97b1b49fc35387929fc7a1b71333ed6f31adb329217d22333a5da8",
+      "expected_md5": "ad66b0807f24db25a9ed383649880559",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/aibotbase.txt",
+      "offset": 112640,
+      "stored_bytes": 15320,
+      "output_bytes": 148984,
+      "ciphertext_sha256": "a1f077cb69a5530f0999e37c7ed4f555125b5fe20b6013412315bc447757449a",
+      "output_sha256": "cc1a3c60469bb6abb53c0719a7e80c3f9dbe53e8f38d9c73cfc87e8e3b404090",
+      "expected_md5": "9fa6cc05ddef74859083b039118dff0d",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/aibotlink.txt",
+      "offset": 128000,
+      "stored_bytes": 1944,
+      "output_bytes": 7625,
+      "ciphertext_sha256": "d6e32b58c277799584039a19d501f7f38597382b9818850d808d2ee3d3658207",
+      "output_sha256": "b207839427022c3dedd10b8e475d2da0a574d03c215f64967b27bafddea29b64",
+      "expected_md5": "a1b05de159a763e358367813be74560e",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/aibotmodelbutes.txt",
+      "offset": 130048,
+      "stored_bytes": 14192,
+      "output_bytes": 173203,
+      "ciphertext_sha256": "6a9fe09c4e869ee448748b0e6b3567aaca9f3fe6adc0bcdb4c8b2a68de12cef7",
+      "output_sha256": "5fec7ac4be1657f83264e3c95e4eb88d83610ee846c03cbb26a8690e6affa519",
+      "expected_md5": "467aedf14098c4ee0635030ea2275da1",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/aibotnexonlink.txt",
+      "offset": 144384,
+      "stored_bytes": 4160,
+      "output_bytes": 17256,
+      "ciphertext_sha256": "94885df4e289503efcee48d105a246f60988f29194e88f787ef88a8935db7be1",
+      "output_sha256": "2830c780b1fc7c24b63b3d7ed2a11de8639082b2aa01c9ffd8fa7d0081d9d4fd",
+      "expected_md5": "9cea447dc47e5abc4c64adbbf139e245",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/aibotpattern.txt",
+      "offset": 149504,
+      "stored_bytes": 12536,
+      "output_bytes": 51406,
+      "ciphertext_sha256": "b599cb4a90ec42180731cce12590cbc8040fe584f788f6322bf65e26d1038bbb",
+      "output_sha256": "66ab3a15debdfa2d791e3a850b67db88aae4bc65737ce6d7c17918a5b5165cdf",
+      "expected_md5": "224224c98d551d6070cc59dc57383bb8",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/aibotsability.txt",
+      "offset": 162816,
+      "stored_bytes": 54080,
+      "output_bytes": 1786011,
+      "ciphertext_sha256": "390f50f6c72e1d05757ee1dab35d05c07a15006e7a54b2aef4841eb52f0c35d0",
+      "output_sha256": "1f74db6f71814325804c661bd56ecb3cfd82e52bba8d6304c276d37e0aa3421c",
+      "expected_md5": "19a43c195e274d9566331a8ae889083a",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/aibotspattern.txt",
+      "offset": 217088,
+      "stored_bytes": 2948,
+      "output_bytes": 13991,
+      "ciphertext_sha256": "ecefc22a9ce3ba1f38e6fc963e1e7c64d5732ae135c59c55ec60fa70e6532676",
+      "output_sha256": "40acdfbce36b55273b4e863b9a3605d80fe1f82d3b4cab5769ffac67af834748",
+      "expected_md5": "ca95029357d49738283b754a6a13f96c",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/aibotweapon.txt",
+      "offset": 220160,
+      "stored_bytes": 1612,
+      "output_bytes": 13082,
+      "ciphertext_sha256": "3e0e634956eafcb6dde8df17bda4d19ade9c7d16488c5fda12e166f73015d6a8",
+      "output_sha256": "c8dfc826ccadce3087b33ec5ce2fcea81027cbed6fb7222fcfe154094f86685b",
+      "expected_md5": "25db8223806e9940c43483ac0fe23cab",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/aibutes.txt",
+      "offset": 222208,
+      "stored_bytes": 9036,
+      "output_bytes": 142949,
+      "ciphertext_sha256": "bc4bc4a13b12350162d1e4808c01b77993d216d949ea2d39202e64f3b95aeec3",
+      "output_sha256": "0655f97bf35ac5bc5d5f6caeaa643be8e7f0f6b40c070b38c8d1eae03104a906",
+      "expected_md5": "3f498876c23cde32d0417c79caece26d",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/aigoals.txt",
+      "offset": 231424,
+      "stored_bytes": 5824,
+      "output_bytes": 42037,
+      "ciphertext_sha256": "f20d8ba1e96b3aab32dc49a39be9a019f1ebe1ed4370371e77bcba63466f0e71",
+      "output_sha256": "8dc9a4644cc9902e4dc98568301e881503943745aa762c00817e637b9dd03663",
+      "expected_md5": "fac7e37792bea8c2eca03c57db08070a",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/AINPCAction.txt",
+      "offset": 237568,
+      "stored_bytes": 252,
+      "output_bytes": 1147,
+      "ciphertext_sha256": "00e63e5492369fe10b496a749f1dfa95f8398975625de4ee9218948fe907749a",
+      "output_sha256": "3cde32c5d3674c3955f067668a7d03aa3c0d90d9e9a90ba674a119e35733e3d1",
+      "expected_md5": "da62749708b8cb036167ae5d1bf652c7",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/AINPCPattern.txt",
+      "offset": 238592,
+      "stored_bytes": 620,
+      "output_bytes": 4332,
+      "ciphertext_sha256": "fa7bf699ba2050d670b9d895834e7d168bc88a16cd0acfb02e01a2162c916532",
+      "output_sha256": "38af4c1be5bb5af12594b694f24daade44c7c44afecc7ed5e99756e6cdc0cfc7",
+      "expected_md5": "1cb8b507c2c524197a345438d7b919e4",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ani_replica.txt",
+      "offset": 239616,
+      "stored_bytes": 7464,
+      "output_bytes": 48923,
+      "ciphertext_sha256": "b8a6239a41349262e0d90251838e004d5874e0d486bc0f0dea605566920f1ecc",
+      "output_sha256": "5389f50eb734c6b78f1efd48f05cc58a3719d9744a83d3fd7b72d49795b7e06b",
+      "expected_md5": "579ff9160c6a92ad3c5ae50d9fc1d660",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ani_stud.txt",
+      "offset": 247808,
+      "stored_bytes": 7464,
+      "output_bytes": 48923,
+      "ciphertext_sha256": "6c8e5b776f50fc39f4d225f5f4d3e7159486e8cfab9549ee2720bc52df6bc93e",
+      "output_sha256": "5389f50eb734c6b78f1efd48f05cc58a3719d9744a83d3fd7b72d49795b7e06b",
+      "expected_md5": "579ff9160c6a92ad3c5ae50d9fc1d660",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/attachments.txt",
+      "offset": 256000,
+      "stored_bytes": 1456,
+      "output_bytes": 5429,
+      "ciphertext_sha256": "c044b2eaa5bf2afef2ce81f959068c47e14cd250a863c1f5aeee28c4ef13df3c",
+      "output_sha256": "788192ee5e11098afb9b0cc420f77edfee2e398e2ce1c0783955f372e0d49522",
+      "expected_md5": "e31a5f3586d9479f253e932b303e4781",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/BoastFX.txt",
+      "offset": 258048,
+      "stored_bytes": 1216,
+      "output_bytes": 6572,
+      "ciphertext_sha256": "d4367f8e04f3964a3623086f08b5d0419e1881ae1191c33507d6ea7aa592da56",
+      "output_sha256": "88abe637221e51c4a1916bc4514e8c94f97d8a07c7e317962c11d5c15ec55979",
+      "expected_md5": "033a79b79e91f3757399b4bcf5034cdc",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/BodyShotItem.txt",
+      "offset": 260096,
+      "stored_bytes": 528,
+      "output_bytes": 2193,
+      "ciphertext_sha256": "9dc6a6d408543b47cc71f3000f713aa028e2e2c395e3d31a06eafd22d7fa2c16",
+      "output_sha256": "b4626b828b2040aa202c0b1da6f2c3ee19373294de8e1d420afc0d8830bdfeef",
+      "expected_md5": "ed90f3f6b0e1605ea5e401f5db587719",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/CardMonteExchange.txt",
+      "offset": 261120,
+      "stored_bytes": 352,
+      "output_bytes": 2006,
+      "ciphertext_sha256": "54c7bcf5668a63ddd2159e09ad18fda3d12a3b0c4deb3954861d3384c86baa80",
+      "output_sha256": "b0747db394b3c8a6a0a7e55d19f96dd32a903c98dad869af7fd53c3f2eb727ca",
+      "expected_md5": "b31a120ce1f83df4439ca90561938c22",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/cashitem.txt",
+      "offset": 262144,
+      "stored_bytes": 187260,
+      "output_bytes": 1313927,
+      "ciphertext_sha256": "01d3b0cc4178ab859f9121d9b3711dc720b59639a78fcfed74ba11c54689634d",
+      "output_sha256": "849219f32004be7df9913e3f1100fc85783f0743030d1596bbb7b8e030a0cfe2",
+      "expected_md5": "9458b6b0d44ce5fd32a461a2ce158b25",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/CeremonyItem.txt",
+      "offset": 449536,
+      "stored_bytes": 10196,
+      "output_bytes": 41981,
+      "ciphertext_sha256": "52f2601388298860ae37b7cadb903904ad09a1e3a355607d5f21e9a6787bfc5f",
+      "output_sha256": "246d07f0f069e1b6e3b4837e7ba2a343f0ac51ba455369f5a82e38f7d528b833",
+      "expected_md5": "f4cf11cbc86e5da6ae52a814da1a71ce",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/CeremonySetting.txt",
+      "offset": 459776,
+      "stored_bytes": 204,
+      "output_bytes": 419,
+      "ciphertext_sha256": "5e129ca3a688272e6dfd569c35511396602fa250cd85ae7350ac6eea59e69873",
+      "output_sha256": "88983773262cc4f07c4356a8301516130b1609e48eb20e981ee409bb5b862bb7",
+      "expected_md5": "45d15796ef30c29e4b867c2026b0cf9a",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/charparts.txt",
+      "offset": 460800,
+      "stored_bytes": 33584,
+      "output_bytes": 458347,
+      "ciphertext_sha256": "2ee125a706f550554024ae0fa2d61838d702f6f9fd87a3e509cd0d59057fdadd",
+      "output_sha256": "30bee9dccba827ce64e836d6cf48d9fcb312b09b6e34d670b4caf043a69ba5a6",
+      "expected_md5": "34f6bc8da26137d85c86cb1a721561dc",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/choboguide.txt",
+      "offset": 494592,
+      "stored_bytes": 1312,
+      "output_bytes": 7159,
+      "ciphertext_sha256": "5edc9e4f7aafd12ec9b85b3df0e9135ff5c90c449846346a5ea0c358b2c8a05b",
+      "output_sha256": "dfe52007557f3b5d91c61e1db93ba12345da8ccc6ade8576d7ab8aec3703bdbb",
+      "expected_md5": "90da2fb52f33b7920c28dd35be3dc72e",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/cinema.txt",
+      "offset": 496640,
+      "stored_bytes": 144808,
+      "output_bytes": 1582322,
+      "ciphertext_sha256": "8303f5e4100052da2520cc15b7f0e289fe30a7a347994e0dbdb445e88f89d3fa",
+      "output_sha256": "ab17d55499e584dc7da8c416d1de7e5839a7a942d31aac83b726ac9f73152344",
+      "expected_md5": "578330d3a058bf93976bb853f1e9af9f",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/clanmark.txt",
+      "offset": 642048,
+      "stored_bytes": 900,
+      "output_bytes": 6496,
+      "ciphertext_sha256": "4471c213dd4e3c88721e43187b941489ab54df19525facb9cea9a16f8454a76f",
+      "output_sha256": "a57d89347e50c929574bab8dd64f304f8c9a16a5d6f3cbcc067d79f2f773a1cd",
+      "expected_md5": "16a178168fc2a795de2a0c88286b01b1",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ClanRoomBlock.txt",
+      "offset": 643072,
+      "stored_bytes": 1376,
+      "output_bytes": 17021,
+      "ciphertext_sha256": "a3c78b12fbd438236c2771ba423127668f59d352403e7992b5cad2236cc478b1",
+      "output_sha256": "67f883cdd941b4813d30fd94eab6541048753ea5b2093b4c7dca1834656d596d",
+      "expected_md5": "b4522fea5d919f4b5b984d34909ef1f3",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ClassicMode.txt",
+      "offset": 645120,
+      "stored_bytes": 612,
+      "output_bytes": 2259,
+      "ciphertext_sha256": "bdf6e2b4edfb5b54fad30bb86ba66e1afc9e9ae1e485513e983b63c232d40c17",
+      "output_sha256": "83858f03f7eec9a160b1f109139f7e7e147cc45ce969298a5377c9eff8e1e993",
+      "expected_md5": "3e6d8544f281d09e4dbb73707f021575",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/clientbutes.txt",
+      "offset": 646144,
+      "stored_bytes": 3812,
+      "output_bytes": 13436,
+      "ciphertext_sha256": "7a72a44301e73308fe95637e9a1fbc860d5f58464b4970578d3c20297e0afe72",
+      "output_sha256": "c93d6f31b8bb885b45c9cdc6af51b8b0ccece5b91d27ecf9a8f7ceac18d9c454",
+      "expected_md5": "bd6ee4cdde1fef7a776a2695b4a2cca8",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/clientobjectbutes.txt",
+      "offset": 650240,
+      "stored_bytes": 5400,
+      "output_bytes": 33626,
+      "ciphertext_sha256": "755f80db090f9ab1c145920f0323a4dea3dcdb846d273a497137e5df01f30cfe",
+      "output_sha256": "a96d3069e6bfb593bb3d855af94c77125c8ddd0a1bcd49b6fc99cb1520f74f27",
+      "expected_md5": "fed4f078d6bb0a282c7a629b297c43a3",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/clientobjectpackagebutes.txt",
+      "offset": 656384,
+      "stored_bytes": 7280,
+      "output_bytes": 35346,
+      "ciphertext_sha256": "b062ad42b1b613f6529bbe94fc700d537f466875a7fdf339b5b92fff45e0e8a2",
+      "output_sha256": "94add7835eac492a6aa6f29c50e398add779a0847c57c1d8c1f07a4cc51158c3",
+      "expected_md5": "db0d0a22fad8c49f5fb3a81cb720b156",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/clientsnd.txt",
+      "offset": 664576,
+      "stored_bytes": 844,
+      "output_bytes": 3775,
+      "ciphertext_sha256": "d6f3e840c83c62eba2937a1582deb2fb5a745ccaa16619000455a2845f25375a",
+      "output_sha256": "55e493d588ed165c5cd7cf992f2f9398182b315f614dfea9089ac3abbfc0c0e8",
+      "expected_md5": "081670ad1f9b082e2d466ac98748c971",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/CollectionCharacter.txt",
+      "offset": 665600,
+      "stored_bytes": 31608,
+      "output_bytes": 376077,
+      "ciphertext_sha256": "b4686aa9b586e242421318b47d0679318c33ce4552736442d2b3d8e740ae46db",
+      "output_sha256": "7345ed9c99c3e9a1d2983bfe1cf5089c6c221222824b68abf0298d3bc5aba93a",
+      "expected_md5": "ce028b92da4978cbeb543a01f4ff91ca",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/CollectionEmblem.txt",
+      "offset": 697344,
+      "stored_bytes": 3396,
+      "output_bytes": 18508,
+      "ciphertext_sha256": "cd957f4d184f06a5584ee16d7bc08383b56eebdf8289e6145dfc0e9fed18e1b9",
+      "output_sha256": "475879b5e243b8b07ba7e5c051d37d84343b32ef9fdc5c40528248efb938dc44",
+      "expected_md5": "adfaaea16b711c0f1a1931b38fba44c8",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/collectiontitle.txt",
+      "offset": 701440,
+      "stored_bytes": 43868,
+      "output_bytes": 553087,
+      "ciphertext_sha256": "e0fb33c563486321d5c826ce2a2e019889b8f7099321e93493d05ee9c4b63a81",
+      "output_sha256": "48ed706b5e430347d3b956b1950c7a324d9768fc4b3eb2d1894461ae1e5aef72",
+      "expected_md5": "e7ebeda9810123db549f4cb773edde71",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/CollectionWeapon.txt",
+      "offset": 745472,
+      "stored_bytes": 13080,
+      "output_bytes": 122408,
+      "ciphertext_sha256": "a533a0224d6b462a552dba09fc5726ec2dc345c20b7a0e5a6270d47dd2247e7b",
+      "output_sha256": "f52d1d841474b368b2db9961750f6f08d08ed617f7ff5f9cd5b19bd160db0845",
+      "expected_md5": "96dc14bdf63d628f9675a5b03159c933",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/commands.txt",
+      "offset": 758784,
+      "stored_bytes": 552,
+      "output_bytes": 1352,
+      "ciphertext_sha256": "210f4fa5bda4d4d2a6ac040e969cd2f30666aaa21e78505db543def04d474a3c",
+      "output_sha256": "cbd2f1b4e3f1524170cfd68e396233413a673bbb923341aded9cde585510f2c3",
+      "expected_md5": "87e8b60aefa0d56ac0765e9f24b9533d",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/confirmitemuselist.txt",
+      "offset": 759808,
+      "stored_bytes": 336,
+      "output_bytes": 335,
+      "ciphertext_sha256": "947876accfb0163ea5dd132caf211ae17c312655f13894d8b736fce1b2f094c9",
+      "output_sha256": "296fed33e6b89758195da7df22d44cb6f17b41dd93f411e65541591b50cfffb9",
+      "expected_md5": "c26fd2c3b462041fdf44a6bfaa154d4c",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/coopmissions.txt",
+      "offset": 760832,
+      "stored_bytes": 972,
+      "output_bytes": 3536,
+      "ciphertext_sha256": "73238e31d1fc57c995edd19e85a7e1090b46af52b7b330cb9f995c14b1901310",
+      "output_sha256": "ab4ac46adce03389918b674d68e5af98500fd6c2485cfb0a6c0ab189da33cefc",
+      "expected_md5": "f9e925ed00d16ffc685b2edff6bcda07",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/countersupply.txt",
+      "offset": 761856,
+      "stored_bytes": 13932,
+      "output_bytes": 210284,
+      "ciphertext_sha256": "74216eb9fa91503de54ec1c892e5f82800d28f33a3c15bfb3de9a535ccf7d10f",
+      "output_sha256": "1c3ea8a484cbb66181a470061be8bb861c8be4321ef8064dedbd45955d0abd6e",
+      "expected_md5": "7c47441657ed4494eabc8b21b188ef0c",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/cryptcheck.txt",
+      "offset": 776192,
+      "stored_bytes": 12,
+      "output_bytes": 10,
+      "ciphertext_sha256": "b7634b87fe634ee33f12a32f773f660df41151a8d2b94df6904d29eee09ad959",
+      "output_sha256": "84d89877f0d4041efb6bf91a16f0248f2fd573e6af05c19f96bedb9f882f7882",
+      "expected_md5": "781e5e245d69b566979b86e28d23f2c7",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/damagefx.txt",
+      "offset": 777216,
+      "stored_bytes": 3288,
+      "output_bytes": 16363,
+      "ciphertext_sha256": "62b591e95a76728136ac32490cd87fd7ce93dd46a75b8825bebd986ae6439216",
+      "output_sha256": "1676234e8c2ec0c4f8f57a8751dd19645b747005fcb15ff3989fd97e606d2a28",
+      "expected_md5": "794a039b37d990b7990e9277885a4aa1",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/damagetypes.txt",
+      "offset": 781312,
+      "stored_bytes": 768,
+      "output_bytes": 4707,
+      "ciphertext_sha256": "f2362044ec16cfb3c7a0fa9ddc188e40bd57071e3395b2ee11741a823d5ef729",
+      "output_sha256": "185114dfa8d6714955005b0330ded144fdfbec27ea72b2fa613991858dc6c18b",
+      "expected_md5": "2011db59721e2b15e04db1031456be21",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/debris.txt",
+      "offset": 782336,
+      "stored_bytes": 4080,
+      "output_bytes": 29054,
+      "ciphertext_sha256": "b1ee8dfcf923ff84d0dd0ede68fe72742e3a3fa173b7d92968a86ceb97344b69",
+      "output_sha256": "683524ed70d9ce28d794e116ed7dfed9d511d38330a46340b06864011d4ec226",
+      "expected_md5": "666ef6ba09bae007ecc4080b96cd76ef",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/DecoUserInfo.txt",
+      "offset": 786432,
+      "stored_bytes": 2648,
+      "output_bytes": 23721,
+      "ciphertext_sha256": "81d436cbf6084f1a959fa654e0c5b1155042d7a01151f1a5e4139957fafa40e9",
+      "output_sha256": "c1f1cc644acff3829b9810211ab5dd177f3b426a1c547cc155471c888fe7e8b5",
+      "expected_md5": "b15c48891c88af8f70313d0db181ab5a",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/DirtyGame.txt",
+      "offset": 789504,
+      "stored_bytes": 1184,
+      "output_bytes": 2466,
+      "ciphertext_sha256": "bbd12e137c9606d08c243cc4a17eb4c582c2db149741d8bf2461f9f3e4acb291",
+      "output_sha256": "dcf8221b235a7afde40e57b8457f7ec3c1be619da4c02965b772fa044f200c62",
+      "expected_md5": "6731dccabc7a038d6ddeeb0081018f06",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/disaster.txt",
+      "offset": 791552,
+      "stored_bytes": 1720,
+      "output_bytes": 14304,
+      "ciphertext_sha256": "047addc1ff869377ba93205c6a45fe615e898942faa4bab853c6487fb707a6c7",
+      "output_sha256": "888bb870024b3baa362d4d8e6059635290358957db16c48d6d52b9e14cfdd8d8",
+      "expected_md5": "6e995ab8d8fa2c9f29eaa3467677d75b",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/Durability.txt",
+      "offset": 793600,
+      "stored_bytes": 204,
+      "output_bytes": 897,
+      "ciphertext_sha256": "a90fd071c46a7d1c42effe54c2563392e85a2c2bd8a208173756db81d88270e6",
+      "output_sha256": "226cb6a06ca585b7ab8a2c2e607aac76ce7b8b74f082ab549f28e9e8d34da5be",
+      "expected_md5": "93a613bdf2b5aecc777e68ce32387e27",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/elevatorescapemissiondata.lua",
+      "offset": 794624,
+      "stored_bytes": 38776,
+      "output_bytes": 335443,
+      "ciphertext_sha256": "3cacf209b4ac8e703728abb4a43b0555e6ab44988a3f79d55e41d44d347b0dce",
+      "output_sha256": "093847048df74c458c2cbab2d9b48865d1907d6f9c3f657f2bffb08f89fea07c",
+      "expected_md5": "a897a37ef950d08670054ffca1e376ed",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/elevatorescapeperkdata.lua",
+      "offset": 833536,
+      "stored_bytes": 5480,
+      "output_bytes": 51161,
+      "ciphertext_sha256": "52a494f64f42a7e34e86dacc2decc442c416533fde31c41d1a439a8483c58b4a",
+      "output_sha256": "78818a56d055066c352a480415551c32641db57c1f8faf128c85efbba964be23",
+      "expected_md5": "a520232a75b2581806b9fa4f11c18e5d",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/Emotion.txt",
+      "offset": 839680,
+      "stored_bytes": 6356,
+      "output_bytes": 38442,
+      "ciphertext_sha256": "532b0492c12bcf41af2078f32c4b892eb507b7fc77be47701d2148939072b95f",
+      "output_sha256": "699f5fb07031d15e28f5115ae47d993563b0fd693f3a95d5dab7700a968220cd",
+      "expected_md5": "8c216c6999f9f7d95e64321990a3c9fc",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/englishword.txt",
+      "offset": 846848,
+      "stored_bytes": 9132,
+      "output_bytes": 21740,
+      "ciphertext_sha256": "030e6eee03c9d6d2c82555b8d3904a02c6923bf25efdc85c1a60c5cfe8615c62",
+      "output_sha256": "649c466cc7ea0d05625eb6e9b69f679b21682b452785d6da394065bc481e21e4",
+      "expected_md5": "7521e0b8799cd0c05c47e01dc5b82893",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/esdcharacter.txt",
+      "offset": 856064,
+      "stored_bytes": 1648,
+      "output_bytes": 13437,
+      "ciphertext_sha256": "75f98b65ef91e065934b957470e64a56c4cbdd1fa6e163a85dd9bc69d98e284c",
+      "output_sha256": "b1c7289f7074352a9d8afb9829e41776d53c883615a4801165ed70e309b02406",
+      "expected_md5": "09efdc667299f99aca39ced885cae611",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/eventcode.txt",
+      "offset": 858112,
+      "stored_bytes": 6720,
+      "output_bytes": 28551,
+      "ciphertext_sha256": "f2f6839ede4c5820f42552b647facf17e1ba7f071fb2564ef86aea35ad5f8c1a",
+      "output_sha256": "d47bed20ed3cc59071533bb753e33fdb687b4b126274e3e30f082a248583ce36",
+      "expected_md5": "8a679ab33563c39979e278ed5e3733f9",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/eventItem.txt",
+      "offset": 865280,
+      "stored_bytes": 876,
+      "output_bytes": 3190,
+      "ciphertext_sha256": "dce4a5ac702a669c605f6f0506639c1cc95c885ac6a11126f1644a5f0dd850ac",
+      "output_sha256": "b3f5414f5e638cfee0223f9704c831bb80534c916577722f08b85e1eb67e9c07",
+      "expected_md5": "92f6a690767d7afa099bfb5d51069a96",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/fcrc32.txt",
+      "offset": 866304,
+      "stored_bytes": 256,
+      "output_bytes": 254,
+      "ciphertext_sha256": "07cf39d5fb805d15cd5ac72da78725310d3ca56b01cd5c1405f9c467dfbd496d",
+      "output_sha256": "a5d0ee8af985599726997f69f8e2bcf06121f1a746631c404d83a74cc1e0efc6",
+      "expected_md5": "01efe39bc8a0509dec92f36934d4185b",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/fcrc32_c3.txt",
+      "offset": 867328,
+      "stored_bytes": 24844,
+      "output_bytes": 68135,
+      "ciphertext_sha256": "a791d194adb02b6cedc60ae90fb732523b837ac6e952ab6e1fe5572ac37154df",
+      "output_sha256": "2a150ab9cd49ee546a843116dad8242394bfebd27188e195ad2909462eb0c06f",
+      "expected_md5": "e547b35dbf252380872ce7dc16133569",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/fcrc32_cp.txt",
+      "offset": 892928,
+      "stored_bytes": 2736,
+      "output_bytes": 8991,
+      "ciphertext_sha256": "7a326a7f5f2d7ed8c31b390dd0fa0668c7e3f48ce63c42512d44e334d37a75fe",
+      "output_sha256": "a797b0be7f63cb5cee0d673f05ea72432ade73c67dbf45f292623f5cd0f00ab0",
+      "expected_md5": "6c98171f46f21b7b23b054b6db12bd0b",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/fcrc32_cs3.txt",
+      "offset": 896000,
+      "stored_bytes": 4,
+      "output_bytes": 4,
+      "ciphertext_sha256": "2a332b1a77d5b5204379be90c9d374ff797d26d58a51f9972feadb585b2d10e4",
+      "output_sha256": "b9165976561b19cdf15818b854d5306d6429f0b157228461aa3d6a4d68cf9590",
+      "expected_md5": "aa528b00e7811340912b9f35c7958511",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/fcrc32_fx.txt",
+      "offset": 897024,
+      "stored_bytes": 772,
+      "output_bytes": 1853,
+      "ciphertext_sha256": "2ca23fd11a8d3d174de8e2e7a1d19c8bf342220a876909ea09dfeda8cdb9dae7",
+      "output_sha256": "ab7f2dab229e37c7adccfcc98d14a10bef35c87ffe2dfea82cfc6efe876e2dcf",
+      "expected_md5": "d578673cc52398470a2e51ce0eedc202",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/fcrc32_m.txt",
+      "offset": 898048,
+      "stored_bytes": 3452,
+      "output_bytes": 8026,
+      "ciphertext_sha256": "942e82b6cf0454ef8c4012d3332c903121c49ae6b6240b51c7166477ecc28e28",
+      "output_sha256": "934d044064a934c855bc31b2fdf8d97e6eee1f0436e6458a986b5063f352a3f1",
+      "expected_md5": "bb7d684a37f9f9fbe80226d6fe9129de",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/fcrc32_mt.txt",
+      "offset": 902144,
+      "stored_bytes": 287712,
+      "output_bytes": 693062,
+      "ciphertext_sha256": "2774e63f68176e9edb6b877e22a13d0192d5f5c438c5d271c10f2b007683df8f",
+      "output_sha256": "aefe0bb45d37e274a8fa9f5224d85465d17bcfa8519390d605f59534e1b701a5",
+      "expected_md5": "d7ee854156ffaeaf520023909bad7f9f",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/fcrc32_s.txt",
+      "offset": 1189888,
+      "stored_bytes": 500,
+      "output_bytes": 1084,
+      "ciphertext_sha256": "6057eb7be8891a67f30c3decda9f99b0a5bafa5f88159f07413183f753f3a64c",
+      "output_sha256": "73256247e8b8b96d46bcf9263e1c1a1b54d2f45a9e3af52a3fb55680e19f493b",
+      "expected_md5": "d29e2247b5509daac771d875b3784701",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/fcrc32_t.txt",
+      "offset": 1190912,
+      "stored_bytes": 4,
+      "output_bytes": 1,
+      "ciphertext_sha256": "ecb0cf0152935c9c7ed26d905801fa41ff73d64696b5b77223b9da762698b94a",
+      "output_sha256": "ef6cbd2161eaea7943ce8693b9824d23d1793ffb1c0fca05b600d3899b44c977",
+      "expected_md5": "58c89562f58fd276f592420068db8c09",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/fcrc32_w1.txt",
+      "offset": 1191936,
+      "stored_bytes": 50012,
+      "output_bytes": 134032,
+      "ciphertext_sha256": "841fe46f5f22025f380852743094a58601970ae66b0d8b7e6692fce913e6bb4e",
+      "output_sha256": "a0e2703355f04bbc313d3ddcfcbf1584ba247f26ba51f748c52ffec93924589e",
+      "expected_md5": "94aa45e59a2b4520f821b71f0e6bccc6",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/fcrc32_w3.txt",
+      "offset": 1242112,
+      "stored_bytes": 23568,
+      "output_bytes": 60680,
+      "ciphertext_sha256": "41f5f9baeb97a19aa3149118850110e753a57e785b090bc60b5a77ae2ca448d5",
+      "output_sha256": "25484dd4653afc244f46eb86d24a212e23c46f4e1bb01389c481fe112eeb5266",
+      "expected_md5": "22f4528f1eb4fc7a32620346fd36f4f1",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/fcrc32_ws.txt",
+      "offset": 1266688,
+      "stored_bytes": 130820,
+      "output_bytes": 366287,
+      "ciphertext_sha256": "0907bd6df4bccd695b209bd1c1bcf304aa09cbd0d9298ef8bbb0bfd1b57d8a92",
+      "output_sha256": "fea73c5e3f718da289c1c4d8d349f74000c117a83425bf31daba3a1f1d6f0799",
+      "expected_md5": "706d7fe1c56769a83ddf64e433e9edc1",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/fontsale.txt",
+      "offset": 1397760,
+      "stored_bytes": 296,
+      "output_bytes": 934,
+      "ciphertext_sha256": "1891a2d380faf2492467f7f0ad213f4f758534a7ae265be96fd01b2ed7820acc",
+      "output_sha256": "df319ec26a876a056ac817c42dec5a5670aea6dd49feb067d969bc79d3e1b3ba",
+      "expected_md5": "6a00cd18320ab5bf7d36fd041af95c5e",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/fx.txt",
+      "offset": 1398784,
+      "stored_bytes": 52772,
+      "output_bytes": 868026,
+      "ciphertext_sha256": "54769958c67cb77fc17b358cf5068bbe5965e96f6e52ae1d9f6fe315ab06ffc2",
+      "output_sha256": "668d4ce28da6012b49111b23925110715636b1cb8480b7324b957d0063fcfc52",
+      "expected_md5": "e911bcb6b8f2a31ac565624891181698",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/gadgettargets.txt",
+      "offset": 1452032,
+      "stored_bytes": 2352,
+      "output_bytes": 9500,
+      "ciphertext_sha256": "71dbf7ad711a74c6ddc73b541454be05ef8597ef31243e48f1211f6e82898862",
+      "output_sha256": "bd77d1589e5bf2e656647929a4fd7b5d8b61f22ac0cb28030611ff832031232b",
+      "expected_md5": "54d5cd5f8c1812a7b0eef98ea1f4155e",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/GganbuInfo.txt",
+      "offset": 1455104,
+      "stored_bytes": 140,
+      "output_bytes": 342,
+      "ciphertext_sha256": "34d7fe7faf93df5d78250ee7e63c2b1b7bf49820dd0ef235e0fa19e99e4e6417",
+      "output_sha256": "3991fdd69d7d71f3943130513b085ae01ed2ef77d9ea822fe5389f324e50f6a8",
+      "expected_md5": "86994e865a2724e4a783555bd956e356",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/groupitem.txt",
+      "offset": 1456128,
+      "stored_bytes": 16016,
+      "output_bytes": 130359,
+      "ciphertext_sha256": "b5d6354666fd3dc7c6693a1b3651e495ff695de38bd11b5a6beb1d0a504b9181",
+      "output_sha256": "7a2f7c72858e72d9876a058ca1001f72de60e1ac2935582af8deb94c6c47edbf",
+      "expected_md5": "aef36fed6e5a91d3cee1a207c35ca66f",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/gunlevelup.txt",
+      "offset": 1472512,
+      "stored_bytes": 1140,
+      "output_bytes": 4321,
+      "ciphertext_sha256": "6bdf3e6907db81b30f4619411ee9709443752f876c35100253a59987aa8d28bd",
+      "output_sha256": "e9440cb4cfb0293b8ec970799d43f6382091815fddec84533ff40fda18575fbf",
+      "expected_md5": "ec3bed4d2b835805da6d90e17258456a",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/gunlevelup2.txt",
+      "offset": 1474560,
+      "stored_bytes": 688,
+      "output_bytes": 3218,
+      "ciphertext_sha256": "da20ae44957ae86e98c6b446513c3eb9fd352e5606fd54f08860730b968f88ab",
+      "output_sha256": "092465861b56d98bd880d84191e7a4242edcef8b2e904907c68d97e076fb9379",
+      "expected_md5": "a8f136a450e3890c5913e14acd7aee98",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/GUNLevelUp3.txt",
+      "offset": 1475584,
+      "stored_bytes": 880,
+      "output_bytes": 3619,
+      "ciphertext_sha256": "e50969106bffa8355fba34aa3527db1ca21e8a3c35b7a9659177171e11034411",
+      "output_sha256": "5011b1e1af9f280e67c59b5877b2eb33d21f84bac01a2b6dc0e87ce37f2e4a39",
+      "expected_md5": "0cc7ba2ebc14933d6aac5f62450e38b8",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/GUNLevelUp4.txt",
+      "offset": 1476608,
+      "stored_bytes": 612,
+      "output_bytes": 2930,
+      "ciphertext_sha256": "cfa0b56df563f4eace76e559152076b8b0df45ea5c072f73fcce2e1f7d758caf",
+      "output_sha256": "52833aaf758fa81f62330bb62c13c1c41c7e93382638615c6d8e5f6d858a314a",
+      "expected_md5": "8f7635730c63d702e212aca6c2b76e49",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/hellgadeaibutes.txt",
+      "offset": 1477632,
+      "stored_bytes": 1356,
+      "output_bytes": 3990,
+      "ciphertext_sha256": "eebe8bc5b5ece0f1df1d86a2565ec870abc71c1c1f9cdd51dc84f3db8d5313b4",
+      "output_sha256": "aacff74995a073aa546a3b15a9f1c7d59f1a02fadbd601981f6a94e5465cf693",
+      "expected_md5": "dc5d2a20328197a821ede4b5f51a61c0",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/hellgadebase.txt",
+      "offset": 1479680,
+      "stored_bytes": 3612,
+      "output_bytes": 15596,
+      "ciphertext_sha256": "5b122a4835383981318983348bd50e17debe46bc519dee5fe98db16efde96123",
+      "output_sha256": "f0bde5221643f59f98b1f77f38eff3ddd09ae20376148beec84d41ed291e7352",
+      "expected_md5": "5b730122885a5c60bf206c8de57e2740",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/hellgadeclassbutes.txt",
+      "offset": 1483776,
+      "stored_bytes": 1196,
+      "output_bytes": 5015,
+      "ciphertext_sha256": "55408df9fa07558245334f0444c1dc8e074b1922e2f10c71b83c096a90a8760f",
+      "output_sha256": "6610195a50b650212754d547dadecffe3de7d23c51ed16bb6a5263bac198aed4",
+      "expected_md5": "f8ef886c2d7dc3990090fa7940449822",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/hellgadedamagefactor.txt",
+      "offset": 1485824,
+      "stored_bytes": 4828,
+      "output_bytes": 28637,
+      "ciphertext_sha256": "c3738ca56b1a09224899910aa85859837f96939c02a7df77956af2ce6b91cbea",
+      "output_sha256": "eb5c8b1ceb61f41abd0016c81f63d6f6463f4ab63660cda74600d75197a207b8",
+      "expected_md5": "cd13033c275dd4d2c2e2c45319f8ff5d",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/hellgadeimagebute.txt",
+      "offset": 1490944,
+      "stored_bytes": 1532,
+      "output_bytes": 12069,
+      "ciphertext_sha256": "e2e2f7b63804003f579e570a091569d59c0937d960c31330fd8b63acb5614465",
+      "output_sha256": "9bbe9a2c293d0dc3411c2693e94c1fb4a9fe9f6b56f4cb7727fed170a220f3f7",
+      "expected_md5": "ab11b49815f905579402cd9be4509dcd",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/hellgadeinfantrybute.txt",
+      "offset": 1492992,
+      "stored_bytes": 1652,
+      "output_bytes": 6508,
+      "ciphertext_sha256": "3ea871a9b0245c530b6ff9af4f010ee647393d16bf5949074d53237f7b565787",
+      "output_sha256": "c3abaa4b5610b8a3dedf405222f68ffe83a517a35dd58d3b21458df615279176",
+      "expected_md5": "2b311b237f1e5af0f9744fab71e1e00e",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/hellgadeitembute.txt",
+      "offset": 1495040,
+      "stored_bytes": 200,
+      "output_bytes": 600,
+      "ciphertext_sha256": "0840b29182d7d6a074800746d327652c18b4477811d7f8699333d38c5d321b43",
+      "output_sha256": "f9be64feb0ce049451fff2723310f3b676f5800db1fc9b698a72545a4a65125d",
+      "expected_md5": "ff1a3b2a612cf1d49fcffd0a0c20e77d",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/hellgademissionbute.txt",
+      "offset": 1496064,
+      "stored_bytes": 1548,
+      "output_bytes": 14927,
+      "ciphertext_sha256": "c3cb7f9ed92c3e4d2f90ce0579d3ee8caa652067df4c15009ec73947ded01e5f",
+      "output_sha256": "78f9cbe80bdcbbaf702375eb903d21c134f054e7d5b72d6b66d830e7aa04357f",
+      "expected_md5": "50645cbf1d8228583aa3df8005172101",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/hellgadevoicemacro.txt",
+      "offset": 1498112,
+      "stored_bytes": 836,
+      "output_bytes": 5373,
+      "ciphertext_sha256": "3b9ad3c9888935d9cf7c7524284f242a56d61efadd28ca6f52111c78cd49c33e",
+      "output_sha256": "0968a8ae221350b2ee9b12bab66631d04caccdc70f9483a171f6afafa0b16198",
+      "expected_md5": "f7fa8a51ba0b91049abd995a40b6753f",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/helptip.txt",
+      "offset": 1499136,
+      "stored_bytes": 2756,
+      "output_bytes": 20147,
+      "ciphertext_sha256": "0fc680f8055f65c757194a5210c9cdf8f3340628898890d4b399df2ece731064",
+      "output_sha256": "c23415c174788eb9adbec54f7176bd4f1052a4bde340e7baf05ef80a101dda24",
+      "expected_md5": "751e7488a753af8d473965cfc8184139",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/hotsale.txt",
+      "offset": 1502208,
+      "stored_bytes": 192,
+      "output_bytes": 469,
+      "ciphertext_sha256": "d105c67149c5f4161853bd5a2b0d6cd05810ca18a531b6f91cee38949642975b",
+      "output_sha256": "4093fd39d82d0739c833a76c1500874eaec8fc04cc7fda9bbef39fbb85b638c1",
+      "expected_md5": "5789f6e3e07c96c99b63f6be098b3b04",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/huntingaibase.txt",
+      "offset": 1503232,
+      "stored_bytes": 3556,
+      "output_bytes": 38914,
+      "ciphertext_sha256": "dd086ce27f8ec8bb5bc4c79be0de8edb39bece2c8a3932ded389fd601cdb13e2",
+      "output_sha256": "4baedac27ff01f01327b10441166bd0976480303ab905989364d5fa1fc88d5c4",
+      "expected_md5": "610f6e670b43b6fd1c78dbda883eff8c",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/huntingdata.txt",
+      "offset": 1507328,
+      "stored_bytes": 624,
+      "output_bytes": 622,
+      "ciphertext_sha256": "90922b15cb1a8500dcf45ea9fa9d3b9fbeacc23160d496d82f02c45262210e30",
+      "output_sha256": "7890e56079305237266cdbbb3438f264d7b2b16118f662a56ffb3eb1065ab73e",
+      "expected_md5": "0ab7f89ef21dc5063f7db0435826bbcb",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/huntingflag.txt",
+      "offset": 1508352,
+      "stored_bytes": 2848,
+      "output_bytes": 43748,
+      "ciphertext_sha256": "a7bffd54483569d94e5df600b88cb3c4d43a4c3423689176b2f2c9c0b0261ab7",
+      "output_sha256": "4a121723bf72c7c3c4dc96209db65acbb448a9fe8bc5014d4c7ea5282d7318eb",
+      "expected_md5": "7ba2c1d766e849a4763ca17d4740fd91",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/huntingmapobj.txt",
+      "offset": 1511424,
+      "stored_bytes": 344,
+      "output_bytes": 1588,
+      "ciphertext_sha256": "7bba7b661f3df03eecbaba7c6c218ad3bdd56355f963dee1df9d504717e35bb5",
+      "output_sha256": "e9c632789d39b3c9052cd0e3cf4d277dbbec83056dcb586b7e8ca56e6380a55f",
+      "expected_md5": "1f6c13dfaff8621e071e2708022248e0",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/huntingmapsetting.txt",
+      "offset": 1512448,
+      "stored_bytes": 460,
+      "output_bytes": 2777,
+      "ciphertext_sha256": "c0edda2471e78cc5613b2aaaaf9de9b08efad7db7dd6f72061062724b74244b0",
+      "output_sha256": "bc894b44752fc829a64e09990eb0183aec50537d8e8859068b615b990248ad64",
+      "expected_md5": "8f803412133a85ee6a4dd7e69f6a3851",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/huntingpattern.txt",
+      "offset": 1513472,
+      "stored_bytes": 1908,
+      "output_bytes": 15719,
+      "ciphertext_sha256": "e3da4a36418dcfb26dd47bf72772758f90c51b351f42e45a1da9bcd439580531",
+      "output_sha256": "4167a42a1474b69dd17a98443e2b59fffdc642184be1268157a0558bb880a48c",
+      "expected_md5": "d1c855a2738781209c44fcf205b530d5",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/huntingstage.txt",
+      "offset": 1515520,
+      "stored_bytes": 1056,
+      "output_bytes": 7834,
+      "ciphertext_sha256": "0c8ccfc8467fe51235f4d7db75d695284477a6ea4c5a5d18a157789cb18aa7b6",
+      "output_sha256": "daf40150fc5070f0a4edd17d5187203e216317b9e0fe807479382e3697160696",
+      "expected_md5": "5a7fdd131ff273da00f0ccaf9c29844c",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/huntinguiset.txt",
+      "offset": 1517568,
+      "stored_bytes": 1024,
+      "output_bytes": 7206,
+      "ciphertext_sha256": "2c36a2086e1e6654d24896cc5be3059ad0e88579cd6e8c26d7d3c04894cb72ba",
+      "output_sha256": "2430bd15614317955513c046b841eae61a77dd418e826814af24e086595fd1c5",
+      "expected_md5": "b50a8fa0d0eb1add11a720a547b7e700",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/idlicenseinfo.txt",
+      "offset": 1518592,
+      "stored_bytes": 1584,
+      "output_bytes": 10089,
+      "ciphertext_sha256": "705cf995221fbcefe810aecfeca077e8364ad556a5abb0f1cba7e4656f53d8e9",
+      "output_sha256": "8ad4834d8f403d2e87c502e812cd975d6a9aadf313846cfe85821475f1ac1f72",
+      "expected_md5": "c9d4deb23abff3ed5ff3709ff9b62294",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/idtag.txt",
+      "offset": 1520640,
+      "stored_bytes": 4040,
+      "output_bytes": 21525,
+      "ciphertext_sha256": "23719a730d9124dc01cfd9cf68c995ba99b5b2db15986f209797067c78721e9d",
+      "output_sha256": "01a4049043d19babdcb76b535828d65c96e410b1e697f05395f3c300bae22abb",
+      "expected_md5": "c134550e084ecf5d620b27436d2d0425",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/imgtitle.txt",
+      "offset": 1524736,
+      "stored_bytes": 20052,
+      "output_bytes": 292623,
+      "ciphertext_sha256": "a52d7c4877e788830db2bd0ca9a7fbdd38ceaa05fe6798ab013e1701be52ae64",
+      "output_sha256": "bc458df401d715626b5bdb5fd040462f1fca0f0c471de2352e05a13cc0adc558",
+      "expected_md5": "201fd4b198101acfb96aa9e3bb145297",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/insignia_outline.txt",
+      "offset": 1545216,
+      "stored_bytes": 680,
+      "output_bytes": 5035,
+      "ciphertext_sha256": "70bc13c7a633f9e770feb77d753a7a507700d9316f1000e845c54c74a4e64e36",
+      "output_sha256": "f2208ed04b9f3be152721f53151aafbdfe235708a7fc00dce56227a752e06c36",
+      "expected_md5": "137255e3a7d569b24ab35dc7412f3a7d",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/intelitems.txt",
+      "offset": 1546240,
+      "stored_bytes": 1024,
+      "output_bytes": 2519,
+      "ciphertext_sha256": "d87b8316a8f9e75f2c188dc97f17c11c2ee9af4acbabe67a1cd4605aa354543d",
+      "output_sha256": "b08dcc5bef0e01d8a0b32e85ad0facc76fe98f35f62eb696cd99698a618c16d7",
+      "expected_md5": "20ca33c7a750f8b1fa80627f4fcc278d",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/inventory.txt",
+      "offset": 1547264,
+      "stored_bytes": 336,
+      "output_bytes": 856,
+      "ciphertext_sha256": "fc54e7c66970f22c31d69734e4d7904b6e612a2b1ea05edb491f8f3378725658",
+      "output_sha256": "21e2449d4145701265c76f9c268acbbec60ef8f9bcdc68fd0c66947bb61f3e99",
+      "expected_md5": "561fd8df88445508ee7d4a3c230be84b",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/keybox.txt",
+      "offset": 1548288,
+      "stored_bytes": 232,
+      "output_bytes": 860,
+      "ciphertext_sha256": "5c3264245a1bad7f0b6b20f29f441eaa51eecdeb79ca1a792e0d7d260ef06599",
+      "output_sha256": "14935f31b8eb71ad2c6723d4e966ee06bd1393d10519e10e2f8082f4ddcde85c",
+      "expected_md5": "71912ae9a606b1aecc8e64e6e578a87e",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/keyitems.txt",
+      "offset": 1549312,
+      "stored_bytes": 796,
+      "output_bytes": 1967,
+      "ciphertext_sha256": "d0b5e00a1c5ab0d4fd56e6fd80a3b10ce0c5e5afff46d655579b801961354123",
+      "output_sha256": "a4a22435e0d04023550fa8d98ac91da7a9bf49e800b32c1a92e57025106de3e9",
+      "expected_md5": "97f1ae86ccaafa65c59835bb9caa7f06",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/lab.txt",
+      "offset": 1550336,
+      "stored_bytes": 5364,
+      "output_bytes": 84410,
+      "ciphertext_sha256": "f07fbe88276a2f08d4b19f1d5def0e073dcb946319572bd2e645c19a0f09047a",
+      "output_sha256": "3860c556382ee7bbe65d70feb923a9e982521dee1f87d1909c9a79f8579f411a",
+      "expected_md5": "4303e0b5630d2ff314ced8d5d11083d3",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/lastonehud.txt",
+      "offset": 1556480,
+      "stored_bytes": 1704,
+      "output_bytes": 6020,
+      "ciphertext_sha256": "cf1384fbeb1ec37b820872ba960b5cea881579e54e189372a31f2d3d0f0b2fb7",
+      "output_sha256": "f8eb2d6c7eb3389ce2217dcface1a97891f40df3f7c0332c05dc0eb89ec0ce9c",
+      "expected_md5": "97bc9155238317401d042723379dc728",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/LastOneMissionData.lua",
+      "offset": 1558528,
+      "stored_bytes": 16816,
+      "output_bytes": 93211,
+      "ciphertext_sha256": "efa2bdc74dca6ee7f3d334ced078c683730e6305719179fd9ba430482aee626d",
+      "output_sha256": "afaf15ac68c50947f50fd60f3ef4984cd16607fe4e2f3525445f04ff4b2b36f3",
+      "expected_md5": "57542db1920926832d668b8d69fd1c78",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/LastOneMissionData184.lua",
+      "offset": 1575936,
+      "stored_bytes": 18188,
+      "output_bytes": 99549,
+      "ciphertext_sha256": "91aca3e38175862965bdd11f709d44cd2f6b18454b18191c6b516e8cf9e00c0a",
+      "output_sha256": "3dadb8b35f6ad71f2feab3144104263cfbc24bf3d154a331017e25866e2c6282",
+      "expected_md5": "e401f1a32d6d832dbe7acb4596599f25",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/LastOneMissionData191.lua",
+      "offset": 1594368,
+      "stored_bytes": 17620,
+      "output_bytes": 101195,
+      "ciphertext_sha256": "9b4f6ce8c4a02db0ac20b1682307070f87a9092dfa1ae2a37a69fedde58a6acc",
+      "output_sha256": "a243b784ba96dc7ee00525d6efcc6c6622a2994f7ef0b90d7a683947039cf261",
+      "expected_md5": "0771db12c00a0cfe53ab28a647415573",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/LastOneMissionData203.lua",
+      "offset": 1612800,
+      "stored_bytes": 20496,
+      "output_bytes": 115434,
+      "ciphertext_sha256": "c63e8b882a280b7ddc25b0e64f9a2f566bb9df6907bf5b0ce31fef20b9a31ccf",
+      "output_sha256": "8d912409147aa13ef34b6d4fd5a905ad204b296ee30b4040fe5a50f81f920d49",
+      "expected_md5": "83a70e46c52103d31e1b1312e0f18e9b",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/LastOneMissionData258.lua",
+      "offset": 1634304,
+      "stored_bytes": 17832,
+      "output_bytes": 101917,
+      "ciphertext_sha256": "a2a865a02f4ebe67520e07dafd0d4ed8ce8febdb56f1c40272ebf764ac203584",
+      "output_sha256": "3f8acd919c5b875593d3d63707933d6f06d2f41a13a0c5239d7b720ca8020f6a",
+      "expected_md5": "8846f03634c5a563089a6ce07370fddd",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/LastOneMissionEventData.txt",
+      "offset": 1652736,
+      "stored_bytes": 376,
+      "output_bytes": 1378,
+      "ciphertext_sha256": "54c71a7211313a0447161c70cd789f7c11ac5ffec77bc335b8e804405c30ca62",
+      "output_sha256": "3af21a0df4692c0c1fcdedf97f458d4d1b5bf0e8c65c8ea36fffa36b632fb05f",
+      "expected_md5": "f604f00f65c78cb5b6e267925ea7b859",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/LastOneSeasonData.lua",
+      "offset": 1653760,
+      "stored_bytes": 1360,
+      "output_bytes": 10387,
+      "ciphertext_sha256": "c88a27c92233f0089e6abbb791ba914966c2a7bf14e7fc9e9ab39f994d3d488e",
+      "output_sha256": "456e75acce8091e59e7f5e98d8914e9718726d0b008a54acd809b2a3abdd99a2",
+      "expected_md5": "ed63736a602810b2310064cc270f2324",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/layout.txt",
+      "offset": 1655808,
+      "stored_bytes": 85212,
+      "output_bytes": 508302,
+      "ciphertext_sha256": "757ff42aac84a249cfa18088bf16a539396aca5ecd76d5d27786fba7a9b63f56",
+      "output_sha256": "f4b4753faf3a0257a676cfee37bbbb35476e8939f9505f1cf814550b913d94e7",
+      "expected_md5": "8419cf91bfcea27fb6e6a8fe3988b565",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/lotterybox.txt",
+      "offset": 1741824,
+      "stored_bytes": 152,
+      "output_bytes": 149,
+      "ciphertext_sha256": "1538de99a6aac5c1f224fe0f5f1c6a9f4c6d03dffff52d2969a11db48d1e25c1",
+      "output_sha256": "060bcb7bb7ccc1db11ee165dab1e48b85a8fbd8760279a0acbea3354dacddf54",
+      "expected_md5": "e8241cd555e12555fc52e3a57da32608",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/luckyroulette.txt",
+      "offset": 1742848,
+      "stored_bytes": 140,
+      "output_bytes": 321,
+      "ciphertext_sha256": "9b93902561cd2be93611c3f36c2263e45d9e2521f10dee8946e30613f131419c",
+      "output_sha256": "2c4cf240ce4f97e8b124f80cea61ebb78902cfe734564f96f688bca9bb5d02a3",
+      "expected_md5": "14b11c6946bcd36136aa90f4a2896238",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/MannerGradeInfo.txt",
+      "offset": 1743872,
+      "stored_bytes": 984,
+      "output_bytes": 5580,
+      "ciphertext_sha256": "115ca9a78b239720ba1749fa2b71ef068623ca7e9150e0a6abd351ee1eaf5f4d",
+      "output_sha256": "5bf4557c0d07fe0e0889616d2ae07128a8a70a71de0e94d4760434167c66932e",
+      "expected_md5": "38a3eb7b5c4d173b21eb80e714a6da20",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/mapweapondroppointdata.txt",
+      "offset": 1744896,
+      "stored_bytes": 2184,
+      "output_bytes": 11823,
+      "ciphertext_sha256": "1a09ea359f65e69b1f96d5333d27a40baad69c4843d38797aa5cb0cb08b4ccda",
+      "output_sha256": "0b3559b56b951b294bdb9e843839331b651647493c19cbf325692f42e9d2fab0",
+      "expected_md5": "126af17ebd254083b5d2d2c387eb63bc",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/minimapdata.txt",
+      "offset": 1747968,
+      "stored_bytes": 6484,
+      "output_bytes": 39461,
+      "ciphertext_sha256": "9113bbc0b5908870c6974128846df9ef3343b436c0953bf7314f3128551d3816",
+      "output_sha256": "f3f1c4dd241fa6cdff694afdd5dfac548922e5d44079bf902a9830671e1441fe",
+      "expected_md5": "ad8349ccf0d7b2874512db7ca4e91ce2",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/mission.txt",
+      "offset": 1755136,
+      "stored_bytes": 32204,
+      "output_bytes": 241984,
+      "ciphertext_sha256": "e950702369ecd0e596384055ab828f4e3af8af9fa53cb02c8d1a54a133cbda2d",
+      "output_sha256": "f5d345cf4abb69643727cb506dfa9891bfa9e5dfe1466a9471573bb7e4159c0c",
+      "expected_md5": "a6863af8ad38b34add7e01c1d0286f2c",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/modelbutes.txt",
+      "offset": 1787904,
+      "stored_bytes": 224736,
+      "output_bytes": 5058844,
+      "ciphertext_sha256": "49a9e6c56e23a1721006dcf23be4255029315274d2250b4c1ff34025481d20ee",
+      "output_sha256": "5bf667e34c2685008e46806b3d8e60ca0c231362c85ed226b1ee5430c1c77fc7",
+      "expected_md5": "ab632696722c0b2e9b8f36daba59464a",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/music.txt",
+      "offset": 2013184,
+      "stored_bytes": 936,
+      "output_bytes": 2960,
+      "ciphertext_sha256": "419dc8432e3572708854b085ae759fbd5eb4b5657e00106cfa535ad3607b06b1",
+      "output_sha256": "f32c2f3de8171963546410647540aabcfacd1ca916a9a9798907c41f747c4261",
+      "expected_md5": "838bde175af5d794078f4f31ee97b209",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/mvpscripts.txt",
+      "offset": 2014208,
+      "stored_bytes": 1116,
+      "output_bytes": 4436,
+      "ciphertext_sha256": "81772078899514cabf2ab3171964ff47a5a93aa8e26b0339922f1eee7b5f65e2",
+      "output_sha256": "6ce9360e1e5e0fd3ce1741b5d5fabe9a24c9cbb6652eb604db92f272685eb156",
+      "expected_md5": "54ca38bc524ac47f8abeb7e5ce506896",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/nomgame.txt",
+      "offset": 2016256,
+      "stored_bytes": 1508,
+      "output_bytes": 4344,
+      "ciphertext_sha256": "1b1b7dc1273cc5bfc390d9f101c5ffbcac053285111527945c0691f1fbbdd4ad",
+      "output_sha256": "227674944deacd650d098468fbb31f6d444c3f04ef710a6664cbb1bc0c040252",
+      "expected_md5": "aa4fabac5b76c4059b8a7f73eed483b1",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/nomgamehud.txt",
+      "offset": 2018304,
+      "stored_bytes": 588,
+      "output_bytes": 1199,
+      "ciphertext_sha256": "b091c0e4997d136954a766795f74c70bfda90f1d9232526338d8af24c0a94ea2",
+      "output_sha256": "01cc882601de2210fb7651ff72a626d433a991e87dd8adde064d042513feb0fa",
+      "expected_md5": "4c7387e882e3ee99039ca82472db190e",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/noticebutes.txt",
+      "offset": 2019328,
+      "stored_bytes": 5616,
+      "output_bytes": 91272,
+      "ciphertext_sha256": "2c49ab93f16b6af1fa48fd82ad8552a7143767c61e19d0c5757ef9b12b7c44c8",
+      "output_sha256": "a8907d09031b8f5eb5fe967d59b5ecffc9858ca07a22d5f7cea8e0ba2e3deec3",
+      "expected_md5": "ad283b3e4f411f438d781b1ccb8dcea9",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/package_item_info.txt",
+      "offset": 2025472,
+      "stored_bytes": 6600,
+      "output_bytes": 41919,
+      "ciphertext_sha256": "c65a8ba476849892a5cdbe604cc56ad27e4219ef27b344ef799cb734530dce77",
+      "output_sha256": "08d2d9636e13a5d60cd0ab50816ad76dd58a720173c7731625f922a589e790f1",
+      "expected_md5": "0e84eb0dbf8bd4a8ddc31d8aa7388e40",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/packsupply.txt",
+      "offset": 2032640,
+      "stored_bytes": 69544,
+      "output_bytes": 445531,
+      "ciphertext_sha256": "7e017836d27272ec1a59629e9cf05cdeb98b47358340aedb16c7d21580484850",
+      "output_sha256": "0573aa476880b9925e460b8b1211304a70f5b3f62c15b5ee5cf889d508ee78b5",
+      "expected_md5": "e11e6d00701b154ef561a793c91219cd",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/partsitems.txt",
+      "offset": 2102272,
+      "stored_bytes": 8900,
+      "output_bytes": 49335,
+      "ciphertext_sha256": "a3a623b7665a2014cd022c919687bcb56a952873ffb3e54807c89368ec33333b",
+      "output_sha256": "42a08b6d11daffafff0ac4d651f1f19c88a41023245391b78246a0c1a6da5f64",
+      "expected_md5": "73b42239dbe5f900eaca597b1f97b6ab",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/pcbangshopinfo.txt",
+      "offset": 2111488,
+      "stored_bytes": 380,
+      "output_bytes": 2343,
+      "ciphertext_sha256": "2402ac79580e4bd669e7dc14aba77557c9391996c595a19407557ec61fe7b161",
+      "output_sha256": "3accdbc669724ec28c062811c43bf0aad69a554662a889a167f1e0666ffb98be",
+      "expected_md5": "8c483b61cf6534f693c21ce9ee2a93c8",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/playerskill.txt",
+      "offset": 2112512,
+      "stored_bytes": 3108,
+      "output_bytes": 60554,
+      "ciphertext_sha256": "bd7fb0a46dc1c900ed1b5a0807f654819a59e47b71c7c2352ca9d450c82e4833",
+      "output_sha256": "5f708cda3d9dbb5f00f75a5c881ee52331abf28eea87c2ae2b44898c6780b097",
+      "expected_md5": "2350639fe0a7b8003256cc759a95a8d9",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/popupitems.txt",
+      "offset": 2116608,
+      "stored_bytes": 232,
+      "output_bytes": 230,
+      "ciphertext_sha256": "81741ba88b7dddcd17e01b85885e672a8328dfa32325d258d4006da6d4fa74b0",
+      "output_sha256": "12daec967bcb08687d054b4ac8cf074c03286947dbdf28ac8b1e80a5adb239fa",
+      "expected_md5": "9ab90db3d965366fb17dab05cfd971d3",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/popuptitledesccustom.txt",
+      "offset": 2117632,
+      "stored_bytes": 396,
+      "output_bytes": 1038,
+      "ciphertext_sha256": "e567d5d50124867963f90cb0ce3cbf112f484192f1eb1c4d73738ee5f8af750f",
+      "output_sha256": "142e9f6ca26bd6219790a11a89c16fa8b083a80f8cd0fd02ba2e4701b9f6cb18",
+      "expected_md5": "09840f5432ff3061e15255d8dca3c04d",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/preloading.txt",
+      "offset": 2118656,
+      "stored_bytes": 2540,
+      "output_bytes": 16279,
+      "ciphertext_sha256": "1837d1c0f9a4724f89b321d0ca8e6f5cdd587eefd968e5349f826a2ada0aab8a",
+      "output_sha256": "ad398b58bd302a9ef74a05575fc969c0c66ffb4d1aefeb07edfe9deb2c07145e",
+      "expected_md5": "a90c64c127bb45a19913920af086d331",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/proptypes.txt",
+      "offset": 2121728,
+      "stored_bytes": 5692,
+      "output_bytes": 66664,
+      "ciphertext_sha256": "283ecf8e84bb3900069d43496ec9cf286831774220d0ce8841a1e59b5e4919ff",
+      "output_sha256": "0a2255513f7abeccb70b232ec1f86e1bc870a5cc539824985b8e17a0368753b0",
+      "expected_md5": "927fb2ddb46a3ffd31c6fa699374f13d",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question0_0.txt",
+      "offset": 2127872,
+      "stored_bytes": 19540,
+      "output_bytes": 62225,
+      "ciphertext_sha256": "fef01f588de46dd9ee9b91365fde68dfcec41d74129157ecc69bfc2506666a27",
+      "output_sha256": "21d92a19e0a5f3f60fa4d8e93583211b19880dc1e88a933f1ea171323949acd9",
+      "expected_md5": "236d5bc62789d1cfe23ac5a7c85b534a",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question0_1.txt",
+      "offset": 2148352,
+      "stored_bytes": 12500,
+      "output_bytes": 37013,
+      "ciphertext_sha256": "9e76d99aacda55d90b32c5b83a9afdda50dd16454cf2387a0a76d1158d194f98",
+      "output_sha256": "ef5a8495afcf879f8ed6904344fdce8071a4f5ff481e898f634fcda3bef4a583",
+      "expected_md5": "4dce1c43195b83d426155791f6785f75",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question0_2.txt",
+      "offset": 2161664,
+      "stored_bytes": 7576,
+      "output_bytes": 25126,
+      "ciphertext_sha256": "cdc309e9702fc82382737138c4b01ea4735bbaa32038085e2ffe24797d78b99c",
+      "output_sha256": "e4b45473f67139fd91ee7fbfe2d3267c2799d702df116cdc98392cb07f91f1ad",
+      "expected_md5": "b179673c60a916d813a6ae0105e7a30d",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question1_0.txt",
+      "offset": 2169856,
+      "stored_bytes": 21924,
+      "output_bytes": 69521,
+      "ciphertext_sha256": "e27714901e5ff340c01c3c7284846b3894733a83f36613c8a71c59ba9224a323",
+      "output_sha256": "2b94de5e6741055e0e25d977659275801eb36e73b918ebc94e7f43deb2ea866e",
+      "expected_md5": "8398daede68759f411c55f935388ba16",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question1_1.txt",
+      "offset": 2192384,
+      "stored_bytes": 13108,
+      "output_bytes": 38404,
+      "ciphertext_sha256": "410a42caaf52b680afc1a621026d12786e56250d49a037806d93a0eead7644c5",
+      "output_sha256": "c4b2deab44c641c92fa6ab16a013efdc7efb6539068d2312b1ae55996f73acc4",
+      "expected_md5": "6fb794c6131f55accb11441ae0787571",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question1_2.txt",
+      "offset": 2205696,
+      "stored_bytes": 9272,
+      "output_bytes": 31008,
+      "ciphertext_sha256": "525b385aea5dc735e8d8acb86acf13236a06dfdf76e37774a81188f6008e22bf",
+      "output_sha256": "d165748a12d7dae9bca66408736611cf0492c727495f5914c2c48b50c95a8332",
+      "expected_md5": "27ed9249096aa37bdfed71f36168d0d5",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question2_0.txt",
+      "offset": 2215936,
+      "stored_bytes": 15508,
+      "output_bytes": 46708,
+      "ciphertext_sha256": "9d28d2e4184ffb6a59acb726a7398701cf6a05ce58e33721fbc0ef888260a4f2",
+      "output_sha256": "0d4daf8329cb1021f789a4cdb35d04dbc14a00e330d500f7472ac778e5a74327",
+      "expected_md5": "59771f8301520335b48c478f53830c95",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question2_1.txt",
+      "offset": 2232320,
+      "stored_bytes": 9388,
+      "output_bytes": 25908,
+      "ciphertext_sha256": "665b292a47218db4afb859eba18c75f46b83ad60d8137e54f08ed7d171ad31ea",
+      "output_sha256": "f4f686e5280a86846c4a29e75581ed3b6fdea4792d8105af0241cf8b6d96fc30",
+      "expected_md5": "23ca7e2e4fb1c442c7dd41905be665f5",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question2_2.txt",
+      "offset": 2242560,
+      "stored_bytes": 6604,
+      "output_bytes": 20754,
+      "ciphertext_sha256": "107936a97b05f617af411a721662d6c7f3fa49d36ca8367552c11f4ce3a95d5a",
+      "output_sha256": "039422138ce2ab2a9ae55b8d220a31d07cc5410513aefdaf8ed9a5a5a5374c92",
+      "expected_md5": "7de97d164096fa48b2a2ccb7bd1fca81",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question3_0.txt",
+      "offset": 2249728,
+      "stored_bytes": 7032,
+      "output_bytes": 21869,
+      "ciphertext_sha256": "0d8f9035c16aab97d351481a2d0befc2b8b4e4d77f458ef6901a8af96470c1bd",
+      "output_sha256": "7281269916568726152d6d5bcf895b34f696b15d597866dae31f82bd6db4267b",
+      "expected_md5": "4f1335528165cfb81f57be3dc9d99256",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question3_1.txt",
+      "offset": 2256896,
+      "stored_bytes": 3972,
+      "output_bytes": 11239,
+      "ciphertext_sha256": "79e078e7e43ddc39f2bec69502c41acc4bd7dfff469f9017241261329be4b800",
+      "output_sha256": "b8848da9c2c3490412f6e9d7597507f49587f097adffd29edc7426d491083600",
+      "expected_md5": "af3417a9d30af521810957d69961f785",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question3_2.txt",
+      "offset": 2260992,
+      "stored_bytes": 3412,
+      "output_bytes": 10620,
+      "ciphertext_sha256": "57227eb30b37b325eb9c54195d8e4fe4a8554ff88cddde25d1a701c5280f941c",
+      "output_sha256": "d35eafea380741c3812b6ce0e5cba131c1ffef69ab38f93e276b1d074e9f20d3",
+      "expected_md5": "d7b7349275ed912933f129188a1f421a",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question4_0.txt",
+      "offset": 2265088,
+      "stored_bytes": 8156,
+      "output_bytes": 23528,
+      "ciphertext_sha256": "56b0285eb9c0f27b2d79f42cbd7c4e94e6f7b863aa2306d80efda5ce5fc81c2c",
+      "output_sha256": "2de1efc04b45157460c9f9275ef6cc1d1c1bdbf408d66ae483bf2fea67a9fbd5",
+      "expected_md5": "c8c6d9673225045ecf55a8a55982010d",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question4_1.txt",
+      "offset": 2273280,
+      "stored_bytes": 4820,
+      "output_bytes": 11477,
+      "ciphertext_sha256": "49804c710e98ac1a83c4f1b072fb62c7ca9a05219906b7bc056fe4d7125dc605",
+      "output_sha256": "39498f1cb2ce795acf276b6f3d7bcda83428fb6e8698ab2cefcc80ce9ad0effd",
+      "expected_md5": "73967163c0919140966da8cb7b82ce3f",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question4_2.txt",
+      "offset": 2278400,
+      "stored_bytes": 3708,
+      "output_bytes": 12041,
+      "ciphertext_sha256": "5520558d6e2339fcba062da84e8c6bf71b0b9ef974976365fa9d44b2a003d82b",
+      "output_sha256": "21786a42cd9442cd379d3c69f08db06a57f6db41e69b8113b859c80384d4a61f",
+      "expected_md5": "05d4a2ccdc8fdc00ca781d2b7d021c18",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question5_0.txt",
+      "offset": 2282496,
+      "stored_bytes": 8696,
+      "output_bytes": 26967,
+      "ciphertext_sha256": "20131e2f74e09407f41ae99aa56d924884657a5bb4323cd256ec6e90ea51078b",
+      "output_sha256": "70dce214f80e6770dbfbc76b60f4e550cbf99d48cca146c3696c276a10bedfef",
+      "expected_md5": "5e22acb939748f1b892072f38cf84671",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question5_1.txt",
+      "offset": 2291712,
+      "stored_bytes": 5512,
+      "output_bytes": 14623,
+      "ciphertext_sha256": "9473004468de6d5944f53089fec28c98f008dc0a03ff25146b4bf1b99d2d3e9b",
+      "output_sha256": "11ec7d801bff8b1cdfb8889b1d9d74b19b2a9b0842701a3277dbbbbf83116fbf",
+      "expected_md5": "184917e3806dd15e688f4bfe679ef57b",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/question5_2.txt",
+      "offset": 2297856,
+      "stored_bytes": 3644,
+      "output_bytes": 12334,
+      "ciphertext_sha256": "0fd45568de85d5d8ccfe6fd66e91b2e1b57c5d600908d9fc2b8f5f3d87ab817c",
+      "output_sha256": "f8b0d9b70730fcc5a3a18d16b33667485768ff7a17920c5fd4304a1cc7c1ac5a",
+      "expected_md5": "ead8dba6c61f6ca822f51cdb55905b2a",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/radartypes.txt",
+      "offset": 2301952,
+      "stored_bytes": 4764,
+      "output_bytes": 47183,
+      "ciphertext_sha256": "8652ff163152c3d329250422f63ed346f11c5df6bcb3817dfafe2f1616dd5ec4",
+      "output_sha256": "d0f56b12067d3ce230aed3264d0c6e2b07aa84e5b8d9b14d8a089be556912a17",
+      "expected_md5": "2a63b832033a1a9c4eb8f3434b3b3162",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/RealCollect.txt",
+      "offset": 2307072,
+      "stored_bytes": 924,
+      "output_bytes": 922,
+      "ciphertext_sha256": "027141b5c916c51c71c0377b3e04629a0e221a69d67973dd16a7d0002656a9cd",
+      "output_sha256": "ffd208634cd267e5f4c5ef7695cb92d21acb8226e3582d3d715595c7a4f8776f",
+      "expected_md5": "70be7d5a67f77922e040ebe4f811aec3",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/relationdata.txt",
+      "offset": 2308096,
+      "stored_bytes": 1180,
+      "output_bytes": 6275,
+      "ciphertext_sha256": "0786463dac1caa8fb07afd67115f03206feb53b0a620041791da8703152d5387",
+      "output_sha256": "602f3425eb95fa5797400751ebe53c8929ac2e2d4512ac60624395d3419a7fc1",
+      "expected_md5": "ec557d1bdcc4d22a883e4ef589bf5120",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/roomname.txt",
+      "offset": 2310144,
+      "stored_bytes": 1068,
+      "output_bytes": 1067,
+      "ciphertext_sha256": "5af2c06ef787a2091214587e84fc2ec2f513dd4b91e82e4c0b428e41a69472f2",
+      "output_sha256": "eef637206c757cc2c35b9f9944a2948a1c835dd0631d4d1fb62a1d22b3fcb2cd",
+      "expected_md5": "e331146c7c84de7649ebfc3eb4abc51e",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/rungamescript.txt",
+      "offset": 2312192,
+      "stored_bytes": 796,
+      "output_bytes": 1851,
+      "ciphertext_sha256": "1157bf34d3b1f09eb3590a3d928483d76b16acda9566d6099b3ef69ea6d6f6f0",
+      "output_sha256": "8bf36629ac0fdb52b4bee3e9067523f11465ba3961b9c4c6e352f968f2ae8a38",
+      "expected_md5": "39b8dfa2b1628f0ff0b369be22ee4119",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/rungamescript2.txt",
+      "offset": 2313216,
+      "stored_bytes": 600,
+      "output_bytes": 1214,
+      "ciphertext_sha256": "929999d8ca83ffe16d58b1495944cdc3646343c6548323882f89750ba1cb31ec",
+      "output_sha256": "3021cfd3c8892a932f8fb3f108f8b6378f445576872fbdc9823fa9e0169d9fc2",
+      "expected_md5": "fc0df94794f440f29944412b5c235c71",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/samafia.txt",
+      "offset": 2314240,
+      "stored_bytes": 920,
+      "output_bytes": 4691,
+      "ciphertext_sha256": "b3358e9c6eb15b0a04a0ecd41f251295c577ad746eb09c2f8f833633b1156ade",
+      "output_sha256": "9433a1683292e60962f865ee52a9a946f1b688382b659b39ee03acedcff04cbc",
+      "expected_md5": "0f5e3501950b77319bd05ecf317a2756",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/screenmenusetting.txt",
+      "offset": 2315264,
+      "stored_bytes": 604,
+      "output_bytes": 1609,
+      "ciphertext_sha256": "653dbb6a51a94f9415718d73bde90c549d99d393c7f6514441fbb1718d627dce",
+      "output_sha256": "32d76ef704d042075a7bc336bfa159c2bb1c46540ed89d6fb042c23738bab46c",
+      "expected_md5": "15fb954c66a77e14ec5593dd88d56c20",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/searchitems.txt",
+      "offset": 2316288,
+      "stored_bytes": 972,
+      "output_bytes": 3716,
+      "ciphertext_sha256": "d481693402c7de1a4f8aeb0571a156b7576bfeed5e3ddf3346ff00e40d5228c3",
+      "output_sha256": "a4ce8bc687c9de4346cd1ba8717987a140ffd78212fcbe192cacc5715e084c3b",
+      "expected_md5": "6ce00c798c0175a1617b3311f6847fe7",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/serverbutes.txt",
+      "offset": 2317312,
+      "stored_bytes": 2452,
+      "output_bytes": 9299,
+      "ciphertext_sha256": "c873945b23f210e6c985ff57497fd16151a7dac81d957b6718e36f489f64976a",
+      "output_sha256": "6655d54a65c969cd1c17096dceab7bf634a1bbd606e109340427fc3814537a0b",
+      "expected_md5": "128e0d6d9a8e9036a829f06ec7162046",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/serveroptions.txt",
+      "offset": 2320384,
+      "stored_bytes": 688,
+      "output_bytes": 2887,
+      "ciphertext_sha256": "15fbbba52d920e8351bbf435458f19a17223da1baa8945a826b6e4f20087edb0",
+      "output_sha256": "49164f08c4217a044571351249dc694faba541d7357048561c5cb7a8d371b097",
+      "expected_md5": "f64025f0b8c35ffb6dddb3d6db2c6ee1",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/serversnd.txt",
+      "offset": 2321408,
+      "stored_bytes": 1572,
+      "output_bytes": 8736,
+      "ciphertext_sha256": "475fcb0f50ec104a2ea89d3f04dc7fc95844ca86ad1f7b80f61f671bc4e20e9e",
+      "output_sha256": "1aa37f0a628c8ff7c486e0a7281124b1fca1f0c14efdfa27ba922655f601aaa8",
+      "expected_md5": "a5ec5690664daac8b6be49d4df3e9b13",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/set_item_info.txt",
+      "offset": 2323456,
+      "stored_bytes": 46688,
+      "output_bytes": 487603,
+      "ciphertext_sha256": "8bf9ca3a294ce4e782a0a8e33e3bcc0df4d3576fa0aa201c9a62bb238d14601a",
+      "output_sha256": "adf2d38a5e7a596a31c7364b6401fb87ca0a97d8b19607e3d5c4b90db3ff19ae",
+      "expected_md5": "466380693ba8b5f8aa77cabfd6b8631f",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/SizeChangeGame.lua",
+      "offset": 2370560,
+      "stored_bytes": 4564,
+      "output_bytes": 14236,
+      "ciphertext_sha256": "dda0faa9ec4f2a94277693809854d53170af8985b1ed284ccc74d8dddaab1314",
+      "output_sha256": "1356a2083276c8fe8beabee40f5db527d1e29258bab85263f01a0397569c4016",
+      "expected_md5": "cfde8a54172a5933311c2bfa14ccba7d",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/SizeChangeGameUI.lua",
+      "offset": 2375680,
+      "stored_bytes": 2012,
+      "output_bytes": 6651,
+      "ciphertext_sha256": "2a2aba27471f6d38e7baef875bf9f3f603404960b85b183c4172934ed467acbc",
+      "output_sha256": "559165afd0fc1a7c02d16f7f90f04e6cefc74175f038d8e369f7945db48d78f7",
+      "expected_md5": "dd9ea007b9e5ef541c809a0d719eb4b6",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/skills.txt",
+      "offset": 2377728,
+      "stored_bytes": 2024,
+      "output_bytes": 7899,
+      "ciphertext_sha256": "9ca564faf699ad2db0602bffa645a11f77628f0003201a189e68a1436c9eb5db",
+      "output_sha256": "d19bb4416e3971be2f3ea915c1690709019409798c74e8c071d48c65f2398a21",
+      "expected_md5": "e47eef9925fcd7377be1f1f245c1862a",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/sndbutes.txt",
+      "offset": 2379776,
+      "stored_bytes": 2792,
+      "output_bytes": 17873,
+      "ciphertext_sha256": "e378ee3277028d47a926c705a39d68f28341f8f30b1552765567577de770d72c",
+      "output_sha256": "cfba76022c81226f9f8f57b1bc02534048999b6c623bf3b15feb231a36444f3b",
+      "expected_md5": "dd2a47341da8bd9717d9305ddcfc6d3d",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/sndfilters.txt",
+      "offset": 2382848,
+      "stored_bytes": 3552,
+      "output_bytes": 30522,
+      "ciphertext_sha256": "717a7f3ebdd6bcb85fceb9ff7b84d95d9a391a784aa0681b3968f8d7384d6370",
+      "output_sha256": "b45743af7d7afb20014d45f87ffb7a1d31c9badb5f7d6570b22d53173ea729a9",
+      "expected_md5": "1e8bd4f525025ec60a6ff9b381d77113",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ssitem.txt",
+      "offset": 2386944,
+      "stored_bytes": 5368,
+      "output_bytes": 55731,
+      "ciphertext_sha256": "f8716ba670b8aaff4c7e4aa2ca9e7156618527fb3d09f01dd2bdbeed33b67ef0",
+      "output_sha256": "5eb2b9a5f6bf11cf6ce5a1a269348b7a4b626f1b00835aef5a88c371cc32d4e2",
+      "expected_md5": "41a4201696a9389c2ce7e21f06524d4e",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/suddenlive.txt",
+      "offset": 2393088,
+      "stored_bytes": 156,
+      "output_bytes": 496,
+      "ciphertext_sha256": "8fa8098f8058eeae65bacd2e7fcea74db40e2dd3c197381bbefaa89df689b512",
+      "output_sha256": "9f8b4e32dfe8a94959b835b1367560aabfa7b783fbdc6ac1d59be93a962a63cb",
+      "expected_md5": "235b751a3cda819e8aff66b139ab1afe",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/suddenpass.txt",
+      "offset": 2394112,
+      "stored_bytes": 2196,
+      "output_bytes": 13888,
+      "ciphertext_sha256": "3e23c775f7b495ef2ce522295216ea7d7a250fe7b224e4da0080931200b5c340",
+      "output_sha256": "b88e55ef56cba9e96083d3537c28d5c182df3333f73653840639dae7c9d3873f",
+      "expected_md5": "4b8ba16accaac0e29316080df753cf02",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/supersale.txt",
+      "offset": 2397184,
+      "stored_bytes": 476,
+      "output_bytes": 1021,
+      "ciphertext_sha256": "e68e3e5caf68288551cd3284ad538c96019170be50c8fc3e88be796e0ae6548c",
+      "output_sha256": "a479e347367c840faa1487d83b8831f901822e33580eeca604a8175bea934db8",
+      "expected_md5": "afe9fc02a800dcf7f02b84ca346151aa",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/surface.txt",
+      "offset": 2398208,
+      "stored_bytes": 9840,
+      "output_bytes": 118438,
+      "ciphertext_sha256": "8affcd96cdd7c17297fabcb46ed0716a9860e2689684312d53f861ed9c822901",
+      "output_sha256": "cd1a7ef338c250aa227ea0fcb69055683dcd1c52532dfd88346d56d15116036b",
+      "expected_md5": "1a07aace6b1290ce4d61bf3be156f5c4",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/TravelNode.txt",
+      "offset": 2408448,
+      "stored_bytes": 308,
+      "output_bytes": 2480,
+      "ciphertext_sha256": "ffce41c3a257953acc81b0138aa792a3b65f80d9419f76966b96d4fe532b3ad7",
+      "output_sha256": "423b547a651b98112593879e07670208e961081b3b5d27ac93bc290f3f3734fd",
+      "expected_md5": "ed7d6255374cfde1de194bbfa6c33f86",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/triggertypes.txt",
+      "offset": 2409472,
+      "stored_bytes": 292,
+      "output_bytes": 618,
+      "ciphertext_sha256": "5bfb02b970cbfe0d4a9dd8c2ab8e903299200bddc85248dfd1d7796698dc56ee",
+      "output_sha256": "16a1f2752848678daa6006b3a35ce348ce542db027941245ca3b69f95e72753a",
+      "expected_md5": "9eaf98ad174f8042245fa373b2344882",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/upboxInfo.txt",
+      "offset": 2410496,
+      "stored_bytes": 396,
+      "output_bytes": 3110,
+      "ciphertext_sha256": "a22d318536aa26bb391a76ea129064a0cbfa02baf52a3fcc2984c034452b9ac4",
+      "output_sha256": "01ccb99ecc450750c3894c22de40027889e7d0a4ae96f759959d4a97f6805af5",
+      "expected_md5": "73e5a1e1abd0d69a1a8ea1ca38cca950",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/variablemap.txt",
+      "offset": 2411520,
+      "stored_bytes": 912,
+      "output_bytes": 3667,
+      "ciphertext_sha256": "67b3f5395ae7482aa7167e5dd1aec0b4320748dd6cada7e140138f93246bba32",
+      "output_sha256": "7b54187cbeea634bfa89f453d8f6f68979cfa3f4774a8c05fd0673363f680f5c",
+      "expected_md5": "08bfbd3bb4e18afec8c060b0e19fbb16",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/vipinfo.txt",
+      "offset": 2412544,
+      "stored_bytes": 984,
+      "output_bytes": 9297,
+      "ciphertext_sha256": "111cd779203ab38f3cd5632d0f1f711b6569f18b90dcb5a7cbb62854948eaa79",
+      "output_sha256": "8ee470c9c4056a8a86ed850d1247530dc46590f16b316e09ed3f6bea881a00f1",
+      "expected_md5": "99128657cd99f88a272175d8409a167c",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/vippointinfo.txt",
+      "offset": 2413568,
+      "stored_bytes": 4244,
+      "output_bytes": 40567,
+      "ciphertext_sha256": "d8274f1ad9e2726fceb87093a216e3152e631ddaffb72ce62f135ca43c1c3d45",
+      "output_sha256": "0423f3bfb1afd86870c1e5b3a498ea9ba12c9d2809074e17539e2d6bc0e0ef7f",
+      "expected_md5": "b0d7dba64a136538835e4ef264db13b0",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/WeaponAdditional.txt",
+      "offset": 2418688,
+      "stored_bytes": 1044,
+      "output_bytes": 6690,
+      "ciphertext_sha256": "437ea221af147e2a23fd790c5c0d0ca8ace6b76bdb8f4ddb83f4f3b80b1634dc",
+      "output_sha256": "28105d5a80613353cab1c0d07b5e9141878e94b38e38acb4cbb86fd682f5c5e5",
+      "expected_md5": "e3d01c15f5c6034156224b5e4c48cb73",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/weaponeffectscript.txt",
+      "offset": 2420736,
+      "stored_bytes": 1332,
+      "output_bytes": 4763,
+      "ciphertext_sha256": "af8364f56f59865eef7434667fa3ddb472165513b85e18557782660df98924c9",
+      "output_sha256": "4564cba445c6cee19c5c04f391e8ccb062f27c93e15275cc5fe0f3d0eaefc675",
+      "expected_md5": "4579febf2b87af6a908e433aed4c2453",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/WeaponParts.txt",
+      "offset": 2422784,
+      "stored_bytes": 29024,
+      "output_bytes": 674066,
+      "ciphertext_sha256": "c042db77a0e28a6601ccecf3083808f024275d9ac1d77e8af19e5199209dc5ba",
+      "output_sha256": "20d12b1db72075d28d3305b957ccddac43da9caf5897477a4e38fc81e29a8cbd",
+      "expected_md5": "eba1425ad94481692dddc9210cf3c584",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/weapons.txt",
+      "offset": 2452480,
+      "stored_bytes": 1701132,
+      "output_bytes": 36280890,
+      "ciphertext_sha256": "edfc17a1a38bf7a1e5fbfb3ee9ee6b0ec788ecf503448679d12168b5b434cc31",
+      "output_sha256": "a39a99af3d020c1a5cf9f3b4ac53d5fb73d6f8a92f03b2d063862be2a1676dbe",
+      "expected_md5": "3a13da4b325d8a776cae8685f8177b64",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/welcometonexonhud.txt",
+      "offset": 4154368,
+      "stored_bytes": 948,
+      "output_bytes": 2836,
+      "ciphertext_sha256": "80263aeebaa0fe32724fec2692bfa18b22f280e1960cc70a2764b35211e13a10",
+      "output_sha256": "7ffa9b5310c81ff05f7a16d767ed57a71b0830d371dd0d9a1a7c8222a443b46c",
+      "expected_md5": "31d9a9f9e635c1caecb9e18fe14f8b70",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/welcometonexonmissiondata.txt",
+      "offset": 4155392,
+      "stored_bytes": 6768,
+      "output_bytes": 53091,
+      "ciphertext_sha256": "ae191bf0c430125adb73e34511c068653ad81d99434a45c6935f35a5f92258b0",
+      "output_sha256": "aab5b27cfed799c5967560cce614112f26cfa15cf4e6900d5e990c6fc7e29d6d",
+      "expected_md5": "ca9f024d66d1fe46f497db3c854cffc6",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/welcometonexonselectkitpopup.txt",
+      "offset": 4162560,
+      "stored_bytes": 1184,
+      "output_bytes": 3862,
+      "ciphertext_sha256": "410407d0b43728d3c5af91a8b605d5e0fa47848807d16ffe51c0f27054dfe215",
+      "output_sha256": "7866c407d4051174a55efee44cc444537be6b04b92f9031fe047ad8ef9377d2f",
+      "expected_md5": "43b698df6b63b14e3411f7fff9d136dc",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wic_url.txt",
+      "offset": 4164608,
+      "stored_bytes": 860,
+      "output_bytes": 2945,
+      "ciphertext_sha256": "ca0c78092bcdb664f5f6a72021f8861762fef75c1fe27a442c2d7e1d8b6fb4f7",
+      "output_sha256": "25ef81a6d9af9398806be6bd83661a9c233aba6ef16d09d617b5026f4de18380",
+      "expected_md5": "8a2e15697651fe71cc805e95d6cc98c6",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wp103_dinosaur.txt",
+      "offset": 4165632,
+      "stored_bytes": 1109592,
+      "output_bytes": 3904621,
+      "ciphertext_sha256": "0f20922fef71df63b09de6ddb0c81cc46952e9e83f7db4b9bd7bff27275e4fc4",
+      "output_sha256": "81030e44e6514c5c9b10975175fd8dec7548832b51e5f225a44bc9f5949ee831",
+      "expected_md5": "39959209a5571f9a1600349608c238d3",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wp111_dinosaur2.txt",
+      "offset": 5275648,
+      "stored_bytes": 494176,
+      "output_bytes": 1806507,
+      "ciphertext_sha256": "83c8920fe2678b959a01f4b414d16ed23c76d5396968cbed5231c6ace825b135",
+      "output_sha256": "ac58b46130d3062ebbdf33a1df9f1b96508fc556a567633b44fa31aa1c48c402",
+      "expected_md5": "985bf6a428824cce43571230c94fa9c2",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wp112_hellgade.txt",
+      "offset": 5770240,
+      "stored_bytes": 1768,
+      "output_bytes": 8195,
+      "ciphertext_sha256": "ef58b6a22b5dd0501827cd333a0189977b081ea218c224efc54e9766faf64f4f",
+      "output_sha256": "f91956198308bd700e0bb2fca5d6a1e233a50ebeeacfd4d6ef9d265599efe18a",
+      "expected_md5": "7a6d4cadd6d387671d16e41d4a97a38e",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wp117_crosscounter_ai.txt",
+      "offset": 5772288,
+      "stored_bytes": 276176,
+      "output_bytes": 924343,
+      "ciphertext_sha256": "a761e1c3ee9aca834afc384f8a8471cc48cecfe2af54aeafb8f2f3daace60872",
+      "output_sha256": "a3f9a07e8d63feadd4da8b2b47f4d69570d1036bad2085a5b9c5980717217bb4",
+      "expected_md5": "a8b8f61f2edc0ea809af73b60d976f93",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wp132_hellgade_complex.txt",
+      "offset": 6048768,
+      "stored_bytes": 1768,
+      "output_bytes": 8153,
+      "ciphertext_sha256": "437b80b7a8951596da99865ff0b7a2433fdf4774b7031cbc912c538479df6f94",
+      "output_sha256": "fe692fb835961c87b5057174001d89e6179d7606dd2a1593a050932de1f07046",
+      "expected_md5": "639a3bc1317acac92d193229f1ed663d",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wp133_hellgade.txt",
+      "offset": 6050816,
+      "stored_bytes": 848,
+      "output_bytes": 4362,
+      "ciphertext_sha256": "50d4ed7afdbe9db0680a45d426aec83e50d396838dd00ff4f6c6d13ad7c6eaee",
+      "output_sha256": "d18026bced5427a2917ed3c12e70e05ffb68f764fb33666449700860445b472f",
+      "expected_md5": "c253e705051a9944af051642073bbcbd",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wp133_hellgade_complex.txt",
+      "offset": 6051840,
+      "stored_bytes": 2488,
+      "output_bytes": 9361,
+      "ciphertext_sha256": "b40248e8ee4206797d75f1c412ba13eae503cddc1ade2cc4c3936070856bfeb8",
+      "output_sha256": "2cfc45115dc4a9f4b9286168b2b64be164c30532ea5028f3c8748cfb90f91d9d",
+      "expected_md5": "3ac832c0659bd595090fb93ed505a08e",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wp148_welcome_to_nexon.txt",
+      "offset": 6054912,
+      "stored_bytes": 2643128,
+      "output_bytes": 9701554,
+      "ciphertext_sha256": "bab7fe973f215e8f8fd018b42683f7a9603c29df5181c1678930fbc85f2e7be7",
+      "output_sha256": "3ca5870f9ae46abb0b69388e4fce8b08b97da47c4b98245d820cec2ae86cd2e9",
+      "expected_md5": "0b4f8fc3a52f4eb296daf3871558b180",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wp154_infinitehunting.txt",
+      "offset": 8698880,
+      "stored_bytes": 11512,
+      "output_bytes": 66617,
+      "ciphertext_sha256": "a576a9b19a2945ca849322e4c7fe5293d30a524da1a64d9fc35e36959964e17e",
+      "output_sha256": "49c10a94ce4e2ed0b22aeafa1a3ad414b939a31aee86c68e5042397d3c8c05c7",
+      "expected_md5": "5b3615ebcfa266fd22f807f0bb93f0cc",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wp192_findreal.txt",
+      "offset": 8711168,
+      "stored_bytes": 9392,
+      "output_bytes": 36916,
+      "ciphertext_sha256": "e8bb6b4391111f14909c52c48d0ce4ad70b66c13b84014e0c30f5c89379b8493",
+      "output_sha256": "70b93b875f6b5204cab329588959098f02c48297e4dc2ec93afbbac3c877f75c",
+      "expected_md5": "5b0124668a3101ec909c9d8c709c4ac9",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wp194_findreal2.txt",
+      "offset": 8721408,
+      "stored_bytes": 20224,
+      "output_bytes": 71936,
+      "ciphertext_sha256": "71655b9027b9f3bf6570e6321add54a6290366a49c0e1b049503fa34ac5936e7",
+      "output_sha256": "9e9deb8b0c15ec47618eb3cdaeea85ba4b3205c0b43169ec653932462627fbc2",
+      "expected_md5": "67b5e151da156eb70051c730256f3fa9",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wp195_findreal3.txt",
+      "offset": 8741888,
+      "stored_bytes": 14696,
+      "output_bytes": 54394,
+      "ciphertext_sha256": "e9310bbe9129e057760dd30dd8d0052a4e150df4ecf07eeb9bc9198f736441cf",
+      "output_sha256": "14376cb2a426b7839f7e0277e2b85d8800f8d85c9e56d48d01001bbfd2315e77",
+      "expected_md5": "891d2972e332b278d6713679f1d67f52",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wp89_20_ware_house_ai.txt",
+      "offset": 8757248,
+      "stored_bytes": 78052,
+      "output_bytes": 243726,
+      "ciphertext_sha256": "8f522dc5ea7dd2f81c3f0da855953626775671ffda6511d6bbfc99b753ff1ebf",
+      "output_sha256": "3138026df57e0401dfa12e89d65c294c80f11ab461fa4954cebd248dfb2cbf89",
+      "expected_md5": "5620dec3576de6e8bebb114220ee80ca",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wp89_ware_house_ai.txt",
+      "offset": 8836096,
+      "stored_bytes": 78184,
+      "output_bytes": 244082,
+      "ciphertext_sha256": "8d1402a4819e8bfdb9621ce325b0f52a9bab6506a3048b57e556f9227caf0166",
+      "output_sha256": "7cf54eacef36f41091132fd0478104e3e43fc80de8030ed02ad6e5153e596e55",
+      "expected_md5": "c049002f1963180dba793d881a3357c6",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wp90_20_a_tank_ai.txt",
+      "offset": 8914944,
+      "stored_bytes": 174156,
+      "output_bytes": 568565,
+      "ciphertext_sha256": "e0571bb210c6bad4dfca54ad3538e5f6695ae49191cac2d1c81f498917374f2a",
+      "output_sha256": "eeb24e3e9d2c8527c90b53ea328297666a10d73c8c21bb4dbf32aec0f2037f00",
+      "expected_md5": "6688d1b38ff008500af02e3fd332be88",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wp90_a_tank_ai.txt",
+      "offset": 9090048,
+      "stored_bytes": 174484,
+      "output_bytes": 568523,
+      "ciphertext_sha256": "9b51b1c3e16a31038742b068e37de3f037c85e6c97ec7ed8ed523b31797ab352",
+      "output_sha256": "79875ed7daec254ae16695ade2f7e5cf548a801271779118be90eb94eec68723",
+      "expected_md5": "df52808d5c01a5dddff3b017ca848abf",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/wpspawn.txt",
+      "offset": 9265152,
+      "stored_bytes": 464,
+      "output_bytes": 1295,
+      "ciphertext_sha256": "a644584eeab1173ac251d8e478d5225187c1abbbcd3339af2a58ff7bebd83353",
+      "output_sha256": "8d7de946d207791bda94c4eb1cd9a2a4ebe4914cd63d2d2198d93abacb6aa73e",
+      "expected_md5": "45dc765597fe4b81e62ee797c97fc028",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ws_default.txt",
+      "offset": 9266176,
+      "stored_bytes": 140,
+      "output_bytes": 139,
+      "ciphertext_sha256": "ba8e72f0d09369bb21c2888cff9971ea197c0fc7767c78d723089d041bab4831",
+      "output_sha256": "251b21b73f279dfafae488fcc5c008ef7d0eb89985539de1143a318949234734",
+      "expected_md5": "419c716e0e15d283703d4660290693b6",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ws_replica.txt",
+      "offset": 9267200,
+      "stored_bytes": 140,
+      "output_bytes": 139,
+      "ciphertext_sha256": "ba8e72f0d09369bb21c2888cff9971ea197c0fc7767c78d723089d041bab4831",
+      "output_sha256": "251b21b73f279dfafae488fcc5c008ef7d0eb89985539de1143a318949234734",
+      "expected_md5": "419c716e0e15d283703d4660290693b6",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ws_stud.txt",
+      "offset": 9268224,
+      "stored_bytes": 140,
+      "output_bytes": 139,
+      "ciphertext_sha256": "2e60d048e0d0fd9805c6fd06511d76fa66e8ed91d6c4ff0a8b03bfc5c3ac9baa",
+      "output_sha256": "251b21b73f279dfafae488fcc5c008ef7d0eb89985539de1143a318949234734",
+      "expected_md5": "419c716e0e15d283703d4660290693b6",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/yutnori_setting.txt",
+      "offset": 9269248,
+      "stored_bytes": 608,
+      "output_bytes": 5031,
+      "ciphertext_sha256": "fec04d727ba5a99531003babfc065a1ad6a0f9268e660193db23dacdad3f7f4b",
+      "output_sha256": "ca9e3b63a0457b92454e9f30dc372862b82ec8fa439c69eb36796f09e54b16fc",
+      "expected_md5": "61559e99d85ce3980bc68c373d0fae09",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/zombie_weapons.txt",
+      "offset": 9270272,
+      "stored_bytes": 30244,
+      "output_bytes": 316541,
+      "ciphertext_sha256": "dda9fd5446c667d5091a067526c61a1e73de48fed778b993dc65443270f41597",
+      "output_sha256": "ae121b4b5010c3c345446b6c875583f865dde4f76906ffb4e00a9acc14e772cc",
+      "expected_md5": "9ee0fd040f3b3acb5f7eef6fed77f929",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/GameplaySettings.txt",
+      "offset": 9300992,
+      "stored_bytes": 272,
+      "output_bytes": 4170,
+      "ciphertext_sha256": "451f0e69f469611ff8935f61ab6cfa29c7ca67db469017b0d50d20e0aa31308e",
+      "output_sha256": "d9d4df9d466adab1f09e9f6711e50d5f2c9edd3326bab3ef48af70882465bcda",
+      "expected_md5": "ce32ef53d8d4ca914366995624674de2",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ForceItem.txt",
+      "offset": 9302016,
+      "stored_bytes": 240,
+      "output_bytes": 668,
+      "ciphertext_sha256": "032db7db58f91a1101d9a7b0c0448e1e551da4fda452b75c737b3c592c721595",
+      "output_sha256": "6ca8be179a1f35d5a8e5d468d6ec2bd86645b6bdad21006e81a8b5660303ff57",
+      "expected_md5": "cfd7d6798d91cc887a26e3b113d779d2",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/AimSchool.txt",
+      "offset": 9303040,
+      "stored_bytes": 756,
+      "output_bytes": 6555,
+      "ciphertext_sha256": "f681e82f906b1313f6e16764ffddff52dbbd399392c9e0759d33bbb8f7161378",
+      "output_sha256": "21d61a1e7c770faa54c5d64a6181f5852c64a57274eae40bf2c18be86b88844f",
+      "expected_md5": "87a418dce15df9b07f6f712d94f88b98",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/descriptionchecker.txt",
+      "offset": 9304064,
+      "stored_bytes": 576,
+      "output_bytes": 573,
+      "ciphertext_sha256": "824b647bc38bc8518b5d4fbdfbce87c6011681ce3b2992a9c62a99b0ef56347d",
+      "output_sha256": "2d940962d6b08bc91333073cb598d33ec9712c0b117dab6a4ad82af4c662e474",
+      "expected_md5": "6c5c9366828757a501f2506efb9850c4",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/ActionEventLua5.lua",
+      "offset": 9305088,
+      "stored_bytes": 1316,
+      "output_bytes": 5156,
+      "ciphertext_sha256": "31dffd1030c41bfefe22e7ad3c3bb14a4a102734433bfdf205d10f15e16f0e56",
+      "output_sha256": "ede3ae1af329ccbfadbf4f9f74c3f965c6e8f41a20b86859315074c11b5dc4d5",
+      "expected_md5": "4d1b5b435921c3053700aabb5acd33f8",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/survival_191.txt",
+      "offset": 9307136,
+      "stored_bytes": 4776,
+      "output_bytes": 24828,
+      "ciphertext_sha256": "0b0f707b16d51e822f77f86903c73b2e4a5eda952eb83eea52d25f79d1d1f84b",
+      "output_sha256": "4823c880334a2080e010f3bde0d6cada108d4fbb19ee83c95fb670b452e24728",
+      "expected_md5": "f937aba830b3ba3e6b7c5af447706800",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/survival_284.txt",
+      "offset": 9312256,
+      "stored_bytes": 4800,
+      "output_bytes": 24840,
+      "ciphertext_sha256": "5162cb3e82b72e05f04bb8333f3076ad01c527d49076234a39be5b2dedddcb37",
+      "output_sha256": "3a78d3c09483449948aba1661f30f0f826989add411d79a9caf4a7dbfebccd90",
+      "expected_md5": "c25fe4d3cc25fe2e0c03ee713adaf925",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/survival_203.txt",
+      "offset": 9317376,
+      "stored_bytes": 4780,
+      "output_bytes": 25063,
+      "ciphertext_sha256": "3e092b42b510ab8d20b7471dd65d5f8b4e04b41527921a1241c4e7f4d8e169b2",
+      "output_sha256": "42b162151107feb45b9faae6e75924d9db2b35db28c7fe520f30bb159ec8966e",
+      "expected_md5": "a960b6e34cc1711852b04e0b8d13ff55",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/modelSkillInfo.txt",
+      "offset": 9322496,
+      "stored_bytes": 1684,
+      "output_bytes": 6437,
+      "ciphertext_sha256": "88babe19a17c5728d8dcb025305fb96f04901ea0e47cd05484790ec735e2eb6f",
+      "output_sha256": "360ad2da302d2df9fa85295793390f3e8f760264dfc06ed8e7018b9692ef001f",
+      "expected_md5": "40a6e77e12a1117456d6f08e05bbe547",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/survival_184.txt",
+      "offset": 9324544,
+      "stored_bytes": 4772,
+      "output_bytes": 24885,
+      "ciphertext_sha256": "b5513646bb9a9950fe117f2b21c99eefe4c7cf4441f73fcec518f0d7bf9d8dcd",
+      "output_sha256": "93927d2e8e91f6b7d4d59304204927d704ee55da14576d5ce9fbb3315db70479",
+      "expected_md5": "d742375a15c5dd35c1104f5e3102e0e9",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/gunlevelup5.txt",
+      "offset": 9329664,
+      "stored_bytes": 1244,
+      "output_bytes": 5148,
+      "ciphertext_sha256": "51867b384eb1984242913cc37f714dc7b5681617eea5b234c1b0d20d3b667b65",
+      "output_sha256": "602f1fac95a96fea5190357342d3da319d5478ffe8b158ba8c4a967472d1eb88",
+      "expected_md5": "77fcec7e943a891bfd54d712fb9f3108",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_scripts/sudden_guide.txt",
+      "offset": 9331712,
+      "stored_bytes": 728,
+      "output_bytes": 7176,
+      "ciphertext_sha256": "170d00c648abf65fbbcaf1ee26588efb23089baeb0e3900caff551100dbffaf1",
+      "output_sha256": "acd4fee2a695a975c39fe1ae1676aa1a56002d1a2af695f08491f8cbf9b5212c",
+      "expected_md5": "a777f096aab60923144d6c9939be6842",
+      "md5_verified": true
+    }
+  ],
+  "errors": [],
+  "status": "selected-members-verified",
+  "limitations": [
+    "Only profiles with flags in 0..7 and no block hash table are supported.",
+    "Archived code is never loaded or executed.",
+    "Full package digest remains unknown; selected read ranges have SHA-256."
+  ]
+}

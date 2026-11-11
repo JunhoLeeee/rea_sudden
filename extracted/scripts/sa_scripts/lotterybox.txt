@@ -1,0 +1,5 @@
+[Lottery0]
+Code		= "EET02316"
+TabOrder	= "Char"
+Title		= "sa_interface2\menu\shop\LotteryBox\lottery_event.dtx"
+RewardName	= "씨스타 유니크 세트"

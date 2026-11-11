@@ -1,0 +1,297 @@
+{
+	"outline_info":[
+	{
+		"item_code": 4216,
+		"path": "sa_interface2/menu/InsigniaOutline/",
+		"item_info": [
+		{
+			"type_name": "A타입",
+			"texture":[
+			"rankborder_1_0.dtx",
+			"rankborder_2_0.dtx",
+			"rankborder_3_0.dtx",
+			"rankborder_4_0.dtx",
+			"rankborder_5_0.dtx",
+			"rankborder_6_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 8875,
+		"path": "sa_interface2/menu/InsigniaOutline/FearLess/",
+		"item_info": [
+		{
+			"type_name": "FearLess",
+			"texture":[
+			"rankborder_7_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 9248,
+		"path": "sa_interface2/menu/InsigniaOutline/Justice/",
+		"item_info": [
+		{
+			"type_name": "Justice",
+			"texture":[
+			"rankborder_8_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 10230,
+		"path": "sa_interface2/menu/InsigniaOutline/Rainbow/",
+		"item_info": [
+		{
+			"type_name": "무지개",
+			"texture":[
+			"rankborder_10_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 10228,
+		"path": "sa_interface2/menu/InsigniaOutline/Abyss/",
+		"item_info": [
+		{
+			"type_name": "Abyss",
+			"texture":[
+			"rankborder_9_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 10543,
+		"path": "sa_interface2/menu/InsigniaOutline/Revenant/",
+		"item_info": [
+		{
+			"type_name": "Revenant",
+			"texture":[
+			"rankborder_11_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 10603,
+		"path": "sa_interface2/menu/InsigniaOutline/Winter/",
+		"item_info": [
+		{
+			"type_name": "Winter",
+			"texture":[
+			"rankborder_12_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 11914,
+		"path": "sa_interface2/menu/InsigniaOutline/Mechanic/",
+		"item_info": [
+		{
+			"type_name": "Mechanic",
+			"texture":[
+			"rankborder_14_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 11915,
+		"path": "sa_interface2/menu/InsigniaOutline/BomBom/",
+		"item_info": [
+		{
+			"type_name": "BomBom",
+			"texture":[
+			"rankborder_13_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 12298,
+		"path": "sa_interface2/menu/InsigniaOutline/",
+		"item_info": [
+		{
+			"type_name": "인페르노",
+			"texture":[
+			"rankborder_15_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 12342,
+		"path": "sa_interface2/menu/InsigniaOutline/forsythia/",
+		"item_info": [
+		{
+			"type_name": "개나리",
+			"texture":[
+			"rankborder_15_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 12628,
+		"path": "sa_interface2/menu/InsigniaOutline/StarLight/",
+		"item_info": [
+		{
+			"type_name": "별빛",
+			"texture":[
+			"rankborder_00_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 12662,
+		"path": "sa_interface2/menu/InsigniaOutline/savage/",
+		"item_info": [
+		{
+			"type_name": "Savage",
+			"texture":[
+			"rankborder_16_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 13091,
+		"path": "sa_interface2/menu/InsigniaOutline/noble/",
+		"item_info": [
+		{
+			"type_name": "Noble",
+			"texture":[
+			"rankborder_17_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 13094,
+		"path": "sa_interface2/menu/InsigniaOutline/19th/",
+		"item_info": [
+		{
+			"type_name": "19th AWARDS",
+			"texture":[
+			"rankborder_18_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 13480,
+		"path": "sa_interface2/menu/InsigniaOutline/forsythia/",
+		"item_info": [
+		{
+			"type_name": "노을",
+			"texture":[
+			"rankborder_19_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 13534,
+		"path": "sa_interface2/menu/InsigniaOutline/Nomad/",
+		"item_info": [
+		{
+			"type_name": "NOMAD",
+			"texture":[
+			"rankborder_20_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 14002,
+		"path": "sa_interface2/menu/InsigniaOutline/adrenaline/",
+		"item_info": [
+		{
+			"type_name": "아드레날린",
+			"texture":[
+			"rankborder_21_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 14228,
+		"path": "sa_interface2/menu/InsigniaOutline/forsythia/",
+		"item_info": [
+		{
+			"type_name": "초원",
+			"texture":[
+			"rankborder_22_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 14551,
+		"path": "sa_interface2/menu/InsigniaOutline/forsythia/",
+		"item_info": [
+		{
+			"type_name": "City",
+			"texture":[
+			"rankborder_23_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 16337,
+		"path": "sa_interface2/menu/InsigniaOutline/forsythia/",
+		"item_info": [
+		{
+			"type_name": "오로라",
+			"texture":[
+			"rankborder_25_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 16271,
+		"path": "sa_interface2/menu/InsigniaOutline/26SC(S1)/",
+		"item_info": [
+		{
+			"type_name": "26SC(S1)",
+			"texture":[
+			"rankborder_23_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 16629,
+		"path": "sa_interface2/menu/InsigniaOutline/championshipss1/",
+		"item_info": [
+		{
+			"type_name": "FINF 26 S1",
+			"texture":[
+			"rankborder_26_0.dtx",
+			]		
+		},
+		],
+	},
+	{
+		"item_code": 16887,
+		"path": "sa_interface2/menu/InsigniaOutline/26SC(S2)/",
+		"item_info": [
+		{
+			"type_name": "26SC(S2)",
+			"texture":[
+			"rankborder_27_0.dtx",
+			]		
+		},
+		],
+	},
+]
+}

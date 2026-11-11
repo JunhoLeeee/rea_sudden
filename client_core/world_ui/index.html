@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ware_house.dat · 원본 리소스 검증</title><link rel="icon" href="data:,">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#111820;color:#dbe4e9;font:13px "Segoe UI","Malgun Gothic",sans-serif}canvas{position:fixed;inset:0;width:100vw;height:100vh;display:block;touch-action:none}header{position:fixed;top:0;left:0;right:0;padding:19px 25px;display:flex;align-items:center;gap:20px;background:linear-gradient(#10171ff0,#10171f00);pointer-events:none}h1{font-size:18px;margin:0;letter-spacing:1px}header span{font-size:10px;letter-spacing:2px;color:#b6d581}aside{position:fixed;top:70px;left:20px;width:270px;max-height:calc(100vh - 130px);overflow:auto;background:#10171ee8;border:1px solid #35424d;border-radius:5px;padding:17px;box-shadow:0 8px 40px #0005}label{display:block;margin:15px 0 5px;color:#aebdc9;font-size:11px}select,button{background:#202e39;border:1px solid #4d5e6c;color:#e8eff3;padding:8px;border-radius:3px;font:inherit;width:100%}button{cursor:pointer;margin-top:10px}button:hover{background:#304350}input[type=range]{width:100%;accent-color:#b6d581}.check{display:flex;align-items:center;gap:8px;margin:12px 0}.check input{margin:0;accent-color:#b6d581}p{font-size:11px;line-height:1.7;color:#91a2af}#stats{font:11px/1.8 monospace;white-space:pre-wrap;margin:14px 0;color:#c4d2db}#source{font:9px/1.6 monospace;color:#718898;overflow-wrap:anywhere}footer{position:fixed;bottom:0;left:0;right:0;background:#10171edb;padding:12px 22px;font-size:10px;color:#98aebc}#status{position:fixed;top:22px;right:25px;max-width:45vw;color:#c2dc97;font-size:11px}#error{position:fixed;bottom:60px;left:310px;right:20px;padding:15px;background:#762e34;color:white}#error[hidden]{display:none}@media(max-width:700px){aside{width:230px;left:10px}header{padding-left:12px}header span{display:none}#status{top:48px;right:12px}#error{left:10px}}
+</style></head><body>
+<canvas id="view" tabindex="0" aria-label="원본 ware_house.dat 렌더 기하"></canvas>
+<header><h1>WARE_HOUSE.DAT</h1><span>ORIGINAL RESOURCE INSPECTION</span></header>
+<aside>
+  <div id="stats">원본 메쉬와 텍스처를 읽는 중…</div>
+  <label for="model">저장된 월드 모델</label><select id="model"></select>
+  <label for="start">시작 지점 선언으로 초점 이동</label><select id="start"><option value="">선택하지 않음</option></select>
+  <label for="shading">표시 방식</label><select id="shading"><option value="texture">원본 diffuse 텍스처</option><option value="vertex">diffuse × 저장 정점 색상</option><option value="lightmap">저장 lightmap / 정점 색상</option><option value="comparison">diffuse × 조명 (Saturate 꺼짐 비교)</option><option value="saturate">라이트맵 2배 합성 (Saturate 켜짐 비교)</option><option value="normal">저장 법선 확인</option><option value="wire">삼각형 경계</option></select>
+  <label class="check"><input id="clip" type="checkbox" checked>상부 절단 (Y 좌표)</label>
+  <input id="height" type="range" min="-500" max="600" value="80" aria-label="절단 높이">
+  <label class="check"><input id="flip" type="checkbox">UV의 V 방향 반전 확인</label>
+  <label class="check"><input id="spawns" type="checkbox" checked>시작 지점 위치 표시</label>
+  <button id="reset">전체 기하 보기</button>
+  <p>드래그: 회전 · Shift+드래그: 초점 이동 · 휠: 확대<br>카메라는 리소스 검사용입니다. 원본 플레이어 이동 규칙은 적용하지 않습니다.</p>
+  <p>렌더 정점·UV·원본 DTX와 저장된 mip 체인을 사용합니다. WebGL 2에서 원본 mip 축소를 적용합니다. 원본 조명·셰이더 합성·동적 배치의 화면 일치는 아직 검증하지 않았습니다.</p>
+  <p>Saturate 비교는 라이트맵이 있는 면에 적용합니다. 실제 게임의 현재 설정값과 최종 화면은 미확인입니다.</p>
+  <div id="source"></div>
+</aside>
+<div id="status" role="status">준비 중</div><div id="error" hidden role="alert"></div>
+<footer>원본 게임/DLL 실행 없음 · 저장된 XYZ 그대로 표시 · 추가 translation 적용 없음</footer>
+<script src="/viewer.js"></script></body></html>

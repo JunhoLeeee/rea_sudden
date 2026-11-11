@@ -1,0 +1,75 @@
+/************************************************************************
+**
+** K E Y   I T E M S
+**
+** The KeyItems definitions define all of the attributes associated with
+** a particular key item type.
+**
+** All key item definitions should contain the following properties:
+**
+**	Name (String)
+**
+**		User friendly name used in DEdit.
+**
+**	NameId (Integer)
+**
+**		Id that maps to the key item name (stored in CRes.dll)
+**
+**	DescriptionId (Integer)
+**
+**		Id that maps to the key item description (stored in CRes.dll)
+**
+**	Image (String)
+**
+**		Name of the interface image associated with the key item
+**
+**	Filename (String)
+**
+**		Name of the model file associated with the key item
+**
+**	Skin0-N (String)
+**
+**		Name of the skin file dtx(s) associated with the gear type model.
+**      There can be any number of skins: Skin0, Skin1, ..., SkinN
+**
+**  RenderStyle0-N (String)
+**
+**		Name of the render style file ltb(s).
+**      There can be any number of render styles: RenderStyle0, RenderStyle1, ..., RenderStyleN
+**
+**	FXName (String)	(OPTIONAL)
+**
+**		Specifies the optional name of an FxED created FX to create for this key
+**		item.  The value of this property MUST correspond to the name of a FX 
+**		created using FxED.
+**
+**  SoundName (String)
+**
+**      The name of the sound to play when the key item is picked up.
+**		(either the absolute path to the sound or the name of the soundbutes.txt
+**		sound)
+**
+*/
+
+
+
+/*
+**  Note: Key item ids begin at 4500 in the string table. Descriptions start at 4750. //Interface\Photos\Weapons\p38.dtx
+*/
+
+/*
+**  KeyItem0 - Doorknob
+*/
+
+[KeyItem0]
+Name			= "DoorKnob"
+NameId          	= 4511
+DescriptionId		= 4761
+Image           	= "Interface\photos\keyitems\Doorknob.dtx"
+Filename		= "props\models\GenDorKnob2L.ltb"
+Skin0			= "props\skins\GenDorknob2b.dtx"
+Chrome			= 0
+Chromakey		= 0
+FXName			= ""
+SoundName		= "DefaultKeyItemSound"
+

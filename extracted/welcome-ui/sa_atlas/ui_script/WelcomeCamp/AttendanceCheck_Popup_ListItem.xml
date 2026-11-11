@@ -1,0 +1,5 @@
+<UIEditor>
+    <UIInfo name="itemctrl" x="5" y="10" w="109" h="109" type="1" commandid="" atlas="" texture="" comptype="ItemCtrl" groupname="" hudalign="0" hudstretch="false"/>
+    <UIInfo name="img_complete" x="0" y="0" w="120" h="138" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_attendance_complete_img" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="mouse_over_img" x="10" y="29" w="102" h="72" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_attendance_item_mouseover_img" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+</UIEditor>

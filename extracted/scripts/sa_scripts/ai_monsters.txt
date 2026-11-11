@@ -1,0 +1,3271 @@
+//BrainType
+//개돌형 0
+//선공형 1
+//반응형 2
+//추적형 3
+//도망자형 4
+//중장갑지원형 5
+//중장갑공격형 6
+//마지막보스 7
+//102,104,113,103
+
+// 무기별 타입 인덱스
+//	ANITYPE_RIFLE		= 0,
+//	ANITYPE_PISTOL		= 1,
+//	ANITYPE_MELEE		= 2, //기본칼 
+//	ANITYPE_THROW		= 3,
+//	ANITYPE_SNIPER		= 4, //단발스나
+//	ANITYPE_SHOTGUN		= 5,
+//	ANITYPE_TIMEBOMB	= 6, //시한폭탄
+//	ANITYPE_AUTO_SNIPER 	= 7, //연사스나
+//	ANITYPE_MELEE2		= 8, //쿠크리
+//	ANITYPE_CAPTURED	= 9,
+//	ANITYPE_RIFLE_KNIFE	= 10,
+
+// Resistance/Amplify : 1.0f 를 100%의 기준으로 삼음 0.5f는 50%임.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////돌격형 남자////////////////////////////////////////////////////////////////
+
+[AIType_00]
+Name		= "돌격 Android"
+Level		= 1
+HitPoint	= 160
+Velocity	= 220
+ModelId		= 9
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 12.0f
+SightRange	= 450
+AttackRange	= 130
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+[AIType_01]
+Name		= "돌격 Android"
+Level		= 3
+HitPoint	= 200
+Velocity	= 220
+ModelId		= 10
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 14.0f
+SightRange	= 450
+AttackRange	= 130
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.8f
+AI_SwayScum    = 5
+
+[AIType_02]
+Name		= "돌격 Android"
+Level		= 5
+HitPoint	= 250
+Velocity	= 220
+ModelId		= 11
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 16.0f
+SightRange	= 450
+AttackRange	= 130
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.8f
+AI_SwayScum    = 5
+
+[AIType_03]
+Name		= "돌격 Android"
+Level		= 7
+HitPoint	= 300
+Velocity	= 220
+ModelId		= 12
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 28.0f
+SightRange	= 450
+AttackRange	= 130
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.7f
+AI_SwayScum    = 5
+
+[AIType_04]
+Name		= "돌격 Android"
+Level		= 10
+HitPoint	= 370
+Velocity	= 220
+ModelId		= 13
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 20.0f
+SightRange	= 450
+AttackRange	= 130
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.6f
+AI_SwayScum    = 5
+
+[AIType_05]
+Name		= "돌격 Android"
+Level		= 15
+HitPoint	= 440
+Velocity	= 220
+ModelId		= 14
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 25.0f
+SightRange	= 450
+AttackRange	= 130
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.4f
+AI_SwayScum    = 5
+
+[AIType_06]
+Name		= "돌격 Android"
+Level		= 20
+HitPoint	= 520
+Velocity	= 220
+ModelId		= 15
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 30.0f
+SightRange	= 450
+AttackRange	= 130
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.0f
+AI_SwayScum    = 5
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////돌격형 여자////////////////////////////////////////////////////////////////
+
+[AIType_07]
+Name		= "돌격 Android"
+Level		= 1
+HitPoint	= 150
+Velocity	= 230
+ModelId		= 16
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 12.0f
+SightRange	= 450
+AttackRange	= 130
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+[AIType_08]
+Name		= "돌격 Android"
+Level		= 3
+HitPoint	= 180
+Velocity	= 230
+ModelId		= 16
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 14.0f
+SightRange	= 450
+AttackRange	= 130
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+[AIType_09]
+Name		= "돌격 Android"
+Level		= 5
+HitPoint	= 230
+Velocity	= 230
+ModelId		= 17
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 16.0f
+SightRange	= 450
+AttackRange	= 130
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.7f
+AI_SwayScum    = 5
+
+[AIType_10]
+Name		= "돌격 Android"
+Level		= 7
+HitPoint	= 280
+Velocity	= 230
+ModelId		= 18
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 22.0f
+SightRange	= 450
+AttackRange	= 130
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.6f
+AI_SwayScum    = 5
+
+[AIType_11]
+Name		= "돌격 Android"
+Level		= 10
+HitPoint	= 330
+Velocity	= 230
+ModelId		= 19
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 20.0f
+SightRange	= 450
+AttackRange	= 130
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.4f
+AI_SwayScum    = 5
+
+[AIType_12]
+Name		= "돌격 Android"
+Level		= 15
+HitPoint	= 400
+Velocity	= 230
+ModelId		= 20
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 25.0f
+SightRange	= 450
+AttackRange	= 130
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.3f
+AI_SwayScum    = 5
+
+[AIType_13]
+Name		= "돌격 Android"
+Level		= 20
+HitPoint	= 500
+Velocity	= 230
+ModelId		= 21
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 30.0f
+SightRange	= 450
+AttackRange	= 130
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////선공형 남자////////////////////////////////////////////////////////////////
+
+[AIType_14]
+Name		= "선공 Android"
+Level		= 1
+HitPoint	= 200
+Velocity	= 200
+ModelId		= 9
+BrainType	= 1
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 15.0f
+SightRange	= 500
+AttackRange	= 140
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+[AIType_15]
+Name		= "선공 Android"
+Level		= 3
+HitPoint	= 250
+Velocity	= 200
+ModelId		= 10
+BrainType	= 1
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 17.0f
+SightRange	= 500
+AttackRange	= 140
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.8f
+AI_SwayScum    = 5
+
+[AIType_16]
+Name		= "선공 Android"
+Level		= 5
+HitPoint	= 310
+Velocity	= 200
+ModelId		= 11
+BrainType	= 1
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 19.0f
+SightRange	= 500
+AttackRange	= 140
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.8f
+AI_SwayScum    = 5
+
+[AIType_17]
+Name		= "선공 Android"
+Level		= 7
+HitPoint	= 380
+Velocity	= 200
+ModelId		= 12
+BrainType	= 1
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 22.0f
+SightRange	= 500
+AttackRange	= 140
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.7f
+AI_SwayScum    = 5
+
+[AIType_18]
+Name		= "선공 Android"
+Level		= 10
+HitPoint	= 460
+Velocity	= 200
+ModelId		= 13
+BrainType	= 1
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 25.0f
+SightRange	= 500
+AttackRange	= 140
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.6f
+AI_SwayScum    = 5
+
+[AIType_19]
+Name		= "선공 Android"
+Level		= 15
+HitPoint	= 550
+Velocity	= 200
+ModelId		= 14
+BrainType	= 1
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 29.0f
+SightRange	= 500
+AttackRange	= 140
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.4f
+AI_SwayScum    = 5
+
+[AIType_20]
+Name		= "선공 Android"
+Level		= 20
+HitPoint	= 650
+Velocity	= 200
+ModelId		= 15
+BrainType	= 1
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 33.0f
+SightRange	= 500
+AttackRange	= 140
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.0f
+AI_SwayScum    = 5
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////선공형 여자////////////////////////////////////////////////////////////////
+
+[AIType_21]
+Name		= "선공 Android"
+Level		= 1
+HitPoint	= 180
+Velocity	= 210
+ModelId		= 16
+BrainType	= 1
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 15.0f
+SightRange	= 500
+AttackRange	= 140
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+[AIType_22]
+Name		= "선공 Android"
+Level		= 3
+HitPoint	= 230
+Velocity	= 210
+ModelId		= 16
+BrainType	= 1
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 17.0f
+SightRange	= 500
+AttackRange	= 140
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+[AIType_23]
+Name		= "선공 Android"
+Level		= 5
+HitPoint	= 290
+Velocity	= 210
+ModelId		= 17
+BrainType	= 1
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 19.0f
+SightRange	= 500
+AttackRange	= 140
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.7f
+AI_SwayScum    = 5
+
+[AIType_24]
+Name		= "선공 Android"
+Level		= 7
+HitPoint	= 360
+Velocity	= 210
+ModelId		= 18
+BrainType	= 1
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 22.0f
+SightRange	= 500
+AttackRange	= 140
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.6f
+AI_SwayScum    = 5
+
+[AIType_25]
+Name		= "선공 Android"
+Level		= 10
+HitPoint	= 440
+Velocity	= 210
+ModelId		= 19
+BrainType	= 1
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 25.0f
+SightRange	= 500
+AttackRange	= 140
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.4f
+AI_SwayScum    = 5
+
+[AIType_26]
+Name		= "선공 Android"
+Level		= 15
+HitPoint	= 530
+Velocity	= 210
+ModelId		= 20
+BrainType	= 1
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 29.0f
+SightRange	= 500
+AttackRange	= 140
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.3f
+AI_SwayScum    = 5
+
+[AIType_27]
+Name		= "선공 Android"
+Level		= 20
+HitPoint	= 630
+Velocity	= 210
+ModelId		= 21
+BrainType	= 1
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 33.0f
+SightRange	= 500
+AttackRange	= 140
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////반응형 남자////////////////////////////////////////////////////////////////
+
+[AIType_28]
+Name		= "반응 Android"
+Level		= 1
+HitPoint	= 220
+Velocity	= 170
+ModelId		= 9
+BrainType	= 2
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 18.0f
+SightRange	= 550
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+[AIType_29]
+Name		= "반응 Android"
+Level		= 3
+HitPoint	= 270
+Velocity	= 170
+ModelId		= 10
+BrainType	= 2
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 20.0f
+SightRange	= 550
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.8f
+AI_SwayScum    = 5
+
+[AIType_30]
+Name		= "반응 Android"
+Level		= 5
+HitPoint	= 340
+Velocity	= 170
+ModelId		= 11
+BrainType	= 2
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 22.0f
+SightRange	= 550
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.8f
+AI_SwayScum    = 5
+
+[AIType_31]
+Name		= "반응 Android"
+Level		= 7
+HitPoint	= 420
+Velocity	= 170
+ModelId		= 12
+BrainType	= 2
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 24.0f
+SightRange	= 550
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.7f
+AI_SwayScum    = 5
+
+[AIType_32]
+Name		= "반응 Android"
+Level		= 10
+HitPoint	= 500
+Velocity	= 170
+ModelId		= 13
+BrainType	= 2
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 28.0f
+SightRange	= 550
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.6f
+AI_SwayScum    = 5
+
+[AIType_33]
+Name		= "반응 Android"
+Level		= 15
+HitPoint	= 600
+Velocity	= 170
+ModelId		= 14
+BrainType	= 2
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 32.0f
+SightRange	= 550
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.4f
+AI_SwayScum    = 5
+
+[AIType_34]
+Name		= "반응 Android"
+Level		= 20
+HitPoint	= 700
+Velocity	= 170
+ModelId		= 15
+BrainType	= 2
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 35.0f
+SightRange	= 550
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.0f
+AI_SwayScum    = 5
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////반응형 여자////////////////////////////////////////////////////////////////
+
+[AIType_35]
+Name		= "반응 Android"
+Level		= 1
+HitPoint	= 200
+Velocity	= 200
+ModelId		= 16
+BrainType	= 2
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 18.0f
+SightRange	= 550
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+[AIType_36]
+Name		= "반응 Android"
+Level		= 3
+HitPoint	= 250
+Velocity	= 200
+ModelId		= 16
+BrainType	= 2
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 20.0f
+SightRange	= 550
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+[AIType_37]
+Name		= "반응 Android"
+Level		= 5
+HitPoint	= 310
+Velocity	= 200
+ModelId		= 17
+BrainType	= 2
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 22.0f
+SightRange	= 550
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.7f
+AI_SwayScum    = 5
+
+[AIType_38]
+Name		= "반응 Android"
+Level		= 7
+HitPoint	= 380
+Velocity	= 200
+ModelId		= 18
+BrainType	= 2
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 24.0f
+SightRange	= 550
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.6f
+AI_SwayScum    = 5
+
+[AIType_39]
+Name		= "반응 Android"
+Level		= 10
+HitPoint	= 460
+Velocity	= 200
+ModelId		= 19
+BrainType	= 2
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 28.0f
+SightRange	= 550
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.4f
+AI_SwayScum    = 5
+
+[AIType_40]
+Name		= "반응 Android"
+Level		= 15
+HitPoint	= 550
+Velocity	= 200
+ModelId		= 20
+BrainType	= 2
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 32.0f
+SightRange	= 550
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.3f
+AI_SwayScum    = 5
+
+[AIType_41]
+Name		= "반응 Android"
+Level		= 20
+HitPoint	= 650
+Velocity	= 200
+ModelId		= 21
+BrainType	= 2
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 35.0f
+SightRange	= 550
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////추적형 남자////////////////////////////////////////////////////////////////
+
+[AIType_42]
+Name		= "추적 Android"
+Level		= 1
+HitPoint	= 210
+Velocity	= 200
+ModelId		= 9
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 15.0f
+SightRange	= 600
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+[AIType_43]
+Name		= "추적 Android"
+Level		= 3
+HitPoint	= 280
+Velocity	= 200
+ModelId		= 10
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 17.0f
+SightRange	= 600
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.8f
+AI_SwayScum    = 5
+
+[AIType_44]
+Name		= "추적 Android"
+Level		= 5
+HitPoint	= 350
+Velocity	= 200
+ModelId		= 11
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 19.0f
+SightRange	= 600
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.8f
+AI_SwayScum    = 5
+
+[AIType_45]
+Name		= "추적 Android"
+Level		= 7
+HitPoint	= 400
+Velocity	= 200
+ModelId		= 12
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 22.0f
+SightRange	= 600
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.7f
+AI_SwayScum    = 5
+
+[AIType_46]
+Name		= "추적 Android"
+Level		= 10
+HitPoint	= 480
+Velocity	= 200
+ModelId		= 13
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 25.0f
+SightRange	= 600
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.6f
+AI_SwayScum    = 5
+
+[AIType_47]
+Name		= "추적 Android"
+Level		= 15
+HitPoint	= 580
+Velocity	= 200
+ModelId		= 14
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 29.0f
+SightRange	= 600
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.4f
+AI_SwayScum    = 5
+
+[AIType_48]
+Name		= "추적 Android"
+Level		= 20
+HitPoint	= 680
+Velocity	= 200
+ModelId		= 15
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 33.0f
+SightRange	= 600
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.0f
+AI_SwayScum    = 5
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////추적형 여자////////////////////////////////////////////////////////////////
+
+[AIType_49]
+Name		= "추적 Android"
+Level		= 1
+HitPoint	= 200
+Velocity	= 200
+ModelId		= 16
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 15.0f
+SightRange	= 600
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+[AIType_50]
+Name		= "추적 Android"
+Level		= 3
+HitPoint	= 250
+Velocity	= 200
+ModelId		= 16
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 17.0f
+SightRange	= 600
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+[AIType_51]
+Name		= "추적 Android"
+Level		= 5
+HitPoint	= 310
+Velocity	= 200
+ModelId		= 17
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 19.0f
+SightRange	= 600
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.7f
+AI_SwayScum    = 5
+
+[AIType_52]
+Name		= "추적 Android"
+Level		= 7
+HitPoint	= 380
+Velocity	= 200
+ModelId		= 18
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 22.0f
+SightRange	= 600
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.6f
+AI_SwayScum    = 5
+
+[AIType_53]
+Name		= "추적 Android"
+Level		= 10
+HitPoint	= 460
+Velocity	= 200
+ModelId		= 19
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 25.0f
+SightRange	= 600
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.4f
+AI_SwayScum    = 5
+
+[AIType_54]
+Name		= "추적 Android"
+Level		= 15
+HitPoint	= 550
+Velocity	= 200
+ModelId		= 20
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 29.0f
+SightRange	= 600
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.3f
+AI_SwayScum    = 5
+
+[AIType_55]
+Name		= "추적 Android"
+Level		= 20
+HitPoint	= 650
+Velocity	= 200
+ModelId		= 21
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 33.0f
+SightRange	= 600
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////추적형 군견/////////////////////////////////////////////////////////////////
+
+[AIType_56]
+Name		= "군견 Android"
+Level		= 5
+HitPoint	= 150
+Velocity	= 390
+ModelId		= 26
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 20.0f
+SightRange	= 700
+AttackRange	= 110
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0	
+Resistance	= 1.0f	
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 1 
+BloodFx = 0.5f
+AI_SwayScum    = 5
+Quad = 1
+
+
+[AIType_57]
+Name		= "군견 Android"
+Level		= 10
+HitPoint	= 200
+Velocity	= 390
+ModelId		= 26
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 25.0f
+SightRange	= 700
+AttackRange	= 110
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0	
+Resistance	= 1.0f	
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 1 
+BloodFx = 0.5f
+AI_SwayScum    = 5
+Quad = 1
+
+
+[AIType_58]
+Name		= "군견 Android"
+Level		= 15
+HitPoint	= 250
+Velocity	= 390
+ModelId		= 26
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 30.0f
+SightRange	= 700
+AttackRange	= 110
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0	
+Resistance	= 1.0f	
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 1 
+BloodFx = 0.5f
+AI_SwayScum    = 5
+Quad = 1
+
+
+
+[AIType_59]
+Name		= "군견 Android"
+Level		= 20
+HitPoint	= 300
+Velocity	= 390
+ModelId		= 26
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 35.0f
+SightRange	= 700
+AttackRange	= 110
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0	
+Resistance	= 1.0f	
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 1 
+BloodFx = 0.5f
+AI_SwayScum    = 5
+Quad = 1
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////돌격형 군견/////////////////////////////////////////////////////////////////
+
+[AIType_60]
+Name		= "군견 Android"
+Level		= 5
+HitPoint	= 120
+Velocity	= 410
+ModelId		= 26
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 15.0f
+SightRange	= 650
+AttackRange	= 110
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0	
+Resistance	= 1.0f	
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 1 
+BloodFx = 0.5f
+AI_SwayScum    = 5
+Quad = 1
+
+
+
+[AIType_61]
+Name		= "군견 Android"
+Level		= 10
+HitPoint	= 150
+Velocity	= 410
+ModelId		= 26
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 20.0f
+SightRange	= 650
+AttackRange	= 110
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0	
+Resistance	= 1.0f	
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 1 
+BloodFx = 0.5f
+AI_SwayScum    = 5
+Quad = 1
+
+
+
+[AIType_62]
+Name		= "군견 Android"
+Level		= 15
+HitPoint	= 200
+Velocity	= 410
+ModelId		= 26
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 25.0f
+SightRange	= 650
+AttackRange	= 110
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0	
+Resistance	= 1.0f	
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 1 
+BloodFx = 0.5f
+AI_SwayScum    = 5
+Quad = 1
+
+
+[AIType_63]
+Name		= "군견 Android"
+Level		= 20
+HitPoint	= 250
+Velocity	= 410
+ModelId		= 26
+BrainType	= 0
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 30.0f
+SightRange	= 650
+AttackRange	= 110
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0	
+Resistance	= 1.0f	
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 1 
+BloodFx = 0.5f
+AI_SwayScum    = 5
+Quad = 1
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////추적형 자폭/////////////////////////////////////////////////////////////////
+
+[AIType_64]
+Name		= "자폭 Android"
+Level		= 15
+HitPoint	= 350
+Velocity	= 170
+ModelId		= 22
+BrainType	= 3
+AtteckType	= 1
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 200.0f
+SightRange	= 550
+AttackRange	= 120
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 4	
+Resistance	= 9.0f	
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 4 
+BloodFx = 0.0f
+AI_SwayScum    = 5
+Quad = 1
+
+
+[AIType_65]
+Name		= "자폭 Android"
+Level		= 25
+HitPoint	= 500
+Velocity	= 180
+ModelId		= 23
+BrainType	= 3
+AtteckType	= 1
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 250.0f
+SightRange	= 550
+AttackRange	= 120
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 4	
+Resistance	= 9.0f	
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 4 
+BloodFx = 0.0f
+AI_SwayScum    = 5
+Quad = 1
+
+
+[AIType_66]
+Name		= "자폭 Android"
+Level		= 35
+HitPoint	= 650
+Velocity	= 190
+ModelId		= 24
+BrainType	= 3
+AtteckType	= 1
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 300.0f
+SightRange	= 550
+AttackRange	= 120
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 4	
+Resistance	= 9.0f	
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 4 
+BloodFx = 0.0f
+AI_SwayScum    = 5
+Quad = 1
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////돌격형 자폭/////////////////////////////////////////////////////////////////
+
+[AIType_67]
+Name		= "자폭 Android"
+Level		= 15
+HitPoint	= 300
+Velocity	= 220
+ModelId		= 22
+BrainType	= 0
+AtteckType	= 1
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 150.0f
+SightRange	= 550
+AttackRange	= 100
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 4	
+Resistance	= 9.0f	
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 4 
+BloodFx = 0.0f
+AI_SwayScum    = 5
+Quad = 1
+
+
+[AIType_68]
+Name		= "자폭 Android"
+Level		= 25
+HitPoint	= 350
+Velocity	= 180
+ModelId		= 23
+BrainType	= 0
+AtteckType	= 1
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 180.0f
+SightRange	= 550
+AttackRange	= 100
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 4	
+Resistance	= 9.0f	
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 4 
+BloodFx = 0.0f
+AI_SwayScum    = 5
+Quad = 1
+
+
+[AIType_69]
+Name		= "자폭 Android"
+Level		= 35
+HitPoint	= 400
+Velocity	= 280
+ModelId		= 24
+BrainType	= 0
+AtteckType	= 1
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 220.0f
+SightRange	= 550
+AttackRange	= 100
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 4	
+Resistance	= 9.0f	
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 4 
+BloodFx = 0.0f
+AI_SwayScum    = 5
+Quad = 1
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////중간보스 여자/////////////////////////////////////////////////////////////////
+
+[AIType_70]
+Name		= "세이렌 MK1"
+Level		= 40
+HitPoint	= 6000
+Velocity	= 350
+ModelId		= 3
+BrainType	= 5
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 500
+
+AttackDamage	= 5.0f
+SightRange	= 500
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200
+
+ResistWeaponType= 4
+Resistance	= 3.5f
+AmpWeaponType   = 3
+Amplify		= 5.0f
+
+HealingRadius   = 500
+
+//AttackRate	= 2.0f
+//HasteRadius   = 360
+
+Scale		= 1.0f  
+
+KillScoreIcon = 2 
+BloodFx = 0.2f
+PatrolGroup = 1
+AI_SwayScum    = 5
+
+
+[AIType_71]
+Name		= "세이렌 MK2"
+Level		= 50
+HitPoint	= 7000
+Velocity	= 350
+ModelId		= 4
+BrainType	= 5
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 500
+
+AttackDamage	= 5.0f
+SightRange	= 500
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200
+
+ResistWeaponType= 4
+Resistance	= 3.5f
+AmpWeaponType   = 3
+Amplify		= 5.0f
+
+HealingRadius   = 500
+
+//AttackRate	= 2.0f
+//HasteRadius   = 360
+
+Scale		= 1.0f  
+
+KillScoreIcon = 2 
+BloodFx = 0.2f
+PatrolGroup = 4
+AI_SwayScum    = 5
+
+
+[AIType_72]
+Name		= "세이렌 MK3"
+Level		= 60
+HitPoint	= 8000
+Velocity	= 350
+ModelId		= 5
+BrainType	= 5
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 500
+
+AttackDamage	= 5.0f
+SightRange	= 500
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200
+
+ResistWeaponType= 4
+Resistance	= 3.5f
+AmpWeaponType   = 3
+Amplify		= 5.0f
+
+HealingRadius   = 500
+
+//AttackRate	= 2.0f
+//HasteRadius   = 360
+
+Scale		= 1.0f  
+
+KillScoreIcon = 2 
+BloodFx = 0.2f
+PatrolGroup = 3
+AI_SwayScum    = 5
+
+
+[AIType_73]
+Name		= "세이렌 MK4"
+Level		= 70
+HitPoint	= 9000
+Velocity	= 350
+ModelId		= 6
+BrainType	= 5
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 500
+
+AttackDamage	= 5.0f
+SightRange	= 500
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200
+
+ResistWeaponType= 4
+Resistance	= 3.5f
+AmpWeaponType   = 3
+Amplify		= 5.0f
+
+HealingRadius   = 500
+
+//AttackRate	= 2.0f
+//HasteRadius   = 360
+
+Scale		= 1.0f  
+
+KillScoreIcon = 2 
+BloodFx = 0.2f
+PatrolGroup = 4
+AI_SwayScum    = 5
+
+
+[AIType_74]
+Name		= "세이렌 MK5"
+Level		= 80
+HitPoint	= 10000
+Velocity	= 350
+ModelId		= 7
+BrainType	= 5
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 500
+
+AttackDamage	= 5.0f
+SightRange	= 500
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200
+
+ResistWeaponType= 4
+Resistance	= 3.5f
+AmpWeaponType   = 3
+Amplify		= 5.0f
+
+HealingRadius   = 500
+
+//AttackRate	= 2.0f
+//HasteRadius   = 360
+
+Scale		= 1.0f  
+
+KillScoreIcon = 2 
+BloodFx = 0.2f
+PatrolGroup = 4
+AI_SwayScum    = 5
+
+
+[AIType_75]
+Name		= "자폭 Android"
+Level		= 35
+HitPoint	= 450
+Velocity	= 225
+ModelId		= 24
+BrainType	= 2
+AtteckType	= 1
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 200.0f
+SightRange	= 550
+AttackRange	= 100
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 4	
+Resistance	= 9.0f	
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 4 
+BloodFx = 0.0f
+AI_SwayScum    = 5
+Quad = 1
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////중간보스 남자 /////////////////////////////////////////////////////////////////
+
+[AIType_76]
+Name		= "골리앗 MK1"
+Level		= 100
+HitPoint	= 10000
+Velocity	= 300
+ModelId		= 0
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 500
+
+AttackDamage	= 30.0f
+SightRange	= 500
+AttackRange	= 160
+
+ResistWeaponType= 4
+Resistance	= 3.5f
+AmpWeaponType   = 3
+Amplify		= 5.0f
+
+MinGold		= 180
+MaxGold		= 200
+
+//HealingRadius   = 500
+//AttackRate	= 2.0f
+//HasteRadius   = 360
+
+Scale		= 1.0f  
+
+KillScoreIcon = 2 
+BloodFx = 0.2f
+//PatrolGroup = 7
+AI_SwayScum    = 5
+BossRadar = 1
+
+
+[AIType_77]
+Name		= "골리앗 MK2"
+Level		= 150
+HitPoint	= 13000
+Velocity	= 300
+ModelId		= 1
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 500
+
+AttackDamage	= 35.0f
+SightRange	= 500
+AttackRange	= 160
+
+ResistWeaponType= 4
+Resistance	= 3.5f
+AmpWeaponType   = 3
+Amplify		= 5.0f
+
+MinGold		= 180
+MaxGold		= 200
+
+//HealingRadius   = 500
+//AttackRate	= 2.0f
+//HasteRadius   = 360
+
+Scale		= 1.3f  
+
+KillScoreIcon = 2 
+BloodFx = 0.2f
+//PatrolGroup = 8
+AI_SwayScum    = 5
+BossRadar = 1
+
+
+[AIType_78]
+Name		= "골리앗 MK3"
+Level		= 200
+HitPoint	= 16000
+Velocity	= 360
+ModelId		= 2
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 500
+
+AttackDamage	= 40.0f
+SightRange	= 500
+AttackRange	= 160
+
+ResistWeaponType= 4
+Resistance	= 3.5f
+AmpWeaponType   = 3
+Amplify		= 5.0f
+
+MinGold		= 180
+MaxGold		= 200
+
+//HealingRadius   = 500
+//AttackRate	= 2.0f
+//HasteRadius   = 360
+
+Scale		= 1.6f  
+
+KillScoreIcon = 2 
+BloodFx = 0.2f
+//PatrolGroup = 8
+AI_SwayScum    = 5
+BossRadar = 1
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////보급 안드로이드/////////////////////////////////////////////////////////////////
+
+
+[AIType_79]
+Name		= "보급 Android"
+Level		= 200
+HitPoint	= 1500
+Velocity	= 200
+ModelId		= 22
+BrainType	= 4
+AtteckType	= 0
+RespawnTime	= 7.0f
+CocoonHP	= 500
+
+AttackDamage	= 1.0f
+SightRange	= 500
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200
+
+ResistWeaponType= 4
+Resistance	= 3.5f
+AmpWeaponType   = 3
+Amplify		= 5.0f
+
+HealingRadius   = 500
+
+//AttackRate	= 2.0f
+//HasteRadius   = 360
+
+Scale		= 2.0f  
+
+KillScoreIcon = 2
+BloodFx = 0.0f
+LifeTimeLimit = 40.0f
+PatrolGroup = 0
+AI_SwayScum    = 5
+Quad = 1
+
+
+[AIType_80]
+Name		= "보급 Android"
+Level		= 250
+HitPoint	= 2000
+Velocity	= 220
+ModelId		= 22
+BrainType	= 4
+AtteckType	= 0
+RespawnTime	= 7.0f
+CocoonHP	= 500
+
+AttackDamage	= 1.0f
+SightRange	= 500
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200
+
+ResistWeaponType= 4
+Resistance	= 3.5f
+AmpWeaponType   = 3
+Amplify		= 5.0f
+
+HealingRadius   = 500
+
+//AttackRate	= 2.0f
+//HasteRadius   = 360
+
+Scale		= 2.0f  
+
+KillScoreIcon = 2
+BloodFx = 0.0f
+LifeTimeLimit = 40.0f
+PatrolGroup = 0
+AI_SwayScum    = 5
+Quad = 1
+
+
+[AIType_81]
+Name		= "보급 Android"
+Level		= 300
+HitPoint	= 2500
+Velocity	= 240
+ModelId		= 23
+BrainType	= 4
+AtteckType	= 0
+RespawnTime	= 7.0f
+CocoonHP	= 500
+
+AttackDamage	= 1.0f
+SightRange	= 500
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200
+
+ResistWeaponType= 4
+Resistance	= 3.5f
+AmpWeaponType   = 3
+Amplify		= 5.0f
+
+HealingRadius   = 500
+
+//AttackRate	= 2.0f
+//HasteRadius   = 360
+
+Scale		= 2.0f  
+
+KillScoreIcon = 2
+BloodFx = 0.0f
+LifeTimeLimit = 40.0f
+PatrolGroup = 0
+AI_SwayScum    = 5
+Quad = 1
+
+
+[AIType_82]
+Name		= "보급 Android"
+Level		= 350
+HitPoint	= 3000
+Velocity	= 260
+ModelId		= 23
+BrainType	= 4
+AtteckType	= 0
+RespawnTime	= 7.0f
+CocoonHP	= 500
+
+AttackDamage	= 1.0f
+SightRange	= 500
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200
+
+ResistWeaponType= 4
+Resistance	= 3.5f
+AmpWeaponType   = 3
+Amplify		= 5.0f
+
+HealingRadius   = 500
+
+//AttackRate	= 2.0f
+//HasteRadius   = 360
+
+Scale		= 2.0f  
+
+KillScoreIcon = 2
+BloodFx = 0.0f
+LifeTimeLimit = 40.0f
+PatrolGroup = 0
+AI_SwayScum    = 5
+Quad = 1
+
+
+[AIType_83]
+Name		= "보급 Android"
+Level		= 400
+HitPoint	= 4000
+Velocity	= 280
+ModelId		= 24
+BrainType	= 4
+AtteckType	= 0
+RespawnTime	= 7.0f
+CocoonHP	= 500
+
+AttackDamage	= 1.0f
+SightRange	= 500
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200
+
+ResistWeaponType= 4
+Resistance	= 3.5f
+AmpWeaponType   = 3
+Amplify		= 5.0f
+
+HealingRadius   = 500
+
+//AttackRate	= 2.0f
+//HasteRadius   = 360
+
+Scale		= 2.0f 
+
+KillScoreIcon = 2
+BloodFx = 0.0f
+LifeTimeLimit = 40.0f
+PatrolGroup = 0
+AI_SwayScum    = 5
+Quad = 1
+
+
+[AIType_84]
+Name		= "보급 Android"
+Level		= 450
+HitPoint	= 5000
+Velocity	= 300
+ModelId		= 24
+BrainType	= 4
+AtteckType	= 0
+RespawnTime	= 7.0f
+CocoonHP	= 500
+
+AttackDamage	= 1.0f
+SightRange	= 500
+AttackRange	= 160
+
+MinGold		= 180
+MaxGold		= 200
+
+ResistWeaponType= 4
+Resistance	= 3.5f
+AmpWeaponType   = 3
+Amplify		= 5.0f
+
+HealingRadius   = 500
+
+//AttackRate	= 2.0f
+//HasteRadius   = 360
+
+Scale		= 2.0f  
+
+KillScoreIcon = 2
+BloodFx = 0.0f
+LifeTimeLimit = 40.0f
+PatrolGroup = 0
+AI_SwayScum    = 5
+Quad = 1
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////추적형 러닝 남자////////////////////////////////////////////////////////////////
+
+
+[AIType_85]
+Name		= "추적 Android"
+Level		= 1
+HitPoint	= 180
+Velocity	= 280
+ModelId		= 9
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 20.0f
+SightRange	= 450
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+[AIType_86]
+Name		= "추적 Android"
+Level		= 3
+HitPoint	= 230
+Velocity	= 280
+ModelId		= 10
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 22.0f
+SightRange	= 450
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.8f
+AI_SwayScum    = 5
+
+[AIType_87]
+Name		= "추적 Android"
+Level		= 5
+HitPoint	= 290
+Velocity	= 280
+ModelId		= 11
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 24.0f
+SightRange	= 450
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.8f
+AI_SwayScum    = 5
+
+[AIType_88]
+Name		= "추적 Android"
+Level		= 7
+HitPoint	= 360
+Velocity	= 280
+ModelId		= 12
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 26.0f
+SightRange	= 450
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.7f
+AI_SwayScum    = 5
+
+[AIType_89]
+Name		= "추적 Android"
+Level		= 10
+HitPoint	= 440
+Velocity	= 280
+ModelId		= 13
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 28.0f
+SightRange	= 450
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.6f
+AI_SwayScum    = 5
+
+[AIType_90]
+Name		= "추적 Android"
+Level		= 15
+HitPoint	= 530
+Velocity	= 280
+ModelId		= 14
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 30.0f
+SightRange	= 450
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.4f
+AI_SwayScum    = 5
+
+[AIType_91]
+Name		= "추적 Android"
+Level		= 20
+HitPoint	= 630
+Velocity	= 280
+ModelId		= 15
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 32.0f
+SightRange	= 450
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.0f
+AI_SwayScum    = 5
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////추적형 러닝 여자////////////////////////////////////////////////////////////////
+
+[AIType_92]
+Name		= "추적 Android"
+Level		= 1
+HitPoint	= 160
+Velocity	= 300
+ModelId		= 16
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 20.0f
+SightRange	= 450
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+[AIType_93]
+Name		= "추적 Android"
+Level		= 3
+HitPoint	= 200
+Velocity	= 300
+ModelId		= 16
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 22.0f
+SightRange	= 450
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+[AIType_94]
+Name		= "추적 Android"
+Level		= 5
+HitPoint	= 250
+Velocity	= 300
+ModelId		= 17
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 24.0f
+SightRange	= 450
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.7f
+AI_SwayScum    = 5
+
+[AIType_95]
+Name		= "추적 Android"
+Level		= 7
+HitPoint	= 300
+Velocity	= 300
+ModelId		= 18
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 26.0f
+SightRange	= 450
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.6f
+AI_SwayScum    = 5
+
+[AIType_96]
+Name		= "추적 Android"
+Level		= 10
+HitPoint	= 370
+Velocity	= 300
+ModelId		= 19
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 28.0f
+SightRange	= 450
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.4f
+AI_SwayScum    = 5
+
+[AIType_97]
+Name		= "추적 Android"
+Level		= 15
+HitPoint	= 440
+Velocity	= 300
+ModelId		= 20
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 30.0f
+SightRange	= 450
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 0.3f
+AI_SwayScum    = 5
+
+[AIType_98]
+Name		= "추적 Android"
+Level		= 20
+HitPoint	= 520
+Velocity	= 300
+ModelId		= 21
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+
+AttackDamage	= 32.0f
+SightRange	= 450
+AttackRange	= 150
+
+MinGold		= 180
+MaxGold		= 200 
+
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+
+//ActiveAttackRange = 260
+//AttackRate	= 2.0f
+
+KillScoreIcon = 0 
+BloodFx = 1.0f
+AI_SwayScum    = 5
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////최종보스/////////////////////////////////////////////////////////////////
+
+[AIType_99]
+Name		= "타이탄 MK1"
+Level		= 999
+HitPoint	= 22000
+Velocity	= 395
+ModelId		= 25
+BrainType	= 7
+AtteckType	= 0
+RespawnTime	= 7.0f
+CocoonHP	= 500
+
+AttackDamage	= 150.0f
+SightRange	= 600
+AttackRange	= 450
+
+ResistWeaponType= 4
+Resistance	= 3.0f
+AmpWeaponType   = 3
+Amplify		= 0.2f
+
+MinGold		= 180
+MaxGold		= 200
+
+//HealingRadius   = 500
+//AttackRate	= 2.0f
+//HasteRadius   = 360
+
+Scale		= 2.7f
+
+KillScoreIcon = 3 
+BloodFx = 0.0f
+PatrolGroup = 9
+

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>로컬 연습장 · REA</title><link rel="icon" href="data:,"><link rel="stylesheet" href="/style.css"></head>
+<body>
+<main id="app">
+  <canvas id="view" tabindex="0" aria-label="1인칭 로컬 연습장"></canvas>
+  <canvas id="effects" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none"></canvas>
+  <header><span class="brand">REA <b>FIELD / 01</b></span><span class="badge">LOCAL PRACTICE</span><button id="pause">일시정지 <kbd>ESC</kbd></button></header>
+  <section id="score"><span>ELIMINATIONS<strong id="kills">00 <small>/ 10</small></strong></span><span>TIME LEFT<strong id="time">01:30</strong></span><span>ACCURACY<strong id="accuracy">—</strong></span></section>
+  <div id="event" aria-live="polite"></div>
+  <div id="reload"><span>RELOADING</span><i></i></div>
+  <div id="weapon"><span id="weapon-name">TRAINING RIFLE</span><strong id="ammo">30 <small>/ 90</small></strong><p><kbd>1</kbd> 소총 <kbd>2</kbd> 권총 <kbd>R</kbd> 재장전</p></div>
+  <div id="hint">WASD 이동 · 마우스 조준 · 클릭 사격 · SPACE 점프 · SHIFT 걷기 · CTRL 앉기</div>
+  <div id="overlay">
+    <section class="panel">
+      <div class="eyebrow">INDEPENDENT CLIENT PROTOTYPE</div>
+      <h1 id="title">LOCAL<br><em>TRAINING.</em></h1>
+      <p id="description">90초, 표적 10개.<br>조준하고, 움직이고, 다음 사격을 준비하세요.</p>
+      <div id="result"></div>
+      <label class="setting">명중 표시 스타일 <select id="style" aria-label="명중 표시 스타일"></select></label>
+      <button id="start" class="primary">연습 시작 <span>↗</span></button>
+      <button id="menu" class="secondary" hidden>메뉴로 돌아가기</button>
+      <p class="footnote">독립 연습용 맵과 규칙 · 복원한 명중 표시 설정 사용</p>
+    </section>
+    <aside><span class="eyebrow">RANGE NOTES</span><h2>한 발씩,<br>정확하게.</h2><p>머리를 맞히면 피해량이 증가합니다.<br>표적은 처치 후 2초 뒤 돌아옵니다.</p><div class="keys"><kbd>W</kbd><br><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></div><p>마우스 잠금이 불가능하면<br>화살표 ← →로 회전할 수 있습니다.</p><span class="version">BUILD 0.2 / OFFLINE</span></aside>
+  </div>
+  <div id="connection" role="alert" hidden>연결이 끊겼습니다. 실행 창을 확인하고 새로고침하세요.</div>
+</main>
+<script src="/app.js"></script>
+</body></html>

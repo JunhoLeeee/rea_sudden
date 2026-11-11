@@ -1,0 +1,502 @@
+/*
+**	Health & Armor		절대 수치
+**	Other Stats		퍼센트( 배율 )
+*/
+
+/*
+**	중세 기사
+*/
+[Character0]
+Name				= "나이트 (Knight)"
+Type				= 0
+ModelID				= 180
+Hidden				= false		// false
+Health				= 150		// 150		
+Armor				= 110		// 100
+Jump				= 0		// 0
+Speed				= 0		// 0		// 움직임 속도 증가 배율
+Boost				= 0		// 0
+AttackRatio0			= 15		// 0
+AttackRatio1			= 25		// 20
+SkillAttack			= 60		// 100
+SkillSpeed			= 0		// 0		// 스킬 사용시 움직임 속도 증가 배율
+SkillBoost			= 0		// 0		// 스킬 사용시 연사 속도 증가 배율
+SkillDuration			= 15		// 15
+SkillCoolTime			= 40		// 40
+PrimaryID			= 277		// 277
+SecondaryID			= 276		// 276
+PrimarySpecialAttack		= 0		// 0
+PrimarySpecialSpeed		= -20		// 0
+PrimarySpecialBoost		= 0		// 0
+PrimarySpecialModeWalking	= false		// true
+SecondarySpecialModeWalking	= false		// true
+SpecialModePerturbStandard	= 0.1f		// 0.1f		// 0.0f - 2.0f
+SpecialModePerturbDuck		= 0.0f		// 0.0f		// 0.0f - 2.0f
+SpecialModePerturbMove		= 0.2f		// 0.2f		// 0.0f - 2.0f
+SpecialModeZoom			= 0		// 1		// 기본이 85.0f
+Count				= 0		// 0
+Percentage			= 0		// 0
+Duration			= 0		// 0
+RangeDamage			= ( 0, 0 )	// (0, 0)
+PerRecovery			= 20		// 20
+DamagePenalty			= 0.1f		// 0.5f
+DamagePenaltyTime		= 0.1f		// 1.0f
+DefenseLessTime			= 0.0f		// 3.0f
+CounterTime			= 1.5f		// 1.5f
+ConsecutivelyTime0		= 0.5f		// 0.4f
+ConsecutivelyTime1		= 0.4f		// 0.2f
+DefenseWeapon			= 97		// 100
+
+SecondarySpecialSpeed		= -20			// 보조무기 우 클릭 시 20%감소
+MeleeDefenseWeapon		= 95			// 근접무기 방어시 대미지 96% 차단
+RecoilDamage			= 35			// 반격당하는데 오히려 대미지가 35%약해진다(반격을 했음에도 불구하고 역패널티 되는 기이한 상황이다!!!!)
+ReverseSpeed			= 0.75f
+HitSoundWeight			= 1.0f			// 사운드 증폭 가중치[타격횟수*HitSoundWeight]
+
+[Character1]
+Name				= "나이트 (Knight)"
+Type				= 0
+ModelID				= 181
+Hidden				= false		// false
+Health				= 150		// 150		
+Armor				= 110		// 100
+Jump				= 0		// 0
+Speed				= 0		// 0		// 움직임 속도 증가 배율
+Boost				= 0		// 0
+AttackRatio0			= 15		// 0
+AttackRatio1			= 25		// 20
+SkillAttack			= 60		// 100
+SkillSpeed			= 0		// 0		// 스킬 사용시 움직임 속도 증가 배율
+SkillBoost			= 0		// 0		// 스킬 사용시 연사 속도 증가 배율
+SkillDuration			= 15		// 15
+SkillCoolTime			= 40		// 40
+PrimaryID			= 277		// 277
+SecondaryID			= 276		// 276
+PrimarySpecialAttack		= 0		// 0
+PrimarySpecialSpeed		= -20		// 0
+PrimarySpecialBoost		= 0		// 0
+PrimarySpecialModeWalking	= false		// true
+SecondarySpecialModeWalking	= false		// true
+SpecialModePerturbStandard	= 0.1f		// 0.1f		// 0.0f - 2.0f
+SpecialModePerturbDuck		= 0.0f		// 0.0f		// 0.0f - 2.0f
+SpecialModePerturbMove		= 0.2f		// 0.2f		// 0.0f - 2.0f
+SpecialModeZoom			= 0		// 1		// 기본이 85.0f
+Count				= 0		// 0
+Percentage			= 0		// 0
+Duration			= 0		// 0
+RangeDamage			= ( 0, 0 )	// (0, 0)
+PerRecovery			= 20		// 20
+DamagePenalty			= 0.1f		// 0.5f
+DamagePenaltyTime		= 0.1f		// 1.0f
+DefenseLessTime			= 0.0f		// 3.0f
+CounterTime			= 1.5f		// 1.5f
+ConsecutivelyTime0		= 0.5f		// 0.4f
+ConsecutivelyTime1		= 0.4f		// 0.2f
+DefenseWeapon			= 97		// 100
+
+SecondarySpecialSpeed		= -20			// 막기시 이동속도 20%감소
+MeleeDefenseWeapon		= 95			// 근접무기 방어시 대미지 96% 차단
+RecoilDamage			= 35			// 반격당하는데 오히려 대미지가 35%약해진다(반격을 했음에도 불구하고 역패널티 되는 기이한 상황이다!!!!)
+ReverseSpeed			= 0.75f			// 뒤로가기 1배속(사용하지 않고 있다)
+HitSoundWeight			= 5.0f			// 사운드 증폭 가중치[타격횟수*HitSoundWeight]
+
+/*
+**	카우보이
+*/
+[Character2]
+Name				= "카우보이 (Cowboy)"
+Type				= 1
+ModelID				= 182
+Hidden				= false
+Health				= 130
+Armor				= 100
+Jump				= 0
+Speed				= 0
+Boost				= 0
+AttackRatio0			= 5
+AttackRatio1			= 0	
+SkillAttack			= 0
+SkillSpeed			= 0
+SkillBoost			= 0				// 스킬 사용시 연사 속도 증가 배율
+SkillDuration			= 0
+SkillCoolTime			= 80
+PrimaryID			= 279
+SecondaryID			= 278
+PrimarySpecialAttack		= 55
+PrimarySpecialSpeed		= -15
+PrimarySpecialBoost		= 0
+PrimarySpecialModeWalking	= false
+SecondarySpecialModeWalking	= false
+SpecialModePerturbStandard	= 0.1f			// 0.0f - 2.0f
+SpecialModePerturbDuck		= 0.0f			// 0.0f - 2.0f
+SpecialModePerturbMove		= 0.2f			// 0.0f - 2.0f
+Count				= 1			// 다이너마이트 개수
+Percentage			= 0
+Duration			= 0       
+RangeDamage			= ( 0, 0 )
+PerRecovery			= 50
+DamagePenalty			= 0.1f
+DamagePenaltyTime		= 0.1f
+DefenseLessTime			= 0.0f
+CounterTime			= 1.3f
+ConsecutivelyTime0		= 0.4f
+ConsecutivelyTime1		= 0.2f
+DefenseWeapon			= 95
+
+SecondarySpecialSpeed		= -15
+MeleeDefenseWeapon		= 98
+RecoilDamage			= 25
+ReverseSpeed			= 0.75f
+HitSoundWeight			= 1.0f			// 사운드 증폭 가중치[타격횟수*HitSoundWeight]
+
+[Character3]
+Name				= "카우보이 (Cowboy)"
+Type				= 1
+ModelID				= 183
+Hidden				= false
+Health				= 130
+Armor				= 100
+Jump				= 0
+Speed				= 0
+Boost				= 0
+AttackRatio0			= 5
+AttackRatio1			= 0	
+SkillAttack			= 0
+SkillSpeed			= 0
+SkillBoost			= 0				// 스킬 사용시 연사 속도 증가 배율
+SkillDuration			= 0
+SkillCoolTime			= 80
+PrimaryID			= 279
+SecondaryID			= 278
+PrimarySpecialAttack		= 55
+PrimarySpecialSpeed		= -15
+PrimarySpecialBoost		= 0
+PrimarySpecialModeWalking	= false
+SecondarySpecialModeWalking	= false
+SpecialModePerturbStandard	= 0.1f			// 0.0f - 2.0f
+SpecialModePerturbDuck		= 0.0f			// 0.0f - 2.0f
+SpecialModePerturbMove		= 0.2f			// 0.0f - 2.0f
+Count				= 1			// 다이너마이트 개수
+Percentage			= 0
+Duration			= 0       
+RangeDamage			= ( 0, 0 )
+PerRecovery			= 50
+DamagePenalty			= 0.1f
+DamagePenaltyTime		= 0.1f
+DefenseLessTime			= 0.0f
+CounterTime			= 1.3f
+ConsecutivelyTime0		= 0.4f
+ConsecutivelyTime1		= 0.2f
+DefenseWeapon			= 95
+
+SecondarySpecialSpeed		= -15
+MeleeDefenseWeapon		= 98
+RecoilDamage			= 25
+ReverseSpeed			= 0.75f			// 뒤로가기 1배속(사용하지 않고 있다)
+HitSoundWeight			= 1.0f			// 사운드 증폭 가중치[타격횟수*HitSoundWeight]
+
+
+/*
+**	닌자
+*/
+[Character4]
+Name				= "닌자 (Ninja)"
+Type				= 2
+ModelID				= 184
+Hidden				= false
+Health				= 100
+Armor				= 100
+Jump				= 10
+Speed				= 0	
+Boost				= 0
+AttackRatio0			= 5
+AttackRatio1			= 10
+SkillAttack			= 0
+SkillSpeed			= 0
+SkillBoost			= 0
+SkillDuration			= 1
+SkillCoolTime			= 40
+PrimaryID			= 282
+SecondaryID			= 281
+PrimarySpecialAttack		= 85
+PrimarySpecialSpeed		= -10
+PrimarySpecialBoost		= 0
+PrimarySpecialModeWalking	= false
+SecondarySpecialModeWalking	= false
+SpecialModePerturbStandard	= 0.1f			// 0.0f - 2.0f
+SpecialModePerturbDuck		= 0.0f			// 0.0f - 2.0f
+SpecialModePerturbMove		= 0.2f			// 0.0f - 2.0f
+Count				= 3			// 다중 발사 개수
+Percentage			= 100			// 출혈 발생률
+Duration			= 5			// 출혈 지속 시간
+RangeDamage			= ( 9, 14 )		// 출혈 대미지 Min, Max
+PerRecovery			= 100
+DamagePenalty			= 0.1f
+DamagePenaltyTime		= 0.1f
+DefenseLessTime			= 0.0f
+CounterTime			= 1.5f
+ConsecutivelyTime0		= 0.5f
+ConsecutivelyTime1		= 0.4f
+DefenseWeapon			= 98
+
+SecondarySpecialSpeed		= -5
+MeleeDefenseWeapon		= 95
+RecoilDamage			= 30
+ReverseSpeed			= 0.75f
+HitSoundWeight			= 1.0f			// 사운드 증폭 가중치[타격횟수*HitSoundWeight]
+
+
+[Character5]
+Name				= "닌자 (Ninja)"
+Type				= 2
+ModelID				= 185
+Hidden				= false
+Health				= 100
+Armor				= 100
+Jump				= 10
+Speed				= 0	
+Boost				= 0
+AttackRatio0			= 5
+AttackRatio1			= 10
+SkillAttack			= 0
+SkillSpeed			= 0
+SkillBoost			= 0
+SkillDuration			= 1
+SkillCoolTime			= 40
+PrimaryID			= 282
+SecondaryID			= 281
+PrimarySpecialAttack		= 85
+PrimarySpecialSpeed		= -10
+PrimarySpecialBoost		= 0
+PrimarySpecialModeWalking	= false
+SecondarySpecialModeWalking	= false
+SpecialModePerturbStandard	= 0.1f			// 0.0f - 2.0f
+SpecialModePerturbDuck		= 0.0f			// 0.0f - 2.0f
+SpecialModePerturbMove		= 0.2f			// 0.0f - 2.0f
+Count				= 3			// 다중 발사 개수
+Percentage			= 100			// 출혈 발생률
+Duration			= 5			// 출혈 지속 시간
+RangeDamage			= ( 9, 14 )		// 출혈 대미지 Min, Max
+PerRecovery			= 100
+DamagePenalty			= 0.1f
+DamagePenaltyTime		= 0.1f
+DefenseLessTime			= 0.0f
+CounterTime			= 1.5f
+ConsecutivelyTime0		= 0.5f
+ConsecutivelyTime1		= 0.4f
+DefenseWeapon			= 98
+
+SecondarySpecialSpeed		= -5
+MeleeDefenseWeapon		= 95
+RecoilDamage			= 30
+ReverseSpeed			= 0.75f			// 뒤로가기 1배속(사용하지 않고 있다)
+HitSoundWeight			= 1.0f			// 사운드 증폭 가중치[타격횟수*HitSoundWeight]
+
+
+/*
+**	쇼군
+*/
+[Character6]
+Name				= "쇼군(Shogun)"
+Type				= 3
+ModelID				= 178
+Hidden				= true
+Health				= 180
+Armor				= 120
+Jump				= 0
+Speed				= 0
+Boost				= 0
+AttackRatio0			= 55
+AttackRatio1			= 200
+SkillAttack			= 0
+SkillSpeed			= 0
+SkillBoost			= 0
+SkillDuration			= -1
+SkillCoolTime			= 0
+PrimaryID			= 284
+SecondaryID			= 283
+PrimarySpecialAttack		= 0
+PrimarySpecialSpeed		= -25
+PrimarySpecialBoost		= 0
+PrimarySpecialModeWalking	= false
+SecondarySpecialModeWalking	= false
+SpecialModePerturbStandard	= 0.1f			// 0.0f - 2.0f
+SpecialModePerturbDuck		= 0.0f			// 0.0f - 2.0f
+SpecialModePerturbMove		= 0.2f			// 0.0f - 2.0f
+SpecialModeZoom			= 1			// 기본이 85.0f
+Count				= 0
+Percentage			= 0			// 출혈 발생률
+Duration			= 0			// 출혈 지속 시간
+RangeDamage			= ( 0, 0 )		// 출혈 최소 최대
+DamagePenalty			= 0.1f
+DamagePenaltyTime		= 0.1f
+DefenseLessTime			= 0.0f
+CounterTime			= 1.4f
+ConsecutivelyTime0		= 0.5f
+ConsecutivelyTime1		= 0.25f
+DefenseWeapon			= 96
+
+SecondarySpecialSpeed		= -30
+MeleeDefenseWeapon		= 97
+RecoilDamage			= 45
+ReverseSpeed			= 0.75f
+HitSoundWeight			= 1.0f			// 사운드 증폭 가중치[타격횟수*HitSoundWeight]
+
+
+[Character7]
+Name				= "쇼군(Shogun)"
+Type				= 3
+ModelID				= 179
+Hidden				= true
+Health				= 180
+Armor				= 120
+Jump				= 0
+Speed				= 0
+Boost				= 0
+AttackRatio0			= 55
+AttackRatio1			= 200
+SkillAttack			= 0
+SkillSpeed			= 0
+SkillBoost			= 0
+SkillDuration			= -1
+SkillCoolTime			= 0
+PrimaryID			= 284
+SecondaryID			= 283
+PrimarySpecialAttack		= 0
+PrimarySpecialSpeed		= -25
+PrimarySpecialBoost		= 0
+PrimarySpecialModeWalking	= false
+SecondarySpecialModeWalking	= false
+SpecialModePerturbStandard	= 0.1f			// 0.0f - 2.0f
+SpecialModePerturbDuck		= 0.0f			// 0.0f - 2.0f
+SpecialModePerturbMove		= 0.2f			// 0.0f - 2.0f
+SpecialModeZoom			= 1			// 기본이 85.0f
+Count				= 0
+Percentage			= 0			// 출혈 발생률
+Duration			= 0			// 출혈 지속 시간
+RangeDamage			= ( 0, 0 )		// 출혈 최소 최대
+DamagePenalty			= 0.1f
+DamagePenaltyTime		= 0.1f
+DefenseLessTime			= 0.0f
+CounterTime			= 1.4f
+ConsecutivelyTime0		= 0.5f
+ConsecutivelyTime1		= 0.25f
+DefenseWeapon			= 96
+
+SecondarySpecialSpeed		= -30
+MeleeDefenseWeapon		= 97
+RecoilDamage			= 45
+ReverseSpeed			= 0.75f			// 뒤로가기 1배속(사용하지 않고 있다)
+HitSoundWeight			= 1.0f			// 사운드 증폭 가중치[타격횟수*HitSoundWeight]
+
+
+
+/*
+**	군신
+*/
+[Character8]
+Name				= "군신(WarHero)"
+Type				= 4
+ModelID				= 186
+Hidden				= true
+Health				= 200
+Armor				= 120
+Jump				= 0
+Speed				= 0
+Boost				= 0
+AttackRatio0			= 55
+AttackRatio1			= 200
+SkillAttack			= 0
+SkillSpeed			= 0
+SkillBoost			= 0
+SkillDuration			= -1
+SkillCoolTime			= 0
+PrimaryID			= 323
+SecondaryID			= 322
+PrimarySpecialAttack		= 0
+PrimarySpecialSpeed		= -25
+PrimarySpecialBoost		= 0
+PrimarySpecialModeWalking	= false
+SecondarySpecialModeWalking	= false
+SpecialModePerturbStandard	= 0.1f			// 0.0f - 2.0f
+SpecialModePerturbDuck		= 0.0f			// 0.0f - 2.0f
+SpecialModePerturbMove		= 0.2f			// 0.0f - 2.0f
+SpecialModeZoom			= 1			// 기본이 85.0f
+Count				= 0
+Percentage			= 0			// 출혈 발생률
+Duration			= 0			// 출혈 지속 시간
+RangeDamage			= ( 0, 0 )		// 출혈 최소 최대
+DamagePenalty			= 0.1f
+DamagePenaltyTime		= 0.1f
+DefenseLessTime			= 0.0f
+CounterTime			= 1.4f
+ConsecutivelyTime0		= 0.5f
+ConsecutivelyTime1		= 0.25f
+DefenseWeapon			= 96
+
+SecondarySpecialSpeed		= -30
+MeleeDefenseWeapon		= 97
+RecoilDamage			= 45
+ReverseSpeed			= 0.75f			// 뒤로가기 1배속(사용하지 않고 있다)
+HitSoundWeight			= 1.0f			// 사운드 증폭 가중치[타격횟수*HitSoundWeight]
+
+
+[Character9]
+Name				= "군신(WarHero)"
+Type				= 4
+ModelID				= 187
+Hidden				= true
+Health				= 200
+Armor				= 120
+Jump				= 0
+Speed				= 0
+Boost				= 0
+AttackRatio0			= 55
+AttackRatio1			= 200
+SkillAttack			= 0
+SkillSpeed			= 0
+SkillBoost			= 0
+SkillDuration			= -1
+SkillCoolTime			= 0
+PrimaryID			= 323
+SecondaryID			= 322
+PrimarySpecialAttack		= 0
+PrimarySpecialSpeed		= -25
+PrimarySpecialBoost		= 0
+PrimarySpecialModeWalking	= false
+SecondarySpecialModeWalking	= false
+SpecialModePerturbStandard	= 0.1f			// 0.0f - 2.0f
+SpecialModePerturbDuck		= 0.0f			// 0.0f - 2.0f
+SpecialModePerturbMove		= 0.2f			// 0.0f - 2.0f
+SpecialModeZoom			= 1			// 기본이 85.0f
+Count				= 0
+Percentage			= 0			// 출혈 발생률
+Duration			= 0			// 출혈 지속 시간
+RangeDamage			= ( 0, 0 )		// 출혈 최소 최대
+DamagePenalty			= 0.1f
+DamagePenaltyTime		= 0.1f
+DefenseLessTime			= 0.0f
+CounterTime			= 1.4f
+ConsecutivelyTime0		= 0.5f
+ConsecutivelyTime1		= 0.25f
+DefenseWeapon			= 96
+
+SecondarySpecialSpeed		= -30
+MeleeDefenseWeapon		= 97
+RecoilDamage			= 45
+ReverseSpeed			= 0.75f			// 뒤로가기 1배속(사용하지 않고 있다)
+HitSoundWeight			= 1.0f			// 사운드 증폭 가중치[타격횟수*HitSoundWeight]
+
+
+/*
+**	랜덤
+*/
+[Character10]
+Name		= "랜덤 (?)"
+Type		= 5
+RandSelTypeNum	= 5		// max: 10
+RandSelType0	= (0, 20)
+RandSelType1	= (1, 20)
+RandSelType2	= (2, 20)
+RandSelType3	= (3, 30)	//쇼군
+RandSelType4	= (4, 10)	//군신

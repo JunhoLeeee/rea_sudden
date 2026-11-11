@@ -1,0 +1,4 @@
+<UIEditor>
+    <UIInfo name="img_lock" x="0" y="0" w="24" h="24" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_main_attendance_lockbg_img" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="img_complete" x="0" y="0" w="24" h="24" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_main_attendance_checkbg_img" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+</UIEditor>

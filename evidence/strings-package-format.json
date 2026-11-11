@@ -1,0 +1,524 @@
+[
+  {
+    "address": "0x1403075f0",
+    "value": "[CLIENT INIT] Init 8 - Lapacker Load",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 37
+    }
+  },
+  {
+    "address": "0x1403114c8",
+    "value": "00 Invalid Header",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 18
+    }
+  },
+  {
+    "address": "0x140311c28",
+    "value": " Model alloc failed in Model::ValidateHeader() ",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 48
+    }
+  },
+  {
+    "address": "0x140316ab8",
+    "value": "WSAESOCKTNOSUPPORT",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 20
+    }
+  },
+  {
+    "address": "0x140316ba8",
+    "value": "WSAESHUTDOWN",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 16
+    }
+  },
+  {
+    "address": "0x140316c68",
+    "value": "WSAESTALE",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 12
+    }
+  },
+  {
+    "address": "0x14032ecc8",
+    "value": "incorrect header check",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 23
+    }
+  },
+  {
+    "address": "0x14032ed18",
+    "value": "unknown header flags set",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 25
+    }
+  },
+  {
+    "address": "0x14032ed38",
+    "value": "header crc mismatch",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 20
+    }
+  },
+  {
+    "address": "0x1403313a0",
+    "value": "LAPacker ASSERTION FAILED. PID:%5u",
+    "string": {
+      "encoding": "UTF-16",
+      "termination": "present_or_not_required",
+      "byte_length": 70
+    }
+  },
+  {
+    "address": "0x140331790",
+    "value": "C:\\Git\\lapacker\\lib\\FileSystemLib\\FileSystem.cpp",
+    "string": {
+      "encoding": "UTF-16",
+      "termination": "present_or_not_required",
+      "byte_length": 98
+    }
+  },
+  {
+    "address": "0x140331f20",
+    "value": "C:\\Git\\lapacker\\Packing\\LiveAssistCache.cpp",
+    "string": {
+      "encoding": "UTF-16",
+      "termination": "present_or_not_required",
+      "byte_length": 88
+    }
+  },
+  {
+    "address": "0x140332cc0",
+    "value": " inflate 1.2.11 Copyright 1995-2017 Mark Adler ",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 48
+    }
+  },
+  {
+    "address": "0x1403333a0",
+    "value": "C:\\Git\\lapacker\\lib\\FileSystemLib\\PackageUri.cpp",
+    "string": {
+      "encoding": "UTF-16",
+      "termination": "present_or_not_required",
+      "byte_length": 98
+    }
+  },
+  {
+    "address": "0x140333510",
+    "value": "zlib inflate() error. invalid package file data.",
+    "string": {
+      "encoding": "UTF-16",
+      "termination": "present_or_not_required",
+      "byte_length": 98
+    }
+  },
+  {
+    "address": "0x1403335c0",
+    "value": "Lambda::PackageLoader::OpenFile",
+    "string": {
+      "encoding": "UTF-16",
+      "termination": "present_or_not_required",
+      "byte_length": 64
+    }
+  },
+  {
+    "address": "0x140333600",
+    "value": "C:\\Git\\lapacker\\lib\\FileSystemLib\\PackageLoader.cpp",
+    "string": {
+      "encoding": "UTF-16",
+      "termination": "present_or_not_required",
+      "byte_length": 104
+    }
+  },
+  {
+    "address": "0x140333680",
+    "value": "Lambda::PackageHeaderLoader::LoadMaskedData",
+    "string": {
+      "encoding": "UTF-16",
+      "termination": "present_or_not_required",
+      "byte_length": 88
+    }
+  },
+  {
+    "address": "0x1403336e0",
+    "value": "Lambda::PackageHeaderLoader::LoadEncryptData",
+    "string": {
+      "encoding": "UTF-16",
+      "termination": "present_or_not_required",
+      "byte_length": 90
+    }
+  },
+  {
+    "address": "0x140333750",
+    "value": "Lambda::PackageHeaderLoader::LoadIndexTable",
+    "string": {
+      "encoding": "UTF-16",
+      "termination": "present_or_not_required",
+      "byte_length": 88
+    }
+  },
+  {
+    "address": "0x140335610",
+    "value": "STG_E_INVALIDHEADER",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 20
+    }
+  },
+  {
+    "address": "0x140335c20",
+    "value": "RPC_E_INVALID_HEADER",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 21
+    }
+  },
+  {
+    "address": "0x1403361f0",
+    "value": "NTE_DOUBLE_ENCRYPT",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 19
+    }
+  },
+  {
+    "address": "0x140336468",
+    "value": "CRYPT_E_ALREADY_DECRYPTED",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 26
+    }
+  },
+  {
+    "address": "0x140336488",
+    "value": "CRYPT_E_NOT_DECRYPTED",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 22
+    }
+  },
+  {
+    "address": "0x140336680",
+    "value": "CRYPT_E_NO_DECRYPT_CERT",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14033add0",
+    "value": "ERROR_NT_CROSS_ENCRYPTION_REQUIRED",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 35
+    }
+  },
+  {
+    "address": "0x14033ae40",
+    "value": "ERROR_LM_CROSS_ENCRYPTION_REQUIRED",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 35
+    }
+  },
+  {
+    "address": "0x14033d918",
+    "value": "ERROR_ENCRYPTION_FAILED",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14033d930",
+    "value": "ERROR_DECRYPTION_FAILED",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14033d948",
+    "value": "ERROR_FILE_ENCRYPTED",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 21
+    }
+  },
+  {
+    "address": "0x14033d9b8",
+    "value": "ERROR_FILE_NOT_ENCRYPTED",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 25
+    }
+  },
+  {
+    "address": "0x140340788",
+    "value": "WSAESOCKTNOSUPPORT",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 19
+    }
+  },
+  {
+    "address": "0x140340878",
+    "value": "WSAESHUTDOWN",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 13
+    }
+  },
+  {
+    "address": "0x140340938",
+    "value": "WSAESTALE",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 10
+    }
+  },
+  {
+    "address": "0x140341d28",
+    "value": "SEC_E_ENCRYPT_FAILURE",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 22
+    }
+  },
+  {
+    "address": "0x140341d40",
+    "value": "SEC_E_DECRYPT_FAILURE",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 22
+    }
+  },
+  {
+    "address": "0x1403427b8",
+    "value": "MSSIPOTF_E_BAD_MAGICNUMBER",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 27
+    }
+  },
+  {
+    "address": "0x1403475b0",
+    "value": "ERROR_IPSEC_IKE_INVALID_HEADER",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 31
+    }
+  },
+  {
+    "address": "0x140347b58",
+    "value": "ERROR_IPSEC_IKE_ENCRYPT",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x140347b70",
+    "value": "ERROR_IPSEC_IKE_DECRYPT",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x140347c38",
+    "value": "ERROR_IPSEC_IKE_INVALID_ENCRYPT_ALG",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 36
+    }
+  },
+  {
+    "address": "0x14034b3c0",
+    "value": "WBEM_E_ENCRYPTED_CONNECTION_REQUIRED",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 37
+    }
+  },
+  {
+    "address": "0x140367160",
+    "value": "unexpected zlib return code",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 28
+    }
+  },
+  {
+    "address": "0x1403671b8",
+    "value": "zlib IO error",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 14
+    }
+  },
+  {
+    "address": "0x1403671c8",
+    "value": "bad parameters to zlib",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 23
+    }
+  },
+  {
+    "address": "0x140367220",
+    "value": "unsupported zlib version",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 25
+    }
+  },
+  {
+    "address": "0x140367240",
+    "value": "unexpected zlib return",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 23
+    }
+  },
+  {
+    "address": "0x140369cb0",
+    "value": "invalid before the PNG header has been read",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 44
+    }
+  },
+  {
+    "address": "0x1403f1e80",
+    "value": ".?AV?$ObjectBank@VLAPackerFileStream@@VCS@?A0x0401f400@@@@",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 64
+    }
+  },
+  {
+    "address": "0x1403f2038",
+    "value": ".?AVLAPackerFileStream@@",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 32
+    }
+  },
+  {
+    "address": "0x1403f7370",
+    "value": ".?AV?$CipherHeaderStream@VSnowCipher@Lambda@@@Lambda@@",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 56
+    }
+  },
+  {
+    "address": "0x1403f7410",
+    "value": ".?AV?$_Ref_count@V?$CipherHeaderStream@VSnowCipher@Lambda@@@Lambda@@@std@@",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 80
+    }
+  },
+  {
+    "address": "0x1403f74c8",
+    "value": ".?AV?$_Ref_count@VZlibStream@Lambda@@@std@@",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 48
+    }
+  },
+  {
+    "address": "0x1403f75a0",
+    "value": ".?AVZlibStream@Lambda@@",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x1403f75c8",
+    "value": ".?AUPackageHeader@Lambda@@",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 32
+    }
+  },
+  {
+    "address": "0x1403f75f8",
+    "value": ".?AUPackageHeader2@Lambda@@",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 32
+    }
+  },
+  {
+    "address": "0x1404d41cd",
+    "value": "NGClient64.aes",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 15
+    }
+  }
+]

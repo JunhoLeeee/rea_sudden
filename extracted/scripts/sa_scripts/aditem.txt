@@ -1,0 +1,17 @@
+//기본정보
+[BaseInfo]
+Enable 			= 1
+DelayBase		= 10
+DelayRandomOffset 	= 0
+
+[AdItem0]
+Name		= "Ad0"
+Type		= 0
+MainTexPath	= "sa_ad\Ad_0.dtx"
+ItemStr1	= "EET249"
+
+[AdItem1]
+Name		= "Ad1"
+Type		= 0
+MainTexPath	= "sa_ad\Ad_2.dtx"
+ItemStr1	= "EET246"

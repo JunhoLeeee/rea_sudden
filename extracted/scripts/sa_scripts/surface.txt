@@ -1,0 +1,3370 @@
+/************************************************************************
+**
+** This file contains the following surface related definitions:
+**
+**	Global
+**  Surface
+**
+**
+** NOTES:  
+**
+**  1) All definition properties (i.e., [Surface0]) ARE case sensitive.
+**	   If you are adding a new definition, it is best to start with a 
+**     copy of an existing (working) definition.
+**	2) Name properties are NOT case sensitive (i.e., Name = "Joe" is the same
+**	   as Name = "JOE")
+**  3) All time is specified in seconds (unless otherwise noted)
+**  4) The Float type is the same as Real (i.e., 1.0 or 1.5)
+**  5) The valid range of all RGB color properties is between
+**     0 and 255 (e.g., (0, 255, 0) would be green).
+**
+**
+** 	TEXTURE ID SUMMARY:
+** 
+**  ----Internal ID's----
+**	
+**   0 = Unknown
+**   1 = Air
+**   2 = Flesh
+**   3 = Armor (human)
+** 110 = Sky
+** 200 = Ladder
+** 201 = Liquid
+** 202 = Invisible
+**
+**  ----Custom ID's----
+**
+**   8 = Electronics (computers, machines, with activation sound)
+**   9 = Chainlink Fence (masked metal, shoot through)
+**  10 = Ceramic Tile (Stone tile, cut stone, louder footsteps than cement)
+**  11 = Cement (you can walk quietly on it compared to ceramic tile)
+**  12 = Plaster & Stucco (flakier and more powderlike debris than other stones)
+**  13 = Porcelain (For vases,porcelain lamp bases, tiolets, urinals, sinks, etc)
+**  20 = Metal 
+**  21 = Tin (corrugated metal,light metal, can shoot through, different impact)
+**  23 = trussing (masked metal like chainlink, but with different impacts/sound)
+**  24 = Metal Pipe, Water
+**  25 = Metal Drum, Lava
+**  30 = Wood
+**  31 = Drywall (a powdery wood/stone impact, can shoot through)
+**  32 = Plywood, thin wood (can shoot through, different sound, impactfx)
+**  40 = Glass
+**  41 = Bullet-Proof Glass
+**  42 = Glass Facade (can't see through, but shows glass impacts)
+**  50 = India Spices
+**  51 = Sake Jug (water spout)
+**  52 = trashbag
+**  53 = paper
+**  54 = generic debris impact
+**  69 = Terrain: Ice
+**  70 = Terrain: Dirt
+**  71 = Terrain: Snow
+**  72 = Terrain: Mud
+**  73 = Terrain: Grass
+**  74 = Terrain: Dirt Road
+**  75 = Terrain: Rock, gravel
+**  76 = Terrain: Slushy, slushy Road
+**  77 = Foliage
+**  78 = Terrain: Snowy Gravel
+**  79 = Terrain: Snowy Dirt
+**  80 = Carpet
+**  81 = Cloth (can shoot through)
+**  90 = Linoleum (like ceramic tile but plastic)
+**  91 = Rubber (like linoleum, only more rubbery)
+** 100 = Wood Door (with activation sound, can shoot through)
+** 101 = Metal Door (with activation sound)
+** 102 = stone Door (with activation sound)
+** 103 = Metal File Cabinet (with activation sound)
+** 205 = Force Field ()  
+** 203 = Lava
+** 250 = 50Survival Snowboard
+**
+** ----For sword deflects-----
+**
+** 210 = Sword_Deflect: Don't use elsewhere...
+**
+**
+**
+*/
+
+
+/************************************************************************
+**
+** GLOBAL
+**
+** The global definition defines values that are global to all surfaces.
+**
+*/
+
+[Global]
+
+
+
+
+/************************************************************************
+**
+** SURFACE
+**
+** The Surface definitions define all of the attributes associated with
+** a particular surface.  These definitions *usually* map directly to 
+** a particular texture flag (i.e., the Id property = a texture flag value).
+** However, there are some pre-defined surfaces defined in this file that
+** are needed by the game.  These surfaces are defined below and SHOULD
+** NOT be removed from this file.  Also, it is important that the Ids used
+** by these surfaces are NOT changed.  These pre-defined surfaces are:
+**
+**  UNKNOWN (id 0)		- An unknown surface is encountered
+**  AIR	(id 1)			- Indicates a "non" surface
+**  FLESH (id 2)		- Human/animal surfaces 
+**  ARMOR (id 3)		- Human Armor surfaces 
+**  SKY (id 110)		- Sky surface	  
+**  LADDER (id 200)		- Ladder volume brush
+**  LIQUID (id 201)		- Liquid volume brush
+**  INVISIBLE (id 202)	- An invisible surface
+**
+**
+** All surface definitions should contain the following properties:
+**
+**  Name (String)
+**
+**      The User friendly name of the surface (what shows up in DEdit).
+**
+**  Id (Integer)
+**
+**      This identifies the surface and usually maps directly to a texture
+**      flag value.  This value must be between 0 and 255, and NOT be one
+**      of the pre-defined values above (i.e., NOT 0, 1, 2, 3, 110, 200, 201 
+**      or 202).
+**
+**  ShowsMark (Integer)
+**
+**		Do bullet holes and/or scortch marks show up on this surface.
+**		(1 = true, 0 = false)
+**
+**  ShowBreath (Integer)
+**
+**		Show cold breath if a character is standing on this surface (i.e., 
+**		the surface is ice/snow/outside/etc.)
+**		(1 = true, 0 = false)
+**
+**  CanSeeThrough (Integer)
+**
+**		Can the player/ai see through this surface.
+**		(1 = true, 0 = false)
+**
+**  CanShootThrough (Integer)
+**
+**		Can weapons shoot through this surface.  If set to true, the surface
+**		can be shot through if the thickness of the object (or brush) is less 
+**		than the MaxShootThroughThickness value defined below.
+**		(1 = true, 0 = false)
+**
+**  MaxShootThroughPerturb (Integer)
+**
+**		Indicates that maximum peturb added to bullets when the go through
+**		the surface (a random value between 0 and MaxShootThroughPerturb).
+**
+**  MaxShootThroughThickness (Integer)
+**
+**		The thickness of objects/brushes using this surface that bullets can 
+**		no longer pass through them (e.g., if MaxShootThroughThickness = 31 
+**		then bullets would not pass through a brush that is 32 units thick).
+**		For objects/brushes that can always be shot through (e.g., liquid),
+**		set MaxShootThroughThickness to 0.
+**
+**  BulletHoleSpr (String)
+**
+**		Name of the bullet hole sprite file.
+**
+**  BulletHoleMinScale (Float)
+**
+**		The minimum amount to scale the bullet hole sprite on this surface
+**
+**  BulletHoleMaxScale (Float)
+**
+**		The maximum amount to scale the bullet hole sprite on this surface
+**
+**  BulletRangeDampen (Float)
+**
+**		The amount the range of this bullet is damped when impacting this
+**		surface (when CanShootThrough is 1).  This value is scaled based
+**		on the thickness of the object/brush being shot through.  Valid values
+**		are between 0.0 and 1.0 (e.g., 0.5 cuts the remaining range in half
+**		if the brush is MaxShootThroughThickness.  A value of 1.0 doesn't
+**		change the range).
+**
+**  BulletDamageDampen (Float)
+**
+**		The amount the damage of this bullet is damped when impacting this
+**		surface (when CanShootThrough is 1).  This value is scaled based
+**		on the thickness of the object/brush being shot through.  Valid values
+**		are between 0.0 and 1.0 (e.g., 0.5 cuts the damage of the bullet in half
+**		if the brush is MaxShootThroughThickness.  A value of 1.0 doesn't
+**		change the damage).
+**
+**	BulletImpactSnd1-2 (String)
+**
+**		Name of the bullet impact sounds
+**
+**	ProjectileImpactSnd1-2 (String)
+**
+**		Name of the projectile impact sounds
+**
+**	MeleeImpactSnd1-2 (String)
+**
+**		Name of the melee impact sounds
+**
+**	ShellImpactSnd1 (String)
+**
+**		Specifies the shell impact (bounce) sound.
+**
+**	ShellSndRadius (Float)
+**
+**		Specifies the radius for the shell sound.
+**
+**	GrenadeImpactSnd1 (String)
+**
+**		Specifies the grenade impact (bounce) sound.
+**
+**	GrenadeSndRadius (Float)
+**
+**		Specifies the radius for the shell sound.
+**
+**	RtFootPrintSpr (String)
+**
+**		Name of the sprite used for right-footed footprints (use "" if
+**		this surface doesn't show footprints)
+**
+**	LtFootPrintSpr (String)
+**
+**		Name of the sprite used for left-footed footprints (use "" if
+**		this surface doesn't show footprints)
+**
+**  FootPrintLifetime (Float)
+**
+**		How long the footprint sprites stay around.
+**
+**	FootPrintScale (Vector)
+**
+**		Scale for the foot print sprites.
+**
+**	RtFootSnd1-2 (String)
+**
+**		Name of the 1st and 2nd right footstep sounds.
+**
+**	LtFootSnd1-2 (String)
+**
+**		Name of the 1st and 2nd left footstep sounds.
+**
+**	SnowmobileSnd1-2 (String)
+**
+**		Name of the 1st and 2nd snowmobile 1-off sounds.
+**
+**	BodyFallSnd (String)
+**
+**		Name of the sound a dead body makes when it lands on this surface.
+**
+**	BodyFallSndRadius (Float)
+**
+**		Radius for the BodyFallSnd sound.
+**
+**	BodyLedgeFallSnd (String)
+**
+**		Name of the sound a dead body makes when it lands on this surface after 
+**      falling off a ledge.
+**
+**	BodyLedgeFallSndRadius (Float)
+**
+**		Radius for the BodyLedgeFallSnd sound.
+**
+**	ActivationSnd (String)
+**
+**		Name of the sound played when the player tries to activate this 
+**		surface (i.e., the player uses the "use" key on the surface).  This
+**		can be used to play a machine activate sound, or a "locked door" sound.
+**
+**	ActivationSndRadius (Float)
+**
+**		Radius for the ActivationSnd sound.
+**
+**	DeathNoiseMod (Float)
+**
+**		This is a modifier used to increase/decrease how loud the death
+**		noise (body fall sound) is for this surface by scaling the radius.  
+**		This used by the AI to determine if they could hear the sound or not. 
+**
+**	MoveNoiseMod (Float)
+**
+**		This is a modifier used to increase/decrease how loud movement
+**		sounds are on this surface by scaling the radius.  This used by 
+**		the AI to determine if they could hear the sound or not. 
+**
+**	ImpactNoiseMod (Float)
+**
+**		This is a modifier used to increase/decrease how loud impact
+**		sounds are on this surface by scaling the radius.  This used 
+**		by the AI to determine if they could hear the sound or not.
+**
+**	Hardness (Float)
+**
+**		This specifies the hardness of the surface.  It is currently used
+**		to determine how much grenades bounce off the surface.  Valid values
+**		are between 0.0 (SOFT - grenades stick to surface), and 1.0 (HARD -
+**		grenades don't lose any velocity when the bounce off the surface).
+**
+**	SnowmobileVelMult (Float)
+**
+**		This specifies a velocity multiplier for the snowmobile when on this
+**		surface.  This is used to slow down the snowmobile on certain surfaces.
+**		Valid values are between 0.0 (stopped) and 1.0 (normal speed).
+**
+**	Magnetic (Integer)
+**
+**		This specifies if the surface is magnetic (Actually, if the surface
+**		attracts magnetic objects - i.e., is metal).  (1 = true, 0 = false)
+**
+**	ImpactFXName (string) (OPTIONAL)
+**
+**		Specifies the optional name of a FxED created FX to use when a weapon
+**		impacts this surface.  For example:
+**
+**			ImpactFXName = "StoneImpactFX01"
+**
+**	UWImpactFXName	(string) (OPTIONAL)
+**
+**		Specifies the optional name of a FxED created FX to use when a weapon 
+**		impacts this surface under water.  For example:
+**
+**			UWImpactFXName = "UWMetalImpactFX01"
+**
+**	ExitFXName (string) (OPTIONAL)
+**
+**		Specifies the optional name of a FxED created FX to use when a weapon
+**		exits this surface.  For example:
+**
+**			ExitFXName = "WoodExitFX01"
+**
+**	UWExitFXName (string) (OPTIONAL)
+**
+**		Specifies the optional name of a FxED created FX to use when a weapon
+**		exits this surface under water.  For example:
+**
+**			UWExitFXName = "UWClothExitFX01"
+**
+**	SnowmobileImpactFXName (String) (OPTIONAL)
+**
+**		Specifies the optional name of a FxED created FX to use when a snowmobile
+**		collides with this surface.  For example:
+**
+**			SnowmobileImpactFXName = "SnowmobileImpact_Snowy"	
+**		
+*/
+
+
+////////////////////////////////////////////////////////////////////////////
+// FOLLOWING ARE THE PRE-DEFINED SURFACES - DO NOT MODIFY THESE!!!! -
+//
+
+/*
+**  Surface0 - UNKNOWN
+*/
+
+[Surface0]
+
+Name						= "Unknown"
+Id							= 0
+ShowsMark					= 0
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 0
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 0
+BulletHoleSpr				= ""
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.500000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= ""
+BulletImpactSnd2			= ""
+MeleeImpactSnd1				= ""
+MeleeImpactSnd2				= ""
+
+HammerMeleeImpactSnd1			= ""
+HammerMeleeImpactSnd2			= ""
+HammerMelee2ImpactSnd1			= ""
+HammerMelee2ImpactSnd2			= ""
+VampireImpactSnd1			= ""
+VampireImpactSnd2			= ""
+
+ProjectileImpactSnd1		= ""
+ProjectileImpactSnd2		= ""
+ShellImpactSnd1				= ""
+ShellImpactSnd2				= ""
+ShellSndRadius				= 0.0
+GrenadeImpactSnd			= ""
+GrenadeSndRadius			= 0.0
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= ""
+LtFootSnd1					= ""
+RtFootSnd2					= ""
+LtFootSnd2					= ""
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0.0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0.0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.000000
+MoveNoiseMod				= 2.000000
+ImpactNoiseMod				= 2.000000
+Hardness					= 0.65
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= ""
+UWImpactFXName				= ""
+ExitFXName					= ""
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= ""
+FistMeleeImpactSnd2			= ""
+
+
+/*
+**  Surface1 - AIR
+*/
+
+[Surface1]
+
+Name						= "Air"
+Id							= 1
+ShowsMark					= 0
+ShowBreath					= 0
+CanSeeThrough				= 1
+CanShootThrough				= 0
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 0
+BulletHoleSpr				= ""
+BulletHoleMinScale			= 1.000000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= ""
+BulletImpactSnd2			= ""
+ProjectileImpactSnd1		= ""
+ProjectileImpactSnd2		= ""
+MeleeImpactSnd1				= ""
+MeleeImpactSnd2				= ""
+
+HammerMeleeImpactSnd1			= ""
+HammerMeleeImpactSnd2			= ""
+HammerMelee2ImpactSnd1			= ""
+HammerMelee2ImpactSnd2			= ""
+VampireImpactSnd1			= ""
+VampireImpactSnd2			= ""
+
+ShellImpactSnd1				= ""
+ShellImpactSnd2				= ""
+ShellSndRadius				= 0.0
+GrenadeImpactSnd			= ""
+GrenadeSndRadius			= 0.0
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= ""
+LtFootSnd1					= ""
+RtFootSnd2					= ""
+LtFootSnd2					= ""
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 0.000000
+MoveNoiseMod				= 0.000000
+ImpactNoiseMod				= 0.000000
+Hardness					= 0.0
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= ""
+UWImpactFXName				= ""
+ExitFXName					= ""
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= ""
+FistMeleeImpactSnd2			= ""
+
+/*
+**  Surface2 - FLESH
+*/
+
+[Surface2]
+
+Name						= "Flesh"
+Id							= 2
+ShowsMark					= 0
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 0
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 0
+BulletHoleSpr				= ""
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.500000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= "SA_WEAPONS\SND\Impact\Human\Flesh1.wav"
+BulletImpactSnd2			= "SA_WEAPONS\SND\Impact\Human\Flesh2.wav"
+ProjectileImpactSnd1		= ""
+ProjectileImpactSnd2		= ""
+MeleeImpactSnd1				= "SA_WEAPONS\SND\Impact\Human\kinfe_stab1.wav"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\Impact\Human\kinfe_stab2.wav"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\Impact\Human\hammer_stab1.wav"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\Impact\Human\hammer_stab2.wav"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\Impact\Human\hammer_stab1.wav"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\Impact\Human\hammer_stab2.wav"
+VampireImpactSnd1			= "SA_WEAPONS\SND\Impact\Human\kinfe_stab1.wav"
+VampireImpactSnd2			= "SA_WEAPONS\SND\Impact\Human\kinfe_stab2.wav"
+
+ShellImpactSnd1				= ""
+ShellImpactSnd2				= ""
+ShellSndRadius				= 0.0
+GrenadeImpactSnd			= ""
+GrenadeSndRadius			= 0.0
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= ""
+LtFootSnd1					= ""
+RtFootSnd2					= ""
+LtFootSnd2					= ""
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0.0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0.0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 0.000000
+MoveNoiseMod				= 0.000000
+ImpactNoiseMod				= 0.000000
+Hardness					= 0.35
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Blood_Normal_"
+UWImpactFXName				= "SA_Blood_UWNormal"
+ExitFXName					= ""
+UWExitFXName				= ""
+EnableBulletDir				= 1
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\Impact\Human\fist1.wav"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\Impact\Human\fist1.wav"
+
+
+/*
+**  Surface3 - ARMOR
+*/
+
+[Surface3]
+
+Name						= "Armor"
+Id							= 3
+ShowsMark					= 0
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 0
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 0
+BulletHoleSpr				= ""
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.500000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= "SA_WEAPONS\SND\Impact\Human\Armor1.wav"
+BulletImpactSnd2			= "SA_WEAPONS\SND\Impact\Human\Armor2.wav"
+ProjectileImpactSnd1		= ""
+ProjectileImpactSnd2		= ""
+MeleeImpactSnd1				= "SA_WEAPONS\SND\Impact\Human\kinfe_stab1.wav"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\Impact\Human\kinfe_stab2.wav"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\Impact\Human\hammer_stab1.wav"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\Impact\Human\hammer_stab2.wav"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\Impact\Human\hammer_stab1.wav"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\Impact\Human\hammer_stab2.wav"
+VampireImpactSnd1			= "SA_WEAPONS\SND\Impact\Human\kinfe_stab1.wav"
+VampireImpactSnd2			= "SA_WEAPONS\SND\Impact\Human\kinfe_stab2.wav"
+
+ShellImpactSnd1				= ""
+ShellImpactSnd2				= ""
+ShellSndRadius				= 0.0
+GrenadeImpactSnd			= ""
+GrenadeSndRadius			= 0.0
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= ""
+LtFootSnd1					= ""
+RtFootSnd2					= ""
+LtFootSnd2					= ""
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0.0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0.0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 0.000000
+MoveNoiseMod				= 0.000000
+ImpactNoiseMod				= 0.000000
+Hardness					= 0.35
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Blood_Normal_"
+UWImpactFXName				= "SA_Blood_UWNormal"
+ExitFXName					= ""
+UWExitFXName				= ""
+EnableBulletDir				= 1
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\Impact\Human\fist1.wav"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\Impact\Human\fist1.wav"
+
+
+/*
+**  Surface4 - SKY
+*/
+
+[Surface4]
+
+Name						= "Sky"
+Id							= 110
+ShowsMark					= 0
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 0
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 0
+BulletHoleSpr				= ""
+BulletHoleMinScale			= 1.000000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= ""
+BulletImpactSnd2			= ""
+ProjectileImpactSnd1		= ""
+ProjectileImpactSnd2		= ""
+MeleeImpactSnd1				= ""
+MeleeImpactSnd2				= ""
+
+HammerMeleeImpactSnd1			= ""
+HammerMeleeImpactSnd2			= ""
+HammerMelee2ImpactSnd1			= ""
+HammerMelee2ImpactSnd2			= ""
+VampireImpactSnd1			= ""
+VampireImpactSnd2			= ""
+
+ShellImpactSnd1				= ""
+ShellImpactSnd2				= ""
+ShellSndRadius				= 0.0
+GrenadeImpactSnd			= ""
+GrenadeSndRadius			= 0.0
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= ""
+LtFootSnd1					= ""
+RtFootSnd2					= ""
+LtFootSnd2					= ""
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 0.000000
+MoveNoiseMod				= 0.000000
+ImpactNoiseMod				= 0.000000
+Hardness					= 0.0
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= ""
+UWImpactFXName				= ""
+ExitFXName					= ""
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= ""
+FistMeleeImpactSnd2			= ""
+
+/*
+**  Surface5 - LADDER
+*/
+
+[Surface5]
+
+Name						= "Ladder"
+Id							= 200
+ShowsMark					= 0
+ShowBreath					= 0
+CanSeeThrough				= 1
+CanShootThrough				= 0
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 0
+BulletHoleSpr				= ""
+BulletHoleMinScale			= 1.000000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= ""
+BulletImpactSnd2			= ""
+ProjectileImpactSnd1		= ""
+ProjectileImpactSnd2		= ""
+MeleeImpactSnd1				= ""
+MeleeImpactSnd2				= ""
+
+HammerMeleeImpactSnd1			= ""
+HammerMeleeImpactSnd2			= ""
+HammerMelee2ImpactSnd1			= ""
+HammerMelee2ImpactSnd2			= ""
+VampireImpactSnd1			= ""
+VampireImpactSnd2			= ""
+
+ShellImpactSnd1				= ""
+ShellImpactSnd2				= ""
+ShellSndRadius				= 0.0
+GrenadeImpactSnd			= ""
+GrenadeSndRadius			= 0.0
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Ladder_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Ladder_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Ladder_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Ladder_L.wav"
+UWRtFootSnd1				= "SA_CHARACTERS\UWSND\FootSteps\Ladder_R.wav"
+UWLtFootSnd1				= "SA_CHARACTERS\UWSND\FootSteps\Ladder_L.wav"
+UWRtFootSnd2				= "SA_CHARACTERS\UWSND\FootSteps\Ladder_R.wav"
+UWLtFootSnd2				= "SA_CHARACTERS\UWSND\FootSteps\Ladder_L.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 0.000000
+MoveNoiseMod				= 0.000000
+ImpactNoiseMod				= 0.000000
+Hardness					= 0.0
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= ""
+UWImpactFXName				= ""
+ExitFXName					= ""
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= ""
+FistMeleeImpactSnd2			= ""
+
+
+/*
+**  Surface6 - LIQUID
+*/
+
+[Surface6]
+
+Name						= "Liquid"
+Id							= 201
+ShowsMark					= 0
+ShowBreath					= 0
+CanSeeThrough				= 1
+CanShootThrough				= 1
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 0
+BulletHoleSpr				= ""
+BulletHoleMinScale			= 1.000000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+
+BulletImpactSnd1			= "SA_WEAPONS\SND\Impact\Bullet\Water_1.wav"
+BulletImpactSnd2			= "SA_WEAPONS\SND\Impact\Bullet\Water_2.wav"
+MeleeImpactSnd1				= ""
+MeleeImpactSnd2				= ""
+
+HammerMeleeImpactSnd1			= ""
+HammerMeleeImpactSnd2			= ""
+HammerMelee2ImpactSnd1			= ""
+HammerMelee2ImpactSnd2			= ""
+VampireImpactSnd1			= ""
+VampireImpactSnd2			= ""
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\water.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\water.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\THROW\Water.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\Water_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\Water_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Water_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Water_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Water_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Water_L.wav"
+UWRtFootSnd1				= "SA_CHARACTERS\UWSND\FootSteps\Water_R.wav"
+UWLtFootSnd1				= "SA_CHARACTERS\UWSND\FootSteps\Water_L.wav"
+UWRtFootSnd2				= "SA_CHARACTERS\UWSND\FootSteps\Water_R.wav"
+UWLtFootSnd2				= "SA_CHARACTERS\UWSND\FootSteps\Water_L.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.1
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Surface_Water"
+ExplodeImpactFXName			= "SA_Surface_Water_Exp"
+UWImpactFXName				= ""
+ExitFXName				= ""
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= ""
+FistMeleeImpactSnd2			= ""
+
+
+/*
+**  Surface7 - INVISIBLE - This surface is used for invisible textures.
+**	HAS BEEN REVISED FOR THE LAST TIME TO "NO SHOOT THROUGH, NO SEE THROUGH NO MARK"
+*/
+
+[Surface7]
+
+Name						= "Invisible"
+Id							= 202
+ShowsMark					= 0
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 0
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 0
+BulletHoleSpr				= ""
+BulletHoleMinScale			= 0.000000
+BulletHoleMaxScale			= 0.000000
+BulletRangeDampen			= 0.000000
+BulletDamageDampen			= 0.000000
+BulletImpactSnd1			= ""
+BulletImpactSnd2			= ""
+ProjectileImpactSnd1		= ""
+ProjectileImpactSnd2		= ""
+MeleeImpactSnd1				= ""
+MeleeImpactSnd2				= ""
+
+HammerMeleeImpactSnd1			= ""
+HammerMeleeImpactSnd2			= ""
+HammerMelee2ImpactSnd1			= ""
+HammerMelee2ImpactSnd2			= ""
+VampireImpactSnd1			= ""
+VampireImpactSnd2			= ""
+
+ShellImpactSnd1				= ""
+ShellImpactSnd2				= ""
+ShellSndRadius				= 0.0
+GrenadeImpactSnd			= ""
+GrenadeSndRadius			= 0.0
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 0	
+FootPrintScale				= <0.0, 0.0, 0.0>
+RtFootSnd1					= ""
+LtFootSnd1					= ""
+RtFootSnd2					= ""
+LtFootSnd2					= ""
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.0
+DeathNoiseMod				= 0.0
+MoveNoiseMod				= 0.0
+ImpactNoiseMod				= 0.0
+Hardness					= 0.1
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= ""
+UWImpactFXName				= ""
+ExitFXName					= ""
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= ""
+FistMeleeImpactSnd2			= ""
+
+
+//
+// END OF THE PRE-DEFINED SURFACES - DO NOT MODIFY THESE!!!! -
+/////////////////////////////////////////////////////////////////////////////
+
+/*
+**  Surface8 - SA_STONE
+*/
+
+[Surface8]
+
+Name						= "SA_STONE_Surface"
+Id							= 212
+ShowsMark					= 1
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 1
+MaxShootThroughPerturb		= 20
+MaxShootThroughThickness	= 5
+BulletHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_STONE_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_STONE_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_STONE_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\STONE_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\STONE_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\STONE_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\STONE_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_2.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_Stone.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\Stone_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\Stone_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Stone_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Stone_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Stone_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Stone_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Stone_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Stone_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Stone_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Stone_L.wav"
+
+NewRtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Stone_R.wav"
+NewLtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Stone_L.wav"
+NewRtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Stone_R.wav"
+NewLtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Stone_L.wav"
+
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Surface_STONE"
+UWImpactFXName				= ""
+ExitFXName					= "SA_Surface_STONE"
+UWExitFXName                = ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_2.WAV"
+
+
+/*
+**  Surface9 - SA_METAL
+*/
+
+[Surface9]
+
+Name						= "SA_METAL_Surface"
+Id							= 213
+ShowsMark					= 1
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 0
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 0
+BulletHoleSpr				= "SA_SPRITES\SURFACE\MARK_METAL00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\MARK_METAL01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\MARK_METAL02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\MARK_METAL_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\MARK_METAL_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\MARK_METAL_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\MARK_METAL_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\MARK_METAL_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\MARK_METAL_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\MARK_METAL_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\MARK_METAL_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\MARK_METAL_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_METAL_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_METAL_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_METAL_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\METAL_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\METAL_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\METAL_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\METAL_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\METAL_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\METAL_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\METAL_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\METAL_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\METAL_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\METAL_2.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_Metal.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\Metal_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\Metal_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Metal_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Metal_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Metal_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Metal_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Metal_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Metal_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Metal_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Metal_L.wav"
+
+NewRtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Metal_R.wav"
+NewLtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Metal_L.wav"
+NewRtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Metal_R.wav"
+NewLtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Metal_L.wav"
+
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Surface_METAL_0"
+ImpactFXName1				= "SA_Surface_METAL_1"
+ImpactFXName2				= "SA_Surface_METAL_2"
+ImpactFXName3				= "SA_Surface_METAL_3"
+ImpactFXName4				= "SA_Surface_METAL_4"
+UWImpactFXName				= ""
+ExitFXName					= "SA_Surface_METAL_0"
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\METAL_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\METAL_2.WAV"
+
+/*
+**  Surface10 - SA_WOOD
+*/
+
+[Surface10]
+
+Name						= "SA_WOOD_Surface"
+Id							= 216
+ShowsMark					= 1
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 1
+MaxShootThroughPerturb			= 10
+MaxShootThroughThickness		= 50
+BulletHoleSpr				= "SA_SPRITES\SURFACE\MARK_WOOD00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\MARK_WOOD01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\MARK_WOOD02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\MARK_WOOD_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\MARK_WOOD_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\MARK_WOOD_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\MARK_WOOD_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\MARK_WOOD_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\MARK_WOOD_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\MARK_WOOD_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\MARK_WOOD_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\MARK_WOOD_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_WOOD_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_WOOD_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_WOOD_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\WOOD_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\WOOD_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\WOOD_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\WOOD_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\WOOD_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\WOOD_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\WOOD_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\WOOD_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\WOOD_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\WOOD_2.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_Wood.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\Wood_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\Wood_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Wood_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Wood_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Wood_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Wood_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Wood_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Wood_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Wood_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Wood_L.wav"
+
+NewRtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Wood_R.wav"
+NewLtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Wood_L.wav"
+NewRtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Wood_R.wav"
+NewLtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Wood_L.wav"
+
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Surface_WOOD"
+UWImpactFXName				= ""
+ExitFXName					= "SA_Surface_WOOD"
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\WOOD_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\WOOD_2.WAV"
+
+
+/*
+**  Surface11- SA_GLASS
+*/
+
+[Surface11]
+
+Name						= "SA_GLASS_Surface"
+Id							= 217
+ShowsMark					= 1
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 1
+MaxShootThroughPerturb		= 10
+MaxShootThroughThickness	= 50
+BulletHoleSpr				= "SA_SPRITES\SURFACE\BHglass1.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\BHglass2.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\BHglass1.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\MARK_METAL_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\MARK_METAL_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\MARK_METAL_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Glass_00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Glass_01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Glass_02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Glass_00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Glass_01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Glass_02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_METAL_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_METAL_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_METAL_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\Glass_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\Glass_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\Glass_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\Glass_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\Glass_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\Glass_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\Glass_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\Glass_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\Glass_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\Glass_2.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_Glass.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\metal_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\metal_2.wav"
+ShellSndRadius				= 200.0
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Glass_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Glass_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Glass_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Glass_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Glass_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Glass_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Glass_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Glass_L.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= ""
+UWImpactFXName				= ""
+ExitFXName					= ""
+UWExitFXName				= ""
+ImpactArriveCount			= 3
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\Glass_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\Glass_2.WAV"
+
+
+/*
+**  Surface12 - SA_GRASS
+**						
+*/
+
+[Surface12]
+
+Name						= "SA_GRASS_Surface"
+Id							= 22
+ShowsMark					= 1
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 0
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 100
+
+BulletHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_STONE_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_STONE_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_STONE_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\Stone_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\Stone_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\STONE_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\STONE_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_2.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_Dust.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\default_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\default_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Dust_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Dust_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Dust_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Dust_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Dust_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Dust_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Dust_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Dust_L.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Surface_STONE"
+UWImpactFXName				= ""
+ExitFXName					= "SA_Surface_STONE"
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_2.WAV"
+
+
+/*
+**  Surface13 - SA_DUST
+*/
+
+[Surface13]
+
+Name						= "SA_DUST_Surface"
+Id							= 19
+ShowsMark					= 1
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 0
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 0
+
+BulletHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_STONE_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_STONE_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_STONE_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\Dust_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\Dust_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\STONE_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\STONE_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_2.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_Dust.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\default_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\default_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Dust_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Dust_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Dust_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Dust_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Dust_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Dust_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Dust_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Dust_L.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Surface_STONE"
+UWImpactFXName				= ""
+ExitFXName					= "SA_Surface_STONE"
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_2.WAV"
+
+
+//여기부터 [SPIKE] 추가 ====================================================================================
+//==========================================================================================================
+
+[Surface14]
+
+Name					= "Head"
+Id					= 4
+ShowsMark				= 0
+ShowBreath				= 0
+CanSeeThrough				= 0
+CanShootThrough				= 0
+MaxShootThroughPerturb			= 0
+MaxShootThroughThickness		= 0
+BulletHoleSpr				= ""
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.500000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= "SA_WEAPONS\SND\Impact\Human\HeadShot1.wav"
+BulletImpactSnd2			= "SA_WEAPONS\SND\Impact\Human\HeadShot2.wav"
+ProjectileImpactSnd1		= ""
+ProjectileImpactSnd2		= ""
+MeleeImpactSnd1				= "SA_WEAPONS\SND\Impact\Human\HeadShot1.wav"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\Impact\Human\HeadShot2.wav"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\Impact\Human\HeadShot1.wav"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\Impact\Human\HeadShot2.wav"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\Impact\Human\HeadShot1.wav"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\Impact\Human\HeadShot2.wav"
+VampireImpactSnd1			= "SA_WEAPONS\SND\Impact\Human\HeadShot1.wav"
+VampireImpactSnd2			= "SA_WEAPONS\SND\Impact\Human\HeadShot2.wav"
+
+ShellImpactSnd1				= ""
+ShellImpactSnd2				= ""
+ShellSndRadius				= 0.0
+GrenadeImpactSnd			= ""
+GrenadeSndRadius			= 0.0
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1				= ""
+LtFootSnd1				= ""
+RtFootSnd2				= ""
+LtFootSnd2				= ""
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd				= ""
+BodyFallSndRadius			= 0.0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius			= 0.0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 0.000000
+MoveNoiseMod				= 0.000000
+ImpactNoiseMod				= 0.000000
+Hardness				= 0.35
+SnowmobileVelMult			= 1.0
+Magnetic				= 0
+ImpactFXName				= "SA_Blood_HeadShot"
+UWImpactFXName				= "SA_Blood_UWHeadShot"
+ExitFXName				= ""
+UWExitFXName				= ""
+EnableBulletDir				= 1
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\Impact\Human\fist1.wav"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\Impact\Human\fist1.wav"
+
+[Surface15]
+
+Name					= "SA_Paper_Surface"
+Id					= 222
+ShowsMark				= 1
+ShowBreath				= 0
+CanSeeThrough				= 0
+CanShootThrough				= 1
+MaxShootThroughPerturb			= 0
+MaxShootThroughThickness		= 50
+BulletHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_STONE_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_STONE_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_STONE_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\STONE_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\STONE_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\STONE_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\STONE_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_2.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_Stone.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\Stone_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\Stone_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Paper_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Paper_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Paper_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Paper_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Paper_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Paper_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Paper_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Paper_L.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= ""
+UWImpactFXName				= ""
+ExitFXName					= ""
+UWExitFXName                = ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_2.WAV"
+
+[Surface16]
+
+Name					= "SA_TILE_Surface"
+Id					= 230
+ShowsMark				= 1
+ShowBreath				= 0
+CanSeeThrough				= 0
+CanShootThrough				= 1
+MaxShootThroughPerturb			= 10
+MaxShootThroughThickness		= 5
+BulletHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_STONE_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_STONE_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_STONE_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\STONE_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\STONE_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\STONE_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\STONE_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_2.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_Stone.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\Stone_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\Stone_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Stone_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Stone_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Stone_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Stone_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Stone_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Stone_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Stone_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Stone_L.wav"
+
+NewRtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Stone_R.wav"
+NewLtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Stone_L.wav"
+NewRtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Stone_R.wav"
+NewLtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Stone_L.wav"
+
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Surface_TILE"
+UWImpactFXName				= ""
+ExitFXName					= "SA_Surface_TILE"
+UWExitFXName                = ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_2.WAV"
+
+//철조망
+[Surface17]
+
+Name						= "SA_WIREMETAL_Surface"
+Id							= 234
+ShowsMark					= 0
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 1
+MaxShootThroughPerturb		= 5
+MaxShootThroughThickness	= 10
+BulletHoleSpr				= ""
+BulletHoleSpr1				= ""
+BulletHoleSpr2				= ""
+
+MeleeHoleSpr				= ""
+MeleeHoleSpr1				= ""
+MeleeHoleSpr2				= ""
+
+HammerMeleeHoleSpr			= ""
+HammerMeleeHoleSpr1			= ""
+HammerMeleeHoleSpr2			= ""
+HammerMelee2HoleSpr			= ""
+HammerMelee2HoleSpr1			= ""
+HammerMelee2HoleSpr2			= ""
+
+VampireHoleSpr				= ""
+VampireHoleSpr1				= ""
+VampireHoleSpr2				= ""
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\METAL_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\METAL_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\METAL_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\METAL_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\METAL_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\METAL_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\METAL_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\METAL_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\METAL_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\METAL_2.WAV"
+
+ProjectileImpactSnd1			= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2			= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_Metal.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\Metal_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\Metal_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Metal_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Metal_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Metal_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Metal_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Metal_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Metal_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Metal_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Metal_L.wav"
+
+NewRtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Metal_R.wav"
+NewLtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Metal_L.wav"
+NewRtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Metal_R.wav"
+NewLtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Metal_L.wav"
+
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Surface_METAL_0"
+ImpactFXName1				= "SA_Surface_METAL_1"
+ImpactFXName2				= "SA_Surface_METAL_2"
+ImpactFXName3				= "SA_Surface_METAL_3"
+ImpactFXName4				= "SA_Surface_METAL_4"
+UWImpactFXName				= ""
+ExitFXName				= "SA_Surface_METAL_0"
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\METAL_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\METAL_2.WAV"
+
+//얼음
+[Surface18]
+
+Name					= "SA_ICE_Surface"
+Id					= 235
+ShowsMark				= 1
+ShowBreath				= 0
+CanSeeThrough				= 0
+CanShootThrough				= 1
+MaxShootThroughPerturb			= 20
+MaxShootThroughThickness		= 50
+BulletHoleSpr				= "SA_SPRITES\SURFACE\Mark_Ice00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\Mark_Ice01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\Mark_Ice02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\Mark_Ice_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\Mark_Ice_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\Mark_Ice_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\Mark_Ice_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\Mark_Ice_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\Mark_Ice_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\Mark_Ice_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\Mark_Ice_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\Mark_Ice_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_Ice_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_Ice_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_Ice_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\Ice_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\Ice_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\Ice_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\Ice_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\Ice_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\Ice_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\Ice_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\Ice_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\Ice_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\Ice_2.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_Stone.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\Stone_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\Stone_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Ice_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Ice_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Ice_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Ice_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Ice_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Ice_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Ice_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Ice_L.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Surface_ICE"
+UWImpactFXName				= ""
+ExitFXName					= "SA_Surface_ICE"
+UWExitFXName                = ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\Ice_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\Ice_2.WAV"
+
+
+//눈
+
+[Surface19]
+
+Name						= "SA_SNOW_Surface"
+Id							= 238
+ShowsMark					= 1
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 1
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 100
+
+BulletHoleSpr				= "SA_SPRITES\SURFACE\Mark_Snow00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\Mark_Snow01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\Mark_Snow02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\Mark_Snow_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\Mark_Snow_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\Mark_Snow_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\Mark_Snow_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\Mark_Snow_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\Mark_Snow_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\Mark_Snow_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\Mark_Snow_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\Mark_Snow_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_Snow_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_Snow_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_Snow_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\SNOW_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\SNOW_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\SNOW_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\SNOW_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\SNOW_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\SNOW_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\SNOW_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\SNOW_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\SNOW_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\SNOW_2.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\SNOW.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\SNOW.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_SNOW.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\SNOW_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\SNOW_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\SNOW_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\SNOW_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\SNOW_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\SNOW_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\SNOW_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\SNOW_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\SNOW_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\SNOW_L.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Surface_SNOW"
+UWImpactFXName				= ""
+ExitFXName				= "SA_Surface_SNOW"
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\SNOW_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\SNOW_2.WAV"
+
+// 나무사다리
+[Surface20]
+
+Name						= "WoodLadder"
+Id							= 199
+ShowsMark					= 0
+ShowBreath					= 0
+CanSeeThrough				= 1
+CanShootThrough				= 0
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 0
+BulletHoleSpr				= ""
+BulletHoleMinScale			= 1.000000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= ""
+BulletImpactSnd2			= ""
+ProjectileImpactSnd1		= ""
+ProjectileImpactSnd2		= ""
+MeleeImpactSnd1				= ""
+MeleeImpactSnd2				= ""
+
+HammerMeleeImpactSnd1			= ""
+HammerMeleeImpactSnd2			= ""
+HammerMelee2ImpactSnd1			= ""
+HammerMelee2ImpactSnd2			= ""
+VampireImpactSnd1			= ""
+VampireImpactSnd2			= ""
+
+ShellImpactSnd1				= ""
+ShellImpactSnd2				= ""
+ShellSndRadius				= 0.0
+GrenadeImpactSnd			= ""
+GrenadeSndRadius			= 0.0
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1				= "SA_CHARACTERS\SND\FootSteps\Wood_Ladder_R.wav"
+LtFootSnd1				= "SA_CHARACTERS\SND\FootSteps\Wood_Ladder_L.wav"
+RtFootSnd2				= "SA_CHARACTERS\SND\FootSteps\Wood_Ladder_R.wav"
+LtFootSnd2				= "SA_CHARACTERS\SND\FootSteps\Wood_Ladder_L.wav"
+UWRtFootSnd1				= "SA_CHARACTERS\UWSND\FootSteps\Wood_Ladder_R.wav"
+UWLtFootSnd1				= "SA_CHARACTERS\UWSND\FootSteps\Wood_Ladder_L.wav"
+UWRtFootSnd2				= "SA_CHARACTERS\UWSND\FootSteps\Wood_Ladder_R.wav"
+UWLtFootSnd2				= "SA_CHARACTERS\UWSND\FootSteps\Wood_Ladder_L.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 0.000000
+MoveNoiseMod				= 0.000000
+ImpactNoiseMod				= 0.000000
+Hardness					= 0.0
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= ""
+UWImpactFXName				= ""
+ExitFXName					= ""
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= ""
+FistMeleeImpactSnd2			= ""
+
+// 방탄 유리 효과
+[Surface21]
+Name					= "SA_BULLET_PROOFGLASS_Surface"
+Id					= 239
+ShowsMark				= 1
+ShowBreath				= 0
+CanSeeThrough				= 0
+CanShootThrough				= 0
+MaxShootThroughPerturb			= 0
+MaxShootThroughThickness		= 0
+
+BulletHoleSpr				= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Glass_00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Glass_01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Glass_02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Knife_00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Knife_01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Knife_02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Glass_00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Glass_01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Glass_02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Glass_00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Glass_01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\Mark_Bullet_Proof_Glass_02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_Bullet_Proof_Knife_00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_Bullet_Proof_Knife_01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_Bullet_Proof_Knife_02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\Glass_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\Glass_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\Glass_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\Glass_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\Glass_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\Glass_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\Glass_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\Glass_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\Glass_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\Glass_2.WAV"
+
+ProjectileImpactSnd1			= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2			= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_Metal.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\metal_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\metal_2.wav"
+ShellSndRadius				= 200.0
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1				= "SA_CHARACTERS\SND\FootSteps\Glass_R.wav"
+LtFootSnd1				= "SA_CHARACTERS\SND\FootSteps\Glass_L.wav"
+RtFootSnd2				= "SA_CHARACTERS\SND\FootSteps\Glass_R.wav"
+LtFootSnd2				= "SA_CHARACTERS\SND\FootSteps\Glass_L.wav"
+UWRtFootSnd1				= "SA_CHARACTERS\UWSND\FootSteps\Glass_R.wav"
+UWLtFootSnd1				= "SA_CHARACTERS\UWSND\FootSteps\Glass_L.wav"
+UWRtFootSnd2				= "SA_CHARACTERS\UWSND\FootSteps\Glass_R.wav"
+UWLtFootSnd2				= "SA_CHARACTERS\UWSND\FootSteps\Glass_L.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd				= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= ""
+ExitFXName				= ""
+UWImpactFXName				= ""
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\Glass_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\Glass_2.WAV"
+
+/*
+**  Surface22 - SA_bulletproof_WOOD
+*/
+
+[Surface22]
+
+Name						= "SA_bulletproof_WOOD_Surface"
+Id						= 240
+ShowsMark					= 1
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 0
+MaxShootThroughPerturb		= 10
+MaxShootThroughThickness	= 50
+BulletHoleSpr				= "SA_SPRITES\SURFACE\MARK_WOOD00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\MARK_WOOD01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\MARK_WOOD02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\MARK_WOOD_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\MARK_WOOD_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\MARK_WOOD_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\MARK_WOOD_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\MARK_WOOD_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\MARK_WOOD_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\MARK_WOOD_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\MARK_WOOD_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\MARK_WOOD_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_WOOD_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_WOOD_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_WOOD_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\WOOD_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\WOOD_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\WOOD_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\WOOD_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\WOOD_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\WOOD_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\WOOD_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\WOOD_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\WOOD_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\WOOD_2.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_Wood.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\Wood_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\Wood_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Wood_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Wood_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Wood_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Wood_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Wood_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Wood_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Wood_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Wood_L.wav"
+
+NewRtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Wood_R.wav"
+NewLtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Wood_L.wav"
+NewRtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Wood_R.wav"
+NewLtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Wood_L.wav"
+
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Surface_WOOD"
+UWImpactFXName				= ""
+ExitFXName					= "SA_Surface_WOOD"
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\WOOD_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\WOOD_2.WAV"
+
+[Surface23]
+
+Name					= "SA_Cloth_Surface"
+Id					= 241
+ShowsMark				= 1
+ShowBreath				= 0
+CanSeeThrough				= 0
+CanShootThrough				= 1
+MaxShootThroughPerturb			= 0
+MaxShootThroughThickness		= 50
+BulletHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_STONE_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_STONE_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_STONE_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\STONE_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\STONE_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\STONE_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\STONE_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_2.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_Stone.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\Stone_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\Stone_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Cloth_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Cloth_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Cloth_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Cloth_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Cloth_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Cloth_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Cloth_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Cloth_L.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= ""
+UWImpactFXName				= ""
+ExitFXName					= ""
+UWExitFXName                = ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_2.WAV"
+
+
+/*
+**  Surface24 - PPL
+*/
+
+[Surface24]
+
+Name						= "SA_PPL"
+Id					= 242
+ShowsMark					= 0
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 0
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 0
+BulletHoleSpr				= ""
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.500000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= ""
+BulletImpactSnd2			= ""
+MeleeImpactSnd1				= ""
+MeleeImpactSnd2				= ""
+
+HammerMeleeImpactSnd1			= ""
+HammerMeleeImpactSnd2			= ""
+HammerMelee2ImpactSnd1			= ""
+HammerMelee2ImpactSnd2			= ""
+VampireImpactSnd1			= ""
+VampireImpactSnd2			= ""
+
+ProjectileImpactSnd1		= ""
+ProjectileImpactSnd2		= ""
+ShellImpactSnd1				= ""
+ShellImpactSnd2				= ""
+ShellSndRadius				= 0.0
+GrenadeImpactSnd			= ""
+GrenadeSndRadius			= 0.0
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= ""
+LtFootSnd1					= ""
+RtFootSnd2					= ""
+LtFootSnd2					= ""
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0.0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0.0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.000000
+MoveNoiseMod				= 2.000000
+ImpactNoiseMod				= 2.000000
+Hardness					= 0.65
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= ""
+UWImpactFXName				= ""
+ExitFXName					= ""
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= ""
+FistMeleeImpactSnd2			= ""
+
+[Surface25]
+
+Name						= "SA_FreeBullet"
+Id							= 243
+ShowsMark					= 0
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 1
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 100
+
+BulletHoleSpr				= ""
+BulletHoleSpr1				= ""
+BulletHoleSpr2				= ""
+
+MeleeHoleSpr				= ""
+MeleeHoleSpr1				= ""
+MeleeHoleSpr2				= ""
+
+HammerMeleeHoleSpr			= ""
+HammerMeleeHoleSpr1			= ""
+HammerMeleeHoleSpr2			= ""
+HammerMelee2HoleSpr			= ""
+HammerMelee2HoleSpr1			= ""
+HammerMelee2HoleSpr2			= ""
+
+VampireHoleSpr				= ""
+VampireHoleSpr1				= ""
+VampireHoleSpr2				= ""
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+
+BulletImpactSnd1			= ""
+BulletImpactSnd2			= ""
+MeleeImpactSnd1				= ""
+MeleeImpactSnd2				= ""
+
+HammerMeleeImpactSnd1			= ""
+HammerMeleeImpactSnd2			= ""
+HammerMelee2ImpactSnd1			= ""
+HammerMelee2ImpactSnd2			= ""
+VampireImpactSnd1			= ""
+VampireImpactSnd2			= ""
+
+ProjectileImpactSnd1		= ""
+ProjectileImpactSnd2		= ""
+GrenadeImpactSnd			= ""
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= ""
+ShellImpactSnd2				= ""
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= ""
+LtFootSnd1					= ""
+RtFootSnd2					= ""
+LtFootSnd2					= ""
+UWRtFootSnd1					= ""
+UWLtFootSnd1					= ""
+UWRtFootSnd2					= ""
+UWLtFootSnd2					= ""
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= ""
+UWImpactFXName				= ""
+ExitFXName				= ""
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= ""
+FistMeleeImpactSnd2			= ""
+
+[Surface26]
+
+Name					= "TutorialTarget"
+Id					= 32
+ShowsMark				= 1
+MarkResetAni				= "down"
+ShowBreath				= 0
+
+CanSeeThrough				= 0
+CanShootThrough				= 1
+MaxShootThroughPerturb			= 0
+MaxShootThroughThickness		= 100
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\METAL_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\METAL_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\METAL_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\METAL_2.WAV"
+
+ShellImpactSnd1				= ""
+ShellImpactSnd2				= ""
+ShellSndRadius				= 0.0
+GrenadeImpactSnd			= ""
+GrenadeSndRadius			= 0.0
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1				= ""
+LtFootSnd1				= ""
+RtFootSnd2				= ""
+LtFootSnd2				= ""
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd				= ""
+BodyFallSndRadius			= 0.0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius			= 0.0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 0.000000
+MoveNoiseMod				= 0.000000
+ImpactNoiseMod				= 0.000000
+Hardness				= 0.35
+SnowmobileVelMult			= 1.0
+Magnetic				= 0
+ImpactFXName				= "CN_Surface_METAL_0"
+ImpactFXName1				= "CN_Surface_METAL_1"
+ImpactFXName2				= "CN_Surface_METAL_2"
+ImpactFXName3				= "CN_Surface_METAL_3"
+ImpactFXName4				= "CN_Surface_METAL_4"
+UWImpactFXName				= ""
+ExitFXName				= ""
+UWExitFXName				= ""
+EnableBulletDir				= 1
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\METAL_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\METAL_2.WAV"
+
+//얼음2
+[Surface27]
+Name					= "SA_Surface_ICE2"
+Id					= 236
+ShowsMark				= 1
+ShowBreath				= 0
+CanSeeThrough				= 0
+CanShootThrough				= 0
+MaxShootThroughPerturb			= 20
+MaxShootThroughThickness		= 5
+BulletHoleSpr				= "SA_SPRITES\SURFACE\Mark_Ice00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\Mark_Ice01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\Mark_Ice02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\Mark_Ice_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\Mark_Ice_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\Mark_Ice_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\Mark_Ice_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\Mark_Ice_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\Mark_Ice_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\Mark_Ice_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\Mark_Ice_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\Mark_Ice_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_Ice_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_Ice_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_Ice_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\icewall_crack_01.wav"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\icewall_crack_02.wav"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\icewall_crack_01.wav"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\icewall_crack_02.wav"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\Ice_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\Ice_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\Ice_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\Ice_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\Ice_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\Ice_2.WAV"
+
+ProjectileImpactSnd1			= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2			= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_Stone.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\Stone_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\Stone_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Ice_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Ice_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Ice_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Ice_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Ice_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Ice_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Ice_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Ice_L.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd				= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius			= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness				= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic				= 0
+ImpactFXName				= "SA_Surface_ICE2"
+UWImpactFXName				= ""
+ExitFXName				= "SA_Surface_ICE2"
+UWExitFXName                		= ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\Ice_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\Ice_2.WAV"
+
+[Surface28]
+
+Name						= "SA_Deathroom_Door"
+Id							= 244
+ShowsMark					= 0
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 1
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 50
+
+BulletHoleSpr				= ""
+BulletHoleSpr1				= ""
+BulletHoleSpr2				= ""
+
+MeleeHoleSpr				= ""
+MeleeHoleSpr1				= ""
+MeleeHoleSpr2				= ""
+
+HammerMeleeHoleSpr			= ""
+HammerMeleeHoleSpr1			= ""
+HammerMeleeHoleSpr2			= ""
+HammerMelee2HoleSpr			= ""
+HammerMelee2HoleSpr1			= ""
+HammerMelee2HoleSpr2			= ""
+
+VampireHoleSpr				= ""
+VampireHoleSpr1				= ""
+VampireHoleSpr2				= ""
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+
+BulletImpactSnd1			= ""
+BulletImpactSnd2			= ""
+MeleeImpactSnd1				= ""
+MeleeImpactSnd2				= ""
+
+HammerMeleeImpactSnd1			= ""
+HammerMeleeImpactSnd2			= ""
+HammerMelee2ImpactSnd1			= ""
+HammerMelee2ImpactSnd2			= ""
+VampireImpactSnd1			= ""
+VampireImpactSnd2			= ""
+
+ProjectileImpactSnd1		= ""
+ProjectileImpactSnd2		= ""
+GrenadeImpactSnd			= ""
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= ""
+ShellImpactSnd2				= ""
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= ""
+LtFootSnd1					= ""
+RtFootSnd2					= ""
+LtFootSnd2					= ""
+UWRtFootSnd1					= ""
+UWLtFootSnd1					= ""
+UWRtFootSnd2					= ""
+UWLtFootSnd2					= ""
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= ""
+UWImpactFXName				= ""
+ExitFXName				= ""
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= ""
+FistMeleeImpactSnd2			= ""
+
+
+
+
+[Surface29] //진짜를 찾아라//
+
+Name					= "SA_SoftBread_Surface"
+Id					= 246
+ShowsMark				= 1
+ShowBreath				= 0
+CanSeeThrough				= 0
+CanShootThrough				= 1
+MaxShootThroughPerturb			= 0
+MaxShootThroughThickness		= 50
+BulletHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_STONE_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_STONE_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_STONE_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+ShellImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\SoftBread_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\SoftBread_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\SoftBread_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\SoftBread_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\SoftBread_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\SoftBread_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\SoftBread_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\SoftBread_L.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= ""
+UWImpactFXName				= ""
+ExitFXName					= ""
+UWExitFXName                = ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+
+
+
+
+
+
+
+[Surface30] //진짜를 찾아라//
+
+Name						= "Cream"
+Id							= 247
+ShowsMark					= 0
+ShowBreath					= 0
+CanSeeThrough				= 1
+CanShootThrough				= 1
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 0
+BulletHoleSpr				= ""
+BulletHoleMinScale			= 1.000000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+MeleeImpactSnd1				= ""
+MeleeImpactSnd2				= ""
+
+HammerMeleeImpactSnd1			= ""
+HammerMeleeImpactSnd2			= ""
+HammerMelee2ImpactSnd1			= ""
+HammerMelee2ImpactSnd2			= ""
+VampireImpactSnd1			= ""
+VampireImpactSnd2			= ""
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "" //Up투게더 탄피음 제거
+ShellImpactSnd2				= ""
+//ShellImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+//ShellImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Cream_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Cream_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Cream_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Cream_L.wav"
+UWRtFootSnd1				= "SA_CHARACTERS\SND\FootSteps\Cream_R.wav"
+UWLtFootSnd1				= "SA_CHARACTERS\SND\FootSteps\Cream_L.wav"
+UWRtFootSnd2				= "SA_CHARACTERS\SND\FootSteps\Cream_R.wav"
+UWLtFootSnd2				= "SA_CHARACTERS\SND\FootSteps\Cream_L.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.1
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Surface_Water"
+ExplodeImpactFXName			= "SA_Surface_Water_Exp"
+UWImpactFXName				= ""
+ExitFXName				= ""
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= ""
+FistMeleeImpactSnd2			= ""
+
+
+
+
+[Surface31] //진짜를 찾아라//
+
+Name						= "SA_hardbread_Surface"
+Id							= 249
+ShowsMark					= 1
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 1
+MaxShootThroughPerturb		= 20
+MaxShootThroughThickness	= 5
+BulletHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_STONE_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_STONE_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_STONE_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+ShellImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\hardbread_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\hardbread_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\hardbread_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\hardbread_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\hardbread_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\hardbread_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\hardbread_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\hardbread_L.wav"
+
+NewRtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\20_Snd\hardbread_R.wav"
+NewLtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\20_Snd\hardbread_L.wav"
+NewRtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\20_Snd\hardbread_R.wav"
+NewLtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\20_Snd\hardbread_L.wav"
+
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Surface_STONE"
+UWImpactFXName				= ""
+ExitFXName					= "SA_Surface_STONE"
+UWExitFXName                = ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+
+//50인 생존모드 스노우보드
+[Surface32]
+
+Name						= "SA_snowboard_Surface"
+Id							= 250
+ShowsMark					= 1
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 1
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 100
+
+BulletHoleSpr				= "SA_SPRITES\SURFACE\Mark_Snow00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\Mark_Snow01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\Mark_Snow02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\Mark_Snow_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\Mark_Snow_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\Mark_Snow_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\Mark_Snow_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\Mark_Snow_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\Mark_Snow_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\Mark_Snow_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\Mark_Snow_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\Mark_Snow_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_Snow_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_Snow_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_Snow_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\SNOW_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\SNOW_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\SNOW_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\SNOW_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\SNOW_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\SNOW_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\SNOW_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\SNOW_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\SNOW_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\SNOW_2.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\SNOW.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\SNOW.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_SNOW.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\SNOW_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\SNOW_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\SNOW_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\SNOW_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\SNOW_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\SNOW_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\SNOW_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\SNOW_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\SNOW_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\SNOW_L.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Surface_SNOW"
+UWImpactFXName				= ""
+ExitFXName				= "SA_Surface_SNOW"
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\SNOW_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\SNOW_2.WAV"
+
+[Surface33]
+Name						= "SA_WHEAT_Surface"
+Id						= 251
+ShowsMark					= 1
+ShowBreath					= 0
+CanSeeThrough					= 0
+CanShootThrough					= 0
+MaxShootThroughPerturb				= 0
+MaxShootThroughThickness				= 0
+
+BulletHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_STONE_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_STONE_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_STONE_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\Dust_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\Dust_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\STONE_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\STONE_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\STONE_2.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_Dust.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\default_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\default_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\wheat_r.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\wheat_l.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\wheat_r.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\wheat_l.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\wheat_r.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\wheat_l.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\wheat_r.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\wheat_l.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Surface_STONE"
+UWImpactFXName				= ""
+ExitFXName					= "SA_Surface_STONE"
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\STONE_2.WAV"
+
+[Surface34]
+
+Name						= "SA_SHIELD_Surface"
+Id							= 252
+ShowsMark					= 0
+ShowBreath					= 0
+CanSeeThrough				= 0
+CanShootThrough				= 0
+MaxShootThroughPerturb		= 0
+MaxShootThroughThickness	= 0
+BulletHoleSpr				= "SA_SPRITES\SURFACE\MARK_METAL00.spr"
+BulletHoleSpr1				= "SA_SPRITES\SURFACE\MARK_METAL01.spr"
+BulletHoleSpr2				= "SA_SPRITES\SURFACE\MARK_METAL02.spr"
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\MARK_METAL_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\MARK_METAL_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\MARK_METAL_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\MARK_METAL_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\MARK_METAL_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\MARK_METAL_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\MARK_METAL_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\MARK_METAL_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\MARK_METAL_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_METAL_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_METAL_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_METAL_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\BULLET\METAL_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\BULLET\METAL_2.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\METAL_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\METAL_2.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER\METAL_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER\METAL_2.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\METAL_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\METAL_2.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\METAL_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\METAL_2.WAV"
+
+ProjectileImpactSnd1		= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2		= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\GRENADE\Impact_Metal.wav"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\SHELLS\Metal_1.wav"
+ShellImpactSnd2				= "SA_WEAPONS\SND\SHELLS\Metal_2.wav"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Metal_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\Metal_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Metal_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\Metal_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Metal_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\UWSND\FootSteps\Metal_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Metal_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\UWSND\FootSteps\Metal_L.wav"
+
+NewRtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Metal_R.wav"
+NewLtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Metal_L.wav"
+NewRtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Metal_R.wav"
+NewLtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\20_Snd\Metal_L.wav"
+
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "20_Surface_METAL_0"
+ImpactFXName1				= "20_Surface_METAL_1"
+ImpactFXName2				= "20_Surface_METAL_2"
+UWImpactFXName				= ""
+ExitFXName					= ""
+UWExitFXName				= ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\HAMMER2\METAL_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\HAMMER2\METAL_2.WAV"
+
+
+//업투게더 보스
+[Surface35]
+Name					= "TeddyKing"
+Id					= 253
+ShowsMark				= 1
+ShowBreath				= 0
+CanSeeThrough				= 0
+CanShootThrough				= 0
+MaxShootThroughPerturb			= 0
+MaxShootThroughThickness		= 50
+BulletHoleSpr				= ""
+BulletHoleSpr1				= ""
+BulletHoleSpr2				= ""
+
+MeleeHoleSpr				= "SA_SPRITES\SURFACE\MARK_STONE_Knife00.spr"
+MeleeHoleSpr1				= "SA_SPRITES\SURFACE\MARK_STONE_Knife01.spr"
+MeleeHoleSpr2				= "SA_SPRITES\SURFACE\MARK_STONE_Knife02.spr"
+
+HammerMeleeHoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMeleeHoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMeleeHoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+HammerMelee2HoleSpr			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer00.spr"
+HammerMelee2HoleSpr1			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer01.spr"
+HammerMelee2HoleSpr2			= "SA_SPRITES\SURFACE\MARK_STONE_Hammer02.spr"
+
+VampireHoleSpr				= "SA_SPRITES\SURFACE\Vam_STONE_Knife00.spr"
+VampireHoleSpr1				= "SA_SPRITES\SURFACE\Vam_STONE_Knife01.spr"
+VampireHoleSpr2				= "SA_SPRITES\SURFACE\Vam_STONE_Knife02.spr"
+
+BulletHoleMinScale			= 0.800000
+BulletHoleMaxScale			= 1.000000
+BulletRangeDampen			= 1.000000
+BulletDamageDampen			= 1.000000
+BulletImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+BulletImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+MeleeImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+MeleeImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+
+HammerMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+HammerMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+HammerMelee2ImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+HammerMelee2ImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+VampireImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+VampireImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+
+ProjectileImpactSnd1			= "SA_WEAPONS\SND\THROW\Default.wav"
+ProjectileImpactSnd2			= "SA_WEAPONS\SND\THROW\Default.wav"
+GrenadeImpactSnd			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+GrenadeSndRadius			= 1000.0
+ShellImpactSnd1				= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+ShellImpactSnd2				= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+ShellSndRadius				= 200.0
+
+RtFootPrintSpr				= ""
+LtFootPrintSpr				= ""
+FootPrintLifetime			= 10.0
+FootPrintScale				= <1.0, 1.0, 1.0>
+RtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\SoftBread_R.wav"
+LtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\SoftBread_L.wav"
+RtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\SoftBread_R.wav"
+LtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\SoftBread_L.wav"
+UWRtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\SoftBread_R.wav"
+UWLtFootSnd1					= "SA_CHARACTERS\SND\FootSteps\SoftBread_L.wav"
+UWRtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\SoftBread_R.wav"
+UWLtFootSnd2					= "SA_CHARACTERS\SND\FootSteps\SoftBread_L.wav"
+SnowmobileSnd1				= ""
+SnowmobileSnd2				= ""
+BodyFallSnd					= ""
+BodyFallSndRadius			= 0
+BodyLedgeFallSnd			= ""
+BodyLedgeFallSndRadius		= 0
+ActivationSnd				= ""
+ActivationSndRadius			= 0.000000
+DeathNoiseMod				= 1.500000
+MoveNoiseMod				= 1.500000
+ImpactNoiseMod				= 0.250000
+Hardness					= 0.8
+SnowmobileVelMult			= 1.0
+Magnetic					= 0
+ImpactFXName				= "SA_Surface_ICE2"
+UWImpactFXName				= ""
+ExitFXName					= "SA_Surface_ICE2"
+UWExitFXName                = ""
+FistMeleeImpactSnd1			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"
+FistMeleeImpactSnd2			= "SA_WEAPONS\SND\IMPACT\MELEE\HardBread_1.WAV"

@@ -1,0 +1,4187 @@
+//디펜스중장갑공격형1
+[Model0]
+ModelFile		= "SA_characters\models\Defence\MAI_Mboss\1\MAI_Mboss1.ltb"
+Skin0			= "SA_Characters\Skins\MAI_MBoss1.dtx"
+SkeletonID		= 1
+
+//디펜스중장갑공격형2
+[Model1]
+ModelFile		= "SA_characters\models\Defence\MAI_Mboss\2\MAI_Mboss2.ltb"
+Skin0			= "SA_Characters\Skins\MAI_MBoss2.dtx"
+SkeletonID		= 1
+
+//디펜스중장갑공격형3
+[Model2]
+ModelFile		= "SA_characters\models\Defence\MAI_Mboss\3\MAI_Mboss3.ltb"
+Skin0			= "SA_Characters\Skins\MAI_MBoss3.dtx"
+SkeletonID		= 1
+
+
+//디펜스중장갑지원형1
+[Model3]
+ModelFile		= "SA_characters\models\Defence\\WAI_MBoss\WAI_Mboss.ltb"
+Skin0			= "SA_Characters\Skins\WAI_MBoss1.dtx"
+SkeletonID		= 1
+
+//디펜스중장갑지원형2
+[Model4]
+ModelFile		= "SA_characters\models\Defence\\WAI_MBoss\WAI_Mboss.ltb"
+Skin0			= "SA_Characters\Skins\WAI_MBoss2.dtx"
+SkeletonID		= 1
+
+//디펜스중장갑지원형3
+[Model5]
+ModelFile		= "SA_characters\models\Defence\\WAI_MBoss\WAI_Mboss.ltb"
+Skin0			= "SA_Characters\Skins\WAI_MBoss3.dtx"
+SkeletonID		= 1
+
+//디펜스중장갑지원형4
+[Model6]
+ModelFile		= "SA_characters\models\Defence\\WAI_MBoss\WAI_Mboss.ltb"
+Skin0			= "SA_Characters\Skins\WAI_MBoss4.dtx"
+SkeletonID		= 1
+
+//디펜스중장갑지원형5
+[Model7]
+ModelFile		= "SA_characters\models\Defence\\WAI_MBoss\WAI_Mboss.ltb"
+Skin0			= "SA_Characters\Skins\WAI_MBoss5.dtx"
+SkeletonID		= 1
+
+//디펜스중장갑지원형6
+[Model8]
+ModelFile		= "SA_characters\models\Defence\\WAI_MBoss\WAI_Mboss.ltb"
+Skin0			= "SA_Characters\Skins\WAI_MBoss6.dtx"
+SkeletonID		= 1
+
+
+//안드로이드 인간 1
+[Model9]
+ModelFile		= "SA_characters\models\Defence\AI_Man\AI_Man1.ltb"
+Skin0			= "SA_Characters\Skins\AI_Man1_face.dtx"
+Skin1			= "SA_Characters\Skins\AI_Man1_body.dtx"
+Skin2			= "SA_Characters\Skins\AI_Man1_leg.dtx"
+SkeletonID		= 1
+
+//안드로이드 인간 2
+[Model10]
+ModelFile		= "SA_characters\models\Defence\AI_Man\AI_Man2.ltb"
+Skin0			= "SA_Characters\Skins\AI_Man2_face.dtx"
+Skin1			= "SA_Characters\Skins\AI_Man2_body.dtx"
+Skin2			= "SA_Characters\Skins\AI_Man2_leg.dtx"
+Skin3			= "SA_Characters\Skins\AI_weapon04.dtx"
+SkeletonID		= 1
+
+//안드로이드 인간 3
+[Model11]
+ModelFile		= "SA_characters\models\Defence\AI_Man\AI_Man3.ltb"
+Skin0			= "SA_Characters\Skins\AI_Man3_face.dtx"
+Skin1			= "SA_Characters\Skins\AI_Man3_body.dtx"
+Skin2			= "SA_Characters\Skins\AI_Man3_leg.dtx"
+Skin3			= "SA_Characters\Skins\AI_weapon06.dtx"
+SkeletonID		= 1
+
+//안드로이드 인간 4
+[Model12]
+ModelFile		= "SA_characters\models\Defence\AI_Man\AI_Man4.ltb"
+Skin0			= "SA_Characters\Skins\AI_Man4_face.dtx"
+Skin1			= "SA_Characters\Skins\AI_Man4_body.dtx"
+Skin2			= "SA_Characters\Skins\AI_Man4_leg.dtx"
+Skin3			= "SA_Characters\Skins\AI_weapon01.dtx"
+SkeletonID		= 1
+
+//안드로이드 인간 5
+[Model13]
+ModelFile		= "SA_characters\models\Defence\AI_Man\AI_Man5.ltb"
+Skin0			= "SA_Characters\Skins\AI_Man5_face.dtx"
+Skin1			= "SA_Characters\Skins\AI_Man5_body.dtx"
+Skin2			= "SA_Characters\Skins\AI_Man5_leg.dtx"
+Skin3			= "SA_Characters\Skins\AI_weapon02.dtx"
+SkeletonID		= 1
+
+//안드로이드 인간 6
+[Model14]
+ModelFile		= "SA_characters\models\Defence\AI_Man\AI_Man6.ltb"
+Skin0			= "SA_Characters\Skins\AI_Man6_face.dtx"
+Skin1			= "SA_Characters\Skins\AI_Man6_body.dtx"
+Skin2			= "SA_Characters\Skins\AI_Man6_leg.dtx"
+Skin3			= "SA_Characters\Skins\AI_weapon03.dtx"
+SkeletonID		= 1
+
+//안드로이드 인간 7
+[Model15]
+ModelFile		= "SA_characters\models\Defence\AI_Man\AI_Man7.ltb"
+Skin0			= "SA_Characters\Skins\AI_Man7_face.dtx"
+Skin1			= "SA_Characters\Skins\AI_Man7_body.dtx"
+Skin2			= "SA_Characters\Skins\AI_Man7_leg.dtx"
+Skin3			= "SA_Characters\Skins\AI_weapon05.dtx"
+SkeletonID		= 1
+
+
+//안드로이드 여자인간 1
+[Model16]
+ModelFile		= "SA_characters\models\Defence\AI_Woman\AI_Woman1.ltb"
+Skin0			= "SA_Characters\Skins\AI_Woman1.dtx"
+SkeletonID		= 1
+
+//안드로이드 여자인간 2
+[Model17]
+ModelFile		= "SA_characters\models\Defence\AI_Woman\AI_Woman2.ltb"
+Skin0			= "SA_Characters\Skins\AI_Woman2_body.dtx"
+Skin1			= "SA_Characters\Skins\AI_Woman2_face.dtx"
+Skin2			= "SA_Characters\Skins\AI_weapon04.dtx"
+SkeletonID		= 1
+
+
+//안드로이드 여자인간 3
+[Model18]
+ModelFile		= "SA_characters\models\Defence\AI_Woman\AI_Woman3.ltb"
+Skin0			= "SA_Characters\Skins\AI_Woman3_body.dtx"
+Skin1			= "SA_Characters\Skins\AI_Woman3_face.dtx"
+Skin2			= "SA_Characters\Skins\AI_weapon02.dtx"
+SkeletonID		= 1
+
+//안드로이드 여자인간 4
+[Model19]
+ModelFile		= "SA_characters\models\Defence\AI_Woman\AI_Woman4.ltb"
+Skin0			= "SA_Characters\Skins\AI_Woman4.dtx"
+Skin1			= "SA_Characters\Skins\AI_weapon05.dtx"
+SkeletonID		= 1
+
+//안드로이드 여자인간 5
+[Model20]
+ModelFile		= "SA_characters\models\Defence\AI_Woman\AI_Woman5.ltb"
+Skin0			= "SA_Characters\Skins\AI_Woman5_body.dtx"
+Skin1			= "SA_Characters\Skins\AI_Woman5_face.dtx"
+Skin2			= "SA_Characters\Skins\AI_weapon06.dtx"
+SkeletonID		= 1
+
+//안드로이드 여자인간 6
+[Model21]
+ModelFile		= "SA_characters\models\Defence\AI_Woman\AI_Woman6.ltb"
+Skin0			= "SA_Characters\Skins\AI_Woman6_face.dtx"
+Skin1			= "SA_Characters\Skins\AI_Woman6_body.dtx"
+Skin2			= "SA_Characters\Skins\AI_weapon01.dtx"
+Skin3			= "SA_Characters\Skins\AI_weapon04.dtx"
+SkeletonID		= 1
+
+
+//안드로이드 자폭형 케릭터1
+[Model22]
+ModelFile		= "SA_characters\models\Defence\AI_Bomb\AI_Bomb.ltb"
+Skin0			= "SA_Characters\Skins\AI_Bomb_01.dtx"
+SkeletonID		= 3
+
+//안드로이드 자폭형 케릭터2
+[Model23]
+ModelFile		= "SA_characters\models\Defence\AI_Bomb\AI_Bomb.ltb"
+Skin0			= "SA_Characters\Skins\AI_Bomb_02.dtx"
+SkeletonID		= 3
+
+//안드로이드 자폭형 케릭터3
+[Model24]
+ModelFile		= "SA_characters\models\Defence\AI_Bomb\AI_Bomb.ltb"
+Skin0			= "SA_Characters\Skins\AI_Bomb_03.dtx"
+SkeletonID		= 3
+
+//안드로이드 최종보스
+[Model25]
+ModelFile		= "SA_characters\models\Defence\Ai_Boss\Ai_Boss.ltb"
+Skin0			= "SA_Characters\Skins\AI_boss_body1.dtx"
+Skin1			= "SA_Characters\Skins\AI_boss_body2.dtx"
+SkeletonID		= 2
+
+//안드로이드 군견
+[Model26]
+ModelFile		= "SA_characters\models\Defence\Ai_dog\Ai_dog.ltb"
+Skin0			= "SA_Characters\Skins\AI_dog2.dtx"
+Skin1			= "SA_Characters\Skins\AI_dog1.dtx"
+SkeletonID		= 1
+
+//무기훈련관 안드로이드 여자인간 1
+[Model27]
+ModelFile		= "SA_characters\models\Training\Training.ltb"
+Skin0			= "SA_Characters\Skins\training_body.dtx"
+Skin1			= "SA_Characters\Skins\training_head.dtx"
+SkeletonID		= 1
+Sex			= false
+
+//숮이 // 수지 교체
+[Model28]
+ModelFile		= "SA_characters\models\Hostage\hostage_rescue_gina.ltb"
+Skin0			= "SA_Characters\Skins\jina.dtx"
+
+//ModelFileNew		= "SA_characters\models\Hostage\20_hostage_rescue.ltb"
+//SkinNew0		= "SA_Characters\Skins\suzy_face_mission.mtl"
+//SkinNew1		= "SA_Characters\Skins\suzy_body_mission.mtl"
+//SkinNew2		= "SA_Characters\Skins\suzy_leg_mission.mtl"
+//SkinNew3		= "SA_Characters\Skins\suzy_hair_mission.mtl"
+
+Translucent		= 1
+SkeletonID		= 1
+Sex			= false
+
+// 일반형 #1-1
+[Model29]
+ModelFile 	= "sa_characters\models\zombie\ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Normal_Blue.dtx"
+SkeletonID 	= 4
+EyeColor 		= 2
+Translucent  	= 1
+
+
+// 일반형 #1-2
+[Model30]
+ModelFile 	= "sa_characters\models\zombie\ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Normal_Green.dtx"
+SkeletonID 	= 4
+EyeColor 		= 1
+Translucent  	= 1
+
+
+// 일반형 #1-3
+[Model31]
+ModelFile 	= "sa_characters\models\zombie\ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Normal_Yellow.dtx"
+SkeletonID 	= 4
+EyeColor 		= 0
+Translucent  	= 1
+
+
+// 일반형 #1-4
+[Model32]
+ModelFile 	= "sa_characters\models\zombie\ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Normal_Orange.dtx"
+SkeletonID 	= 4
+EyeColor 		= 3
+Translucent  	= 1
+
+
+// 일반형 #1-5
+[Model33]
+ModelFile 	= "sa_characters\models\zombie\ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Normal_Red.dtx"
+SkeletonID 	= 4
+EyeColor 		= 4
+Translucent  	= 1
+
+
+// 일반형 #2-1
+[Model34]
+ModelFile 	= "sa_characters\models\zombie\ZombieB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_NormalB_Blue.dtx"
+SkeletonID 	= 4
+EyeColor 		= 2
+Translucent  	= 1
+
+
+// 일반형 #2-2
+[Model35]
+ModelFile 	= "sa_characters\models\zombie\ZombieB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_NormalB_Green.dtx"
+SkeletonID 	= 4
+EyeColor 		= 1
+Translucent  	= 1
+
+
+// 일반형 #2-3
+[Model36]
+ModelFile 	= "sa_characters\models\zombie\ZombieB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_NormalB_Yellow.dtx"
+SkeletonID 	= 4
+EyeColor 		= 0
+Translucent  	= 1
+
+
+// 일반형 #2-4
+[Model37]
+ModelFile 	= "sa_characters\models\zombie\ZombieB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_NormalB_Orange.dtx"
+SkeletonID 	= 4
+EyeColor 		= 3
+Translucent  	= 1
+
+
+// 일반형 #2-5
+[Model38]
+ModelFile 	= "sa_characters\models\zombie\ZombieB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_NormalB_Red.dtx"
+SkeletonID 	= 4
+EyeColor 		= 4
+Translucent  	= 1
+
+
+// 일반형 #3-1
+[Model39]
+ModelFile 	= "sa_characters\models\zombie\ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Normal_Blue.dtx"
+SkeletonID 	= 4
+EyeColor 		= 2
+Translucent  	= 1
+
+
+// 일반형 #3-2
+[Model40]
+ModelFile 	= "sa_characters\models\zombie\ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Normal_Green.dtx"
+SkeletonID 	= 4
+EyeColor 		= 1
+Translucent  	= 1
+
+
+// 일반형 #3-3
+[Model41]
+ModelFile 	= "sa_characters\models\zombie\ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Normal_Yellow.dtx"
+SkeletonID 	= 4
+EyeColor 		= 0
+Translucent  	= 1
+
+
+// 일반형 #3-4
+[Model42]
+ModelFile 	= "sa_characters\models\zombie\ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Normal_Orange.dtx"
+SkeletonID 	= 4
+EyeColor 		= 3
+Translucent  	= 1
+
+
+// 일반형 #3-5
+[Model43]
+ModelFile 	= "sa_characters\models\zombie\ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Normal_Red.dtx"
+SkeletonID 	= 4
+EyeColor 		= 4
+Translucent  	= 1
+
+
+// 일반형 #4-1
+[Model44]
+ModelFile 	= "sa_characters\models\zombie\ZombieC.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_NormalC_Blue.dtx"
+SkeletonID 	= 4
+EyeColor 		= 2
+Translucent  	= 1
+
+
+// 일반형 #4-2
+[Model45]
+ModelFile 	= "sa_characters\models\zombie\ZombieC.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_NormalC_Green.dtx"
+SkeletonID 	= 4
+EyeColor 		= 1
+Translucent  	= 1
+
+
+// 일반형 #4-3
+[Model46]
+ModelFile 	= "sa_characters\models\zombie\ZombieC.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_NormalC_Yellow.dtx"
+SkeletonID 	= 4
+EyeColor 		= 0
+Translucent  	= 1
+
+
+// 일반형 #4-4
+[Model47]
+ModelFile 	= "sa_characters\models\zombie\ZombieC.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_NormalC_Orange.dtx"
+SkeletonID 	= 4
+EyeColor 		= 3
+Translucent  	= 1
+
+
+// 일반형 #4-5
+[Model48]
+ModelFile 	= "sa_characters\models\zombie\ZombieC.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_NormalC_Red.dtx"
+SkeletonID 	= 4
+EyeColor 		= 4
+Translucent  	= 1
+
+
+// 방어형 #1
+[Model49]
+ModelFile 	= "sa_characters\models\zombie\Zombie_Defense.ltb"
+Skin0 		= "sa_characters\skins\Zombie\zombie_Defence_D_Blue.dtx"
+SkeletonID 	= 4
+EyeColor 		= 2
+Translucent  	= 1
+
+
+// 방어형 #2
+[Model50]
+ModelFile 	= "sa_characters\models\zombie\Zombie_Defense.ltb"
+Skin0 		= "sa_characters\skins\Zombie\zombie_Defence_D_Green.dtx"
+SkeletonID 	= 4
+EyeColor 		= 1
+Translucent  	= 1
+
+
+// 방어형 #3
+[Model51]
+ModelFile 	= "sa_characters\models\zombie\Zombie_DefenseB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_DefenceB_Yellow.dtx"
+SkeletonID 	= 4
+EyeColor 		= 0
+Translucent  	= 1
+
+
+// 방어형 #4
+[Model52]
+ModelFile 	= "sa_characters\models\zombie\Zombie_DefenseB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_DefenceB_Orange.dtx"
+SkeletonID 	= 4
+EyeColor 		= 3
+Translucent  	= 1
+
+
+// 방어형 #5
+[Model53]
+ModelFile 	= "sa_characters\models\zombie\Zombie_DefenseB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_DefenceB_Red.dtx"
+SkeletonID 	= 4
+EyeColor 		= 4
+Translucent  	= 1
+
+
+// 점프형 #1
+[Model54]
+ModelFile 	= "sa_characters\models\zombie\Zombie_JumpB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Jump_Blue_default.dtx"
+SkeletonID 	= 4
+EyeColor 		= 2
+Translucent  	= 1
+
+
+// 점프형 #2
+[Model55]
+ModelFile 	= "sa_characters\models\zombie\Zombie_JumpB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Jump_Green_default.dtx"
+SkeletonID 	= 4
+EyeColor 		= 1
+Translucent  	= 1
+
+
+// 점프형 #3
+[Model56]
+ModelFile 	= "sa_characters\models\zombie\Zombie_JumpB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Jump_Yellow_default.dtx"
+SkeletonID 	= 4
+EyeColor 		= 0
+Translucent  	= 1
+
+
+// 점프형 #4
+[Model57]
+ModelFile 	= "sa_characters\models\zombie\Zombie_JumpB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Jump_Orange_default.dtx"
+SkeletonID 	= 4
+EyeColor 		= 3
+Translucent  	= 1
+
+
+// 점프형 #5
+[Model58]
+ModelFile 	= "sa_characters\models\zombie\Zombie_JumpB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Jump_Red_default.dtx"
+SkeletonID 	= 4
+EyeColor 		= 4
+Translucent  	= 1
+
+
+// 사족형 #1
+[Model59]
+ModelFile 	= "sa_characters\models\zombie\Zombie_Dog.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_dog.dtx"
+SkeletonID 	= 4
+EyeColor 		= 1
+Translucent  	= 1
+
+
+// 사족형 #2
+[Model60]
+ModelFile 	= "sa_characters\models\zombie\Zombie_Dog.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_dog.dtx"
+SkeletonID 	= 4
+EyeColor 		= 0
+Translucent  	= 1
+
+
+// 사족형 #3
+[Model61]
+ModelFile 	= "sa_characters\models\zombie\Zombie_Dog.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_dogB.dtx"
+SkeletonID 	= 4
+EyeColor 		= 3
+Translucent  	= 1
+
+
+// 사족형 #4
+[Model62]
+ModelFile 	= "sa_characters\models\zombie\Zombie_Dog.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_dogC.dtx"
+SkeletonID 	= 4
+EyeColor 		= 4
+Translucent  	= 1
+
+
+// 불사형 #1
+[Model63]
+ModelFile 	= "sa_characters\models\zombie\Zombie_Immortal.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Immortal_face.dtx"
+Skin1 		= "sa_characters\skins\Zombie\Zombie_Immortal_body_blue.dtx"
+SkeletonID 	= 4
+EyeColor 		= 0
+Translucent  	= 1
+
+
+// 불사형 #2
+[Model64]
+ModelFile 	= "sa_characters\models\zombie\Zombie_Immortal.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Immortal_face.dtx"
+Skin1 		= "sa_characters\skins\Zombie\Zombie_Immortal_body_yellow.dtx"
+SkeletonID 	= 4
+EyeColor 		= 3
+Translucent  	= 1
+
+
+// 불사형 #3
+[Model65]
+ModelFile 	= "sa_characters\models\zombie\Zombie_Immortal.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Immortal_face.dtx"
+Skin1 		= "sa_characters\skins\Zombie\Zombie_Immortal_body_red.dtx"
+SkeletonID 	= 4
+EyeColor 		= 4
+Translucent  	= 1
+
+//여기부터 좀비 통제구역7
+// 일반 하울링형 #1 (녹색 모자 하울좀비A)
+[Model66]
+ModelFile 	= "sa_characters\models\zombie\HowlZombie_A.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Wzombie_Normal_Green_default.dtx"
+SkeletonID 	= 4
+EyeColor 		= 2
+Translucent  	= 1
+
+
+// 일반 하울링형 #2 (보라 모자 하울좀비A)
+[Model67]
+ModelFile 	= "sa_characters\models\zombie\HowlZombie_A.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Wzombie_Normal_default.dtx"
+SkeletonID 	= 4
+EyeColor 		= 1
+Translucent  	= 1
+
+
+// 일반 하울링형 #3 (갈색 모자 하울좀비A)
+[Model68]
+ModelFile 	= "sa_characters\models\zombie\HowlZombie_A.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Wzombie_Normal_Brown_default.dtx"
+SkeletonID 	= 4
+EyeColor 		= 0
+Translucent  	= 1
+
+
+// 일반 하울링형 #4 (파랑 헤어 하울좀비B)
+[Model69]
+ModelFile 	= "sa_characters\models\zombie\HowlZombie_B.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Wzombie_Normal_02_Blue_default.dtx"
+SkeletonID 	= 4
+EyeColor 		= 3
+Translucent  	= 1
+
+
+// 일반 하울링형 #5 (빨강 헤어 하울좀비B)
+[Model70]
+ModelFile 	= "sa_characters\models\zombie\HowlZombie_B.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Wzombie_Normal_02_default.dtx"
+SkeletonID 	= 4
+EyeColor 		= 4
+Translucent  	= 1
+
+
+// 일반 방구차형 #1 노랑
+[Model71]
+ModelFile 	= "sa_characters\models\zombie\MZombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Worker_Yellow_Defualt.dtx"
+SkeletonID 	= 4
+EyeColor 		= 2
+Translucent  	= 1
+
+
+// 방구차형 #2 일반 빨강
+[Model72]
+ModelFile 	= "sa_characters\models\zombie\MZombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Worker_Red_Defualt.dtx"
+SkeletonID 	= 4
+EyeColor 		= 1
+Translucent  	= 1
+
+
+// 방구차형 #3 일반 화이트
+[Model73]
+ModelFile 	= "sa_characters\models\zombie\MZombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Worker_White_Defualt.dtx"
+SkeletonID 	= 4
+EyeColor 		= 0
+Translucent  	= 1
+
+
+// 방구차형 #4 경비 블루
+[Model74]
+ModelFile 	= "sa_characters\models\zombie\guard_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Guard_Zombie_Blue_Defualt.dtx"
+SkeletonID 	= 4
+EyeColor 		= 3
+Translucent  	= 1
+
+
+// 방구차형 #5 경비 백색
+[Model75]
+ModelFile 	= "sa_characters\models\zombie\guard_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Guard_Zombie_White_Defualt.dtx"
+SkeletonID 	= 4
+EyeColor 		= 4
+Translucent  	= 1
+
+
+// 특수 하울링형 #1 주황
+[Model76]
+ModelFile 	= "sa_characters\models\zombie\HowlZombie_SP.ltb"
+Skin0 		= "sa_characters\skins\Zombie\SP_Zombie_Orange_Defualt.dtx"
+SkeletonID 	= 4
+EyeColor 		= 2
+Translucent  	= 1
+
+
+// 특수 하울링형 #2 빨강
+[Model77]
+ModelFile 	= "sa_characters\models\zombie\HowlZombie_SP.ltb"
+Skin0 		= "sa_characters\skins\Zombie\SP_Zombie_Red_Defualt.dtx"
+SkeletonID 	= 4
+EyeColor 		= 1
+Translucent  	= 1
+
+
+// 특수 하울링형 #3 갈색
+[Model78]
+ModelFile 	= "sa_characters\models\zombie\HowlZombie_SP.ltb"
+Skin0 		= "sa_characters\skins\Zombie\SP_Zombie_Brown_Defualt.dtx"
+SkeletonID 	= 4
+EyeColor 		= 0
+Translucent  	= 1
+
+
+// 특수 하울링형 #4 검은색
+[Model79]
+ModelFile 	= "sa_characters\models\zombie\HowlZombie_SP.ltb"
+Skin0 		= "sa_characters\skins\Zombie\SP_Zombie_Black_Defualt.dtx"
+SkeletonID 	= 4
+EyeColor 		= 3
+Translucent  	= 1
+
+
+// 특수 하울링형 #5 화이트
+[Model80]
+ModelFile 	= "sa_characters\models\zombie\HowlZombie_SP.ltb"
+Skin0 		= "sa_characters\skins\Zombie\SP_Zombie_White_Defualt.dtx"
+SkeletonID 	= 4
+EyeColor 		= 4
+Translucent  	= 1
+
+// 곰돌이 #1-1
+[Model81]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_blue_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 2
+Translucent  	= 1
+
+
+// 곰돌이 #1-2
+[Model82]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_green_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 1
+Translucent  	= 1
+
+
+// 곰돌이 #1-3
+[Model83]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_yellow_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 0
+Translucent  	= 1
+
+
+// 곰돌이 #1-4
+[Model84]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_orenge_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 3
+Translucent  	= 1
+
+
+// 곰돌이 #1-5
+[Model85]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_red_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 4
+Translucent  	= 1
+
+
+// 곰돌이 #2-1
+[Model86]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_blue_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 2
+Translucent  	= 1
+
+
+// 곰돌이 #2-2
+[Model87]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_green_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 1
+Translucent  	= 1
+
+
+// 곰돌이 #2-3
+[Model88]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_yellow_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 0
+Translucent  	= 1
+
+
+// 곰돌이 #2-4
+[Model89]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_orenge_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 3
+Translucent  	= 1
+
+
+// 곰돌이 #2-5
+[Model90]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_red_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 4
+Translucent  	= 1
+
+
+// 곰돌이 #3-1
+[Model91]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_blue_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 2
+Translucent  	= 1
+
+
+// 곰돌이 #3-2
+[Model92]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_green_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 1
+Translucent  	= 1
+
+
+// 곰돌이 #3-3
+[Model93]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_yellow_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 0
+Translucent  	= 1
+
+
+// 곰돌이 #3-4
+[Model94]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_orenge_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 3
+Translucent  	= 1
+
+
+// 곰돌이 #3-5
+[Model95]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_red_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 4
+Translucent  	= 1
+
+
+// 곰돌이 #4-1
+[Model96]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieC.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_blue_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 2
+Translucent  	= 1
+
+
+// 곰돌이 #4-2
+[Model97]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieC.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_green_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 1
+Translucent  	= 1
+
+
+// 곰돌이 #4-3
+[Model98]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieC.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_yellow_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 0
+Translucent  	= 1
+
+
+// 곰돌이 #4-4
+[Model99]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieC.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_orenge_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 3
+Translucent  	= 1
+
+
+// 곰돌이 #4-5
+[Model100]
+ModelFile 	= "sa_characters\models\zombie\bear_ZombieC.ltb"
+Skin0 		= "sa_characters\skins\Zombie\BearZombie_red_d.dtx"
+SkeletonID 	= 4
+EyeColor 		= 4
+Translucent  	= 1
+
+// 특수 하울링형 #6 크리스마스 버젼
+[Model101]
+ModelFile 	= "sa_characters\models\zombie\HowlZombie_SP.ltb"
+Skin0 		= "sa_characters\skins\Zombie\wzombie_christmas_default.dtx"
+SkeletonID 	= 4
+EyeColor 		= 1
+Translucent  	= 1
+
+// 인질2
+[Model102]
+ModelFile		= "SA_characters\models\Hostage\Italy_hostage_rescue_replace.ltb"
+Skin0			= "SA_Characters\Skins\yoga_hostage_default.dtx"
+Skin1			= "SA_Characters\Skins\park_chorong_sensor_3p.dtx"
+
+Translucent		= 1
+SkeletonID		= 1
+Sex			= false
+
+///////////////////////////////////////////////////////////좀비탈출//////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// 자폭좀비 화이트
+[Model103]
+ModelFile 	= "sa_characters\models\zombie\suicide_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\suicide_zombie_default.dtx"
+SkeletonID 	= 5
+EyeColor 	= 1
+Translucent  	= 1
+
+// 자폭좀비 레드
+[Model104]
+ModelFile 	= "sa_characters\models\zombie\suicide_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\suicide_zombie_red_default.dtx"
+SkeletonID 	= 5
+EyeColor 	= 2
+Translucent  	= 1
+
+// 자폭좀비 블랙
+[Model105]
+ModelFile 	= "sa_characters\models\zombie\suicide_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\suicide_zombie_black_default.dtx"
+SkeletonID 	= 5
+EyeColor 	= 3
+Translucent  	= 1
+
+
+// 장님좀비 초급
+[Model106]
+ModelFile 	= "sa_characters\models\zombie\blind_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\blind_zombie_default.dtx"
+SkeletonID 	= 4
+EyeColor 		= 1
+Translucent  	= 1
+
+// 장님좀비 중급
+[Model107]
+ModelFile 	= "sa_characters\models\zombie\blind_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\blind_zombie_blue_default.dtx"
+SkeletonID 	= 4
+EyeColor 		= 2
+Translucent  	= 1
+
+// 장님좀비 고급
+[Model108]
+ModelFile 	= "sa_characters\models\zombie\blind_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\blind_zombie_red_default.dtx"
+SkeletonID 	= 4
+EyeColor 		= 3
+Translucent  	= 1
+
+// 임프좀비 초급
+[Model109]
+ModelFile 	= "sa_characters\models\zombie\rimpu_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\rimpu_zombie_default.dtx"
+SkeletonID 	= 4
+EyeColor 	= 1
+Translucent  	= 1
+
+// 임프좀비 중급
+[Model110]
+ModelFile 	= "sa_characters\models\zombie\rimpu_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\rimpu_zombie_blue_default.dtx"
+SkeletonID 	= 4
+EyeColor 	= 2
+Translucent  	= 1
+
+// 임프좀비 고급
+[Model111]
+ModelFile 	= "sa_characters\models\zombie\rimpu_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\rimpu_zombie_red_default.dtx"
+SkeletonID 	= 4
+EyeColor 	= 3
+Translucent  	= 1
+
+// 임프좀비 중간보스
+[Model112]
+ModelFile 	= "sa_characters\models\zombie\rimpu_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\rimpu_zombie_black_default.dtx"
+SkeletonID 	= 4
+EyeColor 	= 4
+Translucent  	= 1
+
+// 넉백좀비 중간보스
+[Model113]
+ModelFile 	= "sa_characters\models\zombie\knockback_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\knockback_zombie_default.dtx"
+SkeletonID 	= 4
+EyeColor 	= 1
+Translucent  	= 1
+
+// 넉백좀비 중급1
+[Model114]
+ModelFile 	= "sa_characters\models\zombie\knockback_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\knockback_zombie_blue_default.dtx"
+SkeletonID 	= 4
+EyeColor 	= 2
+Translucent  	= 1
+
+// 넉백좀비 중급2
+[Model115]
+ModelFile 	= "sa_characters\models\zombie\knockback_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\knockback_zombie_red_default.dtx"
+SkeletonID 	= 4
+EyeColor 	= 3
+Translucent  	= 1
+
+// 헤비좀비 중간보스
+[Model116]
+ModelFile 	= "sa_characters\models\zombie\heavypower_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\heavypower_zombie_default.dtx"
+SkeletonID 	= 6
+EyeColor 	= 1
+Translucent  	= 1
+
+// 헤비좀비 중급1
+[Model117]
+ModelFile 	= "sa_characters\models\zombie\heavypower_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\heavypower_zombie_yellow_default.dtx"
+SkeletonID 	= 6
+EyeColor 	= 2
+Translucent  	= 1
+
+// 헤비좀비 중급2
+[Model118]
+ModelFile 	= "sa_characters\models\zombie\heavypower_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\heavypower_zombie_yellow_default.dtx"
+SkeletonID 	= 6
+EyeColor 	= 3
+Translucent  	= 1
+
+
+// 보스좀비
+[Model119]
+ModelFile 	= "sa_characters\models\zombie\boss_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\boss_zombie_default.dtx"
+SkeletonID 	= 7
+EyeColor 	= 4
+Translucent  	= 1
+
+// 보스좀비 HP30%이하
+[Model120]
+ModelFile 	= "sa_characters\models\zombie\boss_zombie_B.ltb"
+Skin0 		= "sa_characters\skins\Zombie\boss_zombie_default.dtx"
+SkeletonID 	= 7
+EyeColor 	= 4
+Translucent  	= 1
+
+// 신규 일반 여자 좀비
+[Model121]
+ModelFile 	= "sa_characters\models\zombie\Poison_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\poison_zombie_default.dtx"
+SkeletonID 	= 8
+EyeColor 		= 1
+Translucent  	= 1
+
+// 신규 일반 여자 좀비 (블랙)
+[Model122]
+ModelFile 	= "sa_characters\models\zombie\Poison_zombie.ltb"
+Skin0 		= "sa_characters\skins\Zombie\poison_zombie_black.dtx"
+SkeletonID 	= 8
+EyeColor 		= 2
+Translucent  	= 1
+
+//초급형 일반좀비 (하)
+[Model123]
+ModelFile 	= "sa_characters\models\zombie\ZombieA.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_Normal_Blue.dtx"
+SkeletonID 	= 8
+EyeColor 		= 2
+Translucent  	= 1
+
+
+// 초급형 일반좀비 (중)
+[Model124]
+ModelFile 	= "sa_characters\models\zombie\ZombieB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_NormalB_Orange.dtx"
+SkeletonID 	= 8
+EyeColor 		= 3
+Translucent  	= 1
+
+
+// 기본형 일반좀비 (하)
+[Model125]
+ModelFile 	= "sa_characters\models\zombie\ZombieB.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_NormalB_Green.dtx"
+SkeletonID 	= 8
+EyeColor 		= 3
+Translucent  	= 1
+
+// 기본형 일반좀비 (중)
+[Model126]
+ModelFile 	= "sa_characters\models\zombie\ZombieC.ltb"
+Skin0 		= "sa_characters\skins\Zombie\Zombie_NormalC_Red.dtx"
+SkeletonID 	= 8
+EyeColor 		= 4
+Translucent  	= 1
+
+
+//-------------------------------------------------------------
+// 기본모델
+//-------------------------------------------------------------
+[Skeleton0]
+
+DefaultFrontDeathAni			= "D_ARMBa"
+DefaultBackDeathAni			= "D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+DefaultHitNode				= 1
+
+LookAtTrackingNodes			= 4
+AimAtTrackingNodes			= 4
+
+//대가리
+Node0Name				= "Bip01 Head"
+Node0Flags				= (DWORD)1
+Node0FrontDeathAni			= "D_HEADSHOTBa"
+Node0BackDeathAni			= "D_HEADSHOTFr"
+Node0FrontShortRecoilAni		= "RclFBD"
+Node0BackShortRecoilAni			= "RclBBD"
+Node0DamageFactor			= 2.1
+Node0Parent				= 4
+Node0RecoilParent			= 4
+Node0Location				= 1
+Node0Radius				= 7.0	//__ 6.5
+Node0Priority				= 1.0
+Node0AttachSpears			= 1
+
+Node1Name				= "Bip01 Spine"
+Node1Flags				= (DWORD)64
+Node1FrontDeathAni			= "D_CHESTBa"
+Node1BackDeathAni			= "D_CHESTFr"
+Node1FrontShortRecoilAni		= "RclFBD"
+Node1BackShortRecoilAni			= "RclBBD"
+Node1DamageFactor			= 1.0	//___ 0.8
+Node1Parent				= -1
+Node1RecoilParent			= -1
+Node1Location				= 2
+Node1Radius				= 9.0
+Node1Priority				= 0.5
+Node1AttachSpears			= 0
+
+Node2Name				= "Bip01 Spine1"
+Node2Flags				= (DWORD)64
+Node2FrontDeathAni			= "D_CHESTBa"
+Node2BackDeathAni			= "D_CHESTFr"
+Node2FrontShortRecoilAni		= "RclFBD"
+Node2BackShortRecoilAni			= "RclBBD"
+Node2DamageFactor			= 1.0	//___ 0.8
+Node2Parent				= 0
+Node2RecoilParent			= 0
+Node2Location				= 2
+Node2Radius				= 12.0
+Node2Priority				= 0.5
+Node2AttachSpears			= 1
+
+Node3Name				= "Bip01 Spine2"
+Node3Flags				= (DWORD)64
+Node3FrontDeathAni			= "D_CHESTBa"
+Node3BackDeathAni			= "D_CHESTFr"
+Node3FrontShortRecoilAni		= "RclFBD"
+Node3BackShortRecoilAni			= "RclBBD"
+Node3DamageFactor			= 1.0	//___ 0.8
+Node3Parent				= 1
+Node3RecoilParent			= 1
+Node3Location				= 2
+Node3Radius				= 12.0
+Node3Priority				= 0.5
+Node3AttachSpears			= 1
+
+Node4Name				= "Bip01 Spine3"
+Node4Flags				= (DWORD)64
+Node4FrontDeathAni			= "D_CHESTBa"
+Node4BackDeathAni			= "D_CHESTFr"
+Node4FrontShortRecoilAni		= "RclFBD"
+Node4BackShortRecoilAni			= "RclBBD"
+Node4DamageFactor			= 1.0	//___ 0.8
+Node4Parent				= 2
+Node4RecoilParent			= 2
+Node4Location				= 2
+Node4Radius				= 12.0	//___10.5
+Node4Priority				= 0.5
+Node4AttachSpears			= 0
+
+//목아지
+Node5Name				= "Bip01 Neck"
+Node5Flags				= (DWORD)64
+Node5FrontDeathAni			= "D_CHESTBa"
+Node5BackDeathAni			= "D_CHESTFr"
+Node5FrontShortRecoilAni		= "RclFBD"
+Node5BackShortRecoilAni			= "RclBBD"
+Node5DamageFactor			= 1.0
+Node5Parent				= 4
+Node5RecoilParent			= 4
+Node5Location				= 2
+Node5Radius				= 5.5
+Node5Priority				= 0.5
+Node5AttachSpears			= 1
+	
+//왼쪽 쇄골				
+Node6Name				= "Bip01 L Clavicle"
+Node6Flags				= (DWORD)64
+Node6FrontDeathAni			= "D_CHESTBa"
+Node6BackDeathAni			= "D_CHESTFr"
+Node6FrontShortRecoilAni		= "RclFLSH"
+Node6BackShortRecoilAni			= "RclBLSH"
+Node6DamageFactor			= 0.8
+Node6Parent				= 4
+Node6RecoilParent			= 4
+Node6Location				= 2
+Node6Radius				= 6.0
+Node6Priority				= 0.5
+Node6AttachSpears			= 1
+	
+//왼쪽 어깨						
+Node7Name				= "Bip01 L UpperArm"
+Node7Flags				= (DWORD)64
+Node7FrontDeathAni			= "D_ARMBa"
+Node7BackDeathAni			= "D_ARMFr"
+Node7FrontShortRecoilAni		= "RclFLSH"
+Node7BackShortRecoilAni			= "RclBLSH"
+Node7DamageFactor			= 0.8
+Node7Parent				= 6
+Node7RecoilParent			= 6
+Node7Location				= 2
+Node7Radius				= 7.0	//__ 6.0
+Node7Priority				= 0.5
+Node7AttachSpears			= 1
+					
+//왼쪽 팔꿈치
+Node8Name				= "Bip01 L Forearm"
+Node8Flags				= (DWORD)64
+Node8FrontDeathAni			= "D_ARMBa"
+Node8BackDeathAni			= "D_ARMFr"
+Node8FrontShortRecoilAni		= "RclFLSh"
+Node8BackShortRecoilAni			= "RclBLSh"
+Node8DamageFactor			= 0.3
+Node8Parent				= 7
+Node8RecoilParent			= 7
+Node8Location				= 3
+Node8Radius				= 7.0	//__ 6.0
+Node8Priority				= 0.25
+Node8AttachSpears			= 1
+
+//왼쪽 팔목
+Node9Name				= "Bip01 L Hand"
+Node9Flags				= (DWORD)64
+Node9FrontDeathAni			= "D_ARMBa"
+Node9BackDeathAni			= "D_ARMFr"
+Node9FrontShortRecoilAni		= "RclFLSh"
+Node9BackShortRecoilAni			= "RclBLSh"
+Node9DamageFactor			= 0.2
+Node9Parent				= 8
+Node9RecoilParent			= 8
+Node9Location				= 3
+Node9Radius				= 7.0	//__ 5.0
+Node9Priority				= 0.25
+Node9AttachSpears			= 1
+
+//오른쪽 쇄골
+Node10Name				= "Bip01 R Clavicle"
+Node10Flags				= (DWORD)64
+Node10FrontDeathAni			= "D_CHESTBa"
+Node10BackDeathAni			= "D_CHESTFr"
+Node10FrontShortRecoilAni		= "RclFLSh"
+Node10BackShortRecoilAni		= "RclBLSh"
+Node10DamageFactor			= 0.8
+Node10Parent				= 4
+Node10RecoilParent			= 4
+Node10Location				= 2
+Node10Radius				= 6.0
+Node10Priority				= 0.25
+Node10AttachSpears			= 1
+
+//오른쪽 어깨
+Node11Name				= "Bip01 R UpperArm"
+Node11Flags				= (DWORD)64
+Node11FrontDeathAni			= "D_ARMBa"
+Node11BackDeathAni			= "D_ARMFr"
+Node11FrontShortRecoilAni		= "RclFLSh"
+Node11BackShortRecoilAni		= "RclBLSh"
+Node11DamageFactor			= 0.8
+Node11Parent				= 10
+Node11RecoilParent			= 10
+Node11Location				= 2
+Node11Radius				= 7.0	//__ 6.0
+Node11Priority				= 0.25
+Node11AttachSpears			= 1
+
+//오른쪽 팔꿈치
+Node12Name				= "Bip01 R Forearm"
+Node12Flags				= (DWORD)64
+Node12FrontDeathAni			= "D_ARMBa"
+Node12BackDeathAni			= "D_ARMFr"
+Node12FrontShortRecoilAni		= "RclFLSh"
+Node12BackShortRecoilAni		= "RclBLSh"
+Node12DamageFactor			= 0.3
+Node12Parent				= 11
+Node12RecoilParent			= 11
+Node12Location				= 3
+Node12Radius				= 7.0	//__ 6.0
+Node12Priority				= 0.25
+Node12AttachSpears			= 1
+
+//오른쪽 팔목
+Node13Name				= "Bip01 R Hand"
+Node13Flags				= (DWORD)64
+Node13FrontDeathAni			= "D_ARMBa"
+Node13BackDeathAni			= "D_ARMFr"
+Node13FrontShortRecoilAni		= "RclFLSh"
+Node13BackShortRecoilAni		= "RclBLSh"
+Node13DamageFactor			= 0.2
+Node13Parent				= 12
+Node13RecoilParent			= 12
+Node13Location				= 3
+Node13Radius				= 7.0	//__ 5.0
+Node13Priority				= 0.25
+Node13AttachSpears			= 1
+
+//자지
+Node14Name				= "Bip01 Pelvis"
+Node14Flags				= (DWORD)0
+Node14FrontDeathAni			= "D_CHESTBa"
+Node14BackDeathAni			= "D_CHESTFr"
+Node14FrontShortRecoilAni		= "RclFBD"
+Node14BackShortRecoilAni		= "RclBBD"
+Node14DamageFactor			= 1.0
+Node14Parent				= -1
+Node14RecoilParent			= -1
+Node14Location				= 4
+Node14Radius				= 6.0
+Node14Priority				= 0.25
+
+//왼쪽 골반
+Node15Name				= "Bip01 L Thigh"
+Node15Flags				= (DWORD)64
+Node15FrontDeathAni			= "D_LEGBa"
+Node15BackDeathAni			= "D_LEGFr"
+Node15FrontShortRecoilAni		= "RclFRSh"
+Node15BackShortRecoilAni		= "RclBRSh"
+Node15DamageFactor			= 0.4
+Node15Parent				= 0
+Node15RecoilParent			= 0
+Node15Location				= 4
+Node15Radius				= 10.0
+Node15Priority				= 0.5
+Node15AttachSpears			= 1
+
+//왼쪽 무릎
+Node16Name				= "Bip01 L Calf"
+Node16Flags				= (DWORD)0
+Node16FrontDeathAni			= "D_LEGBa"
+Node16BackDeathAni			= "D_LEGFr"
+Node16FrontShortRecoilAni		= "RclFRSh"
+Node16BackShortRecoilAni		= "RclBRSh"
+Node16DamageFactor			= 0.3
+Node16Parent				= 15
+Node16RecoilParent			= 15
+Node16Location				= 4
+Node16Radius				= 10.0
+Node16Priority				= 0.5
+Node16AttachSpears			= 1
+	
+//왼쪽 뒷금치					
+Node17Name				= "Bip01 L Foot"
+Node17Flags				= (DWORD)0
+Node17FrontDeathAni			= "D_LEGBa"
+Node17BackDeathAni			= "D_LEGFr"
+Node17FrontShortRecoilAni		= "RclFRSh"
+Node17BackShortRecoilAni		= "RclBRSh"
+Node17DamageFactor			= 0.2
+Node17Parent				= 16
+Node17RecoilParent			= 16
+Node17Location				= 4
+Node17Radius				= 7.5
+Node17Priority				= 0.25
+Node17AttachSpears			= 1
+	
+//왼쪽 발바닥					
+Node18Name				= "Bip01 L Toe0"
+Node18Flags				= (DWORD)0
+Node18FrontDeathAni			= "D_LEGBa"
+Node18BackDeathAni			= "D_LEGFr"
+Node18FrontShortRecoilAni		= "RclFRSh"
+Node18BackShortRecoilAni		= "RclBRSh"
+Node18DamageFactor			= 0.25
+Node18Parent				= 17
+Node18RecoilParent			= 17
+Node18Location				= 4
+Node18Radius				= 5.0
+Node18Priority				= 0.25
+Node18AttachSpears			= 1
+
+//오른쪽 골반
+Node19Name				= "Bip01 R Thigh"
+Node19Flags				= (DWORD)64
+Node19FrontDeathAni			= "D_LEGBa"
+Node19BackDeathAni			= "D_LEGFr"
+Node19FrontShortRecoilAni		= "RclFRSh"
+Node19BackShortRecoilAni		= "RclBRSh"
+Node19DamageFactor			= 0.4
+Node19Parent				= 0
+Node19RecoilParent			= 0
+Node19Location				= 4
+Node19Radius				= 10.0
+Node19Priority				= 0.25
+
+//오른쪽 무릎
+Node20Name				= "Bip01 R Calf"
+Node20Flags				= (DWORD)64
+Node20FrontDeathAni			= "D_LEGBa"
+Node20BackDeathAni			= "D_LEGFr"
+Node20FrontShortRecoilAni		= "RclFRSh"
+Node20BackShortRecoilAni		= "RclBRSh"
+Node20DamageFactor			= 0.3
+Node20Parent				= 19
+Node20RecoilParent			= 19
+Node20Location				= 4
+Node20Radius				= 10.0
+Node20Priority				= 0.25
+
+//오른쪽 뒷금치
+Node21Name				= "Bip01 R Foot"
+Node21Flags				= (DWORD)64
+Node21FrontDeathAni			= "D_LEGBa"
+Node21BackDeathAni			= "D_LEGFr"
+Node21FrontShortRecoilAni		= "RclFRSh"
+Node21BackShortRecoilAni		= "RclBRSh"
+Node21DamageFactor			= 0.2
+Node21Parent				= 20
+Node21RecoilParent			= 20
+Node21Location				= 4
+Node21Radius				= 7.5
+Node21Priority				= 0.25
+
+//오른쪽 발바닥
+Node22Name				= "Bip01 R Toe0"
+Node22Flags				= (DWORD)64
+Node22FrontDeathAni			= "D_LEGBa"
+Node22BackDeathAni			= "D_LEGFr"
+Node22FrontShortRecoilAni		= "RclFRSh"
+Node22BackShortRecoilAni		= "RclBRSh"
+Node22DamageFactor			= 0.2
+Node22Parent				= 21
+Node22RecoilParent			= 21
+Node22Location				= 4
+Node22Radius				= 5.0
+Node22Priority				= 0.25
+
+//-------------------------------------------------------------
+// AI Model
+//-------------------------------------------------------------
+[Skeleton1]
+DefaultFrontDeathAni			= "D_ARMBa"
+DefaultBackDeathAni			= "D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+DefaultHitNode				= 1
+
+LookAtTrackingNodes			= 4
+AimAtTrackingNodes			= 4
+
+//대가리
+Node0Name				= "Bip01 Head"
+Node0Flags				= (DWORD)1
+Node0FrontDeathAni			= "D_HEADSHOTBa"
+Node0BackDeathAni			= "D_HEADSHOTFr"
+Node0FrontShortRecoilAni		= "RclFBD"
+Node0BackShortRecoilAni			= "RclBBD"
+Node0DamageFactor			= 7.1
+Node0Parent				= 4
+Node0RecoilParent			= 4
+Node0Location				= 1
+Node0Radius				= 7.0	//__ 6.5
+Node0Priority				= 1.0
+Node0AttachSpears			= 1
+
+Node1Name				= "Bip01 Spine"
+Node1Flags				= (DWORD)64
+Node1FrontDeathAni			= "D_CHESTBa"
+Node1BackDeathAni			= "D_CHESTFr"
+Node1FrontShortRecoilAni		= "RclFBD"
+Node1BackShortRecoilAni			= "RclBBD"
+Node1DamageFactor			= 1.0	//___ 0.8
+Node1Parent				= -1
+Node1RecoilParent			= -1
+Node1Location				= 2
+Node1Radius				= 9.0
+Node1Priority				= 0.5
+Node1AttachSpears			= 0
+
+Node2Name				= "Bip01 Spine1"
+Node2Flags				= (DWORD)64
+Node2FrontDeathAni			= "D_CHESTBa"
+Node2BackDeathAni			= "D_CHESTFr"
+Node2FrontShortRecoilAni		= "RclFBD"
+Node2BackShortRecoilAni			= "RclBBD"
+Node2DamageFactor			= 1.0	//___ 0.8
+Node2Parent				= 0
+Node2RecoilParent			= 0
+Node2Location				= 2
+Node2Radius				= 12.0
+Node2Priority				= 0.5
+Node2AttachSpears			= 1
+
+Node3Name				= "Bip01 Spine2"
+Node3Flags				= (DWORD)64
+Node3FrontDeathAni			= "D_CHESTBa"
+Node3BackDeathAni			= "D_CHESTFr"
+Node3FrontShortRecoilAni		= "RclFBD"
+Node3BackShortRecoilAni			= "RclBBD"
+Node3DamageFactor			= 1.0	//___ 0.8
+Node3Parent				= 1
+Node3RecoilParent			= 1
+Node3Location				= 2
+Node3Radius				= 12.0
+Node3Priority				= 0.5
+Node3AttachSpears			= 1
+
+Node4Name				= "Bip01 Spine3"
+Node4Flags				= (DWORD)64
+Node4FrontDeathAni			= "D_CHESTBa"
+Node4BackDeathAni			= "D_CHESTFr"
+Node4FrontShortRecoilAni		= "RclFBD"
+Node4BackShortRecoilAni			= "RclBBD"
+Node4DamageFactor			= 1.0	//___ 0.8
+Node4Parent				= 2
+Node4RecoilParent			= 2
+Node4Location				= 2
+Node4Radius				= 12.0	//___10.5
+Node4Priority				= 0.5
+Node4AttachSpears			= 0
+
+//목아지
+Node5Name				= "Bip01 Neck"
+Node5Flags				= (DWORD)64
+Node5FrontDeathAni			= "D_CHESTBa"
+Node5BackDeathAni			= "D_CHESTFr"
+Node5FrontShortRecoilAni		= "RclFBD"
+Node5BackShortRecoilAni			= "RclBBD"
+Node5DamageFactor			= 1.0
+Node5Parent				= 4
+Node5RecoilParent			= 4
+Node5Location				= 2
+Node5Radius				= 5.5
+Node5Priority				= 0.5
+Node5AttachSpears			= 1
+	
+//왼쪽 쇄골				
+Node6Name				= "Bip01 L Clavicle"
+Node6Flags				= (DWORD)64
+Node6FrontDeathAni			= "D_CHESTBa"
+Node6BackDeathAni			= "D_CHESTFr"
+Node6FrontShortRecoilAni		= "RclFLSH"
+Node6BackShortRecoilAni			= "RclBLSH"
+Node6DamageFactor			= 0.8
+Node6Parent				= 4
+Node6RecoilParent			= 4
+Node6Location				= 2
+Node6Radius				= 6.0
+Node6Priority				= 0.5
+Node6AttachSpears			= 1
+	
+//왼쪽 어깨						
+Node7Name				= "Bip01 L UpperArm"
+Node7Flags				= (DWORD)64
+Node7FrontDeathAni			= "D_ARMBa"
+Node7BackDeathAni			= "D_ARMFr"
+Node7FrontShortRecoilAni		= "RclFLSH"
+Node7BackShortRecoilAni			= "RclBLSH"
+Node7DamageFactor			= 0.8
+Node7Parent				= 6
+Node7RecoilParent			= 6
+Node7Location				= 2
+Node7Radius				= 7.0	//__ 6.0
+Node7Priority				= 0.5
+Node7AttachSpears			= 1
+					
+//왼쪽 팔꿈치
+Node8Name				= "Bip01 L Forearm"
+Node8Flags				= (DWORD)64
+Node8FrontDeathAni			= "D_ARMBa"
+Node8BackDeathAni			= "D_ARMFr"
+Node8FrontShortRecoilAni		= "RclFLSh"
+Node8BackShortRecoilAni			= "RclBLSh"
+Node8DamageFactor			= 0.3
+Node8Parent				= 7
+Node8RecoilParent			= 7
+Node8Location				= 3
+Node8Radius				= 7.0	//__ 6.0
+Node8Priority				= 0.25
+Node8AttachSpears			= 1
+
+//왼쪽 팔목
+Node9Name				= "Bip01 L Hand"
+Node9Flags				= (DWORD)64
+Node9FrontDeathAni			= "D_ARMBa"
+Node9BackDeathAni			= "D_ARMFr"
+Node9FrontShortRecoilAni		= "RclFLSh"
+Node9BackShortRecoilAni			= "RclBLSh"
+Node9DamageFactor			= 0.2
+Node9Parent				= 8
+Node9RecoilParent			= 8
+Node9Location				= 3
+Node9Radius				= 7.0	//__ 5.0
+Node9Priority				= 0.25
+Node9AttachSpears			= 1
+
+//오른쪽 쇄골
+Node10Name				= "Bip01 R Clavicle"
+Node10Flags				= (DWORD)64
+Node10FrontDeathAni			= "D_CHESTBa"
+Node10BackDeathAni			= "D_CHESTFr"
+Node10FrontShortRecoilAni		= "RclFLSh"
+Node10BackShortRecoilAni		= "RclBLSh"
+Node10DamageFactor			= 0.8
+Node10Parent				= 4
+Node10RecoilParent			= 4
+Node10Location				= 2
+Node10Radius				= 6.0
+Node10Priority				= 0.25
+Node10AttachSpears			= 1
+
+//오른쪽 어깨
+Node11Name				= "Bip01 R UpperArm"
+Node11Flags				= (DWORD)64
+Node11FrontDeathAni			= "D_ARMBa"
+Node11BackDeathAni			= "D_ARMFr"
+Node11FrontShortRecoilAni		= "RclFLSh"
+Node11BackShortRecoilAni		= "RclBLSh"
+Node11DamageFactor			= 0.8
+Node11Parent				= 10
+Node11RecoilParent			= 10
+Node11Location				= 2
+Node11Radius				= 7.0	//__ 6.0
+Node11Priority				= 0.25
+Node11AttachSpears			= 1
+
+//오른쪽 팔꿈치
+Node12Name				= "Bip01 R Forearm"
+Node12Flags				= (DWORD)64
+Node12FrontDeathAni			= "D_ARMBa"
+Node12BackDeathAni			= "D_ARMFr"
+Node12FrontShortRecoilAni		= "RclFLSh"
+Node12BackShortRecoilAni		= "RclBLSh"
+Node12DamageFactor			= 0.3
+Node12Parent				= 11
+Node12RecoilParent			= 11
+Node12Location				= 3
+Node12Radius				= 7.0	//__ 6.0
+Node12Priority				= 0.25
+Node12AttachSpears			= 1
+
+//오른쪽 팔목
+Node13Name				= "Bip01 R Hand"
+Node13Flags				= (DWORD)64
+Node13FrontDeathAni			= "D_ARMBa"
+Node13BackDeathAni			= "D_ARMFr"
+Node13FrontShortRecoilAni		= "RclFLSh"
+Node13BackShortRecoilAni		= "RclBLSh"
+Node13DamageFactor			= 0.2
+Node13Parent				= 12
+Node13RecoilParent			= 12
+Node13Location				= 3
+Node13Radius				= 7.0	//__ 5.0
+Node13Priority				= 0.25
+Node13AttachSpears			= 1
+
+//자지
+Node14Name				= "Bip01 Pelvis"
+Node14Flags				= (DWORD)0
+Node14FrontDeathAni			= "D_CHESTBa"
+Node14BackDeathAni			= "D_CHESTFr"
+Node14FrontShortRecoilAni		= "RclFBD"
+Node14BackShortRecoilAni		= "RclBBD"
+Node14DamageFactor			= 1.0
+Node14Parent				= -1
+Node14RecoilParent			= -1
+Node14Location				= 4
+Node14Radius				= 6.0
+Node14Priority				= 0.25
+
+//왼쪽 골반
+Node15Name				= "Bip01 L Thigh"
+Node15Flags				= (DWORD)64
+Node15FrontDeathAni			= "D_LEGBa"
+Node15BackDeathAni			= "D_LEGFr"
+Node15FrontShortRecoilAni		= "RclFRSh"
+Node15BackShortRecoilAni		= "RclBRSh"
+Node15DamageFactor			= 0.4
+Node15Parent				= 0
+Node15RecoilParent			= 0
+Node15Location				= 4
+Node15Radius				= 10.0
+Node15Priority				= 0.5
+Node15AttachSpears			= 1
+
+//왼쪽 무릎
+Node16Name				= "Bip01 L Calf"
+Node16Flags				= (DWORD)0
+Node16FrontDeathAni			= "D_LEGBa"
+Node16BackDeathAni			= "D_LEGFr"
+Node16FrontShortRecoilAni		= "RclFRSh"
+Node16BackShortRecoilAni		= "RclBRSh"
+Node16DamageFactor			= 0.3
+Node16Parent				= 15
+Node16RecoilParent			= 15
+Node16Location				= 4
+Node16Radius				= 10.0
+Node16Priority				= 0.5
+Node16AttachSpears			= 1
+	
+//왼쪽 뒷금치					
+Node17Name				= "Bip01 L Foot"
+Node17Flags				= (DWORD)0
+Node17FrontDeathAni			= "D_LEGBa"
+Node17BackDeathAni			= "D_LEGFr"
+Node17FrontShortRecoilAni		= "RclFRSh"
+Node17BackShortRecoilAni		= "RclBRSh"
+Node17DamageFactor			= 0.2
+Node17Parent				= 16
+Node17RecoilParent			= 16
+Node17Location				= 4
+Node17Radius				= 7.5
+Node17Priority				= 0.25
+Node17AttachSpears			= 1
+	
+//왼쪽 발바닥					
+Node18Name				= "Bip01 L Toe0"
+Node18Flags				= (DWORD)0
+Node18FrontDeathAni			= "D_LEGBa"
+Node18BackDeathAni			= "D_LEGFr"
+Node18FrontShortRecoilAni		= "RclFRSh"
+Node18BackShortRecoilAni		= "RclBRSh"
+Node18DamageFactor			= 0.25
+Node18Parent				= 17
+Node18RecoilParent			= 17
+Node18Location				= 4
+Node18Radius				= 5.0
+Node18Priority				= 0.25
+Node18AttachSpears			= 1
+
+//오른쪽 골반
+Node19Name				= "Bip01 R Thigh"
+Node19Flags				= (DWORD)64
+Node19FrontDeathAni			= "D_LEGBa"
+Node19BackDeathAni			= "D_LEGFr"
+Node19FrontShortRecoilAni		= "RclFRSh"
+Node19BackShortRecoilAni		= "RclBRSh"
+Node19DamageFactor			= 0.4
+Node19Parent				= 0
+Node19RecoilParent			= 0
+Node19Location				= 4
+Node19Radius				= 10.0
+Node19Priority				= 0.25
+
+//오른쪽 무릎
+Node20Name				= "Bip01 R Calf"
+Node20Flags				= (DWORD)64
+Node20FrontDeathAni			= "D_LEGBa"
+Node20BackDeathAni			= "D_LEGFr"
+Node20FrontShortRecoilAni		= "RclFRSh"
+Node20BackShortRecoilAni		= "RclBRSh"
+Node20DamageFactor			= 0.3
+Node20Parent				= 19
+Node20RecoilParent			= 19
+Node20Location				= 4
+Node20Radius				= 10.0
+Node20Priority				= 0.25
+
+//오른쪽 뒷금치
+Node21Name				= "Bip01 R Foot"
+Node21Flags				= (DWORD)64
+Node21FrontDeathAni			= "D_LEGBa"
+Node21BackDeathAni			= "D_LEGFr"
+Node21FrontShortRecoilAni		= "RclFRSh"
+Node21BackShortRecoilAni		= "RclBRSh"
+Node21DamageFactor			= 0.2
+Node21Parent				= 20
+Node21RecoilParent			= 20
+Node21Location				= 4
+Node21Radius				= 7.5
+Node21Priority				= 0.25
+
+//오른쪽 발바닥
+Node22Name				= "Bip01 R Toe0"
+Node22Flags				= (DWORD)64
+Node22FrontDeathAni			= "D_LEGBa"
+Node22BackDeathAni			= "D_LEGFr"
+Node22FrontShortRecoilAni		= "RclFRSh"
+Node22BackShortRecoilAni		= "RclBRSh"
+Node22DamageFactor			= 0.2
+Node22Parent				= 21
+Node22RecoilParent			= 21
+Node22Location				= 4
+Node22Radius				= 5.0
+Node22Priority				= 0.25
+
+
+//-------------------------------------------------------------
+// AI Boss Model
+//-------------------------------------------------------------
+[Skeleton2]
+DefaultFrontDeathAni			= "D_ARMBa"
+DefaultBackDeathAni			= "D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+DefaultHitNode				= 1
+
+LookAtTrackingNodes			= 4
+AimAtTrackingNodes			= 4
+
+
+Node0Name				= "Bip01 Head"
+Node0Flags				= (DWORD)1
+Node0FrontDeathAni			= "D_HEADSHOTBa"
+Node0BackDeathAni			= "D_HEADSHOTFr"
+Node0FrontShortRecoilAni		= "RclFBD"
+Node0BackShortRecoilAni			= "RclBBD"
+Node0DamageFactor			= 0.0001
+Node0Parent				= 4
+Node0RecoilParent			= 4
+Node0Location				= 1
+Node0Radius				= 12.0	//__ 6.5
+Node0Priority				= 0.25
+Node0AttachSpears			= 1
+
+//Node1Name				= "body__Bone44"
+//Node1Flags				= (DWORD)0
+//Node1Radius				= 6.0
+//Node1AttachSpears		= 1
+//Node1Priority			= 1.25
+//Node1DamageFactor			= 2.1
+
+
+Node1Name				= "body__Bone44"
+Node1Flags				= (DWORD)64
+Node1FrontDeathAni			= "D_CHESTBa"
+Node1BackDeathAni			= "D_CHESTFr"
+Node1FrontShortRecoilAni		= "RclFBD"
+Node1BackShortRecoilAni			= "RclBBD"
+Node1DamageFactor			= 0.1
+Node1Parent				= -1
+Node1RecoilParent			= -1
+Node1Location				= 2
+Node1Radius				= 10.0
+Node1Priority				= 0.5
+Node1AttachSpears			= 0
+
+
+Node2Name				= "com__Bone01"
+Node2Flags				= (DWORD)0
+Node2Radius				= 12.0
+Node2AttachSpears		= 1
+Node2Priority			= 0.25
+Node2DamageFactor			= 0.0001
+
+Node3Name				= "body__Bone02"
+Node3Flags				= (DWORD)0
+Node3Radius				= 12.0
+Node3AttachSpears		= 1
+Node3Priority			= 0.25
+Node3DamageFactor			= 0.0001
+
+Node4Name				= "body__Bone03"
+Node4Flags				= (DWORD)0
+Node4Radius				= 12.0
+Node4AttachSpears		= 1
+Node4Priority			= 0.25
+Node4DamageFactor			= 0.0001
+
+Node5Name				= "body__Bone04"
+Node5Flags				= (DWORD)0
+Node5Radius				= 12.0
+Node5AttachSpears		= 1
+Node5Priority			= 0.25
+Node5DamageFactor			= 0.0001
+
+Node6Name				= "body__Bone06"
+Node6Flags				= (DWORD)0
+Node6Radius				= 12.0
+Node6AttachSpears		= 1
+Node6Priority			= 0.25
+Node6DamageFactor			= 0.0001
+
+Node7Name				= "body__Bone42"
+Node7Flags				= (DWORD)0
+Node7Radius				= 12.0
+Node7AttachSpears		= 1
+Node7Priority			= 0.25
+Node7DamageFactor			= 0.0001
+
+Node8Name				= "RA_Bone25"
+Node8Flags				= (DWORD)0
+Node8Radius				= 12.0
+Node8AttachSpears		= 1
+Node8Priority			= 0.25
+Node8DamageFactor			= 0.0001
+
+Node9Name				= "RA_Bone26"
+Node9Flags				= (DWORD)0
+Node9Radius				= 12.0
+Node9AttachSpears		= 1
+Node9Priority			= 0.25
+Node9DamageFactor			= 0.0001
+
+Node10Name				= "RA_Bone27"
+Node10Flags				= (DWORD)0
+Node10Radius				= 12.0
+Node10AttachSpears		= 1
+Node10Priority			= 0.25
+Node10DamageFactor			= 0.0001
+
+Node11Name				= "RA_Bone28"
+Node11Flags				= (DWORD)0
+Node11Radius				= 12.0
+Node11AttachSpears		= 1
+Node11Priority			= 0.25
+Node11DamageFactor			= 0.0001
+
+Node12Name				= "RA_Bone32"
+Node12Flags				= (DWORD)0
+Node12Radius				= 12.0
+Node12AttachSpears		= 1
+Node12Priority			= 0.25
+Node12DamageFactor			= 0.0001
+
+Node13Name				= "RA_Bone30"
+Node13Flags				= (DWORD)0
+Node13Radius				= 12.0
+Node13AttachSpears		= 1
+Node13Priority			= 0.25
+Node13DamageFactor			= 0.0001
+
+Node14Name				= "LA_Bone34"
+Node14Flags				= (DWORD)0
+Node14Radius				= 12.0
+Node14AttachSpears		= 1
+Node14Priority			= 0.25
+Node14DamageFactor			= 0.0001
+
+Node15Name				= "LA_Bone35"
+Node15Flags				= (DWORD)0
+Node15Radius				= 12.0
+Node15AttachSpears		= 1
+Node15Priority			= 0.25
+Node15DamageFactor			= 0.0001
+
+Node16Name				= "LA_Bone36"
+Node16Flags				= (DWORD)0
+Node16Radius				= 12.0
+Node16AttachSpears		= 1
+Node16Priority			= 0.25
+Node16DamageFactor			= 0.0001
+
+Node17Name				= "LA_Bone37"
+Node17Flags				= (DWORD)0
+Node17Radius				= 12.0
+Node17AttachSpears		= 1
+Node17Priority			= 0.25
+Node17DamageFactor			= 0.0001
+
+Node18Name				= "LA_Bone38"
+Node18Flags				= (DWORD)0
+Node18Radius				= 12.0
+Node18AttachSpears		= 1
+Node18Priority			= 0.25
+Node18DamageFactor			= 0.0001
+
+Node19Name				= "LA_Bone39"
+Node19Flags				= (DWORD)0
+Node19Radius				= 12.0
+Node19AttachSpears		= 1
+Node19Priority			= 0.25
+Node19DamageFactor			= 0.0001
+
+Node20Name				= "LA_Bone40"
+Node20Flags				= (DWORD)0
+Node20Radius				= 12.0
+Node20AttachSpears		= 1
+Node20Priority			= 0.25
+Node20DamageFactor			= 0.0001
+
+Node21Name				= "LA_Bone24"
+Node21Flags				= (DWORD)0
+Node21Radius				= 12.0
+Node21AttachSpears		= 1
+Node21Priority			= 0.25
+Node21DamageFactor			= 0.0001
+
+Node22Name				= "LA_Bone31"
+Node22Flags				= (DWORD)0
+Node22Radius				= 12.0
+Node22AttachSpears		= 1
+Node22Priority			= 0.25
+Node22DamageFactor			= 0.0001
+
+Node23Name				= "LF_Bone05"
+Node23Flags				= (DWORD)0
+Node23Radius				= 12.0
+Node23AttachSpears		= 1
+Node23Priority			= 0.25
+Node23DamageFactor			= 0.0001
+
+Node24Name				= "LF_Bone08"
+Node24Flags				= (DWORD)0
+Node24Radius				= 12.0
+Node24AttachSpears		= 1
+Node24Priority			= 0.25
+Node24DamageFactor			= 0.0001
+
+Node25Name				= "LF_Bone09"
+Node25Flags				= (DWORD)0
+Node25Radius				= 12.0
+Node25AttachSpears		= 1
+Node25Priority			= 0.25
+Node25DamageFactor			= 0.0001
+
+Node26Name				= "LF_Bone10"
+Node26Flags				= (DWORD)0
+Node26Radius				= 12.0
+Node26AttachSpears		= 1
+Node26Priority			= 0.25
+Node26DamageFactor			= 0.0001
+    
+Node27Name				= "LF_Bone11"
+Node27Flags				= (DWORD)0
+Node27Radius				= 12.0
+Node27AttachSpears		= 1
+Node27Priority			= 0.25
+Node27DamageFactor			= 0.0001
+
+Node28Name				= "LF_Bone45"
+Node28Flags				= (DWORD)0
+Node28Radius				= 12.0
+Node28AttachSpears		= 1
+Node28Priority			= 0.25
+Node28DamageFactor			= 0.0001
+
+Node29Name				= "RF_Bone16"
+Node29Flags				= (DWORD)0
+Node29Radius				= 12.0
+Node29AttachSpears		= 1
+Node29Priority			= 0.25
+Node29DamageFactor			= 0.0001
+ 
+Node30Name				= "RF_Bone17"
+Node30Flags				= (DWORD)0
+Node30Radius				= 12.0
+Node30AttachSpears		= 1
+Node30Priority			= 0.25
+Node30DamageFactor			= 0.0001
+  
+Node31Name				= "RF_Bone18"
+Node31Flags				= (DWORD)0
+Node31Radius				= 15.0
+Node31AttachSpears		= 1
+Node31Priority			= 0.25
+Node31DamageFactor			= 0.0001
+ 
+Node32Name				= "RF_Bone19"
+Node32Flags				= (DWORD)0
+Node32Radius				= 12.0
+Node32AttachSpears		= 1
+Node32Priority			= 0.25
+Node32DamageFactor			= 0.0001
+
+Node33Name				= "RF_Bone20"
+Node33Flags				= (DWORD)0
+Node33Radius				= 12.0
+Node33AttachSpears		= 1
+Node33Priority			= 0.25
+Node33DamageFactor			= 0.0001
+
+Node34Name				= "RF_Bone13"
+Node34Flags				= (DWORD)0
+Node34Radius				= 12.0
+Node34AttachSpears		= 1
+Node34Priority			= 0.25
+Node34DamageFactor			= 0.0001
+
+
+//-------------------------------------------------------------
+// AI 원형깡통, 자폭 Model
+//-------------------------------------------------------------
+[Skeleton3]
+DefaultFrontDeathAni			= "D_ARMBa"
+DefaultBackDeathAni				= "D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+DefaultHitNode				= 1
+
+LookAtTrackingNodes			= 4
+AimAtTrackingNodes			= 4
+
+Node0Name					= "Bone01"
+Node0Flags					= (DWORD)1
+Node0FrontShortRecoilAni	= "RclBLleg"
+Node0BackShortRecoilAni		= "RclBLleg"
+Node0DamageFactor			= 1.0
+Node0Radius					= 10.0
+Node0Priority				= 1.0
+
+Node1Name					= "Bone03"
+Node1Flags					= (DWORD)1
+Node1FrontShortRecoilAni	= "RclBLleg"
+Node1BackShortRecoilAni		= "RclBLleg"
+Node1DamageFactor			= 1.0
+Node1Radius					= 10.0
+Node1Priority				= 1.0
+
+Node2Name					= "Bone05"
+Node2Flags					= (DWORD)1
+Node2FrontShortRecoilAni	= "RclBLleg"
+Node2BackShortRecoilAni		= "RclBLleg"
+Node2DamageFactor			= 1.0
+Node2Radius					= 10.0
+Node2Priority				= 1.0
+
+Node3Name					= "Bone11"
+Node3Flags					= (DWORD)1
+Node3FrontShortRecoilAni	= "RclBLleg"
+Node3BackShortRecoilAni		= "RclBLleg"
+Node3DamageFactor			= 1.0
+Node3Radius					= 10.0
+Node3Priority				= 1.0
+
+
+Node4Name					= "Bone12"
+Node4Flags					= (DWORD)1
+Node4FrontShortRecoilAni	= "RclBLleg"
+Node4BackShortRecoilAni		= "RclBLleg"
+Node4DamageFactor			= 1.0
+Node4Radius					= 10.0
+Node4Priority				= 1.0
+
+
+Node5Name					= "Bone13"
+Node5Flags					= (DWORD)1
+Node5FrontShortRecoilAni	= "RclBLleg"
+Node5BackShortRecoilAni		= "RclBLleg"
+Node5DamageFactor			= 1.0
+Node5Radius					= 10.0
+Node5Priority				= 1.0
+
+
+Node6Name					= "Bone07"
+Node6Flags					= (DWORD)1
+Node6FrontShortRecoilAni	= "RclBLleg"
+Node6BackShortRecoilAni		= "RclBLleg"
+Node6DamageFactor			= 1.0
+Node6Radius					= 10.0
+Node6Priority				= 1.0
+
+
+Node7Name					= "Bone08"
+Node7Flags					= (DWORD)1
+Node7FrontShortRecoilAni	= "RclBLleg"
+Node7BackShortRecoilAni		= "RclBLleg"
+Node7DamageFactor			= 1.0
+Node7Radius					= 10.0
+Node7Priority				= 1.0
+
+Node8Name					= "Bone09"
+Node8Flags					= (DWORD)1
+Node8FrontShortRecoilAni	= "RclBLleg"
+Node8BackShortRecoilAni		= "RclBLleg"
+Node8DamageFactor			= 1.0
+Node8Radius					= 10.0
+Node8Priority				= 1.0
+
+Node9Name					= "Bone15"
+Node9Flags					= (DWORD)1
+Node9FrontShortRecoilAni	= "RclBLleg"
+Node9BackShortRecoilAni		= "RclBLleg"
+Node9DamageFactor			= 1.0
+Node9Radius					= 10.0
+Node9Priority				= 1.0
+
+Node10Name					= "Bone16"
+Node10Flags					= (DWORD)1
+Node10FrontShortRecoilAni	= "RclBLleg"
+Node10BackShortRecoilAni	= "RclBLleg"
+Node10DamageFactor			= 1.0
+Node10Radius				= 10.0
+Node10Priority				= 1.0
+
+Node11Name					= "Bone17"
+Node11Flags					= (DWORD)1
+Node11FrontShortRecoilAni	= "RclBLleg"
+Node11BackShortRecoilAni	= "RclBLleg"
+Node11DamageFactor			= 1.0
+Node11Radius				= 10.0
+Node11Priority				= 1.0
+
+Node12Name					= "Bone20"
+Node12Flags					= (DWORD)1
+Node12FrontShortRecoilAni	= "RclBLleg"
+Node12BackShortRecoilAni	= "RclBLleg"
+Node12DamageFactor			= 1.0
+Node12Radius				= 10.0
+Node12Priority				= 1.0
+
+Node13Name					= "Bone19"
+Node13Flags					= (DWORD)1
+Node13FrontShortRecoilAni	= "RclBLleg"
+Node13BackShortRecoilAni	= "RclBLleg"
+Node13DamageFactor			= 1.0
+Node13Radius				= 10.0
+Node13Priority				= 1.0
+
+Node14Name					= "Bone21"
+Node14Flags					= (DWORD)1
+Node14FrontShortRecoilAni	= "RclBLleg"
+Node14BackShortRecoilAni	= "RclBLleg"
+Node14DamageFactor			= 1.0
+Node14Radius				= 10.0
+Node14Priority				= 1.0
+
+
+
+//-------------------------------------------------------------
+// Zombie Model
+//-------------------------------------------------------------
+[Skeleton4]
+DefaultFrontDeathAni			= "D_ARMBa"
+DefaultBackDeathAni			= "D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+DefaultHitNode				= 1
+
+LookAtTrackingNodes			= 4
+AimAtTrackingNodes			= 4
+
+//대가리
+Node0Name				= "Bip01 Head"
+Node0Flags				= (DWORD)1
+Node0FrontDeathAni			= "D_HEADSHOTBa"
+Node0BackDeathAni			= "D_HEADSHOTFr"
+Node0FrontShortRecoilAni		= "RclFBD"
+Node0BackShortRecoilAni			= "RclBBD"
+Node0DamageFactor			= 25.0
+Node0Parent				= 4
+Node0RecoilParent			= 4
+Node0Location				= 1
+Node0Radius				= 6.3	//__ 6.5
+Node0Priority				= 1.0
+Node0AttachSpears			= 1
+
+Node1Name				= "Bip01 Spine"
+Node1Flags				= (DWORD)64
+Node1FrontDeathAni			= "D_CHESTBa"
+Node1BackDeathAni			= "D_CHESTFr"
+Node1FrontShortRecoilAni		= "RclFBD"
+Node1BackShortRecoilAni			= "RclBBD"
+Node1DamageFactor			= 1.0	//___ 0.8
+Node1Parent				= -1
+Node1RecoilParent			= -1
+Node1Location				= 2
+Node1Radius				= 9.0
+Node1Priority				= 0.5
+Node1AttachSpears			= 0
+
+Node2Name				= "Bip01 Spine1"
+Node2Flags				= (DWORD)64
+Node2FrontDeathAni			= "D_CHESTBa"
+Node2BackDeathAni			= "D_CHESTFr"
+Node2FrontShortRecoilAni		= "RclFBD"
+Node2BackShortRecoilAni			= "RclBBD"
+Node2DamageFactor			= 1.0	//___ 0.8
+Node2Parent				= 0
+Node2RecoilParent			= 0
+Node2Location				= 2
+Node2Radius				= 12.0
+Node2Priority				= 0.5
+Node2AttachSpears			= 1
+
+Node3Name				= "Bip01 Spine2"
+Node3Flags				= (DWORD)64
+Node3FrontDeathAni			= "D_CHESTBa"
+Node3BackDeathAni			= "D_CHESTFr"
+Node3FrontShortRecoilAni		= "RclFBD"
+Node3BackShortRecoilAni			= "RclBBD"
+Node3DamageFactor			= 1.0	//___ 0.8
+Node3Parent				= 1
+Node3RecoilParent			= 1
+Node3Location				= 2
+Node3Radius				= 12.0
+Node3Priority				= 0.5
+Node3AttachSpears			= 1
+
+Node4Name				= "Bip01 Spine3"
+Node4Flags				= (DWORD)64
+Node4FrontDeathAni			= "D_CHESTBa"
+Node4BackDeathAni			= "D_CHESTFr"
+Node4FrontShortRecoilAni		= "RclFBD"
+Node4BackShortRecoilAni			= "RclBBD"
+Node4DamageFactor			= 1.0	//___ 0.8
+Node4Parent				= 2
+Node4RecoilParent			= 2
+Node4Location				= 2
+Node4Radius				= 12.0	//___10.5
+Node4Priority				= 0.5
+Node4AttachSpears			= 0
+
+//목아지
+Node5Name				= "Bip01 Neck"
+Node5Flags				= (DWORD)64
+Node5FrontDeathAni			= "D_CHESTBa"
+Node5BackDeathAni			= "D_CHESTFr"
+Node5FrontShortRecoilAni		= "RclFBD"
+Node5BackShortRecoilAni			= "RclBBD"
+Node5DamageFactor			= 1.0
+Node5Parent				= 4
+Node5RecoilParent			= 4
+Node5Location				= 2
+Node5Radius				= 5.5
+Node5Priority				= 0.5
+Node5AttachSpears			= 1
+	
+//왼쪽 쇄골				
+Node6Name				= "Bip01 L Clavicle"
+Node6Flags				= (DWORD)64
+Node6FrontDeathAni			= "D_CHESTBa"
+Node6BackDeathAni			= "D_CHESTFr"
+Node6FrontShortRecoilAni		= "RclFLSH"
+Node6BackShortRecoilAni			= "RclBLSH"
+Node6DamageFactor			= 0.8
+Node6Parent				= 4
+Node6RecoilParent			= 4
+Node6Location				= 2
+Node6Radius				= 6.0
+Node6Priority				= 0.5
+Node6AttachSpears			= 1
+	
+//왼쪽 어깨						
+Node7Name				= "Bip01 L UpperArm"
+Node7Flags				= (DWORD)64
+Node7FrontDeathAni			= "D_ARMBa"
+Node7BackDeathAni			= "D_ARMFr"
+Node7FrontShortRecoilAni		= "RclFLSH"
+Node7BackShortRecoilAni			= "RclBLSH"
+Node7DamageFactor			= 0.8
+Node7Parent				= 6
+Node7RecoilParent			= 6
+Node7Location				= 2
+Node7Radius				= 7.0	//__ 6.0
+Node7Priority				= 0.5
+Node7AttachSpears			= 1
+					
+//왼쪽 팔꿈치
+Node8Name				= "Bip01 L Forearm"
+Node8Flags				= (DWORD)64
+Node8FrontDeathAni			= "D_ARMBa"
+Node8BackDeathAni			= "D_ARMFr"
+Node8FrontShortRecoilAni		= "RclFLSh"
+Node8BackShortRecoilAni			= "RclBLSh"
+Node8DamageFactor			= 0.3
+Node8Parent				= 7
+Node8RecoilParent			= 7
+Node8Location				= 3
+Node8Radius				= 7.0	//__ 6.0
+Node8Priority				= 0.25
+Node8AttachSpears			= 1
+
+//왼쪽 팔목
+Node9Name				= "Bip01 L Hand"
+Node9Flags				= (DWORD)64
+Node9FrontDeathAni			= "D_ARMBa"
+Node9BackDeathAni			= "D_ARMFr"
+Node9FrontShortRecoilAni		= "RclFLSh"
+Node9BackShortRecoilAni			= "RclBLSh"
+Node9DamageFactor			= 0.2
+Node9Parent				= 8
+Node9RecoilParent			= 8
+Node9Location				= 3
+Node9Radius				= 7.0	//__ 5.0
+Node9Priority				= 0.25
+Node9AttachSpears			= 1
+
+//오른쪽 쇄골
+Node10Name				= "Bip01 R Clavicle"
+Node10Flags				= (DWORD)64
+Node10FrontDeathAni			= "D_CHESTBa"
+Node10BackDeathAni			= "D_CHESTFr"
+Node10FrontShortRecoilAni		= "RclFLSh"
+Node10BackShortRecoilAni		= "RclBLSh"
+Node10DamageFactor			= 0.8
+Node10Parent				= 4
+Node10RecoilParent			= 4
+Node10Location				= 2
+Node10Radius				= 6.0
+Node10Priority				= 0.25
+Node10AttachSpears			= 1
+
+//오른쪽 어깨
+Node11Name				= "Bip01 R UpperArm"
+Node11Flags				= (DWORD)64
+Node11FrontDeathAni			= "D_ARMBa"
+Node11BackDeathAni			= "D_ARMFr"
+Node11FrontShortRecoilAni		= "RclFLSh"
+Node11BackShortRecoilAni		= "RclBLSh"
+Node11DamageFactor			= 0.8
+Node11Parent				= 10
+Node11RecoilParent			= 10
+Node11Location				= 2
+Node11Radius				= 7.0	//__ 6.0
+Node11Priority				= 0.25
+Node11AttachSpears			= 1
+
+//오른쪽 팔꿈치
+Node12Name				= "Bip01 R Forearm"
+Node12Flags				= (DWORD)64
+Node12FrontDeathAni			= "D_ARMBa"
+Node12BackDeathAni			= "D_ARMFr"
+Node12FrontShortRecoilAni		= "RclFLSh"
+Node12BackShortRecoilAni		= "RclBLSh"
+Node12DamageFactor			= 0.3
+Node12Parent				= 11
+Node12RecoilParent			= 11
+Node12Location				= 3
+Node12Radius				= 7.0	//__ 6.0
+Node12Priority				= 0.25
+Node12AttachSpears			= 1
+
+//오른쪽 팔목
+Node13Name				= "Bip01 R Hand"
+Node13Flags				= (DWORD)64
+Node13FrontDeathAni			= "D_ARMBa"
+Node13BackDeathAni			= "D_ARMFr"
+Node13FrontShortRecoilAni		= "RclFLSh"
+Node13BackShortRecoilAni		= "RclBLSh"
+Node13DamageFactor			= 0.2
+Node13Parent				= 12
+Node13RecoilParent			= 12
+Node13Location				= 3
+Node13Radius				= 7.0	//__ 5.0
+Node13Priority				= 0.25
+Node13AttachSpears			= 1
+
+//자지
+Node14Name				= "Bip01 Pelvis"
+Node14Flags				= (DWORD)0
+Node14FrontDeathAni			= "D_CHESTBa"
+Node14BackDeathAni			= "D_CHESTFr"
+Node14FrontShortRecoilAni		= "RclFBD"
+Node14BackShortRecoilAni		= "RclBBD"
+Node14DamageFactor			= 1.0
+Node14Parent				= -1
+Node14RecoilParent			= -1
+Node14Location				= 4
+Node14Radius				= 6.0
+Node14Priority				= 0.25
+
+//왼쪽 골반
+Node15Name				= "Bip01 L Thigh"
+Node15Flags				= (DWORD)64
+Node15FrontDeathAni			= "D_LEGBa"
+Node15BackDeathAni			= "D_LEGFr"
+Node15FrontShortRecoilAni		= "RclFRSh"
+Node15BackShortRecoilAni		= "RclBRSh"
+Node15DamageFactor			= 0.4
+Node15Parent				= 0
+Node15RecoilParent			= 0
+Node15Location				= 4
+Node15Radius				= 10.0
+Node15Priority				= 0.5
+Node15AttachSpears			= 1
+
+//왼쪽 무릎
+Node16Name				= "Bip01 L Calf"
+Node16Flags				= (DWORD)0
+Node16FrontDeathAni			= "D_LEGBa"
+Node16BackDeathAni			= "D_LEGFr"
+Node16FrontShortRecoilAni		= "RclFRSh"
+Node16BackShortRecoilAni		= "RclBRSh"
+Node16DamageFactor			= 0.3
+Node16Parent				= 15
+Node16RecoilParent			= 15
+Node16Location				= 4
+Node16Radius				= 10.0
+Node16Priority				= 0.5
+Node16AttachSpears			= 1
+	
+//왼쪽 뒷금치					
+Node17Name				= "Bip01 L Foot"
+Node17Flags				= (DWORD)0
+Node17FrontDeathAni			= "D_LEGBa"
+Node17BackDeathAni			= "D_LEGFr"
+Node17FrontShortRecoilAni		= "RclFRSh"
+Node17BackShortRecoilAni		= "RclBRSh"
+Node17DamageFactor			= 0.2
+Node17Parent				= 16
+Node17RecoilParent			= 16
+Node17Location				= 4
+Node17Radius				= 7.5
+Node17Priority				= 0.25
+Node17AttachSpears			= 1
+	
+//왼쪽 발바닥					
+Node18Name				= "Bip01 L Toe0"
+Node18Flags				= (DWORD)0
+Node18FrontDeathAni			= "D_LEGBa"
+Node18BackDeathAni			= "D_LEGFr"
+Node18FrontShortRecoilAni		= "RclFRSh"
+Node18BackShortRecoilAni		= "RclBRSh"
+Node18DamageFactor			= 0.25
+Node18Parent				= 17
+Node18RecoilParent			= 17
+Node18Location				= 4
+Node18Radius				= 5.0
+Node18Priority				= 0.25
+Node18AttachSpears			= 1
+
+//오른쪽 골반
+Node19Name				= "Bip01 R Thigh"
+Node19Flags				= (DWORD)64
+Node19FrontDeathAni			= "D_LEGBa"
+Node19BackDeathAni			= "D_LEGFr"
+Node19FrontShortRecoilAni		= "RclFRSh"
+Node19BackShortRecoilAni		= "RclBRSh"
+Node19DamageFactor			= 0.4
+Node19Parent				= 0
+Node19RecoilParent			= 0
+Node19Location				= 4
+Node19Radius				= 10.0
+Node19Priority				= 0.25
+
+//오른쪽 무릎
+Node20Name				= "Bip01 R Calf"
+Node20Flags				= (DWORD)64
+Node20FrontDeathAni			= "D_LEGBa"
+Node20BackDeathAni			= "D_LEGFr"
+Node20FrontShortRecoilAni		= "RclFRSh"
+Node20BackShortRecoilAni		= "RclBRSh"
+Node20DamageFactor			= 0.3
+Node20Parent				= 19
+Node20RecoilParent			= 19
+Node20Location				= 4
+Node20Radius				= 10.0
+Node20Priority				= 0.25
+
+//오른쪽 뒷금치
+Node21Name				= "Bip01 R Foot"
+Node21Flags				= (DWORD)64
+Node21FrontDeathAni			= "D_LEGBa"
+Node21BackDeathAni			= "D_LEGFr"
+Node21FrontShortRecoilAni		= "RclFRSh"
+Node21BackShortRecoilAni		= "RclBRSh"
+Node21DamageFactor			= 0.2
+Node21Parent				= 20
+Node21RecoilParent			= 20
+Node21Location				= 4
+Node21Radius				= 7.5
+Node21Priority				= 0.25
+
+//오른쪽 발바닥
+Node22Name				= "Bip01 R Toe0"
+Node22Flags				= (DWORD)64
+Node22FrontDeathAni			= "D_LEGBa"
+Node22BackDeathAni			= "D_LEGFr"
+Node22FrontShortRecoilAni		= "RclFRSh"
+Node22BackShortRecoilAni		= "RclBRSh"
+Node22DamageFactor			= 0.2
+Node22Parent				= 21
+Node22RecoilParent			= 21
+Node22Location				= 4
+Node22Radius				= 5.0
+Node22Priority				= 0.25
+
+//대가리
+Node23Name				= "Bip01 Ponytail1"
+Node23Flags				= (DWORD)1
+Node23FrontDeathAni			= "D_HEADSHOTBa"
+Node23BackDeathAni			= "D_HEADSHOTFr"
+Node23FrontShortRecoilAni		= "RclFBD"
+Node23BackShortRecoilAni		= "RclBBD"
+Node23DamageFactor			= 25.0
+Node23Parent				= 4
+Node23RecoilParent			= 4
+Node23Location				= 1
+Node23Radius				= 5	//__ 6.5
+Node23Priority				= 1.0
+Node23AttachSpears			= 1
+
+//-------------------------------------------------------------
+// Zombie Model
+//-------------------------------------------------------------
+// Type : 자폭좀비
+// Location 	: None(0), 머리(1), 몸통(2), 팔(3), 다리(4)
+//-------------------------------------------------------------
+
+[Skeleton5]
+DefaultFrontDeathAni			= "D_ARMBa"
+DefaultBackDeathAni			= "D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+DefaultHitNode				= 1
+
+LookAtTrackingNodes			= 4
+AimAtTrackingNodes			= 4
+
+//대가리
+Node0Name				= "Bip01 Head"
+Node0Flags				= (DWORD)1
+Node0FrontDeathAni			= "D_HEADSHOTBa"
+Node0BackDeathAni			= "D_HEADSHOTFr"
+Node0FrontShortRecoilAni		= "RclFBD"
+Node0BackShortRecoilAni			= "RclBBD"
+Node0DamageFactor			= 25.0
+Node0Parent				= 4
+Node0RecoilParent			= 4
+Node0Location				= 1
+Node0Radius				= 6.3	//__ 6.5
+Node0Priority				= 1.0
+Node0AttachSpears			= 1
+
+Node1Name				= "Bip01 Spine"
+Node1Flags				= (DWORD)64
+Node1FrontDeathAni			= "D_CHESTBa"
+Node1BackDeathAni			= "D_CHESTFr"
+Node1FrontShortRecoilAni		= "RclFBD"
+Node1BackShortRecoilAni			= "RclBBD"
+Node1DamageFactor			= 1.0	//___ 0.8
+Node1Parent				= -1
+Node1RecoilParent			= -1
+Node1Location				= 2
+Node1Radius				= 9.0
+Node1Priority				= 0.5
+
+Node2Name				= "Bip01 Spine1"
+Node2Flags				= (DWORD)64
+Node2FrontDeathAni			= "D_CHESTBa"
+Node2BackDeathAni			= "D_CHESTFr"
+Node2FrontShortRecoilAni		= "RclFBD"
+Node2BackShortRecoilAni			= "RclBBD"
+Node2DamageFactor			= 1.0	//___ 0.8
+Node2Parent				= 0
+Node2RecoilParent			= 0
+Node2Location				= 2
+Node2Radius				= 12.0
+Node2Priority				= 0.5
+
+Node3Name				= "Bip01 Spine2"
+Node3Flags				= (DWORD)64
+Node3FrontDeathAni			= "D_CHESTBa"
+Node3BackDeathAni			= "D_CHESTFr"
+Node3FrontShortRecoilAni		= "RclFBD"
+Node3BackShortRecoilAni			= "RclBBD"
+Node3DamageFactor			= 1.0	//___ 0.8
+Node3Parent				= 1
+Node3RecoilParent			= 1
+Node3Location				= 2
+Node3Radius				= 12.0
+Node3Priority				= 0.5
+
+Node4Name				= "Bip01 Spine3"
+Node4Flags				= (DWORD)64
+Node4FrontDeathAni			= "D_CHESTBa"
+Node4BackDeathAni			= "D_CHESTFr"
+Node4FrontShortRecoilAni		= "RclFBD"
+Node4BackShortRecoilAni			= "RclBBD"
+Node4DamageFactor			= 1.0	//___ 0.8
+Node4Parent				= 2
+Node4RecoilParent			= 2
+Node4Location				= 2
+Node4Radius				= 12.0	//___10.5
+Node4Priority				= 0.5
+
+//목아지
+Node5Name				= "Bip01 Neck"
+Node5Flags				= (DWORD)64
+Node5FrontDeathAni			= "D_CHESTBa"
+Node5BackDeathAni			= "D_CHESTFr"
+Node5FrontShortRecoilAni		= "RclFBD"
+Node5BackShortRecoilAni			= "RclBBD"
+Node5DamageFactor			= 1.0
+Node5Parent				= 4
+Node5RecoilParent			= 4
+Node5Location				= 2
+Node5Radius				= 5.5
+Node5Priority				= 0.5
+	
+//왼쪽 쇄골				
+Node6Name				= "Bip01 L Clavicle"
+Node6Flags				= (DWORD)64
+Node6FrontDeathAni			= "D_CHESTBa"
+Node6BackDeathAni			= "D_CHESTFr"
+Node6FrontShortRecoilAni		= "RclFLSH"
+Node6BackShortRecoilAni			= "RclBLSH"
+Node6DamageFactor			= 0.8
+Node6Parent				= 4
+Node6RecoilParent			= 4
+Node6Location				= 2
+Node6Radius				= 6.0
+Node6Priority				= 0.5
+Node6AttachSpears			= 1
+	
+//왼쪽 어깨						
+Node7Name				= "Bip01 L UpperArm"
+Node7Flags				= (DWORD)64
+Node7FrontDeathAni			= "D_ARMBa"
+Node7BackDeathAni			= "D_ARMFr"
+Node7FrontShortRecoilAni		= "RclFLSH"
+Node7BackShortRecoilAni			= "RclBLSH"
+Node7DamageFactor			= 0.8
+Node7Parent				= 6
+Node7RecoilParent			= 6
+Node7Location				= 2
+Node7Radius				= 7.0	//__ 6.0
+Node7Priority				= 0.5
+Node7AttachSpears			= 1
+					
+//왼쪽 팔꿈치
+Node8Name				= "Bip01 L Forearm"
+Node8Flags				= (DWORD)64
+Node8FrontDeathAni			= "D_ARMBa"
+Node8BackDeathAni			= "D_ARMFr"
+Node8FrontShortRecoilAni		= "RclFLSh"
+Node8BackShortRecoilAni			= "RclBLSh"
+Node8DamageFactor			= 0.3
+Node8Parent				= 7
+Node8RecoilParent			= 7
+Node8Location				= 3
+Node8Radius				= 7.0	//__ 6.0
+Node8Priority				= 0.25
+
+//왼쪽 팔목
+Node9Name				= "Bip01 L Hand"
+Node9Flags				= (DWORD)64
+Node9FrontDeathAni			= "D_ARMBa"
+Node9BackDeathAni			= "D_ARMFr"
+Node9FrontShortRecoilAni		= "RclFLSh"
+Node9BackShortRecoilAni			= "RclBLSh"
+Node9DamageFactor			= 0.2
+Node9Parent				= 8
+Node9RecoilParent			= 8
+Node9Location				= 3
+Node9Radius				= 7.0	//__ 5.0
+Node9Priority				= 0.25
+Node9AttachSpears			= 1
+
+//오른쪽 쇄골
+Node10Name				= "Bip01 R Clavicle"
+Node10Flags				= (DWORD)64
+Node10FrontDeathAni			= "D_CHESTBa"
+Node10BackDeathAni			= "D_CHESTFr"
+Node10FrontShortRecoilAni		= "RclFLSh"
+Node10BackShortRecoilAni		= "RclBLSh"
+Node10DamageFactor			= 0.8
+Node10Parent				= 4
+Node10RecoilParent			= 4
+Node10Location				= 2
+Node10Radius				= 6.0
+Node10Priority				= 0.25
+Node10AttachSpears			= 1
+
+//오른쪽 어깨
+Node11Name				= "Bip01 R UpperArm"
+Node11Flags				= (DWORD)64
+Node11FrontDeathAni			= "D_ARMBa"
+Node11BackDeathAni			= "D_ARMFr"
+Node11FrontShortRecoilAni		= "RclFLSh"
+Node11BackShortRecoilAni		= "RclBLSh"
+Node11DamageFactor			= 0.8
+Node11Parent				= 10
+Node11RecoilParent			= 10
+Node11Location				= 2
+Node11Radius				= 7.0	//__ 6.0
+Node11Priority				= 0.25
+Node11AttachSpears			= 1
+
+//오른쪽 팔꿈치
+Node12Name				= "Bip01 R Forearm"
+Node12Flags				= (DWORD)64
+Node12FrontDeathAni			= "D_ARMBa"
+Node12BackDeathAni			= "D_ARMFr"
+Node12FrontShortRecoilAni		= "RclFLSh"
+Node12BackShortRecoilAni		= "RclBLSh"
+Node12DamageFactor			= 0.3
+Node12Parent				= 11
+Node12RecoilParent			= 11
+Node12Location				= 3
+Node12Radius				= 7.0	//__ 6.0
+Node12Priority				= 0.25
+Node12AttachSpears			= 1
+
+//오른쪽 팔목
+Node13Name				= "Bip01 R Hand"
+Node13Flags				= (DWORD)64
+Node13FrontDeathAni			= "D_ARMBa"
+Node13BackDeathAni			= "D_ARMFr"
+Node13FrontShortRecoilAni		= "RclFLSh"
+Node13BackShortRecoilAni		= "RclBLSh"
+Node13DamageFactor			= 0.2
+Node13Parent				= 12
+Node13RecoilParent			= 12
+Node13Location				= 3
+Node13Radius				= 7.0	//__ 5.0
+Node13Priority				= 0.25
+Node13AttachSpears			= 1
+
+//자지
+Node14Name				= "Bip01 Pelvis"
+Node14Flags				= (DWORD)0
+Node14FrontDeathAni			= "D_CHESTBa"
+Node14BackDeathAni			= "D_CHESTFr"
+Node14FrontShortRecoilAni		= "RclFBD"
+Node14BackShortRecoilAni		= "RclBBD"
+Node14DamageFactor			= 1.0
+Node14Parent				= -1
+Node14RecoilParent			= -1
+Node14Location				= 4
+Node14Radius				= 6.0
+Node14Priority				= 0.25
+
+//왼쪽 골반
+Node15Name				= "Bip01 L Thigh"
+Node15Flags				= (DWORD)64
+Node15FrontDeathAni			= "D_LEGBa"
+Node15BackDeathAni			= "D_LEGFr"
+Node15FrontShortRecoilAni		= "RclFRSh"
+Node15BackShortRecoilAni		= "RclBRSh"
+Node15DamageFactor			= 0.4
+Node15Parent				= 0
+Node15RecoilParent			= 0
+Node15Location				= 4
+Node15Radius				= 10.0
+Node15Priority				= 0.5
+Node15AttachSpears			= 1
+
+//왼쪽 무릎
+Node16Name				= "Bip01 L Calf"
+Node16Flags				= (DWORD)0
+Node16FrontDeathAni			= "D_LEGBa"
+Node16BackDeathAni			= "D_LEGFr"
+Node16FrontShortRecoilAni		= "RclFRSh"
+Node16BackShortRecoilAni		= "RclBRSh"
+Node16DamageFactor			= 0.3
+Node16Parent				= 15
+Node16RecoilParent			= 15
+Node16Location				= 4
+Node16Radius				= 10.0
+Node16Priority				= 0.5
+Node16AttachSpears			= 1
+	
+//왼쪽 뒷금치					
+Node17Name				= "Bip01 L Foot"
+Node17Flags				= (DWORD)0
+Node17FrontDeathAni			= "D_LEGBa"
+Node17BackDeathAni			= "D_LEGFr"
+Node17FrontShortRecoilAni		= "RclFRSh"
+Node17BackShortRecoilAni		= "RclBRSh"
+Node17DamageFactor			= 0.2
+Node17Parent				= 16
+Node17RecoilParent			= 16
+Node17Location				= 4
+Node17Radius				= 7.5
+Node17Priority				= 0.25
+	
+//왼쪽 발바닥					
+Node18Name				= "Bip01 L Toe0"
+Node18Flags				= (DWORD)0
+Node18FrontDeathAni			= "D_LEGBa"
+Node18BackDeathAni			= "D_LEGFr"
+Node18FrontShortRecoilAni		= "RclFRSh"
+Node18BackShortRecoilAni		= "RclBRSh"
+Node18DamageFactor			= 0.25
+Node18Parent				= 17
+Node18RecoilParent			= 17
+Node18Location				= 4
+Node18Radius				= 5.0
+Node18Priority				= 0.25
+Node18AttachSpears			= 1
+
+//오른쪽 골반
+Node19Name				= "Bip01 R Thigh"
+Node19Flags				= (DWORD)64
+Node19FrontDeathAni			= "D_LEGBa"
+Node19BackDeathAni			= "D_LEGFr"
+Node19FrontShortRecoilAni		= "RclFRSh"
+Node19BackShortRecoilAni		= "RclBRSh"
+Node19DamageFactor			= 0.4
+Node19Parent				= 0
+Node19RecoilParent			= 0
+Node19Location				= 4
+Node19Radius				= 10.0
+Node19Priority				= 0.25
+
+//오른쪽 무릎
+Node20Name				= "Bip01 R Calf"
+Node20Flags				= (DWORD)64
+Node20FrontDeathAni			= "D_LEGBa"
+Node20BackDeathAni			= "D_LEGFr"
+Node20FrontShortRecoilAni		= "RclFRSh"
+Node20BackShortRecoilAni		= "RclBRSh"
+Node20DamageFactor			= 0.3
+Node20Parent				= 19
+Node20RecoilParent			= 19
+Node20Location				= 4
+Node20Radius				= 10.0
+Node20Priority				= 0.25
+
+//오른쪽 뒷금치
+Node21Name				= "Bip01 R Foot"
+Node21Flags				= (DWORD)64
+Node21FrontDeathAni			= "D_LEGBa"
+Node21BackDeathAni			= "D_LEGFr"
+Node21FrontShortRecoilAni		= "RclFRSh"
+Node21BackShortRecoilAni		= "RclBRSh"
+Node21DamageFactor			= 0.2
+Node21Parent				= 20
+Node21RecoilParent			= 20
+Node21Location				= 4
+Node21Radius				= 7.5
+Node21Priority				= 0.25
+
+//오른쪽 발바닥
+Node22Name				= "Bip01 R Toe0"
+Node22Flags				= (DWORD)64
+Node22FrontDeathAni			= "D_LEGBa"
+Node22BackDeathAni			= "D_LEGFr"
+Node22FrontShortRecoilAni		= "RclFRSh"
+Node22BackShortRecoilAni		= "RclBRSh"
+Node22DamageFactor			= 0.2
+Node22Parent				= 21
+Node22RecoilParent			= 21
+Node22Location				= 4
+Node22Radius				= 5.0
+Node22Priority				= 0.25
+
+//배
+Node23Name				= "Bone003"
+Node23Flags				= (DWORD)64
+Node23FrontDeathAni			= "D_CHESTBa"
+Node23BackDeathAni			= "D_CHESTFr"
+Node23FrontShortRecoilAni		= "RclFBD"
+Node23BackShortRecoilAni		= "RclBBD"
+Node23DamageFactor			= 1.0	//___ 0.8
+Node23Parent				= 0
+Node23RecoilParent			= 0
+Node23Location				= 2
+Node23Radius				= 6.0
+Node23Priority				= 0.5
+Node23AttachSpears			= 1
+
+Node24Name				= "Bone004"
+Node24Flags				= (DWORD)64
+Node24FrontDeathAni			= "D_CHESTBa"
+Node24BackDeathAni			= "D_CHESTFr"
+Node24FrontShortRecoilAni		= "RclFBD"
+Node24BackShortRecoilAni		= "RclBBD"
+Node24DamageFactor			= 1.0	//___ 0.8
+Node24Parent				= 0
+Node24RecoilParent			= 0
+Node24Location				= 2
+Node24Radius				= 6.0
+Node24Priority				= 0.5
+Node24AttachSpears			= 1
+
+Node25Name				= "Bone005"
+Node25Flags				= (DWORD)64
+Node25FrontDeathAni			= "D_CHESTBa"
+Node25BackDeathAni			= "D_CHESTFr"
+Node25FrontShortRecoilAni		= "RclFBD"
+Node25BackShortRecoilAni		= "RclBBD"
+Node25DamageFactor			= 1.0	//___ 0.8
+Node25Parent				= 0
+Node25RecoilParent			= 0
+Node25Location				= 2
+Node25Radius				= 6.0
+Node25Priority				= 0.5
+Node25AttachSpears			= 1
+
+Node26Name				= "Bone006"
+Node26Flags				= (DWORD)64
+Node26FrontDeathAni			= "D_CHESTBa"
+Node26BackDeathAni			= "D_CHESTFr"
+Node26FrontShortRecoilAni		= "RclFBD"
+Node26BackShortRecoilAni		= "RclBBD"
+Node26DamageFactor			= 1.0	//___ 0.8
+Node26Parent				= 0
+Node26RecoilParent			= 0
+Node26Location				= 2
+Node26Radius				= 6.0
+Node26Priority				= 0.5
+Node26AttachSpears			= 1
+
+Node27Name				= "Bone007"
+Node27Flags				= (DWORD)64
+Node27FrontDeathAni			= "D_CHESTBa"
+Node27BackDeathAni			= "D_CHESTFr"
+Node27FrontShortRecoilAni		= "RclFBD"
+Node27BackShortRecoilAni		= "RclBBD"
+Node27DamageFactor			= 1.0	//___ 0.8
+Node27Parent				= 0
+Node27RecoilParent			= 0
+Node27Location				= 2
+Node27Radius				= 6.0
+Node27Priority				= 0.5
+Node27AttachSpears			= 1
+
+//-------------------------------------------------------------
+// Zombie Model
+//-------------------------------------------------------------
+// Type : 헤비좀비
+// Location 	: None(0), 머리(1), 몸통(2), 팔(3), 다리(4)
+//-------------------------------------------------------------
+
+[Skeleton6]
+DefaultFrontDeathAni			= "D_ARMBa"
+DefaultBackDeathAni			= "D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+DefaultHitNode				= 1
+
+LookAtTrackingNodes			= 4
+AimAtTrackingNodes			= 4
+
+//대가리
+Node0Name				= "Bip01 Head"
+Node0Flags				= (DWORD)1
+Node0FrontDeathAni			= "D_HEADSHOTBa"
+Node0BackDeathAni			= "D_HEADSHOTFr"
+Node0FrontShortRecoilAni		= "RclFBD"
+Node0BackShortRecoilAni			= "RclBBD"
+Node0DamageFactor			= 25.0
+Node0Parent				= 4
+Node0RecoilParent			= 4
+Node0Location				= 1
+Node0Radius				= 6.3	//__ 6.5
+Node0Priority				= 1.0
+Node0AttachSpears			= 1
+
+Node1Name				= "Bip01 Spine"
+Node1Flags				= (DWORD)64
+Node1FrontDeathAni			= "D_CHESTBa"
+Node1BackDeathAni			= "D_CHESTFr"
+Node1FrontShortRecoilAni		= "RclFBD"
+Node1BackShortRecoilAni			= "RclBBD"
+Node1DamageFactor			= 1.0	//___ 0.8
+Node1Parent				= -1
+Node1RecoilParent			= -1
+Node1Location				= 2
+Node1Radius				= 9.0
+Node1Priority				= 0.5
+
+Node2Name				= "Bip01 Spine1"
+Node2Flags				= (DWORD)64
+Node2FrontDeathAni			= "D_CHESTBa"
+Node2BackDeathAni			= "D_CHESTFr"
+Node2FrontShortRecoilAni		= "RclFBD"
+Node2BackShortRecoilAni			= "RclBBD"
+Node2DamageFactor			= 1.0	//___ 0.8
+Node2Parent				= 0
+Node2RecoilParent			= 0
+Node2Location				= 2
+Node2Radius				= 12.0
+Node2Priority				= 0.5
+
+Node3Name				= "Bip01 Spine2"
+Node3Flags				= (DWORD)64
+Node3FrontDeathAni			= "D_CHESTBa"
+Node3BackDeathAni			= "D_CHESTFr"
+Node3FrontShortRecoilAni		= "RclFBD"
+Node3BackShortRecoilAni			= "RclBBD"
+Node3DamageFactor			= 1.0	//___ 0.8
+Node3Parent				= 1
+Node3RecoilParent			= 1
+Node3Location				= 2
+Node3Radius				= 12.0
+Node3Priority				= 0.5
+
+Node4Name				= "Bip01 Spine3"
+Node4Flags				= (DWORD)64
+Node4FrontDeathAni			= "D_CHESTBa"
+Node4BackDeathAni			= "D_CHESTFr"
+Node4FrontShortRecoilAni		= "RclFBD"
+Node4BackShortRecoilAni			= "RclBBD"
+Node4DamageFactor			= 1.0	//___ 0.8
+Node4Parent				= 2
+Node4RecoilParent			= 2
+Node4Location				= 2
+Node4Radius				= 12.0	//___10.5
+Node4Priority				= 0.5
+
+//목아지
+Node5Name				= "Bip01 Neck"
+Node5Flags				= (DWORD)64
+Node5FrontDeathAni			= "D_CHESTBa"
+Node5BackDeathAni			= "D_CHESTFr"
+Node5FrontShortRecoilAni		= "RclFBD"
+Node5BackShortRecoilAni			= "RclBBD"
+Node5DamageFactor			= 1.0
+Node5Parent				= 4
+Node5RecoilParent			= 4
+Node5Location				= 2
+Node5Radius				= 5.5
+Node5Priority				= 0.5
+	
+//왼쪽 쇄골				
+Node6Name				= "Bip01 L Clavicle"
+Node6Flags				= (DWORD)64
+Node6FrontDeathAni			= "D_CHESTBa"
+Node6BackDeathAni			= "D_CHESTFr"
+Node6FrontShortRecoilAni		= "RclFLSH"
+Node6BackShortRecoilAni			= "RclBLSH"
+Node6DamageFactor			= 0.8
+Node6Parent				= 4
+Node6RecoilParent			= 4
+Node6Location				= 2
+Node6Radius				= 6.0
+Node6Priority				= 0.5
+Node6AttachSpears			= 1
+	
+//왼쪽 어깨						
+Node7Name				= "Bip01 L UpperArm"
+Node7Flags				= (DWORD)64
+Node7FrontDeathAni			= "D_ARMBa"
+Node7BackDeathAni			= "D_ARMFr"
+Node7FrontShortRecoilAni		= "RclFLSH"
+Node7BackShortRecoilAni			= "RclBLSH"
+Node7DamageFactor			= 0.8
+Node7Parent				= 6
+Node7RecoilParent			= 6
+Node7Location				= 2
+Node7Radius				= 7.0	//__ 6.0
+Node7Priority				= 0.5
+Node7AttachSpears			= 1
+					
+//왼쪽 팔꿈치
+Node8Name				= "Bip01 L Forearm"
+Node8Flags				= (DWORD)64
+Node8FrontDeathAni			= "D_ARMBa"
+Node8BackDeathAni			= "D_ARMFr"
+Node8FrontShortRecoilAni		= "RclFLSh"
+Node8BackShortRecoilAni			= "RclBLSh"
+Node8DamageFactor			= 0.3
+Node8Parent				= 7
+Node8RecoilParent			= 7
+Node8Location				= 3
+Node8Radius				= 7.0	//__ 6.0
+Node8Priority				= 0.25
+
+//왼쪽 팔목
+Node9Name				= "Bip01 L Hand"
+Node9Flags				= (DWORD)64
+Node9FrontDeathAni			= "D_ARMBa"
+Node9BackDeathAni			= "D_ARMFr"
+Node9FrontShortRecoilAni		= "RclFLSh"
+Node9BackShortRecoilAni			= "RclBLSh"
+Node9DamageFactor			= 0.2
+Node9Parent				= 8
+Node9RecoilParent			= 8
+Node9Location				= 3
+Node9Radius				= 7.0	//__ 5.0
+Node9Priority				= 0.25
+Node9AttachSpears			= 1
+
+//오른쪽 쇄골
+Node10Name				= "Bip01 R Clavicle"
+Node10Flags				= (DWORD)64
+Node10FrontDeathAni			= "D_CHESTBa"
+Node10BackDeathAni			= "D_CHESTFr"
+Node10FrontShortRecoilAni		= "RclFLSh"
+Node10BackShortRecoilAni		= "RclBLSh"
+Node10DamageFactor			= 0.8
+Node10Parent				= 4
+Node10RecoilParent			= 4
+Node10Location				= 2
+Node10Radius				= 6.0
+Node10Priority				= 0.25
+Node10AttachSpears			= 1
+
+//오른쪽 어깨
+Node11Name				= "Bip01 R UpperArm"
+Node11Flags				= (DWORD)64
+Node11FrontDeathAni			= "D_ARMBa"
+Node11BackDeathAni			= "D_ARMFr"
+Node11FrontShortRecoilAni		= "RclFLSh"
+Node11BackShortRecoilAni		= "RclBLSh"
+Node11DamageFactor			= 0.8
+Node11Parent				= 10
+Node11RecoilParent			= 10
+Node11Location				= 2
+Node11Radius				= 7.0	//__ 6.0
+Node11Priority				= 0.25
+Node11AttachSpears			= 1
+
+//오른쪽 팔꿈치
+Node12Name				= "Bip01 R Forearm"
+Node12Flags				= (DWORD)64
+Node12FrontDeathAni			= "D_ARMBa"
+Node12BackDeathAni			= "D_ARMFr"
+Node12FrontShortRecoilAni		= "RclFLSh"
+Node12BackShortRecoilAni		= "RclBLSh"
+Node12DamageFactor			= 0.3
+Node12Parent				= 11
+Node12RecoilParent			= 11
+Node12Location				= 3
+Node12Radius				= 7.0	//__ 6.0
+Node12Priority				= 0.25
+Node12AttachSpears			= 1
+
+//오른쪽 팔목
+Node13Name				= "Bip01 R Hand"
+Node13Flags				= (DWORD)64
+Node13FrontDeathAni			= "D_ARMBa"
+Node13BackDeathAni			= "D_ARMFr"
+Node13FrontShortRecoilAni		= "RclFLSh"
+Node13BackShortRecoilAni		= "RclBLSh"
+Node13DamageFactor			= 0.2
+Node13Parent				= 12
+Node13RecoilParent			= 12
+Node13Location				= 3
+Node13Radius				= 7.0	//__ 5.0
+Node13Priority				= 0.25
+Node13AttachSpears			= 1
+
+//자지
+Node14Name				= "Bip01 Pelvis"
+Node14Flags				= (DWORD)0
+Node14FrontDeathAni			= "D_CHESTBa"
+Node14BackDeathAni			= "D_CHESTFr"
+Node14FrontShortRecoilAni		= "RclFBD"
+Node14BackShortRecoilAni		= "RclBBD"
+Node14DamageFactor			= 1.0
+Node14Parent				= -1
+Node14RecoilParent			= -1
+Node14Location				= 4
+Node14Radius				= 6.0
+Node14Priority				= 0.25
+
+//왼쪽 골반
+Node15Name				= "Bip01 L Thigh"
+Node15Flags				= (DWORD)64
+Node15FrontDeathAni			= "D_LEGBa"
+Node15BackDeathAni			= "D_LEGFr"
+Node15FrontShortRecoilAni		= "RclFRSh"
+Node15BackShortRecoilAni		= "RclBRSh"
+Node15DamageFactor			= 0.4
+Node15Parent				= 0
+Node15RecoilParent			= 0
+Node15Location				= 4
+Node15Radius				= 10.0
+Node15Priority				= 0.5
+Node15AttachSpears			= 1
+
+//왼쪽 무릎
+Node16Name				= "Bip01 L Calf"
+Node16Flags				= (DWORD)0
+Node16FrontDeathAni			= "D_LEGBa"
+Node16BackDeathAni			= "D_LEGFr"
+Node16FrontShortRecoilAni		= "RclFRSh"
+Node16BackShortRecoilAni		= "RclBRSh"
+Node16DamageFactor			= 0.3
+Node16Parent				= 15
+Node16RecoilParent			= 15
+Node16Location				= 4
+Node16Radius				= 10.0
+Node16Priority				= 0.5
+Node16AttachSpears			= 1
+	
+//왼쪽 뒷금치					
+Node17Name				= "Bip01 L Foot"
+Node17Flags				= (DWORD)0
+Node17FrontDeathAni			= "D_LEGBa"
+Node17BackDeathAni			= "D_LEGFr"
+Node17FrontShortRecoilAni		= "RclFRSh"
+Node17BackShortRecoilAni		= "RclBRSh"
+Node17DamageFactor			= 0.2
+Node17Parent				= 16
+Node17RecoilParent			= 16
+Node17Location				= 4
+Node17Radius				= 7.5
+Node17Priority				= 0.25
+	
+//왼쪽 발바닥					
+Node18Name				= "Bip01 L Toe0"
+Node18Flags				= (DWORD)0
+Node18FrontDeathAni			= "D_LEGBa"
+Node18BackDeathAni			= "D_LEGFr"
+Node18FrontShortRecoilAni		= "RclFRSh"
+Node18BackShortRecoilAni		= "RclBRSh"
+Node18DamageFactor			= 0.25
+Node18Parent				= 17
+Node18RecoilParent			= 17
+Node18Location				= 4
+Node18Radius				= 5.0
+Node18Priority				= 0.25
+Node18AttachSpears			= 1
+
+//오른쪽 골반
+Node19Name				= "Bip01 R Thigh"
+Node19Flags				= (DWORD)64
+Node19FrontDeathAni			= "D_LEGBa"
+Node19BackDeathAni			= "D_LEGFr"
+Node19FrontShortRecoilAni		= "RclFRSh"
+Node19BackShortRecoilAni		= "RclBRSh"
+Node19DamageFactor			= 0.4
+Node19Parent				= 0
+Node19RecoilParent			= 0
+Node19Location				= 4
+Node19Radius				= 10.0
+Node19Priority				= 0.25
+
+//오른쪽 무릎
+Node20Name				= "Bip01 R Calf"
+Node20Flags				= (DWORD)64
+Node20FrontDeathAni			= "D_LEGBa"
+Node20BackDeathAni			= "D_LEGFr"
+Node20FrontShortRecoilAni		= "RclFRSh"
+Node20BackShortRecoilAni		= "RclBRSh"
+Node20DamageFactor			= 0.3
+Node20Parent				= 19
+Node20RecoilParent			= 19
+Node20Location				= 4
+Node20Radius				= 10.0
+Node20Priority				= 0.25
+
+//오른쪽 뒷금치
+Node21Name				= "Bip01 R Foot"
+Node21Flags				= (DWORD)64
+Node21FrontDeathAni			= "D_LEGBa"
+Node21BackDeathAni			= "D_LEGFr"
+Node21FrontShortRecoilAni		= "RclFRSh"
+Node21BackShortRecoilAni		= "RclBRSh"
+Node21DamageFactor			= 0.2
+Node21Parent				= 20
+Node21RecoilParent			= 20
+Node21Location				= 4
+Node21Radius				= 7.5
+Node21Priority				= 0.25
+
+//오른쪽 발바닥
+Node22Name				= "Bip01 R Toe0"
+Node22Flags				= (DWORD)64
+Node22FrontDeathAni			= "D_LEGBa"
+Node22BackDeathAni			= "D_LEGFr"
+Node22FrontShortRecoilAni		= "RclFRSh"
+Node22BackShortRecoilAni		= "RclBRSh"
+Node22DamageFactor			= 0.2
+Node22Parent				= 21
+Node22RecoilParent			= 21
+Node22Location				= 4
+Node22Radius				= 5.0
+Node22Priority				= 0.25
+
+//배
+Node23Name				= "Bone002"
+Node23Flags				= (DWORD)64
+Node23FrontDeathAni			= "D_CHESTBa"
+Node23BackDeathAni			= "D_CHESTFr"
+Node23FrontShortRecoilAni		= "RclFBD"
+Node23BackShortRecoilAni		= "RclBBD"
+Node23DamageFactor			= 1.0	//___ 0.8
+Node23Parent				= 0
+Node23RecoilParent			= 0
+Node23Location				= 2
+Node23Radius				= 6.0
+Node23Priority				= 0.5
+Node23AttachSpears			= 1
+
+// 얼굴
+Node24Name				= "Bip01 Xtra01"
+Node24Flags				= (DWORD)64
+Node24FrontDeathAni			= "D_CHESTBa"
+Node24BackDeathAni			= "D_CHESTFr"
+Node24FrontShortRecoilAni		= "RclFBD"
+Node24BackShortRecoilAni		= "RclBBD"
+Node24DamageFactor			= 25.0
+Node24Parent				= 4
+Node24RecoilParent			= 4
+Node24Location				= 1
+Node24Radius				= 6	//__ 6.5
+Node24Priority				= 1.0
+Node24AttachSpears			= 1
+
+//-------------------------------------------------------------
+// Zombie Model
+//-------------------------------------------------------------
+// Type : 숙주좀비
+// Location 	: None(0), 머리(1), 몸통(2), 팔(3), 다리(4)
+//-------------------------------------------------------------
+
+[Skeleton7]
+DefaultFrontDeathAni			= "D_ARMBa"
+DefaultBackDeathAni			= "D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+DefaultHitNode				= 1
+
+LookAtTrackingNodes			= 4
+AimAtTrackingNodes			= 4
+
+//대가리
+Node0Name				= "Bip01 Head"
+Node0Flags				= (DWORD)1
+Node0FrontDeathAni			= "D_HEADSHOTBa"
+Node0BackDeathAni			= "D_HEADSHOTFr"
+Node0FrontShortRecoilAni		= "RclFBD"
+Node0BackShortRecoilAni			= "RclBBD"
+Node0DamageFactor			= 25.0
+Node0Parent				= 4
+Node0RecoilParent			= 4
+Node0Location				= 2
+Node0Radius				= 6.3	//__ 6.5
+Node0Priority				= 1.0
+Node0AttachSpears			= 1
+
+Node1Name				= "Bip01 Spine"
+Node1Flags				= (DWORD)64
+Node1FrontDeathAni			= "D_CHESTBa"
+Node1BackDeathAni			= "D_CHESTFr"
+Node1FrontShortRecoilAni		= "RclFBD"
+Node1BackShortRecoilAni			= "RclBBD"
+Node1DamageFactor			= 1.0	//___ 0.8
+Node1Parent				= -1
+Node1RecoilParent			= -1
+Node1Location				= 2
+Node1Radius				= 9.0
+Node1Priority				= 0.5
+
+Node2Name				= "Bip01 Spine1"
+Node2Flags				= (DWORD)64
+Node2FrontDeathAni			= "D_CHESTBa"
+Node2BackDeathAni			= "D_CHESTFr"
+Node2FrontShortRecoilAni		= "RclFBD"
+Node2BackShortRecoilAni			= "RclBBD"
+Node2DamageFactor			= 1.0	//___ 0.8
+Node2Parent				= 0
+Node2RecoilParent			= 0
+Node2Location				= 2
+Node2Radius				= 12.0
+Node2Priority				= 0.5
+
+Node3Name				= "Bip01 Spine2"
+Node3Flags				= (DWORD)64
+Node3FrontDeathAni			= "D_CHESTBa"
+Node3BackDeathAni			= "D_CHESTFr"
+Node3FrontShortRecoilAni		= "RclFBD"
+Node3BackShortRecoilAni			= "RclBBD"
+Node3DamageFactor			= 1.0	//___ 0.8
+Node3Parent				= 1
+Node3RecoilParent			= 1
+Node3Location				= 2
+Node3Radius				= 12.0
+Node3Priority				= 0.5
+
+Node4Name				= "Bip01 Spine3"
+Node4Flags				= (DWORD)64
+Node4FrontDeathAni			= "D_CHESTBa"
+Node4BackDeathAni			= "D_CHESTFr"
+Node4FrontShortRecoilAni		= "RclFBD"
+Node4BackShortRecoilAni			= "RclBBD"
+Node4DamageFactor			= 1.0	//___ 0.8
+Node4Parent				= 2
+Node4RecoilParent			= 2
+Node4Location				= 2
+Node4Radius				= 12.0	//___10.5
+Node4Priority				= 0.5
+
+//목아지
+Node5Name				= "Bip01 Neck"
+Node5Flags				= (DWORD)64
+Node5FrontDeathAni			= "D_CHESTBa"
+Node5BackDeathAni			= "D_CHESTFr"
+Node5FrontShortRecoilAni		= "RclFBD"
+Node5BackShortRecoilAni			= "RclBBD"
+Node5DamageFactor			= 1.0
+Node5Parent				= 4
+Node5RecoilParent			= 4
+Node5Location				= 2
+Node5Radius				= 5.5
+Node5Priority				= 0.5
+	
+//왼쪽 쇄골				
+Node6Name				= "Bip01 L Clavicle"
+Node6Flags				= (DWORD)64
+Node6FrontDeathAni			= "D_CHESTBa"
+Node6BackDeathAni			= "D_CHESTFr"
+Node6FrontShortRecoilAni		= "RclFLSH"
+Node6BackShortRecoilAni			= "RclBLSH"
+Node6DamageFactor			= 0.8
+Node6Parent				= 4
+Node6RecoilParent			= 4
+Node6Location				= 2
+Node6Radius				= 6.0
+Node6Priority				= 0.5
+Node6AttachSpears			= 1
+	
+//왼쪽 어깨						
+Node7Name				= "Bip01 L UpperArm"
+Node7Flags				= (DWORD)64
+Node7FrontDeathAni			= "D_ARMBa"
+Node7BackDeathAni			= "D_ARMFr"
+Node7FrontShortRecoilAni		= "RclFLSH"
+Node7BackShortRecoilAni			= "RclBLSH"
+Node7DamageFactor			= 0.8
+Node7Parent				= 6
+Node7RecoilParent			= 6
+Node7Location				= 2
+Node7Radius				= 7.0	//__ 6.0
+Node7Priority				= 0.5
+Node7AttachSpears			= 1
+					
+//왼쪽 팔꿈치
+Node8Name				= "Bip01 L Forearm"
+Node8Flags				= (DWORD)64
+Node8FrontDeathAni			= "D_ARMBa"
+Node8BackDeathAni			= "D_ARMFr"
+Node8FrontShortRecoilAni		= "RclFLSh"
+Node8BackShortRecoilAni			= "RclBLSh"
+Node8DamageFactor			= 0.3
+Node8Parent				= 7
+Node8RecoilParent			= 7
+Node8Location				= 3
+Node8Radius				= 7.0	//__ 6.0
+Node8Priority				= 0.25
+
+//왼쪽 팔목
+Node9Name				= "Bip01 L Hand"
+Node9Flags				= (DWORD)64
+Node9FrontDeathAni			= "D_ARMBa"
+Node9BackDeathAni			= "D_ARMFr"
+Node9FrontShortRecoilAni		= "RclFLSh"
+Node9BackShortRecoilAni			= "RclBLSh"
+Node9DamageFactor			= 0.2
+Node9Parent				= 8
+Node9RecoilParent			= 8
+Node9Location				= 3
+Node9Radius				= 7.0	//__ 5.0
+Node9Priority				= 0.25
+Node9AttachSpears			= 1
+
+//오른쪽 쇄골
+Node10Name				= "Bip01 R Clavicle"
+Node10Flags				= (DWORD)64
+Node10FrontDeathAni			= "D_CHESTBa"
+Node10BackDeathAni			= "D_CHESTFr"
+Node10FrontShortRecoilAni		= "RclFLSh"
+Node10BackShortRecoilAni		= "RclBLSh"
+Node10DamageFactor			= 0.8
+Node10Parent				= 4
+Node10RecoilParent			= 4
+Node10Location				= 2
+Node10Radius				= 6.0
+Node10Priority				= 0.25
+Node10AttachSpears			= 1
+
+//오른쪽 어깨
+Node11Name				= "Bip01 R UpperArm"
+Node11Flags				= (DWORD)64
+Node11FrontDeathAni			= "D_ARMBa"
+Node11BackDeathAni			= "D_ARMFr"
+Node11FrontShortRecoilAni		= "RclFLSh"
+Node11BackShortRecoilAni		= "RclBLSh"
+Node11DamageFactor			= 0.8
+Node11Parent				= 10
+Node11RecoilParent			= 10
+Node11Location				= 2
+Node11Radius				= 7.0	//__ 6.0
+Node11Priority				= 0.25
+Node11AttachSpears			= 1
+
+//오른쪽 팔꿈치
+Node12Name				= "Bip01 R Forearm"
+Node12Flags				= (DWORD)64
+Node12FrontDeathAni			= "D_ARMBa"
+Node12BackDeathAni			= "D_ARMFr"
+Node12FrontShortRecoilAni		= "RclFLSh"
+Node12BackShortRecoilAni		= "RclBLSh"
+Node12DamageFactor			= 0.3
+Node12Parent				= 11
+Node12RecoilParent			= 11
+Node12Location				= 3
+Node12Radius				= 7.0	//__ 6.0
+Node12Priority				= 0.25
+Node12AttachSpears			= 1
+
+//오른쪽 팔목
+Node13Name				= "Bip01 R Hand"
+Node13Flags				= (DWORD)64
+Node13FrontDeathAni			= "D_ARMBa"
+Node13BackDeathAni			= "D_ARMFr"
+Node13FrontShortRecoilAni		= "RclFLSh"
+Node13BackShortRecoilAni		= "RclBLSh"
+Node13DamageFactor			= 0.2
+Node13Parent				= 12
+Node13RecoilParent			= 12
+Node13Location				= 3
+Node13Radius				= 7.0	//__ 5.0
+Node13Priority				= 0.25
+Node13AttachSpears			= 1
+
+//자지
+Node14Name				= "Bip01 Pelvis"
+Node14Flags				= (DWORD)0
+Node14FrontDeathAni			= "D_CHESTBa"
+Node14BackDeathAni			= "D_CHESTFr"
+Node14FrontShortRecoilAni		= "RclFBD"
+Node14BackShortRecoilAni		= "RclBBD"
+Node14DamageFactor			= 1.0
+Node14Parent				= -1
+Node14RecoilParent			= -1
+Node14Location				= 4
+Node14Radius				= 6.0
+Node14Priority				= 0.25
+
+//왼쪽 골반
+Node15Name				= "Bip01 L Thigh"
+Node15Flags				= (DWORD)64
+Node15FrontDeathAni			= "D_LEGBa"
+Node15BackDeathAni			= "D_LEGFr"
+Node15FrontShortRecoilAni		= "RclFRSh"
+Node15BackShortRecoilAni		= "RclBRSh"
+Node15DamageFactor			= 0.4
+Node15Parent				= 0
+Node15RecoilParent			= 0
+Node15Location				= 4
+Node15Radius				= 10.0
+Node15Priority				= 0.5
+Node15AttachSpears			= 1
+
+//왼쪽 무릎
+Node16Name				= "Bip01 L Calf"
+Node16Flags				= (DWORD)0
+Node16FrontDeathAni			= "D_LEGBa"
+Node16BackDeathAni			= "D_LEGFr"
+Node16FrontShortRecoilAni		= "RclFRSh"
+Node16BackShortRecoilAni		= "RclBRSh"
+Node16DamageFactor			= 0.3
+Node16Parent				= 15
+Node16RecoilParent			= 15
+Node16Location				= 4
+Node16Radius				= 10.0
+Node16Priority				= 0.5
+Node16AttachSpears			= 1
+	
+//왼쪽 뒷금치					
+Node17Name				= "Bip01 L Foot"
+Node17Flags				= (DWORD)0
+Node17FrontDeathAni			= "D_LEGBa"
+Node17BackDeathAni			= "D_LEGFr"
+Node17FrontShortRecoilAni		= "RclFRSh"
+Node17BackShortRecoilAni		= "RclBRSh"
+Node17DamageFactor			= 0.2
+Node17Parent				= 16
+Node17RecoilParent			= 16
+Node17Location				= 4
+Node17Radius				= 7.5
+Node17Priority				= 0.25
+	
+//왼쪽 발바닥					
+Node18Name				= "Bip01 L Toe0"
+Node18Flags				= (DWORD)0
+Node18FrontDeathAni			= "D_LEGBa"
+Node18BackDeathAni			= "D_LEGFr"
+Node18FrontShortRecoilAni		= "RclFRSh"
+Node18BackShortRecoilAni		= "RclBRSh"
+Node18DamageFactor			= 0.25
+Node18Parent				= 17
+Node18RecoilParent			= 17
+Node18Location				= 4
+Node18Radius				= 5.0
+Node18Priority				= 0.25
+Node18AttachSpears			= 1
+
+//오른쪽 골반
+Node19Name				= "Bip01 R Thigh"
+Node19Flags				= (DWORD)64
+Node19FrontDeathAni			= "D_LEGBa"
+Node19BackDeathAni			= "D_LEGFr"
+Node19FrontShortRecoilAni		= "RclFRSh"
+Node19BackShortRecoilAni		= "RclBRSh"
+Node19DamageFactor			= 0.4
+Node19Parent				= 0
+Node19RecoilParent			= 0
+Node19Location				= 4
+Node19Radius				= 10.0
+Node19Priority				= 0.25
+
+//오른쪽 무릎
+Node20Name				= "Bip01 R Calf"
+Node20Flags				= (DWORD)64
+Node20FrontDeathAni			= "D_LEGBa"
+Node20BackDeathAni			= "D_LEGFr"
+Node20FrontShortRecoilAni		= "RclFRSh"
+Node20BackShortRecoilAni		= "RclBRSh"
+Node20DamageFactor			= 0.3
+Node20Parent				= 19
+Node20RecoilParent			= 19
+Node20Location				= 4
+Node20Radius				= 10.0
+Node20Priority				= 0.25
+
+//오른쪽 뒷금치
+Node21Name				= "Bip01 R Foot"
+Node21Flags				= (DWORD)64
+Node21FrontDeathAni			= "D_LEGBa"
+Node21BackDeathAni			= "D_LEGFr"
+Node21FrontShortRecoilAni		= "RclFRSh"
+Node21BackShortRecoilAni		= "RclBRSh"
+Node21DamageFactor			= 0.2
+Node21Parent				= 20
+Node21RecoilParent			= 20
+Node21Location				= 4
+Node21Radius				= 7.5
+Node21Priority				= 0.25
+
+//오른쪽 발바닥
+Node22Name				= "Bip01 R Toe0"
+Node22Flags				= (DWORD)64
+Node22FrontDeathAni			= "D_LEGBa"
+Node22BackDeathAni			= "D_LEGFr"
+Node22FrontShortRecoilAni		= "RclFRSh"
+Node22BackShortRecoilAni		= "RclBRSh"
+Node22DamageFactor			= 0.2
+Node22Parent				= 21
+Node22RecoilParent			= 21
+Node22Location				= 4
+Node22Radius				= 5.0
+Node22Priority				= 0.25
+
+// 얼굴
+Node23Name				= "Bip01 Xtra01"
+Node23Flags				= (DWORD)64
+Node23FrontDeathAni			= "D_CHESTBa"
+Node23BackDeathAni			= "D_CHESTFr"
+Node23FrontShortRecoilAni		= "RclFBD"
+Node23BackShortRecoilAni		= "RclBBD"
+Node23DamageFactor			= 25.0
+Node23Parent				= 4
+Node23RecoilParent			= 4
+Node23Location				= 2
+Node23Radius				= 5	//__ 6.5
+Node23Priority				= 1.0
+Node23AttachSpears			= 1
+
+// 숙주1
+Node24Name				= "Bip01 Xtra04"
+Node24Flags				= (DWORD)64
+Node24FrontDeathAni			= "D_CHESTBa"
+Node24BackDeathAni			= "D_CHESTFr"
+Node24FrontShortRecoilAni		= "RclFBD"
+Node24BackShortRecoilAni		= "RclBBD"
+Node24DamageFactor			= 25.0
+Node24Parent				= 4
+Node24RecoilParent			= 4
+Node24Location				= 2
+Node24Radius				= 3.3	//__ 6.5
+Node24Priority				= 1.0
+
+// 숙주2
+Node25Name				= "Bip01 Xtra05"
+Node25Flags				= (DWORD)64
+Node25FrontDeathAni			= "D_CHESTBa"
+Node25BackDeathAni			= "D_CHESTFr"
+Node25FrontShortRecoilAni		= "RclFBD"
+Node25BackShortRecoilAni		= "RclBBD"
+Node25DamageFactor			= 25.0
+Node25Parent				= 4
+Node25RecoilParent			= 4
+Node25Location				= 2
+Node25Radius				= 3.3	//__ 6.5
+Node25Priority				= 1.0
+
+// 숙주3
+Node26Name				= "Bip01 Xtra06"
+Node26Flags				= (DWORD)64
+Node26FrontDeathAni			= "D_CHESTBa"
+Node26BackDeathAni			= "D_CHESTFr"
+Node26FrontShortRecoilAni		= "RclFBD"
+Node26BackShortRecoilAni		= "RclBBD"
+Node26DamageFactor			= 25.0
+Node26Parent				= 4
+Node26RecoilParent			= 4
+Node26Location				= 2
+Node26Radius				= 3.3	//__ 6.5
+Node26Priority				= 1.0
+
+// 숙주4
+Node27Name				= "Bip01 Xtra07"
+Node27Flags				= (DWORD)64
+Node27FrontDeathAni			= "D_CHESTBa"
+Node27BackDeathAni			= "D_CHESTFr"
+Node27FrontShortRecoilAni		= "RclFBD"
+Node27BackShortRecoilAni		= "RclBBD"
+Node27DamageFactor			= 25.0
+Node27Parent				= 4
+Node27RecoilParent			= 4
+Node27Location				= 2
+Node27Radius				= 3.3	//__ 6.5
+Node27Priority				= 1.0
+
+// 숙주5
+Node28Name				= "Bip01 Xtra08"
+Node28Flags				= (DWORD)64
+Node28FrontDeathAni			= "D_CHESTBa"
+Node28BackDeathAni			= "D_CHESTFr"
+Node28FrontShortRecoilAni		= "RclFBD"
+Node28BackShortRecoilAni		= "RclBBD"
+Node28DamageFactor			= 25.0
+Node28Parent				= 4
+Node28RecoilParent			= 4
+Node28Location				= 2
+Node28Radius				= 3.3	//__ 6.5
+Node28Priority				= 1.0
+
+
+//-------------------------------------------------------------
+// Zombie Model
+//-------------------------------------------------------------
+// Type : 좀비탈출모드 일반좀비
+// Location 	: None(0), 머리(1), 몸통(2), 팔(3), 다리(4)
+//-------------------------------------------------------------
+[Skeleton8]
+DefaultFrontDeathAni			= "D_ARMBa"
+DefaultBackDeathAni			= "D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+DefaultHitNode				= 1
+
+LookAtTrackingNodes			= 4
+AimAtTrackingNodes			= 4
+
+//대가리
+Node0Name				= "Bip01 Head"
+Node0Flags				= (DWORD)1
+Node0FrontDeathAni			= "D_HEADSHOTBa"
+Node0BackDeathAni			= "D_HEADSHOTFr"
+Node0FrontShortRecoilAni		= "RclFBD"
+Node0BackShortRecoilAni			= "RclBBD"
+Node0DamageFactor			= 25.0
+Node0Parent				= 4
+Node0RecoilParent			= 4
+Node0Location				= 1
+Node0Radius				= 12	//__ 6.5
+Node0Priority				= 1.0
+Node0AttachSpears			= 1
+
+Node1Name				= "Bip01 Spine"
+Node1Flags				= (DWORD)64
+Node1FrontDeathAni			= "D_CHESTBa"
+Node1BackDeathAni			= "D_CHESTFr"
+Node1FrontShortRecoilAni		= "RclFBD"
+Node1BackShortRecoilAni			= "RclBBD"
+Node1DamageFactor			= 1.0	//___ 0.8
+Node1Parent				= -1
+Node1RecoilParent			= -1
+Node1Location				= 2
+Node1Radius				= 14.0
+Node1Priority				= 0.5
+Node1AttachSpears			= 0
+
+Node2Name				= "Bip01 Spine1"
+Node2Flags				= (DWORD)64
+Node2FrontDeathAni			= "D_CHESTBa"
+Node2BackDeathAni			= "D_CHESTFr"
+Node2FrontShortRecoilAni		= "RclFBD"
+Node2BackShortRecoilAni			= "RclBBD"
+Node2DamageFactor			= 1.0	//___ 0.8
+Node2Parent				= 0
+Node2RecoilParent			= 0
+Node2Location				= 2
+Node2Radius				= 14.0
+Node2Priority				= 0.5
+Node2AttachSpears			= 1
+
+Node3Name				= "Bip01 Spine2"
+Node3Flags				= (DWORD)64
+Node3FrontDeathAni			= "D_CHESTBa"
+Node3BackDeathAni			= "D_CHESTFr"
+Node3FrontShortRecoilAni		= "RclFBD"
+Node3BackShortRecoilAni			= "RclBBD"
+Node3DamageFactor			= 1.0	//___ 0.8
+Node3Parent				= 1
+Node3RecoilParent			= 1
+Node3Location				= 2
+Node3Radius				= 14.0
+Node3Priority				= 0.5
+Node3AttachSpears			= 1
+
+Node4Name				= "Bip01 Spine3"
+Node4Flags				= (DWORD)64
+Node4FrontDeathAni			= "D_CHESTBa"
+Node4BackDeathAni			= "D_CHESTFr"
+Node4FrontShortRecoilAni		= "RclFBD"
+Node4BackShortRecoilAni			= "RclBBD"
+Node4DamageFactor			= 1.0	//___ 0.8
+Node4Parent				= 2
+Node4RecoilParent			= 2
+Node4Location				= 2
+Node4Radius				= 14.0	//___10.5
+Node4Priority				= 0.5
+Node4AttachSpears			= 0
+
+//목아지
+Node5Name				= "Bip01 Neck"
+Node5Flags				= (DWORD)64
+Node5FrontDeathAni			= "D_CHESTBa"
+Node5BackDeathAni			= "D_CHESTFr"
+Node5FrontShortRecoilAni		= "RclFBD"
+Node5BackShortRecoilAni			= "RclBBD"
+Node5DamageFactor			= 1.0
+Node5Parent				= 4
+Node5RecoilParent			= 4
+Node5Location				= 2
+Node5Radius				= 7
+Node5Priority				= 0.5
+Node5AttachSpears			= 1
+	
+//왼쪽 쇄골				
+Node6Name				= "Bip01 L Clavicle"
+Node6Flags				= (DWORD)64
+Node6FrontDeathAni			= "D_CHESTBa"
+Node6BackDeathAni			= "D_CHESTFr"
+Node6FrontShortRecoilAni		= "RclFLSH"
+Node6BackShortRecoilAni			= "RclBLSH"
+Node6DamageFactor			= 0.8
+Node6Parent				= 4
+Node6RecoilParent			= 4
+Node6Location				= 2
+Node6Radius				= 8
+Node6Priority				= 0.5
+Node6AttachSpears			= 1
+	
+//왼쪽 어깨						
+Node7Name				= "Bip01 L UpperArm"
+Node7Flags				= (DWORD)64
+Node7FrontDeathAni			= "D_ARMBa"
+Node7BackDeathAni			= "D_ARMFr"
+Node7FrontShortRecoilAni		= "RclFLSH"
+Node7BackShortRecoilAni			= "RclBLSH"
+Node7DamageFactor			= 0.8
+Node7Parent				= 6
+Node7RecoilParent			= 6
+Node7Location				= 2
+Node7Radius				= 9	//__ 6.0
+Node7Priority				= 0.5
+Node7AttachSpears			= 1
+					
+//왼쪽 팔꿈치
+Node8Name				= "Bip01 L Forearm"
+Node8Flags				= (DWORD)64
+Node8FrontDeathAni			= "D_ARMBa"
+Node8BackDeathAni			= "D_ARMFr"
+Node8FrontShortRecoilAni		= "RclFLSh"
+Node8BackShortRecoilAni			= "RclBLSh"
+Node8DamageFactor			= 0.3
+Node8Parent				= 7
+Node8RecoilParent			= 7
+Node8Location				= 3
+Node8Radius				= 9	//__ 6.0
+Node8Priority				= 0.25
+Node8AttachSpears			= 1
+
+//왼쪽 팔목
+Node9Name				= "Bip01 L Hand"
+Node9Flags				= (DWORD)64
+Node9FrontDeathAni			= "D_ARMBa"
+Node9BackDeathAni			= "D_ARMFr"
+Node9FrontShortRecoilAni		= "RclFLSh"
+Node9BackShortRecoilAni			= "RclBLSh"
+Node9DamageFactor			= 0.2
+Node9Parent				= 8
+Node9RecoilParent			= 8
+Node9Location				= 3
+Node9Radius				= 9	//__ 5.0
+Node9Priority				= 0.25
+Node9AttachSpears			= 1
+
+//오른쪽 쇄골
+Node10Name				= "Bip01 R Clavicle"
+Node10Flags				= (DWORD)64
+Node10FrontDeathAni			= "D_CHESTBa"
+Node10BackDeathAni			= "D_CHESTFr"
+Node10FrontShortRecoilAni		= "RclFLSh"
+Node10BackShortRecoilAni		= "RclBLSh"
+Node10DamageFactor			= 0.8
+Node10Parent				= 4
+Node10RecoilParent			= 4
+Node10Location				= 2
+Node10Radius				= 8.0
+Node10Priority				= 0.25
+Node10AttachSpears			= 1
+
+//오른쪽 어깨
+Node11Name				= "Bip01 R UpperArm"
+Node11Flags				= (DWORD)64
+Node11FrontDeathAni			= "D_ARMBa"
+Node11BackDeathAni			= "D_ARMFr"
+Node11FrontShortRecoilAni		= "RclFLSh"
+Node11BackShortRecoilAni		= "RclBLSh"
+Node11DamageFactor			= 0.8
+Node11Parent				= 10
+Node11RecoilParent			= 10
+Node11Location				= 2
+Node11Radius				= 9.0	//__ 6.0
+Node11Priority				= 0.25
+Node11AttachSpears			= 1
+
+//오른쪽 팔꿈치
+Node12Name				= "Bip01 R Forearm"
+Node12Flags				= (DWORD)64
+Node12FrontDeathAni			= "D_ARMBa"
+Node12BackDeathAni			= "D_ARMFr"
+Node12FrontShortRecoilAni		= "RclFLSh"
+Node12BackShortRecoilAni		= "RclBLSh"
+Node12DamageFactor			= 0.3
+Node12Parent				= 11
+Node12RecoilParent			= 11
+Node12Location				= 3
+Node12Radius				= 9.0	//__ 6.0
+Node12Priority				= 0.25
+Node12AttachSpears			= 1
+
+//오른쪽 팔목
+Node13Name				= "Bip01 R Hand"
+Node13Flags				= (DWORD)64
+Node13FrontDeathAni			= "D_ARMBa"
+Node13BackDeathAni			= "D_ARMFr"
+Node13FrontShortRecoilAni		= "RclFLSh"
+Node13BackShortRecoilAni		= "RclBLSh"
+Node13DamageFactor			= 0.2
+Node13Parent				= 12
+Node13RecoilParent			= 12
+Node13Location				= 3
+Node13Radius				= 9.0	//__ 5.0
+Node13Priority				= 0.25
+Node13AttachSpears			= 1
+
+//자지
+Node14Name				= "Bip01 Pelvis"
+Node14Flags				= (DWORD)0
+Node14FrontDeathAni			= "D_CHESTBa"
+Node14BackDeathAni			= "D_CHESTFr"
+Node14FrontShortRecoilAni		= "RclFBD"
+Node14BackShortRecoilAni		= "RclBBD"
+Node14DamageFactor			= 1.0
+Node14Parent				= -1
+Node14RecoilParent			= -1
+Node14Location				= 4
+Node14Radius				= 8.0
+Node14Priority				= 0.25
+
+//왼쪽 골반
+Node15Name				= "Bip01 L Thigh"
+Node15Flags				= (DWORD)64
+Node15FrontDeathAni			= "D_LEGBa"
+Node15BackDeathAni			= "D_LEGFr"
+Node15FrontShortRecoilAni		= "RclFRSh"
+Node15BackShortRecoilAni		= "RclBRSh"
+Node15DamageFactor			= 0.4
+Node15Parent				= 0
+Node15RecoilParent			= 0
+Node15Location				= 4
+Node15Radius				= 12.0
+Node15Priority				= 0.5
+Node15AttachSpears			= 1
+
+//왼쪽 무릎
+Node16Name				= "Bip01 L Calf"
+Node16Flags				= (DWORD)0
+Node16FrontDeathAni			= "D_LEGBa"
+Node16BackDeathAni			= "D_LEGFr"
+Node16FrontShortRecoilAni		= "RclFRSh"
+Node16BackShortRecoilAni		= "RclBRSh"
+Node16DamageFactor			= 0.3
+Node16Parent				= 15
+Node16RecoilParent			= 15
+Node16Location				= 4
+Node16Radius				= 12.0
+Node16Priority				= 0.5
+Node16AttachSpears			= 1
+	
+//왼쪽 뒷금치					
+Node17Name				= "Bip01 L Foot"
+Node17Flags				= (DWORD)0
+Node17FrontDeathAni			= "D_LEGBa"
+Node17BackDeathAni			= "D_LEGFr"
+Node17FrontShortRecoilAni		= "RclFRSh"
+Node17BackShortRecoilAni		= "RclBRSh"
+Node17DamageFactor			= 0.2
+Node17Parent				= 16
+Node17RecoilParent			= 16
+Node17Location				= 4
+Node17Radius				= 9.5
+Node17Priority				= 0.25
+Node17AttachSpears			= 1
+	
+//왼쪽 발바닥					
+Node18Name				= "Bip01 L Toe0"
+Node18Flags				= (DWORD)0
+Node18FrontDeathAni			= "D_LEGBa"
+Node18BackDeathAni			= "D_LEGFr"
+Node18FrontShortRecoilAni		= "RclFRSh"
+Node18BackShortRecoilAni		= "RclBRSh"
+Node18DamageFactor			= 0.25
+Node18Parent				= 17
+Node18RecoilParent			= 17
+Node18Location				= 4
+Node18Radius				= 9.0
+Node18Priority				= 0.25
+Node18AttachSpears			= 1
+
+//오른쪽 골반
+Node19Name				= "Bip01 R Thigh"
+Node19Flags				= (DWORD)64
+Node19FrontDeathAni			= "D_LEGBa"
+Node19BackDeathAni			= "D_LEGFr"
+Node19FrontShortRecoilAni		= "RclFRSh"
+Node19BackShortRecoilAni		= "RclBRSh"
+Node19DamageFactor			= 0.4
+Node19Parent				= 0
+Node19RecoilParent			= 0
+Node19Location				= 4
+Node19Radius				= 12.0
+Node19Priority				= 0.25
+
+//오른쪽 무릎
+Node20Name				= "Bip01 R Calf"
+Node20Flags				= (DWORD)64
+Node20FrontDeathAni			= "D_LEGBa"
+Node20BackDeathAni			= "D_LEGFr"
+Node20FrontShortRecoilAni		= "RclFRSh"
+Node20BackShortRecoilAni		= "RclBRSh"
+Node20DamageFactor			= 0.3
+Node20Parent				= 19
+Node20RecoilParent			= 19
+Node20Location				= 4
+Node20Radius				= 12.0
+Node20Priority				= 0.25
+
+//오른쪽 뒷금치
+Node21Name				= "Bip01 R Foot"
+Node21Flags				= (DWORD)64
+Node21FrontDeathAni			= "D_LEGBa"
+Node21BackDeathAni			= "D_LEGFr"
+Node21FrontShortRecoilAni		= "RclFRSh"
+Node21BackShortRecoilAni		= "RclBRSh"
+Node21DamageFactor			= 0.2
+Node21Parent				= 20
+Node21RecoilParent			= 20
+Node21Location				= 4
+Node21Radius				= 9.5
+Node21Priority				= 0.25
+
+//오른쪽 발바닥
+Node22Name				= "Bip01 R Toe0"
+Node22Flags				= (DWORD)64
+Node22FrontDeathAni			= "D_LEGBa"
+Node22BackDeathAni			= "D_LEGFr"
+Node22FrontShortRecoilAni		= "RclFRSh"
+Node22BackShortRecoilAni		= "RclBRSh"
+Node22DamageFactor			= 0.2
+Node22Parent				= 21
+Node22RecoilParent			= 21
+Node22Location				= 4
+Node22Radius				= 9.0
+Node22Priority				= 0.25
+
+//대가리
+Node23Name				= "Bip01 Ponytail1"
+Node23Flags				= (DWORD)1
+Node23FrontDeathAni			= "D_HEADSHOTBa"
+Node23BackDeathAni			= "D_HEADSHOTFr"
+Node23FrontShortRecoilAni		= "RclFBD"
+Node23BackShortRecoilAni		= "RclBBD"
+Node23DamageFactor			= 25.0
+Node23Parent				= 4
+Node23RecoilParent			= 4
+Node23Location				= 1
+Node23Radius				= 12	 //__ 6.5
+Node23Priority				= 1.0
+Node23AttachSpears			= 1

@@ -1,0 +1,309 @@
+/*
+**	Restricted Mode
+**	
+*/
+
+[RESTRICTED]
+MODE = "2,13,49,58,59,64,73,74,81"
+
+/*
+**	Boast FX Attibutes
+*/
+[BOASTFX0]
+INDEX		= 5038
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_FIRE_01"
+FX_BODY		= "SP_Body_FIRE_01"
+FX_L_LEG	= "SP_Leg_L_FIRE_01"
+FX_R_LEG	= "SP_Leg_R_FIRE_01"
+FX_FOOT		= "SP_Foot_FIRE_01"
+
+[BOASTFX1]
+INDEX		= 5039
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_FIRE_02"
+FX_L_HAND	= "SP_Hand_L_FIRE_02"
+FX_R_HAND	= "SP_Hand_R_FIRE_02"
+FX_BODY		= "SP_Body_FIRE_02"
+FX_L_LEG	= "SP_Leg_L_FIRE_02"
+FX_R_LEG	= "SP_Leg_R_FIRE_02"
+FX_FOOT		= "SP_Foot_FIRE_02"
+
+[BOASTFX2]
+INDEX		= 5040
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_FIRE_03"
+FX_L_HAND	= "SP_Hand_L_FIRE_03"
+FX_R_HAND	= "SP_Hand_R_FIRE_03"
+FX_BODY		= "SP_Body_FIRE_03"
+FX_L_LEG	= "SP_Leg_L_FIRE_03"
+FX_R_LEG	= "SP_Leg_R_FIRE_03"
+FX_FOOT		= "SP_Foot_FIRE_03"
+
+[BOASTFX3]
+INDEX		= 5041
+LIFE_CYCLE	= 3.0f
+FX_BODY		= "SP_Body_AURA_01"
+FX_FOOT		= "SP_Foot_AURA_01"
+
+[BOASTFX4]
+INDEX		= 5042
+LIFE_CYCLE	= 3.0f
+FX_BODY		= "SP_Body_AURA_02"
+FX_FOOT		= "SP_Foot_AURA_02"
+
+[BOASTFX5]
+INDEX		= 5043
+LIFE_CYCLE	= 3.0f
+FX_BODY		= "SP_Body_AURA_03"
+FX_FOOT		= "SP_Foot_AURA_03"
+
+[BOASTFX6]
+INDEX		= 5088
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_GLORY_03"
+FX_BODY		= "SP_Body_GLORY_03"
+FX_L_LEG	= "SP_Leg_L_GLORY_03"
+FX_R_LEG	= "SP_Leg_R_GLORY_03"
+FX_FOOT		= "SP_Foot_GLORY_03"
+
+[BOASTFX7]
+INDEX		= 5304
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_KOR_01"
+
+[BOASTFX8]
+INDEX		= 5354
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_SAT_01"
+
+[BOASTFX9]	// 재난1 – 낙뢰
+INDEX		= 5515
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_Thunder_01"
+FX_FOOT		= "SP_Foot_Thunder_01"
+
+[BOASTFX10] // 재난2 – 독가스
+INDEX		= 5516
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_Poison_01"
+FX_BODY		= "SP_Body_Poison_01"
+FX_FOOT		= "SP_Foot_Poison_01"
+
+[BOASTFX11] // 계급보상 - 부사령관
+INDEX		= 5525
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_19Rank_01"
+
+[BOASTFX12] // 계급보상 - 사령관
+INDEX		= 5526
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_19Rank_02"
+
+[BOASTFX13] // 계급보상 - 총사령관
+INDEX		= 5527
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_19Rank_03"
+
+[BOASTFX14] // 부트캠프
+INDEX		= 6469
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_bootcamp"
+
+[BOASTFX15] // 등장효과-특급대장(2020)
+INDEX		= 6430
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_20Class13"
+
+[BOASTFX16] // 등장효과-부사령관(2020)
+INDEX		= 6431
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_20Class14"
+
+[BOASTFX17] // 등장효과-사령관(2020)
+INDEX		= 6432
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_20Class15"
+
+[BOASTFX18] // 등장효과-총사령관(2020)
+INDEX		= 6433
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_20Class16"
+
+[BOASTFX19] // 등장효과-특급대장(2021)
+INDEX		= 7818
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_21Class13"
+
+[BOASTFX20] // 등장효과-부사령관(2021)
+INDEX		= 7817
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_21Class14"
+
+[BOASTFX21] // 등장효과-사령관(2021)
+INDEX		= 7816
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_21Class15"
+
+[BOASTFX22] // 등장효과-총사령관(2021)
+INDEX		= 7815
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_21Class16"
+
+[BOASTFX23] // 토너먼트 1단계
+INDEX		= 8097
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_Tournament_01"
+FX_BODY		= "SP_BODY_Tournament_01"
+FX_FOOT		= "SP_Foot_Tournament_01"
+
+[BOASTFX24] // 토너먼트 2단계
+INDEX		= 8096
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_Tournament_02"
+FX_BODY		= "SP_BODY_Tournament_02"
+FX_FOOT		= "SP_Foot_Tournament_02"
+
+[BOASTFX25] // 토너먼트 3단계
+INDEX		= 8095
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_Tournament_03"
+FX_BODY		= "SP_BODY_Tournament_03"
+FX_FOOT		= "SP_Foot_Tournament_03"
+
+[BOASTFX26] // 토너먼트 4단계
+INDEX		= 8094
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_Tournament_04"
+FX_BODY		= "SP_BODY_Tournament_04"
+FX_FOOT		= "SP_Foot_Tournament_04"
+
+[BOASTFX27] // 토너먼트 5단계
+INDEX		= 8093
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_Tournament_05"
+FX_BODY		= "SP_BODY_Tournament_05"
+FX_FOOT		= "SP_Foot_Tournament_05"
+
+[BOASTFX28] // 등장효과-배심원
+INDEX		= 8292
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_jury"
+
+// 등장효과-특급대장(2022)
+[BOASTFX29]
+INDEX		= 9184
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_22Class13"
+
+// 등장효과-부사령관(2022)
+[BOASTFX30]
+INDEX		= 9185
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_22Class14"
+
+// 등장효과-사령관(2022)
+[BOASTFX31]
+INDEX		= 9186
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_22Class15"
+
+// 등장효과-총사령관(2022)
+[BOASTFX32]
+INDEX		= 9187
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_22Class16"
+
+// 금따봉 등장효과(최고 매너 등장효과)
+[BOASTFX33]
+INDEX		= 10188
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_TabomGold_Head"
+FX_BODY     = "SP_TabomGold_BODY"
+FX_FOOT     = "SP_TabomGold_Foot"
+
+
+// 은따봉 등장효과(매우좋음 매너 등장효과)
+[BOASTFX34]
+INDEX		= 10189
+LIFE_CYCLE	= 3.0f
+FX_BODY     = "SP_TabomSilver_BODY"
+FX_FOOT     = "SP_TabomSilver_Foot"
+
+// 등장효과-특급대장(2023)
+[BOASTFX35]
+INDEX		= 11676
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_23Class13"
+
+// 등장효과-부사령관(2023)
+[BOASTFX36]
+INDEX		= 11677
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_23Class14"
+
+// 등장효과-사령관(2023)
+[BOASTFX37]
+INDEX		= 11678
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_23Class15"
+
+// 등장효과-총사령관(2023)
+[BOASTFX38]
+INDEX		= 11679
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_23Class16"
+
+// 등장효과-19th AWARDS
+[BOASTFX39]
+INDEX		= 13096
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_19th_Awards"
+
+// 등장효과-특급대장(2024)
+[BOASTFX40]
+INDEX		= 13718
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_24Class13"
+
+// 등장효과-부사령관(2024)
+[BOASTFX41]
+INDEX		= 13719
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_24Class14"
+
+// 등장효과-사령관(2024)
+[BOASTFX42]
+INDEX		= 13720
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_24Class15"
+
+// 등장효과-총사령관(2024)
+[BOASTFX43]
+INDEX		= 13721
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_24Class16"
+
+// 등장효과-특급대장(2025)
+[BOASTFX44]
+INDEX		= 15088
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_25Class13"
+
+// 등장효과-부사령관(2025)
+[BOASTFX45]
+INDEX		= 15089
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_25Class14"
+
+// 등장효과-사령관(2025)
+[BOASTFX46]
+INDEX		= 15090
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_25Class15"
+
+// 등장효과-총사령관(2025)
+[BOASTFX47]
+INDEX		= 15091
+LIFE_CYCLE	= 3.0f
+FX_HEAD		= "SP_Head_25Class16"

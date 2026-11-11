@@ -1,0 +1,1878 @@
+[Sound0]
+Path   = "sa_interface2\snd\Hunting\FlagSound\3_Fire.wav"
+//Desc   = ½÷
+
+[Sound1]
+Path   = "sa_interface2\snd\Hunting\FlagSound\3_FireAnd.wav"
+//Desc   = ½î°í
+
+[Sound2]
+Path   = "sa_interface2\snd\Hunting\FlagSound\3_DontFire.wav"
+//Desc   = ½îÁö¸¶
+
+[Sound3]
+Path   = "sa_interface2\snd\Hunting\FlagSound\3_DontFireAnd.wav"
+//Desc   = ½îÁö¸»°í
+
+[Sound4]
+Path   = "sa_interface2\snd\Hunting\FlagSound\1_Red_1.wav"
+//Desc   = »¡°£
+
+[Sound5]
+Path   = "sa_interface2\snd\Hunting\FlagSound\1_Red_2.wav"
+//Desc   = »¡°£³ð
+
+[Sound6]
+Path   = "sa_interface2\snd\Hunting\FlagSound\1_Red_3.wav"
+//Desc   = »¡°£³ðÀÌ¶û
+
+[Sound7]
+Path   = "sa_interface2\snd\Hunting\FlagSound\1_Blue_1.wav"
+//Desc   = ÆÄ¶õ
+
+[Sound8]
+Path   = "sa_interface2\snd\Hunting\FlagSound\1_Blue_2.wav"
+//Desc   = ÆÄ¶õ³ð
+
+[Sound9]
+Path   = "sa_interface2\snd\Hunting\FlagSound\1_Blue_3.wav"
+//Desc   = ÆÄ¶õ³ðÀÌ¶û
+
+[Sound10]
+Path   = "sa_interface2\snd\Hunting\FlagSound\1_Yellow_1.wav"
+//Desc   = ³ë¶õ
+
+[Sound11]
+Path   = "sa_interface2\snd\Hunting\FlagSound\1_Yellow_2.wav"
+//Desc   = ³ë¶õ³ð
+
+[Sound12]
+Path   = "sa_interface2\snd\Hunting\FlagSound\1_Yellow_3.wav"
+//Desc   = ³ë¶õ³ðÀÌ¶û
+
+[Sound13]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Mole_1.wav"
+//Desc   = µÎ´õÁö
+
+[Sound14]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Mole_2.wav"
+//Desc   = µÎ´õÁö¶û
+
+[Sound15]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Duck_1.wav"
+//Desc   = ¿À¸®
+
+[Sound16]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Duck_2.wav"
+//Desc   = ¿À¸®¶û
+
+[Sound17]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Pig_1.wav"
+//Desc   = µÅÁö
+
+[Sound18]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Pig_2.wav"
+//Desc   = µÅÁö¶û
+
+[Sound19]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Kangaroo_1.wav"
+//Desc   = Ä»°Å·ç
+
+[Sound20]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Kangaroo_2.wav"
+//Desc   = Ä»°Å·ç¶û
+
+[Sound21]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Parrot_1.wav"
+//Desc   = ¾Þ¹«»õ
+
+[Sound22]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Parrot_2.wav"
+//Desc   = ¾Þ¹«»õ¶û
+
+[Sound23]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Bat_1.wav"
+//Desc   = ¹ÚÁã
+
+[Sound24]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Bat_2.wav"
+//Desc   = ¹ÚÁã¶û
+
+[Sound25]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Mosquito_1.wav"
+//Desc   = ¸ð±â
+
+[Sound26]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Mosquito_2.wav"
+//Desc   = ¸ð±â¶û
+
+[Sound27]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Arrow_1.wav"
+//Desc   = °ú³á
+
+[Sound28]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Arrow_2.wav"
+//Desc   = °ú³áÀÌ¶û
+
+[Sound29]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Human_1.wav"
+//Desc   = ±×³É³à¼®
+
+[Sound30]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Human_2.wav"
+//Desc   = ±×³É³à¼®ÀÌ¶û
+
+[Sound31]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_GunMan_1.wav"
+//Desc   = ÃÑµç³à¼®
+
+[Sound32]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_GunMan_2.wav"
+//Desc   = ÃÑµç³à¼®ÀÌ¶û
+
+[Sound33]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Zombie_1.wav"
+//Desc   = Á»ºñ
+
+[Sound34]
+Path   = "sa_interface2\snd\Hunting\FlagSound\2_Zombie_2.wav"
+//Desc   = Á»ºñ¶û
+
+
+/////////////////////////////////////////////////
+[Flag0]
+Time   = 10
+CreateTargetDelayTime   = 0
+//TargetLevel   = 1
+//Steage   = 2
+ShootTarget   = "5"
+//ShootDesc   = »¡°£¿À¸®
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "5,4"
+//MissionCreate   = "5,4"
+//GuestCreate   = ""
+//CreateDesc   = »¡°£¿À¸®4¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,15,0"
+SoundPackage1   = ""
+SoundPackage2   = ""
+//Voice   = »¡°£ ¿À¸® ½÷
+
+[Flag1]
+Time   = 10
+CreateTargetDelayTime   = 0
+//TargetLevel   = 1
+//Steage   = 2
+ShootTarget   = "9"
+//ShootDesc   = ÆÄ¶õ¿À¸®
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "9,4"
+//MissionCreate   = "9,4"
+//GuestCreate   = ""
+//CreateDesc   = ÆÄ¶õ¿À¸®4¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,15,0"
+SoundPackage1   = ""
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ ¿À¸® ½÷
+
+[Flag2]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 2
+ShootTarget   = "5,9"
+//ShootDesc   = »¡°£¿À¸®,ÆÄ¶õ¿À¸®
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "5,4,9,3"
+//MissionCreate   = "5,4,9,3"
+//GuestCreate   = ""
+//CreateDesc   = »¡°£¿À¸®4¸¶¸®,ÆÄ¶õ¿À¸®3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,15,1"
+SoundPackage1   = "7,15,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ ¿À¸® ½î°í, ÆÄ¶õ ¿À¸® ½÷
+
+[Flag3]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 2
+ShootTarget   = "5"
+//ShootDesc   = »¡°£¿À¸®
+NotShootTarget   = "9"
+//NotShootDesc   = ÆÄ¶õ¿À¸®
+CreateTarget   = "5,4,9,3"
+//MissionCreate   = "5,4,9,3"
+//GuestCreate   = ""
+//CreateDesc   = »¡°£¿À¸®4¸¶¸®,ÆÄ¶õ¿À¸®3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,15,1"
+SoundPackage1   = "7,15,2"
+SoundPackage2   = ""
+//Voice   = »¡°£ ¿À¸® ½î°í, ÆÄ¶õ ¿À¸® ½îÁö¸¶
+
+[Flag4]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 2
+ShootTarget   = "9"
+//ShootDesc   = ÆÄ¶õ¿À¸®
+NotShootTarget   = "5"
+//NotShootDesc   = »¡°£¿À¸®
+CreateTarget   = "5,4,9,3"
+//MissionCreate   = "5,4,9,3"
+//GuestCreate   = ""
+//CreateDesc   = »¡°£¿À¸®4¸¶¸®,ÆÄ¶õ¿À¸®3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,15,3"
+SoundPackage1   = "7,15,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ ¿À¸® ½îÁö¸»°í, ÆÄ¶õ ¿À¸® ½÷
+
+[Flag5]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 2
+ShootTarget   = ""
+//ShootDesc   = 
+NotShootTarget   = "5,9"
+//NotShootDesc   = »¡°£¿À¸®,ÆÄ¶õ¿À¸®
+CreateTarget   = "5,4,9,3"
+//MissionCreate   = "5,4,9,3"
+//GuestCreate   = ""
+//CreateDesc   = »¡°£¿À¸®4¸¶¸®,ÆÄ¶õ¿À¸®3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,15,3"
+SoundPackage1   = "7,15,2"
+SoundPackage2   = ""
+//Voice   = »¡°£ ¿À¸® ½îÁö¸»°í, ÆÄ¶õ ¿À¸® ½îÁö¸¶
+
+[Flag6]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 2
+ShootTarget   = "5,9"
+//ShootDesc   = »¡°£¿À¸®,ÆÄ¶õ¿À¸®
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "5,4,9,3"
+//MissionCreate   = "5,4,9,3"
+//GuestCreate   = ""
+//CreateDesc   = »¡°£¿À¸®4¸¶¸®,ÆÄ¶õ¿À¸®3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,16"
+SoundPackage1   = "7,15,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ ¿À¸® ¶û , ÆÄ¶õ ¿À¸® ½÷
+
+[Flag7]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 2
+ShootTarget   = "9,5"
+//ShootDesc   = ÆÄ¶õ¿À¸®,»¡°£¿À¸®
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "9,4,5,3"
+//MissionCreate   = "9,4,5,3"
+//GuestCreate   = ""
+//CreateDesc   = ÆÄ¶õ¿À¸®4¸¶¸®,»¡°£¿À¸®3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,15,1"
+SoundPackage1   = "4,15,0"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ ¿À¸® ½î°í, »¡°£ ¿À¸® ½÷
+
+[Flag8]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 2
+ShootTarget   = "9"
+//ShootDesc   = ÆÄ¶õ¿À¸®
+NotShootTarget   = "5"
+//NotShootDesc   = »¡°£¿À¸®
+CreateTarget   = "9,4,5,3"
+//MissionCreate   = "9,4,5,3"
+//GuestCreate   = ""
+//CreateDesc   = ÆÄ¶õ¿À¸®4¸¶¸®,»¡°£¿À¸®3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,15,1"
+SoundPackage1   = "4,15,2"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ ¿À¸® ½î°í, »¡°£ ¿À¸® ½îÁö¸¶
+
+[Flag9]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 2
+ShootTarget   = "5"
+//ShootDesc   = »¡°£¿À¸®
+NotShootTarget   = "9"
+//NotShootDesc   = ÆÄ¶õ¿À¸®
+CreateTarget   = "9,4,5,3"
+//MissionCreate   = "9,4,5,3"
+//GuestCreate   = ""
+//CreateDesc   = ÆÄ¶õ¿À¸®4¸¶¸®,»¡°£¿À¸®3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,15,3"
+SoundPackage1   = "4,15,0"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ ¿À¸® ½îÁö¸»°í, »¡°£ ¿À¸® ½÷
+
+[Flag10]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 2
+ShootTarget   = ""
+//ShootDesc   = 
+NotShootTarget   = "9,5"
+//NotShootDesc   = ÆÄ¶õ¿À¸®,»¡°£¿À¸®
+CreateTarget   = "9,4,5,3"
+//MissionCreate   = "9,4,5,3"
+//GuestCreate   = ""
+//CreateDesc   = ÆÄ¶õ¿À¸®4¸¶¸®,»¡°£¿À¸®3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,15,3"
+SoundPackage1   = "4,15,2"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ ¿À¸® ½îÁö¸»°í, »¡°£ ¿À¸® ½îÁö¸¶
+
+[Flag11]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 2
+ShootTarget   = "9,5"
+//ShootDesc   = ÆÄ¶õ¿À¸®,»¡°£¿À¸®
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "9,4,5,3"
+//MissionCreate   = "9,4,5,3"
+//GuestCreate   = ""
+//CreateDesc   = ÆÄ¶õ¿À¸®4¸¶¸®,»¡°£¿À¸®3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,16"
+SoundPackage1   = "4,15,0"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ ¿À¸® ¶û , »¡°£ ¿À¸® ½÷
+
+[Flag12]
+Time   = 10
+CreateTargetDelayTime   = 0
+//TargetLevel   = 1
+//Steage   = 7
+ShootTarget   = "101"
+//ShootDesc   = »¡°£¾Þ¹«»õ
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "101,4"
+//MissionCreate   = "101,4"
+//GuestCreate   = ""
+//CreateDesc   = »¡°£¾Þ¹«»õ4¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,21,0"
+SoundPackage1   = ""
+SoundPackage2   = ""
+//Voice   = »¡°£ ¾Þ¹«»õ ½÷
+
+[Flag13]
+Time   = 10
+CreateTargetDelayTime   = 0
+//TargetLevel   = 1
+//Steage   = 7
+ShootTarget   = "105"
+//ShootDesc   = ÆÄ¶õ¾Þ¹«»õ
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "105,4"
+//MissionCreate   = "105,4"
+//GuestCreate   = ""
+//CreateDesc   = ÆÄ¶õ¾Þ¹«»õ4¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,21,0"
+SoundPackage1   = ""
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ ¾Þ¹«»õ ½÷
+
+[Flag14]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 7
+ShootTarget   = "101,105"
+//ShootDesc   = »¡°£¾Þ¹«»õ,ÆÄ¶õ¾Þ¹«»õ
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "101,4,105,3"
+//MissionCreate   = "101,4,105,3"
+//GuestCreate   = ""
+//CreateDesc   = »¡°£¾Þ¹«»õ4¸¶¸®,ÆÄ¶õ¾Þ¹«»õ3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,21,1"
+SoundPackage1   = "7,21,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ ¾Þ¹«»õ ½î°í, ÆÄ¶õ ¾Þ¹«»õ ½÷
+
+[Flag15]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 7
+ShootTarget   = "101"
+//ShootDesc   = »¡°£¾Þ¹«»õ
+NotShootTarget   = "105"
+//NotShootDesc   = ÆÄ¶õ¾Þ¹«»õ
+CreateTarget   = "101,4,105,3"
+//MissionCreate   = "101,4,105,3"
+//GuestCreate   = ""
+//CreateDesc   = »¡°£¾Þ¹«»õ4¸¶¸®,ÆÄ¶õ¾Þ¹«»õ3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,21,1"
+SoundPackage1   = "7,21,2"
+SoundPackage2   = ""
+//Voice   = »¡°£ ¾Þ¹«»õ ½î°í, ÆÄ¶õ ¾Þ¹«»õ ½îÁö¸¶
+
+[Flag16]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 7
+ShootTarget   = "105"
+//ShootDesc   = ÆÄ¶õ¾Þ¹«»õ
+NotShootTarget   = "101"
+//NotShootDesc   = »¡°£¾Þ¹«»õ
+CreateTarget   = "101,4,105,3"
+//MissionCreate   = "101,4,105,3"
+//GuestCreate   = ""
+//CreateDesc   = »¡°£¾Þ¹«»õ4¸¶¸®,ÆÄ¶õ¾Þ¹«»õ3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,21,3"
+SoundPackage1   = "7,21,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ ¾Þ¹«»õ ½îÁö¸»°í, ÆÄ¶õ ¾Þ¹«»õ ½÷
+
+[Flag17]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 7
+ShootTarget   = ""
+//ShootDesc   = 
+NotShootTarget   = "101,105"
+//NotShootDesc   = »¡°£¾Þ¹«»õ,ÆÄ¶õ¾Þ¹«»õ
+CreateTarget   = "101,4,105,3"
+//MissionCreate   = "101,4,105,3"
+//GuestCreate   = ""
+//CreateDesc   = »¡°£¾Þ¹«»õ4¸¶¸®,ÆÄ¶õ¾Þ¹«»õ3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,21,3"
+SoundPackage1   = "7,21,2"
+SoundPackage2   = ""
+//Voice   = »¡°£ ¾Þ¹«»õ ½îÁö¸»°í, ÆÄ¶õ ¾Þ¹«»õ ½îÁö¸¶
+
+[Flag18]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 7
+ShootTarget   = "101,105"
+//ShootDesc   = »¡°£¾Þ¹«»õ,ÆÄ¶õ¾Þ¹«»õ
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "101,4,105,3"
+//MissionCreate   = "101,4,105,3"
+//GuestCreate   = ""
+//CreateDesc   = »¡°£¾Þ¹«»õ4¸¶¸®,ÆÄ¶õ¾Þ¹«»õ3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,22"
+SoundPackage1   = "7,21,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ ¾Þ¹«»õ ¶û , ÆÄ¶õ ¾Þ¹«»õ ½÷
+
+[Flag19]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 7
+ShootTarget   = "105,101"
+//ShootDesc   = ÆÄ¶õ¾Þ¹«»õ,»¡°£¾Þ¹«»õ
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "105,4,101,3"
+//MissionCreate   = "105,4,101,3"
+//GuestCreate   = ""
+//CreateDesc   = ÆÄ¶õ¾Þ¹«»õ4¸¶¸®,»¡°£¾Þ¹«»õ3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,21,1"
+SoundPackage1   = "4,21,0"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ ¾Þ¹«»õ ½î°í, »¡°£ ¾Þ¹«»õ ½÷
+
+[Flag20]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 7
+ShootTarget   = "105"
+//ShootDesc   = ÆÄ¶õ¾Þ¹«»õ
+NotShootTarget   = "101"
+//NotShootDesc   = »¡°£¾Þ¹«»õ
+CreateTarget   = "105,4,101,3"
+//MissionCreate   = "105,4,101,3"
+//GuestCreate   = ""
+//CreateDesc   = ÆÄ¶õ¾Þ¹«»õ4¸¶¸®,»¡°£¾Þ¹«»õ3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,21,1"
+SoundPackage1   = "4,21,2"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ ¾Þ¹«»õ ½î°í, »¡°£ ¾Þ¹«»õ ½îÁö¸¶
+
+[Flag21]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 7
+ShootTarget   = "101"
+//ShootDesc   = »¡°£¾Þ¹«»õ
+NotShootTarget   = "105"
+//NotShootDesc   = ÆÄ¶õ¾Þ¹«»õ
+CreateTarget   = "105,4,101,3"
+//MissionCreate   = "105,4,101,3"
+//GuestCreate   = ""
+//CreateDesc   = ÆÄ¶õ¾Þ¹«»õ4¸¶¸®,»¡°£¾Þ¹«»õ3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,21,3"
+SoundPackage1   = "4,21,0"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ ¾Þ¹«»õ ½îÁö¸»°í, »¡°£ ¾Þ¹«»õ ½÷
+
+[Flag22]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 7
+ShootTarget   = ""
+//ShootDesc   = 
+NotShootTarget   = "105,101"
+//NotShootDesc   = ÆÄ¶õ¾Þ¹«»õ,»¡°£¾Þ¹«»õ
+CreateTarget   = "105,4,101,3"
+//MissionCreate   = "105,4,101,3"
+//GuestCreate   = ""
+//CreateDesc   = ÆÄ¶õ¾Þ¹«»õ4¸¶¸®,»¡°£¾Þ¹«»õ3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,21,3"
+SoundPackage1   = "4,21,2"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ ¾Þ¹«»õ ½îÁö¸»°í, »¡°£ ¾Þ¹«»õ ½îÁö¸¶
+
+[Flag23]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 1
+//Steage   = 7
+ShootTarget   = "105,101"
+//ShootDesc   = ÆÄ¶õ¾Þ¹«»õ,»¡°£¾Þ¹«»õ
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "105,4,101,3"
+//MissionCreate   = "105,4,101,3"
+//GuestCreate   = ""
+//CreateDesc   = ÆÄ¶õ¾Þ¹«»õ4¸¶¸®,»¡°£¾Þ¹«»õ3¸¶¸®
+//GuestCreateDesc   = 
+//Target1   = 4
+//Target2   = 3
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,22"
+SoundPackage1   = "4,21,0"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ ¾Þ¹«»õ ¶û , »¡°£ ¾Þ¹«»õ ½÷
+
+[Flag24]
+Time   = 10
+CreateTargetDelayTime   = 0
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "26"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "26,4,54,2,58,2"
+//MissionCreate   = "26,4"
+//GuestCreate   = "54,2,58,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£Ä»°Å·ç2¸¶¸®,ÆÄ¶õÄ»°Å·ç2¸¶¸®
+//Target1   = 4
+//Target2   = 
+//Target3   = 
+//Guest1   = »¡°£Ä»°Å·ç
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õÄ»°Å·ç
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "17,0"
+SoundPackage1   = ""
+SoundPackage2   = ""
+//Voice   = µÅÁö ½÷
+
+[Flag25]
+Time   = 10
+CreateTargetDelayTime   = 0
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "50"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "50,4,30,2,34,2"
+//MissionCreate   = "50,4"
+//GuestCreate   = "30,2,34,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£µÅÁö2¸¶¸®,ÆÄ¶õµÅÁö2¸¶¸®
+//Target1   = 4
+//Target2   = 
+//Target3   = 
+//Guest1   = »¡°£µÅÁö
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õµÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "19,0"
+SoundPackage1   = ""
+SoundPackage2   = ""
+//Voice   = Ä»°Å·ç ½÷
+
+[Flag26]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "26,50"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "26,2,50,2"
+//MissionCreate   = "26,2,50,2"
+//GuestCreate   = ""
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = 
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "18"
+SoundPackage1   = "19,0"
+SoundPackage2   = ""
+//Voice   = µÅÁö ¶û , Ä»°Å·ç ½÷
+
+[Flag27]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "50,26"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "50,2,26,2"
+//MissionCreate   = "50,2,26,2"
+//GuestCreate   = ""
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = 
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "20"
+SoundPackage1   = "17,0"
+SoundPackage2   = ""
+//Voice   = Ä»°Å·ç ¶û , µÅÁö ½÷
+
+[Flag28]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "54"
+//ShootDesc   = -2146826246
+NotShootTarget   = "34"
+//NotShootDesc   = -2146826246
+CreateTarget   = "54,2,34,2,30,2,58,2"
+//MissionCreate   = "54,2,34,2"
+//GuestCreate   = "30,2,58,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£µÅÁö2¸¶¸®,ÆÄ¶õÄ»°Å·ç2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = »¡°£µÅÁö
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õÄ»°Å·ç
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,19,1"
+SoundPackage1   = "7,17,2"
+SoundPackage2   = ""
+//Voice   = »¡°£ Ä»°Å·ç ½î°í, ÆÄ¶õ µÅÁö ½îÁö¸¶
+
+[Flag29]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "34"
+//ShootDesc   = -2146826246
+NotShootTarget   = "54"
+//NotShootDesc   = -2146826246
+CreateTarget   = "54,2,34,2,58,2,30,2"
+//MissionCreate   = "54,2,34,2"
+//GuestCreate   = "58,2,30,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = ÆÄ¶õÄ»°Å·ç2¸¶¸®,»¡°£µÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = ÆÄ¶õÄ»°Å·ç
+//GuestTarget1   = 2
+//Guest2   = »¡°£µÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,19,3"
+SoundPackage1   = "7,17,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ Ä»°Å·ç ½îÁö¸»°í, ÆÄ¶õ µÅÁö ½÷
+
+[Flag30]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "54,34"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "54,2,34,2,58,2,30,2"
+//MissionCreate   = "54,2,34,2"
+//GuestCreate   = "58,2,30,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = ÆÄ¶õÄ»°Å·ç2¸¶¸®,»¡°£µÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = ÆÄ¶õÄ»°Å·ç
+//GuestTarget1   = 2
+//Guest2   = »¡°£µÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,20"
+SoundPackage1   = "7,17,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ Ä»°Å·ç ¶û , ÆÄ¶õ µÅÁö ½÷
+
+[Flag31]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "58,34"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "58,2,34,2,54,2,30,2"
+//MissionCreate   = "58,2,34,2"
+//GuestCreate   = "54,2,30,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£Ä»°Å·ç2¸¶¸®,»¡°£µÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = »¡°£Ä»°Å·ç
+//GuestTarget1   = 2
+//Guest2   = »¡°£µÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,20"
+SoundPackage1   = "7,17,0"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ Ä»°Å·ç ¶û , ÆÄ¶õ µÅÁö ½÷
+
+[Flag32]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "30,34"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "30,2,34,2,54,2,58,2"
+//MissionCreate   = "30,2,34,2"
+//GuestCreate   = "54,2,58,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£Ä»°Å·ç2¸¶¸®,ÆÄ¶õÄ»°Å·ç2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = »¡°£Ä»°Å·ç
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õÄ»°Å·ç
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,18"
+SoundPackage1   = "7,17,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ µÅÁö ¶û , ÆÄ¶õ µÅÁö ½÷
+
+[Flag33]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "30,58"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "30,2,58,2,34,2,54,2"
+//MissionCreate   = "30,2,58,2"
+//GuestCreate   = "34,2,54,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = ÆÄ¶õµÅÁö2¸¶¸®,»¡°£Ä»°Å·ç2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = ÆÄ¶õµÅÁö
+//GuestTarget1   = 2
+//Guest2   = »¡°£Ä»°Å·ç
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,18"
+SoundPackage1   = "7,19,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ µÅÁö ¶û , ÆÄ¶õ Ä»°Å·ç ½÷
+
+[Flag34]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "34,54"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "34,2,54,2,30,2,58,2"
+//MissionCreate   = "34,2,54,2"
+//GuestCreate   = "30,2,58,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£µÅÁö2¸¶¸®,ÆÄ¶õÄ»°Å·ç2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = »¡°£µÅÁö
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õÄ»°Å·ç
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,18"
+SoundPackage1   = "4,19,0"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ µÅÁö ¶û , »¡°£ Ä»°Å·ç ½÷
+
+[Flag35]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "58,30"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "58,2,30,2,54,2,34,2"
+//MissionCreate   = "58,2,30,2"
+//GuestCreate   = "54,2,34,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£Ä»°Å·ç2¸¶¸®,ÆÄ¶õµÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = »¡°£Ä»°Å·ç
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õµÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,20"
+SoundPackage1   = "4,17,0"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ Ä»°Å·ç ¶û , »¡°£ µÅÁö ½÷
+
+[Flag36]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = ""
+//ShootDesc   = 
+NotShootTarget   = "54,34"
+//NotShootDesc   = -2146826246
+CreateTarget   = "54,2,34,2,58,2,30,2"
+//MissionCreate   = "54,2,34,2"
+//GuestCreate   = "58,2,30,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = ÆÄ¶õÄ»°Å·ç2¸¶¸®,»¡°£µÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = ÆÄ¶õÄ»°Å·ç
+//GuestTarget1   = 2
+//Guest2   = »¡°£µÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,20"
+SoundPackage1   = "7,17,2"
+SoundPackage2   = ""
+//Voice   = »¡°£ Ä»°Å·ç ¶û , ÆÄ¶õ µÅÁö ½îÁö¸¶
+
+[Flag37]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "58"
+//ShootDesc   = -2146826246
+NotShootTarget   = "54"
+//NotShootDesc   = -2146826246
+CreateTarget   = "58,2,54,2,30,2,34,2"
+//MissionCreate   = "58,2,54,2"
+//GuestCreate   = "30,2,34,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£µÅÁö2¸¶¸®,ÆÄ¶õµÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = »¡°£µÅÁö
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õµÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,19,1"
+SoundPackage1   = "4,19,2"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ Ä»°Å·ç ½î°í, »¡°£ Ä»°Å·ç ½îÁö¸¶
+
+[Flag38]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "58"
+//ShootDesc   = -2146826246
+NotShootTarget   = "54"
+//NotShootDesc   = -2146826246
+CreateTarget   = "54,2,58,2,30,2,34,2"
+//MissionCreate   = "54,2,58,2"
+//GuestCreate   = "30,2,34,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£µÅÁö2¸¶¸®,ÆÄ¶õµÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = »¡°£µÅÁö
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õµÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,19,3"
+SoundPackage1   = "7,19,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ Ä»°Å·ç ½îÁö¸»°í, ÆÄ¶õ Ä»°Å·ç ½÷
+
+[Flag39]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "30"
+//ShootDesc   = -2146826246
+NotShootTarget   = "58"
+//NotShootDesc   = -2146826246
+CreateTarget   = "58,2,30,2,54,2,34,2"
+//MissionCreate   = "58,2,30,2"
+//GuestCreate   = "54,2,34,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£Ä»°Å·ç2¸¶¸®,ÆÄ¶õµÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = »¡°£Ä»°Å·ç
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õµÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,19,3"
+SoundPackage1   = "4,17,0"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ Ä»°Å·ç ½îÁö¸»°í, »¡°£ µÅÁö ½÷
+
+[Flag40]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "34"
+//ShootDesc   = -2146826246
+NotShootTarget   = "54"
+//NotShootDesc   = -2146826246
+CreateTarget   = "54,2,34,2,58,2,30,2"
+//MissionCreate   = "54,2,34,2"
+//GuestCreate   = "58,2,30,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = ÆÄ¶õÄ»°Å·ç2¸¶¸®,»¡°£µÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = ÆÄ¶õÄ»°Å·ç
+//GuestTarget1   = 2
+//Guest2   = »¡°£µÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,19,3"
+SoundPackage1   = "7,17,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ Ä»°Å·ç ½îÁö¸»°í, ÆÄ¶õ µÅÁö ½÷
+
+[Flag41]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "30,58"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "30,2,58,2,34,2,54,2"
+//MissionCreate   = "30,2,58,2"
+//GuestCreate   = "34,2,54,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = ÆÄ¶õµÅÁö2¸¶¸®,»¡°£Ä»°Å·ç2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = ÆÄ¶õµÅÁö
+//GuestTarget1   = 2
+//Guest2   = »¡°£Ä»°Å·ç
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,17,1"
+SoundPackage1   = "7,19,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ µÅÁö ½î°í, ÆÄ¶õ Ä»°Å·ç ½÷
+
+[Flag42]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 13
+ShootTarget   = "30,54"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "30,2,54,2,34,2,58,2"
+//MissionCreate   = "30,2,54,2"
+//GuestCreate   = "34,2,58,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = ÆÄ¶õµÅÁö2¸¶¸®,ÆÄ¶õÄ»°Å·ç2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = ÆÄ¶õµÅÁö
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õÄ»°Å·ç
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,17,1"
+SoundPackage1   = "4,19,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ µÅÁö ½î°í, »¡°£ Ä»°Å·ç ½÷
+
+[Flag43]
+Time   = 10
+CreateTargetDelayTime   = 0
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "30,34"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "18,2,22,2,30,2,34,2"
+//MissionCreate   = "26,4"
+//GuestCreate   = "18,2,22,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£»õ³¢¿À¸®2¸¶¸®,ÆÄ¶õ»õ³¢¿À¸®2¸¶¸®
+//Target1   = 4
+//Target2   = 
+//Target3   = 
+//Guest1   = »¡°£»õ³¢¿À¸®
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õ»õ³¢¿À¸®
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "17,0"
+SoundPackage1   = ""
+SoundPackage2   = ""
+//Voice   = µÅÁö ½÷
+
+[Flag44]
+Time   = 10
+CreateTargetDelayTime   = 0
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "18,22"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "18,2,22,2,30,2,34,2"
+//MissionCreate   = "14,4"
+//GuestCreate   = "30,2,30,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£µÅÁö2¸¶¸®,»¡°£µÅÁö2¸¶¸®
+//Target1   = 4
+//Target2   = 
+//Target3   = 
+//Guest1   = »¡°£µÅÁö
+//GuestTarget1   = 2
+//Guest2   = »¡°£µÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "15,0"
+SoundPackage1   = ""
+SoundPackage2   = ""
+//Voice   = ¿À¸® ½÷
+
+[Flag45]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "18,34,30,22"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "18,2,34,2,30,2,22,2"
+//MissionCreate   = "26,2,14,2"
+//GuestCreate   = ""
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = 
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "18"
+SoundPackage1   = "15,0"
+SoundPackage2   = ""
+//Voice   = µÅÁö ¶û , ¿À¸® ½÷
+
+[Flag46]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "18,34,30,22"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "18,2,34,2,30,2,22,2"
+//MissionCreate   = "14,2,26,2"
+//GuestCreate   = ""
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = 
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = 
+//GuestTarget1   = 
+//Guest2   = 
+//GuestTarget2   = 
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "16"
+SoundPackage1   = "17,0"
+SoundPackage2   = ""
+//Voice   = ¿À¸® ¶û , µÅÁö ½÷
+
+[Flag47]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "18"
+//ShootDesc   = -2146826246
+NotShootTarget   = "34"
+//NotShootDesc   = -2146826246
+CreateTarget   = "18,2,34,2,30,2,22,2"
+//MissionCreate   = "6,2,34,2"
+//GuestCreate   = "30,2,22,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£µÅÁö2¸¶¸®,ÆÄ¶õ»õ³¢¿À¸®2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = »¡°£µÅÁö
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õ»õ³¢¿À¸®
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,15,1"
+SoundPackage1   = "7,17,2"
+SoundPackage2   = ""
+//Voice   = »¡°£ ¿À¸® ½î°í, ÆÄ¶õ µÅÁö ½îÁö¸¶
+
+[Flag48]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "34"
+//ShootDesc   = -2146826246
+NotShootTarget   = "18"
+//NotShootDesc   = -2146826246
+CreateTarget   = "18,2,34,2,22,2,30,2"
+//MissionCreate   = "6,2,34,2"
+//GuestCreate   = "22,2,30,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = ÆÄ¶õ»õ³¢¿À¸®2¸¶¸®,»¡°£µÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = ÆÄ¶õ»õ³¢¿À¸®
+//GuestTarget1   = 2
+//Guest2   = »¡°£µÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,15,3"
+SoundPackage1   = "7,17,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ ¿À¸® ½îÁö¸»°í, ÆÄ¶õ µÅÁö ½÷
+
+[Flag49]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "18,34"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "18,2,34,2,22,2,30,2"
+//MissionCreate   = "6,2,34,2"
+//GuestCreate   = "22,2,30,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = ÆÄ¶õ»õ³¢¿À¸®2¸¶¸®,»¡°£µÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = ÆÄ¶õ»õ³¢¿À¸®
+//GuestTarget1   = 2
+//Guest2   = »¡°£µÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,16"
+SoundPackage1   = "7,17,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ ¿À¸® ¶û , ÆÄ¶õ µÅÁö ½÷
+
+[Flag50]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "22,34"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "22,2,34,2,18,2,30,2"
+//MissionCreate   = "10,2,34,2"
+//GuestCreate   = "18,2,30,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£»õ³¢¿À¸®2¸¶¸®,»¡°£µÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = »¡°£»õ³¢¿À¸®
+//GuestTarget1   = 2
+//Guest2   = »¡°£µÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,16"
+SoundPackage1   = "7,17,0"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ ¿À¸® ¶û , ÆÄ¶õ µÅÁö ½÷
+
+[Flag51]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "30,34"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "30,2,34,2,18,2,22,2"
+//MissionCreate   = "30,2,34,2"
+//GuestCreate   = "18,2,22,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£»õ³¢¿À¸®2¸¶¸®,ÆÄ¶õ»õ³¢¿À¸®2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = »¡°£»õ³¢¿À¸®
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õ»õ³¢¿À¸®
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,18"
+SoundPackage1   = "7,17,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ µÅÁö ¶û , ÆÄ¶õ µÅÁö ½÷
+
+[Flag52]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "30,22"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "30,2,22,2,34,2,18,2"
+//MissionCreate   = "30,2,10,2"
+//GuestCreate   = "34,2,18,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = ÆÄ¶õµÅÁö2¸¶¸®,»¡°£»õ³¢¿À¸®2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = ÆÄ¶õµÅÁö
+//GuestTarget1   = 2
+//Guest2   = »¡°£»õ³¢¿À¸®
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,18"
+SoundPackage1   = "7,15,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ µÅÁö ¶û , ÆÄ¶õ ¿À¸® ½÷
+
+[Flag53]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "34,18"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "34,2,18,2,30,2,22,2"
+//MissionCreate   = "34,2,6,2"
+//GuestCreate   = "30,2,22,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£µÅÁö2¸¶¸®,ÆÄ¶õ»õ³¢¿À¸®2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = »¡°£µÅÁö
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õ»õ³¢¿À¸®
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,18"
+SoundPackage1   = "4,15,0"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ µÅÁö ¶û , »¡°£ ¿À¸® ½÷
+
+[Flag54]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "22,30"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "22,2,30,2,18,2,34,2"
+//MissionCreate   = "10,2,30,2"
+//GuestCreate   = "18,2,34,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£»õ³¢¿À¸®2¸¶¸®,ÆÄ¶õµÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = »¡°£»õ³¢¿À¸®
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õµÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,16"
+SoundPackage1   = "4,17,0"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ ¿À¸® ¶û , »¡°£ µÅÁö ½÷
+
+[Flag55]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = ""
+//ShootDesc   = 
+NotShootTarget   = "18,34"
+//NotShootDesc   = -2146826246
+CreateTarget   = "18,2,34,2,22,2,30,2"
+//MissionCreate   = "6,2,34,2"
+//GuestCreate   = "22,2,30,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = ÆÄ¶õ»õ³¢¿À¸®2¸¶¸®,»¡°£µÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = ÆÄ¶õ»õ³¢¿À¸®
+//GuestTarget1   = 2
+//Guest2   = »¡°£µÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,16"
+SoundPackage1   = "7,17,2"
+SoundPackage2   = ""
+//Voice   = »¡°£ ¿À¸® ¶û , ÆÄ¶õ µÅÁö ½îÁö¸¶
+
+[Flag56]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "22"
+//ShootDesc   = -2146826246
+NotShootTarget   = "18"
+//NotShootDesc   = -2146826246
+CreateTarget   = "22,2,18,2,30,2,34,2"
+//MissionCreate   = "10,2,6,2"
+//GuestCreate   = "30,2,34,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£µÅÁö2¸¶¸®,ÆÄ¶õµÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = »¡°£µÅÁö
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õµÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,15,1"
+SoundPackage1   = "4,15,2"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ ¿À¸® ½î°í, »¡°£ ¿À¸® ½îÁö¸¶
+
+[Flag57]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "22"
+//ShootDesc   = -2146826246
+NotShootTarget   = "18"
+//NotShootDesc   = -2146826246
+CreateTarget   = "18,2,22,2,30,2,34,2"
+//MissionCreate   = "6,2,10,2"
+//GuestCreate   = "30,2,34,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£µÅÁö2¸¶¸®,ÆÄ¶õµÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = »¡°£µÅÁö
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õµÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,15,3"
+SoundPackage1   = "7,15,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ ¿À¸® ½îÁö¸»°í, ÆÄ¶õ ¿À¸® ½÷
+
+[Flag58]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "30"
+//ShootDesc   = -2146826246
+NotShootTarget   = "22"
+//NotShootDesc   = -2146826246
+CreateTarget   = "22,2,30,2,18,2,34,2"
+//MissionCreate   = "10,2,30,2"
+//GuestCreate   = "18,2,34,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = »¡°£»õ³¢¿À¸®2¸¶¸®,ÆÄ¶õµÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = »¡°£»õ³¢¿À¸®
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õµÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "7,15,3"
+SoundPackage1   = "4,17,0"
+SoundPackage2   = ""
+//Voice   = ÆÄ¶õ ¿À¸® ½îÁö¸»°í, »¡°£ µÅÁö ½÷
+
+[Flag59]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "34"
+//ShootDesc   = -2146826246
+NotShootTarget   = "18"
+//NotShootDesc   = -2146826246
+CreateTarget   = "18,2,34,2,22,2,30,2"
+//MissionCreate   = "6,2,34,2"
+//GuestCreate   = "22,2,30,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = ÆÄ¶õ»õ³¢¿À¸®2¸¶¸®,»¡°£µÅÁö2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = ÆÄ¶õ»õ³¢¿À¸®
+//GuestTarget1   = 2
+//Guest2   = »¡°£µÅÁö
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,15,3"
+SoundPackage1   = "7,17,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ ¿À¸® ½îÁö¸»°í, ÆÄ¶õ µÅÁö ½÷
+
+[Flag60]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "30,22"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "30,2,22,2,34,2,18,2"
+//MissionCreate   = "30,2,10,2"
+//GuestCreate   = "34,2,18,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = ÆÄ¶õµÅÁö2¸¶¸®,»¡°£»õ³¢¿À¸®2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = ÆÄ¶õµÅÁö
+//GuestTarget1   = 2
+//Guest2   = »¡°£»õ³¢¿À¸®
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,17,1"
+SoundPackage1   = "7,15,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ µÅÁö ½î°í, ÆÄ¶õ ¿À¸® ½÷
+
+[Flag61]
+Time   = 10
+CreateTargetDelayTime   = 1
+//TargetLevel   = 2
+//Steage   = 18
+ShootTarget   = "30,18"
+//ShootDesc   = -2146826246
+NotShootTarget   = ""
+//NotShootDesc   = 
+CreateTarget   = "30,2,18,2,34,2,22,2"
+//MissionCreate   = "30,2,6,2"
+//GuestCreate   = "34,2,22,2"
+//CreateDesc   = -2146826246
+//GuestCreateDesc   = ÆÄ¶õµÅÁö2¸¶¸®,ÆÄ¶õ»õ³¢¿À¸®2¸¶¸®
+//Target1   = 2
+//Target2   = 2
+//Target3   = 
+//Guest1   = ÆÄ¶õµÅÁö
+//GuestTarget1   = 2
+//Guest2   = ÆÄ¶õ»õ³¢¿À¸®
+//GuestTarget2   = 2
+//Guest3   = 
+//GuestTarget3   = 
+SoundPackage0   = "4,17,1"
+SoundPackage1   = "4,15,0"
+SoundPackage2   = ""
+//Voice   = »¡°£ µÅÁö ½î°í, »¡°£ ¿À¸® ½÷
+

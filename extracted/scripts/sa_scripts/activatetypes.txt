@@ -1,0 +1,54 @@
+/************************************************************************
+**
+** A C T I V A T E  T Y P E S
+**
+** All ActivateTypes definitions should contain the following properties:
+**
+**  Name (String)
+**
+**	The user friendly name of the ActivateType (what shows up in DEdit).
+**
+**  StateON (integer)
+**
+**	A string ID from CRes.dll of the text to display whe the object is in
+**	it's ON state.  Use -1 for no text.
+**
+**  StateOFF (integer)
+**
+**	A string ID from CRes.dll of the text to display whe the object is in
+**	it's OFF	 state.  Use -1 for no text.
+*/
+
+/*
+** ActivateType0 - Open Close (Pretty Generic. Doors default to this.)
+*/
+
+[ActivateType0]
+
+Name		= "OpenClose"
+StateON		= 520	// close
+StateOFF	= 509	// open
+
+[ActivateType1]
+
+Name		= "PickUp"
+StateON		= 454	// pick up
+StateOFF	= 454	// pick up
+
+[ActivateType2]
+
+Name		= "PressButton"
+StateON		= 2916	// press button
+StateOFF	= 2916	// press button
+
+[ActivateType3]
+
+Name		= "Play"
+StateON		= 2917	// play
+StateOFF	= 2917	// play
+
+[ActivateType4]
+
+Name		= "Activate"
+StateON		= 2929	// activate
+StateOFF	= 2929	// activate

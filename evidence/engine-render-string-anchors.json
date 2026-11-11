@@ -1,0 +1,1577 @@
+{
+  "path": "C:\\Nexon\\SuddenAttack\\suddenattack.exe",
+  "bytes": 7841144,
+  "sha256": "7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8",
+  "image_base": "0x140000000",
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "raw_offset": 1536,
+      "raw_size": 3132928,
+      "virtual_size": 3132647
+    },
+    {
+      "name": ".rdata",
+      "rva": 3137536,
+      "raw_offset": 3134464,
+      "raw_size": 897024,
+      "virtual_size": 896560
+    },
+    {
+      "name": ".data",
+      "rva": 4034560,
+      "raw_offset": 4031488,
+      "raw_size": 124928,
+      "virtual_size": 553292
+    },
+    {
+      "name": ".pdata",
+      "rva": 4591616,
+      "raw_offset": 4156416,
+      "raw_size": 177664,
+      "virtual_size": 177252
+    },
+    {
+      "name": "        ",
+      "rva": 4771840,
+      "raw_offset": 4334080,
+      "raw_size": 157184,
+      "virtual_size": 254048
+    },
+    {
+      "name": ".reloc",
+      "rva": 5029888,
+      "raw_offset": 4491264,
+      "raw_size": 24064,
+      "virtual_size": 23900
+    },
+    {
+      "name": ".debug",
+      "rva": 5054464,
+      "raw_offset": 4515328,
+      "raw_size": 1536,
+      "virtual_size": 4096
+    },
+    {
+      "name": ".edata",
+      "rva": 5058560,
+      "raw_offset": 4516864,
+      "raw_size": 512,
+      "virtual_size": 4096
+    },
+    {
+      "name": ".idata",
+      "rva": 5062656,
+      "raw_offset": 4517376,
+      "raw_size": 2560,
+      "virtual_size": 4096
+    },
+    {
+      "name": ".tls",
+      "rva": 5066752,
+      "raw_offset": 4519936,
+      "raw_size": 512,
+      "virtual_size": 4096
+    },
+    {
+      "name": ".rsrc",
+      "rva": 5070848,
+      "raw_offset": 4520448,
+      "raw_size": 208896,
+      "virtual_size": 208896
+    },
+    {
+      "name": ".themida",
+      "rva": 5279744,
+      "raw_offset": 4729344,
+      "raw_size": 0,
+      "virtual_size": 5939200
+    },
+    {
+      "name": ".boot",
+      "rva": 11218944,
+      "raw_offset": 4729344,
+      "raw_size": 3101184,
+      "virtual_size": 3101184
+    },
+    {
+      "name": ".reloc",
+      "rva": 14323712,
+      "raw_offset": 7830528,
+      "raw_size": 16,
+      "virtual_size": 4096
+    }
+  ],
+  "pattern": "Lightmap|Gouraud|RenderShader|D3D|d3d|WorldRender|Saturate|Trilinear|Bilinear|MipMap|MipMapLODBias|MaxAnisotropy|RenderDll",
+  "matches": [
+    {
+      "offset": 2800699,
+      "bytes": 6,
+      "encoding": "ascii",
+      "address": "0x1402ac63b",
+      "value": "D3D$8A"
+    },
+    {
+      "offset": 3176480,
+      "bytes": 54,
+      "encoding": "ascii",
+      "address": "0x140308420",
+      "value": "[ERROR] InitSoundSystem -> pSound3DProviderList = NULL"
+    },
+    {
+      "offset": 3182008,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x1403099b8",
+      "value": "LightMap 1"
+    },
+    {
+      "offset": 3182216,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x140309a88",
+      "value": "Saturate 1"
+    },
+    {
+      "offset": 3182480,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x140309b90",
+      "value": "Trilinear 0"
+    },
+    {
+      "offset": 3182496,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x140309ba0",
+      "value": "RenderDll d3d.ren"
+    },
+    {
+      "offset": 3183576,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x140309fd8",
+      "value": "mipmapbias 0"
+    },
+    {
+      "offset": 3191736,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x14030bfb8",
+      "value": "renderDLL %s"
+    },
+    {
+      "offset": 3195104,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x14030cce0",
+      "value": "CD3DDrawPrim"
+    },
+    {
+      "offset": 3195120,
+      "bytes": 36,
+      "encoding": "ascii",
+      "address": "0x14030ccf0",
+      "value": "CD3DDrawPrim::DrawCustomRenderObject"
+    },
+    {
+      "offset": 3201488,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x14030e5d0",
+      "value": "MipMapOffset"
+    },
+    {
+      "offset": 3222680,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x140313898",
+      "value": "LT_ERRORLOADINGRENDERDLL"
+    },
+    {
+      "offset": 3240500,
+      "bytes": 5,
+      "encoding": "ascii",
+      "address": "0x140317e34",
+      "value": "End3D"
+    },
+    {
+      "offset": 3254976,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x14031b6c0",
+      "value": "VS_GouraudMain"
+    },
+    {
+      "offset": 3254992,
+      "bytes": 44,
+      "encoding": "ascii",
+      "address": "0x14031b6d0",
+      "value": "SA_Shaders\\Maps\\VS\\NormalMap_GouraudMain.vso"
+    },
+    {
+      "offset": 3255040,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x14031b700",
+      "value": "VS_LightMapMain"
+    },
+    {
+      "offset": 3255056,
+      "bytes": 45,
+      "encoding": "ascii",
+      "address": "0x14031b710",
+      "value": "SA_Shaders\\Maps\\VS\\NormalMap_LightMapMain.vso"
+    },
+    {
+      "offset": 3255112,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x14031b748",
+      "value": "PS_GouraudMain"
+    },
+    {
+      "offset": 3255128,
+      "bytes": 44,
+      "encoding": "ascii",
+      "address": "0x14031b758",
+      "value": "SA_Shaders\\Maps\\PS\\NormalMap_GouraudMain.pso"
+    },
+    {
+      "offset": 3255176,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x14031b788",
+      "value": "PS_GouraudMain_X"
+    },
+    {
+      "offset": 3255200,
+      "bytes": 45,
+      "encoding": "ascii",
+      "address": "0x14031b7a0",
+      "value": "SA_Shaders\\Maps\\PS\\NormalMap_GouraudMainX.pso"
+    },
+    {
+      "offset": 3255248,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x14031b7d0",
+      "value": "PS_GouraudMain_NA"
+    },
+    {
+      "offset": 3255272,
+      "bytes": 46,
+      "encoding": "ascii",
+      "address": "0x14031b7e8",
+      "value": "SA_Shaders\\Maps\\PS\\NormalMap_GouraudMainNA.pso"
+    },
+    {
+      "offset": 3255320,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x14031b818",
+      "value": "PS_LightMapMain"
+    },
+    {
+      "offset": 3255336,
+      "bytes": 45,
+      "encoding": "ascii",
+      "address": "0x14031b828",
+      "value": "SA_Shaders\\Maps\\PS\\NormalMap_LightMapMain.pso"
+    },
+    {
+      "offset": 3255384,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x14031b858",
+      "value": "PS_LightMapMain_X"
+    },
+    {
+      "offset": 3255408,
+      "bytes": 46,
+      "encoding": "ascii",
+      "address": "0x14031b870",
+      "value": "SA_Shaders\\Maps\\PS\\NormalMap_LightMapMainX.pso"
+    },
+    {
+      "offset": 3255456,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x14031b8a0",
+      "value": "PS_LightMapMain_NA"
+    },
+    {
+      "offset": 3255480,
+      "bytes": 47,
+      "encoding": "ascii",
+      "address": "0x14031b8b8",
+      "value": "SA_Shaders\\Maps\\PS\\NormalMap_LightMapMainNA.pso"
+    },
+    {
+      "offset": 3257728,
+      "bytes": 54,
+      "encoding": "ascii",
+      "address": "0x14031c180",
+      "value": "[DX_INIT ERROR] m_pD3DDevice->GetDeviceCaps hr(0x%08x)"
+    },
+    {
+      "offset": 3257960,
+      "bytes": 50,
+      "encoding": "ascii",
+      "address": "0x14031c268",
+      "value": "[ENGINE] AutoDepthStencilFormat is D3DFMT_UNKNOWN."
+    },
+    {
+      "offset": 3258016,
+      "bytes": 56,
+      "encoding": "ascii",
+      "address": "0x14031c2a0",
+      "value": "[ENGINE] AutoDepthStencilFormat set D3DFMT_D24S8 Forced."
+    },
+    {
+      "offset": 3258144,
+      "bytes": 42,
+      "encoding": "ascii",
+      "address": "0x14031c320",
+      "value": "[ERROR] m_pD3DDevice->Reset_1(0x%08x) %llu"
+    },
+    {
+      "offset": 3258192,
+      "bytes": 42,
+      "encoding": "ascii",
+      "address": "0x14031c350",
+      "value": "[ERROR] m_pD3DDevice->Reset_2(0x%08x) %llu"
+    },
+    {
+      "offset": 3258240,
+      "bytes": 42,
+      "encoding": "ascii",
+      "address": "0x14031c380",
+      "value": "[ERROR] m_pD3DDevice->Reset_4(0x%08x) %llu"
+    },
+    {
+      "offset": 3258288,
+      "bytes": 42,
+      "encoding": "ascii",
+      "address": "0x14031c3b0",
+      "value": "[ERROR] m_pD3DDevice->Reset_5(0x%08x) %llu"
+    },
+    {
+      "offset": 3258336,
+      "bytes": 42,
+      "encoding": "ascii",
+      "address": "0x14031c3e0",
+      "value": "[ERROR] m_pD3DDevice->Reset_6(0x%08x) %llu"
+    },
+    {
+      "offset": 3258384,
+      "bytes": 42,
+      "encoding": "ascii",
+      "address": "0x14031c410",
+      "value": "[ERROR] m_pD3DDevice->Reset_7(0x%08x) %llu"
+    },
+    {
+      "offset": 3258768,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x14031c590",
+      "value": "MipMap supported: %s"
+    },
+    {
+      "offset": 3269680,
+      "bytes": 45,
+      "encoding": "ascii",
+      "address": "0x14031f030",
+      "value": "d3d_TransferTexture: mipmap count is invalid!"
+    },
+    {
+      "offset": 3269848,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x14031f0d8",
+      "value": "MipMapBias"
+    },
+    {
+      "offset": 3270032,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x14031f190",
+      "value": "D3DERR_INVALIDCALL"
+    },
+    {
+      "offset": 3270056,
+      "bytes": 23,
+      "encoding": "ascii",
+      "address": "0x14031f1a8",
+      "value": "D3DERR_OUTOFVIDEOMEMORY"
+    },
+    {
+      "offset": 3270288,
+      "bytes": 47,
+      "encoding": "ascii",
+      "address": "0x14031f290",
+      "value": "[Texture ERROR] StartMipmap : %d, FileName : %s"
+    },
+    {
+      "offset": 3270336,
+      "bytes": 31,
+      "encoding": "ascii",
+      "address": "0x14031f2c0",
+      "value": "[Texture ERROR] D3DTexture NULL"
+    },
+    {
+      "offset": 3270664,
+      "bytes": 55,
+      "encoding": "ascii",
+      "address": "0x14031f408",
+      "value": "[DX_INIT ERROR] FORMAT_LIGHTMAP texture format missing."
+    },
+    {
+      "offset": 3271032,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x14031f578",
+      "value": "[LIGHTMAP] - "
+    },
+    {
+      "offset": 3271864,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x14031f8b8",
+      "value": "Trilinear"
+    },
+    {
+      "offset": 3272104,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x14031f9a8",
+      "value": "32BitLightMaps"
+    },
+    {
+      "offset": 3272136,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x14031f9c8",
+      "value": "Saturate"
+    },
+    {
+      "offset": 3272152,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x14031f9d8",
+      "value": "Bilinear"
+    },
+    {
+      "offset": 3273752,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x140320018",
+      "value": "LightMap"
+    },
+    {
+      "offset": 3275688,
+      "bytes": 41,
+      "encoding": "ascii",
+      "address": "0x1403207a8",
+      "value": "[DX_INIT ERROR] g_D3DShell.PickDefaultDev"
+    },
+    {
+      "offset": 3276640,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x140320b60",
+      "value": "D3DRenderStyles"
+    },
+    {
+      "offset": 3277535,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x140320edf",
+      "value": "?D3DFMT_R8G8B8"
+    },
+    {
+      "offset": 3277552,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x140320ef0",
+      "value": "D3DFMT_A8R8G8B8"
+    },
+    {
+      "offset": 3277568,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x140320f00",
+      "value": "D3DFMT_X8R8G8B8"
+    },
+    {
+      "offset": 3277584,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x140320f10",
+      "value": "D3DFMT_R5G6B5"
+    },
+    {
+      "offset": 3277600,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x140320f20",
+      "value": "D3DFMT_X1R5G5B5"
+    },
+    {
+      "offset": 3277616,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x140320f30",
+      "value": "D3DFMT_A1R5G5B5"
+    },
+    {
+      "offset": 3277632,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x140320f40",
+      "value": "D3DFMT_A4R4G4B4"
+    },
+    {
+      "offset": 3277648,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x140320f50",
+      "value": "D3DFMT_R3G3B2"
+    },
+    {
+      "offset": 3277664,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x140320f60",
+      "value": "D3DFMT_A8"
+    },
+    {
+      "offset": 3277680,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x140320f70",
+      "value": "D3DFMT_A8R3G3B2"
+    },
+    {
+      "offset": 3277696,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x140320f80",
+      "value": "D3DFMT_X4R4G4B4"
+    },
+    {
+      "offset": 3277712,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x140320f90",
+      "value": "D3DFMT_A8P8"
+    },
+    {
+      "offset": 3277728,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x140320fa0",
+      "value": "D3DFMT_P8"
+    },
+    {
+      "offset": 3277744,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x140320fb0",
+      "value": "D3DFMT_L8"
+    },
+    {
+      "offset": 3277760,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x140320fc0",
+      "value": "D3DFMT_A8L8"
+    },
+    {
+      "offset": 3277776,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x140320fd0",
+      "value": "D3DFMT_A4L4"
+    },
+    {
+      "offset": 3277792,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x140320fe0",
+      "value": "D3DFMT_V8U8"
+    },
+    {
+      "offset": 3277808,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x140320ff0",
+      "value": "D3DFMT_L6V5U5"
+    },
+    {
+      "offset": 3277824,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x140321000",
+      "value": "D3DFMT_X8L8V8U8"
+    },
+    {
+      "offset": 3277840,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x140321010",
+      "value": "D3DFMT_Q8W8V8U8"
+    },
+    {
+      "offset": 3277856,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x140321020",
+      "value": "D3DFMT_V16U16"
+    },
+    {
+      "offset": 3277872,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x140321030",
+      "value": "D3DFMT_UYVY"
+    },
+    {
+      "offset": 3277888,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x140321040",
+      "value": "D3DFMT_YUY2"
+    },
+    {
+      "offset": 3277904,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x140321050",
+      "value": "D3DFMT_DXT1"
+    },
+    {
+      "offset": 3277920,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x140321060",
+      "value": "D3DFMT_DXT2"
+    },
+    {
+      "offset": 3277936,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x140321070",
+      "value": "D3DFMT_DXT3"
+    },
+    {
+      "offset": 3277952,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x140321080",
+      "value": "D3DFMT_DXT4"
+    },
+    {
+      "offset": 3277968,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x140321090",
+      "value": "D3DFMT_DXT5"
+    },
+    {
+      "offset": 3277984,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x1403210a0",
+      "value": "D3DFMT_D16_LOCKABLE"
+    },
+    {
+      "offset": 3278008,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x1403210b8",
+      "value": "D3DFMT_D32"
+    },
+    {
+      "offset": 3278024,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x1403210c8",
+      "value": "D3DFMT_D15S1"
+    },
+    {
+      "offset": 3278040,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x1403210d8",
+      "value": "D3DFMT_D24S8"
+    },
+    {
+      "offset": 3278056,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x1403210e8",
+      "value": "D3DFMT_D16"
+    },
+    {
+      "offset": 3278072,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x1403210f8",
+      "value": "D3DFMT_D24X8"
+    },
+    {
+      "offset": 3278088,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x140321108",
+      "value": "D3DFMT_D24X4S4"
+    },
+    {
+      "offset": 3278104,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x140321118",
+      "value": "D3DFMT_VERTEXDATA"
+    },
+    {
+      "offset": 3278128,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x140321130",
+      "value": "D3DFMT_INDEX16"
+    },
+    {
+      "offset": 3278144,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x140321140",
+      "value": "D3DFMT_INDEX32"
+    },
+    {
+      "offset": 3278608,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x140321310",
+      "value": "D3D Error: state %s != %s"
+    },
+    {
+      "offset": 3278640,
+      "bytes": 36,
+      "encoding": "ascii",
+      "address": "0x140321330",
+      "value": "D3D Error: (stage %d) state %s != %s"
+    },
+    {
+      "offset": 3279536,
+      "bytes": 35,
+      "encoding": "ascii",
+      "address": "0x1403216b0",
+      "value": "%sLightmaps        : %7d (%5.2f MB)"
+    },
+    {
+      "offset": 3297576,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x140325d28",
+      "value": "render lightmap"
+    },
+    {
+      "offset": 3439296,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x1403486c0",
+      "value": "DDERR_NOMIPMAPHW"
+    },
+    {
+      "offset": 3439416,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x140348738",
+      "value": "DDERR_NOTONMIPMAPSUBLEVEL"
+    },
+    {
+      "offset": 3439640,
+      "bytes": 23,
+      "encoding": "ascii",
+      "address": "0x140348818",
+      "value": "DDERR_D3DNOTINITIALIZED"
+    },
+    {
+      "offset": 3441440,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x140348f20",
+      "value": "D3DERR_WRONGTEXTUREFORMAT"
+    },
+    {
+      "offset": 3441472,
+      "bytes": 32,
+      "encoding": "ascii",
+      "address": "0x140348f40",
+      "value": "D3DERR_UNSUPPORTEDCOLOROPERATION"
+    },
+    {
+      "offset": 3441512,
+      "bytes": 26,
+      "encoding": "ascii",
+      "address": "0x140348f68",
+      "value": "D3DERR_UNSUPPORTEDCOLORARG"
+    },
+    {
+      "offset": 3441544,
+      "bytes": 32,
+      "encoding": "ascii",
+      "address": "0x140348f88",
+      "value": "D3DERR_UNSUPPORTEDALPHAOPERATION"
+    },
+    {
+      "offset": 3441584,
+      "bytes": 26,
+      "encoding": "ascii",
+      "address": "0x140348fb0",
+      "value": "D3DERR_UNSUPPORTEDALPHAARG"
+    },
+    {
+      "offset": 3441616,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x140348fd0",
+      "value": "D3DERR_TOOMANYOPERATIONS"
+    },
+    {
+      "offset": 3441648,
+      "bytes": 31,
+      "encoding": "ascii",
+      "address": "0x140348ff0",
+      "value": "D3DERR_CONFLICTINGTEXTUREFILTER"
+    },
+    {
+      "offset": 3441680,
+      "bytes": 29,
+      "encoding": "ascii",
+      "address": "0x140349010",
+      "value": "D3DERR_UNSUPPORTEDFACTORVALUE"
+    },
+    {
+      "offset": 3441712,
+      "bytes": 29,
+      "encoding": "ascii",
+      "address": "0x140349030",
+      "value": "D3DERR_CONFLICTINGRENDERSTATE"
+    },
+    {
+      "offset": 3441744,
+      "bytes": 31,
+      "encoding": "ascii",
+      "address": "0x140349050",
+      "value": "D3DERR_UNSUPPORTEDTEXTUREFILTER"
+    },
+    {
+      "offset": 3441776,
+      "bytes": 32,
+      "encoding": "ascii",
+      "address": "0x140349070",
+      "value": "D3DERR_CONFLICTINGTEXTUREPALETTE"
+    },
+    {
+      "offset": 3441816,
+      "bytes": 26,
+      "encoding": "ascii",
+      "address": "0x140349098",
+      "value": "D3DERR_DRIVERINTERNALERROR"
+    },
+    {
+      "offset": 3441848,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x1403490b8",
+      "value": "D3DERR_NOTFOUND"
+    },
+    {
+      "offset": 3441864,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x1403490c8",
+      "value": "D3DERR_MOREDATA"
+    },
+    {
+      "offset": 3441880,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x1403490d8",
+      "value": "D3DERR_DEVICELOST"
+    },
+    {
+      "offset": 3441904,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x1403490f0",
+      "value": "D3DERR_DEVICENOTRESET"
+    },
+    {
+      "offset": 3441928,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x140349108",
+      "value": "D3DERR_NOTAVAILABLE"
+    },
+    {
+      "offset": 3441952,
+      "bytes": 23,
+      "encoding": "ascii",
+      "address": "0x140349120",
+      "value": "D3DERR_OUTOFVIDEOMEMORY"
+    },
+    {
+      "offset": 3441976,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x140349138",
+      "value": "D3DERR_INVALIDDEVICE"
+    },
+    {
+      "offset": 3442000,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x140349150",
+      "value": "D3DERR_INVALIDCALL"
+    },
+    {
+      "offset": 3442024,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x140349168",
+      "value": "D3DERR_DRIVERINVALIDCALL"
+    },
+    {
+      "offset": 3442056,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x140349188",
+      "value": "D3DOK_NOAUTOGEN"
+    },
+    {
+      "offset": 3442072,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x140349198",
+      "value": "D3DERR_DEVICEREMOVED"
+    },
+    {
+      "offset": 3442192,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x140349210",
+      "value": "D3DERR_DEVICEHUNG"
+    },
+    {
+      "offset": 3442216,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x140349228",
+      "value": "D3DERR_UNSUPPORTEDOVERLAY"
+    },
+    {
+      "offset": 3442248,
+      "bytes": 31,
+      "encoding": "ascii",
+      "address": "0x140349248",
+      "value": "D3DERR_UNSUPPORTEDOVERLAYFORMAT"
+    },
+    {
+      "offset": 3442280,
+      "bytes": 27,
+      "encoding": "ascii",
+      "address": "0x140349268",
+      "value": "D3DERR_CANNOTPROTECTCONTENT"
+    },
+    {
+      "offset": 3442312,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x140349288",
+      "value": "D3DERR_UNSUPPORTEDCRYPTO"
+    },
+    {
+      "offset": 3442344,
+      "bytes": 34,
+      "encoding": "ascii",
+      "address": "0x1403492a8",
+      "value": "D3DERR_PRESENT_STATISTICS_DISJOINT"
+    },
+    {
+      "offset": 3442384,
+      "bytes": 31,
+      "encoding": "ascii",
+      "address": "0x1403492d0",
+      "value": "D3DXERR_CANNOTMODIFYINDEXBUFFER"
+    },
+    {
+      "offset": 3442416,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x1403492f0",
+      "value": "D3DXERR_INVALIDMESH"
+    },
+    {
+      "offset": 3442440,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x140349308",
+      "value": "D3DXERR_CANNOTATTRSORT"
+    },
+    {
+      "offset": 3442464,
+      "bytes": 28,
+      "encoding": "ascii",
+      "address": "0x140349320",
+      "value": "D3DXERR_SKINNINGNOTSUPPORTED"
+    },
+    {
+      "offset": 3442496,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x140349340",
+      "value": "D3DXERR_TOOMANYINFLUENCES"
+    },
+    {
+      "offset": 3442528,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x140349360",
+      "value": "D3DXERR_INVALIDDATA"
+    },
+    {
+      "offset": 3442552,
+      "bytes": 26,
+      "encoding": "ascii",
+      "address": "0x140349378",
+      "value": "D3DXERR_LOADEDMESHASNODATA"
+    },
+    {
+      "offset": 3442584,
+      "bytes": 30,
+      "encoding": "ascii",
+      "address": "0x140349398",
+      "value": "D3DXERR_DUPLICATENAMEDFRAGMENT"
+    },
+    {
+      "offset": 3442616,
+      "bytes": 28,
+      "encoding": "ascii",
+      "address": "0x1403493b8",
+      "value": "D3DXERR_CANNOTREMOVELASTITEM"
+    },
+    {
+      "offset": 3442648,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x1403493d8",
+      "value": "D3DXFERR_BADOBJECT"
+    },
+    {
+      "offset": 3442672,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x1403493f0",
+      "value": "D3DXFERR_BADVALUE"
+    },
+    {
+      "offset": 3442696,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x140349408",
+      "value": "D3DXFERR_BADTYPE"
+    },
+    {
+      "offset": 3442720,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x140349420",
+      "value": "D3DXFERR_NOTFOUND"
+    },
+    {
+      "offset": 3442744,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x140349438",
+      "value": "D3DXFERR_NOTDONEYET"
+    },
+    {
+      "offset": 3442768,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x140349450",
+      "value": "D3DXFERR_FILENOTFOUND"
+    },
+    {
+      "offset": 3442792,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x140349468",
+      "value": "D3DXFERR_RESOURCENOTFOUND"
+    },
+    {
+      "offset": 3442824,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x140349488",
+      "value": "D3DXFERR_BADRESOURCE"
+    },
+    {
+      "offset": 3442848,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x1403494a0",
+      "value": "D3DXFERR_BADFILETYPE"
+    },
+    {
+      "offset": 3442872,
+      "bytes": 23,
+      "encoding": "ascii",
+      "address": "0x1403494b8",
+      "value": "D3DXFERR_BADFILEVERSION"
+    },
+    {
+      "offset": 3442896,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x1403494d0",
+      "value": "D3DXFERR_BADFILEFLOATSIZE"
+    },
+    {
+      "offset": 3442928,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x1403494f0",
+      "value": "D3DXFERR_BADFILE"
+    },
+    {
+      "offset": 3442952,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x140349508",
+      "value": "D3DXFERR_PARSEERROR"
+    },
+    {
+      "offset": 3442976,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x140349520",
+      "value": "D3DXFERR_BADARRAYSIZE"
+    },
+    {
+      "offset": 3443000,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x140349538",
+      "value": "D3DXFERR_BADDATAREFERENCE"
+    },
+    {
+      "offset": 3443032,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x140349558",
+      "value": "D3DXFERR_NOMOREOBJECTS"
+    },
+    {
+      "offset": 3443056,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x140349570",
+      "value": "D3DXFERR_NOMOREDATA"
+    },
+    {
+      "offset": 3443080,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x140349588",
+      "value": "D3DXFERR_BADCACHEFILE"
+    },
+    {
+      "offset": 3452736,
+      "bytes": 41,
+      "encoding": "ascii",
+      "address": "0x14034bb40",
+      "value": "D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS"
+    },
+    {
+      "offset": 3452784,
+      "bytes": 26,
+      "encoding": "ascii",
+      "address": "0x14034bb70",
+      "value": "D3D10_ERROR_FILE_NOT_FOUND"
+    },
+    {
+      "offset": 3453512,
+      "bytes": 41,
+      "encoding": "ascii",
+      "address": "0x14034be48",
+      "value": "D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS"
+    },
+    {
+      "offset": 3453560,
+      "bytes": 26,
+      "encoding": "ascii",
+      "address": "0x14034be78",
+      "value": "D3D11_ERROR_FILE_NOT_FOUND"
+    },
+    {
+      "offset": 3453592,
+      "bytes": 40,
+      "encoding": "ascii",
+      "address": "0x14034be98",
+      "value": "D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS"
+    },
+    {
+      "offset": 3453640,
+      "bytes": 56,
+      "encoding": "ascii",
+      "address": "0x14034bec8",
+      "value": "D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD"
+    },
+    {
+      "offset": 3466192,
+      "bytes": 54,
+      "encoding": "ascii",
+      "address": "0x14034efd0",
+      "value": "Attempt was made to set a palette on a mipmap sublevel"
+    },
+    {
+      "offset": 3466872,
+      "bytes": 33,
+      "encoding": "ascii",
+      "address": "0x14034f278",
+      "value": "D3D has not yet been initialized."
+    },
+    {
+      "offset": 3470960,
+      "bytes": 59,
+      "encoding": "ascii",
+      "address": "0x140350270",
+      "value": "The call succeeded but there won't be any mipmaps generated"
+    },
+    {
+      "offset": 3485800,
+      "bytes": 38,
+      "encoding": "ascii",
+      "address": "0x140353c68",
+      "value": "Incorrect version of Direct3D or D3DX."
+    },
+    {
+      "offset": 4133264,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x1403f1d90",
+      "value": ".?AVCD3DDrawPrim@@"
+    },
+    {
+      "offset": 4146376,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x1403f50c8",
+      "value": ".?AVCRenderShader@@"
+    },
+    {
+      "offset": 4146416,
+      "bytes": 27,
+      "encoding": "ascii",
+      "address": "0x1403f50f0",
+      "value": ".?AVCRenderShader_Gouraud@@"
+    },
+    {
+      "offset": 4146464,
+      "bytes": 69,
+      "encoding": "ascii",
+      "address": "0x1403f5120",
+      "value": ".?AV?$CRenderShader_Base@USVertex_Gouraud@@UCSection_Gouraud@@$0EC@@@"
+    },
+    {
+      "offset": 4146552,
+      "bytes": 35,
+      "encoding": "ascii",
+      "address": "0x1403f5178",
+      "value": ".?AVCRenderShader_Gouraud_Texture@@"
+    },
+    {
+      "offset": 4146608,
+      "bytes": 86,
+      "encoding": "ascii",
+      "address": "0x1403f51b0",
+      "value": ".?AV?$CRenderShader_Base@USVertex_Gouraud_Texture@@UCSection_Gouraud_Texture@@$0BFC@@@"
+    },
+    {
+      "offset": 4146712,
+      "bytes": 34,
+      "encoding": "ascii",
+      "address": "0x1403f5218",
+      "value": ".?AVCRenderShader_Gouraud_Detail@@"
+    },
+    {
+      "offset": 4146768,
+      "bytes": 84,
+      "encoding": "ascii",
+      "address": "0x1403f5250",
+      "value": ".?AV?$CRenderShader_Base@USVertex_Gouraud_Detail@@UCSection_Gouraud_Detail@@$0CEC@@@"
+    },
+    {
+      "offset": 4146872,
+      "bytes": 34,
+      "encoding": "ascii",
+      "address": "0x1403f52b8",
+      "value": ".?AVCRenderShader_Gouraud_EnvMap@@"
+    },
+    {
+      "offset": 4146928,
+      "bytes": 84,
+      "encoding": "ascii",
+      "address": "0x1403f52f0",
+      "value": ".?AV?$CRenderShader_Base@USVertex_Gouraud_EnvMap@@UCSection_Gouraud_EnvMap@@$0BFC@@@"
+    },
+    {
+      "offset": 4147032,
+      "bytes": 38,
+      "encoding": "ascii",
+      "address": "0x1403f5358",
+      "value": ".?AVCRenderShader_Gouraud_EnvBumpMap@@"
+    },
+    {
+      "offset": 4147088,
+      "bytes": 92,
+      "encoding": "ascii",
+      "address": "0x1403f5390",
+      "value": ".?AV?$CRenderShader_Base@USVertex_Gouraud_EnvBumpMap@@UCSection_Gouraud_EnvBumpMap@@$0CFC@@@"
+    },
+    {
+      "offset": 4147200,
+      "bytes": 39,
+      "encoding": "ascii",
+      "address": "0x1403f5400",
+      "value": ".?AVCRenderShader_Gouraud_DualTexture@@"
+    },
+    {
+      "offset": 4147264,
+      "bytes": 94,
+      "encoding": "ascii",
+      "address": "0x1403f5440",
+      "value": ".?AV?$CRenderShader_Base@USVertex_Gouraud_DualTexture@@UCSection_Gouraud_DualTexture@@$0CEC@@@"
+    },
+    {
+      "offset": 4147376,
+      "bytes": 36,
+      "encoding": "ascii",
+      "address": "0x1403f54b0",
+      "value": ".?AVCRenderShader_Gouraud_Material@@"
+    },
+    {
+      "offset": 4147440,
+      "bytes": 87,
+      "encoding": "ascii",
+      "address": "0x1403f54f0",
+      "value": ".?AV?$CRenderShader_Base@USVertex_Gouraud_Material@@UCSection_Gouraud_Texture@@$0DFC@@@"
+    },
+    {
+      "offset": 4147544,
+      "bytes": 46,
+      "encoding": "ascii",
+      "address": "0x1403f5558",
+      "value": ".?AVCRenderShader_Gouraud_Texture_Fullbright@@"
+    },
+    {
+      "offset": 4147608,
+      "bytes": 45,
+      "encoding": "ascii",
+      "address": "0x1403f5598",
+      "value": ".?AVCRenderShader_Gouraud_Detail_Fullbright@@"
+    },
+    {
+      "offset": 4147672,
+      "bytes": 45,
+      "encoding": "ascii",
+      "address": "0x1403f55d8",
+      "value": ".?AVCRenderShader_Gouraud_EnvMap_Fullbright@@"
+    },
+    {
+      "offset": 4147736,
+      "bytes": 28,
+      "encoding": "ascii",
+      "address": "0x1403f5618",
+      "value": ".?AVCRenderShader_Lightmap@@"
+    },
+    {
+      "offset": 4147792,
+      "bytes": 72,
+      "encoding": "ascii",
+      "address": "0x1403f5650",
+      "value": ".?AV?$CRenderShader_Base@USVertex_Lightmap@@UCSection_Lightmap@@$0BBC@@@"
+    },
+    {
+      "offset": 4147888,
+      "bytes": 36,
+      "encoding": "ascii",
+      "address": "0x1403f56b0",
+      "value": ".?AVCRenderShader_Lightmap_Texture@@"
+    },
+    {
+      "offset": 4147952,
+      "bytes": 88,
+      "encoding": "ascii",
+      "address": "0x1403f56f0",
+      "value": ".?AV?$CRenderShader_Base@USVertex_Lightmap_Texture@@UCSection_Lightmap_Texture@@$0BBC@@@"
+    },
+    {
+      "offset": 4148064,
+      "bytes": 43,
+      "encoding": "ascii",
+      "address": "0x1403f5760",
+      "value": ".?AVCRenderShader_Lightmap_Texture_Detail@@"
+    },
+    {
+      "offset": 4148128,
+      "bytes": 102,
+      "encoding": "ascii",
+      "address": "0x1403f57a0",
+      "value": ".?AV?$CRenderShader_Base@USVertex_Lightmap_Texture_Detail@@UCSection_Lightmap_Texture_Detail@@$0CAC@@@"
+    },
+    {
+      "offset": 4148248,
+      "bytes": 43,
+      "encoding": "ascii",
+      "address": "0x1403f5818",
+      "value": ".?AVCRenderShader_Lightmap_Texture_EnvMap@@"
+    },
+    {
+      "offset": 4148320,
+      "bytes": 102,
+      "encoding": "ascii",
+      "address": "0x1403f5860",
+      "value": ".?AV?$CRenderShader_Base@USVertex_Lightmap_Texture_EnvMap@@UCSection_Lightmap_Texture_EnvMap@@$0BBC@@@"
+    },
+    {
+      "offset": 4148448,
+      "bytes": 47,
+      "encoding": "ascii",
+      "address": "0x1403f58e0",
+      "value": ".?AVCRenderShader_Lightmap_Texture_EnvBumpMap@@"
+    },
+    {
+      "offset": 4148512,
+      "bytes": 110,
+      "encoding": "ascii",
+      "address": "0x1403f5920",
+      "value": ".?AV?$CRenderShader_Base@USVertex_Lightmap_Texture_EnvBumpMap@@UCSection_Lightmap_Texture_EnvBumpMap@@$0CBC@@@"
+    },
+    {
+      "offset": 4148640,
+      "bytes": 48,
+      "encoding": "ascii",
+      "address": "0x1403f59a0",
+      "value": ".?AVCRenderShader_Lightmap_Texture_DualTexture@@"
+    },
+    {
+      "offset": 4148720,
+      "bytes": 112,
+      "encoding": "ascii",
+      "address": "0x1403f59f0",
+      "value": ".?AV?$CRenderShader_Base@USVertex_Lightmap_Texture_DualTexture@@UCSection_Lightmap_Texture_DualTexture@@$0CEC@@@"
+    },
+    {
+      "offset": 4148856,
+      "bytes": 37,
+      "encoding": "ascii",
+      "address": "0x1403f5a78",
+      "value": ".?AVCRenderShader_Lightmap_Material@@"
+    },
+    {
+      "offset": 4148912,
+      "bytes": 89,
+      "encoding": "ascii",
+      "address": "0x1403f5ab0",
+      "value": ".?AV?$CRenderShader_Base@USVertex_Lightmap_Material@@UCSection_Lightmap_Texture@@$0DBC@@@"
+    },
+    {
+      "offset": 4149200,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x1403f5bd0",
+      "value": ".?AUID3DXInclude@@"
+    },
+    {
+      "offset": 4149240,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x1403f5bf8",
+      "value": ".?AVCD3DXInclude@@"
+    },
+    {
+      "offset": 4149504,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x1403f5d00",
+      "value": ".?AVD3DRenderStyles@@"
+    },
+    {
+      "offset": 4149584,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x1403f5d50",
+      "value": ".?AVCD3DRenderStyle@@"
+    },
+    {
+      "offset": 4149664,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x1403f5da0",
+      "value": ".?AVCD3DRigidMesh@@"
+    },
+    {
+      "offset": 4149744,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x1403f5df0",
+      "value": ".?AVCD3DSkelMesh@@"
+    },
+    {
+      "offset": 4149816,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x1403f5e38",
+      "value": ".?AVCD3DVAMesh@@"
+    },
+    {
+      "offset": 4150240,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x1403f5fe0",
+      "value": ".?AVD3DShadowTexture@@"
+    },
+    {
+      "offset": 4517408,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x1404d4020",
+      "value": "d3dx9_43.dll"
+    },
+    {
+      "offset": 4517423,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x1404d402f",
+      "value": "D3DXAssembleShader"
+    },
+    {
+      "offset": 4518490,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x1404d445a",
+      "value": "d3d9.dll"
+    }
+  ],
+  "limitations": [
+    "Raw file-string anchors only; no references or function identities established.",
+    "Virtual addresses require one unique source-backed section mapping.",
+    "Only printable ASCII and ASCII-range UTF-16LE runs are scanned."
+  ]
+}

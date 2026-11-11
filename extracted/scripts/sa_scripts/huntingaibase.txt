@@ -1,0 +1,2578 @@
+/***************************************
+Ability	= 	1	해당 타겟의 어빌리티.  AIBotAbility.txt의 인덱스 입력.
+AIBotBase = 	1	해당 타겟의 모델 설정 데이터. AIBotBase.txt의 인덱스 입력.
+Type =		0	종족_두더지
+      		1	종족_오리
+      		2	종족_돼지
+      		3	종족_캥거루
+      		4	종족_앵무새
+      		5 종족_박쥐
+      		6 종족_모기
+      		7 종족_코뿔소
+      		8 종족_나는오리
+      		9 종족_사람
+      		10 종족_총든사람
+      		11 종족_좀비
+      		12 종족_폭탄
+      		13 종족_폭탄 역방향
+      		14 종족_폭탄 빼꼼
+      		15 종족_잔호크
+HP = 		1	해당 타겟의 HP
+MoveToFloor =	True 	땅을 걷는 모델
+            	False 	하늘을 나는 모델
+SpecialType = 0 : 버프타겟
+              1 : 보너스 타겟
+              * 일반 타겟은 해당 필드자체를 지워서 사용하였음.
+                해당 필드가 공란으로 있을 경우 디폴트(일반타겟)적용하는지는 테스트 안해봄.
+Boss = True 보스 스테이지에 출력되는 애들은 True로 설정되어야 함.
+       False 
+SolidAndGravity   False : 중력적용 안받음. & 움직일 때, 디멘션 충돌 안함
+                  True : 중력적용 받음. & 항상 디멘션 충돌 체크
+                  * 하늘을 나는애들은 반드시 False 필요.
+                  * 땅에서 Y값 이동이 필요한 녀석들은(계단 내려올 때) True 설정.
+IncreaseHP = 	1	해당 타겟을 잡았을 때, HP가 회복되는 양.
+Score = 	1	해당 타겟을 잡았을 때 획득하는 스코어
+*****************************************/
+[AIBase0]
+//Desc=오리 프로토타입용
+//Diff=1
+Ability=64
+AIBotBase=1169
+Type=1
+HP=32
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=6
+DecreaseHP=0
+Score=70
+ 
+[AIBase1]
+//Desc=오리 1단계
+//Diff=1
+Ability=64
+AIBotBase=1198
+Type=8
+HP=56
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=8
+DecreaseHP=0
+Score=120
+ 
+[AIBase2]
+//Desc=오리 2단계
+//Diff=2
+Ability=64
+AIBotBase=1198
+Type=8
+HP=70
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=4
+DecreaseHP=0
+Score=120
+ 
+[AIBase3]
+//Desc=오리 3단계
+//Diff=3
+Ability=64
+AIBotBase=1198
+Type=8
+HP=91
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=3.2
+DecreaseHP=0
+Score=180
+ 
+[AIBase4]
+//Desc=오리 4단계
+//Diff=4
+Ability=64
+AIBotBase=1198
+Type=8
+HP=140
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=1.6
+DecreaseHP=0
+Score=360
+ 
+[AIBase5]
+//Desc=<빨간>오리 1단계
+//Diff=1
+Ability=64
+AIBotBase=1198
+Type=8
+HP=56
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=8
+DecreaseHP=0
+Score=120
+ 
+[AIBase6]
+//Desc=<빨간>오리 2단계
+//Diff=2
+Ability=64
+AIBotBase=1198
+Type=8
+HP=70
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=4
+DecreaseHP=0
+Score=120
+ 
+[AIBase7]
+//Desc=<빨간>오리 3단계
+//Diff=3
+Ability=64
+AIBotBase=1198
+Type=8
+HP=91
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=3.2
+DecreaseHP=0
+Score=180
+ 
+[AIBase8]
+//Desc=<빨간>오리 4단계
+//Diff=4
+Ability=64
+AIBotBase=1198
+Type=8
+HP=140
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=1.6
+DecreaseHP=0
+Score=360
+ 
+[AIBase9]
+//Desc=<파란>오리 1단계
+//Diff=1
+Ability=64
+AIBotBase=1198
+Type=8
+HP=56
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=8
+DecreaseHP=0
+Score=120
+ 
+[AIBase10]
+//Desc=<파란>오리 2단계
+//Diff=2
+Ability=64
+AIBotBase=1198
+Type=8
+HP=70
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=4
+DecreaseHP=0
+Score=120
+ 
+[AIBase11]
+//Desc=<파란>오리 3단계
+//Diff=3
+Ability=64
+AIBotBase=1198
+Type=8
+HP=91
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=3.2
+DecreaseHP=0
+Score=180
+ 
+[AIBase12]
+//Desc=<파란>오리 4단계
+//Diff=4
+Ability=64
+AIBotBase=1198
+Type=8
+HP=140
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=1.6
+DecreaseHP=0
+Score=360
+ 
+[AIBase13]
+//Desc=새끼오리 1단계 - 2초마다 점프, 속도 0.4
+//Diff=1
+Ability=69
+AIBotBase=1169
+Type=1
+HP=32
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=6
+DecreaseHP=0
+Score=70
+ 
+[AIBase14]
+//Desc=새끼오리 2단계 - 1.5~2초마다 점프, 속도 0.5
+//Diff=2
+Ability=70
+AIBotBase=1178
+Type=1
+HP=40
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=3
+DecreaseHP=0
+Score=70
+ 
+[AIBase15]
+//Desc=새끼오리 3단계 - 0.75~1.25초점프, 속도 0.6
+//Diff=3
+Ability=71
+AIBotBase=1185
+Type=1
+HP=52
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=2.4
+DecreaseHP=0
+Score=105
+ 
+[AIBase16]
+//Desc=새끼오리 3단계 - 0.75~1.25초점프, 속도 0.6
+//Diff=4
+Ability=71
+AIBotBase=1185
+Type=1
+HP=80
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=1.2
+DecreaseHP=0
+Score=210
+ 
+[AIBase17]
+//Desc=<빨간>새끼오리 1단계
+//Diff=1
+Ability=69
+AIBotBase=1169
+Type=1
+HP=32
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=6
+DecreaseHP=0
+Score=70
+ 
+[AIBase18]
+//Desc=<빨간>새끼오리 2단계
+//Diff=2
+Ability=70
+AIBotBase=1178
+Type=1
+HP=40
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=3
+DecreaseHP=0
+Score=70
+ 
+[AIBase19]
+//Desc=<빨간>새끼오리 3단계
+//Diff=3
+Ability=71
+AIBotBase=1185
+Type=1
+HP=52
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=2.4
+DecreaseHP=0
+Score=105
+ 
+[AIBase20]
+//Desc=<빨간>새끼오리 4단계
+//Diff=4
+Ability=71
+AIBotBase=1185
+Type=1
+HP=80
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=1.2
+DecreaseHP=0
+Score=210
+ 
+[AIBase21]
+//Desc=<파란>새끼오리 1단계
+//Diff=1
+Ability=69
+AIBotBase=1169
+Type=1
+HP=32
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=6
+DecreaseHP=0
+Score=70
+ 
+[AIBase22]
+//Desc=<파란>새끼오리 2단계
+//Diff=2
+Ability=70
+AIBotBase=1178
+Type=1
+HP=40
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=3
+DecreaseHP=0
+Score=70
+ 
+[AIBase23]
+//Desc=<파란>새끼오리 3단계
+//Diff=3
+Ability=71
+AIBotBase=1185
+Type=1
+HP=52
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=2.4
+DecreaseHP=0
+Score=105
+ 
+[AIBase24]
+//Desc=<파란>새끼오리 4단계
+//Diff=4
+Ability=71
+AIBotBase=1185
+Type=1
+HP=80
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=1.2
+DecreaseHP=0
+Score=210
+ 
+[AIBase25]
+//Desc=돼지 1단계 - 속도 0.6
+//Diff=1
+Ability=89
+AIBotBase=1170
+Type=2
+HP=96
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=10
+DecreaseHP=0
+Score=120
+ 
+[AIBase26]
+//Desc=돼지 2단계 - 속도 0.8
+//Diff=2
+Ability=89
+AIBotBase=1179
+Type=2
+HP=120
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=5
+DecreaseHP=0
+Score=120
+ 
+[AIBase27]
+//Desc=돼지 3단계 - 속도 1.0
+//Diff=3
+Ability=89
+AIBotBase=1186
+Type=2
+HP=156
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=4
+DecreaseHP=0
+Score=180
+ 
+[AIBase28]
+//Desc=돼지 4단계 - 속도 1.0
+//Diff=4
+Ability=89
+AIBotBase=1186
+Type=2
+HP=240
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=2
+DecreaseHP=0
+Score=360
+ 
+[AIBase29]
+//Desc=<빨간>돼지 1단계
+//Diff=1
+Ability=89
+AIBotBase=1170
+Type=2
+HP=96
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=10
+DecreaseHP=0
+Score=120
+ 
+[AIBase30]
+//Desc=<빨간>돼지 2단계
+//Diff=2
+Ability=89
+AIBotBase=1179
+Type=2
+HP=120
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=5
+DecreaseHP=0
+Score=120
+ 
+[AIBase31]
+//Desc=<빨간>돼지 3단계
+//Diff=3
+Ability=89
+AIBotBase=1186
+Type=2
+HP=156
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=4
+DecreaseHP=0
+Score=180
+ 
+[AIBase32]
+//Desc=<빨간>돼지 4단계
+//Diff=4
+Ability=89
+AIBotBase=1186
+Type=2
+HP=240
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=2
+DecreaseHP=0
+Score=360
+ 
+[AIBase33]
+//Desc=<파란>돼지 1단계
+//Diff=1
+Ability=89
+AIBotBase=1170
+Type=2
+HP=96
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=10
+DecreaseHP=0
+Score=120
+ 
+[AIBase34]
+//Desc=<파란>돼지 2단계
+//Diff=2
+Ability=89
+AIBotBase=1179
+Type=2
+HP=120
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=5
+DecreaseHP=0
+Score=120
+ 
+[AIBase35]
+//Desc=<파란>돼지 3단계
+//Diff=3
+Ability=89
+AIBotBase=1186
+Type=2
+HP=156
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=4
+DecreaseHP=0
+Score=180
+ 
+[AIBase36]
+//Desc=<파란>돼지 4단계
+//Diff=4
+Ability=89
+AIBotBase=1186
+Type=2
+HP=240
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=2
+DecreaseHP=0
+Score=360
+ 
+[AIBase37]
+//Desc=두더지 1단계 - 아이들 2~3초
+//Diff=1
+Ability=67
+AIBotBase=1168
+Type=0
+HP=96
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=6
+DecreaseHP=0
+Score=125
+ 
+[AIBase38]
+//Desc=두더지 2단계 - 아이들 1~1.5초
+//Diff=2
+Ability=67
+AIBotBase=1177
+Type=0
+HP=120
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=3
+DecreaseHP=0
+Score=125
+ 
+[AIBase39]
+//Desc=두더지 3단계 - 아이들 0.5~1.0초
+//Diff=3
+Ability=68
+AIBotBase=1184
+Type=0
+HP=156
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=2.4
+DecreaseHP=0
+Score=187.5
+ 
+[AIBase40]
+//Desc=두더지 4단계 - 아이들 0.5~1.0초
+//Diff=4
+Ability=68
+AIBotBase=1184
+Type=0
+HP=240
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=1.2
+DecreaseHP=0
+Score=375
+ 
+[AIBase41]
+//Desc=<빨간>두더지 1단계
+//Diff=1
+Ability=67
+AIBotBase=1168
+Type=0
+HP=96
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=6
+DecreaseHP=0
+Score=125
+ 
+[AIBase42]
+//Desc=<빨간>두더지 2단계
+//Diff=2
+Ability=67
+AIBotBase=1177
+Type=0
+HP=120
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=3
+DecreaseHP=0
+Score=125
+ 
+[AIBase43]
+//Desc=<빨간>두더지 3단계
+//Diff=3
+Ability=68
+AIBotBase=1184
+Type=0
+HP=156
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=2.4
+DecreaseHP=0
+Score=187.5
+ 
+[AIBase44]
+//Desc=<빨간>두더지 4단계
+//Diff=4
+Ability=68
+AIBotBase=1184
+Type=0
+HP=240
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=1.2
+DecreaseHP=0
+Score=375
+ 
+[AIBase45]
+//Desc=<파란>두더지 1단계
+//Diff=1
+Ability=67
+AIBotBase=1168
+Type=0
+HP=96
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=6
+DecreaseHP=0
+Score=125
+ 
+[AIBase46]
+//Desc=<파란>두더지 2단계
+//Diff=2
+Ability=67
+AIBotBase=1177
+Type=0
+HP=120
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=3
+DecreaseHP=0
+Score=125
+ 
+[AIBase47]
+//Desc=<파란>두더지 3단계
+//Diff=3
+Ability=68
+AIBotBase=1184
+Type=0
+HP=156
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=2.4
+DecreaseHP=0
+Score=187.5
+ 
+[AIBase48]
+//Desc=<파란>두더지 4단계
+//Diff=4
+Ability=68
+AIBotBase=1184
+Type=0
+HP=240
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=1.2
+DecreaseHP=0
+Score=375
+ 
+[AIBase49]
+//Desc=캥거루 1단계 - 낮은 점프, 속도 0.5
+//Diff=1
+Ability=72
+AIBotBase=1171
+Type=3
+HP=160
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=6
+DecreaseHP=0
+Score=130
+ 
+[AIBase50]
+//Desc=캥거루 2단계 - 보통/낮은 점프, 속도 0.65
+//Diff=2
+Ability=72
+AIBotBase=1180
+Type=3
+HP=200
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=3
+DecreaseHP=0
+Score=130
+ 
+[AIBase51]
+//Desc=캥거루 3단계 - 높은/낮은/보통 점프, 속도 0.8
+//Diff=3
+Ability=73
+AIBotBase=1187
+Type=3
+HP=260
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=2.4
+DecreaseHP=0
+Score=195
+ 
+[AIBase52]
+//Desc=캥거루 4단계 - 높은/낮은/보통 점프, 속도 0.8
+//Diff=4
+Ability=73
+AIBotBase=1187
+Type=3
+HP=400
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=1.2
+DecreaseHP=0
+Score=390
+ 
+[AIBase53]
+//Desc=<빨간>캥거루 1단계
+//Diff=1
+Ability=72
+AIBotBase=1171
+Type=3
+HP=160
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=6
+DecreaseHP=0
+Score=130
+ 
+[AIBase54]
+//Desc=<빨간>캥거루 2단계
+//Diff=2
+Ability=72
+AIBotBase=1180
+Type=3
+HP=200
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=3
+DecreaseHP=0
+Score=130
+ 
+[AIBase55]
+//Desc=<빨간>캥거루 3단계
+//Diff=3
+Ability=73
+AIBotBase=1187
+Type=3
+HP=260
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=2.4
+DecreaseHP=0
+Score=195
+ 
+[AIBase56]
+//Desc=<빨간>캥거루 4단계
+//Diff=4
+Ability=73
+AIBotBase=1187
+Type=3
+HP=400
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=1.2
+DecreaseHP=0
+Score=390
+ 
+[AIBase57]
+//Desc=<파란>캥거루 1단계
+//Diff=1
+Ability=72
+AIBotBase=1171
+Type=3
+HP=160
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=6
+DecreaseHP=0
+Score=130
+ 
+[AIBase58]
+//Desc=<파란>캥거루 2단계
+//Diff=2
+Ability=72
+AIBotBase=1180
+Type=3
+HP=200
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=3
+DecreaseHP=0
+Score=130
+ 
+[AIBase59]
+//Desc=<파란>캥거루 3단계
+//Diff=3
+Ability=73
+AIBotBase=1187
+Type=3
+HP=260
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=2.4
+DecreaseHP=0
+Score=195
+ 
+[AIBase60]
+//Desc=<파란>캥거루 4단계
+//Diff=4
+Ability=73
+AIBotBase=1187
+Type=3
+HP=400
+MoveToFloor=TRUE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=1.2
+DecreaseHP=0
+Score=390
+ 
+[AIBase61]
+//Desc=사람 1단계
+//Diff=1
+Ability=83
+AIBotBase=1199
+Type=9
+HP=80
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=6
+DecreaseHP=0
+Score=120
+ 
+[AIBase62]
+//Desc=사람 2단계
+//Diff=2
+Ability=91
+AIBotBase=1199
+Type=9
+HP=100
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=10
+DecreaseHP=0
+Score=120
+ 
+[AIBase63]
+//Desc=사람 3단계
+//Diff=3
+Ability=83
+AIBotBase=1199
+Type=9
+HP=130
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=2.4
+DecreaseHP=0
+Score=180
+ 
+[AIBase64]
+//Desc=사람 4단계
+//Diff=4
+Ability=83
+AIBotBase=1199
+Type=9
+HP=200
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=1.2
+DecreaseHP=0
+Score=360
+ 
+[AIBase65]
+//Desc=<빨간>사람 1단계
+//Diff=1
+Ability=83
+AIBotBase=1199
+Type=9
+HP=80
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=6
+DecreaseHP=0
+Score=120
+ 
+[AIBase66]
+//Desc=<빨간>사람 2단계
+//Diff=2
+Ability=91
+AIBotBase=1199
+Type=9
+HP=100
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=3
+DecreaseHP=0
+Score=120
+ 
+[AIBase67]
+//Desc=<빨간>사람 3단계
+//Diff=3
+Ability=83
+AIBotBase=1199
+Type=9
+HP=130
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=2.4
+DecreaseHP=0
+Score=180
+ 
+[AIBase68]
+//Desc=<빨간>사람 4단계
+//Diff=4
+Ability=83
+AIBotBase=1199
+Type=9
+HP=200
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=1.2
+DecreaseHP=0
+Score=360
+ 
+[AIBase69]
+//Desc=<파란>사람 1단계
+//Diff=1
+Ability=83
+AIBotBase=1199
+Type=9
+HP=80
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=6
+DecreaseHP=0
+Score=120
+ 
+[AIBase70]
+//Desc=<파란>사람 2단계
+//Diff=2
+Ability=91
+AIBotBase=1199
+Type=9
+HP=100
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=3
+DecreaseHP=0
+Score=120
+ 
+[AIBase71]
+//Desc=<파란>사람 3단계
+//Diff=3
+Ability=83
+AIBotBase=1199
+Type=9
+HP=130
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=2.4
+DecreaseHP=0
+Score=180
+ 
+[AIBase72]
+//Desc=<파란>사람 4단계
+//Diff=4
+Ability=83
+AIBotBase=1199
+Type=9
+HP=200
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=1.2
+DecreaseHP=0
+Score=360
+ 
+[AIBase73]
+//Desc=박쥐 1단계 - 속도 0.8, 2초마다 롤링
+//Diff=1
+Ability=76
+AIBotBase=1174
+Type=5
+HP=56
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=10
+DecreaseHP=0
+Score=220
+ 
+[AIBase74]
+//Desc=박쥐 2단계 - 속도 1.0, 1배롤링+1.4배 롤링 교차
+//Diff=2
+Ability=76
+AIBotBase=1182
+Type=5
+HP=70
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=5
+DecreaseHP=0
+Score=220
+ 
+[AIBase75]
+//Desc=박쥐 3단계 - 속도 1.2, 1.4배롤링&2배롤링 랜덤
+//Diff=3
+Ability=77
+AIBotBase=1189
+Type=5
+HP=91
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=4
+DecreaseHP=0
+Score=330
+ 
+[AIBase76]
+//Desc=박쥐 4단계 - 속도 1.2, 1.4배롤링&2배롤링 랜덤
+//Diff=4
+Ability=78
+AIBotBase=1189
+Type=5
+HP=140
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=2
+DecreaseHP=0
+Score=660
+ 
+[AIBase77]
+//Desc=<빨간>박쥐 1단계
+//Diff=1
+Ability=76
+AIBotBase=1174
+Type=5
+HP=56
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=10
+DecreaseHP=0
+Score=220
+ 
+[AIBase78]
+//Desc=<빨간>박쥐 2단계
+//Diff=2
+Ability=76
+AIBotBase=1182
+Type=5
+HP=70
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=5
+DecreaseHP=0
+Score=220
+ 
+[AIBase79]
+//Desc=<빨간>박쥐 3단계
+//Diff=3
+Ability=77
+AIBotBase=1189
+Type=5
+HP=91
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=4
+DecreaseHP=0
+Score=330
+ 
+[AIBase80]
+//Desc=<빨간>박쥐 4단계
+//Diff=4
+Ability=78
+AIBotBase=1189
+Type=5
+HP=140
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=2
+DecreaseHP=0
+Score=660
+ 
+[AIBase81]
+//Desc=<파란>박쥐 1단계
+//Diff=1
+Ability=76
+AIBotBase=1174
+Type=5
+HP=56
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=10
+DecreaseHP=0
+Score=220
+ 
+[AIBase82]
+//Desc=<파란>박쥐 2단계
+//Diff=2
+Ability=76
+AIBotBase=1182
+Type=5
+HP=70
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=5
+DecreaseHP=0
+Score=220
+ 
+[AIBase83]
+//Desc=<파란>박쥐 3단계
+//Diff=3
+Ability=77
+AIBotBase=1189
+Type=5
+HP=91
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=4
+DecreaseHP=0
+Score=330
+ 
+[AIBase84]
+//Desc=<파란>박쥐 4단계
+//Diff=4
+Ability=78
+AIBotBase=1189
+Type=5
+HP=140
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=2
+DecreaseHP=0
+Score=660
+ 
+[AIBase85]
+//Desc=모기 1단계 - 속도 0.5, Move2단계
+//Diff=1
+Ability=79
+AIBotBase=1175
+Type=6
+HP=56
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=6
+DecreaseHP=0
+Score=220
+ 
+[AIBase86]
+//Desc=모기 2단계 - 속도 0.6, Move2.5단계
+//Diff=2
+Ability=80
+AIBotBase=1183
+Type=6
+HP=70
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=3
+DecreaseHP=0
+Score=220
+ 
+[AIBase87]
+//Desc=모기 3단계 - 속도 0.7, Move3단계
+//Diff=3
+Ability=81
+AIBotBase=1190
+Type=6
+HP=91
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=2.4
+DecreaseHP=0
+Score=330
+ 
+[AIBase88]
+//Desc=모기 4단계 - 속도 0.7, Move3단계
+//Diff=4
+Ability=81
+AIBotBase=1190
+Type=6
+HP=140
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=1.2
+DecreaseHP=0
+Score=660
+ 
+[AIBase89]
+//Desc=<빨간>모기 1단계
+//Diff=1
+Ability=79
+AIBotBase=1175
+Type=6
+HP=56
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=6
+DecreaseHP=0
+Score=220
+ 
+[AIBase90]
+//Desc=<빨간>모기 2단계
+//Diff=2
+Ability=80
+AIBotBase=1183
+Type=6
+HP=70
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=3
+DecreaseHP=0
+Score=220
+ 
+[AIBase91]
+//Desc=<빨간>모기 3단계
+//Diff=3
+Ability=81
+AIBotBase=1190
+Type=6
+HP=91
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=2.4
+DecreaseHP=0
+Score=330
+ 
+[AIBase92]
+//Desc=<빨간>모기 4단계
+//Diff=4
+Ability=81
+AIBotBase=1190
+Type=6
+HP=140
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=1.2
+DecreaseHP=0
+Score=660
+ 
+[AIBase93]
+//Desc=<파란>모기 1단계
+//Diff=1
+Ability=79
+AIBotBase=1175
+Type=6
+HP=56
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=6
+DecreaseHP=0
+Score=220
+ 
+[AIBase94]
+//Desc=<파란>모기 2단계
+//Diff=2
+Ability=80
+AIBotBase=1183
+Type=6
+HP=70
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=3
+DecreaseHP=0
+Score=220
+ 
+[AIBase95]
+//Desc=<파란>모기 3단계
+//Diff=3
+Ability=81
+AIBotBase=1190
+Type=6
+HP=91
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=2.4
+DecreaseHP=0
+Score=330
+ 
+[AIBase96]
+//Desc=<파란>모기 4단계
+//Diff=4
+Ability=81
+AIBotBase=1190
+Type=6
+HP=140
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=1.2
+DecreaseHP=0
+Score=660
+ 
+[AIBase97]
+//Desc=앵무새 1단계 - 속도 0.6
+//Diff=1
+Ability=74
+AIBotBase=1173
+Type=4
+HP=40
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=6
+DecreaseHP=0
+Score=220
+ 
+[AIBase98]
+//Desc=앵무새 2단계 - 중간 물결, 속도 0.7
+//Diff=2
+Ability=74
+AIBotBase=1181
+Type=4
+HP=50
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=3
+DecreaseHP=0
+Score=220
+ 
+[AIBase99]
+//Desc=앵무새 3단계 - 큰 물결 속도 0.8
+//Diff=3
+Ability=75
+AIBotBase=1188
+Type=4
+HP=65
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=2.4
+DecreaseHP=0
+Score=330
+ 
+[AIBase100]
+//Desc=앵무새 4단계 - 큰 물결 속도 0.8
+//Diff=4
+Ability=75
+AIBotBase=1188
+Type=4
+HP=100
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=1.2
+DecreaseHP=0
+Score=660
+ 
+[AIBase101]
+//Desc=<빨간>앵무새 1단계
+//Diff=1
+Ability=74
+AIBotBase=1173
+Type=4
+HP=40
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=6
+DecreaseHP=0
+Score=220
+ 
+[AIBase102]
+//Desc=<빨간>앵무새 2단계
+//Diff=2
+Ability=74
+AIBotBase=1181
+Type=4
+HP=50
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=3
+DecreaseHP=0
+Score=220
+ 
+[AIBase103]
+//Desc=<빨간>앵무새 3단계
+//Diff=3
+Ability=75
+AIBotBase=1188
+Type=4
+HP=65
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=2.4
+DecreaseHP=0
+Score=330
+ 
+[AIBase104]
+//Desc=<빨간>앵무새 4단계
+//Diff=4
+Ability=75
+AIBotBase=1188
+Type=4
+HP=100
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=빨간색
+ Color=<255.0, 51.0, 0.0>
+IncreaseHP=1.2
+DecreaseHP=0
+Score=660
+ 
+[AIBase105]
+//Desc=<파란>앵무새 1단계
+//Diff=1
+Ability=74
+AIBotBase=1173
+Type=4
+HP=40
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=6
+DecreaseHP=0
+Score=220
+ 
+[AIBase106]
+//Desc=<파란>앵무새 2단계
+//Diff=2
+Ability=74
+AIBotBase=1181
+Type=4
+HP=50
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=3
+DecreaseHP=0
+Score=220
+ 
+[AIBase107]
+//Desc=<파란>앵무새 3단계
+//Diff=3
+Ability=75
+AIBotBase=1188
+Type=4
+HP=65
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=2.4
+DecreaseHP=0
+Score=330
+ 
+[AIBase108]
+//Desc=<파란>앵무새 4단계
+//Diff=4
+Ability=75
+AIBotBase=1188
+Type=4
+HP=100
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=파란색
+ Color=<20.0, 70.0, 255.0>
+IncreaseHP=1.2
+DecreaseHP=0
+Score=660
+ 
+[AIBase109]
+//Desc=총든사람 1단계
+//Diff=1
+Ability=84
+AIBotBase=1200
+Type=10
+HP=80
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=20
+DecreaseHP=0
+Score=170
+ 
+[AIBase110]
+//Desc=총든사람 2단계
+//Diff=2
+Ability=84
+AIBotBase=1207
+Type=10
+HP=100
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=10
+DecreaseHP=0
+Score=170
+ 
+[AIBase111]
+//Desc=총든사람 3단계
+//Diff=3
+Ability=84
+AIBotBase=1200
+Type=10
+HP=130
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=8
+DecreaseHP=0
+Score=255
+ 
+[AIBase112]
+//Desc=총든사람 4단계
+//Diff=4
+Ability=84
+AIBotBase=1200
+Type=10
+HP=200
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=4
+DecreaseHP=0
+Score=510
+ 
+[AIBase113]
+//Desc=좀비 1단계
+//Diff=1
+Ability=85
+AIBotBase=1201
+Type=11
+HP=880
+MoveToFloor=TRUE
+ SpecialType =0
+Boss=TRUE
+SolidAndGravity=TRUE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=40
+DecreaseHP=0
+Score=320
+ 
+[AIBase114]
+//Desc=좀비 2단계
+//Diff=2
+Ability=85
+AIBotBase=1201
+Type=11
+HP=1100
+MoveToFloor=TRUE
+ SpecialType =0
+Boss=TRUE
+SolidAndGravity=TRUE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=20
+DecreaseHP=0
+Score=320
+ 
+[AIBase115]
+//Desc=좀비 3단계
+//Diff=3
+Ability=85
+AIBotBase=1201
+Type=11
+HP=1430
+MoveToFloor=TRUE
+ SpecialType =0
+Boss=TRUE
+SolidAndGravity=TRUE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=16
+DecreaseHP=0
+Score=480
+ 
+[AIBase116]
+//Desc=좀비 4단계
+//Diff=4
+Ability=85
+AIBotBase=1201
+Type=11
+HP=2200
+MoveToFloor=TRUE
+ SpecialType =0
+Boss=TRUE
+SolidAndGravity=TRUE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=8
+DecreaseHP=0
+Score=960
+ 
+[AIBase117]
+//Desc=<Boss>코뿔소 - 1단계
+//Diff=1
+Ability=82
+AIBotBase=1176
+Type=7
+HP=1680
+MoveToFloor=TRUE
+ SpecialType =0
+Boss=TRUE
+SolidAndGravity=TRUE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=60
+DecreaseHP=0
+Score=620
+ 
+[AIBase118]
+//Desc=<Boss>코뿔소 - 2단계
+//Diff=2
+Ability=82
+AIBotBase=1208
+Type=7
+HP=2100
+MoveToFloor=TRUE
+ SpecialType =0
+Boss=TRUE
+SolidAndGravity=TRUE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=30
+DecreaseHP=0
+Score=620
+ 
+[AIBase119]
+//Desc=<Boss>코뿔소 - 3단계
+//Diff=3
+Ability=82
+AIBotBase=1176
+Type=7
+HP=2730
+MoveToFloor=TRUE
+ SpecialType =0
+Boss=TRUE
+SolidAndGravity=TRUE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=24
+DecreaseHP=0
+Score=930
+ 
+[AIBase120]
+//Desc=<Boss>코뿔소 - 4단계
+//Diff=4
+Ability=82
+AIBotBase=1176
+Type=7
+HP=4200
+MoveToFloor=TRUE
+ SpecialType =0
+Boss=TRUE
+SolidAndGravity=TRUE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=12
+DecreaseHP=0
+Score=1860
+ 
+[AIBase121]
+//Desc=폭탄 1단계
+//Diff=1
+Ability=86
+AIBotBase=1204
+Type=12
+HP=8
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=0.2
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=20
+Score=21
+ 
+[AIBase122]
+//Desc=폭탄 2단계
+//Diff=2
+Ability=86
+AIBotBase=1204
+Type=12
+HP=10
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=0.2
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=20
+Score=21
+ 
+[AIBase123]
+//Desc=폭탄 3단계
+//Diff=3
+Ability=86
+AIBotBase=1204
+Type=12
+HP=13
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=0.2
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=40
+Score=31.5
+ 
+[AIBase124]
+//Desc=폭탄 4단계
+//Diff=4
+Ability=86
+AIBotBase=1204
+Type=12
+HP=20
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=0.2
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=80
+Score=63
+ 
+[AIBase125]
+//Desc=폭탄 1단계_역방향
+//Diff=1
+Ability=86
+AIBotBase=1205
+Type=13
+HP=8
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=20
+Score=21
+ 
+[AIBase126]
+//Desc=폭탄 2단계_역방향
+//Diff=2
+Ability=86
+AIBotBase=1205
+Type=13
+HP=10
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=20
+Score=21
+ 
+[AIBase127]
+//Desc=폭탄 3단계_역방향
+//Diff=3
+Ability=86
+AIBotBase=1205
+Type=13
+HP=13
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=40
+Score=31.5
+ 
+[AIBase128]
+//Desc=폭탄 4단계_역방향
+//Diff=4
+Ability=86
+AIBotBase=1205
+Type=13
+HP=20
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=80
+Score=63
+ 
+[AIBase129]
+//Desc=빼꼼 폭탄 1단계
+//Diff=1
+Ability=87
+AIBotBase=1202
+Type=14
+HP=48
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=0.2
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=20
+Score=21
+ 
+[AIBase130]
+//Desc=빼꼼 폭탄 2단계
+//Diff=2
+Ability=87
+AIBotBase=1202
+Type=14
+HP=60
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=0.2
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=20
+Score=21
+ 
+[AIBase131]
+//Desc=빼꼼 폭탄 3단계
+//Diff=3
+Ability=87
+AIBotBase=1202
+Type=14
+HP=78
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=0.2
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=40
+Score=31.5
+ 
+[AIBase132]
+//Desc=빼꼼 폭탄 4단계
+//Diff=4
+Ability=87
+AIBotBase=1202
+Type=14
+HP=120
+MoveToFloor=FALSE
+//SpecialType =
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=0.2
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=80
+Score=63
+ 
+[AIBase133]
+//Desc=<반짝>두더지-1단계와 능력 동일
+//Diff=1
+Ability=67
+AIBotBase=1191
+Type=0
+HP=96
+MoveToFloor=TRUE
+ SpecialType =0
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=6
+DecreaseHP=0
+Score=125
+ 
+[AIBase134]
+//Desc=<반짝>오리-1단계와 능력 동일
+//Diff=1
+Ability=69
+AIBotBase=1206
+Type=16
+HP=96
+MoveToFloor=FALSE
+ SpecialType =0
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=0
+Score=0
+ 
+[AIBase135]
+//Desc=<반짝>돼지-1단계와 능력 동일
+//Diff=1
+Ability=89
+AIBotBase=1193
+Type=17
+HP=56
+MoveToFloor=TRUE
+ SpecialType =0
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=0
+Score=0
+ 
+[AIBase136]
+//Desc=<반짝>캥거루-1단계와 능력 동일
+//Diff=1
+Ability=72
+AIBotBase=1194
+Type=18
+HP=96
+MoveToFloor=TRUE
+ SpecialType =0
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=7.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=0
+Score=0
+ 
+[AIBase137]
+//Desc=<반짝>앵무새-1단계와 능력 동일
+//Diff=1
+Ability=74
+AIBotBase=1195
+Type=19
+HP=160
+MoveToFloor=FALSE
+ SpecialType =0
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=0
+Score=0
+ 
+[AIBase138]
+//Desc=<반짝>박쥐-1단계와 능력 동일
+//Diff=1
+Ability=76
+AIBotBase=1196
+Type=20
+HP=80
+MoveToFloor=FALSE
+ SpecialType =0
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=0
+Score=0
+ 
+[AIBase139]
+//Desc=<반짝>모기-1단계와 능력 동일
+//Diff=1
+Ability=79
+AIBotBase=1197
+Type=21
+HP=56
+MoveToFloor=FALSE
+ SpecialType =0
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=0
+DecreaseHP=0
+Score=0
+ 
+[AIBase140]
+//Desc=<보너스>잔호크
+//Diff=1
+Ability=88
+AIBotBase=1203
+Type=15
+HP=2400
+MoveToFloor=FALSE
+ SpecialType =1
+Boss=FALSE
+SolidAndGravity=FALSE
+BodyLifeTime=1.0
+//ColorName=NONE
+//Color=NONE
+IncreaseHP=100
+DecreaseHP=0
+Score=0
+ 
+
+
+
+
+

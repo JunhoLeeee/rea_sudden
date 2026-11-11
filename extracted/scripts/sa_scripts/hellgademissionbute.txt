@@ -1,0 +1,373 @@
+[Mission0]
+RedScript = "적보다 먼저 건물의 약점에 시한폭탄을 터뜨려라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_01.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b1.dtx"
+
+BlueScript = "적보다 먼저 건물의 약점에 시한폭탄을 터뜨려라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_01.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b1.dtx"
+
+ExpRate = 120
+
+[Mission1]
+RedScript = "적보다 먼저 건물의 약점에 원격폭탄을 터뜨려라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_02.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b2.dtx"
+
+BlueScript = "적보다 먼저 건물의 약점에 원격폭탄을 터뜨려라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_02.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b2.dtx"
+
+ExpRate = 120
+
+[Mission2]
+RedScript = "적보다 먼저 수리총으로 시한폭탄을 해제하라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_03.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b3.dtx"
+
+BlueScript = "적보다 먼저 수리총으로 시한폭탄을 해제하라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_03.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b3.dtx"
+
+ExpRate = 120
+
+[Mission3]
+RedScript = "적보다 먼저 수리총으로 원격폭탄을 해제하라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_04.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b4.dtx"
+
+BlueScript = "적보다 먼저 수리총으로 원격폭탄을 해제하라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_04.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b4.dtx"
+
+ExpRate = 120
+
+[Mission4]
+RedScript = "적보다 먼저 수리총으로 지뢰를 해제하라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_05.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b5.dtx"
+
+BlueScript = "적보다 먼저 수리총으로 지뢰를 해제하라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_05.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b5.dtx"
+
+ExpRate = 120
+
+[Mission5]// 11.13 최종 기획 변경 
+RedScript = "우라늄 창고 내의 빛나는 지점을 핵폭파하라!"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_07.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b7.dtx"
+
+BlueScript = "핵 폭파로부터 우라늄 창고 내 빛나는 지점을 지켜라!"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_06.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b6.dtx"
+
+ExpRate = 300
+
+[Mission6]//최종 기획 변경
+RedScript = "핵 폭파로부터 우라늄 창고 내 빛나는 지점을 지켜라!"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_06.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b6.dtx"
+
+BlueScript = "우라늄 창고 내의 빛나는 지점을 핵폭파하라!"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_07.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b7.dtx"
+
+ExpRate = 300
+
+[Mission7]
+RedScript = "모든 건물 파괴로 승리하라!"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_09.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b9.dtx"
+
+BlueScript = "마지막까지 1개의 건물이라도 유지하라!"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_08.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b8.dtx"
+
+ExpRate = 150
+
+[Mission8]
+RedScript = "마지막까지 1개의 건물이라도 유지하라!"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_08.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b8.dtx"
+
+BlueScript = "모든 건물 파괴로 승리하라!"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_09.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b9.dtx"
+
+ExpRate = 150
+
+[Mission9]
+RedScript = "적보다 먼저 대형전차로 건물을 파괴하라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_10.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b10.dtx"
+
+BlueScript = "적보다 먼저 대형전차로 건물을 파괴하라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_10.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b10.dtx"
+
+ExpRate = 120
+
+[Mission10]
+RedScript = "적보다 먼저 M202x6 [아이템]으로 대형전차를 파괴하라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_11.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b11.dtx"
+
+BlueScript = "적보다 먼저 M202x6 [아이템]으로 대형전차를 파괴하라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_11.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b11.dtx"
+
+ExpRate = 120
+
+[Mission11]
+RedScript = "적보다 먼저 SMAW [아이템]으로 대형전차를 파괴하라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_12.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b12.dtx"
+
+BlueScript = "적보다 먼저 SMAW [아이템]으로 대형전차를 파괴하라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_12.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b12.dtx"
+
+ExpRate = 120
+
+[Mission12]
+RedScript = "가드타워를 파괴하여 방어선을 무력화시켜라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_14.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b14.dtx"
+
+BlueScript = "게임 종료까지 가드타워를 지켜라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_13.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b13.dtx"
+
+ExpRate = 130
+
+[Mission13]
+RedScript = "게임 종료까지 가드타워를 지켜라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_13.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b13.dtx"
+
+BlueScript = "가드타워를 파괴하여 방어선을 무력화시켜라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_14.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b14.dtx"
+
+ExpRate = 130
+
+[Mission14]
+RedScript = "우라늄창고를 파괴하여 자금줄을 끊어라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_16.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b16.dtx"
+
+BlueScript = "게임 종료까지 우라늄창고를 지켜라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_15.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b15.dtx"
+
+ExpRate = 130
+
+[Mission15]
+RedScript = "게임 종료까지 우라늄창고를 지켜라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_15.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b15.dtx"
+
+BlueScript = "우라늄창고를 파괴하여 자금줄을 끊어라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_16.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b16.dtx"
+
+ExpRate = 130
+
+[Mission16]
+RedScript = "군수공장을 파괴하여 대형전차 생산을 중단시켜라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_18.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b18.dtx"
+
+BlueScript = "게임 종료까지 군수공장을 지켜라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_17.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b17.dtx"
+
+ExpRate = 130
+
+[Mission17]
+RedScript = "게임 종료까지 군수공장을 지켜라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_17.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b17.dtx"
+
+BlueScript = "군수공장을 파괴하여 대형전차 생산을 중단시켜라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_18.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b18.dtx"
+
+ExpRate = 130
+
+[Mission18]
+RedScript = "적보다 먼저 핵폭발로 건물을 파괴하라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_19.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b19.dtx"
+
+BlueScript = "적보다 먼저 핵폭발로 건물을 파괴하라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_19.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b19.dtx"
+
+ExpRate = 150
+
+[Mission19]
+RedScript = "적보다 먼저 수리총으로 핵폭탄 유도기를 해제하라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_20.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b20.dtx"
+
+BlueScript = "적보다 먼저 수리총으로 핵폭탄 유도기를 해제하라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_20.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b20.dtx"
+
+ExpRate = 150
+
+[Mission20]
+RedScript = "적보다 먼저 지뢰로 보병을 킬하라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_21.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b21.dtx"
+
+BlueScript = "적보다 먼저 지뢰로 보병을 킬하라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_21.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b21.dtx"
+
+ExpRate = 110
+
+[Mission21]
+RedScript = "적보다 먼저 포격차량으로 탈 것을 파괴하라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_22.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b22.dtx"
+
+BlueScript = "적보다 먼저 포격차량으로 탈 것을 파괴하라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_22.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b22.dtx"
+
+ExpRate = 120
+
+[Mission22]
+RedScript = "적보다 먼저 기동차량에 2명 이상 탑승하라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_23.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b23.dtx"
+
+BlueScript = "적보다 먼저 기동차량에 2명 이상 탑승하라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_23.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b23.dtx"
+
+ExpRate = 120
+
+[Mission23]
+RedScript = "적보다 먼저 기동차량으로 적 보병을 뺑소니쳐라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_24.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b24.dtx"
+
+BlueScript = "적보다 먼저 기동차량으로 적 보병을 뺑소니쳐라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_24.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b24.dtx"
+
+ExpRate = 120
+
+[Mission24]
+RedScript = "적보다 먼저 M202x6 [아이템]으로 기동차량을 파괴하라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_25.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b25.dtx"
+
+BlueScript = "적보다 먼저 M202x6 [아이템]으로 기동차량을 파괴하라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_25.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b25.dtx"
+
+ExpRate = 120
+
+[Mission25]
+RedScript = "적보다 먼저 SMAW [아이템]으로 기동차량을 파괴하라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_26.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b26.dtx"
+
+BlueScript = "적보다 먼저 SMAW [아이템]으로 기동차량을 파괴하라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_26.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b26.dtx"
+
+ExpRate = 120
+
+[Mission26]
+RedScript = "적보다 먼저 장갑차에 8명 탑승하라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_27.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b27.dtx"
+
+BlueScript = "적보다 먼저 장갑차에 8명 탑승하라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_27.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b27.dtx"
+
+ExpRate = 120
+
+[Mission27]
+RedScript = "적보다 먼저 장갑차로 적 보병을 뺑소니쳐라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_28.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b28.dtx"
+
+BlueScript = "적보다 먼저 장갑차로 적 보병을 뺑소니쳐라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_28.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b28.dtx"
+
+ExpRate = 120
+
+[Mission28]
+RedScript = "적보다 먼저 M202x6 [아이템]으로 장갑차를 파괴하라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_29.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b29.dtx"
+
+BlueScript = "적보다 먼저 M202x6 [아이템]으로 장갑차를 파괴하라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_29.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b29.dtx"
+
+ExpRate = 120
+
+[Mission29]
+RedScript = "적보다 먼저 SMAW [아이템]으로 장갑차를 파괴하라"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_30.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b30.dtx"
+
+BlueScript = "적보다 먼저 SMAW [아이템]으로 장갑차를 파괴하라"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_30.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b30.dtx"
+
+ExpRate = 120
+
+[Mission30]
+RedScript = "제한시간을 모두 보내고 건물 수 차이로 이겨라!"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_32.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b32.dtx"
+
+BlueScript = "비겨라! 이 방의 다음판에서 이기면 경험치가 2배다!"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_31.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b31.dtx"
+
+ExpRate = 400
+
+[Mission31]
+RedScript = "비겨라! 이 방의 다음판에서 이기면 경험치가 2배다!"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_31.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b31.dtx"
+
+BlueScript = "제한시간을 모두 보내고 건물 수 차이로 이겨라!"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_32.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b32.dtx"
+
+ExpRate = 400
+
+[Mission32]
+RedScript = "이번 게임만큼은 이겨라!"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_33.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b33.dtx"
+
+BlueScript = "이번 게임만큼은 이겨라!"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_33.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b33.dtx"
+
+ExpRate = 500
+
+[Mission33]
+RedScript = "[보너스] 묻지도 따지지도 않습니다! ^^"
+RedImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_34.dtx"
+RedImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b34.dtx"
+
+BlueScript = "[보너스] 묻지도 따지지도 않습니다! ^^"
+BlueImg1 = "sa_interface2\hud\HellGade\SubMission\hg_mission_b_34.dtx"
+BlueImg2 = "sa_interface2\hud\HellGade\SubMission\hg_mission_in_b34.dtx"
+
+ExpRate = 1000

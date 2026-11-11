@@ -1,0 +1,50 @@
+//공적 완성하면 아이템을 주는데 그동안 무기사용권만 줬었다.
+//그런데 새로운 아이템을 주게 되면서 공적 달성창 툴팁을
+//하드코딩하게 되며서 직접 여기에 값을 넣게 되었음.
+[Item1]
+nItemIndex = 2820
+bWeaponItem = false
+nPeriod = 15
+nType = 1
+
+[Item2]
+nItemIndex = 2821
+bWeaponItem = false
+nPeriod = 15
+nType = 1
+
+[Item3]
+nItemIndex = 2822
+bWeaponItem = false
+nPeriod = 15
+nType = 1
+
+[Item4]
+nItemIndex = 2823		//아이템 인덱스
+bWeaponItem = false	//무기인지 여부
+nPeriod = 15				//기간
+nType = 1					//나머지는 하드코딩이고 1로 셋업함. 새로운 아이템 셋업하려면 다른 타입으로 하면됨.
+
+[Item5]
+nItemIndex = 2824
+bWeaponItem = false
+nPeriod = 15
+nType = 1
+
+[Item6]
+nItemIndex = 2825
+bWeaponItem = false
+nPeriod = 998
+nType = 1
+
+[Item7]
+nItemIndex = 1782
+bWeaponItem = true
+nPeriod = 15
+nType = 1
+
+[Item8]
+nItemIndex = 3023		//아이템 인덱스
+bWeaponItem = false	//무기인지 여부
+nPeriod = 998				//기간
+nType = 1					//나머지는 하드코딩이고 1로 셋업함. 새로운 아이템 셋업하려면 다른 타입으로 하면됨.

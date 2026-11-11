@@ -1,0 +1,158 @@
+{
+  "package": "C:\\Nexon\\SuddenAttack\\game\\sa_atlas_00000.pkg",
+  "header": {
+    "path": "C:\\Nexon\\SuddenAttack\\game\\sa_atlas_00000.pkg",
+    "bytes": 115424256,
+    "version": 3,
+    "mask_bytes": 325,
+    "masked_string_units": 13,
+    "encrypted_header_offset": 356,
+    "index_padding_bytes": 210,
+    "observed_header_sha256": "89836026a940bde732e1e505057be643d5fb8ea6f6e5e94db6056b749141ed8c",
+    "identity_scope": "header-ranges-only",
+    "byteorder": "little",
+    "count": 502,
+    "checksum": 328276
+  },
+  "index_raw_sha256": "7d8ba60c3803889ab68fe3f498cc1791b640ad3feacbc941dea9bd2fb434419b",
+  "selected_members": 13,
+  "extracted": [
+    {
+      "path": "sa_atlas/ui_script/WelcomeCamp/AttendanceCheck_Popup.xml",
+      "offset": 92217344,
+      "stored_bytes": 396,
+      "output_bytes": 1112,
+      "ciphertext_sha256": "8a94c0a1ee458ea350358ea53ff73eb6a1eb451bc73b1ea0e21c06063e6a579f",
+      "output_sha256": "d3393ad7b9aba2c94cd29c6a513f6baca5923467c63d019c6f7bff965f7c63d2",
+      "expected_md5": "6a81ab0acc1e7eaf0de7d2cfa2e537e6",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_atlas/ui_script/WelcomeCamp/AttendanceCheck_Popup_ListItem.xml",
+      "offset": 92218368,
+      "stored_bytes": 260,
+      "output_bytes": 679,
+      "ciphertext_sha256": "3892f43b8b1a00a99aa46b917d4335b467df7cad507dec9f6632d3606d96ad75",
+      "output_sha256": "60daf681991e7fb4a680c84fcf9920aabd9a7d556a98f7e2708e69db8d125220",
+      "expected_md5": "39dfdb4593c66ed3af4a1a4bafd3dca1",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_atlas/ui_script/WelcomeCamp/CampGraduation_Benefit_Popup.xml",
+      "offset": 92219392,
+      "stored_bytes": 304,
+      "output_bytes": 1218,
+      "ciphertext_sha256": "27c5d94fb094a0dfeef7ffd508e6f3c5c22c38f3fe029489ef35cdeacdfa1fbf",
+      "output_sha256": "96050501ba8dea01568843656f79594c8a45b3243ca0a152fcff7c03cfaccdc7",
+      "expected_md5": "168276735fdb3ca25943f48b6e59b2b1",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_atlas/ui_script/WelcomeCamp/CampTab_AttendanceCheck_List.xml",
+      "offset": 92220416,
+      "stored_bytes": 200,
+      "output_bytes": 502,
+      "ciphertext_sha256": "65d9537055bbea1bc05f75466cd978be24173b8f0c4bf9bc46ce76998e4c613b",
+      "output_sha256": "4ff8fcee718a0c45eb7f180e27eb00c52a6c1516204499e7fddacc91df9e85e7",
+      "expected_md5": "4a59950a74fdf1d47253b786e7d1069d",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_atlas/ui_script/WelcomeCamp/CampTab_RewardList.xml",
+      "offset": 92221440,
+      "stored_bytes": 328,
+      "output_bytes": 1108,
+      "ciphertext_sha256": "3d4ccf9e8c9e83a5e595fca8dd37800f93d467e38f6d68825b7c57276c227770",
+      "output_sha256": "082c36c198db8bae14745fcec594e4ba9a8ad03702c41ce8003f7fb559af4429",
+      "expected_md5": "c2ead2a399ddfcf5ea25885a0e162018",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_atlas/ui_script/WelcomeCamp/MissionTab_MissionList.xml",
+      "offset": 92222464,
+      "stored_bytes": 496,
+      "output_bytes": 2686,
+      "ciphertext_sha256": "a42db0c4cae0c749599b36c7887b61873108ea9f4892909c7a054317418f655c",
+      "output_sha256": "8b472a6089fc0434bb07732293e7f320e896093ff51ce8fd6a5d85ab2688545f",
+      "expected_md5": "aab84f66ac0dd1f087202a6c668a01d7",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_atlas/ui_script/WelcomeCamp/Tutorial.xml",
+      "offset": 92223488,
+      "stored_bytes": 456,
+      "output_bytes": 1613,
+      "ciphertext_sha256": "0c1b5294f413854806be89b75f783d57c84c765883f07d4256a1953824cfd049",
+      "output_sha256": "b9f7296df9aadd1de55b8d03a46efcae99764889cddd6be22e92acdd07c43a91",
+      "expected_md5": "4466aced9f26686e3336a9beb3562b90",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_atlas/ui_script/WelcomeCamp/Tutorial_Lobby.xml",
+      "offset": 92224512,
+      "stored_bytes": 240,
+      "output_bytes": 480,
+      "ciphertext_sha256": "fdcd18d9f860d8f8a74ade6d5eacc97afcc4d977f1815f9026bf10bcd144b9cc",
+      "output_sha256": "de64d616ea9b267fe975b42cb0c56231ec2e8ca31caee5e78a5313ea46464530",
+      "expected_md5": "5d8376466a8b1fdcaf178717ddae2419",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_atlas/ui_script/WelcomeCamp/WelcomeCamp_CampTab.xml",
+      "offset": 92225536,
+      "stored_bytes": 900,
+      "output_bytes": 5906,
+      "ciphertext_sha256": "ff319b5f3f2a24af4b9d9ef09aa31d282a58ba4209c7134f0403bb5381770112",
+      "output_sha256": "738b8896865dc49159b4bb680d3a85fb2daa062d6952fd01b15486af4a32b613",
+      "expected_md5": "4ccbb6040dcce7fe8291d26fb3b32fab",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_atlas/ui_script/WelcomeCamp/WelcomeCamp_CommonPopup.xml",
+      "offset": 92226560,
+      "stored_bytes": 776,
+      "output_bytes": 6063,
+      "ciphertext_sha256": "8a310dae2246bd0d46aca261762a474e7a836274b8dda13cd3ad57b9dae7a3d2",
+      "output_sha256": "41696eb0e93f4e0be703d41c78014f009b74b76ac2b0b4ddaf7d12f540a2a429",
+      "expected_md5": "7d1351c350185358fbf3112d820c50c5",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_atlas/ui_script/WelcomeCamp/WelcomeCamp_Lobby.xml",
+      "offset": 92227584,
+      "stored_bytes": 416,
+      "output_bytes": 1883,
+      "ciphertext_sha256": "f24e70a0d169a39c3db87ecfc16740076c27c1cb56e12daac21827e64dd6af5e",
+      "output_sha256": "92893d44abf51e28e23badde5a85f40159f3414d6e9f91708a4729afd31cb3fd",
+      "expected_md5": "38bbda78c786e59f9b555b0e1213ccc1",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_atlas/ui_script/WelcomeCamp/WelcomeCamp_MainPopup.xml",
+      "offset": 92228608,
+      "stored_bytes": 392,
+      "output_bytes": 1566,
+      "ciphertext_sha256": "41af2df1b1a910eb6ab39a428959a898560c7cc94b90dbfc488933e2a2d54bc0",
+      "output_sha256": "de62a34880e43f80babdb115bb89b99ca3d4bf283205faf524b3dff2ab04f882",
+      "expected_md5": "aed13faf0098d325286912ed6bf37544",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_atlas/ui_script/WelcomeCamp/WelcomeCamp_MissionTab.xml",
+      "offset": 92229632,
+      "stored_bytes": 576,
+      "output_bytes": 6316,
+      "ciphertext_sha256": "be53facc278bc8f8f900f818fa1f5add56df270c119515649ed9a175c7baa96b",
+      "output_sha256": "ef03d4e76ae14f7cf359e2d4822594c03786a7302fb7831b5ab03719cdc17082",
+      "expected_md5": "9e1e4806f14a83463d08cafd7e5f28fd",
+      "md5_verified": true
+    }
+  ],
+  "errors": [],
+  "status": "selected-members-verified",
+  "limitations": [
+    "Only profiles with flags in 0..7 and no block hash table are supported.",
+    "Archived code is never loaded or executed.",
+    "Full package digest remains unknown; selected read ranges have SHA-256."
+  ]
+}

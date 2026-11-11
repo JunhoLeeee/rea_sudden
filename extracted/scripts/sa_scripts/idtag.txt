@@ -1,0 +1,1319 @@
+[IDTag0]
+ItemCode = "EET01309"
+Pack="flag0"
+MaxIndex= 32
+
+[IDTag1]
+ItemCode = "EET01310"
+Pack="flag1"
+MaxIndex= 3
+
+[IDTag2]
+ItemCode = "EET01311"
+Pack="military"
+MaxIndex= 5
+
+[IDTag3]
+ItemCode = "EET01397"
+Pack="daegu"
+MaxIndex= 1
+
+[IDTag4]
+ItemCode = "EET01398"
+Pack="busan"
+MaxIndex= 1
+
+[IDTag5]
+ItemCode = "EET01433"
+Pack="daejeon"
+MaxIndex= 1
+
+[IDTag6]
+ItemCode = "EET01434"
+Pack="gwangju"
+MaxIndex= 1
+
+[IDTag7]
+ItemCode = "EET01430"
+Pack="tyrannosaurus"
+MaxIndex= 5
+
+[IDTag8]
+ItemCode = "EET01431"
+Pack="pentaceratops"
+MaxIndex= 5
+
+[IDTag9]
+ItemCode = "EET01432"
+Pack="raptor"
+MaxIndex= 5
+
+[IDTag10]
+ItemCode = "EET00000"
+Pack="license"
+MaxIndex= 10
+
+[IDTag11]
+ItemCode = "EET01534"
+Pack="IRIS2"
+MaxIndex= 1
+
+[IDTag12]
+ItemCode = "EET01593"
+Pack="WhiteSnake"
+MaxIndex= 2
+EtiredIdTag = 1
+
+[IDTag13]
+ItemCode = "EET01674"
+Pack="SummerChampions"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+AniIdTag = 1 // 애니
+
+[IDTag14]
+ItemCode = "EET01778"
+Pack="Sinsege"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+
+[IDTag15]
+ItemCode = "EET01950"
+Pack="WinterChampions"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+AniIdTag = 1 // 애니
+
+[IDTag16]
+ItemCode = "EET02238"
+Pack="Korea"
+MaxIndex= 4
+
+[IDTag17]
+ItemCode = "EET02280"
+Pack="Honor0"
+MaxIndex= 2
+AniIdTag = 1 // 애니
+EtiredIdTag = 1 // 영구
+
+[IDTag18]
+ItemCode = "EET02281"
+Pack="Honor1"
+MaxIndex= 2
+AniIdTag = 1 // 애니
+EtiredIdTag = 1 // 영구
+
+[IDTag19]
+ItemCode = "EET02282"
+Pack="Honor2"
+MaxIndex= 2
+AniIdTag = 1 // 애니
+EtiredIdTag = 1 // 영구
+
+
+[IDTag20]
+ItemCode = "EET02820"
+Pack="nom_runner"
+MaxIndex= 1
+
+
+[IDTag21]
+ItemCode = "EET02821"
+Pack="nom_shooter"
+MaxIndex= 1
+
+
+[IDTag22]
+ItemCode = "EET02822"
+Pack="nom_defender"
+MaxIndex= 1
+
+
+[IDTag23]
+ItemCode = "EET02823"
+Pack="nom_scouter"
+MaxIndex= 1
+
+
+[IDTag24]
+ItemCode = "EET02824"
+Pack="nom_assassin"
+MaxIndex= 1
+
+[IDTag25]
+ItemCode = "EET02825"
+Pack="nom_all"
+MaxIndex= 2
+EtiredIdTag = 1 //영구
+
+[IDTag26]
+ItemCode = "EET02806"
+Pack="Rookie"
+MaxIndex= 2
+AniIdTag = 1 // 애니
+EtiredIdTag = 1 // 영구
+
+[IDTag27]
+ItemCode = "EET02842"
+Pack="10thBlack"
+MaxIndex= 1
+
+[IDTag28]
+ItemCode = "EET02843"
+Pack="10thRed"
+MaxIndex= 1
+
+[IDTag29]
+ItemCode = "EET02844"
+Pack="10thBlue"
+MaxIndex= 1
+
+//무기컬렉션 인식표였으나, 인덱스 확장 작업으로 인해 비워둔다.
+//DB마이그레이션이 가능하면 일반인덱스로 채워도 무방함.
+[IDTag30]
+//ItemCode = "EET02910"
+Pack="Reserved"
+MaxIndex= 50
+
+[IDTag31]
+ItemCode = "EET02938"
+Pack="APink"
+MaxIndex= 1
+
+[IDTag32]
+ItemCode = "EET02954"
+Pack="APink"
+MaxIndex= 2
+EtiredIdTag = 1 //영구
+
+[IDTag33]
+ItemCode = "EET02999"
+Pack="SFW"
+MaxIndex= 2
+EtiredIdTag = 1 //영구
+
+[IDTag34]
+ItemCode = "EET03023"
+Pack="G18"
+MaxIndex= 2
+EtiredIdTag = 1 //영구
+
+[IDTag35]
+ItemCode = "EET02996"
+Pack="WinterSnow"
+MaxIndex= 3
+
+[IDTag36]
+ItemCode = "EET03068"
+Pack="BJ"
+MaxIndex= 2
+EtiredIdTag = 1 //영구
+
+[IDTag37]
+ItemCode = "EET03095"
+Pack="Newbie"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+
+[IDTag38]
+ItemCode = "EET03096"
+Pack="Ruby"
+MaxIndex= 1
+AniIdTag = 1 // 애니
+
+[IDTag39]
+ItemCode = "EET03111"
+Pack="NewYear2016"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+
+[IDTag40]
+ItemCode = "EET03134"
+Pack="Sapphire"
+MaxIndex= 1
+AniIdTag = 1 // 애니
+
+[IDTag41]
+ItemCode = "EET03172"
+Pack="pinkcute"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+
+[IDTag42]
+ItemCode = "EET03199"
+Pack="gfriend"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+
+[IDTag43]
+ItemCode = "EET03071"
+Pack="payload"
+MaxIndex= 4
+EtiredIdTag = 1 // 영구
+AniIdTag = 1 // 애니
+
+[IDTag44]
+ItemCode = "EET03237"
+Pack="reaper"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+
+[IDTag45]
+ItemCode = "EET03265"
+Pack="Lucky"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+[IDTag46]
+ItemCode = "EET03266"
+Pack="Emerald"
+MaxIndex=1
+AniIdTag = 1 // 애니
+
+[IDTag47]
+ItemCode = "EET03263"
+Pack="B_leopard"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+
+[IDTag48]
+ItemCode = "EET03264"
+Pack="W_leopard"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+
+[IDTag49]
+ItemCode = "EET03303"
+Pack="BigSupply"
+MaxIndex=1
+
+[IDTag50]
+ItemCode = "EET03309"
+Pack="Autumn"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+[IDTag51]
+ItemCode = "EET03336"
+Pack="Opal"
+MaxIndex=1
+
+[IDTag52]
+ItemCode = "EET03338"
+Pack="Topaz"
+MaxIndex=1
+
+[IDTag53]
+ItemCode = "EET03339"
+Pack="Jackpot"
+MaxIndex=1
+
+[IDTag54]
+ItemCode = "EET03453"
+Pack="Love"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+[IDTag55]
+ItemCode = "EET03454"
+Pack="Ume"
+MaxIndex=1
+
+[IDTag56]
+ItemCode = "EET03498"
+Pack="Love2"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+[IDTag57]
+ItemCode = "EET03537"
+Pack="bronzemasters"
+MaxIndex= 2
+AniIdTag = 1 // 애니
+EtiredIdTag = 1 // 영구
+
+[IDTag58]
+ItemCode = "EET03538"
+Pack="silvermasters"
+MaxIndex= 2
+AniIdTag = 1 // 애니
+EtiredIdTag = 1 // 영구
+
+[IDTag59]
+ItemCode = "EET03539"
+Pack="goldmasters"
+MaxIndex= 2
+AniIdTag = 1 // 애니
+EtiredIdTag = 1 // 영구
+
+[IDTag60]
+ItemCode = "EET03569"
+Pack="desperate"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+[IDTag61]
+ItemCode = "EET03582"
+Pack="findreal"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+[IDTag62]
+ItemCode = "EET03654"
+Pack="fullcolor"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+[IDTag63]
+ItemCode = "EET03820"
+Pack="birthstone"
+MaxIndex=3
+AniIdTag = 1 // 애니
+
+//할로윈 인식표
+[IDTag64]
+ItemCode = "EET03821"
+Pack="halloween"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+//2018 인식표
+[IDTag65]
+ItemCode = "EET03925"
+Pack="2018"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+[IDTag66] // 풀컬러 인식표 비영구제
+ItemCode = "EET03928"
+Pack="fullcolor"
+MaxIndex=1
+
+[IDTag67]
+ItemCode = "EET03927"
+Pack="soulduo"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+[IDTag68]
+ItemCode = "EET03963"
+Pack="soulduoblue"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+[IDTag69] // 오진어택 인식표
+ItemCode = "EET03964"
+Pack="misdiagnosis"
+MaxIndex=1
+
+//222번-10222번까지
+[IDTag70]
+ItemCode = "EET02910"
+Pack="Collection"
+MaxIndex= 10000
+CollectionTag = 1 // 컬렉션 태그
+
+// 신사 클랜 인식표
+[IDTag71]
+ItemCode = "EET04388"
+Pack="top01"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+// UIsaN_ClaN 인식표
+[IDTag72]
+ItemCode = "EET04389"
+Pack="top02"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+// 구찌 클랜 인식표
+[IDTag73]
+ItemCode = "EET04390"
+Pack="top03"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+// Love 클랜 인식표
+[IDTag74]
+ItemCode = "EET04391"
+Pack="top04"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+// 파괴 클랜 인식표
+[IDTag75]
+ItemCode = "EET04392"
+Pack="top05"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+// 2S:CREW 클랜 인식표
+[IDTag76]
+ItemCode = "EET04393"
+Pack="top06"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+// Blanc: 클랜 인식표
+[IDTag77]
+ItemCode = "EET04394"
+Pack="top07"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+// 용서 클랜 인식표
+[IDTag78]
+ItemCode = "EET04395"
+Pack="top08"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+// 3DX2Y 클랜 인식표
+[IDTag79]
+ItemCode = "EET04396"
+Pack="top09"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+// FreeStyle 클랜 인식표
+[IDTag80]
+ItemCode = "EET04397"
+Pack="top10"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+// 좀비 클랜 인식표
+[IDTag81]
+ItemCode = "EET04398"
+Pack="top11"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+// Machinery 클랜 인식표
+[IDTag82]
+ItemCode = "EET04399"
+Pack="top12"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+// 화이 클랜 인식표
+[IDTag83]
+ItemCode = "EET04400"
+Pack="top13"
+MaxIndex=2
+EtiredIdTag = 1 // 영구
+
+//Glory 인식표
+[IDTag84]
+ItemCode = "EET05089"
+Pack="glory"
+MaxIndex=2
+AniIdTag = 1
+EtiredIdTag = 1 // 영구
+
+// 히어로 인식표
+[IDTag85]
+ItemCode = "EET05248"
+Pack="hero"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+AniIdTag = 1 // 애니
+
+// SOLA 인식표
+[IDTag86]
+ItemCode = "EET05589"
+Pack="sola"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+AniIdTag = 1 // 애니
+
+// Luna 인식표
+[IDTag87]
+ItemCode = "EET05805"
+Pack="luna"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+AniIdTag = 1 // 애니
+
+// HAWK 인식표
+[IDTag88]
+ItemCode = "EET06052"
+Pack="hawk"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+AniIdTag = 1 // 애니
+
+// Tournament 인식표
+[IDTag89]
+ItemCode = "EET06090"
+Pack="Tournament"
+MaxIndex= 5
+EtiredIdTag = 1 // 영구
+AniIdTag = 1 // 애니
+ExtendAni = 1 // Frame 33, Interval 0.07 Nodelay.
+DisableUnequip = 1
+
+// 15th 인식표
+[IDTag90]
+ItemCode = "EET06164"
+Pack="15th"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+
+// Blitz
+[IDTag91]
+ItemCode = "EET06232"
+Pack="blitz"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+AniIdTag = 1 // 애니
+
+// lvup 인식표
+[IDTag92]
+ItemCode = "EET06331"
+Pack="levelup_season3"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+AniIdTag = 1 // 애니
+
+// 부트캠프 인식표
+[IDTag93]
+ItemCode = "EET06470"
+Pack="bootcamp"
+EtiredIdTag = 1 // 영구
+MaxIndex= 2
+
+// 은하캠핑 인식표
+[IDTag94]
+ItemCode = "EET06488"
+Pack="eunha_camp"
+EtiredIdTag = 1 // 영구
+MaxIndex= 2
+AniIdTag = 1 // 애니
+
+// 스텔라 인식표
+[IDTag95]
+ItemCode = "EET06831"
+Pack="Stellar"
+EtiredIdTag = 1 // 영구
+MaxIndex = 2
+AniIdTag = 1 // 애니
+ExtendAni = 1 // Frame 33, Interval 0.07 Nodelay.
+
+// 출입증 인식표
+[IDTag96]
+ItemCode = "EET07126"
+Pack="pass2021"
+EtiredIdTag = 1 // 영구
+MaxIndex= 2
+
+// Zenith 인식표
+[IDTag97]
+ItemCode = "EET07121"
+Pack="zenith"
+EtiredIdTag = 1 // 영구
+MaxIndex= 2
+AniIdTag = 1 // 애니
+
+// LVUP 파이널 인식표
+[IDTag98]
+ItemCode = "EET07130"
+Pack="levelup_final"
+MaxIndex= 2
+EtiredIdTag = 1 // 영구
+AniIdTag = 1 // 애니
+
+// 나비 인식표
+[IDTag99]
+ItemCode = "EET07444"
+Pack="navi"
+EtiredIdTag = 1 // 영구
+MaxIndex= 2
+AniIdTag = 1 // 애니
+
+// 노제 인식표
+[IDTag100]
+ItemCode = "EET07476"
+Pack="noze"
+EtiredIdTag = 1 // 영구
+MaxIndex= 2
+
+// zero 인식표
+[IDTag101]
+ItemCode = "EET07806"
+Pack="zero"
+EtiredIdTag = 1 // 영구
+MaxIndex= 2
+AniIdTag = 1 // 애니
+
+// Lucy 인식표
+[IDTag102]
+ItemCode = "EET08108"
+Pack="Lucy"
+EtiredIdTag = 1 // 영구
+MaxIndex= 2
+AniIdTag = 1 // 애니
+
+// 매드닉스 인식표
+[IDTag103]
+ItemCode	= "EET08436"
+Pack		= "mad"
+EtiredIdTag	= 1 // 영구
+MaxIndex	= 2
+AniIdTag		= 1 // 애니
+
+// 17th 인식표
+[IDTag104]
+ItemCode	= "EET08666"
+Pack		= "17th"
+EtiredIdTag	= 1 // 영구
+MaxIndex	= 2
+AniIdTag		= 1 // 애니
+
+// 시즌4 인식표 
+[IDTag105]
+ItemCode	= "EET08795"
+Pack		= "FEARLESS"
+EtiredIdTag	= 1 // 영구
+MaxIndex	= 2
+AniIdTag		= 1 // 애니
+
+// 서든패스 2023 시즌1 Justice 인식표 
+[IDTag106]
+ItemCode	= "EET09203"
+Pack		= "Justice"
+EtiredIdTag	= 1 // 영구
+MaxIndex	= 2
+AniIdTag		= 1 // 애니
+
+// 서든패스 2023 시즌2 arachne 인식표 
+[IDTag107]
+ItemCode	= "EET09448"
+Pack		= "Arachne"
+EtiredIdTag	= 1 // 영구
+MaxIndex	= 2
+AniIdTag	= 1 // 애니
+
+// Abyss 인식표
+[IDTag108]
+ItemCode 	= "EET09752"
+Pack	 	= "Abyss"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 1
+
+// Revenant 인식표
+[IDTag109]
+ItemCode 	= "EET10457"
+Pack	 	= "Revenant"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 1
+
+// Mechanic 인식표
+[IDTag110]
+ItemCode 	= "EET11766"
+Pack	 	= "Mechanic"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 1
+
+// Inferno 인식표
+[IDTag111]
+ItemCode 	= "EET12099"
+Pack	 	= "Inferno"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 1
+
+// 2024 SC S1 인식표
+[IDTag112]
+ItemCode 	= "EET12420"
+Pack	 	= "2024SCS1"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 1
+
+// Savage 인식표
+[IDTag113]
+ItemCode 	= "EET12438"
+Pack	 	= "Savage"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 1
+
+// 19th AWARDS 인식표
+[IDTag114]
+ItemCode 	= "EET13092"
+Pack	 	= "19th"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 1
+
+// NOMAD 인식표
+[IDTag115]
+ItemCode	= "EET13220"
+Pack		= "NOMAD"
+EtiredIdTag	= 1 // 영구
+MaxIndex	= 2
+AniIdTag		= 1 // 애니
+
+// 2024 SC S2 인식표
+[IDTag116]
+ItemCode 	= "EET13772"
+Pack	 	= "2024SCS2"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 1
+
+// 아드레날린 인식표
+[IDTag117]
+ItemCode 	= "EET13723"
+Pack	 	= "adrenaline"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 1
+
+// Breakout 인식표
+[IDTag118]
+ItemCode 	= "EET14280"
+Pack	 	= "breakout"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 1
+
+// PINK 인식표
+[IDTag119]
+ItemCode 	= "EET14545"
+Pack	 	= "PINK"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+[IDTag120]
+ItemCode 	= "EET14492"
+Pack	 	= "Revival"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 1
+
+// 2025 SC S1 인식표
+[IDTag121]
+ItemCode 	= "EET14572"
+Pack	 	= "2025SCS1"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 1
+
+// JADE 인식표
+[IDTag122]
+ItemCode 	= "EET14620"
+Pack	 	= "JADE"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// OverClock 인식표
+[IDTag123]
+ItemCode 	= "EET14745"
+Pack	 	= "Overclock"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 1
+
+// 출발서든팀 인식표
+[IDTag124]
+ItemCode 	= "EET14792"
+Pack	 	= "freerunning"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2 
+AniIdTag	= 0
+
+// 스파이 인식표
+[IDTag125]
+ItemCode 	= "EET14793"
+Pack	 	= "findspy"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 에어포트 인식표
+[IDTag126]
+ItemCode 	= "EET14794"
+Pack	 	= "airport"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 버닝리버 인식표
+[IDTag127]
+ItemCode 	= "EET14795"
+Pack	 	= "burningriver"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 잠수함기지 인식표
+[IDTag128]
+ItemCode 	= "EET14796"
+Pack	 	= "submarine"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 샤크테일 인식표
+[IDTag129]
+ItemCode 	= "EET14797"
+Pack	 	= "sharktail"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// G-Cube 인식표
+[IDTag130]
+ItemCode 	= "EET14798"
+Pack	 	= "g_cube"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 클리프행어 인식표
+[IDTag131]
+ItemCode 	= "EET14799"
+Pack	 	= "cliffhanger"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 원웨이 인식표
+[IDTag132]
+ItemCode 	= "EET14800"
+Pack	 	= "OneWay"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 파워플랜트 인식표
+[IDTag133]
+ItemCode 	= "EET14801"
+Pack	 	= "PowerPlant"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 넥슨빌딩 인식표
+[IDTag134]
+ItemCode 	= "EET14915"
+Pack	 	= "Nexon"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+//GH2010 인식표
+[IDTag135]
+ItemCode 	= "EET14916"
+Pack	 	= "GH2010"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+//아쿠아블렛 인식표
+[IDTag136]
+ItemCode 	= "EET14917"
+Pack	 	= "aquabullet"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+//게이트웨이 인식표
+[IDTag137]
+ItemCode 	= "EET14918"
+Pack	 	= "gateway"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+//트리플타워 인식표
+[IDTag138]
+ItemCode 	= "EET14919"
+Pack	 	= "tripletower"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+//투페이스 인식표
+[IDTag139]
+ItemCode 	= "EET14920"
+Pack	 	= "twofaceT"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+//엠블연구소 인식표
+[IDTag140]
+ItemCode 	= "EET14921"
+Pack	 	= "EmbleLab"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+//로얄로드 인식표
+[IDTag141]
+ItemCode 	= "EET14922"
+Pack	 	= "RoyalLoad"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+//스톤캐슬 인식표
+[IDTag142]
+ItemCode 	= "EET14923"
+Pack	 	= "Stonecastle"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+//카운터블로 인식표
+[IDTag143]
+ItemCode 	= "EET14924"
+Pack	 	= "CounterBlow"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 통제구역6 인식표
+[IDTag144]
+ItemCode 	= "EET15058"
+Pack	 	= "zombie"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 통제구역7 인식표
+[IDTag145]
+ItemCode 	= "EET15059"
+Pack	 	= "zombie7"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 뱀파이어호러 인식표
+[IDTag146]
+ItemCode 	= "EET15060"
+Pack	 	= "vampirehorror"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 웨어아이스 인식표
+[IDTag147]
+ItemCode 	= "EET15061"
+Pack	 	= "wareice"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// A보급-클리어 인식표
+[IDTag148]
+ItemCode 	= "EET15062"
+Pack	 	= "a_tank_clear"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 크카-클리어 인식표
+[IDTag149]
+ItemCode 	= "EET15063"
+Pack	 	= "crosscounter_clear"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 할렘 인식표
+[IDTag150]
+ItemCode 	= "EET15064"
+Pack	 	= "Harlem"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 3보급-할로윈 인식표
+[IDTag151]
+ItemCode 	= "EET15065"
+Pack	 	= "tank_halloween"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 빅보급창고 인식표
+[IDTag152]
+ItemCode 	= "EET15066"
+Pack	 	= "tank_big"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 라구사 인식표
+[IDTag153]
+ItemCode 	= "EET15067"
+Pack	 	= "tank_RagusaEscape"
+EtiredIdTag	= 1 // 영구
+MaxIndex    = 2
+AniIdTag	= 0
+
+// 진짜를 찾아라 인식표
+[IDTag154]
+ItemCode    = "EET15502"
+Pack        = "lakevillage"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// 이탈리아 인식표
+[IDTag155]
+ItemCode    = "EET15503"
+Pack        = "italy"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// 레드팜 인식표
+[IDTag156]
+ItemCode    = "EET15504"
+Pack        = "redfarm"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// 아지트 인식표
+[IDTag157]
+ItemCode    = "EET15505"
+Pack        = "agit"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// 아즈텍 인식표
+[IDTag158]
+ItemCode    = "EET15506"
+Pack        = "Aztec"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// 뉴크 인식표
+[IDTag159]
+ItemCode    = "EET15507"
+Pack        = "Nuke"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// 트레인 인식표
+[IDTag160]
+ItemCode    = "EET15508"
+Pack        = "train"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// 샐리엄 인식표
+[IDTag161]
+ItemCode    = "EET15509"
+Pack        = "tank_Thallium"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// 아울렛 인식표
+[IDTag162]
+ItemCode    = "EET15510"
+Pack        = "outlet"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// 썸머가든 인식표
+[IDTag163]
+ItemCode    = "EET15511"
+Pack        = "summergarden"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// C-A보급창고 인식표
+[IDTag164]
+ItemCode 	= "EET15587"
+Pack        = "C_A_Tank"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// C-제3보급창고 인식표
+[IDTag165]
+ItemCode 	= "EET15588"
+Pack        = "C_Tank"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// C-크로스포트 인식표
+[IDTag166]
+ItemCode 	= "EET15589"
+Pack        = "C_CrossPort"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// C-드래곤로드 인식표
+[IDTag167]
+ItemCode 	= "EET15590"
+Pack        = "C_DragonRoad"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// C-버닝리버 인식표
+[IDTag168]
+ItemCode 	= "EET15591"
+Pack        = "C_Burning_River"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// C-웨어하우스 인식표
+[IDTag169]
+ItemCode 	= "EET15592"
+Pack        = "C_ware_house"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// C-원웨이 인식표
+[IDTag170]
+ItemCode 	= "EET15593"
+Pack        = "C_oneway"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// C-로얄로드 인식표
+[IDTag171]
+ItemCode 	= "EET15594"
+Pack        = "C_RoyalLord"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// C-스톤캐슬 인식표
+[IDTag172]
+ItemCode 	= "EET15595"
+Pack        = "C_StoneCastle"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// C-파워플랜트 인식표
+[IDTag173]
+ItemCode 	= "EET15596"
+Pack        = "C_PowerPlant"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 0
+
+// 2025 SC S2 인식표
+[IDTag174]
+ItemCode 	= "EET15610"
+Pack        = "2025SCS2"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 1
+
+// Wanted 인식표
+[IDTag175]
+ItemCode 	= "EET15634"
+Pack        = "Wanted"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 1
+
+// Persona 인식표
+[IDTag176]
+ItemCode 	= "EET16044"
+Pack        = "Persona"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 1
+
+// 2026 SC S1 인식표
+[IDTag177]
+ItemCode 	= "EET16270"
+Pack        = "2026SCS1"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 1
+
+// SPECIAL 인식표
+[IDTag178]
+ItemCode	= "EET16334"
+Pack		= "SPECIAL"
+EtiredIdTag	= 1 // 영구
+MaxIndex	= 2
+AniIdTag	= 1 // 애니
+
+// THE SPECIAL 인식표
+[IDTag179]
+ItemCode	= "EET16335"
+Pack		= "THE_SPECIAL"
+EtiredIdTag	= 1 // 영구
+MaxIndex	= 2
+AniIdTag	= 1 // 애니
+
+// Paradox 인식표
+[IDTag180]
+ItemCode	= "EET16425"
+Pack		= "Paradox"
+EtiredIdTag	= 1 // 영구
+MaxIndex	= 2
+AniIdTag	= 1 // 애니
+
+// FINF 인식표 26 S1
+[IDTag181]
+ItemCode	= "EET16627"
+Pack		= "FINF26S1"
+EtiredIdTag	= 1 // 영구
+MaxIndex	= 2
+AniIdTag	= 1 // 애니
+
+// LIMITED 인식표
+[IDTag182]
+ItemCode	= "EET16801"
+Pack		= "LIMITED"
+EtiredIdTag	= 1 // 영구
+MaxIndex	= 2
+AniIdTag	= 1 // 애니
+
+// THE LIMITED 인식표
+[IDTag183]
+ItemCode	= "EET16802"
+Pack		= "THE_LIMITED"
+EtiredIdTag	= 1 // 영구
+MaxIndex	= 2
+AniIdTag	= 1 // 애니
+
+// Moonrise 인식표
+[IDTag184]
+ItemCode	= "EET16735"
+Pack		= "Moonrise"
+EtiredIdTag	= 1 // 영구
+MaxIndex	= 2
+AniIdTag	= 1 // 애니
+
+// 2026 SC S2 인식표
+[IDTag185]
+ItemCode 	= "EET16886"
+Pack        = "2026SCS2"
+EtiredIdTag = 1 // 영구
+MaxIndex    = 2
+AniIdTag    = 1

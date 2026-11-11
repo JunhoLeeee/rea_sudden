@@ -1,0 +1,101 @@
+{
+  "path": "C:\\Users\\PC\\Desktop\\REA\\extracted\\game-file\\game_file\\CShell.dll",
+  "sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110",
+  "decoder": "Capstone 5.0.7",
+  "image_base": "0x180000000",
+  "slices": [
+    {
+      "requested_address": "0x180f03ab0",
+      "traversal": "direct-branch-reachable, calls not followed",
+      "instruction_count": 4,
+      "unknowns": [],
+      "instructions": [
+        {
+          "address": "0x180f03ab0",
+          "bytes": "8b02",
+          "mnemonic": "mov",
+          "operands": "eax, dword ptr [rdx]",
+          "references": []
+        },
+        {
+          "address": "0x180f03ab2",
+          "bytes": "8901",
+          "mnemonic": "mov",
+          "operands": "dword ptr [rcx], eax",
+          "references": []
+        },
+        {
+          "address": "0x180f03ab4",
+          "bytes": "488bc1",
+          "mnemonic": "mov",
+          "operands": "rax, rcx",
+          "references": []
+        },
+        {
+          "address": "0x180f03ab7",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": "",
+          "references": []
+        }
+      ]
+    },
+    {
+      "requested_address": "0x180f03ac0",
+      "traversal": "direct-branch-reachable, calls not followed",
+      "instruction_count": 3,
+      "unknowns": [],
+      "instructions": [
+        {
+          "address": "0x180f03ac0",
+          "bytes": "f30f1109",
+          "mnemonic": "movss",
+          "operands": "dword ptr [rcx], xmm1",
+          "references": []
+        },
+        {
+          "address": "0x180f03ac4",
+          "bytes": "0f28c1",
+          "mnemonic": "movaps",
+          "operands": "xmm0, xmm1",
+          "references": []
+        },
+        {
+          "address": "0x180f03ac7",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": "",
+          "references": []
+        }
+      ]
+    },
+    {
+      "requested_address": "0x180f03ad0",
+      "traversal": "direct-branch-reachable, calls not followed",
+      "instruction_count": 2,
+      "unknowns": [],
+      "instructions": [
+        {
+          "address": "0x180f03ad0",
+          "bytes": "f30f1001",
+          "mnemonic": "movss",
+          "operands": "xmm0, dword ptr [rcx]",
+          "references": []
+        },
+        {
+          "address": "0x180f03ad4",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": "",
+          "references": []
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Static byte observations only; target not executed.",
+    "Unwind extents can be fragments; leaf probes are bounded.",
+    "Linear decoding does not establish reachability or recover indirect targets.",
+    "RIP memory references do not dereference pointers or prove runtime values."
+  ]
+}

@@ -1,0 +1,5424 @@
+{
+	"option": [{
+			"keyvalue": "pistol_shield",
+			"maxDurability": 832,
+			"path": "sa_resource\\weapons\\dtx\\",
+			"level": [665, 498, 332, 166, 0],
+			"texture_3p": [
+				"riot_shield_usp45_s_v2_3P_01.DTX",
+				"riot_shield_usp45_s_v2_3P_02.dtx",
+				"riot_shield_usp45_s_v2_3P_03.dtx",
+				"riot_shield_usp45_s_v2_3P_04.dtx",
+				"riot_shield_usp45_s_v2_3P_05.dtx"
+			],
+			"texture_1p": [
+				"riot_shield_01.DTX",
+				"riot_shield_02.dtx",
+				"riot_shield_03.dtx",
+				"riot_shield_04.dtx",
+				"riot_shield_05.dtx"
+			],
+
+			"UseAlpha": 0,
+			"ProjectilePlayerDamageRatio": 0.0,
+			"ProjectileShieldDamageRatio": 1.0,
+			"BombPlayerDamageRatio": 0.7,
+			"BombOtherPlayerDamageRatio": 0.7,
+			"BombShieldDamageRatio": 1.0,
+			"StoppingPowerBase": 0.2,
+			"StoppingPowerAlpha": 0.1,
+			"CHStoppingPowerBase": 0.5,
+			"CHStoppingPowerAlpha": 0.1,
+			
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_BLIND"
+		},
+		{
+			"keyvalue": "20sapass3_riot_shield",
+			"maxDurability": 832,
+			"path": "sa_resource\\weapons\\dtx\\",
+			"level": [665, 498, 332, 166, 0],
+			"texture_3p": [
+				"20SApass3_D_shield_3p_01.DTX",
+				"20SApass3_D_shield_3p_02.dtx",
+				"20SApass3_D_shield_3p_03.dtx",
+				"20SApass3_D_shield_3p_04.dtx",
+				"20SApass3_D_shield_3p_05.dtx"
+			],
+			"texture_1p": [
+				"riot_shield_01.DTX",
+				"riot_shield_02.dtx",
+				"riot_shield_03.dtx",
+				"riot_shield_04.dtx",
+				"riot_shield_05.dtx"
+			],
+
+			"UseAlpha": 0,
+			"ProjectilePlayerDamageRatio": 0.0,
+			"ProjectileShieldDamageRatio": 1.0,
+			"BombPlayerDamageRatio": 0.7,
+			"BombOtherPlayerDamageRatio": 0.7,
+			"BombShieldDamageRatio": 1.0,
+			"StoppingPowerBase": 0.2,
+			"StoppingPowerAlpha": 0.1,
+			"CHStoppingPowerBase": 0.5,
+			"CHStoppingPowerAlpha": 0.1,
+
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_BLIND"
+		},
+		{
+			"keyvalue": "shield_hangul",
+			"maxDurability": 832,
+			"level": [665, 498, 332, 166, 0],
+			"alpha": [0.20, 0.40, 0.60, 0.80, 0.95],
+
+			"UseAlpha": 1,
+			"ProjectilePlayerDamageRatio": 0.0,
+			"ProjectileShieldDamageRatio": 1.0,
+			"BombPlayerDamageRatio": 0.7,
+			"BombOtherPlayerDamageRatio": 0.7,
+			"BombShieldDamageRatio": 1.0,
+			"StoppingPowerBase": 0.2,
+			"StoppingPowerAlpha": 0.1,
+			"CHStoppingPowerBase": 0.5,
+			"CHStoppingPowerAlpha": 0.1,
+			
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_BLIND"
+		},
+		{
+			"keyvalue": "shield_de_vip",
+			"maxDurability": 832,
+			"path": "sa_resource\\weapons\\dtx\\",
+			"level": [665, 498, 332, 166, 0],
+			"texture_3p": [
+				"riot_shield_Deagle_club_vip_3P_01.dtx",
+				"riot_shield_Deagle_club_vip_3P_02.dtx",
+				"riot_shield_Deagle_club_vip_3P_03.dtx",
+				"riot_shield_Deagle_club_vip_3P_04.dtx",
+				"riot_shield_Deagle_club_vip_3P_05.dtx"
+			],
+			"texture_1p": [
+				"riot_shield_01.DTX",
+				"riot_shield_02.dtx",
+				"riot_shield_03.dtx",
+				"riot_shield_04.dtx",
+				"riot_shield_05.dtx"
+			],
+
+			"UseAlpha": 0,
+			"ProjectilePlayerDamageRatio": 0.0,
+			"ProjectileShieldDamageRatio": 1.0,
+			"BombPlayerDamageRatio": 0.7,
+			"BombOtherPlayerDamageRatio": 0.7,
+			"BombShieldDamageRatio": 1.0,
+			"StoppingPowerBase": 0.2,
+			"StoppingPowerAlpha": 0.1,
+			"CHStoppingPowerBase": 0.5,
+			"CHStoppingPowerAlpha": 0.1,
+			
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_BLIND"
+		},
+		{
+			"keyvalue": "pnr10_shield",
+			"maxDurability": 832,
+			"path": "sa_resource\\weapons\\dtx\\",
+			"level": [665, 498, 332, 166, 0],
+			"texture_3p": [
+				"pnr_shield_pnr10_s_v2_3P_01.DTX",
+				"pnr_shield_pnr10_s_v2_3P_02.DTX",
+				"pnr_shield_pnr10_s_v2_3P_03.DTX",
+				"pnr_shield_pnr10_s_v2_3P_04.DTX",
+				"pnr_shield_pnr10_s_v2_3P_05.DTX"
+			],
+			"texture_1p": [
+				"riot_shield_01.DTX",
+				"riot_shield_02.dtx",
+				"riot_shield_03.dtx",
+				"riot_shield_04.dtx",
+				"riot_shield_05.dtx"
+			],
+
+			"UseAlpha": 0,
+			"ProjectilePlayerDamageRatio": 0.0,
+			"ProjectileShieldDamageRatio": 1.0,
+			"BombPlayerDamageRatio": 0.7,
+			"BombOtherPlayerDamageRatio": 0.7,
+			"BombShieldDamageRatio": 1.0,
+			"StoppingPowerBase": 0.2,
+			"StoppingPowerAlpha": 0.1,
+			"CHStoppingPowerBase": 0.5,
+			"CHStoppingPowerAlpha": 0.1,
+			
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_BLIND"
+		},
+		{
+			"keyvalue": "pnr10_shield_navi",
+			"maxDurability": 832,
+			"path": "sa_resource\\weapons\\dtx\\",
+			"level": [665, 498, 332, 166, 0],
+			"texture_3p": [
+				"riot_shield_pnr_10_vip_navi_3P_01.DTX",
+				"riot_shield_pnr_10_vip_navi_3P_02.DTX",
+				"riot_shield_pnr_10_vip_navi_3P_03.DTX",
+				"riot_shield_pnr_10_vip_navi_3P_04.DTX",
+				"riot_shield_pnr_10_vip_navi_3P_05.DTX"
+			],
+			"texture_1p": [
+				"riot_shield_01.DTX",
+				"riot_shield_02.dtx",
+				"riot_shield_03.dtx",
+				"riot_shield_04.dtx",
+				"riot_shield_05.dtx"
+			],
+
+			"UseAlpha": 0,
+			"ProjectilePlayerDamageRatio": 0.0,
+			"ProjectileShieldDamageRatio": 1.0,
+			"BombPlayerDamageRatio": 0.7,
+			"BombOtherPlayerDamageRatio": 0.7,
+			"BombShieldDamageRatio": 1.0,
+			"StoppingPowerBase": 0.2,
+			"StoppingPowerAlpha": 0.1,
+			"CHStoppingPowerBase": 0.5,
+			"CHStoppingPowerAlpha": 0.1,
+			
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_BLIND"
+		},
+		{
+			"keyvalue": "shield_de_musinsa",
+			"maxDurability": 832,
+			"path": "sa_resource\\weapons\\dtx\\",
+			"level": [665, 498, 332, 166, 0],
+			"texture_3p": [
+				"DE_shield_VIP_3p_01.dtx",
+				"DE_shield_VIP_3p_02.dtx",
+				"DE_shield_VIP_3p_03.dtx",
+				"DE_shield_VIP_3p_04.dtx",
+				"DE_shield_VIP_3p_05.dtx"
+			],
+			"texture_1p": [
+				"riot_shield_01.DTX",
+				"riot_shield_02.dtx",
+				"riot_shield_03.dtx",
+				"riot_shield_04.dtx",
+				"riot_shield_05.dtx"
+			],
+
+			"UseAlpha": 0,
+			"ProjectilePlayerDamageRatio": 0.0,
+			"ProjectileShieldDamageRatio": 1.0,
+			"BombPlayerDamageRatio": 0.7,
+			"BombOtherPlayerDamageRatio": 0.7,
+			"BombShieldDamageRatio": 1.0,
+			"StoppingPowerBase": 0.2,
+			"StoppingPowerAlpha": 0.1,
+			"CHStoppingPowerBase": 0.5,
+			"CHStoppingPowerAlpha": 0.1,
+			
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_BLIND"
+		},
+		{
+			"keyvalue" : "Famas_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_f1_v3_i_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_f1_v3_is_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_famas_select_M0",
+			"reloadfx_1p" : "My_double_famas_reload_M0"
+		},		
+		{
+			"keyvalue" : "Famas_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_f1_v3_i_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_f1_v3_is_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_famas_select_M0",
+			"reloadfx_1p" : "My_double_famas_reload_M0"
+		},	
+		{
+			"keyvalue" : "Famas_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_f1_v3_i_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_f1_v3_is_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_famas_select_M0",
+			"reloadfx_1p" : "My_double_famas_reload_M0"
+		},	
+		{
+			"keyvalue" : "Famas_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_f1_v3_i_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\famas_f1_v3_is_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_famas_select_M3T",
+			"reloadfx_1p" : "My_double_famas_reload_M3T"
+		},	
+		{
+			"keyvalue" : "Famas_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_f1_v3_i_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\famas_f1_v3_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_famas_select_M4T",
+			"reloadfx_1p" : "My_double_famas_reload_M4T"
+		},	
+		{
+			"keyvalue" : "Famas_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_f1_v3_i_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\famas_f1_v3_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},	
+				{
+			"keyvalue" : "Famas_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_f1_v3_is_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_f1_v3_is_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_famas_select_M0",
+			"reloadfx_1p" : "My_double_famas_reload_M0"
+		},		
+		{
+			"keyvalue" : "Famas_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_f1_v3_is_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_f1_v3_is_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_famas_select_M0",
+			"reloadfx_1p" : "My_double_famas_reload_M0"
+		},	
+		{
+			"keyvalue" : "Famas_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_f1_v3_is_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_f1_v3_is_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_famas_select_M0",
+			"reloadfx_1p" : "My_double_famas_reload_M0"
+		},	
+		{
+			"keyvalue" : "Famas_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_f1_v3_is_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\famas_f1_v3_is_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_famas_select_M3T",
+			"reloadfx_1p" : "My_double_famas_reload_M3T"
+		},	
+		{
+			"keyvalue" : "Famas_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_f1_v3_is_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\famas_f1_v3_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_famas_select_M4T",
+			"reloadfx_1p" : "My_double_famas_reload_M4T"
+		},	
+		{
+			"keyvalue" : "Famas_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_f1_v3_is_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\famas_f1_v3_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "g18_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g18_v2_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g18_v2_s_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_g18_select_M0",
+			"reloadfx_1p" : "My_double_g18_reload_M0"
+		},		
+		{
+			"keyvalue" : "g18_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g18_v2_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g18_v2_s_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_g18_select_M0",
+			"reloadfx_1p" : "My_double_g18_reload_M0"
+		},		
+		{
+			"keyvalue" : "g18_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g18_v2_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g18_v2_s_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_g18_select_M0",
+			"reloadfx_1p" : "My_double_g18_reload_M0"
+		},	
+		{
+			"keyvalue" : "g18_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g18_v2_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\g18_v2_s_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_g18_select_M3T",
+			"reloadfx_1p" : "My_double_g18_reload_M3T"
+		},	
+		{
+			"keyvalue" : "g18_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g18_v2_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\g18_v2_s_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_g18_select_M4T",
+			"reloadfx_1p" : "My_double_g18_reload_M4T"
+		},	
+		{
+			"keyvalue" : "g18_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g18_v2_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\g18_v2_s_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},
+		{
+			"keyvalue" : "g18_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g18_v2_s_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g18_v2_s_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_g18_select_M0",
+			"reloadfx_1p" : "My_double_g18_reload_M0"
+		},		
+		{
+			"keyvalue" : "g18_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g18_v2_s_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g18_v2_s_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_g18_select_M0",
+			"reloadfx_1p" : "My_double_g18_reload_M0"
+		},		
+		{
+			"keyvalue" : "g18_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g18_v2_s_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g18_v2_s_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_g18_select_M0",
+			"reloadfx_1p" : "My_double_g18_reload_M0"
+		},	
+		{
+			"keyvalue" : "g18_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g18_v2_s_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\g18_v2_s_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_g18_select_M3T",
+			"reloadfx_1p" : "My_double_g18_reload_M3T"
+		},	
+		{
+			"keyvalue" : "g18_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g18_v2_s_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\g18_v2_s_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_g18_select_M4T",
+			"reloadfx_1p" : "My_double_g18_reload_M4T"
+		},	
+		{
+			"keyvalue" : "g18_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g18_v2_s_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\g18_v2_s_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},
+		{
+			"keyvalue" : "TRG21_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\trg21_i_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\trg21_is_v02_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_trg21_reload_M0"
+		},		
+		{
+			"keyvalue" : "TRG21_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\trg21_i_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\trg21_is_v02_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_trg21_reload_M0"
+		},	
+		{
+			"keyvalue" : "TRG21_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\trg21_i_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\trg21_is_v02_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_trg21_reload_M0"
+		},	
+		{
+			"keyvalue" : "TRG21_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\trg21_i_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\trg21_is_v02_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_trg21_reload_M3T"
+		},	
+		{
+			"keyvalue" : "TRG21_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\trg21_i_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\trg21_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_trg21_reload_M4T"
+		},	
+		{
+			"keyvalue" : "TRG21_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\trg21_i_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\trg21_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},	
+				{
+			"keyvalue" : "TRG21_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\trg21_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\trg21_is_v02_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_trg21_reload_M0"
+		},		
+		{
+			"keyvalue" : "TRG21_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\trg21_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\trg21_is_v02_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_trg21_reload_M0"
+		},	
+		{
+			"keyvalue" : "TRG21_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\trg21_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\trg21_is_v02_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_trg21_reload_M0"
+		},	
+		{
+			"keyvalue" : "TRG21_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\trg21_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\trg21_is_v02_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_trg21_reload_M3T"
+		},	
+		{
+			"keyvalue" : "TRG21_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\trg21_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\trg21_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_trg21_reload_M4T"
+		},	
+		{
+			"keyvalue" : "TRG21_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\trg21_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\trg21_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "AK103_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_i_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_is_v02_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak103_select_M0",
+			"reloadfx_1p" : "My_double_ak103_reload_M0"
+		},		
+		{
+			"keyvalue" : "AK103_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_i_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_is_v02_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak103_select_M0",
+			"reloadfx_1p" : "My_double_ak103_reload_M0"
+		},		
+		{
+			"keyvalue" : "AK103_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_i_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_is_v02_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak103_select_M0",
+			"reloadfx_1p" : "My_double_ak103_reload_M0"
+		},	
+		{
+			"keyvalue" : "AK103_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_i_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_is_v02_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak103_select_M3T",
+			"reloadfx_1p" : "My_double_ak103_reload_M3T"
+		},	
+		{
+			"keyvalue" : "AK103_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_i_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak103_select_M4T",
+			"reloadfx_1p" : "My_double_ak103_reload_M4T"
+		},	
+		{
+			"keyvalue" : "AK103_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_i_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},
+		{
+			"keyvalue" : "AK103_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_is_v02_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak103_select_M0",
+			"reloadfx_1p" : "My_double_ak103_reload_M0"
+		},		
+		{
+			"keyvalue" : "Ak103_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_is_v02_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak103_select_M0",
+			"reloadfx_1p" : "My_double_ak103_reload_M0"
+		},		
+		{
+			"keyvalue" : "AK103_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_is_v02_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak103_select_M0",
+			"reloadfx_1p" : "My_double_ak103_reload_M0"
+		},	
+		{
+			"keyvalue" : "AK103_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_is_v02_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak103_select_M3T",
+			"reloadfx_1p" : "My_double_ak103_reload_M3T"
+		},	
+		{
+			"keyvalue" : "AK103_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak103_select_M4T",
+			"reloadfx_1p" : "My_double_ak103_reload_M4T"
+		},	
+		{
+			"keyvalue" : "AK103_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},
+		{
+            		"keyvalue" : "Double_Bomb",
+            		"planted_bomb_fx_name" : "SA_Double_TimeBomb_Glow"
+       		},
+		{
+			"keyvalue" : "gsr_6_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_i_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_gsr6_reload_M0"
+		},		
+		{
+			"keyvalue" : "gsr_6_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_i_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_gsr6_reload_M0"
+		},	
+		{
+			"keyvalue" : "gsr_6_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_i_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_gsr6_reload_M0"
+		},	
+		{
+			"keyvalue" : "gsr_6_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_i_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_gsr6_reload_M3T"
+		},	
+		{
+			"keyvalue" : "gsr_6_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_i_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_gsr6_reload_M4T"
+		},	
+		{
+			"keyvalue" : "gsr_6_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_i_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},	
+				{
+			"keyvalue" : "gsr_6_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_is_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_gsr6_reload_M0"
+		},		
+		{
+			"keyvalue" : "gsr_6_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_is_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_gsr6_reload_M0"
+		},	
+		{
+			"keyvalue" : "gsr_6_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_is_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_gsr6_reload_M0"
+		},	
+		{
+			"keyvalue" : "gsr_6_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_is_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_gsr6_reload_M3T"
+		},	
+		{
+			"keyvalue" : "gsr_6_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_is_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_gsr6_reload_M4T"
+		},	
+		{
+			"keyvalue" : "gsr_6_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_is_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "sig556_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_i_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_sig556_select_M0",
+			"reloadfx_1p" : "My_double_sig556_reload_M0"
+		},		
+		{
+			"keyvalue" : "sig556_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_i_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_sig556_select_M0",
+			"reloadfx_1p" : "My_double_sig556_reload_M0"
+		},	
+		{
+			"keyvalue" : "sig556_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_i_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_sig556_select_M0",
+			"reloadfx_1p" : "My_double_sig556_reload_M0"
+		},	
+		{
+			"keyvalue" : "sig556_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_i_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_sig556_select_M3T",
+			"reloadfx_1p" : "My_double_sig556_reload_M3T"
+		},	
+		{
+			"keyvalue" : "sig556_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_i_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_sig556_select_M4T",
+			"reloadfx_1p" : "My_double_sig556_reload_M4T"
+		},	
+		{
+			"keyvalue" : "sig556_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_i_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},	
+				{
+			"keyvalue" : "sig556_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_is_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_sig556_select_M0",
+			"reloadfx_1p" : "My_double_sig556_reload_M0"
+		},		
+		{
+			"keyvalue" : "sig556_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_is_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_sig556_select_M0",
+			"reloadfx_1p" : "My_double_sig556_reload_M0"
+		},	
+		{
+			"keyvalue" : "sig556_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_is_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_sig556_select_M0",
+			"reloadfx_1p" : "My_double_sig556_reload_M0"
+		},	
+		{
+			"keyvalue" : "sig556_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_is_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_sig556_select_M3T",
+			"reloadfx_1p" : "My_double_sig556_reload_M3T"
+		},	
+		{
+			"keyvalue" : "sig556_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_is_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_sig556_select_M4T",
+			"reloadfx_1p" : "My_double_sig556_reload_M4T"
+		},	
+		{
+			"keyvalue" : "sig556_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_is_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "peacemaker_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_pm_select_M0",
+			"reloadfx_1p" : "My_double_pm_reload_M0"
+		},		
+		{
+			"keyvalue" : "peacemaker_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_pm_select_M0",
+			"reloadfx_1p" : "My_double_pm_reload_M0"
+		},		
+		{
+			"keyvalue" : "peacemaker_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_pm_select_M0",
+			"reloadfx_1p" : "My_double_pm_reload_M0"
+		},	
+		{
+			"keyvalue" : "peacemaker_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_pm_select_M3T",
+			"reloadfx_1p" : "My_double_pm_reload_M3T"
+		},	
+		{
+			"keyvalue" : "peacemaker_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_pm_select_M4T",
+			"reloadfx_1p" : "My_double_pm_reload_M4T"
+		},	
+		{
+			"keyvalue" : "peacemaker_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},
+		{
+			"keyvalue" : "peacemaker_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_s_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_pm_select_M0",
+			"reloadfx_1p" : "My_double_pm_reload_M0"
+		},		
+		{
+			"keyvalue" : "peacemaker_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_s_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_pm_select_M0",
+			"reloadfx_1p" : "My_double_pm_reload_M0"
+		},		
+		{
+			"keyvalue" : "peacemaker_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_s_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_pm_select_M0",
+			"reloadfx_1p" : "My_double_pm_reload_M0"
+		},	
+		{
+			"keyvalue" : "peacemaker_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_s_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_pm_select_M3T",
+			"reloadfx_1p" : "My_double_pm_reload_M3T"
+		},	
+		{
+			"keyvalue" : "peacemaker_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_s_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_pm_select_M4T",
+			"reloadfx_1p" : "My_double_pm_reload_M4T"
+		},	
+		{
+			"keyvalue" : "peacemaker_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_s_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},		
+		{
+			"keyvalue" : "g600_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_g600_select_M0T",
+			"reloadfx_1p" : ""
+		},		
+		{
+			"keyvalue" : "g600_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_g600_select_M1T",
+			"reloadfx_1p" : ""
+		},		
+		{
+			"keyvalue" : "g600_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_g600_select_M2T",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "g600_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m3_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_g600_select_M3T",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "g600_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m4_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_g600_select_M4T",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "g600_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m4_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "awp_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_i_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_v02_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_awp_reload_M0"
+		},		
+		{
+			"keyvalue" : "awp_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_i_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_v02_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_awp_reload_M0"
+		},	
+		{
+			"keyvalue" : "awp_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_i_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_v02_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_awp_reload_M0"
+		},	
+		{
+			"keyvalue" : "awp_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_i_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_v02_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_awp_reload_M3T"
+		},	
+		{
+			"keyvalue" : "awp_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_i_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_awp_reload_M4T"
+		},	
+		{
+			"keyvalue" : "awp_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_i_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "awp_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_v02_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_awp_reload_M0"
+		},		
+		{
+			"keyvalue" : "awp_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_v02_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_awp_reload_M0"
+		},	
+		{
+			"keyvalue" : "awp_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_v02_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_awp_reload_M0"
+		},	
+		{
+			"keyvalue" : "awp_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_v02_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_awp_reload_M3T"
+		},	
+		{
+			"keyvalue" : "awp_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_awp_reload_M4T"
+		},	
+		{
+			"keyvalue" : "awp_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "m4a1_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\m4a1_i_v03_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\m4a1_is_v03_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_m4a1_select_M0",
+			"reloadfx_1p" : "My_double_m4a1_reload_M0"
+		},		
+		{
+			"keyvalue" : "m4a1_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\m4a1_i_v03_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\m4a1_is_v03_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_m4a1_select_M0",
+			"reloadfx_1p" : "My_double_m4a1_reload_M0"
+		},		
+		{
+			"keyvalue" : "m4a1_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\m4a1_i_v03_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\m4a1_is_v03_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_m4a1_select_M0",
+			"reloadfx_1p" : "My_double_m4a1_reload_M0"
+		},	
+		{
+			"keyvalue" : "m4a1_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\m4a1_i_v03_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\m4a1_is_v03_m3_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_m4a1_select_M3T",
+			"reloadfx_1p" : "My_double_m4a1_reload_M3T"
+		},	
+		{
+			"keyvalue" : "m4a1_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\m4a1_i_v03_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\m4a1_is_v03_m4_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_m4a1_select_M4T",
+			"reloadfx_1p" : "My_double_m4a1_reload_M4T"
+		},	
+		{
+			"keyvalue" : "m4a1_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\m4a1_i_v03_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\m4a1_is_v03_m4_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},
+		{
+			"keyvalue" : "m4a1_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\m4a1_is_v03_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\m4a1_is_v03_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_m4a1_select_M0",
+			"reloadfx_1p" : "My_double_m4a1_reload_M0"
+		},		
+		{
+			"keyvalue" : "m4a1_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\m4a1_is_v03_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\m4a1_is_v03_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_m4a1_select_M0",
+			"reloadfx_1p" : "My_double_m4a1_reload_M0"
+		},		
+		{
+			"keyvalue" : "m4a1_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\m4a1_is_v03_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\m4a1_is_v03_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_m4a1_select_M0",
+			"reloadfx_1p" : "My_double_m4a1_reload_M0"
+		},	
+		{
+			"keyvalue" : "m4a1_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\m4a1_is_v03_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\m4a1_is_v03_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_m4a1_select_M3T",
+			"reloadfx_1p" : "My_double_m4a1_reload_M3T"
+		},	
+		{
+			"keyvalue" : "m4a1_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\m4a1_is_v03_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\m4a1_is_v03_m4_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_m4a1_select_M4T",
+			"reloadfx_1p" : "My_double_m4a1_reload_M4T"
+		},	
+		{
+			"keyvalue" : "m4a1_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\m4a1_is_v03_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\m4a1_is_v03_m4_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},
+		{
+			"keyvalue" : "winche_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_v02_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_winche_reload_M0"
+		},		
+		{
+			"keyvalue" : "winche_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_v02_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_winche_reload_M0"
+		},	
+		{
+			"keyvalue" : "winche_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_v02_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_winche_reload_M0"
+		},	
+		{
+			"keyvalue" : "winche_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_v02_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_winche_reload_M3T"
+		},	
+		{
+			"keyvalue" : "winche_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_winche_reload_M4T"
+		},	
+		{
+			"keyvalue" : "winche_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},
+		{
+			"keyvalue": "shield_de_heosungtae",
+			"maxDurability": 832,
+			"path": "sa_resource\\weapons\\dtx\\",
+			"level": [665, 498, 332, 166, 0],
+			"texture_3p": [
+				"riot_shield_deagle_HeoSungtae_3P_01.dtx",
+				"riot_shield_deagle_HeoSungtae_3P_02.dtx",
+				"riot_shield_deagle_HeoSungtae_3P_03.dtx",
+				"riot_shield_deagle_HeoSungtae_3P_04.dtx",
+				"riot_shield_deagle_HeoSungtae_3P_05.dtx"
+			],
+			"texture_1p": [
+				"riot_shield_01.dtx",
+				"riot_shield_02.dtx",
+				"riot_shield_03.dtx",
+				"riot_shield_04.dtx",
+				"riot_shield_05.dtx"
+			],
+
+			"UseAlpha": 0,
+			"ProjectilePlayerDamageRatio": 0.0,
+			"ProjectileShieldDamageRatio": 1.0,
+			"BombPlayerDamageRatio": 0.7,
+			"BombOtherPlayerDamageRatio": 0.7,
+			"BombShieldDamageRatio": 1.0,
+			"StoppingPowerBase": 0.2,
+			"StoppingPowerAlpha": 0.1,
+			"CHStoppingPowerBase": 0.5,
+			"CHStoppingPowerAlpha": 0.1,
+			
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_BLIND"
+		},
+		{
+			"keyvalue": "shield_de_parkjihwan",
+			"maxDurability": 832,
+			"path": "sa_resource\\weapons\\dtx\\",
+			"level": [665, 498, 332, 166, 0],
+			"texture_3p": [
+				"riot_shield_deagle_ParkJihwan_3P_01.dtx",
+				"riot_shield_deagle_ParkJihwan_3P_02.dtx",
+				"riot_shield_deagle_ParkJihwan_3P_03.dtx",
+				"riot_shield_deagle_ParkJihwan_3P_04.dtx",
+				"riot_shield_deagle_ParkJihwan_3P_05.dtx"
+			],
+			"texture_1p": [
+				"riot_shield_01.dtx",
+				"riot_shield_02.dtx",
+				"riot_shield_03.dtx",
+				"riot_shield_04.dtx",
+				"riot_shield_05.dtx"
+			],
+
+			"UseAlpha": 0,
+			"ProjectilePlayerDamageRatio": 0.0,
+			"ProjectileShieldDamageRatio": 1.0,
+			"BombPlayerDamageRatio": 0.7,
+			"BombOtherPlayerDamageRatio": 0.7,
+			"BombShieldDamageRatio": 1.0,
+			"StoppingPowerBase": 0.2,
+			"StoppingPowerAlpha": 0.1,
+			"CHStoppingPowerBase": 0.5,
+			"CHStoppingPowerAlpha": 0.1,
+			
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_BLIND"
+		},
+		{
+			"keyvalue" : "uar_v2_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\uar_v2_i_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\uar_v2_is_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_uar_v2_reload_M0"
+		},		
+		{
+			"keyvalue" : "uar_v2_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\uar_v2_i_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\uar_v2_is_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_uar_v2_reload_M0"
+		},	
+		{
+			"keyvalue" : "uar_v2_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\uar_v2_i_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\uar_v2_is_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_uar_v2_reload_M0"
+		},	
+		{
+			"keyvalue" : "uar_v2_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\uar_v2_i_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\uar_v2_is_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_uar_v2_reload_M3T"
+		},	
+		{
+			"keyvalue" : "uar_v2_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\uar_v2_i_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\uar_v2_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_uar_v2_reload_M4T"
+		},	
+		{
+			"keyvalue" : "uar_v2_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\uar_v2_i_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\uar_v2_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "uar_v2_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\uar_v2_is_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\uar_v2_is_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_uar_v2_reload_M0"
+		},		
+		{
+			"keyvalue" : "uar_v2_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\uar_v2_is_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\uar_v2_is_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_uar_v2_reload_M0"
+		},	
+		{
+			"keyvalue" : "uar_v2_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\uar_v2_is_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\uar_v2_is_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_uar_v2_reload_M0"
+		},	
+		{
+			"keyvalue" : "uar_v2_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\uar_v2_is_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\uar_v2_is_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_uar_v2_reload_M3T"
+		},	
+		{
+			"keyvalue" : "uar_v2_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\uar_v2_is_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\uar_v2_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_uar_v2_reload_M4T"
+		},	
+		{
+			"keyvalue" : "uar_v2_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\uar_v2_is_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\uar_v2_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "sg12_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\saiga12_i_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\saiga12_is_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_sg12_select_M0",
+			"reloadfx_1p" : "My_double_sg12_reload_M0"
+		},		
+		{
+			"keyvalue" : "sg12_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\saiga12_i_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\saiga12_is_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_sg12_select_M0",
+			"reloadfx_1p" : "My_double_sg12_reload_M0"
+		},		
+		{
+			"keyvalue" : "sg12_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\saiga12_i_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\saiga12_is_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_sg12_select_M0",
+			"reloadfx_1p" : "My_double_sg12_reload_M0"
+		},	
+		{
+			"keyvalue" : "sg12_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\saiga12_i_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\saiga12_is_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_sg12_select_M3T",
+			"reloadfx_1p" : "My_double_sg12_reload_M3T"
+		},	
+		{
+			"keyvalue" : "sg12_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\saiga12_i_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\saiga12_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_sg12_select_M4T",
+			"reloadfx_1p" : "My_double_sg12_reload_M4T"
+		},	
+		{
+			"keyvalue" : "sg12_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\saiga12_i_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\saiga12_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},
+		{
+			"keyvalue" : "sg12_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\saiga12_is_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\saiga12_is_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_sg12_select_M0",
+			"reloadfx_1p" : "My_double_sg12_reload_M0"
+		},		
+		{
+			"keyvalue" : "sg12_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\saiga12_is_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\saiga12_is_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_sg12_select_M0",
+			"reloadfx_1p" : "My_double_sg12_reload_M0"
+		},		
+		{
+			"keyvalue" : "sg12_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\saiga12_is_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\saiga12_is_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_sg12_select_M0",
+			"reloadfx_1p" : "My_double_sg12_reload_M0"
+		},	
+		{
+			"keyvalue" : "sg12_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\saiga12_is_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\saiga12_is_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_sg12_select_M3T",
+			"reloadfx_1p" : "My_double_sg12_reload_M3T"
+		},	
+		{
+			"keyvalue" : "sg12_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\saiga12_is_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\saiga12_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_sg12_select_M4T",
+			"reloadfx_1p" : "My_double_sg12_reload_M4T"
+		},	
+		{
+			"keyvalue" : "sg12_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\saiga12_is_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\saiga12_is_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},
+		{
+			"keyvalue" : "hk416_v2_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\hk416_i_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\hk416_is_v02_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_hk416_v2_select_M0",
+			"reloadfx_1p" : "My_double_hk416_v2_reload_M0"
+		},		
+		{
+			"keyvalue" : "hk416_v2_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\hk416_i_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\hk416_is_v02_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_hk416_v2_select_M0",
+			"reloadfx_1p" : "My_double_hk416_v2_reload_M0"
+		},	
+		{
+			"keyvalue" : "hk416_v2_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\hk416_i_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\hk416_is_v02_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_hk416_v2_select_M0",
+			"reloadfx_1p" : "My_double_hk416_v2_reload_M0"
+		},	
+		{
+			"keyvalue" : "hk416_v2_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\hk416_i_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\hk416_is_v02_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_hk416_v2_select_M3T",
+			"reloadfx_1p" : "My_double_hk416_v2_reload_M3T"
+		},	
+		{
+			"keyvalue" : "hk416_v2_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\hk416_i_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\hk416_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_hk416_v2_select_M4T",
+			"reloadfx_1p" : "My_double_hk416_v2_reload_M4T"
+		},	
+		{
+			"keyvalue" : "hk416_v2_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\hk416_i_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\hk416_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "hk416_v2_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\hk416_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\hk416_is_v02_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_hk416_v2_select_M0",
+			"reloadfx_1p" : "My_double_hk416_v2_reload_M0"
+		},		
+		{
+			"keyvalue" : "hk416_v2_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\hk416_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\hk416_is_v02_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_hk416_v2_select_M0",
+			"reloadfx_1p" : "My_double_hk416_v2_reload_M0"
+		},	
+		{
+			"keyvalue" : "hk416_v2_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\hk416_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\hk416_is_v02_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_hk416_v2_select_M0",
+			"reloadfx_1p" : "My_double_hk416_v2_reload_M0"
+		},	
+		{
+			"keyvalue" : "hk416_v2_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\hk416_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\hk416_is_v02_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_hk416_v2_select_M3T",
+			"reloadfx_1p" : "My_double_hk416_v2_reload_M3T"
+		},	
+		{
+			"keyvalue" : "hk416_v2_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\hk416_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\hk416_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_hk416_v2_select_M4T",
+			"reloadfx_1p" : "My_double_hk416_v2_reload_M4T"
+		},	
+		{
+			"keyvalue" : "hk416_v2_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\hk416_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\hk416_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "ak47light_k_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_v02_light_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_v02_light_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak47heavy_select_M0",
+			"reloadfx_1p" : "My_double_ak47heavy_reload_M0"
+		},		
+		{
+			"keyvalue" : "ak47light_k_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_v02_light_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_v02_light_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak47heavy_select_M0",
+			"reloadfx_1p" : "My_double_ak47heavy_reload_M0"
+		},		
+		{
+			"keyvalue" : "ak47light_k_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_v02_light_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_v02_light_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak47heavy_select_M0",
+			"reloadfx_1p" : "My_double_ak47heavy_reload_M0"
+		},	
+		{
+			"keyvalue" : "ak47light_k_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_v02_light_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_v02_light_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak47heavy_select_M3T",
+			"reloadfx_1p" : "My_double_ak47heavy_reload_M3T"
+		},	
+		{
+			"keyvalue" : "ak47light_k_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_v02_light_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_v02_light_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak47heavy_select_M4T",
+			"reloadfx_1p" : "My_double_ak47heavy_reload_M4T"
+		},	
+		{
+			"keyvalue" : "ak47light_k_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_v02_light_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_v02_light_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},
+		{
+			"keyvalue" : "ak47heavy_k_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_v02_light_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_v02_heavy_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak47heavy_select_M0",
+			"reloadfx_1p" : "My_double_ak47heavy_reload_M0"
+		},		
+		{
+			"keyvalue" : "ak47heavy_k_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_v02_light_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_v02_heavy_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak47heavy_select_M0",
+			"reloadfx_1p" : "My_double_ak47heavy_reload_M0"
+		},		
+		{
+			"keyvalue" : "ak47heavy_k_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_v02_light_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_v02_heavy_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak47heavy_select_M0",
+			"reloadfx_1p" : "My_double_ak47heavy_reload_M0"
+		},	
+		{
+			"keyvalue" : "ak47heavy_k_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_v02_light_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_v02_heavy_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak47heavy_select_M3T",
+			"reloadfx_1p" : "My_double_ak47heavy_reload_M3T"
+		},	
+		{
+			"keyvalue" : "ak47heavy_k_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_v02_light_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_v02_heavy_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_double_ak47heavy_select_M4T",
+			"reloadfx_1p" : "My_double_ak47heavy_reload_M4T"
+		},	
+		{
+			"keyvalue" : "ak47heavy_k_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_v02_light_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_v02_heavy_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},
+		{
+			"keyvalue": "23SApass1_DE_shield",
+			"maxDurability": 832,
+			"path": "sa_resource\\weapons\\dtx\\",
+			"level": [665, 498, 332, 166, 0],
+			"texture_3p": [
+				"23SApass1_DE_shield_3p_01.DTX",
+				"23SApass1_DE_shield_3p_02.dtx",
+				"23SApass1_DE_shield_3p_03.dtx",
+				"23SApass1_DE_shield_3p_04.dtx",
+				"23SApass1_DE_shield_3p_05.dtx"
+			],
+			"texture_1p": [
+				"riot_shield_01.DTX",
+				"riot_shield_02.dtx",
+				"riot_shield_03.dtx",
+				"riot_shield_04.dtx",
+				"riot_shield_05.dtx"
+			],
+
+			"UseAlpha": 0,
+			"ProjectilePlayerDamageRatio": 0.0,
+			"ProjectileShieldDamageRatio": 1.0,
+			"BombPlayerDamageRatio": 0.7,
+			"BombOtherPlayerDamageRatio": 0.7,
+			"BombShieldDamageRatio": 1.0,
+			"StoppingPowerBase": 0.2,
+			"StoppingPowerAlpha": 0.1,
+			"CHStoppingPowerBase": 0.5,
+			"CHStoppingPowerAlpha": 0.1,
+			
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_BLIND"
+		},
+		{
+			"keyvalue" : "na34_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_34_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_34_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na34_select_M0",
+			"reloadfx_1p" : "My_rumble_na34_reload_M0"
+		},
+		{
+			"keyvalue" : "na34_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_34_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_34_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na34_select_M0",
+			"reloadfx_1p" : "My_rumble_na34_reload_M0"
+		},
+		{
+			"keyvalue" : "na34_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_34_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_34_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na34_select_M2",
+			"reloadfx_1p" : "My_rumble_na34_reload_M2"
+		},
+		{
+			"keyvalue" : "na34_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_34_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_34_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na34_select_M3T",
+			"reloadfx_1p" : "My_rumble_na34_reload_M3T"
+		},
+		{
+			"keyvalue" : "na34_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_34_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_34_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na34_select_M3T",
+			"reloadfx_1p" : "My_rumble_na34_reload_M3T"
+		},
+		{
+			"keyvalue" : "na34_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_34_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_34_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_na34_reload_M3T"
+		},
+		{
+			"keyvalue" : "na34_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_34_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_34_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na34_select_M0",
+			"reloadfx_1p" : "My_rumble_na34_reload_M0"
+		},
+		{
+			"keyvalue" : "na34_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_34_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_34_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na34_select_M0",
+			"reloadfx_1p" : "My_rumble_na34_reload_M0"
+		},
+		{
+			"keyvalue" : "na34_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_34_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_34_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na34_select_M2",
+			"reloadfx_1p" : "My_rumble_na34_reload_M2"
+		},
+		{
+			"keyvalue" : "na34_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_34_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_34_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na34_select_M3T",
+			"reloadfx_1p" : "My_rumble_na34_reload_M3T"
+		},
+		{
+			"keyvalue" : "na34_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_34_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_34_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na34_select_M3T",
+			"reloadfx_1p" : "My_rumble_na34_reload_M3T"
+		},
+		{
+			"keyvalue" : "na34_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_34_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_34_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_na34_reload_M3T"
+		},
+		{
+			"keyvalue" : "mak12_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\mak_12_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\mak_12_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_mak12_select_M0",
+			"reloadfx_1p" : "My_rumble_mak12_reload_M0"
+		},
+		{
+			"keyvalue" : "mak12_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\mak_12_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\mak_12_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_mak12_select_M0",
+			"reloadfx_1p" : "My_rumble_mak12_reload_M0"
+		},
+		{
+			"keyvalue" : "mak12_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\mak_12_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\mak_12_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_mak12_select_M2",
+			"reloadfx_1p" : "My_rumble_mak12_reload_M2"
+		},
+		{
+			"keyvalue" : "mak12_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\mak_12_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\mak_12_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_mak12_select_M3T",
+			"reloadfx_1p" : "My_rumble_mak12_reload_M3T"
+		},
+		{
+			"keyvalue" : "mak12_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\mak_12_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\mak_12_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_mak12_select_M3T",
+			"reloadfx_1p" : "My_rumble_mak12_reload_M3T"
+		},
+		{
+			"keyvalue" : "mak12_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\mak_12_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\mak_12_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_mak12_reload_M3T"
+		},
+		{
+			"keyvalue" : "mak12_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\mak_12_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\mak_12_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_mak12_select_M0",
+			"reloadfx_1p" : "My_rumble_mak12_reload_M0"
+		},
+		{
+			"keyvalue" : "mak12_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\mak_12_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\mak_12_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_mak12_select_M0",
+			"reloadfx_1p" : "My_rumble_mak12_reload_M0"
+		},
+		{
+			"keyvalue" : "mak12_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\mak_12_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\mak_12_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_mak12_select_M2",
+			"reloadfx_1p" : "My_rumble_mak12_reload_M2"
+		},
+		{
+			"keyvalue" : "mak12_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\mak_12_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\mak_12_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_mak12_select_M3T",
+			"reloadfx_1p" : "My_rumble_mak12_reload_M3T"
+		},
+		{
+			"keyvalue" : "mak12_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\mak_12_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\mak_12_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_mak12_select_M3T",
+			"reloadfx_1p" : "My_rumble_mak12_reload_M3T"
+		},
+		{
+			"keyvalue" : "mak12_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\mak_12_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\mak_12_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_mak12_reload_M3T"
+		},
+		{
+			"keyvalue" : "msr200_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\msr_200_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\msr_200_is_v02_m0_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_msr200_reload_M0"
+		},		
+		{
+			"keyvalue" : "msr200_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\msr_200_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\msr_200_is_v02_m1_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_msr200_reload_M0"
+		},	
+		{
+			"keyvalue" : "msr200_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\msr_200_is_v02_m0_double_3p.ltb",
+			"texture_3p" : [
+					"dtx\\msr_200_is_v02_m2_double_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_msr200_reload_M0"
+		},	
+		{
+			"keyvalue" : "msr200_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\msr_200_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\msr_200_is_v02_m3_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_msr200_reload_M3T"
+		},	
+		{
+			"keyvalue" : "msr200_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\msr_200_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\msr_200_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_double_msr200_reload_M4T"
+		},	
+		{
+			"keyvalue" : "msr200_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\msr_200_is_v02_m0_double_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\msr_200_is_v02_m4_double_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},
+		{
+			"keyvalue" : "awp_Transform_lv1_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_awp_reload_M0"
+		},
+		{
+			"keyvalue" : "awp_Transform_lv10_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_awp_reload_M0"
+		},
+		{
+			"keyvalue" : "awp_Transform_lv20_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_awp_reload_M2"
+		},
+		{
+			"keyvalue" : "awp_Transform_lv30_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_awp_reload_M3T"
+		},
+		{
+			"keyvalue" : "awp_Transform_lv40_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_awp_reload_M3T"
+		},
+		{
+			"keyvalue" : "awp_Transform_lv50_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_awp_reload_M3T"
+		},
+		{
+			"keyvalue" : "awp_s_Transform_lv1_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_awp_reload_M0"
+		},
+		{
+			"keyvalue" : "awp_s_Transform_lv10_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_awp_reload_M0"
+		},
+		{
+			"keyvalue" : "awp_s_Transform_lv20_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_awp_reload_M2"
+		},
+		{
+			"keyvalue" : "awp_s_Transform_lv30_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_awp_reload_M3T"
+		},
+		{
+			"keyvalue" : "awp_s_Transform_lv40_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_awp_reload_M3T"
+		},
+		{
+			"keyvalue" : "awp_s_Transform_lv50_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\awp_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\awp_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_awp_reload_M3T"
+		},
+		{
+			"keyvalue" : "peacemaker_Transform_lv1_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_pm_select_M0",
+			"reloadfx_1p" : "My_rumble_pm_reload_M0"
+		},
+		{
+			"keyvalue" : "peacemaker_Transform_lv10_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_pm_select_M0",
+			"reloadfx_1p" : "My_rumble_pm_reload_M0"
+		},
+		{
+			"keyvalue" : "peacemaker_Transform_lv20_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_pm_select_M2",
+			"reloadfx_1p" : "My_rumble_pm_reload_M2"
+		},
+		{
+			"keyvalue" : "peacemaker_Transform_lv30_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_pm_select_M3T",
+			"reloadfx_1p" : "My_rumble_pm_reload_M3T"
+		},
+		{
+			"keyvalue" : "peacemaker_Transform_lv40_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_pm_select_M3T",
+			"reloadfx_1p" : "My_rumble_pm_reload_M3T"
+		},
+		{
+			"keyvalue" : "peacemaker_Transform_lv50_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_pm_reload_M3T"
+		},
+		{
+			"keyvalue" : "peacemaker_s_Transform_lv1_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_s_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_pm_select_M0",
+			"reloadfx_1p" : "My_rumble_pm_reload_M0"
+		},
+		{
+			"keyvalue" : "peacemaker_s_Transform_lv10_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_s_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_pm_select_M0",
+			"reloadfx_1p" : "My_rumble_pm_reload_M0"
+		},
+		{
+			"keyvalue" : "peacemaker_s_Transform_lv20_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_s_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_pm_select_M2",
+			"reloadfx_1p" : "My_rumble_pm_reload_M2"
+		},
+		{
+			"keyvalue" : "peacemaker_s_Transform_lv30_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_s_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_pm_select_M3T",
+			"reloadfx_1p" : "My_rumble_pm_reload_M3T"
+		},
+		{
+			"keyvalue" : "peacemaker_s_Transform_lv40_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_s_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_pm_select_M3T",
+			"reloadfx_1p" : "My_rumble_pm_reload_M3T"
+		},
+		{
+			"keyvalue" : "peacemaker_s_Transform_lv50_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\peacemaker_s_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\peacemaker_s_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_pm_reload_M3T"
+		},	
+		{
+			"keyvalue" : "g600_Transform_lv1_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m0_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_g600_select_M0T",
+			"reloadfx_1p" : "",
+		},		
+		{
+			"keyvalue" : "g600_Transform_lv10_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m1_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_g600_select_M1T",
+			"reloadfx_1p" : ""
+		},		
+		{
+			"keyvalue" : "g600_Transform_lv20_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m2_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_g600_select_M2T",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "g600_Transform_lv30_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_g600_select_M3T",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "g600_Transform_lv40_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_g600_select_M4T",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "g600_Transform_lv50_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""
+		},
+		{
+			"keyvalue" : "ak47_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak47_select_M0",
+			"reloadfx_1p" : "My_rumble_ak47_reload_M0"
+		},
+		{
+			"keyvalue" : "ak47_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak47_select_M0",
+			"reloadfx_1p" : "My_rumble_ak47_reload_M0"
+		},
+		{
+			"keyvalue" : "ak47_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak47_select_M2",
+			"reloadfx_1p" : "My_rumble_ak47_reload_M2"
+		},
+		{
+			"keyvalue" : "ak47_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak47_select_M3T",
+			"reloadfx_1p" : "My_rumble_ak47_reload_M3T"
+		},
+		{
+			"keyvalue" : "ak47_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak47_select_M3T",
+			"reloadfx_1p" : "My_rumble_ak47_reload_M3T"
+		},
+		{
+			"keyvalue" : "ak47_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_ak47_reload_M3T"
+		},
+		{
+			"keyvalue" : "ak47_ik_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak47_select_M0",
+			"reloadfx_1p" : "My_rumble_ak47_reload_M0"
+		},
+		{
+			"keyvalue" : "ak47_ik_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak47_select_M0",
+			"reloadfx_1p" : "My_rumble_ak47_reload_M0"
+		},
+		{
+			"keyvalue" : "ak47_ik_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak47_select_M2",
+			"reloadfx_1p" : "My_rumble_ak47_reload_M2"
+		},
+		{
+			"keyvalue" : "ak47_ik_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak47_select_M3T",
+			"reloadfx_1p" : "My_rumble_ak47_reload_M3T"
+		},
+		{
+			"keyvalue" : "ak47_ik_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak47_select_M3T",
+			"reloadfx_1p" : "My_rumble_ak47_reload_M3T"
+		},
+		{
+			"keyvalue" : "ak47_ik_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak47_ik_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak47_ik_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_ak47_reload_M3T"
+		},
+		{
+			"keyvalue" : "kriss_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\kriss_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\kriss_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_kriss_select_M0",
+			"reloadfx_1p" : "My_rumble_kriss_reload_M0"
+		},
+		{
+			"keyvalue" : "kriss_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\kriss_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\kriss_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_kriss_select_M0",
+			"reloadfx_1p" : "My_rumble_kriss_reload_M0"
+		},
+		{
+			"keyvalue" : "kriss_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\kriss_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\kriss_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_kriss_select_M2",
+			"reloadfx_1p" : "My_rumble_kriss_reload_M2"
+		},
+		{
+			"keyvalue" : "kriss_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\kriss_i_m3_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\kriss_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_kriss_select_M3T",
+			"reloadfx_1p" : "My_rumble_kriss_reload_M3T"
+		},
+		{
+			"keyvalue" : "kriss_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\kriss_i_m3_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\kriss_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_kriss_select_M3T",
+			"reloadfx_1p" : "My_rumble_kriss_reload_M3T"
+		},
+		{
+			"keyvalue" : "kriss_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\kriss_i_m3_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\kriss_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_kriss_reload_M3T"
+		},
+		{
+			"keyvalue" : "kriss_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\kriss_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\kriss_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_kriss_select_M0",
+			"reloadfx_1p" : "My_rumble_kriss_reload_M0"
+		},
+		{
+			"keyvalue" : "kriss_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\kriss_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\kriss_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_kriss_select_M0",
+			"reloadfx_1p" : "My_rumble_kriss_reload_M0"
+		},
+		{
+			"keyvalue" : "kriss_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\kriss_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\kriss_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_kriss_select_M2",
+			"reloadfx_1p" : "My_rumble_kriss_reload_M2"
+		},
+		{
+			"keyvalue" : "kriss_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\kriss_is_m3_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\kriss_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_kriss_select_M3T",
+			"reloadfx_1p" : "My_rumble_kriss_reload_M3T"
+		},
+		{
+			"keyvalue" : "kriss_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\kriss_is_m3_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\kriss_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_kriss_select_M3T",
+			"reloadfx_1p" : "My_rumble_kriss_reload_M3T"
+		},
+		{
+			"keyvalue" : "kriss_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\kriss_is_m3_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\kriss_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_kriss_reload_M3T"
+		},
+		{
+            		"keyvalue" : "timebomb_rumble",
+            		"planted_bomb_fx_name" : "SA_Exp_TimeBomb_rumble_Glow",
+			"defusing_4sec" : "sa_weapons\\snd\\timebomb\\Rumble\\defusing_4sec.wav",
+			"defusing_5sec" : "sa_weapons\\snd\\timebomb\\Rumble\\defusing_5sec.wav",
+			"defusing_7sec" : "sa_weapons\\snd\\timebomb\\Rumble\\defusing_7sec.wav",
+			"beep_snd" : "sa_weapons\\snd\\timebomb\\beep_rumble.wav"
+       		},
+		{
+			"keyvalue" : "winchester_Transform_lv1_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_winchester_reload_M0"
+		},
+		{
+			"keyvalue" : "winchester_Transform_lv10_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_winchester_reload_M0"
+		},
+		{
+			"keyvalue" : "winchester_Transform_lv20_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_winchester_reload_M2"
+		},
+		{
+			"keyvalue" : "winchester_Transform_lv30_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_winchester_reload_M3T"
+		},
+		{
+			"keyvalue" : "winchester_Transform_lv40_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_winchester_reload_M3T"
+		},
+		{
+			"keyvalue" : "winchester_Transform_lv50_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_winchester_reload_M3T"
+		},
+		{
+			"keyvalue" : "winchester_s_Transform_lv1_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_winchester_reload_M0"
+		},
+		{
+			"keyvalue" : "winchester_s_Transform_lv10_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_winchester_reload_M0"
+		},
+		{
+			"keyvalue" : "winchester_s_Transform_lv20_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_winchester_reload_M2"
+		},
+		{
+			"keyvalue" : "winchester_s_Transform_lv30_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_winchester_reload_M3T"
+		},
+		{
+			"keyvalue" : "winchester_s_Transform_lv40_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_winchester_reload_M3T"
+		},
+		{
+			"keyvalue" : "winchester_s_Transform_lv50_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\winchester_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\winchester_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_winchester_reload_M3T"
+		},
+		{
+			"keyvalue" : "sig556_Transform_lv1_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_sig556_select_M0",
+			"reloadfx_1p" : "My_rumble_sig556_reload_M0"
+		},
+		{
+			"keyvalue" : "sig556_Transform_lv10_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_sig556_select_M0",
+			"reloadfx_1p" : "My_rumble_sig556_reload_M0"
+		},
+		{
+			"keyvalue" : "sig556_Transform_lv20_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_sig556_select_M2",
+			"reloadfx_1p" : "My_rumble_sig556_reload_M2"
+		},
+		{
+			"keyvalue" : "sig556_Transform_lv30_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_sig556_select_M3T",
+			"reloadfx_1p" : "My_rumble_sig556_reload_M3T"
+		},
+		{
+			"keyvalue" : "sig556_Transform_lv40_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_sig556_select_M3T",
+			"reloadfx_1p" : "My_rumble_sig556_reload_M3T"
+		},
+		{
+			"keyvalue" : "sig556_Transform_lv50_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_sig556_reload_M3T"
+		},
+		{
+			"keyvalue" : "sig556_s_Transform_lv1_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_sig556_select_M0",
+			"reloadfx_1p" : "My_rumble_sig556_reload_M0"
+		},
+		{
+			"keyvalue" : "sig556_s_Transform_lv10_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_sig556_select_M0",
+			"reloadfx_1p" : "My_rumble_sig556_reload_M0"
+		},
+		{
+			"keyvalue" : "sig556_s_Transform_lv20_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_sig556_select_M2",
+			"reloadfx_1p" : "My_rumble_sig556_reload_M2"
+		},
+		{
+			"keyvalue" : "sig556_s_Transform_lv30_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_sig556_select_M3T",
+			"reloadfx_1p" : "My_rumble_sig556_reload_M3T"
+		},
+		{
+			"keyvalue" : "sig556_s_Transform_lv40_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_sig556_select_M3T",
+			"reloadfx_1p" : "My_rumble_sig556_reload_M3T"
+		},
+		{
+			"keyvalue" : "sig556_s_Transform_lv50_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\sig556_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\sig556_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_sig556_reload_M3T"
+		},
+{
+			"keyvalue" : "gsr_6_Transform_lv1_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_gsr6_reload_M0"
+		},
+		{
+			"keyvalue" : "gsr_6_Transform_lv10_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_gsr6_reload_M0"
+		},
+		{
+			"keyvalue" : "gsr_6_Transform_lv20_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_gsr6_reload_M2"
+		},
+		{
+			"keyvalue" : "gsr_6_Transform_lv30_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_gsr6_reload_M3T"
+		},
+		{
+			"keyvalue" : "gsr_6_Transform_lv40_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_gsr6_reload_M3T"
+		},
+		{
+			"keyvalue" : "gsr_6_Transform_lv50_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_gsr6_reload_M3T"
+		},
+		{
+			"keyvalue" : "gsr_6_s_Transform_lv1_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_gsr6_reload_M0"
+		},
+		{
+			"keyvalue" : "gsr_6_s_Transform_lv10_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_gsr6_reload_M0"
+		},
+		{
+			"keyvalue" : "gsr_6_s_Transform_lv20_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_gsr6_reload_M2"
+		},
+		{
+			"keyvalue" : "gsr_6_s_Transform_lv30_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_gsr6_reload_M3T"
+		},
+		{
+			"keyvalue" : "gsr_6_s_Transform_lv40_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_gsr6_reload_M3T"
+		},
+		{
+			"keyvalue" : "gsr_6_s_Transform_lv50_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\gsr_6_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\gsr_6_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_gsr6_reload_M3T"
+		},
+{
+			"keyvalue" : "na94_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_94_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_94_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na94_select_M0",
+			"reloadfx_1p" : "My_rumble_na94_reload_M0"
+		},
+		{
+			"keyvalue" : "na94_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_94_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_94_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na94_select_M0",
+			"reloadfx_1p" : "My_rumble_na94_reload_M0"
+		},
+		{
+			"keyvalue" : "na94_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_94_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_94_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na94_select_M2",
+			"reloadfx_1p" : "My_rumble_na94_reload_M2"
+		},
+		{
+			"keyvalue" : "na94_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_94_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_94_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na94_select_M3T",
+			"reloadfx_1p" : "My_rumble_na94_reload_M3T"
+		},
+		{
+			"keyvalue" : "na94_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_94_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_94_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na94_select_M3T",
+			"reloadfx_1p" : "My_rumble_na94_reload_M3T"
+		},
+		{
+			"keyvalue" : "na94_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_94_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_94_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_na94_reload_M3T"
+		},
+		{
+			"keyvalue" : "na94_s_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_94_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_94_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na94_select_M0",
+			"reloadfx_1p" : "My_rumble_na94_reload_M0"
+		},
+		{
+			"keyvalue" : "na94_s_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_94_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_94_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na94_select_M0",
+			"reloadfx_1p" : "My_rumble_na94_reload_M0"
+		},
+		{
+			"keyvalue" : "na94_s_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_94_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_94_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na94_select_M2",
+			"reloadfx_1p" : "My_rumble_na94_reload_M2"
+		},
+		{
+			"keyvalue" : "na94_s_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_94_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_94_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na94_select_M3T",
+			"reloadfx_1p" : "My_rumble_na94_reload_M3T"
+		},
+		{
+			"keyvalue" : "na94_s_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_94_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_94_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_na94_select_M3T",
+			"reloadfx_1p" : "My_rumble_na94_reload_M3T"
+		},
+		{
+			"keyvalue" : "na94_s_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\na_94_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\na_94_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_na94_reload_M3T"
+		},
+{
+			"keyvalue" : "Sword_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\Sword_m0_rumble_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\Sword_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_Sword_select_M0T",
+			"reloadfx_1p" : "",
+			"limitfiredelta" : 0.05
+		},
+		{
+			"keyvalue" : "Sword_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\Sword_m0_rumble_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\Sword_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_Sword_select_M1T",
+			"reloadfx_1p" : "",
+			"limitfiredelta" : 0.05
+		},
+		{
+			"keyvalue" : "Sword_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\Sword_m0_rumble_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\Sword_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_Sword_select_M2T",
+			"reloadfx_1p" : "",
+			"limitfiredelta" : 0.05
+		},
+		{
+			"keyvalue" : "Sword_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\Sword_m0_rumble_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\Sword_m3_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_Sword_select_M3T",
+			"reloadfx_1p" : "",
+			"limitfiredelta" : 0.05
+		},
+		{
+			"keyvalue" : "Sword_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\Sword_m0_rumble_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\Sword_m4_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_Sword_select_M4T",
+			"reloadfx_1p" : "",
+			"limitfiredelta" : 0.05
+		},
+		{
+			"keyvalue" : "Sword_Transform_lv50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\Sword_m0_rumble_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\Sword_m4_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "",
+			"limitfiredelta" : 0.05
+		},
+{
+			"keyvalue" : "ak103_Transform_lv1_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_ik_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak103_select_M0",
+			"reloadfx_1p" : "My_rumble_ak103_reload_M0"
+		},
+		{
+			"keyvalue" : "ak103_Transform_lv10_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_ik_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak103_select_M0",
+			"reloadfx_1p" : "My_rumble_ak103_reload_M0"
+		},
+		{
+			"keyvalue" : "ak103_Transform_lv20_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_ik_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak103_select_M2",
+			"reloadfx_1p" : "My_rumble_ak103_reload_M2"
+		},
+		{
+			"keyvalue" : "ak103_Transform_lv30_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_ik_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak103_select_M3T",
+			"reloadfx_1p" : "My_rumble_ak103_reload_M3T"
+		},
+		{
+			"keyvalue" : "ak103_Transform_lv40_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_ik_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak103_select_M3T",
+			"reloadfx_1p" : "My_rumble_ak103_reload_M3T"
+		},
+		{
+			"keyvalue" : "ak103_Transform_lv50_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_ik_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_ak103_reload_M3T"
+		},
+		{
+			"keyvalue" : "ak103_ik_Transform_lv1_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_ik_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_ik_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak103_select_M0",
+			"reloadfx_1p" : "My_rumble_ak103_reload_M0"
+		},
+		{
+			"keyvalue" : "ak103_ik_Transform_lv10_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_ik_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_ik_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak103_select_M0",
+			"reloadfx_1p" : "My_rumble_ak103_reload_M0"
+		},
+		{
+			"keyvalue" : "ak103_ik_Transform_lv20_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_ik_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_ik_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak103_select_M2",
+			"reloadfx_1p" : "My_rumble_ak103_reload_M2"
+		},
+		{
+			"keyvalue" : "ak103_ik_Transform_lv30_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_ik_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_ik_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak103_select_M3T",
+			"reloadfx_1p" : "My_rumble_ak103_reload_M3T"
+		},
+		{
+			"keyvalue" : "ak103_ik_Transform_lv40_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_ik_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_ik_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_ak103_select_M3T",
+			"reloadfx_1p" : "My_rumble_ak103_reload_M3T"
+		},
+		{
+			"keyvalue" : "ak103_ik_Transform_lv50_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ak103_ik_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ak103_ik_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_ak103_reload_M3T"
+		},
+{
+			"keyvalue" : "famas_Transform_lv1_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_famas_select_M0",
+			"reloadfx_1p" : "My_rumble_famas_reload_M0"
+		},
+		{
+			"keyvalue" : "famas_Transform_lv10_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_famas_select_M0",
+			"reloadfx_1p" : "My_rumble_famas_reload_M0"
+		},
+		{
+			"keyvalue" : "famas_Transform_lv20_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_famas_select_M2",
+			"reloadfx_1p" : "My_rumble_famas_reload_M2"
+		},
+		{
+			"keyvalue" : "famas_Transform_lv30_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_famas_select_M3T",
+			"reloadfx_1p" : "My_rumble_famas_reload_M3T"
+		},
+		{
+			"keyvalue" : "famas_Transform_lv40_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_famas_select_M3T",
+			"reloadfx_1p" : "My_rumble_famas_reload_M3T"
+		},
+		{
+			"keyvalue" : "famas_Transform_lv50_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_i_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_famas_reload_M3T"
+		},
+		{
+			"keyvalue" : "famas_s_Transform_lv1_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_famas_select_M0",
+			"reloadfx_1p" : "My_rumble_famas_reload_M0"
+		},
+		{
+			"keyvalue" : "famas_s_Transform_lv10_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_famas_select_M0",
+			"reloadfx_1p" : "My_rumble_famas_reload_M0"
+		},
+		{
+			"keyvalue" : "famas_s_Transform_lv20_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_famas_select_M2",
+			"reloadfx_1p" : "My_rumble_famas_reload_M2"
+		},
+		{
+			"keyvalue" : "famas_s_Transform_lv30_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_famas_select_M3T",
+			"reloadfx_1p" : "My_rumble_famas_reload_M3T"
+		},
+		{
+			"keyvalue" : "famas_s_Transform_lv40_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_famas_select_M3T",
+			"reloadfx_1p" : "My_rumble_famas_reload_M3T"
+		},
+		{
+			"keyvalue" : "famas_s_Transform_lv50_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\famas_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\famas_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_famas_reload_M3T"
+		},
+
+		{
+			"keyvalue": "23SApass3_DE_shield",
+			"maxDurability": 832,
+			"path": "sa_resource\\weapons\\dtx\\",
+			"level": [665, 498, 332, 166, 0],
+			"texture_3p": [
+				"23SApass3_DE_shield_3p_01.DTX",
+				"23SApass3_DE_shield_3p_02.dtx",
+				"23SApass3_DE_shield_3p_03.dtx",
+				"23SApass3_DE_shield_3p_04.dtx",
+				"23SApass3_DE_shield_3p_05.dtx"
+			],
+			"texture_1p": [
+				"riot_shield_01.DTX",
+				"riot_shield_02.dtx",
+				"riot_shield_03.dtx",
+				"riot_shield_04.dtx",
+				"riot_shield_05.dtx"
+			],
+
+			"UseAlpha": 0,
+			"ProjectilePlayerDamageRatio": 0.0,
+			"ProjectileShieldDamageRatio": 1.0,
+			"BombPlayerDamageRatio": 0.7,
+			"BombOtherPlayerDamageRatio": 0.7,
+			"BombShieldDamageRatio": 1.0,
+			"StoppingPowerBase": 0.2,
+			"StoppingPowerAlpha": 0.1,
+			"CHStoppingPowerBase": 0.5,
+			"CHStoppingPowerAlpha": 0.1,
+			
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_BLIND"
+		},
+		{
+			"keyvalue" : "SA_Royal_Pistol",
+			"TAShotsPerClip" : 8,
+			"TAVectorsPerRound"	: 1,
+			"TAFireType" : 1,
+			"TAPVMuzzleFXName" : "My_royal_pistol_PV_Muzz",
+			"TAHHMuzzleFXName" : ["My_royal_pistol_HH_Muzz","My_royal_pistol_HH_Muzz1","My_royal_pistol_HH_Muzz2"],
+			"TAFireRecoilPitch" : 0.6,
+			"TAFireRecoilPitchMax" : 3.0,
+			"TAFireRecoilDecay" : 9.0,
+			"TAFireCamRecoilYaw" : 0.20,
+			"TAFireCamRecoilYawMax" : 0.30,
+			"TAPerturbIncreaseSpeedFire" : 0.50,
+			"TAPerturbDecreaseSpeedFire" : 2.00,
+			"TAMinPerturb" : 2,
+			"TAMaxPerturb" : 20,
+			"TAFireMaxGapOffset" : 30.0,
+			"TAPerturbDuck"	: 0.0,
+			"TAPerturbStandard" : 0.4,
+			"TAPerturbMove": 0.4,
+			"TARange" : 5400,
+			"TABreachOffset" : [0.0, -2.0, 3.0],
+			"TABreachDirMul" : 1.0
+		},
+		{
+			"keyvalue" : "RAPDW_Transform_lv1_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ra_pdw_ex_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ra_pdw_ex_is_m0_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_RAPDW_select_M0",
+			"reloadfx_1p" : "My_rumble_RAPDW_reload_M0"
+		},
+		{
+			"keyvalue" : "RAPDW_Transform_lv10_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ra_pdw_ex_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ra_pdw_ex_is_m1_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_RAPDW_select_M0",
+			"reloadfx_1p" : "My_rumble_RAPDW_reload_M0"
+		},
+		{
+			"keyvalue" : "RAPDW_Transform_lv20_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ra_pdw_ex_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ra_pdw_ex_is_m2_rumble_3p.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_RAPDW_select_M2",
+			"reloadfx_1p" : "My_rumble_RAPDW_reload_M2"
+		},
+		{
+			"keyvalue" : "RAPDW_Transform_lv30_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ra_pdw_ex_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ra_pdw_ex_is_m3_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_RAPDW_select_M3T",
+			"reloadfx_1p" : "My_rumble_RAPDW_reload_M3T"
+		},
+		{
+			"keyvalue" : "RAPDW_Transform_lv40_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ra_pdw_ex_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ra_pdw_ex_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_rumble_RAPDW_select_M3T",
+			"reloadfx_1p" : "My_rumble_RAPDW_reload_M3T"
+		},
+		{
+			"keyvalue" : "RAPDW_Transform_lv50_rumble",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\ra_pdw_ex_is_m0_rumble_3p.ltb",
+			"texture_3p" : [
+					"dtx\\ra_pdw_ex_is_m4_rumble_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_rumble_RAPDW_reload_M3T"
+		},
+		{
+			"keyvalue": "shield_de_nasunuk",
+			"maxDurability": 832,
+			"path": "sa_resource\\weapons\\dtx\\",
+			"level": [665, 498, 332, 166, 0],
+			"texture_3p": [
+				"riot_shield_deagle_NaSunUk_3P_01.dtx",
+				"riot_shield_deagle_NaSunUk_3P_02.dtx",
+				"riot_shield_deagle_NaSunUk_3P_03.dtx",
+				"riot_shield_deagle_NaSunUk_3P_04.dtx",
+				"riot_shield_deagle_NaSunUk_3P_05.dtx"
+			],
+			"texture_1p": [
+				"riot_shield_NaSunUk_01.dtx",
+				"riot_shield_NaSunUk_02.dtx",
+				"riot_shield_NaSunUk_03.dtx",
+				"riot_shield_NaSunUk_04.dtx",
+				"riot_shield_NaSunUk_05.dtx"
+			],
+
+			"UseAlpha": 0,
+			"ProjectilePlayerDamageRatio": 0.0,
+			"ProjectileShieldDamageRatio": 1.0,
+			"BombPlayerDamageRatio": 0.7,
+			"BombOtherPlayerDamageRatio": 0.7,
+			"BombShieldDamageRatio": 1.0,
+			"StoppingPowerBase": 0.2,
+			"StoppingPowerAlpha": 0.1,
+			"CHStoppingPowerBase": 0.5,
+			"CHStoppingPowerAlpha": 0.1,
+			
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_SHIELD_BLIND"
+		},
+		{
+			"keyvalue" : "SA_Royal_SRSG_Pistol",
+			"TAShotsPerClip" : 4,
+			"TAVectorsPerRound"	: 1,
+			"TAFireType" : 1,
+			"TAPVMuzzleFXName" : "My_royal_pistol_PV_Muzz",
+			"TAHHMuzzleFXName" : ["My_royal_pistol_HH_Muzz","My_royal_pistol_HH_Muzz1","My_royal_pistol_HH_Muzz2"],
+			"TAFireRecoilPitch" : 0.6,
+			"TAFireRecoilPitchMax" : 3.0,
+			"TAFireRecoilDecay" : 9.0,
+			"TAFireCamRecoilYaw" : 0.20,
+			"TAFireCamRecoilYawMax" : 0.30,
+			"TAPerturbIncreaseSpeedFire" : 0.50,
+			"TAPerturbDecreaseSpeedFire" : 2.00,
+			"TAMinPerturb" : 2,
+			"TAMaxPerturb" : 20,
+			"TAFireMaxGapOffset" : 30.0,
+			"TAPerturbDuck"	: 0.0,
+			"TAPerturbStandard" : 0.4,
+			"TAPerturbMove": 0.4,
+			"TARange" : 5400,
+			"TABreachOffset" : [0.0, -2.0, 3.0],
+			"TABreachDirMul" : 1.0
+		},
+		{
+            "keyvalue" : "SwordKit_Royal_LV1",
+            "planted_bomb_fx_name" : "SA_Royal_TimeBomb_Glow_Lv.40",
+			"beep_snd" : "sa_weapons\\snd\\timebomb\\Royal\\royal_beep.wav"
+       	},
+		{
+            "keyvalue" : "SwordKit_Royal_LV40",
+            "planted_bomb_fx_name" : "SA_Royal_TimeBomb_Glow_Lv.40",
+			"beep_snd" : "sa_weapons\\snd\\timebomb\\Royal\\royal_beep.wav"
+       	},
+		{
+            "keyvalue" : "bombtechkit_Circle_LV40",
+            "planted_bomb_fx_name" : "SA_Royal_TimeBomb_Glow_Lv.40",
+			"beep_snd" : "sa_weapons\\snd\\timebomb\\circle\\beep.wav"
+       	},
+		{
+            "keyvalue" : "timebomb_marble",
+            "planted_bomb_fx_name" : "SA_Exp_TimeBomb_rumble_Glow",
+       	},	
+		{
+			"keyvalue" : "SA_CUSTOM_FAMAS",
+			"Custom_ReloadRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"Custom_SelectRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"MaxAniCount" : 11
+		},
+		{
+			"keyvalue" : "SA_CUSTOM_SIG556",
+			"Custom_ReloadRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"Custom_SelectRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"MaxAniCount" : 11
+		},
+				{
+			"keyvalue" : "SA_CUSTOM_AK47",
+			"Custom_ReloadRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"Custom_SelectRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"MaxAniCount" : 11
+		},
+				{
+			"keyvalue" : "SA_CUSTOM_TRG21",
+			"Custom_ReloadRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"Custom_SelectRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"MaxAniCount" : 11
+		},
+				{
+			"keyvalue" : "SA_CUSTOM_mak12",
+			"Custom_ReloadRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"Custom_SelectRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"MaxAniCount" : 11
+		},
+				{
+			"keyvalue" : "SA_CUSTOM_NA94",
+			"Custom_ReloadRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"Custom_SelectRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"MaxAniCount" : 11
+		},
+				{	
+			"keyvalue" : "SA_CUSTOM_SG-12",
+			"Custom_ReloadRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"Custom_SelectRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"MaxAniCount" : 11
+		},
+				{	
+			"keyvalue" : "SA_CUSTOM_Winchester",
+			"Custom_ReloadRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"Custom_SelectRate" : [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+			"MaxAniCount" : 11
+		},
+				{
+			"keyvalue" : "SA_CUSTOM_KRISS",
+			"Custom_ReloadRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"Custom_SelectRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"MaxAniCount" : 11
+		},
+				{
+			"keyvalue" : "SA_CUSTOM_AK103",
+			"Custom_ReloadRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"Custom_SelectRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"MaxAniCount" : 11
+		},
+		{
+			"keyvalue" : "SA_CUSTOM_M249",
+			"Custom_ReloadRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"Custom_SelectRate" : [0.0, 0.0, 0.0, 0.0, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.17],
+			"MaxAniCount" : 11
+		},
+		{
+			"keyvalue" : "Peacemaker_Knife",
+			"TARange" : 105,
+			"TABreachOffset" : [0.0, 0.0, 0.0],
+			"TAPerturbStandard" : 0.1,
+			"TAMinPerturb" : 0,
+			"TAMaxPerturb" : 0,
+			"TAFireMaxGapOffset" : 0.0,
+			"TAPerturbIncreaseSpeedFire" : 1.0,
+			"TAPerturbDecreaseSpeedFire" : 1.3,
+			"TAFireRecoilPitch" : 0.0,
+			"TAFireRecoilPitchMax" : 0.0,
+			"TAFireRecoilDecay" : 0.0,
+			"TAFireCamRecoilYaw" : 0.01,
+			"TAFireCamRecoilYawMax" : 30,
+			"TAVectorsPerRound":1,
+			"TAFireType" : 1,
+			"TAShotsPerClip" : 1,
+			"TAPVMuzzleFXName" : "",
+			"TAHHMuzzleFXName" : "",
+		},
+		{
+			"keyvalue" : "ComboDagger",
+			"MaxComboQueueSize" : 2,
+			"ComboCommand": ["NS","SN"],
+			"ComboInstDamage" :[250.0,62.0],
+			"ComboRange" :[110,110],
+			"ComboFireSnd": ["sa_weapons\\snd\\combodagger\\Royal\\cdfire0.wav","sa_weapons\\snd\\combodagger\\Royal\\cdfire1.wav"],
+			"ComboUWFireSnd": ["sa_weapons\\uwsnd\\combodagger\\Royal\\cdfire0.wav","sa_weapons\\uwsnd\\combodagger\\Royal\\cdfire1.wav"],
+			"ComboDuration" : 1.5
+		},
+		{
+			"keyvalue" : "Nova_Sword_Lv30_blue",
+			"3PModel" : "sa_resource\\weapons\\ltb\\ns_available.ltb",
+			"3PModelTexture" : "sa_resource\\weapons\\dtx\\blade_m3_nova_blue_3p.dtx",
+			"3PModelFail" : "sa_resource\\weapons\\ltb\\ns_broken.ltb",
+			"TARange" : 145,
+			"TABreachOffset" : [0.0, 0.0, 0.0],
+			"TAPerturbStandard" : 0.1,
+			"TAMinPerturb" : 0,
+			"TAMaxPerturb" : 0,
+			"TAFireMaxGapOffset" : 0.0,
+			"TAPerturbIncreaseSpeedFire" : 1.0,
+			"TAPerturbDecreaseSpeedFire" : 1.3,
+			"TAFireRecoilPitch" : 0.0,
+			"TAFireRecoilPitchMax" : 0.0,
+			"TAFireRecoilDecay" : 0.0,
+			"TAFireCamRecoilYaw" : 0.01,
+			"TAFireCamRecoilYawMax" : 30,
+			"TAVectorsPerRound":1,
+			"TAFireType" : 1,
+			"TAShotsPerClip" : 1,
+			"TAPVMuzzleFXName" : "",
+			"TAHHMuzzleFXName" : "",
+		},
+		{
+			"keyvalue" : "Nova_Sword_Lv40_blue",
+			"3PModel" : "sa_resource\\weapons\\ltb\\ns_available.ltb",
+			"3PModelTexture" : "sa_resource\\weapons\\dtx\\blade_m4_nova_blue_3p.dtx",
+			"3PModelFail" : "sa_resource\\weapons\\ltb\\ns_broken.ltb",
+			"TARange" : 145,
+			"TABreachOffset" : [0.0, 0.0, 0.0],
+			"TAPerturbStandard" : 0.1,
+			"TAMinPerturb" : 0,
+			"TAMaxPerturb" : 0,
+			"TAFireMaxGapOffset" : 0.0,
+			"TAPerturbIncreaseSpeedFire" : 1.0,
+			"TAPerturbDecreaseSpeedFire" : 1.3,
+			"TAFireRecoilPitch" : 0.0,
+			"TAFireRecoilPitchMax" : 0.0,
+			"TAFireRecoilDecay" : 0.0,
+			"TAFireCamRecoilYaw" : 0.01,
+			"TAFireCamRecoilYawMax" : 30,
+			"TAVectorsPerRound":1,
+			"TAFireType" : 1,
+			"TAShotsPerClip" : 1,
+			"TAPVMuzzleFXName" : "",
+			"TAHHMuzzleFXName" : "",
+		},
+		{
+			"keyvalue" : "Nova_Sword_Lv1",
+			"3PModel" : "sa_resource\\weapons\\ltb\\ns_available.ltb",
+			"3PModelTexture" : "sa_resource\\weapons\\dtx\\blade_m0_nova_3p.dtx",
+			"3PModelFail" : "sa_resource\\weapons\\ltb\\ns_broken.ltb",
+			"TARange" : 145,
+			"TABreachOffset" : [0.0, 0.0, 0.0],
+			"TAPerturbStandard" : 0.1,
+			"TAMinPerturb" : 0,
+			"TAMaxPerturb" : 0,
+			"TAFireMaxGapOffset" : 0.0,
+			"TAPerturbIncreaseSpeedFire" : 1.0,
+			"TAPerturbDecreaseSpeedFire" : 1.3,
+			"TAFireRecoilPitch" : 0.0,
+			"TAFireRecoilPitchMax" : 0.0,
+			"TAFireRecoilDecay" : 0.0,
+			"TAFireCamRecoilYaw" : 0.01,
+			"TAFireCamRecoilYawMax" : 30,
+			"TAVectorsPerRound":1,
+			"TAFireType" : 1,
+			"TAShotsPerClip" : 1,
+			"TAPVMuzzleFXName" : "",
+			"TAHHMuzzleFXName" : "",
+		},
+		{
+			"keyvalue" : "Nova_Sword_Lv10",
+			"3PModel" : "sa_resource\\weapons\\ltb\\ns_available.ltb",
+			"3PModelTexture" : "sa_resource\\weapons\\dtx\\blade_m1_nova_3p.dtx",
+			"3PModelFail" : "sa_resource\\weapons\\ltb\\ns_broken.ltb",
+			"TARange" : 145,
+			"TABreachOffset" : [0.0, 0.0, 0.0],
+			"TAPerturbStandard" : 0.1,
+			"TAMinPerturb" : 0,
+			"TAMaxPerturb" : 0,
+			"TAFireMaxGapOffset" : 0.0,
+			"TAPerturbIncreaseSpeedFire" : 1.0,
+			"TAPerturbDecreaseSpeedFire" : 1.3,
+			"TAFireRecoilPitch" : 0.0,
+			"TAFireRecoilPitchMax" : 0.0,
+			"TAFireRecoilDecay" : 0.0,
+			"TAFireCamRecoilYaw" : 0.01,
+			"TAFireCamRecoilYawMax" : 30,
+			"TAVectorsPerRound":1,
+			"TAFireType" : 1,
+			"TAShotsPerClip" : 1,
+			"TAPVMuzzleFXName" : "",
+			"TAHHMuzzleFXName" : "",
+		},
+		{
+			"keyvalue" : "Nova_Sword_Lv20",
+			"3PModel" : "sa_resource\\weapons\\ltb\\ns_available.ltb",
+			"3PModelTexture" : "sa_resource\\weapons\\dtx\\blade_m2_nova_3p.dtx",
+			"3PModelFail" : "sa_resource\\weapons\\ltb\\ns_broken.ltb",
+			"TARange" : 145,
+			"TABreachOffset" : [0.0, 0.0, 0.0],
+			"TAPerturbStandard" : 0.1,
+			"TAMinPerturb" : 0,
+			"TAMaxPerturb" : 0,
+			"TAFireMaxGapOffset" : 0.0,
+			"TAPerturbIncreaseSpeedFire" : 1.0,
+			"TAPerturbDecreaseSpeedFire" : 1.3,
+			"TAFireRecoilPitch" : 0.0,
+			"TAFireRecoilPitchMax" : 0.0,
+			"TAFireRecoilDecay" : 0.0,
+			"TAFireCamRecoilYaw" : 0.01,
+			"TAFireCamRecoilYawMax" : 30,
+			"TAVectorsPerRound":1,
+			"TAFireType" : 1,
+			"TAShotsPerClip" : 1,
+			"TAPVMuzzleFXName" : "",
+			"TAHHMuzzleFXName" : "",
+		},
+		{
+			"keyvalue" : "Nova_Sword_Lv30",
+			"3PModel" : "sa_resource\\weapons\\ltb\\ns_available.ltb",
+			"3PModelTexture" : "sa_resource\\weapons\\dtx\\blade_m3_nova_3p.dtx",
+			"3PModelFail" : "sa_resource\\weapons\\ltb\\ns_broken.ltb",
+			"TARange" : 145,
+			"TABreachOffset" : [0.0, 0.0, 0.0],
+			"TAPerturbStandard" : 0.1,
+			"TAMinPerturb" : 0,
+			"TAMaxPerturb" : 0,
+			"TAFireMaxGapOffset" : 0.0,
+			"TAPerturbIncreaseSpeedFire" : 1.0,
+			"TAPerturbDecreaseSpeedFire" : 1.3,
+			"TAFireRecoilPitch" : 0.0,
+			"TAFireRecoilPitchMax" : 0.0,
+			"TAFireRecoilDecay" : 0.0,
+			"TAFireCamRecoilYaw" : 0.01,
+			"TAFireCamRecoilYawMax" : 30,
+			"TAVectorsPerRound":1,
+			"TAFireType" : 1,
+			"TAShotsPerClip" : 1,
+			"TAPVMuzzleFXName" : "",
+			"TAHHMuzzleFXName" : "",
+		},
+		{
+			"keyvalue" : "Nova_Sword_Lv40",
+			"3PModel" : "sa_resource\\weapons\\ltb\\ns_available.ltb",
+			"3PModelTexture" : "sa_resource\\weapons\\dtx\\blade_m4_nova_3p.dtx",
+			"3PModelFail" : "sa_resource\\weapons\\ltb\\ns_broken.ltb",
+			"TARange" : 145,
+			"TABreachOffset" : [0.0, 0.0, 0.0],
+			"TAPerturbStandard" : 0.0,
+			"TAMinPerturb" : 0,
+			"TAMaxPerturb" : 0,
+			"TAFireMaxGapOffset" : 0.0,
+			"TAPerturbIncreaseSpeedFire" : 1.0,
+			"TAPerturbDecreaseSpeedFire" : 1.3,
+			"TAFireRecoilPitch" : 0.0,
+			"TAFireRecoilPitchMax" : 0.0,
+			"TAFireRecoilDecay" : 0.0,
+			"TAFireCamRecoilYaw" : 0.01,
+			"TAFireCamRecoilYawMax" : 30,
+			"TAVectorsPerRound":1,
+			"TAFireType" : 1,
+			"TAShotsPerClip" : 1,
+			"TAPVMuzzleFXName" : "",
+			"TAHHMuzzleFXName" : "",
+		},
+		{
+			"keyvalue" : "KillFX_Noble",
+			"KillFXMain" : [["KillFXMain_Noble","FX_BODY"]],
+			"KillFXSub" : [["KillFXSub_Noble","FX_BODY"],["KillFXSub_Noble01","FX_L_LEG"],["KillFXSub_Noble01","FX_R_LEG"],["KillFXSub_Noble01","FX_HEAD"],["KillFXSub_Noble01","FX_L_HAND"],["KillFXSub_Noble01","FX_R_HAND"]],
+			"KillFXCreateTime" : 2.0,
+			"KillFXVictimBodyLifeTime" : -3.8,
+			"KillFXVictimCameraFixTime" : 4.0,
+			"KillFXVictimCameraFallBackDist" : 400.0,
+			"KillFXVictimCameraFallBackVel" : 200.0,
+
+			"KillFXKillLogType" : 1,
+			"KillFXKillLogTime" : 0.5,
+
+			"KillFXKillMSGKilledBack" : "SA_Interface2\\menu\\weapongrade\\killMessage_Noble_deathby.dtx",
+			"KillFXKillMSGBack" : "SA_Interface2\\menu\\weapongrade\\killmessage_Noble_highest.dtx",
+			"KillFXKillMSGType" : 1,
+			"KillFXKillMSGTime" : 0.5,
+		},
+		{
+			"keyvalue" : "g600_Transform_lv1_nova",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\G600_m0_nova_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\G600_m0_nova_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_nova_g600_select_M0T",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : ""
+		},		
+		{
+			"keyvalue" : "g600_Transform_lv10_nova",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\G600_m0_nova_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\G600_m0_nova_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_nova_g600_select_M0T",
+			"reloadfx_1p" : ""
+		},		
+		{
+			"keyvalue" : "g600_Transform_lv20_nova",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\G600_m0_nova_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\G600_m0_nova_3p_tf.dtx"			
+				],
+			"selectfx_1p" : "My_nova_g600_select_M0T",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "g600_Transform_lv30_nova",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\G600_m0_nova_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\G600_m0_nova_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_nova_g600_select_M0T",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "g600_Transform_lv40_nova",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\G600_m0_nova_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\G600_m0_nova_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "My_nova_g600_select_M0T",
+			"reloadfx_1p" : ""
+		},	
+		{
+			"keyvalue" : "g600_Transform_lv50_nova",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\G600_m0_nova_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\G600_m0_nova_3p_tf.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : ""		
+		},
+		{
+            "keyvalue" : "Xeno_Bomb_LV1",
+            "planted_bomb_fx_name" : "SA_Xeno_TimeBomb_Glow_Lv.1",
+			"beep_snd" : "sa_weapons\\snd\\timebomb\\xeno\\xeno_beep.wav"	
+		},
+		{
+			"keyvalue" : "g350_Transform_lv1_xeno",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\G350_m0_xeno_3p.ltb",
+			"texture_3p" : [
+					"dtx\\G350_m0_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Xeno_G350_selectDyna_M0",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "My_Xeno_G350_idle_M0"
+		},		
+		{
+			"keyvalue" : "g350_Transform_lv10_xeno",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\G350_m0_xeno_3p.ltb",
+			"texture_3p" : [
+					"dtx\\G350_m1_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Xeno_G350_selectDyna_M0",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "My_Xeno_G350_idle_M0"
+		},		
+		{
+			"keyvalue" : "g350_Transform_lv20_xeno",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\G350_m0_xeno_3p.ltb",
+			"texture_3p" : [
+					"dtx\\G350_m2_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Xeno_G350_selectDyna_M2",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "My_Xeno_G350_idle_M2"
+		},	
+		{
+			"keyvalue" : "g350_Transform_lv30_xeno",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\G350_m0_xeno_3p.ltb",
+			"texture_3p" : [
+					"dtx\\G350_m3_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Xeno_G350_selectDyna_M2",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "My_Xeno_G350_idle_M2"
+		},	
+		{
+			"keyvalue" : "g350_Transform_lv40_xeno",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\G350_m0_xeno_3p.ltb",
+			"texture_3p" : [
+					"dtx\\G350_m4_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Xeno_G350_selectDyna_M4",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "My_Xeno_G350_idle_M4"
+		},	
+		{
+			"keyvalue" : "g350_Transform_lv50_xeno",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\G350_m0_xeno_3p.ltb",
+			"texture_3p" : [
+					"dtx\\G350_m4_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Xeno_G350_selectDyna_M4",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "My_Xeno_G350_idle_M4"	
+		},
+		{
+			"keyvalue" : "Knife_Transform_lv1",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\Knife_m0_xeno_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\Knife_m0_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "",
+			"limitfiredelta" : 0.05
+		},
+		{
+			"keyvalue" : "Knife_Transform_lv10",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\Knife_m0_xeno_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\Knife_m1_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "",
+			"limitfiredelta" : 0.05
+		},
+		{
+			"keyvalue" : "Knife_Transform_lv20",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\Knife_m0_xeno_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\Knife_m2_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "",
+			"limitfiredelta" : 0.05
+		},
+		{
+			"keyvalue" : "Knife_Transform_lv30",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\Knife_m0_xeno_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\Knife_m3_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "",
+			"limitfiredelta" : 0.05
+		},
+		{
+			"keyvalue" : "Knife_Transform_lv40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\Knife_m0_xeno_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\Knife_m4_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "",
+			"limitfiredelta" : 0.05
+		},
+		{
+			"keyvalue" : "KillFX_SET_Noble",
+			"KillFXMain" : [["KillFXMain_Noble","FX_BODY"]],
+			"KillFXSub" : [["KillFXSub_Noble","FX_BODY"],["KillFXSub_Noble01","FX_L_LEG"],["KillFXSub_Noble01","FX_R_LEG"],["KillFXSub_Noble01","FX_HEAD"],["KillFXSub_Noble01","FX_L_HAND"],["KillFXSub_Noble01","FX_R_HAND"]],
+			"KillFXCreateTime" : 2.0,
+			"KillFXVictimBodyLifeTime" : -3.8,
+			"KillFXVictimCameraFixTime" : 4.0,
+			"KillFXVictimCameraFallBackDist" : 400.0,
+			"KillFXVictimCameraFallBackVel" : 200.0,
+
+			"KillFXKillLogType" : 1,
+			"KillFXKillLogTime" : 0.5,
+		},
+		{
+			"keyvalue" : "XM68_Transform_Lv1_Xeno",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\xm68_is_m0_xeno_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\XM68_m0_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Xeno_XM68_select_M0",
+			"reloadfx_1p" : "My_Xeno_XM68_reload_M0"
+		},
+		{
+			"keyvalue" : "XM68_Transform_Lv10_Xeno",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\xm68_is_m0_xeno_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\XM68_m1_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Xeno_XM68_select_M0",
+			"reloadfx_1p" : "My_Xeno_XM68_reload_M0"
+		},
+		{
+			"keyvalue" : "XM68_Transform_Lv20_Xeno",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\xm68_is_m0_xeno_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\XM68_m2_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Xeno_XM68_select_M2",
+			"reloadfx_1p" : "My_Xeno_XM68_reload_M2"
+		},
+		{
+			"keyvalue" : "XM68_Transform_Lv30_Xeno",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\xm68_is_m0_xeno_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\XM68_m3_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Xeno_XM68_select_M2",
+			"reloadfx_1p" : "My_Xeno_XM68_reload_M2"
+		},
+		{
+			"keyvalue" : "XM68_Transform_Lv40_Xeno",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\xm68_is_m0_xeno_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\XM68_m4_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Xeno_XM68_select_M4",
+			"reloadfx_1p" : "My_Xeno_XM68_reload_M4"
+		},
+		{
+			"keyvalue" : "XM68_Transform_Lv50_Xeno",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\xm68_is_m0_xeno_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\XM68_m4_xeno_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "My_Xeno_XM68_reload_M4"
+		},		
+		{
+			"keyvalue" : "Hunt_Throwknife_Lv.40",
+			"path" : "sa_resource\\weapons\\",
+			"TAFireType" : 2,			
+			"TARange" : 100000,
+			"TABreachOffset" : [0.0, 0.0, 0.0],
+			"TAPerturbStandard" : 0.0,
+			"TAMinPerturb" : 0,
+			"TAMaxPerturb" : 0,
+			"TAFireMaxGapOffset" : 0.0,
+			"TAPerturbIncreaseSpeedFire" : 0.0,
+			"TAPerturbDecreaseSpeedFire" : 1.0,
+			"TAFireRecoilPitch" : 0.0,
+			"TAFireRecoilPitchMax" : 4.0,
+			"TAFireRecoilDecay" : 0.0,
+			"TAFireCamRecoilYaw" : 0.0,
+			"TAFireCamRecoilYawMax" : 35,
+			"TAVectorsPerRound":1,
+			"TAShotsPerClip" : 1,
+			"TAPVMuzzleFXName" : "",
+			"TAHHMuzzleFXName" : ""		
+		},
+		{
+			"keyvalue" : "Hunt_pistol_ThrowKnife_Ammo",
+			"path" : "sa_resource\\weapons\\",
+			"TAFireType" : 2,			
+			"TARange" : 100000,
+			"TABreachOffset" : [0.0, 0.0, 0.0],
+			"TAPerturbStandard" : 0.0,
+			"TAMinPerturb" : 0,
+			"TAMaxPerturb" : 0,
+			"TAFireMaxGapOffset" : 0.0,
+			"TAPerturbIncreaseSpeedFire" : 0.0,
+			"TAPerturbDecreaseSpeedFire" : 1.0,
+			"TAFireRecoilPitch" : 0.0,
+			"TAFireRecoilPitchMax" : 4.0,
+			"TAFireRecoilDecay" : 0.0,
+			"TAFireCamRecoilYaw" : 0.0,
+			"TAFireCamRecoilYawMax" : 35,
+			"TAVectorsPerRound":1,
+			"TAShotsPerClip" : 1,
+			"TAPVMuzzleFXName" : "",
+			"TAHHMuzzleFXName" : ""		
+		},
+		{
+			"keyvalue" : "g600_Transform_lv1_Hunt",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_hunt_tf_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m0_hunt_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Hunt_G600_select_M0",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "",
+			"TransAniType" : 35,
+			"TransAniPlayerWpnType" : 42,
+			"TransFireType" : 2
+		},
+		{
+			"keyvalue" : "g600_Transform_lv10_Hunt",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_hunt_tf_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m1_hunt_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Hunt_G600_select_M0",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "",
+			"TransAniType" : 35,
+			"TransAniPlayerWpnType" : 42,
+			"TransFireType" : 2
+		},	
+		{
+			"keyvalue" : "g600_Transform_lv20_Hunt",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_hunt_tf_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m2_hunt_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Hunt_G600_select_M0",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "",
+			"TransAniType" : 35,
+			"TransAniPlayerWpnType" : 42,
+			"TransFireType" : 2
+		},
+		{
+			"keyvalue" : "g600_Transform_lv30_Hunt",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_hunt_tf_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m3_hunt_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Hunt_G600_select_M0",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "",
+			"TransAniType" : 35,
+			"TransAniPlayerWpnType" : 42,
+			"TransFireType" : 2
+		},
+		{
+			"keyvalue" : "g600_Transform_lv40_Hunt",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_hunt_tf_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m4_hunt_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Hunt_G600_select_M4",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "",
+			"TransAniType" : 35,
+			"TransAniPlayerWpnType" : 42,
+			"TransFireType" : 2
+		},
+		{
+			"keyvalue" : "g600_Transform_lv50_Hunt",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_hunt_tf_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m4_hunt_3p.dtx"					
+				],
+			"selectfx_1p" : "",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "",
+			"TransAniType" : 35,
+			"TransAniPlayerWpnType" : 42,
+			"TransFireType" : 2
+		},
+		{
+			"keyvalue" : "dual_mp7_option",
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_DUALMP7_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_DUALMP7_BLIND"
+		},
+		{
+			"keyvalue" : "m4a1_sg_option",
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_M4A1SG_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_M4A1SG_BLIND"
+		},
+		{
+			"keyvalue" : "mak11_option",
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_MAK11_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_MAK11_BLIND"
+		},
+		{
+			"keyvalue" : "tas_option",
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_TAS_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_TAS_BLIND"
+		},
+		{
+			"keyvalue" : "ComboKnifeHunt",
+			"MaxComboQueueSize" : 2,
+			"ComboCommand": ["NS","SN"],
+			"ComboInstDamage" :[210.0,60.0],
+			"ComboRange" :[120,120],
+			"ComboFireSnd": ["sa_weapons\\snd\\ComboKnife\\Hunt\\cdfire0.wav","sa_weapons\\snd\\ComboKnife\\Hunt\\cdfire1.wav"],
+			"ComboUWFireSnd": ["sa_weapons\\uwsnd\\ComboKnife\\Hunt\\cdfire0.wav","sa_weapons\\uwsnd\\ComboKnife\\Hunt\\cdfire1.wav"],
+			"ComboDuration" : 1.5
+		},	
+		{
+            "keyvalue" : "Hunt_Bomb_LV1",
+            "planted_bomb_fx_name" : "SA_Hunt_TimeBomb_Glow_M0",
+			"beep_snd" : "sa_weapons\\snd\\timebomb\\hunt\\hunt_beep.wav"	
+		},
+		{
+            "keyvalue" : "Hunt_Bomb_LV40",
+            "planted_bomb_fx_name" : "SA_Hunt_TimeBomb_Glow_M4",
+			"beep_snd" : "sa_weapons\\snd\\timebomb\\hunt\\hunt_beep.wav"	
+		},
+		{
+            "keyvalue" : "CircleReload_ANR_LV40",
+            "ammoLimit" : 15
+		},
+		{
+            "keyvalue" : "CircleReload_P90_v2_LV40",
+            "ammoLimit" : 25
+		},
+		{
+			"keyvalue" : "g600_Transform_lv30_Circle",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_circle_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m3_circle_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Circle_G600T_select_M4",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : ""
+		},
+		{
+			"keyvalue" : "g600_Transform_lv40_Circle",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_circle_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m4_circle_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Circle_G600T_select_M4",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : ""
+		},
+		{
+			"keyvalue" : "g600_Transform_lv30_Circle_Black",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_circle_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m3_bl_circle_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Circle_G600T_select_M4",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : ""
+		},
+		{
+			"keyvalue" : "g600_Transform_lv40_Circle_Black",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_circle_3p_tf.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m4_bl_circle_3p.dtx"					
+				],
+			"selectfx_1p" : "My_Circle_G600T_select_M4",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : ""
+		},
+		{
+            "keyvalue" : "CircleReload_Mpx3_LV40",
+            "ammoLimit" : 15
+		},
+		{
+            "keyvalue" : "CircleReload_AK47_LV40",
+            "ammoLimit" : 15
+		},
+		{
+            "keyvalue" : "CircleReload_AWP_LV40",
+            "ammoLimit" : 3
+		},
+		{
+            "keyvalue" : "CircleReload_MP7_LV40",
+            "ammoLimit" : 15
+		},
+		{
+			"keyvalue" : "KillFX_Marble",
+			"KillFXMain" : [["KillFXMain_Marble","FX_BODY"]],
+			"KillFXSub" : [["KillFXSub_Marble","FX_BODY"],["KillFXSub_Marble","FX_L_LEG"],["KillFXSub_Marble","FX_R_LEG"],["KillFXSub_Marble","FX_HEAD"],["KillFXSub_Marble","FX_L_HAND"],["KillFXSub_Marble","FX_R_HAND"]],
+			"KillFXCreateTime" : 2.0,
+			"KillFXVictimBodyLifeTime" : -3.8,
+			"KillFXVictimCameraFixTime" : 4.0,
+			"KillFXVictimCameraFallBackDist" : 400.0,
+			"KillFXVictimCameraFallBackVel" : 200.0,
+
+			"KillFXKillLogType" : 1,
+			"KillFXKillLogTime" : 0.5,
+
+			"KillFXKillMSGKilledBack" : "SA_Interface2\\menu\\weapongrade\\killMessage_Marble_deathby.dtx",
+			"KillFXKillMSGBack" : "SA_Interface2\\menu\\weapongrade\\killmessage_Marble_highest.dtx",
+			"KillFXKillMSGType" : 1,
+			"KillFXKillMSGTime" : 0.5,
+		},		
+		{
+            "keyvalue" : "CircleReload_VS9_LV40",
+            "ammoLimit" : 6
+		},
+		{
+            "keyvalue" : "CircleReload_XM68_LV40",
+            "ammoLimit" : 10
+		},
+		{
+            "keyvalue" : "CircleReload_SCAR_LV40",
+            "ammoLimit" : 15
+		},
+		{
+            "keyvalue" : "CircleReload_AWX_LV40",
+            "ammoLimit" : 4
+		},
+		{
+            "keyvalue" : "ScouterInfo",
+            "scouter1" : [182,185,1034,191,3101],
+			"scouter2" : [1497,3275],
+			"scouter4" : [4650],
+			"scouter5" : [8285,8286,8287,8288,8289,8290]
+		},	
+		{
+            "keyvalue" : "8285",
+            "TextureName" : "sa_interface2/hud/Scouter/title04.dtx",
+            "ARGB" : [0,202,193,15]
+		},
+		{
+            "keyvalue" : "8286",
+            "TextureName" : "sa_interface2/hud/Scouter/title04.dtx",
+            "ARGB" : [0,202,193,15]
+		},
+		{
+            "keyvalue" : "8287",
+            "TextureName" : "sa_interface2/hud/Scouter/title04.dtx",
+            "ARGB" : [0,202,193,15]
+		},
+		{
+            "keyvalue" : "8288",
+            "TextureName" : "sa_interface2/hud/Scouter/title04.dtx",
+            "ARGB" : [0,202,193,15]
+		},
+		{
+            "keyvalue" : "8289",
+            "TextureName" : "sa_interface2/hud/Scouter/title04.dtx",
+            "ARGB" : [0,202,193,15]
+		},
+		{
+            "keyvalue" : "8290",
+            "TextureName" : "sa_interface2/hud/Scouter/title04.dtx",
+            "ARGB" : [0,202,193,15]
+		},
+		{
+			"keyvalue" : "GAL_IS_EVO_LV40",
+			"Evo_WeaponIndex" : [8405, 8406, 8407],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_GAL_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_GAL_ReloadevoFX_E_M4", "My_EVO_GAL_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_GAL_SuccessFX_E1_M4", "My_EVO_GAL_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "GAL_IS_EVO_LV50",
+			"Evo_WeaponIndex" : [8408, 8409, 8410],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_GAL_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_GAL_ReloadevoFX_E_M4", "My_EVO_GAL_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_GAL_SuccessFX_E1_M4", "My_EVO_GAL_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "GAL_IK_EVO_LV40",
+			"Evo_WeaponIndex" : [8415, 8416, 8417],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_GAL_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_GAL_ReloadevoFX_E_M4", "My_EVO_GAL_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_GAL_SuccessFX_E1_M4", "My_EVO_GAL_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "GAL_IK_EVO_LV50",
+			"Evo_WeaponIndex" : [8418, 8419, 8420],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_GAL_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_GAL_ReloadevoFX_E_M4", "My_EVO_GAL_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_GAL_SuccessFX_E1_M4", "My_EVO_GAL_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "AWP_I_EVO_LV40",
+			"Evo_WeaponIndex" : [8425, 8426, 8427],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_AWP_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_AWP_ReloadevoFX_E_M4", "My_EVO_AWP_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_AWP_SuccessFX_E1_M4", "My_EVO_AWP_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "AWP_I_EVO_LV50",
+			"Evo_WeaponIndex" : [8428, 8429, 8430],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_AWP_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_AWP_ReloadevoFX_E_M4", "My_EVO_AWP_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_AWP_SuccessFX_E1_M4", "My_EVO_AWP_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "AWP_IS_EVO_LV40",
+			"Evo_WeaponIndex" : [8435, 8436, 8437],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_AWP_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_AWP_ReloadevoFX_E_M4", "My_EVO_AWP_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_AWP_SuccessFX_E1_M4", "My_EVO_AWP_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "AWP_IS_EVO_LV50",
+			"Evo_WeaponIndex" : [8438, 8439, 8440],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_AWP_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_AWP_ReloadevoFX_E_M4", "My_EVO_AWP_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_AWP_SuccessFX_E1_M4", "My_EVO_AWP_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "KillFX_SET_Marble",
+			"KillFXMain" : [["KillFXMain_Marble","FX_BODY"]],
+			"KillFXSub" : [["KillFXSub_Marble","FX_BODY"],["KillFXSub_Marble","FX_L_LEG"],["KillFXSub_Marble","FX_R_LEG"],["KillFXSub_Marble","FX_HEAD"],["KillFXSub_Marble","FX_L_HAND"],["KillFXSub_Marble","FX_R_HAND"]],
+			"KillFXCreateTime" : 2.0,
+			"KillFXVictimBodyLifeTime" : -3.8,
+			"KillFXVictimCameraFixTime" : 4.0,
+			"KillFXVictimCameraFallBackDist" : 400.0,
+			"KillFXVictimCameraFallBackVel" : 200.0,
+
+			"KillFXKillLogType" : 1,
+			"KillFXKillLogTime" : 0.5,
+		},
+		{
+			"keyvalue" : "AK47_IK_EVO_LV40",
+			"Evo_WeaponIndex" : [8519, 8520, 8521],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_AK47_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_AK47_ReloadevoFX_E_M4", "My_EVO_AK47_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_AK47_SuccessFX_E1_M4", "My_EVO_AK47_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "AK47_IK_EVO_LV50",
+			"Evo_WeaponIndex" : [8522, 8523, 8524],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_AK47_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_AK47_ReloadevoFX_E_M4", "My_EVO_AK47_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_AK47_SuccessFX_E1_M4", "My_EVO_AK47_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "AK47_ISK_EVO_LV40",
+			"Evo_WeaponIndex" : [8529, 8530, 8531],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_AK47_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_AK47_ReloadevoFX_E_M4", "My_EVO_AK47_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_AK47_SuccessFX_E1_M4", "My_EVO_AK47_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "AK47_ISK_EVO_LV50",
+			"Evo_WeaponIndex" : [8532, 8533, 8534],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_AK47_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_AK47_ReloadevoFX_E_M4", "My_EVO_AK47_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_AK47_SuccessFX_E1_M4", "My_EVO_AK47_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "TAC9_EVO_LV40",
+			"Evo_WeaponIndex" : [8539, 8540, 8541],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_TAC9_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_TAC9_ReloadevoFX_E_M4", "My_EVO_TAC9_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_TAC9_SuccessFX_E1_M4", "My_EVO_TAC9_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "TAC9_EVO_LV50",
+			"Evo_WeaponIndex" : [8542, 8543, 8544],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_TAC9_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_TAC9_ReloadevoFX_E_M4", "My_EVO_TAC9_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_TAC9_SuccessFX_E1_M4", "My_EVO_TAC9_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "TAC9_S_EVO_LV40",
+			"Evo_WeaponIndex" : [8549, 8550, 8551],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_TAC9_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_TAC9_ReloadevoFX_E_M4", "My_EVO_TAC9_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_TAC9_SuccessFX_E1_M4", "My_EVO_TAC9_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "TAC9_S_EVO_LV50",
+			"Evo_WeaponIndex" : [8552, 8553, 8554],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_TAC9_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_TAC9_ReloadevoFX_E_M4", "My_EVO_TAC9_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_TAC9_SuccessFX_E1_M4", "My_EVO_TAC9_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "Blade_EVO_LVALL",
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav"
+		},
+		{
+			"keyvalue" : "g350_persona_additional",
+			"IgnoreHandAlpha" : 1 // 손에 알파 값을 먹이지 않도록 처리
+		},
+		{
+			"keyvalue" : "SPECTER_I_EVO_LV40",
+			"Evo_WeaponIndex" : [8682, 8683, 8684],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_SPTR_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_SPTR_ReloadevoFX_E_M4", "My_EVO_SPTR_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_SPTR_SuccessFX_E1_M4", "My_EVO_SPTR_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "SPECTER_I_EVO_LV50",
+			"Evo_WeaponIndex" : [8685, 8686, 8687],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_SPTR_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_SPTR_ReloadevoFX_E_M4", "My_EVO_SPTR_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_SPTR_SuccessFX_E1_M4", "My_EVO_SPTR_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "SPECTER_IS_EVO_LV40",
+			"Evo_WeaponIndex" : [8692, 8693, 8694],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_SPTR_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_SPTR_ReloadevoFX_E_M4", "My_EVO_SPTR_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_SPTR_SuccessFX_E1_M4", "My_EVO_SPTR_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "SPECTER_IS_EVO_LV50",
+			"Evo_WeaponIndex" : [8695, 8696, 8697],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_SPTR_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_SPTR_ReloadevoFX_E_M4", "My_EVO_SPTR_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_SPTR_SuccessFX_E1_M4", "My_EVO_SPTR_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "VS9_EVO_LV40",
+			"Evo_WeaponIndex" : [8702, 8703, 8704],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_VS9_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_VS9_ReloadevoFX_E_M4", "My_EVO_VS9_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_VS9_SuccessFX_E1_M4", "My_EVO_VS9_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "VS9_EVO_LV50",
+			"Evo_WeaponIndex" : [8705, 8706, 8707],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_VS9_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_VS9_ReloadevoFX_E_M4", "My_EVO_VS9_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_VS9_SuccessFX_E1_M4", "My_EVO_VS9_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "VS9_S_EVO_LV40",
+			"Evo_WeaponIndex" : [8712, 8713, 8714],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_VS9_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_VS9_ReloadevoFX_E_M4", "My_EVO_VS9_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_VS9_SuccessFX_E1_M4", "My_EVO_VS9_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "VS9_S_EVO_LV50",
+			"Evo_WeaponIndex" : [8715, 8716, 8717],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_VS9_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_VS9_ReloadevoFX_E_M4", "My_EVO_VS9_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_VS9_SuccessFX_E1_M4", "My_EVO_VS9_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "G600_EVO_0_LV40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_evo_3p.ltb",
+			"texture_3p" : ["dtx\\g600_m4_evo_3p.dtx"],
+			"selectfx_1p" : "My_EVO_G600_subselect_M4",
+			"reloadfx_1p" : "",
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav"
+		},
+		{
+			"keyvalue" : "G600_EVO_1_LV40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_evo_3p.ltb",
+			"texture_3p" : ["dtx\\g600_m4_evo1_3p.dtx"],
+			"selectfx_1p" : "My_EVO_G600_subselect_M4",
+			"reloadfx_1p" : "",
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav"
+		},	
+		{
+			"keyvalue" : "G600_EVO_2_LV40",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_evo_3p.ltb",
+			"texture_3p" : ["dtx\\g600_m4_evo2_3p.dtx"],
+			"selectfx_1p" : "My_EVO_G600_subselect_E2_M4",
+			"reloadfx_1p" : "",
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav"
+		},	
+		{
+			"keyvalue" : "G600_EVO_0_LV50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_evo_3p.ltb",
+			"texture_3p" : ["dtx\\g600_m4_evo_3p.dtx"],
+			"selectfx_1p" : "My_EVO_G600_subselect_M4",
+			"reloadfx_1p" : "",
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav"
+		},
+		{
+			"keyvalue" : "G600_EVO_1_LV50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_evo_3p.ltb",
+			"texture_3p" : ["dtx\\g600_m4_evo1_3p.dtx"],
+			"selectfx_1p" : "My_EVO_G600_subselect_M4",
+			"reloadfx_1p" : "",
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav"
+		},	
+		{
+			"keyvalue" : "G600_EVO_2_LV50",
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g600_m0_evo_3p.ltb",
+			"texture_3p" : ["dtx\\g600_m4_evo2_3p.dtx"],
+			"selectfx_1p" : "My_EVO_G600_subselect_E2_M4",
+			"reloadfx_1p" : "",
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav"
+		},
+		{
+			"keyvalue" : "MSR200_I_EVO_LV40",
+			"Evo_WeaponIndex" : [8772, 8773, 8774],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_MSR_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_MSR_ReloadevoFX_E_M4", "My_EVO_MSR_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_MSR_SuccessFX_E1_M4", "My_EVO_MSR_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "MSR200_I_EVO_LV50",
+			"Evo_WeaponIndex" : [8775, 8776, 8777],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_MSR_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_MSR_ReloadevoFX_E_M4", "My_EVO_MSR_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_MSR_SuccessFX_E1_M4", "My_EVO_MSR_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "MSR200_IS_EVO_LV40",
+			"Evo_WeaponIndex" : [8782, 8783, 8784],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_MSR_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_MSR_ReloadevoFX_E_M4", "My_EVO_MSR_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_MSR_SuccessFX_E1_M4", "My_EVO_MSR_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "MSR200_IS_EVO_LV50",
+			"Evo_WeaponIndex" : [8785, 8786, 8787],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_MSR_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_MSR_ReloadevoFX_E_M4", "My_EVO_MSR_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_MSR_SuccessFX_E1_M4", "My_EVO_MSR_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "XM68_I_EVO_LV40",
+			"Evo_WeaponIndex" : [8792, 8793, 8794],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_XM68_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_XM68_ReloadevoFX_E_M4", "My_EVO_XM68_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_XM68_SuccessFX_E1_M4", "My_EVO_XM68_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "XM68_I_EVO_LV50",
+			"Evo_WeaponIndex" : [8795, 8796, 8797],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_XM68_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_XM68_ReloadevoFX_E_M4", "My_EVO_XM68_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_XM68_SuccessFX_E1_M4", "My_EVO_XM68_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "XM68_IS_EVO_LV40",
+			"Evo_WeaponIndex" : [8802, 8803, 8804],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_XM68_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_XM68_ReloadevoFX_E_M4", "My_EVO_XM68_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_XM68_SuccessFX_E1_M4", "My_EVO_XM68_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "XM68_IS_EVO_LV50",
+			"Evo_WeaponIndex" : [8805, 8806, 8807],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_XM68_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_XM68_ReloadevoFX_E_M4", "My_EVO_XM68_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_XM68_SuccessFX_E1_M4", "My_EVO_XM68_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "DRT6_I_EVO_LV40",
+			"Evo_WeaponIndex" : [8854, 8855, 8856],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_DRT6_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_DRT6_ReloadevoFX_E_M4", "My_EVO_DRT6_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_DRT6_SuccessFX_E1_M4", "My_EVO_DRT6_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "DRT6_I_EVO_LV50",
+			"Evo_WeaponIndex" : [8857, 8858, 8859],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_DRT6_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_DRT6_ReloadevoFX_E_M4", "My_EVO_DRT6_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_DRT6_SuccessFX_E1_M4", "My_EVO_DRT6_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "DRT6_IK_EVO_LV40",
+			"Evo_WeaponIndex" : [8864, 8865, 8866],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_DRT6_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_DRT6_ReloadevoFX_E_M4", "My_EVO_DRT6_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_DRT6_SuccessFX_E1_M4", "My_EVO_DRT6_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "DRT6_IK_EVO_LV50",
+			"Evo_WeaponIndex" : [8867, 8868, 8869],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_DRT6_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_DRT6_ReloadevoFX_E_M4", "My_EVO_DRT6_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_DRT6_SuccessFX_E1_M4", "My_EVO_DRT6_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "DSG12_I_EVO_LV40",
+			"Evo_WeaponIndex" : [8874, 8875, 8876],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_DSG12_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_DSG12_ReloadevoFX_E_M4", "My_EVO_DSG12_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_DSG12_SuccessFX_E1_M4", "My_EVO_DSG12_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "DSG12_I_EVO_LV50",
+			"Evo_WeaponIndex" : [8877, 8878, 8879],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_DSG12_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_DSG12_ReloadevoFX_E_M4", "My_EVO_DSG12_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_DSG12_SuccessFX_E1_M4", "My_EVO_DSG12_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "DSG12_IS_EVO_LV40",
+			"Evo_WeaponIndex" : [8884, 8885, 8886],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_DSG12_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_DSG12_ReloadevoFX_E_M4", "My_EVO_DSG12_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_DSG12_SuccessFX_E1_M4", "My_EVO_DSG12_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "DSG12_IS_EVO_LV50",
+			"Evo_WeaponIndex" : [8887, 8888, 8889],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_DSG12_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_DSG12_ReloadevoFX_E_M4", "My_EVO_DSG12_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_DSG12_SuccessFX_E1_M4", "My_EVO_DSG12_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+            "keyvalue" : "EVO_Bomb_0_LV40",
+            "planted_bomb_fx_name" : "SA_Evo_TimeBomb_Glow_M4",
+			"beep_snd" : "sa_weapons\\snd\\timebomb\\evo\\beep.wav"	
+		},
+		{
+			"keyvalue" : "SCAR_I_EVO_LV40",
+			"Evo_WeaponIndex" : [9033, 9034, 9035],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_SCAR_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_SCAR_ReloadevoFX_E_M4", "My_EVO_SCAR_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_SCAR_SuccessFX_E1_M4", "My_EVO_SCAR_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "SCAR_I_EVO_LV50",
+			"Evo_WeaponIndex" : [9036, 9037, 9038],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_SCAR_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_SCAR_ReloadevoFX_E_M4", "My_EVO_SCAR_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_SCAR_SuccessFX_E1_M4", "My_EVO_SCAR_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "SCAR_IS_EVO_LV40",
+			"Evo_WeaponIndex" : [9043, 9044, 9045],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_SCAR_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_SCAR_ReloadevoFX_E_M4", "My_EVO_SCAR_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_SCAR_SuccessFX_E1_M4", "My_EVO_SCAR_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "SCAR_IS_EVO_LV50",
+			"Evo_WeaponIndex" : [9046, 9047, 9048],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_SCAR_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_SCAR_ReloadevoFX_E_M4", "My_EVO_SCAR_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_SCAR_SuccessFX_E1_M4", "My_EVO_SCAR_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "HK416_I_EVO_LV40",
+			"Evo_WeaponIndex" : [9053, 9054, 9055],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_HK416_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_HK416_ReloadevoFX_E_M4", "My_EVO_HK416_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_HK416_SuccessFX_E1_M4", "My_EVO_HK416_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "HK416_I_EVO_LV50",
+			"Evo_WeaponIndex" : [9056, 9057, 9058],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_HK416_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_HK416_ReloadevoFX_E_M4", "My_EVO_HK416_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_HK416_SuccessFX_E1_M4", "My_EVO_HK416_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "HK416_IS_EVO_LV40",
+			"Evo_WeaponIndex" : [9063, 9064, 9065],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_HK416_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_HK416_ReloadevoFX_E_M4", "My_EVO_HK416_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_HK416_SuccessFX_E1_M4", "My_EVO_HK416_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "HK416_IS_EVO_LV50",
+			"Evo_WeaponIndex" : [9066, 9067, 9068],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_HK416_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_HK416_ReloadevoFX_E_M4", "My_EVO_HK416_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_HK416_SuccessFX_E1_M4", "My_EVO_HK416_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "SG870_I_EVO_LV40",
+			"Evo_WeaponIndex" : [9073, 9074, 9075],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_SG870_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_SG870_ReloadevoFX_E_M4", "My_EVO_SG870_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_SG870_SuccessFX_E1_M4", "My_EVO_SG870_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{
+			"keyvalue" : "SG870_I_EVO_LV50",
+			"Evo_WeaponIndex" : [9076, 9077, 9078],
+			"EvoKillSnd1" : "sa_weapons\\snd\\evo\\EvoKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\evo\\EvoKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\evo\\EvoKillSnd3.wav",
+			"Evo_ReadyFX" : "My_EVO_SG870_PVevoReadyFX_M4",
+			"Evo_ReloadFX" : ["My_EVO_SG870_ReloadevoFX_E_M4", "My_EVO_SG870_ReloadevoFX_E1_M4"],
+			"Evo_SuccessFX" : ["My_EVO_SG870_SuccessFX_E1_M4", "My_EVO_SG870_SuccessFX_E2_M4"] // 각 1단계 , 2단계 fx
+		},
+		{ 
+			"keyvalue": "EON_COMMON_VALUE", 
+			"Eon_NeedDamage": [150, 300, 450]
+		},
+		{
+			"keyvalue" : "GAL_IS_EON",
+			"Eon_DamageLimit" : 150,
+			"EvoKillSnd1" : "sa_weapons\\snd\\eon\\EonKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\eon\\EonKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\eon\\EonKillSnd3.wav",
+			"Evo_ReadyFX" : "My_Eon_GAL_ReloadSkill_M4",
+			"Evo_ReloadFX" : ["My_Eon_GAL_reloadEon_M4"],
+		},
+		{
+			"keyvalue" : "P90_V2_IS_EON",
+			"Eon_DamageLimit" : 150,
+			"EvoKillSnd1" : "sa_weapons\\snd\\eon\\EonKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\eon\\EonKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\eon\\EonKillSnd3.wav",
+			"Evo_ReadyFX" : "My_Eon_P90_ReloadSkill_M4",
+			"Evo_ReloadFX" : ["My_Eon_P90_reloadEon_M4"],
+		},
+		{
+			"keyvalue" : "TAS_IS_EON",
+			"TransNormalModeText" : "SA_TEXT_WEAPON_TRANS_TAS_NORMAL",
+			"TransBlindModeText" : "SA_TEXT_WEAPON_TRANS_TAS_BLIND",
+			"Eon_DamageLimit" : 150,
+			"EvoKillSnd1" : "sa_weapons\\snd\\eon\\EonKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\eon\\EonKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\eon\\EonKillSnd3.wav",
+			"Evo_ReadyFX" : "My_Eon_TAS_ReloadSkill_M4",
+			"Evo_ReloadFX" : ["My_Eon_Tas_reloadEon_M4"],
+		},
+		{
+			"keyvalue" : "AWP_IS_EON",
+			"Eon_DamageLimit" : 150,
+			"EvoKillSnd1" : "sa_weapons\\snd\\eon\\EonKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\eon\\EonKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\eon\\EonKillSnd3.wav",
+			"Evo_ReadyFX" : "My_Eon_AWP_ReloadSkill_M4",
+			"Evo_ReloadFX" : ["My_Eon_Awp_reloadEon_M4"],
+		},
+		{
+			"keyvalue" : "EON_Bombtechkit_LV40",
+			"planted_bomb_fx_name" : "SA_Eon_TimeBomb_Glow_M4",
+			"beep_snd" : "sa_weapons\\snd\\timebomb\\eon\\beep.wav"
+		},
+		{
+			"keyvalue" : "SPECTER_IS_EON",
+			"Eon_DamageLimit" : 150,
+			"EvoKillSnd1" : "sa_weapons\\snd\\eon\\EonKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\eon\\EonKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\eon\\EonKillSnd3.wav",
+			"Evo_ReadyFX" : "My_Eon_SPTR_ReloadSkill_M4",
+			"Evo_ReloadFX" : ["My_Eon_SPT_reloadEon_M4"],
+		},
+		{
+			"keyvalue" : "AK47_ISK_EON",
+			"Eon_DamageLimit" : 150,
+			"EvoKillSnd1" : "sa_weapons\\snd\\eon\\EonKillSnd1.wav",
+			"EvoKillSnd2" : "sa_weapons\\snd\\eon\\EonKillSnd2.wav",
+			"EvoKillSnd3" : "sa_weapons\\snd\\eon\\EonKillSnd3.wav",
+			"Evo_ReadyFX" : "My_Eon_AK47_ReloadSkill_M4",
+			"Evo_ReloadFX" : ["My_Eon_AK47_reloadEon_M4"],
+		},
+		{
+			"keyvalue" : "g350_Transform_lv40_eon_b",
+			"Eon_DamageLimit" : 150,
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g350_m0_eon_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m4_eon_3p.dtx"
+				],
+			"selectfx_1p" : "My_Eon_G350T_Trans_M4",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "My_Eon_G350T_idle_M4"
+		},
+		{
+			"keyvalue" : "g350_Transform_lv40_eon_r",
+			"Eon_DamageLimit" : 150,
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g350_m0_eon_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m4_eon_3p.dtx"
+				],
+			"selectfx_1p" : "My_Eon_G350T_Trans_M4",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "My_Eon_G350T_idle_M4"
+		},
+		{
+			"keyvalue" : "g350_Transform_lv40_eon_g",
+			"Eon_DamageLimit" : 150,
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g350_m0_eon_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m4_eon_3p.dtx"
+				],
+			"selectfx_1p" : "My_Eon_G350T_Trans_M4",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "My_Eon_G350T_idle_M4"
+		},
+		{
+			"keyvalue" : "g350_Transform_lv50_eon_b",
+			"Eon_DamageLimit" : 150,
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g350_m0_eon_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m4_eon_3p.dtx"
+				],
+			"selectfx_1p" : "My_Eon_G350T_Trans_M4",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "My_Eon_G350T_idle_M4"
+		},
+		{
+			"keyvalue" : "g350_Transform_lv50_eon_r",
+			"Eon_DamageLimit" : 150,
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g350_m0_eon_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m4_eon_3p.dtx"
+				],
+			"selectfx_1p" : "My_Eon_G350T_Trans_M4",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "My_Eon_G350T_idle_M4"
+		},
+		{
+			"keyvalue" : "g350_Transform_lv50_eon_g",
+			"Eon_DamageLimit" : 150,
+			"path" : "sa_resource\\weapons\\",
+			"model_3p" : "ltb\\g350_m0_eon_3p.ltb",
+			"texture_3p" : [
+					"dtx\\g600_m4_eon_3p.dtx"
+				],
+			"selectfx_1p" : "My_Eon_G350T_Trans_M4",
+			"reloadfx_1p" : "",
+			"Idlefx_1p" : "My_Eon_G350T_idle_M4"
+		},
+	]
+}

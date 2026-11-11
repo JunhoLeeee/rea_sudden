@@ -1,0 +1,2921 @@
+/************************************************************************
+**
+**		Prop Types Attributes file
+**
+** This file contains the following Prop Type related definitions:
+**
+**  PropType
+**
+**
+** NOTES:
+**
+**  1) All definition properties (i.e., [PropType0]) ARE case sensitive.
+**	   If you are adding a new definition, it is best to start with a
+**     copy of an existing (working) definition.
+**  2) The Float type is the same as Real (i.e., 1.0 or 1.5)
+**  3) The valid range of all RGB color properties is between
+**     0 and 255 (e.g., (0, 255, 0) would be green).
+**
+*/
+
+
+/************************************************************************
+**
+** P R O P  T Y P E
+**
+** The PropType definitions define all of the attributes associated with
+** a particular prop type.  Defining props in this way allows us to
+** easily make global changes to all the props.
+**
+**
+** All prop type definitions should contain the following properties:
+**
+**  Type (String)
+**
+**      The user friendly name of the debris type (what shows up in DEdit).
+**
+**  DebrisType (String)
+**
+**		What type of debris should this prop create when it is destroyed
+**		(NOTE:  This should map directly to the name of a DEBRIS object in the
+**		Attributes\Debris.txt file).
+**
+**	Filename (String)
+**
+**		Name of the model file
+**
+**	Skin0-N (String)
+**
+**		Name of the skin file dtx(s).
+**      There can be any number of skins: Skin0, Skin1, ..., SkinN
+**
+**  RenderStyle0-N (String)
+**
+**		Name of the render style file ltb(s).
+**      There can be any number of render styles: RenderStyle0, RenderStyle1, ..., RenderStyleN
+**
+**	Scale (Vector)
+**
+**		How the prop should be scaled.
+**
+**	ObjectColor (Vector)
+**
+**		The prop's color.
+**
+**	Alpha (Float)
+**
+**		The prop's alpha value.
+**
+**  HitPoints (Integer)
+**
+**		How many hit points the prop has (set to -1 for CanDamage = FALSE)
+**
+**	Visible (Boolean)
+**
+**		Should the prop be visible (1=true, 0=false)
+**
+**	Solid (Boolean)
+**
+**		Should the prop be solid (1=true, 0=false)
+**
+**	Gravity (Boolean)
+**
+**		Should the prop have gravity (1=true, 0=false)
+**
+**	Shadow (Boolean)
+**
+**		Should the prop cast a shadow (1=true, 0=false)
+**
+**	MoveToFloor (Boolean)
+**
+**		Should the prop be moved to the floor (1=true, 0=false)
+**
+**	RayHit (Boolean)
+**
+**		Should the prop use ray hit physics (1=true, 0=false)
+**
+**
+**	Activateable (Boolean)
+**
+**		Can player click on prop to "touch" it?
+**
+**	Touchable (Boolean)
+**
+**		Can player walk into prop to "touch" it?
+**
+**	Searchable (Boolean)
+**
+**		Can this prop be used as a SearchProp?
+**
+**  StimRadius (Float)
+**
+**		How far away can AIs notice that a prop has been disturbed by being "touched?"
+**
+**  TouchSound (String)
+**
+**		Name of the sound file to play when touched.
+**
+**  TouchSoundRadius (Integer)
+**
+**		The radius for the touch sound
+**
+**  TouchAlarmLevel (Integer)
+**
+**		How alarming is it to AIs when this prop is disturbed by being "touched?"
+**
+**	DestroyFilename (String)
+**
+**		Name of the model file for destroyed prop.
+**
+**	DestroySkin0-N (String)
+**
+**		Name of the destroyed prop's skin file dtx(s).
+**      There can be any number of skins: Skin0, Skin1, ..., SkinN
+**
+**  DestroyRenderStyle0-N (String)
+**
+**		Name of the destroyed prop's render style file ltb(s).
+**      There can be any number of render styles: RenderStyle0, RenderStyle1, ..., RenderStyleN
+**
+**  DestroyAlarmLevel (Integer)
+**
+**		How alarming is it to AIs when this prop is destroyed?
+**
+** 	HitSound (String)
+**	
+**		Name of the sound file to play when hit (damaged).
+**
+**	HitSoundRadius (Integer)
+**		
+**		The radius of the hit sound.
+**
+**	HitAlarmLevel (Integer)
+**
+**		How alarming is it to AIs when this prop is disturbed by being hit?
+**
+**
+**	ActivateType (String)
+**
+**		Optional name of an ActivateType from ActivateTypes.txt that will be used when
+**		the crosshair is over the object and Activateable is set to 1.
+**
+*/
+
+/*
+**  PropType0 - Something
+*/
+
+[PropType0]
+	
+Type				= "_None"
+DebrisType			= "generic"
+Filename			= ""
+Skin0				= ""
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <255.0, 255.0, 255.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 0
+Shadow				= 0
+MoveToFloor			= 0
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType1]
+
+Type				= "SA_RADAR"
+DebrisType			= "generic"
+Filename			= "sa_props\models\radar.ltb"
+Skin0				= "SA_PROPS\skins\rader001.dtx"
+Skin1				= "SA_PROPS\skins\rader002.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <118.0, 118.0, 118.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType2]
+
+Type				= "SA_WING"
+DebrisType			= "generic"
+Filename			= "sa_props\models\wing_main.ltb"
+Skin0				= "sa_tex\airport\air005.dtx"
+Skin1				= "sa_tex\airport\LAMP002.dtx"
+Skin2				= "sa_tex\airport\air001.dtx"
+Skin3				= "sa_tex\airport\air004.dtx"
+Skin4				= "sa_tex\airport\air002.dtx"
+Skin5				= "sa_tex\airport\air003.dtx"
+Skin6				= "sa_tex\airport\air009.dtx"
+Skin7				= "sa_tex\airport\air008.dtx"
+Skin8				= "sa_tex\airport\air007.dtx"
+Skin9				= "sa_tex\airport\air006.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <40.0, 40.0, 40.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType3]
+
+Type				= "SA_propelle"
+DebrisType			= "generic"
+Filename			= "sa_props\models\propelle.ltb"
+Skin0				= "sa_props\skins\propeller.dtx"
+Skin1				= ""
+Skin2				= ""
+Skin3				= ""
+Skin4				= ""
+Skin5				= ""
+Skin6				= ""
+Skin7				= ""
+Skin8				= ""
+Skin9				= ""
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <40.0, 40.0, 40.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType4]
+
+Type				= "SA_flap"
+DebrisType			= "generic"
+Filename			= "sa_props\models\flap.ltb"
+Skin0				= "sa_props\skins\bombtarget.dtx"
+Skin1				= ""
+Skin2				= ""
+Skin3				= ""
+Skin4				= ""
+Skin5				= ""
+Skin6				= ""
+Skin7				= ""
+Skin8				= ""
+Skin9				= ""
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <40.0, 40.0, 40.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType5]
+
+Type				= "SA_ChangeFlag"
+DebrisType			= "generic"
+Filename			= "sa_props\models\ChangeFlag.ltb"
+Skin0				= "sa_props\skins\egg\notebook.dtx"
+Skin1				= "sa_props\skins\egg\flag_white.dtx"
+Skin2				= "sa_props\\skins\\egg\\LoadingScreen.spr"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <40.0, 40.0, 40.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType6]
+
+Type				= "SA_OutputRadar"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Outputradar.ltb"
+Skin0				= "SA_PROPS\skins\egg\radar_01.dtx"
+Skin1				= "SA_PROPS\skins\egg\radar_02.dtx"
+Skin2				= "SA_PROPS\skins\egg\radar_03.dtx"
+Skin3				= "SA_PROPS\skins\egg\radar_04.dtx"
+Skin4				= "SA_PROPS\skins\egg\radar_05.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <70.0, 70.0, 70.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType7]
+
+Type				= "SA_ChangeFlag_1"
+DebrisType			= "generic"
+Filename			= "sa_props\models\dualnotebook.ltb"
+Skin0				= "sa_props\skins\egg\notebook.dtx"
+Skin1				= "sa_props\skins\egg\flag_white.dtx"
+Skin2				= "sa_props\\skins\\egg\\LoadingScreen.spr"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <40.0, 40.0, 40.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType8]
+
+Type				= "SA_OutputSkull"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Skull.ltb"
+Skin0				= "sa_props\skins\boneset01.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <85.0, 85.0, 85.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType9]
+
+Type				= "SA_ChangeFlag_Box"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Box.ltb"
+Skin0				= ""
+Skin1				= ""
+Skin2				= ""
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <40.0, 40.0, 40.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType10]
+
+Type				= "SoloNotebook"
+DebrisType			= "generic"
+Filename			= "sa_props\models\SoloNotebook.ltb"
+Skin0				= "sa_props\skins\egg\notebook.dtx"
+Skin1				= "sa_props\\skins\\egg\\LoadingScreen.spr"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <40.0, 40.0, 40.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType11]
+
+Type				= "HangunMod_Model"
+DebrisType			= "generic"
+Filename			= "sa_props\models\HangunMod_Model.ltb"
+Skin0				= "sa_props\skins\HandGunMod\sign014.DTX"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <40.0, 40.0, 40.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType12]
+
+Type				= "GH2010_Sign"
+DebrisType			= "generic"
+Filename			= "sa_props\models\GH2010tower01.ltb"
+Skin0				= "sa_props\skins\GH2010\GHlogo.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <40.0, 40.0, 40.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType13]
+
+Type				= "AI_Output01"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\AI_Output01.ltb"
+Skin0				= "sa_props\skins\AI\Output01.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType14]
+
+Type				= "AI_Base"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\AI_DBox01.ltb"
+Skin0				= "sa_props\skins\AI\AlphaZero.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <60.0, 60.0, 60.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType15]
+
+Type				= "AI_Gate_M1"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\GateM1.ltb"
+Skin0				= "sa_props\skins\AI\DoorMA1.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <140.0, 140.0, 140.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType16]
+
+Type				= "AI_Gate_A1"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\GateA1.ltb"
+Skin0				= "sa_props\skins\AI\DoorA1.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <40.0, 40.0, 40.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType17]
+
+Type				= "AI_Gate_A2"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\GateA2.ltb"
+Skin0				= "sa_props\skins\AI\DoorA2.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <140.0, 140.0, 140.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType18]
+
+Type				= "AI_Gate_A3"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\GateA3.ltb"
+Skin0				= "sa_props\skins\AI\DoorA2.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType19]
+
+Type				= "AI_Gate_B1"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\GateB1.ltb"
+Skin0				= "sa_props\skins\AI\DoorB1.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <39.0, 32.0, 32.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType20]
+
+Type				= "AI_Gate_B2"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\GateB2.ltb"
+Skin0				= "sa_props\skins\AI\DoorB3.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <200.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType21]
+
+Type				= "AI_Gate_B3"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\GateB3.ltb"
+Skin0				= "sa_props\skins\AI\DoorA2.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType22]
+
+Type				= "AI_Gate_C1"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\GateC1.ltb"
+Skin0				= "sa_props\skins\AI\DoorA1.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <80.0, 80.0, 80.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType23]
+
+Type				= "AI_Gate_C2"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\GateC2.ltb"
+Skin0				= "sa_props\skins\AI\DoorA2.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType24]
+
+Type				= "AI_Gate_C3"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\GateC3.ltb"
+Skin0				= "sa_props\skins\AI\DoorA2.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <80.0, 80.0, 80.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType25]
+
+Type				= "EBoard_A1"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\EBoard\EBoard.ltb"
+Skin0				= "sa_props\skins\AI\EBoard_A1.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <80.0, 80.0, 80.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType26]
+
+Type				= "EBoard_A2"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\EBoard\EBoard.ltb"
+Skin0				= "sa_props\skins\AI\EBoard_A2.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <40.0, 40.0, 40.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+
+[PropType27]
+
+Type				= "EBoard_A3"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\EBoard\EBoard.ltb"
+Skin0				= "sa_props\skins\AI\EBoard_A3.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType28]
+
+Type				= "EBoard_B1"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\EBoard\EBoard.ltb"
+Skin0				= "sa_props\skins\AI\EBoard_B1.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType29]
+
+Type				= "EBoard_B2"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\EBoard\EBoard.ltb"
+Skin0				= "sa_props\skins\AI\EBoard_B2.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+
+[PropType30]
+
+Type				= "EBoard_B3"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\EBoard\EBoard.ltb"
+Skin0				= "sa_props\skins\AI\EBoard_B3.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType31]
+
+Type				= "EBoard_C1"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\EBoard\EBoard.ltb"
+Skin0				= "sa_props\skins\AI\EBoard_C1.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType32]
+
+Type				= "EBoard_C2"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\EBoard\EBoard.ltb"
+Skin0				= "sa_props\skins\AI\EBoard_C2.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+
+[PropType33]
+
+Type				= "EBoard_C3"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI\EBoard\EBoard.ltb"
+Skin0				= "sa_props\skins\AI\EBoard_C3.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType34]
+
+Type				= "Gate_Move"
+DebrisType			= "generic"
+Filename			= "sa_props\models\CN_Tuto\Gate_Move.ltb"
+Skin0				= "sa_props\skins\CN_Tuto\CN_circuitBreaker.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <60.0, 60.0, 60.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+
+
+[PropType35]
+
+Type				= "Gate_RG1"
+DebrisType			= "generic"
+Filename			= "sa_props\models\CN_Tuto\Gate_RG1.ltb"
+Skin0				= "sa_props\skins\CN_Tuto\CN_circuitBreaker2.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <60.0, 60.0, 60.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType36]
+
+Type				= "Gate_RG2"
+DebrisType			= "generic"
+Filename			= "sa_props\models\CN_Tuto\Gate_RG2.ltb"
+Skin0				= "sa_props\skins\CN_Tuto\CN_circuitBreaker.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <60.0, 60.0, 60.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+
+
+[PropType37]
+
+Type				= "Gate_RG3"
+DebrisType			= "generic"
+Filename			= "sa_props\models\CN_Tuto\Gate_RG3.ltb"
+Skin0				= "sa_props\skins\CN_Tuto\CN_circuitBreaker3.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <60.0, 60.0, 60.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType38]
+
+Type				= "Gate_RG4"
+DebrisType			= "generic"
+Filename			= "sa_props\models\CN_Tuto\Gate_RG4.ltb"
+Skin0				= "sa_props\skins\CN_Tuto\CN_door.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <60.0, 60.0, 60.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+
+
+[PropType39]
+
+Type				= "Gate_RG5"
+DebrisType			= "generic"
+Filename			= "sa_props\models\CN_Tuto\Gate_RG5.ltb"
+Skin0				= "sa_props\skins\CN_Tuto\CN_circuitBreaker4.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <60.0, 60.0, 60.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+
+
+[PropType40]
+
+Type				= "Target_BoxF"
+DebrisType			= "generic"
+Filename			= "sa_props\models\CN_Tuto\Target_BoxF.ltb"
+Skin0				= "sa_props\skins\CN_Tuto\target01.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <140.0, 140.0, 140.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+
+[PropType41]
+
+Type				= "Target_BoxL"
+DebrisType			= "generic"
+Filename			= "sa_props\models\CN_Tuto\Target_BoxL.ltb"
+Skin0				= "sa_props\skins\CN_Tuto\target01.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <140.0, 140.0, 140.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+
+[PropType42]
+
+Type				= "Target_Weapon_Head"
+DebrisType			= "generic"
+Filename			= "sa_props\models\CN_wp\CN_head.ltb"
+Skin0				= "sa_props\skins\CN_wp\CN_target2.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <140.0, 140.0, 140.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType43]
+
+Type				= "Target_Weapon_Body"
+DebrisType			= "generic"
+Filename			= "sa_props\models\CN_wp\CN_body.ltb"
+Skin0				= "sa_props\skins\CN_wp\CN_target2.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <140.0, 140.0, 140.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType44]
+
+Type                                     = "Gate_RG6"
+DebrisType                             = "generic"
+Filename                                = "sa_props\models\KR_tuto\KR_door.ltb"
+Skin0                                    = "sa_props\skins\KR_tuto\KR_door.dtx"
+Scale                                    = <1.0, 1.0, 1.0>
+ObjectColor                            = <60.0, 60.0, 60.0>
+Alpha                                   = 1.0
+HitPoints                                = -1
+Visible                                   = 1
+Solid                                     = 0
+Gravity                                  = 1
+Shadow                                 = 1
+MoveToFloor                           = 0
+RenderStyle0                           = "RenderStyles\default.ltb"
+RayHit                                   = 0
+TouchSound                           = ""
+TouchSoundRadius                   = 0
+
+[PropType45]
+
+Type				= "Gate_main"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI2\Gate_main.ltb"
+Skin0				= "sa_props\skins\AI2\br5.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <80.0, 80.0, 80.0>
+Alpha				= 1.0
+HitPoints			= 1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType46]
+
+Type				= "EBoard_main"
+DebrisType			= "generic"
+Filename			= "sa_props\models\AI2\EBoard_main.ltb"
+Skin0				= "sa_props\skins\AI2\EBoard_main.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType47]
+
+Type				= "Hostage_5sec"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Hostage\5second.ltb"
+Skin0				= "sa_props\skins\5second.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <200.0, 200.0, 200.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType48]
+
+Type				= "Hostage_7sec"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Hostage\7second.ltb"
+Skin0				= "sa_props\skins\7second.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <200.0, 200.0, 200.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType49]
+
+Type				= "SA_Tail_A"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Tail\Flag.ltb"
+Skin0				= "sa_props\skins\Tail\GT1.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType50]
+
+Type				= "SA_Tail_B"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Tail\Flag.ltb"
+Skin0				= "sa_props\skins\Tail\GT1.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType51]
+
+Type				= "SA_Tail_C"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Tail\Flag.ltb"
+Skin0				= "sa_props\skins\Tail\GT1.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <60.0, 60.0, 60.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType52]
+
+Type				= "SA_TailSign_A"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Tail\Tail_A.ltb"
+Skin0				= "SA_PROPS\skins\Tail\3Flag.dtx"
+
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <60.0, 60.0, 60.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType53]
+
+Type				= "SA_TailSign_B"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Tail\Tail_B.ltb"
+Skin0				= "SA_PROPS\skins\Tail\3Flag.dtx"
+
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <60.0, 60.0, 60.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType54]
+
+Type				= "SA_TailSign_C"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Tail\Tail_C.ltb"
+Skin0				= "SA_PROPS\skins\Tail\3Flag.dtx"
+
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <60.0, 60.0, 60.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType55]
+
+Type				= "SA_TailSign_AA"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Tail\Tail_AA.ltb"
+Skin0				= "SA_PROPS\skins\Tail\kidung.dtx"
+
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <120.0, 120.0, 120.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType56]
+
+Type				= "SA_TailSign_BB"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Tail\Tail_BB.ltb"
+Skin0				= "SA_PROPS\skins\Tail\kidung.dtx"
+
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <60.0, 60.0, 60.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType57]
+
+Type				= "SA_TailSign_CC"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Tail\Tail_CC.ltb"
+Skin0				= "SA_PROPS\skins\Tail\kidung.dtx"
+
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <60.0, 60.0, 60.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType58]
+
+Type				= "SA_Taget_A"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Tail\A.ltb"
+Skin0				= "SA_PROPS\skins\Tail\A.dtx"
+
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <140.0, 140.0, 140.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType59]
+
+Type				= "SA_Taget_B"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Tail\B.ltb"
+Skin0				= "SA_PROPS\skins\Tail\B.dtx"
+
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <80.0, 80.0, 80.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType60]
+
+Type				= "SA_Taget_C"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Tail\C.ltb"
+Skin0				= "SA_PROPS\skins\Tail\C.dtx"
+
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType61]
+
+Type				= "Hostage_C4_NewType"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Hostage\hc4.ltb"
+Skin0				= "sa_props\skins\c4.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <200.0, 200.0, 200.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+
+[PropType62]
+
+Type				= "Hostage_C4_NewType2"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Hostage\hc42.ltb"
+Skin0				= "sa_props\skins\c4.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <200.0, 200.0, 200.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType63]
+
+Type				= "Non_ChangeFlag"
+DebrisType			= "generic"
+Filename			= "sa_props\models\warehouse3\a1.ltb"
+Skin0				= "sa_tex\NomalBlocker.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <200.0, 200.0, 200.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType64]
+
+Type				= "apache"
+DebrisType			= "generic"
+Filename			= "sa_props\models\apache\apache.ltb"
+Skin0				= "sa_props\skins\apache\apache.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <120.0, 120.0, 120.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType65]
+
+Type				= "ballon"
+DebrisType			= "generic"
+Filename			= "sa_props\models\i_park\ballon.ltb"
+Skin0				= "sa_props\skins\i_park\me_027_2_park.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <200.0, 200.0, 200.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType66]
+Type				= "Hostage_Binder"
+DebrisType			= "generic"
+Filename			= "sa_props\models\aircraft\cuff.ltb"
+Skin0				= "sa_props\skins\aircraft\cuff.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <200.0, 200.0, 200.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType67]
+Type				= "Oneshot_Handle"
+DebrisType			= "generic"
+Filename			= "sa_props\models\oneshot\handle.ltb"
+Skin0				= "sa_props\skins\oneshot\metal_gear01a.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType68]
+Type				= "ZombieBarricade"
+DebrisType			= "generic"
+Filename			= "sa_props\models\zombie\barricade.ltb"
+Skin0				= "sa_props\skins\zombie\barricade.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= 1000
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType69]
+Type				= "ZombieBarricade2"
+DebrisType			= "generic"
+Filename			= "sa_props\models\zombie\barricade2.ltb"
+Skin0				= "sa_props\skins\zombie\barricade.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= 1000
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType70]
+Type				= "ZombieBarricade3"
+DebrisType			= "generic"
+Filename			= "sa_props\models\zombie\barricade3.ltb"
+Skin0				= "sa_props\skins\zombie\barricade.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= 1000
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType71]
+Type				= "ZombieBarricade4"
+DebrisType			= "generic"
+Filename			= "sa_props\models\zombie\barricade4.ltb"
+Skin0				= "sa_props\skins\zombie\barricade.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= 1000
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType72]
+Type				= "ZombieShop"
+DebrisType			= "generic"
+Filename			= "sa_props\models\zombie\shop_box.ltb"
+Skin0				= "sa_props\skins\zombie\shop_box.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= 1000
+Visible				= 1
+Solid				= 1
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType73]
+Type				= "ZombieShop2"
+DebrisType			= "generic"
+Filename			= "sa_props\models\zombie\shop_box_1.ltb"
+Skin0				= "sa_props\skins\zombie\shop_box.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= 1000
+Visible				= 1
+Solid				= 1
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+
+[PropType74]
+Type				= "ZombieRandombox"
+DebrisType			= "generic"
+Filename			= "sa_props\models\zombie\randombox.ltb"
+Skin0				= "sa_props\skins\zombie\Random_box.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= 1000
+Visible				= 1
+Solid				= 1
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+
+[PropType75]
+Type				= "ZombieRandombox2"
+DebrisType			= "generic"
+Filename			= "sa_props\models\zombie\randombox_1.ltb"
+Skin0				= "sa_props\skins\zombie\Random_box.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= 1000
+Visible				= 1
+Solid				= 1
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType76]
+Type				= "SA_tree_001"
+DebrisType			= "generic"
+Filename			= "sa_props\models\angkor_winter\tree_001.ltb"
+Skin0				= "sa_props\skins\angkor_winter\mas_treebar.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <55.0, 55.0, 55.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+//´≪½I¿o ¸E Aß¾O A¡·E Æ®¸®
+[PropType77]
+
+Type				= "SA_tree_001"
+DebrisType			= "generic"
+Filename			= "sa_props\models\angkor_winter\tree_001.ltb"
+Skin0				= "sa_props\skins\angkor_winter\mas_treebar.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <55.0, 55.0, 55.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+//__DK_HIDE_AND_SEEK_MODE__
+[PropType78]
+Type				= "Strongbox"
+DebrisType			= "generic"
+Filename			= "sa_props\models\runaway\strongbox_all.ltb"
+Skin0				= "sa_props\skins\runaway\strongbox01.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= 1000
+Visible				= 1
+Solid				= 1
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType79]
+Type				= "Strongbox2"
+DebrisType			= "generic"
+Filename			= "sa_props\models\runaway\strongbox2_all.ltb"
+Skin0				= "sa_props\skins\runaway\strongbox01.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= 1000
+Visible				= 1
+Solid				= 1
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType80]
+Type				= "Prisongate"
+DebrisType			= "generic"
+Filename			= "sa_props\models\runaway\Prison_truck.ltb"
+Skin0				= "sa_props\skins\runaway\PTruckTex04.dtx"
+Scale				= <2.0, 1.0, 1.0>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= 1000
+Visible				= 1
+Solid				= 1
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType81]
+Type				= "double_target"
+DebrisType			= "generic"
+Filename			= "sa_props\models\double_target\double_target.ltb"
+Skin0				= "sa_props\skins\double_target\Bomb_tex12.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= 1000
+Visible				= 1
+Solid				= 1
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType82]
+Type				= "ventilator"
+DebrisType			= "generic"
+Filename			= "sa_props\models\superweapon\ventilator.ltb"
+Skin0				= "sa_props\skins\superweapon\ventilator.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <60.0, 60.0, 60.0>
+Alpha				= 1.0
+HitPoints			= 1000
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType83]
+
+Type				= "invert_machine"
+DebrisType			= "generic"
+Filename			= "sa_props\models\invert\invert_machine.ltb"
+Skin0				= "sa_props\skins\invert\invert_machine.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <40.0, 40.0, 40.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType84]
+
+Type				= "invert_machine2"
+DebrisType			= "generic"
+Filename			= "sa_props\models\invert\invert_machine2.ltb"
+Skin0				= "sa_props\skins\invert\invert_machine.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <40.0, 40.0, 40.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType85]
+
+Type				= "invert_screen1"
+DebrisType			= "generic"
+Filename			= "sa_props\models\invert\invert_screen01.ltb"
+Skin0				= "sa_props\skins\invert\sc_001.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <70.0, 70.0, 70.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType86]
+
+Type				= "invert_subscreen"
+DebrisType			= "generic"
+Filename			= "sa_props\models\invert\invert_subscreen.ltb"
+Skin0				= "sa_props\skins\invert\sc_002.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <85.0, 85.0, 85.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType87]
+
+Type				= "triosniper"
+DebrisType			= "generic"
+Filename			= "sa_props\models\triosniper\triosniper.ltb"
+Skin0				= "sa_props\skins\triosniper\triosniper.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <85.0, 85.0, 85.0>
+Alpha				= 1.0
+HitPoints			= 0
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType88]
+
+Type				= "weapon_vender_A"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Hellgade\Weapon_vender.ltb"
+Skin0				= "sa_props\skins\Hellgade\weapon_vender_A.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= 0
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType89]
+
+Type				= "weapon_vender_B"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Hellgade\Weapon_vender.ltb"
+Skin0				= "sa_props\skins\Hellgade\weapon_vender_B.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= 0
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType90]
+
+Type				= "Bullet_vender_A"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Hellgade\Bullet_vender.ltb"
+Skin0				= "sa_props\skins\Hellgade\Bullet_vender_A.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= 0
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType91]
+
+Type				= "Bullet_vender_B"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Hellgade\Bullet_vender.ltb"
+Skin0				= "sa_props\skins\Hellgade\Bullet_vender_B.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= 0
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType92]
+
+Type				= "weapon_vender_90A"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Hellgade\Weapon_vender_90.ltb"
+Skin0				= "sa_props\skins\Hellgade\weapon_vender_A.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= 0
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType93]
+
+Type				= "weapon_vender_90B"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Hellgade\Weapon_vender_90.ltb"
+Skin0				= "sa_props\skins\Hellgade\weapon_vender_B.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= 0
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType94]
+
+Type				= "Bullet_vender_90A"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Hellgade\Bullet_vender_90.ltb"
+Skin0				= "sa_props\skins\Hellgade\Bullet_vender_A.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= 0
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType95]
+
+Type				= "Bullet_vender_90B"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Hellgade\Bullet_vender_90.ltb"
+Skin0				= "sa_props\skins\Hellgade\Bullet_vender_B.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <180.0, 180.0, 180.0>
+Alpha				= 1.0
+HitPoints			= 0
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType96]
+Type				= "Hostage_Controller"
+DebrisType			= "generic"
+Filename			= "sa_props\models\cso_italy\controller_1.ltb"
+Skin0				= "sa_props\skins\cso_italy\etc_lock.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <85.0, 85.0, 85.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType97]
+Type				= "Hostage_Lamp"
+DebrisType			= "generic"
+Filename			= "sa_props\models\cso_italy\led_1.ltb"
+Skin0				= "sa_props\skins\cso_italy\etc_lamp.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <85.0, 85.0, 85.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType98]
+Type				= "CH47"
+DebrisType			= "generic"
+Filename			= "sa_props\models\zombie8\CH47.ltb"
+Skin0				= "sa_props\skins\zombie8\CH47.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <85.0, 85.0, 85.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType99]
+Type				= "Koreanflag"
+DebrisType			= "generic"
+Filename			= "sa_props\models\CaptureFlag\Koreanflag.ltb"
+Skin0				= "sa_props\skins\CaptureFlag\Koreanflag.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <85.0, 85.0, 85.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType100]
+Type				= "winch"
+DebrisType			= "generic"
+Filename			= "sa_props\models\CaptureFlag\winch.ltb"
+Skin0				= "sa_props\skins\CaptureFlag\winch.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <85.0, 85.0, 85.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType101]
+Type				= "Deathrun_button"
+DebrisType			= "generic"
+Filename			= "sa_props\models\run\run.ltb"
+Skin0				= "sa_props\skins\run\run_012.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <85.0, 85.0, 85.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType102]
+Type				= "sn_apache"
+DebrisType			= "generic"
+Filename			= "sa_props\models\sn_apache\sn_apache.ltb"
+Skin0				= "sa_tex2016\sn_vs_infil\ch47.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <145.0, 145.0, 145.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType103]
+Type				= "beach_bear"
+DebrisType			= "generic"
+Filename			= "sa_props\models\angkor_beach\beach_bear.ltb"
+Skin0				= "sa_props\skins\angkor_beach\bear_all.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <85.0, 85.0, 85.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType104]
+
+Type				= "SGarden_CBox"
+DebrisType			= "generic"
+Filename			= "sa_props\models\angkor_beach\Sgarden_Cbox.ltb"
+Skin0				= ""
+Skin1				= ""
+Skin2				= ""
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <40.0, 40.0, 40.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+[PropType105]
+Type				= "EscapeChopper"
+DebrisType			= "generic"
+Filename			= "sa_props\models\ragusa\ch47.ltb"
+Skin0				= "sa_props\skins\ragusa\ch47.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <85.0, 85.0, 85.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType106]
+Type				= "FX_smoke"
+DebrisType			= "generic"
+Filename			= "sa_props\models\ragusa\ch47fx.ltb"
+Skin0				= "sa_props\skins\ragusa\ch47.dtx"
+Scale				= <0.7, 0.7, 0.7>
+ObjectColor			= <145.0, 145.0, 145.0>
+Alpha				= 0.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType107]
+Type				= "EscapeChopper_plant"
+DebrisType			= "generic"
+Filename			= "sa_props\models\ragusa\ch47.ltb"
+Skin0				= "sa_props\skins\ragusa\ch47.dtx"
+Scale				= <0.9, 0.9, 0.9>
+ObjectColor			= <65.0, 65.0, 65.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType108]
+Type				= "God_Sword"
+DebrisType			= "generic"
+Filename			= "sa_props\models\GodMode\Sword.ltb"
+Skin0				= "sa_props\skins\GodMode\Sword.dtx"
+Scale				= <1, 1, 1>
+ObjectColor			= <100.0, 100.0, 100.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType109]
+Type				= "God_Itembox"
+DebrisType			= "generic"
+Filename			= "sa_props\models\GodMode\GODBOX.ltb"
+Skin0				= "sa_props\skins\GodMode\GODBOX.dtx"
+Scale				= <0.85, 0.85, 0.85>
+ObjectColor			= <-50, -50, -50>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+
+[PropType110]
+Type				= "Tournament_Missile"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Tournament\Missile.ltb"
+Skin0				= "sa_props\skins\Tournament\tournament_Missile.dtx"
+Scale				= <1.1, 1.1, 1.1>
+ObjectColor			= <80, 80, 80>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType111]
+Type				= "God_Resetbox"
+DebrisType			= "generic"
+Filename			= "sa_props\models\GodMode\GODBOX.ltb"
+Skin0				= "sa_props\skins\GodMode\ResetBOX.dtx"
+Scale				= <0.95, 0.95, 0.95>
+ObjectColor			= <50, 50, 50>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+
+
+[PropType112]
+Type				= "God_Itembox_Red"
+DebrisType			= "generic"
+Filename			= "sa_props\models\GodMode\GODBOX.ltb"
+Skin0				= "sa_props\skins\GodMode\GODBOX_Red.dtx"
+Scale				= <0.85, 0.85, 0.85>
+ObjectColor			= <-50, -50, -50>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+
+[PropType113]
+Type				= "God_Itembox_Blue"
+DebrisType			= "generic"
+Filename			= "sa_props\models\GodMode\GODBOX.ltb"
+Skin0				= "sa_props\skins\GodMode\GODBOX_Blue.dtx"
+Scale				= <0.85, 0.85, 0.85>
+ObjectColor			= <-50, -50, -50>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType114]
+Type				= "WorldCup_FootBall"
+DebrisType			= "generic"
+Filename			= "sa_props\models\ware_stadium\ware_soccerball.ltb"
+Skin0				= "sa_props\skins\ware_stadium\ware_soccerball.dtx"
+Scale				= <3.0, 3.0, 3.0>
+ObjectColor			= <155, 155, 155>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType115]
+Type				= "Money_10000won"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Money\Money.ltb"
+Skin0				= "sa_props\skins\Money\Money_10000won.dtx"
+Scale				= <0.3, 0.3, 0.3>
+ObjectColor			= <60, 60, 60>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType116]
+Type				= "Money_5000won"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Money\Money.ltb"
+Skin0				= "sa_props\skins\Money\Money_5000won.dtx"
+Scale				= <0.3, 0.3, 0.3>
+ObjectColor			= <60, 60, 60>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType117]
+Type				= "Money_1000won"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Money\Money.ltb"
+Skin0				= "sa_props\skins\Money\Money_1000won.dtx"
+Scale				= <0.3, 0.3, 0.3>
+ObjectColor			= <60, 60, 60>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType118]
+Type				= "Windmill_Big"
+DebrisType			= "generic"
+Filename			= "sa_props\models\countryside\Windmill_1.ltb"
+Skin0				= "sa_props\skins\countryside\metal_frame01a.dtx"
+Scale				= <0.8, 0.8, 0.8>
+ObjectColor			= <120, 120, 120>
+Alpha				= 0.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType119]
+Type				= "Windmill_Small"
+DebrisType			= "generic"
+Filename			= "sa_props\models\countryside\Windmill_2.ltb"
+Skin0				= "sa_props\skins\countryside\metal_deco_pen.dtx"
+Scale				= <1, 1, 1>
+ObjectColor			= <120, 120, 120>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType120]
+Type				= "ScareCrow_01"
+DebrisType			= "generic"
+Filename			= "sa_props\models\countryside\scarecrow_01.ltb"
+Skin0				= "sa_props\skins\countryside\scarecrow_01.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <120, 120, 120>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType121] //사이즈체인지 점령오브젝트
+Type				= "SA_SizeChangeFlag"
+DebrisType			= "generic"
+Filename			= "sa_props\models\sizechange\sc_informachine.ltb"
+Skin0				= "sa_props\skins\sizechange\SC_off.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <200.0, 200.0, 200.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 1
+Gravity				= 1
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+
+[PropType122] //엘리베이터 문
+Type				= "ElevatorDoor"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Elevator\EDoor.ltb"
+Skin0				= "sa_props\skins\Elevator\tile_EVTwall06a.dtx"
+Scale				= <1.01, 1, 1>
+ObjectColor			= <100, 100, 100>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+
+[PropType123] // 메테오
+Type				= "Meteor"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Disaster\disaster_obj01.ltb"
+Skin0				= "sa_props\skins\Disaster\Lava_01a.dtx"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <100, 100, 100>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 0
+Shadow				= 0
+MoveToFloor			= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit				= 0
+TouchSound			= ""
+TouchSoundRadius	= 0
+
+[PropType124] // 진짜를모아라 캡슐
+Type			= "RealCollect_capsule"
+DebrisType		= "generic"
+Filename			= "sa_props\models\Realcollect\capsule.ltb"
+Skin0			= "sa_props\skins\Realcollect\capsule.dtx"
+Scale			= <0.85, 0.85, 0.85>
+ObjectColor		= <50, 50, 50>
+Alpha			= 1.0
+HitPoints			= -1
+Visible			= 1
+Solid			= 0
+Gravity			= 0
+Shadow			= 1
+MoveToFloor		= 0
+RenderStyle0		= "RenderStyles\default.ltb"
+RayHit			= 0
+TouchSound		= ""
+TouchSoundRadius		= 0
+
+[PropType125]
+Type                = "Dorco_bear"
+DebrisType            = "generic"
+Filename            = "sa_props\models\Dorco\Dorco_bear.ltb"
+Skin0                = "sa_props\skins\Dorco\dorco_bread_A.dtx"
+Skin1                = "sa_props\skins\Dorco\dorco_bread_B.dtx"
+Skin2                = "sa_props\skins\Dorco\dorco_bread_C.dtx"
+Scale                = <1.0, 1.0, 1.0>
+ObjectColor            = <85.0, 85.0, 85.0>
+Alpha                = 1.0
+HitPoints            = -1
+Visible                = 1
+Solid                = 0
+Gravity                = 1
+Shadow                = 1
+MoveToFloor            = 0
+RenderStyle0            = "RenderStyles\default.ltb"
+RayHit                = 1
+TouchSound            = ""
+TouchSoundRadius        = 0
+
+[PropType126]
+Type				= "Dorco_Razer"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Dorco\Dorco_Razer.ltb"
+Skin0				= "sa_props\skins\Dorco\dorco_razor.dtx"
+
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <85.0, 85.0, 85.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+[PropType127]
+Type				= "Bread_thanks"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Breadinvite\Bread_thanks.ltb"
+Skin0				= "sa_props\skins\Breadinvite\cookbear_face.dtx"
+Skin1				= "sa_props\skins\Breadinvite\cookbear_body.dtx"
+
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <135.0, 135.0, 135.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+
+[PropType128]
+Type				= "cat_dance"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Breadinvite\cat_dance.ltb"
+Skin0				= "sa_props\skins\Breadinvite\cat_face.dtx"
+Skin1				= "sa_props\skins\Breadinvite\cat_body.dtx"
+
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <135.0, 135.0, 135.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+
+[PropType129]
+Type				= "dog_dance"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Breadinvite\dog_dance.ltb"
+Skin0				= "sa_props\skins\Breadinvite\dog_face.dtx"
+Skin1				= "sa_props\skins\Breadinvite\dog_body.dtx"
+
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <135.0, 135.0, 135.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+
+[PropType130]
+Type				= "parrot_dance"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Breadinvite\parrot_dance.ltb"
+Skin0				= "sa_props\skins\Breadinvite\parrot_face.dtx"
+Skin1				= "sa_props\skins\Breadinvite\parrot_body.dtx"
+
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <135.0, 135.0, 135.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+
+
+[PropType131]
+Type				= "pig_dance"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Breadinvite\pig_dance.ltb"
+Skin0				= "sa_props\skins\Breadinvite\pig_face.dtx"
+Skin1				= "sa_props\skins\Breadinvite\pig_body.dtx"
+
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <135.0, 135.0, 135.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0
+
+
+
+[PropType132]
+Type				= "rabbit_dance"
+DebrisType			= "generic"
+Filename			= "sa_props\models\Breadinvite\rabbit_dance.ltb"
+Skin0				= "sa_props\skins\Breadinvite\rabbit_face.dtx"
+Skin1				= "sa_props\skins\Breadinvite\rabbit_body.dtx"
+
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <135.0, 135.0, 135.0>
+Alpha				= 1.0
+HitPoints			= -1
+Visible				= 1
+Solid				= 0
+Gravity				= 1
+Shadow				= 1
+MoveToFloor			= 0
+RenderStyle0			= "RenderStyles\default.ltb"
+RayHit				= 1
+TouchSound			= ""
+TouchSoundRadius		= 0

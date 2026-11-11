@@ -1,0 +1,128 @@
+// 규칙 : keyvalue를 통해 각 이벤트에서 아이템을 찾아와 활용하는 방식
+// 헤드에 숫자 : 이벤트 번호
+// 이벤트 추가 시엔 번호 추가/ 아이템 추가 시엔 해당 이벤트 번호 내부에 아이템 정보 추가
+
+{
+	// 응모권 이벤트 - 스페셜 이벤트(EventID: 58)
+	"58":
+	[
+		{
+			"keyvalue": "AnimationTitle1",
+			"ItemCode" : 246, // 칭호의 실제 인덱스가 아니라 [IMGTitle177]의 경우 177을 입력해주어야 한다.
+			"Active" : 1,
+			"Position" : [0, 0]
+		},
+		{
+			"keyvalue": "AnimationTitle2",
+			"ItemCode" : 135,
+			"Active" : 0,
+			"Position" : [0,0]
+		},
+		{
+			"keyvalue": "Layout",
+			"UILayout" : 1 //UILayout 설명. 1: 애니타이틀1개 / 2: 애니타이틀 2개 / 3 : 애니타이틀1개에 일반타이틀
+		},
+		{
+			"keyvalue": "CouponItemInfo",
+			"EventID": "POPUP_EVENT_ENTRY_EVENT",
+			"ItemCode": 10231,
+			"Name": "SA_TEXT_CASH_ITEM_ENTRY",
+			"Desc": "SA_TEXT_CASH_ITEM_DESC_ENTRY",
+			"DetailIcon" : "Special_coupon",
+			"NormalIcon" : "Special_coupon_s"
+		}
+	],
+	// 응모권 이벤트 EX - 스페셜 이벤트(EventID: 125)
+	"125":
+	[
+		{
+			"keyvalue": "AnimationTitle1",
+			"ItemCode" : 214, // 칭호의 실제 인덱스가 아니라 [IMGTitle177]의 경우 177을 입력해주어야 한다.
+			"Active" : 0,
+			"Position" : [0, 0]
+		},
+		{
+			"keyvalue": "AnimationTitle2",
+			"ItemCode" : 135,
+			"Active" : 0,
+			"Position" : [0,0]
+		},
+		{
+			"keyvalue": "Layout",
+			"UILayout" : 1 //UILayout 설명. 1: 애니타이틀1개 / 2: 애니타이틀 2개 / 3 : 애니타이틀1개에 일반타이틀
+		},
+		{
+			"keyvalue": "CouponItemInfo",
+			"EventID": "POPUP_EVENT_ENTRY_EVENT_EX",
+			"ItemCode": 10231,
+			"Name": "SA_TEXT_CASH_ITEM_ENTRY_EX",
+			"Desc": "SA_TEXT_CASH_ITEM_DESC_ENTRY_EX",
+			"DetailIcon" : "Special_coupon_ex",
+			"NormalIcon" : "Special_coupon_ex_s"
+		}
+	],
+	"77" :
+	[
+		{
+			"keyvalue": "CouponItemInfo",
+			"EventID": "POPUP_EVENT_PRIZES_RUSH_EVENT",
+			"ItemCode": 7980,
+			"Name": "SA_TEXT_CASH_ITEM_PRIZES_RUSH",
+			"Desc": "SA_TEXT_CASH_ITEM_DESC_PRIZES_RUSH",
+			"DetailIcon" : "PrizesRush_coupon",
+			"NormalIcon" : "PrizesRush_coupon_s"
+		}
+	],
+	"84" :
+	[
+		{
+			"keyvalue": "CouponItemInfo",
+			"EventID": "POPUP_UNIQUE_COLLECTION_EVENT",
+			"ItemCode": 7981,
+			"Name": "SA_TEXT_CASH_7981",
+			"Desc": "SA_TEXT_CASH_DESC_7981",
+			"DetailIcon" : "Special_coupon2",
+			"NormalIcon" : "Special_coupon2_s"
+		}
+	],
+	"90" :
+	[
+		{
+			"keyvalue": "CouponItemInfo",
+			"EventID": "POPUP_EVENT_BOOTCAMP_EVENT",
+			"ItemCode": 7982,
+			"Name": "SA_TEXT_CASH_ITEM_BOOTCAMP",
+			"Desc": "SA_TEXT_CASH_ITEM_DESC_BOOTCAMP",
+			"DetailIcon" : "Special_coupon03",
+			"NormalIcon" : "Special_coupon03_s"
+		}
+	],
+	//POPUP_EVENT_CUSTOM_COLLECT 커스텀을 모아라
+	"99" :
+	[
+		{
+			"keyvalue": "AnimationTitle1",
+			"ItemCode" : 257,
+			"Active" : 1
+		}
+	],
+	"100" :
+	[
+		{
+			"keyvalue": "CouponItemInfo",
+			"EventID": "POPUP_EVENT_18TH_EVENT",
+			"ItemCode": 10232,
+			"Name": "SA_TEXT_CASH_NAME_10232",
+			"Desc": "SA_TEXT_CASH_ITEM_DESC_10232",
+			"DetailIcon" : "18th_Coupon",
+			"NormalIcon" : "18th_Coupon_s"
+		}
+	],
+	"80" ://POPUP_EVENT_PERIOD_WEAPON 무기를 모아라
+	[
+		{
+			"keyvalue": "Layout",
+			"RewardLayout" : 3,
+		}
+	]
+}

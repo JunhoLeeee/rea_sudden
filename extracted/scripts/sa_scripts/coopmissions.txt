@@ -1,0 +1,114 @@
+/************************************************************************
+**
+** M I S S I O N
+**
+** Mission definitions specify what levels are in the game.  The 
+** ordering of the missions are the same as they appear in this file
+** (Mission0, Mission1, Mission2, etc.)
+**
+** All mission definitions should contain the following properties:
+**
+**	NameId (Integer)
+**
+**		The Id (stored in CRes.dll)	of the text string containing the
+**		name of the mission.
+**
+**	DescId (Integer)
+**
+**		The Id (stored in CRes.dll)	of the text string containing a
+**		brief description of the mission.
+**
+**	ObjectiveIds (String)
+**
+**		A comma separated list of Ids (stored in CRes.dll) of objectives
+**		known at the start of the mission.
+**
+**	LayoutInfo (String)
+**
+**		The layout definition used for this level.
+**
+**	DefaultWeapons (String)
+**
+**		A comma separated list of weapon names that should be chosen by default
+**		for the mission. 
+**		(e.g., "P38,AK47" ).
+**
+**	DefaultAmmo (String)
+**
+**		A comma separated list of ammo names that should be chosen by default
+**		for the mission. 
+**		(e.g., "Camera Disabler,Code Breaker" ).
+**
+**	DefaultMods (String)
+**
+**		A comma separated list of ammo names that should be chosen by default
+**		for the mission. 
+**		(e.g., "Camera Disabler,Code Breaker" ).
+**
+**	Level0-??? (String)
+**
+**		The file name for each level (scene) file (e.g., Worlds\m01s01).
+**		associated with this mission.  Multiple levels may be specified
+**		(e.g., Level0 = "xxx", Level1 = "yyy", etc.).
+**	
+**		NOTE:  the .dat extension should NOT be included.
+**
+**	Level(x)NameId (Integer)
+**
+**		The Id (stored in CRes.dll)	of the text string containing the
+**		name of the level.
+**
+**	Level(x)BriefingId (Integer)
+**
+**		The Id (stored in CRes.dll)	of the text containing a detailed
+**		explanaation the level.
+**
+**	Level(x)DefaultWeapons (String)
+**
+**		A comma separated list of weapon names that should be chosen by default
+**		for the level. 
+**		(e.g., "P38,AK47" ).
+**		The (x) should be replaced by the level number 0-???.
+**
+**	Level(x)DefaultMods (String)
+**
+**		A comma separated list of mod names that should be chosen by default
+**		for the level. 
+**		(e.g., "Camera Disabler,Code Breaker" ).
+**		The (x) should be replaced by the level number 0-???.
+**
+**	Level(x)DefaultAmmo (String)
+**
+**		A comma separated list of ammo names that should be chosen by default
+**		for the level. 
+**		(e.g., "Camera Disabler,Code Breaker" ).
+**		The (x) should be replaced by the level number 0-???.
+**
+**	Reward0-??? (String)
+**
+**		Specification for the experience rewards available in this mission.
+**		Each specification consists of a name and a value separated by a comma.
+**		(e.g., Reward0 = "xxx,50", Reward1 = "yyy,10", etc.).
+**	
+*/
+
+/*
+**  GameHi  Mission!
+*/
+
+[Mission0]
+ObjectiveIds		= " "
+LayoutInfo		= "LoadScreenC01x"
+DefaultWeapons		= "Li_Knife,Li_Colt,Li_Infinity,Li_P90,Li_AKS74U,Li_Ingram,Li_G36C,Li_Spas,Li_Ithaca,Li_PSG1,Li_Remington,Li_S_Grenade_1,Li_R_Grenade_1"
+SelectedWeapon		= "Li_Knife"
+DefaultAmmo		= "Li_Knife_Ammo"
+Level0			= "SA_Worlds\Test\Step_01"
+
+[Mission1]
+ObjectiveIds		= " "
+LayoutInfo		= "LoadScreenC01x"
+DefaultWeapons		= "Li_Knife,Li_Colt,Li_Infinity,Li_AKS74U,Li_P90,Li_Ingram,Li_G36C,Li_Spas,Li_Ithaca,Li_PSG1,Li_Remington,Li_S_Grenade_1,Li_R_Grenade_1"
+SelectedWeapon		= "Li_Knife"
+DefaultAmmo		= "Li_Knife_Ammo"
+Level0			= "Li_Worlds\Working\GameEye_Sea"
+

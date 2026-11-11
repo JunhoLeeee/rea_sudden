@@ -1,0 +1,111 @@
+[BodyShotItem0]
+ShopIndex = 8667
+Name = "바디탄_17th"	
+Type =1
+BodyShotTime = 0.5
+BodyShotFXNum = 3
+BodyShotFX = "BodyShotFX_17th_0"
+
+[BodyShotItem1]
+ShopIndex = 8668
+Name = "바디탄_코믹댄스"
+Type =1
+BodyShotTime = 0.39
+BodyShotFXNum = 2
+BodyShotFX = "BodyShotFX_Dance_0"
+
+[BodyShotItem2]
+ShopIndex = 8938
+Name = "바디탄_드루와"	
+Type =1
+BodyShotTime = 0.5
+BodyShotFXNum = 2
+BodyShotFX = "BodyShotFX_SurinameHwang_0"
+
+[BodyShotItem3]
+ShopIndex = 8939
+Name = "바디탄_살아있네"
+Type =1
+BodyShotTime = 0.5
+BodyShotFXNum = 2
+BodyShotFX = "BodyShotFX_SurinameHA_0"
+
+[BodyShotItem4]
+ShopIndex = 10290
+Name = "브래드_바디탄"
+Type =1
+BodyShotTime = 0.5
+BodyShotFXNum = 2
+BodyShotFX = "BodyShotFX_18th_0"
+
+[BodyShotItem5]
+ShopIndex = 10540
+Name = "한글팡팡_바디탄"
+Type =1
+BodyShotTime = 0.5
+BodyShotFXNum = 1
+BodyShotFX = "BodyShotFX_korean_word_0"
+
+[BodyShotItem6]
+ShopIndex = 10541
+Name = "한글춤사위_바디탄"
+Type =1
+BodyShotTime = 0.5
+BodyShotFXNum = 1
+BodyShotFX = "BodyShotFX_korean_word_dance_0"
+
+[BodyShotItem7]
+ShopIndex = 10458
+Name = "Revenant_바디탄"
+Type =1
+BodyShotTime = 0.5
+BodyShotFXNum = 2
+BodyShotFX = "BodyShotFX_Revenant0"
+
+[BodyShotItem8]
+ShopIndex = 12652
+Name = "드리프트_바디탄"
+Type =1
+BodyShotTime = 0.5
+BodyShotFXNum = 3
+BodyShotFX = "BodyShotFX_Kartrider_0"
+
+[BodyShotItem9]
+ShopIndex = 13703
+Name = "펑펑_바디탄"
+Type =1
+BodyShotTime = 0.5
+BodyShotFXNum = 2
+BodyShotFX = "BodyShotFX_SnowBall_0"
+
+[BodyShotItem10]
+ShopIndex = 13706
+Name = "산타슈가초이_바디탄"
+Type =1
+BodyShotTime = 0.5
+BodyShotFXNum = 2
+BodyShotFX = "BodyShotFX_SantaSugarChoi_0"
+
+[BodyShotItem11]
+ShopIndex = 16001
+Name = "두근두근_바디탄"
+Type =1
+BodyShotTime = 0.5
+BodyShotFXNum = 2
+BodyShotFX = "bodyshotfx_heartbeat_0"
+
+[BodyShotItem12]
+ShopIndex = 16109
+Name = "바람의나라 바디탄"
+Type = 1
+BodyShotTime = 0.5
+BodyShotFXNum = 2
+BodyShotFX = "bodyshotfx_baram_Trail_0"
+
+[BodyShotItem13]
+ShopIndex = 16863
+Name = "KISS_바디탄"
+Type = 1
+BodyShotTime = 0.5
+BodyShotFXNum = 2
+BodyShotFX = "bodyshotFX_kiss_0"

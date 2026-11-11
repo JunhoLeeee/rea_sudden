@@ -1,0 +1,137 @@
+{
+  "path": "extracted\\game-file\\game_file\\CShell.dll",
+  "sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110",
+  "candidates": [
+    {
+      "source_address": "0x1801df283",
+      "file_offset": 1959555,
+      "bytes_hex": "488d0d7e5a2a01",
+      "target": "0x181484d08",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x1801df180",
+      "unwind_owner_end": "0x1801df37f"
+    },
+    {
+      "source_address": "0x1801e001f",
+      "file_offset": 1963039,
+      "bytes_hex": "488d0de24c2a01",
+      "target": "0x181484d08",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x1801dff80",
+      "unwind_owner_end": "0x1801e00d7"
+    },
+    {
+      "source_address": "0x180da0137",
+      "file_offset": 14284087,
+      "bytes_hex": "4c8d05e2d08700",
+      "target": "0x18161d220",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180d9fef0",
+      "unwind_owner_end": "0x180da03a5"
+    },
+    {
+      "source_address": "0x180f4a0ac",
+      "file_offset": 16028844,
+      "bytes_hex": "4c8d056d316d00",
+      "target": "0x18161d220",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180f49ab0",
+      "unwind_owner_end": "0x180f4a28f"
+    },
+    {
+      "source_address": "0x180f4aa12",
+      "file_offset": 16031250,
+      "bytes_hex": "4c8d0507286d00",
+      "target": "0x18161d220",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180f4a2a0",
+      "unwind_owner_end": "0x180f4b2ca"
+    },
+    {
+      "source_address": "0x180f4b0b2",
+      "file_offset": 16032946,
+      "bytes_hex": "4c8d0567216d00",
+      "target": "0x18161d220",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180f4a2a0",
+      "unwind_owner_end": "0x180f4b2ca"
+    },
+    {
+      "source_address": "0x180f4be5f",
+      "file_offset": 16036447,
+      "bytes_hex": "4c8d05ba136d00",
+      "target": "0x18161d220",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180f4b670",
+      "unwind_owner_end": "0x180f4bf32"
+    },
+    {
+      "source_address": "0x180f4c952",
+      "file_offset": 16039250,
+      "bytes_hex": "488d0dc7086d00",
+      "target": "0x18161d220",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180f4c5a0",
+      "unwind_owner_end": "0x180f4c99a"
+    },
+    {
+      "source_address": "0x180f4e666",
+      "file_offset": 16046694,
+      "bytes_hex": "4c8d05b3eb6c00",
+      "target": "0x18161d220",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180f4e5a0",
+      "unwind_owner_end": "0x180f4e6f1"
+    },
+    {
+      "source_address": "0x180f55026",
+      "file_offset": 16073766,
+      "bytes_hex": "4c8d05f3816c00",
+      "target": "0x18161d220",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180f54fe0",
+      "unwind_owner_end": "0x180f55100"
+    },
+    {
+      "source_address": "0x180f55150",
+      "file_offset": 16074064,
+      "bytes_hex": "4c8d05c9806c00",
+      "target": "0x18161d220",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180f55110",
+      "unwind_owner_end": "0x180f5522d"
+    },
+    {
+      "source_address": "0x180f55254",
+      "file_offset": 16074324,
+      "bytes_hex": "4c8d05c57f6c00",
+      "target": "0x18161d220",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180f55240",
+      "unwind_owner_end": "0x180f55296"
+    },
+    {
+      "source_address": "0x180f55c85",
+      "file_offset": 16076933,
+      "bytes_hex": "4c8d0594756c00",
+      "target": "0x18161d220",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180f55750",
+      "unwind_owner_end": "0x180f55d8a"
+    },
+    {
+      "source_address": "0x180f5670c",
+      "file_offset": 16079628,
+      "bytes_hex": "4c8d050d6b6c00",
+      "target": "0x18161d220",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180f562c0",
+      "unwind_owner_end": "0x180f56767"
+    }
+  ],
+  "limitations": [
+    "Pattern matches can occur within other instructions or data; instruction boundaries are unverified.",
+    "Unwind entries can describe fragments; they do not establish canonical function starts.",
+    "This bounded search does not cover all x86 instruction forms or indirect references."
+  ]
+}

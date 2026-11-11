@@ -1,0 +1,897 @@
+{
+  "evidence_id": "ev_ee12d013402c85cb2d14a1acdd02c227cbbfc32e7920b4749c1d3cf076433e07",
+  "subject": null,
+  "provider": {
+    "id": "rea-playwright-browser-scenario",
+    "name": "REA Playwright browser scenario capture provider",
+    "version": "1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.browser-scenario-capture",
+  "operation": "capture_browser_scenario",
+  "parameters": {
+    "browser": {
+      "mode": "launch",
+      "executable_path": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+      "headless": true
+    },
+    "start_url": {
+      "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+      "query": []
+    },
+    "environment": {
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "device_scale_factor": 1
+      },
+      "locale": "en-US",
+      "timezone": "UTC",
+      "color_scheme": "light",
+      "reduced_motion": "reduce",
+      "service_workers": "block"
+    },
+    "actions": [
+      {
+        "step_id": "loaded",
+        "timeout_ms": 10000,
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "#style option[value='0']"
+        },
+        "state": "attached"
+      },
+      {
+        "step_id": "start",
+        "timeout_ms": 5000,
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "#start"
+        },
+        "button": "left",
+        "click_count": 1
+      },
+      {
+        "step_id": "playing",
+        "timeout_ms": 5000,
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "#overlay"
+        },
+        "state": "hidden"
+      },
+      {
+        "step_id": "shoot",
+        "timeout_ms": 5000,
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "#view"
+        },
+        "button": "left",
+        "click_count": 1
+      },
+      {
+        "step_id": "shot_settled",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "switch",
+        "action": "press",
+        "locator": {
+          "kind": "css",
+          "selector": "#view"
+        },
+        "key": "2"
+      },
+      {
+        "step_id": "switched",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "pause",
+        "action": "press",
+        "locator": {
+          "kind": "css",
+          "selector": "#view"
+        },
+        "key": "Escape"
+      },
+      {
+        "step_id": "paused",
+        "timeout_ms": 5000,
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "#overlay"
+        },
+        "state": "visible"
+      },
+      {
+        "step_id": "resume",
+        "timeout_ms": 5000,
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "#start"
+        },
+        "button": "left",
+        "click_count": 1
+      },
+      {
+        "step_id": "resumed",
+        "timeout_ms": 5000,
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "#overlay"
+        },
+        "state": "hidden"
+      }
+    ],
+    "storage": {
+      "cookies": [],
+      "local_storage": [],
+      "session_storage": []
+    },
+    "secrets": [],
+    "capture": {
+      "after_each_step": [
+        "dom"
+      ],
+      "at_end": [
+        "screenshot",
+        "dom"
+      ],
+      "events": [
+        "console",
+        "page-errors"
+      ],
+      "network": {
+        "request_body": false,
+        "response_body": false,
+        "header_values": false
+      },
+      "limits": {
+        "max_events": 10000,
+        "max_event_allocation_bytes": 4194304,
+        "max_total_event_allocation_bytes": 16777216,
+        "max_network_transactions": 1024,
+        "max_network_body_bytes": 65536,
+        "max_network_body_allocation_bytes": 1048576,
+        "max_network_header_allocation_bytes": 1048576,
+        "max_network_metadata_allocation_bytes": 1048576
+      }
+    },
+    "scenario_sha256": "15180f8ec413980e21449ce641012921171212d0e4004d93fa02534c37563bab"
+  },
+  "raw_result": null,
+  "normalized_result": {
+    "browser": {
+      "mode": "launch",
+      "process_ownership": "provider-owned",
+      "cleanup": "terminated-owned-process",
+      "product": "Chromium",
+      "version": "157.0.8103.40"
+    },
+    "scenario": {
+      "start_origin": "http://127.0.0.1:8765",
+      "action_count": 11,
+      "secret_references": [],
+      "network_content": {
+        "request_body": false,
+        "response_body": false,
+        "header_values": false
+      },
+      "event_families": [
+        "console",
+        "page-errors"
+      ],
+      "limits": {
+        "max_events": 10000,
+        "max_event_allocation_bytes": 4194304,
+        "max_total_event_allocation_bytes": 16777216,
+        "max_network_transactions": 1024,
+        "max_network_body_bytes": 65536,
+        "max_network_body_allocation_bytes": 1048576,
+        "max_network_header_allocation_bytes": 1048576,
+        "max_network_metadata_allocation_bytes": 1048576
+      }
+    },
+    "duration_ms": 1376,
+    "steps": [
+      {
+        "step_index": 0,
+        "step_id": "scenario_start",
+        "action": "goto_start",
+        "elapsed_ms": 538,
+        "before_url": {
+          "url": "about:blank",
+          "origin": null,
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "after_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "event_sequence_start": 1,
+        "event_sequence_end": 0,
+        "artifacts": {
+          "screenshot": {
+            "state": "not_requested"
+          },
+          "dom": {
+            "state": "captured",
+            "value": {
+              "sha256": "1f920749948835e6d3b65249b4d7c85e6f1497783eeb1f6544b7ff02c2203e84",
+              "bytes": 3131,
+              "text": "<!DOCTYPE html><html lang=\"ko\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>로컬 연습장 · REA</title><link rel=\"icon\" href=\"data:,\"><link rel=\"stylesheet\" href=\"/style.css\"></head>\n<body>\n<main id=\"app\">\n  <canvas id=\"view\" tabindex=\"0\" aria-label=\"1인칭 로컬 연습장\" width=\"1280\" height=\"720\"></canvas>\n  <canvas id=\"effects\" aria-hidden=\"true\" style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none\" width=\"1280\" height=\"720\"></canvas>\n  <header><span class=\"brand\">REA <b>FIELD / 01</b></span><span class=\"badge\">LOCAL PRACTICE</span><button id=\"pause\" hidden=\"\">일시정지 <kbd>ESC</kbd></button></header>\n  <section id=\"score\"><span>ELIMINATIONS<strong id=\"kills\">00 <small>/ 10</small></strong></span><span>TIME LEFT<strong id=\"time\">01:30</strong></span><span>ACCURACY<strong id=\"accuracy\">—</strong></span></section>\n  <div id=\"event\" aria-live=\"polite\"></div>\n  <div id=\"reload\" style=\"display: none;\"><span>RELOADING</span><i style=\"transform: scaleX(1);\"></i></div>\n  <div id=\"weapon\"><span id=\"weapon-name\">TRAINING RIFLE</span><strong id=\"ammo\">30 <small>/ 90</small></strong><p><kbd>1</kbd> 소총 <kbd>2</kbd> 권총 <kbd>R</kbd> 재장전</p></div>\n  <div id=\"hint\">WASD 이동 · 마우스 조준 · 클릭 사격 · SPACE 점프 · SHIFT 걷기 · CTRL 앉기</div>\n  <div id=\"overlay\">\n    <section class=\"panel\">\n      <div class=\"eyebrow\">INDEPENDENT CLIENT PROTOTYPE</div>\n      <h1 id=\"title\">TAKE A<br><em>BREATH.</em></h1>\n      <p id=\"description\">연습이 일시정지되었습니다.<br>준비되면 이어서 플레이하세요.</p>\n      <div id=\"result\"></div>\n      <label class=\"setting\">명중 표시 스타일 <select id=\"style\" aria-label=\"명중 표시 스타일\"><option value=\"0\">0</option><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option><option value=\"10\">10</option><option value=\"11\">11</option><option value=\"12\">12</option><option value=\"13\">13</option><option value=\"64\">64</option></select></label>\n      <button id=\"start\" class=\"primary\">계속하기 <span>↗</span></button>\n      <button id=\"menu\" class=\"secondary\">메뉴로 돌아가기</button>\n      <p class=\"footnote\">독립 연습용 맵과 규칙 · 복원한 명중 표시 설정 사용</p>\n    </section>\n    <aside><span class=\"eyebrow\">RANGE NOTES</span><h2>한 발씩,<br>정확하게.</h2><p>머리를 맞히면 피해량이 증가합니다.<br>표적은 처치 후 2초 뒤 돌아옵니다.</p><div class=\"keys\"><kbd>W</kbd><br><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></div><p>마우스 잠금이 불가능하면<br>화살표 ← →로 회전할 수 있습니다.</p><span class=\"version\">BUILD 0.2 / OFFLINE</span></aside>\n  </div>\n  <div id=\"connection\" role=\"alert\" hidden=\"\">연결이 끊겼습니다. 실행 창을 확인하고 새로고침하세요.</div>\n</main>\n<script src=\"/app.js\"></script>\n\n</body></html>"
+            }
+          },
+          "accessibility": {
+            "state": "not_requested"
+          },
+          "url": {
+            "state": "not_requested"
+          },
+          "history": {
+            "state": "not_requested"
+          },
+          "storage": {
+            "state": "not_requested"
+          }
+        },
+        "completeness": {
+          "status": "complete",
+          "equality_eligible": true,
+          "missing_sections": [],
+          "truncated_sections": []
+        },
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_index": 1,
+        "step_id": "loaded",
+        "action": "wait_for",
+        "elapsed_ms": 14,
+        "before_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "after_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "event_sequence_start": 1,
+        "event_sequence_end": 0,
+        "artifacts": {
+          "screenshot": {
+            "state": "not_requested"
+          },
+          "dom": {
+            "state": "captured",
+            "value": {
+              "sha256": "1f920749948835e6d3b65249b4d7c85e6f1497783eeb1f6544b7ff02c2203e84",
+              "bytes": 3131,
+              "text": "<!DOCTYPE html><html lang=\"ko\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>로컬 연습장 · REA</title><link rel=\"icon\" href=\"data:,\"><link rel=\"stylesheet\" href=\"/style.css\"></head>\n<body>\n<main id=\"app\">\n  <canvas id=\"view\" tabindex=\"0\" aria-label=\"1인칭 로컬 연습장\" width=\"1280\" height=\"720\"></canvas>\n  <canvas id=\"effects\" aria-hidden=\"true\" style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none\" width=\"1280\" height=\"720\"></canvas>\n  <header><span class=\"brand\">REA <b>FIELD / 01</b></span><span class=\"badge\">LOCAL PRACTICE</span><button id=\"pause\" hidden=\"\">일시정지 <kbd>ESC</kbd></button></header>\n  <section id=\"score\"><span>ELIMINATIONS<strong id=\"kills\">00 <small>/ 10</small></strong></span><span>TIME LEFT<strong id=\"time\">01:30</strong></span><span>ACCURACY<strong id=\"accuracy\">—</strong></span></section>\n  <div id=\"event\" aria-live=\"polite\"></div>\n  <div id=\"reload\" style=\"display: none;\"><span>RELOADING</span><i style=\"transform: scaleX(1);\"></i></div>\n  <div id=\"weapon\"><span id=\"weapon-name\">TRAINING RIFLE</span><strong id=\"ammo\">30 <small>/ 90</small></strong><p><kbd>1</kbd> 소총 <kbd>2</kbd> 권총 <kbd>R</kbd> 재장전</p></div>\n  <div id=\"hint\">WASD 이동 · 마우스 조준 · 클릭 사격 · SPACE 점프 · SHIFT 걷기 · CTRL 앉기</div>\n  <div id=\"overlay\">\n    <section class=\"panel\">\n      <div class=\"eyebrow\">INDEPENDENT CLIENT PROTOTYPE</div>\n      <h1 id=\"title\">TAKE A<br><em>BREATH.</em></h1>\n      <p id=\"description\">연습이 일시정지되었습니다.<br>준비되면 이어서 플레이하세요.</p>\n      <div id=\"result\"></div>\n      <label class=\"setting\">명중 표시 스타일 <select id=\"style\" aria-label=\"명중 표시 스타일\"><option value=\"0\">0</option><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option><option value=\"10\">10</option><option value=\"11\">11</option><option value=\"12\">12</option><option value=\"13\">13</option><option value=\"64\">64</option></select></label>\n      <button id=\"start\" class=\"primary\">계속하기 <span>↗</span></button>\n      <button id=\"menu\" class=\"secondary\">메뉴로 돌아가기</button>\n      <p class=\"footnote\">독립 연습용 맵과 규칙 · 복원한 명중 표시 설정 사용</p>\n    </section>\n    <aside><span class=\"eyebrow\">RANGE NOTES</span><h2>한 발씩,<br>정확하게.</h2><p>머리를 맞히면 피해량이 증가합니다.<br>표적은 처치 후 2초 뒤 돌아옵니다.</p><div class=\"keys\"><kbd>W</kbd><br><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></div><p>마우스 잠금이 불가능하면<br>화살표 ← →로 회전할 수 있습니다.</p><span class=\"version\">BUILD 0.2 / OFFLINE</span></aside>\n  </div>\n  <div id=\"connection\" role=\"alert\" hidden=\"\">연결이 끊겼습니다. 실행 창을 확인하고 새로고침하세요.</div>\n</main>\n<script src=\"/app.js\"></script>\n\n</body></html>"
+            }
+          },
+          "accessibility": {
+            "state": "not_requested"
+          },
+          "url": {
+            "state": "not_requested"
+          },
+          "history": {
+            "state": "not_requested"
+          },
+          "storage": {
+            "state": "not_requested"
+          }
+        },
+        "completeness": {
+          "status": "complete",
+          "equality_eligible": true,
+          "missing_sections": [],
+          "truncated_sections": []
+        },
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_index": 2,
+        "step_id": "start",
+        "action": "click",
+        "elapsed_ms": 18,
+        "before_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "after_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "event_sequence_start": 1,
+        "event_sequence_end": 0,
+        "artifacts": {
+          "screenshot": {
+            "state": "not_requested"
+          },
+          "dom": {
+            "state": "captured",
+            "value": {
+              "sha256": "1f920749948835e6d3b65249b4d7c85e6f1497783eeb1f6544b7ff02c2203e84",
+              "bytes": 3131,
+              "text": "<!DOCTYPE html><html lang=\"ko\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>로컬 연습장 · REA</title><link rel=\"icon\" href=\"data:,\"><link rel=\"stylesheet\" href=\"/style.css\"></head>\n<body>\n<main id=\"app\">\n  <canvas id=\"view\" tabindex=\"0\" aria-label=\"1인칭 로컬 연습장\" width=\"1280\" height=\"720\"></canvas>\n  <canvas id=\"effects\" aria-hidden=\"true\" style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none\" width=\"1280\" height=\"720\"></canvas>\n  <header><span class=\"brand\">REA <b>FIELD / 01</b></span><span class=\"badge\">LOCAL PRACTICE</span><button id=\"pause\" hidden=\"\">일시정지 <kbd>ESC</kbd></button></header>\n  <section id=\"score\"><span>ELIMINATIONS<strong id=\"kills\">00 <small>/ 10</small></strong></span><span>TIME LEFT<strong id=\"time\">01:30</strong></span><span>ACCURACY<strong id=\"accuracy\">—</strong></span></section>\n  <div id=\"event\" aria-live=\"polite\"></div>\n  <div id=\"reload\" style=\"display: none;\"><span>RELOADING</span><i style=\"transform: scaleX(1);\"></i></div>\n  <div id=\"weapon\"><span id=\"weapon-name\">TRAINING RIFLE</span><strong id=\"ammo\">30 <small>/ 90</small></strong><p><kbd>1</kbd> 소총 <kbd>2</kbd> 권총 <kbd>R</kbd> 재장전</p></div>\n  <div id=\"hint\">WASD 이동 · 마우스 조준 · 클릭 사격 · SPACE 점프 · SHIFT 걷기 · CTRL 앉기</div>\n  <div id=\"overlay\">\n    <section class=\"panel\">\n      <div class=\"eyebrow\">INDEPENDENT CLIENT PROTOTYPE</div>\n      <h1 id=\"title\">TAKE A<br><em>BREATH.</em></h1>\n      <p id=\"description\">연습이 일시정지되었습니다.<br>준비되면 이어서 플레이하세요.</p>\n      <div id=\"result\"></div>\n      <label class=\"setting\">명중 표시 스타일 <select id=\"style\" aria-label=\"명중 표시 스타일\"><option value=\"0\">0</option><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option><option value=\"10\">10</option><option value=\"11\">11</option><option value=\"12\">12</option><option value=\"13\">13</option><option value=\"64\">64</option></select></label>\n      <button id=\"start\" class=\"primary\">계속하기 <span>↗</span></button>\n      <button id=\"menu\" class=\"secondary\">메뉴로 돌아가기</button>\n      <p class=\"footnote\">독립 연습용 맵과 규칙 · 복원한 명중 표시 설정 사용</p>\n    </section>\n    <aside><span class=\"eyebrow\">RANGE NOTES</span><h2>한 발씩,<br>정확하게.</h2><p>머리를 맞히면 피해량이 증가합니다.<br>표적은 처치 후 2초 뒤 돌아옵니다.</p><div class=\"keys\"><kbd>W</kbd><br><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></div><p>마우스 잠금이 불가능하면<br>화살표 ← →로 회전할 수 있습니다.</p><span class=\"version\">BUILD 0.2 / OFFLINE</span></aside>\n  </div>\n  <div id=\"connection\" role=\"alert\" hidden=\"\">연결이 끊겼습니다. 실행 창을 확인하고 새로고침하세요.</div>\n</main>\n<script src=\"/app.js\"></script>\n\n</body></html>"
+            }
+          },
+          "accessibility": {
+            "state": "not_requested"
+          },
+          "url": {
+            "state": "not_requested"
+          },
+          "history": {
+            "state": "not_requested"
+          },
+          "storage": {
+            "state": "not_requested"
+          }
+        },
+        "completeness": {
+          "status": "complete",
+          "equality_eligible": true,
+          "missing_sections": [],
+          "truncated_sections": []
+        },
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_index": 3,
+        "step_id": "playing",
+        "action": "wait_for",
+        "elapsed_ms": 30,
+        "before_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "after_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "event_sequence_start": 1,
+        "event_sequence_end": 0,
+        "artifacts": {
+          "screenshot": {
+            "state": "not_requested"
+          },
+          "dom": {
+            "state": "captured",
+            "value": {
+              "sha256": "4843573dbc1c197aaba0b1176e55e027732d173189c38beec75f162a9d20229f",
+              "bytes": 3131,
+              "text": "<!DOCTYPE html><html lang=\"ko\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>로컬 연습장 · REA</title><link rel=\"icon\" href=\"data:,\"><link rel=\"stylesheet\" href=\"/style.css\"></head>\n<body>\n<main id=\"app\">\n  <canvas id=\"view\" tabindex=\"0\" aria-label=\"1인칭 로컬 연습장\" width=\"1280\" height=\"720\"></canvas>\n  <canvas id=\"effects\" aria-hidden=\"true\" style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none\" width=\"1280\" height=\"720\"></canvas>\n  <header><span class=\"brand\">REA <b>FIELD / 01</b></span><span class=\"badge\">LOCAL PRACTICE</span><button id=\"pause\">일시정지 <kbd>ESC</kbd></button></header>\n  <section id=\"score\"><span>ELIMINATIONS<strong id=\"kills\">00 <small>/ 10</small></strong></span><span>TIME LEFT<strong id=\"time\">01:30</strong></span><span>ACCURACY<strong id=\"accuracy\">—</strong></span></section>\n  <div id=\"event\" aria-live=\"polite\"></div>\n  <div id=\"reload\" style=\"display: none;\"><span>RELOADING</span><i style=\"transform: scaleX(1);\"></i></div>\n  <div id=\"weapon\"><span id=\"weapon-name\">TRAINING RIFLE</span><strong id=\"ammo\">30 <small>/ 90</small></strong><p><kbd>1</kbd> 소총 <kbd>2</kbd> 권총 <kbd>R</kbd> 재장전</p></div>\n  <div id=\"hint\">WASD 이동 · 마우스 조준 · 클릭 사격 · SPACE 점프 · SHIFT 걷기 · CTRL 앉기</div>\n  <div id=\"overlay\" hidden=\"\">\n    <section class=\"panel\">\n      <div class=\"eyebrow\">INDEPENDENT CLIENT PROTOTYPE</div>\n      <h1 id=\"title\">TAKE A<br><em>BREATH.</em></h1>\n      <p id=\"description\">연습이 일시정지되었습니다.<br>준비되면 이어서 플레이하세요.</p>\n      <div id=\"result\"></div>\n      <label class=\"setting\">명중 표시 스타일 <select id=\"style\" aria-label=\"명중 표시 스타일\"><option value=\"0\">0</option><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option><option value=\"10\">10</option><option value=\"11\">11</option><option value=\"12\">12</option><option value=\"13\">13</option><option value=\"64\">64</option></select></label>\n      <button id=\"start\" class=\"primary\">계속하기 <span>↗</span></button>\n      <button id=\"menu\" class=\"secondary\">메뉴로 돌아가기</button>\n      <p class=\"footnote\">독립 연습용 맵과 규칙 · 복원한 명중 표시 설정 사용</p>\n    </section>\n    <aside><span class=\"eyebrow\">RANGE NOTES</span><h2>한 발씩,<br>정확하게.</h2><p>머리를 맞히면 피해량이 증가합니다.<br>표적은 처치 후 2초 뒤 돌아옵니다.</p><div class=\"keys\"><kbd>W</kbd><br><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></div><p>마우스 잠금이 불가능하면<br>화살표 ← →로 회전할 수 있습니다.</p><span class=\"version\">BUILD 0.2 / OFFLINE</span></aside>\n  </div>\n  <div id=\"connection\" role=\"alert\" hidden=\"\">연결이 끊겼습니다. 실행 창을 확인하고 새로고침하세요.</div>\n</main>\n<script src=\"/app.js\"></script>\n\n</body></html>"
+            }
+          },
+          "accessibility": {
+            "state": "not_requested"
+          },
+          "url": {
+            "state": "not_requested"
+          },
+          "history": {
+            "state": "not_requested"
+          },
+          "storage": {
+            "state": "not_requested"
+          }
+        },
+        "completeness": {
+          "status": "complete",
+          "equality_eligible": true,
+          "missing_sections": [],
+          "truncated_sections": []
+        },
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_index": 4,
+        "step_id": "shoot",
+        "action": "click",
+        "elapsed_ms": 16,
+        "before_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "after_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "event_sequence_start": 1,
+        "event_sequence_end": 0,
+        "artifacts": {
+          "screenshot": {
+            "state": "not_requested"
+          },
+          "dom": {
+            "state": "captured",
+            "value": {
+              "sha256": "4843573dbc1c197aaba0b1176e55e027732d173189c38beec75f162a9d20229f",
+              "bytes": 3131,
+              "text": "<!DOCTYPE html><html lang=\"ko\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>로컬 연습장 · REA</title><link rel=\"icon\" href=\"data:,\"><link rel=\"stylesheet\" href=\"/style.css\"></head>\n<body>\n<main id=\"app\">\n  <canvas id=\"view\" tabindex=\"0\" aria-label=\"1인칭 로컬 연습장\" width=\"1280\" height=\"720\"></canvas>\n  <canvas id=\"effects\" aria-hidden=\"true\" style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none\" width=\"1280\" height=\"720\"></canvas>\n  <header><span class=\"brand\">REA <b>FIELD / 01</b></span><span class=\"badge\">LOCAL PRACTICE</span><button id=\"pause\">일시정지 <kbd>ESC</kbd></button></header>\n  <section id=\"score\"><span>ELIMINATIONS<strong id=\"kills\">00 <small>/ 10</small></strong></span><span>TIME LEFT<strong id=\"time\">01:30</strong></span><span>ACCURACY<strong id=\"accuracy\">—</strong></span></section>\n  <div id=\"event\" aria-live=\"polite\"></div>\n  <div id=\"reload\" style=\"display: none;\"><span>RELOADING</span><i style=\"transform: scaleX(1);\"></i></div>\n  <div id=\"weapon\"><span id=\"weapon-name\">TRAINING RIFLE</span><strong id=\"ammo\">30 <small>/ 90</small></strong><p><kbd>1</kbd> 소총 <kbd>2</kbd> 권총 <kbd>R</kbd> 재장전</p></div>\n  <div id=\"hint\">WASD 이동 · 마우스 조준 · 클릭 사격 · SPACE 점프 · SHIFT 걷기 · CTRL 앉기</div>\n  <div id=\"overlay\" hidden=\"\">\n    <section class=\"panel\">\n      <div class=\"eyebrow\">INDEPENDENT CLIENT PROTOTYPE</div>\n      <h1 id=\"title\">TAKE A<br><em>BREATH.</em></h1>\n      <p id=\"description\">연습이 일시정지되었습니다.<br>준비되면 이어서 플레이하세요.</p>\n      <div id=\"result\"></div>\n      <label class=\"setting\">명중 표시 스타일 <select id=\"style\" aria-label=\"명중 표시 스타일\"><option value=\"0\">0</option><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option><option value=\"10\">10</option><option value=\"11\">11</option><option value=\"12\">12</option><option value=\"13\">13</option><option value=\"64\">64</option></select></label>\n      <button id=\"start\" class=\"primary\">계속하기 <span>↗</span></button>\n      <button id=\"menu\" class=\"secondary\">메뉴로 돌아가기</button>\n      <p class=\"footnote\">독립 연습용 맵과 규칙 · 복원한 명중 표시 설정 사용</p>\n    </section>\n    <aside><span class=\"eyebrow\">RANGE NOTES</span><h2>한 발씩,<br>정확하게.</h2><p>머리를 맞히면 피해량이 증가합니다.<br>표적은 처치 후 2초 뒤 돌아옵니다.</p><div class=\"keys\"><kbd>W</kbd><br><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></div><p>마우스 잠금이 불가능하면<br>화살표 ← →로 회전할 수 있습니다.</p><span class=\"version\">BUILD 0.2 / OFFLINE</span></aside>\n  </div>\n  <div id=\"connection\" role=\"alert\" hidden=\"\">연결이 끊겼습니다. 실행 창을 확인하고 새로고침하세요.</div>\n</main>\n<script src=\"/app.js\"></script>\n\n</body></html>"
+            }
+          },
+          "accessibility": {
+            "state": "not_requested"
+          },
+          "url": {
+            "state": "not_requested"
+          },
+          "history": {
+            "state": "not_requested"
+          },
+          "storage": {
+            "state": "not_requested"
+          }
+        },
+        "completeness": {
+          "status": "complete",
+          "equality_eligible": true,
+          "missing_sections": [],
+          "truncated_sections": []
+        },
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_index": 5,
+        "step_id": "shot_settled",
+        "action": "wait_for_timeout",
+        "elapsed_ms": 252,
+        "before_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "after_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "event_sequence_start": 1,
+        "event_sequence_end": 0,
+        "artifacts": {
+          "screenshot": {
+            "state": "not_requested"
+          },
+          "dom": {
+            "state": "captured",
+            "value": {
+              "sha256": "74549b05727e79e741b7bed028ec37f9cd419798b0d8c84b04662d48484e003b",
+              "bytes": 3145,
+              "text": "<!DOCTYPE html><html lang=\"ko\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>로컬 연습장 · REA</title><link rel=\"icon\" href=\"data:,\"><link rel=\"stylesheet\" href=\"/style.css\"></head>\n<body>\n<main id=\"app\">\n  <canvas id=\"view\" tabindex=\"0\" aria-label=\"1인칭 로컬 연습장\" width=\"1280\" height=\"720\"></canvas>\n  <canvas id=\"effects\" aria-hidden=\"true\" style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none\" width=\"1280\" height=\"720\"></canvas>\n  <header><span class=\"brand\">REA <b>FIELD / 01</b></span><span class=\"badge\">LOCAL PRACTICE</span><button id=\"pause\">일시정지 <kbd>ESC</kbd></button></header>\n  <section id=\"score\"><span>ELIMINATIONS<strong id=\"kills\">01 <small>/ 10</small></strong></span><span>TIME LEFT<strong id=\"time\">01:30</strong></span><span>ACCURACY<strong id=\"accuracy\">100%</strong></span></section>\n  <div id=\"event\" aria-live=\"polite\">HEADSHOT KILL</div>\n  <div id=\"reload\" style=\"display: none;\"><span>RELOADING</span><i style=\"transform: scaleX(1);\"></i></div>\n  <div id=\"weapon\"><span id=\"weapon-name\">TRAINING RIFLE</span><strong id=\"ammo\">29 <small>/ 90</small></strong><p><kbd>1</kbd> 소총 <kbd>2</kbd> 권총 <kbd>R</kbd> 재장전</p></div>\n  <div id=\"hint\">WASD 이동 · 마우스 조준 · 클릭 사격 · SPACE 점프 · SHIFT 걷기 · CTRL 앉기</div>\n  <div id=\"overlay\" hidden=\"\">\n    <section class=\"panel\">\n      <div class=\"eyebrow\">INDEPENDENT CLIENT PROTOTYPE</div>\n      <h1 id=\"title\">TAKE A<br><em>BREATH.</em></h1>\n      <p id=\"description\">연습이 일시정지되었습니다.<br>준비되면 이어서 플레이하세요.</p>\n      <div id=\"result\"></div>\n      <label class=\"setting\">명중 표시 스타일 <select id=\"style\" aria-label=\"명중 표시 스타일\"><option value=\"0\">0</option><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option><option value=\"10\">10</option><option value=\"11\">11</option><option value=\"12\">12</option><option value=\"13\">13</option><option value=\"64\">64</option></select></label>\n      <button id=\"start\" class=\"primary\">계속하기 <span>↗</span></button>\n      <button id=\"menu\" class=\"secondary\">메뉴로 돌아가기</button>\n      <p class=\"footnote\">독립 연습용 맵과 규칙 · 복원한 명중 표시 설정 사용</p>\n    </section>\n    <aside><span class=\"eyebrow\">RANGE NOTES</span><h2>한 발씩,<br>정확하게.</h2><p>머리를 맞히면 피해량이 증가합니다.<br>표적은 처치 후 2초 뒤 돌아옵니다.</p><div class=\"keys\"><kbd>W</kbd><br><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></div><p>마우스 잠금이 불가능하면<br>화살표 ← →로 회전할 수 있습니다.</p><span class=\"version\">BUILD 0.2 / OFFLINE</span></aside>\n  </div>\n  <div id=\"connection\" role=\"alert\" hidden=\"\">연결이 끊겼습니다. 실행 창을 확인하고 새로고침하세요.</div>\n</main>\n<script src=\"/app.js\"></script>\n\n</body></html>"
+            }
+          },
+          "accessibility": {
+            "state": "not_requested"
+          },
+          "url": {
+            "state": "not_requested"
+          },
+          "history": {
+            "state": "not_requested"
+          },
+          "storage": {
+            "state": "not_requested"
+          }
+        },
+        "completeness": {
+          "status": "complete",
+          "equality_eligible": true,
+          "missing_sections": [],
+          "truncated_sections": []
+        },
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_index": 6,
+        "step_id": "switch",
+        "action": "press",
+        "elapsed_ms": 6,
+        "before_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "after_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "event_sequence_start": 1,
+        "event_sequence_end": 0,
+        "artifacts": {
+          "screenshot": {
+            "state": "not_requested"
+          },
+          "dom": {
+            "state": "captured",
+            "value": {
+              "sha256": "74549b05727e79e741b7bed028ec37f9cd419798b0d8c84b04662d48484e003b",
+              "bytes": 3145,
+              "text": "<!DOCTYPE html><html lang=\"ko\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>로컬 연습장 · REA</title><link rel=\"icon\" href=\"data:,\"><link rel=\"stylesheet\" href=\"/style.css\"></head>\n<body>\n<main id=\"app\">\n  <canvas id=\"view\" tabindex=\"0\" aria-label=\"1인칭 로컬 연습장\" width=\"1280\" height=\"720\"></canvas>\n  <canvas id=\"effects\" aria-hidden=\"true\" style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none\" width=\"1280\" height=\"720\"></canvas>\n  <header><span class=\"brand\">REA <b>FIELD / 01</b></span><span class=\"badge\">LOCAL PRACTICE</span><button id=\"pause\">일시정지 <kbd>ESC</kbd></button></header>\n  <section id=\"score\"><span>ELIMINATIONS<strong id=\"kills\">01 <small>/ 10</small></strong></span><span>TIME LEFT<strong id=\"time\">01:30</strong></span><span>ACCURACY<strong id=\"accuracy\">100%</strong></span></section>\n  <div id=\"event\" aria-live=\"polite\">HEADSHOT KILL</div>\n  <div id=\"reload\" style=\"display: none;\"><span>RELOADING</span><i style=\"transform: scaleX(1);\"></i></div>\n  <div id=\"weapon\"><span id=\"weapon-name\">TRAINING RIFLE</span><strong id=\"ammo\">29 <small>/ 90</small></strong><p><kbd>1</kbd> 소총 <kbd>2</kbd> 권총 <kbd>R</kbd> 재장전</p></div>\n  <div id=\"hint\">WASD 이동 · 마우스 조준 · 클릭 사격 · SPACE 점프 · SHIFT 걷기 · CTRL 앉기</div>\n  <div id=\"overlay\" hidden=\"\">\n    <section class=\"panel\">\n      <div class=\"eyebrow\">INDEPENDENT CLIENT PROTOTYPE</div>\n      <h1 id=\"title\">TAKE A<br><em>BREATH.</em></h1>\n      <p id=\"description\">연습이 일시정지되었습니다.<br>준비되면 이어서 플레이하세요.</p>\n      <div id=\"result\"></div>\n      <label class=\"setting\">명중 표시 스타일 <select id=\"style\" aria-label=\"명중 표시 스타일\"><option value=\"0\">0</option><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option><option value=\"10\">10</option><option value=\"11\">11</option><option value=\"12\">12</option><option value=\"13\">13</option><option value=\"64\">64</option></select></label>\n      <button id=\"start\" class=\"primary\">계속하기 <span>↗</span></button>\n      <button id=\"menu\" class=\"secondary\">메뉴로 돌아가기</button>\n      <p class=\"footnote\">독립 연습용 맵과 규칙 · 복원한 명중 표시 설정 사용</p>\n    </section>\n    <aside><span class=\"eyebrow\">RANGE NOTES</span><h2>한 발씩,<br>정확하게.</h2><p>머리를 맞히면 피해량이 증가합니다.<br>표적은 처치 후 2초 뒤 돌아옵니다.</p><div class=\"keys\"><kbd>W</kbd><br><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></div><p>마우스 잠금이 불가능하면<br>화살표 ← →로 회전할 수 있습니다.</p><span class=\"version\">BUILD 0.2 / OFFLINE</span></aside>\n  </div>\n  <div id=\"connection\" role=\"alert\" hidden=\"\">연결이 끊겼습니다. 실행 창을 확인하고 새로고침하세요.</div>\n</main>\n<script src=\"/app.js\"></script>\n\n</body></html>"
+            }
+          },
+          "accessibility": {
+            "state": "not_requested"
+          },
+          "url": {
+            "state": "not_requested"
+          },
+          "history": {
+            "state": "not_requested"
+          },
+          "storage": {
+            "state": "not_requested"
+          }
+        },
+        "completeness": {
+          "status": "complete",
+          "equality_eligible": true,
+          "missing_sections": [],
+          "truncated_sections": []
+        },
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_index": 7,
+        "step_id": "switched",
+        "action": "wait_for_timeout",
+        "elapsed_ms": 264,
+        "before_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "after_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "event_sequence_start": 1,
+        "event_sequence_end": 0,
+        "artifacts": {
+          "screenshot": {
+            "state": "not_requested"
+          },
+          "dom": {
+            "state": "captured",
+            "value": {
+              "sha256": "a37807022368fc6e69a373e4c52974faae1d269c4a171d9ae05bffb644d71564",
+              "bytes": 3145,
+              "text": "<!DOCTYPE html><html lang=\"ko\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>로컬 연습장 · REA</title><link rel=\"icon\" href=\"data:,\"><link rel=\"stylesheet\" href=\"/style.css\"></head>\n<body>\n<main id=\"app\">\n  <canvas id=\"view\" tabindex=\"0\" aria-label=\"1인칭 로컬 연습장\" width=\"1280\" height=\"720\"></canvas>\n  <canvas id=\"effects\" aria-hidden=\"true\" style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none\" width=\"1280\" height=\"720\"></canvas>\n  <header><span class=\"brand\">REA <b>FIELD / 01</b></span><span class=\"badge\">LOCAL PRACTICE</span><button id=\"pause\">일시정지 <kbd>ESC</kbd></button></header>\n  <section id=\"score\"><span>ELIMINATIONS<strong id=\"kills\">01 <small>/ 10</small></strong></span><span>TIME LEFT<strong id=\"time\">01:30</strong></span><span>ACCURACY<strong id=\"accuracy\">100%</strong></span></section>\n  <div id=\"event\" aria-live=\"polite\">HEADSHOT KILL</div>\n  <div id=\"reload\" style=\"display: none;\"><span>RELOADING</span><i style=\"transform: scaleX(1);\"></i></div>\n  <div id=\"weapon\"><span id=\"weapon-name\">TRAINING PISTOL</span><strong id=\"ammo\">7 <small>/ 35</small></strong><p><kbd>1</kbd> 소총 <kbd>2</kbd> 권총 <kbd>R</kbd> 재장전</p></div>\n  <div id=\"hint\">WASD 이동 · 마우스 조준 · 클릭 사격 · SPACE 점프 · SHIFT 걷기 · CTRL 앉기</div>\n  <div id=\"overlay\" hidden=\"\">\n    <section class=\"panel\">\n      <div class=\"eyebrow\">INDEPENDENT CLIENT PROTOTYPE</div>\n      <h1 id=\"title\">TAKE A<br><em>BREATH.</em></h1>\n      <p id=\"description\">연습이 일시정지되었습니다.<br>준비되면 이어서 플레이하세요.</p>\n      <div id=\"result\"></div>\n      <label class=\"setting\">명중 표시 스타일 <select id=\"style\" aria-label=\"명중 표시 스타일\"><option value=\"0\">0</option><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option><option value=\"10\">10</option><option value=\"11\">11</option><option value=\"12\">12</option><option value=\"13\">13</option><option value=\"64\">64</option></select></label>\n      <button id=\"start\" class=\"primary\">계속하기 <span>↗</span></button>\n      <button id=\"menu\" class=\"secondary\">메뉴로 돌아가기</button>\n      <p class=\"footnote\">독립 연습용 맵과 규칙 · 복원한 명중 표시 설정 사용</p>\n    </section>\n    <aside><span class=\"eyebrow\">RANGE NOTES</span><h2>한 발씩,<br>정확하게.</h2><p>머리를 맞히면 피해량이 증가합니다.<br>표적은 처치 후 2초 뒤 돌아옵니다.</p><div class=\"keys\"><kbd>W</kbd><br><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></div><p>마우스 잠금이 불가능하면<br>화살표 ← →로 회전할 수 있습니다.</p><span class=\"version\">BUILD 0.2 / OFFLINE</span></aside>\n  </div>\n  <div id=\"connection\" role=\"alert\" hidden=\"\">연결이 끊겼습니다. 실행 창을 확인하고 새로고침하세요.</div>\n</main>\n<script src=\"/app.js\"></script>\n\n</body></html>"
+            }
+          },
+          "accessibility": {
+            "state": "not_requested"
+          },
+          "url": {
+            "state": "not_requested"
+          },
+          "history": {
+            "state": "not_requested"
+          },
+          "storage": {
+            "state": "not_requested"
+          }
+        },
+        "completeness": {
+          "status": "complete",
+          "equality_eligible": true,
+          "missing_sections": [],
+          "truncated_sections": []
+        },
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_index": 8,
+        "step_id": "pause",
+        "action": "press",
+        "elapsed_ms": 4,
+        "before_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "after_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "event_sequence_start": 1,
+        "event_sequence_end": 0,
+        "artifacts": {
+          "screenshot": {
+            "state": "not_requested"
+          },
+          "dom": {
+            "state": "captured",
+            "value": {
+              "sha256": "a37807022368fc6e69a373e4c52974faae1d269c4a171d9ae05bffb644d71564",
+              "bytes": 3145,
+              "text": "<!DOCTYPE html><html lang=\"ko\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>로컬 연습장 · REA</title><link rel=\"icon\" href=\"data:,\"><link rel=\"stylesheet\" href=\"/style.css\"></head>\n<body>\n<main id=\"app\">\n  <canvas id=\"view\" tabindex=\"0\" aria-label=\"1인칭 로컬 연습장\" width=\"1280\" height=\"720\"></canvas>\n  <canvas id=\"effects\" aria-hidden=\"true\" style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none\" width=\"1280\" height=\"720\"></canvas>\n  <header><span class=\"brand\">REA <b>FIELD / 01</b></span><span class=\"badge\">LOCAL PRACTICE</span><button id=\"pause\">일시정지 <kbd>ESC</kbd></button></header>\n  <section id=\"score\"><span>ELIMINATIONS<strong id=\"kills\">01 <small>/ 10</small></strong></span><span>TIME LEFT<strong id=\"time\">01:30</strong></span><span>ACCURACY<strong id=\"accuracy\">100%</strong></span></section>\n  <div id=\"event\" aria-live=\"polite\">HEADSHOT KILL</div>\n  <div id=\"reload\" style=\"display: none;\"><span>RELOADING</span><i style=\"transform: scaleX(1);\"></i></div>\n  <div id=\"weapon\"><span id=\"weapon-name\">TRAINING PISTOL</span><strong id=\"ammo\">7 <small>/ 35</small></strong><p><kbd>1</kbd> 소총 <kbd>2</kbd> 권총 <kbd>R</kbd> 재장전</p></div>\n  <div id=\"hint\">WASD 이동 · 마우스 조준 · 클릭 사격 · SPACE 점프 · SHIFT 걷기 · CTRL 앉기</div>\n  <div id=\"overlay\" hidden=\"\">\n    <section class=\"panel\">\n      <div class=\"eyebrow\">INDEPENDENT CLIENT PROTOTYPE</div>\n      <h1 id=\"title\">TAKE A<br><em>BREATH.</em></h1>\n      <p id=\"description\">연습이 일시정지되었습니다.<br>준비되면 이어서 플레이하세요.</p>\n      <div id=\"result\"></div>\n      <label class=\"setting\">명중 표시 스타일 <select id=\"style\" aria-label=\"명중 표시 스타일\"><option value=\"0\">0</option><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option><option value=\"10\">10</option><option value=\"11\">11</option><option value=\"12\">12</option><option value=\"13\">13</option><option value=\"64\">64</option></select></label>\n      <button id=\"start\" class=\"primary\">계속하기 <span>↗</span></button>\n      <button id=\"menu\" class=\"secondary\">메뉴로 돌아가기</button>\n      <p class=\"footnote\">독립 연습용 맵과 규칙 · 복원한 명중 표시 설정 사용</p>\n    </section>\n    <aside><span class=\"eyebrow\">RANGE NOTES</span><h2>한 발씩,<br>정확하게.</h2><p>머리를 맞히면 피해량이 증가합니다.<br>표적은 처치 후 2초 뒤 돌아옵니다.</p><div class=\"keys\"><kbd>W</kbd><br><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></div><p>마우스 잠금이 불가능하면<br>화살표 ← →로 회전할 수 있습니다.</p><span class=\"version\">BUILD 0.2 / OFFLINE</span></aside>\n  </div>\n  <div id=\"connection\" role=\"alert\" hidden=\"\">연결이 끊겼습니다. 실행 창을 확인하고 새로고침하세요.</div>\n</main>\n<script src=\"/app.js\"></script>\n\n</body></html>"
+            }
+          },
+          "accessibility": {
+            "state": "not_requested"
+          },
+          "url": {
+            "state": "not_requested"
+          },
+          "history": {
+            "state": "not_requested"
+          },
+          "storage": {
+            "state": "not_requested"
+          }
+        },
+        "completeness": {
+          "status": "complete",
+          "equality_eligible": true,
+          "missing_sections": [],
+          "truncated_sections": []
+        },
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_index": 9,
+        "step_id": "paused",
+        "action": "wait_for",
+        "elapsed_ms": 27,
+        "before_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "after_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "event_sequence_start": 1,
+        "event_sequence_end": 0,
+        "artifacts": {
+          "screenshot": {
+            "state": "not_requested"
+          },
+          "dom": {
+            "state": "captured",
+            "value": {
+              "sha256": "2214f2a05cd87bde846ec2a54c2bd5a7d30048b8c3bd0638daf524d27923af16",
+              "bytes": 3145,
+              "text": "<!DOCTYPE html><html lang=\"ko\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>로컬 연습장 · REA</title><link rel=\"icon\" href=\"data:,\"><link rel=\"stylesheet\" href=\"/style.css\"></head>\n<body>\n<main id=\"app\">\n  <canvas id=\"view\" tabindex=\"0\" aria-label=\"1인칭 로컬 연습장\" width=\"1280\" height=\"720\"></canvas>\n  <canvas id=\"effects\" aria-hidden=\"true\" style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none\" width=\"1280\" height=\"720\"></canvas>\n  <header><span class=\"brand\">REA <b>FIELD / 01</b></span><span class=\"badge\">LOCAL PRACTICE</span><button id=\"pause\" hidden=\"\">일시정지 <kbd>ESC</kbd></button></header>\n  <section id=\"score\"><span>ELIMINATIONS<strong id=\"kills\">01 <small>/ 10</small></strong></span><span>TIME LEFT<strong id=\"time\">01:30</strong></span><span>ACCURACY<strong id=\"accuracy\">100%</strong></span></section>\n  <div id=\"event\" aria-live=\"polite\">HEADSHOT KILL</div>\n  <div id=\"reload\" style=\"display: none;\"><span>RELOADING</span><i style=\"transform: scaleX(1);\"></i></div>\n  <div id=\"weapon\"><span id=\"weapon-name\">TRAINING PISTOL</span><strong id=\"ammo\">7 <small>/ 35</small></strong><p><kbd>1</kbd> 소총 <kbd>2</kbd> 권총 <kbd>R</kbd> 재장전</p></div>\n  <div id=\"hint\">WASD 이동 · 마우스 조준 · 클릭 사격 · SPACE 점프 · SHIFT 걷기 · CTRL 앉기</div>\n  <div id=\"overlay\">\n    <section class=\"panel\">\n      <div class=\"eyebrow\">INDEPENDENT CLIENT PROTOTYPE</div>\n      <h1 id=\"title\">TAKE A<br><em>BREATH.</em></h1>\n      <p id=\"description\">연습이 일시정지되었습니다.<br>준비되면 이어서 플레이하세요.</p>\n      <div id=\"result\"></div>\n      <label class=\"setting\">명중 표시 스타일 <select id=\"style\" aria-label=\"명중 표시 스타일\"><option value=\"0\">0</option><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option><option value=\"10\">10</option><option value=\"11\">11</option><option value=\"12\">12</option><option value=\"13\">13</option><option value=\"64\">64</option></select></label>\n      <button id=\"start\" class=\"primary\">계속하기 <span>↗</span></button>\n      <button id=\"menu\" class=\"secondary\">메뉴로 돌아가기</button>\n      <p class=\"footnote\">독립 연습용 맵과 규칙 · 복원한 명중 표시 설정 사용</p>\n    </section>\n    <aside><span class=\"eyebrow\">RANGE NOTES</span><h2>한 발씩,<br>정확하게.</h2><p>머리를 맞히면 피해량이 증가합니다.<br>표적은 처치 후 2초 뒤 돌아옵니다.</p><div class=\"keys\"><kbd>W</kbd><br><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></div><p>마우스 잠금이 불가능하면<br>화살표 ← →로 회전할 수 있습니다.</p><span class=\"version\">BUILD 0.2 / OFFLINE</span></aside>\n  </div>\n  <div id=\"connection\" role=\"alert\" hidden=\"\">연결이 끊겼습니다. 실행 창을 확인하고 새로고침하세요.</div>\n</main>\n<script src=\"/app.js\"></script>\n\n</body></html>"
+            }
+          },
+          "accessibility": {
+            "state": "not_requested"
+          },
+          "url": {
+            "state": "not_requested"
+          },
+          "history": {
+            "state": "not_requested"
+          },
+          "storage": {
+            "state": "not_requested"
+          }
+        },
+        "completeness": {
+          "status": "complete",
+          "equality_eligible": true,
+          "missing_sections": [],
+          "truncated_sections": []
+        },
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_index": 10,
+        "step_id": "resume",
+        "action": "click",
+        "elapsed_ms": 16,
+        "before_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "after_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "event_sequence_start": 1,
+        "event_sequence_end": 0,
+        "artifacts": {
+          "screenshot": {
+            "state": "not_requested"
+          },
+          "dom": {
+            "state": "captured",
+            "value": {
+              "sha256": "2214f2a05cd87bde846ec2a54c2bd5a7d30048b8c3bd0638daf524d27923af16",
+              "bytes": 3145,
+              "text": "<!DOCTYPE html><html lang=\"ko\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>로컬 연습장 · REA</title><link rel=\"icon\" href=\"data:,\"><link rel=\"stylesheet\" href=\"/style.css\"></head>\n<body>\n<main id=\"app\">\n  <canvas id=\"view\" tabindex=\"0\" aria-label=\"1인칭 로컬 연습장\" width=\"1280\" height=\"720\"></canvas>\n  <canvas id=\"effects\" aria-hidden=\"true\" style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none\" width=\"1280\" height=\"720\"></canvas>\n  <header><span class=\"brand\">REA <b>FIELD / 01</b></span><span class=\"badge\">LOCAL PRACTICE</span><button id=\"pause\" hidden=\"\">일시정지 <kbd>ESC</kbd></button></header>\n  <section id=\"score\"><span>ELIMINATIONS<strong id=\"kills\">01 <small>/ 10</small></strong></span><span>TIME LEFT<strong id=\"time\">01:30</strong></span><span>ACCURACY<strong id=\"accuracy\">100%</strong></span></section>\n  <div id=\"event\" aria-live=\"polite\">HEADSHOT KILL</div>\n  <div id=\"reload\" style=\"display: none;\"><span>RELOADING</span><i style=\"transform: scaleX(1);\"></i></div>\n  <div id=\"weapon\"><span id=\"weapon-name\">TRAINING PISTOL</span><strong id=\"ammo\">7 <small>/ 35</small></strong><p><kbd>1</kbd> 소총 <kbd>2</kbd> 권총 <kbd>R</kbd> 재장전</p></div>\n  <div id=\"hint\">WASD 이동 · 마우스 조준 · 클릭 사격 · SPACE 점프 · SHIFT 걷기 · CTRL 앉기</div>\n  <div id=\"overlay\">\n    <section class=\"panel\">\n      <div class=\"eyebrow\">INDEPENDENT CLIENT PROTOTYPE</div>\n      <h1 id=\"title\">TAKE A<br><em>BREATH.</em></h1>\n      <p id=\"description\">연습이 일시정지되었습니다.<br>준비되면 이어서 플레이하세요.</p>\n      <div id=\"result\"></div>\n      <label class=\"setting\">명중 표시 스타일 <select id=\"style\" aria-label=\"명중 표시 스타일\"><option value=\"0\">0</option><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option><option value=\"10\">10</option><option value=\"11\">11</option><option value=\"12\">12</option><option value=\"13\">13</option><option value=\"64\">64</option></select></label>\n      <button id=\"start\" class=\"primary\">계속하기 <span>↗</span></button>\n      <button id=\"menu\" class=\"secondary\">메뉴로 돌아가기</button>\n      <p class=\"footnote\">독립 연습용 맵과 규칙 · 복원한 명중 표시 설정 사용</p>\n    </section>\n    <aside><span class=\"eyebrow\">RANGE NOTES</span><h2>한 발씩,<br>정확하게.</h2><p>머리를 맞히면 피해량이 증가합니다.<br>표적은 처치 후 2초 뒤 돌아옵니다.</p><div class=\"keys\"><kbd>W</kbd><br><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></div><p>마우스 잠금이 불가능하면<br>화살표 ← →로 회전할 수 있습니다.</p><span class=\"version\">BUILD 0.2 / OFFLINE</span></aside>\n  </div>\n  <div id=\"connection\" role=\"alert\" hidden=\"\">연결이 끊겼습니다. 실행 창을 확인하고 새로고침하세요.</div>\n</main>\n<script src=\"/app.js\"></script>\n\n</body></html>"
+            }
+          },
+          "accessibility": {
+            "state": "not_requested"
+          },
+          "url": {
+            "state": "not_requested"
+          },
+          "history": {
+            "state": "not_requested"
+          },
+          "storage": {
+            "state": "not_requested"
+          }
+        },
+        "completeness": {
+          "status": "complete",
+          "equality_eligible": true,
+          "missing_sections": [],
+          "truncated_sections": []
+        },
+        "status": "completed",
+        "error": null
+      },
+      {
+        "step_index": 11,
+        "step_id": "resumed",
+        "action": "wait_for",
+        "elapsed_ms": 56,
+        "before_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "after_url": {
+          "url": "http://127.0.0.1:8765/#rZ12MYjIUf99xX29JN_SZl4LVJNmBisv",
+          "origin": "http://127.0.0.1:8765",
+          "query_parameter_names": [],
+          "redacted": false
+        },
+        "event_sequence_start": 1,
+        "event_sequence_end": 0,
+        "artifacts": {
+          "screenshot": {
+            "state": "captured",
+            "value": {
+              "sha256": "adadcac02f144ca444ad3376650a9a56d5b67ef6ca73e0d3e075c5b60e02b9ed",
+              "bytes": 43073,
+              "media_type": "image/png",
+              "data_base64": "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"
+            }
+          },
+          "dom": {
+            "state": "captured",
+            "value": {
+              "sha256": "a37807022368fc6e69a373e4c52974faae1d269c4a171d9ae05bffb644d71564",
+              "bytes": 3145,
+              "text": "<!DOCTYPE html><html lang=\"ko\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>로컬 연습장 · REA</title><link rel=\"icon\" href=\"data:,\"><link rel=\"stylesheet\" href=\"/style.css\"></head>\n<body>\n<main id=\"app\">\n  <canvas id=\"view\" tabindex=\"0\" aria-label=\"1인칭 로컬 연습장\" width=\"1280\" height=\"720\"></canvas>\n  <canvas id=\"effects\" aria-hidden=\"true\" style=\"position:absolute;inset:0;width:100%;height:100%;pointer-events:none\" width=\"1280\" height=\"720\"></canvas>\n  <header><span class=\"brand\">REA <b>FIELD / 01</b></span><span class=\"badge\">LOCAL PRACTICE</span><button id=\"pause\">일시정지 <kbd>ESC</kbd></button></header>\n  <section id=\"score\"><span>ELIMINATIONS<strong id=\"kills\">01 <small>/ 10</small></strong></span><span>TIME LEFT<strong id=\"time\">01:30</strong></span><span>ACCURACY<strong id=\"accuracy\">100%</strong></span></section>\n  <div id=\"event\" aria-live=\"polite\">HEADSHOT KILL</div>\n  <div id=\"reload\" style=\"display: none;\"><span>RELOADING</span><i style=\"transform: scaleX(1);\"></i></div>\n  <div id=\"weapon\"><span id=\"weapon-name\">TRAINING PISTOL</span><strong id=\"ammo\">7 <small>/ 35</small></strong><p><kbd>1</kbd> 소총 <kbd>2</kbd> 권총 <kbd>R</kbd> 재장전</p></div>\n  <div id=\"hint\">WASD 이동 · 마우스 조준 · 클릭 사격 · SPACE 점프 · SHIFT 걷기 · CTRL 앉기</div>\n  <div id=\"overlay\" hidden=\"\">\n    <section class=\"panel\">\n      <div class=\"eyebrow\">INDEPENDENT CLIENT PROTOTYPE</div>\n      <h1 id=\"title\">TAKE A<br><em>BREATH.</em></h1>\n      <p id=\"description\">연습이 일시정지되었습니다.<br>준비되면 이어서 플레이하세요.</p>\n      <div id=\"result\"></div>\n      <label class=\"setting\">명중 표시 스타일 <select id=\"style\" aria-label=\"명중 표시 스타일\"><option value=\"0\">0</option><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option><option value=\"10\">10</option><option value=\"11\">11</option><option value=\"12\">12</option><option value=\"13\">13</option><option value=\"64\">64</option></select></label>\n      <button id=\"start\" class=\"primary\">계속하기 <span>↗</span></button>\n      <button id=\"menu\" class=\"secondary\">메뉴로 돌아가기</button>\n      <p class=\"footnote\">독립 연습용 맵과 규칙 · 복원한 명중 표시 설정 사용</p>\n    </section>\n    <aside><span class=\"eyebrow\">RANGE NOTES</span><h2>한 발씩,<br>정확하게.</h2><p>머리를 맞히면 피해량이 증가합니다.<br>표적은 처치 후 2초 뒤 돌아옵니다.</p><div class=\"keys\"><kbd>W</kbd><br><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></div><p>마우스 잠금이 불가능하면<br>화살표 ← →로 회전할 수 있습니다.</p><span class=\"version\">BUILD 0.2 / OFFLINE</span></aside>\n  </div>\n  <div id=\"connection\" role=\"alert\" hidden=\"\">연결이 끊겼습니다. 실행 창을 확인하고 새로고침하세요.</div>\n</main>\n<script src=\"/app.js\"></script>\n\n</body></html>"
+            }
+          },
+          "accessibility": {
+            "state": "not_requested"
+          },
+          "url": {
+            "state": "not_requested"
+          },
+          "history": {
+            "state": "not_requested"
+          },
+          "storage": {
+            "state": "not_requested"
+          }
+        },
+        "completeness": {
+          "status": "complete",
+          "equality_eligible": true,
+          "missing_sections": [],
+          "truncated_sections": []
+        },
+        "status": "completed",
+        "error": null
+      }
+    ],
+    "events": {
+      "retained": 0,
+      "dropped": 0,
+      "items": [],
+      "omissions": {
+        "by_kind": [],
+        "network_transactions": [],
+        "network_transaction_range": null
+      }
+    },
+    "completeness": {
+      "status": "complete",
+      "equality_eligible": true,
+      "missing_sections": [],
+      "truncated_sections": []
+    },
+    "limitations": [
+      "Event sequence records provider receipt order; simultaneous browser causality is not inferred.",
+      "Network content is retained only when selected; Playwright response-body bytes are API results and are not guaranteed to match wire bytes.",
+      "Request bytes are limited to what Playwright exposes; not_exposed does not establish body absence or multipart file coverage.",
+      "Network content reads settle within 5 seconds each and the observer does not request bodies from unfinished responses.",
+      "Playwright scenario events do not expose request initiator stacks; receipt order does not prove causality.",
+      "Storage values are hashed only after declared-secret redaction."
+    ]
+  },
+  "confidence": "observed",
+  "authority": "controlled-replay",
+  "environment": {
+    "id": "Chromium@157.0.8103.40",
+    "platform": "unknown",
+    "architecture": "unknown",
+    "isolation": "process"
+  },
+  "limitations": [
+    "Artifact identity is unavailable for this observation.",
+    "Event sequence records provider receipt order; simultaneous browser causality is not inferred.",
+    "Network content is retained only when selected; Playwright response-body bytes are API results and are not guaranteed to match wire bytes.",
+    "Request bytes are limited to what Playwright exposes; not_exposed does not establish body absence or multipart file coverage.",
+    "Network content reads settle within 5 seconds each and the observer does not request bodies from unfinished responses.",
+    "Playwright scenario events do not expose request initiator stacks; receipt order does not prove causality.",
+    "Storage values are hashed only after declared-secret redaction.",
+    "Browser host platform and architecture were not observed."
+  ],
+  "relationship_coverage": null,
+  "locations": [],
+  "evidence_links": []
+}

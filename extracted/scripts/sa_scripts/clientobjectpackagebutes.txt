@@ -1,0 +1,697 @@
+//	[ClientObjectWeapon???]
+//	********************************************************************************************************************************************************
+// InstDamageType 직격 대미지의 대미지 타입. 아래 각 값에 대해서는 HellgadeDamageFactor.txt를 참고.
+//		bulletBasic // 과거 vsSkin 값이 없으면 이 값을 디폴트로 사용.
+//		bulletAntiPersonnel
+//		bulletAntiLightArmor
+//		allRoundType
+//		repair
+//		notModify  - 폭탄을 제외하면 대미지가 모두 100% 들어감. 테스트용으로 활용 권장.
+//		handGrenade
+//		knife
+//		instDmgByGeneralProjectile
+//		instDmgByArtillery
+//		instDmgByTank
+//		instDmgVehicleMG
+//		areaDmgByGeneralProjectile
+//		areaDmgByStrategicWeapon
+//		areaDmgByBomb
+//		areaDmgByTank
+//		areaDmgByTower
+//		areaDmgByTowerTemp
+// AreaDamageType 범위 대미지의 대미지 타입. 가지는 값은 위의 InstDamageType 와 동일하다.
+// InstDamage		직격 대미지
+// AreaDamage		범위 대미지
+//	Range			목표지점에서 대미지를 줄 범위 = 폭발 범위.
+// ReloadCycle	몇 발 만에 한 번 리로드를 하는 가.
+// ReloadTime	리로드에 걸리는 시간.
+// AfterDelayTime  연사력. 한 발 쏜 다음 다음 쏠 때 까지 걸리는 시간. 동기화 문제로 인해 0.1이 최소값이다
+//	Projectile		디스플레이되는 발사체로 ClientObjectButes.txt에 있는 모델의 아이디(-1일 경우 발사체가 없는것으로 할 예정)
+//	Velocity		Projectile아이디(발사체)가 존재한다면 날라가는 속도를 조절한다
+// RecoilVelocity	발사시 반동 정도. 
+//	Effect			발사시점에서의 이펙트, |를 사용해서 여러게 등록해 놓으면 랜덤하게 호출
+// TracerFX	총을 사용할 때 쓰는 이펙트.
+//	Trace			True/False. TargetTraceTexture를 켤 것인지 여부. 켜면 빔 이펙트가 마우스 이동시 따라간다. 프로젝타일 비행 예상 궤도 그려주는 부분.
+// TargetTraceTexture	TargetTraceTexture의 리소스.
+// TargetDir	실제 어택을 포방향이 아닌 타겟방향으로 다이렉트로 하게 만드는 옵션
+// ViewArea	어택되는 곳의 대미지 범위 표시여부
+// TargetCrosshair 포가 바라보는 방향을 알려주는 UI 요소. 이거 이미지 바꿔야 하는데...
+// Icon 화면 우측 하단에 표시될 해당 무기의 이름.
+//	BeamEffect		빔 이펙트
+//	DamageType
+//		0 DT_UNSPECIFIED - Unknown type (self-damage)
+//		1 DT_BLEEDING - (loss of blood)
+//	*	2 DT_BULLET - (bullets)
+//		3 DT_BURN - (fire, corrosives)
+//		4 DT_CHOKE - (water, hostile atmosphere)
+//		5 DT_CRUSH - (falling, crushing, collision)
+//		6 DT_ELECTROCUTE - (electricity)
+//		7 DT_EXPLODE - (explosions)
+//		8 DT_FREEZE - (freezing air or fluid)
+//		9 DT_POISON - (poison gas/dart)
+//		10 DT_ENDLESS_FALL - (Falling and can never get up)
+//		11 DT_SLEEPING
+//		12 DT_STUN 
+//	*	13 DT_MELEE
+//		14 DT_CAMERA_DISABLER
+//		15 DT_GLUE - (Glue Bomb)
+//		16 DT_BEAR_TRAP
+//		17 DT_LAUGHING - (Uncontrolable Laughing)
+//		18 DT_ASSS - (Anti-super soldier serum)
+// Special gadget damage types...
+//		19 DT_GADGET_CODE_DECIPHERER
+//		20 DT_GADGET_POODLE
+//		21 DT_GADGET_LOCK_PICK
+//		22 DT_GADGET_WELDER
+//		23 DT_GADGET_LIGHTER
+//		24 DT_GADGET_CAMERA
+//		25 DT_WORLDONLY (can only damage worldmodels)
+//		26 DT_GADGET_INFRA_RED
+//		27 DT_GADGET_DECAYPOWDER
+//		28 DT_GADGET_TIME_BOMB
+//		29 DT_GADGET_INK_REAGENT
+//		30 DT_GADGET_EAVESDROPBUG
+//		31 DT_SLIPPERY - (Banana, oil slick)
+//		32 DT_SWORD - (Katana, Tulwar)
+//		33 DT_GADGET_TRACKER							
+//		34 DT_DOOMSDAYBURN
+//		35 DT_GADGET_CAPTURED_TARGET
+//HeadShot Mode
+//		36 DT_SUICIDE_HEAD_SHOT_MODE
+//	*	37 DT_HAMMERMELEE
+//	*	38 DT_VAMPIREMELEE
+//	*	39 DT_HAMMERMELEE2, damagetypes.txt 추가해야함.
+//		40 DT_MASSIVEATTACK, [BALGURUKI] 38에서 바꿈
+//		41 DT_GADGET_HEARTBEAT
+//	********************************************************************************************************************************************************
+
+//기동 차량, 장갑차
+[ClientObjectWeapon1]
+InstDamageType      = "instDmgVehicleMG" 
+AreaDamageType	    = "notModify" //총기형에는 이 수치가 필요 없는데 어쩔까요... 이 행 삭제하는 게 좋을까요?
+InstDamage = 70
+AreaDamage = 0
+Range		= 0
+ReloadCycle = 100
+ReloadTime = 2.0
+AfterDelayTime  = 0.1
+Projectile	= -1
+Velocity	= 150
+RecoilVelocity	= 0.5
+Effect		= "Tank_MGFire_Muzz"
+//TracerFX	= "tracer_tank"
+Trace		= false
+TargetCrosshair	= "sa_interface\hud\hellgade\add_1\crosshair"
+Icon		= "sa_interface2\hud\hellgade\VehicleWeapon\HeavyMachineGun_12_7mm.dtx"
+DamageType	= 2
+
+//포격 차량 일반탄 공격 //구 자주포
+[ClientObjectWeapon2]
+InstDamageType      = "instDmgByArtillery"
+AreaDamageType	    = "areaDmgByArtillery"
+InstDamage =  220
+AreaDamage = 125
+Range		= 400  // 200 -> 400 김문기 -> 300 조대환 -> 400 조대환
+ReloadCycle = 1
+ReloadTime = 1.5
+AfterDelayTime  = 1.5 // 사실상 의미 없음.
+Projectile	= 100011
+Velocity	= 19
+RecoilVelocity	= 2.5
+Effect		= "Tank_Fire_Muzz_Artillery" //7.25 신규 MUZZ로 변경
+Trace		= true
+ViewArea	= true
+TargetTraceTexture	= "sa_interface2\hud\hellgade\TankTrace.dtx"
+//TargetCrosshair	= "sa_interface\hud\crosshair\add_3\crosshair"
+Icon		= "sa_interface2\hud\hellgade\VehicleWeapon\HES_155mm.dtx"
+DamageType	= 2
+
+
+//포격 차량 특수탄 공격 //구 자주포
+[ClientObjectWeapon3]
+InstDamageType      = "instDmgByArtillerySpecial"
+AreaDamageType	    = "areaDmgByArtillery" //"areaDmgByGeneralProjectile" 조대환 2014.05.22.
+InstDamage = 440
+AreaDamage = 250
+Range		= 600 // 200 -> 400 -> 600 조대환, 2014.06.25.
+ReloadCycle = 1
+ReloadTime = 1.5
+AfterDelayTime  = 1.5 // 사실상 의미 없음.
+Projectile	= 100012
+Velocity	= 19
+RecoilVelocity	= 4.5
+Effect		= "Tank_Fire_Muzz_Artillery_R" //07.25 신규 MUZZ로 변경
+Trace		= true
+ViewArea	= true
+TargetTraceTexture	= "sa_interface2\hud\hellgade\TankTrace.dtx"
+//TargetCrosshair	= "sa_interface\hud\crosshair\add_3\crosshair"
+Icon		= "sa_interface2\hud\hellgade\VehicleWeapon\HESH_155.dtx" //전용 특수탄 UI 
+DamageType	= 2
+
+//스텔스 전차 일반탄 공격 //구 스텔스탱크
+[ClientObjectWeapon4]
+InstDamageType      = "instDmgByTank"
+AreaDamageType	    = "areaDmgByTank"
+InstDamage = 237
+AreaDamage = 100
+Range		= 250 // 100 // 250 //100 -> 500 -> 250 김문기
+ReloadCycle = 1
+ReloadTime = 1.0
+AfterDelayTime  = 1.0 // 사실상 의미 없음.
+Projectile	= 100013
+Velocity	= 180
+RecoilVelocity	= 2.5
+Effect		= "Tank_Fire_Muzz_Stealth" //7.25 신규 Muzz
+Trace		= false
+//TargetTraceTexture	= "sa_interface2\hud\hellgade\TankTrace.dtx"
+TargetCrosshair	= "sa_interface\hud\crosshair\add_1\crosshair"
+Icon		= "sa_interface2\hud\hellgade\VehicleWeapon\HEAT_105mm.dtx"
+DamageType	= 2
+
+//스텔스 전차 특수탄 공격 //구 스텔스탱크
+[ClientObjectWeapon5]
+InstDamageType      = "instDmgByStealthTankSpecial"
+AreaDamageType	    = "areaDmgByTank"
+InstDamage = 474 // 783 //110
+AreaDamage = 200 // 180 // 90
+Range		= 400 // 250 //100 -> 500 -> 250 김문기 -> 400
+ReloadCycle = 1
+ReloadTime = 1.0
+AfterDelayTime  = 1.0 // 사실상 의미 없음.
+Projectile	= 100014
+Velocity	= 180
+RecoilVelocity	= 2.5
+Effect		= "Tank_Fire_Muzz_Stealth_R" //7.25 신규 Muzz
+Trace		= false
+//TargetTraceTexture	= "sa_interface2\hud\hellgade\TankTrace.dtx"
+TargetCrosshair	= "sa_interface\hud\crosshair\add_1\crosshair"
+Icon		= "sa_interface2\hud\hellgade\VehicleWeapon\HEAT_105mm.dtx"
+DamageType	= 2
+
+//소형 전차 일반탄 공격 //구 라이트탱크
+[ClientObjectWeapon6]
+InstDamageType      = "instDmgByTank" // 대미지는 141 로.
+AreaDamageType	    = "areaDmgByTank" // 대미지는 100으로.
+InstDamage = 141 // 92 // 131 //141
+AreaDamage = 100 // 70 // 100
+Range		= 200 //100 -> 500 -> 250 김문기 -> 400 조대환 -> 200 김문기
+
+//이하 방향 테스트용
+//InstDamageType      = "notModify" // 대미지는 141 로.
+//AreaDamageType	    = "notModify" // 대미지는 100으로.
+//InstDamage = 0
+//AreaDamage = 100
+//Range		= 100
+//이상 방향 테스트용
+
+ReloadCycle = 1
+ReloadTime = 1.5
+AfterDelayTime  = 1.5 // 사실상 의미 없음.
+Projectile	= 100015
+Velocity	= 180 //180
+RecoilVelocity	= 2.5
+Effect		= "Tank_Fire_Muzz_small"
+Trace		= false
+//TargetTraceTexture	= "sa_interface2\hud\hellgade\TankTrace.dtx"
+TargetCrosshair	= "sa_interface\hud\crosshair\add_1\crosshair"
+Icon		= "sa_interface2\hud\hellgade\VehicleWeapon\HEAT_105mm.dtx"
+DamageType	= 2
+
+//소형 전차 특수탄 공격 //구 라이트탱크
+[ClientObjectWeapon7]
+InstDamageType      = "instDmgByStealthTankSpecial" //instDmgByTank
+AreaDamageType	    = "areaDmgBySmallTankSpecial"
+InstDamage = 282
+AreaDamage = 200
+Range		= 400 // 100 -> 500 -> 250 -> 600 -> 400 조대환, 2014.06.25.
+
+//이하 방향 테스트용
+//InstDamageType      = "notModify" 
+//AreaDamageType	    = "notModify" 
+//nstDamage = 0 
+//AreaDamage = 100 
+//Range		= 100
+//이상 방향 테스트용
+
+ReloadCycle = 1
+ReloadTime = 1.5
+AfterDelayTime  = 1.5 // 사실상 의미 없음.
+Projectile	= 100016
+Velocity	= 180
+RecoilVelocity	= 2.5
+Effect		= "Tank_Fire_Muzz_Small_V" //07.25 신규 muzz
+Trace		= false
+//TargetTraceTexture	= "sa_interface2\hud\hellgade\TankTrace.dtx"
+TargetCrosshair	= "sa_interface\hud\crosshair\add_1\crosshair"
+Icon		= "sa_interface2\hud\hellgade\VehicleWeapon\HEAT_FRAG_105mm.dtx" //전용 특수탄 UI 
+DamageType	= 2
+
+//대형 전차 일반탄 공격//구 헤비탱크
+[ClientObjectWeapon8]
+InstDamageType      = "instDmgByTank" // 대미지는 237 로.
+AreaDamageType	    = "areaDmgByTank" //대미지는 100 으로.
+InstDamage = 237
+AreaDamage = 100
+Range		=  250
+ReloadCycle = 1
+ReloadTime = 1.5
+AfterDelayTime  = 1.5 // 사실상 의미 없음.
+Projectile	= 100017
+Velocity	= 180
+RecoilVelocity	= 2.5
+Effect		= "Tank_Fire_Muzz_Big" //7.25 신규 fx
+Trace		= false
+//TargetTraceTexture	= "sa_interface2\hud\hellgade\TankTrace.dtx"
+TargetCrosshair	= "sa_interface\hud\crosshair\add_1\crosshair"
+Icon		= "sa_interface2\hud\hellgade\VehicleWeapon\HEAT_120mm.dtx" 
+DamageType	= 2
+
+//대형 전차 특수탄 공격//구 헤비탱크
+[ClientObjectWeapon9]
+InstDamageType      = "instDmgByHeavyTankSpecial" // 대미지는 237 로.
+AreaDamageType	    = "areaDmgByTank" //대미지는 100 으로.
+InstDamage = 645.825//474
+AreaDamage = 200
+Range		= 400 // 100 -> 250 -> 400 조대환, 2014.06.25. -> 100 조대환, 20140709 -> 400 조대환 20140725
+ReloadCycle = 1
+ReloadTime = 1.5
+AfterDelayTime  = 1.5 // 사실상 의미 없음.
+Projectile	= 100018
+Velocity	= 180
+RecoilVelocity	= 2.5
+Effect		= "Tank_Fire_Muzz_Big_Bk" //07.25 신규 muzz
+Trace		= false
+//TargetTraceTexture	= "sa_interface2\hud\hellgade\TankTrace.dtx"
+TargetCrosshair	= "sa_interface\hud\crosshair\add_1\crosshair"
+Icon		= "sa_interface2\hud\hellgade\VehicleWeapon\APFSDS_120mm.dtx" //전용 특수탄 UI 
+DamageType	= 2
+
+
+//유도탄
+[ClientObjectWeapon10]
+InstDamageType      = "instDmgByGeneralProjectile" //신규
+AreaDamageType	    = "areaDmgByGeneralProjectile" //신규
+InstDamage = 0
+AreaDamage = 10000
+Projectile	= 100003
+Count		= 1
+Velocity	= 10
+RecoilVelocity	= 2.5
+Range		= 180
+//Damage		= 235
+AfterDelayTime  = 0.2
+DamageType	= 2
+Trace		= false
+TargetCrosshair	= "sa_interface2\hud\hellgade\tanktarget.dtx"
+TargetTraceTexture	= "sa_interface2\hud\hellgade\TankTrace.dtx"
+
+
+//항공폭격기용 유도탄
+[ClientObjectWeapon11]
+InstDamageType      = "instDmgByGeneralProjectile" //신규
+AreaDamageType	    = "areaDmgByGeneralProjectile" //신규
+Projectile	= 100002
+Count		= 1
+Velocity	= 10
+Range		= 600
+InstDamage = 0
+AreaDamage = 235
+//Damage		= 235
+AfterDelayTime  = 0.2
+DamageType	= 2
+Trace		= false
+TargetCrosshair	= "sa_interface2\hud\hellgade\tanktarget.dtx"
+TargetTraceTexture	= "sa_interface2\hud\hellgade\TankTrace.dtx"
+
+//가드 타워 - 주포 
+[ClientObjectWeapon12]
+InstDamageType      = "areaDmgByTower"
+AreaDamageType	    = "areaDmgByTower"
+InstDamage = 0
+AreaDamage = 100
+Range		= 800
+ReloadCycle = 1
+ReloadTime = 0.3
+AfterDelayTime  = 1.0
+Projectile	= 100019
+Velocity	= 50
+RecoilVelocity	= 0
+Effect		= "Tank_Fire_Muzz_Guard" //주포 MUZZ 기관총 MUZZ 작업은 따로 해야 됨
+Trace		= false
+TargetCrosshair	= "sa_interface\hud\crosshair\add_128\Charge_00.dtx"
+Icon		= "sa_interface2\hud\hellgade\VehicleWeapon\HEAT_120mm.dtx"
+DamageType	= 2
+
+//InstDamageType      = "areaDmgByTowerTemp" //음 애매... 이거 총이 아니라 폭발형으로 해야 하는데...
+//AreaDamageType	    = "areaDmgByTowerTemp" //신규. 그런데 총기형에는 이 수치가 필요 없음. 수치가 정해지지 않았다면 디폴트로 NotModify 값으로 처리해도 될 듯.
+//InstDamage = 500
+//AreaDamage = 0
+//Projectile	= -1
+//Effect		= "Tank_MGFire_Muzz"
+//Velocity	= 300
+//Range		= 3000
+//AfterDelayTime  = 0.1
+//DamageType	= 2
+//Trace		= false
+//TargetCrosshair	= "sa_interface2\hud\hellgade\tanktarget.dtx"
+//TracerFX	= "tracer_sniper"
+//TargetTraceTexture	= "sa_interface2\hud\hellgade\TankTrace.dtx"
+
+
+//가드 타워 게틀링
+[ClientObjectWeapon13]
+InstDamageType      = "instDmgVehicleMG" 
+AreaDamageType	    = "notModify" //총기형에는 이 수치가 필요 없는데 어쩔까요... 이 행 삭제하는 게 좋을까요?
+InstDamage = 70
+AreaDamage = 0
+Range		= 0
+ReloadCycle = 100
+ReloadTime = 2.0
+AfterDelayTime  = 0.1
+Projectile	= -1
+Velocity	= 150
+RecoilVelocity	= 0.5
+Effect		= "Tank_MGFire_Muzz"
+TracerFX	= "tracer_tank"
+Trace		= true
+TargetCrosshair	= "sa_interface\hud\hellgade\add_1\crosshair"
+Icon		= "sa_interface2\hud\hellgade\VehicleWeapon\HeavyMachineGun_12_7mm.dtx"
+DamageType	= 2
+
+
+
+//	[ClientObjectPackage???]
+//	********************************************************************************************************************************************************
+//	ObjectID		ClientObjectButes.txt에 있는 모델의 아이디로 몸체에 해당한다
+//	SubObject		"몸체의 소켓명, 모델의 아이디 | 몸체의 소켓명, 모델의 아이디 | ..."
+//	LeftFire		"마우스 좌클릭시 작동될 정보들"
+//				"Index = 0 | Socket = Fire1 | ClientObjectWeaponID = 1"
+//				Index		=	SubObject에 추가된 순서(-1이면 부모를 가리킴)
+//				Socket		= 	Index로 선택된 모델에서의 소켓명
+//				Event		=	클릭시 ClientObjectButes의 이벤트 호출 ID
+//				ClientObjectWeaponID	=	탈것 무기정보 아이디이며, [ClientObjectWeapon???]을 연결함
+//				SpecialWeaponID		=	콤보조건이 될때 [ClientObjectWeapon???]을 스페셜 무기로 연결함
+//	RightFire		"마우스 우클릭시 작동될 정보들이며, LeftFire와 동일한 기능을 가지고 있음"
+
+//	Camera
+//				CenterUp		카메라 중심점 수직오프셋
+//				CenterForward		카메라 중심점 정방향오프셋
+//				MinDist			카메라 중심점과의 최소거리
+//				MaxDist			카메라 중심점과의 최대거리
+//				WheelSpeed		카메라 최소, 최대거리간 이동거리
+//				Angle			카메라 정방향 각도 오프셋
+
+//	CameraCrosshair	= "sa_interface2\hud\hellgade\tankcrosshair.dtx"
+//	TargetCrosshair	= "sa_interface2\hud\hellgade\tanktarget.dtx"
+//	TraceTexture	= "sa_interface2\hud\hellgade\TankTrace.dtx"
+//	Icon		= ""	// 우측하단 UI 아이콘
+//	Etc		"Surface | FirstContactLock | AniRate | FAni | BAni | VInnerRadius | VOuterRadius"
+//		Surface		= 213	// 충돌 이펙트를 위한 표면타입
+//			ST_UNKNOWN					= 0,	// Unknown value
+//			ST_AIR						= 1,	// Not a surface, but not the sky either
+//			ST_FLESH					= 2,	// Human flesh
+//			ST_ARMOR					= 3,	// Armored Human
+//			ST_HEAD						= 4,	// Head[SPIKE]
+//			ST_ANDRO_ARMOR					= 5,	// 안드로이드아머[xuxu] 폭발형
+//			ST_ANDRO_ARMOR2					= 6,	// 안드로이드아머[xuxu] 스파크	
+//			ST_DARKNIFE_HIT_FX				= 7,	// 다크나이프 [xuxu] 스파크	
+//			ST_DUST						= 19,	// ####### 흙먼지
+//			ST_GRASS					= 22,	// ####### 풀
+//			ST_TARGET_OBJECT				= 32,	// 타겟용[TRUECOM]
+//			ST_AIBOT1					= 40, ~+19
+//			ST_SKY						= 110,	// Sky poly
+//			ST_LADDER					= 200,	// Ladder volume brush
+//			ST_LIQUID					= 201,	// Liquid volume brush
+//			ST_INVISIBLE				= 202,	// Invisible surface
+//			ST_STONE					= 212,	// ####### 돌
+//			ST_METAL					= 213,	// ####### 철
+//			ST_WOOD						= 216,	// ####### 나무
+//			ST_GLASS					= 217,	// ####### 유리
+//			ST_PAPER					= 222,	// ####### 종이
+//			ST_TILE						= 230,	// ####### 타일재질
+//			ST_WIREMETAL				= 234,	// ####### 철조망
+//			ST_ICE						= 235,	// ####### 얼음
+//			ST_SNOW						= 238,	// ####### 눈
+//			ST_BULLETPROOF_GLASS		= 239,	// ####### 방탄유리
+//			ST_BULLETPROOF_WOOD			= 240,	// ####### 방탄나무
+//			ST_CLOTH					= 241,	// ####### 천
+//			ST_TRANSPARENT_NOR_PLANE1	= 242,	// ####### 광고(피탄 안되는 투명)
+//			ST_TRANSPARENT_NOR_PLANE2	= 243,	// ####### 광고(뚫리는 투명)
+//		FirstContactLock	= true	// 태어나서 첫 충돌시 멈춤
+//		AniRate = 1.0			// 차량 물리연동 애니의 속도비율
+//		FAni	= Forward		// 전진 애니이름
+//		BAni	= Backward		// 후진 애니이름
+//		VInnerRadius = 0		// 사운드 페이드 안쪽 반지름
+//		VOuterRadius = 1000		// 사운드 페이드 바깥쪽 반지름
+//	********************************************************************************************************************************************************
+
+
+// 기동 차량//구 험비
+[ClientObjectPackage1986]
+ObjectID = 19860
+SubObject	= "Turret_Point, 19861"
+TireObject	= "19862,19862,19862,19862"
+LeftFire	= "Index = 0 | Socket = Fire1 | Event = 1 | ClientObjectWeaponID = 1"
+RightFire	= "Zoom = true"
+Camera		= "CenterUp = 150.0 | CenterForward = 0.0 | MinDist = 375.0 | MaxDist = 375.0 | WheelSpeed = 25.0 | Angle = -8.0"
+GetOutPos	= "-300,0,0 | -300,0,-100 | 300,0,0 | 300,0,-100 | -150,0,-200 | 150,0,-200 | -150,0,200 | 150,0,200"
+Icon		= "sa_interface2\hud\HellGade\ClassName\Humvee.dtx"	// 우측하단 UI 아이콘
+Etc		= "Surface = 213 | FirstContactLock = true | AniRate = 0.5 | FAni = Forward | BAni = Backward | VInnerRadius = 500 | VOuterRadius = 1500"
+//Boost              = "Time = 0.5 | ChargeTime = 2.0 | Factor = 2.0 | Count = 1" //7.24 부스터 추가 
+//BoostSound      = "sa_props\snd\Hellgade\booster.wav"//7.24 부스터 추가
+MoveStartSound	= "sa_props\snd\Hellgade\humvee\start.wav"
+MoveLoopSound	= "sa_props\snd\Hellgade\humvee\loop.wav"
+MoveEndSound	= "sa_props\snd\Hellgade\humvee\end.wav"
+RotateStartSound= "sa_props\snd\Hellgade\humvee\r_start.wav"
+RotateLoopSound	= "sa_props\snd\Hellgade\humvee\r_loop.wav"
+RotateEndSound	= "sa_props\snd\Hellgade\humvee\r_end.wav"
+RoadKillSound	= "sa_props\snd\Hellgade\humvee\roadkill.wav"
+IdleSound         = "sa_props\snd\Hellgade\humvee\Idle.wav" //7.21 추가
+VehicleImpactSound = "sa_props\snd\Hellgade\humvee\hg_crash_01.wav" //험비 충돌 사운드
+VehlcleReloadSound = "sa_props\snd\Hellgade\humvee\hg_tank_reload_04.wav" //험비&장갑차 리로드 
+//SurfaceDamageFactor = "BodyFront = 0.5 | BodySide = 1 | BodyRear = 1.2 | BodyTop = 1.0 | BodyBottom = 3 | TurretFront = 1 | TurretSide = 1 | TurretRear = 1.5 | TurretTop = 1 | TurretBottom = 1"
+//SurfaceDamageFactor = "BodyFront = 1.0 | BodySide = 1.0 | BodyRear = 1.0 | BodyTop = 1.0 | BodyBottom = 1.0 | TurretFront = 1.0 | TurretSide = 1.0 | TurretRear = 1.0 | TurretTop = 1.0 | TurretBottom = 1.0"
+SurfaceDamageFactor = "BodyFront = 0.5 | BodySide = 1.0 | BodyRear = 1.5 | BodyTop = 1.5 | BodyBottom = 1.5 | TurretFront = 0.5 | TurretSide = 1.0 | TurretRear = 1.5 | TurretTop = 1.5 | TurretBottom = 1.5"
+ContactDamage = "Factor = 8.0 | VelocityMin = 2.0 | VelocityMax = 3.0" // 부딪혔을때 대미지를 주는 방식. 대미지양은 속도 곱하기 팩터. 2.0이상의 속도에서 대미지를 가하게 되고, 최대 대미지값은 3.0 곱하기 팩터 값이다.
+TireSmokeSocket = "TPos_FL | TPos_FR "   // 바퀴소켓
+TireSmokeDist    = 25                                       // 이펙트가 생성될 거리조건(조건이 될 때마다 매번 생성되는 방식)
+TireSmokeFX      = "HGADE_TankSmoke_S"                    // 생성할 연기 이펙트
+
+
+
+// 포격 차량//구 자주포
+[ClientObjectPackage1987]
+ObjectID = 19870
+SubObject	= "Turret_Point, 19871"
+ComboAttack     = "Building = true | Vehicle = true | Infantry = true | TimeCondition = 3.0 | Frequency = 3 | ChargeSocket = Turret_Point | ChargingFX = HGADE_ChargeL_m109 | ChargedFX = HGADE_ChargeC_m109"//1.5" // 봉인 해제 20140624 조대환
+LeftFire	= "Index = 0 | Socket = Fire1 | Event = 1 | ClientObjectWeaponID = 2 | SpecialWeaponID = 3"
+RightFire	= "Zoom = false"
+Camera		= "CenterUp = 450.0 | CenterForward = -200.0 | MinDist = 550.0 | MaxDist = 550.0 | WheelSpeed = 25.0 | Angle = -45.0"
+GetOutPos	= "-300,0,0 | -300,0,-100 | 300,0,0 | 300,0,-100 | -150,0,-200 | 150,0,-200 | -150,0,200 | 150,0,200"
+Icon		= "sa_interface2\hud\HellGade\ClassName\Artillery.dtx"
+Etc		= "MouseTargetOffsetY = -0.5 | Surface = 213 | FirstContactLock = true | AniRate = 0.5 | FAni = Forward | BAni = Backward | VInnerRadius = 500 | VOuterRadius = 1500"
+Boost              = "Time = 0.40 | ChargeTime = 8.0 | Factor = 1.55 | Count = 3" //7.24 부스터 추가 
+BoostSound      = "sa_props\snd\Hellgade\booster.wav"//7.24 부스터 추가
+MoveStartSound	= "sa_props\snd\Hellgade\artillery\start.wav"
+MoveLoopSound	= "sa_props\snd\Hellgade\artillery\loop.wav"
+MoveEndSound	= "sa_props\snd\Hellgade\artillery\end.wav"
+RotateStartSound= "sa_props\snd\Hellgade\artillery\r_start.wav"
+RotateLoopSound	= "sa_props\snd\Hellgade\artillery\r_loop.wav"
+RotateEndSound	= "sa_props\snd\Hellgade\artillery\r_end.wav"
+RoadKillSound	= "sa_props\snd\Hellgade\roadkill.wav" //10.30 통일수정
+IdleSound         = "sa_props\snd\Hellgade\artillery\Idle.wav" //7.21 추가
+VehicleImpactSound = "sa_props\snd\Hellgade\artillery\hg_crash_03.wav" //자주포 충돌 사운드
+VehlcleReloadSound = "sa_props\snd\Hellgade\artillery\hg_tank_reload_03.wav" //10.27 리로드시
+
+ChargeSpecialBG		= "sa_interface2\hud\HellGade\Vehicle\Cannon01.dtx"
+ChargeSpecial		= "sa_interface2\hud\HellGade\Vehicle\Cannon02.dtx"
+ChargeSpecialLight	= "sa_interface2\hud\HellGade\Vehicle\Cannon03.dtx"
+
+//SurfaceDamageFactor = "BodyFront = 0.5 | BodySide = 1 | BodyRear = 1.75 | BodyTop = 1.0 | BodyBottom = 3 | TurretFront = 1 | TurretSide = 1 | TurretRear = 1.5 | TurretTop = 1.5 | TurretBottom = 1"
+SurfaceDamageFactor = "BodyFront = 0.3 | BodySide = 1.0 | BodyRear = 3.0 | BodyTop = 1.0 | BodyBottom = 3.0 | TurretFront = 0.1 | TurretSide = 1.0 | TurretRear = 3.0 | TurretTop = 2.0 | TurretBottom = 1.0"
+ContactDamage = "Factor = 20.0 | VelocityMin = 2.0 | VelocityMax = 3.0"
+TireSmokeSocket = "TPos_7L | TPos_7R "   // 바퀴소켓
+TireSmokeDist    = 30                                       // 이펙트가 생성될 거리조건(조건이 될 때마다 매번 생성되는 방식)
+TireSmokeFX      = "HGADE_TankSmoke_B"                    // 생성할 연기 이펙트
+
+
+// 장갑차
+[ClientObjectPackage1988]
+ObjectID = 19880
+SubObject	= "Turret_Point, 19881"
+LeftFire	= "Index = 0 | Socket = Fire1 | Event = 1 | ClientObjectWeaponID = 1"
+RightFire	= "Zoom = true"
+Camera		= "CenterUp = 150.0 | CenterForward = 0.0 | MinDist = 400.0 | MaxDist = 400.0 | WheelSpeed = 25.0 | Angle = -8.0"
+GetOutPos	= "-300,0,0 | -300,0,-100 | 300,0,0 | 300,0,-100 | -150,0,-200 | 150,0,-200 | -150,0,200 | 150,0,200"
+Icon		= "sa_interface2\hud\HellGade\ClassName\ArmoredVehicle.dtx"
+Etc		= "Surface = 213 | FirstContactLock = true | AniRate = 0.5 | FAni = Forward | BAni = Backward | VInnerRadius = 500 | VOuterRadius = 1500"
+//Boost              = "Time = 0.27 | ChargeTime = 12.0 | Factor = 2.0 | Count = 3" //7.24 부스터 추가 
+BoostSound      = "sa_props\snd\Hellgade\booster.wav"//7.24 부스터 추가
+MoveStartSound	= "sa_props\snd\Hellgade\armoredVehicle\start.wav"
+MoveLoopSound	= "sa_props\snd\Hellgade\armoredVehicle\loop.wav"
+MoveEndSound	= "sa_props\snd\Hellgade\armoredVehicle\end.wav"
+RotateStartSound= "sa_props\snd\Hellgade\armoredVehicle\r_start.wav"
+RotateLoopSound	= "sa_props\snd\Hellgade\armoredVehicle\r_loop.wav"
+RotateEndSound	= "sa_props\snd\Hellgade\armoredVehicle\r_end.wav"
+RoadKillSound	= "sa_props\snd\Hellgade\roadkill.wav" //10.30 통일수정
+IdleSound         = "sa_props\snd\Hellgade\armoredVehicle\Idle.wav" //7.21 추가
+VehicleImpactSound = "sa_props\snd\Hellgade\armoredVehicle\hg_crash_02.wav" //장갑차 충돌 사운드
+VehlcleReloadSound = "sa_props\snd\Hellgade\armoredVehicle\hg_tank_reload_04.wav" //10.27 리로드시
+//SurfaceDamageFactor = "BodyFront = 1 | BodySide = 2 | BodyRear = 3 | BodyTop = 4 | BodyBottom = 5 | TurretFront = 6 | TurretSide = 7 | TurretRear = 8 | TurretTop = 9 | TurretBottom = 10"
+//SurfaceDamageFactor = "BodyFront = 0.5 | BodySide = 1 | BodyRear = 1.2 | BodyTop = 1.0 | BodyBottom = 3 | TurretFront = 1 | TurretSide = 1 | TurretRear = 1.2 | TurretTop = 1.5 | TurretBottom = 1"
+SurfaceDamageFactor = "BodyFront = 0.3 | BodySide = 1.0 | BodyRear = 3.0 | BodyTop = 1.0 | BodyBottom = 3.0 | TurretFront = 1.0 | TurretSide = 1.0 | TurretRear = 1.0 | TurretTop = 1.0 | TurretBottom = 1.0"
+ContactDamage = "Factor = 15.0 | VelocityMin = 2.0 | VelocityMax = 3.0"
+TireSmokeSocket = "TPos_5L | TPos_5R "   // 바퀴소켓
+TireSmokeDist    = 30                                       // 이펙트가 생성될 거리조건(조건이 될 때마다 매번 생성되는 방식)
+TireSmokeFX      = "HGADE_TankSmoke_M"                    // 생성할 연기 이펙트
+
+
+// 스텔스 전차
+[ClientObjectPackage1989]
+ObjectID = 19890
+SubObject	= "Turret_Point, 19891"
+ComboAttack	= "Building = true | Vehicle = true | Infantry = true | TimeCondition = 3.0 | Frequency = 7" // 봉인 해제 20140624 조대환
+LeftFire	= "Index = 0 | Socket = Fire1 | Event = 1 | ClientObjectWeaponID = 4 | SpecialWeaponID = 5"
+RightFire	= "Zoom = true"
+Camera		= "CenterUp = 180.0 | CenterForward = 0.0 | MinDist = 450.0 | MaxDist = 450.0 | WheelSpeed = 25.0 | Angle = -8.0"
+GetOutPos	= "-300,0,0 | -300,0,-100 | 300,0,0 | 300,0,-100 | -150,0,-200 | 150,0,-200 | -150,0,200 | 150,0,200"
+Icon		= "sa_interface2\hud\HellGade\ClassName\StealthTank.dtx"
+Etc		= "Surface = 213 | FirstContactLock = true | AniRate = 0.5 | FAni = Forward | BAni = Backward | VInnerRadius = 500 | VOuterRadius = 1500"
+Boost              = "Time = 0.27 | ChargeTime = 12.0 | Factor = 1.5 | Count = 3" //7.24 부스터 추가 
+BoostSound      = "sa_props\snd\Hellgade\booster.wav"//7.24 부스터 추가
+MoveStartSound	= "sa_props\snd\Hellgade\stealthTank\start.wav"
+MoveLoopSound	= "sa_props\snd\Hellgade\stealthTank\loop.wav"
+MoveEndSound	= "sa_props\snd\Hellgade\stealthTank\end.wav"
+RotateStartSound= "sa_props\snd\Hellgade\stealthTank\r_start.wav"
+RotateLoopSound	= "sa_props\snd\Hellgade\stealthTank\r_loop.wav"
+RotateEndSound	= "sa_props\snd\Hellgade\stealthTank\r_end.wav"
+RoadKillSound	= "sa_props\snd\Hellgade\roadkill.wav" //10.30 통일수정
+IdleSound         = "sa_props\snd\Hellgade\stealthTank\Idle.wav" //7.21 추가
+VehicleImpactSound = "sa_props\snd\Hellgade\humvee\VehicleImpact.wav" //스텔스 탱크는 제작 안됨 
+VehlcleReloadSound = "sa_props\snd\Hellgade\humvee\VehlcleReload.wav" //스텔스 탱크는 제작 안됨 
+//SurfaceDamageFactor = "BodyFront = 1 | BodySide = 2 | BodyRear = 3 | BodyTop = 4 | BodyBottom = 5 | TurretFront = 6 | TurretSide = 7 | TurretRear = 8 | TurretTop = 9 | TurretBottom = 10"
+//SurfaceDamageFactor = "BodyFront = 0.5 | BodySide = 0.8 | BodyRear = 1.75 | BodyTop = 1.0 | BodyBottom = 3 | TurretFront = 1.3 | TurretSide = 1 | TurretRear = 1.2 | TurretTop = 2 | TurretBottom = 1"
+SurfaceDamageFactor = "BodyFront = 0.3 | BodySide = 1.0 | BodyRear = 3.0 | BodyTop = 1.0 | BodyBottom = 3.0 | TurretFront = 0.1 | TurretSide = 1.0 | TurretRear = 3.0 | TurretTop = 2.0 | TurretBottom = 1.0"
+ContactDamage = "Factor = 50.0 | VelocityMin = 2.0 | VelocityMax = 3.0"
+
+
+// 소형 전차(라이트탱크)
+[ClientObjectPackage1990]
+ObjectID = 19900
+SubObject	= "Turret_Point, 19901"
+ComboAttack     = "Building = true | Vehicle = true | Infantry = true | TimeCondition = 4.0 | Frequency = 2.25 | ChargeSocket = Turret_Point | ChargingFX = HGADE_ChargeL_m60 | ChargedFX = HGADE_ChargeC_m60" // 봉인 해제 20140624 조대환
+LeftFire	= "Index = 0 | Socket = Fire1 | Event = 1 | ClientObjectWeaponID = 6 | SpecialWeaponID = 7"
+RightFire	= "Zoom = true"
+Camera		= "CenterUp = 180.0 | CenterForward = 0.0 | MinDist = 400.0 | MaxDist = 400.0 | WheelSpeed = 25.0 | Angle = -8.0"
+GetOutPos	= "-300,0,0 | -300,0,-100 | 300,0,0 | 300,0,-100 | -150,0,-200 | 150,0,-200 | -150,0,200 | 150,0,200"
+Icon		= "sa_interface2\hud\HellGade\ClassName\LightTank.dtx"
+Etc		= "Surface = 213 | FirstContactLock = true | AniRate = 0.5 | FAni = Forward | BAni = Backward | VInnerRadius = 500 | VOuterRadius = 1500"
+Boost              = "Time = 0.27 | ChargeTime = 12.0 | Factor = 1.68 | Count = 2" //7.24 부스터 추가 
+
+BoostSound      = "sa_props\snd\Hellgade\booster.wav"//7.24 부스터 추가
+MoveStartSound	= "sa_props\snd\Hellgade\lightTank\start.wav"
+MoveLoopSound	= "sa_props\snd\Hellgade\lightTank\loop.wav"
+MoveEndSound	= "sa_props\snd\Hellgade\lightTank\end.wav"
+RotateStartSound= "sa_props\snd\Hellgade\lightTank\r_start.wav"
+RotateLoopSound	= "sa_props\snd\Hellgade\lightTank\r_loop.wav"
+RotateEndSound	= "sa_props\snd\Hellgade\lightTank\r_end.wav"
+RoadKillSound	= "sa_props\snd\Hellgade\roadkill.wav" //10.30 통일수정
+IdleSound         = "sa_props\snd\Hellgade\lightTank\Idle.wav" //7.21 추가
+VehicleImpactSound = "sa_props\snd\Hellgade\lightTank\hg_crash_04.wav" //소형탱크 충돌 사운드
+VehlcleReloadSound = "sa_props\snd\Hellgade\lightTank\hg_tank_reload_01.wav" //10.27 리로드시
+
+ChargeSpecialBG		= "sa_interface2\hud\HellGade\Vehicle\Cannon01.dtx"
+ChargeSpecial		= "sa_interface2\hud\HellGade\Vehicle\Cannon02.dtx"
+ChargeSpecialLight	= "sa_interface2\hud\HellGade\Vehicle\Cannon03.dtx"
+
+//SurfaceDamageFactor = "BodyFront = 0.5 | BodySide = 0.75 | BodyRear = 1.75 | BodyTop = 1.0 | BodyBottom = 3 | TurretFront = 1.3 | TurretSide = 1 | TurretRear = 1.2 | TurretTop = 2 | TurretBottom = 1"
+//SurfaceDamageFactor = "BodyFront = 0.3 | BodySide = 1.0 | BodyRear = 3.0 | BodyTop = 1.0 | BodyBottom = 3.0 | TurretFront = 0.1 | TurretSide = 1.0 | TurretRear = 3.0 | TurretTop = 2.0 | TurretBottom = 1.0"
+SurfaceDamageFactor = "BodyFront = 0.3 | BodySide = 1.0 | BodyRear = 1.9 | BodyTop = 1.0 | BodyBottom = 1.9 | TurretFront = 0.3 | TurretSide = 1.0 | TurretRear = 1.9 | TurretTop = 1.9 | TurretBottom = 1.0"
+ContactDamage = "Factor = 40.0 | VelocityMin = 2.0 | VelocityMax = 3.0"
+TireSmokeSocket = "TPos_5L | TPos_5R "   // 바퀴소켓
+TireSmokeDist    = 30                                       // 이펙트가 생성될 거리조건(조건이 될 때마다 매번 생성되는 방식)
+TireSmokeFX      = "HGADE_TankSmoke_M"                    // 생성할 연기 이펙트
+
+
+// 대형 전차(헤비탱크)
+[ClientObjectPackage1991]
+ObjectID = 19910
+SubObject	= "Turret_Point, 19911"
+ComboAttack     = "Building = true | Vehicle = true | Infantry = true | TimeCondition = 4.5 | Frequency = 2.75 | ChargeSocket = Turret_Point | ChargingFX = HGADE_ChargeL_m1a1 | ChargedFX = HGADE_ChargeC_m1a1" // 봉인 해제 20140624 조대환
+LeftFire	= "Index = 0 | Socket = Fire1 | Event = 1 | ClientObjectWeaponID = 8 | SpecialWeaponID = 9"
+RightFire	= "Zoom = true"
+Camera		= "CenterUp = 230.0 | CenterForward = 0.0 | MinDist = 600.0 | MaxDist = 600.0 | WheelSpeed = 25.0 | Angle = -8.0" 
+GetOutPos	= "-300,0,0 | -300,0,-100 | 300,0,0 | 300,0,-100 | -150,0,-200 | 150,0,-200 | -150,0,200 | 150,0,200"
+Icon		= "sa_interface2\hud\HellGade\ClassName\HeavyTank.dtx"
+Etc		= "Surface = 213 | FirstContactLock = true | AniRate = 0.5 | FAni = Forward | BAni = Backward | VInnerRadius = 500 | VOuterRadius = 1500"
+Boost              = "Time = 0.29 | ChargeTime = 14.0 | Factor = 1.75 | Count = 2" //7.24 부스터 추가 
+BoostSound      = "sa_props\snd\Hellgade\booster.wav"//7.24 부스터 추가
+MoveStartSound	= "sa_props\snd\Hellgade\heavyTank\start.wav"
+MoveLoopSound	= "sa_props\snd\Hellgade\heavyTank\loop.wav"
+MoveEndSound	= "sa_props\snd\Hellgade\heavyTank\end.wav"
+RotateStartSound= "sa_props\snd\Hellgade\heavyTank\r_start.wav"
+RotateLoopSound	= "sa_props\snd\Hellgade\heavyTank\r_loop.wav"
+RotateEndSound	= "sa_props\snd\Hellgade\heavyTank\r_end.wav"
+RoadKillSound	= "sa_props\snd\Hellgade\roadkill.wav" //10.30 통일수정
+IdleSound         = "sa_props\snd\Hellgade\heavyTank\Idle.wav" //7.21 추가
+VehicleImpactSound = "sa_props\snd\Hellgade\heavyTank\hg_crash_05.wav" //대형탱크 충돌 사운드
+VehlcleReloadSound = "sa_props\snd\Hellgade\heavyTank\hg_tank_reload_02.wav" //10.27 리로드시
+
+ChargeSpecialBG		= "sa_interface2\hud\HellGade\Vehicle\Cannon01.dtx"
+ChargeSpecial		= "sa_interface2\hud\HellGade\Vehicle\Cannon02.dtx"
+ChargeSpecialLight	= "sa_interface2\hud\HellGade\Vehicle\Cannon03.dtx"
+
+//SurfaceDamageFactor = "BodyFront = 1 | BodySide = 2 | BodyRear = 3 | BodyTop = 4 | BodyBottom = 5 | TurretFront = 6 | TurretSide = 7 | TurretRear = 8 | TurretTop = 9 | TurretBottom = 10"
+//SurfaceDamageFactor = "BodyFront = 0.5 | BodySide = 0.65 | BodyRear = 1.75 | BodyTop = 1.0 | BodyBottom = 3 | TurretFront = 1.3 | TurretSide = 1 | TurretRear = 1.2 | TurretTop = 2 | TurretBottom = 1"
+SurfaceDamageFactor = "BodyFront = 0.3 | BodySide = 1.0 | BodyRear = 1.9 | BodyTop = 1.0 | BodyBottom = 1.9 | TurretFront = 0.3 | TurretSide = 1.0 | TurretRear = 1.9 | TurretTop = 1.9 | TurretBottom = 1.0"
+ContactDamage = "Factor = 70.0 | VelocityMin = 2.0 | VelocityMax = 3.0"
+TireSmokeSocket = "TPos_6L | TPos_6R "   // 바퀴소켓
+TireSmokeDist    = 40                                       // 이펙트가 생성될 거리조건(조건이 될 때마다 매번 생성되는 방식)
+TireSmokeFX      = "HGADE_TankSmoke_B"                    // 생성할 연기 이펙트
+
+
+// 가드 타워
+[ClientObjectPackage2019]
+ObjectID = 20190
+SpawnPointTeam0	= 9
+SpawnPointTeam1	= 109
+SubObject	= "Turret_Point, 20191"		//TireObject	= "19862,19862,19862,19862"
+LeftFire	= "Index = 0 | Socket = Fire1 | Event = 1 | ClientObjectWeaponID = 12 | SearchDist = 5000.0 | SearchAngle = 10.0 | SearchDelay = 3.0 | SearchOffset = 22.0 | SearchMove = 34.0 | SearchSubMove = 24.0 | SearchSubCount = 4"
+//SearchDist = 탐색 거리 | SearchAngle = 원뿔 각도 | SearchDelay = 앵글 다 돌린 뒤에 멈춰있는 시간 | SearchOffset = 180도 기준에서 내려간 각도 | SearchMove = 85.0 | SearchSubMove = 타겟을 놓쳤을 때 움직이는 정도 | SearchSubCount = 타겟을 놓쳤을 때 왔다갔다 하는 횟수
+Etc		= "Surface = 213"
+
+// 서브 게틀링 가드 타워
+[ClientObjectPackage2330]
+ShareIndex = 0
+ObjectID = 23300
+SpawnPointTeam0	= 8
+SpawnPointTeam1	= 108
+SubObject	= "Turret_Point, 23301"		//TireObject	= "19862,19862,19862,19862"
+LeftFire	= "Index = 0 | Socket = Fire1 | Event = 1 | ClientObjectWeaponID = 13 | SearchDist = 5000.0 | SearchAngle = 10.0 | SearchDelay = 3.0 | SearchOffset = 18.0 | SearchMove = 34.0 | SearchSubMove = 24.0 | SearchSubCount = 4"
+//SearchDist = 탐색 거리 | SearchAngle = 원뿔 각도 | SearchDelay = 앵글 다 돌린 뒤에 멈춰있는 시간 | SearchOffset = 180도 기준에서 내려간 각도 | SearchMove = 85.0 | SearchSubMove = 타겟을 놓쳤을 때 움직이는 정도 | SearchSubCount = 타겟을 놓쳤을 때 왔다갔다 하는 횟수
+Etc		= "Surface = 213"
+
+// 우라늄 수집차//구 자원수집차량
+[ClientObjectPackage2024]
+ObjectID = 20240
+SpawnPointTeam0	= 4
+SpawnPointTeam1	= 104
+Etc		= "Surface = 213 | AniRate = 0.5 | FAni = Forward | BAni = Backward | VInnerRadius = 500 | VOuterRadius = 1500"
+MoveStartSound	= "sa_props\snd\Hellgade\UraniumScavenger\start.wav"																														
+MoveLoopSound	= "sa_props\snd\Hellgade\UraniumScavenger\loop.wav"
+MoveEndSound	= "sa_props\snd\Hellgade\UraniumScavenger\end.wav"
+RotateStartSound= "sa_props\snd\Hellgade\UraniumScavenger\r_start.wav"
+RotateLoopSound	= "sa_props\snd\Hellgade\UraniumScavenger\r_loop.wav"
+RotateEndSound	= "sa_props\snd\Hellgade\UraniumScavenger\r_end.wav"
+IdleSound         = "sa_props\snd\Hellgade\UraniumScavenger\Idle.wav" //7.21 추가
+RoadKillSound	= ""
+
+//공중폭격
+[ClientObjectPackage2104]
+WeaponID = 1278
+ObjectID = 21040
+//SpawnPointTeam0	= 6
+//SpawnPointTeam1	= 106
+//LeftFire	= "Index = -1 | Socket = Fire1 | Event = 1 | ClientObjectWeaponID = 11"
+LeftFire	= "Index = -1 | Socket = Fire1 | ClientObjectWeaponID = 11"
+//Etc		= "Surface = 213 | AniRate = 0.5 | FAni = Forward | BAni = Backward"

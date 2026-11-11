@@ -1,0 +1,16 @@
+{
+  "profile": "warehouse-native-dtx-mips-readback-v1",
+  "manifest": "previews/warehouse-texture-mips/mips-map.json",
+  "manifest_sha256": "e137116cabade763665793d1ff53bc6773ae6488bfec0f703489d9cc8795ee0b",
+  "textures": 75,
+  "levels_checked": 284,
+  "source_sha256_and_md5_rechecked": true,
+  "all_source_payload_ranges_contiguous_and_complete": true,
+  "all_png_sha256_and_pillow_dimensions_checked": true,
+  "mip0_pngs_byte_identical": 75,
+  "generated_levels": 0,
+  "source_dtx_bytes": 9115924,
+  "png_bytes": 4390262,
+  "status": "passed",
+  "original_game_executed": false
+}

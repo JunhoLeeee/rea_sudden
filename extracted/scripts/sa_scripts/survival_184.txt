@@ -1,0 +1,949 @@
+{
+	"KeyList":
+	[
+		{
+			"Key1"	:	["strWeaponIcon", "WeaponType", "MapPrimaryWeapon",  "MapSecondaryWeapon",
+"MapPackageWeapon", "MapThrowingWeapon", "MapHelmetWeapon",   "MapEventItem", "strInvenIcon","itemdiscardmodel", "dronedrop","eventitem_model","ObserverShader"]
+		},
+		{
+			"Key2"	:	["Default_Setting", "stackitem_info", "Dying", "ammodropcount", "itemdiscardcount", "Slot_Count","Sapoint_info", "Visual_effect", "Shield",
+"Item_Interaction", "Zipline", "water_setting",  "blood_setting","MapitemType",
+"EventBGM", "Etc", "FX_Social", "HelmetFunc_DamageRate", 
+"HelmetFunc_NoThrow", "HelmetFunc_SpeedRate"]
+		}
+	],
+	"Default_Setting" :
+	[
+		{
+			"HP"	:	350.0	,
+			"AP"	:	100.0	,
+			"MaxHP"	:	350.0	,
+			"MaxAP"	:	300.0	,
+			"PrimaryWeaponID"	:	-2	,
+			"SecondaryWeaponID"	:	-2	,
+			"MeleeWeaponID1"	:	2066	,
+			"MeleeWeaponID2"	:	2026	,
+			"ThrowWeaponID"	:	2116	,
+			"ToolWeaponID1"	:	3447	,
+			"ToolWeaponID2"	:	-2	,
+			"CustomAmmoCount1"	:	"3447,391,1"	,
+			"CustomAmmoCount2"	:	"8243,1456,1"	,
+			"TabMiniMapDataIndex"	:	16,
+			"RIT_ARMOR2" : 300,
+			"RIT_ARMOR" : 100
+		}
+	],
+	"stackitem_info" :
+	[
+		{
+			"ToolWeaponID1"	:	3447,
+			"ToolWeaponID2"	:	3448,
+			"ThrowWeaponID1":   	8243,
+			"ThrowWeaponID2":	2116
+		}
+	],
+	"WeaponType" :
+	[
+		{
+			"9"	:	"WT_PRI_COMMON"	,
+			"14"	:	"WT_PRI_COMMON"	,
+			"99"	:	"WT_PRI_COMMON"	,
+			"4074"	:	"WT_PRI_COMMON"	,
+			"4412"	:	"WT_PRI_COMMON"	,
+			"7236"	:	"WT_PRI_COMMON"	,
+			"7237"	:	"WT_PRI_COMMON"	,
+			"6331"	:	"WT_PRI_COMMON"	,
+			"4871"	:	"WT_PRI_COMMON"	,
+			"4348"	:	"WT_PRI_COMMON"	,
+			"8181"	:	"WT_PRI_COMMON"	,
+			"8257"	:	"WT_PRI_COMMON"	,
+			"8291"	:	"WT_PRI_COMMON"	,
+			"8292"	:	"WT_PRI_COMMON"	,
+			"1175"	:	"WT_PRI_COMMON"	,
+			"1176"	:	"WT_PRI_COMMON"	,
+			"5730"	:	"WT_PRI_COMMON"	,
+			"9347"	:	"WT_PRI_COMMON"	,
+			
+
+			"8123"	:	"WT_PRI_COMMON"	,
+			"8124"	:	"WT_PRI_COMMON"	,
+			"8125"	:	"WT_PRI_COMMON"	,
+			"8126"	:	"WT_PRI_COMMON"	,
+			"8179"	:	"WT_PRI_COMMON"	,
+			"8180"	:	"WT_PRI_COMMON"	,
+			
+			"8293"	:	"WT_PRI_COMMON"	,
+			"8294"	:	"WT_PRI_COMMON"	,
+			"8295"	:	"WT_PRI_COMMON"	,
+			"8296"	:	"WT_PRI_COMMON"	,
+			"8326"	:	"WT_PRI_COMMON"	,
+			"8388"	:	"WT_PRI_COMMON"	,
+			
+			"8236"	:	"WT_PRI_SNIPER"	,
+			"8237"	:	"WT_PRI_SNIPER"	,
+			"8238"	:	"WT_PRI_SNIPER"	,
+			"8239"	:	"WT_PRI_SNIPER"	,
+			"2959"	:	"WT_PRI_SNIPER"	,
+			
+			"8252"	:	"WT_PRI_SNIPER"	,
+			"8253"	:	"WT_PRI_SNIPER"	,
+			"8254"	:	"WT_PRI_SNIPER"	,
+			"8255"	:	"WT_PRI_SNIPER"	,
+			
+			"8241"	:	"WT_PRI_SHOTGUN"	,
+			"8240"	:	"WT_PRI_SHOTGUN"	,
+			"8460"	:	"WT_PRI_SHOTGUN",
+			"8242"	:	"WT_PRI_SHOTGUN"	,
+			"1"		:	"WT_SECONDARY"	,
+			"1958"	:	"WT_SECONDARY"	,
+			"7032"	:	"WT_SECONDARY"	,
+			"7033"	:	"WT_SECONDARY"	,
+			"5122"	:	"WT_SECONDARY"	,
+			"3698"	:	"WT_SECONDARY"	,
+			"8618"	:	"WT_SECONDARY"	,
+			
+			"8117"	:	"WT_SECONDARY"	,
+			"8118"	:	"WT_SECONDARY"	,
+			"8119"	:	"WT_SECONDARY"	,
+			"8120"	:	"WT_SECONDARY"	,
+			"8379"	:	"WT_SECONDARY"	,
+			
+			"2058"	:	"WT_MELEE"	,
+			"8243"	:	"WT_THROWING"	,
+			"2116"	:	"WT_THROWING"	,
+			"3447"	:	"WT_PACKAGE"	,
+			"3448"	:	"WT_PACKAGE"	,
+			"1898"	:	"WT_HELMET"	,
+			"1963"	:	"WT_HELMET"	,
+			"1964"	:	"WT_HELMET"	,
+			"2428"	:	"WT_HELMET"	,
+			"2429"	:	"WT_HELMET"	,
+			"2430"	:	"WT_HELMET"	,
+			"2431"	:	"WT_HELMET"	,
+			"2794"	:	"WT_HELMET"	,
+			"1790"	:	"WT_SHIELD"	,
+			"7773"	:	"WT_CONTAINER"	,
+			"7774"	:	"WT_CONTAINER"	,
+			"7775"	:	"WT_CONTAINER"	,
+			"7776"	:	"WT_CONTAINER"
+		}
+	],
+	"Dying" :
+	[
+		{
+			"DyingDamage"	:	999	,
+			"DyingFlag_HeadShot"	:	1	,
+			"DyingFlag_AmSal"	:	0	,
+			"DyingFlag_MyBomb"	:	1	,
+			"DyingFlag_Crush"	:	0	,
+			"DyingFlag_Freeze"	:	0	,
+			"DyingFlag_Bleeding"	:	1	,
+			"Dying_CamRotSpeed"	:	18	,
+			"Dying_WeaponWeight"	:	0	,
+			"Dying_ReviveRange"	:	500.0	,
+			"Dying_ReviveTick"	:	3.0	,
+			"Dying_ReviveHealth"	:	10	,
+			"Dying_RemainTime"	:	30	,
+			"Dying_VolumeFadeTick1"	:	1	,
+			"Dying_VolumeFadeTick2"	:	19	,
+			"Dying_VolumeValue"	:	0.1	,
+			"Dying_MoveSpeed"	:	0.1
+		}
+	],
+	"strWeaponIcon":
+	[
+		{
+			"9"		:	"sa_interface2\\hud\\survival\\inventory\\AK-47.dtx"	,
+			"14"	:	"sa_interface2\\hud\\survival\\inventory\\famas.dtx"	,
+			"99"	:	"sa_interface2\\hud\\survival\\inventory\\sig556.dtx"	,
+			"4412"	:	"sa_interface2\\hud\\survival\\inventory\\hk416_v2.dtx"	,
+			"7236"	:	"sa_interface2\\hud\\survival\\inventory\\tas.dtx"	,
+			"7237"	:	"sa_interface2\\hud\\survival\\inventory\\tas_s.dtx"	,
+			"6331"	:	"sa_interface2\\hud\\survival\\inventory\\xm68.dtx"	,
+			"8388"	:	"sa_interface2\\hud\\survival\\inventory\\xm68_is_survivor.dtx"	,			
+			"4871"	:	"sa_interface2\\hud\\survival\\inventory\\GAL-1_v2.dtx"	,
+			"4348"	:	"sa_interface2\\hud\\survival\\inventory\\uar_v2.dtx"	,
+			"8181"	:	"sa_interface2\\hud\\survival\\inventory\\uar_v2_s.dtx"	,
+			"8291"	:	"sa_interface2\\hud\\survival\\inventory\\specter.dtx"	,
+			"8292"	:	"sa_interface2\\hud\\survival\\inventory\\specter_s.dtx"	,
+			"1175"	:	"sa_interface2\\hud\\survival\\inventory\\mp7.dtx"	,
+			"1176"	:	"sa_interface2\\hud\\survival\\inventory\\kriss.dtx"	,
+			"8257"	:	"sa_interface2\\hud\\survival\\inventory\\mk76.dtx"	,
+			"4074"	:	"sa_interface2\\hud\\survival\\inventory\\m249.dtx"	,
+			"5730"	:	"sa_interface2\\hud\\survival\\inventory\\p90_v2.dtx"	,
+			"9347"	:	"sa_interface2\\hud\\survival\\inventory\\nox_s.dtx"	,
+			
+			"8123"	:	"sa_interface2\\hud\\survival\\inventory\\tas_survivor.dtx"	,
+			"8124"	:	"sa_interface2\\hud\\survival\\inventory\\tas_s_survivor.dtx"	,
+			"8125"	:	"sa_interface2\\hud\\survival\\inventory\\tas_survivor_a.dtx"	,
+			"8126"	:	"sa_interface2\\hud\\survival\\inventory\\tas_s_survivor_a.dtx"	,
+			
+			"8179"	:	"sa_interface2\\hud\\survival\\inventory\\uar_v2_survivor.dtx"	,
+			"8180"	:	"sa_interface2\\hud\\survival\\inventory\\uar_v2_s_survivor.dtx"	,
+			
+			"8293"	:	"sa_interface2\\hud\\survival\\inventory\\specter_survivor.dtx"	,
+			"8294"	:	"sa_interface2\\hud\\survival\\inventory\\specter_s_survivor.dtx"	,
+			"8295"	:	"sa_interface2\\hud\\survival\\inventory\\specter_survivor_a.dtx"	,
+			"8296"	:	"sa_interface2\\hud\\survival\\inventory\\specter_s_survivor_a.dtx"	,
+			
+			"8236"	:	"sa_interface2\\hud\\survival\\inventory\\TRG-21.dtx"	,
+			"8237"	:	"sa_interface2\\hud\\survival\\inventory\\awx.dtx"	,
+			"8238"	:	"sa_interface2\\hud\\survival\\inventory\\awx_s.dtx"	,
+			"8239"	:	"sa_interface2\\hud\\survival\\inventory\\Winchester.dtx"	,
+			"2959"	:	"sa_interface2\\hud\\survival\\inventory\\gsr_6.dtx"	,
+			
+			"8252"	:	"sa_interface2\\hud\\survival\\inventory\\awx_survivor.dtx"	,
+			"8253"	:	"sa_interface2\\hud\\survival\\inventory\\awx_s_survivor.dtx"	,
+			"8254"	:	"sa_interface2\\hud\\survival\\inventory\\awx_survivor_a.dtx"	,
+			"8255"	:	"sa_interface2\\hud\\survival\\inventory\\awx_s_survivor_a.dtx"	,
+			
+			"8241"	:	"sa_interface2\\hud\\survival\\inventory\\dsg_12.dtx"	,
+			"8240"	:	"sa_interface2\\hud\\survival\\inventory\\Sg870_v3.dtx"	,
+			"8460"	:	"sa_interface2\\hud\\survival\\inventory\\sg870_v3_i_survivor.dtx",
+			"8242"	:	"sa_interface2\\hud\\survival\\inventory\\SG-12.dtx"	,
+			"1790"	:	"sa_interface2\\hud\\survival\\inventory\\Shield.dtx"	,
+			"1"		:	"sa_interface2\\hud\\survival\\inventory\\DEagle.dtx"	,
+			"7032"	:	"sa_interface2\\hud\\survival\\inventory\\tac_9.dtx"	,
+			"7033"	:	"sa_interface2\\hud\\survival\\inventory\\tac_9_s.dtx"	,
+			"1958"	:	"sa_interface2\\hud\\survival\\inventory\\G18.dtx"	,
+			"5122"	:	"sa_interface2\\hud\\survival\\inventory\\vs_9.dtx"	,
+			"3698"	:	"sa_interface2\\hud\\survival\\inventory\\tcontender.dtx"	,
+			"8618"	:	"sa_interface2\\hud\\survival\\inventory\\dap_2.dtx"	,
+			
+			"8117"	:	"sa_interface2\\hud\\survival\\inventory\\tac_9_survivor.dtx"	,
+			"8118"	:	"sa_interface2\\hud\\survival\\inventory\\tac_9_s_survivor.dtx"	,
+			"8119"	:	"sa_interface2\\hud\\survival\\inventory\\tac_9_survivor_a.dtx"	,
+			"8120"	:	"sa_interface2\\hud\\survival\\inventory\\tac_9_s_survivor_a.dtx"	,
+			"8326"	:	"sa_interface2\\hud\\survival\\inventory\\hk416_v2_survivor.dtx",
+			"8379"	:	"sa_interface2\\hud\\survival\\inventory\\vs_9_s_survivor.dtx",
+			
+			"8243"	:	"sa_interface2\\hud\\survival\\inventory\\G400.dtx"	,
+			"2116"	:	"sa_interface2\\hud\\survival\\inventory\\sv_inven_item_Smoke.dtx"	,
+			"3447"	:	"sa_interface2\\hud\\survival\\inventory\\HPKIT.dtx"	,
+			"3448"	:	"sa_interface2\\hud\\survival\\inventory\\HPKIT2.dtx"	,
+			"1898"	:	"sa_interface2\\hud\\survival\\inventory\\sv_icon_gasmask.dtx"	,
+			"1963"	:	"sa_interface2\\hud\\survival\\inventory\\sv_icon_skullmask_red.dtx"	,
+			"1964"	:	"sa_interface2\\hud\\survival\\inventory\\sv_icon_skullmask_blue.dtx"	,
+			"2428"	:	"sa_interface2\\hud\\survival\\inventory\\sv_icon_BattleHelmet_default.dtx"	,
+			"2429"	:	"sa_interface2\\hud\\survival\\inventory\\sv_icon_BattleHelmet_camo.dtx"	,
+			"2430"	:	"sa_interface2\\hud\\survival\\inventory\\sv_icon_BattleHelmet_leopard.dtx"	,
+			"2431"	:	"sa_interface2\\hud\\survival\\inventory\\sv_icon_goggle_helmet_default.dtx"	,
+			"2794"	:	"sa_interface2\\hud\\survival\\inventory\\sv_icon_snowcap.dtx",
+			"7773"	:	"sa_interface2\\hud\\survival\\inventory\\container_b.dtx",
+			"7774"	:	"sa_interface2\\hud\\survival\\inventory\\container_s.dtx",
+			"7775"	:	"sa_interface2\\hud\\survival\\inventory\\container_g.dtx",
+			"7776"	:	"sa_interface2\\hud\\survival\\inventory\\container_p.dtx"
+		}
+	],
+	"MapPrimaryWeapon":
+	[
+		{
+			"id"	:	9	,
+			"Prob"	:	8
+		},
+		{
+			"id"	:	14	,
+			"Prob"	:	16
+		},
+		{
+			"id"	:	99	,
+			"Prob"	:	24
+		},
+		{
+			"id"	:	4412	,
+			"Prob"	:	32
+		},
+		{
+			"id"	:	7236	,
+			"Prob"	:	33
+		},
+		{
+			"id"	:	4871	,
+			"Prob"	:	41
+		},
+		{
+			"id"	:	4348	,
+			"Prob"	:	45
+		},
+		{
+			"id"	:	8181	,
+			"Prob"	:	49
+		},
+		{
+			"id"	:	8257	,
+			"Prob"	:	57
+		},
+		{
+			"id"	:	8291	,
+			"Prob"	:	58
+		},
+		{
+			"id"	:	1175	,
+			"Prob"	:	66
+		},
+		{
+			"id"	:	1176	,
+			"Prob"	:	74
+		},
+		{
+			"id"	:	9347	,
+			"Prob"	:	76
+		},
+		{
+			"id"	:	8236	,
+			"Prob"	:	78
+		},
+		{
+			"id"	:	8237	,
+			"Prob"	:	80
+		},
+		{
+			"id"	:	8238	,
+			"Prob"	:	82
+		},
+		{
+			"id"	:	8239	,
+			"Prob"	:	85
+		},
+		{
+			"id"	:	8240	,
+			"Prob"	:	88
+		},
+		{
+			"id"	:	8241	,
+			"Prob"	:	91
+		},
+		{
+			"id"	:	8242	,
+			"Prob"	:	94
+		},
+		{
+			"id"	:	1790	,
+			"Prob"	:	100
+		}
+	],
+	"MapSecondaryWeapon":
+	[
+		{
+			"id"	:	1	,
+			"Prob"	:	30
+		},
+		{
+			"id"	:	7032	,
+			"Prob"	:	40
+		},
+		{
+			"id"	:	7033	,
+			"Prob"	:	50
+		},
+		{
+			"id"	:	1958	,
+			"Prob"	:	70
+		},
+		{
+			"id"	:	5122	,
+			"Prob"	:	80
+		},
+		{
+			"id"	:	3698	,
+			"Prob"	:	90
+		},
+		{
+			"id"	:	8618	,
+			"Prob"	:	100
+		}
+	],
+	"MapPackageWeapon":
+	[
+		{
+			"id"	:	3447	,
+			"Prob"	:	75
+		},
+		{
+			"id"	:	3448	,
+			"Prob"	:	100
+		}
+	],
+	"MapThrowingWeapon":
+	[
+		{
+			"id"	:	8243	,
+			"Prob"	:	50
+		},
+		{
+			"id"	:	2116	,
+			"Prob"	:	100
+		}
+	],
+	"MapHelmetWeapon":
+	[
+		{
+			"id"	:	1898	,
+			"Prob"	:	40
+		},
+		{
+			"id"	:	1963	,
+			"Prob"	:	70
+		},
+		{
+			"id"	:	1964	,
+			"Prob"	:	100
+		},
+		{
+			"id"	:	2428	,
+			"Prob"	:	100
+		},
+		{
+			"id"	:	2429	,
+			"Prob"	:	100
+		},
+		{
+			"id"	:	2430	,
+			"Prob"	:	100
+		},
+		{
+			"id"	:	2431	,
+			"Prob"	:	100
+		}
+	],
+	"HelmetFunc_DamageRate":
+	[
+		{
+			"1898"	:	0.0	,
+			"1963"	:	0.0	,
+			"1964"	:	0.0	,
+			"2428"	:	0.4	,
+			"2429"	:	0.4	,
+			"2430"	:	0.4	,
+			"2431"	:	0.0	,
+			"2794"	:	0.0
+		}
+	],
+	"HelmetFunc_NoThrow":
+	[
+		{
+			"1898"	:	0.0	,
+			"1963"	:	0.0	,
+			"1964"	:	0.0	,
+			"2428"	:	1.0	,
+			"2429"	:	1.0	,
+			"2430"	:	1.0	,
+			"2431"	:	0.0	,
+			"2794"	:	0.0
+		}
+	],
+	"HelmetFunc_SpeedRate":
+	[
+		{
+			"1898"	:	1.0	,
+			"1963"	:	1.0	,
+			"1964"	:	1.0	,
+			"2428"	:	1.0	,
+			"2429"	:	1.0	,
+			"2430"	:	1.0	,
+			"2431"	:	1.5	,
+			"2794"	:	1.0
+		}
+	],
+	"MapEventItem":
+	[
+		{
+			"id"	:	15760,
+			"Prob"	:	100
+		},
+		{
+			"id"	:	2	,
+			"Prob"	:	100
+		},
+		{
+			"id"	:	3	,
+			"Prob"	:	100
+		},
+		{
+			"id"	:	4	,
+			"Prob"	:	100
+		},
+		{
+			"id"	:	5	,
+			"Prob"	:	100
+		},
+		{
+			"id"	:	6	,
+			"Prob"	:	100
+		},
+		{
+			"id"	:	7	,
+			"Prob"	:	100
+		},
+		{
+			"id"	:	8	,
+			"Prob"	:	100
+		},
+		{
+			"id"	:	9	,
+			"Prob"	:	100
+		},
+		{
+			"id"	:	10	,
+			"Prob"	:	100
+		}
+	],
+	"Slot_Count": 
+	[
+		{
+			"WC_PRIMARY" : 2,
+			"WC_SECONDARY" : 1,
+			"WC_MELEE" : 3,
+			"WC_THROW" : 2,
+			"WC_PACKAGE" : 2
+		}
+	],	
+	"strInvenIcon":
+	[
+		{
+			"3"	:	"sa_interface2\\hud\\survival\\inventory\\AR_ammo.dtx"	,
+			"4"	:	"sa_interface2\\hud\\survival\\inventory\\SR_ammo.dtx"	,
+			"5"	:	"sa_interface2\\hud\\survival\\inventory\\ETC_ammo.dtx"	,
+			"6"	:	"sa_interface2\\hud\\survival\\inventory\\SW_ammo.dtx"	,
+			"10"	:	"sa_interface2\\hud\\survival\\inventory\\helmet.dtx"	,
+			"9"	:	"sa_interface2\\hud\\survival\\inventory\\sv_icon_bulletproof_vest.dtx"	,
+			"13"	:	"sa_interface2\\hud\\survival\\inventory\\sv_icon_bulletproof_premiumvest.dtx"
+		}
+	],
+	"ammodropcount" :
+	[
+		{
+			"RIT_PRI_AMMO_COMMON" :[15,20],
+			"RIT_PRI_AMMO_SNIPER" : [3,3],
+			"RIT_PRI_AMMO_SHOTGUN" : [5,5],
+			"RIT_SEC_AMMO_ALL" : [6,6]
+		}
+	],
+	"itemdiscardcount" :
+	[
+		{
+			"RIT_PRI_AMMO_COMMON" : 15,
+			"RIT_PRI_AMMO_SNIPER" : 3,
+			"RIT_PRI_AMMO_SHOTGUN" : 5,
+			"RIT_SEC_AMMO_ALL" : 6
+		}	
+	],
+	"itemdiscardmodel" :
+	[
+		{
+			"index" : 3447,
+			"single" : true,
+			"model": "sa_weapons\\models\\tv\\zombie_kit_3p.ltb",
+			"texture": "sa_weapons\\SKINS\\tv\\survival_kit_default.dtx"
+		},
+		{
+			"item" : 3447,
+			"single" : false,
+			"model": "sa_weapons\\models\\20_tv\\sv_first_aid_b_3p.ltb",
+			"texture": "sa_weapons\\SKINS\\tv\\sv_first_aid_orange.dtx"
+		},
+		{
+			"index" : 3448,
+			"single" : true,
+			"model": "sa_weapons\\models\\tv\\zombie_kit_3p.ltb",
+			"texture": "sa_weapons\\SKINS\\tv\\survival_kit_green_3p.dtx"
+		},
+		{
+			"item" : 3448,
+			"single" : false,
+			"model": "sa_weapons\\models\\20_tv\\sv_first_aid_b_3p.ltb",
+			"texture": "sa_weapons\\SKINS\\tv\\sv_first_aid_green.dtx"
+		},
+		{
+			"item" : 8243,
+			"single" : true,
+			"model": "SA_Weapons\\Models\\TV\\sv_grenade.ltb",
+			"texture": "SA_Weapons\\Skins\\TV\\Grenade.dtx"
+		},
+		{
+			"item" : 8243,
+			"single" : false,
+			"model": "SA_Weapons\\Models\\TV\\g600_3p.ltb",
+			"texture": "SA_Weapons\\Skins\\TV\\g600_blackpanther_3p.dtx"
+		},
+		{
+			"item" : 2116,
+			"single" : true,
+			"model": "SA_Weapons\\Models\\TV\\Smokegrenade.ltb",
+			"texture": "SA_Weapons\\Skins\\TV\\s402_smoke_3p.DTX"
+		},
+		{
+			"item" : 2116,
+			"single" : false,
+			"model": "SA_Weapons\\Models\\TV\\g600_3p.ltb",
+			"texture": "SA_Weapons\\Skins\\TV\\g600_blackpanther_3p.dtx"
+		},
+		{
+			"item" : 1898,
+			"single" : true,
+			"model": "SA_WEAPONS\\MODELS\\helmet\\gasmask_3p.ltb",
+			"texture": "SA_WEAPONS\\SKINS\\helmet\\gasmask_black_default.dtx"
+		},
+		{
+			"item" : 1963,
+			"single" : true,
+			"model": "SA_WEAPONS\\MODELS\\helmet\\skullmask_red_3p.ltb",
+			"texture": "SA_WEAPONS\\SKINS\\helmet\\skullmask_red_default.dtx"
+		},
+		{
+			"item" : 1964,
+			"single" : true,
+			"model": "SA_WEAPONS\\MODELS\\helmet\\skullmask_blue_3p.ltb",
+			"texture": "SA_WEAPONS\\SKINS\\helmet\\skullmask_blue_default.dtx"
+		},
+		{
+			"item" : 2428,
+			"single" : true,
+			"model": "SA_WEAPONS\\MODELS\\helmet\\Helmet_BattleHelmet.ltb",
+			"texture": "SA_WEAPONS\\SKINS\\helmet\\helmet_BattleHelmet_default.dtx"
+				},
+		{
+			"item" : 2429,
+			"single" : true,
+			"model": "SA_WEAPONS\\MODELS\\helmet\\Helmet_BattleHelmet.ltb",
+			"texture": "SA_WEAPONS\\SKINS\\helmet\\helmet_BattleHelmet_camo_default.dtx"
+		},
+		{
+			"item" : 2430,
+			"single" : true,
+			"model": "SA_WEAPONS\\MODELS\\helmet\\Helmet_BattleHelmet.ltb",
+			"texture": "SA_WEAPONS\\SKINS\\helmet\\helmet_BattleHelmet_leopard_default.dtx"
+		},
+		{
+			"item" : 2431,
+			"single" : true,
+			"model": "SA_WEAPONS\\MODELS\\helmet\\Helmet_SwimmingGoggles.ltb",
+			"texture": "SA_WEAPONS\\SKINS\\helmet\\helmet_SwimmingGoggles_default.dtx"
+		},
+		{
+			"item" : 2794,
+			"single" : true,
+			"model": "SA_WEAPONS\\MODELS\\helmet\\snowgoggle_helmet_ver02.ltb",
+			"texture": "SA_WEAPONS\\SKINS\\helmet\\snowgoggle2_helmet_default.dtx"
+		},
+		{
+			"item" : 2492,
+			"single" : false,
+			"model": "sa_weapons\\models\\tv\\cartridge_3p.ltb",
+			"texture": "sa_weapons\\SKINS\\tv\\cartridge_Sniper_3p.dtx"
+		},
+		{
+			"item" : 2493,
+			"single" : false,
+			"model": "sa_weapons\\models\\tv\\cartridge_3p.ltb",
+			"texture": "sa_weapons\\SKINS\\tv\\cartridge_Sniper_3p.dtx"
+		},
+		{
+			"item" : 2494,
+			"single" : false,
+			"model": "sa_weapons\\models\\tv\\cartridge_3p.ltb",
+			"texture": "sa_weapons\\SKINS\\tv\\cartridge_Shotgun_3p.dtx"
+		},
+		{
+			"item" : 2495,
+			"single" : false,
+			"model": "sa_weapons\\models\\tv\\cartridge_3p.ltb",
+			"texture": "sa_weapons\\SKINS\\tv\\cartridge_Pistol_3p.dtx"
+		}	
+	],
+	"eventitem_model" :
+	[
+		{
+			"index" : 15760,
+			"model": "sa_characters\\models\\Survival\\Yut_event_3p.ltb",
+			"texture": "sa_characters\\skins\\Survival\\Yut_event_3p.dtx"
+		},
+		{
+			"index" : 2,
+			"model": "sa_characters\\models\\Survival\\puzzle2.ltb",
+			"texture": "sa_characters\\skins\\Survival\\puzzle.dtx"
+		},
+		{
+			"index" : 3,
+			"model": "sa_characters\\models\\Survival\\puzzle3.ltb",
+			"texture": "sa_characters\\skins\\Survival\\puzzle.dtx"
+		},
+		{
+			"index" : 4,
+			"model": "sa_characters\\models\\Survival\\puzzle4.ltb",
+			"texture": "sa_characters\\skins\\Survival\\puzzle.dtx"
+		}
+	],
+	"Visual_effect":
+	[
+		{
+			"TracerLightColorR"	:	0.25	,
+			"TracerLightColorG"	:	0.125	,
+			"TracerLightColorB"	:	0.0	,
+			"TracerLightTexture"	:	"fx\\2011all\\uniquecharacter\\unique_light_a.dtx"	,
+			"TracerLightTexSize"	:	40.0	,
+			"TracerLightRadius"	:	300.0	,
+			"TeamFX"	:	"Survival_state_accept"	,
+			"HealColorR"	:	0	,
+			"HealColorG"	:	255	,
+			"HealColorB"	:	0	,
+			"DamageColorR"	:	255	,
+			"DamageColorG"	:	0	,
+			"DamageColorB"	:	0,
+			"DynamicLightRadius" : 0.5
+		}
+	],
+	"Shield":
+	[
+		{
+			"ShieldBlockDamage"	:	0.1	,
+			"OnlyShieldDamage"	:	0.0	,
+			"ShieldSpeed"	:	0.5	,
+			"OtherBombShieldDamage"	:	0.1	,
+			"BombShieldDamage"	:	0.1	,
+			"StoppingPowerBase"	:	-1.0	,
+			"StoppingPowerAlpha"	:	0.27
+		}
+	],
+	"Item_Interaction":
+	[
+		{
+			"ItemInteractionRange"	:	210.0	,
+			"ItemInteractionTime"	:	0.15	,
+			"LootBoxModel"	:	"sa_weapons\\models\\20_tv\\sv_armybackpack_3p.ltb"	,
+			"LootBoxSkin"	:	"sa_weapons\\SKINS\\tv\\sv_armybackpack_3p.dtx"	,
+			"LootBoxInteractionTime"	:	2.0	,
+			"SupplyBoxModel"	:	"sa_props\\models\\survival\\survival_supplyBox_01.ltb"	,
+			"SupplyBoxSkin"	:	"sa_props\\skins\\survival\\survival_supplyBox_01.dtx"	,
+			"MapItemOutlineVisibleDistance"	:	180.0	,
+			"MapItemOutlineColorR"	:	1.0	,
+			"MapItemOutlineColorG"	:	1.0	,
+			"MapItemOutlineColorB"	:	1.0	,
+			"MapItemOutlineScale"	:	0.004	
+		}
+	],
+	"Zipline":
+	[
+		{
+			"FX_zipline_idle_3"	:	"Survival_Line_Spark_HH"	,
+			"FX_zipline_idle_3_1"	:	"Survival_Line_Spark_HH"	,
+			"FX_zipline_idle_3_2"	:	"Survival_Line_Spark_HH"	,
+			"ZipLineKitModel"	:	"sa_characters\\models\\Survival\\zipline_3p.ltb"	,
+			"ZipLineKitSkin"	:	"sa_characters\\skins\\survival\\zipline_d.dtx"	,
+			"ZipLineKitSocket"	:	"RightHand"	,
+			"Flood_zipline_idle_3"	:	1	,
+			"Flood_zipline_idle_3_1"	:	1	,
+			"Flood_zipline_idle_3_2"	:	1	,
+			"FloodSound"	:	"sa_interface2\\snd\\survival\\Zipline_Idle.wav"
+		}
+	],
+	"water_setting":
+	[
+		{
+			"WaterTexturePath"	:	"sa_tex2\\cliffhanger\\water_blue.dtx",
+			"WaterObjectPath"	:	"sa_props\\models\\sea.ltb",
+			"DisasterSoundOuterDist"	:	2500,
+			"DisasterSoundInnerDist"	:	1000,
+			"DisasterAlarmSound"	:	"sa_interface2\\snd\\survival\\sv_01.wav",
+			"DisasterMovementSound"	:	"sa_interface2\\snd/survival\\tsunami_wave.wav",
+			"DisasterUnderSound"	:	"sa_worlds\\snd\\under water_1.wav"
+		}
+	],
+	"blood_setting":
+	[
+		{
+			"BloodDamageRate"	:	0.1	,
+			"BloodDamageTick"	:	2.0	,
+			"BloodDamageDuration"	:	30.0	,
+			"BloodDamageAccumulateTime"	:	0.9	,
+			"BloodDamageAccumulateDamage"	:	100.0
+		}
+	],
+	"EventBGM":
+	[
+		{
+			"EventBGM1"	:	"sa_interface2\\snd\\survival\\LastOneSTART_BGM.ogg"	,
+			"EventBGM2"	:	"sa_interface2\\snd\\survival\\LastOne10_BGM.ogg"	,
+			"EventBGM3"	:	"sa_interface2\\snd\\survival\\LastOne2_BGM.ogg"	,
+			"EventBGM4"	:	"sa_interface2\\snd\\survival\\LastOne5_BGM.ogg"	,
+			"WaitingBGM"	:	"sa_interface2\\snd\\survival\\LastOne_Waiting_BGM.ogg"	,
+			"EventPlayer2Queue"	:	"sa_interface2\\snd\\survival\\LastOne2_Voice.wav"	,
+			"EventPlayer2Tail"	:	"sa_interface2\\snd\\survival\\LastOne2_BGM.ogg"	,
+			"EventPlayer5Queue"	:	"sa_interface2\\snd\\survival\\LastOne5_Voice.wav"	,
+			"EventPlayer5Tail"	:	"sa_interface2\\snd\\survival\\LastOne5_BGM.ogg"	,
+			"EventPlayer10Queue"	:	"sa_interface2\\snd\\survival\\LastOne10_Voice.wav"	,
+			"EventPlayer10Tail"	:	"sa_interface2\\snd\\survival\\LastOne10_BGM.ogg"	,
+			"EventTopPlayerDeathQueue"	:	"sa_interface2\\snd\\survival\\sv_No1Die.wav"	,
+			"EventDroneStartQueue"	:	"sa_interface2\\snd\\survival\\sv_SupplyStart.wav"	,
+			"EventPeerDeathQueue"	:	"sa_interface2\\snd\\survival\\sv_crawl_death.wav"	,
+			"EventPeerCrawlQueue"	:	"sa_interface2\\snd\\survival\\sv_crawl_ally.wav"	,
+			"EventPeerCrawlExecuteQueue"	:	"sa_interface2\\snd\\survival\\sv_crawl_execute.wav"
+		}
+	],
+	"Etc":
+	[
+		{
+			"VoiceTalkSpeechBubbleVolume"	:	0.5	,
+			"SniperRange"	:	30000	,
+			"SurvivalSocialChar"	:	[1261,1262,1263,1264,2188,2189,2190,2191,2192,2193,2194,2195]	,
+			"WeaponAmmoAngleArray"	:	[0,45,90,135,180,225,270,315]	,
+			"WeaponAmmoDistance"	:	40.0	,
+			"BaseMappingIndex"	:	0	,
+			"Clan1MappingIndex"	:	1	,
+			"Clan2MappingIndex"	:	1	,
+			"RifleMagazineID"	:	2492	,
+			"SniperMagazineID"	:	2493	,
+			"ShotgunMagazineID"	:	2494	,
+			"PistolMagazineID"	:	2495	,
+			"EachThrowWeaponCount"	:	2,
+			"containersendmotion" : 7803,
+			"containergetsound_1" : "sa_interface2\\snd\\survival\\container\\containerget_b.wav",
+			"containergetsound_2" : "sa_interface2\\snd\\survival\\container\\containerget_s.wav",
+			"containergetsound_3" : "sa_interface2\\snd\\survival\\container\\containerget_g.wav",
+			"containergetsound_4" : "sa_interface2\\snd\\survival\\container\\containerget_p.wav",
+			"containerfullsound" : "sa_interface2\\snd\\survival\\container\\container_full.wav",
+			"containersendsound" : "sa_interface2\\snd\\survival\\container\\container_send.wav",
+			"LootboxString" : "가방열기",
+			"SupplyboxString" : "파밍박스"
+		}
+	],
+	"Sapoint_info" :
+	[
+		{
+			"Sapoint_count" : 8,
+			"Sapoint_maxspawn" : [1000,109,66,133,590,51,42,55]
+		}
+	],
+	"MapitemType":
+	[
+		{
+			"MapItemType1"	:	[0,0,1,6,6,11,16,21,23,26,30,30,30,30],
+			"MapItemType2"	:	[0,5,8,10,11,13,15,16,18,19,20,20,20,21],
+			"MapItemType3"	:	[0,5,8,10,11,13,15,16,18,19,20,20,20,21],
+			"MapItemType4"	:	[0,5,8,10,11,13,15,16,18,19,20,20,20,21],
+			"MapItemType5"	:	[0,5,8,10,11,13,15,16,18,19,20,20,20,21],
+			"MapItemType6"	:	[0,5,8,10,11,13,15,16,18,19,20,20,20,21],
+			"MapItemType7"	:	[0,5,8,10,11,13,15,16,18,19,20,20,20,21],
+			"MapItemType8"	:	[0,5,8,10,11,13,15,16,18,19,20,20,20,21]
+		}
+	],
+	"FX_Social":
+	[
+		{
+			"FX_social_idle1"	:	"Survival_state_provoke",
+			"FX_social_idle4"	:	"Survival_state_legend",
+			"FX_social_idle5"	:	"Survival_state_master",
+			"FX_social_idle6"	:	"Survival_state_gold",
+			"FX_social_idle3"	:	"Survival_state_provoke",
+			"FX_social_idle2"	:	"Survival_state_accept",
+			"FX_social_idle0"	:	"Survival_state_giveup"
+		}
+	],
+	"dronedrop": 
+	[
+		{
+			"name": "PrimaryWeapon",
+			"count_by_level": [0,50,100],
+			"entries": [
+				{ "id": 6331, "weight": 20 },
+				{ "id": 4074, "weight": 10 },
+				{ "id": 7237, "weight": 20 },
+				{ "id": 2959, "weight": 10 },
+				{ "id": 8292, "weight": 20 },
+				{ "id": 5730, "weight": 20 }
+			]
+		},
+		{
+			"name": "Index_Weapons",
+			"entries": [
+				{ "id": 3447, "weight": 80, "count": [3, 5] },
+				{ "id": 3448, "weight": 30, "count": [2, 4] },
+				{ "id": 8243, "weight": 30, "count": [2, 4] },
+				{ "id": 1898, "weight": 80, "count": [1,1] }
+			]
+		},
+		{
+			"name": "Type_Weapons",
+			"entries": [
+				{ "type": "RIT_PRI_AMMO_COMMON", "weight": 30, "count": [30, 60] },
+				{ "type": "RIT_PRI_AMMO_SNIPER", "weight": 30, "count": [4, 8] },
+				{ "type": "RIT_PRI_AMMO_SHOTGUN", "weight": 30, "count": [8, 12] },
+				{ "type": "RIT_ARMOR", "weight": 30, "count": [100,100]  },
+				{ "type": "RIT_ARMOR2", "weight": 30, "count": [300,300]  }
+			]
+		}
+	],
+	"ObserverShader":
+	[
+		{
+			"teamID" : 1,
+			"r" : 1.0,
+			"g" : 0.0,
+			"b" : 0.0,
+			"a" : 1.0
+		},
+		{
+			"teamID" : 2,
+			"r" : 0.0,
+			"g" : 0.0,
+			"b" : 1.0,
+			"a" : 1.0
+		},
+		{
+			"teamID" : 3,
+			"r" : 0.0,
+			"g" : 1.0,
+			"b" : 0.0,
+			"a" : 1.0
+		},
+		{
+			"teamID" : 4,
+			"r" : 0.3137,
+			"g" : 0.2078,
+			"b" : 0.1529,
+			"a" : 1.0
+		},
+		{
+			"teamID" : 5,
+			"r" : 0.8118,
+			"g" : 0.3255,
+			"b" : 0.8549,
+			"a" : 1.0
+		},
+		{
+			"teamID" : 6,
+			"r" : 0.3882,
+			"g" : 0.7333,
+			"b" : 1.0,
+			"a" : 1.0
+		},
+		{
+			"teamID" : 7,
+			"r" : 1.0,
+			"g" : 1.0,
+			"b" : 1.0,
+			"a" : 1.0
+		},
+		{
+			"teamID" : 8,
+			"r" : 0.0118,
+			"g" : 0.0118,
+			"b" : 0.251,
+			"a" : 1.0
+		},
+		{
+			"teamID" : 9,
+			"r" : 0.9216,
+			"g" : 0.5176,
+			"b" : 0.1686,
+			"a" : 1.0
+		},
+		{
+			"teamID" : 10,
+			"r" : 0.9882,
+			"g" : 0.9373,
+			"b" : 0.302,
+			"a" : 1.0
+		}
+	]
+}

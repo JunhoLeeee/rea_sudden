@@ -1,0 +1,191 @@
+{
+  "path": "extracted\\game-file\\game_file\\CShell.dll",
+  "bytes": 33580904,
+  "sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110",
+  "image_base": "0x180000000",
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "raw_offset": 1024,
+      "raw_size": 21292032,
+      "virtual_size": 21291790
+    },
+    {
+      "name": ".rdata",
+      "rva": 21299200,
+      "raw_offset": 21293056,
+      "raw_size": 4760064,
+      "virtual_size": 4759922
+    },
+    {
+      "name": ".data",
+      "rva": 26062848,
+      "raw_offset": 26053120,
+      "raw_size": 446464,
+      "virtual_size": 2207224
+    },
+    {
+      "name": ".pdata",
+      "rva": 28270592,
+      "raw_offset": 26499584,
+      "raw_size": 999424,
+      "virtual_size": 998916
+    },
+    {
+      "name": ".rsrc",
+      "rva": 29270016,
+      "raw_offset": 27499008,
+      "raw_size": 1536,
+      "virtual_size": 1288
+    },
+    {
+      "name": ".reloc",
+      "rva": 29274112,
+      "raw_offset": 27500544,
+      "raw_size": 300544,
+      "virtual_size": 300208
+    },
+    {
+      "name": ".vm_sec",
+      "rva": 29577216,
+      "raw_offset": 27801088,
+      "raw_size": 49664,
+      "virtual_size": 49664
+    },
+    {
+      "name": ".vlizer",
+      "rva": 29630464,
+      "raw_offset": 27850752,
+      "raw_size": 5719549,
+      "virtual_size": 5719552
+    }
+  ],
+  "pattern": "ShowHitMarker|ReskillModel|Skillset|ModelSkill|WalkSpeed|RunSpeed|JumpSpeed",
+  "matches": [
+    {
+      "offset": 21498736,
+      "bytes": 107,
+      "encoding": "ascii",
+      "address": "0x181482370",
+      "value": "[ReskillModel] ERROR CCustomCharacterReskill::GetSelectedCharacter: red char is not activated [setKey:%lld]"
+    },
+    {
+      "offset": 21498848,
+      "bytes": 110,
+      "encoding": "ascii",
+      "address": "0x1814823e0",
+      "value": "[ReskillModel] ERROR CCustomCharacterReskill::GetSelectedCharacter: blue char is not activated. [setKey:%lld] "
+    },
+    {
+      "offset": 21505752,
+      "bytes": 23,
+      "encoding": "ascii",
+      "address": "0x181483ed8",
+      "value": "CReskillModelTicketList"
+    },
+    {
+      "offset": 21506488,
+      "bytes": 26,
+      "encoding": "ascii",
+      "address": "0x1814841b8",
+      "value": "btn_apply_current_skillset"
+    },
+    {
+      "offset": 21506536,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x1814841e8",
+      "value": "btn_apply_after_skillset"
+    },
+    {
+      "offset": 21506880,
+      "bytes": 101,
+      "encoding": "ascii",
+      "address": "0x181484340",
+      "value": "[ReskillModel] SUCCESS CPopupReskillCharacter::Res_ReskillCharacter, leftTickets:%d, newSkillset:[%s]"
+    },
+    {
+      "offset": 21506992,
+      "bytes": 79,
+      "encoding": "ascii",
+      "address": "0x1814843b0",
+      "value": "[ReskillModel] Failed to CPopupReskillCharacter::Res_ReskillCharacter result:%d"
+    },
+    {
+      "offset": 21507104,
+      "bytes": 91,
+      "encoding": "ascii",
+      "address": "0x181484420",
+      "value": "[ReskillModel] CPopupReskillCharacter::Res_SelectReskillCharacterResult: applySkillset:[%s]"
+    },
+    {
+      "offset": 21531224,
+      "bytes": 29,
+      "encoding": "ascii",
+      "address": "0x18148a258",
+      "value": "sa_scripts\\modelSKillInfo.txt"
+    },
+    {
+      "offset": 23181856,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x18161d220",
+      "value": "ShowHitMarker"
+    },
+    {
+      "offset": 23181920,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x18161d260",
+      "value": "IsReskillModel"
+    },
+    {
+      "offset": 23292896,
+      "bytes": 76,
+      "encoding": "ascii",
+      "address": "0x1816383e0",
+      "value": "[NETWORK] Send CS_ReskillCharSelectReskillResult: select new skillset? -> %s"
+    },
+    {
+      "offset": 23296560,
+      "bytes": 79,
+      "encoding": "ascii",
+      "address": "0x181639230",
+      "value": "[ReskillModel] CCharacterFX::Init Check IsEmotion -> modelId:%d, serverIndex:%d"
+    },
+    {
+      "offset": 23501520,
+      "bytes": 102,
+      "encoding": "ascii",
+      "address": "0x18166b2d0",
+      "value": "[ReskillModel] Failed to CModelSkillMgr::getMatchedSkillset. serverIndex:%d, modelId:%d, skillIndex:%d"
+    },
+    {
+      "offset": 26235208,
+      "bytes": 29,
+      "encoding": "ascii",
+      "address": "0x181907748",
+      "value": ".?AVCReskillModelTicketList@@"
+    },
+    {
+      "offset": 26313768,
+      "bytes": 28,
+      "encoding": "ascii",
+      "address": "0x18191aa28",
+      "value": ".?AVCModelSkillInfoButeMgr@@"
+    },
+    {
+      "offset": 26454656,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x18193d080",
+      "value": ".?AVCModelSkillMgr@@"
+    }
+  ],
+  "limitations": [
+    "Raw file-string anchors only; no references or function identities established.",
+    "Virtual addresses require one unique source-backed section mapping.",
+    "Only printable ASCII and ASCII-range UTF-16LE runs are scanned."
+  ]
+}

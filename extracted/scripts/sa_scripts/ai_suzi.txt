@@ -1,0 +1,54 @@
+[AIType_00]
+Name		= "수지-SUZI"
+Level		= 3
+HitPoint	= 280
+
+//속도~
+Velocity	= 320
+//모델~
+ModelId		= 28
+
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+AttackDamage	= 17.0f
+SightRange	= 600
+AttackRange	= 160
+MinGold		= 180
+MaxGold		= 200
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+KillScoreIcon = 0 
+BloodFx = 0.8f
+AI_SwayScum    = 5
+
+//요가강사 - 박초롱
+[AIType_01]
+Name		= "Chorong"
+Level		= 3
+HitPoint	= 280
+
+//속도~
+Velocity	= 320
+//모델~
+ModelId		= 102
+
+BrainType	= 3
+AtteckType	= 0
+RespawnTime	= 10.0f
+CocoonHP	= 100
+AttackDamage	= 17.0f
+SightRange	= 600
+AttackRange	= 160
+MinGold		= 180
+MaxGold		= 200
+ResistWeaponType= 0
+Resistance	= 1.0f
+AmpWeaponType   = 0
+Amplify		= 1.0f
+KillScoreIcon = 0 
+BloodFx = 0.8f
+AI_SwayScum    = 5

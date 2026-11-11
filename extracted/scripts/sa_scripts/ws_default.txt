@@ -1,0 +1,11 @@
+
+[Twitch]
+Name		= "twitch"
+
+[Blink]
+Name		= "blink"
+
+[Weightset0]
+UpperName	= "upper"
+LowerName	= "lower"
+PitchControl	= "pitch_"

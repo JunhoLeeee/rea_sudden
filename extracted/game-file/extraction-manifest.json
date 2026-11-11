@@ -1,0 +1,88 @@
+{
+  "package": "C:\\Nexon\\SuddenAttack\\game\\game_file_00000.pkg",
+  "header": {
+    "path": "C:\\Nexon\\SuddenAttack\\game\\game_file_00000.pkg",
+    "bytes": 17096704,
+    "version": 3,
+    "mask_bytes": 94,
+    "masked_string_units": 13,
+    "encrypted_header_offset": 125,
+    "index_padding_bytes": 241,
+    "observed_header_sha256": "5e97fc11d04cff95fa50966daa8532b931f6bd9e4538065fe8b65b4ff2a17652",
+    "identity_scope": "header-ranges-only",
+    "byteorder": "little",
+    "count": 6,
+    "checksum": 589439
+  },
+  "index_raw_sha256": "a770b692f07b541fb6ca63170913511246d84357a8b0ff51fcf5c6350b9a80ae",
+  "selected_members": 6,
+  "extracted": [
+    {
+      "path": "game_file/ClientFx.fxd",
+      "offset": 1024,
+      "stored_bytes": 114444,
+      "output_bytes": 309608,
+      "ciphertext_sha256": "f55fac7141471774bad035179ef3f2f8bceffcff392dc0c33dc0c6b3be9cd93d",
+      "output_sha256": "0ade6e232d2f70a1904fc78649eb913b4f129fdf130b1f456d127748514ffdae",
+      "expected_md5": "fa0433837da57a4769fdac311a933c62",
+      "md5_verified": true
+    },
+    {
+      "path": "game_file/CRes.dll",
+      "offset": 115712,
+      "stored_bytes": 165100,
+      "output_bytes": 671592,
+      "ciphertext_sha256": "6933e012d0795647fb23f3dc81d2c60a1a99f17cc7333b27653c510c1bc77c22",
+      "output_sha256": "3790dd9903874fa92696cc236df9abc0068c378af82c911a505d2e85c80eccd7",
+      "expected_md5": "d0c25fcfab599980175a0fb723d83fc2",
+      "md5_verified": true
+    },
+    {
+      "path": "game_file/CShell.dll",
+      "offset": 281600,
+      "stored_bytes": 14224660,
+      "output_bytes": 33580904,
+      "ciphertext_sha256": "2e66e77d1a2350e209c9df481042f49c36637366ead89a45c7921b61302184b8",
+      "output_sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110",
+      "expected_md5": "590487abc86c4a0455a396227a9ce363",
+      "md5_verified": true
+    },
+    {
+      "path": "game_file/ist.dat",
+      "offset": 14507008,
+      "stored_bytes": 14732,
+      "output_bytes": 31878,
+      "ciphertext_sha256": "c87bfb8cf197350bca088ab66e624579943666e5c55109ad517e76d63becda94",
+      "output_sha256": "006bb1b839eada4f859bd6f02fd98c64881486e8b14130f1998226a3ca5e3a38",
+      "expected_md5": "c72a8c3636a09141f41d82656121f6f4",
+      "md5_verified": true
+    },
+    {
+      "path": "game_file/Object.lto",
+      "offset": 14522368,
+      "stored_bytes": 2567424,
+      "output_bytes": 6690664,
+      "ciphertext_sha256": "6e12c35629819cc1908677ef3fb686754cd2f09adc7673ece785e486b688cf3c",
+      "output_sha256": "ee0971dc86703b1bc0a81b0315d144f807f26e797fb4a1c68ab6d9400b6225b6",
+      "expected_md5": "82c77cd1d24001ed76f196eef10bfc01",
+      "md5_verified": true
+    },
+    {
+      "path": "game_file/SRes.dll",
+      "offset": 17090560,
+      "stored_bytes": 5500,
+      "output_bytes": 12288,
+      "ciphertext_sha256": "1fc5d8c15b76aa6d480dc97ba6c5eff55300f07e12d156ce35ba46a5fc9af878",
+      "output_sha256": "3db7b8918d89eedbbd1a60b103823e8995197b0a2f4968825a62115716d63f42",
+      "expected_md5": "5efb3674bb7aa1b2253d63af1f02d4eb",
+      "md5_verified": true
+    }
+  ],
+  "errors": [],
+  "status": "selected-members-verified",
+  "limitations": [
+    "Only profiles with flags in 0..7 and no block hash table are supported.",
+    "Archived code is never loaded or executed.",
+    "Full package digest remains unknown; selected read ranges have SHA-256."
+  ]
+}

@@ -1,0 +1,3376 @@
+{
+  "variables": {
+    "numconsolelines": {
+      "name": "numconsolelines",
+      "value": "2",
+      "numeric": 2.0,
+      "flags": 0
+    },
+    "farz": {
+      "name": "FarZ",
+      "value": "10000",
+      "numeric": 10000.0,
+      "flags": 0
+    },
+    "modelshadow_proj_perspective": {
+      "name": "ModelShadow_proj_perspective",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "vs_sprites_noz": {
+      "name": "VS_SPRITES_NOZ",
+      "value": "128",
+      "numeric": 128.0,
+      "flags": 0
+    },
+    "carddesc": {
+      "name": "CardDesc",
+      "value": "HAL",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "normalturnrate": {
+      "name": "NormalTurnRate",
+      "value": "1.500000",
+      "numeric": 1.5,
+      "flags": 0
+    },
+    "detailtexturescale": {
+      "name": "DetailTextureScale",
+      "value": "1.0",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "maxmodelshadows": {
+      "name": "MaxModelShadows",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "gammab": {
+      "name": "GammaB",
+      "value": "1.141000",
+      "numeric": 1.1410000324249268,
+      "flags": 0
+    },
+    "vs_particlesystems": {
+      "name": "VS_PARTICLESYSTEMS",
+      "value": "1024",
+      "numeric": 1024.0,
+      "flags": 0
+    },
+    "weaponfxmaximpactdist": {
+      "name": "WeaponFXMaxImpactDist",
+      "value": "5000",
+      "numeric": 5000.0,
+      "flags": 0
+    },
+    "fogenable": {
+      "name": "FogEnable",
+      "value": "1.000000",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "screenflash": {
+      "name": "ScreenFlash",
+      "value": "0.000000",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "mousescalebase": {
+      "name": "MouseScaleBase",
+      "value": "0.00015",
+      "numeric": 0.0001500000071246177,
+      "flags": 0
+    },
+    "envpanspeed": {
+      "name": "EnvPanSpeed",
+      "value": "0.000500",
+      "numeric": 0.0005000000237487257,
+      "flags": 0
+    },
+    "modellod": {
+      "name": "ModelLOD",
+      "value": "2.000000",
+      "numeric": 2.0,
+      "flags": 0
+    },
+    "modelshadow_proj_textureres": {
+      "name": "ModelShadow_proj_textureres",
+      "value": "256",
+      "numeric": 256.0,
+      "flags": 0
+    },
+    "gammag": {
+      "name": "GammaG",
+      "value": "1.141000",
+      "numeric": 1.1410000324249268,
+      "flags": 0
+    },
+    "difficulty": {
+      "name": "Difficulty",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "snowdensityscale": {
+      "name": "SnowDensityScale",
+      "value": "1.000000",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "runlock": {
+      "name": "RunLock",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "backbuffercount": {
+      "name": "BackBufferCount",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "windowed": {
+      "name": "windowed",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "weaponsway": {
+      "name": "WeaponSway",
+      "value": "0.900000",
+      "numeric": 0.8999999761581421,
+      "flags": 0
+    },
+    "vs_sprites": {
+      "name": "VS_SPRITES",
+      "value": "512",
+      "numeric": 512.0,
+      "flags": 0
+    },
+    "modelshadowproj": {
+      "name": "ModelShadowProj",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "leanangle": {
+      "name": "LeanAngle",
+      "value": "18",
+      "numeric": 18.0,
+      "flags": 0
+    },
+    "tracers": {
+      "name": "Tracers",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "vehiclecontour": {
+      "name": "VehicleContour",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "lightmap": {
+      "name": "LightMap",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "musicactive": {
+      "name": "MusicActive",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "soundfilters": {
+      "name": "SoundFilters",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "screendepth": {
+      "name": "screendepth",
+      "value": "16",
+      "numeric": 16.0,
+      "flags": 0
+    },
+    "detaillevel": {
+      "name": "DetailLevel",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "gammar": {
+      "name": "GammaR",
+      "value": "1.141000",
+      "numeric": 1.1410000324249268,
+      "flags": 0
+    },
+    "vs_polygrids_translucent": {
+      "name": "VS_POLYGRIDS_TRANSLUCENT",
+      "value": "64",
+      "numeric": 64.0,
+      "flags": 0
+    },
+    "mousesensitivity": {
+      "name": "MouseSensitivity",
+      "value": "0.000000",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "crosshairstyle": {
+      "name": "CrosshairStyle",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "fastturnrate": {
+      "name": "FastTurnRate",
+      "value": "2.300000",
+      "numeric": 2.299999952316284,
+      "flags": 0
+    },
+    "saturate": {
+      "name": "Saturate",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "sound16bit": {
+      "name": "Sound16Bit",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "bitdepth": {
+      "name": "BitDepth",
+      "value": "32",
+      "numeric": 32.0,
+      "flags": 0
+    },
+    "hardwarecursor": {
+      "name": "HardwareCursor",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "crosshaircolorr": {
+      "name": "CrosshairColorR",
+      "value": "0.874510",
+      "numeric": 0.8745099902153015,
+      "flags": 0
+    },
+    "scatterenable": {
+      "name": "ScatterEnable",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "vehicleturnratescale": {
+      "name": "VehicleTurnRateScale",
+      "value": "1.000000",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "vs_polygrids": {
+      "name": "VS_POLYGRIDS",
+      "value": "64",
+      "numeric": 64.0,
+      "flags": 0
+    },
+    "speechsoundmultiplier": {
+      "name": "speechsoundmultiplier",
+      "value": "1.000000",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "modelshadowprojlod": {
+      "name": "ModelShadowProjLOD",
+      "value": "1.000000",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "screenwidth": {
+      "name": "screenwidth",
+      "value": "800",
+      "numeric": 800.0,
+      "flags": 0
+    },
+    "cachetexture": {
+      "name": "CacheTexture",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "trilinear": {
+      "name": "Trilinear",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "renderdll": {
+      "name": "RenderDll",
+      "value": "d3d.ren",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "modelshadow_proj_maxshadowsperframe": {
+      "name": "ModelShadow_Proj_MaxShadowsPerFrame",
+      "value": "2",
+      "numeric": 2.0,
+      "flags": 0
+    },
+    "crosshairalpha": {
+      "name": "CrosshairAlpha",
+      "value": "159",
+      "numeric": 159.0,
+      "flags": 0
+    },
+    "vsynconflip": {
+      "name": "VSyncOnFlip",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "specialfx": {
+      "name": "SpecialFX",
+      "value": "2.000000",
+      "numeric": 2.0,
+      "flags": 0
+    },
+    "modelshadow_proj_blurenable": {
+      "name": "modelshadow_proj_blurenable",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "musicquality": {
+      "name": "MusicQuality",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "environmentaldetail": {
+      "name": "EnvironmentalDetail",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "updaterateinitted": {
+      "name": "UpdateRateInitted",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "bulletholes": {
+      "name": "BulletHoles",
+      "value": "300",
+      "numeric": 300.0,
+      "flags": 0
+    },
+    "muzzlelight": {
+      "name": "MuzzleLight",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "objectivemessages": {
+      "name": "ObjectiveMessages",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "numruns": {
+      "name": "NumRuns",
+      "value": "6699.000000",
+      "numeric": 6699.0,
+      "flags": 0
+    },
+    "bandwidthtargetserver": {
+      "name": "bandwidthtargetserver",
+      "value": "262144.000000",
+      "numeric": 262144.0,
+      "flags": 0
+    },
+    "vs_canvases": {
+      "name": "VS_CANVASES",
+      "value": "32",
+      "numeric": 32.0,
+      "flags": 0
+    },
+    "detailtextures": {
+      "name": "Detailtextures",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "anisotropic": {
+      "name": "Anisotropic",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "savewidth": {
+      "name": "Savewidth",
+      "value": "800",
+      "numeric": 800.0,
+      "flags": 0
+    },
+    "envbumpmapenable": {
+      "name": "envbumpmapenable",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "usejoystick": {
+      "name": "UseJoystick",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "vs_canvases_translucent": {
+      "name": "VS_CANVASES_TRANSLUCENT",
+      "value": "128",
+      "numeric": 128.0,
+      "flags": 0
+    },
+    "lodoffset": {
+      "name": "LodOffset",
+      "value": "-200.000000",
+      "numeric": -200.0,
+      "flags": 0
+    },
+    "ignoretaunts": {
+      "name": "IgnoreTaunts",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "leanouttime": {
+      "name": "LeanOutTime",
+      "value": "0.15",
+      "numeric": 0.15000000596046448,
+      "flags": 0
+    },
+    "envmapenable": {
+      "name": "EnvMapEnable",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "envmapworld": {
+      "name": "EnvMapWorld",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "modelshadow_proj_enable": {
+      "name": "ModelShadow_proj_enable",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "musicvolume": {
+      "name": "musicvolume",
+      "value": "-2500",
+      "numeric": -2500.0,
+      "flags": 0
+    },
+    "modelshadow_proj_backfacecull": {
+      "name": "ModelShadow_Proj_BackFaceCull",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "snowenable": {
+      "name": "SnowEnable",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "multiplayer": {
+      "name": "multiplayer",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "vs_linesystems": {
+      "name": "VS_LINESYSTEMS",
+      "value": "128",
+      "numeric": 128.0,
+      "flags": 0
+    },
+    "autoweaponswitch": {
+      "name": "AutoWeaponSwitch",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "forceclear": {
+      "name": "Forceclear",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "fastlight": {
+      "name": "FastLight",
+      "value": "0.000000",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "soundvolume": {
+      "name": "SoundVolume",
+      "value": "50",
+      "numeric": 50.0,
+      "flags": 0
+    },
+    "inputrate": {
+      "name": "inputrate",
+      "value": "12.000000",
+      "numeric": 12.0,
+      "flags": 0
+    },
+    "polygrids": {
+      "name": "PolyGrids",
+      "value": "1.000000",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "vs_models": {
+      "name": "VS_MODELS",
+      "value": "4096",
+      "numeric": 4096.0,
+      "flags": 0
+    },
+    "fresnelpolygrids": {
+      "name": "FresnelPolyGrids",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "groupoffset0": {
+      "name": "GroupOffset0",
+      "value": "0.000000",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "drawshadows": {
+      "name": "DrawShadows",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "mouselook": {
+      "name": "MouseLook",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "bumpmappolygrids": {
+      "name": "BumpMapPolyGrids",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "subtitles": {
+      "name": "Subtitles",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "fadebodies": {
+      "name": "FadeBodies",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "groupoffset1": {
+      "name": "GroupOffset1",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "modelshadow_proj_alpha": {
+      "name": "ModelShadow_proj_alpha",
+      "value": "3.000000",
+      "numeric": 3.0,
+      "flags": 0
+    },
+    "sendbandwidth": {
+      "name": "SendBandwidth",
+      "value": "10000000",
+      "numeric": 10000000.0,
+      "flags": 0
+    },
+    "mipmapbias": {
+      "name": "mipmapbias",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "groupoffset2": {
+      "name": "GroupOffset2",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "musictype": {
+      "name": "musictype",
+      "value": "ima",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "drawportals": {
+      "name": "DrawPortals",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "crosshairgreen": {
+      "name": "CrosshairGreen",
+      "value": "255",
+      "numeric": 255.0,
+      "flags": 0
+    },
+    "groupoffset3": {
+      "name": "GroupOffset3",
+      "value": "2",
+      "numeric": 2.0,
+      "flags": 0
+    },
+    "modelshadow_proj_maxprojdist": {
+      "name": "ModelShadow_proj_MaxProjDist",
+      "value": "200.000000",
+      "numeric": 200.0,
+      "flags": 0
+    },
+    "pvweapons": {
+      "name": "PVWeapons",
+      "value": "0.000000",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "modelshadowalpha": {
+      "name": "ModelShadowAlpha",
+      "value": "96",
+      "numeric": 96.0,
+      "flags": 0
+    },
+    "mousescaleincrement": {
+      "name": "MouseScaleIncrement",
+      "value": "0.00003",
+      "numeric": 2.9999999242136255e-05,
+      "flags": 0
+    },
+    "texturedetail": {
+      "name": "TextureDetail",
+      "value": "2.000000",
+      "numeric": 2.0,
+      "flags": 0
+    },
+    "consolealpha": {
+      "name": "consolealpha",
+      "value": "0.25",
+      "numeric": 0.25,
+      "flags": 0
+    },
+    "clientfxdetaillevel": {
+      "name": "ClientFXDetailLevel",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "vs_worldmodels_translucent": {
+      "name": "VS_WORLDMODELS_TRANSLUCENT",
+      "value": "512",
+      "numeric": 512.0,
+      "flags": 0
+    },
+    "groupoffset4": {
+      "name": "GroupOffset4",
+      "value": "-2",
+      "numeric": -2.0,
+      "flags": 0
+    },
+    "mouseinverty": {
+      "name": "MouseInvertY",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "pvmodelaspect": {
+      "name": "pvmodelaspect",
+      "value": "1.333333",
+      "numeric": 1.3333330154418945,
+      "flags": 0
+    },
+    "groupoffset5": {
+      "name": "GroupOffset5",
+      "value": "-2",
+      "numeric": -2.0,
+      "flags": 0
+    },
+    "vs_lights": {
+      "name": "VS_LIGHTS",
+      "value": "64",
+      "numeric": 64.0,
+      "flags": 0
+    },
+    "bandwidthtargetclient": {
+      "name": "bandwidthtargetclient",
+      "value": "10240000.000000",
+      "numeric": 10240000.0,
+      "flags": 0
+    },
+    "groupoffset6": {
+      "name": "GroupOffset6",
+      "value": "-2",
+      "numeric": -2.0,
+      "flags": 0
+    },
+    "modelshadowprojres": {
+      "name": "ModelShadowProjRes",
+      "value": "128.000000",
+      "numeric": 128.0,
+      "flags": 0
+    },
+    "saveheight": {
+      "name": "SaveHeight",
+      "value": "600",
+      "numeric": 600.0,
+      "flags": 0
+    },
+    "modelfullbrite": {
+      "name": "ModelFullbrite",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "modellodoffset": {
+      "name": "ModelLODOffset",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "crosshairblue": {
+      "name": "CrosshairBlue",
+      "value": "255",
+      "numeric": 255.0,
+      "flags": 0
+    },
+    "leancentertime": {
+      "name": "LeanCenterTime",
+      "value": "0.2",
+      "numeric": 0.20000000298023224,
+      "flags": 0
+    },
+    "debuglevel": {
+      "name": "DebugLevel",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "shadowdetail": {
+      "name": "ShadowDetail",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "dynamiclightworld": {
+      "name": "DynamicLightWorld",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "axisforwardbackwarddeadzone": {
+      "name": "AxisForwardBackwardDeadZone",
+      "value": "0.200000",
+      "numeric": 0.20000000298023224,
+      "flags": 0
+    },
+    "cloudmaplight": {
+      "name": "CloudMapLight",
+      "value": "1.000000",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "fixedaxispitch": {
+      "name": "FixedAxisPitch",
+      "value": "0.000000",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "precacheassets": {
+      "name": "PreCacheAssets",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "screenheight": {
+      "name": "screenheight",
+      "value": "600",
+      "numeric": 600.0,
+      "flags": 0
+    },
+    "vs_models_translucent": {
+      "name": "VS_MODELS_TRANSLUCENT",
+      "value": "256",
+      "numeric": 256.0,
+      "flags": 0
+    },
+    "triplebuffer": {
+      "name": "TripleBuffer",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "hudlayout": {
+      "name": "HUDLayout",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "prediction": {
+      "name": "prediction",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "defaultsoundmultiplier": {
+      "name": "defaultsoundmultiplier",
+      "value": "0.750000",
+      "numeric": 0.75,
+      "flags": 0
+    },
+    "performancelevel": {
+      "name": "performancelevel",
+      "value": "3",
+      "numeric": 3.0,
+      "flags": 0
+    },
+    "musicenable": {
+      "name": "musicenable",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "crosshaircolorb": {
+      "name": "CrosshairColorB",
+      "value": "1.000000",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "weaponssoundmultiplier": {
+      "name": "weaponssoundmultiplier",
+      "value": "1.000000",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "crosshairred": {
+      "name": "CrosshairRed",
+      "value": "255",
+      "numeric": 255.0,
+      "flags": 0
+    },
+    "crosshairdynamic": {
+      "name": "CrosshairDynamic",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "dynamiclight": {
+      "name": "DynamicLight",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "impactfxlevel": {
+      "name": "ImpactFXLevel",
+      "value": "2",
+      "numeric": 2.0,
+      "flags": 0
+    },
+    "soundenable": {
+      "name": "soundenable",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "soundpack": {
+      "name": "SoundPack",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "initsoundsystem": {
+      "name": "InitSoundSystem",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "performanceconfig": {
+      "name": "PerformanceConfig",
+      "value": ".DefaultHigh",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "lookuprate": {
+      "name": "LookUpRate",
+      "value": "2.500000",
+      "numeric": 2.5,
+      "flags": 0
+    },
+    "gore": {
+      "name": "Gore",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "pvmodelfov": {
+      "name": "pvmodelfov",
+      "value": "68.000000",
+      "numeric": 68.0,
+      "flags": 0
+    },
+    "enableweatherfx": {
+      "name": "EnableWeatherFX",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "headbob": {
+      "name": "HeadBob",
+      "value": "5.600000",
+      "numeric": 5.599999904632568,
+      "flags": 0
+    },
+    "debrisfxlevel": {
+      "name": "DebrisFXLevel",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "vs_worldmodels": {
+      "name": "VS_WORLDMODELS",
+      "value": "512",
+      "numeric": 512.0,
+      "flags": 0
+    },
+    "pickupmessageduration": {
+      "name": "PickupMessageDuration",
+      "value": "5.000000",
+      "numeric": 5.0,
+      "flags": 0
+    },
+    "savebitdepth": {
+      "name": "SaveBitdepth",
+      "value": "16",
+      "numeric": 16.0,
+      "flags": 0
+    },
+    "shellcasings": {
+      "name": "ShellCasings",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "lookspring": {
+      "name": "LookSpring",
+      "value": "0.000000",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "crosshaircolorg": {
+      "name": "CrosshairColorG",
+      "value": "0.874510",
+      "numeric": 0.8745099902153015,
+      "flags": 0
+    },
+    "messageduration": {
+      "name": "MessageDuration",
+      "value": "0.800000",
+      "numeric": 0.800000011920929,
+      "flags": 0
+    },
+    "profilename": {
+      "name": "ProfileName",
+      "value": "Player_0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "locksenduuf": {
+      "name": "LockSendUUF",
+      "value": "0.1",
+      "numeric": 0.10000000149011612,
+      "flags": 0
+    },
+    "lockfps": {
+      "name": "LockFPS",
+      "value": "0.014",
+      "numeric": 0.014000000432133675,
+      "flags": 0
+    },
+    "nameradar": {
+      "name": "NameRadar",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "freespectate": {
+      "name": "FreeSpectate",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "fxdetail": {
+      "name": "FXDetail",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "rejectwhisper": {
+      "name": "RejectWhisper",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "rejectinvite": {
+      "name": "RejectInvite",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "radiolanguage": {
+      "name": "RadioLanguage",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "voicechatenable": {
+      "name": "VoiceChatEnable",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "marktalkplayerenable": {
+      "name": "MarkTalkPlayerEnable",
+      "value": "0",
+      "numeric": 0.0,
+      "flags": 0
+    },
+    "inputdevlastindex": {
+      "name": "InputDevLastIndex",
+      "value": "-1",
+      "numeric": -1.0,
+      "flags": 0
+    },
+    "inputdevarrayindex": {
+      "name": "InputDevArrayIndex",
+      "value": "-1",
+      "numeric": -1.0,
+      "flags": 0
+    },
+    "inputvolume": {
+      "name": "InputVolume",
+      "value": "-1",
+      "numeric": -1.0,
+      "flags": 0
+    },
+    "vcoutputvolume": {
+      "name": "VCOutputVolume",
+      "value": "100",
+      "numeric": 100.0,
+      "flags": 0
+    },
+    "micamplify": {
+      "name": "MicAmplify",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "showppl": {
+      "name": "ShowPPL",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "autevote": {
+      "name": "AuteVote",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    },
+    "supportwide": {
+      "name": "SupportWide",
+      "value": "1",
+      "numeric": 1.0,
+      "flags": 0
+    }
+  },
+  "actions": [
+    {
+      "name": "Forward",
+      "id": 0,
+      "source": {
+        "index": 168,
+        "address": "0x14030a5c0"
+      }
+    },
+    {
+      "name": "Backward",
+      "id": 1,
+      "source": {
+        "index": 169,
+        "address": "0x14030a5d8"
+      }
+    },
+    {
+      "name": "Activate",
+      "id": 2,
+      "source": {
+        "index": 170,
+        "address": "0x14030a5f0"
+      }
+    },
+    {
+      "name": "Reload",
+      "id": 3,
+      "source": {
+        "index": 171,
+        "address": "0x14030a608"
+      }
+    },
+    {
+      "name": "TurnAround",
+      "id": 4,
+      "source": {
+        "index": 172,
+        "address": "0x14030a620"
+      }
+    },
+    {
+      "name": "Duck",
+      "id": 5,
+      "source": {
+        "index": 173,
+        "address": "0x14030a638"
+      }
+    },
+    {
+      "name": "Jump",
+      "id": 6,
+      "source": {
+        "index": 174,
+        "address": "0x14030a650"
+      }
+    },
+    {
+      "name": "Speed",
+      "id": 7,
+      "source": {
+        "index": 175,
+        "address": "0x14030a668"
+      }
+    },
+    {
+      "name": "Fire",
+      "id": 8,
+      "source": {
+        "index": 176,
+        "address": "0x14030a680"
+      }
+    },
+    {
+      "name": "Strafe",
+      "id": 9,
+      "source": {
+        "index": 177,
+        "address": "0x14030a698"
+      }
+    },
+    {
+      "name": "Left",
+      "id": 10,
+      "source": {
+        "index": 178,
+        "address": "0x14030a6b0"
+      }
+    },
+    {
+      "name": "Right",
+      "id": 11,
+      "source": {
+        "index": 179,
+        "address": "0x14030a6c8"
+      }
+    },
+    {
+      "name": "RunLock",
+      "id": 12,
+      "source": {
+        "index": 180,
+        "address": "0x14030a6e0"
+      }
+    },
+    {
+      "name": "StrafeLeft",
+      "id": 13,
+      "source": {
+        "index": 181,
+        "address": "0x14030a6f8"
+      }
+    },
+    {
+      "name": "StrafeRight",
+      "id": 14,
+      "source": {
+        "index": 182,
+        "address": "0x14030a710"
+      }
+    },
+    {
+      "name": "LookUp",
+      "id": 16,
+      "source": {
+        "index": 183,
+        "address": "0x14030a730"
+      }
+    },
+    {
+      "name": "LookDown",
+      "id": 17,
+      "source": {
+        "index": 184,
+        "address": "0x14030a748"
+      }
+    },
+    {
+      "name": "LeanLeft",
+      "id": 18,
+      "source": {
+        "index": 185,
+        "address": "0x14030a760"
+      }
+    },
+    {
+      "name": "LeanRight",
+      "id": 19,
+      "source": {
+        "index": 186,
+        "address": "0x14030a778"
+      }
+    },
+    {
+      "name": "Weapon_1",
+      "id": 20,
+      "source": {
+        "index": 187,
+        "address": "0x14030a790"
+      }
+    },
+    {
+      "name": "Weapon_2",
+      "id": 21,
+      "source": {
+        "index": 188,
+        "address": "0x14030a7a8"
+      }
+    },
+    {
+      "name": "Weapon_3",
+      "id": 22,
+      "source": {
+        "index": 189,
+        "address": "0x14030a7c0"
+      }
+    },
+    {
+      "name": "Weapon_4",
+      "id": 23,
+      "source": {
+        "index": 190,
+        "address": "0x14030a7d8"
+      }
+    },
+    {
+      "name": "Weapon_5",
+      "id": 24,
+      "source": {
+        "index": 191,
+        "address": "0x14030a7f0"
+      }
+    },
+    {
+      "name": "Weapon_6",
+      "id": 25,
+      "source": {
+        "index": 192,
+        "address": "0x14030a808"
+      }
+    },
+    {
+      "name": "Weapon_7",
+      "id": 26,
+      "source": {
+        "index": 193,
+        "address": "0x14030a820"
+      }
+    },
+    {
+      "name": "Weapon_8",
+      "id": 27,
+      "source": {
+        "index": 194,
+        "address": "0x14030a838"
+      }
+    },
+    {
+      "name": "Weapon_9",
+      "id": 28,
+      "source": {
+        "index": 195,
+        "address": "0x14030a850"
+      }
+    },
+    {
+      "name": "Weapon_10",
+      "id": 29,
+      "source": {
+        "index": 196,
+        "address": "0x14030a868"
+      }
+    },
+    {
+      "name": "Weapon_11",
+      "id": 30,
+      "source": {
+        "index": 197,
+        "address": "0x14030a880"
+      }
+    },
+    {
+      "name": "Weapon_12",
+      "id": 31,
+      "source": {
+        "index": 198,
+        "address": "0x14030a898"
+      }
+    },
+    {
+      "name": "Weapon_13",
+      "id": 32,
+      "source": {
+        "index": 199,
+        "address": "0x14030a8b0"
+      }
+    },
+    {
+      "name": "Weapon_14",
+      "id": 33,
+      "source": {
+        "index": 200,
+        "address": "0x14030a8c8"
+      }
+    },
+    {
+      "name": "Weapon_15",
+      "id": 34,
+      "source": {
+        "index": 201,
+        "address": "0x14030a8e0"
+      }
+    },
+    {
+      "name": "Weapon_16",
+      "id": 35,
+      "source": {
+        "index": 202,
+        "address": "0x14030a8f8"
+      }
+    },
+    {
+      "name": "Weapon_17",
+      "id": 36,
+      "source": {
+        "index": 203,
+        "address": "0x14030a910"
+      }
+    },
+    {
+      "name": "Weapon_18",
+      "id": 37,
+      "source": {
+        "index": 204,
+        "address": "0x14030a928"
+      }
+    },
+    {
+      "name": "Weapon_19",
+      "id": 38,
+      "source": {
+        "index": 205,
+        "address": "0x14030a940"
+      }
+    },
+    {
+      "name": "Weapon_20",
+      "id": 39,
+      "source": {
+        "index": 206,
+        "address": "0x14030a958"
+      }
+    },
+    {
+      "name": "Weapon_21",
+      "id": 40,
+      "source": {
+        "index": 207,
+        "address": "0x14030a970"
+      }
+    },
+    {
+      "name": "Weapon_22",
+      "id": 41,
+      "source": {
+        "index": 208,
+        "address": "0x14030a988"
+      }
+    },
+    {
+      "name": "Weapon_23",
+      "id": 42,
+      "source": {
+        "index": 209,
+        "address": "0x14030a9a0"
+      }
+    },
+    {
+      "name": "Weapon_24",
+      "id": 43,
+      "source": {
+        "index": 210,
+        "address": "0x14030a9b8"
+      }
+    },
+    {
+      "name": "Weapon_25",
+      "id": 44,
+      "source": {
+        "index": 211,
+        "address": "0x14030a9d0"
+      }
+    },
+    {
+      "name": "Weapon_26",
+      "id": 45,
+      "source": {
+        "index": 212,
+        "address": "0x14030a9e8"
+      }
+    },
+    {
+      "name": "Weapon_27",
+      "id": 46,
+      "source": {
+        "index": 213,
+        "address": "0x14030aa00"
+      }
+    },
+    {
+      "name": "Weapon_28",
+      "id": 47,
+      "source": {
+        "index": 214,
+        "address": "0x14030aa18"
+      }
+    },
+    {
+      "name": "Weapon_29",
+      "id": 48,
+      "source": {
+        "index": 215,
+        "address": "0x14030aa30"
+      }
+    },
+    {
+      "name": "Weapon_30",
+      "id": 49,
+      "source": {
+        "index": 216,
+        "address": "0x14030aa48"
+      }
+    },
+    {
+      "name": "Weapon_31",
+      "id": 50,
+      "source": {
+        "index": 217,
+        "address": "0x14030aa60"
+      }
+    },
+    {
+      "name": "Weapon_32",
+      "id": 51,
+      "source": {
+        "index": 218,
+        "address": "0x14030aa78"
+      }
+    },
+    {
+      "name": "Weapon_33",
+      "id": 52,
+      "source": {
+        "index": 219,
+        "address": "0x14030aa90"
+      }
+    },
+    {
+      "name": "Weapon_34",
+      "id": 53,
+      "source": {
+        "index": 220,
+        "address": "0x14030aaa8"
+      }
+    },
+    {
+      "name": "Weapon_35",
+      "id": 54,
+      "source": {
+        "index": 221,
+        "address": "0x14030aac0"
+      }
+    },
+    {
+      "name": "Weapon_36",
+      "id": 55,
+      "source": {
+        "index": 222,
+        "address": "0x14030aad8"
+      }
+    },
+    {
+      "name": "Weapon_37",
+      "id": 56,
+      "source": {
+        "index": 223,
+        "address": "0x14030aaf0"
+      }
+    },
+    {
+      "name": "Weapon_38",
+      "id": 57,
+      "source": {
+        "index": 224,
+        "address": "0x14030ab08"
+      }
+    },
+    {
+      "name": "Weapon_39",
+      "id": 58,
+      "source": {
+        "index": 225,
+        "address": "0x14030ab20"
+      }
+    },
+    {
+      "name": "Weapon_40",
+      "id": 59,
+      "source": {
+        "index": 226,
+        "address": "0x14030ab38"
+      }
+    },
+    {
+      "name": "NextAmmo",
+      "id": 60,
+      "source": {
+        "index": 227,
+        "address": "0x14030ab50"
+      }
+    },
+    {
+      "name": "ZoomIn",
+      "id": 61,
+      "source": {
+        "index": 228,
+        "address": "0x14030ab68"
+      }
+    },
+    {
+      "name": "ZoomOut",
+      "id": 62,
+      "source": {
+        "index": 229,
+        "address": "0x14030ab80"
+      }
+    },
+    {
+      "name": "NextVisMode",
+      "id": 64,
+      "source": {
+        "index": 230,
+        "address": "0x14030ab98"
+      }
+    },
+    {
+      "name": "Alt-Fire",
+      "id": 65,
+      "source": {
+        "index": 231,
+        "address": "0x14030abb8"
+      }
+    },
+    {
+      "name": "PrevWeapon",
+      "id": 66,
+      "source": {
+        "index": 232,
+        "address": "0x14030abd0"
+      }
+    },
+    {
+      "name": "NextWeapon",
+      "id": 67,
+      "source": {
+        "index": 233,
+        "address": "0x14030abe8"
+      }
+    },
+    {
+      "name": "Score",
+      "id": 68,
+      "source": {
+        "index": 234,
+        "address": "0x14030ac00"
+      }
+    },
+    {
+      "name": "Mission",
+      "id": 69,
+      "source": {
+        "index": 235,
+        "address": "0x14030ac18"
+      }
+    },
+    {
+      "name": "MouseAim",
+      "id": 70,
+      "source": {
+        "index": 236,
+        "address": "0x14030ac30"
+      }
+    },
+    {
+      "name": "CursorTog",
+      "id": 71,
+      "source": {
+        "index": 237,
+        "address": "0x14030ac48"
+      }
+    },
+    {
+      "name": "CenterView",
+      "id": 72,
+      "source": {
+        "index": 238,
+        "address": "0x14030ac60"
+      }
+    },
+    {
+      "name": "HolsterWeapon",
+      "id": 73,
+      "source": {
+        "index": 239,
+        "address": "0x14030ac78"
+      }
+    },
+    {
+      "name": "SendMessage",
+      "id": 74,
+      "source": {
+        "index": 240,
+        "address": "0x14030ac98"
+      }
+    },
+    {
+      "name": "IncLayout",
+      "id": 75,
+      "source": {
+        "index": 241,
+        "address": "0x14030acb8"
+      }
+    },
+    {
+      "name": "DecLayout",
+      "id": 76,
+      "source": {
+        "index": 242,
+        "address": "0x14030acd0"
+      }
+    },
+    {
+      "name": "Inventory",
+      "id": 77,
+      "source": {
+        "index": 243,
+        "address": "0x14030ace8"
+      }
+    },
+    {
+      "name": "NextWeapon_1",
+      "id": 78,
+      "source": {
+        "index": 244,
+        "address": "0x14030ad00"
+      }
+    },
+    {
+      "name": "NextWeapon_2",
+      "id": 79,
+      "source": {
+        "index": 245,
+        "address": "0x14030ad20"
+      }
+    },
+    {
+      "name": "NextWeapon_3",
+      "id": 80,
+      "source": {
+        "index": 246,
+        "address": "0x14030ad40"
+      }
+    },
+    {
+      "name": "NextWeapon_4",
+      "id": 81,
+      "source": {
+        "index": 247,
+        "address": "0x14030ad60"
+      }
+    },
+    {
+      "name": "NextWeapon_5",
+      "id": 82,
+      "source": {
+        "index": 248,
+        "address": "0x14030ad80"
+      }
+    },
+    {
+      "name": "NextWeapon_6",
+      "id": 83,
+      "source": {
+        "index": 249,
+        "address": "0x14030ada0"
+      }
+    },
+    {
+      "name": "Choose_1",
+      "id": 84,
+      "source": {
+        "index": 250,
+        "address": "0x14030adc0"
+      }
+    },
+    {
+      "name": "Choose_2",
+      "id": 85,
+      "source": {
+        "index": 251,
+        "address": "0x14030add8"
+      }
+    },
+    {
+      "name": "Choose_3",
+      "id": 86,
+      "source": {
+        "index": 252,
+        "address": "0x14030adf0"
+      }
+    },
+    {
+      "name": "Choose_4",
+      "id": 87,
+      "source": {
+        "index": 253,
+        "address": "0x14030ae08"
+      }
+    },
+    {
+      "name": "Choose_5",
+      "id": 88,
+      "source": {
+        "index": 254,
+        "address": "0x14030ae20"
+      }
+    },
+    {
+      "name": "Choose_6",
+      "id": 89,
+      "source": {
+        "index": 255,
+        "address": "0x14030ae38"
+      }
+    },
+    {
+      "name": "DuckLock",
+      "id": 92,
+      "source": {
+        "index": 256,
+        "address": "0x14030ae50"
+      }
+    },
+    {
+      "name": "LastWeapon",
+      "id": 93,
+      "source": {
+        "index": 257,
+        "address": "0x14030ae68"
+      }
+    },
+    {
+      "name": "TeamMessage",
+      "id": 94,
+      "source": {
+        "index": 258,
+        "address": "0x14030ae80"
+      }
+    },
+    {
+      "name": "CompassToggle",
+      "id": 101,
+      "source": {
+        "index": 259,
+        "address": "0x14030aea0"
+      }
+    },
+    {
+      "name": "ViewKeys",
+      "id": 102,
+      "source": {
+        "index": 260,
+        "address": "0x14030aec0"
+      }
+    },
+    {
+      "name": "ViewIntel",
+      "id": 103,
+      "source": {
+        "index": 261,
+        "address": "0x14030aed8"
+      }
+    },
+    {
+      "name": "MoveBody",
+      "id": 104,
+      "source": {
+        "index": 262,
+        "address": "0x14030aef0"
+      }
+    },
+    {
+      "name": "Flashlight",
+      "id": 105,
+      "source": {
+        "index": 263,
+        "address": "0x14030af08"
+      }
+    },
+    {
+      "name": "Radio",
+      "id": 106,
+      "source": {
+        "index": 264,
+        "address": "0x14030af28"
+      }
+    },
+    {
+      "name": "SpecialKey",
+      "id": 107,
+      "source": {
+        "index": 265,
+        "address": "0x14030af40"
+      }
+    },
+    {
+      "name": "MiniMap",
+      "id": 111,
+      "source": {
+        "index": 266,
+        "address": "0x14030af60"
+      }
+    },
+    {
+      "name": "Spray",
+      "id": 112,
+      "source": {
+        "index": 267,
+        "address": "0x14030af78"
+      }
+    },
+    {
+      "name": "ActRadio4",
+      "id": 113,
+      "source": {
+        "index": 268,
+        "address": "0x14030af90"
+      }
+    },
+    {
+      "name": "SpecialKey3",
+      "id": 114,
+      "source": {
+        "index": 269,
+        "address": "0x14030afa8"
+      }
+    },
+    {
+      "name": "Target",
+      "id": 115,
+      "source": {
+        "index": 270,
+        "address": "0x14030afc8"
+      }
+    },
+    {
+      "name": "ClanMission",
+      "id": 116,
+      "source": {
+        "index": 271,
+        "address": "0x14030afe0"
+      }
+    },
+    {
+      "name": "SpecialKey4",
+      "id": 117,
+      "source": {
+        "index": 272,
+        "address": "0x14030b000"
+      }
+    },
+    {
+      "name": "SpecialKey5",
+      "id": 118,
+      "source": {
+        "index": 273,
+        "address": "0x14030b020"
+      }
+    },
+    {
+      "name": "SpecialKey6",
+      "id": 119,
+      "source": {
+        "index": 274,
+        "address": "0x14030b040"
+      }
+    },
+    {
+      "name": "Compliment",
+      "id": 120,
+      "source": {
+        "index": 275,
+        "address": "0x14030b060"
+      }
+    },
+    {
+      "name": "TacticalMoving",
+      "id": 121,
+      "source": {
+        "index": 276,
+        "address": "0x14030b080"
+      }
+    },
+    {
+      "name": "OperationPing1",
+      "id": 122,
+      "source": {
+        "index": 277,
+        "address": "0x14030b0a0"
+      }
+    },
+    {
+      "name": "OperationPing2",
+      "id": 123,
+      "source": {
+        "index": 278,
+        "address": "0x14030b0c0"
+      }
+    },
+    {
+      "name": "LeaveUnassigned",
+      "id": 201,
+      "source": {
+        "index": 279,
+        "address": "0x14030b0e0"
+      }
+    },
+    {
+      "name": "Axis3",
+      "id": -3,
+      "source": {
+        "index": 280,
+        "address": "0x14030b100"
+      }
+    },
+    {
+      "name": "Axis2",
+      "id": -2,
+      "source": {
+        "index": 281,
+        "address": "0x14030b118"
+      }
+    },
+    {
+      "name": "Axis1",
+      "id": -1,
+      "source": {
+        "index": 282,
+        "address": "0x14030b130"
+      }
+    },
+    {
+      "name": "AxisYaw",
+      "id": -10001,
+      "source": {
+        "index": 283,
+        "address": "0x14030b148"
+      }
+    },
+    {
+      "name": "AxisPitch",
+      "id": -10002,
+      "source": {
+        "index": 284,
+        "address": "0x14030b168"
+      }
+    },
+    {
+      "name": "AxisLeftRight",
+      "id": -10003,
+      "source": {
+        "index": 285,
+        "address": "0x14030b188"
+      }
+    },
+    {
+      "name": "AxisForwardBackward",
+      "id": -10004,
+      "source": {
+        "index": 286,
+        "address": "0x14030b1a8"
+      }
+    }
+  ],
+  "bindings": [
+    {
+      "source": {
+        "index": 287,
+        "address": "0x14030b1d0"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##28",
+        "0.000000",
+        "0.000000",
+        "SendMessage"
+      ],
+      "device": "##keyboard",
+      "control": "##28",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "SendMessage"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 288,
+        "address": "0x14030b208"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##47",
+        "0.000000",
+        "0.000000",
+        "ActRadio4"
+      ],
+      "device": "##keyboard",
+      "control": "##47",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "ActRadio4"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 289,
+        "address": "0x14030b240"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##15",
+        "0.000000",
+        "0.000000",
+        "Mission"
+      ],
+      "device": "##keyboard",
+      "control": "##15",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Mission"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 290,
+        "address": "0x14030b278"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##208",
+        "0.000000",
+        "0.000000",
+        "LookDown"
+      ],
+      "device": "##keyboard",
+      "control": "##208",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "LookDown"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 291,
+        "address": "0x14030b2b0"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##200",
+        "0.000000",
+        "0.000000",
+        "LookUp"
+      ],
+      "device": "##keyboard",
+      "control": "##200",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "LookUp"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 292,
+        "address": "0x14030b2e8"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##16",
+        "0.000000",
+        "0.000000",
+        "LastWeapon"
+      ],
+      "device": "##keyboard",
+      "control": "##16",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "LastWeapon"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 293,
+        "address": "0x14030b320"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##19",
+        "0.000000",
+        "0.000000",
+        "Reload"
+      ],
+      "device": "##keyboard",
+      "control": "##19",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Reload"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 294,
+        "address": "0x14030b358"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##34",
+        "0.000000",
+        "0.000000",
+        "Activate"
+      ],
+      "device": "##keyboard",
+      "control": "##34",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Activate"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 295,
+        "address": "0x14030b390"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##58",
+        "0.000000",
+        "0.000000",
+        "RunLock"
+      ],
+      "device": "##keyboard",
+      "control": "##58",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "RunLock"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 296,
+        "address": "0x14030b3c8"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##18",
+        "0.000000",
+        "0.000000",
+        "LeanRight"
+      ],
+      "device": "##keyboard",
+      "control": "##18",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "LeanRight"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 297,
+        "address": "0x14030b400"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##14",
+        "0.000000",
+        "0.000000",
+        "TurnAround"
+      ],
+      "device": "##keyboard",
+      "control": "##14",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "TurnAround"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 298,
+        "address": "0x14030b438"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##29",
+        "0.000000",
+        "0.000000",
+        "Duck"
+      ],
+      "device": "##keyboard",
+      "control": "##29",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Duck"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 299,
+        "address": "0x14030b470"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##57",
+        "0.000000",
+        "0.000000",
+        "Jump"
+      ],
+      "device": "##keyboard",
+      "control": "##57",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Jump"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 300,
+        "address": "0x14030b4a8"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##42",
+        "0.000000",
+        "0.000000",
+        "Speed"
+      ],
+      "device": "##keyboard",
+      "control": "##42",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Speed"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 301,
+        "address": "0x14030b4e0"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##205",
+        "0.000000",
+        "0.000000",
+        "Right"
+      ],
+      "device": "##keyboard",
+      "control": "##205",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Right"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 302,
+        "address": "0x14030b518"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##203",
+        "0.000000",
+        "0.000000",
+        "Left"
+      ],
+      "device": "##keyboard",
+      "control": "##203",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Left"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 303,
+        "address": "0x14030b550"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##32",
+        "0.000000",
+        "0.000000",
+        "StrafeRight"
+      ],
+      "device": "##keyboard",
+      "control": "##32",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "StrafeRight"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 304,
+        "address": "0x14030b588"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##30",
+        "0.000000",
+        "0.000000",
+        "StrafeLeft"
+      ],
+      "device": "##keyboard",
+      "control": "##30",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "StrafeLeft"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 305,
+        "address": "0x14030b5c0"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##31",
+        "0.000000",
+        "0.000000",
+        "Backward"
+      ],
+      "device": "##keyboard",
+      "control": "##31",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Backward"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 306,
+        "address": "0x14030b5f8"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##17",
+        "0.000000",
+        "0.000000",
+        "Forward"
+      ],
+      "device": "##keyboard",
+      "control": "##17",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Forward"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 307,
+        "address": "0x14030b630"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##40",
+        "0.000000",
+        "0.000000",
+        "CompassToggle"
+      ],
+      "device": "##keyboard",
+      "control": "##40",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "CompassToggle"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 308,
+        "address": "0x14030b670"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##48",
+        "0.000000",
+        "0.000000",
+        "Score"
+      ],
+      "device": "##keyboard",
+      "control": "##48",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Score"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 309,
+        "address": "0x14030b6a8"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##23",
+        "0.000000",
+        "0.000000",
+        "ViewIntel"
+      ],
+      "device": "##keyboard",
+      "control": "##23",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "ViewIntel"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 310,
+        "address": "0x14030b6e0"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##49",
+        "0.000000",
+        "0.000000",
+        "ViewKeys"
+      ],
+      "device": "##keyboard",
+      "control": "##49",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "ViewKeys"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 311,
+        "address": "0x14030b718"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##50",
+        "0.000000",
+        "0.000000",
+        "Inventory"
+      ],
+      "device": "##keyboard",
+      "control": "##50",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Inventory"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 312,
+        "address": "0x14030b750"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##207",
+        "0.000000",
+        "0.000000",
+        "CenterView"
+      ],
+      "device": "##keyboard",
+      "control": "##207",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "CenterView"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 313,
+        "address": "0x14030b788"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##33",
+        "0.000000",
+        "0.000000",
+        "NextAmmo"
+      ],
+      "device": "##keyboard",
+      "control": "##33",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "NextAmmo"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 314,
+        "address": "0x14030b7c0"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##56",
+        "0.000000",
+        "0.000000",
+        "Strafe"
+      ],
+      "device": "##keyboard",
+      "control": "##56",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Strafe"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 315,
+        "address": "0x14030b7f8"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##36",
+        "0.000000",
+        "0.000000",
+        "Spray"
+      ],
+      "device": "##keyboard",
+      "control": "##36",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Spray"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 316,
+        "address": "0x14030b830"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##20",
+        "0.000000",
+        "0.000000",
+        "MiniMap"
+      ],
+      "device": "##keyboard",
+      "control": "##20",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "MiniMap"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 317,
+        "address": "0x14030b868"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##35",
+        "0.000000",
+        "0.000000",
+        "SpecialKey3"
+      ],
+      "device": "##keyboard",
+      "control": "##35",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "SpecialKey3"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 318,
+        "address": "0x14030b8a0"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##7",
+        "0.000000",
+        "0.000000",
+        "NextWeapon_6",
+        "0.000000",
+        "0.000000",
+        "Choose_6"
+      ],
+      "device": "##keyboard",
+      "control": "##7",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "NextWeapon_6"
+        },
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Choose_6"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 319,
+        "address": "0x14030b900"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##6",
+        "0.000000",
+        "0.000000",
+        "NextWeapon_5",
+        "0.000000",
+        "0.000000",
+        "Choose_5"
+      ],
+      "device": "##keyboard",
+      "control": "##6",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "NextWeapon_5"
+        },
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Choose_5"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 320,
+        "address": "0x14030b960"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##5",
+        "0.000000",
+        "0.000000",
+        "NextWeapon_4",
+        "0.000000",
+        "0.000000",
+        "Choose_4"
+      ],
+      "device": "##keyboard",
+      "control": "##5",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "NextWeapon_4"
+        },
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Choose_4"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 321,
+        "address": "0x14030b9c0"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##4",
+        "0.000000",
+        "0.000000",
+        "NextWeapon_3",
+        "0.000000",
+        "0.000000",
+        "Choose_3"
+      ],
+      "device": "##keyboard",
+      "control": "##4",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "NextWeapon_3"
+        },
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Choose_3"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 322,
+        "address": "0x14030ba20"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##3",
+        "0.000000",
+        "0.000000",
+        "NextWeapon_2",
+        "0.000000",
+        "0.000000",
+        "Choose_2"
+      ],
+      "device": "##keyboard",
+      "control": "##3",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "NextWeapon_2"
+        },
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Choose_2"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 323,
+        "address": "0x14030ba80"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##2",
+        "0.000000",
+        "0.000000",
+        "NextWeapon_1",
+        "0.000000",
+        "0.000000",
+        "Choose_1"
+      ],
+      "device": "##keyboard",
+      "control": "##2",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "NextWeapon_1"
+        },
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Choose_1"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 324,
+        "address": "0x14030bad8"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##13",
+        "0.000000",
+        "0.000000",
+        "DecLayout"
+      ],
+      "device": "##keyboard",
+      "control": "##13",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "DecLayout"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 325,
+        "address": "0x14030bb10"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##12",
+        "0.000000",
+        "0.000000",
+        "IncLayout"
+      ],
+      "device": "##keyboard",
+      "control": "##12",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "IncLayout"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 326,
+        "address": "0x14030bb48"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##65",
+        "0.000000",
+        "0.000000",
+        "Alt-Fire"
+      ],
+      "device": "##keyboard",
+      "control": "##65",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Alt-Fire"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 327,
+        "address": "0x14030bb80"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##64",
+        "0.000000",
+        "0.000000",
+        "NextVisMode"
+      ],
+      "device": "##keyboard",
+      "control": "##64",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "NextVisMode"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 328,
+        "address": "0x14030bbb8"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##27",
+        "0.000000",
+        "0.000000",
+        "ZoomOut"
+      ],
+      "device": "##keyboard",
+      "control": "##27",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "ZoomOut"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 329,
+        "address": "0x14030bbf0"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##20",
+        "0.000000",
+        "0.000000",
+        "SpecialKey"
+      ],
+      "device": "##keyboard",
+      "control": "##20",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "SpecialKey"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 330,
+        "address": "0x14030bc28"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##53",
+        "0.000000",
+        "0.000000",
+        "Target"
+      ],
+      "device": "##keyboard",
+      "control": "##53",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Target"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 334,
+        "address": "0x14030bca8"
+      },
+      "tokens": [
+        "rangebind",
+        "##mouse",
+        "##z-axis",
+        "0.10",
+        "255.0",
+        "SpecialKey4"
+      ],
+      "device": "##mouse",
+      "control": "##z-axis",
+      "ranges": [
+        {
+          "minimum": 0.1,
+          "maximum": 255.0,
+          "action": "SpecialKey4"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 335,
+        "address": "0x14030bce0"
+      },
+      "tokens": [
+        "rangebind",
+        "##mouse",
+        "##z-axis",
+        "-0.10,-255.0",
+        "SpecialKey5"
+      ],
+      "device": "##mouse",
+      "control": "##z-axis",
+      "ranges": [],
+      "semantics": "declaration-only; native callback unverified",
+      "issue": "Expected device/control and min/max/action triples"
+    },
+    {
+      "source": {
+        "index": 336,
+        "address": "0x14030bd18"
+      },
+      "tokens": [
+        "rangebind",
+        "##mouse",
+        "##5",
+        "0.000000",
+        "0.000000",
+        "SpecialKey6"
+      ],
+      "device": "##mouse",
+      "control": "##5",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "SpecialKey6"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 337,
+        "address": "0x14030bd50"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##22",
+        "0.000000",
+        "0.000000",
+        "Compliment"
+      ],
+      "device": "##keyboard",
+      "control": "##22",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "Compliment"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 338,
+        "address": "0x14030bd88"
+      },
+      "tokens": [
+        "rangebind",
+        "##keyboard",
+        "##58",
+        "0.000000",
+        "0.000000",
+        "TacticalMoving"
+      ],
+      "device": "##keyboard",
+      "control": "##58",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "TacticalMoving"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 339,
+        "address": "0x14030bdc8"
+      },
+      "tokens": [
+        "rangebind",
+        "##mouse",
+        "##7",
+        "0.000000",
+        "0.000000",
+        "OperationPing1"
+      ],
+      "device": "##mouse",
+      "control": "##7",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "OperationPing1"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    },
+    {
+      "source": {
+        "index": 340,
+        "address": "0x14030be00"
+      },
+      "tokens": [
+        "rangebind",
+        "##mouse",
+        "##6",
+        "0.000000",
+        "0.000000",
+        "OperationPing2"
+      ],
+      "device": "##mouse",
+      "control": "##6",
+      "ranges": [
+        {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "action": "OperationPing2"
+        }
+      ],
+      "semantics": "declaration-only; native callback unverified"
+    }
+  ],
+  "unresolved": [
+    {
+      "source": {
+        "index": 153,
+        "address": "0x14030a468"
+      },
+      "tokens": [
+        "ModelAdd",
+        "50",
+        "50",
+        "50"
+      ],
+      "reason": "Native command callback not implemented"
+    },
+    {
+      "source": {
+        "index": 331,
+        "address": "0x14030bc60"
+      },
+      "tokens": [
+        "ModelAdd",
+        "0.000000",
+        "0.000000",
+        "0.000000"
+      ],
+      "reason": "Native command callback not implemented"
+    }
+  ],
+  "queries": [],
+  "limitations": [
+    "Offline model; no game process, native callbacks or live bindings.",
+    "Variable callback registration, notifications and special native commands are not reproduced.",
+    "Malformed rangebind records remain visible rather than silently corrected."
+  ],
+  "source_evidence_ids": [
+    "ev_403fd4c97dd7d5f92d6072cc9c79617e1236a45733ad63ffec88a376beb1bb38",
+    "ev_97af9998d70b1ae62bb965d76682b33b9c13ebc10ab3fe183fcbe7c0fa1b99f0",
+    "ev_fe63ace296d8568ca3ebf132a022107a63ecbee179ff47dec870131d0e1b4695"
+  ],
+  "source_sha256": "7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8"
+}

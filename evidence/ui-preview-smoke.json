@@ -1,0 +1,61 @@
+{
+  "tk_version": 8.6,
+  "assets_loaded": 88,
+  "views": [
+    {
+      "view": "AttendanceCheck_Popup",
+      "rendered": 3
+    },
+    {
+      "view": "AttendanceCheck_Popup_ListItem",
+      "rendered": 2
+    },
+    {
+      "view": "CampGraduation_Benefit_Popup",
+      "rendered": 5
+    },
+    {
+      "view": "CampTab_AttendanceCheck_List",
+      "rendered": 2
+    },
+    {
+      "view": "CampTab_RewardList",
+      "rendered": 4
+    },
+    {
+      "view": "MissionTab_MissionList",
+      "rendered": 7
+    },
+    {
+      "view": "Tutorial",
+      "rendered": 5
+    },
+    {
+      "view": "Tutorial_Lobby",
+      "rendered": 2
+    },
+    {
+      "view": "WelcomeCamp_CampTab",
+      "rendered": 22
+    },
+    {
+      "view": "WelcomeCamp_CommonPopup",
+      "rendered": 19
+    },
+    {
+      "view": "WelcomeCamp_Lobby",
+      "rendered": 8
+    },
+    {
+      "view": "WelcomeCamp_MainPopup",
+      "rendered": 7
+    },
+    {
+      "view": "WelcomeCamp_MissionTab",
+      "rendered": 25
+    }
+  ],
+  "total_rendered": 111,
+  "visible_window": false,
+  "original_game_executed": false
+}

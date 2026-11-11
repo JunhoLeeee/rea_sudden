@@ -1,0 +1,46 @@
+{
+	"screen":[
+		{
+			"keyvalue" : "main",
+			"newNotiMenu" : [
+			"EVENT",
+			"서든클럽",
+			"역전용병브레드",
+			]
+		},
+		{
+			"keyvalue" : "clan",
+			"slot_url" : "slot_no=",
+			"mapid_url" : "map_no=",
+			"cm_regist_url" : "http://sa.nexon.com/clan/custom/write.aspx?usn=",
+			"cm_modify_url" : "http://sa.nexon.com/clan/custom/write.aspx?usn=",
+			"cm_home_url" : "http://sa.nexon.com/clan/custom/list.aspx",
+			"cm_favorite_url" : "http://sa.nexon.com/clan/custom/list.aspx?bookmark=1"
+		},
+		{
+			"keyvalue" : "suddenpass",
+			"challenge_rank_url" : "https://sa.nexon.com/ranking/challenge/list.aspx",
+			"challenge_rank_grade_name" : ["챌린저 탑", "챌린저 레드", "챌린저 옐로", "챌린저 블루", "챌린저"],
+			"challenge_rank_grade_icon" : ["GradeIcon_rainbow", "GradeIcon_red", "GradeIcon_yellow", "GradeIcon_blue", "GradeIcon_silver"]
+		},
+		{
+			"keyvalue" : "rsp_slow",
+			"roulette_slow_count" : [10, 10, 10, 10, 10, 30, 30],
+			"roulette_fast_time" : [1000, 1000, 1000, 1000, 1000, 1000, 1000],
+			"roulette_fast_cycle" : [60, 60, 60, 60, 60, 100, 120],
+			"roulette_slow_time" : [2500, 2500, 2500, 3500, 3000, 4000, 4500],
+			"roulette_slow_value" : [30, 30, 30, 100, 150, 100, 120]
+		},
+		{
+			"keyvalue" : "megacount",
+			"is_open_content": 0,
+			
+			"gacha_gradeA_ARGB" : [170, 255, 246, 0],
+			"gacha_gradeB_ARGB" : [200, 219, 56, 255],
+			"gacha_gradeC_ARGB" : [200,0,180,255],
+			"gacha_gradeD_ARGB" : [200,255, 255, 255],
+			
+			"uniq_item_list": ["EET16673001NYY", "EET16031001NYY", "EET16032001NYY", "EET16033001NYY", "EET16672001NYY"]
+		}
+	]
+}

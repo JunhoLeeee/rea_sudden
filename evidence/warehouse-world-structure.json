@@ -1,0 +1,1274 @@
+{
+  "path": "C:\\Users\\PC\\Desktop\\REA\\extracted\\world-warehouse\\sa_worlds\\project\\ware_house.dat",
+  "sha256": "d013c3f158f1ecfa849513c0778a7094f48d2e895a1053d69c0ef616b1ed24ea",
+  "bytes": 1805073,
+  "version": 85,
+  "section_offsets": {
+    "objects": 299145,
+    "blind_objects": 392147,
+    "light_grid": 392151,
+    "blockers": 396899,
+    "particle_blockers": 398063,
+    "render": 398071
+  },
+  "reserved": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "world_info": "AmbientLight 25 25 25; LightTableRes 256",
+  "world_bounds": [
+    [
+      -4121.5,
+      -3040.0,
+      -4096.0
+    ],
+    [
+      4070.5,
+      3040.0,
+      4096.0
+    ]
+  ],
+  "world_offset": [
+    -230.5,
+    1632.0,
+    512.0
+  ],
+  "tree": {
+    "offset": 140,
+    "end": 215,
+    "bounds": [
+      [
+        -4121.5,
+        -3040.0,
+        -4096.0
+      ],
+      [
+        4070.5,
+        3040.0,
+        4096.0
+      ]
+    ],
+    "nodes": 341,
+    "subdivisions": 85,
+    "terrain_depth": 0
+  },
+  "geometry_end": 299145,
+  "totals": {
+    "points": 4651,
+    "planes": 2380,
+    "surfaces": 119,
+    "portals": 0,
+    "polygons": 3546,
+    "leaves": 0,
+    "polygon_vertices": 13764,
+    "visible_list": 0,
+    "leaf_lists": 0,
+    "nodes": 7960
+  },
+  "models": [
+    {
+      "index": 0,
+      "name": "passage break",
+      "offset": 219,
+      "end": 815,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          2319.5,
+          -250.0,
+          380.0
+        ],
+        [
+          2423.5,
+          -113.0,
+          382.0
+        ]
+      ],
+      "translation": [
+        2371.5,
+        -181.5,
+        381.0
+      ],
+      "textures": [
+        "SA_TEX\\ware_house\\3map_wall_window.DTX",
+        "Default"
+      ],
+      "point_data_offset": 711,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 1,
+      "name": "passage break00",
+      "offset": 815,
+      "end": 1413,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          127.5,
+          -114.0,
+          380.0
+        ],
+        [
+          255.5,
+          19.0,
+          382.0
+        ]
+      ],
+      "translation": [
+        191.5,
+        -47.5,
+        381.0
+      ],
+      "textures": [
+        "SA_TEX\\ware_house\\3map_wall_window.DTX",
+        "Default"
+      ],
+      "point_data_offset": 1309,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 2,
+      "name": "passage break01",
+      "offset": 1413,
+      "end": 2011,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          1196.5,
+          -114.0,
+          -1176.0
+        ],
+        [
+          1324.5,
+          19.0,
+          -1174.0
+        ]
+      ],
+      "translation": [
+        1260.5,
+        -47.5,
+        -1175.0
+      ],
+      "textures": [
+        "SA_TEX\\ware_house\\3map_wall_window.DTX",
+        "Default"
+      ],
+      "point_data_offset": 1907,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 3,
+      "name": "passage break02",
+      "offset": 2011,
+      "end": 2609,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          -857.5,
+          -250.0,
+          -1176.0
+        ],
+        [
+          -753.5,
+          -113.0,
+          -1174.0
+        ]
+      ],
+      "translation": [
+        -805.5,
+        -181.5,
+        -1175.0
+      ],
+      "textures": [
+        "SA_TEX\\ware_house\\3map_wall_window.DTX",
+        "Default"
+      ],
+      "point_data_offset": 2505,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 4,
+      "name": "EndlessFall04",
+      "offset": 2609,
+      "end": 3187,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          -1341.5,
+          -463.0,
+          642.0
+        ],
+        [
+          2677.5,
+          2164.0,
+          3992.0
+        ]
+      ],
+      "translation": [
+        668.0,
+        850.5,
+        2317.0
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 3083,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 5,
+      "name": "EndlessFall03",
+      "offset": 3187,
+      "end": 3765,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          -1341.5,
+          -463.0,
+          -3991.0
+        ],
+        [
+          2677.5,
+          2164.0,
+          -1435.0
+        ]
+      ],
+      "translation": [
+        668.0,
+        850.5,
+        -2713.0
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 3661,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 6,
+      "name": "EndlessFall02",
+      "offset": 3765,
+      "end": 4343,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          -4020.5,
+          -463.0,
+          -3991.0
+        ],
+        [
+          -1341.5,
+          2164.0,
+          3992.0
+        ]
+      ],
+      "translation": [
+        -2681.0,
+        850.5,
+        0.5
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 4239,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 7,
+      "name": "EndlessFall05",
+      "offset": 4343,
+      "end": 4921,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          2782.5,
+          -463.0,
+          -3991.0
+        ],
+        [
+          4121.5,
+          2164.0,
+          3992.0
+        ]
+      ],
+      "translation": [
+        3452.0,
+        850.5,
+        0.5
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 4817,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 8,
+      "name": "EndlessFall06",
+      "offset": 4921,
+      "end": 5499,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          -740.5,
+          -2015.0,
+          -3991.0
+        ],
+        [
+          4016.5,
+          -391.0,
+          3992.0
+        ]
+      ],
+      "translation": [
+        1638.0,
+        -1203.0,
+        0.5
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 5395,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 9,
+      "name": "EndlessFall07",
+      "offset": 5499,
+      "end": 6077,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          -1341.5,
+          80.0,
+          -1435.0
+        ],
+        [
+          2677.5,
+          2164.0,
+          -936.0
+        ]
+      ],
+      "translation": [
+        668.0,
+        1122.0,
+        -1185.5
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 5973,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 10,
+      "name": "EndlessFall08",
+      "offset": 6077,
+      "end": 6655,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          -1341.5,
+          80.0,
+          -150.0
+        ],
+        [
+          2677.5,
+          2164.0,
+          642.0
+        ]
+      ],
+      "translation": [
+        668.0,
+        1122.0,
+        246.0
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 6551,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 11,
+      "name": "EndlessFall09",
+      "offset": 6655,
+      "end": 7233,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          -1341.5,
+          224.0,
+          -936.0
+        ],
+        [
+          2677.5,
+          2164.0,
+          -150.0
+        ]
+      ],
+      "translation": [
+        668.0,
+        1194.0,
+        -543.0
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 7129,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 12,
+      "name": "EndlessFall10",
+      "offset": 7233,
+      "end": 7811,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          -4020.5,
+          -2015.0,
+          -3991.0
+        ],
+        [
+          -740.5,
+          -456.0,
+          3992.0
+        ]
+      ],
+      "translation": [
+        -2380.5,
+        -1235.5,
+        0.5
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 7707,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 13,
+      "name": "DemoSkyWorldModel0",
+      "offset": 7811,
+      "end": 8679,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 12,
+        "planes": 5,
+        "surfaces": 5,
+        "portals": 0,
+        "polygons": 9,
+        "leaves": 0,
+        "polygon_vertices": 36,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 9
+      },
+      "bounds": [
+        [
+          1450.5,
+          -1450.0,
+          -3812.0
+        ],
+        [
+          1946.5,
+          -954.0,
+          -3316.0
+        ]
+      ],
+      "translation": [
+        1698.5,
+        -1202.0,
+        -3564.0
+      ],
+      "textures": [
+        "SA_TEXFX\\SKY\\darkSkyUP.dtx",
+        "Default",
+        "sa_tex\\black.dtx",
+        "SA_TEXFX\\SKY\\darkSkyFR.dtx",
+        "SA_TEXFX\\SKY\\darkSkyBK.dtx",
+        "SA_TEXFX\\SKY\\darkSkyLF.dtx"
+      ],
+      "point_data_offset": 8527,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 14,
+      "name": "EndlessFall14",
+      "offset": 8679,
+      "end": 9257,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          257.5,
+          -396.0,
+          392.0
+        ],
+        [
+          2315.5,
+          147.0,
+          510.0
+        ]
+      ],
+      "translation": [
+        1286.5,
+        -124.5,
+        451.0
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 9153,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 15,
+      "name": "EndlessFall13",
+      "offset": 9257,
+      "end": 9835,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          1337.5,
+          -396.0,
+          -1304.0
+        ],
+        [
+          2677.5,
+          147.0,
+          -1185.0
+        ]
+      ],
+      "translation": [
+        2007.5,
+        -124.5,
+        -1244.5
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 9731,
+      "root": 0,
+      "plane_residual_max": 5.143880844116211e-05,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 16,
+      "name": "EndlessFall12",
+      "offset": 9835,
+      "end": 10413,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          -747.5,
+          -396.0,
+          -1303.0
+        ],
+        [
+          1195.5,
+          147.0,
+          -1184.0
+        ]
+      ],
+      "translation": [
+        224.0,
+        -124.5,
+        -1243.5
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 10309,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 17,
+      "name": "EndlessFall18",
+      "offset": 10413,
+      "end": 10991,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          2095.5,
+          -396.0,
+          -1176.0
+        ],
+        [
+          2105.5,
+          147.0,
+          -792.0
+        ]
+      ],
+      "translation": [
+        2100.5,
+        -124.5,
+        -984.0
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 10887,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 18,
+      "name": "EndlessFall17",
+      "offset": 10991,
+      "end": 11569,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          2095.5,
+          -396.0,
+          -595.0
+        ],
+        [
+          2105.5,
+          147.0,
+          -249.0
+        ]
+      ],
+      "translation": [
+        2100.5,
+        -124.5,
+        -422.0
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 11465,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 19,
+      "name": "EndlessFall16",
+      "offset": 11569,
+      "end": 12147,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          2095.5,
+          -396.0,
+          -52.0
+        ],
+        [
+          2105.5,
+          147.0,
+          384.0
+        ]
+      ],
+      "translation": [
+        2100.5,
+        -124.5,
+        166.0
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 12043,
+      "root": 0,
+      "plane_residual_max": 0.00011923909187316895,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 20,
+      "name": "EndlessFall15",
+      "offset": 12147,
+      "end": 12725,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          -694.5,
+          -396.0,
+          62.0
+        ],
+        [
+          -684.5,
+          147.0,
+          382.0
+        ]
+      ],
+      "translation": [
+        -689.5,
+        -124.5,
+        222.0
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 12621,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 21,
+      "name": "EndlessFall11",
+      "offset": 12725,
+      "end": 13303,
+      "reserved": 0,
+      "flags": 2,
+      "counts": {
+        "points": 8,
+        "planes": 6,
+        "surfaces": 1,
+        "portals": 0,
+        "polygons": 6,
+        "leaves": 0,
+        "polygon_vertices": 24,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 6
+      },
+      "bounds": [
+        [
+          -694.5,
+          -396.0,
+          -1184.0
+        ],
+        [
+          -684.5,
+          147.0,
+          -851.0
+        ]
+      ],
+      "translation": [
+        -689.5,
+        -124.5,
+        -1017.5
+      ],
+      "textures": [
+        "sa_tex\\DeathZone.dtx",
+        "Default"
+      ],
+      "point_data_offset": 13199,
+      "root": 0,
+      "plane_residual_max": 0.0,
+      "points_outside_declared_bounds": 0
+    },
+    {
+      "index": 22,
+      "name": "PhysicsBSP",
+      "offset": 13303,
+      "end": 299145,
+      "reserved": 0,
+      "flags": 20,
+      "counts": {
+        "points": 4471,
+        "planes": 2249,
+        "surfaces": 93,
+        "portals": 0,
+        "polygons": 3411,
+        "leaves": 0,
+        "polygon_vertices": 13224,
+        "visible_list": 0,
+        "leaf_lists": 0,
+        "nodes": 7825
+      },
+      "bounds": [
+        [
+          -4121.5,
+          -3040.0,
+          -4096.0
+        ],
+        [
+          4070.5,
+          3040.0,
+          4096.0
+        ]
+      ],
+      "translation": [
+        -25.5,
+        0.0,
+        0.0
+      ],
+      "textures": [
+        "sa_tex\\ware_house\\iron_bone.dtx",
+        "Default",
+        "sa_tex\\ware_house\\container.dtx",
+        "sa_tex\\ware_house\\container_inner.dtx",
+        "sa_tex\\ware_house\\container_door.dtx",
+        "sa_tex\\ware_house\\door_hand.dtx",
+        "SA_TEX\\ware_house\\3map_wall_window.DTX",
+        "SA_TEX\\ware_house\\roof.DTX",
+        "sa_tex\\ware_house\\container_s.dtx",
+        "SA_TEX\\ware_house\\wall01.DTX",
+        "SA_TEX\\ware_house\\new_wall.DTX",
+        "SA_TEX\\ware_house\\box.DTX",
+        "sa_tex\\AlphaZero.dtx",
+        "SA_TEX\\ware_house\\air_road.DTX",
+        "SA_TEX\\ware_house\\harbor_f.dtx",
+        "SA_TEX\\ware_house\\ground7.dtx",
+        "SA_TEX\\ware_house\\3map_step_wall.DTX",
+        "SA_TEX\\ware_house\\Light2.dtx",
+        "SA_TEX\\ware_house\\exit.DTX",
+        "SA_TEX\\ware_house\\paper_box_t.dtx",
+        "SA_TEX\\ware_house\\paper_box.DTX",
+        "SA_TEX\\tank\\iron.DTX",
+        "sa_tex\\ware_house\\o_paper_box.dtx",
+        "SA_TEX\\ware_house\\hyungang.DTX",
+        "SA_TEX\\ware_house\\air_road_top.DTX",
+        "SA_TEX\\ware_house\\background_building.DTX",
+        "SA_TEX\\ware_house\\background_building_pole.DTX",
+        "SA_TEX\\ware_house\\block.dtx",
+        "SA_TEX\\ware_house\\Wall_42.dtx",
+        "SA_TEX\\tank\\fance.DTX",
+        "SA_TEX\\ware_house\\iron_door.DTX",
+        "SA_TEX\\ware_house\\new_wallout2.DTX",
+        "sa_tex\\ware_house\\map.dtx",
+        "SA_TEX\\ware_house\\office_wall_block.dtx",
+        "SA_TEX\\ware_house\\office_wall_pole.DTX",
+        "SA_TEX\\ware_house\\fance.DTX",
+        "sa_tex\\ware_house\\tree_cabinet.dtx",
+        "SA_TEX\\ware_house\\desk.DTX",
+        "SA_TEX\\ware_house\\new_top_wall.DTX",
+        "SA_TEX\\tank\\fan.DTX",
+        "SA_TEX\\ware_house\\office_celling.DTX",
+        "SA_TEX\\ware_house\\Wall_05.dtx",
+        "SA_TEX\\ware_house\\shotter.DTX",
+        "SA_TEX\\ware_house\\windows.DTX",
+        "SA_TEX\\ware_house\\windows1.DTX",
+        "Default",
+        "SA_TEX\\ware_house\\ground.dtx",
+        "sa_tex\\egg\\target01.dtx",
+        "sa_ppl\\ad2\\warehouse_02_01.dtx",
+        "sa_tex\\zerogravity\\20060419_cen_win03.dtx",
+        "sa_tex\\zerogravity\\20060418_topblue_02.dtx",
+        "sa_tex\\zerogravity\\bottom03.dtx",
+        "sa_tex\\zerogravity\\20060418_topblue_03.dtx",
+        "sa_tex\\zerogravity\\20060418_topblue_01.dtx",
+        "sa_tex\\lab\\door_patton1.dtx",
+        "sa_tex\\lab\\light01.dtx",
+        "SA_TEX\\submarine\\roof_center.dtx",
+        "sa_ppl\\ad4\\warehouse_04_01.dtx",
+        "sa_ppl\\ad3\\warehouse_03_02.dtx",
+        "sa_ppl\\ad3\\warehouse_03_01.dtx",
+        "sa_ppl\\ad3\\warehouse_03_03.dtx",
+        "sa_ppl\\ad4\\warehouse_04_02.dtx",
+        "sa_ppl\\ad4\\warehouse_04_03.dtx",
+        "sa_ppl\\ad1\\warehouse_01_01.dtx",
+        "sa_ppl\\ad1\\warehouse_01_02.dtx",
+        "sa_ppl\\ad1\\warehouse_01_03.dtx",
+        "sa_tex\\black.dtx",
+        "sa_tex\\ware_house\\door_m.dtx",
+        "SA_TEX\\ware_house\\out_light.DTX",
+        "SA_TEX\\ware_house\\inner_door.DTX",
+        "SA_TEX\\Blocker.dtx",
+        "sa_tex\\sky.dtx"
+      ],
+      "point_data_offset": 245485,
+      "root": 0,
+      "plane_residual_max": 3.2232967652380466,
+      "points_outside_declared_bounds": 0
+    }
+  ],
+  "texture_references": [
+    "Default",
+    "sa_ppl\\ad1\\warehouse_01_01.dtx",
+    "sa_ppl\\ad1\\warehouse_01_02.dtx",
+    "sa_ppl\\ad1\\warehouse_01_03.dtx",
+    "sa_ppl\\ad2\\warehouse_02_01.dtx",
+    "sa_ppl\\ad3\\warehouse_03_01.dtx",
+    "sa_ppl\\ad3\\warehouse_03_02.dtx",
+    "sa_ppl\\ad3\\warehouse_03_03.dtx",
+    "sa_ppl\\ad4\\warehouse_04_01.dtx",
+    "sa_ppl\\ad4\\warehouse_04_02.dtx",
+    "sa_ppl\\ad4\\warehouse_04_03.dtx",
+    "sa_tex\\AlphaZero.dtx",
+    "sa_tex\\black.dtx",
+    "SA_TEX\\Blocker.dtx",
+    "sa_tex\\DeathZone.dtx",
+    "sa_tex\\egg\\target01.dtx",
+    "sa_tex\\lab\\door_patton1.dtx",
+    "sa_tex\\lab\\light01.dtx",
+    "sa_tex\\sky.dtx",
+    "SA_TEX\\submarine\\roof_center.dtx",
+    "SA_TEX\\tank\\fan.DTX",
+    "SA_TEX\\tank\\fance.DTX",
+    "SA_TEX\\tank\\iron.DTX",
+    "SA_TEX\\ware_house\\3map_step_wall.DTX",
+    "SA_TEX\\ware_house\\3map_wall_window.DTX",
+    "SA_TEX\\ware_house\\air_road.DTX",
+    "SA_TEX\\ware_house\\air_road_top.DTX",
+    "SA_TEX\\ware_house\\background_building.DTX",
+    "SA_TEX\\ware_house\\background_building_pole.DTX",
+    "SA_TEX\\ware_house\\block.dtx",
+    "SA_TEX\\ware_house\\box.DTX",
+    "sa_tex\\ware_house\\container.dtx",
+    "sa_tex\\ware_house\\container_door.dtx",
+    "sa_tex\\ware_house\\container_inner.dtx",
+    "sa_tex\\ware_house\\container_s.dtx",
+    "SA_TEX\\ware_house\\desk.DTX",
+    "sa_tex\\ware_house\\door_hand.dtx",
+    "sa_tex\\ware_house\\door_m.dtx",
+    "SA_TEX\\ware_house\\exit.DTX",
+    "SA_TEX\\ware_house\\fance.DTX",
+    "SA_TEX\\ware_house\\ground.dtx",
+    "SA_TEX\\ware_house\\ground7.dtx",
+    "SA_TEX\\ware_house\\harbor_f.dtx",
+    "SA_TEX\\ware_house\\hyungang.DTX",
+    "SA_TEX\\ware_house\\inner_door.DTX",
+    "sa_tex\\ware_house\\iron_bone.dtx",
+    "SA_TEX\\ware_house\\iron_door.DTX",
+    "SA_TEX\\ware_house\\Light2.dtx",
+    "sa_tex\\ware_house\\map.dtx",
+    "SA_TEX\\ware_house\\new_top_wall.DTX",
+    "SA_TEX\\ware_house\\new_wall.DTX",
+    "SA_TEX\\ware_house\\new_wallout2.DTX",
+    "sa_tex\\ware_house\\o_paper_box.dtx",
+    "SA_TEX\\ware_house\\office_celling.DTX",
+    "SA_TEX\\ware_house\\office_wall_block.dtx",
+    "SA_TEX\\ware_house\\office_wall_pole.DTX",
+    "SA_TEX\\ware_house\\out_light.DTX",
+    "SA_TEX\\ware_house\\paper_box.DTX",
+    "SA_TEX\\ware_house\\paper_box_t.dtx",
+    "SA_TEX\\ware_house\\roof.DTX",
+    "SA_TEX\\ware_house\\shotter.DTX",
+    "sa_tex\\ware_house\\tree_cabinet.dtx",
+    "SA_TEX\\ware_house\\wall01.DTX",
+    "SA_TEX\\ware_house\\Wall_05.dtx",
+    "SA_TEX\\ware_house\\Wall_42.dtx",
+    "SA_TEX\\ware_house\\windows.DTX",
+    "SA_TEX\\ware_house\\windows1.DTX",
+    "sa_tex\\zerogravity\\20060418_topblue_01.dtx",
+    "sa_tex\\zerogravity\\20060418_topblue_02.dtx",
+    "sa_tex\\zerogravity\\20060418_topblue_03.dtx",
+    "sa_tex\\zerogravity\\20060419_cen_win03.dtx",
+    "sa_tex\\zerogravity\\bottom03.dtx",
+    "SA_TEXFX\\SKY\\darkSkyBK.dtx",
+    "SA_TEXFX\\SKY\\darkSkyFR.dtx",
+    "SA_TEXFX\\SKY\\darkSkyLF.dtx",
+    "SA_TEXFX\\SKY\\darkSkyUP.dtx"
+  ],
+  "limitations": [
+    "Ordinary Python byte observations; not REA Evidence or runtime observation.",
+    "Only observed version-85 collision profile; render/objects/lightmaps remain undecoded.",
+    "Texture names are references; no UV reconstruction or material equivalence.",
+    "Public LithTech source provides comparison names, not proof of current binary behavior.",
+    "Source-world offset and model translation are reported, not applied to geometry."
+  ],
+  "obj": {
+    "path": "C:\\Users\\PC\\Desktop\\REA\\previews\\warehouse-collision.obj",
+    "sha256": "d600b7dd81d09a11cf254c9c893c70403a3f49f339cd67da776f1d069a599b47"
+  }
+}

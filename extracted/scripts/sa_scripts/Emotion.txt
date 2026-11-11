@@ -1,0 +1,1366 @@
+[Emotion0]
+Index = 0
+BodyFX = "Emo_MagicTrans_02"
+BodyFXParent = "Bip01 Spine2"
+
+[Emotion1]
+Index = 1
+BodyAlpha = 0.0f
+BodyFX = "Emo_MagicTrans_01"
+BodyFXParent = "Bip01 Spine2"
+ObjectCount = 1
+ObjectName0 = "sa_weapons\models\emotion\emotion_pumpkin.ltb"
+ObjectSkin0 = "sa_weapons\skins\tv\emotion_pumpkin.dtx"
+ObjectParent0 = ""
+ObjectAniIndex = "Em2"
+
+// 박나래 (RED) 사이즈 업
+[Emotion2]
+Index = 2
+BodyAlpha = 0.0f
+BodyFX = "Emo_Trans_PNR"
+BodyFXParent = "Bip01 Spine2"
+ObjectCount = 1
+ObjectName0 = "sa_weapons\models\emotion\Parknarae2_red_up.ltb"
+ObjectSkin0 = "sa_characters\skins\parknarae2_red_default.dtx"
+ObjectParent0 = ""
+ObjectAniIndex = "Em1"
+
+// 박나래 (BLUE) 사이즈 업
+[Emotion3]
+Index = 3
+BodyAlpha = 0.0f
+BodyFX = "Emo_Trans_PNR"
+BodyFXParent = "Bip01 Spine2"
+ObjectCount = 1
+ObjectName0 = "sa_weapons\models\emotion\Parknarae2_blue_up.ltb"
+ObjectSkin0 = "sa_characters\skins\parknarae2_blue_default.dtx"
+ObjectParent0 = ""
+ObjectAniIndex = "Em1"
+
+// 장도연 (RED) 사이즈 다운
+[Emotion4]
+Index = 4
+BodyAlpha = 0.0f
+BodyFX = "Emo_Trans_JDY"
+BodyFXParent = "Bip01 Spine2"
+ObjectCount = 1
+ObjectName0 = "sa_weapons\models\emotion\jangdoyoun_red_down.ltb"
+ObjectSkin0 = "sa_characters\skins\jangdoyoun_red_default.dtx"
+ObjectParent0 = ""
+ObjectAniIndex = "Em1"
+
+// 장도연 (BLUE) 사이즈 다운
+[Emotion5]
+Index = 5
+BodyAlpha = 0.0f
+BodyFX = "Emo_Trans_JDY"
+BodyFXParent = "Bip01 Spine2"
+ObjectCount = 1
+ObjectName0 = "sa_weapons\models\emotion\jangdoyoun_blue_down.ltb"
+ObjectSkin0 = "sa_characters\skins\jangdoyoun_blue_default.dtx"
+ObjectParent0 = ""
+ObjectAniIndex = "Em1"
+
+// 김서영
+[Emotion6]
+Index = 6
+ObjectCount = 1
+ObjectName0 = "sa_weapons\models\emotion\desk_chair.ltb"
+ObjectSkin0 = "sa_weapons\skins\tv\DeskChair.dtx"
+ObjectParent0 = ""
+ObjectAniIndex = "Em3"
+
+// 흑룡:진
+[Emotion7]
+Index = 7
+BodyAlpha = 0.55f
+ObjectAniIndex = "Em1"
+
+[Emotion8]
+Index = 8
+BodyFX = "Emo_Sakura_Girl_01"
+BodyFXParent = "Bip01 Spine2"
+
+[Emotion9]
+Index = 9
+BodyFX = "Emo_Sakura_Girl_02"
+BodyFXParent = "Bip01 Spine2"
+
+[Emotion10]
+Index = 10
+BodyFX = "Emo_Athena_01"
+BodyFXParent = "Bip01 Spine2"
+ObjectCount = 1
+ObjectName0 = "sa_weapons\models\emotion\knife_gladius_emotion_3p.ltb"
+ObjectSkin0 = "sa_weapons\skins\tv\knife_gladius_3p.dtx"
+ObjectParent0 = "RightHand"
+ObjectAniIndex = "Em1"
+
+[Emotion11]
+Index = 11
+BodyAlpha = 0.0f
+BodyFX = "Emo_Athena_02"
+BodyFXParent = "Bip01 R Hand"
+
+// 한복소녀 - 북춤
+[Emotion12]
+Index 		= 12
+ObjectCount 	= 3
+ObjectName0 	= "sa_weapons\models\emotion\Em1_hanbok2019_Drum.ltb"
+ObjectSkin0 	= "sa_weapons\skins\pv\hanbok2019_drum_d.dtx"
+ObjectParent0 	= ""
+ObjectName1 	= "sa_weapons\models\emotion\Em1_hanbok2019_stick_L.ltb"
+ObjectSkin1 	= "sa_weapons\skins\pv\hanbok2019_drum_d.dtx"
+ObjectParent1	= "LeftHand"
+ObjectName2 	= "sa_weapons\models\emotion\Em1_hanbok2019_stick_R.ltb"
+ObjectSkin2 	= "sa_weapons\skins\pv\hanbok2019_drum_d.dtx"
+ObjectParent2	= "RightHand"
+ObjectAniIndex 	= "Em1"
+
+// 한복소녀 - 단소
+[Emotion13]
+Index 		= 13
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Em2_hanbok2019_Danso.ltb"
+ObjectSkin0 	= "sa_weapons\skins\pv\Danso_default.dtx"
+ObjectParent0	= "RightHand"
+ObjectAniIndex 	= "Em2"
+
+// 타지옥 204 - 무기
+[Emotion14]
+Index 		= 14
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\204_otherhell_knife_emotion_R_3p.ltb"
+ObjectSkin0 	= "sa_weapons\skins\tv\otherhell_knife_3p.dtx"
+ObjectParent0	= "RightHand"
+ObjectAniIndex 	= "Em1"
+
+// 타지옥 206 - 무기
+[Emotion15]
+Index 		= 15
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\206_DE_emotion_L_3p.ltb"
+ObjectSkin0 	= "sa_weapons\skins\tv\otherhell_deagle_3p.dtx"
+ObjectParent0	= "LeftHand"
+ObjectAniIndex 	= "Em1"
+
+[Emotion16]
+Index = 16
+ObjectCount = 1
+ObjectName0 = "sa_weapons\models\emotion\wangnun_door_Emotion_3p.ltb"
+ObjectSkin0 = "sa_weapons\skins\tv\wangnun_door.dtx"
+ObjectParent0 = ""
+ObjectAniIndex = "Em1"
+
+// 손나은2
+[Emotion17]
+Index 		= 17
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\naeun02_Deagle.ltb"
+ObjectSkin0 	= "sa_weapons\skins\pv\Deagle_scope_default.dtx"
+ObjectParent0	= "RightHand"
+ObjectAniIndex 	= "Em1"
+
+// 바니바니
+[Emotion18]
+Index 		= 18
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\naeun02_Deagle.ltb"
+ObjectSkin0 	= "sa_weapons\skins\pv\Deagle_scope_default.dtx"
+ObjectParent0	= "RightHand"
+ObjectAniIndex 	= "Em1"
+
+// 장회장 - 의자
+[Emotion19]
+Index 		= 19
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\janghoejang_sofa.ltb"
+ObjectSkin0 	= "sa_weapons\skins\tv\janghoejang_sofa.dtx"
+ObjectParent0 	= ""
+ObjectAniIndex 	= "Em1"
+
+// 쌍절곤
+[Emotion20]
+Index 		= 20
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\nunchuck_Emotion_3p.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\nunchaku_3p.dtx"
+ObjectParent0	= "RightHand"
+ObjectAniIndex 	= "Em3"
+
+// 풍선.
+[Emotion21]
+Index 		= 21
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\balloon_Emotion.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\balloon_Emotion.dtx"
+ObjectParent0 	= ""
+ObjectAniIndex 	= "Em1"
+
+// 사과수류탄.
+[Emotion22]
+Index 		= 22
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\apple_emotion_3p.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\tv\g700_apple_red_3p.dtx"
+ObjectParent0 	= "RightHand"
+ObjectAniIndex 	= "Em3"
+
+// 길로틴
+[Emotion23]
+Index 		= 23
+ObjectCount 	= 2
+ObjectName0 	= "sa_weapons\models\emotion\Guillotine_knife_3p.ltb"
+ObjectSkin0 	= "sa_weapons\skins\pv\Guillotine_DIKE_acc.dtx"
+ObjectParent0	= "RightHand"
+ObjectName1 	= "sa_weapons\models\emotion\Guillotine_balances_3p.ltb"
+ObjectSkin1 	= "sa_weapons\skins\pv\Guillotine_DIKE_acc.dtx"
+ObjectParent1	= "LeftHand"
+BodyFX 		= "Emo_Guillotine_01"
+BodyFXParent 	= ""
+ObjectAniIndex 	= "Em1"
+
+// 손담비 - 의자
+[Emotion24]
+Index 		= 24
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\sondambi_chair.ltb"
+ObjectSkin0 	= "sa_weapons\skins\tv\sondambi_chair.dtx"
+ObjectParent0 	= ""
+ObjectAniIndex 	= "Em1"
+
+// Bloody Rose - 공중부양
+[Emotion25]
+Index = 25
+BodyFX = "Emo_Halloween20_01"
+BodyFXParent = "Bip01 Spine2"
+
+// Bloody Rose - 박수
+[Emotion26]
+Index = 26
+BodyFX = "Emo_Halloween20_02"
+BodyFXParent = "Bip01 Spine2"
+
+// 크리스마스
+[Emotion27]
+Index = 27
+BodyFX = "Emo_Santa_Girl_01"
+BodyFXParent = "Bip01 Spine2"
+
+// 은하 사격자세
+[Emotion28]
+Index = 28
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\21SApass1_eunha02_m4a1sg.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\21SApass1_M4A1_SG_3p.dtx"
+ObjectParent0	= "RightHand"
+ObjectAniIndex 	= "Em1"
+
+// 오드아이 - 표창 던지기
+[Emotion29]
+Index		= 29
+BodyFX		= "Emo_dagger"
+BodyFXParent	= "Bip01 Spine2"
+ObjectAniIndex	= "Em1"
+
+// 오드아이 - 파워 킥
+[Emotion30]
+Index		= 30
+ObjectCount	= 2
+ObjectName0	= "SA_Weapons\Models\TV\brass_knuckle_left_3p.ltb"
+ObjectSkin0	= "sa_resource\weapons\dtx\knuckle_knife_dark_hero_3p.dtx"
+ObjectParent0	= "LeftHand"
+ObjectName1	= "SA_Weapons\Models\TV\brass_knuckle_right_3p.ltb"
+ObjectSkin1	= "sa_resource\weapons\dtx\knuckle_knife_dark_hero_3p.dtx"
+ObjectParent1	= "RightHand"
+ObjectAniIndex	= "Em2"
+
+// 김소연 피아노
+[Emotion31]
+Index = 31
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\kimsoyeon_piano_3p.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\kimsoyeon_piano_3p.dtx"
+ObjectParent0	= ""
+ObjectAniIndex 	= "Em1"
+
+// 김소연 이퀄라이저  
+[Emotion32]
+Index = 32
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\kimsoyeon_Equalizer_3p.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\kimsoyeon_Equalizer_3p.dtx"
+ObjectParent0	= ""
+ObjectAniIndex 	= "Em2"
+
+// 보드소녀 보드
+[Emotion33]
+Index = 33
+ObjectCount 	= 1
+BodyFX		= "Emo_Skateboard"
+BodyFXParent 	= "Bip01 Spine2"
+ObjectName0 	= "sa_weapons\models\emotion\skateboard_3p.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\skateboard_suger_3p.dtx"
+ObjectParent0	= ""
+ObjectAniIndex 	= "Em1"
+
+// 요가 캐릭터
+[Emotion34]
+Index = 34
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\yoga_cushion_3p.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\yoga_cushion_n_3p.dtx"
+ObjectParent0	= ""
+ObjectAniIndex 	= "Em1"
+
+// 브레이브 걸스
+[Emotion35]
+Index 		= 35
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\bravegirls_Woodenchair_3p.ltb"
+ObjectSkin0 	= "sa_characters\skins\bravegirls_Woodenchair_3p.dtx"
+ObjectParent0	= ""
+ObjectAniIndex 	= "Em3"
+
+// 펀키
+[Emotion36]
+Index 		= 36
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Em1_spray.ltb"
+ObjectSkin0 	= "sa_weapons\skins\tv\lucky_spray.dtx"
+ObjectParent0	= ""
+BodyFX 		= "Emo_graffiti_01"
+BodyFXParent 	= "Bip01 Spine2"
+ObjectAniIndex 	= "Em1"
+
+// 랄랄
+[Emotion37]
+Index		= 37
+ObjectCount	= 2
+ObjectName0	= "sa_weapons\models\emotion\recorder_L_pink_3p.ltb"
+ObjectSkin0	= "sa_weapons\skins\tv\recorder_Wpink_3p.dtx"
+ObjectParent0	= "LeftHand"
+ObjectName1	= "sa_weapons\models\emotion\recorder_R_red_3p.ltb"
+ObjectSkin1	= "sa_weapons\skins\tv\recorder_red_3p.dtx"
+ObjectParent1	= "RightHand"
+ObjectAniIndex	= "Em3"
+
+// 표은지
+[Emotion38]
+Index		= 38
+BodyFX		= "Emo_airbubble"
+BodyFXParent	= "Bip01 Spine2"
+ObjectAniIndex	= "Em1"
+
+// 표은지
+[Emotion39]
+Index		= 39
+ObjectCount	= 1
+ObjectName0	= "sa_weapons\models\emotion\PyoEunji_surfboard_3p.ltb"
+ObjectSkin0	= "sa_characters\emotion\surfboard_default.dtx"
+ObjectParent0	= ""
+BodyFX 		= "Emo_bodyboard"
+BodyFXParent 	= "Bip01 Spine2"
+ObjectAniIndex	= "Em2"
+
+// 김연경
+[Emotion40]
+Index		= 40
+ObjectCount	= 1
+ObjectName0	= "sa_weapons\models\emotion\KimYeonKoung_ball.ltb"
+ObjectSkin0	= "sa_resource\weapons\dtx\Throw_taegeuk_volleyball_3p.dtx"
+ObjectParent0	= ""
+BodyFX 		= "Emo_YeonKoung_net"
+BodyFXParent 	= "Bip01 Spine2"
+ObjectAniIndex	= "Em1"
+
+// 마술사
+[Emotion41]
+Index = 41
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\card_b_3p.ltb"
+ObjectSkin0 	= "sa_weapons\skins\pv\Funny_conjuror_card.dtx"
+ObjectParent0	= ""
+ObjectAniIndex 	= "Em1"
+
+// 마술사
+[Emotion42]
+Index		= 42
+BodyFX = "Emo_MagicCard"
+BodyFXParent = "Bip01 Spine2"
+BodyAlpha = 0.0f
+ObjectCount	= 2
+ObjectName0	= "sa_weapons\models\emotion\card_a_3p.ltb"
+ObjectSkin0	= "sa_weapons\skins\pv\Funny_conjuror_card.dtx"
+ObjectParent0	= ""
+ObjectName1	= "sa_weapons\models\emotion\card_face_3p.ltb"
+ObjectSkin1	= "sa_weapons\skins\pv\Funny_conjuror_card.dtx"
+ObjectParent1	= ""
+ObjectAniIndex	= "Em2"
+
+// 다크핑거
+[Emotion43]
+Index		= 43
+ObjectCount	= 2
+ObjectName0	= "sa_weapons\models\emotion\Em1_prop_3p.ltb"
+ObjectSkin0	= "sa_weapons\skins\pv\DarkFinger_set_item_3p.dtx"
+ObjectParent0	= ""
+ObjectName1	= "sa_weapons\models\emotion\Em1_anaconda_3p.ltb"
+ObjectSkin1	= "sa_weapons\skins\pv\anaconda_default.dtx"
+ObjectParent1	= ""
+ObjectAniIndex	= "Em1"
+
+// 다크핑거
+[Emotion44]
+Index		= 44
+ObjectCount	= 1
+ObjectName0	= "sa_weapons\models\emotion\Em2_money_3p.ltb"
+ObjectSkin0	= "sa_weapons\skins\pv\DarkFinger_set_item_3p.dtx"
+ObjectParent0	= ""
+BodyFX 		= "Emo_money"
+BodyFXParent 	= "Bip01 Spine2"
+ObjectAniIndex	= "Em2"
+
+// 신세경
+[Emotion45]
+Index 		= 45
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\ShinSeGyung2_shotgun_3p.ltb"
+ObjectSkin0 	= "sa_weapons\skins\tv\SG870_v2_NEW_3p.dtx"
+ObjectParent0 	= ""
+ObjectAniIndex 	= "Em1"
+
+// 김연경Ⅱ
+[Emotion46]
+Index		= 46
+ObjectCount	= 1
+ObjectName0	= "sa_weapons\models\emotion\KimYeonKoung2_ball.ltb"
+ObjectSkin0	= "sa_resource\weapons\dtx\Throw_taegeuk_volleyball_3p.dtx"
+ObjectParent0	= ""
+ObjectAniIndex	= "Em1"
+
+// 페어리 감정표현 1
+[Emotion47]
+Index		= 47
+//ObjectCount	= 1
+BodyFX		= "Emo_fairy_01"
+BodyFXParent 	= "Bip01 Spine2"
+//ObjectName0	= "sa_weapons\models\emotion\fairy_bow.ltb"
+//ObjectSkin0	= "sa_resource\weapons\dtx\bow_fairy_3p.dtx"
+//ObjectParent0	= ""
+ObjectAniIndex	= "Em1"
+
+// 페어리 감정표현 2
+[Emotion48]
+Index		= 48
+ObjectCount	= 1
+BodyFX		= "Emo_fairy_02"
+BodyFXParent 	= "Bip01 Spine2"
+ObjectName0	= "sa_weapons\models\emotion\fairy_bow.ltb"
+ObjectSkin0	= "sa_resource\weapons\dtx\bow_fairy_3p.dtx"
+ObjectParent0	= "LeftHand"
+ObjectAniIndex	= "Em2"
+
+// Lucy
+[Emotion49]
+Index 		= 49
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\LUCY_Em2_g400_3p.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\22SApass2_g400_3p.dtx"
+ObjectParent0 	= "RightHand"
+ObjectAniIndex 	= "Em2"
+
+// 신세경Ⅱ 감정표현
+[Emotion50]
+Index 		= 50
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Em1_prop.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\PV\Grenade.dtx"
+ObjectParent0 	= ""
+ObjectAniIndex 	= "Em1"
+
+// 의장대원
+[Emotion51]
+Index		= 51
+ObjectCount	= 1
+ObjectName0	= "sa_weapons\models\emotion\Em2_prop.ltb"
+ObjectSkin0	= "sa_weapons\skins\tv\ak47_ik_Honor.dtx"
+ObjectParent0	= ""
+ObjectAniIndex	= "Em2"
+
+// Dr.Nyx
+[Emotion52]
+Index		= 52
+ObjectCount	= 1
+ObjectName0	= "sa_weapons\models\emotion\Nyx_Em2_prop.ltb"
+ObjectSkin0	= "sa_weapons\skins\tv\d_eagle(3p)_d.dtx"
+ObjectParent0	= "RightHand"
+ObjectAniIndex	= "Em2"
+
+// 레이서(RED)
+[Emotion53]
+Index		= 53
+ObjectCount	= 1
+ObjectName0	= "sa_weapons\models\emotion\Em1_BikeRacer_bike_prop.ltb"
+ObjectSkin0	= "SA_WEAPONS\SKINS\pv\BikeRacer_helmet_red.dtx"
+ObjectParent0	= ""
+ObjectAniIndex	= "Em1"
+
+// 레이서(RED)
+[Emotion54]
+Index		= 54
+ObjectCount	= 2
+ObjectName0	= "sa_weapons\models\emotion\Em2_BikeRacer_bike_prop.ltb"
+ObjectSkin0	= "sa_weapons\skins\Pv\BikeRacer_bike.dtx"
+ObjectParent0	= ""
+ObjectName1	= "sa_weapons\models\emotion\Em2_BikeRacer_helmet_prop.ltb"
+ObjectSkin1	= "SA_WEAPONS\SKINS\pv\BikeRacer_helmet_red.dtx"
+ObjectParent1	= ""
+ObjectAniIndex	= "Em2"
+
+// 레이서(BLUE)
+[Emotion55]
+Index		= 55
+ObjectCount	= 1
+ObjectName0	= "sa_weapons\models\emotion\Em1_BikeRacer_bike_prop.ltb"
+ObjectSkin0	= "SA_WEAPONS\SKINS\pv\BikeRacer_helmet_blue.dtx"
+ObjectParent0	= ""
+ObjectAniIndex	= "Em1"
+
+// 레이서(BLUE)
+[Emotion56]
+Index		= 56
+ObjectCount	= 2
+ObjectName0	= "sa_weapons\models\emotion\Em2_BikeRacer_bike_prop.ltb"
+ObjectSkin0	= "sa_weapons\skins\Pv\BikeRacer_bike.dtx"
+ObjectParent0	= ""
+ObjectName1	= "sa_weapons\models\emotion\Em2_BikeRacer_helmet_prop.ltb"
+ObjectSkin1	= "SA_WEAPONS\SKINS\pv\BikeRacer_helmet_blue.dtx"
+ObjectParent1	= ""
+ObjectAniIndex	= "Em2"
+
+// 박지환 감정표현
+[Emotion57]
+Index 		= 57
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\chair_407.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\PV\chair_407_3p.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em2"
+
+// 벨라 감정표현
+[Emotion58]
+Index 		= 58
+ObjectCount 	= 2
+ObjectName0 	= "sa_weapons\models\emotion\emotion_Akimbo3P_L.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\22SApass4_akimbopistol_s_3p.dtx"
+ObjectParent0	= "LeftHand"
+ObjectName1 	= "sa_weapons\models\emotion\emotion_Akimbo3P_R.ltb"
+ObjectSkin1 	= "sa_resource\weapons\dtx\22SApass4_akimbopistol_s_3p.dtx"
+ObjectParent1	= "RightHand"
+ObjectAniIndex 	= "Em2"
+
+// 검객
+[Emotion59]
+Index 		= 59
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\emotion_four_devas_sword.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\four_devas_sword_3p.dtx"
+ObjectParent0 	= "RightHand"
+ObjectAniIndex 	= "Em2"
+
+// 구미호
+[Emotion60]
+Index		= 60
+ObjectCount	= 1
+ObjectName0	= "sa_weapons\models\emotion\emotion_foldingfan_3p.ltb"
+ObjectSkin0	= "sa_resource\weapons\dtx\Kumiho_foldingfan_3p.dtx"
+ObjectParent0 	= "RightHand"
+BodyFX		= "Emo_NineTailedFox"
+BodyFXParent	= "Bip01 Spine2"
+ObjectAniIndex	= "Em1"
+
+// 황정민 감정표현
+[Emotion61]
+Index 		= 61
+ObjectCount 	= 1
+ObjectName0 	= "SA_Weapons\Models\TV\G18_3p.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\TV\G18_s_3p.dtx"
+ObjectParent0 	= "RightHand"
+ObjectAniIndex 	= "Em2"
+
+// 하정우 감정표현
+[Emotion62]
+Index 		= 62
+ObjectCount 	= 1
+ObjectName0 	= "SA_Weapons\Models\TV\HaJungWoo_sofa_prop.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\TV\HaJungWoo_sofa_d.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em2"
+
+// 응원소녀 감정표현
+[Emotion63]
+Index 		= 63
+ObjectCount 	= 1
+ObjectName0 	= "SA_Weapons\Models\TV\stick_soccer_Em1_prop.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\TV\stick_soccer_3p.dtx"
+ObjectParent0 	= "RightHand"
+ObjectAniIndex 	= "Em1"
+
+// 응원소녀 감정표현
+[Emotion64]
+Index 		= 64
+ObjectCount 	= 1
+ObjectName0 	= "SA_Weapons\Models\TV\stick_soccer_Em2_prop.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\TV\soccerball_soccer_3p.dtx"
+ObjectParent0 	= ""
+ObjectAniIndex 	= "Em2"
+
+// 김신영 감정표현
+[Emotion65]
+Index 		= 65
+ObjectCount 	= 1
+ObjectName0 	= "SA_Weapons\Models\TV\mic_kimshinyoung_Em2_prop.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\TV\Grenade_mic_3p.dtx"
+ObjectParent0 	= "LeftHand"
+ObjectAniIndex 	= "Em2"
+
+// Xmas 탐정
+[Emotion66]
+Index		= 66
+ObjectCount	= 2
+ObjectName0	= "sa_weapons\models\emotion\Christmas_Em2_prop1.ltb"
+ObjectSkin0	= "sa_resource\weapons\dtx\Axe_magnifier_3p.dtx"
+ObjectParent0 	= ""
+ObjectName1	= "sa_weapons\models\emotion\Christmas_Em2_prop2.ltb"
+ObjectSkin1	= "sa_weapons\skins\tv\g18_s_3p.dtx"
+ObjectParent1 	= ""
+ObjectAniIndex	= "Em2"
+
+// Xmas 탐정
+[Emotion67]
+Index		= 67
+BodyFX		= "Emo_snow_02"
+BodyFXParent	= "Bip01 Spine2"
+ObjectAniIndex	= "Em1"
+
+// 쇼콜라티에 감정표현
+[Emotion68]
+Index		= 68
+ObjectCount 	= 1
+ObjectName0 	= "SA_Weapons\Models\emotion\chocolatier_Em2_prop.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\TV\chocolate_grenade_3p.dtx"
+ObjectParent0 	= "RightHand"
+ObjectAniIndex 	= "Em2"
+
+// 심으뜸 감정표현
+[Emotion69]
+Index		= 69
+ObjectCount 	= 1
+ObjectName0 	= "SA_Weapons\Models\TV\Em1_Simeuddeume_prop.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\TV\soccerball_soccer_3p.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+
+// 23시즌패스 시즌2 캐릭터(아라크네, 아난시) 감정표현 -(1)
+[Emotion70]
+Index			= 70
+ObjectCount		= 2
+ObjectName0		= "sa_weapons\models\emotion\Em1_knife_L_prop.ltb"
+ObjectSkin0		= "sa_weapons\skins\Pv\doublesword_SApass2_default.dtx"
+ObjectParent0	= "LeftHand"
+ObjectName1 	= "sa_weapons\models\emotion\Em1_knife_R_prop.ltb"
+ObjectSkin1 	= "sa_weapons\skins\Pv\doublesword_SApass2_default.dtx"
+ObjectParent1	= "RightHand"
+ObjectAniIndex	= "Em1"
+
+// 23시즌패스 시즌2 캐릭터(아라크네, 아난시) 감정표현 -(2)
+[Emotion71]
+Index			= 71
+ObjectCount		= 1
+ObjectName0		= "sa_weapons\models\emotion\Em2_g18_prop.ltb"
+ObjectSkin0		= "sa_weapons\skins\Tv\G18_s_3p.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex	= "Em2"
+
+// 웨스턴걸 감정표현 - 1
+[Emotion72]
+Index			= 72
+ObjectCount		= 1
+ObjectName0		= "sa_weapons\models\emotion\Western_Girl_Em1.ltb"
+ObjectSkin0		= "sa_weapons\skins\pv\CPeacemaker.dtx"
+ObjectParent0	= "RightHand"
+ObjectAniIndex	= "Em1"
+
+// 웨스턴걸 감정표현 - 2
+[Emotion73]
+Index			= 73
+ObjectCount		= 1
+ObjectName0		= "sa_weapons\models\emotion\Western_Girl_Em2_prop.ltb"
+ObjectSkin0		= "sa_weapons\skins\pv\toy_cow_d.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex	= "Em2"
+
+// 마갱단 감정표현 - 3
+[Emotion74]
+Index			= 74
+ObjectCount		= 1
+ObjectName0		= "sa_weapons\models\emotion\jet_Em3_prop.ltb"
+ObjectSkin0		= "sa_weapons\skins\tv\SA_Jet_Ski.dtx"
+ObjectParent0	= "Scene Root"
+BodyFX 		= "Emo_jet_ski"
+BodyFXParent 	= "Bip01 Spine2"
+ObjectAniIndex	= "Em3"
+
+// 마리나 & 세이렌 감정표현
+[Emotion75]
+Index			= 75
+ObjectCount		= 1
+ObjectName0		= "sa_weapons\models\emotion\23SApass3_Em1_prop.ltb"
+ObjectSkin0		= "sa_resource\weapons\dtx\23SApass3_PPS_3p.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex	= "Em1"
+
+// 나선욱 감정표현
+[Emotion76]
+Index			= 76
+ObjectCount		= 2
+ObjectName0		= "sa_weapons\models\emotion\NaSunUk_Em2_book_prop.ltb"
+ObjectSkin0		= "sa_weapons\skins\Pv\AXE_clutch_bag.dtx"
+ObjectParent0		= "LeftHand"
+ObjectName1 		= "sa_weapons\models\emotion\NaSunUk_Em2_handpone_prop.ltb"
+ObjectSkin1 		= "sa_weapons\skins\Pv\hand_phone_3p.dtx"
+ObjectParent1		= "RightHand"
+ObjectAniIndex		= "Em2"
+
+// 점성술사 감정표현
+[Emotion77]
+Index			= 77
+BodyFX 		= "Emo_astrologer"
+BodyFXParent 	= "Bip01 Spine2"
+BodyAlpha	= 0.0f // 사라지는 동작이 있다면 이걸 넣어야 한다.
+
+// C.레아 감정표현
+[Emotion78]
+Index			= 78
+ObjectCount		= 2
+ObjectName0		= "sa_weapons\models\emotion\Rhea_Em1_wall_prop.ltb"
+ObjectSkin0		= "sa_tex3\dinosaur\brick_wall06f.dtx"
+ObjectParent0	= "Scene Root"
+ObjectName1 		= "sa_weapons\models\emotion\Rhea_Em1_p90_prop.ltb"
+ObjectSkin1 		= "SA_Weapons\skins\pv\23SApass4_P90_v2.dtx"
+ObjectParent1		= "RightHand"
+ObjectAniIndex	= "Em1"
+
+// C.조이 감정표현
+[Emotion79]
+Index			= 79
+ObjectCount		= 1
+ObjectName0		= "sa_weapons\models\emotion\Zoe_Em2_prop.ltb"
+ObjectSkin0		= "SA_Weapons\skins\tv\24SApass1_Hammer_3p.dtx"
+ObjectParent0	= "RightHand"
+ObjectAniIndex	= "Em2"
+
+// 청룡의 신 감정표현
+[Emotion80]
+Index			= 80
+BodyFX 		= "Emo_bluedragon"
+BodyFXParent 	= "Bip01 Spine2"
+
+// 여신 신세경 감정표현
+[Emotion81]
+Index			= 81
+ObjectCount		= 1
+ObjectName0		= "SA_Weapons\Models\Emotion\ShinSeGyung4_Em3_prop.ltb"
+ObjectSkin0		= "sa_resource\weapons\dtx\ShinSeGyung4_Red_Carpet.dtx"
+ObjectParent0	= "Scene Root"
+BodyFX 			= "Emo_Shin_flash"
+BodyFXParent 	= "Bip01 Spine2"
+ObjectAniIndex	= "Em3"
+
+// C.로즈 감정표현 - 1
+[Emotion82]
+Index			= 82
+ObjectCount		= 1
+ObjectName0		= "SA_Weapons\Models\Emotion\Rose_Em1_prop.ltb"
+ObjectSkin0		= "sa_resource\weapons\dtx\24SApass2_TSR_em1_prop_3P.dtx"
+ObjectParent0	= "RightHand"
+ObjectAniIndex	= "Em1"
+
+// C.로즈 감정표현 - 2
+[Emotion83]
+Index			= 83
+ObjectCount		= 1
+ObjectName0		= "SA_Weapons\Models\Emotion\Rose_Em2_prop.ltb"
+ObjectSkin0		= "sa_resource\weapons\dtx\24SApass2_g600.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex	= "Em2"
+
+// 신슬기 감정표현 (1)
+[Emotion84]
+Index			= 84
+ObjectCount 	= 2
+ObjectName0 	= "SA_Weapons\Models\TV\Em1_2_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\Smartphone_2024.dtx"
+ObjectParent0 	= "LeftHand"
+ObjectName1		= "SA_Weapons\Models\TV\Em1_prop.ltb"	
+ObjectSkin1		= "sa_resource\models\dtx\Pyramid_Game_blackboard.dtx"
+ObjectParent1	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+
+// 신슬기 감정표현 (2)
+[Emotion85]
+Index			= 85
+ObjectCount 	= 1
+ObjectName0 	= "SA_Weapons\Models\TV\Em1_2_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\Smartphone_2024.dtx"
+ObjectParent0 	= "LeftHand"
+ObjectAniIndex 	= "Em2"
+
+// 피라미드 감정표현 (3)
+[Emotion86]
+Index			= 86
+ObjectCount 	= 1
+ObjectName0 	= "SA_Weapons\Models\TV\Em3_prop.ltb"
+ObjectSkin0 	= "sa_resource\models\dtx\bm8.dtx"
+ObjectParent0 	= "Scene Root"
+BodyFX 			= "Emo_pyramid"
+BodyFXParent 	= "Bip01 Spine2"
+BodyAlpha		= 0.0f
+ObjectAniIndex 	= "Em3"
+
+// 노블 감정표현 (1)
+[Emotion87]
+Index			= 87
+ObjectCount		= 1
+ObjectName0		= "SA_Weapons\Models\Emotion\noble_Em1_prop.ltb"
+ObjectSkin0		= "sa_resource\weapons\dtx\famas_f1_v3_is_m2_noble_3p.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex	= "Em1"
+BodyAlpha	= 0.0f
+BodyFX 		= "Emo_Noble"
+BodyFXParent 	= "Bip01 Spine2"
+
+// 노블 감정표현 (2)
+[Emotion88]
+Index			= 88
+ObjectCount		= 1
+ObjectName0		= "SA_Weapons\Models\Emotion\noble_Em2_prop.ltb"
+ObjectSkin0		= "sa_resource\weapons\dtx\famas_f1_v3_is_m2_noble_3p.dtx"
+ObjectParent0	= "RightHand"
+ObjectAniIndex	= "Em2"
+
+// 마블 감정표현 (1)
+[Emotion89]
+Index			= 89
+ObjectCount		= 1
+ObjectName0		= "SA_Weapons\Models\Emotion\marble_Em1_prop.ltb"
+ObjectSkin0		= "sa_resource\weapons\dtx\awp_is_v02_m4_marble_3p.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex	= "Em1"
+BodyAlpha	= 0.0f
+BodyFX 		= "Emo_Marble"
+BodyFXParent 	= "Bip01 Spine2"
+
+// 마블 감정표현 (2)
+[Emotion90]
+Index			= 90
+ObjectCount		= 1
+ObjectName0		= "SA_Weapons\Models\Emotion\marble_Em2_prop.ltb"
+ObjectSkin0		= "sa_resource\weapons\dtx\awp_is_v02_m4_marble_3p.dtx"
+ObjectParent0	= "RightHand"
+ObjectAniIndex	= "Em2"
+
+// 외모지상주의 감정표현
+[Emotion91]
+Index			= 91
+ObjectCount		= 1
+ObjectName0		= "SA_Weapons\Models\Emotion\Lookism_KimMiru_Em1_bread.ltb"
+ObjectSkin0		= "sa_resource\weapons\dtx\emotion_really_cookbear_face&body.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex	= "Em1"
+
+// 낚시소녀 감정표현 (1)
+[Emotion92]
+Index			= 92
+ObjectCount 	= 1
+ObjectName0		= "SA_Weapons\Models\tv\Em1_RB_prop.ltb"
+ObjectSkin0		= "SA_Weapons\Skins\tv\flyrod_default.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex	= "Em1"
+
+// 낚시소녀 감정표현 (2)
+[Emotion93]
+Index			= 93
+ObjectCount 	= 2
+ObjectName0		= "SA_Weapons\Models\tv\Em2_RB_prop.ltb"
+ObjectSkin0		= "SA_Weapons\Skins\tv\flyrod_default.dtx"
+ObjectParent0	= "Scene Root"
+ObjectName1		= "SA_Weapons\Models\TV\Em2_1_RB_prop.ltb"	
+ObjectSkin1		= "SA_Weapons\Skins\TV\Camping_chair_3P.dtx"
+ObjectParent1	= "Scene Root"
+ObjectAniIndex	= "Em2"
+
+// C.안나 EM2 - 카드 던지기
+[Emotion94]
+Index			= 94
+ObjectCount 	= 2
+ObjectName0		= "SA_Weapons\Models\Emotion\Anna_Em2_prop_card.ltb"
+ObjectSkin0		= "sa_resource\weapons\dtx\24SApass3_Throw_card_3p.dtx"
+ObjectParent0	= "Scene Root"
+ObjectName1		= "SA_Weapons\Models\Emotion\Anna_Em2_prop_bag.ltb"
+ObjectSkin1		= "sa_resource\weapons\dtx\24SApass3_BombTechKit_3p.dtx"
+ObjectParent1	= "Scene Root"
+ObjectAniIndex	= "Em2"
+
+// 세리아 감정표현
+[Emotion95]
+Index			= 95
+BodyFX 			= "Emo_astrologer"
+BodyFXParent 	= "Bip01 Spine2"
+BodyAlpha		= 0.0f // 사라지는 동작이 있다면 이걸 넣어야 한다.
+
+// 고말숙 감정표현
+[Emotion96]
+Index 		= 96
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\GoMaLSooK_Em1_prop.ltb"
+ObjectSkin0 	= "sa_weapons\skins\pv\sunbed_3p.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+
+// 박민정 감정표현
+[Emotion97]
+Index 		= 97
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\ParkMinJung_Em1_prop.ltb"
+ObjectSkin0 	= "sa_weapons\skins\pv\sunbed_3p.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+
+// C.카야 1
+[Emotion98]
+Index 		= 98
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Em1_prop_mpx.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\24SApass4_Em1_MPX_3p.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+
+// C.카야 2
+[Emotion99]
+Index 		= 99
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Em2_prop_gurkha.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\24SApass4_Em2_gurkha_3p.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex 	= "Em2"
+
+// 황진이 감정표현 -월하검무
+[Emotion100]
+Index 		= 100
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Wolhwa_Em1_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\four_devas_sword_3p.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+
+// 고민시 감정표현
+[Emotion101]
+Index 		= 101
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\GoMinsi_Em3_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\gominsi_trophy_3p.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex 	= "Em3"
+
+// 북극소녀 감정표현
+[Emotion102]
+Index 		= 102
+BodyFX 			= "Emo_snow_03"
+BodyFXParent 	= "Bip01 Spine2"
+BodyAlpha		= 0.0f
+ObjectAniIndex 	= "Em1"
+
+// C.나탈리 감정표현 -em1
+[Emotion103]
+Index 		= 103
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Natalie_Em1_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\25sapass1_tac_9_s_3p_emotion.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+
+// C.나탈리 감정표현 -em2
+[Emotion104]
+Index 		= 104
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Natalie_Em2_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\25SApass1_tase.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex 	= "Em2"
+
+// 다샤타란 감정표현
+[Emotion105]
+Index 		    = 105
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\dashataran_Em2_prop.ltb"
+ObjectSkin0 	= "sa_weapons\skins\tv\smartphone_dashataran.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex 	= "Em2"
+
+// 블랙쉐도우 감정표현 -em1
+[Emotion106]
+Index = 106
+BodyAlpha = 0.55f
+ObjectAniIndex = "Em1"
+
+// 블라썸 감정표현
+[Emotion107]
+Index 		    = 107
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Datelook_Em1_prop.ltb"
+ObjectSkin0 	= "sa_weapons\skins\tv\Sketchbook_datelook.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+
+// C.데비 감정표현 - em1
+[Emotion108]
+Index 			= 108
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Devi_Em1_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\25sapass2_tas_s_3p.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+BodyFX 			= "Emo_DeviGun"
+BodyFXParent 	= "Bip01 Spine2"
+
+// C.데비 감정표현 - em2
+[Emotion109]
+Index 			= 109
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Devi_Em2_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\25sapass2_g600&bombtechkit_3p.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex 	= "Em2"
+
+// 이수지 감정표현
+[Emotion110]
+Index 			= 110
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\leesuji_Em2_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\g600_potatochips.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em2"
+
+// 2025 프로미스나인 감정표현
+[Emotion111]
+Index			= 111
+ObjectCount 	= 2
+ObjectName0 	= "sa_weapons\models\emotion\fromis9_4_Em2_mic.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\TV\Grenade_mic_3p.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectName1 	= "sa_weapons\models\emotion\fromis9_4_Em2_rifle.ltb"
+ObjectSkin1 	= "sa_weapons\skins\pv\gal-1_v2_mg_is_meow.dtx"
+ObjectParent1 	= "Scene Root"
+ObjectAniIndex 	= "Em2"
+
+// 2025 조유리 오징어게임 222번 준희 감정표현 (딱지치기)
+[Emotion112]
+Index			= 112
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Joyuri02_workout_Em1_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\axe_knife_squidgame_1.dtx"
+ObjectParent0 	= "Scene Root"
+BodyFX 			= "Emo_Joyuri02_workout"
+BodyFXParent 	= "Bip01 Spine3"
+ObjectAniIndex 	= "Em1"
+
+// 2025 조유리 오징어게임 222번 준희 감정표현 (단소)
+[Emotion113]
+Index			= 113
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Joyuri02_workout_Em2_prop.ltb"
+ObjectSkin0 	= "sa_weapons\skins\pv\Danso_default.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em2"
+
+// C.솔라 감정표현 - em1
+[Emotion114]
+Index 			= 114
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\sola_em1_prop.ltb"
+ObjectSkin0 	= "sa_weapons\skins\pv\25sapass3_awx_3p_em1.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+
+// C.솔라 감정표현 - em2
+[Emotion115]
+Index 			= 115
+ObjectCount 	= 2
+ObjectName0 	= "sa_weapons\models\emotion\sola_em2_1_prop.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\pv\25sapass3_na_94_is_3p_em2.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectName1 	= "sa_weapons\models\emotion\sola_em2_2_prop.ltb"
+ObjectSkin1 	= "sa_weapons\skins\pv\25sapass3_g18_3p_em2.dtx"
+ObjectParent1 	= "Scene Root"
+ObjectAniIndex 	= "Em2"
+
+// 이명화 감정표현 - em1
+[Emotion116]
+Index 			= 116
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\ralral2_myunghwa_Em1_prop.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\tv\leemyunghwa_phone.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+
+// 율 감정표현 - em1
+[Emotion117]
+Index 			= 117
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\ralral2_yul_Em1_prop.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\pv\Grenade_mic_default.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+
+// 츠키 감정표현
+[Emotion118]
+Index 			= 118
+BodyFX 			= "Emo_Tsuki_heart"
+BodyFXParent 	= "Bip01 Spine2"
+ObjectAniIndex 	= "Em1"
+
+// C.제나 감정표현 - em1
+[Emotion119]
+Index 			= 119
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Em1_Xena_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\25sapass4_speceter_s_em_3p.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+BodyFX 			= "Emo_Xena_shot"
+BodyFXParent 	= "Bip01 Spine2"
+
+// C.제나 감정표현 - em2
+[Emotion120]
+Index 			= 120
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Em2_Xena_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\25sapass4_dsg_12_s_em_3p.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em2"
+BodyFX 			= "Emo_Xena_Screen"
+BodyFXParent 	= "Bip01 Spine2"
+
+// 한복소녀 Em1
+[Emotion121]
+Index 			= 121
+ObjectCount 	= 3
+ObjectName0 	= "sa_weapons\models\emotion\Em1_prime_hanbok_Drum.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\PV\hanbok2019_drum_d.dtx"
+ObjectName1 	= "sa_weapons\models\emotion\Em1_prime_hanbok_stick_L.ltb"
+ObjectSkin1 	= "SA_Weapons\Skins\PV\hanbok2019_drum_d.dtx"
+ObjectParent1 	= "Bip01 L Hand"
+ObjectName2 	= "sa_weapons\models\emotion\Em1_prime_hanbok_stick_R.ltb"
+ObjectSkin2 	= "SA_Weapons\Skins\PV\hanbok2019_drum_d.dtx"
+ObjectParent2 	= "RightHand"
+ObjectAniIndex 	= "Em1"
+
+// 한복소녀 Em2
+[Emotion122]
+Index 			= 122
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Em2_prime_hanbok_Danso.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\axe_knife_danso2_3p.dtx"
+ObjectParent0 	= "RightHand"
+ObjectAniIndex 	= "Em2"
+
+// C.엠버 - EM1: 사냥 돌입
+[Emotion123]
+Index 			= 123
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\em1_Ember_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\g18_26pass1_em.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+BodyFX 			= "Emo_Ember_shot"
+BodyFXParent 	= "Scene Root"
+
+// C.엠버 - EM2: 사냥 개시
+[Emotion124]
+Index 			= 124
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\em2_Ember_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\mk76_sk_26pass1_em.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em2"
+//BodyFX 			= "Emo_Xena_Screen"
+//BodyFXParent 	= "Scene Root"
+
+// EM2: 김설현 전투 준비
+[Emotion125]
+Index 			= 125
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Em2_seolhyun3_prop.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\PV\deagle_new_default.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em2"
+
+// 쇼콜라티에C 감정표현
+[Emotion126]
+Index			= 126
+ObjectCount 	= 1
+ObjectName0 	= "SA_Weapons\Models\emotion\em2_chocolatier_c_prop.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\TV\chocolate_grenade_3p.dtx"
+ObjectParent0 	= "spine2"
+ObjectAniIndex 	= "Em2"
+
+// 숲의요정 감정표현
+[Emotion127]
+Index			= 127
+ObjectCount 	= 1
+ObjectName0 	= "SA_Weapons\Models\emotion\Em1_prime_forestelf_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\s402_sprout_3p.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+BodyAlpha	= 0.0f
+
+// C.리나&린 - EM1: 누워서 탕탕
+[Emotion128]
+Index 			= 128
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\em1_Lynn_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\akimbo_pistol_s_1_26pass2_em.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+
+// C.리나&린 - EM2: 둘이서 찰칵
+[Emotion129]
+Index			= 129
+BodyFX 			= "Emo_PhotoSticker"
+BodyFXParent 	= "Scene Root"
+//BodyAlpha		= 0.0f // 사라지는 동작이 있다면 이걸 넣어야 한다.
+
+// [P]프라임 보드소녀 EM1: 한번 달려 볼까!
+[Emotion130]
+Index			= 130
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Em1_boardgirl_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\g600_board_3p.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+
+// 최예나(슈프림, 일반)- EM1: 최예나 펑펑!
+[Emotion131]
+Index			= 131
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Em1_yena_prop.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\PV\em1_yena_prop_3p.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+
+// [P] 미이라 회오리 - EM1
+[Emotion132]
+Index			= 132
+BodyFX 			= "Emo_mummy"
+BodyFXParent 	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+BodyAlpha		= 0.0f
+
+// C.베라 - EM1: 유인
+[Emotion133]
+Index 			= 133
+ObjectCount 	= 2
+ObjectName0 	= "sa_weapons\models\emotion\Em1_vera_prop.ltb"
+ObjectSkin0 	= "SA_Weapons\Skins\TV\Grenade_heart_3p.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectName1 	= "sa_weapons\models\emotion\Em1_1_vera_prop.ltb"
+ObjectSkin1 	= "sa_resource\weapons\dtx\stungun_26pass3.dtx"
+ObjectParent1 	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+BodyFX 			= "Emo_SAP2026S3_Heart"
+BodyFXParent 	= "Scene Root"
+
+// C.베라 - EM2: 환영
+[Emotion134]
+Index			= 134
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Em2_vera_prop.ltb"
+ObjectSkin0 	= "sa_weapons\skins\tv\Em2_vera_prop.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em2"
+BodyFX 			= "Emo_SAP2026S3_smoke"
+BodyFXParent 	= "Scene Root"
+BodyAlpha		= 0.0f
+
+// 프라임 이글아이&록 - EM1: 지켜보고 있다
+[Emotion135]
+Index			= 135
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\Em1_eagleeye_rock_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\m4a1_v2_3p.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+
+// 미야&김지윤 감정표현 (1) 폭풍전야
+[Emotion136]
+Index			= 136
+ObjectCount		= 1
+ObjectName0		= "SA_Weapons\Models\Emotion\Em1_miya_jiyoon_prop.ltb"
+ObjectSkin0		= "SA_Weapons\Skins\PV\trg21_is_umbrella_default.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex	= "Em1"
+BodyAlpha		= 0.0f
+BodyFX			= "emo_storm"
+BodyFXParent	= "Bip01 Spine2"
+
+// 미야&김지윤 감정표현 (2) 후훗
+[Emotion137]
+Index			= 137
+ObjectCount		= 1
+ObjectName0		= "SA_Weapons\Models\Emotion\Em2_miya_jiyoon_prop.ltb"
+ObjectSkin0		= "sa_resource\weapons\dtx\deagle_s_em.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex	= "Em2"
+
+// 미야&김지윤 감정표현 (3) 어라라
+[Emotion138]
+Index			= 138
+ObjectCount		= 1
+ObjectName0		= "SA_Weapons\Models\Emotion\Em3_miya_jiyoon_prop.ltb"
+ObjectSkin0		= "SA_Weapons\Skins\PV\g600_default.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex	= "Em3"
+BodyAlpha		= 0.0f
+BodyFX			= "emo_redlight"
+BodyFXParent	= "Bip01 Spine2"
+
+// [P]프라임 Farmer - EM1: 허수아비 위장술
+[Emotion139]
+Index			= 139
+ObjectCount		= 1
+ObjectName0		= "sa_weapons\models\emotion\scarecrow.ltb"
+ObjectSkin0		= "sa_weapons\skins\tv\scarecrow_default.dtx"
+ObjectParent0	= "Scene Root"
+ObjectAniIndex	= "Em1"
+BodyAlpha		= 0.0f
+
+// C.루나 - EM1: 독주
+[Emotion140]
+Index			= 140
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\em1_luna_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\peacemaker_s_26pass4_3p_em.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em1"
+
+// C.루나 - EM2: 역전
+[Emotion141]
+Index			= 141
+ObjectCount 	= 1
+ObjectName0 	= "sa_weapons\models\emotion\em2_luna_prop.ltb"
+ObjectSkin0 	= "sa_resource\weapons\dtx\nox_s_26pass4_3p_em.dtx"
+ObjectParent0 	= "Scene Root"
+ObjectAniIndex 	= "Em2"

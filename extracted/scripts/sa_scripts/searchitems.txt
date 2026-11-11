@@ -1,0 +1,131 @@
+/************************************************************************
+**
+** SearchItem
+**
+** The SearchItem definitions define all of the attributes associated with
+** a particular item that is found while searching. 
+**
+**
+** All SearchItem definitions should contain the following properties:
+**
+**  Name (String)
+**
+**      The user friendly name of the search item 
+**
+**	Icon (String)
+**
+**		Name of the texture to be used as an icon when this item is found. Interface\Photos\Ammo\Bullet_Def.dtx
+**
+**	TextId (Integer)
+**
+**		The text id used for this search item (corresponds to
+**		a string id in CRes.dll).
+**
+**
+*/
+
+[SearchItem0]
+
+Name	= "nothing"
+Icon	= ""
+TextId	= 3501
+
+/************************************************************************
+**
+** SearchSet
+**
+** The SearchSet definitions define all of the attributes associated with
+** a set of items that might be found while searching. 
+**
+**
+** All SearchItem definitions should contain the following properties:
+**
+**  Name (String)
+**
+**      The user friendly name of the search set 
+**
+**  Items (String)
+**
+**		A comma-separated list of SearchItems found in this set
+**
+**	ItemPercent (Integer)
+**
+**		The percent chance that one of the SearchItems specified above will be found.  
+**
+**		NOTE: this must be a number between 0 and 100 so that ItemPercent + AmmoPercent +
+**			  WeaponPercent + GearPercent add up to 100!
+**
+**	Ammo# (String)
+**
+**		Specifies the type of ammo that may be found and the ammount of ammo.
+**		The value of this property (before the comma) MUST correspond to the 
+**		name specified in the AMMO definitions in weapons.txt.  Multiple ammo 
+**		types may be specified but only one of the choices will be randomly 
+**		select.  For example:
+**
+**			Ammo0	= "9mm fmj, 10"
+**			Ammo1	= "9mm dum dum, 30"
+**			...
+**
+**	AmmoPercent	(Integer)
+**
+**		The percent chance that one of the ammo types specified above will be found.  
+**
+**		NOTE: this must be a number between 0 and 100 so that ItemPercent + AmmoPercent +
+**			  WeaponPercent + GearPercent add up to 100!
+**
+**	Weapon# (String)
+**
+**		Specifies the type of weapon that may be found.  The value
+**		of this property MUST correspond to the name specified in the
+**		WEAPON definitions in weapons.txt.  Multiple weapons may be specified
+**		but only one of the choices will be randomly select.  For example:
+**
+**			Weapon0	= "Grenade"
+**			Weapon1	= "StunGrenade"
+**			...
+**
+**	WeaponPercent (Integer)
+**
+**		The percent chance that one of the weapon types specified above will be found.  
+**
+**		NOTE: this must be a number between 0 and 100 so that ItemPercent + AmmoPercent +
+**			  WeaponPercent + GearPercent add up to 100!
+**
+**	Gear# (String)
+**
+**		Specifies the type of gear that may be found.  The value
+**		of this property MUST correspond to the name specified in the
+**		GEAR definitions in weapons.txt.  Multiple gear items may be specified
+**		but only one of the choices will be randomly select.  For example:
+**
+**			Gear0	= "Body Armor"
+**			Gear1	= "Health"
+**			...
+**
+**	GearPercent	(Integer)
+**
+**		The percent chance that one of the gear items specified above will be found.  
+**
+**		NOTE: this must be a number between 0 and 100 so that ItemPercent + AmmoPercent +
+**			  WeaponPercent + GearPercent add up to 100!
+**
+**
+*/
+
+/*
+** SearchSet0 = "Default"
+**	- this set is used when no other set is specified
+**
+*/
+
+[SearchSet0]
+Name			= "General"
+Items			= ""
+ItemPercent		= 100  // Only items will be found
+Ammo0			= ""
+AmmoPercent		= 0
+Weapon0			= ""
+WeaponPercent		= 0
+Gear0			= ""
+GearPercent		= 0

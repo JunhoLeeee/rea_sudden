@@ -1,0 +1,605 @@
+//	[Physic???]
+//	********************************************************************************************************************************************************
+
+		//	PhysicScript0 ~ PhysicScript9
+		//	##########################################################
+		//	[OBJECT_PROPERTY]
+		//	Optimize			최적화를 위해 기존 OBB들을 하나로 합친 거대 OBB로 만들고 혹 바퀴를 달 경우, 거대 OBB에서 바퀴가 달릴 하단의 일부를 날려 버린다.
+		//	Pin				물리 고정여부
+		//	Gravity				중력여부
+		//	Mass				물체의 덩어리 질량 (값이 클 수록 무게감이 살아난다. 자동차 샘플이 1500이었음)
+		//	MOIFactor			moment of inertia 관성모멘트팩터(회전을 지속하려는 성질에 대한 팩터, 값이 작을수록 지속율이 떨어진다. 실제 계산은 일반 차량 샘플기준으로 계산하고 거기에 Factor값을 추가 곱하게 함)
+		//	MassPointRatio			물체의 무게 중심 (이건 실제 로컬 위치를 적어야 하지만, 세팅하기 쉽게 비율로 중심 위치를 지정하게 하였음. -1 ~ 1이 오브젝트 OBB의 끝에서 반대쪽끝이다)
+
+		//	[VEHICLE_CONTROL]
+		//	PeakTorque			엔진 최대 회전력(최대힘). 자동차 샘플은 500.0
+		//	RPM				1분동안 몇번 회전하는가(순간가속). 자동차 샘플은 6000.0
+		//	FrictionType			-10 ~ 30까지 총 41개의 타입을 구성하였음. 0이 샘플상의 타이어 수치이며, 10 이 샘플의 두배에 해당한다. 테스트해보니 탱크의 경우 고무타이어가 아니라서 그런지 두배이상 미끄러짐을 없게 해야 될듯...
+		//	MaxBrakeTorque			브레이크잡는 힘. 자동차 샘플은 1500.0
+		//	MaxHandBrakeTorque		핸드브레이크인데 미구현, 필요성이 있을때 구현할 예정.
+		//	Tank				true 이면 바퀴들이 좌,우측 바퀴들 각각 체인에 연결된듯 동기화 된다. false이면 따로 논다.
+		//	Mass				바퀴당 덩어리 질량
+		//	MaxSteer			탱크의 경우 강제 회전 속도에 해당한다. 탱크가 아닌 일반적인 경우 바퀴 회전 가능할 경우 각도를 넣는다. ,로 구분하여 바퀴당 설정 가능. 없으면 0
+		//	ClutchStrength			말그대로 클러치, 엔진연결힘, 디폴트 10.0
+
+		//	[VEHICLE_WHEELSHAPE]
+		//	Mass				바퀴 하나의 질량
+		//	Radius				바퀴의 반지름(바퀴모델 OBB가 더 크면 그 크기에 맞춘다)
+		//	Width				바퀴의 두께, 폭
+
+		//	[VEHICLE_WHEELSOCKET]		// 소켓으로 물리 바퀴 연결, |로 추가하며 소켓연결 수만큼 바퀴 수가 결정된다
+
+		//	[VEHICLE_SUSPENSION]		// 중요하지만 원하는 결과를 얻기 힘들고, 다소 힘들어 질수 있는 부분
+		//	Length				현가장치길이.
+		//	SprungMass			스프링들이 부담한 질량
+		//	MaxCompression			현가장치 최대 압축(값이 클수록 수축이 많이 된다.0~1.0)
+		//	MaxDroop			현가장치 지면에 비접촉시 처진 상태(값이 크면 많이 늘어난다.)
+		//	SpringStrength			현가장치 스프링힘(스프링이 힘이 클수록 현가장치에서 차체를 미는 속도가 원활해진다.)
+		//	SpringDamperRate		현가장치 스프링 진동을 적극적으로 마찰 시켜 감쇠시키는 비율(값이 클수록 반동이 줄고 스프링 반응이 느려진다. 무조건 크다고 좋을까...??)
+
+		// 샘플
+		//	PhysicScript0	= "OBJECT_PROPERTY	: Use = true | Optimize = true | Mass = 1500.0 | MOIFactor = 1.0 | MassPointRatio = 0,0,0"
+		//	PhysicScript1	= "VEHICLE_CONTROL	: Tank = true | Mass = 20.0 | MaxSteer = 0.0 | FrictionType = 0 | MaxBrakeTorque = 1500.0 | PeakTorque = 500.0 | RPM = 6000.0"
+		//	PhysicScript2	= "VEHICLE_WHEELSHAPE	: PairCount = 6 | Radius = 30.0 | Width = 100.0 | ZOffsetRate = 0.9 | XOffset = 0 | YOffsets = -10,-30,-30,-30,-30,-10 | ZOffsets = 0,0,0,0,0,0"
+		//	PhysicScript3	= "VEHICLE_SUSPENSION	: Length = 15.0 | SprungMass = 3600.0 | MaxCompression = 0.3 | MaxDroop = 0.1 | SpringStrength = 35000.0 | SpringDamperRate = 4500.0"
+		//	##########################################################
+//	********************************************************************************************************************************************************
+
+
+
+[Physic0]	// 직사탄환의 경우 약간의 질량을 가지는 정도의 처리만 하면 된다.
+PhysicScript0	= "OBJECT_PROPERTY	: Optimize = true | Gravity = false | Mass = 100.0"
+PhysicScript1	= "VEHICLE_CONTROL	: MaxSteer = 100.0 | RPM = 30000.0"
+
+[Physic1]	// 곡사탄환의 경우 약간의 질량을 가지는 정도의 처리만 하면 된다.
+PhysicScript0	= "OBJECT_PROPERTY	: Optimize = true | Gravity = true | Mass = 100.0"
+PhysicScript1	= "VEHICLE_CONTROL	: MaxSteer = 100.0 | RPM = 30000.0"
+
+[Physic2]	// 가드 타워
+PhysicScript0	= "OBJECT_PROPERTY	: Gravity = true | Mass = 3000.0 | Pin = true"
+PhysicScript1	= "VEHICLE_CONTROL	: MaxSteer = 100.0 | RPM = 20000.0"
+
+[Physic3]	// 비행기
+PhysicScript0	= "OBJECT_PROPERTY	: Gravity = true | Mass = 3000.0"
+PhysicScript1	= "VEHICLE_CONTROL	: MaxSteer = 100.0 | RPM = 20000.0"
+
+[Physic4]	// 포탑의 경우 약간의 질량을 가지는 정도의 처리만 하면 된다. 포탑이 질량을 너무 크게 가지면 본체의 운동이 부자연스러워지므로 유의.
+PhysicScript0	= "OBJECT_PROPERTY	: Optimize = true | Gravity = true | Mass = 100.0"
+PhysicScript1	= "VEHICLE_CONTROL	: MaxSteer = 100.0 | RPM = 30000.0"
+
+[Physic5]	// 가드 타워 테스트
+PhysicScript0	= "OBJECT_PROPERTY	: Optimize = true | Gravity = false | Mass = 0.0001"
+PhysicScript1	= "VEHICLE_CONTROL	: MaxSteer = 1000.0 | RPM = 30000.0"
+
+
+
+
+[Physic100]	// 탱크의 경우(바퀴수16) 소형 전차.
+PhysicScript0	= "OBJECT_PROPERTY	: Optimize = true | Mass = 3700.0 | MOIFactor = 1.0 | MassPointRatio = 0,-1,0"
+PhysicScript1	= "VEHICLE_CONTROL	: Tank = true | MaxSteer = 144.0 | FrictionType = 20 | MaxBrakeTorque = 2000.0 | PeakTorque = 4000.0 | RPM = 3000.0"// 원래값 3500.0
+PhysicScript2	= "VEHICLE_WHEELSHAPE	: Mass = 20.0 | Radius = 30.0 | Width = 45.0"
+PhysicScript3	= "VEHICLE_WHEELSOCKET	: TPos_FL | TPos_FR | TPos_BL | TPos_BR | TPos_1L | TPos_1R | TPos_2L | TPos_2R | TPos_3L | TPos_3R | TPos_4L | TPos_4R | TPos_5L | TPos_5R | TPos_6L | TPos_6R"
+PhysicScript4	= "VEHICLE_SUSPENSION	: Length = 1.0 | MaxCompression = 0.3 | MaxDroop = 0.1 | SpringStrength = 35000.0 | SpringDamperRate = 4500.0"
+
+
+[Physic101]	// 탱크의 경우(바퀴수16) 대형 전차
+PhysicScript0	= "OBJECT_PROPERTY	: Optimize = true | Mass = 6000.0 | MOIFactor = 1.0 | MassPointRatio = 0,-1,0"
+PhysicScript1	= "VEHICLE_CONTROL	: Tank = true | MaxSteer = 100.0 | FrictionType = 20 | MaxBrakeTorque = 2000.0 | PeakTorque = 4000.0 | RPM = 3000.0"// 원래값 2700.0 
+PhysicScript2	= "VEHICLE_WHEELSHAPE	: Mass = 20.0 | Radius = 30.0 | Width = 45.0"
+PhysicScript3	= "VEHICLE_WHEELSOCKET	: TPos_FL | TPos_FR | TPos_BL | TPos_BR | TPos_1L | TPos_1R | TPos_2L | TPos_2R | TPos_3L | TPos_3R | TPos_4L | TPos_4R | TPos_5L | TPos_5R | TPos_6L | TPos_6R"
+//PhysicScript4	= "VEHICLE_SUSPENSION	: Length = 1.0 | MaxCompression = 0.001 | MaxDroop = 0.1 | SpringStrength = 35000.0 | SpringDamperRate = 4500.0"
+PhysicScript4	= "VEHICLE_SUSPENSION	: Length = 1.0 | MaxCompression = 0.3 | MaxDroop = 0.1 | SpringStrength = 35000.0 | SpringDamperRate = 4500.0"
+
+[Physic102]	// 탱크의 경우(바퀴수16) 포격 차량//구 자주포
+PhysicScript0	= "OBJECT_PROPERTY	: Optimize = true | Mass = 3000.0 | MOIFactor = 1.0 | MassPointRatio = 0,-1,0"
+PhysicScript1	= "VEHICLE_CONTROL	: Tank = true | MaxSteer = 84.0 | FrictionType = 20 | MaxBrakeTorque = 2000.0 | PeakTorque = 700.0 | RPM = 2250.0"// 원래값 2500.0
+PhysicScript2	= "VEHICLE_WHEELSHAPE	: Mass = 20.0 | Radius = 30.0 | Width = 45.0"
+PhysicScript3	= "VEHICLE_WHEELSOCKET	: TPos_FL | TPos_FR | TPos_BL | TPos_BR | TPos_1L | TPos_1R | TPos_2L | TPos_2R | TPos_3L | TPos_3R | TPos_4L | TPos_4R | TPos_5L | TPos_5R | TPos_6L | TPos_6R"
+PhysicScript4	= "VEHICLE_SUSPENSION	: Length = 1.0 | MaxCompression = 0.3 | MaxDroop = 0.1 | SpringStrength = 35000.0 | SpringDamperRate = 4500.0"
+
+[Physic200]	// 기동 차량의 경우//구 험비
+PhysicScript0	= "OBJECT_PROPERTY	: Optimize = true | Mass = 2000.0 | MOIFactor = 1.0 | MassPointRatio = 0,-1,0"
+//PhysicScript1	= "VEHICLE_CONTROL	: Tank = false | MaxSteer = 90.0, 90.0 | FrictionType = 20 | MaxBrakeTorque = 2000.0 | PeakTorque = 8000.0 | RPM = 4000.0"// 원래값 9000.0
+PhysicScript1	= "VEHICLE_CONTROL	: Tank = false | MaxSteer = 80.0, 80.0 | FrictionType = 20 | MaxBrakeTorque = 2147483647.0 | PeakTorque = 8000.0 | RPM = 9000.0"// 원래값 9000.0
+PhysicScript2	= "VEHICLE_WHEELSHAPE	: Mass = 20.0 | Radius = 4.0 | Width = 3.0"
+PhysicScript3	= "VEHICLE_WHEELSOCKET	: TPos_FL | TPos_FR | TPos_BL | TPos_BR"
+//PhysicScript4	= "VEHICLE_SUSPENSION	: Length = 1.0 | MaxCompression = 0.001 | MaxDroop = 0.025 | SpringStrength = 10.0 | SpringDamperRate = 3000.0"
+PhysicScript4	= "VEHICLE_SUSPENSION	: Length = 1.0 | MaxCompression = 0.3 | MaxDroop = 0.1 | SpringStrength = 35000.0 | SpringDamperRate = 4500.0"
+
+[Physic300]	// 장갑차의 경우(바퀴수14)
+PhysicScript0	= "OBJECT_PROPERTY	: Optimize = true | Mass = 3000.0 | MOIFactor = 1.0 | MassPointRatio = 0,-1,0"
+PhysicScript1	= "VEHICLE_CONTROL	: Tank = true | MaxSteer = 110.0 | FrictionType = 20 | MaxBrakeTorque = 2000.0 | PeakTorque = 3000.0 | RPM = 4000.0"// 원래값 4801.0
+PhysicScript2	= "VEHICLE_WHEELSHAPE	: Mass = 20.0 | Radius = 30.0 | Width = 45.0"
+PhysicScript3	= "VEHICLE_WHEELSOCKET	: TPos_FL | TPos_FR | TPos_BL | TPos_BR | TPos_1L | TPos_1R | TPos_2L | TPos_2R | TPos_3L | TPos_3R | TPos_4L | TPos_4R | TPos_5L | TPos_5R"
+PhysicScript4	= "VEHICLE_SUSPENSION	: Length = 1.0 | MaxCompression = 0.3 | MaxDroop = 0.1 | SpringStrength = 35000.0 | SpringDamperRate = 4500.0"
+
+[Physic999]	// 탱크의 경우(바퀴수16) 우라늄 수집차
+PhysicScript0	= "OBJECT_PROPERTY	: Optimize = true | Mass = 3000.0 | MOIFactor = 1.0 | MassPointRatio = 0,-1,0"
+PhysicScript1	= "VEHICLE_CONTROL	: Tank = true | MaxSteer = 150.0 | FrictionType = 20 | MaxBrakeTorque = 2000.0 | PeakTorque = 700.0 | RPM = 2500.0"
+PhysicScript2	= "VEHICLE_WHEELSHAPE	: Mass = 20.0 | Radius = 30.0 | Width = 45.0"
+PhysicScript3	= "VEHICLE_WHEELSOCKET	: TPos_FL | TPos_FR | TPos_BL | TPos_BR | TPos_1L | TPos_1R | TPos_2L | TPos_2R | TPos_3L | TPos_3R | TPos_4L | TPos_4R | TPos_5L | TPos_5R | TPos_6L | TPos_6R"
+PhysicScript4	= "VEHICLE_SUSPENSION	: Length = 1.0 | MaxCompression = 0.3 | MaxDroop = 0.1 | SpringStrength = 35000.0 | SpringDamperRate = 4500.0"
+
+
+
+
+
+//	[Object???]
+//	********************************************************************************************************************************************************
+//	Name		현재는 쓰고 있으나 없어질듯...
+//	Model		"실제 모델 데이터 경로"
+//	Skin0		디폴트로 사용될 텍스쳐
+//	Skin1		디폴트로 사용될 텍스쳐
+//	SkinA0		0팀일때 사용될 텍스쳐
+//	SkinA1		0팀일때 사용될 텍스쳐
+//	SkinB0		1팀일때 사용될 텍스쳐
+//	SkinB1		1팀일때 사용될 텍스쳐
+//	PhysicID	물리아이디. [Physic???]의 아이디를 연결
+		//	ObjectScript0 ~ ObjectScript9
+		//	##########################################################
+		//	[EVENT]
+		//	ID		이벤트아이디
+		//	Ani		해당 이벤트 작동시 사용될 애니메이션(애니명, Loop, 애니속도)
+		//	Time		해당 이벤트의 라이프타임(-1이면 무한, 디폴트값 -1)
+		//	NextID		해당 이벤트의 라이프타임이 유한할때 타임종료시 호출될 이벤트아이디
+		//	Fx		해당 이벤트 작동시 호출될 이펙트
+		//	Break		0보다 클수록 강하게 깨트림(디폴트값 -1) 추가하는 대상의 id 가 3(Body)이어야 하므로, 추가시 확인할 것.
+		//	Life		해당 이벤트 종료시 모델의 소멸을 결정. 디폴트는 true, false면 소멸
+
+		//	[PROPERTY]
+		//	Team			초기 생성시 팀
+		//	Scale			모델 스케일
+		//	StartEvent		모델 생성시 호출될 이벤트 아이디
+		//	DamageEvent		대미지 발생시 호출될 이벤트 아이디(정상구현이 안되어있을것임)
+		//	HPZeroEvent		죽을때 호출될 이벤트 아이디
+		//	ContactEvent		부딪힐때 호출될 이벤트 아이디
+		//	SelectableTeamDist	선택가능한 거리
+
+		//	[TRACKER]
+		//	Smooth					트래킹시 자연스러움
+		//	Y, 100.0				부모가 존재할 경우 모델자신을 트레킹한다.	X or Y, Value
+		//	X, Bone_Gun_Main, 90.0, -5.0, 30.0	모델내 본을 트레킹한다.				X or Y, 본이름, 속도, min각, max각
+//	********************************************************************************************************************************************************
+
+
+
+
+
+
+
+[Object19860]
+Name		= "기동 차량"//구 험비
+Model  		= "sa_props\models\Hellgade\Humbee_Body.ltb"
+Skin0		= "sa_props\skins\Hellgade\humvee_body_G.dtx"
+SkinA0		= "sa_props\skins\Hellgade\humvee_body_A.dtx"
+SkinB0		= "sa_props\skins\Hellgade\humvee_body_B.dtx"
+TopView		= "sa_interface2\hud\HellGade\TankBody.dtx"
+PhysicID	= 200
+AI		= 0
+ObjectScript0	= "EVENT	: id = 0; ani = Basic, false, 1.0 | id = 3; Time = 0.75; fx = Tank_Destroy_Size1; life = false; Break = 75"
+ObjectScript1	= "PROPERTY	: Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1 | HPZeroEvent = 3"
+
+[Object19861]
+Model  		= "sa_props\models\Hellgade\Humbee_MG.ltb"
+Skin0		= "sa_props\skins\Hellgade\humvee_MG_G.dtx"
+SkinA0		= "sa_props\skins\Hellgade\humvee_MG_A.dtx"
+SkinB0		= "sa_props\skins\Hellgade\humvee_MG_B.dtx"
+TopView		= "sa_interface2\hud\HellGade\TankT.dtx"
+PhysicID	= 4
+ObjectScript0	= "EVENT	: id = 0; ani = Basic, false, 1.0 | id = 1; ani = Fire, false, 1.0"
+ObjectScript1	= "PROPERTY	: Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1"	// HidePiece = Body,
+ObjectScript2	= "TRACKER	: Smooth = 500.0 | Y, 180.0 | Z, Bone_Gun_Main, 90.0, -15.0, 30.0"
+
+[Object19862]//험비 타이어
+Model  		= "sa_props\models\Hellgade\Humbee_Tire.ltb"
+Skin0		= "sa_props\skins\Hellgade\humbee_tire01.dtx"
+ObjectScript0	= "EVENT	: id = 0; ani = Basic, false, 1.0 | id = 1; ani = Fire, false, 1.0"
+ObjectScript1	= "PROPERTY	: Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1"	// HidePiece = Body,
+
+
+[Object19870]
+Name		= "포격 차량"//구 자주포
+Model  		= "sa_props\models\Hellgade\M109_Body.ltb"
+Skin0		= "sa_props\skins\Hellgade\M109_Body_G.dtx"
+Skin1		= "sa_props\skins\Hellgade\TankTracks.dtx"
+SkinA0		= "sa_props\skins\Hellgade\M109_Body_A.dtx"
+SkinB0		= "sa_props\skins\Hellgade\M109_Body_B.dtx"
+TopView		= "sa_interface2\hud\HellGade\TankBody.dtx"
+PhysicID	= 102
+AI		= 0
+ObjectScript0	= "EVENT	: id = 0; ani = Basic, false, 1.0 | id = 3; Time = 0.75; fx = Tank_Destroy_Size2; life = false; Break = 75"
+ObjectScript1	= "PROPERTY	: Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1 | HPZeroEvent = 3"
+
+[Object19871]
+Name		= "포격 차량 포탑"//구 자주포탑 
+Model  		= "sa_props\models\Hellgade\M109_Turret.ltb"
+Skin0		= "sa_props\skins\Hellgade\M109_Turret_G.dtx"
+SkinA0		= "sa_props\skins\Hellgade\M109_Turret_A.dtx"
+SkinB0		= "sa_props\skins\Hellgade\M109_Turret_B.dtx"
+TopView		= "sa_interface2\hud\HellGade\TankT.dtx"
+PhysicID	= 4
+ObjectScript0	= "EVENT	: id = 0; ani = Basic, false, 1.0 | id = 1; ani = Fire, false, 1.0"
+ObjectScript1	= "PROPERTY	: Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1"	// HidePiece = Body,
+ObjectScript2	= "TRACKER	: Smooth = 500.0 | Y, 120.0 | Z, Bone_Gun_Main, 90.0, -10.0, 30.0"
+
+
+
+[Object19880]
+Name              = "장갑차"
+Model             = "sa_props\models\Hellgade\M113_Body.ltb"
+
+ShaderOp         = "Gloss = 30 | Power = 0.7"
+Skin1N             = "sa_props\skins\Hellgade\M113_normal_body.dtx"
+Skin1S             = "sa_props\skins\Hellgade\M113_specular_body.dtx"
+ShaderMap1      = "Body_Right|Body_Left|Body_Top|Body_Back|Body_Front"
+
+Skin0               = "sa_props\skins\Hellgade\M113_body_G.dtx"
+Skin1               = "sa_props\skins\Hellgade\TankTracks.dtx"
+SkinA0             = "sa_props\skins\Hellgade\M113_body_A.dtx"
+SkinB0             = "sa_props\skins\Hellgade\M113_body_B.dtx"
+TopView           = "sa_interface2\hud\HellGade\TankBody.dtx"
+PhysicID = 300
+AI                   = 0
+ObjectScript0     = "EVENT          : id = 0; ani = Basic, false, 1.0 | id = 3; Time = 0.75; fx = Tank_Destroy_Size3; life = false ; Break = 75"
+ObjectScript1     = "PROPERTY     : Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1 | HPZeroEvent = 3"
+
+
+
+[Object19881]
+Name              = "장갑차 포탑"
+Model             = "sa_props\models\Hellgade\M113_Turret.ltb"
+
+ShaderOp         = "Gloss = 30 | Power = 0.8"
+Skin1N             = "sa_props\skins\Hellgade\M113_normal_gun.dtx"
+Skin1S             = "sa_props\skins\Hellgade\M113_specular_gun.dtx"
+ShaderMap1      = "Turret|Gun_Sub|Gun_Main"
+
+Skin0               = "sa_props\skins\Hellgade\M113_turret_G.dtx"
+SkinA0             = "sa_props\skins\Hellgade\M113_turret_A.dtx"
+SkinB0             = "sa_props\skins\Hellgade\M113_turret_B.dtx"
+TopView           = "sa_interface2\hud\HellGade\TankT.dtx"
+PhysicID = 4
+ObjectScript0     = "EVENT          : id = 0; ani = Basic, false, 1.0 | id = 1; ani = Fire, false, 1.0"
+ObjectScript1     = "PROPERTY     : Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1"           // HidePiece = Body,
+ObjectScript2     = "TRACKER      : Smooth = 500.0 | Y, 180.0 | X, Bone_Gun_Main, 90.0, -18.0, 30.0"
+
+
+
+[Object19900]
+Name		= "소형 전차"
+Model  		= "sa_props\models\Hellgade\M60_Body.ltb"
+
+ShaderOp	= "Gloss = 30 | Power = 0.8"
+Skin1N		= "sa_props\skins\Hellgade\m60_normal_body.dtx"
+Skin1S		= "sa_props\skins\Hellgade\m60_specular_body.dtx"
+ShaderMap1	= "Body_Right|Body_Left|Body_Top|Body_Back|Body_Front"
+
+Skin0		= "sa_props\skins\Hellgade\M60_body_G.dtx"
+Skin1		= "sa_props\skins\Hellgade\TankTracks.dtx"
+SkinA0		= "sa_props\skins\Hellgade\M60_body_A.dtx"
+SkinB0		= "sa_props\skins\Hellgade\M60_body_B.dtx"
+TopView		= "sa_interface2\hud\HellGade\TankBody.dtx"
+TopView		= "sa_interface2\hud\HellGade\TankT.dtx"
+PhysicID	= 100
+AI		= 0
+ObjectScript0	= "EVENT	: id = 0; ani = Basic, false, 1.0 | id = 3; Time = 0.75; fx = Tank_Destroy_Size4; life = false ; Break = 75"
+ObjectScript1	= "PROPERTY	: Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1 | HPZeroEvent = 3"
+
+[Object19901]
+Name		= "소형전차 포탑"
+Model  		= "sa_props\models\Hellgade\M60_Turret.ltb"
+
+ShaderOp	= "Gloss = 30 | Power = 0.8"
+Skin1N		= "sa_props\skins\Hellgade\m60_normal_gun.dtx"
+Skin1S		= "sa_props\skins\Hellgade\m60_specular_gun.dtx"
+ShaderMap1	= "Turret|Gun_Sub|Gun_Main"
+
+Skin0		= "sa_props\skins\Hellgade\M60_turret_G.dtx"
+SkinA0		= "sa_props\skins\Hellgade\M60_turret_A.dtx"
+SkinB0		= "sa_props\skins\Hellgade\M60_turret_B.dtx"
+TopView		= "sa_interface2\hud\HellGade\TankT.dtx"
+PhysicID	= 4
+ObjectScript0	= "EVENT	: id = 0; ani = Basic, false, 1.0 | id = 1; ani = Fire, false, 1.0"
+ObjectScript1	= "PROPERTY	: Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1"	// HidePiece = Body,
+ObjectScript2	= "TRACKER	: Smooth = 500.0 | Y, 120.0 | Z, Bone_Gun_Main, 90.0, -10.0, 30.0"
+
+
+[Object19890]
+Name		= "스텔스 전차"
+Model  		= "sa_props\models\Hellgade\PL01_Body.ltb"
+Skin0		= "sa_props\skins\Hellgade\stealthtank_body_G.dtx"
+Skin1		= "sa_props\skins\Hellgade\TankTracks.dtx"
+SkinA0		= "sa_props\skins\Hellgade\stealthtank_body_A.dtx"
+SkinB0		= "sa_props\skins\Hellgade\stealthtank_body_B.dtx"
+TopView		= "sa_interface2\hud\HellGade\TankBody.dtx"
+PhysicID	= 100
+AI		= 0
+ObjectScript0	= "EVENT	: id = 0; ani = Basic, false, 1.0 | id = 3; Time = 0.75; fx = Tank_Destroy_Size5; life = false ; Break = 75"
+ObjectScript1	= "PROPERTY	: Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1 | HPZeroEvent = 3"
+
+[Object19891]
+Name		= "스텔스 전차 포탑"
+Model  		= "sa_props\models\Hellgade\PL01_Turret.ltb"
+Skin0		= "sa_props\skins\Hellgade\stealthtank_top_G.dtx"
+SkinA0		= "sa_props\skins\Hellgade\stealthtank_top_A.dtx"
+SkinB0		= "sa_props\skins\Hellgade\stealthtank_top_B.dtx"
+TopView		= "sa_interface2\hud\HellGade\TankT.dtx"
+PhysicID	= 4
+ObjectScript0	= "EVENT	: id = 0; ani = Basic, false, 1.0 | id = 1; ani = Fire, false, 1.0"
+ObjectScript1	= "PROPERTY	: Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1"	// HidePiece = Body,
+ObjectScript2	= "TRACKER	: Smooth = 500.0 | Y, 120.0 | Z, Bone_Gun_Main, 90.0, -15.0, 30.0"
+
+
+[Object19910]
+Name		= "대형 전차"
+Model  		= "sa_props\models\Hellgade\M1A1_Body.ltb"
+
+ShaderOp	= "Gloss = 30 | Power = 0.8"
+Skin1N		= "sa_props\skins\Hellgade\m1_normal_body.dtx"
+Skin1S		= "sa_props\skins\Hellgade\m1_specular_body.dtx"
+ShaderMap1	= "Body_Right|Body_Left|Body_Top|Body_Back|Body_Front"
+
+Skin0		= "sa_props\skins\Hellgade\M1A1_body_G.dtx"
+Skin1		= "sa_props\skins\Hellgade\TankTracks.dtx"
+SkinA0		= "sa_props\skins\Hellgade\M1A1_body_A.dtx"
+SkinB0		= "sa_props\skins\Hellgade\M1A1_body_B.dtx"
+TopView		= "sa_interface2\hud\HellGade\TankBody.dtx"
+PhysicID	= 101
+AI		= 0
+ObjectScript0	= "EVENT	: id = 0; ani = Basic, false, 1.0 | id = 3; Time = 0.75; fx = Tank_Destroy_Size6; life = false ; Break = 75"
+ObjectScript1	= "PROPERTY	: Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1 | HPZeroEvent = 3"
+
+[Object19911]
+Name		= "대형 전차 포탑"
+Model  		= "sa_props\models\Hellgade\M1A1_Turret.ltb"
+
+ShaderOp	= "Gloss = 30 | Power = 0.8"
+Skin1N		= "sa_props\skins\Hellgade\m1_normal_gun.dtx"
+Skin1S		= "sa_props\skins\Hellgade\m1_specular_gun.dtx"
+ShaderMap1	= "Turret|Gun_Sub|Gun_Main"
+
+Skin0		= "sa_props\skins\Hellgade\M1A1_turret_G.dtx"
+SkinA0		= "sa_props\skins\Hellgade\M1A1_turret_A.dtx"
+SkinB0		= "sa_props\skins\Hellgade\M1A1_turret_B.dtx"
+TopView		= "sa_interface2\hud\HellGade\TankT.dtx"
+PhysicID	= 4
+ObjectScript0	= "EVENT	: id = 0; ani = Basic, false, 1.0 | id = 1; ani = Fire, false, 1.0"
+ObjectScript1	= "PROPERTY	: Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1"	// HidePiece = Body,
+ObjectScript2	= "TRACKER	: Smooth = 500.0 | Y, 110.0 | Z, Bone_Gun_Main, 90.0, -15.0, 30.0"
+
+
+
+
+
+
+
+
+//7.25 가드 타워 - 바디 
+[Object20190]
+Name		= "Move"
+Model  		= "sa_props\models\Hellgade\Guard_Body.ltb"
+//Model  		= "sa_props\models\Hellgade\Guard_Body.ltb"
+Skin0		= "sa_props\skins\Hellgade\guard_tower.dtx"
+SkinA0		= "sa_props\skins\Hellgade\guard_tower.dtx"
+SkinB0		= "sa_props\skins\Hellgade\guard_tower.dtx"
+PhysicID	= 2
+//AI		= 1// 사용 안함
+ObjectScript0	= "EVENT	: id = 0; ani = Basic, false, 1.0 | id = 3; Time = 1.5; fx = 20_Exp_Grenade; life = false"
+ObjectScript1	= "PROPERTY	: Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1 | HPZeroEvent = 3"
+
+//7.25 가드타워 - 포탑 
+[Object20191]
+Model  		= "sa_props\models\Hellgade\Guard_Turret.ltb"
+Skin0		= "sa_props\skins\Hellgade\guard_tower.dtx"
+Skin1		= "sa_props\skins\Hellgade\guard_tower.dtx"
+SkinA0		= "sa_props\skins\Hellgade\guard_tower.dtx"
+SkinB0		= "sa_props\skins\Hellgade\guard_tower.dtx"
+PhysicID	= 5
+ObjectScript0	= "EVENT	: id = 0; ani = Basic, false, 1.0 | id = 1; ani = Fire, false, 1.0"
+ObjectScript1	= "PROPERTY	: Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1"	// HidePiece = Body,
+//ObjectScript2	= "TRACKER	: Smooth = 10.0 | Y, 1000.0 | Z, Bone_Gun_Main, 90.0, -80.0, 30.0"
+ObjectScript2	= "TRACKER	: Smooth = 500.0 | Y, 50.0 | Z, Bone_Turret_Main, 900.0, -80.0, 30.0"
+
+
+//9.11 서브 가드 타워 - 바디 
+[Object23300]
+Name		= "Move"
+Model  		= "sa_props\models\Hellgade\Guard_Body.ltb"
+//Model  		= "sa_props\models\Hellgade\Guard_Body.ltb"
+Skin0		= "sa_props\skins\Hellgade\guard_tower.dtx"
+SkinA0		= "sa_props\skins\Hellgade\guard_tower.dtx"
+SkinB0		= "sa_props\skins\Hellgade\guard_tower.dtx"
+PhysicID	= 2
+//AI		= 1// 사용 안함
+ObjectScript0	= "EVENT	: id = 0; ani = Basic, false, 1.0 | id = 3; Time = 1.5; fx = 20_Exp_Grenade; life = false"
+ObjectScript1	= "PROPERTY	: Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1 | HPZeroEvent = 3"
+
+//9.11 서브 가드타워 - 게틀링 포탑 
+[Object23301]
+Model  		= "sa_props\models\Hellgade\Guard_Gatleling.ltb"
+Skin0		= "sa_props\skins\Hellgade\guard_tower.dtx"
+Skin1		= "sa_props\skins\Hellgade\guard_tower.dtx"
+SkinA0		= "sa_props\skins\Hellgade\guard_tower.dtx"
+SkinB0		= "sa_props\skins\Hellgade\guard_tower.dtx"
+PhysicID	= 5
+ObjectScript0	= "EVENT	: id = 0; ani = Basic, false, 1.0 | id = 1; ani = Fire, false, 1.0"
+ObjectScript1	= "PROPERTY	: Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1"	// HidePiece = Body,
+//ObjectScript2	= "TRACKER	: Smooth = 10.0 | Y, 1000.0 | Z, Bone_Gun_Main, 90.0, -80.0, 30.0"
+ObjectScript2	= "TRACKER	: Smooth = 500.0 | Y, 50.0 | Z, Bone_Gatleling_Main, 900.0, -80.0, 30.0"
+
+
+
+
+//우라늄 수집차//구 자원수집차량
+[Object20240]
+
+Model  		= "sa_props\models\Hellgade\Work_Car.ltb"
+Skin0		= "sa_props\skins\Hellgade\work_car_A.dtx"
+Skin1		= "sa_props\skins\Hellgade\TankTracks.dtx" //7.21 캐터필러 스킨으로 교체
+SkinA0		= "sa_props\skins\Hellgade\work_car_A.dtx"
+SkinA1		= "sa_props\skins\Hellgade\TankTracks.dtx"
+SkinB0		= "sa_props\skins\Hellgade\work_car_B.dtx"
+SkinB1		= "sa_props\skins\Hellgade\TankTracks.dtx"
+PhysicID	= 999
+AI		= 2
+ObjectScript0	= "EVENT	: id = 0; ani = Basic, false, 1.0 | id = 1; ani = Work, true, 1.0 | id = 3; Time = 0.75; fx = 20_Exp_Grenade; life = false"
+ObjectScript1	= "PROPERTY	: Team = -1 | SelectableTeamDist = 1000 | SelectableTeam = -1 | BeatableTeam = -1 | HPZeroEvent = 3"
+
+
+//비행기
+[Object21040]
+Model  		= "sa_props\models\Hellgade\F35_Wing.ltb"
+Skin0		= "sa_props\skins\Hellgade\F35_wing.dtx"
+ObjectScript1	= "PROPERTY	: StartEvent = 0"
+ObjectScript0	= "EVENT	: id = 0; ani = Go, false, 1.0; life = false"
+//ObjectScript0	= "EVENT	: id = 0; ani = Go, false, 1.0; Time = 5.0; life = false"
+
+
+
+// 일반 탄환
+[Object100000]
+Model  		= "sa_props\models\Hellgade\APFSDS.ltb"
+Skin0		= "sa_props\skins\Hellgade\APFSDS.dtx"
+PhysicID	= 0
+ObjectScript0	= "EVENT		: id = 0; ani = wing, true, 1.0; Time = 5.0; fx = SA_GrenadeTrail_HH; fxFollow = true; nextid = 3 | id = 3; Time = 0; ani = wing, false, 1.0; fx = Tank_Shot_Non; fxN = Tank_Shot_Fild_Mid; fxM = Tank_Shot_Metal; life = false"
+ObjectScript1	= "PROPERTY		: StartEvent = 0 | ContactEvent = 3 | Light = true"
+
+// 곡사 탄환
+[Object100001]
+Model  		= "sa_props\models\Hellgade\APFSDS.ltb"
+Skin0		= "sa_props\skins\Hellgade\APFSDS.dtx"
+PhysicID	= 1
+ObjectScript0	= "EVENT		: id = 0; ani = wing, true, 1.0; Time = 5.0; fx = SA_GrenadeTrail_HH; fxFollow = true; nextid = 3 | id = 3; Time = 0; ani = wing, false, 1.0; fx = Tank_Shot_Non; fxN = Tank_Shot_Fild_Mid; fxM = Tank_Shot_Metal; life = false"
+ObjectScript1	= "PROPERTY		: StartEvent = 0 | ContactEvent = 3 | Light = true"
+
+
+
+// 폭격 탄환
+[Object100002]
+Model  		= "sa_props\models\Hellgade\MK82.ltb"
+Skin0		= "sa_props\skins\Hellgade\F35_wing.dtx"
+PhysicID	= 0
+ObjectScript0	= "EVENT		: id = 0; ani = wing, true, 1.0; Time = 10.0; nextid = 10 | id = 10; Time = 0; fx = Tank_Shot_Non; fxN = Tank_Shot_Fild_Mid; fxM = Tank_Shot_Metal; life = false"
+ObjectScript1	= "PROPERTY		: StartEvent = 0 | ContactEvent = 10 | Light = true | Smoke = 2"
+
+
+// 유도탄 테스트
+[Object100003]
+Model  		= "sa_props\models\Hellgade\APFSDS.ltb"
+Skin0		= "sa_props\skins\Hellgade\APFSDS.dtx"
+PhysicID	= 0
+AI		= 4
+ObjectScript0	= "EVENT		: id = 0; ani = wing, true, 1.0; Time = 10.0; fx = SA_GrenadeTrail_HH; fxFollow = true; nextid = 3 | id = 3; Time = 0; fx = Tank_Shot_Non; fxN = Tank_Shot_Fild_Mid; fxM = Tank_Shot_Metal; life = false"
+ObjectScript1	= "PROPERTY		: StartEvent = 0 | ContactEvent = 3 | Light = true"
+
+//***************************************************************************************************************
+//실제로 사용될 전차들의 프로젝타일을 추가함. 
+//일단 Object100000, Object100001 를 복붙.
+//2014.06.24. 조대환.
+//2014.06.27 배경팀 fx로 변경
+
+
+//포격 차량 일반탄 곡사 탄환
+[Object100011]
+Model              = "sa_props\models\Hellgade\APFSDS.ltb"
+Skin0               = "sa_props\skins\Hellgade\APFSDS.dtx"
+PhysicID = 1
+ObjectScript0     = "EVENT                    : id = 0; ani = wing, true, 1.0; Time = 5.0; fx = Tank_Trail_Artillery_R; fxFollow = true; nextid = 3 | id = 3; Time = 0; ani = wing, false, 1.0; fx = Tank_Shot_Non_Big; fxN = Tank_Shot_Fild_Big; fxM = Tank_Shot_Metal_Big; life = false"
+ObjectScript1     = "PROPERTY                : StartEvent = 0 | ContactEvent = 3 | Light = true"
+
+//포격 차량 특수탄 곡사 탄환
+[Object100012]
+Model              = "sa_props\models\Hellgade\APFSDS.ltb"
+Skin0               = "sa_props\skins\Hellgade\APFSDS.dtx"
+PhysicID = 1
+ObjectScript0     = "EVENT                    : id = 0; ani = wing, true, 1.0; Time = 5.0; fx = Tank_Trail_Artillery_R; fxFollow = true; nextid = 3 | id = 3; Time = 0; ani = wing, false, 1.0; fx = Tank_Shot_Non_Big_R; fxN = Tank_Shot_Fild_Big_R; fxM = Tank_Shot_Metal_Big_R; life = false"
+ObjectScript1     = "PROPERTY                : StartEvent = 0 | ContactEvent = 3 | Light = true"
+
+//스텔스 전차 일반 탄환
+[Object100013]
+Model              = "sa_props\models\Hellgade\APFSDS.ltb"
+Skin0               = "sa_props\skins\Hellgade\APFSDS.dtx"
+PhysicID = 0
+ObjectScript0     = "EVENT                    : id = 0; ani = wing, true, 1.0; Time = 5.0; fx = Tank_Trail_Small; fxFollow = true; nextid = 3 | id = 3; Time = 0; ani = wing, false, 1.0; fx = Tank_Shot_Non_Small; fxN = Tank_Shot_Fild_Small; fxM = Tank_Shot_Metal_Small; life = false"
+ObjectScript1     = "PROPERTY                : StartEvent = 0 | ContactEvent = 3 | Light = true"
+
+//스텔스 전차 특수 탄환
+[Object100014]
+Model              = "sa_props\models\Hellgade\APFSDS.ltb"
+Skin0               = "sa_props\skins\Hellgade\APFSDS.dtx"
+PhysicID = 0
+ObjectScript0     = "EVENT                    : id = 0; ani = wing, true, 1.0; Time = 5.0; fx = Tank_Trail_Small_R; fxFollow = true; nextid = 3 | id = 3; Time = 0; ani = wing, false, 1.0; fx = Tank_Shot_Fild_Small_R; fxN = Tank_Shot_Fild_Small_R; fxM = Tank_Shot_Metal_Small_R; life = false"
+ObjectScript1     = "PROPERTY                : StartEvent = 0 | ContactEvent = 3 | Light = true"
+
+//소형 전차 일반 탄환
+[Object100015]
+Model              = "sa_props\models\Hellgade\APFSDS.ltb"
+Skin0               = "sa_props\skins\Hellgade\APFSDS.dtx"
+PhysicID = 0
+ObjectScript0     = "EVENT                    : id = 0; ani = wing, true, 1.0; Time = 5.0; fx = Tank_Trail_Small; fxFollow = true; nextid = 3 | id = 3; Time = 0; ani = wing, false, 1.0; fx = Tank_Shot_Non_Small; fxN = Tank_Shot_Fild_Small; fxM = Tank_Shot_Metal_Small; life = false"
+ObjectScript1     = "PROPERTY                : StartEvent = 0 | ContactEvent = 3 | Light = true"
+
+//소형 전차 특수 탄환
+[Object100016]
+Model              = "sa_props\models\Hellgade\APFSDS.ltb"
+Skin0               = "sa_props\skins\Hellgade\APFSDS.dtx"
+PhysicID = 0
+ObjectScript0     = "EVENT                    : id = 0; ani = wing, true, 1.0; Time = 5.0; fx = Tank_Trail_Small_V; fxFollow = true; nextid = 3 | id = 3; Time = 0; ani = wing, false, 1.0; fx = Tank_Shot_Non_Small_V; fxN = Tank_Shot_Fild_Small_V; fxM = Tank_Shot_Metal_Small_V; life = false"
+ObjectScript1     = "PROPERTY                : StartEvent = 0 | ContactEvent = 3 | Light = true"
+
+//대형 전차 일반 탄환
+[Object100017]
+Model              = "sa_props\models\Hellgade\APFSDS.ltb"
+Skin0               = "sa_props\skins\Hellgade\APFSDS.dtx"
+PhysicID = 0
+ObjectScript0     = "EVENT                    : id = 0; ani = wing, true, 1.0; Time = 5.0; fx = Tank_Trail_Big; fxFollow = true; nextid = 3 | id = 3; Time = 0; ani = wing, false, 1.0; fx = Tank_Shot_Non_Mid; fxN = Tank_Shot_Fild_Mid; fxM = Tank_Shot_Metal_Mid; life = false"
+ObjectScript1     = "PROPERTY                : StartEvent = 0 | ContactEvent = 3 | Light = true"
+
+//대형 전차 특수 탄환
+[Object100018]
+Model              = "sa_props\models\Hellgade\APFSDS.ltb"
+Skin0               = "sa_props\skins\Hellgade\APFSDS.dtx"
+PhysicID = 0
+ObjectScript0     = "EVENT                    : id = 0; ani = wing, true, 1.0; Time = 5.0; fx = Tank_Trail_Big_Bk; fxFollow = true; nextid = 3 | id = 3; Time = 0; ani = wing, false, 1.0; fx = Tank_Shot_Non_Mid_Bk; fxN = Tank_Shot_Fild_Mid_Bk; fxM = Tank_Shot_Metal_Mid_Bk; life = false"
+ObjectScript1     = "PROPERTY                : StartEvent = 0 | ContactEvent = 3 | Light = true"
+
+//가드타워 테스트
+[Object100019]
+Model              = "sa_props\models\Hellgade\APFSDS.ltb"
+Skin0               = "sa_props\skins\Hellgade\APFSDS.dtx"
+PhysicID = 5
+//AI = 5 //이걸 넣으면 가드타워가 완전히 회전을 안하네...
+ObjectScript0     = "EVENT                    : id = 0; ani = wing, true, 1.0; Time = 5.0; fx = Tank_Trail_Big; fxFollow = true; nextid = 3 | id = 3; Time = 0; ani = wing, false, 1.0; fx = Tank_Shot_Non_Big; fxN = Tank_Shot_Fild_Big; fxM = Tank_Shot_Metal_Big; life = false"
+ObjectScript1     = "PROPERTY                : StartEvent = 0 | ContactEvent = 3 | Light = true"
+
+
+
+//실제로 사용될 전차들의 프로젝타일을 추가 끝. 20140625 조대환
+//***************************************************************************************************************
+
+
+
+//비행기
+[Object21041]
+Model              = "sa_props\models\Hellgade\f35_01.ltb"
+Skin0               = "sa_props\skins\Hellgade\f35_wing.dtx"
+ObjectScript0     = "PROPERTY     : StartEvent = 0"
+ObjectScript1     = "EVENT          : id = 0; ani = f35_01, false, 1.0; life = false"
+
+[Object21042]
+Model              = "sa_props\models\Hellgade\f35_02.ltb"
+Skin0               = "sa_props\skins\Hellgade\f35_wing.dtx"
+ObjectScript0     = "PROPERTY     : StartEvent = 0"
+ObjectScript1     = "EVENT          : id = 0; ani = f35_02, false, 1.0; life = false"
+
+[Object21043]
+Model              = "sa_props\models\Hellgade\apa_01.ltb"
+Skin0               = "sa_props\skins\Hellgade\apache.dtx"
+ObjectScript0     = "PROPERTY     : StartEvent = 0"
+ObjectScript1     = "EVENT          : id = 0; ani = apa_01, false, 1.0; life = false"
+
+[Object21044]
+Model              = "sa_props\models\Hellgade\apa_02.ltb"
+Skin0               = "sa_props\skins\Hellgade\apache.dtx"
+ObjectScript0     = "PROPERTY     : StartEvent = 0"
+ObjectScript1     = "EVENT          : id = 0; ani = apa_02, false, 1.0; life = false"

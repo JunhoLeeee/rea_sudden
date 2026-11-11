@@ -1,0 +1,226 @@
+{
+  "path": "C:\\Nexon\\SuddenAttack\\suddenattack.exe",
+  "sha256": "7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8",
+  "classes": [
+    {
+      "name": ".?AVCRenderShader_Lightmap@@",
+      "locators": [
+        {
+          "locator": "0x140376540",
+          "offset": 0,
+          "constructor_displacement": 0,
+          "type_descriptor": "0x1403f5608",
+          "hierarchy": "0x140376568",
+          "tables": [
+            {
+              "vtable": "0x14031df28",
+              "slots": [
+                "0x1401b05f0",
+                "0x140220fa0",
+                "0x1401d21b0",
+                "0x1401d2bf0",
+                "0x1401cfa00",
+                "0x1401b1870",
+                "0x1401d8820",
+                "0x1401b4140",
+                "0x1401c9340",
+                "0x1401d16a0",
+                "0x1401cae90",
+                "0x1401b40a0",
+                "0x1401b3cb0",
+                "0x1401caf00",
+                "0x1401b4080",
+                "0x1401b4090",
+                "0x1401c6230",
+                "0x1401b9470",
+                "0x1401bcbb0",
+                "0x1401bacd0",
+                "0x14021ca80",
+                "0x14021e490",
+                "0x14021de10",
+                "0x14021dbb0",
+                "0x14021db90",
+                "0x1401bf370",
+                "0x14021d9d0",
+                "0x1401c2490",
+                "0x1401d35e0",
+                "0x14021f540",
+                "0x14021e280",
+                "0x1402204b0",
+                "0x14021f030",
+                "0x14021eae0",
+                "0x1401c19a0"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".?AVCRenderShader_Lightmap_Texture@@",
+      "locators": [
+        {
+          "locator": "0x140376648",
+          "offset": 0,
+          "constructor_displacement": 0,
+          "type_descriptor": "0x1403f56a0",
+          "hierarchy": "0x140376670",
+          "tables": [
+            {
+              "vtable": "0x14031e1b8",
+              "slots": [
+                "0x1401b0690",
+                "0x140221900",
+                "0x1401d22b0",
+                "0x1401d2e20",
+                "0x1401d0160",
+                "0x1401b1d10",
+                "0x1401d8860",
+                "0x1401b4140",
+                "0x1401c9780",
+                "0x1401d1750",
+                "0x1401caeb0",
+                "0x14021ca00",
+                "0x14021c7f0",
+                "0x14021e9f0",
+                "0x14021c890",
+                "0x14021c960",
+                "0x1401c6470",
+                "0x1401b9730",
+                "0x1401bd0f0",
+                "0x1401baf70",
+                "0x14021d290",
+                "0x14021e5e0",
+                "0x14021de20",
+                "0x14021dbe0",
+                "0x14021dbd0",
+                "0x1401bf8d0",
+                "0x1401c4840",
+                "0x1401c27b0",
+                "0x1401d3600",
+                "0x14021f880",
+                "0x14021e2b0",
+                "0x140220530",
+                "0x14021f160",
+                "0x14021ebf0",
+                "0x1401c12e0"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".?AVCRenderShader_Gouraud@@",
+      "locators": [
+        {
+          "locator": "0x140375c58",
+          "offset": 0,
+          "constructor_displacement": 0,
+          "type_descriptor": "0x1403f50e0",
+          "hierarchy": "0x140375c80",
+          "tables": [
+            {
+              "vtable": "0x14031c960",
+              "slots": [
+                "0x1401b02e0",
+                "0x1402157d0",
+                "0x1401d1e90",
+                "0x1401d24e0",
+                "0x1401ce030",
+                "0x1401b0820",
+                "0x1401d8740",
+                "0x1401b4140",
+                "0x1401c8460",
+                "0x1401d13e0",
+                "0x1401cadf0",
+                "0x1401b40a0",
+                "0x1401b3cb0",
+                "0x1401caf00",
+                "0x1401b4080",
+                "0x1401b4090",
+                "0x1401c5b40",
+                "0x1401b8bd0",
+                "0x1401bb990",
+                "0x1401ba3b0",
+                "0x1401b8bc0",
+                "0x140212ed0",
+                "0x1401c6a50",
+                "0x140210430",
+                "0x1402103b0",
+                "0x1401be0a0",
+                "0x1402101b0",
+                "0x1401c19b0",
+                "0x1401d3570",
+                "0x1402141b0",
+                "0x1401ca230",
+                "0x1401d1bf0",
+                "0x1401d1a30",
+                "0x1401d1950",
+                "0x1401c0640"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".?AVCRenderShader_Gouraud_Texture@@",
+      "locators": [
+        {
+          "locator": "0x140375d60",
+          "offset": 0,
+          "constructor_displacement": 0,
+          "type_descriptor": "0x1403f5168",
+          "hierarchy": "0x140375d88",
+          "tables": [
+            {
+              "vtable": "0x14031cbf0",
+              "slots": [
+                "0x1401b0550",
+                "0x140218340",
+                "0x1401d2130",
+                "0x1401d2af0",
+                "0x1401cf650",
+                "0x1401b1610",
+                "0x1401d8800",
+                "0x1401b4140",
+                "0x1401c9120",
+                "0x1401d1630",
+                "0x1401cae70",
+                "0x140210130",
+                "0x14020ff20",
+                "0x1402133e0",
+                "0x14020ffc0",
+                "0x140210090",
+                "0x1401c6140",
+                "0x1401b9340",
+                "0x1401bc910",
+                "0x1401bab80",
+                "0x1401b8bc0",
+                "0x140213340",
+                "0x1401c6ab0",
+                "0x140212530",
+                "0x1402120c0",
+                "0x1401bf0c0",
+                "0x1401c4020",
+                "0x1401c2300",
+                "0x1401d35d0",
+                "0x140214d20",
+                "0x140212e70",
+                "0x140214f40",
+                "0x140213ff0",
+                "0x140213740",
+                "0x1401c0ec0"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Selected35-slot prefixes, not complete vtable extents.",
+    "RTTI names and pointers are file observations; method semantics remain unidentified."
+  ]
+}

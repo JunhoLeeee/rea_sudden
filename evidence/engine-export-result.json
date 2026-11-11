@@ -1,0 +1,20 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"result\":{\"path\":\"C:\\\\Users\\\\PC\\\\Desktop\\\\REA\\\\evidence\\\\engine-analysis.evidence.json\",\"bytes\":4755872,\"records\":113,\"unknowns\":0}}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "path": "C:\\Users\\PC\\Desktop\\REA\\evidence\\engine-analysis.evidence.json",
+        "bytes": 4755872,
+        "records": 113,
+        "unknowns": 0
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 117
+}

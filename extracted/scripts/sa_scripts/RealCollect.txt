@@ -1,0 +1,27 @@
+[GameSetup]
+MaxHP = 150.0f
+MaxAP = 150.0f
+
+RecoveryTime = 2.0f	// 회복 시간
+RecoveryAmount = 50.0f	// 회복량
+
+BoxSpawnTime = 10.0f 	// 상자 스폰 시간
+
+SpeedUp = 1.5f			//스피드업
+
+SupportAim = 0.4f			// 지원사격 (0.5를 기준으로 좌우 이내로 에임)
+SupportARDamage = 20.0f		// 돌격 지원사격 대미지 수치
+SupportSRDamage = 50.0f	// 저격 지원사격 대미지 수치
+
+BreadBomb = 6127	// 빵폭탄 weapon index
+
+BoxRatio = 0.72f		// 박스 스폰 비율 총개수 * BoxRatio = 스폰하려는 총 개수 ( 소수점은 int로 캐스팅 되어 날아감 )
+
+// 0 : 포크 1 : 슈가 2 : 싸곰 3 : 초이 4 : 썽 5 : 드기 6 : 브레드
+PetOffset0 = <19.00000, 118.000000, 0.000000>
+PetOffset1 = <-11.00000, 118.000000, 0.000000>
+PetOffset2 = <29.00000, 103.000000, 0.000000>
+PetOffset3 = <-21.00000, 103.000000, 0.000000>
+PetOffset4 = <34.00000, 81.000000, 0.000000>
+PetOffset5 = <-26.00000, 81.000000, 0.000000>
+PetOffset6 = <4.00000, 133.000000, 0.000000>

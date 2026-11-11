@@ -1,0 +1,37 @@
+/*===============================역대 최상 슈퍼 세일 판매 아이템=====================================*/
+//SuperSaleType = Type 테이블(아이템 판매 분류)-서버에서 슈퍼세일 판매 아이템 리스트를 안보내줘서 추가
+//
+//		[Type 테이블]
+//		캐릭터관련 - 0, 닉네임관련  - 1, 인기아이템 - 2
+//		AK - 3, TRG - 4, M4 - 5, CM - 6
+//
+//Slot%d  		= 해당 판매 아이템 코드
+//SaliPercent	  	= 세일 %로 표시
+//SuperSale		= 슈퍼세일 아이템인지?(디폴트0)
+//SuperOnePlusOne	= 슈퍼 1+1 아이템인지?(디폴트0)
+/*===================================================================================================*/
+
+[SuperSale0]
+SuperSaleType = 0 	
+SalePercent   = 0
+SuperSale     = 1
+Slot0="EET6981"
+Slot1="EET6982"
+Slot2="EET6983"
+Slot3="EET5037"
+Slot4="EET6440"
+Slot5="EET6110"
+Slot6="EET6381"
+Slot7="EET3541"
+Slot8="EET3632"
+Slot9="EET3816"
+Slot10="EET3743"
+Slot11="EET3817"
+Slot12="EET3479"
+Slot13="EET3815"
+Slot14="EET4857"
+Slot15="EET1714"
+Slot16="EET1713"
+Slot17="EET846"
+Slot18="EET2033"
+Slot19="EET1445"

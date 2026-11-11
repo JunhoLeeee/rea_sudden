@@ -1,0 +1,1019 @@
+[
+  {
+    "address": "0x140306c58",
+    "value": "SA_WEAPONS\\INITIAL\\LANGUAGE%d.DTX",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 34
+    }
+  },
+  {
+    "address": "0x140306c80",
+    "value": "[FANTALDH_ERROR] FAILED WEAPON INITIAL...",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 42
+    }
+  },
+  {
+    "address": "0x1403085a8",
+    "value": "renderstyles\\NinjaTranslucent1.ltb",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 35
+    }
+  },
+  {
+    "address": "0x140308ab0",
+    "value": ".\\gvi.dat",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 10
+    }
+  },
+  {
+    "address": "0x140308ac0",
+    "value": "DIR_SA_WEAPONS",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 15
+    }
+  },
+  {
+    "address": "0x140308af8",
+    "value": ".\\gvi_c.dat",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 12
+    }
+  },
+  {
+    "address": "0x140309368",
+    "value": "textures\\default_texture.dtx",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 29
+    }
+  },
+  {
+    "address": "0x140309810",
+    "value": "WeaponFXMaxImpactDist 5000",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 28
+    }
+  },
+  {
+    "address": "0x140309940",
+    "value": "WeaponSway 0.900000",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 20
+    }
+  },
+  {
+    "address": "0x140309a38",
+    "value": "MouseSensitivity 0.000000",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 28
+    }
+  },
+  {
+    "address": "0x140309a58",
+    "value": "CrosshairStyle 0",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 20
+    }
+  },
+  {
+    "address": "0x140309ad0",
+    "value": "CrosshairColorR 0.874510",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 28
+    }
+  },
+  {
+    "address": "0x140309b70",
+    "value": "screenwidth 800",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 16
+    }
+  },
+  {
+    "address": "0x140309be0",
+    "value": "CrosshairAlpha 159",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 20
+    }
+  },
+  {
+    "address": "0x140309e78",
+    "value": "AutoWeaponSwitch 1",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 20
+    }
+  },
+  {
+    "address": "0x14030a018",
+    "value": "CrosshairGreen 255",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 20
+    }
+  },
+  {
+    "address": "0x14030a068",
+    "value": "PVWeapons 0.000000",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 20
+    }
+  },
+  {
+    "address": "0x14030a210",
+    "value": "CrosshairBlue 255",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 20
+    }
+  },
+  {
+    "address": "0x14030a2e8",
+    "value": "screenheight 600",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 20
+    }
+  },
+  {
+    "address": "0x14030a398",
+    "value": "CrosshairColorB 1.000000",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 28
+    }
+  },
+  {
+    "address": "0x14030a3b8",
+    "value": "weaponssoundmultiplier 1.000000",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 32
+    }
+  },
+  {
+    "address": "0x14030a3d8",
+    "value": "CrosshairRed 255",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 20
+    }
+  },
+  {
+    "address": "0x14030a3f0",
+    "value": "CrosshairDynamic 1",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 20
+    }
+  },
+  {
+    "address": "0x14030a4a0",
+    "value": "pvmodelfov 68.000000",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a568",
+    "value": "CrosshairColorG 0.874510",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 28
+    }
+  },
+  {
+    "address": "0x14030a650",
+    "value": "AddAction Jump 6",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 20
+    }
+  },
+  {
+    "address": "0x14030a790",
+    "value": "AddAction Weapon_1 20",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a7a8",
+    "value": "AddAction Weapon_2 21",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a7c0",
+    "value": "AddAction Weapon_3 22",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a7d8",
+    "value": "AddAction Weapon_4 23",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a7f0",
+    "value": "AddAction Weapon_5 24",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a808",
+    "value": "AddAction Weapon_6 25",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a820",
+    "value": "AddAction Weapon_7 26",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a838",
+    "value": "AddAction Weapon_8 27",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a850",
+    "value": "AddAction Weapon_9 28",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a868",
+    "value": "AddAction Weapon_10 29",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a880",
+    "value": "AddAction Weapon_11 30",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a898",
+    "value": "AddAction Weapon_12 31",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a8b0",
+    "value": "AddAction Weapon_13 32",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a8c8",
+    "value": "AddAction Weapon_14 33",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a8e0",
+    "value": "AddAction Weapon_15 34",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a8f8",
+    "value": "AddAction Weapon_16 35",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a910",
+    "value": "AddAction Weapon_17 36",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a928",
+    "value": "AddAction Weapon_18 37",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a940",
+    "value": "AddAction Weapon_19 38",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a958",
+    "value": "AddAction Weapon_20 39",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a970",
+    "value": "AddAction Weapon_21 40",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a988",
+    "value": "AddAction Weapon_22 41",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a9a0",
+    "value": "AddAction Weapon_23 42",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a9b8",
+    "value": "AddAction Weapon_24 43",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a9d0",
+    "value": "AddAction Weapon_25 44",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030a9e8",
+    "value": "AddAction Weapon_26 45",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030aa00",
+    "value": "AddAction Weapon_27 46",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030aa18",
+    "value": "AddAction Weapon_28 47",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030aa30",
+    "value": "AddAction Weapon_29 48",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030aa48",
+    "value": "AddAction Weapon_30 49",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030aa60",
+    "value": "AddAction Weapon_31 50",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030aa78",
+    "value": "AddAction Weapon_32 51",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030aa90",
+    "value": "AddAction Weapon_33 52",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030aaa8",
+    "value": "AddAction Weapon_34 53",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030aac0",
+    "value": "AddAction Weapon_35 54",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030aad8",
+    "value": "AddAction Weapon_36 55",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030aaf0",
+    "value": "AddAction Weapon_37 56",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030ab08",
+    "value": "AddAction Weapon_38 57",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030ab20",
+    "value": "AddAction Weapon_39 58",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030ab38",
+    "value": "AddAction Weapon_40 59",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030abd0",
+    "value": "AddAction PrevWeapon 66",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030abe8",
+    "value": "AddAction NextWeapon 67",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030ac78",
+    "value": "AddAction HolsterWeapon 73",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 28
+    }
+  },
+  {
+    "address": "0x14030ad00",
+    "value": "AddAction NextWeapon_1 78",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 28
+    }
+  },
+  {
+    "address": "0x14030ad20",
+    "value": "AddAction NextWeapon_2 79",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 28
+    }
+  },
+  {
+    "address": "0x14030ad40",
+    "value": "AddAction NextWeapon_3 80",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 28
+    }
+  },
+  {
+    "address": "0x14030ad60",
+    "value": "AddAction NextWeapon_4 81",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 28
+    }
+  },
+  {
+    "address": "0x14030ad80",
+    "value": "AddAction NextWeapon_5 82",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 28
+    }
+  },
+  {
+    "address": "0x14030ada0",
+    "value": "AddAction NextWeapon_6 83",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 28
+    }
+  },
+  {
+    "address": "0x14030ae68",
+    "value": "AddAction LastWeapon 93",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x14030b2e8",
+    "value": "rangebind ##keyboard ##16 0.000000 0.000000 LastWeapon",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 56
+    }
+  },
+  {
+    "address": "0x14030b470",
+    "value": "rangebind ##keyboard ##57 0.000000 0.000000 Jump",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 52
+    }
+  },
+  {
+    "address": "0x14030b8a0",
+    "value": "rangebind ##keyboard ##7 0.000000 0.000000 NextWeapon_6 0.000000 0.000000 Choose_6",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 84
+    }
+  },
+  {
+    "address": "0x14030b900",
+    "value": "rangebind ##keyboard ##6 0.000000 0.000000 NextWeapon_5 0.000000 0.000000 Choose_5",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 84
+    }
+  },
+  {
+    "address": "0x14030b960",
+    "value": "rangebind ##keyboard ##5 0.000000 0.000000 NextWeapon_4 0.000000 0.000000 Choose_4",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 84
+    }
+  },
+  {
+    "address": "0x14030b9c0",
+    "value": "rangebind ##keyboard ##4 0.000000 0.000000 NextWeapon_3 0.000000 0.000000 Choose_3",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 84
+    }
+  },
+  {
+    "address": "0x14030ba20",
+    "value": "rangebind ##keyboard ##3 0.000000 0.000000 NextWeapon_2 0.000000 0.000000 Choose_2",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 84
+    }
+  },
+  {
+    "address": "0x14030ba80",
+    "value": "rangebind ##keyboard ##2 0.000000 0.000000 NextWeapon_1 0.000000 0.000000 Choose_1",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 84
+    }
+  },
+  {
+    "address": "0x14030e478",
+    "value": "ScreenWidth",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 12
+    }
+  },
+  {
+    "address": "0x14030e488",
+    "value": "ScreenHeight",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 13
+    }
+  },
+  {
+    "address": "0x140311bd8",
+    "value": " model file is not of .ltb type.\n",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 34
+    }
+  },
+  {
+    "address": "0x140312b48",
+    "value": "OnWeaponSFXMessage",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 19
+    }
+  },
+  {
+    "address": "0x140312b60",
+    "value": "SMSG_WEAPON_SFX_MESSAGE",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 24
+    }
+  },
+  {
+    "address": "0x140313900",
+    "value": "ScreenWidth %d",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 15
+    }
+  },
+  {
+    "address": "0x140313910",
+    "value": "ScreenHeight %d",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 16
+    }
+  },
+  {
+    "address": "0x140313f90",
+    "value": "global\\models\\default.ltb",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 26
+    }
+  },
+  {
+    "address": "0x140313fe8",
+    "value": "skins\\default.dtx",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 18
+    }
+  },
+  {
+    "address": "0x140314028",
+    "value": "RenderStyles\\default.ltb",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 25
+    }
+  },
+  {
+    "address": "0x1403153f8",
+    "value": "%s.dat",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 7
+    }
+  },
+  {
+    "address": "0x1403154d0",
+    "value": "SA_characters\\common\\Win_Man.ltb",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 33
+    }
+  },
+  {
+    "address": "0x1403154f8",
+    "value": "SA_characters\\common\\Win_Girl.ltb",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 34
+    }
+  },
+  {
+    "address": "0x140315520",
+    "value": "SA_characters\\common\\OBB_Man.ltb",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 33
+    }
+  },
+  {
+    "address": "0x140315548",
+    "value": "SA_characters\\common\\OBB_Girl.ltb",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 34
+    }
+  },
+  {
+    "address": "0x140315570",
+    "value": "SA_characters\\models\\vampire\\josephine.ltb",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 43
+    }
+  },
+  {
+    "address": "0x1403155a0",
+    "value": "SA_characters\\models\\training\\training.ltb",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 43
+    }
+  },
+  {
+    "address": "0x1403155d0",
+    "value": "SA_characters\\common\\man.ltb",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 29
+    }
+  },
+  {
+    "address": "0x1403155f0",
+    "value": "SA_characters\\common\\girl.ltb",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 30
+    }
+  },
+  {
+    "address": "0x140315610",
+    "value": "SA_characters\\models\\AimPracticeMode\\Sphere_Target.ltb",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 55
+    }
+  },
+  {
+    "address": "0x140315648",
+    "value": "SA_characters\\models\\AimPracticeMode\\Human_Target.ltb",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 54
+    }
+  },
+  {
+    "address": "0x140315a08",
+    "value": "D_CROUCH",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 12
+    }
+  },
+  {
+    "address": "0x140318068",
+    "value": "console\\console_font.dtx",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 25
+    }
+  },
+  {
+    "address": "0x14031f648",
+    "value": "PVModelFOV",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 12
+    }
+  },
+  {
+    "address": "0x140320d48",
+    "value": "translucentweapon",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 18
+    }
+  },
+  {
+    "address": "0x140321c90",
+    "value": "SA_WEAPONS\\SKINS\\PV\\PLANE.DTX",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 30
+    }
+  },
+  {
+    "address": "0x1403452f0",
+    "value": "ERROR_DS_SENSITIVE_GROUP_VIOLATION",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 35
+    }
+  },
+  {
+    "address": "0x14037d27c",
+    "value": ".data",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 8
+    }
+  },
+  {
+    "address": "0x1404d24a0",
+    "value": ".data",
+    "string": {
+      "encoding": "US-ASCII",
+      "termination": "present_or_not_required",
+      "byte_length": 8
+    }
+  }
+]

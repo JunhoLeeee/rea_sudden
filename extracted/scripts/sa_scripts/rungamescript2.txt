@@ -1,0 +1,31 @@
+[Common]					//솔로플레이 모드. 같은맵이므로 여기에 같이 기록함.
+GoalCountdown = 0		//1등이 도착하고 카운트다운되는 시간. 솔로맵이니 0
+RoundUIShowTime = 5		//라운드 종료 UI가 보여지는 시간.
+RoundCountdown = 0		//중간 결과창이 보여지고 다음 라운드를 시작할때 솔로맵이니 0
+FinalRound = 6				//마지막 라운드
+UseScore = 0					//스코어 정보 사용 여부. 나중에는 이거 삭제할 것임.
+UseDivision = 1							//아래 몇 개의 구역으로 나뉘어 있는지(Division) 사용 여부. 싱글모드도 사용해야 함.
+FloodTime_FadeIn = 1.5f				//이펙트 페이드인.
+FloodTime_FadeOut = 0.3f			//이펙트 페이드아웃
+FloodTime_Flickering = 0.5f			//이펙트 이미지가 서로 바뀌는 시간
+FloodVel = 2500.0f	
+
+//라운드 종료시 스코어 표시에도 쓰이며, 몇개의 구역으로 나뉘어 있는가도 필요함. FinalRound 값에 따라 개수가 정해진다.
+[RoundScore1]
+Division	= 3		//몇 개의 구역으로 나뉘어 있는가. 체크포인트 개수+세이브포인트
+
+[RoundScore2]
+Division	= 3		//몇 개의 구역으로 나뉘어 있는가.
+
+[RoundScore3]
+Division	= 3		//몇 개의 구역으로 나뉘어 있는가.
+
+[RoundScore4]
+Division	= 3		//몇 개의 구역으로 나뉘어 있는가.
+
+[RoundScore5]
+Division	= 3		//몇 개의 구역으로 나뉘어 있는가.
+
+[RoundScore6]
+Division	= 3		//몇 개의 구역으로 나뉘어 있는가.
+

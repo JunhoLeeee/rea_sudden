@@ -1,0 +1,236 @@
+// 루팅 창 ------------------------------------------------------------------------- begin
+// 백그라운드 이미지
+[Image0]
+Pos		= (200,197)
+Texture	= "sa_interface2\hud\survival\inventory\sv_inven_bg.dtx"
+
+// 주무기 슬롯
+[ImageSlotCtrl0]
+EmptyAlpha		= 100
+ItemAlpha		= 255
+BottomBlankTex	= "sa_interface2\hud\survival\inventory\sv_inven_item1.dtx"		// 비어 있을 시 바탕
+BottomItemTex	= ""		// 아이템이 있을시 바탕
+NoItemIconTex	= ""	// 아이템 없음 표시 아이콘
+SlotCount		= 3
+ImageSlot0	= "ImageSlot0"
+ImageSlot1	= "ImageSlot1"
+ImageSlot2	= "ImageSlot2"
+EnableUseCount	= 0		// 갯수를 표시 활성화
+ShowZeroCount	= 0		// 0 개도 표시
+
+[ImageSlot0]
+Pos				= ( 213, 227 )
+
+[ImageSlot1]
+Pos				= ( 213, 281 )
+
+[ImageSlot2]
+Pos				= ( 213, 335 )
+
+// 그외 무기 및 아이템 슬롯
+[ImageSlotCtrl1]
+EmptyAlpha		= 100
+ItemAlpha		= 255
+BottomBlankTex	= "sa_interface2\hud\survival\inventory\sv_inven_item2.dtx"		// 비어 있을 시 바탕
+BottomItemTex	= ""		// 아이템이 있을시 바탕
+NoItemIconTex	= ""	// 아이템 없음 표시 아이콘
+SlotCount		= 15
+ImageSlot0	= "ImageSlot3"
+ImageSlot1	= "ImageSlot4"
+ImageSlot2	= "ImageSlot5"
+ImageSlot3	= "ImageSlot6"
+ImageSlot4	= "ImageSlot7"
+ImageSlot5	= "ImageSlot8"
+ImageSlot6	= "ImageSlot9"
+ImageSlot7	= "ImageSlot10"
+ImageSlot8	= "ImageSlot11"
+ImageSlot9	= "ImageSlot12"
+ImageSlot10	= "ImageSlot13"
+ImageSlot11	= "ImageSlot14"
+ImageSlot12	= "ImageSlot15"
+ImageSlot13	= "ImageSlot16"
+ImageSlot14	= "ImageSlot17"
+EnableUseCount	= 1		// 갯수를 표시 활성화
+ShowZeroCount	= 1		// 0 개도 표시
+
+[ImageSlot3]
+Pos				= ( 329, 227 )
+
+[ImageSlot4]
+Pos				= ( 383, 227 )
+
+[ImageSlot5]
+Pos				= ( 437, 227 )
+
+[ImageSlot6]
+Pos				= ( 491, 227 )
+
+[ImageSlot7]
+Pos				= ( 545, 227 )
+
+[ImageSlot8]
+Pos				= ( 329, 281 )
+
+[ImageSlot9]
+Pos				= ( 383, 281 )
+
+[ImageSlot10]
+Pos				= ( 437, 281 )
+
+[ImageSlot11]
+Pos				= ( 491, 281 )
+
+[ImageSlot12]
+Pos				= ( 545, 281 )
+
+[ImageSlot13]
+Pos				= ( 329, 335 )
+
+[ImageSlot14]
+Pos				= ( 383, 335 )
+
+[ImageSlot15]
+Pos				= ( 437, 335 )
+
+[ImageSlot16]
+Pos				= ( 491, 335 )
+
+[ImageSlot17]
+Pos				= ( 545, 335 )
+
+[Button0]
+Pos				= ( 580, 207 )
+NormalTex		= "sa_interface2\hud\survival\inventory\sv_hud_bag_BtnN.dtx"
+HighlightTex	= "sa_interface2\hud\survival\inventory\sv_hud_bag_BtnH.dtx"
+ClickTex		= "sa_interface2\hud\survival\inventory\sv_hud_bag_BtnC.dtx"
+DisableTex		= "sa_interface2\hud\survival\inventory\sv_hud_bag_BtnD.dtx"
+
+
+// dialog는 마지막에 위치 하게 하자
+//Childx = "자식컨트롤이름,자식의상대좌표x,자식의상대좌표y"
+[Dialog0]
+Child0	= "Image0,0,0"	// background
+Child1	= "ImageSlotCtrl0,0,0"
+Child2	= "ImageSlotCtrl1,0,0"
+Child3	= "Button0,0,0"
+
+// 루팅창 마우스 오버 시 인식표 팝업 ------------------------------
+[Image1]
+Pos			= (0,0)
+Texture		= "sa_interface2\hud\survival\tab\Survival_Score_DogTag1.dtx"
+
+// 소속
+[Text0]
+Text = ""
+TextColor		= "255,255,255"
+OutlineColor	= "129,135,135"
+LimitWidth		= 90	// 가로 90 픽셀 제한
+
+// 계급 
+[Text1]
+Text = ""
+TextColor		= "255,255,255"
+OutlineColor	= "106,112,113"
+LimitWidth		= 90	// 가로 90 픽셀 제한
+
+// 성명
+[Text2]
+Text = ""
+TextColor		= "255,255,255"
+OutlineColor	= "84,90,90"
+LimitWidth		= 90	// 가로 90 픽셀 제한
+
+//Childx = "자식컨트롤이름,자식의상대좌표x,자식의상대좌표y"
+[Dialog1]
+Child0	= "Image1,0,0"	// background
+Child1	= "Text0,48,22"
+Child2	= "Text1,48,42"
+Child3	= "Text2,48,62"
+RenderOrder	= 10	// 이걸 해줘야 루팅 팝업창 밑으로 안 뭍힌다
+// ------------------------------------------------------------------
+
+// 루팅 창 ------------------------------------------------------------------------------- end
+
+// texture 교체 방식의 진행 표시 UI
+// 10개까지 등록할 수 있다
+[TextureChangeProgress0]
+Tex0	= "sa_interface2\hud\survival2025\progress\sv_progress0.dtx"		// tex0은 바탕이자 0% 로 사용된다
+Tex1	= "sa_interface2\hud\survival2025\progress\sv_progress1.dtx"
+Tex2	= "sa_interface2\hud\survival2025\progress\sv_progress2.dtx"
+Tex3	= "sa_interface2\hud\survival2025\progress\sv_progress3.dtx"
+Tex4	= "sa_interface2\hud\survival2025\progress\sv_progress4.dtx"
+Tex5	= "sa_interface2\hud\survival2025\progress\sv_progress5.dtx"
+Tex6	= "sa_interface2\hud\survival2025\progress\sv_progress6.dtx"
+Tex7	= "sa_interface2\hud\survival2025\progress\sv_progress7.dtx"
+Tex8	= "sa_interface2\hud\survival2025\progress\sv_progress8.dtx"
+Tex9	= "sa_interface2\hud\survival2025\progress\sv_progress9.dtx"
+UseSound	= 0
+
+// 설정된 텍스처들을 번갈아 가며 보여주는 이미지 컨트롤
+// 마우스 왼쪽 클릭 도움 이미지
+[SwitchImage0]
+AlignType 		= "AT_RIGHT_BOTTOM"
+Pos				= ( 0, 100 )
+SwitchTime		= 0.5f
+Tex0			= "sa_interface_chn\hud\tutorial\mouse_0.dtx"
+Tex1			= "sa_interface_chn\hud\tutorial\mouse_1.dtx"
+
+[SwitchImage1]
+AlignType 		= "AT_CENTER"
+Pos				= ( 0, 90 )
+SwitchTime		= 0.5f
+Tex0			= ""
+Tex1			= ""
+Text 			= ""	// 이미지 우측에 나올꺼다
+TextColor		= "255,255,0"	// r, g, b
+
+// 전체맵보기
+[SwitchImage2]
+AlignType 		= "AT_LEFT_TOP"
+Pos				= ( 140, 10 )
+SwitchTime		= 0.5f
+Tex0			= ""
+Tex1			= ""
+Text 			= "전체맵보기"	// 이미지 우측에 나올꺼다
+TextColor		= "255,255,0"	// r, g, b
+
+// 3인칭보기
+[SwitchImage3]
+AlignType 		= "AT_LEFT_TOP"
+Pos				= ( 140, 50 )
+SwitchTime		= 0.5f
+Tex0			= ""
+Tex1			= ""
+Text 			= "야간투시경 사용"	// 이미지 우측에 나올꺼다
+TextColor		= "255,255,0"	// r, g, b
+
+// 회복키트 사용
+[SwitchImage4]
+AlignType 		= "AT_CENTER_BOTTOM"
+Pos				= ( -50, -100 )
+SwitchTime		= 0.5f
+Tex0			= ""
+Tex1			= ""
+Text 			= "회복키트 사용"	// 이미지 우측에 나올꺼다
+TextColor		= "255,255,255"	// r, g, b
+
+// 파티 가입 신청
+[SwitchImage5]
+AlignType 		= "AT_CENTER"
+Pos				= ( -60, 150 )
+SwitchTime		= 0.5f
+Tex0			= ""
+Tex1			= ""
+Text 			= "파티 가입 신청"	// 이미지 우측에 나올꺼다
+TextColor		= "255,255,0"	// r, g, b
+
+[WeaponSoundRadius]
+Melee = 100
+Pistol = 800
+Rifle = 1500
+Machine = 2000
+Submachine = 1000
+Sniper = 1800
+Shotgun = 1600
+CombatBow = 100
+Default = 1000

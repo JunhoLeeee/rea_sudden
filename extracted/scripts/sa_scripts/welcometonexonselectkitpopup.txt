@@ -1,0 +1,85 @@
+// **컨트롤러들의 스크린 상의 위치는 800x600 기준이다
+
+[Base]
+BaseTex		= ""
+Rect 		= (324, 201, 256, 70)	// x, y, w, h
+StretchUI	= 1		// TRUE
+
+
+// 프레임
+[Frame]
+TopRect		= (324, 202, 256, 16)	// x, y, w, h
+TopTex		= "sa_interface2\hud\gamemenu\MenuBackTop.dtx"
+CenterRect	= (324, 205, 256, 60)	// x, y, w, h
+CenterTex	= "sa_interface2\hud\gamemenu\MenuBackCenter.dtx"
+BottomRect	= (324, 252, 256, 16)	// x, y, w, h
+BottomTex	= "sa_interface2\hud\gamemenu\MenuBackBottom.dtx"
+
+// 전투모드 버튼
+[Button0]
+ID				= 1					// 바꾸지 마세요
+NormalTex		= "sa_interface\menu\Textures\Game\BtnChangeWeaponN.dtx"	// 일반 텍스처
+HighlightTex	= "sa_interface\menu\Textures\Game\BtnChangeWeaponH.dtx"	// 하이라이트 텍스처
+ClickTex		= "sa_interface\menu\Textures\Game\BtnChangeWeaponC.dtx"	// 클릭 텍스처
+DisableTex		= "sa_interface\menu\Textures\Game\BtnChangeWeaponD.dtx"	// 비활성화 텍스처
+Rect			= (4,4,146,34)
+//Rect			= (329, 270, 0, 0)	// x, y, w, h (w,h가 0이면 텍스처 사이즈를 그대로 사용)
+
+// 은신모드 버튼
+[Button1]
+ID				= 2					// 바꾸지 마세요
+NormalTex		= "sa_interface\menu\Textures\Game\BtnDisChatN.dtx"	// 일반 텍스처
+HighlightTex	= "sa_interface\menu\Textures\Game\BtnDisChatH.dtx"	// 하이라이트 텍스처
+ClickTex		= "sa_interface\menu\Textures\Game\BtnDisChatC.dtx"	// 클릭 텍스처
+DisableTex		= "sa_interface\menu\Textures\Game\BtnDisChatD.dtx"	// 비활성화 텍스처
+Rect            = (4,34,146,64)
+//Rect 			= (329, 300, 0, 0 )	// x, y, w, h (w,h가 0이면 텍스처 사이즈를 그대로 사용)
+
+[Back]
+//Rect1			= (10, 60, 512, 512)																		//백그라운드 이미지1, X,Y,W,H
+Rect1			= (125, 80, 512, 512)																		//백그라운드 이미지1, X,Y,W,H
+Rect2			= (637, 80, 64, 512)																		//백그라운드 이미지2
+Tex1			= "sa_interface2\hud\WelcomeToNexon\nexon_kit_warrior_bg1.dtx"	//백그라운드 텍스처1
+Tex2			= "sa_interface2\hud\WelcomeToNexon\nexon_kit_warrior_bg2.dtx"	//백그라운드 텍스처2
+//RectSelect1	= (29, 137, 512, 512)																	//선택할때 왼쪽으로 마우스가 있으면 여기에 표시 X,Y,W,H
+//RectSelect2	= (297, 137, 512, 512)																	//선택할때 오른쪽으로 마우스가 있으면 여기에 표시 X,Y,W,H
+RectSelect1	= (136, 149, 512, 512)																	//선택할때 왼쪽으로 마우스가 있으면 여기에 표시 X,Y,W,H  이 부분 고치려면 AreaSelect1도 수정
+RectSelect2	= (403, 149, 512, 512)																	//선택할때 오른쪽으로 마우스가 있으면 여기에 표시 X,Y,W,H  이 부분 고치려면 AreaSelect2도 수정
+
+TexSelect	= "sa_interface2\hud\WelcomeToNexon\nexon_kit_warrior_bg3.dtx"	//선택 영역 텍스처 RectSelect1, RectSelect2 중에 하나에서 선택된다. 
+AreaSelect1	= (136, 149, 384, 503)																	//선택 영역 마우스가 여기에 위치해 있으면 Select1 LEFT, TOP, RIGHT, BOTTOM 으로 해야 하기 좋음.
+AreaSelect2	= (403, 149, 651, 503)																	//선택 영역 마우스가 여기에 위치해 있으면 Select2 LEFT, TOP,.RIGHT, BOTTOM 으로 해야 하기 좋음.
+
+[WeaponList_Left]
+//Tex1				= (10, 50, 40, 40)					//무기의 위치 X,Y,W,H
+Tex1				= (155, 162, 120, 60)					//무기의 위치 X,Y,W,H
+Tex2				= (155, 212, 120, 60)					
+Tex3				= (155, 262, 120, 60)					
+Tex4				= (155, 312, 120, 60)					
+Tex5				= (155, 362, 120, 60)					
+Tex6				= (155, 412, 120, 60)					
+Tex7				= (155, 462, 120, 60)					
+Str1				= (270, 180)							//무기 이름의 위치.
+Str2				= (270, 230)
+Str3				= (270, 280)
+Str4				= (270, 330)
+Str5				= (270, 380)
+Str6				= (270, 430)
+Str7				= (270, 480)
+
+[WeaponList_Right]
+Tex1				= (422, 162, 120, 60)					
+Tex2				= (422, 212, 120, 60)					
+Tex3				= (422, 262, 120, 60)					
+Tex4				= (422, 312, 120, 60)					
+Tex5				= (422, 362, 120, 60)					
+Tex6				= (422, 412, 120, 60)					
+Tex7				= (422, 462, 120, 60)					
+Str1				= (537, 180)							
+Str2				= (537, 230)
+Str3				= (537, 280)
+Str4				= (537, 330)
+Str5				= (537, 380)
+Str6				= (537, 430)
+Str7				= (537, 480)
+

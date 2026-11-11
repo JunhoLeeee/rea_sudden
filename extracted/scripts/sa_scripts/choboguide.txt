@@ -1,0 +1,317 @@
+//////////////////////////////////////////////////////////////
+// * 항목 설명
+//  MainIndex
+// 	- GUIDE_MAIN_START				가이드 시작 = 0
+// 	- GUIDE_MAIN_QUICK_JOIN			바로 입장 = 1
+// 	- GUIDE_MAIN_GUIDE_END			가이드 종료 = 2
+// 	- GUIDE_MAIN_SHOP				가이드 상점		3
+// 	- GUIDE_MAIN_ORDER				가이드 지령		4
+// 	- GUIDE_MAIN_MERCENARY			용병			5
+// 	- GUIDE_MAIN_CLAN				클랜			6
+// 	- GUIDE_MAIN_LAST_ALARM_1		최종알림 1		7
+// 	- GUIDE_MAIN_LAST_ALARM_2		최종알림 2		8
+// 	- GUIDE_MAIN_TRAINING			훈련소			9
+//  - GUIDE_MAIN_GAME_QUIT          게임 종료		10
+// 	- GUIDE_MAIN_REJOIN				재접속			11
+//
+//	BtnOK					- 확인 
+//	BtnNext					- 다음
+// 	BtnAccept				- 미션받기
+// 	BtnEnd					- 가이드종료
+// 	BtnClose				- 닫기
+// 	BtnTraining				- 훈련소 참여
+// 	BtnGameQuit				- 게임종료
+// 	BtnBack					- 돌아가기
+// 	BtnYes					- 예
+// 	BtnNO					- 아니오
+///////////////////////////////////////////////////////////////
+
+//가이드 안내
+[GuideInfo0]
+MainIndex 	= 0
+SubIndex 	= 0
+TitleIndex	= 10716
+DescIndex   = 10725
+HeadTexPath = "sa_interface2\menu\ChoboGuide\GuideText002.dtx"
+BtnNext		= 1
+
+[GuideInfo1]
+MainIndex 	= 0
+SubIndex 	= 1
+TitleIndex	= 10716
+DescIndex   = 10726
+HeadTexPath = "sa_interface2\menu\ChoboGuide\GuideText001.dtx"
+BtnOK 		= 1
+
+//가이드 1
+[GuideInfo2]
+MainIndex 	= 1
+SubIndex 	= 0
+TitleIndex	= 10717
+DescIndex   = 10728
+BackTexPath = "sa_interface2\menu\ChoboGuide\GuidePopup001_2.dtx"
+HeadTexPath = "sa_interface2\menu\ChoboGuide\GuideText003.dtx"
+InfoTexPath = "sa_interface\menu\Textures\Main\BtnQuickJoin1N.dtx"
+InfoPos		= (223,25)
+BtnAccept 	= 1
+
+[GuideInfo3]
+MainIndex 	= 1
+SubIndex 	= 1
+TitleIndex	= 10717
+DescIndex   = 10729
+BackTexPath = "sa_interface2\menu\ChoboGuide\GuidePopup001_2.dtx"
+InfoTexPath = "sa_interface\menu\Textures\Main\BtnQuickJoin1N.dtx"
+InfoPos		= (223,25)
+InfoTexPath2 = "sa_interface2\menu\ChoboGuide\Map_001.dtx"
+BtnOK 		= 1
+BtnEnd		= 1
+
+[GuideInfo4]
+MainIndex 	= 1
+SubIndex 	= 100
+TitleIndex	= 10717
+DescIndex   = 10730
+BackTexPath = "sa_interface2\menu\ChoboGuide\GuidePopup001_2.dtx"
+BtnOK 		= 1
+
+//가이드 2
+[GuideInfo6]
+MainIndex 	= 2
+SubIndex 	= 0
+TitleIndex	= 10718
+DescIndex   = 10731
+BackTexPath = "sa_interface2\menu\ChoboGuide\GuidePopup001_1.dtx"
+HeadTexPath = "sa_interface2\menu\ChoboGuide\GuideText004.dtx"
+InfoTexPath = "sa_interface\menu\Textures\Common\TBtnShop1N.dtx"
+InfoPos		= (69,24)
+MoveSize	= (13,0)
+BtnAccept 	= 1
+
+[GuideInfo7]
+MainIndex 	= 2
+SubIndex 	= 1
+TitleIndex	= 10718
+DescIndex   = 10732
+BackTexPath = "sa_interface2\menu\ChoboGuide\GuidePopup001_1.dtx"
+InfoTexPath = "sa_interface\menu\Textures\Common\TBtnShop1N.dtx"
+InfoPos		= (69,24)
+MoveSize	= (13,0)
+BtnOK 		= 1
+BtnEnd		= 1
+
+[GuideInfo8]
+MainIndex 	= 2
+SubIndex 	= 100
+TitleIndex	= 10718
+DescIndex   = 10733
+BackTexPath = "sa_interface2\menu\ChoboGuide\GuidePopup001_1.dtx"
+BtnOK 		= 1
+
+//가이드 3
+[GuideInfo9]
+MainIndex 	= 3
+SubIndex 	= 0
+TitleIndex	= 10719
+DescIndex   = 10734
+BackTexPath = "sa_interface2\menu\ChoboGuide\GuidePopup001_5.dtx"
+HeadTexPath = "sa_interface2\menu\ChoboGuide\GuideText005.dtx"
+InfoTexPath = "sa_interface\menu\textures\main\2014\btnrecordn.dtx"
+InfoPos		= (70,265)
+MoveSize	= (13,0)
+BtnAccept 	= 1
+
+[GuideInfo10]
+MainIndex 	= 3
+SubIndex 	= 1
+TitleIndex	= 10719
+DescIndex   = 10735
+BackTexPath = "sa_interface2\menu\ChoboGuide\GuidePopup001_5.dtx"
+InfoTexPath = "sa_interface\menu\textures\main\2014\btnrecordn.dtx"
+InfoPos		= (70,265)
+MoveSize	= (13,0)
+BtnOK 		= 1
+BtnEnd		= 1
+
+[GuideInfo11]
+MainIndex 	= 3
+SubIndex 	= 100
+TitleIndex	= 10719
+DescIndex   = 10736
+BackTexPath = "sa_interface2\menu\ChoboGuide\GuidePopup001_5.dtx"
+BtnOK 		= 1
+
+//가이드 4
+[GuideInfo12]
+MainIndex 	= 4
+SubIndex 	= 0
+TitleIndex	= 10720
+DescIndex   = 10737
+BackTexPath = "sa_interface2\menu\ChoboGuide\GuidePopup001.dtx"
+HeadTexPath = "sa_interface2\menu\ChoboGuide\GuideText006.dtx"
+InfoTexPath = "sa_interface2\menu\Main\BtnMercenaryN.dtx"
+InfoPos		= (70,185)
+MoveSize	= (13,0)
+BtnAccept 	= 1
+
+[GuideInfo13]
+MainIndex 	= 4
+SubIndex 	= 1
+TitleIndex	= 10720
+DescIndex   = 10738
+BackTexPath = "sa_interface2\menu\ChoboGuide\GuidePopup001.dtx"
+InfoTexPath = "sa_interface2\menu\Main\BtnMercenaryN.dtx"
+InfoPos		= (70,185)
+MoveSize	= (13,0)
+BtnOK 		= 1
+BtnEnd		= 1
+
+[GuideInfo14]
+MainIndex 	= 4
+SubIndex 	= 100
+TitleIndex	= 10720
+DescIndex   = 10739
+BackTexPath = "sa_interface2\menu\ChoboGuide\GuidePopup001.dtx"
+BtnOK 		= 1
+
+//가이드 5
+[GuideInfo15]
+MainIndex 	= 5
+SubIndex 	= 0
+TitleIndex	= 10721
+DescIndex   = 10740
+BackTexPath = "sa_interface2\menu\ChoboGuide\GuidePopup001_3.dtx"
+HeadTexPath = "sa_interface2\menu\ChoboGuide\GuideText007.dtx"
+InfoTexPath = "sa_interface\menu\textures\main\2014\tbtncreateclan1n.dtx"
+InfoPos		= (70,145)
+MoveSize	= (13,0)
+BtnAccept 	= 1
+
+[GuideInfo16]
+MainIndex 	= 5
+SubIndex 	= 1
+TitleIndex	= 10721
+DescIndex   = 10741
+BackTexPath = "sa_interface2\menu\ChoboGuide\GuidePopup001_3.dtx"
+InfoTexPath = "sa_interface\menu\textures\main\2014\tbtncreateclan1n.dtx"
+InfoPos		= (70,145)
+MoveSize	= (13,0)
+BtnOK 		= 1
+BtnEnd		= 1
+
+[GuideInfo17]
+MainIndex 	= 5
+SubIndex 	= 100
+TitleIndex	= 10721
+DescIndex   = 10742
+BackTexPath = "sa_interface2\menu\ChoboGuide\GuidePopup001_3.dtx"
+BtnOK 		= 1
+
+//가이드 종료
+[GuideInfo5]
+MainIndex 	= 6
+SubIndex 	= 0
+TitleIndex	= 10716
+DescIndex   = 10727
+BtnClose	= 1
+
+//가이드 종료 1
+[GuideInfo18]
+MainIndex 	= 7
+SubIndex 	= 0
+TitleIndex	= 10748
+DescIndex   = 10749
+BtnYes 		= 1
+BtnNo 		= 1
+
+//가이드 종료 2
+[GuideInfo19]
+MainIndex 	= 8
+SubIndex 	= 0
+TitleIndex	= 10748
+DescIndex   = 10914
+BtnYes 		= 1
+BtnNo 		= 1
+
+//가이드 훈련소
+[GuideInfo20]
+MainIndex 	= 9
+SubIndex 	= 0
+InfoTexPath = "sa_interface2\menu\Training\BtnTrainingN.dtx"
+InfoPos		= (414,25)
+TitleIndex	= 10722
+DescIndex   = 10743
+BtnTraining = 1
+BtnClose	= 1
+
+//가이드 게임 종료
+[GuideInfo21]
+MainIndex 	= 10
+SubIndex 	= 0
+TitleIndex	= 10723
+DescIndex   = 10744
+BtnGameQuit = 1
+BtnBack		= 1
+
+//재접속
+[GuideInfo22]
+MainIndex 	= 11
+SubIndex 	= 0
+TitleIndex	= 10716
+DescIndex   = 10745
+BtnOK = 1
+
+//가이드 안내2
+[GuideInfo23]
+MainIndex 	= 12
+SubIndex 	= 0
+TitleIndex	= 10716
+DescIndex   = 10725
+HeadTexPath = "sa_interface2\menu\ChoboGuide\GuideText008.dtx"
+BtnNext		= 1
+
+[GuideInfo24]
+MainIndex 	= 12
+SubIndex 	= 1
+TitleIndex	= 10716
+DescIndex   = 10726
+HeadTexPath = "sa_interface2\menu\ChoboGuide\GuideText001.dtx"
+BtnOK 		= 1
+
+//가이드 완전 완료....
+[GuideInfo25] 
+MainIndex 	= 5
+SubIndex 	= 101
+TitleIndex	= 10746
+DescIndex   = 10747
+BtnOK 		= 1
+
+
+//다음 가이드 대기 페이지..
+[GuideInfo26] 
+MainIndex 	= 1
+SubIndex 	= 200
+TitleIndex	= 10724
+DescIndex   = 10915
+BtnOK 		= 1
+
+[GuideInfo27] 
+MainIndex 	= 2
+SubIndex 	= 200
+TitleIndex	= 10724
+DescIndex   = 10915
+BtnOK 		= 1
+
+[GuideInfo28] 
+MainIndex 	= 3
+SubIndex 	= 200
+TitleIndex	= 10724
+DescIndex   = 10916
+BtnOK 		= 1
+
+[GuideInfo29] 
+MainIndex 	= 4
+SubIndex 	= 200
+TitleIndex	= 10724
+DescIndex   = 10917
+BtnOK 		= 1

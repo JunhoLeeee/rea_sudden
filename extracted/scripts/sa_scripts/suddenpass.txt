@@ -1,0 +1,701 @@
+{
+   "ExtraPassSeasonInfo":[
+      {
+         "passid" : 26101501,
+         "alarm_headline" : "콤보패스",
+         "alarm_desc" : "획득 가능한 보상이 있습니다.",
+         "page_headline_texture" : "seasonpasschange",
+         "page_headline_filename" : "Text_18thpass",
+         "main_ctrl_max_desc" : "콤보패스 MAX",
+         "main_ctrl_progrese_desc" : "일일 퀘스트 "
+      }
+   ],
+
+   "condition1": [
+      {
+         "main": 1,
+         "sub": 0,
+         "text": "일반전"
+      },
+      {
+         "main": 2,
+         "sub": 0,
+         "text": "클랜전(용병 포함)"
+      },
+      {
+         "main": 3,
+         "sub": 0,
+         "text": "랭크전"
+      },
+      {
+         "main": 4,
+         "sub": 0,
+         "text": "생존전"
+      },
+      {
+         "main": 5,
+         "sub": 0,
+         "text": "영토전"
+      },
+	  {
+         "main": 6,
+         "sub": 0,
+         "text": "토너먼트"
+      },
+      {
+         "main": 7,
+         "sub": 0,
+         "text": "폭파미션(1폭,2폭)"
+      },
+      {
+         "main": 7,
+         "sub": 1,
+         "text": "폭파미션(멀티)"
+      },
+      {
+         "main": 7,
+         "sub": 2,
+         "text": "생존전"
+      },
+      {
+         "main": 7,
+         "sub": 3,
+         "text": "팀데스매치"
+      },
+      {
+         "main": 7,
+         "sub": 4,
+         "text": "갓모드"
+      },
+      {
+         "main": 7,
+         "sub": 5,
+         "text": "개인전"
+      },
+      {
+         "main": 7,
+         "sub": 6,
+         "text": "협동플레이"
+      },
+      {
+         "main": 7,
+         "sub": 7,
+         "text": "점령전"
+      },
+      {
+         "main": 7,
+         "sub": 8,
+         "text": "어메이징"
+      },
+      {
+         "main": 7,
+         "sub": 9,
+         "text": "스페셜미션"
+      },
+      {
+         "main": 7,
+         "sub": 10,
+         "text": "술래잡기 모드"
+      },
+      {
+         "main": 7,
+         "sub": 11,
+         "text": "출발 서든어택"
+      },
+      {
+         "main": 7,
+         "sub": 12,
+         "text": "터치다운"
+      },
+      {
+         "main": 7,
+         "sub": 13,
+         "text": "인질구출미션"
+      },
+      {
+         "main": 7,
+         "sub": 14,
+         "text": "탈취미션"
+      },
+      {
+         "main": 7,
+         "sub": 15,
+         "text": "타코매치"
+      },
+      {
+         "main": 7,
+         "sub": 16,
+         "text": "에이스모드"
+      },
+	  {
+         "main": 7,
+         "sub": 17,
+         "text": "클랜아지트"
+      },
+      {
+         "main": 7,
+         "sub": 18,
+         "text": "섬멸전"
+      },
+      {
+         "main": 8,
+         "sub": 0,
+         "text": "클랜 랭크전(용병 포함)"
+      },
+      {
+         "main": 9,
+         "sub": 0,
+         "text": "클랜전/클랜 랭크전(용병 포함)"
+      },
+      {
+         "main": 10,
+         "sub": 0,
+         "text": "태디 개선 서버 일반전,"
+      },
+      {
+         "main": 11,
+         "sub": 0,
+         "text": "태디 개선 서버 클랜전,"
+      },
+      {
+         "main": 12,
+         "sub": 0,
+         "text": "빠른 대전"
+      },
+      {
+         "main": 13,
+         "sub": 0,
+         "text": "SP 아레나"
+      },
+	  {
+         "main": 14,
+         "sub": 10,
+         "text": "노폭전 커스텀모드"
+      },
+	  {
+         "main": 3,
+         "sub": 2,
+         "text": "2vs2 파티 랭크전"
+      }
+   ],
+   "condition3": [
+      {
+         "main": 1,
+         "sub": 0,
+         "text": "레드팀으로 "
+      },
+      {
+         "main": 1,
+         "sub": 1,
+         "text": "블루팀으로 "
+      },
+      {
+         "main": 2,
+         "sub": 0,
+         "text": "이달의캐릭터(레드/블루)를 착용하고 "
+      },
+      {
+         "main": 3,
+         "sub": 0,
+         "text": "돌격소총으로 "
+      },
+      {
+         "main": 3,
+         "sub": 1,
+         "text": "스나이퍼로 "
+      },
+      {
+         "main": 3,
+         "sub": 2,
+         "text": "특수총으로 "
+      },
+      {
+         "main": 3,
+         "sub": 3,
+         "text": "샷건으로 "
+      },
+      {
+         "main": 3,
+         "sub": 4,
+         "text": "주무기로 "
+      },
+      {
+         "main": 3,
+         "sub": 5,
+         "text": "보조무기로 "
+      },
+      {
+         "main": 3,
+         "sub": 6,
+         "text": "근접무기로 "
+      },
+      {
+         "main": 3,
+         "sub": 7,
+         "text": "투척무기로 "
+      },
+      {
+         "main": 3,
+         "sub": 8,
+         "text": "마이건으로 "
+      },
+      {
+         "main": 3,
+         "sub": 9,
+         "text": "대표스킨 무기로 "
+      },
+      {
+         "main": 4,
+         "sub": 0,
+         "text": "친구와 함께 "
+      },
+      {
+         "main": 4,
+         "sub": 1,
+         "text": "클랜원과 함께 "
+      },
+      {
+         "main": 4,
+         "sub": 2,
+         "text": "짝과 함 "
+      },
+      {
+         "main": 7,
+         "sub": 0,
+         "showcount": true,
+         "text": "등 이상 "
+      },
+      {
+         "main": 8,
+         "sub": 0,
+         "showcount": true,
+         "text": "등 이내 "
+      },
+      {
+         "main": 9,
+         "sub": 0,
+         "showcount": true,
+         "text": "점 이상 "
+      },
+      {
+         "main": 10,
+         "sub": 13,
+         "showcount": true,
+         "text": "투명화 능력 "
+      },
+      {
+         "main": 10,
+         "sub": 14,
+         "showcount": true,
+         "text": "HP증가 능력 "
+      },
+      {
+         "main": 10,
+         "sub": 15,
+         "showcount": true,
+         "text": "장도끼 능력 "
+      },
+      {
+         "main": 11,
+         "sub": 4,
+         "showcount": true,
+         "text": "한 라운드에 능력 4개 이상 보유 "
+      },
+      {
+         "main": 11,
+         "sub": 6,
+         "showcount": true,
+         "text": "한 라운드에 능력 6개 이상 보유 "
+      },
+      {
+         "main": 11,
+         "sub": 3,
+         "showcount": true,
+         "text": "한 라운드에 능력 3개 이상 보유 "
+      },
+      {
+         "main": 12,
+         "sub": 3,
+         "showcount": true,
+         "text": "연승 "
+      },
+      {
+         "main": 13,
+         "sub": 0,
+         "showcount": true,
+         "text": "교육생으로 "
+      },
+      {
+         "main": 13,
+         "sub": 1,
+         "showcount": true,
+         "text": "스파이로 "
+      },
+      {
+         "main": 14,
+         "sub": 93,
+         "showcount": true,
+         "text": "UAR로 "
+      },
+      {
+         "main": 14,
+         "sub": 57,
+         "showcount": true,
+         "text": "M4A1으로 "
+      },
+      {
+         "main": 14,
+         "sub": 31,
+         "showcount": true,
+         "text": "FAMAS로 "
+      },
+      {
+         "main": 14,
+         "sub": 4,
+         "showcount": true,
+         "text": "AK-47(Heavy, Light, Normal 제외)로 "
+      },
+      {
+         "main": 14,
+         "sub": 79,
+         "showcount": true,
+         "text": "SG870으로 "
+      },
+      {
+         "main": 14,
+         "sub": 104,
+         "showcount": true,
+         "text": "윈체스터로 "
+      },
+      {
+         "main": 14,
+         "sub": 64,
+         "showcount": true,
+         "text": "MP7으로 "
+      },
+      {	
+         "main": 14,
+         "sub": 78,
+         "showcount": true,
+         "text": "SG-12로 "
+      },
+      {	
+         "main": 14,
+         "sub": 92,
+         "showcount": true,
+         "text": "TRG-21로 "
+      },
+	  {
+         "main": 14,
+         "sub": 6,
+         "showcount": true,
+         "text": "AK-47 Light로 "
+      },	
+      {	
+         "main": 14,
+         "sub": 3,
+         "showcount": true,
+         "text": "AK-103으로 "
+      },
+      {
+         "main": 14,
+         "sub": 119,
+         "showcount": true,
+         "text": "DSG-12로 "
+      },
+      {
+         "main": 14,
+         "sub": 59,
+         "showcount": true,
+         "text": "Mak-11로 "
+      },
+      {
+         "main": 14,
+         "sub": 60,
+         "showcount": true,
+         "text": "Mak-12로 "
+      },
+      {
+         "main": 14,
+         "sub": 50,
+         "showcount": true,
+         "text": "KRISS로 "
+      },
+      {	
+         "main": 14,
+         "sub": 23,
+         "showcount": true,
+         "text": "CZS-3로 "
+      },
+      {
+         "main": 15,
+         "sub": 0,
+         "showcount": true,
+         "text": "스테이지 "
+      },
+      {
+         "main": 16,
+         "sub": 0,
+         "showcount": true,
+         "text": "단계 "
+      }
+   ],
+   "goal": [
+      {
+         "main": 0,
+         "text": "번 플레이하기"
+      },
+      {
+         "main": 1,
+         "text": "킬하기"
+      },
+      {
+         "main": 3,
+         "text": "번 헤드샷하기"
+      },
+      {
+         "main": 4,
+         "text": "번 어시스트하기"
+      },
+      {
+         "main": 5,
+         "text": "번 승리하기"
+      },
+      {
+         "main": 6,
+         "text": "번 라운드 승리하기"
+      },
+      {
+         "main": 7,
+         "text": "기본경험치 모으기(아이템, 보너스 경험치 제외)"
+      },
+      {
+         "main": 8,
+         "text": "점 시즌점수 달성하기"
+      },
+      {
+         "main": 9,
+         "text": "번 세이브하기"
+      },
+      {
+         "main": 10,
+         "text": "번 믹스하기"
+      },
+      {
+         "main": 11,
+         "text": "번 기간연장 믹스하기"
+      },
+      {
+         "main": 12,
+         "text": "번 아이템생성 믹스하기"
+      },
+      {
+         "main": 13,
+         "text": "회 그룹 내 퀘스트 완료하기"
+      },
+      {
+         "main": 15,
+         "text": "회 주간 퀘스트 그룹 완료하기"
+      },
+      {
+         "main": 16,
+         "text": "분 접속하기"
+      },
+      {
+         "main": 17,
+         "text": "번 출석하기"
+      },
+      {
+         "main": 18,
+         "text": "번 연속출석하기"
+      },
+      {
+         "main": 19,
+         "text": "명(누적)보다 오래 살아남기"
+      },
+      {
+         "main": 20,
+         "text": "개 아이템 획득하기"
+      },
+      {
+         "main": 2,
+         "text": "번 스페셜킬하기"
+      },
+      {
+         "main": 14,
+         "text": "회 일일 퀘스트 완료하기"
+      },
+      {
+         "main": 21,
+         "text": "회 달성하기"
+      },
+      {
+         "main": 22,
+         "text": "회 달성하기"
+      },
+      {
+         "main": 23,
+         "text": "라운드 생존하기"
+      },
+      {
+         "main": 24,
+         "text": "번 폭파/해체 하기"
+      },
+      {
+         "main": 25,
+         "text": "번 점령하기"
+      },
+      {
+         "main": 26,
+         "text": "대미지 주기"
+      },
+      {
+         "main": 27,
+         "text": "회 획득하기"
+      },
+      {
+         "main": 28,
+         "text": "회 달성하기"
+      },
+      {
+         "main": 29,
+         "text": "회 달성하기"
+      },
+      {
+         "main": 30,
+         "text": "번 토너먼트 참여하기"
+      },
+	        {
+         "main": 31,
+         "text": "클랜아지트 활성화하기"
+      },
+	        {
+         "main": 32,
+         "text": " 클랜아지트 포인트 기부하기"
+      },
+	        {
+         "main": 33,
+         "text": "분 플레이하기"
+      },
+	        {
+         "main": 34,
+         "text": "회 커스텀매치 투표하기"
+      },
+      {
+         "main": 35,
+         "text": "회 파티 합병 성공하기"
+      },
+      {
+         "main": 36,
+         "text": "회 적군 유저 부활 영입하기"
+      },
+      {
+         "main": 37,
+         "text": "회 골인 달성하기"
+      },
+      {
+         "main": 38,
+         "text": "회 칭찬하기"
+      },
+	  {
+	     "main": 39,
+         "text": "회 로비에서 클랜/일반 채팅하기"
+      },
+	  {
+         "main": 40,
+         "text": "회 캐시/포인트 아이템 선물하기"
+      },
+	  {
+         "main": 41,
+         "text": "포인트 상점 내 소모하기"
+      },
+	  {
+         "main": 42,
+         "text": "회 서든클럽 일일 보상 받기"
+      },
+	  {
+         "main": 43,
+         "text": "회 그룹 내 일일 퀘스트 완료하기"
+      },
+	  {
+         "main": 44,
+         "text": "회 포크(스피드업) 스킬 획득하기"
+      },
+	  {
+         "main": 45,
+         "text": "회 슈가(투시) 스킬 획득하기"
+      },
+	  {
+         "main": 46,
+         "text": "회 싸곰(헤드샷) 스킬 획득하기"
+      },
+	  {
+         "main": 47,
+         "text": "회 초이(무반동) 스킬 획득하기"
+      },
+	  {
+         "main": 48,
+         "text": "회 썽(지원사격) 스킬 획득하기"
+      },
+	  {
+         "main": 49,
+         "text": "회 드기(자동회복) 스킬 획득하기"
+      },
+	  {
+         "main": 50,
+         "text": "회 브레드(빵폭탄) 스킬 획득하기"
+      },
+	  {
+         "main": 51,
+         "text": "레벨 달성하기"
+      },
+	  {
+         "main": 52,
+         "text": "개 영구제 무기 활성화하기"
+      },
+	  {
+         "main": 53,
+         "text": "개 아이템 연구소에서 분해하기"
+      },
+	  {
+         "main": 54,
+         "text": "개 제작재료 사용하기"
+      },
+      {
+         "main": 56,
+         "text": "번 SP 아레나 참여하기"
+      },
+      {
+         "main": 57,
+         "text": "킬하기"
+      },
+      {
+         "main": 58,
+         "text": "회 로비에서 '콤보패스 레벨업' 채팅하기"
+      },
+	  {
+         "main": 59,
+         "text": "번 영희/철수 만나기"
+      },
+	  {
+         "main": 60,
+         "text": "번 클리어하기"
+      },
+	  {
+         "main": 61,
+         "text": "번 완주하기"
+      },
+	  {
+         "main": 62,
+         "text": "번 적 직접 처치하기"
+      },
+	  {
+         "main": 63,
+         "text": "개 획득하기"
+      },
+	  {
+         "main": 64,
+         "text": "번 플레이하기"
+      }
+   ]
+}

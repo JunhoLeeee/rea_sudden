@@ -1,0 +1,38 @@
+{
+  "package": "C:\\Nexon\\SuddenAttack\\game\\sa_text_00000.pkg",
+  "header": {
+    "path": "C:\\Nexon\\SuddenAttack\\game\\sa_text_00000.pkg",
+    "bytes": 1507328,
+    "version": 3,
+    "mask_bytes": 245,
+    "masked_string_units": 13,
+    "encrypted_header_offset": 276,
+    "index_padding_bytes": 182,
+    "observed_header_sha256": "fb603764eab80b5104ada9a2b0cac6fe8392c4166e11c754442b5345fed86e64",
+    "identity_scope": "header-ranges-only",
+    "byteorder": "little",
+    "count": 1,
+    "checksum": 459073
+  },
+  "index_raw_sha256": "4be633ec9ba92de56acb80c3fb8ef7eea2909dbce2d250392e0135b6e6775111",
+  "selected_members": 1,
+  "extracted": [
+    {
+      "path": "sa_text/satext.dat",
+      "offset": 1024,
+      "stored_bytes": 1505324,
+      "output_bytes": 14936597,
+      "ciphertext_sha256": "150169decd7263e62bcdcd325bf6888cf514533ce354a204b7615a5feb6e9ab6",
+      "output_sha256": "a09cbb3bb4e1c0963833c42e3d3d1726145d075efa4a9d3814905e9f2b9b254b",
+      "expected_md5": "37c77f01290b0820ffb6e0b360746a4d",
+      "md5_verified": true
+    }
+  ],
+  "errors": [],
+  "status": "selected-members-verified",
+  "limitations": [
+    "Only profiles with flags in 0..7 and no block hash table are supported.",
+    "Archived code is never loaded or executed.",
+    "Full package digest remains unknown; selected read ranges have SHA-256."
+  ]
+}

@@ -1,0 +1,420 @@
+
+[Question0]
+Question = "자아 정체성에 대한 설명으로 옳지 않은 것은?\n① 한번 만들어지면 쉽게 바뀌지 않는다.\n② 성인이 된 후에 형성되는 경우가 많다.\n③ 자신에 대한 통합적이고 총체적인 관념이다.\n④ ‘나는 누구인가?’라는 질문에 대한 대답이다.\n⑤ 자신의 행동을 결정하는 중요한 판단 기준이다."
+CorrectAnswer = 2
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question1]
+Question = "바람직한 자아 정체성 형성을 위해 기울여야 할 노력을 고른 것은?\nㄱ. 나를 둘러싼 세계를 폭넓고 정확히 이해한다.\nㄴ. 자신의 장점과 잠재력을 발견하기 위해 노력한다.\nㄷ. 자신이 가진 불리한 조건이나 환경은 낙관적으로 바라본다.\nㄹ. 자신의 흥미나 적성을 이해하기 위해 적극적으로 노력한다.\n① ㄱ, ㄴ ② ㄱ, ㄴ, ㄷ ③ ㄱ, ㄴ, ㄹ ④ ㄱ, ㄷ, ㄹ ⑤ ㄱ, ㄴ, ㄷ, ㄹ"
+CorrectAnswer = 3
+TitleLineCount = 5
+Source = "출처 - 올리드 참고서"
+
+[Question2]
+Question = "사회적 상호 작용에 대한 설명으로 옳지 않은 것은?\n① 개인 혹은 집단이 주체가 된다.\n② 협동, 경쟁, 갈등 등의 유형으로 나타난다.\n③ 과거에 비해 직접적 대면 방식이 늘고 있다.\n④ 지속적 상호 작용은 인간을 사회적 존재로 만든다.\n⑤ 사회적 관계 속에서 서로 영향을 주고받는 과정이다."
+CorrectAnswer = 3
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question3]
+Question = "다음 중 사실 판단에 해당하는 것은?\n① 장미꽃이 참 아름답구나.\n② 지각은 잘못된 습관이야.\n③ 서울은 살기 좋은 도시구나.\n④ 행복은 성적순이 아니잖아요.\n⑤ 오늘은 어제보다 비가 많이 왔어."
+CorrectAnswer = 5
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question4]
+Question = "다음에서 설명하는 개념으로 옳은 것은?\n모든 현상을 인간의 관점에서만 바라보고 해석하는 편견으로,\n“소쩍새 구슬피 운다.” 라는 말과 같이 의인화하여 설명하는\n경향을 말한다.\n① 종족의 우상 ② 동굴의 우상 ③ 시장의 우상\n④ 극장의 우상 ⑤ 인간의 우상"
+CorrectAnswer = 1
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question5]
+Question = "바람직한 자아 정체성을 확립해야 하는 이유를 고른 것은?\nㄱ. 긍정적인 자아 존중감을 형성할 수 있다.\nㄴ. 사회 속에서 나의 역할을 과소평가하게 된다.\nㄷ. 자기 자신에 대해 정확히 이해할 수 있게 된다.\nㄹ. 자신이 처한 현실을 낙관적으로 바라보게 된다.\n① ㄱ, ㄴ ② ㄱ, ㄷ ③ ㄱ, ㄹ ④ ㄴ, ㄷ ⑤ ㄷ, ㄹ"
+CorrectAnswer = 2
+TitleLineCount = 5
+Source = "출처 - 올리드 참고서"
+
+[Question6]
+Question = "인간 존엄성에 대한 옳은 설명을 고른 것은?\nㄱ. 사회적 약자만이 누려야 한다.\nㄴ. 자유와 평등을 함께 지녀야 실현된다.\nㄷ. 인간을 수단이 아닌 목적으로 대우해야 한다.\nㄹ. 국가의 최고법인 헌법에 규정되어야 보장된다.\n① ㄱ, ㄴ ② ㄱ, ㄷ ③ ㄴ, ㄷ ④ ㄴ, ㄹ ⑤ ㄷ, ㄹ"
+CorrectAnswer = 3
+TitleLineCount = 5
+Source = "출처 - 올리드 참고서"
+
+[Question7]
+Question = "인권 확대에 영향을 준 사건으로 보기 어려운 것은?\n① 3·1 운동\n② 6월 민주 항쟁\n③ 유신 헌법 제정\n④ 동학 농민 운동\n⑤ 호주제 폐지 결정"
+CorrectAnswer = 3
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question8]
+Question = "오늘날 사회적 약자로 보기 어려운 사람은?\n① 독거 노인\n② 지적 장애인\n③ 다문화 가정 자녀\n④ 조손(祖孫) 가정 자녀\n⑤ 결혼을 기피한 직장 여성"
+CorrectAnswer = 5
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question9]
+Question = "현재 우리나라에서 시행하고 있는 여성에게 할당하도록 하는 법안과\n유사한 제도를 고른 것은?\nㄱ. 장애인 의무 고용제  ㄴ. 직장인의 육아 휴직제\nㄷ. 국회의원 비례 대표제  ㄹ. 농어촌 학생 특별 전형\n① ㄱ, ㄴ ② ㄱ, ㄹ ③ ㄴ, ㄷ\n④ ㄴ, ㄹ ⑤ ㄷ, ㄹ"
+CorrectAnswer = 2
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question10]
+Question = "다양성을 존중해야 하는 이유를 고른 것은?\nㄱ. 개인의 취향과 가치관에도 우열이 있기 때문이다.\nㄴ. 모든 인간을 고유한 인격체로 존중하기 위해서이다.\nㄷ. 다양한 가치관을 가진 사회가 발전 가능성이 크기 때문이다.\nㄹ. 성별, 인종, 장애여부등에 따라 성과가 다르게 나타나기 때문이다.\n① ㄱ, ㄴ ② ㄱ, ㄷ ③ ㄴ, ㄷ ④ ㄴ, ㄹ ⑤ ㄷ, ㄹ"
+CorrectAnswer = 3
+TitleLineCount = 5
+Source = "출처 - 올리드 참고서"
+
+[Question11]
+Question = "최근 우리 사회에서 다양성을 존중하지 않아서 발생하는\n갈등의 사례로 보기 어려운 것은?\n① 학교 폭력 ② 종교 갈등\n③ 집단 따돌림 현상 ④ 결혼 이민자 차별\n⑤ 인터넷 중독 현상"
+CorrectAnswer = 5
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question12]
+Question = "오늘날 다문화 사회를 형성하는 구성 요소로 보기 어려운 것은?\n① 결혼 이주민\n② 외국인 근로자\n③ 외국인 유학생\n④ 외국인 관광객\n⑤ 북한 이탈 주민"
+CorrectAnswer = 4
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question13]
+Question = "다음 헌법 조항을 실현하는 조건에 해당하지 않는 것은?\nο 모든 국민은 인간다운 생활을 할 권리를 가진다.\n① 민주주의 구현 ② 시민 사회 성립\n③ 불합리한 차별 철폐 ④ 사회적 안전망 확보\n⑤ 공동 생산과 공동 분배"
+CorrectAnswer = 5
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question14]
+Question = "인간다운 삶의 요건 중 문화적 측면에 해당하는 내용을 고른 것은?\nㄱ. 시장 경제 체제  ㄴ. 다양한 교육 환경\nㄷ. 근로와 여가의 균형  ㄹ. 실질적 법치주의 실현\n① ㄱ, ㄴ ② ㄱ, ㄷ ③ ㄴ, ㄷ\n④ ㄴ, ㄹ ⑤ ㄷ, ㄹ"
+CorrectAnswer = 3
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question15]
+Question = "지역 격차를 줄이기 위한 정부의 정책 방향으로 보기 어려운 것은?\n① 광역 경제권 구축\n② 하향식 지역 개발\n③ 자율적인 지방 분권\n④ 특성화된 지역 발전\n⑤ 지역 주민의 의견 수렴"
+CorrectAnswer = 2
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question16]
+Question = "바람직한 자아 정체성 형성을 위한 노력으로 옳지 않은 것은?\n① 나를 둘러싼 세계를 폭넓고 정확히 이해한다.\n② 자신의 장점과 잠재력을 발견하기 위해 노력한다.\n③ 자신이 원하는 삶의 모습을 추상적으로 그려 본다.\n④ 자신의 흥미나 적성을 이해하기 위해 적극적으로 노력한다.\n⑤ 자신이 가진 불리한 조건이나 환경을 객관적으로 바라본다."
+CorrectAnswer = 3
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question17]
+Question = "오늘날 다음 내용에 해당하는 경우가 아닌 사람은?\n경제 수준이나 사회적 지위 등에서 열악한 위치에 있어\n사회적으로 배려와 보호의 대상이 되는 개인 또는 집단을 말한다.\n① 빈곤층 ② 장애인\n③ 독거노인 ④ 재혼한 여성\n⑤ 외국인 근로자"
+CorrectAnswer = 4
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question18]
+Question = "발해의 문화 교류에 대한 설명으로 옳은 것을 고른 것은?\nㄱ. 백제를 통해 중국 문물을 수용하였다.\nㄴ. 일본 아스카 문화의 발전에 큰 영향을 주었다.\nㄷ. 사회 저변에 소박한 말갈 문화도 남아 있었다.\nㄹ. 고구려 문화를 바탕으로 당 문화를 수용하였다.\n① ㄱ, ㄴ ② ㄱ, ㄷ ③ ㄴ, ㄷ ④ ㄴ, ㄹ ⑤ ㄷ, ㄹ"
+CorrectAnswer = 5
+TitleLineCount = 5
+Source = "출처 - 올리드 참고서"
+
+[Question19]
+Question = "다음 나라의 문화 범위를 알 수 있게 해 주는 유물로 옳은 것은?\n위치: 랴오닝 지방과 한반도 북부\n건국신화: 환웅 부족과 곰 토템 부족의 결합을 통한 건국\n건국이념: 홍익인간\n① 주먹도끼와 찍개 ② 명도전과 반량전 ③ 세형동검과 거푸집\n④ 빗살무늬토기와 덧무늬토기 ⑤ 미송리식토기와 탁자식고인돌"
+CorrectAnswer = 5
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question20]
+Question = "(가), (나)에 들어갈 제도를 옳게 연결한 것은?\n후삼국을 통일한 고려의 태조 왕건은 호족 세력을 견제하기 위해\n지방에 연고가 있는 고관에게 출신 지역의 고장을 통제하도록 한\n(가)제도와 호족의 자제를 수도에 머무르게 한 (나)제도를 실시하였다.\n① 향리 상수리 ② 상수리 기인 ③ 기인 사심관 \n④ 사심관 기인 ⑤ 상수리 사심관"
+CorrectAnswer = 4
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question21]
+Question = "다음 문제의 (  )에 알맞은 보기를 고르시오.\nο 개인이 자신이 속한 사회의 언어, 규범, 행동 양식 등을\n  배우는 것을 (  )(이)라고 한다.\n① 사회화 ② 인간 존중의식\n③ 유기적 ④ 비사회화\n⑤ 공동체의식"
+CorrectAnswer = 1
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question22]
+Question = "다음 문제의 (  )에 알맞은 보기를 고르시오.\nο 원만한 사회적 상호 작용을 위해서는 의사 소통 능력, \n  공동체 의식, 타인을 소중히 여기는 (  )등이 필요하다.\n① 사회화 ② 인간 존중의식\n③ 유기적 ④ 비사회화\n⑤ 공동체의식"
+CorrectAnswer = 2
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question23]
+Question = "다음 문제의 (  )에 알맞은 보기를 고르시오.\nο 인간과 자연환경은 서로 영향을 주고받는 (  ) 관계를 맺고 있다.\n① 사회화 ② 인간 존중의식\n③ 유기적 ④ 비사회화\n⑤ 공동체의식"
+CorrectAnswer = 3
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question24]
+Question = "다음 문제의 (  )에 알맞은 보기를 고르시오.\nο (  )은 자신의 특성과 역할을 이해함으로써 자신이 누구인지\n  스스로 깨닫는 것이다.\n① 자아 정체성 ② 자아 성찰\n③ 자아 존중감 ④ 인격\n⑤ 행동양식"
+CorrectAnswer = 1
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question25]
+Question = "다음 문제의 (  )에 알맞은 보기를 고르시오.\nο 자신의 내면을 살피고 반성하는 행위를 통해 자신에게 의미 있는\n  가치와 삶의 목표를 확인하는 (  )은 자아 정체성을 확립하기 위해\n  필요하다.\n① 자아 정체성 ② 자아 성찰 ③ 자아 존중감\n④ 인격 ⑤ 행동양식"
+CorrectAnswer = 2
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question26]
+Question = "다음 문제의 (  )에 알맞은 보기를 고르시오.\nο (  )은 타인과는 다른 자신의 특징을 긍정적으로 받아들이는\n  자세를 말한다.\n① 자아 정체성 ② 자아 성찰\n③ 자아 존중감 ④ 인격\n⑤ 행동양식"
+CorrectAnswer = 3
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question27]
+Question = "다음 문제의 (  )에 알맞은 보기를 고르시오.\nο 문화 갈등을 해결하기 위해서는 서로의 문화를\n  그 사회의 맥락에서 이해하려는 (  ) 태도가 필요하다.\n① 문화 상대주의 ② 인류의 보편적 가치\n③ 다문화 ④ 세계화\n⑤ 문화다양성"
+CorrectAnswer = 1
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question28]
+Question = "다음 문제의 (  )에 알맞은 보기를 고르시오.\nο 식인 풍습, 여아 살해 등 기본적 인권을 무시하는 문화는 (  )\n  기준에 비추어 비판하는 것이 필요하다.\n① 문화 상대주의 ② 인류의 보편적 가치\n③ 다문화 ④ 세계화\n⑤ 문화다양성"
+CorrectAnswer = 2
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question29]
+Question = "다음 문제의 (  )에 알맞은 보기를 고르시오.\nο 서로 다른 문화권에 속한 사람들 간의 접촉이 빈번해지면서\n  다양한 인종, 종교, 문화를 가진 사람들이 함께 어우러져 살아가는\n  (  ) 사회가 등장하였다.\n① 문화 상대주의 ② 인류의 보편적 가치 ③ 다문화\n④ 세계화 ⑤ 문화다양성"
+CorrectAnswer = 3
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question30]
+Question = "다음 ㉠을 실현하기 위한 제도적 장치로 옳지 않은 것은?\n( ㉠ ) 원리는 자유주의와 민주주의 이념이 결합한 정치 원리로,\n주권자인 시민의 의사를 반영하는 제도적 장치를 통해 개인의\n자유와 권리를 최대한 보장해야 한다는 이념을 담고 있다.\n① 복수 정당제 ② 지방 자치 제도 ③ 계획 경제 체제\n④ 권력 분립 제도 ⑤ 민주적 선거 제도"
+CorrectAnswer = 3
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question31]
+Question = "다음 정책의 공통적인 목적에 대한 설명으로 옳은 것은?\nο 미국의 소수자 우대 정책\nο 캐나다의 다문화주의 정책\nο 남아프리카 공화국의 흑백 통합 정책\n① 문화 갈등 해소 ② 빈부 격차 해소 ③ 지역 격차 해소\n④ 종교 갈등 해소 ⑤ 사회적 차별 해소"
+CorrectAnswer = 5
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question32]
+Question = "우리 사회가 다문화 사회로 변화했다는 사실을 나타내는 지표로\n적절하지 않은 것은?\n① 북한 이탈 주민 증가율 ② 다문화 가정 증가 추이\n③ 내국인의 해외여행 증가율 ④ 국내 거주 외국인 증가 추이\n⑤ 전체 혼인 건수 중 국제결혼 비율"
+CorrectAnswer = 3
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question33]
+Question = "다음 중 별의 진화 과정을 결정짓는 물리량은 무엇인가?\n① 질량 ② 부피 ③ 거리\n④ 밝기 ⑤ 표면 온도"
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question34]
+Question = "태양 에너지는 식물의 광합성에 의해 어떤 에너지로 전환 되는가?\n① 열에너지 ② 운동 에너지\n③ 위치 에너지 ④ 전기 에너지\n⑤ 화학 에너지"
+CorrectAnswer = 5
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question35]
+Question = "태양계의 형성 과정인 성운설에 대한 설명으로 옳지 않은 것은?\n① 회전하는 원반에서 행성이 형성되었다.\n② 미행성의 충돌로 원시 행성이 형성되었다.\n③ 성운의 중심부에서 원시 태양이 형성되었다.\n④ 성운이 수축하면서 회전 속도는 더욱 빨라졌다.\n⑤ 태양과 행성들은 모두 같은 물질로 이루어져 있다."
+CorrectAnswer = 5
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question36]
+Question = "다음 설명에 해당하는 태양의 부분으로 옳은 것은?\nο 수소 핵융합 반응이 일어난다.\nο 태양에서 에너지가 생성되는 곳이다.\nο 태양에서 온도와 압력이 가장 높은 부분이다.\n① 핵 ② 광구 ③ 채층\n④ 복사층 ⑤ 대류층"
+CorrectAnswer = 1
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question37]
+Question = "다음 중 태양계를 구성하는 천체가 아닌 것은?\n① 혜성 ② 위성 ③ 명왕성\n④ 북극성 ⑤ 소행성"
+CorrectAnswer = 4
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question38]
+Question = "다음 중 지구형 행성의 핵을 이루고 있는 물질로 옳은 것은?\n① 철 ② 헬륨 ③ 얼음\n④ 수소 ⑤ 규산염 암석"
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question39]
+Question = "다음 설명 중 지구형 행성의 특징으로 옳은 것은?\n① 질량이 크다.\n② 편평도가 크다.\n③ 가벼운 대기 성분을 가지고 있다.\n④ 암석으로 이루어진 핵을 가지고 있다.\n⑤ 녹는점이 높은 물질들로 구성되어 있다."
+CorrectAnswer = 5
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question40]
+Question = "목성형 행성보다 지구형 행성에서 더 큰 값을 가지는 물리량을\n있는 대로 고른 것은?\nㄱ. 반지름  ㄴ. 질량  ㄷ. 밀도\nㄹ. 자전 주기  ㅁ. 대기의 평균 분자량\n① ㄱ, ㄴ ② ㄱ, ㄷ ③ ㄹ, ㅁ\n④ ㄴ, ㄷ, ㅁ ⑤ ㄷ, ㄹ, ㅁ"
+CorrectAnswer = 5
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question41]
+Question = "어떤 행성의 공전 궤도 장반경이 4 AU라면, 이 행성의 공전 주기는?\n① 1년 ② 2년\n③ 4년 ④ 8년\n⑤ 16년"
+CorrectAnswer = 4
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question42]
+Question = "지구 자전에 의한 별의 일주 운동 방향과 공전에 의한 별자리의\n연주 운동 방향을 옳게 짝지은 것은?\n① 서 → 동 / 서 → 동 ② 서 → 동 / 동 → 서\n③ 동 → 서 / 서 → 동 ④ 동 → 서 / 동 → 서\n⑤ 동 → 서 / 불규칙"
+CorrectAnswer = 4
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question43]
+Question = "다음 중 기체 분자의 평균 운동 에너지에 영향을 주는 물리량은?\n① 행성의 질량 ② 행성의 표면 온도\n③ 기체 분자의 크기 ④ 기체 분자의 종류\n⑤ 기체 분자의 구조"
+CorrectAnswer = 2
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question44]
+Question = "다음 기체 중 극성 분자는?\n① 물(수증기) ② 수소\n③ 산소 ④ 질소\n⑤ 이산화탄소"
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question45]
+Question = "다음 중 새로운 해양판이 생성되는 곳은?\n① 해령 ② 해구\n③ 습곡 산맥 ④ 호상 열도\n⑤ 변환 단층"
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question46]
+Question = "수권의 염류를 구성하는 물질들은 지구계의 구성 요소 중\n주로 어디로부터 유입되었는가?\n① 지권 ② 기권\n③ 수권 ④ 생물권\n⑤ 외권"
+CorrectAnswer = 1
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question47]
+Question = "다음 중 화학적으로 가장 안정한 원소는?\n① 수소 ② 헬륨\n③ 탄소 ④ 산소\n⑤ 나트륨"
+CorrectAnswer = 2
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question48]
+Question = "다음 중 지구 자기장에 대한 설명으로 옳지 않은 것은?\n① 태양풍에 의해 형성된다.\n② 자기 북극은 자석의 S극이다.\n③ 대전 입자는 자기장 내에서 힘을 받는다.\n④ 우주선으로부터 지상의 생명체를 보호한다.\n⑤ 나침반의 바늘은 자기력선을 따라 움직인다."
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question49]
+Question = "태양 에너지에 대한 설명으로 옳은 것만을 있는 대로 고른 것은?\nㄱ. 대기와 해수의 순환을 일으킨다.\nㄴ. 생명체의 생명 활동을 유지시킨다.\nㄷ. 광합성 작용에 의해 화학 에너지로 전환된다.\n① ㄱ ② ㄴ ③ ㄱ, ㄷ\n④ ㄴ, ㄷ ⑤ ㄱ, ㄴ, ㄷ"
+CorrectAnswer = 5
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question50]
+Question = "태양계의 특징에 대한 설명으로 옳은 것만을 있는 대로 고른 것은?\nㄱ. 소행성대는 혜성의 주공급원이다.\nㄴ. 목성형 행성들은 층상 구조를 갖지 않는다.\nㄷ. 태양이 태양계 전체 질량의 대부분을 차지한다.\n① ㄱ ② ㄷ ③ ㄱ, ㄴ\n④ ㄴ, ㄷ ⑤ ㄱ, ㄴ, ㄷ"
+CorrectAnswer = 2
+TitleLineCount = 4
+Source = "출처 - 올리드 참고서"
+
+[Question51]
+Question = "다음 중 선캄브리아대에 대한 설명으로 옳은 것은?\n① 오존층 형성 ② 판게아의 분리\n③ 공룡의 대 멸종 ④ 캄브리아기 폭발\n⑤ 에디아카라 동물군"
+CorrectAnswer = 5
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question52]
+Question = "다음 중 현대의 진화설에서 집단의 유전자풀을 변화시키는\n가장 주된 요인은?\n① 이주 ② 돌연변이\n③ 자연선택 ④ 인위 선택\n⑤ 유전적 부동"
+CorrectAnswer = 3
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question53]
+Question = "컴퓨터는 2개의 신호를 표현할 수 있는 비트 단위로 정보를\n처리한다. 4비트를 이용하여 표현할 수 있는 서로 다른 정보의\n개수는 몇 개인가?\n① 2개 ② 4개\n③ 8개 ④ 16개\n⑤ 32개"
+CorrectAnswer = 4
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question54]
+Question = "아날로그 신호를 디지털 신호로 변환하는 이유에 대한 설명으로\n옳은 것만을 있는 대로 고른 것은?\nㄱ. 장기간 보존이 가능하다.\nㄴ. 오차에 덜 민감하여 안정적이다.\nㄷ. 아날로그 신호보다 더 빠르게 전송할 수 있다.\n① ㄱ ② ㄷ ③ ㄱ, ㄴ ④ ㄴ, ㄷ ⑤ ㄱ, ㄴ, ㄷ"
+CorrectAnswer = 3
+TitleLineCount = 5
+Source = "출처 - 올리드 참고서"
+
+[Question55]
+Question = "성간 물질이 주위의 별빛을 산란시켜 밝게 빛나는 성운은?\n① 반사 성운\n② 발광 성운(방출 성운)\n③ 암흑성운\n④ 녹색성운\n⑤ 독수리 성운"
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question56]
+Question = "고온의 별로부터 에너지를 흡수하여 스스로 빛을 내는 성운은?\n① 반사 성운\n② 발광 성운(방출 성운)\n③ 암흑성운\n④ 녹색성운\n⑤ 독수리 성운"
+CorrectAnswer = 2
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question57]
+Question = "성간 물질이 뒤에서 오는 별빛을 차단시켜 어둡게 보이는 성운은?\n① 반사 성운\n② 발광 성운(방출 성운)\n③ 암흑성운\n④ 녹색성운\n⑤ 독수리 성운"
+CorrectAnswer = 3
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question58]
+Question = "다음 설명에 해당하는 태양계의 형성과 관련된 천체는?\nο 태양계 성운이 회전 수축하여 태양계 성운의 중심부에 형성된\n  천체이다.\n① 운석 ② 혜성\n③ 미행성체 ④ 원시태양\n⑤ 은하"
+CorrectAnswer = 4
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question59]
+Question = "다음 설명에 해당하는 태양계의 형성과 관련된 천체는?\nο 태양계 성운의 원반을 이루고 있던 물질들이 응집되어 성장한\n  것으로, 이 천체의 충돌과 병합에 의해 원시 행성이 형성되었다.\n① 운석 ② 혜성\n③ 미행성체 ④ 원시태양\n⑤ 은하"
+CorrectAnswer = 3
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question60]
+Question = "다음 설명에 해당하는 태양계를 구성하는 행성은?\nο 표면이 암석으로 된 지각이 있는 행성이다.\n① 화성 ② 목성\n③ 토성 ④ 천왕성\n⑤ 해왕성"
+CorrectAnswer = 1
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question61]
+Question = "다음 설명에 해당하는 태양계를 구성하는 행성은?\nο 고리를 가지고 있는 행성이다.\n① 수성 ② 금성\n③ 지구 ④ 화성\n⑤ 토성"
+CorrectAnswer = 5
+TitleLineCount = 2
+Source = "출처 - 올리드 참고서"
+
+[Question62]
+Question = "다음 중 연주 시차에 대한 설명으로 옳은 것은?\n① 연주 시차는 가까운 별일수록 크게 나타난다.\n② 연주 시차는 별이 실제로 운동하기 때문에 생긴다.\n③ 연주 시차는 천구에서 밝은 별을 기준으로 측정한다.\n④ 연주 시차는 지구가 자전하기 때문에 나타나는 현상이다.\n⑤ 연주 시차를 측정하여 모든 별까지의 거리를 구할 수 있다."
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question63]
+Question = "다음 중 연주 시차가 작은 별에 대한 설명으로 가장 적절한 것은?\n① 거리가 먼 별\n② 반지름이 작은 별\n③ 절대 등급이 작은 별\n④ 표면 온도가 낮은 별\n⑤ 겉보기 등급이 작은 별"
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question64]
+Question = "다음의 스펙트럼에 대한 설명 중 옳지 않은 것은?\n① 분광기를 통해 볼 수 있다.\n② 불꽃색이 비슷한 원소도 스펙트럼은 다르다.\n③ 나트륨의 선 스펙트럼에서는 선명한 노란색이 나타난다.\n④ 금속의 불꽃을 분광기로 보면 연속된 무지개 색이 나타난다.\n⑤ 선 스펙트럼의 위치를 분석하여 원소의 종류를 알 수 있다."
+CorrectAnswer = 4
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question65]
+Question = "허블 상수 값이 현재보다 작아질 때 나타나는 현상으로 옳은 것을\n모두 고른 것은?\nㄱ. 우주의 팽창 속도가 작아질 것이다.\nㄴ. 외부 은하의 적색 편이가 작아질 것이다.\nㄷ. 외부 은하의 후퇴 속도가 작아질 것이다.\n① ㄱ ② ㄷ ③ ㄱ, ㄴ ④ ㄴ, ㄷ ⑤ ㄱ, ㄴ, ㄷ"
+CorrectAnswer = 5
+TitleLineCount = 5
+Source = "출처 - 올리드 참고서"
+
+[Question66]
+Question = "허블 상수를 구하기 위한 방법으로 가장 적절한 것은?\n① 멀리 있는 외부 은하의 거리와 후퇴 속도를 관측한다.\n② 우리 은하에 있는 구상 성단의 공간 분포를 조사한다.\n③ 안드로메다 은하에 있는 방출 성운의 온도를 조사한다.\n④ 태양의 선 스펙트럼을 분석하여 대기 성분을 분석한다.\n⑤ 행성상 성운의 스펙트럼을 분석하여 팽창 속도를 조사한다."
+CorrectAnswer = 1
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question67]
+Question = "자연계의 4가지 힘이 아닌 것을 모두 고른 것은?\nㄱ. 중력 ㄴ. 전자기력 ㄷ. 원심력\nㄹ. 마찰력 ㅁ. 강한 힘 ㅂ. 약한 힘\n① ㄱ, ㄴ ② ㄷ, ㄹ ③ ㄷ, ㅁ\n④ ㄱ, ㄷ, ㅁ ⑤ ㄴ, ㅁ, ㅂ"
+CorrectAnswer = 2
+TitleLineCount = 3
+Source = "출처 - 올리드 참고서"
+
+[Question68]
+Question = "자연계의 4가지 힘에 대한 설명 중 옳지 않은 것은?\n① 쿼크를 결합시키는 힘은 강한 힘이다.\n② 중력은 매우 먼 거리까지 힘이 작용한다.\n③ 우주 내에서 가장 강한 힘은 전자기력이다.\n④ 전자기력은 원자핵이 전자를 잡아두는 힘이다.\n⑤ 전자기력과 약한 힘이 가장 나중에 분리되었다."
+CorrectAnswer = 3
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"
+
+[Question69]
+Question = "다음 중 우주 배경 복사가 방출된 시기에 대한 설명으로 옳은 것은?\n① 빅뱅이 일어난 직후 쿼크가 형성되기 전\n② 쿼크가 모여 양성자와 중성자를 형성한 시기\n③ 양성자와 중성자가 모여 원자핵을 형성한 시기\n④ 원자핵과 전자가 결합하여 원자를 형성한 시기\n⑤ 성간 물질이 수축하여 최초의 별이 형성된 시기"
+CorrectAnswer = 4
+TitleLineCount = 1
+Source = "출처 - 올리드 참고서"

@@ -1,0 +1,551 @@
+
+// 헬게이드 팀/점수 정보 이미지.
+[HellgadeTopBlue]
+Filename = "sa_interface2\hud\HellGade\GameHUD\TopBlue.dtx"
+Width = 468
+Height = 68
+XOffset = 0
+YOffset = 0
+
+[HellgadeTopRed]
+Filename = "sa_interface2\hud\HellGade\GameHUD\TopRed.dtx"
+Width = 468
+Height = 68
+XOffset = 0
+YOffset = 0
+
+
+// 헬게이드 상단 건물 아이콘 에너지량 표시 이미지
+[HellgadeBuildingProgress]
+Filename = "sa_interface2\hud\hellgade\GameHUD\TopProgress.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+
+
+// 헬게이드 상단 건물아이콘에 대미지 입었을때 깜박이는 이미지
+[HellgadeHelliconHit]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconHit.dtx"
+Width = 42
+Height = 96
+XOffset = 2
+YOffset = 2
+
+// 헬게이드 상단 건물아이콘에 대미지 입었을때 깜박이는 이미지 : 같은편
+[HellgadeHelliconFriendHit]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconHit01.dtx"
+Width = 64
+Height = 64
+XOffset = 2
+YOffset = 2
+// 헬게이드 상단 건물아이콘에 대미지 입었을때 깜박이는 이미지 : 상대편
+[HellgadeHelliconEnemyHit]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconHit02.dtx"
+Width = 64
+Height = 64
+XOffset = 2
+YOffset = 2
+
+
+// 통합건물
+[HellgadeBuildingInfo399RN]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconRed005.dtx"
+Width = 46
+Height = 46
+XOffset = 0
+YOffset = 0
+
+[HellgadeBuildingInfo399RD]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconDestroy2.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+
+[HellgadeBuildingInfo399BN]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconBlue005.dtx"
+Width = 46
+Height = 46
+XOffset = 0
+YOffset = 0
+
+[HellgadeBuildingInfo399BD]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconDestroy.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+
+// 가드타워
+[HellgadeBuildingInfo300RN]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconRed001.dtx"
+Width = 46
+Height = 46
+XOffset = 0
+YOffset = 0
+
+[HellgadeBuildingInfo300RD]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconDestroy2.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+
+[HellgadeBuildingInfo300BN]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconBlue001.dtx"
+Width = 46
+Height = 46
+XOffset = 0
+YOffset = 0
+
+[HellgadeBuildingInfo300BD]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconDestroy.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+
+// 우라늄
+[HellgadeBuildingInfo301RN]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconRed005.dtx"
+Width = 46
+Height = 46
+XOffset = 0
+YOffset = 0
+
+[HellgadeBuildingInfo301RD]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconDestroy2.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+
+[HellgadeBuildingInfo301BN]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconBlue005.dtx"
+Width = 46
+Height = 46
+XOffset = 0
+YOffset = 0
+
+[HellgadeBuildingInfo301BD]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconDestroy.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+
+// 레이더 //임시로 Hellicon....003.dtx와 Hellicon....004.dtx의 리소스를 바꿔치기 함.. 조대환 20140718
+[HellgadeBuildingInfo302RN]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconRed004.dtx"
+Width = 46
+Height = 46
+XOffset = 0
+YOffset = 0
+
+[HellgadeBuildingInfo302RD]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconDestroy2.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+
+[HellgadeBuildingInfo302BN]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconBlue004.dtx"
+Width = 46
+Height = 46
+XOffset = 0
+YOffset = 0
+
+[HellgadeBuildingInfo302BD]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconDestroy.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+
+
+// 병영 //임시로 Hellicon....003.dtx와 Hellicon....004.dtx의 리소스를 바꿔치기 함.. 조대환 20140718
+[HellgadeBuildingInfo303RN]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconRed003.dtx"
+Width = 46
+Height = 46
+XOffset = 0
+YOffset = 0
+
+[HellgadeBuildingInfo303RD]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconDestroy2.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+
+[HellgadeBuildingInfo303BN]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconBlue003.dtx"
+Width = 46
+Height = 46
+XOffset = 0
+YOffset = 0
+
+[HellgadeBuildingInfo303BD]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconDestroy.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+
+
+// 공장
+[HellgadeBuildingInfo304RN]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconRed002.dtx"
+Width = 46
+Height = 46
+XOffset = 0
+YOffset = 0
+
+[HellgadeBuildingInfo304RD]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconDestroy2.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+
+[HellgadeBuildingInfo304BN]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconBlue002.dtx"
+Width = 46
+Height = 46
+XOffset = 0
+YOffset = 0
+
+[HellgadeBuildingInfo304BD]
+Filename = "sa_interface2\hud\hellgade\GameHUD\HelliconDestroy.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+
+
+// 10초마다 들어오는 경과 표시 이미지.
+[HellGoldProgress]
+Filename = "sa_interface2\hud\HellGade\GameHUD\HellGoldProgress.dtx"
+Width = 26
+Height = 24
+XOffset = 3 // HellGoldBackboard 기준으로 이동값.
+YOffset = 3 // HellGoldBackboard 기준으로 이동값.
+
+
+// 10초마다 들어오는 돈 효과 이미지
+[HellGoldPlus]
+Filename = "sa_interface2\hud\HellGade\GameHUD\HellGoldPlus.dtx"
+Width = 28
+Height = 16
+XOffset = 0
+YOffset = 0
+
+
+// 헬게이드 병과 이름 백보드.
+[HellgadeClassBackboard]
+Filename = "sa_interface2\hud\HellGade\ClassName\HellHellVechicle_bar.dtx"
+Width = 178
+Height = 20
+XOffset = 0
+YOffset = 0
+
+
+// 헬게이드 병과 이름 이미지
+[HellClassSet001]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set001.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet002]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set002.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet003]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set003.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet004]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set004.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet005]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set005.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet006]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set006.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet007]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set007.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet008]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set008.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet009]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set009.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet010]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set010.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet011]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set011.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet012]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set012.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet013]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set013.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet014]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set014.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet015]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set015.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet016]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set016.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet017]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set017.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet018]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set018.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet019]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set019.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+[HellClassSet020]
+Filename = "sa_interface2\hud\HellGade\ClassName\Set020.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = -8
+
+// 왼쪽아래 HP/AP 
+[HellgadeHPBackboard]
+Filename = "SA_Interface\\Hud\\Bar\\health_bar.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = 0
+
+[HellgadeAPBackboard]
+Filename = "SA_Interface\\Hud\\Bar\\Armor_bar.dtx"
+Width = 128
+Height = 32
+XOffset = 0
+YOffset = 0
+
+[HellgadeVehicleHPBackboard]
+Filename = "SA_Interface2\\hud\\HellGade\\ClassName\\HellVechicleHP_bar.dtx"
+Width = 178
+Height = 32
+XOffset = 0
+YOffset = 0
+
+
+// 상점 구입 불가상태 아이콘.
+[HellgadeShopDisableStateCost]
+Filename = "sa_interface2\\hud\\HellGade\\No001.dtx"
+Width = 64
+Height = 64
+XOffset = 0
+YOffset = 0
+
+[HellgadeShopDisableStateFull]
+Filename = "sa_interface2\\hud\\HellGade\\No002.dtx"
+Width = 64
+Height = 64
+XOffset = 0
+YOffset = 0
+
+[HellgadeShopDisableStateBuilding]
+Filename = "sa_interface2\\hud\\HellGade\\No003.dtx"
+Width = 64
+Height = 64
+XOffset = 0
+YOffset = 0
+
+[HellgadeShopDisableStateDependency5]
+Filename = "sa_interface2\\hud\\HellGade\\No0010.dtx"
+Width = 64
+Height = 64
+XOffset = 0
+YOffset = 0
+
+[HellgadeShopDisableStateDependency6]
+Filename = "sa_interface2\\hud\\HellGade\\No006.dtx"
+Width = 64
+Height = 64
+XOffset = 0
+YOffset = 0
+
+// 핵폭탄 유도기 설치 표시 //적군 표시 
+[HellgadeNuclearEventIconEnemy]
+Filename = "sa_interface2\\hud\\HellGade\\hg_nuke_bcon_d1.dtx"
+Width = 42
+Height = 42
+XOffset = 0
+YOffset = 0
+
+// 핵폭탄 유도기 설치 표시 //아군 표시 
+[HellgadeNuclearEventIconFriendly]
+Filename = "sa_interface2\\hud\\HellGade\\hg_nuke_bcon_d2.dtx"
+Width = 42
+Height = 42
+XOffset = 0
+YOffset = 0
+
+// 게임 빌딩 정보 hud에 보여질 폭탄 설치중 이미지.
+[HellgadeBuildingC4Notice1]
+Filename = "sa_interface2\hud\HellGade\GameHUD\Timec4_01.dtx"
+Width = 26
+Height = 30
+XOffset = 0
+YOffset = 0
+[HellgadeBuildingC4Notice2]
+Filename = "sa_interface2\hud\HellGade\GameHUD\Timec4_02.dtx"
+Width = 26
+Height = 30
+XOffset = 8
+YOffset = 6
+[HellgadeBuildingC4Notice3]
+Filename = "sa_interface2\hud\HellGade\GameHUD\Timec4_03.dtx"
+Width = 26
+Height = 30
+XOffset = 8
+YOffset = 6
+[HellgadeNotice30000]
+Filename = "sa_interface2\hud\HellGade\GameHUD\hg_nuclear_alert__.dtx"		// 없는 파일로 세팅
+NoticeType = 1
+[HellgadeNotice30001]
+Filename = "sa_interface2\hud\HellGade\GameHUD\hg_nuclear_alert.dtx"		
+NoticeType = 1
+
+
+[HellgadeResourceVehicleRN]
+Filename = "sa_interface2\hud\HellGade\GameHUD\HelliconRed007.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+[HellgadeResourceVehicleRD]
+Filename = "sa_interface2\hud\HellGade\GameHUD\HelliconDestroy01.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+[HellgadeResourceVehicleBN]
+Filename = "sa_interface2\hud\HellGade\GameHUD\HelliconBlue007.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+[HellgadeResourceVehicleBD]
+Filename = "sa_interface2\hud\HellGade\GameHUD\HelliconDestroy02.dtx"
+Width = 42
+Height = 42
+XOffset = 2
+YOffset = 2
+[HellgadeResourceVehicleFriendHitR]
+Filename = "sa_interface2\hud\HellGade\GameHUD\HelliconHit03.dtx"
+Width = 64
+Height = 64
+XOffset = 4
+YOffset = 4
+[HellgadeResourceVehicleEnemyHitR]
+Filename = "sa_interface2\hud\HellGade\GameHUD\HelliconHit04.dtx"
+Width = 64
+Height = 64
+XOffset = 4
+YOffset = 4
+[HellgadeResourceVehicleFriendHitB]
+Filename = "sa_interface2\hud\HellGade\GameHUD\HelliconHit05.dtx"
+Width = 64
+Height = 64
+XOffset = 4
+YOffset = 4
+[HellgadeResourceVehicleEnemyHitB]
+Filename = "sa_interface2\hud\HellGade\GameHUD\HelliconHit06.dtx"
+Width = 64
+Height = 64
+XOffset = 4
+YOffset = 4
+[HellgadeResourceVehicleProgress]
+Filename = "sa_interface2\hud\hellgade\GameHUD\TopProgress.dtx"
+Width = 35
+Height = 35
+XOffset = 2
+YOffset = 2

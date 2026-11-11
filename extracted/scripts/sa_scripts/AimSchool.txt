@@ -1,0 +1,229 @@
+{
+	"Stage_Settings":
+	[
+		{
+			"StageIndex" : 0,
+			"comment" : "1스테이지 세팅",
+			"StageDemandTarget" : 40, 
+			"StageDemandAcc" : 30.0,    
+			"StageLimitTime" : 90.0,
+			"StageSpawnerPresetType" : "Grid",
+			"SpawnerSelectionType" : "Standalone",
+			"CreationDelayTime" : -1.0,
+			"StageTargetQuantity" : 1
+		},
+		{
+			"StageIndex" : 1,
+			"comment" : "2스테이지 세팅",
+			"StageDemandTarget" : 40, 
+			"StageDemandAcc" : 30.0,    
+			"StageLimitTime" : 90.0,
+			"StageSpawnerPresetType" : "Grid",
+			"SpawnerSelectionType" : "Random",
+			"CreationDelayTime" : -1.0,
+			"StageTargetQuantity" : 2,
+		},
+		{
+			"StageIndex" : 2,
+			"comment" : "3스테이지 세팅",
+			"StageDemandTarget" : 40, 
+			"StageDemandAcc" : 30.0,    
+			"StageLimitTime" : 90.0,
+			"StageSpawnerPresetType" : "Spread",
+			"SpawnerSelectionType" : "Standalone",
+			"CreationDelayTime" : -1.0,
+			"StageTargetQuantity" : 2
+		},
+		{
+			"StageIndex" : 3,
+			"comment" : "4스테이지 세팅",
+			"StageDemandTarget" : 40,
+			"StageDemandAcc" : 30.0,    
+			"StageLimitTime" : 90.0,
+			"StageSpawnerPresetType" : "Spread",
+			"SpawnerSelectionType" : "Standalone",
+			"CreationDelayTime" : -1.0,
+			"StageTargetQuantity" : 1
+		},
+		{
+			"StageIndex" : 4,
+			"comment" : "5스테이지 세팅",
+			"StageDemandTarget" : 40, 
+			"StageDemandAcc" : 30.0,    
+			"StageLimitTime" : 90.0,
+			"StageSpawnerPresetType" : "Spread",
+			"SpawnerSelectionType" : "Random",
+			"CreationDelayTime" : -1.0,
+			"SpawnerTargetArrangeNum" : 5,
+			"StageTargetQuantity" : 5
+		},
+		{
+			"StageIndex" : 5,
+			"comment" : "6스테이지 세팅",
+			"StageDemandTarget" : 40, 
+			"StageDemandAcc" : 30.0,    
+			"StageLimitTime" : 90.0,
+			"StageSpawnerPresetType" : "Side",
+			"SpawnerSelectionType" : "Standalone",
+			"CreationDelayTime" : -1.0,
+			"StageTargetQuantity" : 6
+		},
+		{
+			"StageIndex" : 6,
+			"comment" : "7스테이지 세팅",
+			"StageDemandTarget" : 40, 
+			"StageDemandAcc" : 30.0,    
+			"StageLimitTime" : 90.0,
+			"StageSpawnerPresetType" : "Spread",
+			"SpawnerSelectionType" : "Random",
+			"CreationDelayTime" : -1.0,
+			"SpawnerTargetArrangeNum" : 2,
+			"StageTargetQuantity" : 2
+		},
+		{
+			"StageIndex" : 7,
+			"comment" : "8스테이지 세팅",
+			"StageDemandTarget" : 30, 
+			"StageDemandAcc" : 30.0,    
+			"StageLimitTime" : 90.0,
+			"StageSpawnerPresetType" : "Spread",
+			"SpawnerSelectionType" : "Random",
+			"SpawnerTargetArrangeNum" : 2,
+			"CreationDelayTime" : -1.0,
+			"StageTargetQuantity" : 2
+		},
+		{
+			"StageIndex" : 8,
+			"comment" : "9스테이지 세팅",
+			"StageDemandTarget" : 30, 
+			"StageDemandAcc" : 30.0,    
+			"StageLimitTime" : 90.0,
+			"StageSpawnerPresetType" : "Spread",
+			"SpawnerSelectionType" : "Random",
+			"SpawnerTargetArrangeNum" : 2,
+			"CreationDelayTime" : -1.0,
+			"StageTargetQuantity" : 2
+		},
+		{
+			"StageIndex" : 9,
+			"comment" : "10스테이지 세팅",
+			"StageDemandTarget" : 30, 
+			"StageDemandAcc" : 30.0,    
+			"StageLimitTime" : 90.0,
+			"StageSpawnerPresetType" : "Spread",
+			"SpawnerSelectionType" : "Random",
+			"SpawnerTargetArrangeNum" : 1,
+			"CreationDelayTime" : -1.0,
+			"StageTargetQuantity" : 1
+		}
+	],
+	"Target_Settings":
+	[
+		{
+			"StageIndex" : 0,  
+			"comment" : "1스테이지 타겟",                    
+			"TargetLifeTime" : -1.0,
+			"TargetDefaultSizeFactor" : 1.5
+		},
+		{	 
+			"StageIndex" : 1,  
+			"comment" : "2스테이지 타겟",                    
+			"TargetLifeTime" : 1.0,
+			"TargetDefaultSizeFactor" : 1.5
+		},
+		{	 
+			"StageIndex" : 2,  
+			"comment" : "3스테이지 타겟",                     
+			"TargetLifeTime" : 2.0,
+			"TargetDefaultSizeFactor" : 0.1,
+			"MinSizeFactor" : 0.1,
+			"MaxSizeFactor" : 3.0,
+			"SizeChangeSpeedRandomMax" : 1.1,
+			"SizeChangeSpeedRandomMin" : 1.1
+		},
+		{	 
+			"StageIndex" : 3,  
+			"comment" : "4스테이지 타겟",                    
+			"TargetLifeTime" : 1.5,
+			"TargetDefaultSizeFactor" : 1.5,
+			"TargetMoveMaxRange" : [1.0, 0.2, 0.0],
+			"TargetMoveMinRange" : [-1.0, 0.0, 0.0],
+			"TargetMoveMaxDist" : 500.0,
+			"TargetMoveSpeedRandMin" : 150.0,
+			"TargetMoveSpeedRandMax" : 200.0,
+			"MoveToggleFlag" : true,
+			"MoveType" : "Linear"
+		},
+		{	 
+			"StageIndex" : 4,  
+			"comment" : "5스테이지 타겟",                    
+			"TargetLifeTime" : -1.0,
+			"TargetDefaultSizeFactor" : 1.5,
+			"TargetMoveMaxRange" : [1.0, 0.0, 0.0],
+			"TargetMoveMinRange" : [-1.0, 0.0, 0.0],
+			"TargetMoveMaxDist" : 550.0,
+			"TargetMoveSpeedRandMin" : 200.0,
+			"TargetMoveSpeedRandMax" : 250.0,
+			"MoveType" : "Linear"
+		},
+		{
+			"StageIndex" : 5,  
+			"comment" : "6스테이지 타겟",                   
+			"TargetLifeTime" : -1.0,
+			"TargetDefaultSizeFactor" : 1.5,
+			"TargetMoveSpeedRandMin" : 200.0,
+			"TargetMoveSpeedRandMax" : 300.0,
+			"TargetMoveMaxDist" : 1200.0,
+			"TargetMoveMaxRange" : [1.0, 0.0, 0.0],
+			"TargetMoveMinRange" : [-1.0, 0.0, 0.0],
+			"MoveInsideBox" : true,
+			"MoveType" : "Parabola"
+		},
+		{
+			"StageIndex" : 6,  
+			"comment" : "7스테이지 타겟",                   
+			"TargetLifeTime" : -1.0,
+			"TargetDefaultSizeFactor" : 1.0,
+			"TargetMoveMaxRange" : [1.0, 0.0, 0.0],
+			"TargetMoveMinRange" : [-1.0, 0.0, 0.0],
+			"TargetMoveMaxDist" : 50.0,
+			"TargetMoveSpeedRandMin" : 100.0,
+			"TargetMoveSpeedRandMax" : 150.0,
+			"MoveType" : "Linear",
+			"Human" : true	
+		},
+		{
+			"StageIndex" : 7,  
+			"comment" : "8스테이지 타겟",                     
+			"TargetLifeTime" : -1.0,
+			"TargetDefaultSizeFactor" : 1.0,
+			"TargetMoveSpeedRandMin" : 100.0,
+			"TargetMoveSpeedRandMax" : 150.0,
+			"TargetMoveMaxDist" : 100.0,
+			"TargetMoveMaxRange" : [1.0, 0.0, 0.0],
+			"TargetMoveMinRange" : [-1.0, 0.0, 0.0],
+			"MoveType" : "Linear",
+			"Human" : true
+		},
+		{	 
+			"StageIndex" : 8,  
+			"comment" : "9스테이지 타겟",                     
+			"TargetLifeTime" : -1.0,
+			"TargetDefaultSizeFactor" : 1.0,
+			"Human" : true
+		},
+		{	 
+			"StageIndex" : 9,  
+			"comment" : "10스테이지 타겟",                   
+			"TargetLifeTime" : 3.0,
+			"TargetDefaultSizeFactor" : 1.0,
+			"TargetMoveSpeedRandMin" : 150.0,
+			"TargetMoveSpeedRandMax" : 200.0,
+			"TargetMoveMaxDist" : 100.0,
+			"TargetMoveMaxRange" : [1.0, 0.0, 0.0],
+			"TargetMoveMinRange" : [-1.0, 0.0, 0.0],
+			"MoveType" : "Linear",
+			"Human" : true
+		}
+	]
+}

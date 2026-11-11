@@ -1,0 +1,1430 @@
+{
+  "path": "extracted\\game-file\\game_file\\Object.lto",
+  "bytes": 6690664,
+  "sha256": "ee0971dc86703b1bc0a81b0315d144f807f26e797fb4a1c68ab6d9400b6225b6",
+  "image_base": "0x180000000",
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "raw_offset": 1024,
+      "raw_size": 4916224,
+      "virtual_size": 4916196
+    },
+    {
+      "name": ".rdata",
+      "rva": 4923392,
+      "raw_offset": 4917248,
+      "raw_size": 1077248,
+      "virtual_size": 1076860
+    },
+    {
+      "name": ".data",
+      "rva": 6000640,
+      "raw_offset": 5994496,
+      "raw_size": 363008,
+      "virtual_size": 1085520
+    },
+    {
+      "name": ".pdata",
+      "rva": 7090176,
+      "raw_offset": 6357504,
+      "raw_size": 249856,
+      "virtual_size": 249840
+    },
+    {
+      "name": ".rsrc",
+      "rva": 7340032,
+      "raw_offset": 6607360,
+      "raw_size": 1536,
+      "virtual_size": 1288
+    },
+    {
+      "name": ".reloc",
+      "rva": 7344128,
+      "raw_offset": 6608896,
+      "raw_size": 71168,
+      "virtual_size": 70788
+    }
+  ],
+  "pattern": "WalkSpeed|JumpSpeed|RunSpeed|Gravity|serverbutes|PlayerObj|Damage|WeaponMgr",
+  "matches": [
+    {
+      "offset": 4933000,
+      "bytes": 7,
+      "encoding": "ascii",
+      "address": "0x1804b5d88",
+      "value": "Gravity"
+    },
+    {
+      "offset": 4936112,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x1804b69b0",
+      "value": "WalkSpeedMod"
+    },
+    {
+      "offset": 4936128,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x1804b69c0",
+      "value": "RunSpeedMod"
+    },
+    {
+      "offset": 4938048,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x1804b7140",
+      "value": "WeaponDamageRate"
+    },
+    {
+      "offset": 4938304,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x1804b7240",
+      "value": "NoDamage"
+    },
+    {
+      "offset": 4942128,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x1804b8130",
+      "value": "PlayerDamageSound%d"
+    },
+    {
+      "offset": 4942320,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x1804b81f0",
+      "value": "GravityScale"
+    },
+    {
+      "offset": 4944024,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x1804b8898",
+      "value": "RangeDamage"
+    },
+    {
+      "offset": 4944056,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x1804b88b8",
+      "value": "DamagePenalty"
+    },
+    {
+      "offset": 4944072,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x1804b88c8",
+      "value": "DamagePenaltyTime"
+    },
+    {
+      "offset": 4944096,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x1804b88e0",
+      "value": "RecoilDamage"
+    },
+    {
+      "offset": 4946992,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x1804b9430",
+      "value": "GravityOverride"
+    },
+    {
+      "offset": 4951160,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x1804ba478",
+      "value": "AttackDamage"
+    },
+    {
+      "offset": 4951440,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x1804ba590",
+      "value": "WeaponDamageGrade"
+    },
+    {
+      "offset": 4951864,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x1804ba738",
+      "value": "DefenceStimpackPlusDamage"
+    },
+    {
+      "offset": 4952112,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x1804ba830",
+      "value": "ZombieFireDamageTime"
+    },
+    {
+      "offset": 4952136,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x1804ba848",
+      "value": "ZombieFireDamage"
+    },
+    {
+      "offset": 4952336,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x1804ba910",
+      "value": "ZombieHowlDamage"
+    },
+    {
+      "offset": 4952672,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x1804baa60",
+      "value": "ZombieSingedPoisonDamage"
+    },
+    {
+      "offset": 4952728,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x1804baa98",
+      "value": "CoinRevivalKillDamage"
+    },
+    {
+      "offset": 4952808,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x1804baae8",
+      "value": "PollutionAreaDamage"
+    },
+    {
+      "offset": 4952936,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x1804bab68",
+      "value": "SuicidePoisonDamage"
+    },
+    {
+      "offset": 4954272,
+      "bytes": 31,
+      "encoding": "ascii",
+      "address": "0x1804bb0a0",
+      "value": "AI_Defence_Upgrade_WeaponDamage"
+    },
+    {
+      "offset": 4955136,
+      "bytes": 26,
+      "encoding": "ascii",
+      "address": "0x1804bb400",
+      "value": "SA_SCRIPTS\\DamageTypes.txt"
+    },
+    {
+      "offset": 4956968,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x1804bbb28",
+      "value": "SolidAndGravity"
+    },
+    {
+      "offset": 4962952,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x1804bd288",
+      "value": "bUseHitDamage"
+    },
+    {
+      "offset": 4965512,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x1804bdc88",
+      "value": "Node%dDamageFactor"
+    },
+    {
+      "offset": 4966568,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x1804be0a8",
+      "value": "UnalertDamageFactor"
+    },
+    {
+      "offset": 4967960,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804be618",
+      "value": "ShowDamageInfo"
+    },
+    {
+      "offset": 4969760,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x1804bed20",
+      "value": "DamageRate"
+    },
+    {
+      "offset": 4969776,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804bed30",
+      "value": "DamageInfectee"
+    },
+    {
+      "offset": 4969792,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x1804bed40",
+      "value": "DamageAccAdd"
+    },
+    {
+      "offset": 4971744,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x1804bf4e0",
+      "value": "ShieldBlockDamage"
+    },
+    {
+      "offset": 4971768,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x1804bf4f8",
+      "value": "OnlyShieldDamage"
+    },
+    {
+      "offset": 4971880,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x1804bf568",
+      "value": "BombShieldDamage"
+    },
+    {
+      "offset": 4971904,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x1804bf580",
+      "value": "OtherBombShieldDamage"
+    },
+    {
+      "offset": 4980752,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x1804c1810",
+      "value": "SupportARDamage"
+    },
+    {
+      "offset": 4980768,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x1804c1820",
+      "value": "SupportSRDamage"
+    },
+    {
+      "offset": 4981128,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x1804c1988",
+      "value": "GiveDamage"
+    },
+    {
+      "offset": 4981240,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x1804c19f8",
+      "value": "DamageEventInfos"
+    },
+    {
+      "offset": 4981320,
+      "bytes": 6,
+      "encoding": "ascii",
+      "address": "0x1804c1a48",
+      "value": "Damage"
+    },
+    {
+      "offset": 4998592,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x1804c5dc0",
+      "value": "BloodDamageRate"
+    },
+    {
+      "offset": 4998608,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x1804c5dd0",
+      "value": "BloodDamageTick"
+    },
+    {
+      "offset": 4998624,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x1804c5de0",
+      "value": "BloodDamageDuration"
+    },
+    {
+      "offset": 4998648,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x1804c5df8",
+      "value": "BloodDamageAccumulateTime"
+    },
+    {
+      "offset": 4998680,
+      "bytes": 27,
+      "encoding": "ascii",
+      "address": "0x1804c5e18",
+      "value": "BloodDamageAccumulateDamage"
+    },
+    {
+      "offset": 4998928,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x1804c5f10",
+      "value": "DoDamageDying"
+    },
+    {
+      "offset": 5005392,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x1804c7850",
+      "value": "BulletDamageDampen"
+    },
+    {
+      "offset": 5006792,
+      "bytes": 30,
+      "encoding": "ascii",
+      "address": "0x1804c7dc8",
+      "value": "SoundFileName_BarricadeDamaged"
+    },
+    {
+      "offset": 5007176,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804c7f48",
+      "value": "Eon_NeedDamage"
+    },
+    {
+      "offset": 5007192,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x1804c7f58",
+      "value": "Eon_DamageLimit"
+    },
+    {
+      "offset": 5009152,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x1804c8700",
+      "value": "IsAccDamageWeapon"
+    },
+    {
+      "offset": 5009760,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x1804c8960",
+      "value": "HitDamageSkin"
+    },
+    {
+      "offset": 5011392,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804c8fc0",
+      "value": "ModeDamageRate"
+    },
+    {
+      "offset": 5013240,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x1804c96f8",
+      "value": "ComboInstDamage"
+    },
+    {
+      "offset": 5014008,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x1804c99f8",
+      "value": "InstDamage"
+    },
+    {
+      "offset": 5014024,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x1804c9a08",
+      "value": "SpecialInstDamage"
+    },
+    {
+      "offset": 5014088,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x1804c9a48",
+      "value": "SpecialInstDamage2"
+    },
+    {
+      "offset": 5014112,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x1804c9a60",
+      "value": "SpecialInstDamage3"
+    },
+    {
+      "offset": 5014136,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804c9a78",
+      "value": "InstDamageType"
+    },
+    {
+      "offset": 5014152,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x1804c9a88",
+      "value": "ParentInstDamageType"
+    },
+    {
+      "offset": 5014176,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x1804c9aa0",
+      "value": "AreaDamage"
+    },
+    {
+      "offset": 5014192,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804c9ab0",
+      "value": "AreaDamageType"
+    },
+    {
+      "offset": 5014208,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x1804c9ac0",
+      "value": "AreaDamageRadius"
+    },
+    {
+      "offset": 5014232,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804c9ad8",
+      "value": "AreaDamageTime"
+    },
+    {
+      "offset": 5014248,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x1804c9ae8",
+      "value": "AIAreaDamageRadius"
+    },
+    {
+      "offset": 5014400,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804c9b80",
+      "value": "PiercingDamage"
+    },
+    {
+      "offset": 5014568,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x1804c9c28",
+      "value": "InstDamageBipHead"
+    },
+    {
+      "offset": 5014712,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x1804c9cb8",
+      "value": "MultiplyDamageNode"
+    },
+    {
+      "offset": 5014848,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x1804c9d40",
+      "value": "RangedDamageA"
+    },
+    {
+      "offset": 5014864,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x1804c9d50",
+      "value": "RangedDamageB"
+    },
+    {
+      "offset": 5015584,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804ca020",
+      "value": "NoPlayerDamage"
+    },
+    {
+      "offset": 5016264,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x1804ca2c8",
+      "value": "DisplayDamage"
+    },
+    {
+      "offset": 5022704,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x1804cbbf0",
+      "value": "OnDamage"
+    },
+    {
+      "offset": 5053688,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x1804d34f8",
+      "value": "MaxDamageModifier"
+    },
+    {
+      "offset": 5061432,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804d5338",
+      "value": "DamageSleeping"
+    },
+    {
+      "offset": 5061448,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x1804d5348",
+      "value": "DamageStunned"
+    },
+    {
+      "offset": 5061464,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x1804d5358",
+      "value": "DamageTrapped"
+    },
+    {
+      "offset": 5061480,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x1804d5368",
+      "value": "DamageGlued"
+    },
+    {
+      "offset": 5061496,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804d5378",
+      "value": "DamageLaughing"
+    },
+    {
+      "offset": 5061512,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804d5388",
+      "value": "DamageSlipping"
+    },
+    {
+      "offset": 5061528,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x1804d5398",
+      "value": "DamageBurning"
+    },
+    {
+      "offset": 5061544,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804d53a8",
+      "value": "DamageBleeding"
+    },
+    {
+      "offset": 5061560,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x1804d53b8",
+      "value": "DamageChoking"
+    },
+    {
+      "offset": 5061576,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x1804d53c8",
+      "value": "DamageElectrocuting"
+    },
+    {
+      "offset": 5061600,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x1804d53e0",
+      "value": "DamagePoisoning"
+    },
+    {
+      "offset": 5074880,
+      "bytes": 36,
+      "encoding": "ascii",
+      "address": "0x1804d87c0",
+      "value": "Prop Filename %s; Skin %s; Gravity 0"
+    },
+    {
+      "offset": 5074928,
+      "bytes": 72,
+      "encoding": "ascii",
+      "address": "0x1804d87f0",
+      "value": "WeaponItem Gravity 0;AmmoAmount %d;WeaponType %s;AmmoType %s;MPRespawn 0"
+    },
+    {
+      "offset": 5085040,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x1804daf70",
+      "value": "DamageProperties"
+    },
+    {
+      "offset": 5086024,
+      "bytes": 23,
+      "encoding": "ascii",
+      "address": "0x1804db348",
+      "value": "DamagePercentForCommand"
+    },
+    {
+      "offset": 5086048,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x1804db360",
+      "value": "DamageTriggerCounter"
+    },
+    {
+      "offset": 5086072,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x1804db378",
+      "value": "DamageCommand"
+    },
+    {
+      "offset": 5086088,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x1804db388",
+      "value": "DamageTriggerNumSends"
+    },
+    {
+      "offset": 5086112,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804db3a0",
+      "value": "DamagerMessage"
+    },
+    {
+      "offset": 5086144,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x1804db3c0",
+      "value": "DamagePercentCommand"
+    },
+    {
+      "offset": 5086192,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x1804db3f0",
+      "value": "PlayerDamageCommand"
+    },
+    {
+      "offset": 5086256,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x1804db430",
+      "value": "CanDamage"
+    },
+    {
+      "offset": 5087176,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x1804db7c8",
+      "value": "CANDAMAGE <bool>"
+    },
+    {
+      "offset": 5087200,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x1804db7e0",
+      "value": "CANDAMAGE"
+    },
+    {
+      "offset": 5089160,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x1804dbf88",
+      "value": "%s Gravity 1"
+    },
+    {
+      "offset": 5091816,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x1804dc9e8",
+      "value": "CClanRoomPlayerObj"
+    },
+    {
+      "offset": 5093088,
+      "bytes": 41,
+      "encoding": "ascii",
+      "address": "0x1804dcee0",
+      "value": "CPlayerObj::Respawn(): Invalid StartPoint"
+    },
+    {
+      "offset": 5102840,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x1804df4f8",
+      "value": "CPlayerObj"
+    },
+    {
+      "offset": 5117624,
+      "bytes": 62,
+      "encoding": "ascii",
+      "address": "0x1804e2eb8",
+      "value": "[CRASH][ZOMBIE] AIIndex(%d) / HP(%f) / MAXHP(%f) / Damage(%f) "
+    },
+    {
+      "offset": 5117824,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x1804e2f80",
+      "value": "SetDamage"
+    },
+    {
+      "offset": 5118104,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x1804e3098",
+      "value": "DamageFactor"
+    },
+    {
+      "offset": 5123160,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x1804e4458",
+      "value": "damage_normal_char"
+    },
+    {
+      "offset": 5123184,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x1804e4470",
+      "value": "damage_normal_obj"
+    },
+    {
+      "offset": 5123208,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x1804e4488",
+      "value": "damage_core_char"
+    },
+    {
+      "offset": 5123232,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x1804e44a0",
+      "value": "damage_core_obj"
+    },
+    {
+      "offset": 5123248,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x1804e44b0",
+      "value": "damage_tick"
+    },
+    {
+      "offset": 5123264,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x1804e44c0",
+      "value": "damage_type"
+    },
+    {
+      "offset": 5125624,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x1804e4df8",
+      "value": "CDisasterPlayerObj"
+    },
+    {
+      "offset": 5128456,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x1804e5908",
+      "value": "DamageType"
+    },
+    {
+      "offset": 5130904,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x1804e6298",
+      "value": "DamageSound"
+    },
+    {
+      "offset": 5137584,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804e7cb0",
+      "value": "TrapTimeDamage"
+    },
+    {
+      "offset": 5139624,
+      "bytes": 30,
+      "encoding": "ascii",
+      "address": "0x1804e84a8",
+      "value": "SKILL_CRITICAL_DAMAGE_MULTIPLE"
+    },
+    {
+      "offset": 5139656,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x1804e84c8",
+      "value": "BASIC_DAMAGE_MIN_VALUE"
+    },
+    {
+      "offset": 5139760,
+      "bytes": 34,
+      "encoding": "ascii",
+      "address": "0x1804e8530",
+      "value": "ReceiveMandateWeaponInfo PlayerObj"
+    },
+    {
+      "offset": 5146168,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x1804e9e38",
+      "value": "DamageRadius"
+    },
+    {
+      "offset": 5146184,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x1804e9e48",
+      "value": "MaxDamage"
+    },
+    {
+      "offset": 5148136,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x1804ea5e8",
+      "value": "CFindRealPlayerObj"
+    },
+    {
+      "offset": 5157120,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x1804ec900",
+      "value": "MID_ALLSTAR_LEAGUE_DAMAGE"
+    },
+    {
+      "offset": 5157368,
+      "bytes": 28,
+      "encoding": "ascii",
+      "address": "0x1804ec9f8",
+      "value": "MID_CLEAR_PROGRESSIVE_DAMAGE"
+    },
+    {
+      "offset": 5157696,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x1804ecb40",
+      "value": "MID_DAMAGE_ASSIST"
+    },
+    {
+      "offset": 5157720,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x1804ecb58",
+      "value": "MID_DAMAGE_INFO"
+    },
+    {
+      "offset": 5159824,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x1804ed390",
+      "value": "MID_PLAYER_DAMAGE"
+    },
+    {
+      "offset": 5166776,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x1804eeeb8",
+      "value": "GetDamagePenalty"
+    },
+    {
+      "offset": 5167584,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x1804ef1e0",
+      "value": "AEDamage"
+    },
+    {
+      "offset": 5167600,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804ef1f0",
+      "value": "AEPlayerDamage"
+    },
+    {
+      "offset": 5168208,
+      "bytes": 26,
+      "encoding": "ascii",
+      "address": "0x1804ef450",
+      "value": "SA_SCRIPTS\\ServerButes.txt"
+    },
+    {
+      "offset": 5183568,
+      "bytes": 50,
+      "encoding": "ascii",
+      "address": "0x1804f3050",
+      "value": "WeaponItem Gravity 0;MoveToFloor 0;WeaponTypeId %d"
+    },
+    {
+      "offset": 5184104,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x1804f3268",
+      "value": "DyingDamage"
+    },
+    {
+      "offset": 5200448,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x1804f7240",
+      "value": "ParticleGravity"
+    },
+    {
+      "offset": 5210816,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x1804f9ac0",
+      "value": "WalkSpeed"
+    },
+    {
+      "offset": 5210832,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x1804f9ad0",
+      "value": "RunSpeed"
+    },
+    {
+      "offset": 5210848,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x1804f9ae0",
+      "value": "JumpSpeed"
+    },
+    {
+      "offset": 5210864,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x1804f9af0",
+      "value": "SuperJumpSpeed"
+    },
+    {
+      "offset": 5211616,
+      "bytes": 74,
+      "encoding": "ascii",
+      "address": "0x1804f9de0",
+      "value": "[Error] Invalid Eon_DamageLimit (WeaponID:%u) - check additionaloption.txt"
+    },
+    {
+      "offset": 5211760,
+      "bytes": 101,
+      "encoding": "ascii",
+      "address": "0x1804f9e70",
+      "value": "D:\\Jenkins\\workspace\\workspace\\SA_QA_FINAL_BUILD\\svn_source\\Game\\ObjectDLL\\ObjectShared\\PlayerObj.cpp"
+    },
+    {
+      "offset": 5212056,
+      "bytes": 44,
+      "encoding": "ascii",
+      "address": "0x1804f9f98",
+      "value": "CPlayerObj::Respawn(): Invalid PrisonerPoint"
+    },
+    {
+      "offset": 5212448,
+      "bytes": 77,
+      "encoding": "ascii",
+      "address": "0x1804fa120",
+      "value": "!!!!!!!!!! [SPIKE_Log(Warning)] CPlayerObj::AcquireDefaultWeapon() !!!!!!!!!!"
+    },
+    {
+      "offset": 5212592,
+      "bytes": 90,
+      "encoding": "ascii",
+      "address": "0x1804fa1b0",
+      "value": "!!!!!!!!!! [SPIKE_Log(Warning)] CPlayerObj::ResetInventory // GetClient() == %d !!!!!!!!!!"
+    },
+    {
+      "offset": 5212744,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x1804fa248",
+      "value": "PlayerObj: 0x%p, type %d"
+    },
+    {
+      "offset": 5212824,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x1804fa298",
+      "value": "damage01.wav"
+    },
+    {
+      "offset": 5212840,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x1804fa2a8",
+      "value": "damage02.wav"
+    },
+    {
+      "offset": 5212872,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x1804fa2c8",
+      "value": "AirLossDamage"
+    },
+    {
+      "offset": 5213240,
+      "bytes": 49,
+      "encoding": "ascii",
+      "address": "0x1804fa438",
+      "value": "CPlayerObj::MultiplayerInit(): Invalid StartPoint"
+    },
+    {
+      "offset": 5213312,
+      "bytes": 48,
+      "encoding": "ascii",
+      "address": "0x1804fa480",
+      "value": "[CPlayerObj::ClientUpdate] Invalid Client Handle"
+    },
+    {
+      "offset": 5213488,
+      "bytes": 60,
+      "encoding": "ascii",
+      "address": "0x1804fa530",
+      "value": "ERROR PlayerObj::HandleWeaponFireMessage() pWeapon == LTNULL"
+    },
+    {
+      "offset": 5213672,
+      "bytes": 55,
+      "encoding": "ascii",
+      "address": "0x1804fa5e8",
+      "value": "ERROR PlayerObj::HandleHitAIMessage() pWeapon == LTNULL"
+    },
+    {
+      "offset": 5213752,
+      "bytes": 44,
+      "encoding": "ascii",
+      "address": "0x1804fa638",
+      "value": "ERROR 'AI'Damager not found. id(%d) node(%d)"
+    },
+    {
+      "offset": 5213800,
+      "bytes": 53,
+      "encoding": "ascii",
+      "address": "0x1804fa668",
+      "value": "ERROR PlayerObj::HandleHitMessage() pWeapon == LTNULL"
+    },
+    {
+      "offset": 5213904,
+      "bytes": 40,
+      "encoding": "ascii",
+      "address": "0x1804fa6d0",
+      "value": "ERROR Damager not found. id(%d) node(%d)"
+    },
+    {
+      "offset": 5214064,
+      "bytes": 38,
+      "encoding": "ascii",
+      "address": "0x1804fa770",
+      "value": "PlayerVehicle VehicleType %s;Gravity 1"
+    },
+    {
+      "offset": 5214464,
+      "bytes": 55,
+      "encoding": "ascii",
+      "address": "0x1804fa900",
+      "value": "Error ------> CPlayerObj::CreateBody if(!hClass) return"
+    },
+    {
+      "offset": 5214520,
+      "bytes": 54,
+      "encoding": "ascii",
+      "address": "0x1804fa938",
+      "value": "Error ------> CPlayerObj::CreateBody if(!pProp) return"
+    },
+    {
+      "offset": 5214576,
+      "bytes": 35,
+      "encoding": "ascii",
+      "address": "0x1804fa970",
+      "value": "CPlayerObj::SwitchToTeam TeamID(%d)"
+    },
+    {
+      "offset": 5214616,
+      "bytes": 48,
+      "encoding": "ascii",
+      "address": "0x1804fa998",
+      "value": "[CPlayerObj::AttachPlayer] Invalid Client Handle"
+    },
+    {
+      "offset": 5214816,
+      "bytes": 52,
+      "encoding": "ascii",
+      "address": "0x1804faa60",
+      "value": "[CPlayerObj::SendAttachPlayer] Invalid Client Handle"
+    },
+    {
+      "offset": 5214896,
+      "bytes": 56,
+      "encoding": "ascii",
+      "address": "0x1804faab0",
+      "value": "[CPlayerObj::SendToAttachedPlayer] Invalid Client Handle"
+    },
+    {
+      "offset": 5235120,
+      "bytes": 75,
+      "encoding": "ascii",
+      "address": "0x1804ff9b0",
+      "value": "WeaponItem Gravity 0;AmmoAmount 1;MPRespawn 0;WeaponType Coin;AmmoType Coin"
+    },
+    {
+      "offset": 5235200,
+      "bytes": 112,
+      "encoding": "ascii",
+      "address": "0x1804ffa00",
+      "value": "WeaponItem Gravity 0;AmmoAmount 1;MPRespawn 0;WeaponType %s;AmmoType %s; MoveToFloor 0, DMTouchPickup 0; Team %s"
+    },
+    {
+      "offset": 5243200,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x180501940",
+      "value": "CSaMongUsPlayerObj"
+    },
+    {
+      "offset": 5244608,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x180501ec0",
+      "value": "DamagedFilename"
+    },
+    {
+      "offset": 5245012,
+      "bytes": 6,
+      "encoding": "ascii",
+      "address": "0x180502054",
+      "value": "DAMAGE"
+    },
+    {
+      "offset": 5246160,
+      "bytes": 71,
+      "encoding": "ascii",
+      "address": "0x1805024d0",
+      "value": "WeaponItem Gravity 0;AmmoAmount 1;WeaponType %s;AmmoType %s;MPRespawn 0"
+    },
+    {
+      "offset": 5248360,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x180502d68",
+      "value": "DamageDelay"
+    },
+    {
+      "offset": 5248376,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x180502d78",
+      "value": "DamageAmount"
+    },
+    {
+      "offset": 5248392,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x180502d88",
+      "value": "DamageInterval"
+    },
+    {
+      "offset": 5248608,
+      "bytes": 66,
+      "encoding": "ascii",
+      "address": "0x180502e60",
+      "value": "CServerCeremonyMgr::AddCeremonyPlayerList(): pPlayerObj not Found!"
+    },
+    {
+      "offset": 5264144,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x180506b10",
+      "value": "DoDamage"
+    },
+    {
+      "offset": 5264392,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x180506c08",
+      "value": "DoWindFallDamage"
+    },
+    {
+      "offset": 5292976,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x18050dbb0",
+      "value": "PlayerGravity"
+    },
+    {
+      "offset": 5307544,
+      "bytes": 27,
+      "encoding": "ascii",
+      "address": "0x180511498",
+      "value": "ProjectilePlayerDamageRatio"
+    },
+    {
+      "offset": 5307576,
+      "bytes": 27,
+      "encoding": "ascii",
+      "address": "0x1805114b8",
+      "value": "ProjectileShieldDamageRatio"
+    },
+    {
+      "offset": 5307608,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x1805114d8",
+      "value": "BombPlayerDamageRatio"
+    },
+    {
+      "offset": 5307632,
+      "bytes": 26,
+      "encoding": "ascii",
+      "address": "0x1805114f0",
+      "value": "BombOtherPlayerDamageRatio"
+    },
+    {
+      "offset": 5307664,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x180511510",
+      "value": "BombShieldDamageRatio"
+    },
+    {
+      "offset": 6316160,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x180607880",
+      "value": ".?AVCPlayerObj@@"
+    },
+    {
+      "offset": 6316672,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x180607a80",
+      "value": ".?AVCClanRoomPlayerObj@@"
+    },
+    {
+      "offset": 6316760,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x180607ad8",
+      "value": ".?AVCDisasterPlayerObj@@"
+    },
+    {
+      "offset": 6316808,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x180607b08",
+      "value": ".?AVCFindRealPlayerObj@@"
+    },
+    {
+      "offset": 6320224,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x180608860",
+      "value": ".?AVCAIBotWeaponMgr@@"
+    },
+    {
+      "offset": 6325464,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x180609cd8",
+      "value": ".?AVCWeaponMgr@@"
+    },
+    {
+      "offset": 6325544,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x180609d28",
+      "value": ".?AVCWeaponMgrPlugin@@"
+    },
+    {
+      "offset": 6325848,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x180609e58",
+      "value": ".?AUDamageStruct@@"
+    },
+    {
+      "offset": 6332192,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x18060b720",
+      "value": ".?AVCDamageMgr@@"
+    },
+    {
+      "offset": 6332936,
+      "bytes": 46,
+      "encoding": "ascii",
+      "address": "0x18060ba08",
+      "value": ".?AVDoDamageCallbackDataObject@CDestructible@@"
+    },
+    {
+      "offset": 6336904,
+      "bytes": 25,
+      "encoding": "ascii",
+      "address": "0x18060c988",
+      "value": ".?AVCDotDamageComponent@@"
+    },
+    {
+      "offset": 6342336,
+      "bytes": 33,
+      "encoding": "ascii",
+      "address": "0x18060dec0",
+      "value": ".?AUGMP_NTF_ACTIVATE_DOT_DAMAGE@@"
+    },
+    {
+      "offset": 6344504,
+      "bytes": 42,
+      "encoding": "ascii",
+      "address": "0x18060e738",
+      "value": ".?AVResetHealthHookDataObject@CPlayerObj@@"
+    },
+    {
+      "offset": 6348792,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x18060f7f8",
+      "value": ".?AVCSaMongUsPlayerObj@@"
+    },
+    {
+      "offset": 6349504,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x18060fac0",
+      "value": ".?AUGMP_REQ_DOT_DAMAGE@@"
+    },
+    {
+      "offset": 6349552,
+      "bytes": 31,
+      "encoding": "ascii",
+      "address": "0x18060faf0",
+      "value": ".?AUGMP_NTF_DOT_DAMAGE_EFFECT@@"
+    },
+    {
+      "offset": 6352928,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x180610820",
+      "value": ".?AVGravity@@"
+    }
+  ],
+  "limitations": [
+    "Raw file-string anchors only; no references or function identities established.",
+    "Virtual addresses require one unique source-backed section mapping.",
+    "Only printable ASCII and ASCII-range UTF-16LE runs are scanned."
+  ]
+}

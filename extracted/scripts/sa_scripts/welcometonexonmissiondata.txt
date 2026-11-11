@@ -1,0 +1,1154 @@
+[CommonInfo]
+//InteractionRange			= 200			// 인벤아이템과 상호작용할 수 있는 거리
+//InterationTime				= 1				// 인벤아이템을 먹기까지 e키를 누르고 있어야 할 시간
+DoorPointUIVisibleDist		= 400			// door point 관련 UI 보이는 거리
+DoorUIVisibleDist			= 600			// 문 관련 UI 보이는 거리
+DoorOutlineColor			= "247,150,70,200"	// r,g,b,a
+DoorOutlineScale			= 0.015f
+PlayerDeadItemDropDistance	= 20.0f			// 플레이어가 죽거나 나갔을때 2번째 아이템부터 떨어질 거리
+NoDoorBombMessage			= "저소음 폭탄이 필요합니다."
+NoDoorOpenerMessage			= "문따개가 필요합니다."
+DoorHPBarWidth				= 45.0f
+DoorHPBarHeight				= 4.0f
+HPBarTextTexture			= "\sa_interface2\hud\WelcomeToNexon\doorhp.dtx"
+HPBarTextPosOffset			= (0,0)	// 가로축, 세로축
+HPBarTextSize				= (12,3)	// 이미지 가로, 세로 크기
+
+// ------------- kit 설정 -------------------------------------------
+[CombatKit]
+PrimaryWeaponID		= -2			// -1: 기존무기사용 -2: 빈슬롯
+SecondaryWeaponID	= -1			// -1: 기존무기사용
+MeleeWeaponID		= -1			// -1: 기존 근접 무기사용
+//ThrowWeaponID		= -2			// 빈슬롯
+ThrowWeaponID		= -1			// 빈슬롯
+ToolWeaponID1		= 1528		// 문따개
+//ToolWeaponID2		= 1525		// 소형폭탄(1)
+ToolWeaponID2		= 1531		// 붕대 ** [ToolInfo_HPBagTool] 태그 정의도 추가 되어야 한다
+//CustomAmmoCount1	= "1525,315,1"	// 특정 총알 갯수 설정(무기ID,ammoID,총알수)
+//CustomAmmoCount2	= "1522,312,2"	// 특정 총알 갯수 설정(무기ID,ammoID,총알수)
+
+[StealthKit]				
+PrimaryWeaponID	= -2		//  빈슬롯
+SecondaryWeaponID	= 1627	// 소음기 달린 데저트이글  
+MeleeWeaponID		= -1		// -1: 기존 근접 무기사용
+ThrowWeaponID		= -2		// 빈슬롯
+ToolWeaponID1		= 1528		// 문따개
+//ToolWeaponID2		= 1525		// 소형폭탄(1)
+ToolWeaponID2		= 1531		// 붕대 ** [ToolInfo_HPBagTool] 태그 정의도 추가 되어야 한다
+//CustomAmmoCount1	= "1525,315,1"	// 특정 총알 갯수 설정(무기ID,ammoID,총알수)
+//CustomAmmoCount2	= "1523,313,1"	// 특정 총알 갯수 설정(무기ID,ammoID,총알수)
+//CustomAmmoCount3	= "1530,329,2"	// 특정 총알 갯수 설정(무기ID,ammoID,총알수)
+// ---------------------------------------------------------------------
+
+// --------------------- 맵 인벤토리 아이템 -----------------------------------------
+// 맵에 떨궈져 있는 인벤토리용 아이템(0~99번까지 순서없이 index를 붙일 수 있다)
+// index를 아이템 ID로 사용한다.
+[MapItemInfo0]
+PointObjectName			= "MapItemPoint0"				// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "주차장문 출입카드"				// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint2"					// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\Card.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\G_card.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 200
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_key_Green_B1.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0								// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)						// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+
+[MapItemInfo1]
+PointObjectName			= "MapItemPoint1"				// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "강의실 출입카드"					// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint5"					// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\Card.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\Y_card.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 200
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_key_Yellow_B1.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0								// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)							// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+[MapItemInfo2]
+PointObjectName			= "MapItemPoint2"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "1층 출입카드"							// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint8"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\Card.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\R_card.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 200
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_key_red_B1.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 1								// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+
+
+[MapItemInfo3]
+PointObjectName			= "MapItemPoint3"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "후문 출입카드"							// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint11"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\Card.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\Y_card.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 200
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_key_Yellow_F1.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 1								// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+
+[MapItemInfo4]
+PointObjectName			= "MapItemPoint4"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "정문 출입카드"							// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint14"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\Card.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\G_card.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 200
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_key_Green_F1.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 1								// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+
+
+
+[MapItemInfo5]
+PointObjectName			= "MapItemPoint5"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "2층 출입카드"						// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint17"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\Card.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\R_card.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 200
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_key_red_F1.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 1								// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+
+
+
+
+[MapItemInfo6]
+PointObjectName			= "MapItemPoint6"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "면접실 출입카드"						// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint20"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\Card.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\G_card.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 200
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_key_Green_F2.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 1								// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+
+[MapItemInfo7]
+PointObjectName			= "MapItemPoint7"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "실장실 출입카드"						// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint23"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\Card.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\Y_card.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 200
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_key_Yellow_F2.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 1								// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+
+
+[MapItemInfo8]
+PointObjectName			= "MapItemPoint8"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "3층 출입카드"						// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint26"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\Card.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\R_card.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 200
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_key_Red_F2.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 1								// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+
+[MapItemInfo9]
+PointObjectName			= "MapItemPoint9"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "서버실 출입카드"						// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint29"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\Card.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\G_card.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 200
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_key_Green_F3.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 1								// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+
+
+[MapItemInfo10]
+PointObjectName			= "MapItemPoint10"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "본부장실 출입카드"						// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint32"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\Card.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\Y_card.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 200
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_key_Yellow_F3.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 1								// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+
+
+[MapItemInfo11]
+PointObjectName			= "MapItemPoint11"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "사장실 출입카드"						// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint35"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\Card.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\R_card.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 200
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_key_Red_F3.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 1								// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+
+
+[MapItemInfo70] //실장실 배틀코인
+PointObjectName			= "MapItemPoint70"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "배틀코인"						// 떨궈놓을 아이템 이름
+//OperableDoorPoint 		= ""							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_props\models\Dinosaur\dino_item_coin_10.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\nexon_coin.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+//Damage					= 100
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_coin.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0										// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+[MapItemInfo71] //실장실 퍼즐조각
+PointObjectName			= "MapItemPoint71"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "퍼즐조각"						// 떨궈놓을 아이템 이름
+//OperableDoorPoint 		= ""							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\puzzle.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\puzzle.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+//Damage					= 100
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_puzzle.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0										// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+
+[MapItemInfo72] //실장실 넥슨캐쉬
+PointObjectName			= "MapItemPoint72"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "넥슨캐쉬"						// 떨궈놓을 아이템 이름
+//OperableDoorPoint 		= ""							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\Cash.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\Cash.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+//Damage					= 100
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_cash.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0										// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+[MapItemInfo73] //본부장실 배틀코인
+PointObjectName			= "MapItemPoint73"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "배틀코인"						// 떨궈놓을 아이템 이름
+//OperableDoorPoint 		= ""							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_props\models\Dinosaur\dino_item_coin_10.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\nexon_coin.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+//Damage					= 100
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_coin.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0										// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+[MapItemInfo74] //본부장실 퍼즐조각
+PointObjectName			= "MapItemPoint74"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "퍼즐조각"						// 떨궈놓을 아이템 이름
+//OperableDoorPoint 		= ""							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\puzzle.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\puzzle.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+//Damage					= 100
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_puzzle.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0										// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+
+[MapItemInfo75] //본부장실 넥슨캐쉬
+PointObjectName			= "MapItemPoint75"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "넥슨캐쉬"						// 떨궈놓을 아이템 이름
+//OperableDoorPoint 		= ""							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\Cash.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\Cash.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+//Damage					= 100
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_cash.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0										// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+[MapItemInfo76] //사장실 배틀코인
+PointObjectName			= "MapItemPoint76"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "배틀코인"						// 떨궈놓을 아이템 이름
+//OperableDoorPoint 		= ""							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_props\models\Dinosaur\dino_item_coin_10.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\nexon_coin.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+//Damage					= 100
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_coin.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0										// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+[MapItemInfo77] //사장실 퍼즐조각
+PointObjectName			= "MapItemPoint77"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "퍼즐조각"						// 떨궈놓을 아이템 이름
+//OperableDoorPoint 		= ""							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\puzzle.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\puzzle.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+//Damage					= 100
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_puzzle.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0										// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+
+[MapItemInfo78] //사장실 넥슨캐쉬
+PointObjectName			= "MapItemPoint78"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "넥슨캐쉬"						// 떨궈놓을 아이템 이름
+//OperableDoorPoint 		= ""							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\Cash.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\Cash.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+//Damage					= 100
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_cash.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0										// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+
+
+
+[MapItemInfo80]
+PointObjectName			= "MapItemPoint80"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "실장실 금고 열쇠"						// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint80"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\nexon_key_3p.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\nexon_key_3p.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 100
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_key.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0										// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+
+[MapItemInfo81]
+PointObjectName			= "MapItemPoint81"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "본부장실 금고 열쇠"						// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint81"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\nexon_key_3p.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\nexon_key_3p.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 100
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_key.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0										// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+
+[MapItemInfo82]
+PointObjectName			= "MapItemPoint82"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "사장실 금고 열쇠"						// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint82"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\nexon_key_3p.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\nexon_key_3p.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 100
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_key.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0										// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+[MapItemInfo83]
+PointObjectName			= "MapItemPoint83"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "일반 금고 열쇠"						// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint83"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\nexon_key_3p.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\nexon_key_3p.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 100
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_key.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0										// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+
+
+
+[MapItemInfo90]
+PointObjectName			= "MapItemPoint90"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "1호서버 USB"						// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint92"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\usb.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\usb_B.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 500
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_usb_Bronze.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0										// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+
+[MapItemInfo91]
+PointObjectName			= "MapItemPoint91"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "2호서버 USB"						// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint95"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\usb.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\usb_S.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 500
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_usb_Silver.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0										// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+
+[MapItemInfo92]
+PointObjectName			= "MapItemPoint92"						// 아이템을 놓을 Point 오브젝트 이름(같은 이름이 여러개 있을 경우 랜덤 위치에 배치)
+DisplayName				= "3호서버 USB"						// 떨궈놓을 아이템 이름
+OperableDoorPoint 		= "DoorPoint98"							// 열수 있는 door point 오브젝트 이름
+ItemModel				= "sa_characters\models\nexon\prop\usb.ltb"	// 떨궈져 있을때 표시될 모델
+ItemSkin				= "sa_characters\skins\nexon\prop\usb_G.dtx"	// 떨궈져 있을때 표시될 모델 스킨
+Damage					= 600
+IconTex					= "sa_interface2\hud\WelcomeToNexon\inventory\nexon_usb_Gold.dtx"
+//RemoveOnDoorOpen		= 1								// 문을 열었을때 삭제?(0:false, 1:true)
+Respawnable				= 0										// 리스폰 가능?(0:false, 1:true)
+AIWaveEvent				= (-1,0)								// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x
+DontSpawnOnStart		= 1								// 게임 시작시에는 생기지 않음(이벤트시에만 생김)
+
+
+// ------------------- 맵에 열린 툴백(구급상자,탄약통 등) 놓기 -----------------
+// 20개까지 놓을 수 있음
+// PointObjectName이 동일한게 있으면 안됨
+
+[MapOpenedToolBag0]
+PointObjectName	= "Point10"
+WeaponID		= 1522
+
+[MapOpenedToolBag1]
+PointObjectName	= "Point11"
+WeaponID		= 1523
+
+// ----------------------------------------------------------------------------------
+
+// -------------------------- DoorPointDoor 열때 맵 아이템 동적 생성 ------------------------------------
+// 한명이 같은 아이템을 두개 이상 가질 수 없다!!!
+// 한 EventItemInfo에 두개의 이벤트를 설정할 수 없다
+// 금고 딸때 금고안 아이템
+// 삭제
+// 맨 앞에 -1을 하면, 무언가의 다이나믹스위치가 ON인가 검사.
+
+
+[DoorOpenEventItemInfo0] //실장실 문 열었을 때 USB 생성
+EventDoorPointDoorName		= "DoorPointDoor7"	// event로 사용할 문 오브젝트 이름
+ItemInfoByWaveCondition		= "-1,1,5,90"			// 1번wave가 DS on상태였다면 5번 아이템이 아니면 90번 아이템 생성
+
+[DoorOpenEventItemInfo1] //본부장실 문 열었을 때 USB 생성
+EventDoorPointDoorName		= "DoorPointDoor10"	// event로 사용할 문 오브젝트 이름
+ItemInfoByWaveCondition		= "-1,1,5,91"			// 1번wave가 DS on상태였다면 5번 아이템이 아니면 91번 아이템 생성
+
+[DoorOpenEventItemInfo2] //사장실 문 열었을 때 USB 생성
+EventDoorPointDoorName		= "DoorPointDoor11"	// event로 사용할 문 오브젝트 이름
+ItemInfoByWaveCondition		= "-1,1,5,92"			// 1번wave가 DS on상태였다면 5번 아이템이 아니면 92번 아이템 생성
+// -----------------------------------------------------------------------------------
+
+// -------------------------- Server에서 주는 보상 아이템 ----------------------
+// reward type ----------
+//NEXON_CASH	= 1		// 인벤 슬롯 아래 생김
+//BATTLE_COIN	= 2
+//PUZZLE		= 3		// 인벤 슬롯 아래 생김
+
+// action type -----------
+//ROB_SILJANG		= 200		// 실장 금고털기
+//ROB_DEAJANG		= 201		// 대장 금고털기
+//ROB_SAJANG		= 202		// 사장 금고털기
+
+
+[ServerRewardItemInfo0]
+RewardType			= 2		// 배틀코인
+ActionType			= 200	// 실장실 금고
+RefMapItemInfoID	= 70	// 70번 아이템
+
+[ServerRewardItemInfo1]
+RewardType			= 3		// 퍼즐조각
+ActionType			= 200	// 실장실 금고
+RefMapItemInfoID	= 71	// 71번 아이템
+
+[ServerRewardItemInfo2]
+RewardType			= 1		// 넥슨캐쉬
+ActionType			= 200	// 실장실 금고
+RefMapItemInfoID	= 72	//  72번 아이템
+
+[ServerRewardItemInfo3]
+RewardType			= 2		// 배틀코인
+ActionType			= 201	// 본부장실 금고
+RefMapItemInfoID	= 73	// 73번 아이템
+
+[ServerRewardItemInfo4]
+RewardType			= 3		// 퍼즐조각
+ActionType			= 201	// 본부장실 금고
+RefMapItemInfoID	= 74	// 74번 아이템
+
+[ServerRewardItemInfo5]
+RewardType			= 1		// 넥슨캐쉬
+ActionType			= 201	// 본부장실 금고
+RefMapItemInfoID	= 75	// 75번 아이템
+
+[ServerRewardItemInfo6]
+RewardType			= 2		// 배틀코인
+ActionType			= 202	// 사장실 금고
+RefMapItemInfoID	= 76	// 76번 아이템
+
+[ServerRewardItemInfo7]
+RewardType			= 3		// 퍼즐조각
+ActionType			= 202	// 사장실 금고
+RefMapItemInfoID	= 77	// 77번 아이템
+
+[ServerRewardItemInfo8]
+RewardType			= 1		// 넥슨캐쉬
+ActionType			= 202	// 사장실 금고
+RefMapItemInfoID	= 78	// 78번 아이템
+// ------------------------------------------------------------------------------
+
+// -------------------------- 맵 4인 블럭 설정 ------------------------------------
+[Block0]
+PosObjectName	= "Point0"	// 위치로 사용할 오브젝트 이름
+Model			= "sa_characters\models\nexon\prop\n_box178.ltb"
+Skin			= "sa_characters\skins\nexon\prop\n_box.dtx"
+
+[Block1]
+PosObjectName	= "Point1"	// 위치로 사용할 오브젝트 이름
+Model			= "sa_characters\models\nexon\prop\n_box216.ltb"
+Skin			= "sa_characters\skins\nexon\prop\n_box.dtx"
+
+[Block2]
+PosObjectName	= "Point2"	// 위치로 사용할 오브젝트 이름
+Model			= "sa_characters\models\nexon\prop\n_box119.ltb"
+Skin			= "sa_characters\skins\nexon\prop\n_box.dtx"
+
+[Block3]
+PosObjectName	= "Point3"	// 위치로 사용할 오브젝트 이름
+Model			= "sa_characters\models\nexon\prop\n_box292.ltb"
+Skin			= "sa_characters\skins\nexon\prop\n_box.dtx"
+// -----------------------------------------------------------------------------------
+
+// --------------------------- EventArea 이벤트 설정 ----------------------------------
+[EventAreaEvent0]
+EventAreaObjName		= "EventArea0"
+AlarmSwitchCondition	= 0	// 0:꺼져있어야함, 1:켜져있어야함, -1: 상관없음
+RemoveBlockID			= 0	// 없애야 할 블럭ID
+
+[EventAreaEvent1]
+EventAreaObjName		= "EventArea1"
+AlarmSwitchCondition	= 0	// 0:꺼져있어야함, 1:켜져있어야함, -1: 상관없음
+RemoveBlockID			= 1	// 없애야 할 블럭ID
+
+[EventAreaEvent2]
+EventAreaObjName		= "EventArea2"
+AlarmSwitchCondition	= 0	// 0:꺼져있어야함, 1:켜져있어야함, -1: 상관없음
+RemoveBlockID			= 2	// 없애야 할 블럭ID
+
+[EventAreaEvent3]
+EventAreaObjName		= "EventArea3"
+AlarmSwitchCondition	= 0	// 0:꺼져있어야함, 1:켜져있어야함, -1: 상관없음
+RemoveBlockID			= 3	// 없애야 할 블럭ID
+// -------------------------------------------------------------------------------------
+
+// -------------------------- 블럭이 없어질때 ai 조건에 따른 ai 이벤트 설정 -----------------------------
+[BlockAIEvent0]
+RemovedBlockIDCondition	= 0		// 0번 블럭이 없어질때 B1에서 F1으로
+AlarmCondition			= 0		// 알람 스위치 켜져 있나?
+ActivateAIWave			= "1,0"	// 1번wave발동,다미나믹스위치off 
+
+[BlockAIEvent1]
+RemovedBlockIDCondition	= 1		// 1번 블럭이 없어질때  F1에서 F2로
+AlarmCondition			= 0		// 알람 스위치 켜져 있나?
+ActivateAIWave			= "2,0"	// 2번 wave를 발동, 다이나믹스위치 off
+
+[BlockAIEvent2]
+RemovedBlockIDCondition	= 2		// 2번 블럭이 없어질때 F2에서 F3로
+AlarmCondition			= 0		// 알람 스위치 켜져 있나?
+ActivateAIWave			= "3,0"	// 3번 wave를 발동, 다이나믹스위치 off
+
+//[BlockAIEvent3]
+//RemovedBlockIDCondition	= 3		// 2번 블럭이 없어질때 F2에서 F3로
+//AlarmCondition			= 0		// 알람 스위치 켜져 있나?
+//ActivateAIWave			= "0,0"	// 3번 wave를 발동, 다이나믹스위치 off
+
+// -------------------------------------------------------------------------------------
+
+
+// -------------------------- DoorPointDoor 열때 AI Wave Event 설정 -----------------------------
+// condition은 10개까지 등록 가능 모든 조건을 다 체크하므로 조건이 여럿이면 그에 맞는 모든 웨이브를 발동시킨다.
+//[DoorPointDoorAIWaveEvent0]
+//DoorPointDoorName	= "DoorPointDoor2" // B1층에서 F1층 가는 문
+//AIWaveCondition0 	= "-1,0"			// 이전 AIWave 발동 조건(없음) : wave index, 다이나믹스위치off  "wave배열번호, 다이나믹 0 없음 1 있음"
+//ActivateAIWave0 		= "1,0"			// 1번wave발동,다미나믹스위치off 
+
+
+//[DoorPointDoorAIWaveEvent1]
+//DoorPointDoorName	= "DoorPointDoor5" 	// 1층에서 2층 가는 문
+//AIWaveCondition0		= "-1,0"				// AIWave 발동 조건(없음) : wave index, 다이나믹스위치off
+//ActivateAIWave0 		= "2,0"					// 2번 wave발동, 다미나믹스위치off
+
+//[DoorPointDoorAIWaveEvent3]
+//DoorPointDoorName	= "DoorPointDoor8" // 2층서 3층 가는 문
+//AIWaveCondition0		= "-1,0"				// AIWave 발동 조건(없음) : wave index, 다이나믹스위치off
+//ActivateAIWave0 		= "3,0"					// 2번 wave발동, 다미나믹스위치off
+
+[DoorPointDoorAIWaveEvent0]
+DoorPointDoorName	= "DoorPointDoor7" // 2층 실장실 문
+AIWaveCondition0		= "2,1"				// 2층의 웨이브가 발동상태에서 문을 연다면 2,1
+ActivateAIWave0 		= "9,1"					// 4번 wave(실장전용)발동, 다미나믹스위치on
+AIWaveCondition1		= "2,0"				// 2층의 웨이브가 발동 아닐때 문을 연다면 2,0
+ActivateAIWave1 		= "4,0"					// 4번 wave(실장전용)발동
+
+[DoorPointDoorAIWaveEvent1]
+DoorPointDoorName	= "DoorPointDoor10" // 3층 본부장실 문
+AIWaveCondition0		= "3,0"				// 3층의 웨이브가 조용할 시
+ActivateAIWave0 		= "5,0"					// 4번 wave(실장전용)발동, 다미나믹스위치on
+AIWaveCondition1		= "3,1"				// 3층의 웨이브가 발동시 문을 연다면
+ActivateAIWave1 		= "5,1"					// 4번 wave(실장전용)발동
+AIWaveCondition2		= "6,0"				// 사장실 웨이브고, 조용할 시 
+ActivateAIWave2 		= "5,0"					// 4번 wave(실장전용)발동
+AIWaveCondition3		= "6,1"				// 사장실 웨이브가 발동시 문을 연다면
+ActivateAIWave3 		= "5,1"					// 4번 wave(실장전용)발동
+AIWaveCondition4		= "7,0"				// 서버실 웨이브가 조용할 시 
+ActivateAIWave4 		= "5,0"					// 4번 wave(실장전용)발동
+AIWaveCondition5		= "7,1"				// 서버실 웨이브 발동시 
+ActivateAIWave5 		= "5,1"					// 4번 wave(실장전용)발동
+AIWaveCondition6		= "8,1"				// 탈출 웨이브 작동시. 탈출웨이브는 조용할 수 없다.
+ActivateAIWave6 		= "7,1"					// 4번 wave(실장전용)발동
+
+[DoorPointDoorAIWaveEvent2]
+DoorPointDoorName	= "DoorPointDoor11" // 3층 사장실 문
+AIWaveCondition0		= "3,0"				// 3층의 웨이브가 조용할 시
+ActivateAIWave0 		= "6,0"					// 4번 wave(실장전용)발동, 다미나믹스위치on
+AIWaveCondition1		= "3,1"				// 3층의 웨이브가 발동시 문을 연다면
+ActivateAIWave1 		= "6,1"					// 4번 wave(실장전용)발동
+AIWaveCondition2		= "5,0"				// 본부장실 웨이브고, 조용할 시 
+ActivateAIWave2 		= "6,0"					// 4번 wave(실장전용)발동
+AIWaveCondition3		= "5,1"				// 본부장실 웨이브가 발동시 문을 연다면
+ActivateAIWave3 		= "6,1"					// 4번 wave(실장전용)발동
+AIWaveCondition4		= "7,0"				// 서버실 웨이브가 조용할 시 
+ActivateAIWave4 		= "6,0"					// 4번 wave(실장전용)발동
+AIWaveCondition5		= "7,1"				// 서버실 웨이브 발동시 
+ActivateAIWave5 		= "6,1"					// 4번 wave(실장전용)발동
+AIWaveCondition6		= "8,1"				// 탈출 웨이브 작동시. 탈출웨이브는 조용할 수 없다.
+ActivateAIWave6 		= "6,1"					// 4번 wave(실장전용)발동
+
+
+
+/********
+[DoorPointDoorAIWaveEvent3]
+DoorPointDoorName	= "DoorPointDoor9" // 3층 서버실 문
+AIWaveCondition0		= "3,0"				// 3층의 웨이브가 조용할 시
+ActivateAIWave0 		= "7,0"					// 4번 wave(실장전용)발동, 다미나믹스위치on
+AIWaveCondition1		= "3,1"				// 3층의 웨이브가 발동시 문을 연다면
+ActivateAIWave1 		= "7,1"					// 4번 wave(실장전용)발동
+AIWaveCondition2		= "5,0"				// 본부장실 웨이브고, 조용할 시 
+ActivateAIWave2 		= "7,0"					// 4번 wave(실장전용)발동
+AIWaveCondition3		= "5,1"				// 본부장실 웨이브가 발동시 문을 연다면
+ActivateAIWave3 		= "7,1"					// 4번 wave(실장전용)발동
+AIWaveCondition4		= "6,0"				// 사장실 웨이브가 조용할 시 
+ActivateAIWave4 		= "7,0"					// 4번 wave(실장전용)발동
+AIWaveCondition5		= "6,1"				// 사장실 웨이브 발동시 
+ActivateAIWave5 		= "7,1"					// 4번 wave(실장전용)발동
+******/
+
+
+// 사장실, 캡틴룸은 문을 열었을 때 다른 반응을 보이지 않는다. (기본 웨이브에 사장, 캡틴을 추가해둔다)
+
+//USBPC들 시작
+[DoorPointDoorAIWaveEvent4]
+DoorPointDoorName	= "DoorPointDoor90" // 실장 서버 폭파
+AIWaveCondition0		= "-1,0"				// AIWave 발동 조건(없음) : wave index, 다이나믹스위치off
+ActivateAIWave0 		= "8,1"					// 탈출발동
+[DoorPointDoorAIWaveEvent5]
+DoorPointDoorName	= "DoorPointDoor91" // 본부장 서버 폭파
+AIWaveCondition0		= "-1,0"				// AIWave 발동 조건(없음) : wave index, 다이나믹스위치off
+ActivateAIWave0 		= "8,1"					// 탈출발동
+[DoorPointDoorAIWaveEvent6]
+DoorPointDoorName	= "DoorPointDoor92" // 사장 서버 폭파
+AIWaveCondition0		= "-1,0"				// AIWave 발동 조건(없음) : wave index, 다이나믹스위치off
+ActivateAIWave0 		= "8,1"					// 탈출발동
+[DoorPointDoorAIWaveEvent7]
+DoorPointDoorName	= "DoorPointDoor93" // 실장 서버 해킹
+AIWaveCondition0		= "-1,0"				// AIWave 발동 조건(없음) : wave index, 다이나믹스위치off
+ActivateAIWave0 		= "8,1"					// 탈출발동
+[DoorPointDoorAIWaveEvent8]
+DoorPointDoorName	= "DoorPointDoor94" // 본부장 서버 해킹
+AIWaveCondition0		= "-1,0"				// AIWave 발동 조건(없음) : wave index, 다이나믹스위치off
+ActivateAIWave0 		= "8,1"					// 탈출발동
+[DoorPointDoorAIWaveEvent9]
+DoorPointDoorName	= "DoorPointDoor95" // 사장 서버 해킹
+AIWaveCondition0		= "-1,0"				// AIWave 발동 조건(없음) : wave index, 다이나믹스위치off
+ActivateAIWave0 		= "8,1"					// 탈출발동
+
+
+//DoorPointDoorObjectName	= "DoorPointDoor3" // 3층 대장실 방문
+//AIWaveEvent 			= (5,0)					// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x 열리면 웨이브4이 깔린다)
+//DoorPointDoorObjectName	= "DoorPointDoor4" // 3층 VIP실 방문
+//AIWaveEvent 			= (6,0)					// AIWave 발동 이벤트 (이벤트Index,다이나믹스위치on/off) : 이벤트 index가 -1이면 발동x 열리면 웨이브4이 깔린다)
+// -----------------------------------------------------------------------------------
+
+// ------------------------------- DoorPointDoor 열때 삭제할 오브젝트 event 설정 --------------------------------
+[DoorPointDoorRemoveObjectEvent0] //1호서버_C4 폭파
+DoorPointDoorName	= "DoorPointDoor90"
+RemoveDoorPointDoorList = "DoorPointDoor93"	// 1호서버_USB 삭제
+
+[DoorPointDoorRemoveObjectEvent1] //2호서버_C4 폭파
+DoorPointDoorName	= "DoorPointDoor91"
+RemoveDoorPointDoorList = "DoorPointDoor94"	// 2호서버_USB 삭제
+
+[DoorPointDoorRemoveObjectEvent2] //3호서버_C4 폭파
+DoorPointDoorName	= "DoorPointDoor92"
+RemoveDoorPointDoorList = "DoorPointDoor95"	// 3호서버_USB 삭제
+
+[DoorPointDoorRemoveObjectEvent3] //1호서버_usb 해킹
+DoorPointDoorName	= "DoorPointDoor93"
+RemoveDoorPointDoorList = "DoorPointDoor90"	// 1호서버_C4 삭제
+
+[DoorPointDoorRemoveObjectEvent4] //2호서버_usb 해킹
+DoorPointDoorName	= "DoorPointDoor94"
+RemoveDoorPointDoorList = "DoorPointDoor91"	// 2호서버_C4 삭제
+
+[DoorPointDoorRemoveObjectEvent5] //1호서버_usb 해킹
+DoorPointDoorName	= "DoorPointDoor95"
+RemoveDoorPointDoorList = "DoorPointDoor92"	// 3호서버_C4 삭제
+
+
+
+// ------------------------------- 4인블럭 열때 오브젝트 event 설정 -------------------------------------
+[BlockRemoveObjectEvent0]
+BlockID				= 0
+RemoveDoorPointDoorList = "DoorPointDoor0,DoorPointDoor1,DoorPointDoor2"	// door point door 리스트
+WaitSceneTime		= 5.0f
+
+[BlockRemoveObjectEvent1]
+BlockID				= 1
+RemoveDoorPointDoorList = "DoorPointDoor5,DoorPointDoor13"	// door point door 리스트
+WaitSceneTime		= 5.0f
+
+[BlockRemoveObjectEvent2]
+BlockID				= 2
+RemoveDoorPointDoorList = "DoorPointDoor6,DoorPointDoor7,DoorPointDoor8 "	// door point door 리스트
+WaitSceneTime		= 5.0f
+
+[BlockRemoveObjectEvent3]
+BlockID				= 3
+//RemoveDoorPointDoorList = " "	// door point door 리스트
+WaitSceneTime		= 5.0f
+// -------------------------------------------------------------------------------------------------------------
+
+// -------------------------------- ai 시체 치웠을때 나오는 무기 설정 ----------------------------------
+[AIBodyDropWeaponInfo0] //넥슨 경비치웠을 때 드랍
+AIIndex				= 1139			// 몬스터 index
+SpawnProbability	= 70		// 발생 확률 20%
+Weapon0				= "45,135"	//매그넘// 좌측 설정값 이하가 나오면 우측 웨폰인덱스가 나옴.
+Weapon1				= "65,1530" //스턴그레네이드	
+Weapon2				= "80,1522"	//탄약통
+Weapon3				= "100,1523" //구급상자
+
+[AIBodyDropWeaponInfo1] //지원팀 고참 잡았을 때 드랍
+AIIndex				= 1144			// 몬스터 index
+SpawnProbability	= 70		// 발생 확률 20%
+Weapon0				= "45,14"	//Famas// 좌측 설정값 이하가 나오면 우측 웨폰인덱스가 나옴.
+Weapon1				= "65,1530" //스턴그레네이드	
+Weapon2				= "80,1522"	//탄약통
+Weapon3				= "100,1523" //구급상자
+
+[AIBodyDropWeaponInfo2] //해결팀정예 잡았을 때 드랍
+AIIndex				= 1148			// 몬스터 index
+SpawnProbability	= 70		// 발생 확률 20%
+Weapon0				= "45,99"	//SIG// 좌측 설정값 이하가 나오면 우측 웨폰인덱스가 나옴.
+Weapon1				= "65,1530" //스턴그레네이드	
+Weapon2				= "80,1522"	//탄약통
+Weapon3				= "100,1523" //구급상자
+
+[AIBodyDropWeaponInfo3] //방패사원 잡았을 때 드랍
+AIIndex				= 1149			// 몬스터 index
+SpawnProbability	= 70		// 발생 확률 20%
+Weapon0				= "45,135"	//매그넘// 좌측 설정값 이하가 나오면 우측 웨폰인덱스가 나옴.
+Weapon1				= "65,1530" //스턴그레네이드	
+Weapon2				= "80,1522"	//탄약통
+Weapon3				= "100,1523" //구급상자
+
+[AIBodyDropWeaponInfo4] //아즈마 잡았을 때 드랍
+AIIndex				= 1150			// 몬스터 index
+SpawnProbability	= 70		// 발생 확률 20%
+Weapon0				= "20,485"	//AK47ISR// 좌측 설정값 이하가 나오면 우측 웨폰인덱스가 나옴.
+Weapon1				= "45,1530" //스턴그레네이드	
+Weapon2				= "75,1522"	//탄약통
+Weapon3				= "100,1523" //구급상자
+
+[AIBodyDropWeaponInfo5] //저격지원 잡았을 때 드랍
+AIIndex				= 1146			// 몬스터 index
+SpawnProbability	= 70		// 발생 확률 20%
+Weapon0				= "45,181"	//AWP// 좌측 설정값 이하가 나오면 우측 웨폰인덱스가 나옴.
+Weapon1				= "65,1530" //스턴그레네이드	
+Weapon2				= "80,1522"	//탄약통
+Weapon3				= "100,1523" //구급상자
+
+[AIBodyDropWeaponInfo6] //배찌 - 사장실, 탈출웨이브
+AIIndex				= 1151			// 몬스터 index
+SpawnProbability	= 100		// 발생 확률 20%
+Weapon0				= "100,1523" //구급상자
+
+[AIBodyDropWeaponInfo7] //다오 - 사장실, 탈출웨이브
+AIIndex				= 1152			// 몬스터 index
+SpawnProbability	= 100		// 발생 확률 20%
+Weapon0				= "100,1522" //탄약통
+
+[AIBodyDropWeaponInfo8] //김실장 인간형
+AIIndex				= 1153			// 몬스터 index
+SpawnProbability	= 100		// 발생 확률 20%
+Weapon0				= "100,1523" //구급상자
+
+[AIBodyDropWeaponInfo9] //김실장 전투형
+AIIndex				= 1155			// 몬스터 index
+SpawnProbability	= 100		// 발생 확률 20%
+Weapon0				= "100,1522" //탄약통
+
+[AIBodyDropWeaponInfo10] //캡틴킴
+AIIndex				= 1154			// 몬스터 index
+SpawnProbability	= 100		// 발생 확률 20%
+Weapon0				= "100,1522" //탄약통
+
+[AIBodyDropWeaponInfo11] //김사장
+AIIndex				= 1156			// 몬스터 index
+SpawnProbability	= 100		// 발생 확률 20%
+Weapon0				= "100,1522" //탄약통
+
+
+[AIBodyDropWeaponInfo12] //아즈마 근접모드
+AIIndex				= 1157			// 몬스터 index
+SpawnProbability	= 70		// 발생 확률 20%
+Weapon0				= "20,485"	//AK47ISR// 좌측 설정값 이하가 나오면 우측 웨폰인덱스가 나옴.
+Weapon1				= "45,1530" //스턴그레네이드	
+Weapon2				= "75,1522"	//탄약통
+Weapon3				= "100,1523" //구급상자
+
+
+[AIBodyDropWeaponInfo13] //넥슨의 문장
+AIIndex				= 1158			// 몬스터 index
+SpawnProbability	= 100		// 발생 확률 20%
+Weapon0				= "50,1530" //스턴그레네이드	
+Weapon1				= "75,1522"	//탄약통
+Weapon2				= "100,1523" //구급상자
+
+// test
+[AIBodyDropWeaponInfo14] //넥슨의 문장
+AIIndex				= 1165			// 몬스터 index
+SpawnProbability	= 100		// 발생 확률 20%
+//Weapon0				= "50,1530" //스턴그레네이드	
+Weapon0				= "100,135" //스턴그레네이드	
+//Weapon1				= "75,1522"	//탄약통
+//Weapon2				= "100,1523" //구급상자
+// --------------------------------------------------------------------------------------------------
+
+// ------------------------------- DoorPointDoor 열때 서버에 보낼 Action 패킷 Event 설정 -----------------------
+// <사용 가능한 action 값들>
+// 열기
+// WAVE_INIT				= 0		// wave 초기화(층 이동)
+//OPEN_DOOR					= 2		// 문 열기
+//OPEN_STRONGBOX_NORMAR		= 3		// 금고 열기
+
+//EXPLODE_SERVER	= 4		// 서버실 폭파타
+//HACKING_SERVER	= 5		// 서버 해킹
+//ESCAPE			= 6		// 탈출
+
+//OPEN_STRONGBOX_SILJANG	= 100		// 실장	금고 열기
+//OPEN_STRONGBOX_DEAJANG	= 101		// 대장	금고 열기
+//OPEN_STRONGBOX_SAJANG		= 102		// 사장	금고 열기
+// 목표 달성
+//ROB_SILJANG		= 200		// 실장 금고털기
+//ROB_DEAJANG		= 201		// 대장 금고털기
+//ROB_SAJANG		= 202		// 사장 금고털기
+
+
+// DoorPointDoorServerActionPacketEvent 100개까지 등록가능
+// ActionPacketID0 ~ ActionPacketID0 까지 등록 가능
+
+[DoorPointDoorServerActionPacketEvent0]
+DoorPointDoorName	= "DoorPointDoor0" // 주차장문
+ActionPacketID0		= 2
+
+[DoorPointDoorServerActionPacketEvent1]
+DoorPointDoorName	= "DoorPointDoor1" // 강의실문
+ActionPacketID0		= 2
+
+[DoorPointDoorServerActionPacketEvent2]
+DoorPointDoorName	= "DoorPointDoor2" // 1층 가는문
+ActionPacketID0		= 2
+
+[DoorPointDoorServerActionPacketEvent3]
+DoorPointDoorName	= "DoorPointDoor3" // 후문
+ActionPacketID0		= 2
+
+[DoorPointDoorServerActionPacketEvent4]
+DoorPointDoorName	= "DoorPointDoor4" // 정문
+ActionPacketID0		= 2
+
+[DoorPointDoorServerActionPacketEvent5]
+DoorPointDoorName	= "DoorPointDoor5" // 2층 가는 문
+ActionPacketID0		= 2
+
+[DoorPointDoorServerActionPacketEvent6]
+DoorPointDoorName	= "DoorPointDoor6" // 면접실 문
+ActionPacketID0		= 2
+
+[DoorPointDoorServerActionPacketEvent7]
+DoorPointDoorName	= "DoorPointDoor7" // 실장실 문
+ActionPacketID0		= 2
+
+[DoorPointDoorServerActionPacketEvent8]
+DoorPointDoorName	= "DoorPointDoor8" // 3층 가는 문
+ActionPacketID0		= 2
+
+[DoorPointDoorServerActionPacketEvent9]
+DoorPointDoorName	= "DoorPointDoor9" // 서버실 문
+ActionPacketID0		= 2
+
+[DoorPointDoorServerActionPacketEvent10]
+DoorPointDoorName	= "DoorPointDoor10" // 본부장실 문
+ActionPacketID0		= 2
+
+[DoorPointDoorServerActionPacketEvent11]
+DoorPointDoorName	= "DoorPointDoor11" // 사장실 문
+ActionPacketID0		= 2
+
+[DoorPointDoorServerActionPacketEvent12]
+DoorPointDoorName	= "DoorPointDoor13" // 1층 옆문
+ActionPacketID0		= 2
+
+[DoorPointDoorServerActionPacketEvent13]
+DoorPointDoorName	= "DoorPointDoor80" // 실장실 금고
+ActionPacketID0		= 100
+
+
+[DoorPointDoorServerActionPacketEvent14]
+DoorPointDoorName	= "DoorPointDoor81" // 대장실 금고
+ActionPacketID0		= 101
+
+
+[DoorPointDoorServerActionPacketEvent15]
+DoorPointDoorName	= "DoorPointDoor82" // 사장실 금고
+ActionPacketID0		= 102
+
+
+[DoorPointDoorServerActionPacketEvent16]
+DoorPointDoorName	= "DoorPointDoor83" // 일반 금고
+ActionPacketID0		= 3
+
+[DoorPointDoorServerActionPacketEvent17]
+DoorPointDoorName	= "DoorPointDoor93" // 1호 usb
+ActionPacketID0		= 5
+
+[DoorPointDoorServerActionPacketEvent18]
+DoorPointDoorName	= "DoorPointDoor94" // 2호 usb
+ActionPacketID0		= 5
+
+[DoorPointDoorServerActionPacketEvent19]
+DoorPointDoorName	= "DoorPointDoor95" // 3호 usb
+ActionPacketID0		= 5
+
+[DoorPointDoorServerActionPacketEvent20]
+DoorPointDoorName	= "DoorPointDoor90" // 1호 폭파
+ActionPacketID0		= 4
+
+[DoorPointDoorServerActionPacketEvent21]
+DoorPointDoorName	= "DoorPointDoor91" // 2호 폭파
+ActionPacketID0		= 4
+
+[DoorPointDoorServerActionPacketEvent22]
+DoorPointDoorName	= "DoorPointDoor92" // 3호 폭파
+ActionPacketID0		= 4
+// --------------------------------------------------------------------------------------------------------
+
+// ----------------------- door point에 갖다 대었을시 필요 아이템이 없는 경우 나올 메시지 ---------
+[NoInvenItemMessage0]
+DoorPointName	= "DoorPoint2"
+NoItemMessage	= "주차장문 출입카드가 필요합니다."
+
+//[NoInvenItemMessage1]
+//DoorPointName	= "DoorPoint5"
+//NoItemMessage	= "강의실 출입카드가 필요합니다."
+
+
+[NoInvenItemMessage2]
+DoorPointName	= "DoorPoint8"
+NoItemMessage	= "1층 출입카드가 필요합니다."
+
+[NoInvenItemMessage3]
+DoorPointName	= "DoorPoint11"
+NoItemMessage	= "후문 출입카드가 필요합니다."
+
+[NoInvenItemMessage4]
+DoorPointName	= "DoorPoint14"
+NoItemMessage	= "정문 출입카드가 필요합니다."
+
+[NoInvenItemMessage5]
+DoorPointName	= "DoorPoint17"
+NoItemMessage	= "2층 출입카드가 필요합니다."
+
+[NoInvenItemMessage6]
+DoorPointName	= "DoorPoint20"
+NoItemMessage	= "면접실 출입카드가 필요합니다."
+
+[NoInvenItemMessage7]
+DoorPointName	= "DoorPoint23"
+NoItemMessage	= "실장실 출입카드가 필요합니다."
+
+[NoInvenItemMessage8]
+DoorPointName	= "DoorPoint26"
+NoItemMessage	= "3층 출입카드가 필요합니다."
+
+[NoInvenItemMessage9]
+DoorPointName	= "DoorPoint29"
+NoItemMessage	= "서버실 출입카드가 필요합니다."
+
+[NoInvenItemMessage10]
+DoorPointName	= "DoorPoint32"
+NoItemMessage	= "본부장실 출입카드가 필요합니다."
+
+[NoInvenItemMessage11]
+DoorPointName	= "DoorPoint35"
+NoItemMessage	= "사장실 출입카드가 필요합니다."
+
+[NoInvenItemMessage12]
+DoorPointName	= "DoorPoint80"
+NoItemMessage	= "실장실 금고열쇠가 필요합니다."
+
+[NoInvenItemMessage13]
+DoorPointName	= "DoorPoint81"
+NoItemMessage	= "본부장실 금고열쇠가 필요합니다."
+
+[NoInvenItemMessage14]
+DoorPointName	= "DoorPoint82"
+NoItemMessage	= "사장실 금고열쇠가 필요합니다."
+
+[NoInvenItemMessage15]
+DoorPointName	= "DoorPoint83"
+NoItemMessage	= "일반 금고열쇠가 필요합니다."
+
+[NoInvenItemMessage16]
+DoorPointName	= "DoorPoint92"
+NoItemMessage	= "1호서버 USB가 필요합니다."
+
+[NoInvenItemMessage17]
+DoorPointName	= "DoorPoint95"
+NoItemMessage	= "2호서버 USB가 필요합니다."
+
+[NoInvenItemMessage18]
+DoorPointName	= "DoorPoint98"
+NoItemMessage	= "3호서버 USB가 필요합니다."
+// ------------------------------------------------------------------------------------------------
+
+// ----------------------- 상황에 따른 메시지 출력 설정 ---------------------------------
+// 맵 인벤 아이템 먹었을때 나오는 메시지
+
+
+[MapInvenItemMsg0]
+MapItemID	= 0		// 주은 인벤 아이템
+MsgIndex	= 5		// 메시지 index
+
+[MapInvenItemMsg1]
+MapItemID	= 5		// 주은 인벤 아이템
+MsgIndex	= 11		// 메시지 index
+
+// 문을 열었을때 나오는 메시지
+[DoorPointDoorMsg0]
+DoorPointDoorName	= "DoorPointDoor0"	// door point door 이름
+MsgIndex			= 6
+
+[DoorPointDoorMsg1]
+DoorPointDoorName	= "DoorPointDoor1"	// door point door 이름
+MsgIndex			= 7
+
+[DoorPointDoorMsg2]
+DoorPointDoorName	= "DoorPointDoor2"	// door point door 이름
+MsgIndex			= 9
+
+[DoorPointDoorMsg3]
+DoorPointDoorName	= "DoorPointDoor5"	// door point door 이름
+MsgIndex			= 12
+
+[DoorPointDoorMsg4]
+DoorPointDoorName	= "DoorPointDoor8"	// door point door 이름
+MsgIndex			= 15
+
+[DoorPointDoorMsg5]
+DoorPointDoorName	= "DoorPointDoor93"	// 1호usb
+MsgIndex			= 18
+
+[DoorPointDoorMsg6]
+DoorPointDoorName	= "DoorPointDoor94"	// 2호usb
+MsgIndex			= 18
+
+[DoorPointDoorMsg7]
+DoorPointDoorName	= "DoorPointDoor95"	// 3호usb
+MsgIndex			= 18
+
+[DoorPointDoorMsg8]
+DoorPointDoorName	= "DoorPointDoor90"	// 1호폭파
+MsgIndex			= 18
+
+[DoorPointDoorMsg9]
+DoorPointDoorName	= "DoorPointDoor91"	// 2호폭파
+MsgIndex			= 18
+
+[DoorPointDoorMsg10]
+DoorPointDoorName	= "DoorPointDoor92"	// 3호폭파
+MsgIndex			= 18
+
+// 블럭이 없어질때 나오는 메시지
+[BlockMsg0]
+BlockID		= 0			// 블럭 ID
+MsgIndex	= 10
+
+[BlockMsg1]
+BlockID		= 1			// 블럭 ID
+MsgIndex	= 13
+
+[BlockMsg2]
+BlockID		= 2			// 블럭 ID
+MsgIndex	= 16
+
+[BlockMsg3]
+BlockID		= 3			// 블럭 ID
+MsgIndex	= 17
+
+// 맵 무기 먹었을때 나오는 메시지
+
+[MapDropWeaponMsg0]
+MapDropWeaponPoint = "MapWeaponDropPoint54"
+MsgIndex	= 8
+
+[MapDropWeaponMsg1]
+MapDropWeaponPoint = "MapWeaponDropPoint55"
+MsgIndex	= 8
+
+// 시체 치웠을때 나오는 메시지
+[AIBodyCleanMsg0]
+AIIndex 	= 1165		// ai 몬스터 index
+MsgIndex	= 3		// 메시지 index
+
+
+// --------------------------------------------------------------------------------------
+
+
+[HUDBlock]
+Alpha = 100										//도착하지 못한 캐릭터의 알파 0~255
+ImgWidth = 26									//초상화 이미지 사이즈
+ImgHeight = 26									//초상화 이미지 사이즈
+Border = 1.0f										//도착한 캐릭터 경계의 너비
+Space = 2.0f										//초상화의 간격
+RemovingTime = 2.0f							//사라지는 시간 2초
+Offset	= <0.0, 10.0, 0.0>					//문에서의 오프셋 여기를 기준으로 초상화들을 가운데 정렬해서 보여준다.
+Offset2	= <0.0, -40.0, 0.0>					//문에서의 오프셋 여기를 기준으로 주의 표지를 보여준다.
+BorderColor = <247.0, 150.0, 70.0>		//도착한 캐릭터 경계의 너비 색깔.
+CautionScale = 0.6f								//주의 문구의 스케일

@@ -1,0 +1,7 @@
+<UIEditor>
+    <UIInfo name="reward_level" x="29" y="0" w="64" h="32" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_main_level01" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="reward_btn" x="11" y="146" w="100" h="30" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_main_small_reward_btn01_n" comptype="Button" groupname="" hudalign="0" hudstretch="false"/>
+    <UIInfo name="itemctrl" x="5" y="37" w="110" h="100" type="1" commandid="" atlas="" texture="" comptype="ItemCtrl" groupname="" hudalign="0" hudstretch="false"/>
+    <UIInfo name="reward_cover" x="0" y="37" w="122" h="150" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_main_lockbg_img" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="mouse_over_img" x="10" y="47" w="103" h="86" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_mission_item_mouseover_img" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+</UIEditor>

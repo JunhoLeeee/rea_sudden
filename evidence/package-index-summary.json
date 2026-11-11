@@ -1,0 +1,2247 @@
+{
+  "packages": [
+    {
+      "package": "clientfx_00000.pkg",
+      "members": 1,
+      "index_bytes": 90,
+      "path": "evidence\\package-indexes\\clientfx_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "fx_00000.pkg",
+      "members": 3839,
+      "index_bytes": 468274,
+      "path": "evidence\\package-indexes\\fx_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "fx_00001.pkg",
+      "members": 2355,
+      "index_bytes": 284968,
+      "path": "evidence\\package-indexes\\fx_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "fx_00002.pkg",
+      "members": 2593,
+      "index_bytes": 335190,
+      "path": "evidence\\package-indexes\\fx_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "fx_00003.pkg",
+      "members": 1091,
+      "index_bytes": 136410,
+      "path": "evidence\\package-indexes\\fx_00003.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "fx_00004.pkg",
+      "members": 1460,
+      "index_bytes": 198518,
+      "path": "evidence\\package-indexes\\fx_00004.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "fx_00005.pkg",
+      "members": 1125,
+      "index_bytes": 155924,
+      "path": "evidence\\package-indexes\\fx_00005.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "fx_00006.pkg",
+      "members": 1021,
+      "index_bytes": 141180,
+      "path": "evidence\\package-indexes\\fx_00006.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "fx_00007.pkg",
+      "members": 274,
+      "index_bytes": 35048,
+      "path": "evidence\\package-indexes\\fx_00007.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "game_file_00000.pkg",
+      "members": 6,
+      "index_bytes": 518,
+      "path": "evidence\\package-indexes\\game_file_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "global_00000.pkg",
+      "members": 6,
+      "index_bytes": 596,
+      "path": "evidence\\package-indexes\\global_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "renderstyles_00000.pkg",
+      "members": 27,
+      "index_bytes": 2782,
+      "path": "evidence\\package-indexes\\renderstyles_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_atlas_00000.pkg",
+      "members": 502,
+      "index_bytes": 71982,
+      "path": "evidence\\package-indexes\\sa_atlas_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_atlas_00001.pkg",
+      "members": 115,
+      "index_bytes": 16922,
+      "path": "evidence\\package-indexes\\sa_atlas_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersc_00000.pkg",
+      "members": 6,
+      "index_bytes": 662,
+      "path": "evidence\\package-indexes\\sa_charactersc_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersct_00000.pkg",
+      "members": 833,
+      "index_bytes": 98294,
+      "path": "evidence\\package-indexes\\sa_charactersct_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersct_00001.pkg",
+      "members": 672,
+      "index_bytes": 79296,
+      "path": "evidence\\package-indexes\\sa_charactersct_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersct_00002.pkg",
+      "members": 658,
+      "index_bytes": 77156,
+      "path": "evidence\\package-indexes\\sa_charactersct_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersct_00003.pkg",
+      "members": 599,
+      "index_bytes": 70682,
+      "path": "evidence\\package-indexes\\sa_charactersct_00003.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersct_00004.pkg",
+      "members": 236,
+      "index_bytes": 27848,
+      "path": "evidence\\package-indexes\\sa_charactersct_00004.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscu_00000.pkg",
+      "members": 36,
+      "index_bytes": 5376,
+      "path": "evidence\\package-indexes\\sa_characterscu_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00000.pkg",
+      "members": 2604,
+      "index_bytes": 404632,
+      "path": "evidence\\package-indexes\\sa_characterscv_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00001.pkg",
+      "members": 2483,
+      "index_bytes": 384672,
+      "path": "evidence\\package-indexes\\sa_characterscv_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00002.pkg",
+      "members": 2391,
+      "index_bytes": 371726,
+      "path": "evidence\\package-indexes\\sa_characterscv_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00003.pkg",
+      "members": 2532,
+      "index_bytes": 393182,
+      "path": "evidence\\package-indexes\\sa_characterscv_00003.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00004.pkg",
+      "members": 2331,
+      "index_bytes": 361820,
+      "path": "evidence\\package-indexes\\sa_characterscv_00004.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00005.pkg",
+      "members": 2370,
+      "index_bytes": 368118,
+      "path": "evidence\\package-indexes\\sa_characterscv_00005.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00006.pkg",
+      "members": 2025,
+      "index_bytes": 314300,
+      "path": "evidence\\package-indexes\\sa_characterscv_00006.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00007.pkg",
+      "members": 2253,
+      "index_bytes": 349914,
+      "path": "evidence\\package-indexes\\sa_characterscv_00007.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00008.pkg",
+      "members": 2110,
+      "index_bytes": 327136,
+      "path": "evidence\\package-indexes\\sa_characterscv_00008.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00009.pkg",
+      "members": 2266,
+      "index_bytes": 351456,
+      "path": "evidence\\package-indexes\\sa_characterscv_00009.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00010.pkg",
+      "members": 2102,
+      "index_bytes": 324902,
+      "path": "evidence\\package-indexes\\sa_characterscv_00010.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00011.pkg",
+      "members": 2145,
+      "index_bytes": 331556,
+      "path": "evidence\\package-indexes\\sa_characterscv_00011.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00012.pkg",
+      "members": 1020,
+      "index_bytes": 158086,
+      "path": "evidence\\package-indexes\\sa_characterscv_00012.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00013.pkg",
+      "members": 2300,
+      "index_bytes": 356164,
+      "path": "evidence\\package-indexes\\sa_characterscv_00013.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00014.pkg",
+      "members": 2284,
+      "index_bytes": 353134,
+      "path": "evidence\\package-indexes\\sa_characterscv_00014.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00015.pkg",
+      "members": 2172,
+      "index_bytes": 336492,
+      "path": "evidence\\package-indexes\\sa_characterscv_00015.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00016.pkg",
+      "members": 2175,
+      "index_bytes": 336638,
+      "path": "evidence\\package-indexes\\sa_characterscv_00016.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00017.pkg",
+      "members": 2204,
+      "index_bytes": 340726,
+      "path": "evidence\\package-indexes\\sa_characterscv_00017.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00018.pkg",
+      "members": 2193,
+      "index_bytes": 339130,
+      "path": "evidence\\package-indexes\\sa_characterscv_00018.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00019.pkg",
+      "members": 2369,
+      "index_bytes": 367062,
+      "path": "evidence\\package-indexes\\sa_characterscv_00019.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00020.pkg",
+      "members": 1988,
+      "index_bytes": 307208,
+      "path": "evidence\\package-indexes\\sa_characterscv_00020.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00021.pkg",
+      "members": 2178,
+      "index_bytes": 336620,
+      "path": "evidence\\package-indexes\\sa_characterscv_00021.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00022.pkg",
+      "members": 2215,
+      "index_bytes": 342028,
+      "path": "evidence\\package-indexes\\sa_characterscv_00022.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00023.pkg",
+      "members": 2261,
+      "index_bytes": 349310,
+      "path": "evidence\\package-indexes\\sa_characterscv_00023.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00024.pkg",
+      "members": 2532,
+      "index_bytes": 389632,
+      "path": "evidence\\package-indexes\\sa_characterscv_00024.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00025.pkg",
+      "members": 3050,
+      "index_bytes": 464204,
+      "path": "evidence\\package-indexes\\sa_characterscv_00025.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00026.pkg",
+      "members": 4303,
+      "index_bytes": 656304,
+      "path": "evidence\\package-indexes\\sa_characterscv_00026.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00027.pkg",
+      "members": 4207,
+      "index_bytes": 644926,
+      "path": "evidence\\package-indexes\\sa_characterscv_00027.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00028.pkg",
+      "members": 3184,
+      "index_bytes": 488540,
+      "path": "evidence\\package-indexes\\sa_characterscv_00028.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00029.pkg",
+      "members": 2442,
+      "index_bytes": 374888,
+      "path": "evidence\\package-indexes\\sa_characterscv_00029.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00030.pkg",
+      "members": 2158,
+      "index_bytes": 330916,
+      "path": "evidence\\package-indexes\\sa_characterscv_00030.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00031.pkg",
+      "members": 2579,
+      "index_bytes": 397118,
+      "path": "evidence\\package-indexes\\sa_characterscv_00031.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00032.pkg",
+      "members": 2361,
+      "index_bytes": 364512,
+      "path": "evidence\\package-indexes\\sa_characterscv_00032.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00033.pkg",
+      "members": 2238,
+      "index_bytes": 345810,
+      "path": "evidence\\package-indexes\\sa_characterscv_00033.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00034.pkg",
+      "members": 2521,
+      "index_bytes": 389212,
+      "path": "evidence\\package-indexes\\sa_characterscv_00034.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00035.pkg",
+      "members": 2212,
+      "index_bytes": 341530,
+      "path": "evidence\\package-indexes\\sa_characterscv_00035.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00036.pkg",
+      "members": 2330,
+      "index_bytes": 359946,
+      "path": "evidence\\package-indexes\\sa_characterscv_00036.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterscv_00037.pkg",
+      "members": 1578,
+      "index_bytes": 243818,
+      "path": "evidence\\package-indexes\\sa_characterscv_00037.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersd_00000.pkg",
+      "members": 925,
+      "index_bytes": 128562,
+      "path": "evidence\\package-indexes\\sa_charactersd_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersd_00001.pkg",
+      "members": 294,
+      "index_bytes": 44014,
+      "path": "evidence\\package-indexes\\sa_charactersd_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterse_00000.pkg",
+      "members": 11,
+      "index_bytes": 1194,
+      "path": "evidence\\package-indexes\\sa_characterse_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00000.pkg",
+      "members": 98,
+      "index_bytes": 12012,
+      "path": "evidence\\package-indexes\\sa_charactersm_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00001.pkg",
+      "members": 60,
+      "index_bytes": 7890,
+      "path": "evidence\\package-indexes\\sa_charactersm_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00002.pkg",
+      "members": 59,
+      "index_bytes": 8130,
+      "path": "evidence\\package-indexes\\sa_charactersm_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00003.pkg",
+      "members": 50,
+      "index_bytes": 6626,
+      "path": "evidence\\package-indexes\\sa_charactersm_00003.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00004.pkg",
+      "members": 47,
+      "index_bytes": 6198,
+      "path": "evidence\\package-indexes\\sa_charactersm_00004.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00005.pkg",
+      "members": 40,
+      "index_bytes": 5410,
+      "path": "evidence\\package-indexes\\sa_charactersm_00005.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00006.pkg",
+      "members": 56,
+      "index_bytes": 7552,
+      "path": "evidence\\package-indexes\\sa_charactersm_00006.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00007.pkg",
+      "members": 48,
+      "index_bytes": 6510,
+      "path": "evidence\\package-indexes\\sa_charactersm_00007.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00008.pkg",
+      "members": 103,
+      "index_bytes": 13572,
+      "path": "evidence\\package-indexes\\sa_charactersm_00008.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00009.pkg",
+      "members": 172,
+      "index_bytes": 21534,
+      "path": "evidence\\package-indexes\\sa_charactersm_00009.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00010.pkg",
+      "members": 42,
+      "index_bytes": 5612,
+      "path": "evidence\\package-indexes\\sa_charactersm_00010.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00011.pkg",
+      "members": 59,
+      "index_bytes": 7792,
+      "path": "evidence\\package-indexes\\sa_charactersm_00011.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00012.pkg",
+      "members": 55,
+      "index_bytes": 7290,
+      "path": "evidence\\package-indexes\\sa_charactersm_00012.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00013.pkg",
+      "members": 44,
+      "index_bytes": 5524,
+      "path": "evidence\\package-indexes\\sa_charactersm_00013.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00014.pkg",
+      "members": 44,
+      "index_bytes": 5672,
+      "path": "evidence\\package-indexes\\sa_charactersm_00014.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00015.pkg",
+      "members": 36,
+      "index_bytes": 4768,
+      "path": "evidence\\package-indexes\\sa_charactersm_00015.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00016.pkg",
+      "members": 65,
+      "index_bytes": 8618,
+      "path": "evidence\\package-indexes\\sa_charactersm_00016.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00017.pkg",
+      "members": 51,
+      "index_bytes": 6644,
+      "path": "evidence\\package-indexes\\sa_charactersm_00017.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00018.pkg",
+      "members": 44,
+      "index_bytes": 5864,
+      "path": "evidence\\package-indexes\\sa_charactersm_00018.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00019.pkg",
+      "members": 38,
+      "index_bytes": 4980,
+      "path": "evidence\\package-indexes\\sa_charactersm_00019.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersm_00020.pkg",
+      "members": 101,
+      "index_bytes": 13986,
+      "path": "evidence\\package-indexes\\sa_charactersm_00020.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterss_00000.pkg",
+      "members": 351,
+      "index_bytes": 45470,
+      "path": "evidence\\package-indexes\\sa_characterss_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterss_00001.pkg",
+      "members": 236,
+      "index_bytes": 30780,
+      "path": "evidence\\package-indexes\\sa_characterss_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterss_00002.pkg",
+      "members": 108,
+      "index_bytes": 14194,
+      "path": "evidence\\package-indexes\\sa_characterss_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterss_00003.pkg",
+      "members": 331,
+      "index_bytes": 44166,
+      "path": "evidence\\package-indexes\\sa_characterss_00003.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterss_00004.pkg",
+      "members": 214,
+      "index_bytes": 28574,
+      "path": "evidence\\package-indexes\\sa_characterss_00004.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterss_00005.pkg",
+      "members": 276,
+      "index_bytes": 37308,
+      "path": "evidence\\package-indexes\\sa_characterss_00005.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterss_00006.pkg",
+      "members": 334,
+      "index_bytes": 44420,
+      "path": "evidence\\package-indexes\\sa_characterss_00006.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterss_00007.pkg",
+      "members": 305,
+      "index_bytes": 39334,
+      "path": "evidence\\package-indexes\\sa_characterss_00007.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterss_00008.pkg",
+      "members": 184,
+      "index_bytes": 25920,
+      "path": "evidence\\package-indexes\\sa_characterss_00008.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_characterss_00009.pkg",
+      "members": 87,
+      "index_bytes": 12968,
+      "path": "evidence\\package-indexes\\sa_characterss_00009.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersus_00000.pkg",
+      "members": 30,
+      "index_bytes": 3940,
+      "path": "evidence\\package-indexes\\sa_charactersus_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersws_00000.pkg",
+      "members": 232,
+      "index_bytes": 30914,
+      "path": "evidence\\package-indexes\\sa_charactersws_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersy_00000.pkg",
+      "members": 403,
+      "index_bytes": 49878,
+      "path": "evidence\\package-indexes\\sa_charactersy_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_charactersy_00001.pkg",
+      "members": 246,
+      "index_bytes": 30380,
+      "path": "evidence\\package-indexes\\sa_charactersy_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_clanfx_00000.pkg",
+      "members": 148,
+      "index_bytes": 12950,
+      "path": "evidence\\package-indexes\\sa_clanfx_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_clanmark_0_00000.pkg",
+      "members": 1374,
+      "index_bytes": 157866,
+      "path": "evidence\\package-indexes\\sa_clanmark_0_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_clanmark_1_00000.pkg",
+      "members": 5964,
+      "index_bytes": 680738,
+      "path": "evidence\\package-indexes\\sa_clanmark_1_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_collection_00000.pkg",
+      "members": 1268,
+      "index_bytes": 153788,
+      "path": "evidence\\package-indexes\\sa_collection_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_fonts_00000.pkg",
+      "members": 7,
+      "index_bytes": 628,
+      "path": "evidence\\package-indexes\\sa_fonts_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00000.pkg",
+      "members": 5115,
+      "index_bytes": 738430,
+      "path": "evidence\\package-indexes\\sa_interface2_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00001.pkg",
+      "members": 5307,
+      "index_bytes": 791304,
+      "path": "evidence\\package-indexes\\sa_interface2_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00002.pkg",
+      "members": 5307,
+      "index_bytes": 799178,
+      "path": "evidence\\package-indexes\\sa_interface2_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00003.pkg",
+      "members": 999,
+      "index_bytes": 184530,
+      "path": "evidence\\package-indexes\\sa_interface2_00003.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00004.pkg",
+      "members": 923,
+      "index_bytes": 154954,
+      "path": "evidence\\package-indexes\\sa_interface2_00004.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00005.pkg",
+      "members": 2365,
+      "index_bytes": 357240,
+      "path": "evidence\\package-indexes\\sa_interface2_00005.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00006.pkg",
+      "members": 14,
+      "index_bytes": 1772,
+      "path": "evidence\\package-indexes\\sa_interface2_00006.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00007.pkg",
+      "members": 13,
+      "index_bytes": 1588,
+      "path": "evidence\\package-indexes\\sa_interface2_00007.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00008.pkg",
+      "members": 11,
+      "index_bytes": 1378,
+      "path": "evidence\\package-indexes\\sa_interface2_00008.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00009.pkg",
+      "members": 94,
+      "index_bytes": 12794,
+      "path": "evidence\\package-indexes\\sa_interface2_00009.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00010.pkg",
+      "members": 9,
+      "index_bytes": 1266,
+      "path": "evidence\\package-indexes\\sa_interface2_00010.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00011.pkg",
+      "members": 625,
+      "index_bytes": 77674,
+      "path": "evidence\\package-indexes\\sa_interface2_00011.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00012.pkg",
+      "members": 643,
+      "index_bytes": 77372,
+      "path": "evidence\\package-indexes\\sa_interface2_00012.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00013.pkg",
+      "members": 238,
+      "index_bytes": 32804,
+      "path": "evidence\\package-indexes\\sa_interface2_00013.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00014.pkg",
+      "members": 245,
+      "index_bytes": 33212,
+      "path": "evidence\\package-indexes\\sa_interface2_00014.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00015.pkg",
+      "members": 183,
+      "index_bytes": 25536,
+      "path": "evidence\\package-indexes\\sa_interface2_00015.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00016.pkg",
+      "members": 497,
+      "index_bytes": 69962,
+      "path": "evidence\\package-indexes\\sa_interface2_00016.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00017.pkg",
+      "members": 1394,
+      "index_bytes": 216158,
+      "path": "evidence\\package-indexes\\sa_interface2_00017.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00018.pkg",
+      "members": 1845,
+      "index_bytes": 290384,
+      "path": "evidence\\package-indexes\\sa_interface2_00018.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface2_00019.pkg",
+      "members": 66,
+      "index_bytes": 9630,
+      "path": "evidence\\package-indexes\\sa_interface2_00019.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface_00000.pkg",
+      "members": 3496,
+      "index_bytes": 565736,
+      "path": "evidence\\package-indexes\\sa_interface_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface_00001.pkg",
+      "members": 5320,
+      "index_bytes": 837406,
+      "path": "evidence\\package-indexes\\sa_interface_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface_00002.pkg",
+      "members": 6309,
+      "index_bytes": 897330,
+      "path": "evidence\\package-indexes\\sa_interface_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface_00003.pkg",
+      "members": 433,
+      "index_bytes": 60776,
+      "path": "evidence\\package-indexes\\sa_interface_00003.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface_00004.pkg",
+      "members": 741,
+      "index_bytes": 103138,
+      "path": "evidence\\package-indexes\\sa_interface_00004.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface_00005.pkg",
+      "members": 1412,
+      "index_bytes": 187412,
+      "path": "evidence\\package-indexes\\sa_interface_00005.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface_00006.pkg",
+      "members": 219,
+      "index_bytes": 28666,
+      "path": "evidence\\package-indexes\\sa_interface_00006.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface_00007.pkg",
+      "members": 10551,
+      "index_bytes": 1358858,
+      "path": "evidence\\package-indexes\\sa_interface_00007.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface_00008.pkg",
+      "members": 12123,
+      "index_bytes": 1575162,
+      "path": "evidence\\package-indexes\\sa_interface_00008.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface_00009.pkg",
+      "members": 4865,
+      "index_bytes": 691056,
+      "path": "evidence\\package-indexes\\sa_interface_00009.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface_00010.pkg",
+      "members": 6117,
+      "index_bytes": 833124,
+      "path": "evidence\\package-indexes\\sa_interface_00010.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface_00011.pkg",
+      "members": 6592,
+      "index_bytes": 911402,
+      "path": "evidence\\package-indexes\\sa_interface_00011.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface_00012.pkg",
+      "members": 6676,
+      "index_bytes": 913806,
+      "path": "evidence\\package-indexes\\sa_interface_00012.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface_00013.pkg",
+      "members": 739,
+      "index_bytes": 101118,
+      "path": "evidence\\package-indexes\\sa_interface_00013.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_interface_chn_00000.pkg",
+      "members": 181,
+      "index_bytes": 25308,
+      "path": "evidence\\package-indexes\\sa_interface_chn_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_ppl_00000.pkg",
+      "members": 211,
+      "index_bytes": 22272,
+      "path": "evidence\\package-indexes\\sa_ppl_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_props_00000.pkg",
+      "members": 535,
+      "index_bytes": 65188,
+      "path": "evidence\\package-indexes\\sa_props_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_props_00001.pkg",
+      "members": 440,
+      "index_bytes": 56692,
+      "path": "evidence\\package-indexes\\sa_props_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcecp_00000.pkg",
+      "members": 525,
+      "index_bytes": 91364,
+      "path": "evidence\\package-indexes\\sa_resourcecp_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcecp_00001.pkg",
+      "members": 464,
+      "index_bytes": 79640,
+      "path": "evidence\\package-indexes\\sa_resourcecp_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcecp_00002.pkg",
+      "members": 209,
+      "index_bytes": 32240,
+      "path": "evidence\\package-indexes\\sa_resourcecp_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcecp_00003.pkg",
+      "members": 171,
+      "index_bytes": 28162,
+      "path": "evidence\\package-indexes\\sa_resourcecp_00003.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcecp_00004.pkg",
+      "members": 234,
+      "index_bytes": 39996,
+      "path": "evidence\\package-indexes\\sa_resourcecp_00004.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcecp_00005.pkg",
+      "members": 192,
+      "index_bytes": 32692,
+      "path": "evidence\\package-indexes\\sa_resourcecp_00005.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcecp_00006.pkg",
+      "members": 152,
+      "index_bytes": 25728,
+      "path": "evidence\\package-indexes\\sa_resourcecp_00006.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00000.pkg",
+      "members": 223,
+      "index_bytes": 30740,
+      "path": "evidence\\package-indexes\\sa_resourcem_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00001.pkg",
+      "members": 277,
+      "index_bytes": 38166,
+      "path": "evidence\\package-indexes\\sa_resourcem_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00002.pkg",
+      "members": 81,
+      "index_bytes": 10824,
+      "path": "evidence\\package-indexes\\sa_resourcem_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00003.pkg",
+      "members": 25,
+      "index_bytes": 3192,
+      "path": "evidence\\package-indexes\\sa_resourcem_00003.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00004.pkg",
+      "members": 25,
+      "index_bytes": 3318,
+      "path": "evidence\\package-indexes\\sa_resourcem_00004.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00005.pkg",
+      "members": 21,
+      "index_bytes": 2738,
+      "path": "evidence\\package-indexes\\sa_resourcem_00005.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00006.pkg",
+      "members": 20,
+      "index_bytes": 2490,
+      "path": "evidence\\package-indexes\\sa_resourcem_00006.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00007.pkg",
+      "members": 21,
+      "index_bytes": 2638,
+      "path": "evidence\\package-indexes\\sa_resourcem_00007.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00008.pkg",
+      "members": 26,
+      "index_bytes": 3280,
+      "path": "evidence\\package-indexes\\sa_resourcem_00008.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00009.pkg",
+      "members": 26,
+      "index_bytes": 3336,
+      "path": "evidence\\package-indexes\\sa_resourcem_00009.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00010.pkg",
+      "members": 22,
+      "index_bytes": 2776,
+      "path": "evidence\\package-indexes\\sa_resourcem_00010.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00011.pkg",
+      "members": 20,
+      "index_bytes": 2504,
+      "path": "evidence\\package-indexes\\sa_resourcem_00011.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00012.pkg",
+      "members": 46,
+      "index_bytes": 6354,
+      "path": "evidence\\package-indexes\\sa_resourcem_00012.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00013.pkg",
+      "members": 73,
+      "index_bytes": 9766,
+      "path": "evidence\\package-indexes\\sa_resourcem_00013.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00014.pkg",
+      "members": 79,
+      "index_bytes": 11644,
+      "path": "evidence\\package-indexes\\sa_resourcem_00014.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00015.pkg",
+      "members": 103,
+      "index_bytes": 14756,
+      "path": "evidence\\package-indexes\\sa_resourcem_00015.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00016.pkg",
+      "members": 66,
+      "index_bytes": 9818,
+      "path": "evidence\\package-indexes\\sa_resourcem_00016.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00017.pkg",
+      "members": 94,
+      "index_bytes": 14088,
+      "path": "evidence\\package-indexes\\sa_resourcem_00017.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00018.pkg",
+      "members": 78,
+      "index_bytes": 11598,
+      "path": "evidence\\package-indexes\\sa_resourcem_00018.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00019.pkg",
+      "members": 146,
+      "index_bytes": 21498,
+      "path": "evidence\\package-indexes\\sa_resourcem_00019.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00020.pkg",
+      "members": 166,
+      "index_bytes": 24890,
+      "path": "evidence\\package-indexes\\sa_resourcem_00020.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00021.pkg",
+      "members": 156,
+      "index_bytes": 23086,
+      "path": "evidence\\package-indexes\\sa_resourcem_00021.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00022.pkg",
+      "members": 160,
+      "index_bytes": 24296,
+      "path": "evidence\\package-indexes\\sa_resourcem_00022.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00023.pkg",
+      "members": 125,
+      "index_bytes": 19242,
+      "path": "evidence\\package-indexes\\sa_resourcem_00023.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcem_00024.pkg",
+      "members": 21,
+      "index_bytes": 3048,
+      "path": "evidence\\package-indexes\\sa_resourcem_00024.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00000.pkg",
+      "members": 445,
+      "index_bytes": 64660,
+      "path": "evidence\\package-indexes\\sa_resourcew_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00001.pkg",
+      "members": 469,
+      "index_bytes": 67658,
+      "path": "evidence\\package-indexes\\sa_resourcew_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00002.pkg",
+      "members": 390,
+      "index_bytes": 54468,
+      "path": "evidence\\package-indexes\\sa_resourcew_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00003.pkg",
+      "members": 447,
+      "index_bytes": 63166,
+      "path": "evidence\\package-indexes\\sa_resourcew_00003.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00004.pkg",
+      "members": 448,
+      "index_bytes": 62118,
+      "path": "evidence\\package-indexes\\sa_resourcew_00004.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00005.pkg",
+      "members": 434,
+      "index_bytes": 61976,
+      "path": "evidence\\package-indexes\\sa_resourcew_00005.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00006.pkg",
+      "members": 404,
+      "index_bytes": 59154,
+      "path": "evidence\\package-indexes\\sa_resourcew_00006.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00007.pkg",
+      "members": 299,
+      "index_bytes": 42932,
+      "path": "evidence\\package-indexes\\sa_resourcew_00007.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00008.pkg",
+      "members": 417,
+      "index_bytes": 59960,
+      "path": "evidence\\package-indexes\\sa_resourcew_00008.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00009.pkg",
+      "members": 489,
+      "index_bytes": 71962,
+      "path": "evidence\\package-indexes\\sa_resourcew_00009.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00010.pkg",
+      "members": 232,
+      "index_bytes": 33804,
+      "path": "evidence\\package-indexes\\sa_resourcew_00010.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00011.pkg",
+      "members": 180,
+      "index_bytes": 26132,
+      "path": "evidence\\package-indexes\\sa_resourcew_00011.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00012.pkg",
+      "members": 290,
+      "index_bytes": 41014,
+      "path": "evidence\\package-indexes\\sa_resourcew_00012.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00013.pkg",
+      "members": 252,
+      "index_bytes": 36394,
+      "path": "evidence\\package-indexes\\sa_resourcew_00013.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00014.pkg",
+      "members": 179,
+      "index_bytes": 25258,
+      "path": "evidence\\package-indexes\\sa_resourcew_00014.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00015.pkg",
+      "members": 272,
+      "index_bytes": 38404,
+      "path": "evidence\\package-indexes\\sa_resourcew_00015.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00016.pkg",
+      "members": 329,
+      "index_bytes": 45658,
+      "path": "evidence\\package-indexes\\sa_resourcew_00016.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00017.pkg",
+      "members": 229,
+      "index_bytes": 32104,
+      "path": "evidence\\package-indexes\\sa_resourcew_00017.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00018.pkg",
+      "members": 203,
+      "index_bytes": 28404,
+      "path": "evidence\\package-indexes\\sa_resourcew_00018.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00019.pkg",
+      "members": 268,
+      "index_bytes": 38758,
+      "path": "evidence\\package-indexes\\sa_resourcew_00019.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00020.pkg",
+      "members": 247,
+      "index_bytes": 35242,
+      "path": "evidence\\package-indexes\\sa_resourcew_00020.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00021.pkg",
+      "members": 217,
+      "index_bytes": 30832,
+      "path": "evidence\\package-indexes\\sa_resourcew_00021.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00022.pkg",
+      "members": 444,
+      "index_bytes": 64526,
+      "path": "evidence\\package-indexes\\sa_resourcew_00022.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00023.pkg",
+      "members": 350,
+      "index_bytes": 48364,
+      "path": "evidence\\package-indexes\\sa_resourcew_00023.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00024.pkg",
+      "members": 360,
+      "index_bytes": 50418,
+      "path": "evidence\\package-indexes\\sa_resourcew_00024.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00025.pkg",
+      "members": 211,
+      "index_bytes": 29218,
+      "path": "evidence\\package-indexes\\sa_resourcew_00025.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00026.pkg",
+      "members": 334,
+      "index_bytes": 47236,
+      "path": "evidence\\package-indexes\\sa_resourcew_00026.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00027.pkg",
+      "members": 298,
+      "index_bytes": 40992,
+      "path": "evidence\\package-indexes\\sa_resourcew_00027.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00028.pkg",
+      "members": 231,
+      "index_bytes": 32248,
+      "path": "evidence\\package-indexes\\sa_resourcew_00028.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00029.pkg",
+      "members": 222,
+      "index_bytes": 31384,
+      "path": "evidence\\package-indexes\\sa_resourcew_00029.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00030.pkg",
+      "members": 223,
+      "index_bytes": 31584,
+      "path": "evidence\\package-indexes\\sa_resourcew_00030.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00031.pkg",
+      "members": 274,
+      "index_bytes": 39320,
+      "path": "evidence\\package-indexes\\sa_resourcew_00031.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00032.pkg",
+      "members": 289,
+      "index_bytes": 41052,
+      "path": "evidence\\package-indexes\\sa_resourcew_00032.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00033.pkg",
+      "members": 227,
+      "index_bytes": 32414,
+      "path": "evidence\\package-indexes\\sa_resourcew_00033.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00034.pkg",
+      "members": 366,
+      "index_bytes": 52018,
+      "path": "evidence\\package-indexes\\sa_resourcew_00034.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00035.pkg",
+      "members": 311,
+      "index_bytes": 44424,
+      "path": "evidence\\package-indexes\\sa_resourcew_00035.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00036.pkg",
+      "members": 240,
+      "index_bytes": 33984,
+      "path": "evidence\\package-indexes\\sa_resourcew_00036.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00037.pkg",
+      "members": 316,
+      "index_bytes": 45332,
+      "path": "evidence\\package-indexes\\sa_resourcew_00037.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00038.pkg",
+      "members": 262,
+      "index_bytes": 36738,
+      "path": "evidence\\package-indexes\\sa_resourcew_00038.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00039.pkg",
+      "members": 125,
+      "index_bytes": 17608,
+      "path": "evidence\\package-indexes\\sa_resourcew_00039.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00040.pkg",
+      "members": 318,
+      "index_bytes": 45338,
+      "path": "evidence\\package-indexes\\sa_resourcew_00040.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00041.pkg",
+      "members": 324,
+      "index_bytes": 45796,
+      "path": "evidence\\package-indexes\\sa_resourcew_00041.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00042.pkg",
+      "members": 104,
+      "index_bytes": 14566,
+      "path": "evidence\\package-indexes\\sa_resourcew_00042.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00043.pkg",
+      "members": 234,
+      "index_bytes": 32764,
+      "path": "evidence\\package-indexes\\sa_resourcew_00043.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00044.pkg",
+      "members": 284,
+      "index_bytes": 40596,
+      "path": "evidence\\package-indexes\\sa_resourcew_00044.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00045.pkg",
+      "members": 294,
+      "index_bytes": 41864,
+      "path": "evidence\\package-indexes\\sa_resourcew_00045.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcew_00046.pkg",
+      "members": 64,
+      "index_bytes": 9276,
+      "path": "evidence\\package-indexes\\sa_resourcew_00046.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcewp_00000.pkg",
+      "members": 1456,
+      "index_bytes": 201494,
+      "path": "evidence\\package-indexes\\sa_resourcewp_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcewp_00001.pkg",
+      "members": 1414,
+      "index_bytes": 202036,
+      "path": "evidence\\package-indexes\\sa_resourcewp_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_resourcewp_00002.pkg",
+      "members": 877,
+      "index_bytes": 125102,
+      "path": "evidence\\package-indexes\\sa_resourcewp_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_scripts_00000.pkg",
+      "members": 239,
+      "index_bytes": 24542,
+      "path": "evidence\\package-indexes\\sa_scripts_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_shaders_00000.pkg",
+      "members": 88,
+      "index_bytes": 11134,
+      "path": "evidence\\package-indexes\\sa_shaders_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_sprites_00000.pkg",
+      "members": 591,
+      "index_bytes": 77798,
+      "path": "evidence\\package-indexes\\sa_sprites_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2013_00000.pkg",
+      "members": 883,
+      "index_bytes": 104846,
+      "path": "evidence\\package-indexes\\sa_tex2013_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2013_00001.pkg",
+      "members": 509,
+      "index_bytes": 58912,
+      "path": "evidence\\package-indexes\\sa_tex2013_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2014_00000.pkg",
+      "members": 986,
+      "index_bytes": 116300,
+      "path": "evidence\\package-indexes\\sa_tex2014_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2015_00000.pkg",
+      "members": 927,
+      "index_bytes": 108178,
+      "path": "evidence\\package-indexes\\sa_tex2015_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2015_00001.pkg",
+      "members": 509,
+      "index_bytes": 61872,
+      "path": "evidence\\package-indexes\\sa_tex2015_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2016_00000.pkg",
+      "members": 530,
+      "index_bytes": 66186,
+      "path": "evidence\\package-indexes\\sa_tex2016_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2016_00001.pkg",
+      "members": 158,
+      "index_bytes": 19336,
+      "path": "evidence\\package-indexes\\sa_tex2016_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2017_00000.pkg",
+      "members": 422,
+      "index_bytes": 50586,
+      "path": "evidence\\package-indexes\\sa_tex2017_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2017_00001.pkg",
+      "members": 638,
+      "index_bytes": 77374,
+      "path": "evidence\\package-indexes\\sa_tex2017_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2017_00002.pkg",
+      "members": 522,
+      "index_bytes": 63812,
+      "path": "evidence\\package-indexes\\sa_tex2017_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2018_00000.pkg",
+      "members": 706,
+      "index_bytes": 83058,
+      "path": "evidence\\package-indexes\\sa_tex2018_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2018_00001.pkg",
+      "members": 749,
+      "index_bytes": 91948,
+      "path": "evidence\\package-indexes\\sa_tex2018_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2019_00000.pkg",
+      "members": 562,
+      "index_bytes": 67208,
+      "path": "evidence\\package-indexes\\sa_tex2019_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2020_00000.pkg",
+      "members": 953,
+      "index_bytes": 109232,
+      "path": "evidence\\package-indexes\\sa_tex2020_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2020_00001.pkg",
+      "members": 899,
+      "index_bytes": 102416,
+      "path": "evidence\\package-indexes\\sa_tex2020_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2021_00000.pkg",
+      "members": 1030,
+      "index_bytes": 120916,
+      "path": "evidence\\package-indexes\\sa_tex2021_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2021_00001.pkg",
+      "members": 419,
+      "index_bytes": 49940,
+      "path": "evidence\\package-indexes\\sa_tex2021_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2022_00000.pkg",
+      "members": 599,
+      "index_bytes": 70412,
+      "path": "evidence\\package-indexes\\sa_tex2022_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2022_00001.pkg",
+      "members": 296,
+      "index_bytes": 33780,
+      "path": "evidence\\package-indexes\\sa_tex2022_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2023_00000.pkg",
+      "members": 470,
+      "index_bytes": 53034,
+      "path": "evidence\\package-indexes\\sa_tex2023_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2023_00001.pkg",
+      "members": 19,
+      "index_bytes": 2194,
+      "path": "evidence\\package-indexes\\sa_tex2023_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2024_00000.pkg",
+      "members": 551,
+      "index_bytes": 63268,
+      "path": "evidence\\package-indexes\\sa_tex2024_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2024_00001.pkg",
+      "members": 235,
+      "index_bytes": 26914,
+      "path": "evidence\\package-indexes\\sa_tex2024_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2025_00000.pkg",
+      "members": 437,
+      "index_bytes": 54166,
+      "path": "evidence\\package-indexes\\sa_tex2025_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2025_00001.pkg",
+      "members": 702,
+      "index_bytes": 75536,
+      "path": "evidence\\package-indexes\\sa_tex2025_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2025_00002.pkg",
+      "members": 110,
+      "index_bytes": 12670,
+      "path": "evidence\\package-indexes\\sa_tex2025_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2026_00000.pkg",
+      "members": 553,
+      "index_bytes": 67118,
+      "path": "evidence\\package-indexes\\sa_tex2026_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2026_00001.pkg",
+      "members": 361,
+      "index_bytes": 42032,
+      "path": "evidence\\package-indexes\\sa_tex2026_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2_00000.pkg",
+      "members": 925,
+      "index_bytes": 94954,
+      "path": "evidence\\package-indexes\\sa_tex2_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex2_00001.pkg",
+      "members": 1366,
+      "index_bytes": 142270,
+      "path": "evidence\\package-indexes\\sa_tex2_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex3_00000.pkg",
+      "members": 981,
+      "index_bytes": 109814,
+      "path": "evidence\\package-indexes\\sa_tex3_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex3_00001.pkg",
+      "members": 215,
+      "index_bytes": 23508,
+      "path": "evidence\\package-indexes\\sa_tex3_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex_00000.pkg",
+      "members": 2729,
+      "index_bytes": 263612,
+      "path": "evidence\\package-indexes\\sa_tex_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_tex_00001.pkg",
+      "members": 1482,
+      "index_bytes": 155112,
+      "path": "evidence\\package-indexes\\sa_tex_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_texfx_00000.pkg",
+      "members": 126,
+      "index_bytes": 14026,
+      "path": "evidence\\package-indexes\\sa_texfx_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_text_00000.pkg",
+      "members": 1,
+      "index_bytes": 84,
+      "path": "evidence\\package-indexes\\sa_text_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponsi_00000.pkg",
+      "members": 4,
+      "index_bytes": 448,
+      "path": "evidence\\package-indexes\\sa_weaponsi_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponsm_00000.pkg",
+      "members": 236,
+      "index_bytes": 30634,
+      "path": "evidence\\package-indexes\\sa_weaponsm_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponsm_00001.pkg",
+      "members": 276,
+      "index_bytes": 41398,
+      "path": "evidence\\package-indexes\\sa_weaponsm_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponsm_00002.pkg",
+      "members": 420,
+      "index_bytes": 62412,
+      "path": "evidence\\package-indexes\\sa_weaponsm_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponsm_00003.pkg",
+      "members": 745,
+      "index_bytes": 98708,
+      "path": "evidence\\package-indexes\\sa_weaponsm_00003.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponsm_00004.pkg",
+      "members": 1091,
+      "index_bytes": 140952,
+      "path": "evidence\\package-indexes\\sa_weaponsm_00004.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponsm_00005.pkg",
+      "members": 751,
+      "index_bytes": 98514,
+      "path": "evidence\\package-indexes\\sa_weaponsm_00005.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponsm_00006.pkg",
+      "members": 360,
+      "index_bytes": 50744,
+      "path": "evidence\\package-indexes\\sa_weaponsm_00006.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponsm_00007.pkg",
+      "members": 140,
+      "index_bytes": 21480,
+      "path": "evidence\\package-indexes\\sa_weaponsm_00007.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00000.pkg",
+      "members": 624,
+      "index_bytes": 86228,
+      "path": "evidence\\package-indexes\\sa_weaponss_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00001.pkg",
+      "members": 788,
+      "index_bytes": 103972,
+      "path": "evidence\\package-indexes\\sa_weaponss_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00002.pkg",
+      "members": 829,
+      "index_bytes": 112192,
+      "path": "evidence\\package-indexes\\sa_weaponss_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00003.pkg",
+      "members": 795,
+      "index_bytes": 105960,
+      "path": "evidence\\package-indexes\\sa_weaponss_00003.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00004.pkg",
+      "members": 664,
+      "index_bytes": 90114,
+      "path": "evidence\\package-indexes\\sa_weaponss_00004.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00005.pkg",
+      "members": 1062,
+      "index_bytes": 144076,
+      "path": "evidence\\package-indexes\\sa_weaponss_00005.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00006.pkg",
+      "members": 979,
+      "index_bytes": 133924,
+      "path": "evidence\\package-indexes\\sa_weaponss_00006.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00007.pkg",
+      "members": 844,
+      "index_bytes": 115978,
+      "path": "evidence\\package-indexes\\sa_weaponss_00007.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00008.pkg",
+      "members": 838,
+      "index_bytes": 114988,
+      "path": "evidence\\package-indexes\\sa_weaponss_00008.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00009.pkg",
+      "members": 914,
+      "index_bytes": 127762,
+      "path": "evidence\\package-indexes\\sa_weaponss_00009.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00010.pkg",
+      "members": 872,
+      "index_bytes": 119496,
+      "path": "evidence\\package-indexes\\sa_weaponss_00010.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00011.pkg",
+      "members": 672,
+      "index_bytes": 89714,
+      "path": "evidence\\package-indexes\\sa_weaponss_00011.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00012.pkg",
+      "members": 1257,
+      "index_bytes": 174124,
+      "path": "evidence\\package-indexes\\sa_weaponss_00012.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00013.pkg",
+      "members": 1919,
+      "index_bytes": 250630,
+      "path": "evidence\\package-indexes\\sa_weaponss_00013.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00014.pkg",
+      "members": 1130,
+      "index_bytes": 168274,
+      "path": "evidence\\package-indexes\\sa_weaponss_00014.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00015.pkg",
+      "members": 1123,
+      "index_bytes": 169858,
+      "path": "evidence\\package-indexes\\sa_weaponss_00015.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00016.pkg",
+      "members": 1080,
+      "index_bytes": 168156,
+      "path": "evidence\\package-indexes\\sa_weaponss_00016.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00017.pkg",
+      "members": 1117,
+      "index_bytes": 174656,
+      "path": "evidence\\package-indexes\\sa_weaponss_00017.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponss_00018.pkg",
+      "members": 104,
+      "index_bytes": 15428,
+      "path": "evidence\\package-indexes\\sa_weaponss_00018.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponssd_00000.pkg",
+      "members": 1177,
+      "index_bytes": 145860,
+      "path": "evidence\\package-indexes\\sa_weaponssd_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponssd_00001.pkg",
+      "members": 1208,
+      "index_bytes": 150886,
+      "path": "evidence\\package-indexes\\sa_weaponssd_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponssd_00002.pkg",
+      "members": 1067,
+      "index_bytes": 133714,
+      "path": "evidence\\package-indexes\\sa_weaponssd_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponssd_00003.pkg",
+      "members": 871,
+      "index_bytes": 114788,
+      "path": "evidence\\package-indexes\\sa_weaponssd_00003.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponssd_00004.pkg",
+      "members": 407,
+      "index_bytes": 52916,
+      "path": "evidence\\package-indexes\\sa_weaponssd_00004.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponus_00000.pkg",
+      "members": 1211,
+      "index_bytes": 155504,
+      "path": "evidence\\package-indexes\\sa_weaponus_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponus_00001.pkg",
+      "members": 1272,
+      "index_bytes": 163596,
+      "path": "evidence\\package-indexes\\sa_weaponus_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponus_00002.pkg",
+      "members": 1270,
+      "index_bytes": 170078,
+      "path": "evidence\\package-indexes\\sa_weaponus_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponus_00003.pkg",
+      "members": 389,
+      "index_bytes": 52264,
+      "path": "evidence\\package-indexes\\sa_weaponus_00003.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_weaponv_00000.pkg",
+      "members": 1,
+      "index_bytes": 102,
+      "path": "evidence\\package-indexes\\sa_weaponv_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00000.pkg",
+      "members": 550,
+      "index_bytes": 77456,
+      "path": "evidence\\package-indexes\\sa_worlds_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00001.pkg",
+      "members": 441,
+      "index_bytes": 59960,
+      "path": "evidence\\package-indexes\\sa_worlds_00001.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00002.pkg",
+      "members": 346,
+      "index_bytes": 42184,
+      "path": "evidence\\package-indexes\\sa_worlds_00002.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00003.pkg",
+      "members": 208,
+      "index_bytes": 25036,
+      "path": "evidence\\package-indexes\\sa_worlds_00003.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00004.pkg",
+      "members": 57,
+      "index_bytes": 7218,
+      "path": "evidence\\package-indexes\\sa_worlds_00004.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00005.pkg",
+      "members": 33,
+      "index_bytes": 3690,
+      "path": "evidence\\package-indexes\\sa_worlds_00005.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00006.pkg",
+      "members": 23,
+      "index_bytes": 2560,
+      "path": "evidence\\package-indexes\\sa_worlds_00006.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00007.pkg",
+      "members": 15,
+      "index_bytes": 1642,
+      "path": "evidence\\package-indexes\\sa_worlds_00007.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00008.pkg",
+      "members": 24,
+      "index_bytes": 2652,
+      "path": "evidence\\package-indexes\\sa_worlds_00008.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00009.pkg",
+      "members": 95,
+      "index_bytes": 10994,
+      "path": "evidence\\package-indexes\\sa_worlds_00009.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00010.pkg",
+      "members": 157,
+      "index_bytes": 17698,
+      "path": "evidence\\package-indexes\\sa_worlds_00010.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00011.pkg",
+      "members": 204,
+      "index_bytes": 21964,
+      "path": "evidence\\package-indexes\\sa_worlds_00011.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00012.pkg",
+      "members": 564,
+      "index_bytes": 79286,
+      "path": "evidence\\package-indexes\\sa_worlds_00012.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00013.pkg",
+      "members": 101,
+      "index_bytes": 13236,
+      "path": "evidence\\package-indexes\\sa_worlds_00013.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00014.pkg",
+      "members": 50,
+      "index_bytes": 6254,
+      "path": "evidence\\package-indexes\\sa_worlds_00014.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00015.pkg",
+      "members": 245,
+      "index_bytes": 32438,
+      "path": "evidence\\package-indexes\\sa_worlds_00015.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00016.pkg",
+      "members": 193,
+      "index_bytes": 24466,
+      "path": "evidence\\package-indexes\\sa_worlds_00016.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "sa_worlds_00017.pkg",
+      "members": 23,
+      "index_bytes": 3084,
+      "path": "evidence\\package-indexes\\sa_worlds_00017.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "textureeffectgroups_00000.pkg",
+      "members": 121,
+      "index_bytes": 13730,
+      "path": "evidence\\package-indexes\\textureeffectgroups_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "textureeffectsgroups_00000.pkg",
+      "members": 1,
+      "index_bytes": 116,
+      "path": "evidence\\package-indexes\\textureeffectsgroups_00000.json",
+      "status": "metadata-checksums-verified"
+    },
+    {
+      "package": "texturescripts_00000.pkg",
+      "members": 16,
+      "index_bytes": 1724,
+      "path": "evidence\\package-indexes\\texturescripts_00000.json",
+      "status": "metadata-checksums-verified"
+    }
+  ],
+  "limitations": [
+    "Member contents remain unverified; metadata checksums are not payload integrity."
+  ]
+}

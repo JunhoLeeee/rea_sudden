@@ -1,0 +1,4234 @@
+[GroupItem0]
+Code		=1
+NameID		=6385
+DescID		=6386
+DetailDescID	=6387
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_Red_dragon.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_Red_dragon.dtx"
+
+[GroupItem1]
+Code		=2
+NameID		=6388
+DescID		=6389
+DetailDescID	=6390
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_S_hawk.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_S_hawk.dtx"
+
+[GroupItem2]
+Code		=3
+NameID		=6391
+DescID		=6392
+DetailDescID	=6393
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_W_ghost.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_W_ghost.dtx"
+
+[GroupItem3]
+Code		=4
+NameID		=6394
+DescID		=6395
+DetailDescID	=6396
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_G_Tiger.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_G_Tiger.dtx"
+
+[GroupItem4]
+Code		=5
+NameID		=6397
+DescID		=6398
+DetailDescID	=6399
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_W_set.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_W_set.dtx"
+
+[GroupItem5]
+Code		=6
+NameID		=6400
+DescID		=6401
+DetailDescID	=6402
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_M_set.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_M_set.dtx"
+
+[GroupItem6]
+Code		=7
+NameID		=6403
+DescID		=6404
+DetailDescID	=6405
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_trench.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_trench.dtx"
+
+[GroupItem7]
+Code		=8
+NameID		=6406
+DescID		=6407
+DetailDescID	=6408
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_nichkhun_suzy.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_nichkhun_suzy.dtx"
+
+[GroupItem8]
+Code		=9
+NameID		=6409
+DescID		=6410
+DetailDescID	=6411
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_Yuinna_PSY.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_Yuinna_PSY.dtx"
+
+[GroupItem9]
+Code		=10
+NameID		=6412
+DescID		=6413
+DetailDescID	=6414
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_Tennis.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_Tennis.dtx"
+
+[GroupItem10]
+Code		=11
+NameID		=6415
+DescID		=6416
+DetailDescID	=6417
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_Megaphone.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_Megaphone.dtx"
+
+[GroupItem11]//무한자유
+Code		=12
+NameID		=729
+DescID		=607
+DetailDescID	=935
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\Icon_13.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\BigIcon_13.dtx"
+
+[GroupItem12]
+Code		=13
+Type		=1
+NameID		=2498
+DescID		=6438
+DetailDescID	=6439
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_156.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_156.dtx"
+
+[GroupItem13]
+Code		=14
+Type		=1
+NameID		=727
+DescID		=6440
+DetailDescID	=6441
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\Icon_11.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\BigIcon_11.dtx"
+
+[GroupItem14]
+Code		=15
+Type		=1
+NameID		=601
+DescID		=6442
+DetailDescID	=6443
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\Icon_7.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\BigIcon_7.dtx"
+
+// 전적 초기화
+[GroupItem15]
+Code		=16
+Type		=1
+NameID		=598
+//DescID		=937
+DescID		=609
+DetailDescID	=937
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\Icon_4.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\BigIcon_4.dtx"
+
+[GroupItem16]//무한자유플러스
+Code		=17
+Type		=1
+NameID		=730
+DescID		=6444
+DetailDescID	=6445
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_I_Freedom.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_I_Freedom.dtx"
+
+[GroupItem17]
+Code		=18
+Type		=1
+NameID		=728
+DescID		=6446
+DetailDescID	=6447
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\Icon_12.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\BigIcon_12.dtx"
+
+// 최근 통합 초기화
+[GroupItem18]
+Code		=19
+Type		=1
+NameID		=2504
+DescID		=2505
+//DescID		=2506
+DetailDescID	=2506
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_158.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_158.dtx"
+
+// 최근 일반전 초기화
+[GroupItem19]
+Code		=20
+Type		=1
+NameID		=2510
+DescID		=2511
+//DescID		=2512
+DetailDescID	=2512
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_160.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_160.dtx"
+
+// 최근 클랜전 초기화
+[GroupItem20]
+Code		=21
+Type		=1
+NameID		=2507
+DescID		=2508
+//DescID		=2509
+DetailDescID	=2509
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_159.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_159.dtx"
+
+[GroupItem21]
+Code		=22
+Type		=1
+NameID		=2640
+DescID		=6448
+DetailDescID	=6449
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_173.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_173.dtx"
+
+[GroupItem22]
+Code		=23
+Type		=1
+NameID		=2767
+DescID		=6450
+DetailDescID	=6451
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_189.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_189.dtx"
+
+[GroupItem23]
+Code		=24
+NameID		=6418
+DescID		=6419
+DetailDescID	=6420
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_PinkCute.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_PinkCute.dtx"
+
+[GroupItem24]
+Code		=25
+NameID		=6421
+DescID		=6422
+DetailDescID	=6423
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_T_ara.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_T_ara.dtx"
+
+[GroupItem25]
+Code		=26
+NameID		=6424
+DescID		=6425
+DetailDescID	=6426
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_Big3.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_Big3.dtx"
+
+[GroupItem26]
+Code		=27
+NameID		=6586
+DescID		=6587
+DetailDescID	=6588
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_NewYear.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_NewYear.dtx"
+
+[GroupItem27]
+Code		=28
+NameID		=6599
+DescID		=6600
+DetailDescID	=6601
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_654.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_654.dtx"
+
+[GroupItem28]
+Code		=29
+NameID		=6589
+DescID		=6590
+DetailDescID	=6591
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_643.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_643.dtx"
+
+[GroupItem29]
+Code		=30
+NameID		=6593
+DescID		=6594
+DetailDescID	=6595
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_647.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_647.dtx"
+
+[GroupItem30]
+Code		=31
+NameID		=6596
+DescID		=6597
+DetailDescID	=6598
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_601.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_601.dtx"
+
+[GroupItem31]
+Code		=32
+NameID		=6889
+DescID		=6890
+DetailDescID	=6891
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_Devil.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_Devil.dtx"
+
+[GroupItem32]
+Code		=33
+NameID		=6599
+DescID		=6600
+DetailDescID	=7043
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_731.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_731.dtx"
+
+[GroupItem33]
+Code		=34
+NameID		=6589
+DescID		=6590
+DetailDescID	=7044
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_719.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_719.dtx"
+
+[GroupItem34]
+Code		=35
+NameID		=6593
+DescID		=6594
+DetailDescID	=7045
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_723.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_723.dtx"
+
+[GroupItem35]
+Code		=36
+NameID		=6596
+DescID		=7046
+DetailDescID	=7047
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_727.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_727.dtx"
+
+[GroupItem36]
+Code		=37
+NameID		=7108
+DescID		=7109
+DetailDescID	=7110
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_trg21.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_trg21.dtx"
+
+[GroupItem37]
+Code		=38
+NameID		=6593
+DescID		=6594
+DetailDescID	=7045
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_723.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_723.dtx"
+
+[GroupItem38]
+Code		=39
+NameID		=7119
+DescID		=7120
+DetailDescID	=7121
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_738.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_738.dtx"
+
+[GroupItem39]
+Code		=40
+NameID		=7149
+DescID		=7150
+DetailDescID	=7151
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_787.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_787.dtx"
+
+[GroupItem40]
+Code		=41
+NameID		=7349
+DescID		=7350
+DetailDescID	=7351
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_luxury.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_luxury.dtx"
+
+[GroupItem41]
+Code		=43
+NameID		=6589
+DescID		=6590
+DetailDescID	=7044
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_842.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_842.dtx"
+
+[GroupItem42]
+Code		=44
+NameID		=6593
+DescID		=6594
+DetailDescID	=7045
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_846.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_846.dtx"
+
+[GroupItem43]
+Code		=45
+NameID		=6599
+DescID		=6600
+DetailDescID	=7043
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_850.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_850.dtx"
+
+[GroupItem44]
+Code		=46
+NameID		=6596
+DescID		=7550
+DetailDescID	=7551
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_854.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_854.dtx"
+
+[GroupItem45]
+Code		=42
+NameID		=7552
+DescID		=7553
+DetailDescID	=7554
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_tara2.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_tara2.dtx"
+
+[GroupItem46]
+Code		=47
+NameID		=7655
+DescID		=7656
+DetailDescID	=7657
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_gbear.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_gbear.dtx"
+
+[GroupItem47]
+Code		=48
+NameID		=7680
+DescID		=7681
+DetailDescID	=7682
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_blood.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_blood.dtx"
+
+[GroupItem48]
+Code		=49
+NameID		=8239
+DescID		=8240
+DetailDescID	=8241
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_angel.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_angel.dtx"
+
+[GroupItem49]
+Code		=50
+NameID		=8251
+DescID		=8252
+DetailDescID	=8253
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_angel_s.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_angel_s.dtx"
+
+[GroupItem50]
+Code		=53
+NameID		=8296
+DescID		=8297
+DetailDescID	=8298
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_suzypackage.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_suzypackage.dtx"
+
+[GroupItem51]
+Code		=54
+NameID		=8335
+DescID		=8336
+DetailDescID	=8337
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_angelaibot.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_angelaibot.dtx"
+
+[GroupItem52]
+Code		=51
+NameID		=8356
+DescID		=8357
+DetailDescID	=8358
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_suzycharacter.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_suzycharacter.dtx"
+
+[GroupItem53]
+Code		=52
+NameID		=8360
+DescID		=8361
+DetailDescID	=8362
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_suzy.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_suzy.dtx"
+
+[GroupItem54]
+Code		=55
+NameID		=8384
+DescID		=8385
+DetailDescID	=8386
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\hotsale_icon.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\hotsale_bigicon.dtx"
+
+[GroupItem55]
+Code		=56
+NameID		=8562
+DescID		=8563
+DetailDescID	=8564
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_sdolphin.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_sdolphin.dtx"
+
+[GroupItem56]
+Code		=57
+NameID		=8599
+DescID		=8600
+DetailDescID	=8601
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_font.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_font.dtx"
+
+[GroupItem57]
+Code		=58
+NameID		=8843
+DescID		=8844
+DetailDescID	=8845
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_simple.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_simple.dtx"
+
+[GroupItem58]
+Code		=59
+NameID		=7968
+DescID		=9047
+DetailDescID	=9048
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_nickname.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_nickname.dtx"
+
+[GroupItem59]
+Code		=60
+NameID		=9079
+DescID		=9080
+DetailDescID	=9081
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_white.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_white.dtx"
+
+[GroupItem60]
+Code		=61
+Type		=1
+NameID		=9160
+DescID		=9165
+DetailDescID	=9166
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_1231.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_1231.dtx"
+
+[GroupItem61]
+Code		=62
+NameID		=9256
+DescID		=9257
+DetailDescID	=9258
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_animal.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_animal.dtx"
+
+[GroupItem62]
+Code		=63
+NameID		=9565
+DescID		=9566
+DetailDescID	=9567
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_santa.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_santa.dtx"
+
+// 용병 킬데쓰 초기화
+[GroupItem63]
+Code		=64
+Type		=1
+NameID		=9692
+DescID		=9693
+//DescID		=9694
+DetailDescID	=9694
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_1417.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigIcon_1417.dtx"
+
+[GroupItem64]
+Code		=65
+NameID		=9750
+DescID		=9786
+DetailDescID	=9785
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_trex.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigIcon_trex.dtx"
+
+[GroupItem65]
+Code		=66
+NameID		=10228
+DescID		=10229
+DetailDescID	=10230
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_gwood.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_gwood.dtx"
+
+//수류탄 카운트
+[GroupItem66]
+Code		=67
+NameID		=10243
+DescID		=10244
+DetailDescID	=10245
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_1505.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_1505.dtx"
+
+[GroupItem67]
+Code		=68
+NameID		=10345
+DescID		=10346
+DetailDescID	=10347
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_iris2.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_iris2.dtx"
+
+[GroupItem68]
+Code		=69
+NameID		=10433
+DescID		=10434
+DetailDescID	=10435
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_sakura.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_sakura.dtx"
+
+//디지털 상자
+[GroupItem69]
+Code		=70
+NameID		=10649
+DescID		=10650
+DetailDescID	=10651
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_digital.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_digital.dtx"
+
+//최강세일
+[GroupItem70]
+Code		=83
+NameID		=10994
+DescID		=10995
+DetailDescID	=10996
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_supersale.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_supersale.dtx"
+
+//스킨무기재분류: AK47(IS)상자
+[GroupItem71]
+Code		=71
+NameID		=10997
+DescID		=10998
+DetailDescID	=10999
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_ak47(is).dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_ak47(is).dtx"
+
+//스킨무기재분류: TRG21(IS)상자
+[GroupItem72]
+Code		=72
+NameID		=11000
+DescID		=11001
+DetailDescID	=11002
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_trg21(is).dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_trg21(is).dtx"
+
+//스킨무기재분류: M4A1(IS)상자
+[GroupItem73]
+Code		=73
+NameID		=11003
+DescID		=11004
+DetailDescID	=11005
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_m4a1(is).dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_m4a1(is).dtx"
+
+//스킨무기재분류: CM901(IS)상자
+[GroupItem74]
+Code		=74
+NameID		=11006
+DescID		=11007
+DetailDescID	=11008
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_cm901(is).dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_cm901(is).dtx"
+
+//스킨무기재분류: 권총 상자
+[GroupItem75]
+Code		=75
+NameID		=11009
+DescID		=11010
+DetailDescID	=11011
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_pistol.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_pistol.dtx"
+
+//스킨무기재분류: 근접무기 상자
+[GroupItem76]
+Code		=76
+NameID		=11012
+DescID		=11013
+DetailDescID	=11014
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_knife.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_knife.dtx"
+
+//스킨무기재분류: AK47(IK) 상자
+[GroupItem77]
+Code		=77
+NameID		=11015
+DescID		=11016
+DetailDescID	=11017
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_ak47(ik).dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_ak47(ik).dtx"
+
+
+//스킨무기재분류: TRG21(IK) 상자
+[GroupItem78]
+Code		=78
+NameID		=11018
+DescID		=11019
+DetailDescID	=11020
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_trg21(ik).dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_trg21(ik).dtx"
+
+//스킨무기재분류: AK47(ISR) 상자
+[GroupItem79]
+Code		=79
+NameID		=11021
+DescID		=11022
+DetailDescID	=11023
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_ak47(isr).dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_ak47(isr).dtx"
+
+
+//스킨무기재분류: TRG21(ISR) 상자
+[GroupItem80]
+Code		=80
+NameID		=11024
+DescID		=11025
+DetailDescID	=11026
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_trg21(isr).dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_trg21(isr).dtx"
+
+//스킨무기재분류: M4A1(ISR) 상자
+[GroupItem81]
+Code		=81
+NameID		=11027
+DescID		=11028
+DetailDescID	=11029
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_m4a1(isr).dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_m4a1(isr).dtx"
+
+//스킨무기재분류: 기타무기 상자
+[GroupItem82]
+Code		=82
+NameID		=11030
+DescID		=11031
+DetailDescID	=11032
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_etc.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_etc.dtx"
+
+//new Big 이용권
+[GroupItem83]
+Code		=84
+NameID		=11181
+DescID		=11183
+DetailDescID	=11182
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_newbig.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_newbig.dtx"
+
+//짝 스페셜 패키지
+[GroupItem84]
+Code		=85
+NameID		=11444
+DescID		=11446
+DetailDescID	=11445
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_jjak.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_jjak.dtx"
+
+//서든걸
+[GroupItem85]
+Code		=86
+NameID		=11459
+DescID		=11461
+DetailDescID	=11460
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_suddengirl.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_suddengirl.dtx"
+
+//포인트 충전 패키지
+[GroupItem86]
+Code		=87
+NameID		=11495
+DescID		=11497
+DetailDescID	=11496
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_pointcharge.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_pointcharge.dtx"
+
+//그래피티상자
+[GroupItem87]
+Code		=88
+NameID		=11808
+DescID		=11809
+DetailDescID	=11810
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_graffiti.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_graffiti.dtx"
+
+//단풍상자
+[GroupItem88]
+Code		=89
+NameID		=12042
+DescID		=12043
+DetailDescID	=12044
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_maple.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_maple.dtx"
+
+//최근 용병 초기화
+[GroupItem89]
+Code		=90
+Type		=1
+NameID		=12132
+DescID		=12133
+//DescID		=12134
+DetailDescID	=17570
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\Icon_1851.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\Bigicon_1851.dtx"
+
+// 스킨주무기 30일 단품묶음
+[GroupItem90]
+Code		=91
+NameID		=12150
+DescID		=12151
+DetailDescID	=12152
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_30day.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_30day.dtx"
+
+// 걸스데이 카운트(묶음)
+[GroupItem91]
+Code		=92
+NameID		=12435
+DescID		=12436
+DetailDescID	=12437
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_1926.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_1926.dtx"
+
+// 걸스데이2 카운트(묶음)
+[GroupItem92]
+Code		=93
+NameID		=12621
+DescID		=12622
+DetailDescID	=12623
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_1956.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_1956.dtx"
+
+
+// 송지효 카운트(묶음)
+[GroupItem93]
+Code		=94
+NameID		=12645
+DescID		=12646
+DetailDescID	=12647
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_1996.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_1996.dtx"
+
+// 강개리 카운트(묶음)
+[GroupItem94]
+Code		=95
+NameID		=12660
+DescID		=12661
+DetailDescID	=12662
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_2000.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_2000.dtx"
+
+// 청마 2014 묶음
+[GroupItem95]
+Code		=96
+NameID		=12795
+DescID		=12796
+DetailDescID	=12797
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_bluehorse_ak.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_bluehorse_ak.dtx"
+ItemOption	=(DWORD)16
+
+// 2014박보영 카운트(묶음)
+[GroupItem96]
+Code		=97
+NameID		=12800
+DescID		=12801
+DetailDescID	=12802
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_2040.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_2040.dtx"
+
+// 드레이크 패키지(묶음)
+[GroupItem97]
+Code		=98
+NameID		=12828
+DescID		=12829
+DetailDescID	=12830
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_drake.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_drake.dtx"
+
+// 동화 캐릭터세트(묶음)
+[GroupItem98]
+Code		=99
+NameID		=12874
+DescID		=12875
+DetailDescID	=12876
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_fairytale.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_fairytale.dtx"
+
+// 흑사자 2014 카운트(묶음)
+[GroupItem99]
+Code		=100
+NameID		=12895
+DescID		=12896
+DetailDescID	=12897
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_blacklion_ak.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_blacklion_ak.dtx"
+ItemOption	=(DWORD)16
+
+// 대정령 카운트(묶음)
+[GroupItem100]
+Code		=101
+NameID		=12951
+DescID		=12952
+DetailDescID	=12953
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_2066.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_2066.dtx"
+
+// 2014 에이핑크 카운트(묶음)
+[GroupItem101]
+Code		=102
+NameID		=13010
+DescID		=13011
+DetailDescID	=13012
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_2095.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_2095.dtx"
+
+// Mygun보급상자
+[GroupItem102]
+Code		=103
+NameID		=13083
+DescID		=13084
+DetailDescID	=13085
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_mygun.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_mygun.dtx"
+
+// 갓오하 카운트(묶음)
+[GroupItem103]
+Code		=104
+NameID		=13105
+DescID		=13106
+DetailDescID	=13107
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_2148.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_2148.dtx"
+
+[GroupItem104]//공서영 카운트(묶음)
+Code		=105
+NameID		=13140
+DescID		=13141
+DetailDescID	=13142
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_2161.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_2161.dtx"
+
+[GroupItem105]//신지혜 카운트(묶음)
+Code		=106
+NameID		=13143
+DescID		=13144
+DetailDescID	=13145
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_2169.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_2169.dtx"
+
+[GroupItem106]//2014IU 카운트(묶음)
+Code		=107
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_2192.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_2192.dtx"
+
+// 아이유 응원 카운트(묶음)
+[GroupItem107]
+Code		=108
+NameID		=13254
+DescID		=13255
+DetailDescID	=13256
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_2213.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_2213.dtx"
+
+// 걸스데이 응원 카운트(묶음)
+[GroupItem108]
+Code		=109
+NameID		=13277
+DescID		=13278
+DetailDescID	=13279
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_2221.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_2221.dtx"
+
+// 박보영 응원 카운트(묶음)
+[GroupItem109]
+Code		=110
+NameID		=13304
+DescID		=13305
+DetailDescID	=13306
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_2229.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_2229.dtx"
+
+[GroupItem110] // 넥슨 히어로즈 카운트(묶음)
+Code		=111
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_nexonhero.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_nexonhero.dtx"
+
+[GroupItem111] // 아쿠아 카운트(묶음)
+Code		=112
+NameID		=13415
+DescID		=13416
+DetailDescID	=13417
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_aqua.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_aqua.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem112] // 걸스데이 썸머 카운트(묶음)
+Code		=113
+NameID		=13525
+DescID		=13526
+DetailDescID	=13527
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_girlssummer.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_summergirls.dtx"
+
+[GroupItem113] // AOA 카운트(묶음)
+Code		=114
+NameID		=13665
+DescID		=13666
+DetailDescID	=13667
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_aoa_t.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_aoa_t.dtx"
+
+
+[GroupItem114] // 스콜피언 상자(묶음)
+Code		=115
+NameID		=13653
+DescID		=13654
+DetailDescID	=13655
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_scorpion.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_scorpion.dtx"
+
+[GroupItem115] // 씨스타 카운트(묶음)
+Code		=116
+NameID		=13745
+DescID		=13746
+DetailDescID	=13747
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz116.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz116.dtx"
+
+[GroupItem116] // 추석 선착순(묶음)
+Code		=117
+NameID		=13762
+DescID		=13763
+DetailDescID	=13764
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zz117.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zz117.dtx"
+
+[GroupItem117] // 오렌지캬라멜 카운트(묶음)
+Code		=118
+NameID		=13915
+DescID		=13916
+DetailDescID	=13917
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz118.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz118.dtx"
+
+[GroupItem118] // 적마 카운트(묶음)
+Code		=119
+NameID		=13948
+DescID		=13949
+DetailDescID	=13950
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz119.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz119.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem119] // 수류탄 카운트(묶음)
+Code		=120
+NameID		=14056
+DescID		=14057
+DetailDescID	=14058
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\Icon_2412.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\BigIcon_2412.dtx"
+
+
+[GroupItem120] // 윤하 카운트 묶음
+Code		=122
+NameID		=14108
+DescID		=14109
+DetailDescID	=14110
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\Icon_zzz122.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\BigIcon_zzz122.dtx"
+
+[GroupItem121] // 현아II 카운트 묶음
+Code		=123
+NameID		=14129
+DescID		=14130
+DetailDescID	=14131
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\Icon_zzz123.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\BigIcon_zzz123.dtx"
+
+[GroupItem122] // 용병전적 초기화 묶음
+Code		=124
+Type		=1
+NameID		=14185
+DescID		=14186
+DetailDescID	=14186
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\Icon_2461.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\BigIcon_2461.dtx"
+
+[GroupItem123] // 박초롱 카운트 묶음
+Code		=125
+NameID		=14189
+DescID		=14190
+DetailDescID	=14190
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\Icon_zzz125.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz125.dtx"
+
+[GroupItem124] // 눈꽃 카운트 묶음
+Code		=126
+NameID		=14212
+DescID		=14213
+DetailDescID	=14213
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz126.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz126.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem125] // 개그 카운트(묶음)
+Code		=127
+NameID		=14257
+DescID		=14258
+DetailDescID	=14258
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz127.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz127.dtx"
+
+[GroupItem126] // 스페셜 한정판매(묶음)
+Code		=128
+NameID		=14272
+DescID		=14273
+DetailDescID	=14273
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz128.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz128.dtx"
+
+[GroupItem127] // 홍진영 묶음
+Code		=129
+NameID		=14335
+DescID		=14336
+DetailDescID	=14336
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz129.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz129.dtx"
+
+[GroupItem128] // 마동석 카운트(묶음)
+Code		=130
+NameID		=14377
+DescID		=14378
+DetailDescID	=14378
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz130.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz130.dtx"
+
+[GroupItem129] // EXID 카운트(묶음)
+Code		=131
+NameID		=14411
+DescID		=14412
+DetailDescID	=14412
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz131.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz131.dtx"
+
+[GroupItem130] // 프리미엄 기간연장(묶음)
+Code		=133
+NameID		=14542
+DescID		=14543
+DetailDescID	=14544
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz133.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz133.dtx"
+
+[GroupItem131] 
+Code		=134
+NameID		=14545
+DescID		=14546
+DetailDescID	=14546
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz134.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz134.dtx"
+
+[GroupItem132] 
+Code		=132
+NameID		=14452
+DescID		=14453
+DetailDescID	=14453
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz132.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz132.dtx"
+
+[GroupItem133] // 갤럭시 카운트 (묶음)
+Code		=136
+NameID		=14611
+DescID		=14612
+DetailDescID	=14612
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz136.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz136.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem134] // 신구&김수미 (묶음)
+Code		=135
+NameID		=14590
+DescID		=14591
+DetailDescID	=14591
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz135.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz135.dtx"
+
+[GroupItem135] // 김소은 카운트 (묶음)
+Code		=137
+NameID		=14705
+DescID		=14706
+DetailDescID	=14706
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz137.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz137.dtx"
+
+[GroupItem136] // 가인 카운트 (묶음)
+Code		=138
+NameID		=14750
+DescID		=14751
+DetailDescID	=14751
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz138.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz138.dtx"
+
+[GroupItem137] // 이동준 카운트 (묶음)
+Code		=143
+NameID		=14874
+DescID		=14875
+DetailDescID	=14875
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz143.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz143.dtx"
+
+[GroupItem138] // 여군 혜리 카운트 (묶음)
+Code		=139
+NameID		=14834
+DescID		=14835
+DetailDescID	=14835
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz139.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz139.dtx"
+
+[GroupItem139] // 여군 보미 카운트 (묶음)
+Code		=140
+NameID		=14811
+DescID		=14812
+DetailDescID	=14812
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz140.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz140.dtx"
+
+[GroupItem140] // 영구 카운트 (묶음)
+Code		=141
+NameID		=14854
+DescID		=14855
+DetailDescID	=14855
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz141.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz141.dtx"
+
+[GroupItem141] // 김민경 카운트 (묶음)
+Code		=142
+NameID		=14894
+DescID		=14895
+DetailDescID	=14895
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz142.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz142.dtx"
+
+[GroupItem142] // 예정화 카운트 (묶음)
+Code		=144
+NameID		=14964
+DescID		=14965
+DetailDescID	=14965
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz144.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz144.dtx"
+
+[GroupItem143] // 마음의소리 카운트 (묶음)
+Code		=145
+NameID		=15086
+DescID		=15087
+DetailDescID	=15087
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz145.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz145.dtx"
+
+[GroupItem144] // 놓지마정신줄 카운트 (묶음)
+Code		=146
+NameID		=15100
+DescID		=15101
+DetailDescID	=15101
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz146.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz146.dtx"
+
+[GroupItem145] // 샘&샘 카운트 (묶음)
+Code		=147
+NameID		=15139
+DescID		=15140
+DetailDescID	=15140
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz147.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz147.dtx"
+
+[GroupItem146] // 반투명 주무기 카운트 (묶음)
+Code		=150
+NameID		=15216
+DescID		=15217
+DetailDescID	=15218
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz150.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz150.dtx"
+ItemOption	=(DWORD)16
+
+
+[GroupItem147] // 키썸 카운트 (묶음)
+Code		=148
+NameID		=15243
+DescID		=15244
+DetailDescID	=15244
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz148.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz148.dtx"
+
+[GroupItem148] // 제시카운트 (묶음)
+Code		=149
+NameID		=15245
+DescID		=15246
+DetailDescID	=15246
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz149.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz149.dtx"
+
+[GroupItem149] // 친구 확장 (묶음)
+Code		=154
+NameID		=15311
+DescID		=15312
+DetailDescID	=15313
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz154.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz154.dtx"
+ItemOption	=(DWORD)8
+
+[GroupItem150] // B이설 카운트 (묶음)
+Code		=151
+NameID		=15369
+DescID		=15370
+DetailDescID	=15370
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz151.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz151.dtx"
+
+[GroupItem151] // BJ랜딩 카운트 (묶음)
+Code		=152
+NameID		=15383
+DescID		=15384
+DetailDescID	=15384
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz152.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz152.dtx"
+
+[GroupItem152] // BJ미키 카운트 (묶음)
+Code		=153
+NameID		=15397
+DescID		=15398
+DetailDescID	=15398
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz153.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz153.dtx"
+
+[GroupItem153] // BJ 무기 카운트 (묶음)
+Code		=155
+NameID		=15411
+DescID		=15412
+DetailDescID	=15412
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz155.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz155.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem154] // 강민경 카운트 (묶음)
+Code		=156
+NameID		=15491
+DescID		=15492
+DetailDescID	=15493
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz156.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz156.dtx"
+
+[GroupItem155] // 하연수 카운트 (묶음)
+Code		=157
+NameID		=15630
+DescID		=15631
+DetailDescID	=15631
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz157.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz157.dtx"
+
+[GroupItem156] // 시노자키 아이 카운트 (묶음)
+Code		=158
+NameID		=15666
+DescID		=15667
+DetailDescID	=15667
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz158.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz158.dtx"
+
+[GroupItem157] // 강균성 카운트 (묶음)
+Code		=159
+NameID		=15755
+DescID		=15756
+DetailDescID	=15756
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz159.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz159.dtx"
+
+[GroupItem158] // 2015 AOA 카운트 (묶음)
+Code		=160
+NameID		=15821
+DescID		=15822
+DetailDescID	=15822
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz160.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz160.dtx"
+
+// 아트 스킨 카운트 묶음
+[GroupItem159]
+Code		=161
+NameID		=16009
+DescID		=16010
+DetailDescID	=16207
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz161.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz161.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem160] // 2015 아이유 카운트 (묶음)
+Code		=162
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz162.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz162.dtx"
+
+[GroupItem161] // 2015 에이핑크 카운트 (묶음)
+Code		=163
+NameID		=16168
+DescID		=16169
+DetailDescID	=16169
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz163.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz163.dtx"
+
+[GroupItem162] // 2015 박보영 카운트(묶음)
+Code		=164
+NameID		=16188
+DescID		=16189
+DetailDescID	=16189
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz164.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz164.dtx"
+
+[GroupItem163] // 서유리 카운트 (묶음)
+Code		=165
+NameID		=16276
+DescID		=16277
+DetailDescID	=16277
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz165.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz165.dtx"
+
+// Spider 스킨 카운트 묶음
+[GroupItem164]
+Code		=166
+NameID		=16244
+DescID		=16245
+DetailDescID	=16245
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz166.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz166.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem165] // 에밀리 카운트 (묶음)
+Code		=167
+NameID		=16314
+DescID		=16315
+DetailDescID	=16315
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz167.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz167.dtx"
+
+[GroupItem166] // 치어리더 카운트 (묶음)
+Code		=168
+NameID		=16349
+DescID		=16350
+DetailDescID	=16350
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz168.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz168.dtx"
+
+[GroupItem167] // 갓설현 카운트 (묶음)
+Code		=169
+NameID		=16614
+DescID		=16615
+DetailDescID	=16615
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz169.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz169.dtx"
+
+// 이글 스킨 카운트(묶음)
+[GroupItem168]
+Code		=170
+NameID		=16715
+DescID		=16716
+DetailDescID	=16741
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz170.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz170.dtx"
+ItemOption	=(DWORD)16
+
+// 트와이스 카운트 (묶음)
+[GroupItem169] 
+Code		=171
+NameID		=16754
+DescID		=16755
+DetailDescID	=16755
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz171.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz171.dtx"
+
+// 스킨무기 특별판매 (묶음)
+[GroupItem170] 
+Code		=172
+NameID		=16847
+DescID		=16848
+DetailDescID	=16849
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz172.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz172.dtx"
+
+[GroupItem171] // 2016 EXID 카운트 (묶음)
+Code		=173
+NameID		=16874
+DescID		=16875
+DetailDescID	=16875
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz173.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz173.dtx"
+
+[GroupItem172] // 설 설현 카운트 (묶음)
+Code		=174
+NameID		=17051
+DescID		=17052
+DetailDescID	=17052
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz174.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz174.dtx"
+
+[GroupItem173] // 설 맞이 특별판매(묶음)
+Code		=175
+NameID		=16970
+DescID		=16971
+DetailDescID	=16971
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz175.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz175.dtx"
+
+[GroupItem174] // 설 설현 카운트 (묶음)
+Code		=174
+NameID		=17051
+DescID		=17052
+DetailDescID	=17052
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz174.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz174.dtx"
+
+[GroupItem175] // 고준희 카운트 (묶음)
+Code		=176
+NameID		=17077
+DescID		=17078
+DetailDescID	=17078
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz176.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz176.dtx"
+
+// 블링 스킨 카운트(묶음)
+[GroupItem176] 
+Code		=177
+NameID		=17123
+DescID		=17124
+DetailDescID	=17167
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz177.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz177.dtx"
+ItemOption	=(DWORD)16
+
+// 블링 AK47 카운트(묶음)
+[GroupItem177] 
+Code		=178
+
+// 블링 TRG21 카운트(묶음)
+[GroupItem178] 
+Code		=179
+
+[GroupItem179] // 시노자키 아이 2(묶음)
+Code		=180
+NameID		=17178
+DescID		=17179
+DetailDescID	=17179
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz180.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz180.dtx"
+
+[GroupItem180] // 박소담 카운트 (묶음)
+Code		=182
+NameID		=17336
+DescID		=17337
+DetailDescID	=17337
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz182.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz182.dtx"
+
+[GroupItem181]
+//오늘의 아이템(묶음)
+Code		=181
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz181.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz181.dtx"
+
+[GroupItem182] // 클레이 모레츠 카운트 (묶음)
+Code		=183
+NameID		=17494
+DescID		=17495
+DetailDescID	=17496
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz183.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz183.dtx"
+
+[GroupItem183] // 울프 스킨 카운트(묶음)
+Code		=184
+NameID		=17470
+DescID		=17471
+DetailDescID	=17493
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz184.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz184.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem184] // 여자친구 카운트 (묶음)
+Code		=185
+NameID		=17648
+DescID		=17649
+DetailDescID	=17650
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz185.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz185.dtx"
+
+[GroupItem185] // 마마무 카운트 (묶음)
+Code		=186
+NameID		=17701
+DescID		=17702
+DetailDescID	=17703
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz186.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz186.dtx"
+
+// 썬더 스킨 카운트(묶음)
+[GroupItem186]
+Code		=187
+NameID		=17734
+DescID		=17735
+DetailDescID	=17757
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz187.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz187.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem187] // 러블리즈 카운트 (묶음)
+Code		=188
+NameID		=17865
+DescID		=17866
+DetailDescID	=17877
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz188.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz188.dtx"
+
+[GroupItem188] // 진세연 카운트 (묶음)
+Code		=189
+NameID		=18006
+DescID		=18007
+DetailDescID	=18008
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz189.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz189.dtx"
+
+[GroupItem189] // 엄현경 카운트 (묶음)
+Code		=190
+NameID		=18009
+DescID		=18010
+DetailDescID	=18011
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz190.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz190.dtx"
+
+[GroupItem190] // Death 스킨 카운트 (묶음)
+Code		=191
+NameID		=18105
+DescID		=18106
+DetailDescID	=18107
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz191.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz191.dtx"
+ItemOption	=(DWORD)16
+
+// Death AK47 카운트(묶음)
+[GroupItem191] 
+Code		=192
+
+// Death TRG21 카운트(묶음)
+[GroupItem192] 
+Code		=193
+
+[GroupItem193] // 양정원 카운트 (묶음)
+Code		=194
+NameID		=18185
+DescID		=18186
+DetailDescID	=18187
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz194.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz194.dtx"
+
+[GroupItem194] // 레이양 카운트 (묶음)
+Code		=195
+NameID		=18206
+DescID		=18207
+DetailDescID	=18208
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz195.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz195.dtx"
+
+[GroupItem195] // 꿈꾸는 아이유 카운트 (묶음)
+Code		=196
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz196.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz196.dtx"
+
+[GroupItem196] // 백호 스킨 카운트(묶음)
+Code		=197
+NameID		=18568
+DescID		=18569
+DetailDescID	=18570
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz197.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz197.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem197] // 성소 카운트 (묶음)
+Code		=198
+NameID		=18598
+DescID		=18599
+DetailDescID	=18600
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz198.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz198.dtx"
+
+[GroupItem198] // B-Rose 스킨 카운트(묶음)
+Code		=199
+NameID		=18643
+DescID		=18644
+DetailDescID	=18645
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz199.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz199.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem199] // 이시영 카운트 (묶음)
+Code		=200
+NameID		=18675
+DescID		=18676
+DetailDescID	=18677
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz200.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz200.dtx"
+
+[GroupItem200] // 헬로나라 카운트 (묶음)
+Code		=201
+NameID		=18741
+DescID		=18742
+DetailDescID	=18743
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz201.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz201.dtx"
+
+[GroupItem201] // 피닉스 스킨 카운트(묶음)
+Code		=202
+NameID		=18773
+DescID		=18774
+DetailDescID	=18775
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz202.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz202.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem202] // 나나 카운트 (묶음)
+Code		=203
+NameID		=18782
+DescID		=18783
+DetailDescID	=18784
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz203.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz203.dtx"
+
+[GroupItem203] // 2017 트와이스 카운트 (묶음)
+Code		=204
+NameID		=18864
+DescID		=18865
+DetailDescID	=18866
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz204.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz204.dtx"
+
+[GroupItem204] // 도깨비 스킨 카운트(묶음)
+Code		=205
+NameID		=18952
+DescID		=18953
+DetailDescID	=18954
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz205.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz205.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem205] // 솔빈 카운트 (묶음)
+Code		=206
+NameID		=19007
+DescID		=19008
+DetailDescID	=19009
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz206.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz206.dtx"
+
+[GroupItem206] // 경리 카운트 (묶음)
+Code		=208
+NameID		=19102
+DescID		=19103
+DetailDescID	=19104
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz208.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz208.dtx"
+
+[GroupItem207] // 클마가 쏜다(묶음)
+Code		=207
+NameID		=19093
+DescID		=19094
+DetailDescID	=19095
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz207.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz207.dtx"
+
+[GroupItem208] // All 트와이스 카운트 (묶음)
+Code		=209
+NameID		=19143
+DescID		=19144
+DetailDescID	=19145
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz209.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz209.dtx"
+
+// 블링 스킨 카운트(묶음)
+[GroupItem209] 
+Code		=210
+NameID		=19185
+DescID		=19186
+DetailDescID	=19187
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz210.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz210.dtx"
+ItemOption	=(DWORD)16
+
+// 블링 AK47 카운트(묶음)
+[GroupItem210] 
+Code		=211
+
+// 블링 TRG21 카운트(묶음)
+[GroupItem211] 
+Code		=212
+
+[GroupItem212] // 소미 카운트 (묶음)
+Code		=213
+NameID		=19315
+DescID		=19316
+DetailDescID	=19317
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz213.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz213.dtx"
+
+[GroupItem213] // 팝아트 스킨 카운트(묶음)
+Code		=215
+NameID		=19384
+DescID		=19385
+DetailDescID	=19386
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz215.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz215.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem214] // 정채연 카운트 (묶음)
+Code		=214
+NameID		=19357
+DescID		=19358
+DetailDescID	=19359
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz214.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz214.dtx"
+
+[GroupItem215] // Basic 수류탄 카운트(묶음)
+Code		=217
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz217.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz217.dtx"
+
+[GroupItem216] // Special 수류탄 카운트(묶음)
+Code		=218
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz218.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz218.dtx"
+
+[GroupItem217] // 진짜여친 카운트 (묶음)
+Code		=216
+NameID		=19496
+DescID		=19497
+DetailDescID	=19498
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz216.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz216.dtx"
+
+[GroupItem218] // 이선빈 카운트 (묶음)
+Code		=219
+NameID		=19562
+DescID		=19563
+DetailDescID	=19564
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz219.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz219.dtx"
+
+[GroupItem219] // SEASON OFF(묶음)
+Code		=220
+NameID		=19612
+DescID		=19613
+DetailDescID	=19614
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz220.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz220.dtx"
+ItemOption	=(DWORD)2048
+
+[GroupItem220] // 그래픽 스킨 카운트(묶음)
+Code		=221
+NameID		=19615
+DescID		=19616
+DetailDescID	=19617
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz221.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz221.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem221] // 최유정 카운트 (묶음)
+Code		=222
+NameID		=19648
+DescID		=19649
+DetailDescID	=19650
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz222.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz222.dtx"
+
+[GroupItem222] // 김도윤 카운트 (묶음)
+Code		=223
+NameID		=19672
+DescID		=19673
+DetailDescID	=19674
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz223.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz223.dtx"
+
+// Forest 스킨 카운트(묶음)
+[GroupItem223] 
+Code		=224
+NameID		=19726
+DescID		=19727
+DetailDescID	=19728
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz224.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz224.dtx"
+ItemOption	=(DWORD)16
+
+// Forest AK47 카운트(묶음)
+[GroupItem224] 
+Code		=225
+
+// Forest TRG21 카운트(묶음)
+[GroupItem225] 
+Code		=226
+
+[GroupItem226] // 김세정 카운트 (묶음)
+Code		=227
+NameID		=19838
+DescID		=19839
+DetailDescID	=19840
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz227.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz227.dtx"
+
+[GroupItem227] // 서핑걸 카운트 (묶음)
+Code		=228
+NameID		=19872
+DescID		=19873
+DetailDescID	=19874
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz228.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz228.dtx"
+
+[GroupItem228] // Sun 스킨 카운트 (묶음)
+Code		=229
+NameID		=19896
+DescID		=19897
+DetailDescID	=19898
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz229.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz229.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem229] // 2017 홍진영 카운트 (묶음)
+Code		=230
+NameID		=19977
+DescID		=19978
+DetailDescID	=19979
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz230.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz230.dtx"
+
+[GroupItem230] // Bull 스킨 카운트 (묶음)
+Code		=231
+NameID		=20007
+DescID		=20008
+DetailDescID	=20009
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz231.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz231.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem231] // 오구오구 카운트 (묶음)
+Code		=232
+NameID		=20050
+DescID		=20051
+DetailDescID	=20052
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz232.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz232.dtx"
+
+[GroupItem232] // 격투 카운트 (묶음)
+Code		=233
+NameID		=20109
+DescID		=20110
+DetailDescID	=20111
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz233.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz233.dtx"
+
+[GroupItem233] // Punch 스킨 카운트 (묶음)
+Code		=234
+NameID		=20130
+DescID		=20131
+DetailDescID	=20132
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz234.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz234.dtx"
+ItemOption	=(DWORD)16
+
+// Punch AK47 카운트(묶음)
+[GroupItem234] 
+Code		=235
+
+// Punch TRG21 카운트(묶음)
+[GroupItem235] 
+Code		=236
+
+[GroupItem236] // 꽃갈피 아이유 카운트 (묶음)
+Code		=237
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz237.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz237.dtx"
+
+[GroupItem237] // 민박집 아이유 카운트 (묶음)
+Code		=238
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz238.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz238.dtx"
+
+[GroupItem238] // 귀신 카운트 (묶음)
+Code		=239
+NameID		=20320
+DescID		=20321
+DetailDescID	=20322
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz239.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz239.dtx"
+
+[GroupItem239] // Skull 스킨 카운트 (묶음)
+Code		=240
+NameID		=20349
+DescID		=20350
+DetailDescID	=20351
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz240.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz240.dtx"
+ItemOption	=(DWORD)16
+
+// Skull AK47 카운트(묶음)
+[GroupItem240] 
+Code		=241
+
+// Skull TRG21 카운트(묶음)
+[GroupItem241] 
+Code		=242
+
+[GroupItem242]
+//오늘의 할인판매(묶음)
+Code		=243
+NameID		=20400
+DescID		=20401
+DetailDescID	=20402
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz243.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz243.dtx"
+
+[GroupItem243] // 2017 러블리즈 카운트 (묶음)
+Code		=244
+NameID		=20436
+DescID		=20437
+DetailDescID	=20438
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz244.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz244.dtx"
+
+[GroupItem244] // Pencil 스킨 카운트 (묶음)
+Code		=246
+NameID		=20517
+DescID		=20518
+DetailDescID	=20519
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz246.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz246.dtx"
+ItemOption	=(DWORD)16
+
+// Pencil AK47 카운트(묶음)
+[GroupItem245] 
+Code		=247
+
+// Pencil TRG21 카운트(묶음)
+[GroupItem246] 
+Code		=248
+
+[GroupItem247] // 학생회 카운트 (묶음)
+Code		=245
+NameID		=20496
+DescID		=20497
+DetailDescID	=20498
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz245.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz245.dtx"
+
+[GroupItem248] // 산타 트와이스 카운트(묶음)
+Code		=249
+NameID		=20585
+DescID		=20586
+DetailDescID	=20587
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz249.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz249.dtx"
+
+[GroupItem249] // 권혁수 카운트 (묶음)
+Code		=250
+NameID		=20680
+DescID		=20681
+DetailDescID	=20682
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz250.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz250.dtx"
+
+[GroupItem250] // Block X 스킨 카운트 (묶음)
+Code		=251
+NameID		=20650
+DescID		=20651
+DetailDescID	=20652
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz251.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz251.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem251] // 류화영 카운트 (묶음)
+Code		=252
+NameID		=20759
+DescID		=20760
+DetailDescID	=20761
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz252.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz252.dtx"
+
+[GroupItem252] // Star 스킨 카운트 (묶음)
+Code		=255
+NameID		=20837
+DescID		=20838
+DetailDescID	=20839
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz255.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz255.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem253] // 더유닛B 카운트(묶음)
+Code		=253
+NameID		=20795
+DescID		=20796
+DetailDescID	=20797
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz253.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz253.dtx"
+
+[GroupItem254] // 더유닛G 카운트(묶음)
+Code		=254
+NameID		=20816
+DescID		=20817
+DetailDescID	=20818
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz254.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz254.dtx"
+
+[GroupItem255] // 캔디 트와이스 카운트(묶음)
+Code		=256
+NameID		=20899
+DescID		=20900
+DetailDescID	=20901
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz256.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz256.dtx"
+
+[GroupItem256] // 한복 소민 카운트(묶음)
+Code		=257
+NameID		=20946
+DescID		=20947
+DetailDescID	=20948
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz257.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz257.dtx"
+
+[GroupItem257] // 승리하개 스킨 카운트 (묶음)
+Code		=258
+NameID		=20973
+DescID		=20974
+DetailDescID	=20975
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz258.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz258.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem258] // 주이&낸시 카운트 (묶음)
+Code		=259
+NameID		=21125
+DescID		=21126
+DetailDescID	=21127
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz259.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz259.dtx"
+
+[GroupItem259] // 조교 카운트(묶음)
+Code		=260
+NameID		=21167
+DescID		=21168
+DetailDescID	=21169
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz260.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz260.dtx"
+
+[GroupItem260] // 불곰 스킨 카운트(묶음)
+Code		=261
+NameID		=21188
+DescID		=21189
+DetailDescID	=21190
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz261.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz261.dtx"
+ItemOption	=(DWORD)16
+
+// 불곰 AK47 카운트(묶음)
+[GroupItem261] 
+Code		=262
+
+// 불곰 TRG21 카운트(묶음)
+[GroupItem262] 
+Code		=263
+
+[GroupItem263] // 선미 카운트(묶음)
+Code		=264
+NameID		=21268
+DescID		=21269
+DetailDescID	=21270
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz264.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz264.dtx"
+
+[GroupItem264] // 인디언 카운트(묶음)
+Code		=265
+NameID		=21302
+DescID		=21303
+DetailDescID	=21304
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz265.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz265.dtx"
+
+[GroupItem265] // 토템 스킨 카운트(묶음)
+Code		=266
+NameID		=21323
+DescID		=21324
+DetailDescID	=21325
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz266.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz266.dtx"
+ItemOption	=(DWORD)16
+
+// 토템 AK47 카운트(묶음)
+[GroupItem266] 
+Code		=267
+
+// 토템 TRG21 카운트(묶음)
+[GroupItem267] 
+Code		=268
+
+// 오마이걸
+[GroupItem268] // 오마이걸 카운트(묶음)
+Code		=269
+NameID		=21422
+DescID		=21423
+DetailDescID	=21424
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz269.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz269.dtx"
+
+// 오마이걸
+[GroupItem269] // 오마이걸 카운트(PC방)(묶음)
+Code		=270
+NameID		=21468
+DescID		=21469
+DetailDescID	=21470
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz270.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz270.dtx"
+
+[GroupItem270] // 진짜 반투명 스킨 카운트(묶음)
+Code		=273
+NameID		=21522
+DescID		=21523
+DetailDescID	=21524
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz273.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz273.dtx"
+ItemOption	=(DWORD)16
+
+// 다이너 패키지
+[GroupItem271] 
+Code		=271
+NameID		=21505
+DescID		=21506
+DetailDescID	=21507
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\Icon_4064.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\BigIcon_4064.dtx"
+
+[GroupItem272] // 진짜 캐릭 카운트 (묶음)
+Code		=272
+NameID		=21539
+DescID		=21540
+DetailDescID	=21541
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz272.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz272.dtx"
+
+[GroupItem273] // 엘프 카운트 (묶음)
+Code		=274
+NameID		=21593
+DescID		=21594
+DetailDescID	=21595
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz274.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz274.dtx"
+
+[GroupItem274] // DJ 카운트 (묶음)
+Code		=275
+NameID		=21633
+DescID		=21634
+DetailDescID	=21635
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz275.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz275.dtx"
+
+[GroupItem275] // Neon 카운트 (묶음)
+Code		=276
+NameID		=21636
+DescID		=21637
+DetailDescID	=21638
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz276.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz276.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem276] // 이현승 카운트 (묶음)
+Code		=277
+NameID		=21690
+DescID		=21691
+DetailDescID	=21692
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz277.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz277.dtx"
+
+[GroupItem277] // 김소혜 카운트 (묶음)
+Code		=278
+NameID		=21806
+DescID		=21807
+DetailDescID	=21808
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz278.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz278.dtx"
+
+[GroupItem278] // 우산 카운트 (묶음)
+Code		=279
+NameID		=21833
+DescID		=21834
+DetailDescID	=21835
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz279.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz279.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem279] // 여름여친 카운트 (묶음)
+Code		=280
+NameID		=21914
+DescID		=21915
+DetailDescID	=21916
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz280.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz280.dtx"
+
+[GroupItem280] // 비치발리볼 카운트 (묶음)
+Code		=281
+NameID		=22061
+DescID		=22062
+DetailDescID	=22063
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz281.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz281.dtx"
+
+[GroupItem281] // Shark 스킨 카운트(묶음)
+Code		=282
+NameID		=22145
+DescID		=22146
+DetailDescID	=22147
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz282.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz282.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem282] // Farmer 카운트 (묶음)
+Code		=283
+NameID		=22160
+DescID		=22161
+DetailDescID	=22162
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz283.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz283.dtx"
+
+[GroupItem283] // 2018 에이핑크 카운트 (묶음)
+Code		=284
+NameID		=22208
+DescID		=22209
+DetailDescID	=22210
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz284.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz284.dtx"
+
+// Music 스킨 카운트(묶음)
+[GroupItem284]
+Code		=285
+NameID		=22255
+DescID		=22256
+DetailDescID	=22257
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz285.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz285.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem285] // 쌈바홍 카운트 (묶음)
+Code		=286
+NameID		=22284
+DescID		=22285
+DetailDescID	=22286
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz286.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz286.dtx"
+
+// Magic 스킨 카운트(묶음)
+[GroupItem286]
+Code		=288
+NameID		=22335
+DescID		=22336
+DetailDescID	=22337
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz288.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz288.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem287] // 마법소녀 카운트 (묶음)
+Code		=287
+NameID		=22366
+DescID		=22367
+DetailDescID	=22368
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz287.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz287.dtx"
+
+[GroupItem288] // BJ이설 카운트 (묶음)
+Code		=289
+NameID		=22470
+DescID		=22471
+DetailDescID	=22472
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz289.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz289.dtx"
+
+
+[GroupItem289] // 박준형 카운트 (묶음)
+Code		=290
+NameID		=22509
+DescID		=22510
+DetailDescID	=22511
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz290.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz290.dtx"
+
+// 카툰 스킨 카운트(묶음)
+[GroupItem290]
+Code		=291
+NameID		=22531
+DescID		=22532
+DetailDescID	=22533
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz291.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz291.dtx"
+ItemOption	=(DWORD)16
+
+// 서윤 카운트(묶음)
+[GroupItem291]
+Code		=292
+NameID		=22596
+DescID		=22597
+DetailDescID	=22598
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz292.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz292.dtx"
+
+[GroupItem292] // 박나래 카운트 (묶음)
+Code		=293
+NameID		=22661
+DescID		=22662
+DetailDescID	=22663
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz293.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz293.dtx"
+
+[GroupItem293] // 장도연 카운트 (묶음)
+Code		=294
+NameID		=22682
+DescID		=22683
+DetailDescID	=22684
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz294.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz294.dtx"
+
+[GroupItem294] // 트리 스킨 카운트 (묶음)
+Code		=295
+NameID		=22703
+DescID		=22704
+DetailDescID	=22705
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz295.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz295.dtx"
+ItemOption	=(DWORD)16
+
+[GroupItem295] // 청하 카운트 (묶음)
+Code		=296
+NameID		=22788
+DescID		=22789
+DetailDescID	=22790
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz296.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz296.dtx"
+
+[GroupItem296] // 조빈 카운트(묶음)
+Code		=297
+NameID		=22894
+DescID		=22895
+DetailDescID	=22896
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz297.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz297.dtx"
+
+[GroupItem297] // 카본 스킨 카운트(묶음)
+Code		=299
+NameID		=22897
+DescID		=22898
+DetailDescID	=22899
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz299.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz299.dtx"
+
+[GroupItem298] // 삐비 아이유 멀티카운트(묶음)
+Code			=300
+NameID			=23052
+DescID			=23053
+DetailDescID	=23054
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz300.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz300.dtx"
+
+[GroupItem299] // Ghost_α 멀티카운트(묶음)
+Code		=301
+NameID		=23109
+DescID		=23110
+DetailDescID	=23111
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz301.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz301.dtx"
+
+[GroupItem300] // ICE AK47 멀티카운트(묶음)
+Code		=302
+NameID		=23132
+DescID		=23133
+DetailDescID	=23134
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz302.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz302.dtx"
+
+[GroupItem301] // ICE TRG21 멀티카운트(묶음)
+Code		=303
+NameID		=23135
+DescID		=23136
+DetailDescID	=23137
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz303.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz303.dtx"
+
+[GroupItem302] // 서든캐슬 멀티카운트(묶음)
+Code		=304
+NameID		=23188
+DescID		=23189
+DetailDescID	=23190
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz304.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz304.dtx"
+
+[GroupItem303] // 여조교 멀티카운트(묶음)
+Code		=305
+NameID		=23232
+DescID		=23233
+DetailDescID	=23234
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz305.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz305.dtx"
+
+// 표범 AK47 멀티카운트(묶음)
+[GroupItem304]
+Code		=306
+NameID		=23254
+DescID		=23255
+DetailDescID	=23256
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz306.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz306.dtx"
+
+// 표범 TRG21 멀티카운트(묶음)
+[GroupItem305]
+Code		=307
+NameID		=23257
+DescID		=23258
+DetailDescID	=23259
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz307.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz307.dtx"
+
+// 흑룡:眞 멀티카운트(묶음)
+[GroupItem306]
+Code		=308
+NameID		=23357
+DescID		=23358
+DetailDescID	=23359
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz308.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz308.dtx"
+
+// 벚꽃소녀 멀티카운트(묶음)
+[GroupItem307]
+Code		=309
+NameID		=23377
+DescID		=23378
+DetailDescID	=23379
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz309.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz309.dtx"
+
+// 봄봄 AK47 멀티카운트(묶음)	
+[GroupItem308]
+Code		=310
+NameID		=23714
+DescID		=23715
+DetailDescID	=23716
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz310.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz310.dtx"
+
+// 봄봄 TRG21 멀티카운트(묶음)
+[GroupItem309]
+Code		=311
+NameID		=23726
+DescID		=23727
+DetailDescID	=23728
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz311.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz311.dtx"
+
+// 유인나 멀티카운트(묶음)
+[GroupItem310]
+Code		=312
+NameID		=23841
+DescID		=23842
+DetailDescID	=23843
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz312.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz312.dtx"
+
+// 인싸 멀티카운트(묶음)
+[GroupItem311]
+Code		=313
+NameID		=23883
+DescID		=23884
+DetailDescID	=23885
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz313.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz313.dtx"
+
+// Flex AK47 멀티카운트(묶음)
+[GroupItem312]
+Code		=314
+NameID		=23935
+DescID		=23936
+DetailDescID	=23984
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz314.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz314.dtx"
+
+// Flex TRG21 멀티카운트(묶음)
+[GroupItem313]
+Code		=315
+NameID		=23937
+DescID		=23938
+DetailDescID	=23985
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz315.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz315.dtx"
+
+// 신예은 멀티카운트(묶음)
+[GroupItem314]
+Code		=316
+NameID		=23991
+DescID		=23992
+DetailDescID	=23992
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz316.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz316.dtx"
+
+// 오늘의 타임어택(묶음)
+[GroupItem315]
+Code		=317
+NameID		=24044
+DescID		=24045
+DetailDescID	=24045
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz317.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz317.dtx"
+ItemOption	=(DWORD)8
+
+// 아테나 멀티카운트(묶음)
+[GroupItem316]
+Code		=318
+NameID		=24116
+DescID		=24117
+DetailDescID	=24118
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz318.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz318.dtx"
+
+// 아테나 AK47 멀티카운트(묶음)
+[GroupItem317]
+Code		=319
+NameID		=24152
+DescID		=24153
+DetailDescID	=24154
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz319.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz319.dtx"
+
+
+// 아테나 TRG21 멀티카운트(묶음)
+[GroupItem318]
+Code		=320
+NameID		=24155
+DescID		=24156
+DetailDescID	=24157
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz320.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz320.dtx"
+
+// 신예은 멀티카운트(묶음)
+[GroupItem319]
+Code		=321
+NameID		=24233
+DescID		=24234
+DetailDescID	=24235
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz321.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz321.dtx"
+
+// 유인나 멀티카운트(묶음)
+[GroupItem320]
+Code		=322
+NameID		=24301
+DescID		=24302
+DetailDescID	=24303
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz322.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz322.dtx"
+
+// Cool AK47 멀티카운트(묶음)
+[GroupItem321]
+Code		=323
+NameID		=24417
+DescID		=24418
+DetailDescID	=24418
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz323.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz323.dtx"
+
+// Cool TRG21 멀티카운트(묶음)
+[GroupItem322]
+Code		=324
+NameID		=24419
+DescID		=24420
+DetailDescID	=24420
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz324.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz324.dtx"
+
+// 아이즈원A 멀티카운트(묶음)
+[GroupItem323]
+Code		=325
+NameID		=24554
+DescID		=24555
+DetailDescID	=24556
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz325.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz325.dtx"
+
+// 아이즈원B 멀티카운트(묶음)
+[GroupItem324]
+Code		=326
+NameID		=24685
+DescID		=24686
+DetailDescID	=24687
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz326.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz326.dtx"
+
+// 아이즈원C 멀티카운트(묶음)
+[GroupItem325]
+Code		=327
+NameID		=24811
+DescID		=24812
+DetailDescID	=24813
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz327.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz327.dtx"
+
+//네온캘리 AK47 멀티카운트(묶음)
+[GroupItem326]
+Code		=328
+NameID		=24908
+DescID		=24909
+DetailDescID	=24909
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz328.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz328.dtx"
+
+//네온캘리 TRG21 멀티카운트(묶음)
+[GroupItem327]
+Code		=329
+NameID		=24940
+DescID		=24941
+DetailDescID	=24941
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz329.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz329.dtx"
+
+//이지은 사장님 멀티카운트(묶음)
+[GroupItem328]
+Code		=330
+NameID		=24986
+DescID		=24987
+DetailDescID	=24987
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz330.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz330.dtx"
+
+// 한복소녀 멀티카운트(묶음)
+[GroupItem329]
+Code		=331
+NameID		=25071
+DescID		=25072
+DetailDescID	=25073
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz331.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz331.dtx"
+
+// 자개 AK47 멀티카운트(묶음)
+[GroupItem330]
+Code		=332
+NameID		=25104
+DescID		=25105
+DetailDescID	=25106
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz332.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz332.dtx"
+
+// 자개 TRG21 멀티카운트(묶음)
+[GroupItem331]
+Code		=333
+NameID		=25131
+DescID		=25132
+DetailDescID	=25133
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz333.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz333.dtx"
+
+// 패스티켓(묶음)
+[GroupItem332]
+Code		=334
+
+// Normal
+NormalIcon	="sa_interface\menu\textures\cashitem\icon\icon_zzz334.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz334.dtx"
+
+// SALE
+// [!] 이제 여기서 교체하는 방식이 아닌, ZZZ552를 사용하시면 됩니다! (RE: [SA/사업] 05/14(목) 패스티켓 리워드 이벤트 세부기획서 공유 드립니다.)
+//NormalIcon	="sa_interface\menu\textures\cashitem\icon\icon_zzz334sale.dtx"
+//BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz334sale.dtx"
+//ItemOption	=(DWORD)8
+
+// 엘리나 멀티카운트(묶음)
+[GroupItem333]
+Code		=335
+NameID		=25378
+DescID		=25379
+DetailDescID	=25379
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz335.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz335.dtx"
+
+// 할로윈 좀비 멀티카운트(묶음)
+[GroupItem334]
+Code		=336
+NameID		=25452
+DescID		=25453
+DetailDescID	=25454
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz336.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz336.dtx"
+
+// 할로윈 무기 멀티카운트(묶음)
+[GroupItem335]
+Code		=337
+NameID		=25541
+DescID		=25542
+DetailDescID	=25543
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz337.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz337.dtx"
+
+// 타지옥 멀티카운트(묶음)
+[GroupItem336]
+Code		=338
+NameID		=25587
+DescID		=25588
+DetailDescID	=25588
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz338.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz338.dtx"
+
+// 레트로 캐릭터 멀티카운트(묶음)
+[GroupItem337]
+Code		=339
+NameID		=25657
+DescID		=25658
+DetailDescID	=25658
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz339.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz339.dtx"
+
+// 레트로 무기 멀티카운트(묶음)
+[GroupItem338]
+Code		=340
+NameID		=25727
+DescID		=25728
+DetailDescID	=25728
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz340.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz340.dtx"
+
+// 러블리즈 멀티카운트(묶음)
+[GroupItem339]
+Code		=341
+NameID		=25835
+DescID		=25836
+DetailDescID	=25837
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz341.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz341.dtx"
+
+// 최고다윽박 멀티카운트(묶음)
+[GroupItem340]
+Code		=342
+NameID		=25965
+DescID		=25966
+DetailDescID	=25966
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz342.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz342.dtx"
+
+// 밀리터리 무기 멀티카운트(묶음)
+[GroupItem341]
+Code		=343
+NameID		=26028
+DescID		=26029
+DetailDescID	=26029
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz343.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz343.dtx"
+
+// 김세정 멀티카운트(묶음)
+[GroupItem342]
+Code		=344
+NameID		=26228
+DescID		=26229
+DetailDescID	=26229
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz344.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz344.dtx"
+
+// 쥐돌이 무기 멀티카운트(묶음)
+[GroupItem343]
+Code		=345
+NameID		=26292
+DescID		=26293
+DetailDescID	=26293
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz345.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz345.dtx"
+
+// 손나은 트레이닝 멀티카운트(묶음)
+[GroupItem344]
+Code		=346
+NameID		=26358
+DescID		=26359
+DetailDescID	=26359
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz346.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz346.dtx"
+
+// 손나은 트레이닝 멀티카운트(묶음)
+[GroupItem345]
+Code		=347
+NameID		=26391
+DescID		=26392
+DetailDescID	=26393
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz346.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz346.dtx"
+
+// 손나은 멀티카운트(묶음)
+[GroupItem346]
+Code		=348
+NameID		=26406
+DescID		=26407
+DetailDescID	=26408
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz348.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz348.dtx"
+
+[GroupItem347]
+Code		=349
+NameID		=26454
+DescID		=26455
+DetailDescID	=26456
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz349.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz349.dtx"
+
+// 초콜릿 무기 멀티카운트(묶음)
+[GroupItem348]
+Code		=350
+NameID		=26599
+DescID		=26600
+DetailDescID	=26600
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz350.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz350.dtx"
+
+// 김민아 멀티카운트(묶음)
+[GroupItem349]
+Code		=351
+NameID		=26637
+DescID		=26638
+DetailDescID	=26638
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz351.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz351.dtx"
+
+// 단짝 멀티카운트(묶음)
+[GroupItem350]
+Code		=352
+NameID		=26751
+DescID		=26752
+DetailDescID	=26753
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz352.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz352.dtx"
+
+// 단짝 멀티카운트(묶음)
+[GroupItem351]
+Code		=353
+NameID		=26831
+DescID		=26832
+DetailDescID	=26832
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz353.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz353.dtx"
+
+// 남규리 멀티카운트(묶음)
+[GroupItem352]
+Code		=354
+NameID		=27022
+DescID		=27023
+DetailDescID	=27024
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz354.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz354.dtx"
+
+// 미샤호크 멀티카운트(묶음)
+[GroupItem353]
+Code		=355
+NameID		=27053
+DescID		=27054
+DetailDescID	=27055
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz355.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz355.dtx"
+
+// 초콜릿 무기 멀티카운트(묶음)
+[GroupItem354]
+Code		=356
+NameID		=27113
+DescID		=27114
+DetailDescID	=27114
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz356.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz356.dtx"
+
+// 이태원클라쓰 멀티카운트(묶음)	
+[GroupItem355]
+Code		=357
+NameID		=27216
+DescID		=27217
+DetailDescID	=27217
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz357.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz357.dtx"
+
+// 무술가 멀티카운트(묶음)	
+[GroupItem356]
+Code		=358
+NameID		=27265
+DescID		=27266
+DetailDescID	=27266
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz358.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz358.dtx"
+
+// 엠보 무기 멀티카운트(묶음)
+[GroupItem357]
+Code		=359
+NameID		=27316
+DescID		=27317
+DetailDescID	=27318
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz359.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz359.dtx"
+
+// 오마이걸 멀티카운트(묶음)	
+[GroupItem358]
+Code		=360
+NameID		=27429
+DescID		=27430
+DetailDescID	=27431
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz360.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz360.dtx"
+
+// 오마이걸 멀티카운트(묶음)	
+[GroupItem359]
+Code		=361
+NameID		=27497
+DescID		=27498
+DetailDescID	=27499
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz361.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz361.dtx"
+
+// 청룡:眞 무기 멀티카운트(묶음)
+[GroupItem360]
+Code		=362
+NameID		=27522
+DescID		=27523
+DetailDescID	=27524
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz362.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz362.dtx"
+
+// 조현 멀티카운트(묶음)
+[GroupItem361]
+Code		=363
+NameID		=27712
+DescID		=27713
+DetailDescID	=27714
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz363.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz363.dtx"
+
+// 찐블랙 에디션 멀티카운트(묶음)
+[GroupItem362]
+Code		=364
+NameID		=27877
+DescID		=27878
+DetailDescID	=27879
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz364.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz364.dtx"
+
+// 에스닉 무기 멀티카운트(묶음)
+[GroupItem363]
+Code		=365
+NameID		=27972
+DescID		=27973
+DetailDescID	=27973
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz365.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz365.dtx"
+
+// 선미 멀티카운트(묶음)
+[GroupItem364]
+Code		=366
+NameID		=28015
+DescID		=28016
+DetailDescID	=28017
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz366.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz366.dtx"
+
+// 썸머 페스티벌 멀티카운트(묶음)
+[GroupItem365]
+Code		=367
+NameID		=28164
+DescID		=28165
+DetailDescID	=28165
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz367.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz367.dtx"
+
+// 썸머 무기 멀티카운트(묶음)
+[GroupItem366]
+Code		=368
+NameID		=28180
+DescID		=28181
+DetailDescID	=28181
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz368.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz368.dtx"
+
+// 여자친구 멀티카운트(묶음)
+[GroupItem367]
+Code		=369
+NameID		=28417
+DescID		=28418
+DetailDescID	=28418
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz369.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz369.dtx"
+
+// 블링 선미 멀티카운트(묶음)
+[GroupItem368]
+Code		=370
+NameID		=28451
+DescID		=28452
+DetailDescID	=28453
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz370.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz370.dtx"
+
+// 반딧불이 무기 멀티카운트(묶음)
+[GroupItem369]
+Code		=371
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz371.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz371.dtx"
+
+//손담비 멀티카운트(묶음)
+[GroupItem370]
+Code		=372
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz372.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz372.dtx"
+
+// 블러디로즈 멀티카운트(묶음)
+[GroupItem371]
+Code		=373
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz373.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz373.dtx"
+
+// 블랙캐슬 무기 멀티카운트(묶음)
+[GroupItem372]
+Code		=374
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz374.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz374.dtx"
+
+// 이나은 멀티카운트(묶음)
+[GroupItem373]
+Code		=375
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz375.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz375.dtx"
+
+// 초코소녀 멀티카운트(묶음)
+[GroupItem374]
+Code		=376
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz376.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz376.dtx"
+
+// 초코쿠키 무기 멀티카운트(묶음)
+[GroupItem375]
+Code		=377
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz377.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz377.dtx"
+
+// ITZY 멀티카운트(묶음)
+[GroupItem376]
+Code		=378
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz378.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz378.dtx"
+
+// 크리스마스 멀티카운트(묶음)
+[GroupItem377]
+Code		=379
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz379.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz379.dtx"
+
+// Dark X 멀티카운트(묶음)
+[GroupItem378]
+Code		=380
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz380.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz380.dtx"
+
+// Twice 멀티카운트(묶음)
+[GroupItem379]
+Code		=381
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz381.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz381.dtx"
+
+// 마이건 패키지
+[GroupItem380] 
+Code		=382
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz382.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz382.dtx"
+
+// 스터드 멀티카운트(묶음)
+[GroupItem381]
+Code		=384
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz384.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz384.dtx"
+
+// 오드아이 멀티카운트(묶음)
+[GroupItem382]
+Code		=383
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz383.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz383.dtx"
+
+// 김소연 멀티카운트(묶음)
+[GroupItem383]
+Code		=385
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz385.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz385.dtx"
+
+// ITZY 멀티카운트Ⅱ(묶음)
+[GroupItem384]
+Code		=386
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz386.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz386.dtx"
+
+// 밀키카우 무기 멀티카운트(묶음)
+[GroupItem385]
+Code		=387
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz387.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz387.dtx"
+
+// 트와이스 멀티카운트Ⅱ(묶음)
+[GroupItem386]
+Code		=389
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz389.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz389.dtx"
+
+// 보드소녀 멀티카운트Ⅱ(묶음)
+[GroupItem387]
+Code		=390
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz390.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz390.dtx"
+
+// 캔디팝 무기 멀티카운트(묶음)
+[GroupItem388]
+Code		=391
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz391.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz391.dtx"
+
+// 희진&츄 멀티카운트(묶음)
+[GroupItem389]
+Code		=388
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz388.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz388.dtx"
+
+// 플로라 멀티카운트(묶음)
+[GroupItem390]
+Code		=392
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz392.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz392.dtx"
+
+// 차크라 무기 멀티카운트(묶음)
+[GroupItem391]
+Code		=393
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz393.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz393.dtx"
+
+// 브레이브걸스 멀티카운트(묶음)
+[GroupItem392]
+Code		=394
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz394.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz394.dtx"
+
+// 펑키 멀티카운트(묶음)
+[GroupItem393]
+Code		=395
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz395.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz395.dtx"
+
+// 스텐실 무기 멀티카운트(묶음)
+[GroupItem394]
+Code		=396
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz396.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz396.dtx"
+
+// 랄랄 멀티카운트(묶음)
+[GroupItem395]
+Code		=397
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz397.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz397.dtx"
+
+// 희진&츄2 멀티카운트(묶음)
+[GroupItem396]
+Code		=398
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz398.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz398.dtx"
+
+// 마린무기 멀티카운트(묶음)
+[GroupItem397]
+Code		=399
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz399.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz399.dtx"
+
+// 라붐 멀티카운트(묶음)
+[GroupItem398]
+Code		=400
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz400.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz400.dtx"
+
+// HipHop 멀티카운트(묶음)
+[GroupItem399]
+Code		=401
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz401.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz401.dtx"
+
+// Boom 무기 멀티카운트(묶음)
+[GroupItem400]
+Code		=402
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz402.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz402.dtx"
+
+// 오마이걸 멀티카운트(묶음)
+[GroupItem401]
+Code		=403
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz403.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz403.dtx"
+
+// 표은지 멀티카운트(묶음)
+[GroupItem402]
+Code		=404
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz404.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz404.dtx"
+
+// Dolphin 무기 멀티카운트(묶음)
+[GroupItem403]
+Code		= 405
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz405.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz405.dtx"
+
+// 김연경 멀티카운트(묶음)
+[GroupItem404]
+Code		=406
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz406.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz406.dtx"
+
+// 오늘의 스페셜 아이템(묶음)
+[GroupItem405]
+Code		=407
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz407.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz407.dtx"
+
+// 곤룡 무기 멀티카운트(묶음)
+[GroupItem406]
+Code		= 408
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz408.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz408.dtx"
+
+// 노제 멀티카운트(묶음)
+[GroupItem407]
+Code		= 409
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz409.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz409.dtx"
+
+// 마술사 멀티카운트(묶음)
+[GroupItem408]
+Code		= 410
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz410.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz410.dtx"
+
+// Trump 무기 멀티카운트(묶음)
+[GroupItem409]
+Code		= 411
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz411.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz411.dtx"
+
+// 스테이씨 멀티카운트(묶음)
+[GroupItem410]
+Code		= 412
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz412.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz412.dtx"
+
+// 다크 핑거 멀티카운트(묶음)
+[GroupItem411]
+Code		= 413
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz413.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz413.dtx"
+
+// Glow 무기 멀티카운트(묶음)
+[GroupItem412]
+Code		= 414
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz414.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz414.dtx"
+
+// 신세경 멀티카운트(묶음)
+[GroupItem413]
+Code		= 415
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz415.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz415.dtx"
+
+// 겨울소녀 멀티카운트(묶음)
+[GroupItem414]
+Code		= 416
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz416.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz416.dtx"
+
+// Jewelry 무기 멀티카운트(묶음)
+[GroupItem415]
+Code		= 417
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz417.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz417.dtx"
+
+// 술도녀 멀티카운트(묶음)
+[GroupItem416]
+Code		= 418
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz418.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz418.dtx"
+
+// 흑호 멀티카운트(묶음)
+[GroupItem417]
+Code		= 419
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz419.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz419.dtx"
+
+// 흑호 무기 멀티카운트(묶음)
+[GroupItem418]
+Code		= 420
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz420.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz420.dtx"
+
+// 미주 무기 멀티카운트(묶음)
+[GroupItem419]
+Code		= 421
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz421.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz421.dtx"
+
+// 김연경 멀티카운트Ⅱ(묶음)
+[GroupItem420]
+Code		=422
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz422.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz422.dtx"
+
+// HeartX 무기 멀티카운트(묶음)
+[GroupItem421]
+Code		=423
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz423.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz423.dtx"
+
+// 비비&예나 멀티카운트(묶음)
+[GroupItem422]
+Code		=424
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz424.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz424.dtx"
+
+// 페어리 멀티카운트(묶음)
+[GroupItem423]
+Code		=425
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz425.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz425.dtx"
+
+// 페어리가든 무기 멀티카운트(묶음)
+[GroupItem424]
+Code		= 426
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz426.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz426.dtx"
+
+// 조이현 멀티카운트(묶음)
+[GroupItem425]
+Code		= 427
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz427.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz427.dtx"
+
+// 신세경 멀티카운트Ⅱ(묶음)
+[GroupItem426]
+Code		= 428
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz428.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz428.dtx"
+
+// 발키리 무기 멀티카운트(묶음)
+[GroupItem427]
+Code		= 429
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz429.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz429.dtx"
+
+// 프로미스나인 멀티카운트(묶음)
+[GroupItem428]
+Code		= 430
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz430.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz430.dtx"
+
+// 비비&예나 멀티카운트(묶음)
+[GroupItem429]
+Code		= 431
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz431.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz431.dtx"
+
+// 아케이드 무기 멀티카운트(묶음)
+[GroupItem430]
+Code		= 432
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz432.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz432.dtx"
+
+// VIVIZ 멀티카운트(묶음)
+[GroupItem431]
+Code		= 433
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz433.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz433.dtx"
+
+// 의장대원 멀티카운트Ⅱ(묶음)
+[GroupItem432]
+Code		=434
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz434.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz434.dtx"
+
+// Honor 무기 멀티카운트(묶음)
+[GroupItem433]
+Code		= 435
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz435.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz435.dtx"
+
+// 쵸단 멀티카운트(묶음)
+[GroupItem434]
+Code		= 436
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz436.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz436.dtx"
+
+// 레이서 멀티카운트(묶음)
+[GroupItem435]
+Code		= 437
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz437.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz437.dtx"
+
+// 바이크 무기 멀티카운트(묶음)
+[GroupItem436]
+Code		= 438
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz438.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz438.dtx"
+
+// (G)I-DLE 멀티카운트Ⅱ(묶음)
+[GroupItem437]
+Code		=439
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz439.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz439.dtx"
+
+// 허성태&박지환 멀티카운트(묶음)
+[GroupItem438]
+Code		=440
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz440.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz440.dtx"
+
+// Viper 무기 멀티카운트(묶음)
+[GroupItem439]
+Code		=441
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz441.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz441.dtx"
+
+// 2022 트와이스 멀티카운트(묶음)
+[GroupItem440]
+Code		=442
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz442.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz442.dtx"
+
+// 검객 멀티카운트(묶음)
+[GroupItem441]
+Code		=443
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz443.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz443.dtx"
+
+// 풍월 무기 멀티카운트(묶음)
+[GroupItem442]
+Code		=444
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz444.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz444.dtx"
+
+// 르세라핌 무기 멀티카운트(묶음)
+[GroupItem443]
+Code		=445
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz445.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz445.dtx"
+
+// 포인트 티켓(묶음)
+[GroupItem444]
+Code		=446
+NormalIcon	="sa_interface\menu\textures\cashitem\Icon\icon_zzz446.dtx"
+BigIcon		="sa_interface\menu\textures\cashitem\Icon\bigicon_zzz446.dtx"
+
+// 구미호 멀티카운트(묶음)
+[GroupItem445]
+Code		= 447
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz447.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz447.dtx"
+
+// 구미호 무기 멀티카운트(묶음)
+[GroupItem446]
+Code		= 448
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz448.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz448.dtx"
+
+// 황정민&하정우 멀티카운트(묶음)
+[GroupItem447]
+Code		= 449
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz449.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz449.dtx"
+
+// 응원소녀 멀티카운트(묶음)
+[GroupItem448]
+Code		= 450
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz450.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz450.dtx"
+
+// Soccer 무기 멀티카운트(묶음)
+[GroupItem449]
+Code		= 451
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz451.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz451.dtx"
+
+// 김신영 멀티카운트(묶음)
+[GroupItem450]
+Code		= 452
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz452.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz452.dtx"
+
+// Xmas 탐정 멀티카운트(묶음)
+[GroupItem451]
+Code		= 453
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz453.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz453.dtx"
+
+// 2023 츄&조유리 멀티카운트(묶음)
+[GroupItem452]
+Code		= 454
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz454.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz454.dtx"
+
+// 검은 토끼 멀티카운트(묶음)
+[GroupItem453]
+Code		= 455
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz455.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz455.dtx"
+
+// 검은 토끼 무기 멀티카운트(묶음)
+[GroupItem454]
+Code		= 456
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz456.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz456.dtx"
+
+// 다나카&채수빈 멀티카운트(묶음)	
+[GroupItem455]
+Code		= 457
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz457.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz457.dtx"
+
+// 쇼콜라티에 멀티카운트(묶음)	
+[GroupItem456]
+Code		= 458
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz458.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz458.dtx"
+
+// 쿠키앤크림 무기 멀티카운트(묶음)	
+[GroupItem457]
+Code		= 459
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz459.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz459.dtx"
+
+// 권은비&강혜원 멀티카운트(묶음)
+[GroupItem458]
+Code		= 460
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz460.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz460.dtx"
+
+// 피크닉걸 멀티카운트(묶음)
+[GroupItem459]
+Code		= 461
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz461.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz461.dtx"
+
+// 치즈 무기 멀티카운트(묶음)
+[GroupItem460]
+Code		= 462
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz462.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz462.dtx"
+
+// 추성훈&심으뜸 멀티카운트(묶음)
+[GroupItem461]
+Code		= 463
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz463.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz463.dtx"
+
+// 웨스턴걸 멀티카운트(묶음)
+[GroupItem462]
+Code		= 464
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz464.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz464.dtx"
+
+// Sheriff 무기 멀티카운트(묶음)
+[GroupItem463]
+Code		= 465
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz465.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz465.dtx"
+
+// 스테이씨 멀티카운트(묶음)
+[GroupItem464]
+Code		= 466
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz466.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz466.dtx"
+
+// 흑장미 무기 멀티카운트(묶음)
+[GroupItem465]
+Code		= 467
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz467.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz467.dtx"
+
+// 치어리더 멀티카운트(묶음)
+[GroupItem466]
+Code		= 468
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz468.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz468.dtx"
+
+// 해적무기 멀티카운트(묶음)
+[GroupItem467]
+Code		= 469
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz469.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz469.dtx"
+
+// 마갱단 멀티카운트(묶음)
+[GroupItem468]
+Code		= 470
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz470.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz470.dtx"
+
+// 썸머걸 멀티카운트(묶음)
+[GroupItem469]
+Code 		= 471
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz471.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz471.dtx"
+
+// Wave 무기 멀티카운트(묶음)
+[GroupItem470]
+Code 		= 472
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz472.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz472.dtx"
+
+// 2023 프로미스나인 멀티카운트 (묶음)
+[GroupItem471]
+Code 		= 473
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz473.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz473.dtx"
+
+// 나선욱 멀티카운트 (묶음)
+[GroupItem472]
+Code 		= 474
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz474.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz474.dtx"
+
+// 훈장 무기 멀티카운트 (묶음)
+[GroupItem473]
+Code		= 475
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz475.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz475.dtx"
+
+// 2023 ITZY 멀티카운트 (묶음)
+[GroupItem474]
+Code 		= 476
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz476.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz476.dtx"
+
+// 점성술사 멀티카운트 (묶음)
+[GroupItem475]
+Code 		= 478
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz478.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz478.dtx"
+
+// 별자리 무기 멀티카운트(묶음)
+[GroupItem476]
+Code 		= 477
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz477.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz477.dtx"
+
+// 권은비 무기 멀티카운트(묶음)
+[GroupItem477]
+Code 		= 480
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz480.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz480.dtx"
+
+// 스텝업 패키지 (묶음)
+[GroupItem478]
+Code 		= 479
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz479.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz479.dtx"
+ItemOption	=(DWORD)4194304
+
+// 허수아비 무기 멀티카운트(묶음)
+[GroupItem479]
+Code 		= 481
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz481.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz481.dtx"
+
+// 서우파 멀티카운트(묶음)
+[GroupItem480]
+Code 		= 482
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz482.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz482.dtx"
+
+// 허수아비 무기 멀티카운트(묶음)
+[GroupItem481]
+Code 		= 483
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz483.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz483.dtx"
+
+// NMIXX 멀티카운트(묶음)
+[GroupItem482]
+Code 		= 484
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz484.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz484.dtx"
+
+// 달콤 브레드&썽 멀티카운트(묶음)
+[GroupItem483]
+Code 		= 485
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz485.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz485.dtx"
+
+// 진저쿠키 무기 멀티카운트(묶음)
+[GroupItem484]
+Code 		= 486
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz486.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz486.dtx"
+
+// 김원훈&김아영 멀티카운트(묶음)
+[GroupItem485]
+Code 		= 487
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz487.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz487.dtx"
+
+// 청룡의 신 멀티카운트(묶음)
+[GroupItem486]
+Code 		= 488
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz488.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz488.dtx"
+
+// 청미르 무기 멀티카운트(묶음)
+[GroupItem487]
+Code 		= 489
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz489.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz489.dtx"
+
+// 2024 신세경 멀티카운트(묶음)
+[GroupItem488]
+Code 		= 490
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz490.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz490.dtx"
+
+// 큐피드 무기 멀티카운트(묶음)
+[GroupItem489]
+Code 		= 491
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz491.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz491.dtx"
+
+// 츄&지원 멀티카운트(묶음)
+[GroupItem490]
+Code 		= 492
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz492.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz492.dtx"
+
+// 스케이트 무기 멀티카운트(묶음)
+[GroupItem491]
+Code 		= 493
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz493.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz493.dtx"
+
+// 서든피라미드 멀티카운트(묶음)
+[GroupItem492]
+Code 		= 494
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz494.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz494.dtx"
+
+// 노블&마블 멀티카운트(묶음)
+[GroupItem493]
+Code 		= 497
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz497.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz497.dtx"
+
+// 노&마 무기 멀티카운트(묶음)
+[GroupItem494]
+Code 		= 495
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz495.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz495.dtx"
+
+// 외모지상주의 멀티카운트(묶음)
+[GroupItem495]
+Code 		= 498
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz498.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz498.dtx"
+
+// 홈런 무기 멀티카운트(묶음)
+[GroupItem496]
+Code 		= 499
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz499.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz499.dtx"
+
+// 2024 신세경 멀티카운트(묶음)
+[GroupItem497]
+Code 		= 500
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz500.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz500.dtx"
+
+// 낚시소녀 멀티카운트(묶음)
+[GroupItem498]
+Code 		= 501
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz501.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz501.dtx"
+
+// 열대어 무기 멀티카운트(묶음)
+[GroupItem499]
+Code		= 503
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz503.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz503.dtx"
+
+// 2024 (G)I-DLE 멀티카운트(묶음)
+[GroupItem500]
+Code		= 502
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz502.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz502.dtx"
+
+// 맨스티어 멀티카운트(묶음)
+[GroupItem501]
+Code		= 504
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz504.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz504.dtx"
+
+// 스크레치 무기 멀티카운트(묶음)
+[GroupItem502]
+Code		= 505
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz505.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz505.dtx"
+
+// 고말숙&박민정 멀티카운트(묶음)
+[GroupItem503]
+Code		= 506
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz506.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz506.dtx"
+
+// 화이트쉘 무기 멀티카운트(묶음)
+[GroupItem504]
+Code		= 507
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz507.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz507.dtx"
+
+// 2024 프로미스나인 멀티카운트(묶음)
+[GroupItem505]
+Code		= 508
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz508.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz508.dtx"
+
+// 월화 멀티카운트(묶음)
+[GroupItem506]
+Code		= 509
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz509.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz509.dtx"
+
+// 소리꾼 무기 멀티카운트(묶음)
+[GroupItem507]
+Code		= 510
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz510.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz510.dtx"
+
+// 고민시 멀티카운트(묶음)
+[GroupItem508]
+Code		= 511
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz511.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz511.dtx"
+
+// 스페이스 무기 멀티카운트(묶음)
+[GroupItem509]
+Code		= 513
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz513.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz513.dtx"
+
+// 피프티 멀티카운트(묶음)
+[GroupItem510]
+Code		= 512
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz512.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz512.dtx"
+
+// 엑스트라 패스티켓(묶음)
+[GroupItem511]
+Code		= 514
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_9771.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_9771.dtx"
+
+// Latte 무기 멀티카운트(묶음)
+[GroupItem512]
+Code		= 515
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz515.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz515.dtx"
+
+// 2024 NMIXX 멀티카운트(묶음)
+[GroupItem513]
+Code		= 516
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz516.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz516.dtx"
+
+// 북극소녀 멀티카운트(묶음)
+[GroupItem514]
+Code		= 518
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz518.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz518.dtx"
+
+// 북극곰 무기 멀티카운트(묶음)
+[GroupItem515]
+Code		= 517
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz517.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz517.dtx"
+
+// 혜리 멀티카운트(묶음)
+[GroupItem516]
+Code		= 519
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz519.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz519.dtx"
+
+// 청사 멀티카운트(묶음)
+[GroupItem517]
+Code		= 521
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz521.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz521.dtx"
+
+// 청사 무기 멀티카운트(묶음)
+[GroupItem518]
+Code		= 520
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz520.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz520.dtx"
+
+// 강혜원&최예나 멀티카운트(묶음)
+[GroupItem519]
+Code		= 522
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz522.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz522.dtx"
+
+// 골프 무기 멀티카운트(묶음)	
+[GroupItem520]
+Code		= 523
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz523.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz523.dtx"
+
+// 다샤타란 멀티카운트(묶음)	
+[GroupItem521]
+Code		= 525
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz525.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz525.dtx"
+
+// 메가카운트 이용권(묶음)
+[GroupItem522]
+Code		= 524
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz524.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz524.dtx"
+
+// 블라썸 멀티카운트(묶음)	
+[GroupItem523]
+Code		= 526
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz526.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz526.dtx"
+
+// 데님 무기 멀티카운트(묶음)
+[GroupItem524]
+Code		= 527
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz527.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz527.dtx"
+
+// 이주은 멀티카운트(묶음)
+[GroupItem525]
+Code		= 528
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz528.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz528.dtx"
+
+// S-Block 무기 멀티카운트(묶음)
+[GroupItem526]
+Code		= 529
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz529.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz529.dtx"
+
+// 이수지&지예은 멀티카운트(묶음)
+[GroupItem527]
+Code		= 531
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz531.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz531.dtx"
+
+// 레서판다 무기 멀티카운트(묶음)
+[GroupItem528]
+Code		= 530
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz530.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz530.dtx"
+
+// 2025 프로미스나인 멀티카운트(묶음)	
+[GroupItem529]
+Code		= 532
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz532.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz532.dtx"
+
+// 챔피언 무기 멀티카운트(묶음)
+[GroupItem530]
+Code		= 533
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz533.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz533.dtx"
+
+// 조유리 멀티카운트(묶음)
+[GroupItem531]
+Code		= 534
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz534.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz534.dtx"
+
+// T-Rex 무기 멀티카운트(묶음)
+[GroupItem532]
+Code		= 535
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz535.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz535.dtx"
+
+// 2025 랄랄 멀티카운트(묶음)
+[GroupItem533]
+Code		= 536
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz536.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz536.dtx"
+
+// Tattoo 무기 멀티카운트(묶음)
+[GroupItem534]
+Code		= 537
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz537.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz537.dtx"
+
+// 권은비&츠키 멀티카운트(묶음)
+[GroupItem535]
+Code		= 538
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz538.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz538.dtx"
+
+// 가을숲 무기 멀티카운트(묶음)
+[GroupItem536]
+Code		= 539
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz539.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz539.dtx"
+
+// tripleS 멀티카운트(묶음)
+[GroupItem537]
+Code		= 540
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz540.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz540.dtx"
+
+// 가을숲 무기 멀티카운트(묶음)
+[GroupItem538]
+Code		= 541
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz541.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz541.dtx"
+
+// KISS OF LIFE 멀티카운트(묶음)
+[GroupItem539]
+Code		= 542
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz542.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz542.dtx"
+
+// 월광나비 무기 멀티카운트(묶음)	
+[GroupItem540]
+Code		= 544
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz544.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz544.dtx"
+
+// 하지원&이주은 멀티카운트(묶음)	
+[GroupItem541]
+Code		= 543
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz543.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz543.dtx"
+
+// 스노우볼 무기 멀티카운트(묶음)
+[GroupItem542]
+Code		= 545
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz545.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz545.dtx"
+
+// 김설현 멀티카운트(묶음)	
+[GroupItem543]
+Code		= 546
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz546.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz546.dtx"
+
+// 로데오 무기 멀티카운트(묶음)	
+[GroupItem544]
+Code		= 547
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz547.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz547.dtx"
+
+// 2026 츄 멀티카운트(묶음)
+[GroupItem545]
+Code		= 548
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz548.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz548.dtx"
+
+// 포니퐁 무기 멀티카운트(묶음)
+[GroupItem546]
+Code		= 549
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz549.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz549.dtx"
+
+// 이주빈 멀티카운트(묶음))
+[GroupItem547]
+Code		= 550
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz550.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz550.dtx"
+
+// F.Camo 무기 멀티카운트(묶음))
+[GroupItem548]
+Code		= 551
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz551.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz551.dtx"
+
+// 웬디 멀티카운트(묶음))
+[GroupItem549]
+Code		= 553
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz553.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz553.dtx"
+
+// Xeeeeno 무기 멀티카운트(묶음)
+[GroupItem550]
+Code		= 554
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz554.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz554.dtx"
+
+// 정채연 멀티카운트(묶음))
+[GroupItem551]
+Code		= 555
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz555.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz555.dtx"
+
+// 패스티켓 할인 (패스티켓 세일 아이콘 고정으로 출력)(묶음)
+[GroupItem552]
+Code			=552
+NormalIcon		= "sa_interface\menu\textures\cashitem\icon\icon_zzz334sale.dtx"
+BigIcon			= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz334sale.dtx"
+
+// Gameover 무기 멀티카운트(묶음)	
+[GroupItem553]
+Code		= 556
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz556.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz556.dtx"
+
+//최예나 멀티카운트(묶음)
+[GroupItem554]
+Code		= 557
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz557.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz557.dtx"
+
+// Sporty 무기 멀티카운트(묶음)
+[GroupItem555]
+Code		= 558
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz558.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz558.dtx"
+
+//미야&김지윤 멀티카운트(묶음)
+[GroupItem556]
+Code		= 559
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz559.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz559.dtx"
+
+// 수박 무기 멀티카운트(묶음)
+[GroupItem557]
+Code		= 560
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz560.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz560.dtx"
+
+// 리센느 멀티카운트(묶음)
+[GroupItem558]
+Code		= 561
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz561.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz561.dtx"
+
+// 캐리어 무기 멀티카운트(묶음)
+[GroupItem559]
+Code		= 562
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz562.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz562.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz562.dtx"
+
+// 이예빈&김가현 멀티카운트(묶음)
+[GroupItem560]
+Code		= 563
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz563.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz563.dtx"
+
+// 서생 브레드 무기 멀티카운트(묶음)	
+[GroupItem561]
+Code		= 564
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz564.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz564.dtx"
+
+// 2026 KISS OF LIFE 멀티카운트(묶음)	
+[GroupItem562]
+Code		= 565
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz565.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz565.dtx"
+
+// 칼라베라 무기 멀티카운트(묶음)
+[GroupItem563]
+Code		= 566
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz566.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz566.dtx"
+
+// 츠키 멀티카운트(묶음)
+[GroupItem564]
+Code		= 567
+NormalIcon	= "sa_interface\menu\textures\cashitem\Icon\icon_zzz567.dtx"
+BigIcon		= "sa_interface\menu\textures\cashitem\Icon\bigicon_zzz567.dtx"

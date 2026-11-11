@@ -1,0 +1,1818 @@
+{
+  "path": "C:\\Nexon\\SuddenAttack\\engine.rez",
+  "size": 102191,
+  "most_common_bytes": [
+    [
+      0,
+      74760
+    ],
+    [
+      255,
+      10828
+    ],
+    [
+      128,
+      3007
+    ],
+    [
+      1,
+      2098
+    ],
+    [
+      228,
+      1708
+    ],
+    [
+      2,
+      948
+    ],
+    [
+      160,
+      831
+    ],
+    [
+      5,
+      659
+    ],
+    [
+      8,
+      657
+    ],
+    [
+      144,
+      574
+    ],
+    [
+      3,
+      527
+    ],
+    [
+      32,
+      450
+    ]
+  ],
+  "ascii_runs": [
+    {
+      "offset": 72,
+      "text": "aZAK^D%"
+    },
+    {
+      "offset": 149,
+      "text": "fLXjDw"
+    },
+    {
+      "offset": 68555,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 69315,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 70559,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 72011,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 74346,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 75050,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 76386,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 78026,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 80753,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 81513,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 82757,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 84209,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 86396,
+      "text": "333?333?fff?"
+    },
+    {
+      "offset": 86544,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 86808,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 87308,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 87920,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 91775,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 92399,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 93507,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 94823,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 97022,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 97194,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 97602,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 98122,
+      "text": "D3DX8 Shader Assembler Version 0.91"
+    },
+    {
+      "offset": 101118,
+      "text": "RS_SPHEREENVMAP_ADD"
+    },
+    {
+      "offset": 101167,
+      "text": "RS_ALPHATEST_GREATER"
+    },
+    {
+      "offset": 101217,
+      "text": "RS_ALPHABLEND_TEXALPHA"
+    },
+    {
+      "offset": 101269,
+      "text": "RS_ALPHABLEND_TFACTORALPHA"
+    },
+    {
+      "offset": 101325,
+      "text": "RS_SPHEREENVMAP_MODTEXALPHA"
+    },
+    {
+      "offset": 101382,
+      "text": "RS_TOON_VS"
+    },
+    {
+      "offset": 101422,
+      "text": "RS_HALO_VS"
+    },
+    {
+      "offset": 101462,
+      "text": "RS_TWOTEXTURE"
+    },
+    {
+      "offset": 101505,
+      "text": "RS_VERTEXSPECULAR"
+    },
+    {
+      "offset": 101552,
+      "text": "RS_DOT3BUMP_DIR_VS"
+    },
+    {
+      "offset": 102082,
+      "text": "CONSOLE_FONT"
+    },
+    {
+      "offset": 102153,
+      "text": "DRENDERSTYLES"
+    },
+    {
+      "offset": 102182,
+      "text": "DCONSOLE"
+    }
+  ],
+  "nonzero_ranges_256": [
+    {
+      "offset": 0,
+      "nonzero": 187
+    },
+    {
+      "offset": 256,
+      "nonzero": 0
+    },
+    {
+      "offset": 512,
+      "nonzero": 0
+    },
+    {
+      "offset": 768,
+      "nonzero": 20
+    },
+    {
+      "offset": 1024,
+      "nonzero": 30
+    },
+    {
+      "offset": 1280,
+      "nonzero": 67
+    },
+    {
+      "offset": 1536,
+      "nonzero": 84
+    },
+    {
+      "offset": 1792,
+      "nonzero": 98
+    },
+    {
+      "offset": 2048,
+      "nonzero": 94
+    },
+    {
+      "offset": 2304,
+      "nonzero": 91
+    },
+    {
+      "offset": 2560,
+      "nonzero": 67
+    },
+    {
+      "offset": 2816,
+      "nonzero": 100
+    },
+    {
+      "offset": 3072,
+      "nonzero": 69
+    },
+    {
+      "offset": 3328,
+      "nonzero": 68
+    },
+    {
+      "offset": 3584,
+      "nonzero": 88
+    },
+    {
+      "offset": 3840,
+      "nonzero": 72
+    },
+    {
+      "offset": 4096,
+      "nonzero": 79
+    },
+    {
+      "offset": 4352,
+      "nonzero": 28
+    },
+    {
+      "offset": 4608,
+      "nonzero": 48
+    },
+    {
+      "offset": 4864,
+      "nonzero": 1
+    },
+    {
+      "offset": 5120,
+      "nonzero": 11
+    },
+    {
+      "offset": 5376,
+      "nonzero": 0
+    },
+    {
+      "offset": 5632,
+      "nonzero": 0
+    },
+    {
+      "offset": 5888,
+      "nonzero": 0
+    },
+    {
+      "offset": 6144,
+      "nonzero": 0
+    },
+    {
+      "offset": 6400,
+      "nonzero": 0
+    },
+    {
+      "offset": 6656,
+      "nonzero": 33
+    },
+    {
+      "offset": 6912,
+      "nonzero": 13
+    },
+    {
+      "offset": 7168,
+      "nonzero": 103
+    },
+    {
+      "offset": 7424,
+      "nonzero": 50
+    },
+    {
+      "offset": 7680,
+      "nonzero": 98
+    },
+    {
+      "offset": 7936,
+      "nonzero": 54
+    },
+    {
+      "offset": 8192,
+      "nonzero": 89
+    },
+    {
+      "offset": 8448,
+      "nonzero": 67
+    },
+    {
+      "offset": 8704,
+      "nonzero": 83
+    },
+    {
+      "offset": 8960,
+      "nonzero": 62
+    },
+    {
+      "offset": 9216,
+      "nonzero": 100
+    },
+    {
+      "offset": 9472,
+      "nonzero": 63
+    },
+    {
+      "offset": 9728,
+      "nonzero": 108
+    },
+    {
+      "offset": 9984,
+      "nonzero": 57
+    },
+    {
+      "offset": 10240,
+      "nonzero": 32
+    },
+    {
+      "offset": 10496,
+      "nonzero": 16
+    },
+    {
+      "offset": 10752,
+      "nonzero": 0
+    },
+    {
+      "offset": 11008,
+      "nonzero": 0
+    },
+    {
+      "offset": 11264,
+      "nonzero": 0
+    },
+    {
+      "offset": 11520,
+      "nonzero": 0
+    },
+    {
+      "offset": 11776,
+      "nonzero": 0
+    },
+    {
+      "offset": 12032,
+      "nonzero": 20
+    },
+    {
+      "offset": 12288,
+      "nonzero": 14
+    },
+    {
+      "offset": 12544,
+      "nonzero": 77
+    },
+    {
+      "offset": 12800,
+      "nonzero": 58
+    },
+    {
+      "offset": 13056,
+      "nonzero": 89
+    },
+    {
+      "offset": 13312,
+      "nonzero": 90
+    },
+    {
+      "offset": 13568,
+      "nonzero": 95
+    },
+    {
+      "offset": 13824,
+      "nonzero": 66
+    },
+    {
+      "offset": 14080,
+      "nonzero": 85
+    },
+    {
+      "offset": 14336,
+      "nonzero": 52
+    },
+    {
+      "offset": 14592,
+      "nonzero": 87
+    },
+    {
+      "offset": 14848,
+      "nonzero": 74
+    },
+    {
+      "offset": 15104,
+      "nonzero": 85
+    },
+    {
+      "offset": 15360,
+      "nonzero": 60
+    },
+    {
+      "offset": 15616,
+      "nonzero": 58
+    },
+    {
+      "offset": 15872,
+      "nonzero": 40
+    },
+    {
+      "offset": 16128,
+      "nonzero": 15
+    },
+    {
+      "offset": 16384,
+      "nonzero": 12
+    },
+    {
+      "offset": 16640,
+      "nonzero": 0
+    },
+    {
+      "offset": 16896,
+      "nonzero": 0
+    },
+    {
+      "offset": 17152,
+      "nonzero": 0
+    },
+    {
+      "offset": 17408,
+      "nonzero": 0
+    },
+    {
+      "offset": 17664,
+      "nonzero": 22
+    },
+    {
+      "offset": 17920,
+      "nonzero": 41
+    },
+    {
+      "offset": 18176,
+      "nonzero": 85
+    },
+    {
+      "offset": 18432,
+      "nonzero": 123
+    },
+    {
+      "offset": 18688,
+      "nonzero": 95
+    },
+    {
+      "offset": 18944,
+      "nonzero": 81
+    },
+    {
+      "offset": 19200,
+      "nonzero": 95
+    },
+    {
+      "offset": 19456,
+      "nonzero": 96
+    },
+    {
+      "offset": 19712,
+      "nonzero": 88
+    },
+    {
+      "offset": 19968,
+      "nonzero": 88
+    },
+    {
+      "offset": 20224,
+      "nonzero": 94
+    },
+    {
+      "offset": 20480,
+      "nonzero": 93
+    },
+    {
+      "offset": 20736,
+      "nonzero": 104
+    },
+    {
+      "offset": 20992,
+      "nonzero": 117
+    },
+    {
+      "offset": 21248,
+      "nonzero": 64
+    },
+    {
+      "offset": 21504,
+      "nonzero": 39
+    },
+    {
+      "offset": 21760,
+      "nonzero": 15
+    },
+    {
+      "offset": 22016,
+      "nonzero": 0
+    },
+    {
+      "offset": 22272,
+      "nonzero": 0
+    },
+    {
+      "offset": 22528,
+      "nonzero": 0
+    },
+    {
+      "offset": 22784,
+      "nonzero": 0
+    },
+    {
+      "offset": 23040,
+      "nonzero": 0
+    },
+    {
+      "offset": 23296,
+      "nonzero": 25
+    },
+    {
+      "offset": 23552,
+      "nonzero": 40
+    },
+    {
+      "offset": 23808,
+      "nonzero": 88
+    },
+    {
+      "offset": 24064,
+      "nonzero": 123
+    },
+    {
+      "offset": 24320,
+      "nonzero": 115
+    },
+    {
+      "offset": 24576,
+      "nonzero": 102
+    },
+    {
+      "offset": 24832,
+      "nonzero": 122
+    },
+    {
+      "offset": 25088,
+      "nonzero": 105
+    },
+    {
+      "offset": 25344,
+      "nonzero": 122
+    },
+    {
+      "offset": 25600,
+      "nonzero": 101
+    },
+    {
+      "offset": 25856,
+      "nonzero": 119
+    },
+    {
+      "offset": 26112,
+      "nonzero": 88
+    },
+    {
+      "offset": 26368,
+      "nonzero": 115
+    },
+    {
+      "offset": 26624,
+      "nonzero": 96
+    },
+    {
+      "offset": 26880,
+      "nonzero": 58
+    },
+    {
+      "offset": 27136,
+      "nonzero": 34
+    },
+    {
+      "offset": 27392,
+      "nonzero": 12
+    },
+    {
+      "offset": 27648,
+      "nonzero": 0
+    },
+    {
+      "offset": 27904,
+      "nonzero": 0
+    },
+    {
+      "offset": 28160,
+      "nonzero": 0
+    },
+    {
+      "offset": 28416,
+      "nonzero": 0
+    },
+    {
+      "offset": 28672,
+      "nonzero": 0
+    },
+    {
+      "offset": 28928,
+      "nonzero": 26
+    },
+    {
+      "offset": 29184,
+      "nonzero": 20
+    },
+    {
+      "offset": 29440,
+      "nonzero": 78
+    },
+    {
+      "offset": 29696,
+      "nonzero": 53
+    },
+    {
+      "offset": 29952,
+      "nonzero": 78
+    },
+    {
+      "offset": 30208,
+      "nonzero": 53
+    },
+    {
+      "offset": 30464,
+      "nonzero": 92
+    },
+    {
+      "offset": 30720,
+      "nonzero": 52
+    },
+    {
+      "offset": 30976,
+      "nonzero": 88
+    },
+    {
+      "offset": 31232,
+      "nonzero": 49
+    },
+    {
+      "offset": 31488,
+      "nonzero": 94
+    },
+    {
+      "offset": 31744,
+      "nonzero": 40
+    },
+    {
+      "offset": 32000,
+      "nonzero": 100
+    },
+    {
+      "offset": 32256,
+      "nonzero": 49
+    },
+    {
+      "offset": 32512,
+      "nonzero": 67
+    },
+    {
+      "offset": 32768,
+      "nonzero": 44
+    },
+    {
+      "offset": 33024,
+      "nonzero": 14
+    },
+    {
+      "offset": 33280,
+      "nonzero": 9
+    },
+    {
+      "offset": 33536,
+      "nonzero": 0
+    },
+    {
+      "offset": 33792,
+      "nonzero": 0
+    },
+    {
+      "offset": 34048,
+      "nonzero": 0
+    },
+    {
+      "offset": 34304,
+      "nonzero": 0
+    },
+    {
+      "offset": 34560,
+      "nonzero": 4
+    },
+    {
+      "offset": 34816,
+      "nonzero": 21
+    },
+    {
+      "offset": 35072,
+      "nonzero": 28
+    },
+    {
+      "offset": 35328,
+      "nonzero": 61
+    },
+    {
+      "offset": 35584,
+      "nonzero": 79
+    },
+    {
+      "offset": 35840,
+      "nonzero": 66
+    },
+    {
+      "offset": 36096,
+      "nonzero": 96
+    },
+    {
+      "offset": 36352,
+      "nonzero": 100
+    },
+    {
+      "offset": 36608,
+      "nonzero": 101
+    },
+    {
+      "offset": 36864,
+      "nonzero": 88
+    },
+    {
+      "offset": 37120,
+      "nonzero": 91
+    },
+    {
+      "offset": 37376,
+      "nonzero": 91
+    },
+    {
+      "offset": 37632,
+      "nonzero": 101
+    },
+    {
+      "offset": 37888,
+      "nonzero": 91
+    },
+    {
+      "offset": 38144,
+      "nonzero": 59
+    },
+    {
+      "offset": 38400,
+      "nonzero": 67
+    },
+    {
+      "offset": 38656,
+      "nonzero": 14
+    },
+    {
+      "offset": 38912,
+      "nonzero": 13
+    },
+    {
+      "offset": 39168,
+      "nonzero": 0
+    },
+    {
+      "offset": 39424,
+      "nonzero": 0
+    },
+    {
+      "offset": 39680,
+      "nonzero": 0
+    },
+    {
+      "offset": 39936,
+      "nonzero": 0
+    },
+    {
+      "offset": 40192,
+      "nonzero": 0
+    },
+    {
+      "offset": 40448,
+      "nonzero": 4
+    },
+    {
+      "offset": 40704,
+      "nonzero": 22
+    },
+    {
+      "offset": 40960,
+      "nonzero": 50
+    },
+    {
+      "offset": 41216,
+      "nonzero": 90
+    },
+    {
+      "offset": 41472,
+      "nonzero": 130
+    },
+    {
+      "offset": 41728,
+      "nonzero": 106
+    },
+    {
+      "offset": 41984,
+      "nonzero": 103
+    },
+    {
+      "offset": 42240,
+      "nonzero": 109
+    },
+    {
+      "offset": 42496,
+      "nonzero": 99
+    },
+    {
+      "offset": 42752,
+      "nonzero": 110
+    },
+    {
+      "offset": 43008,
+      "nonzero": 91
+    },
+    {
+      "offset": 43264,
+      "nonzero": 98
+    },
+    {
+      "offset": 43520,
+      "nonzero": 94
+    },
+    {
+      "offset": 43776,
+      "nonzero": 63
+    },
+    {
+      "offset": 44032,
+      "nonzero": 37
+    },
+    {
+      "offset": 44288,
+      "nonzero": 19
+    },
+    {
+      "offset": 44544,
+      "nonzero": 4
+    },
+    {
+      "offset": 44800,
+      "nonzero": 0
+    },
+    {
+      "offset": 45056,
+      "nonzero": 0
+    },
+    {
+      "offset": 45312,
+      "nonzero": 0
+    },
+    {
+      "offset": 45568,
+      "nonzero": 0
+    },
+    {
+      "offset": 45824,
+      "nonzero": 6
+    },
+    {
+      "offset": 46080,
+      "nonzero": 8
+    },
+    {
+      "offset": 46336,
+      "nonzero": 35
+    },
+    {
+      "offset": 46592,
+      "nonzero": 29
+    },
+    {
+      "offset": 46848,
+      "nonzero": 62
+    },
+    {
+      "offset": 47104,
+      "nonzero": 39
+    },
+    {
+      "offset": 47360,
+      "nonzero": 49
+    },
+    {
+      "offset": 47616,
+      "nonzero": 41
+    },
+    {
+      "offset": 47872,
+      "nonzero": 47
+    },
+    {
+      "offset": 48128,
+      "nonzero": 38
+    },
+    {
+      "offset": 48384,
+      "nonzero": 52
+    },
+    {
+      "offset": 48640,
+      "nonzero": 25
+    },
+    {
+      "offset": 48896,
+      "nonzero": 56
+    },
+    {
+      "offset": 49152,
+      "nonzero": 18
+    },
+    {
+      "offset": 49408,
+      "nonzero": 46
+    },
+    {
+      "offset": 49664,
+      "nonzero": 21
+    },
+    {
+      "offset": 49920,
+      "nonzero": 12
+    },
+    {
+      "offset": 50176,
+      "nonzero": 8
+    },
+    {
+      "offset": 50432,
+      "nonzero": 0
+    },
+    {
+      "offset": 50688,
+      "nonzero": 0
+    },
+    {
+      "offset": 50944,
+      "nonzero": 0
+    },
+    {
+      "offset": 51200,
+      "nonzero": 0
+    },
+    {
+      "offset": 51456,
+      "nonzero": 0
+    },
+    {
+      "offset": 51712,
+      "nonzero": 0
+    },
+    {
+      "offset": 51968,
+      "nonzero": 0
+    },
+    {
+      "offset": 52224,
+      "nonzero": 0
+    },
+    {
+      "offset": 52480,
+      "nonzero": 0
+    },
+    {
+      "offset": 52736,
+      "nonzero": 0
+    },
+    {
+      "offset": 52992,
+      "nonzero": 0
+    },
+    {
+      "offset": 53248,
+      "nonzero": 0
+    },
+    {
+      "offset": 53504,
+      "nonzero": 0
+    },
+    {
+      "offset": 53760,
+      "nonzero": 0
+    },
+    {
+      "offset": 54016,
+      "nonzero": 0
+    },
+    {
+      "offset": 54272,
+      "nonzero": 0
+    },
+    {
+      "offset": 54528,
+      "nonzero": 0
+    },
+    {
+      "offset": 54784,
+      "nonzero": 0
+    },
+    {
+      "offset": 55040,
+      "nonzero": 0
+    },
+    {
+      "offset": 55296,
+      "nonzero": 0
+    },
+    {
+      "offset": 55552,
+      "nonzero": 0
+    },
+    {
+      "offset": 55808,
+      "nonzero": 0
+    },
+    {
+      "offset": 56064,
+      "nonzero": 0
+    },
+    {
+      "offset": 56320,
+      "nonzero": 0
+    },
+    {
+      "offset": 56576,
+      "nonzero": 0
+    },
+    {
+      "offset": 56832,
+      "nonzero": 0
+    },
+    {
+      "offset": 57088,
+      "nonzero": 0
+    },
+    {
+      "offset": 57344,
+      "nonzero": 0
+    },
+    {
+      "offset": 57600,
+      "nonzero": 0
+    },
+    {
+      "offset": 57856,
+      "nonzero": 0
+    },
+    {
+      "offset": 58112,
+      "nonzero": 0
+    },
+    {
+      "offset": 58368,
+      "nonzero": 0
+    },
+    {
+      "offset": 58624,
+      "nonzero": 0
+    },
+    {
+      "offset": 58880,
+      "nonzero": 0
+    },
+    {
+      "offset": 59136,
+      "nonzero": 0
+    },
+    {
+      "offset": 59392,
+      "nonzero": 0
+    },
+    {
+      "offset": 59648,
+      "nonzero": 0
+    },
+    {
+      "offset": 59904,
+      "nonzero": 0
+    },
+    {
+      "offset": 60160,
+      "nonzero": 0
+    },
+    {
+      "offset": 60416,
+      "nonzero": 0
+    },
+    {
+      "offset": 60672,
+      "nonzero": 0
+    },
+    {
+      "offset": 60928,
+      "nonzero": 0
+    },
+    {
+      "offset": 61184,
+      "nonzero": 0
+    },
+    {
+      "offset": 61440,
+      "nonzero": 0
+    },
+    {
+      "offset": 61696,
+      "nonzero": 0
+    },
+    {
+      "offset": 61952,
+      "nonzero": 0
+    },
+    {
+      "offset": 62208,
+      "nonzero": 0
+    },
+    {
+      "offset": 62464,
+      "nonzero": 0
+    },
+    {
+      "offset": 62720,
+      "nonzero": 0
+    },
+    {
+      "offset": 62976,
+      "nonzero": 0
+    },
+    {
+      "offset": 63232,
+      "nonzero": 0
+    },
+    {
+      "offset": 63488,
+      "nonzero": 0
+    },
+    {
+      "offset": 63744,
+      "nonzero": 0
+    },
+    {
+      "offset": 64000,
+      "nonzero": 0
+    },
+    {
+      "offset": 64256,
+      "nonzero": 0
+    },
+    {
+      "offset": 64512,
+      "nonzero": 0
+    },
+    {
+      "offset": 64768,
+      "nonzero": 0
+    },
+    {
+      "offset": 65024,
+      "nonzero": 0
+    },
+    {
+      "offset": 65280,
+      "nonzero": 0
+    },
+    {
+      "offset": 65536,
+      "nonzero": 0
+    },
+    {
+      "offset": 65792,
+      "nonzero": 57
+    },
+    {
+      "offset": 66048,
+      "nonzero": 26
+    },
+    {
+      "offset": 66304,
+      "nonzero": 53
+    },
+    {
+      "offset": 66560,
+      "nonzero": 51
+    },
+    {
+      "offset": 66816,
+      "nonzero": 26
+    },
+    {
+      "offset": 67072,
+      "nonzero": 77
+    },
+    {
+      "offset": 67328,
+      "nonzero": 26
+    },
+    {
+      "offset": 67584,
+      "nonzero": 74
+    },
+    {
+      "offset": 67840,
+      "nonzero": 35
+    },
+    {
+      "offset": 68096,
+      "nonzero": 29
+    },
+    {
+      "offset": 68352,
+      "nonzero": 111
+    },
+    {
+      "offset": 68608,
+      "nonzero": 147
+    },
+    {
+      "offset": 68864,
+      "nonzero": 152
+    },
+    {
+      "offset": 69120,
+      "nonzero": 162
+    },
+    {
+      "offset": 69376,
+      "nonzero": 149
+    },
+    {
+      "offset": 69632,
+      "nonzero": 158
+    },
+    {
+      "offset": 69888,
+      "nonzero": 154
+    },
+    {
+      "offset": 70144,
+      "nonzero": 151
+    },
+    {
+      "offset": 70400,
+      "nonzero": 163
+    },
+    {
+      "offset": 70656,
+      "nonzero": 152
+    },
+    {
+      "offset": 70912,
+      "nonzero": 151
+    },
+    {
+      "offset": 71168,
+      "nonzero": 162
+    },
+    {
+      "offset": 71424,
+      "nonzero": 152
+    },
+    {
+      "offset": 71680,
+      "nonzero": 150
+    },
+    {
+      "offset": 71936,
+      "nonzero": 161
+    },
+    {
+      "offset": 72192,
+      "nonzero": 154
+    },
+    {
+      "offset": 72448,
+      "nonzero": 150
+    },
+    {
+      "offset": 72704,
+      "nonzero": 167
+    },
+    {
+      "offset": 72960,
+      "nonzero": 154
+    },
+    {
+      "offset": 73216,
+      "nonzero": 151
+    },
+    {
+      "offset": 73472,
+      "nonzero": 116
+    },
+    {
+      "offset": 73728,
+      "nonzero": 29
+    },
+    {
+      "offset": 73984,
+      "nonzero": 47
+    },
+    {
+      "offset": 74240,
+      "nonzero": 144
+    },
+    {
+      "offset": 74496,
+      "nonzero": 156
+    },
+    {
+      "offset": 74752,
+      "nonzero": 157
+    },
+    {
+      "offset": 75008,
+      "nonzero": 164
+    },
+    {
+      "offset": 75264,
+      "nonzero": 149
+    },
+    {
+      "offset": 75520,
+      "nonzero": 157
+    },
+    {
+      "offset": 75776,
+      "nonzero": 159
+    },
+    {
+      "offset": 76032,
+      "nonzero": 165
+    },
+    {
+      "offset": 76288,
+      "nonzero": 163
+    },
+    {
+      "offset": 76544,
+      "nonzero": 150
+    },
+    {
+      "offset": 76800,
+      "nonzero": 152
+    },
+    {
+      "offset": 77056,
+      "nonzero": 158
+    },
+    {
+      "offset": 77312,
+      "nonzero": 162
+    },
+    {
+      "offset": 77568,
+      "nonzero": 165
+    },
+    {
+      "offset": 77824,
+      "nonzero": 168
+    },
+    {
+      "offset": 78080,
+      "nonzero": 150
+    },
+    {
+      "offset": 78336,
+      "nonzero": 148
+    },
+    {
+      "offset": 78592,
+      "nonzero": 156
+    },
+    {
+      "offset": 78848,
+      "nonzero": 156
+    },
+    {
+      "offset": 79104,
+      "nonzero": 167
+    },
+    {
+      "offset": 79360,
+      "nonzero": 162
+    },
+    {
+      "offset": 79616,
+      "nonzero": 166
+    },
+    {
+      "offset": 79872,
+      "nonzero": 107
+    },
+    {
+      "offset": 80128,
+      "nonzero": 26
+    },
+    {
+      "offset": 80384,
+      "nonzero": 44
+    },
+    {
+      "offset": 80640,
+      "nonzero": 136
+    },
+    {
+      "offset": 80896,
+      "nonzero": 152
+    },
+    {
+      "offset": 81152,
+      "nonzero": 153
+    },
+    {
+      "offset": 81408,
+      "nonzero": 161
+    },
+    {
+      "offset": 81664,
+      "nonzero": 149
+    },
+    {
+      "offset": 81920,
+      "nonzero": 159
+    },
+    {
+      "offset": 82176,
+      "nonzero": 154
+    },
+    {
+      "offset": 82432,
+      "nonzero": 148
+    },
+    {
+      "offset": 82688,
+      "nonzero": 164
+    },
+    {
+      "offset": 82944,
+      "nonzero": 147
+    },
+    {
+      "offset": 83200,
+      "nonzero": 162
+    },
+    {
+      "offset": 83456,
+      "nonzero": 158
+    },
+    {
+      "offset": 83712,
+      "nonzero": 148
+    },
+    {
+      "offset": 83968,
+      "nonzero": 158
+    },
+    {
+      "offset": 84224,
+      "nonzero": 159
+    },
+    {
+      "offset": 84480,
+      "nonzero": 150
+    },
+    {
+      "offset": 84736,
+      "nonzero": 155
+    },
+    {
+      "offset": 84992,
+      "nonzero": 165
+    },
+    {
+      "offset": 85248,
+      "nonzero": 151
+    },
+    {
+      "offset": 85504,
+      "nonzero": 154
+    },
+    {
+      "offset": 85760,
+      "nonzero": 71
+    },
+    {
+      "offset": 86016,
+      "nonzero": 26
+    },
+    {
+      "offset": 86272,
+      "nonzero": 98
+    },
+    {
+      "offset": 86528,
+      "nonzero": 149
+    },
+    {
+      "offset": 86784,
+      "nonzero": 171
+    },
+    {
+      "offset": 87040,
+      "nonzero": 138
+    },
+    {
+      "offset": 87296,
+      "nonzero": 171
+    },
+    {
+      "offset": 87552,
+      "nonzero": 151
+    },
+    {
+      "offset": 87808,
+      "nonzero": 160
+    },
+    {
+      "offset": 88064,
+      "nonzero": 161
+    },
+    {
+      "offset": 88320,
+      "nonzero": 143
+    },
+    {
+      "offset": 88576,
+      "nonzero": 92
+    },
+    {
+      "offset": 88832,
+      "nonzero": 30
+    },
+    {
+      "offset": 89088,
+      "nonzero": 59
+    },
+    {
+      "offset": 89344,
+      "nonzero": 29
+    },
+    {
+      "offset": 89600,
+      "nonzero": 36
+    },
+    {
+      "offset": 89856,
+      "nonzero": 30
+    },
+    {
+      "offset": 90112,
+      "nonzero": 38
+    },
+    {
+      "offset": 90368,
+      "nonzero": 68
+    },
+    {
+      "offset": 90624,
+      "nonzero": 27
+    },
+    {
+      "offset": 90880,
+      "nonzero": 75
+    },
+    {
+      "offset": 91136,
+      "nonzero": 28
+    },
+    {
+      "offset": 91392,
+      "nonzero": 44
+    },
+    {
+      "offset": 91648,
+      "nonzero": 137
+    },
+    {
+      "offset": 91904,
+      "nonzero": 153
+    },
+    {
+      "offset": 92160,
+      "nonzero": 154
+    },
+    {
+      "offset": 92416,
+      "nonzero": 159
+    },
+    {
+      "offset": 92672,
+      "nonzero": 152
+    },
+    {
+      "offset": 92928,
+      "nonzero": 152
+    },
+    {
+      "offset": 93184,
+      "nonzero": 153
+    },
+    {
+      "offset": 93440,
+      "nonzero": 162
+    },
+    {
+      "offset": 93696,
+      "nonzero": 147
+    },
+    {
+      "offset": 93952,
+      "nonzero": 161
+    },
+    {
+      "offset": 94208,
+      "nonzero": 156
+    },
+    {
+      "offset": 94464,
+      "nonzero": 153
+    },
+    {
+      "offset": 94720,
+      "nonzero": 160
+    },
+    {
+      "offset": 94976,
+      "nonzero": 152
+    },
+    {
+      "offset": 95232,
+      "nonzero": 151
+    },
+    {
+      "offset": 95488,
+      "nonzero": 166
+    },
+    {
+      "offset": 95744,
+      "nonzero": 152
+    },
+    {
+      "offset": 96000,
+      "nonzero": 154
+    },
+    {
+      "offset": 96256,
+      "nonzero": 62
+    },
+    {
+      "offset": 96512,
+      "nonzero": 26
+    },
+    {
+      "offset": 96768,
+      "nonzero": 98
+    },
+    {
+      "offset": 97024,
+      "nonzero": 172
+    },
+    {
+      "offset": 97280,
+      "nonzero": 155
+    },
+    {
+      "offset": 97536,
+      "nonzero": 165
+    },
+    {
+      "offset": 97792,
+      "nonzero": 158
+    },
+    {
+      "offset": 98048,
+      "nonzero": 162
+    },
+    {
+      "offset": 98304,
+      "nonzero": 161
+    },
+    {
+      "offset": 98560,
+      "nonzero": 147
+    },
+    {
+      "offset": 98816,
+      "nonzero": 35
+    },
+    {
+      "offset": 99072,
+      "nonzero": 29
+    },
+    {
+      "offset": 99328,
+      "nonzero": 59
+    },
+    {
+      "offset": 99584,
+      "nonzero": 26
+    },
+    {
+      "offset": 99840,
+      "nonzero": 38
+    },
+    {
+      "offset": 100096,
+      "nonzero": 26
+    },
+    {
+      "offset": 100352,
+      "nonzero": 83
+    },
+    {
+      "offset": 100608,
+      "nonzero": 27
+    },
+    {
+      "offset": 100864,
+      "nonzero": 44
+    },
+    {
+      "offset": 101120,
+      "nonzero": 171
+    },
+    {
+      "offset": 101376,
+      "nonzero": 117
+    },
+    {
+      "offset": 101632,
+      "nonzero": 0
+    },
+    {
+      "offset": 101888,
+      "nonzero": 25
+    },
+    {
+      "offset": 102144,
+      "nonzero": 35
+    }
+  ]
+}

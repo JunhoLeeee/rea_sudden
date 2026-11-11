@@ -1,0 +1,322 @@
+﻿[
+    {
+        "group":  "clientfx",
+        "files":  1,
+        "bytes":  4729856
+    },
+    {
+        "group":  "digest",
+        "files":  1,
+        "bytes":  18555
+    },
+    {
+        "group":  "fx",
+        "files":  8,
+        "bytes":  768245760
+    },
+    {
+        "group":  "game_file",
+        "files":  1,
+        "bytes":  17096704
+    },
+    {
+        "group":  "global",
+        "files":  1,
+        "bytes":  29696
+    },
+    {
+        "group":  "renderstyles",
+        "files":  1,
+        "bytes":  31744
+    },
+    {
+        "group":  "sa_atlas",
+        "files":  2,
+        "bytes":  158951424
+    },
+    {
+        "group":  "sa_charactersct",
+        "files":  5,
+        "bytes":  461825024
+    },
+    {
+        "group":  "sa_characterscu",
+        "files":  1,
+        "bytes":  8927232
+    },
+    {
+        "group":  "sa_characterscv",
+        "files":  38,
+        "bytes":  3907201024
+    },
+    {
+        "group":  "sa_charactersc",
+        "files":  1,
+        "bytes":  64417792
+    },
+    {
+        "group":  "sa_charactersd",
+        "files":  2,
+        "bytes":  141817856
+    },
+    {
+        "group":  "sa_characterse",
+        "files":  1,
+        "bytes":  670720
+    },
+    {
+        "group":  "sa_charactersm",
+        "files":  21,
+        "bytes":  2166881280
+    },
+    {
+        "group":  "sa_characterss",
+        "files":  10,
+        "bytes":  992197632
+    },
+    {
+        "group":  "sa_charactersus",
+        "files":  1,
+        "bytes":  776192
+    },
+    {
+        "group":  "sa_charactersws",
+        "files":  1,
+        "bytes":  28196864
+    },
+    {
+        "group":  "sa_charactersy",
+        "files":  2,
+        "bytes":  178151424
+    },
+    {
+        "group":  "sa_clanfx",
+        "files":  1,
+        "bytes":  8043520
+    },
+    {
+        "group":  "sa_clanmark_0",
+        "files":  1,
+        "bytes":  3653632
+    },
+    {
+        "group":  "sa_clanmark_1",
+        "files":  1,
+        "bytes":  10714112
+    },
+    {
+        "group":  "sa_collection",
+        "files":  1,
+        "bytes":  77933568
+    },
+    {
+        "group":  "sa_fonts",
+        "files":  1,
+        "bytes":  2526208
+    },
+    {
+        "group":  "sa_interface2",
+        "files":  20,
+        "bytes":  2041019392
+    },
+    {
+        "group":  "sa_interface",
+        "files":  14,
+        "bytes":  1295899648
+    },
+    {
+        "group":  "sa_interface_chn",
+        "files":  1,
+        "bytes":  1006592
+    },
+    {
+        "group":  "sa_ppl",
+        "files":  1,
+        "bytes":  7621632
+    },
+    {
+        "group":  "sa_props",
+        "files":  2,
+        "bytes":  196452352
+    },
+    {
+        "group":  "sa_resourcecp",
+        "files":  7,
+        "bytes":  708599808
+    },
+    {
+        "group":  "sa_resourcem",
+        "files":  25,
+        "bytes":  2570025984
+    },
+    {
+        "group":  "sa_resourcewp",
+        "files":  3,
+        "bytes":  279414784
+    },
+    {
+        "group":  "sa_resourcew",
+        "files":  47,
+        "bytes":  4862041088
+    },
+    {
+        "group":  "sa_scripts",
+        "files":  1,
+        "bytes":  9332736
+    },
+    {
+        "group":  "sa_shaders",
+        "files":  1,
+        "bytes":  1127424
+    },
+    {
+        "group":  "sa_sprites",
+        "files":  1,
+        "bytes":  8094720
+    },
+    {
+        "group":  "sa_tex2013",
+        "files":  2,
+        "bytes":  136117248
+    },
+    {
+        "group":  "sa_tex2014",
+        "files":  1,
+        "bytes":  98676736
+    },
+    {
+        "group":  "sa_tex2015",
+        "files":  2,
+        "bytes":  209329152
+    },
+    {
+        "group":  "sa_tex2016",
+        "files":  2,
+        "bytes":  155243520
+    },
+    {
+        "group":  "sa_tex2017",
+        "files":  3,
+        "bytes":  309957632
+    },
+    {
+        "group":  "sa_tex2018",
+        "files":  2,
+        "bytes":  187748352
+    },
+    {
+        "group":  "sa_tex2019",
+        "files":  1,
+        "bytes":  72881152
+    },
+    {
+        "group":  "sa_tex2020",
+        "files":  2,
+        "bytes":  155627520
+    },
+    {
+        "group":  "sa_tex2021",
+        "files":  2,
+        "bytes":  157673472
+    },
+    {
+        "group":  "sa_tex2022",
+        "files":  2,
+        "bytes":  152459264
+    },
+    {
+        "group":  "sa_tex2023",
+        "files":  2,
+        "bytes":  111269888
+    },
+    {
+        "group":  "sa_tex2024",
+        "files":  2,
+        "bytes":  162092032
+    },
+    {
+        "group":  "sa_tex2025",
+        "files":  3,
+        "bytes":  205075456
+    },
+    {
+        "group":  "sa_tex2026",
+        "files":  2,
+        "bytes":  174905344
+    },
+    {
+        "group":  "sa_tex2",
+        "files":  2,
+        "bytes":  200041472
+    },
+    {
+        "group":  "sa_tex3",
+        "files":  2,
+        "bytes":  127684608
+    },
+    {
+        "group":  "sa_texfx",
+        "files":  1,
+        "bytes":  15626240
+    },
+    {
+        "group":  "sa_text",
+        "files":  1,
+        "bytes":  1507328
+    },
+    {
+        "group":  "sa_tex",
+        "files":  2,
+        "bytes":  165357568
+    },
+    {
+        "group":  "sa_weaponsi",
+        "files":  1,
+        "bytes":  1629184
+    },
+    {
+        "group":  "sa_weaponsm",
+        "files":  8,
+        "bytes":  820434944
+    },
+    {
+        "group":  "sa_weaponssd",
+        "files":  5,
+        "bytes":  464425984
+    },
+    {
+        "group":  "sa_weaponss",
+        "files":  19,
+        "bytes":  1888066560
+    },
+    {
+        "group":  "sa_weaponus",
+        "files":  4,
+        "bytes":  348402688
+    },
+    {
+        "group":  "sa_weaponv",
+        "files":  1,
+        "bytes":  76800
+    },
+    {
+        "group":  "sa_worlds",
+        "files":  18,
+        "bytes":  1750150144
+    },
+    {
+        "group":  "textureeffectgroups",
+        "files":  1,
+        "bytes":  138240
+    },
+    {
+        "group":  "textureeffectsgroups",
+        "files":  1,
+        "bytes":  2048
+    },
+    {
+        "group":  "texturescripts",
+        "files":  1,
+        "bytes":  18432
+    }
+]

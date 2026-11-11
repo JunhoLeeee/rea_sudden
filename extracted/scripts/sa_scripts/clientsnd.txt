@@ -1,0 +1,96 @@
+/************************************************************************
+**
+**		No One Lives Forever Client Sound Attributes file
+**
+** This file contains attributes for the following:
+**
+**  Sound paths
+**
+**
+*/
+
+/************************************************************************
+**
+** Path Sound Attributes
+**
+**  The following specifies paths to id based sounds
+**  
+*/
+
+[Paths]
+
+Dialogue = "Voice\"
+
+//[MURSUM] 라디오 사운드
+Radio_0			= "SA_INTERFACE\SND\Radio\GoGo.wav"
+Radio_1			= "SA_INTERFACE\SND\Radio\covering_fire.wav"
+Radio_2			= "SA_INTERFACE\SND\Radio\fallback.wav"
+Radio_3			= "SA_INTERFACE\SND\Radio\I_need_backup.wav"
+Radio_4			= "SA_INTERFACE\SND\Radio\hold_position.wav"
+Radio_5			= "SA_INTERFACE\SND\Radio\follow_me.wav"
+
+Radio_6			= "SA_INTERFACE\SND\Radio\a_site.wav"
+Radio_7			= "SA_INTERFACE\SND\Radio\b_site.wav"
+Radio_8			= "SA_INTERFACE\SND\Radio\Enemy_spotted.wav"
+Radio_9			= "SA_INTERFACE\SND\Radio\Taking_fire_Help.wav"
+Radio_10		= "SA_INTERFACE\SND\Radio\Enemy_down.wav"
+Radio_11		= "SA_INTERFACE\SND\Radio\area_clear.wav"
+
+Radio_12		= "SA_INTERFACE\SND\Radio\roger.wav"
+Radio_13		= "SA_INTERFACE\SND\Radio\ok_lets_move_out.wav"
+Radio_14		= "SA_INTERFACE\SND\Radio\negative.wav"
+Radio_15		= "SA_INTERFACE\SND\Radio\Nice_Shot.wav"
+Radio_16		= "SA_INTERFACE\SND\Radio\bomb_site_entry.wav"
+Radio_17		= "SA_INTERFACE\SND\Radio\guard_bomb_site.wav"
+
+Radio_18		= "SA_INTERFACE\SND\Radio\V_go_away.wav"
+Radio_19		= "SA_INTERFACE\SND\Radio\V_sorry.wav"
+Radio_20		= "SA_INTERFACE\SND\Radio\V_shut_up.wav"
+Radio_21		= "SA_INTERFACE\SND\Radio\V_thanks.wav"
+Radio_22		= "SA_INTERFACE\SND\Radio\V_hate.wav"
+Radio_23		= "SA_INTERFACE\SND\Radio\V_laugh.wav"
+
+Radio_24		= "SA_INTERFACE\SND\Radio\FireInHole.wav"
+Radio_25		= "SA_INTERFACE\SND\Radio\flash.wav"
+Radio_26		= "SA_INTERFACE\SND\Radio\smoke.wav"
+Radio_27		= "SA_INTERFACE\SND\Radio\FireInHole.wav"
+
+// Woman_Radio
+Woman_Radio_0		= "SA_INTERFACE\SND\WRadio\GoGo.wav"
+Woman_Radio_1		= "SA_INTERFACE\SND\WRadio\covering_fire.wav"
+Woman_Radio_2		= "SA_INTERFACE\SND\WRadio\fallback.wav"
+Woman_Radio_3		= "SA_INTERFACE\SND\WRadio\I_need_backup.wav"
+Woman_Radio_4		= "SA_INTERFACE\SND\WRadio\hold_position.wav"
+Woman_Radio_5		= "SA_INTERFACE\SND\WRadio\follow_me.wav"
+
+Woman_Radio_6		= "SA_INTERFACE\SND\WRadio\a_site.wav"
+Woman_Radio_7		= "SA_INTERFACE\SND\WRadio\b_site.wav"
+Woman_Radio_8		= "SA_INTERFACE\SND\WRadio\Enemy_spotted.wav"
+Woman_Radio_9		= "SA_INTERFACE\SND\WRadio\Taking_fire_Help.wav"
+Woman_Radio_10		= "SA_INTERFACE\SND\WRadio\Enemy_down.wav"
+Woman_Radio_11		= "SA_INTERFACE\SND\WRadio\area_clear.wav"
+
+Woman_Radio_12		= "SA_INTERFACE\SND\WRadio\roger.wav"
+Woman_Radio_13		= "SA_INTERFACE\SND\WRadio\ok_lets_move_out.wav"
+Woman_Radio_14		= "SA_INTERFACE\SND\WRadio\negative.wav"
+Woman_Radio_15		= "SA_INTERFACE\SND\WRadio\Nice_Shot.wav"
+Woman_Radio_16		= "SA_INTERFACE\SND\WRadio\bomb_site_entry.wav"
+Woman_Radio_17		= "SA_INTERFACE\SND\WRadio\guard_bomb_site.wav"
+
+Woman_Radio_18		= "SA_INTERFACE\SND\WRadio\V_go_away.wav"
+Woman_Radio_19		= "SA_INTERFACE\SND\WRadio\V_sorry.wav"
+Woman_Radio_20		= "SA_INTERFACE\SND\WRadio\V_shut_up.wav"
+Woman_Radio_21		= "SA_INTERFACE\SND\WRadio\V_thanks.wav"
+Woman_Radio_22		= "SA_INTERFACE\SND\WRadio\V_hate.wav"
+Woman_Radio_23		= "SA_INTERFACE\SND\WRadio\V_laugh.wav"
+
+Woman_Radio_24		= "SA_INTERFACE\SND\WRadio\FireInHole.wav"
+Woman_Radio_25		= "SA_INTERFACE\SND\WRadio\flash.wav"
+Woman_Radio_26		= "SA_INTERFACE\SND\WRadio\smoke.wav"
+Woman_Radio_27		= "SA_INTERFACE\SND\WRadio\FireInHole.wav"
+
+
+StartGame_Letsgo	= "SA_INTERFACE\SND\Radio\OkLetsGo.wav"
+
+//[MURSUM] 플래쉬뱅 맞았을 때 소리 ( 삐~~~ )
+Stun_Loop		= "SA_INTERFACE\SND\StunLoop.wav"

@@ -1,0 +1,164 @@
+{
+  "profile": "observed-engine-rez-v1",
+  "source_bytes": 102191,
+  "source_sha256": "fab90f88995ab3f599fcfa21a5da9555ca85bc53d9ff5f6e601cafe32dfc486e",
+  "root_table_offset": 102138,
+  "root_table_bytes": 53,
+  "directories": [
+    {
+      "path": "",
+      "table_offset": 102138,
+      "table_bytes": 53
+    },
+    {
+      "path": "RENDERSTYLES",
+      "table_offset": 101090,
+      "table_bytes": 482
+    },
+    {
+      "path": "CONSOLE",
+      "table_offset": 102054,
+      "table_bytes": 42
+    }
+  ],
+  "members": [
+    {
+      "path": "RENDERSTYLES/RS_SPHEREENVMAP_ADD.LTB",
+      "offset": 88632,
+      "bytes": 1727,
+      "sha256": "e871de74620f17672c926bdc1ce02483f1d0174c1fe30308082dbb9db32ae5c6",
+      "entry_offset": 101090,
+      "entry_bytes": 49,
+      "timestamp_raw": 1156932810,
+      "identifier": 0,
+      "extension_raw": 5002306,
+      "comment": ""
+    },
+    {
+      "path": "RENDERSTYLES/RS_ALPHATEST_GREATER.LTB",
+      "offset": 67139,
+      "bytes": 621,
+      "sha256": "4c20f8e18750b0e1ce6d9b5b9c8afc4686a877c7b9e3b3e98081a77b24cb762c",
+      "entry_offset": 101139,
+      "entry_bytes": 50,
+      "timestamp_raw": 1156932810,
+      "identifier": 0,
+      "extension_raw": 5002306,
+      "comment": ""
+    },
+    {
+      "path": "RENDERSTYLES/RS_ALPHABLEND_TEXALPHA.LTB",
+      "offset": 65897,
+      "bytes": 621,
+      "sha256": "d2461ff55a920d80c0a6b336f2ec803e7ea868fa9f20c1d015bccb0324902f92",
+      "entry_offset": 101189,
+      "entry_bytes": 52,
+      "timestamp_raw": 1156932810,
+      "identifier": 0,
+      "extension_raw": 5002306,
+      "comment": ""
+    },
+    {
+      "path": "RENDERSTYLES/RS_ALPHABLEND_TFACTORALPHA.LTB",
+      "offset": 66518,
+      "bytes": 621,
+      "sha256": "16fa68fa0f769da297f846cbe21200d6a69418a0a1ecc81c531b00ce8b842853",
+      "entry_offset": 101241,
+      "entry_bytes": 56,
+      "timestamp_raw": 1156932810,
+      "identifier": 0,
+      "extension_raw": 5002306,
+      "comment": ""
+    },
+    {
+      "path": "RENDERSTYLES/RS_SPHEREENVMAP_MODTEXALPHA.LTB",
+      "offset": 90359,
+      "bytes": 621,
+      "sha256": "3e3a79e4ca211077277e8461ecf7b362bf18e7388387ce1d006e76dd8faf7b3f",
+      "entry_offset": 101297,
+      "entry_bytes": 57,
+      "timestamp_raw": 1156932810,
+      "identifier": 0,
+      "extension_raw": 5002306,
+      "comment": ""
+    },
+    {
+      "path": "RENDERSTYLES/RS_TOON_VS.LTB",
+      "offset": 90980,
+      "bytes": 7762,
+      "sha256": "c61540a717fe1f5118b1f647d120ddad16c1ac22a7f0174ebd3531906acd957b",
+      "entry_offset": 101354,
+      "entry_bytes": 40,
+      "timestamp_raw": 1156932810,
+      "identifier": 0,
+      "extension_raw": 5002306,
+      "comment": ""
+    },
+    {
+      "path": "RENDERSTYLES/RS_HALO_VS.LTB",
+      "offset": 79958,
+      "bytes": 8674,
+      "sha256": "20a7713e2b33b43dc476163a5058c627d5f94ba78469752e1a3281b8bd98a32c",
+      "entry_offset": 101394,
+      "entry_bytes": 40,
+      "timestamp_raw": 1156932810,
+      "identifier": 0,
+      "extension_raw": 5002306,
+      "comment": ""
+    },
+    {
+      "path": "RENDERSTYLES/RS_TWOTEXTURE.LTB",
+      "offset": 98742,
+      "bytes": 1727,
+      "sha256": "50d2646b551b4458a421e042237a4751426b25389d6e61ff7862113fe10ca451",
+      "entry_offset": 101434,
+      "entry_bytes": 43,
+      "timestamp_raw": 1156932810,
+      "identifier": 0,
+      "extension_raw": 5002306,
+      "comment": ""
+    },
+    {
+      "path": "RENDERSTYLES/RS_VERTEXSPECULAR.LTB",
+      "offset": 100469,
+      "bytes": 621,
+      "sha256": "c306108ee4815df57c51e924b4997acc06bd945197abd82cd36febe487284589",
+      "entry_offset": 101477,
+      "entry_bytes": 47,
+      "timestamp_raw": 1156932810,
+      "identifier": 0,
+      "extension_raw": 5002306,
+      "comment": ""
+    },
+    {
+      "path": "RENDERSTYLES/RS_DOT3BUMP_DIR_VS.LTB",
+      "offset": 67760,
+      "bytes": 12198,
+      "sha256": "4b993184e2f31a46997de2e2529a4fb014c613278eaa77c41ada111709cd00c0",
+      "entry_offset": 101524,
+      "entry_bytes": 48,
+      "timestamp_raw": 1156932810,
+      "identifier": 0,
+      "extension_raw": 5002306,
+      "comment": ""
+    },
+    {
+      "path": "CONSOLE/CONSOLE_FONT.DTX",
+      "offset": 197,
+      "bytes": 65700,
+      "sha256": "2cb6d35d59b3982334edfa6d1e3ecd4985cddb82361949872edf7979ddb10753",
+      "entry_offset": 102054,
+      "entry_bytes": 42,
+      "timestamp_raw": 1156932810,
+      "identifier": 0,
+      "extension_raw": 4478040,
+      "comment": ""
+    }
+  ],
+  "limitations": [
+    "Ordinary Python observations, not REA Evidence.",
+    "26-byte prefix and trailing header fields remain uninterpreted.",
+    "Type, extension and key-count semantics are inferred from this file.",
+    "Payload bytes are copied unchanged; payload formats are not decoded."
+  ]
+}

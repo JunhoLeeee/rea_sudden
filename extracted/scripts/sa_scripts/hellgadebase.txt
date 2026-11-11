@@ -1,0 +1,407 @@
+[Base]
+Respawn_gold = 25
+
+RemoteBomb_Player_Install_Count = 2 //원격 폭탄 3개째 설치 시 처음 설치한 원격폭탄 삭제
+RemoteBomb_Team_Install_Count = 30
+
+Landmine_Player_Install_Count = 5 //지뢰 6개째 설치 시 처음 설치한 지뢰 삭제 
+Landmine_Team_Install_Count = 30
+
+Building_Auto_Repair_Ready_Time = 10 //5 // 8 //건물이 피해를 입고 자동으로 수리가 되기 까지의 시간. 정수.
+Building_Auto_Repair_Interval_Time = 2 // 건물의 HP가 오르는 간격. 초단위. 정수.
+Building_Auto_Repair_Rate = 0.0008 // 0.1 // HP가 오르는 비율. 실수. 현재 HP에 근거.
+
+Start_Camera_Pos = <-2567.900000, -2396.500000, -1087.900000>
+Start_Camera_Forward = <0.800000, 0.000000, -0.600000>
+
+End_Camera_Pos_Red = <2815.100000, -1546.000000, 3627.900000>
+End_Camera_Forward_Red = <0.300000, -0.400000, -0.900000>
+
+End_Camera_Pos_Blue = <-2102.000000, -1820.9, 3396.300000>
+End_Camera_Forward_Blue = <-0.500000, -0.300000, -0.800000>
+
+///////////좌우 문 열리고 닫는 사운드 
+TriggerInSoundPath0 = "sa_props\snd\Hellgade\alarm1.wav"          //0번에 등록된 트리거 인 사운드의 경로
+TriggerOutSoundPath0 = "sa_props\snd\Hellgade\alarm1.wav"        //0번에 등록된 트리거 아웃 사운드의 경로
+TriggerNameWithSound0 = "HellgadeClientTrigger12 | HellgadeClientTrigger13 | HellgadeClientTrigger15 | HellgadeClientTrigger16 | HellgadeClientTrigger20 | HellgadeClientTrigger21 | HellgadeClientTrigger23 | HellgadeClientTrigger24"    //0번에 등록된 트리거들
+
+///////////세로로 열리고 닫는 사운드 
+TriggerInSoundPath1 = "sa_props\snd\Hellgade\alarm2.wav"
+TriggerOutSoundPath1 = "sa_props\snd\Hellgade\alarm2.wav"
+TriggerNameWithSound1 = "HellgadeClientTrigger04 | HellgadeClientTrigger05 | HellgadeClientTrigger06 | HellgadeClientTrigger07 | HellgadeClientTrigger10 | HellgadeClientTrigger11"
+
+TriggerSoundInnerRadius= 200.0   // 트리거사운드이너거리
+TriggerSoundOuterRadius= 2000.0   // 트리거사운드아우터거리
+////////////
+
+//미니맵 건물 hp 게이지 위치 설정.
+Blue_GuardTower_HP_Offset = <-15.00000, -8.00000, 0.0>
+Blue_UraniumStore_HP_Offset = <22.00000, -38.00000, 0.0>
+Blue_Factory_HP_Offset = <-26.00000, -15.00000, 0.0>
+
+Red_GuardTower_HP_Offset = <7.00000, -8.00000, 0.0>
+Red_UraniumStore_HP_Offset = <-22.00000, -38.00000, 0.0>
+Red_Factory_HP_Offset = <20.00000, -15.00000, 0.0>
+
+//미니맵 건물 피격 이미지 위치 설정.
+Blue_GuardTower_Hit_Offset = <-7.00000, -7.00000, 0.0>
+Blue_UraniumStore_Hit_Offset = <-38.00000, -39.00000, 0.0>
+Blue_Factory_Hit_Offset = <-19.00000, -13.00000, 0.0>
+
+Red_GuardTower_Hit_Offset = <-11.00000, -8.00000, 0.0> 
+Red_UraniumStore_Hit_Offset = <-21.00000, -38.00000, 0.0> 
+Red_Factory_Hit_Offset = <-13.00000, -15.00000, 0.0> 
+
+//유도탄 관련 스크립트
+LockOn_Distance	=	100.0 // 화면 중심에서 락온되는 범위. 실수이며 기본값은 100.0으로 설정되어 있습니다.
+LockOn_Texture_Animation_Rate =	100.0	// 락온 에니메이션이될 때 시간당 줄어드는 비율. 실수이며 기본값은 100.0으로 설정되어 있습니다.
+LockOn_Start_Size = 100.0 // 락온 에니메이션이 시작될 때 크기. 실수이며 기본값은 100.0으로 설정되어 있습니다.
+LockOn_End_Size = 20.0 // 락온 에니메이션이 끝났을 때 크기. 실수이며 기본값은 20.0으로 설정되어 있습니다.
+LockOn_Over_Size = 10.0 // 락온이 중첩될 때 커지는 크기. 실수이며 기본값은 10.0으로 설정되어 있습니다.
+LockOn_OnOff_Time = 0.2 // 락온 범위를 벗어났을 때 락온 UI가 깜박거리는 시간. 실수이며 기본값은 0.2으로 설정되어 있습니다.
+LockOn_Disband_Time = 1.2 // 락온이 풀리는 시간. 실수이며 기본값은 1.2으로 설정되어 있습니다.
+LockOn_Fire_Time = 0.15 // 연발로 나갈 경우 발사되는 시간. 실수이며 기본값은 0.15으로 설정되어 있습니다.
+LockOn_Max_Count = 3 // 한 오브젝트에 락온 될수있는 최대 수. 정수이며 기본값은 3으로 설정되어 있습니다.
+
+[DamageFactorType]
+Base = 0
+List1 = "bulletBasic | bulletAntiPersonnel | bulletAntiLightArmor | instDmgVehicleMG | allRoundType | repair | ParticleCannonType"
+List2 = "notModify | notModifyButZeroForBuilding | AllZero | handGrenade | knife | instDmgByGeneralProjectile | instDmgByAdvGLauncher | instDmgByArtillery | instDmgByArtillerySpecial | instDmgByTank | instDmgByHeavyTankSpecial | instDmgByStealthTankSpecial"
+List3 = "areaDmgByGeneralProjectile | areaDmgByStrategicWeapon | areaDmgByBomb | areaDmgByRemoteBomb | areaDmgByTank | areaDmgByArtillery | areaDmgBySmallTankSpecial | areaDmgByAdvGLauncher"
+List4 = "areaDmgByTower | areaDmgByTowerTemp"
+List5 = "instDmgByM202x6 | areaDmgByM202x6 | InstSMAW | areaSMAW"
+List6 = "Default_01_Machinegun_Inst | Default_02_AssaultRifle_Inst | Default_03_SMG_Inst | Default_04_RepairGun_Inst | Default_05_HandGun_Inst | Default_06_Melee_Inst | Default_07_Throwing_Inst | Default_08_Sniper_Inst | Default_09_ShotGun_Inst | Default_10_Bomb_Inst | Default_11_Explosive_Inst"
+List7 = "Default_01_Machinegun_Area | Default_02_AssaultRifle_Area | Default_03_SMG_Area | Default_04_RepairGun_Area | Default_05_HandGun_Area | Default_06_Melee_Area | Default_07_Throwing_Area | Default_08_Sniper_Area | Default_09_ShotGun_Area | Default_10_Bomb_Area | Default_11_Explosive_Area"
+
+[NameToClass]
+Set0 = "Team = 0 | Class = 300 | Name = HellgadeSlidingDoor23,HellgadeSlidingDoor24"
+Set1 = "Team = 1 | Class = 300 | Name = HellgadeSlidingDoor41,HellgadeSlidingDoor43"
+Set2 = "Team = 0 | Class = 301 | Name = HellgadeSlidingDoor27,HellgadeSlidingDoor28,HellgadeSlidingDoor29,HellgadeSlidingDoor42"
+Set3 = "Team = 1 | Class = 301 | Name = HellgadeSlidingDoor36,HellgadeSlidingDoor37,HellgadeSlidingDoor38,HellgadeSlidingDoor39"
+
+
+
+[AreaDefault]
+Name = "전투지역"
+//CheckTime = -1
+//Damage = 0
+
+[Area0]
+Name = "[레드] 북부 리스폰 지역"
+CheckTime = 1
+Damage = 100000
+PlayerDeathZone = false
+VehicleDeathZone = true
+
+[Area1]
+Name = "[레드] 북부 리스폰 앞마당"
+CheckTime = 1
+Damage = 100000
+PlayerDeathZone = false
+VehicleDeathZone = true
+
+[Area2]
+Name = "[레드] 감시전망대"
+
+[Area3]
+Name = "[레드] 침투로(갈림길)" //[블루] 사령실에서 변경
+
+[Area4]
+Name = "[레드] 군수공장(지상)"
+
+[Area5]
+Name = "[레드] 군수공장 내부"
+
+[Area6]
+Name = "[레드] 가드타워"
+
+[Area7]
+Name = "[레드] 개구멍"
+
+[Area8]
+Name = "[레드] 남부 리스폰 지역" //[레드] 레이더에서 변경
+CheckTime = 1
+Damage = 100000
+PlayerDeathZone = false
+VehicleDeathZone = true
+
+[Area9]
+Name = "[레드] 우라늄창고 내부" //[블루] 레이더에서 변경
+CheckTime = 1
+Damage = 100000
+PlayerDeathZone = false
+VehicleDeathZone = true
+
+[Area10]
+Name = "[레드] 핵폭탄 위험지역"
+
+[Area11]
+Name = "[레드] 베이스"
+
+[Area12]
+Name = "[레드] 차량 진입로"
+
+[Area13]
+Name = "[레드] 베이스 앞마당"
+
+[Area14]
+Name = "중앙 보급소 앞마당"
+
+[Area15]
+Name = "중앙 보급소"
+
+[Area16]
+Name = "중앙 보병터널 교차로" //[레드] 병영 골목
+
+[Area17]
+Name = "헬기 착륙장" //[블루] 병영 골목
+
+[Area18]
+Name = "[레드] 폐창고"
+
+[Area19]
+Name = "[레드] 폐창고 뒷편"
+
+[Area20]
+Name = "[레드] 대전차 교전지역"
+
+[Area21]
+Name = "[블루] 폐창고"
+
+[Area22]
+Name = "[블루] 폐창고 뒷편" //[레드] 우라늄 지역에서 수정 
+//CheckTime = 1
+// Damage = 10
+
+[Area23]
+Name = "[블루] 대전차 교전지역" //[블루] 우라늄 지역에서 수정 
+//CheckTime = 1
+// Damage = 10
+
+[Area24]
+Name = "대전차 격전지" //[레드] 운석 우회로에서 수정 
+
+[Area25]
+Name = "[블루] 베이스 앞마당" //[블루] 운석 우회로에서 수정 
+
+[Area26]
+Name = "[블루] 차량 진입로"
+
+[Area27]
+Name = "[레드] 가드타워 내부"
+
+[Area28]
+Name = "[블루] 개구멍"
+
+[Area29]
+Name = "Death Zone"
+CheckTime = 1
+Damage = 100000
+PlayerDeathZone = true
+VehicleDeathZone = true
+
+[Area30]
+Name = "[블루] 남부 리스폰 지역" 
+CheckTime = 1
+Damage = 100000
+PlayerDeathZone = false
+VehicleDeathZone = true
+
+[Area31]
+Name = "[블루] 가드타워" 
+
+[Area32]
+Name = "[블루] 가드타워 내부" 
+
+[Area33]
+Name = "[블루] 침투로(갈림길)" 
+
+[Area34]
+Name = "[블루] 감시전망대" 
+
+[Area35]
+Name = "[블루] 군수공장(지상)" 
+
+[Area36]
+Name = "[블루] 군수공장 내부" 
+
+[Area37]
+Name = "[블루] 북부 리스폰 앞마당"
+CheckTime = 1
+Damage = 100000
+PlayerDeathZone = false
+VehicleDeathZone = true
+
+[Area38]
+Name = "[블루] 북부 리스폰 지역"
+CheckTime = 1
+Damage = 100000
+PlayerDeathZone = false
+VehicleDeathZone = true
+
+[Area39]
+Name = "[블루] 베이스"
+
+[Area40]
+Name = "[블루] 군수공장 침투로"
+
+[Area41]
+Name = "[블루] 지하로"
+
+[Area42]
+Name = "[블루] 가드타워 침투로"
+
+[Area43]
+Name = "지하로"
+
+[Area44]
+Name = "[레드] 지하로"
+
+[Area45]
+Name = "[레드] 군수공장 침투로"
+
+[Area46]
+Name = "[블루] 우라늄창고 내부"
+CheckTime = 1
+Damage = 100000
+PlayerDeathZone = false
+VehicleDeathZone = true
+
+[Area47]
+Name = "[블루] 핵폭탄 위험지역"
+
+[VehicleArea]
+Tag0 = 4
+Tag1 = 35
+CheckTime = 1
+Count = 10
+Damage = 100000
+
+[WorldFX]
+///////레드팀///////
+//가드타워
+Trigger1 = "FX = 0Tower2to89 | Team = 0 | Building = 300 | HPMin = 2 | HPMax = 7500"
+Trigger2 = "FX = 0Tower2to59 | Team = 0 | Building = 300 | HPMin = 2 | HPMax = 5000"
+Trigger3 = "FX = 0Tower2to19 | Team = 0 | Building = 300 | HPMin = 2 | HPMax = 2500"
+Trigger16 = "FX = 0Tower0to1 | Team = 0 | Building = 300 | HPMin = 0 | HPMax = 1"
+
+//우라늄창고
+Trigger4 = "FX = 0Ware2to89 | Team = 0 | Building = 301 | HPMin = 2 | HPMax = 7500"
+Trigger5 = "FX = 0Ware2to59 | Team = 0 | Building = 301 | HPMin = 2 | HPMax = 5000"
+Trigger6 = "FX = 0Ware2to19 | Team = 0 | Building = 301 | HPMin = 2 | HPMax = 2500"
+Trigger17 = "FX = 0Ware0to1 | Team = 0 | Building = 301 | HPMin = 0 | HPMax = 1"
+
+//레이더기지
+Trigger7 = "FX = 0Radar2to89 | Team = 0 | Building = 302 | HPMin = 2 | HPMax = 7500"
+Trigger8 = "FX = 0Radar2to59 | Team = 0 | Building = 302 | HPMin = 2 | HPMax = 5000"
+Trigger9 = "FX = 0Radar2to19 | Team = 0 | Building = 302 | HPMin = 2 | HPMax = 2500"
+Trigger18 = "FX = 0Radar0to1 | Team = 0 | Building = 302 | HPMin = 0 | HPMax = 1"
+
+//병영
+Trigger10 = "FX = 0Barrack2to89 | Team = 0 | Building = 303 | HPMin = 2 | HPMax = 7500"
+Trigger11 = "FX = 0Barrack2to59 | Team = 0 | Building = 303 | HPMin = 2 | HPMax = 5000"
+Trigger12 = "FX = 0Barrack2to19 | Team = 0 | Building = 303 | HPMin = 2 | HPMax = 2500"
+Trigger19 = "FX = 0Barrack0to1 | Team = 0 | Building = 303 | HPMin = 0 | HPMax = 1"
+
+//공장
+Trigger13 = "FX = 0Factory2to89 | Team = 0 | Building = 304 | HPMin = 2 | HPMax = 7500"
+Trigger14 = "FX = 0Factory2to59 | Team = 0 | Building = 304 | HPMin = 2 | HPMax = 5000"
+Trigger15 = "FX = 0Factory2to19 | Team = 0 | Building = 304 | HPMin = 2 | HPMax = 2500"
+Trigger20 = "FX = 0Factory0to1 | Team = 0 | Building = 304 | HPMin = 0 | HPMax = 1"
+
+
+///////블루팀///////
+//가드타워
+Trigger51 = "FX = 1Tower2to89 | Team = 1 | Building = 300 | HPMin = 2 | HPMax = 7500"
+Trigger52 = "FX = 1Tower2to59 | Team = 1 | Building = 300 | HPMin = 2 | HPMax = 5000"
+Trigger53 = "FX = 1Tower2to19 | Team = 1 | Building = 300 | HPMin = 2 | HPMax = 2500"
+Trigger66 = "FX = 1Tower0to1 | Team = 1 | Building = 300 | HPMin = 0 | HPMax = 1"
+
+//우라늄창고
+Trigger54 = "FX = 1Ware2to89 | Team = 1 | Building = 301 | HPMin = 2 | HPMax = 7500"
+Trigger55 = "FX = 1Ware2to59 | Team = 1 | Building = 301 | HPMin = 2 | HPMax = 5000"
+Trigger56 = "FX = 1Ware2to19 | Team = 1 | Building = 301 | HPMin = 2 | HPMax = 2500"
+Trigger67 = "FX = 1Ware0to1 | Team = 1 | Building = 301 | HPMin = 0 | HPMax = 1"
+
+//레이더기지
+Trigger57 = "FX = 1Radar2to89 | Team = 1 | Building = 302 | HPMin = 2 | HPMax = 7500"
+Trigger58 = "FX = 1Radar2to59 | Team = 1 | Building = 302 | HPMin = 2 | HPMax = 5000"
+Trigger59 = "FX = 1Radar2to19 | Team = 1 | Building = 302 | HPMin = 2 | HPMax = 2500"
+Trigger68 = "FX = 1Radar0to1 | Team = 1 | Building = 302 | HPMin = 0 | HPMax = 1"
+
+//병영
+Trigger60 = "FX = 1Barrack2to89 | Team = 1 | Building = 303 | HPMin = 2 | HPMax = 7500"
+Trigger61 = "FX = 1Barrack2to59 | Team = 1 | Building = 303 | HPMin = 2 | HPMax = 5000"
+Trigger62 = "FX = 1Barrack2to19 | Team = 1 | Building = 303 | HPMin = 2 | HPMax = 2500"
+Trigger69 = "FX = 1Barrack0to1 | Team = 1 | Building = 303 | HPMin = 0 | HPMax = 1"
+
+//공장
+Trigger63 = "FX = 1Factory2to89 | Team = 1 | Building = 304 | HPMin = 2 | HPMax = 7500"
+Trigger64 = "FX = 1Factory2to59 | Team = 1 | Building = 304 | HPMin = 2 | HPMax = 5000"
+Trigger65 = "FX = 1Factory2to19 | Team = 1 | Building = 304 | HPMin = 2 | HPMax = 2500"
+Trigger70 = "FX = 1Factory0to1 | Team = 1 | Building = 304 | HPMin = 0 | HPMax = 1"
+
+// Hit
+[MsgAniTable0]
+Life = 0.85
+Texture = "sa_interface2\hud\hellgade\Vehicle\Hit.dtx"
+TexWidth = 56
+TexHeight = 27
+WidthScale = "1.0 | 3.8 | 1.5 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0"
+HeightScale = "0.0 | 0.1 | 0.1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0"
+Alpha = "1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 0.75 | 0.5 | 0.25 | 0.0 | 0.0"
+X = "0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0"
+Y = "-50 | -50 | -50 | -50 | -55 | -60 | -65 | -68 | -69 | -70"
+
+// Critical
+[MsgAniTable1]
+Life = 1.0
+Texture = "sa_interface2\hud\hellgade\Vehicle\Critical.dtx"
+TexWidth = 126
+TexHeight = 25
+WidthScale = "1.5 | 5.7 | 2.25 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5"
+HeightScale = "0.0 | 0.15 | 0.15 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5"
+Alpha = "1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 0.75 | 0.5 | 0.25 | 0.0 | 0.0"
+X = "0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0"
+Y = "-50 | -50 | -50 | -50 | -55 | -60 | -65 | -68 | -69 | -70"
+
+// Heal
+[MsgAniTable2]
+Life = 0.85
+Texture = "sa_interface2\hud\hellgade\Vehicle\Heal.dtx"
+TexWidth = 68
+TexHeight = 27
+WidthScale = "1.0 | 3.8 | 1.5 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0"
+HeightScale = "0.0 | 0.1 | 0.1 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0"
+Alpha = "1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 0.75 | 0.5 | 0.25 | 0.0 | 0.0"
+X = "0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0"
+Y = "-50 | -50 | -50 | -50 | -55 | -60 | -65 | -68 | -69 | -70"
+
+
+
+
+[RandomObject]
+Set1 = "WayPoint = 1100 | TimeMin = 34 | TimeMax = 56 | ObjectID = 21041"
+Set2 = "WayPoint = 1101 | TimeMin = 30 | TimeMax = 60 | ObjectID = 21042"
+Set3 = "WayPoint = 1102 | TimeMin = 28 | TimeMax = 48 | ObjectID = 21043"
+Set4 = "WayPoint = 1103 | TimeMin = 32 | TimeMax = 57 | ObjectID = 21044"
+Set20 = "WayPoint = 1000 | TimeMin = 5 | TimeMax = 20 | FX = HGADE_Explosion_H"
+Set21 = "WayPoint = 1001 | TimeMin = 6 | TimeMax = 20 | FX = HGADE_Explosion_M"
+Set22 = "WayPoint = 1002 | TimeMin = 5 | TimeMax = 20 | FX = HGADE_Explosion_H"
+Set23 = "WayPoint = 1003 | TimeMin = 7 | TimeMax = 20 | FX = HGADE_Explosion_M"
+Set24 = "WayPoint = 1004 | TimeMin = 6 | TimeMax = 20 | FX = HGADE_Explosion_M"
+Set25 = "WayPoint = 1005 | TimeMin = 5 | TimeMax = 20 | FX = HGADE_Explosion_S"
+Set26 = "WayPoint = 1006 | TimeMin = 6 | TimeMax = 20 | FX = HGADE_Explosion_M"
+Set27 = "WayPoint = 1007 | TimeMin = 7 | TimeMax = 20 | FX = HGADE_Explosion_S"
+Set28 = "WayPoint = 1008 | TimeMin = 6 | TimeMax = 20 | FX = HGADE_Explosion_M"
+Set29 = "WayPoint = 1009 | TimeMin = 5 | TimeMax = 20 | FX = HGADE_Explosion_M"
+Set30 = "WayPoint = 1010 | TimeMin = 6 | TimeMax = 20 | FX = HGADE_Explosion_S"
+Set31 = "WayPoint = 1011 | TimeMin = 7 | TimeMax = 20 | FX = HGADE_Explosion_M"
+Set32 = "WayPoint = 1012 | TimeMin = 6 | TimeMax = 20 | FX = HGADE_Explosion_H"
+Set33 = "WayPoint = 1013 | TimeMin = 12 | TimeMax = 30 | FX = HGADE_Explosion_M"
+Set34 = "WayPoint = 1014 | TimeMin = 11 | TimeMax = 30 | FX = HGADE_Explosion_H"
+Set35 = "WayPoint = 1015 | TimeMin = 10 | TimeMax = 30 | FX = HGADE_Explosion_M"
+Set36 = "WayPoint = 1016 | TimeMin = 12 | TimeMax = 30 | FX = HGADE_Explosion_M"
+Set37 = "WayPoint = 1017 | TimeMin = 11 | TimeMax = 30 | FX = HGADE_Explosion_H"
+Set38 = "WayPoint = 1018 | TimeMin = 10 | TimeMax = 30 | FX = HGADE_Explosion_M"
+Set39 = "WayPoint = 1019 | TimeMin = 12 | TimeMax = 30 | FX = HGADE_Explosion_H"

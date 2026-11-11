@@ -1,0 +1,497 @@
+[AIBotWeapon0]		// 기본 나이프 
+FireTime	= 0.300f	// 연사속도
+ReloadTime	= 0.0f		// 재장전시간
+SpeedWeight	= 1.08f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.7f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon1]		// 데져트이글 
+FireTime	= 0.31f		// 스킨 권총보다 느리게..스킨 데글은 0.26 , 곰돌이 데글은 0.24
+ReloadTime	= 2.05f
+SpeedWeight	= 1.05f
+MoveLRPenalty	= 0.7f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon4]		// M4A1 라이플 
+FireTime	= 0.097f
+ReloadTime	= 2.9f
+SpeedWeight	= 0.96f
+MoveLRPenalty	= 0.76f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon9]		// AK47 라이플 
+FireTime	= 0.110f
+ReloadTime	= 3.0f
+SpeedWeight	= 0.96f
+MoveLRPenalty	= 0.72f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon11]		// M16 라이플 
+FireTime	= 0.097f
+ReloadTime	= 2.98f
+SpeedWeight	= 0.96f
+MoveLRPenalty	= 0.76f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon17]		// scout SR
+FireTime	= 1.9f		// 스킨 무기 저격보다 약하게..스킨 저격은 1.6f
+ReloadTime	= 2.08f
+SpeedWeight	= 0.96f
+MoveLRPenalty	= 0.7f
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon19]		// CUSP 권총 
+FireTime	= 0.31f		// 스킨 권총보다 느리게..스킨 데글은 0.24
+ReloadTime	= 2.45f
+SpeedWeight	= 1.05f
+MoveLRPenalty	= 0.7f
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon22]		// TRG21 저격 
+FireTime	= 1.9f		// 스킨 무기 저격보다 약하게..스킨 저격은 1.6f
+ReloadTime	= 3.166f
+SpeedWeight	= 0.85f
+MoveLRPenalty	= 0.70f
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon28]		// Kukri 구르카
+FireTime	= 1.150f
+ReloadTime	= 0.0f
+SpeedWeight	= 1.08f
+MoveLRPenalty	= 0.7f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+[AIBotWeapon44]		// TRG21 저격 
+FireTime	= 1.9f		// 스킨 무기 저격보다 약하게..스킨 저격은 1.6f
+ReloadTime	= 3.166f
+SpeedWeight	= 0.85f
+MoveLRPenalty	= 0.70f
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정
+
+[AIBotWeapon48]		// axe 도끼
+FireTime	= 0.650f
+ReloadTime	= 0.0f
+SpeedWeight	= 1.08f
+MoveLRPenalty	= 0.7f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+[AIBotWeapon135]	// bh_매그넘 
+FireTime	= 0.31f		// 스킨 권총보다 느리게..스킨 데글은 0.24
+ReloadTime	= 2.05f
+SpeedWeight	= 1.05f
+MoveLRPenalty	= 0.7f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon296]	// AK47_골드타이거
+FireTime	= 0.110f
+ReloadTime	= 3.0f
+SpeedWeight	= 0.96f
+MoveLRPenalty	= 0.72f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon297]	// TRG21_골드타이거
+FireTime	= 1.6f
+ReloadTime	= 3.166f
+SpeedWeight	= 0.85f
+MoveLRPenalty	= 0.70f
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+[AIBotWeapon305]	// M4A1_골드타이거
+FireTime	= 0.097f
+ReloadTime	= 2.9f
+SpeedWeight	= 0.96f
+MoveLRPenalty	= 0.76f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon321]	// 데져트이글_골드타이거
+FireTime	= 0.29f
+ReloadTime	= 2.05f
+SpeedWeight	= 1.05f
+MoveLRPenalty	= 0.7f
+Acceleration	= 8.0f
+
+[AIBotWeapon328]		// 닭다리. 넥슨을털어라에서 사용합니다.
+FireTime	= 0.650f
+SpecialFireTime = 1.95f
+ReloadTime	= 0.0f
+SpeedWeight	= 1.08f
+MoveLRPenalty	= 0.7f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon346]	// AK47_큐트
+FireTime	= 0.110f
+ReloadTime	= 3.0f
+SpeedWeight	= 0.96f
+MoveLRPenalty	= 0.72f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon347]	// TRG21_큐트
+FireTime	= 1.6f
+ReloadTime	= 3.166f
+SpeedWeight	= 0.85f
+MoveLRPenalty	= 0.70f
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon348]	// M4A1_큐트
+FireTime	= 0.097f
+ReloadTime	= 2.9f
+SpeedWeight	= 0.96f
+MoveLRPenalty	= 0.76f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon366]	// 데져트이글_큐트
+FireTime	= 0.29f
+ReloadTime	= 2.05f
+SpeedWeight	= 1.05f
+MoveLRPenalty	= 0.7f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon397]	// AK47_데빌
+FireTime	= 0.110f
+ReloadTime	= 3.0f
+SpeedWeight	= 0.96f
+MoveLRPenalty	= 0.72f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon401]	// TRG21_데빌
+FireTime	= 1.6f
+ReloadTime	= 3.166f
+SpeedWeight	= 0.85f
+MoveLRPenalty	= 0.70f
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon404]	// M4A1_데빌
+FireTime	= 0.097f
+ReloadTime	= 2.9f
+SpeedWeight	= 0.96f
+MoveLRPenalty	= 0.76f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon418]	// 데져트이글_데빌
+FireTime	= 0.29f
+ReloadTime	= 2.05f
+SpeedWeight	= 1.05f
+MoveLRPenalty	= 0.7f
+Acceleration	= 8.0f
+
+[AIBotWeapon438]	// TRG21_럭셔리
+FireTime	= 1.6f
+ReloadTime	= 3.166f
+SpeedWeight	= 0.85f
+MoveLRPenalty	= 0.70f
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon481]	// AK47_그린베어
+FireTime	= 0.110f
+ReloadTime	= 3.0f
+SpeedWeight	= 0.96f
+MoveLRPenalty	= 0.72f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon482]	// TRG21_그린베어
+FireTime	= 1.6f
+ReloadTime	= 3.166f
+SpeedWeight	= 0.85f
+MoveLRPenalty	= 0.70f
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon483]	// M4A1_그린베어
+FireTime	= 0.097f
+ReloadTime	= 2.9f
+SpeedWeight	= 0.96f
+MoveLRPenalty	= 0.76f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon503]	// AK47_블루베어
+FireTime	= 0.110f
+ReloadTime	= 3.0f
+SpeedWeight	= 0.96f
+MoveLRPenalty	= 0.72f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon504]	// TRG21_블루베어
+FireTime	= 1.6f
+ReloadTime	= 3.166f
+SpeedWeight	= 0.85f
+MoveLRPenalty	= 0.70f
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon505]	// M4A1_블루베어
+FireTime	= 0.097f
+ReloadTime	= 2.9f
+SpeedWeight	= 0.96f
+MoveLRPenalty	= 0.76f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon506]	// 데져트이글_블루베어
+FireTime	= 0.27f
+ReloadTime	= 2.05f
+SpeedWeight	= 1.05f
+MoveLRPenalty	= 0.7f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon514]	// AK47_블러드
+FireTime	= 0.110f
+ReloadTime	= 3.0f
+SpeedWeight	= 0.96f
+MoveLRPenalty	= 0.72f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon515]	// TRG21_블러드
+FireTime	= 1.6f
+ReloadTime	= 3.166f
+SpeedWeight	= 0.85f
+MoveLRPenalty	= 0.70f
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon516]	// M4A1_블러드
+FireTime	= 0.097f
+ReloadTime	= 2.9f
+SpeedWeight	= 0.96f
+MoveLRPenalty	= 0.76f
+Acceleration	= 8.0f
+
+[AIBotWeapon555]	// TRG21_엔젤
+FireTime	= 1.6f
+ReloadTime	= 3.166f
+SpeedWeight	= 0.85f
+MoveLRPenalty	= 0.70f
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+[AIBotWeapon661]	// 매그넘_그린베어
+FireTime	= 0.27f
+ReloadTime	= 2.05f
+SpeedWeight	= 1.05f
+MoveLRPenalty	= 0.7f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon664]	// 데저트이글_엔젤
+FireTime	= 0.27f
+ReloadTime	= 2.05f
+SpeedWeight	= 1.05f
+MoveLRPenalty	= 0.7f
+Acceleration	= 8.0f
+
+
+
+[AIBotWeapon783]	// TRG21_데빌
+FireTime	= 1.6f
+ReloadTime	= 3.166f
+SpeedWeight	= 0.85f
+MoveLRPenalty	= 0.70f
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+
+[AIBotWeapon819]	// TRG21_사쿠라
+FireTime	= 1.6f
+ReloadTime	= 3.166f
+SpeedWeight	= 0.85f
+MoveLRPenalty	= 0.70f
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+
+[AIBotWeapon822]	// 매그넘_사쿠라
+FireTime	= 0.27f
+ReloadTime	= 2.05f
+SpeedWeight	= 1.05f
+MoveLRPenalty	= 0.7f
+Acceleration	= 8.0f
+
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+// 넥슨을 털어라
+
+[AIBotWeapon1515]//쌍권총 캡틴킴 전용 무장
+FireTime	= 0.25f
+ReloadTime	= 2.05f
+SpeedWeight	= 0.9f
+MoveLRPenalty	= 0.6f
+Acceleration	= 8.0f
+
+[AIBotWeapon1517]		//배찌 회전베기용 구르카. 실제로는 제로거리 폭탄임
+FireTime	= 1.150f
+SpecialFireTime = 3.45f
+ReloadTime	= 0.0f
+SpeedWeight	= 1.08f
+MoveLRPenalty	= 0.7f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+[AIBotWeapon1518]		//핸드폰 민간인은 이거로 공격도 함. 데이터는 기본칼
+FireTime	= 0.300f	// 연사속도
+ReloadTime	= 0.0f		// 재장전시간
+SpeedWeight	= 0.8f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.7f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon1519]		//Mp5 해결팀 정예용
+FireTime	= 0.21f	// 연사속도
+ReloadTime	= 5.0f		// 재장전시간
+SpeedWeight	= 0.9f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.6f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon1520]		//손전등  사용하지 않음. 
+FireTime	= 0.300f	// 연사속도
+SpecialFireTime = 0.9f
+ReloadTime	= 0.0f		// 재장전시간
+SpeedWeight	= 1.08f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.7f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+[AIBotWeapon1521]	//다오폭탄
+FireTime	= 1.00f	// 연사속도
+SpecialFireTime = 0.9f
+ReloadTime	= 0.0f		// 재장전시간
+SpeedWeight	= 1.08f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.7f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+[AIBotWeapon1524]		//구르카 배찌전용 연사용
+FireTime	= 0.350f
+SpecialFireTime = 3.45f
+ReloadTime	= 0.0f
+SpeedWeight	= 1.08f
+MoveLRPenalty	= 0.7f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+[AIBotWeapon1526]		//특수 경비용 매그넘
+FireTime	= 0.62f		// 스킨 권총보다 느리게..스킨 데글은 0.26 , 곰돌이 데글은 0.24
+ReloadTime	= 2.05f
+SpeedWeight	= 0.8f
+MoveLRPenalty	= 0.7f
+Acceleration	= 8.0f
+
+
+[AIBotWeapon1529]	//다오권총 전용무기. 데이터는 데저트이글
+FireTime	= 0.600f	// 연사속도
+SpecialFireTime = 0.9f
+ReloadTime	= 0.0f		// 재장전시간
+SpeedWeight	= 1.08f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.7f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+[AIBotWeapon1532]		//넥슨의 문장 폭발. 실제로는 근거리 폭탄.
+FireTime	= 1.00f	// 연사속도
+ReloadTime	= 0.0f		// 재장전시간
+SpeedWeight	= 0.6f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.6f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+[AIBotWeapon1534]		//캡틴킴 전용 서류뭉치
+FireTime	= 0.400f	// 연사속도
+SpecialFireTime = 0.9f
+ReloadTime	= 0.0f		// 재장전시간
+SpeedWeight	= 1.1f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.7f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+[AIBotWeapon1535]		//휘슬. 경비병용
+FireTime	= 0.300f	// 연사속도
+ReloadTime	= 0.0f		// 재장전시간
+SpeedWeight	= 0.92f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.7f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon1560]		//경비병 아나콘다
+FireTime	= 0.7f	// 연사속도
+ReloadTime	= 2.45f		// 재장전시간
+SpeedWeight	= 0.7f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.7f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+[AIBotWeapon1561]		// 지원 신입용 쿠쿠리
+FireTime	= 0.300f	// 연사속도
+ReloadTime	= 0.0f		// 재장전시간
+SpeedWeight	= 1.08f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.8f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon1562]		//사장용 개틀링
+FireTime	= 0.15f	// 연사속도
+ReloadTime	= 5.0f		// 재장전시간
+SpeedWeight	= 1.08f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.6f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정
+
+[AIBotWeapon1563]		//레드 라이플 M4 지원팀 정예 사용
+FireTime	= 0.260f	// 연사속도
+ReloadTime	= 3.5f		// 재장전시간
+SpeedWeight	= 0.8f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.7f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon1564]		//블루 라이플 SIG556 해결팀 고참용
+FireTime	= 0.30f
+ReloadTime	= 4.0f
+SpeedWeight	= 0.8f
+MoveLRPenalty	= 0.7f
+Acceleration	= 8.0f
+
+[AIBotWeapon1565]		//레드 FAMAS 지원팀 고참 사용
+FireTime	= 0.24f	// 연사속도
+ReloadTime	= 5.0f		// 재장전시간
+SpeedWeight	= 0.9f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.6f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+[AIBotWeapon1566]		//블루 스나 AWP 일반 스나이퍼용
+FireTime	= 3.1f	// 연사속도
+ReloadTime	= 2.5f		// 재장전시간
+SpeedWeight	= 0.7f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.6f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+[AIBotWeapon1567]		// 아즈마개틀링
+FireTime	= 0.15f	// 연사속도
+ReloadTime	= 5.0f		// 재장전시간
+SpeedWeight	= 1.08f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.6f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 
+
+
+[AIBotWeapon1692]		// 황금활
+FireTime	= 0.15f	// 연사속도
+ReloadTime	= 5.0f		// 재장전시간
+SpeedWeight	= 1.08f		// 전진 이동속도 = 무게
+MoveLRPenalty	= 0.6f		// 좌우 이동속도 배율 (전진 속도 x 배율)
+Acceleration	= 8.0f		// 좌우 방향 변경 시 가속도 보정 

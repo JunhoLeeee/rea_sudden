@@ -1,0 +1,43 @@
+{
+  "header": {
+    "path": "C:\\Nexon\\SuddenAttack\\game\\clientfx_00000.pkg",
+    "bytes": 4729856,
+    "version": 3,
+    "mask_bytes": 34,
+    "masked_string_units": 13,
+    "encrypted_header_offset": 65,
+    "index_padding_bytes": 61,
+    "observed_header_sha256": "19003c76fef44b1f99e8125a00d08370a316e7583920d611ce45cf9f3d569bef",
+    "identity_scope": "header-ranges-only",
+    "byteorder": "little",
+    "count": 1,
+    "checksum": 393379
+  },
+  "index_offset": 134,
+  "index_plaintext_bytes": 90,
+  "index_read_bytes": 92,
+  "index_raw_sha256": "fca7e196cf3fa9b100e760f2bb16e67086ef9bae8a1293e5837c71b460b2b78c",
+  "payload_base": 1024,
+  "members": [
+    {
+      "index": 0,
+      "path": "clientfx/clientfx.fxf",
+      "flags": 7,
+      "field8": 0,
+      "field12": 169452462,
+      "field16": 4728740,
+      "field20": 0,
+      "checksum": 174183203,
+      "block_hashes": [],
+      "digest_hex": "bfc1bc303ab7235d61a50b81ee2054f9",
+      "extra_hex": ""
+    }
+  ],
+  "limitations": [
+    "Metadata checksums verified; member payloads are unverified.",
+    "Native config-dependent field20 validation is not performed.",
+    "field8/12/16/20 retain raw coordinates until their uses are traced.",
+    "Index path names do not authorize executing any archived binaries.",
+    "Full-file SHA-256 is not computed by this bounded index operation."
+  ]
+}

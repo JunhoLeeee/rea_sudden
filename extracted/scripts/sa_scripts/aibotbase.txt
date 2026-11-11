@@ -1,0 +1,8494 @@
+// AIBotBase - Num 비어도 2047까지 검색해서 사용함.
+//100~399 까지는 공룡모드 전용으로 사용.
+
+[AIBot0] 	// 베이직 레드
+Name		= "만만한 레드"
+Grade		= 4
+ModelID		= 0
+Weapon1		= 11
+Weapon2		= 19
+Weapon3		= 0
+
+
+[AIBot1] 	// 베이직 레드
+Name		= "멍청한 레드"
+Grade		= 5
+ModelID		= 0
+Weapon1		= 4
+Weapon2		= 19
+Weapon3		= 0
+
+[AIBot2]	 // 베이직 레드
+Name		= "얼빠진 레드"
+Grade		= 7
+ModelID		= 0
+Weapon1		= 17
+Weapon2		= 19
+Weapon3		= 0
+
+
+[AIBot3] 	// 베이직 레드
+Name		= "얼빠진 레드"
+Grade		= 9
+ModelID		= 0
+Weapon1		= 4
+Weapon2		= 1
+Weapon3		= 48
+
+[AIBot4] 	// 베이직 레드
+Name		= "어리버리 레드"
+Grade		= 11
+ModelID		= 0
+Weapon1		= 9
+Weapon2		= 1
+Weapon3		= 48
+
+[AIBot5] 	// 베이직 레드
+Name		= "어리버리 레드"
+Grade		= 12
+ModelID		= 0
+Weapon1		= 22
+Weapon2		= 1
+Weapon3		= 48
+
+
+[AIBot6] 	// 베이직 레드
+Name		= "어리버리 레드"
+Grade		= 14
+ModelID		= 0
+Weapon1		= 4
+Weapon2		= 135
+Weapon3		= 28
+
+[AIBot7]	 // 베이직 레드
+Name		= "만만한 레드"
+Grade		= 15
+ModelID		= 0
+Weapon1		= 9
+Weapon2		= 135
+Weapon3		= 28
+
+[AIBot8] 	// 베이직 레드
+Name		= "멍청한 레드"
+Grade		= 18
+ModelID		= 0
+Weapon1		= 22
+Weapon2		= 135
+Weapon3		= 28
+
+
+
+[AIBot9]	// 잔호크
+Name		= "주디스아빠 잔호크"
+Grade		= 20
+ModelID		= 10
+Weapon1		= 4
+Weapon2		= 1
+Weapon3		= 48
+
+[AIBot10]	// 레드윈드(흑룡)
+Name		= "보통여자 레드윈드"
+Grade		= 25
+ModelID		= 216
+Weapon1		= 9
+Weapon2		= 1
+Weapon3		= 48
+
+[AIBot11]	// 레드윈드(흑룡)
+Name		= "보통여자 레드윈드"
+Grade		= 29
+ModelID		= 216
+Weapon1		= 22
+Weapon2		= 1
+Weapon3		= 48
+
+
+[AIBot12]	// 무녀 레드
+Name		= "무(난한)녀(자)"
+Grade		= 34
+ModelID		= 214
+Weapon1		= 516
+Weapon2		= 418
+Weapon3		= 28
+
+[AIBot13]	// 무녀 레드
+Name		= "무(난한)녀(자)"
+Grade		= 35
+ModelID		= 214
+Weapon1		= 514
+Weapon2		= 418
+Weapon3		= 28
+
+[AIBot14]	// 무녀 레드
+Name		= "무(난한)녀(자)"
+Grade		= 37
+ModelID		= 214
+Weapon1		= 515
+Weapon2		= 418
+Weapon3		= 28
+
+
+[AIBot15]	// 테니스 레드
+Name		= "테니스 강"
+Grade		= 40
+ModelID		= 172
+Weapon1		= 516
+Weapon2		= 418
+Weapon3		= 48
+
+[AIBot16]	// 테니스 레드
+Name		= "테니스 강"
+Grade		= 41
+ModelID		= 172
+Weapon1		= 514
+Weapon2		= 418
+Weapon3		= 48
+
+
+[AIBot17]	// 카우걸 레드
+Name		= "민첩한 카우걸"
+Grade		= 43
+ModelID		= 233
+Weapon1		= 515
+Weapon2		= 418
+Weapon3		= 48
+
+
+[AIBot18]	// 카우걸 레드
+Name		= "민첩한 카우걸"
+Grade		= 44
+ModelID		= 233
+Weapon1		= 348
+Weapon2		= 366
+Weapon3		= 28
+
+[AIBot19]	// 바니 러브
+Name		= "무자비한 바니걸"
+Grade		= 46
+ModelID		= 207
+Weapon1		= 346
+Weapon2		= 366
+Weapon3		= 28
+
+[AIBot20]	// 바니 러브
+Name		= "무자비한 바니걸"
+Grade		= 48
+ModelID		= 207
+Weapon1		= 819
+Weapon2		= 366
+Weapon3		= 28
+
+
+
+[AIBot21]	// 간호사 레드
+Name		= "따끔한 간호사"
+Grade		= 50
+ModelID		= 259
+Weapon1		= 404
+Weapon2		= 418
+Weapon3		= 48
+
+[AIBot22]	// 간호사 레드
+Name		= "따끔한 간호사"
+Grade		= 52
+ModelID		= 259
+Weapon1		= 397
+Weapon2		= 418
+Weapon3		= 48
+
+[AIBot23]	// 할로윈 레드
+Name		= "패줌전문 할로윈"
+Grade		= 55
+ModelID		= 177
+Weapon1		= 401
+Weapon2		= 418
+Weapon3		= 48
+
+
+
+[AIBot24]	// 곰돌이 레드
+Name		= "곰돌이 실장"
+Grade		= 58
+ModelID		= 224
+Weapon1		= 483
+Weapon2		= 506
+Weapon3		= 28
+
+[AIBot25]	// 곰돌이 레드
+Name		= "곰돌이 팀장"
+Grade		= 57
+ModelID		= 224
+Weapon1		= 481
+Weapon2		= 506
+Weapon3		= 28
+
+[AIBot26]	// 곰돌이 레드
+Name		= "곰돌이 쭈"
+Grade		= 59
+ModelID		= 224
+Weapon1		= 482
+Weapon2		= 506
+Weapon3		= 28
+
+
+
+[AIBot27]	// 베이직 블루
+Name		= "만만한 블루"
+Grade		= 3
+ModelID		= 1
+Weapon1		= 11
+Weapon2		= 19
+Weapon3		= 0
+
+[AIBot28]	// 베이직 블루
+Name		= "멍청한 블루"
+Grade		= 5
+ModelID		= 1
+Weapon1		= 4
+Weapon2		= 19
+Weapon3		= 0
+
+[AIBot29]	// 베이직 블루
+Name		= "어리버리 블루"
+Grade		= 7
+ModelID		= 1
+Weapon1		= 17
+Weapon2		= 19
+Weapon3		= 0
+
+
+
+[AIBot30]	// 베이직 블루
+Name		= "멍청한 블루"
+Grade		= 9
+ModelID		= 1
+Weapon1		= 4
+Weapon2		= 1
+Weapon3		= 48
+
+[AIBot31]	// 베이직 블루
+Name		= "평화주의 블루"
+Grade		= 11
+ModelID		= 1
+Weapon1		= 9
+Weapon2		= 1
+Weapon3		= 48
+
+[AIBot32]	// 베이직 블루
+Name		= "어리버리 블루"
+Grade		= 12
+ModelID		= 1
+Weapon1		= 22
+Weapon2		= 1
+Weapon3		= 48
+
+
+
+[AIBot33]	// 베이직 블루
+Name		= "평화주의 블루"
+Grade		= 13
+ModelID		= 1
+Weapon1		= 4
+Weapon2		= 135
+Weapon3		= 28
+
+[AIBot34]	// 베이직 블루
+Name		= "멍청한 블루"
+Grade		= 14
+ModelID		= 1
+Weapon1		= 9
+Weapon2		= 135
+Weapon3		= 28
+
+[AIBot35]	// 베이직 블루
+Name		= "평화주의 블루"
+Grade		= 15
+ModelID		= 1
+Weapon1		= 22
+Weapon2		= 135
+Weapon3		= 28
+
+
+[AIBot36]	// 카를로스
+Name		= "패기좋은카를로스"
+Grade		= 20
+ModelID		= 11
+Weapon1		= 4
+Weapon2		= 1
+Weapon3		= 48
+
+[AIBot37]	// 블랙캣(흑룡)
+Name		= "보통여자 블랙캣"
+Grade		= 27
+ModelID		= 217
+Weapon1		= 9
+Weapon2		= 1
+Weapon3		= 48
+
+[AIBot38]	// 블랙캣(흑룡)
+Name		= "보통여자 블랙캣"
+Grade		= 29
+ModelID		= 217
+Weapon1		= 22
+Weapon2		= 1
+Weapon3		= 48
+
+
+[AIBot39]	// 무녀 블루
+Name		= "무(난한)녀(자)"
+Grade		= 34
+ModelID		= 215
+Weapon1		= 516
+Weapon2		= 418
+Weapon3		= 28
+
+[AIBot40]	// 무녀 블루
+Name		= "무(난한)녀(자)"
+Grade		= 35
+ModelID		= 215
+Weapon1		= 514
+Weapon2		= 418
+Weapon3		= 28
+
+[AIBot41]	// 무녀 블루
+Name		= "무(난한)녀(자)"
+Grade		= 37
+ModelID		= 215
+Weapon1		= 515
+Weapon2		= 418
+Weapon3		= 28
+
+
+
+[AIBot42]	// 테니스 블루
+Name		= "테니스 강"
+Grade		= 42
+ModelID		= 173
+Weapon1		= 516
+Weapon2		= 418
+Weapon3		= 48
+
+[AIBot43]	// 테니스 블루
+Name		= "테니스 강"
+Grade		= 44
+ModelID		= 173
+Weapon1		= 514
+Weapon2		= 418
+Weapon3		= 48
+
+[AIBot44]	// 카우걸 블루
+Name		= "총좀쏘는 카우걸"
+Grade		= 43
+ModelID		= 234
+Weapon1		= 515
+Weapon2		= 418
+Weapon3		= 48
+
+
+[AIBot45]	// 카우걸 블루
+Name		= "총좀쏘는 카우걸"
+Grade		= 44
+ModelID		= 234
+Weapon1		= 348
+Weapon2		= 366
+Weapon3		= 28
+
+
+[AIBot46]	// 바니 허니
+Name		= "잔혹한 바니"
+Grade		= 48
+ModelID		= 208
+Weapon1		= 346
+Weapon2		= 366
+Weapon3		= 28
+
+[AIBot47]	// 바니 허니
+Name		= "잔혹한 바니"
+Grade		= 49
+ModelID		= 208
+Weapon1		= 819
+Weapon2		= 366
+Weapon3		= 28
+
+
+[AIBot48]	// 간호사 블루
+Name		= "따끔한 간호사"
+Grade		= 50
+ModelID		= 260
+Weapon1		= 404
+Weapon2		= 418
+Weapon3		= 48
+
+
+[AIBot49]	// 간호사 블루
+Name		= "따끔한 간호사"
+Grade		= 52
+ModelID		= 260
+Weapon1		= 397
+Weapon2		= 418
+Weapon3		= 48
+
+[AIBot50]	// 할로윈 블루
+Name		= "순줌전문 할로윈"
+Grade		= 55
+ModelID		= 176
+Weapon1		= 401
+Weapon2		= 418
+Weapon3		= 48
+
+
+[AIBot51]	// 곰돌이 블루
+Name		= "곰돌이 개발자"
+Grade		= 58
+ModelID		= 225
+Weapon1		= 505
+Weapon2		= 506
+Weapon3		= 28
+
+[AIBot52]	// 곰돌이 블루
+Name		= "곰돌이 기획자"
+Grade		= 59
+ModelID		= 225
+Weapon1		= 503
+Weapon2		= 506
+Weapon3		= 28
+
+[AIBot53]	// 곰돌이 블루
+Name		= "곰돌이 운영자"
+Grade		= 57
+ModelID		= 225
+Weapon1		= 504
+Weapon2		= 506
+Weapon3		= 28
+
+
+
+//55~59 좀비모드 할당
+[AIBot55]	//좀비 센트리건
+Name		= "센트리건"
+Type		= 1
+Grade		= 0
+ModelID		= 55
+
+[AIBot56]
+[AIBot57]
+[AIBot58]
+[AIBot59]
+
+
+//공룡모드 건설물(센트리건)
+[AIBot60]
+Name		= "[Lv.1] 무인 포탑"
+Type		= 1
+Grade		= 44
+ModelID		= 60
+
+[AIBot61]
+Name		= "[Lv.2] 무인 포탑"
+Type		= 1
+Grade		= 44
+ModelID		= 61
+
+[AIBot62]
+Name		= "[Lv.3] 무인 포탑"
+Type		= 1
+Grade		= 44
+ModelID		= 62
+
+[AIBot63]
+Name		= "[Lv.4] 무인 포탑"
+Type		= 1
+Grade		= 44
+ModelID		= 63
+
+[AIBot64]
+Name		= "[Lv.5] 무인 포탑"
+Type		= 1
+Grade		= 44
+ModelID		= 64
+
+//공룡모드 건설물(유탄발사기)
+[AIBot65]
+Name		= "[Lv.1] 유탄발사기"
+Type		= 1
+Grade		= 44
+ModelID		= 65
+
+[AIBot66]
+Name		= "[Lv.2] 유탄발사기"
+Type		= 1
+Grade		= 44
+ModelID		= 66
+
+[AIBot67]
+Name		= "[Lv.3] 유탄발사기"
+Type		= 1
+Grade		= 44
+ModelID		= 67
+
+[AIBot68]
+Name		= "[Lv.4] 유탄발사기"
+Type		= 1
+Grade		= 44
+ModelID		= 68
+
+[AIBot69]
+Name		= "[Lv.5] 유탄발사기"
+Type		= 1
+Grade		= 44
+ModelID		= 69
+
+//공룡모드 건설물(방책)
+[AIBot70]
+Name		= "[Lv.1] 가시 바닥"
+Type		= 1
+Grade		= 44
+ModelID		= 70
+
+[AIBot71]
+Name		= "[Lv.2] 가시 바닥"
+Type		= 1
+Grade		= 44
+ModelID		= 71
+
+[AIBot72]
+Name		= "[Lv.3] 가시 바닥"
+Type		= 1
+Grade		= 44
+ModelID		= 72
+
+[AIBot73]
+Name		= "[Lv.4] 가시 바닥"
+Type		= 1
+Grade		= 44
+ModelID		= 73
+
+[AIBot74]
+Name		= "[Lv.5] 가시 바닥"
+Type		= 1
+Grade		= 44
+ModelID		= 74
+
+
+//공룡모드 건설물(미끼)
+
+[AIBot75]
+Name		= "미끼 LV.1"
+Type		= 1
+Grade		= 44
+ModelID		= 75
+
+[AIBot76]
+Name		= "미끼 LV.2"
+Type		= 1
+Grade		= 44
+ModelID		= 76
+[AIBot77]
+Name		= "미끼 LV.3"
+Type		= 1
+Grade		= 44
+ModelID		= 77
+
+[AIBot78]
+Name		= "미끼 LV.4"
+Type		= 1
+Grade		= 44
+ModelID		= 78
+
+[AIBot79]
+Name		= "미끼 LV.5"
+Type		= 1
+Grade		= 44
+ModelID		= 79
+
+//랩터 
+[AIBot100]
+Name		= "랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 1.1f
+
+[AIBot101]
+Name		= "사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 1.1f
+
+[AIBot102]
+Name		= "특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 1.1f
+
+[AIBot103]
+Name		= "자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 1.1f
+
+[AIBot104]
+Name		= "보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 1.1f
+
+
+[AIBot105]
+Name		= "점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 1.1f
+
+
+[AIBot106]
+Name		= "근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 1.1f
+
+
+
+//랩터 스몰사이즈
+[AIBot110]
+Name		= "허약한 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 0.8f
+
+[AIBot111]
+Name		= "허약하지만 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 0.8f
+
+[AIBot112]
+Name		= "허약한 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 0.8f
+
+[AIBot113]
+Name		= "허약한 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 0.8f
+
+[AIBot114]
+Name		= "빈약한 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 0.8f
+
+[AIBot115]
+Name		= "허약한 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 0.8f
+
+
+[AIBot116]
+Name		= "허약한 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 0.8f
+
+
+
+//랩터 라지사이즈
+[AIBot120]
+Name		= "흉악한 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 1.5f
+
+[AIBot121]
+Name		= "흉악하고 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 1.5f
+
+[AIBot122]
+Name		= "흉악한 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 1.5f
+
+[AIBot123]
+Name		= "흉악한 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 1.5f
+
+[AIBot124]
+Name		= "대박 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 1.5f
+
+[AIBot125]
+Name		= "흉악한 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 1.5f
+
+[AIBot126]
+Name		= "흉악한 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 1.5f
+
+
+
+//투명 랩터 
+[AIBot130]
+Name		= "정체모를 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 1.1f
+ShaderType      = 2
+
+
+[AIBot131]
+Name		= "정체모를 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 1.1f
+ShaderType      = 2
+
+[AIBot132]
+Name		= "정체모를 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 1.1f
+ShaderType      = 2
+
+[AIBot133]
+Name		= "정체모를 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 1.1f
+ShaderType      = 2
+
+[AIBot134]
+Name		= "정체모를 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 1.1f
+ShaderType      = 2
+
+[AIBot135]
+Name		= "정체모를 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 1.1f
+ShaderType      = 2
+
+[AIBot136]
+Name		= "정체모를 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 1.1f
+ShaderType      = 2
+
+[AIBot137]
+Name		= "정체모를 랩터" //랩터 qhfk
+Type		= 2
+Grade		= 10
+ModelID		= 107
+Scale		= 1.1f
+ShaderType      = 2
+
+
+[AIBot138]
+Name		= "정체모를 랩터" //랩터 보라
+Type		= 2
+Grade		= 10
+ModelID		= 117
+Scale		= 1.1f
+ShaderType = 2
+
+
+
+
+// 트리케라톱스 (펜타케라톱스)
+[AIBot200]
+Name		= "연타 트리케라톱스" //트리케라톱스 녹색(기본형)
+Type		= 3
+Grade		= 100
+ModelID		= 200
+Scale		= 0.75f
+ShaderType	= 5
+
+[AIBot201]
+Name		= "사나운 트리케라톱스" //트리케라톱스 빨강
+Type		= 3
+Grade		= 100
+ModelID		= 201
+Scale		= 0.75f
+ShaderType	= 5
+
+[AIBot202]
+Name		= "특공 트리케라톱스" //트리케라톱스 갈색
+Type		= 3
+Grade		= 100
+ModelID		= 202
+Scale		= 0.75f
+ShaderType	= 5
+
+//204 검정 없음
+
+[AIBot204]
+Name		= "잽싼 트리케라톱스" //트리케라톱스 노란
+Type		= 3
+Grade		= 100
+ModelID		= 203
+Scale		= 0.75f
+ShaderType	= 5
+
+[AIBot205]
+Name		= "점프 트리케라톱스" //트리케라톱스 주황
+Type		= 3
+Grade		= 100
+ModelID		= 205
+Scale		= 0.75f
+ShaderType	= 5
+
+[AIBot206]
+Name		= "근성 트리케라톱스" //트리케라톱스 파랑
+Type		= 3
+Grade		= 100
+ModelID		= 206
+Scale		= 0.75f
+ShaderType	= 5
+
+[AIBot207]
+Name		= "돌진 트리케라톱스" //트리케라톱스 보라
+Type		= 3
+Grade		= 100
+ModelID		= 207
+Scale		= 0.75f
+ShaderType	= 5
+
+[AIBot208]
+Name		= "맹렬 트리케라톱스" //트리케라톱스 흰색
+Type		= 3
+Grade		= 100
+ModelID		= 208
+Scale		= 0.75f
+ShaderType	= 5
+
+[AIBot209]
+Name		= "광포한 트리케라톱스" //트리케라톱스 빨강
+Type		= 3
+Grade		= 100
+ModelID		= 230
+Scale		= 0.75f
+ShaderType	= 5
+
+// 트리케라톱스 스몰 (펜타케라톱스)
+[AIBot210]
+Name		= "허약한 트리케라톱스" //트리케라톱스 녹색(기본형)
+Type		= 3
+Grade		= 100
+ModelID		= 200
+Scale		= 0.5f
+ShaderType	= 5
+
+[AIBot211]
+Name		= "허약한 특공 트리케라톱스" //트리케라톱스 빨강
+Type		= 3
+Grade		= 100
+ModelID		= 201
+Scale		= 0.5f
+ShaderType	= 5
+
+
+[AIBot212]
+Name		= "허약한 방어형 트리케라톱스" //트리케라톱스 갈색
+Type		= 3
+Grade		= 100
+ModelID		= 202
+Scale		= 0.5f
+ShaderType	= 5
+
+
+//214 검정 없음
+
+[AIBot214]
+Name		= "허약한 걸음빠른 트리케라톱스" //트리케라톱스 노란
+Type		= 3
+Grade		= 100
+ModelID		= 204
+Scale		= 0.5f
+ShaderType	= 5
+
+
+[AIBot215]
+Name		= "허약한 시설물철거 트리케라톱스" //트리케라톱스 주황
+Type		= 3
+Grade		= 100
+ModelID		= 205
+Scale		= 0.5f
+ShaderType	= 5
+
+
+[AIBot216]
+Name		= "허약한 파랑 트리케라톱스" //트리케라톱스 파랑
+Type		= 3
+Grade		= 100
+ModelID		= 206
+Scale		= 0.5f
+ShaderType	= 5
+
+
+[AIBot217]
+Name		= "허약한 공속빠른 트리케라톱스" //트리케라톱스 보라
+Type		= 3
+Grade		= 100
+ModelID		= 207
+Scale		= 0.5f
+ShaderType	= 5
+
+
+[AIBot218]
+Name		= "허약한 반투명 트리케라톱스" //트리케라톱스 흰색
+Type		= 3
+Grade		= 100
+ModelID		= 208
+Scale		= 0.5f
+ShaderType	= 5
+
+
+// 트리케라톱스 라지 (펜타케라톱스)
+[AIBot220]
+Name		= "트리케라톱스" //트리케라톱스 녹색(기본형)
+Type		= 3
+Grade		= 100
+ModelID		= 220
+ShaderType	= 5
+
+
+[AIBot221]
+Name		= "흉악한 특공 트리케라톱스" //트리케라톱스 빨강
+Type		= 3
+Grade		= 100
+ModelID		= 221
+ShaderType	= 5
+
+
+[AIBot222]
+Name		= "흉악한 트리케라톱스" //트리케라톱스 갈색
+Type		= 3
+Grade		= 100
+ModelID		= 222
+ShaderType	= 5
+
+
+//224 검정 없음
+
+[AIBot224]
+Name		= "흉악한 걸음빠른 트리케라톱스" //트리케라톱스 노란
+Type		= 3
+Grade		= 100
+ModelID		= 224
+ShaderType	= 5
+
+
+[AIBot225]
+Name		= "흉악한 시설물철거 트리케라톱스" //트리케라톱스 주황
+Type		= 3
+Grade		= 100
+ModelID		= 225
+ShaderType	= 5
+
+
+[AIBot226]
+Name		= "흉악한 파랑 트리케라톱스" //트리케라톱스 파랑
+Type		= 3
+Grade		= 100
+ModelID		= 226
+ShaderType	= 5
+
+
+[AIBot227]
+Name		= "흉악한 공속빠른 트리케라톱스" //트리케라톱스 보라
+Type		= 3
+Grade		= 100
+ModelID		= 227
+ShaderType	= 5
+
+
+[AIBot228]
+Name		= "흉악한 반투명 트리케라톱스" //트리케라톱스 흰색
+Type		= 3
+Grade		= 100
+ModelID		= 228
+ShaderType	= 5
+
+
+
+
+//예외처리 트리케라톱
+[AIBot230]
+Name		= "새끼 트리케라톱스" //
+Type		= 3
+Grade		= 100
+ModelID		= 200
+Scale		= 0.2f
+ShaderType	= 5
+
+
+[AIBot231]
+Name		= "엄마 트리케라톱스" //
+Type		= 3
+Grade		= 100
+ModelID		= 202
+Scale		= 0.75f
+ShaderType	= 5
+
+
+[AIBot232]
+Name		= "화가난 엄마 트리케라톱스" //
+Type		= 3
+Grade		= 100
+ModelID		= 202
+Scale		= 0.75f
+ShaderType	= 5
+
+
+[AIBot233]
+Name		= "아빠 트리케라톱스" //
+Type		= 3
+Grade		= 100
+ModelID		= 202
+Scale		= 1.0f
+ShaderType	= 5
+
+
+[AIBot234]
+Name		= "화가난 아빠 트리케라톱스" //
+Type		= 3
+Grade		= 100
+ModelID		= 202
+Scale		= 1.0f
+ShaderType	= 5
+
+
+[AIBot235]
+Name		= "부하 트리케라톱스" //
+Type		= 3
+Grade		= 100
+ModelID		= 200
+Scale		= 0.25f
+ShaderType	= 5
+
+[AIBot236]
+Name		= "사나운 부하 트리" //
+Type		= 3
+Grade		= 100
+ModelID		= 201
+Scale		= 0.25f
+ShaderType	= 5
+
+[AIBot237]
+Name		= "특공 부하 트리" //
+Type		= 3
+Grade		= 100
+ModelID		= 202
+Scale		= 0.25f
+ShaderType	= 5
+
+[AIBot238]
+Name		= "방어형 부하 트리" //
+Type		= 3
+Grade		= 100
+ModelID		= 206
+Scale		= 0.25f
+ShaderType	= 5
+
+[AIBot239]
+Name		= "돌진 부하 트리" //
+Type		= 3
+Grade		= 100
+ModelID		= 217
+Scale		= 0.25f
+ShaderType	= 5
+
+
+[AIBot240]
+Name		= "트리케라톱스 탄약병" //
+Type		= 3
+Grade		= 100
+ModelID		= 114
+Scale		= 0.25f
+ShaderType	= 5
+
+[AIBot241]
+Name		= "사나운 지휘관 트리" //
+Type		= 3
+Grade		= 100
+ModelID		= 201
+Scale		= 0.5f
+ShaderType	= 5
+
+[AIBot242]
+Name		= "특공 지휘관 트리" //
+Type		= 3
+Grade		= 100
+ModelID		= 202
+Scale		= 0.5f
+ShaderType	= 5
+
+[AIBot243]
+Name		= "방어형 지휘관 트리" //
+Type		= 3
+Grade		= 100
+ModelID		= 206
+Scale		= 0.5f
+ShaderType	= 5
+
+[AIBot244]
+Name		= "돌진 지휘관 트리" //
+Type		= 3
+Grade		= 100
+ModelID		= 207
+Scale		= 0.5f
+ShaderType	= 5
+
+
+[AIBot245]
+Name		= "트리전사" //
+Type		= 3
+Grade		= 100
+ModelID		= 208
+Scale		= 0.6f
+ShaderType	= 5
+
+
+[AIBot246]
+Name		= "아서 추종자" //
+Type		= 2
+Grade		= 10
+ModelID		= 208
+Scale		= 0.25f
+ShaderType	= 5
+
+[AIBot247]
+Name		= "각룡왕 아서" //
+Type		= 3
+Grade		= 100
+ModelID		= 208
+Scale		= 1.3f
+ShaderType	= 5
+
+[AIBot248]
+Name		= "자폭 특공대" //
+Type		= 3
+Grade		= 100
+ModelID		= 231
+Scale		= 0.25f
+ShaderType	= 5
+
+
+[AIBot249]
+Name		= "두목 트리케라톱스" //
+Type		= 3
+Grade		= 100
+ModelID		= 231
+Scale		= 1.0f
+ShaderType	= 5
+
+
+[AIBot250]
+Name		= "사나운 두목 트리케라톱스" //
+Type		= 3
+Grade		= 100
+ModelID		= 200
+Scale		= 1.0f
+ShaderType	= 5
+
+
+[AIBot251]
+Name		= "특공 두목 트리케라톱스" //
+Type		= 3
+Grade		= 100
+ModelID		= 201
+Scale		= 1.0f
+ShaderType	= 5
+
+[AIBot252]
+Name		= "점프 두목 트리케라톱스" //
+Type		= 3
+Grade		= 100
+ModelID		= 205
+Scale		= 1.0f
+ShaderType	= 5
+
+
+[AIBot253]
+Name		= "방어형 두목 트리케라톱스" //
+Type		= 3
+Grade		= 100
+ModelID		= 206
+Scale		= 1.0f
+ShaderType	= 5
+
+
+[AIBot254]
+Name		= "각룡왕자 아서" //
+Type		= 3
+Grade		= 100
+ModelID		= 208
+Scale		= 0.5f
+ShaderType	= 5
+
+
+[AIBot255]
+Name		= "근위병" //
+Type		= 3
+Grade		= 100
+ModelID		= 208
+Scale		= 0.25f
+ShaderType	= 5
+
+[AIBot256]
+Name		= "두 마리 잡으면 진행" //31웨이브 진행용
+Type		= 3
+Grade		= 100
+ModelID		= 208
+Scale		= 0.25f
+ShaderType	= 7
+
+[AIBot257]
+Name		= "두 마리 잡으면 진행" //31웨이브 진행용
+Type		= 4
+Grade		= 100
+ModelID		= 208
+Scale		= 0.25f
+ShaderType	= 7
+
+
+//티라노 일반형
+
+[AIBot300]
+Name		= "BOSS : 티라노사우르스" //티라노 기본
+Type		= 4
+Grade		= 1000
+ModelID		= 300
+Scale		= 1.0f
+ShaderType	= 5
+
+[AIBot301]
+Name		= "BOSS : 사나운 티라노" //티라노 빨강
+Type		= 4
+Grade		= 1000
+ModelID		= 301
+ShaderType	= 5
+
+[AIBot302]
+Name		= "BOSS : 특송 티라노" //티라노 갈색
+Type		= 4
+Grade		= 1000
+ModelID		= 302
+ShaderType	= 5
+
+// 303 티라노 검정은 없음
+
+[AIBot304]
+Name		= "BOSS : 잽싼 티라노" //티라노 노랑
+Type		= 4
+Grade		= 1000
+ModelID		= 304
+ShaderType	= 5
+
+// 305 티라노 주황 없음
+
+[AIBot306]
+Name		= "BOSS : 근성 티라노" //티라노 파랑
+Type		= 4
+Grade		= 1000
+ModelID		= 306
+ShaderType	= 5
+
+[AIBot307]
+Name		= "BOSS : 돌진 티라노" //티라노 보라
+Type		= 4
+Grade		= 1000
+ModelID		= 307
+ShaderType	= 5
+
+[AIBot308]
+Name		= "BOSS : 맹렬 티라노" //티라노 흰색
+Type		= 4
+Grade		= 1000
+ModelID		= 308
+ShaderType	= 5
+
+
+//티라노 소형
+
+[AIBot310]
+Name		= "허약한 티라노사우르스" //티라노 기본
+Type		= 4
+Grade		= 1000
+ModelID		= 310
+Scale		= 0.5f
+ShaderType	= 5
+
+[AIBot311]
+Name		= "허약하지만 사나운 티라노" //티라노 빨강
+Type		= 4
+Grade		= 1000
+ModelID		= 311
+Scale		= 0.5f
+ShaderType	= 5
+
+[AIBot312]
+Name		= "허약한 특공 티라노" //티라노 갈색
+Type		= 4
+Grade		= 1000
+ModelID		= 312
+Scale		= 0.5f
+ShaderType	= 5
+
+// 313 티라노 검정은 없음
+
+[AIBot314]
+Name		= "허약하지만 잽싼 티라노" //티라노 노랑
+Type		= 4
+Grade		= 1000
+ModelID		= 314
+Scale		= 0.5f
+ShaderType	= 5
+
+// 315 티라노 주황 없음
+
+[AIBot316]
+Name		= "허약한 근성 티라노" //티라노 파랑
+Type		= 4
+Grade		= 1000
+ModelID		= 316
+Scale		= 0.5f
+ShaderType	= 5
+
+[AIBot317]
+Name		= "허약한 돌진 티라노" //티라노 보라
+Type		= 4
+Grade		= 1000
+ModelID		= 317
+Scale		= 0.5f
+ShaderType	= 5
+
+[AIBot318]
+Name		= "허약한 맹렬 티라노" //티라노 흰색
+Type		= 4
+Grade		= 1000
+ModelID		= 318
+Scale		= 0.5f
+ShaderType	= 5
+
+
+
+
+//티라노 대형
+
+[AIBot320]
+Name		= "BOSS : 흉포한 티라노사우르스" //티라노 기본
+Type		= 4
+Grade		= 1000
+ModelID		= 300
+Scale		= 2.0f
+ShaderType	= 5
+
+[AIBot321]
+Name		= "BOSS : 흉포한 특공 티라노" //티라노 빨강
+Type		= 4
+Grade		= 1000
+ModelID		= 301
+Scale		= 2.0f
+ShaderType	= 5
+
+[AIBot322]
+Name		= "BOSS : 흉포한 방어형 티라노" //티라노 갈색
+Type		= 4
+Grade		= 1000
+ModelID		= 302
+Scale		= 2.0f
+ShaderType	= 5
+
+// 323 티라노 검정은 없음
+
+[AIBot324]
+Name		= "BOSS : 흉포한 빠른걸음 티라노" //티라노 노랑
+Type		= 4
+Grade		= 1000
+ModelID		= 304
+Scale		= 2.0f
+ShaderType	= 5
+
+// 325 티라노 주황 없음
+
+[AIBot326]
+Name		= "BOSS : 흉포한 특공 티라노" //티라노 파랑
+Type		= 4
+Grade		= 1000
+ModelID		= 306
+Scale		= 2.0f
+ShaderType	= 5
+
+[AIBot327]
+Name		= "BOSS : 흉포한 공속빠른 티라노" //티라노 보라
+Type		= 4
+Grade		= 1000
+ModelID		= 307
+Scale		= 2.0f
+ShaderType	= 5
+
+[AIBot328]
+Name		= "BOSS : 흉포한 텔레포트 티라노" //티라노 흰색
+Type		= 4
+Grade		= 1000
+ModelID		= 308
+Scale		= 2.0f
+ShaderType	= 5
+
+
+
+// 티라노 예외 타입
+[AIBot330]
+Name		= "BOSS : 멍청하고 사나운 티라노" //10웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 301
+Scale		= 0.5f
+ShaderType	= 5
+
+[AIBot331]
+Name		= "BOSS : 멍청한 근성 티라노" //10웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 306
+Scale		= 0.5f
+ShaderType	= 5
+
+
+[AIBot332]
+Name		= "BOSS : 부상당한 티라노" //30웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 300
+Scale		= 0.5f
+ShaderType	= 5
+
+[AIBot333]
+Name		= "BOSS : 부상당한 사나운 티라노" //30웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 301
+Scale		= 0.5f
+ShaderType	= 5
+
+
+[AIBot334]
+Name		= "BOSS : 부상당한 방어형 티라노" //30웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 306
+Scale		= 0.5f
+ShaderType	= 5
+
+
+[AIBot335]
+Name		= "칼에 약한 티라노" //40웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 300
+Scale		= 0.25f
+ShaderType	= 5
+
+[AIBot336]
+Name		= "칼에 약한 사나운 티라노" //40웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 301
+Scale		= 0.25f
+ShaderType	= 5
+
+[AIBot337]
+Name		= "칼에 약한 특공 티라노" //40웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 302
+Scale		= 0.25f
+ShaderType	= 5
+
+[AIBot338]
+Name		= "칼에 약한 보너스 티라노" //40웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 304
+Scale		= 0.25f
+
+
+[AIBot339]
+Name		= "칼에 약한 방어형 티라노" //40웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 306
+Scale		= 0.25f
+ShaderType	= 5
+
+[AIBot340]
+Name		= "칼에 약한 버서크 티라노" //40웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 307
+Scale		= 0.25f
+ShaderType	= 5
+
+[AIBot341]
+Name		= "칼에 약한 버서크 티라노" //40웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 307
+Scale		= 0.25f
+ShaderType	= 5
+
+
+
+
+[AIBot342]
+Name		= "BOSS : 사나운 각성 티라노[眞]" //49웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 301
+Scale		= 2.0f
+ShaderType	= 5
+
+[AIBot343]
+Name		= "BOSS : 사나운 각성 티라노[眞]" //49웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 301
+Scale		= 2.0f
+ShaderType	= 5
+
+[AIBot344]
+Name		= "BOSS : 근성의 각성 티라노" //49웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 306
+Scale		= 1.1f
+ShaderType	= 5
+
+[AIBot345]
+Name		= "BOSS : 근성의 각성 티라노[眞]" //49웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 306
+Scale		= 2.0f
+ShaderType	= 5
+
+[AIBot346]
+Name		= "BOSS : 근성의 각성 티라노[眞]" //49웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 306
+Scale		= 2.0f
+ShaderType	= 5
+
+[AIBot347]
+Name		= "BOSS : 사나운 각성 티라노" //49웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 301
+Scale		= 1.1f
+ShaderType	= 5
+
+[AIBot348]
+Name		= "굶주린 티라노" //46웨이브용
+Type		= 4
+Grade		= 1000
+ModelID		= 330
+Scale		= 0.5f
+ShaderType	= 5
+
+
+[AIBot349]
+Name		= "강철 티라노" //50웨이브용
+Type		= 4
+Grade		= 10
+ModelID		= 331
+Scale		= 0.5f
+ShaderType	= 5
+
+
+[AIBot350]
+Name		= "굶주린 사나운 티라노" //31웨이브용
+Type		= 2
+Grade		= 1000
+ModelID		= 332
+Scale		= 0.5f
+ShaderType	= 5
+
+
+
+[AIBot351]
+Name		= "사신 티라노" //보스 웨이브 정리용
+Type		= 2
+Grade		= 1000
+ModelID		= 331
+Scale		= 0.3f
+ShaderType	= 2
+
+
+[AIBot352]
+Name		= "굶주린 흉악한 티라노" //31웨이브용
+Type		= 2
+Grade		= 1000
+ModelID		= 333
+Scale		= 0.5f
+ShaderType	= 5
+
+
+
+
+//랩터 기본사이즈
+[AIBot500]
+Name		= "Lv.1 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 1.1f
+
+[AIBot501]
+Name		= "Lv.1 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 1.1f
+
+[AIBot502]
+Name		= "Lv.1 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 1.1f
+
+[AIBot503]
+Name		= "Lv.1 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 1.1f
+
+[AIBot504]
+Name		= "Lv.1 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 1.1f
+
+[AIBot505]
+Name		= "Lv.1 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 1.1f
+
+[AIBot506]
+Name		= "Lv.1 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 1.1f
+
+[AIBot507]
+Name		= "Lv.1 버서크 랩터" //랩터 보라
+Type		= 2
+Grade		= 10
+ModelID		= 107
+Scale		= 1.1f
+
+
+
+[AIBot510]
+Name		= "Lv.2 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 1.1f
+
+[AIBot511]
+Name		= "Lv.2 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 1.1f
+
+[AIBot512]
+Name		= "Lv.2 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 1.1f
+
+[AIBot513]
+Name		= "Lv.2 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 1.1f
+
+[AIBot514]
+Name		= "Lv.2 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 1.1f
+
+[AIBot515]
+Name		= "Lv.2 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 1.1f
+
+[AIBot516]
+Name		= "Lv.2 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 1.1f
+
+[AIBot517]
+Name		= "Lv.2 버서크 랩터" //랩터 보라
+Type		= 2
+Grade		= 10
+ModelID		= 107
+Scale		= 1.1f
+
+
+
+[AIBot520]
+Name		= "Lv.3 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 1.1f
+
+[AIBot521]
+Name		= "Lv.3 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 1.1f
+
+[AIBot522]
+Name		= "Lv.3 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 1.1f
+
+[AIBot523]
+Name		= "Lv.3 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 1.1f
+
+[AIBot524]
+Name		= "Lv.3 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 1.1f
+
+[AIBot525]
+Name		= "Lv.3 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 1.1f
+
+[AIBot526]
+Name		= "Lv.3 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 1.1f
+
+[AIBot527]
+Name		= "Lv.3 버서크 랩터" //랩터 보라
+Type		= 2
+Grade		= 10
+ModelID		= 107
+Scale		= 1.1f
+
+
+
+[AIBot530]
+Name		= "Lv.4 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 1.1f
+
+[AIBot531]
+Name		= "Lv.4 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 1.1f
+
+[AIBot532]
+Name		= "Lv.4 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 1.1f
+
+[AIBot533]
+Name		= "Lv.4 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 1.1f
+
+[AIBot534]
+Name		= "Lv.4 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 1.1f
+
+[AIBot535]
+Name		= "Lv.4 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 1.1f
+
+[AIBot536]
+Name		= "Lv.4 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 1.1f
+
+[AIBot537]
+Name		= "Lv.4 버서크 랩터" //랩터 보라
+Type		= 2
+Grade		= 10
+ModelID		= 107
+Scale		= 1.1f
+
+
+
+[AIBot540]
+Name		= "Lv.5 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 1.1f
+
+[AIBot541]
+Name		= "Lv.5 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 1.1f
+
+[AIBot542]
+Name		= "Lv.5 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 1.1f
+
+[AIBot543]
+Name		= "Lv.5 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 1.1f
+
+[AIBot544]
+Name		= "Lv.5 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 1.1f
+
+[AIBot545]
+Name		= "Lv.5 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 1.1f
+
+[AIBot546]
+Name		= "Lv.5 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 1.1f
+
+[AIBot547]
+Name		= "Lv.5 버서크 랩터" //랩터 보라
+Type		= 2
+Grade		= 10
+ModelID		= 107
+Scale		= 1.1f
+
+
+[AIBot600]
+Name		= "Lv.1 허약한 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 0.8f
+
+[AIBot601]
+Name		= "Lv.1 허약하지만 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 0.8f
+
+[AIBot602]
+Name		= "Lv.1 허약한 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 0.8f
+
+[AIBot603]
+Name		= "Lv.1 허약한 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 0.8f
+
+[AIBot604]
+Name		= "Lv.1 빈약한 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 0.8f
+
+[AIBot605]
+Name		= "Lv.1 허약한 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 0.8f
+
+[AIBot606]
+Name		= "Lv.1 허약한 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 0.8f
+
+[AIBot607]
+Name		= "Lv.1 버서크 랩터" //랩터 보라
+Type		= 2
+Grade		= 10
+ModelID		= 107
+Scale		= 0.8f
+
+
+
+
+[AIBot610]
+Name		= "Lv.2 허약한 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 0.8f
+
+[AIBot611]
+Name		= "Lv.2 허약하지만 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 0.8f
+
+[AIBot612]
+Name		= "Lv.2 허약한 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 0.8f
+
+[AIBot613]
+Name		= "Lv.2 허약한 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 0.8f
+
+[AIBot614]
+Name		= "Lv.2 빈약한 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 0.8f
+
+[AIBot615]
+Name		= "Lv.2 허약한 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 0.8f
+
+[AIBot616]
+Name		= "Lv.2 허약한 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 0.8f
+
+[AIBot617]
+Name		= "Lv.2 버서크 랩터" //랩터 보라
+Type		= 2
+Grade		= 10
+ModelID		= 107
+Scale		= 0.8f
+
+
+
+
+[AIBot620]
+Name		= "Lv.3 허약한 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 0.8f
+
+[AIBot621]
+Name		= "Lv.3 허약하지만 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 0.8f
+
+[AIBot622]
+Name		= "Lv.3 허약한 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 0.8f
+
+[AIBot623]
+Name		= "Lv.3 허약한 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 0.8f
+
+[AIBot624]
+Name		= "Lv.3 빈약한 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 0.8f
+
+[AIBot625]
+Name		= "Lv.3 허약한 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 0.8f
+
+[AIBot626]
+Name		= "Lv.3 허약한 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 0.8f
+
+[AIBot627]
+Name		= "Lv.3 버서크 랩터" //랩터 보라
+Type		= 2
+Grade		= 10
+ModelID		= 107
+Scale		= 0.8f
+
+
+
+[AIBot630]
+Name		= "Lv.4 허약한 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 0.8f
+
+[AIBot631]
+Name		= "Lv.4 허약하지만 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 0.8f
+
+[AIBot632]
+Name		= "Lv.4 허약한 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 0.8f
+
+[AIBot633]
+Name		= "Lv.4 허약한 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 0.8f
+
+[AIBot634]
+Name		= "Lv.4 빈약한 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 0.8f
+
+[AIBot635]
+Name		= "Lv.4 허약한 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 0.8f
+
+[AIBot636]
+Name		= "Lv.4 허약한 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 0.8f
+
+[AIBot637]
+Name		= "Lv.4 버서크 랩터" //랩터 보라
+Type		= 2
+Grade		= 10
+ModelID		= 107
+Scale		= 0.8f
+
+
+
+[AIBot640]
+Name		= "Lv.5 허약한 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 0.8f
+
+[AIBot641]
+Name		= "Lv.5 허약하지만 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 0.8f
+
+[AIBot642]
+Name		= "Lv.5 허약한 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 0.8f
+
+[AIBot643]
+Name		= "Lv.5 허약한 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 0.8f
+
+[AIBot644]
+Name		= "Lv.5 빈약한 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 0.8f
+
+[AIBot645]
+Name		= "Lv.5 허약한 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 0.8f
+
+[AIBot646]
+Name		= "Lv.5 허약한 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 0.8f
+
+[AIBot647]
+Name		= "Lv.5 버서크 랩터" //랩터 보라
+Type		= 2
+Grade		= 10
+ModelID		= 107
+Scale		= 0.8f
+
+
+
+[AIBot700]
+Name		= "Lv.1 흉악한 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 1.5f
+
+[AIBot701]
+Name		= "Lv.1 흉악하고 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 1.5f
+
+[AIBot702]
+Name		= "Lv.1 흉악한 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 1.5f
+
+[AIBot703]
+Name		= "Lv.1 흉악한 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 1.5f
+
+[AIBot704]
+Name		= "Lv.1 대박 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 1.5f
+
+[AIBot705]
+Name		= "Lv.1 흉악한 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 1.5f
+
+[AIBot706]
+Name		= "Lv.1 흉악한 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 1.5f
+
+[AIBot707]
+Name		= "Lv.1 흉악한 버서크 랩터" //랩터 보라
+Type		= 2
+Grade		= 10
+ModelID		= 107
+Scale		= 1.5f
+
+
+
+[AIBot710]
+Name		= "Lv.2 흉악한 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 1.5f
+
+[AIBot711]
+Name		= "Lv.2 흉악하고 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 1.5f
+
+[AIBot712]
+Name		= "Lv.2 흉악한 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 1.5f
+
+[AIBot713]
+Name		= "Lv.2 흉악한 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 1.5f
+
+[AIBot714]
+Name		= "Lv.2 대박 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 1.5f
+
+[AIBot715]
+Name		= "Lv.2 흉악한 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 1.5f
+
+[AIBot716]
+Name		= "Lv.2 흉악한 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 1.5f
+
+[AIBot717]
+Name		= "Lv.2 흉악한 버서크 랩터" //랩터 보라
+Type		= 2
+Grade		= 10
+ModelID		= 107
+Scale		= 1.5f
+
+
+
+[AIBot720]
+Name		= "Lv.3 흉악한 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 1.5f
+
+[AIBot721]
+Name		= "Lv.3 흉악하고 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 1.5f
+
+[AIBot722]
+Name		= "Lv.3 흉악한 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 1.5f
+
+[AIBot723]
+Name		= "Lv.3 흉악한 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 1.5f
+
+[AIBot724]
+Name		= "Lv.3 대박 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 1.5f
+
+[AIBot725]
+Name		= "Lv.3 흉악한 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 1.5f
+
+[AIBot726]
+Name		= "Lv.3 흉악한 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 1.5f
+
+[AIBot727]
+Name		= "Lv.3 흉악한 버서크 랩터" //랩터 보라
+Type		= 2
+Grade		= 10
+ModelID		= 107
+Scale		= 1.5f
+
+
+
+[AIBot730]
+Name		= "Lv.4 흉악한 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 1.5f
+
+[AIBot731]
+Name		= "Lv.4 흉악하고 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 1.5f
+
+[AIBot732]
+Name		= "Lv.4 흉악한 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 1.5f
+
+[AIBot733]
+Name		= "Lv.4 흉악한 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 1.5f
+
+[AIBot734]
+Name		= "Lv.4 대박 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 1.5f
+
+[AIBot735]
+Name		= "Lv.4 흉악한 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 1.5f
+
+[AIBot736]
+Name		= "Lv.4 흉악한 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 1.5f
+
+[AIBot737]
+Name		= "Lv.4 흉악한 버서크 랩터" //랩터 보라
+Type		= 2
+Grade		= 10
+ModelID		= 107
+Scale		= 1.5f
+
+
+
+[AIBot740]
+Name		= "Lv.5 흉악한 랩터" //랩터 녹색(기본형
+Type		= 2
+Grade		= 10
+ModelID		= 100
+Scale		= 1.5f
+
+[AIBot741]
+Name		= "Lv.5 흉악하고 사나운 랩터" //랩터 빨강
+Type		= 2
+Grade		= 10
+ModelID		= 101
+Scale		= 1.5f
+
+[AIBot742]
+Name		= "Lv.5 흉악한 특공 랩터" //랩터 갈색
+Type		= 2
+Grade		= 10
+ModelID		= 102
+Scale		= 1.5f
+
+[AIBot743]
+Name		= "Lv.5 흉악한 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 103
+Scale		= 1.5f
+
+[AIBot744]
+Name		= "Lv.5 대박 보너스 랩터" //랩터 노랑
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 1.5f
+
+[AIBot745]
+Name		= "Lv.5 흉악한 점프 랩터" //랩터 주황
+Type		= 2
+Grade		= 10
+ModelID		= 105
+Scale		= 1.5f
+
+[AIBot746]
+Name		= "Lv.5 흉악한 근성 랩터" //랩터 블루
+Type		= 2
+Grade		= 10
+ModelID		= 106
+Scale		= 1.5f
+
+[AIBot747]
+Name		= "Lv.5 흉악한 버서크 랩터" //랩터 보라
+Type		= 2
+Grade		= 10
+ModelID		= 107
+Scale		= 1.5f
+
+
+[AIBot751]
+Name		= "TNT 자폭 랩터" //랩터 검정
+Type		= 2
+Grade		= 10
+ModelID		= 118
+Scale		= 1.5f
+
+
+
+[AIBot800] // 21웨이브용 10431
+Name		= "A타입 보너스 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 113
+Scale		= 1.1f
+
+
+
+[AIBot801] //21웨이브용 11431
+Name		= "B타입 보너스 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 117
+Scale		= 0.8f
+
+
+[AIBot802] //26웨이브용 11433, 11432
+Name		= "허약한 보너스 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 114
+Scale		= 0.8f
+
+
+[AIBot803] //26웨이브용 10432, 10433
+Name		= "보너스 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 114
+Scale		= 1.1f
+
+
+[AIBot804] //31웨이브용 10441,11441, 12441 
+Name		= "작은 자폭 보너스 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 111
+Scale		= 0.8f
+
+
+[AIBot805] //31웨이브용 10441,11441, 12441 
+Name		= "자폭 보너스 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 111
+Scale		= 1.1f
+
+
+[AIBot806] //31웨이브용 10441,11441, 12441 
+Name		= "큰 자폭 보너스 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 111
+Scale		= 1.5f
+
+
+[AIBot807] //36웨이브용 가짜
+Name		= "허약한 보너스 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 111
+Scale		= 0.8f
+
+
+[AIBot808] //36웨이브용 가짜
+Name		= "보너스 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 111
+Scale		= 1.1f
+
+
+[AIBot809] //36웨이브용 가짜
+Name		= "대박 보너스 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 111
+Scale		= 1.5f
+
+
+[AIBot810] //36웨이브용 진짜
+Name		= "허약한 보너스 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 115
+Scale		= 0.8f
+
+
+[AIBot811] //36웨이브용 진짜
+Name		= "보너스 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 115
+Scale		= 1.1f
+
+
+[AIBot812] //36웨이브용 진짜
+Name		= "대박 보너스 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 115
+Scale		= 1.5f
+
+
+[AIBot813] //41웨이브용 튜토리얼 용 윌리 진짜
+Name		= "튜토리얼 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 115
+Scale		= 0.8f
+
+
+[AIBot814] //41웨이브용 튜토리얼 용 윌리 가짜
+Name		= "튜토리얼 렙터" 
+Type		= 2
+Grade		= 10
+ModelID		= 111
+Scale		= 0.8f
+
+
+[AIBot815] //41웨이브용 윌리 진짜
+Name		= "랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 115
+Scale		= 1.1f
+
+
+[AIBot816] //41웨이브용 윌리 가짜
+Name		= "렙터" 
+Type		= 2
+Grade		= 10
+ModelID		= 111
+Scale		= 1.1f
+
+
+[AIBot817] //26웨이브용 안죽는애 11433, 11432
+Name		= "허약한 보너스 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 112
+Scale		= 0.8f
+
+
+[AIBot818] //26웨이브용 안죽는애 10432, 10433
+Name		= "보너스 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 112
+Scale		= 1.1f
+
+
+[AIBot819] //26웨이브용 안죽는애 10432, 10433
+Name		= "정체모를 거대 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 2.0f
+
+
+[AIBot820] //18웨이브용 보상 랩터
+Name		= "아서의 선물" 
+Type		= 2
+Grade		= 10
+ModelID		= 104
+Scale		= 1.5f
+
+
+[AIBot821] //31웨이브 조공용 - 중보 설정
+Name		= "제물용 새끼 랩터" 
+Type		= 3
+Grade		= 100
+ModelID		= 119
+Scale		= 0.4f
+
+[AIBot822] //31웨이브 조공용 -
+Name		= "티라노의 선물 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 113
+Scale		= 0.75f
+
+[AIBot823] //윌리 2 폭발용
+Name		= "위험한 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 113
+Scale		= 1.1f
+
+[AIBot824] //윌리 2 일반용
+Name		= "보너스 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 113
+Scale		= 1.1f
+
+[AIBot825] //31웨이브 조공용 - 보스 설정
+Name		= "제물용 새끼 랩터" 
+Type		= 4
+Grade		= 10
+ModelID		= 119
+Scale		= 0.4f
+
+
+///////////////////////////////////////////////////
+
+
+[AIBot900] 
+Name		= "스티기몰로크" 
+Type		= 4
+Grade		= 100
+ModelID		= 400
+Scale		= 1.0f
+
+[AIBot901] 
+Name		= "사나운 스티기몰로크" 
+Type		= 4
+Grade		= 100
+ModelID		= 401
+Scale		= 1.0f
+
+
+[AIBot903] 
+Name		= "자폭 스티기몰로크" 
+Type		= 4
+Grade		= 100
+ModelID		= 403
+Scale		= 1.0f
+
+[AIBot904] 
+Name		= "보너스 스티기몰로크" 
+Type		= 4
+Grade		= 100
+ModelID		= 404
+Scale		= 1.0f
+
+[AIBot906] 
+Name		= "근성 스티기몰로크" 
+Type		= 4
+Grade		= 100
+ModelID		= 406
+Scale		= 1.0f
+////////////////////////////
+[AIBot910] 
+Name		= "랩터"  //플래그용 랩터
+Type		= 4
+Grade		= 10
+ModelID		= 442
+Scale		= 1.0f
+
+[AIBot911] 
+Name		= "랩터"  //필살기 발도용 랩터
+Type		= 3
+Grade		= 100
+ModelID		= 442
+Scale		= 1.0f
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////
+[AIBot950] 
+Name		= "딜로포사우루스" 
+Type		= 2
+Grade		= 10
+ModelID		= 420
+Scale		= 1.0f
+
+[AIBot951] 
+Name		= "사나운 딜로포사우루스" 
+Type		= 2
+Grade		= 10
+ModelID		= 421
+Scale		= 1.0f
+
+[AIBot952] 
+Name		= "특공 딜로포사우루스" 
+Type		= 2
+Grade		= 10
+ModelID		= 422
+Scale		= 1.0f
+
+[AIBot954] 
+Name		= "보너스 딜로포사우루스" 
+Type		= 2
+Grade		= 10
+ModelID		= 424
+Scale		= 1.0f
+
+[AIBot956] 
+Name		= "근성 딜로포사우루스" 
+Type		= 2
+Grade		= 10
+ModelID		= 426
+Scale		= 1.0f
+
+[AIBot957] 
+Name		= "버서크 딜로포사우루스" 
+Type		= 2
+Grade		= 10
+ModelID		= 427
+Scale		= 1.0f
+
+//////////////////////////////////////////
+[AIBot970]
+Name		= "랩터" //랩터 녹색(기본형)
+Type		= 2
+Grade		= 10
+ModelID		= 440
+Scale		= 1.0f
+IconName   = "raptor_d.dtx"
+
+[AIBot971]
+Name		= "사나운 랩터" //랩터 녹색(기본형)
+Type		= 2
+Grade		= 10
+ModelID		= 441
+Scale		= 1.0f
+IconName   = "raptor_d.dtx"
+
+[AIBot980]
+Name		= "1호 교도관" //5wave 트리지키는 티라노
+Type		= 4
+Grade		= 10
+ModelID		= 451
+Scale		= 0.25f
+IconName   = "tyrannosaurus_d.dtx"
+
+[AIBot981]
+Name		= "2호 교도관" //5wave 트리지키는 티라노
+Type		= 4
+Grade		= 10
+ModelID		= 451
+Scale		= 0.25f
+IconName   = "tyrannosaurus_d.dtx"
+
+[AIBot982]
+Name		= "3호 교도관" //5wave 트리지키는 티라노
+Type		= 4
+Grade		= 10
+ModelID		= 451
+Scale		= 0.25f
+IconName   = "tyrannosaurus_d.dtx"
+
+[AIBot983]
+Name		= "4호 교도관" //5wave 트리지키는 티라노
+Type		= 4
+Grade		= 10
+ModelID		= 451
+Scale		= 0.25f
+IconName   = "tyrannosaurus_d.dtx"
+
+[AIBot984]
+Name		= "티라노 소환수" //InGame_제사장의 소환수
+Type		= 4
+Grade		= 10
+ModelID		= 452
+Scale		= 0.5f
+IconName   = "tyrannosaurus_d.dtx"
+
+[AIBot985]
+Name		= "랩터 교도관" //InGame
+Type		= 2
+Grade		= 10
+ModelID		= 410
+Scale		= 1.5f 
+IconName   = "raptor_d.dtx"
+
+[AIBot991]
+Name		= "어둠의 주술사" //InGame_아서의 뿔 봉인하는 애들
+Type		= 4
+Grade		= 10
+ModelID		= 380
+Scale		= 1.0f
+IconName   = "dilophosaurus_d.dtx"
+
+[AIBot992] //플레이어 공격용 트리
+Name		= "수상한 트리케라톱스" //InGame_세뇌당한 트리케라톱스
+Type		= 3
+Grade		= 10
+ModelID		= 201
+Scale		= 0.5f
+IconName   = "pentaceratops_d.dtx"
+
+
+[AIBot993] //철창에 갇힌 트리.. 플레이어 도와준다.
+Name		= "갇힌 트리케라톱스" //Ingame_철창에 갇힌 트리
+Type		= 3
+Grade		= 100
+ModelID		= 200
+Scale		= 0.5f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot994] //세뇌중 트리.. 바보다...
+Name		= "세뇌중인 트리케라톱스" //Ingame_6wav에서 주술의 힘에 세뇌 당하는 트리
+Type		= 3
+Grade		= 100
+ModelID		= 206
+Scale		= 0.5f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot995]
+Name		= "경비대장 안테노라"  //Ingame_전투용 안테노라
+Type		= 3
+Grade		= 1000
+ModelID		= 356
+Scale		= 2.0f
+IconName   = "raptor_d.dtx"
+
+[AIBot999]
+Name		= "" //투명 더미박스
+Type		= 3
+Grade		= 1
+ModelID		= 2
+Scale		= 1.0f
+
+
+[AIBot1000]
+Name		= "Lv.3 패왕새끼" //테스트용
+Type		= 3
+Grade		= 1000
+ModelID		= 362
+Weapon1		= 9
+Weapon2		= 0
+Weapon3		= 0
+Scale		= 1.0f
+
+
+
+[AIBot1001]
+Name		= "각룡왕자 아서" //테스트용
+Type		= 2
+Grade		= 100
+ModelID		= 368
+Scale		= 1.0f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot1002]
+Name		= "부상당한 아서" //Ingame_쓰러져 있는 아서
+Type		= 3
+Grade		= 100
+ModelID		= 352
+Scale		= 0.5f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot1011]
+Name		= "아서" // Scene & Play 공용
+Type		= 2
+Grade		= 100
+ModelID		= 353
+Scale		= 0.5f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot1012]
+Name		= "각룡왕 우서" //우서...
+Type		= 2
+Grade		= 100
+ModelID		= 354
+Scale		= 1.0f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot1013]
+Name		= "세경" //테스트용
+Type		= 1
+Grade		= 10
+ModelID		= 360
+Scale		= 1.0f
+ShaderType = 10
+IconName   = "segyoung_d.dtx"
+
+[AIBot1014]
+Name		= "각룡왕 아서" //아서 각성 버전, Scene & Play 공용
+Type		= 3
+Grade		= 100
+ModelID		= 350
+Scale		= 0.75f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot1015]
+Name		= "모드레드" //Scene & Play 공용
+Type		= 4
+Grade		= 1000
+ModelID		= 351
+Scale		= 0.75f
+ShaderType = 9
+IconName   = "modred_d.dtx"
+
+[AIBot1016]
+Name		= "모드레드" //Ingame_무적모드레드
+Type		= 4
+Grade		= 1000
+ModelID		= 358
+Scale		= 0.75f
+ShaderType = 9
+IconName   = "modred_d.dtx"
+
+[AIBot1017]
+Name		= "Easy_세경_씨네마" //Scene
+Type		= 1
+Grade		= 10
+ModelID		= 365
+Scale		= 1.0f
+ShaderType = 10
+IconName   = "segyoung_d.dtx"
+
+[AIBot1018]
+Name		= "Normal_세경_씨네마" //Scene
+Type		= 2
+Grade		= 100
+ModelID		= 368
+Scale		= 1.0f
+ShaderType = 10
+IconName   = "segyoung_d.dtx"
+
+[AIBot1019]
+Name		= "Hard_세경_씨네마" //Scene
+Type		= 2
+Grade		= 100
+ModelID		= 372
+Scale		= 1.0f
+ShaderType = 10
+IconName   = "segyoung_d.dtx"
+
+[AIBot1020]
+Name		= "감옥장 트로메아"  //Scene & Play 공용
+Type		= 3
+Grade		= 10
+ModelID		= 355
+Scale		= 0.75f
+IconName   = "tyrannosaurus_d.dtx"
+
+[AIBot1021]
+Name		= "경비대장 안테노라" //Scene & Play 공용
+Type		= 3
+Grade		= 1000
+ModelID		= 356
+Scale		= 2.0f
+IconName   = "raptor_d.dtx"
+
+[AIBot1022]
+Name		= "제사장 코큐토스" //Scene & Play 공용
+Type		= 3
+Grade		= 10
+ModelID		= 357
+Scale		= 2.0f
+IconName   = "dilophosaurus_d.dtx"
+
+[AIBot1023]
+Name		= "정찰 랩터" //Ingame
+Type		= 3
+Grade		= 10
+ModelID		= 442
+Scale		= 0.8f
+IconName   = "raptor_d.dtx"
+
+[AIBot1024]
+Name		= "Easy_세경" //플레이용
+Type		= 1
+Grade		= 100
+ModelID		= 365
+Scale		= 1.0f
+ShaderType = 10
+IconName   = "segyoung_d.dtx"
+
+[AIBot1025]
+Name		= "제사장 코큐토스" //Ingame_무적
+Type		= 3
+Grade		= 10
+ModelID		= 359
+Scale		= 1.0f
+IconName   = "dilophosaurus_d.dtx"
+
+[AIBot1026]
+Name		= "기절한 모드레드" //Ingame_무적
+Type		= 3
+Grade		= 100
+ModelID		= 366
+Scale		= 1.0f
+ShaderType = 9
+IconName   = "modred_d.dtx"
+
+[AIBot1027]
+Name		= "트리케라톱스 자폭병" //Scene & Play 공용
+Type		= 2
+Grade		= 10
+ModelID		= 208
+Scale		= 0.25f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot1028]
+Name		= "문지기 티라노" //Ingame
+Type		= 4
+Grade		= 1000
+ModelID		= 451
+Scale		= 0.25f
+IconName   = "tyrannosaurus_d.dtx"
+
+
+[AIBot1029]
+Name		= "공룡 우리"
+Type		= 4
+Grade		= 10
+ModelID		= 428
+Scale		= 0.5f
+
+
+ 
+[AIBot1030]
+Name		= ""//랩터 집 - 사용 안하는중
+Type		= 3
+Grade		= 44
+ModelID		= 429
+Scale		= 0.7f
+
+
+[AIBot1031]
+Name		= "" //우서의 뿔_봉인된 상태
+Type		= 1
+Grade		= 1000
+ModelID		= 435
+Scale		= 0.5f
+
+[AIBot1032]
+Name		= ""//우서의 뿔_봉인 해제
+Type		= 1
+Grade		= 1000
+ModelID		= 436
+Scale		= 0.5f
+
+
+[AIBot1033]
+Name		= ""//우서의 뿔_힘 사용 중
+Type		= 1
+Grade		= 1000
+ModelID		= 430
+Scale		= 0.5f
+
+[AIBot1034]
+Name		= ""//바리케이트
+Type		= 3
+Grade		= 44
+ModelID		= 431
+Scale		= 0.5f
+IconName   = "barricade_d.dtx"
+
+[AIBot1035]
+Name		= ""//Easy용 장애물
+Type		= 3
+Grade		= 44
+ModelID		= 432
+Scale		= 1.0f
+
+[AIBot1036]
+Name		= ""//Normal용 장애물
+Type		= 3
+Grade		= 44
+ModelID		= 433
+Scale		= 1.0f
+
+[AIBot1037]
+Name		= ""//Hard용 장애물
+Type		= 3
+Grade		= 44
+ModelID		= 434
+Scale		= 1.0f
+
+[AIBot1038]
+Name		= "기절한 아서"//Ingame 출력용
+Type		= 4
+Grade		= 100
+ModelID		= 369
+Scale		= 0.75f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot1039] // Easy
+Name		= "기절한 세경"//Ingame 출력용
+Type		= 3
+Grade		= 100
+ModelID		= 370
+Scale		= 1.0f
+ShaderType = 10
+IconName   = "segyoung_d.dtx"
+
+[AIBot1040]
+Name		= "1호 교도관" //Easy_5wave 트리지키는 랩터
+Type		= 4
+Grade		= 10
+ModelID		= 443
+Scale		= 1.5f
+IconName   = "raptor_d.dtx"
+
+[AIBot1041]
+Name		= "2호 교도관" //Easy_5wave 트리지키는 랩터
+Type		= 4
+Grade		= 10
+ModelID		= 443
+Scale		= 1.5f
+IconName   = "raptor_d.dtx"
+
+[AIBot1042]
+Name		= "3호 교도관" //Easy_5wave 트리지키는 랩터
+Type		= 4
+Grade		= 10
+ModelID		= 443
+Scale		= 1.5f
+IconName   = "raptor_d.dtx"
+
+[AIBot1043]
+Name		= "4호 교도관" //Easy_5wave 트리지키는 랩터
+Type		= 4
+Grade		= 10
+ModelID		= 443
+Scale		= 1.5f
+IconName   = "raptor_d.dtx"
+
+[AIBot1044]
+Name		= "세경"//Ingame 출력용 - Easy 버프 걸어주기 용
+Type		= 1
+Grade		= 100
+ModelID		= 371
+Scale		= 1.0f
+ShaderType = 10
+IconName   = "segyoung_d.dtx"
+
+[AIBot1045]
+Name		= "세경"//Ingame 출력용 - Easy 전투용
+Type		= 3
+Grade		= 100
+Weapon1		= 9
+Weapon2		= 0
+Weapon3		= 0
+ModelID		= 362 
+Scale		= 1.0f
+ShaderType = 10
+IconName   = "segyoung_d.dtx"
+
+[AIBot1046]
+Name		= "신비한 꽃"//Normal용 약초
+Type		= 3
+Grade		= 10
+ModelID		= 437
+Scale		= 0.7f
+
+[AIBot1047]
+Name		= "각룡왕 아서" //아서 자코급 - 필살기 사용용 _Ingame
+Type		= 2
+Grade		= 10
+ModelID		= 350
+Scale		= 0.75f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot1048]
+Name		= "세경"//Ingame 출력용 - Normal 전투용
+Type		= 3
+Grade		= 100
+Weapon1		= 9
+Weapon2		= 0
+Weapon3		= 0
+ModelID		= 363 
+Scale		= 1.0f
+ShaderType = 10
+IconName   = "segyoung_d.dtx"
+
+[AIBot1049]
+Name		= "세경"//Ingame 출력용 - Hard 전투용
+Type		= 5
+Grade		= 100
+Weapon1		= 9
+Weapon2		= 0
+Weapon3		= 0
+ModelID		= 364
+Scale		= 1.0f
+ShaderType = 10
+IconName   = "segyoung_d.dtx"
+
+[AIBot1050]
+Name		= "세경"//Easy 총든 세경 Scene
+Type		= 1
+Grade		= 100
+Weapon1		= 9
+Weapon2		= 9
+Weapon3		= 9
+ModelID		= 365
+Scale		= 1.0f
+ShaderType = 10
+IconName   = "segyoung_d.dtx"
+
+[AIBot1051]
+Name		= "세경"//Normal 총든 세경 Scene
+Type		= 1
+Grade		= 100
+Weapon1		= 9
+Weapon2		= 9
+Weapon3		= 9
+ModelID		= 368
+Scale		= 1.0f
+ShaderType = 10
+IconName   = "segyoung_d.dtx"
+
+[AIBot1052]
+Name		= "세경"//Hard 총든 세경 Scene
+Type		= 1
+Grade		= 100
+Weapon1		= 9
+Weapon2		= 9
+Weapon3		= 9
+ModelID		= 372
+Scale		= 1.0f
+ShaderType = 10
+IconName   = "segyoung_d.dtx"
+
+[AIBot1053]
+Name		= "아서" // Play용 -> 어디 나오는 애지?
+Type		= 2
+Grade		= 100
+ModelID		= 353
+Scale		= 0.5f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot1054] //트리케라톱스 전사들
+Name		= "트리 전사" //Ingame_트리케라톱스 전사
+Type		= 3
+Grade		= 100
+ModelID		= 200
+Scale		= 0.5f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot1055]
+Name		= "세경" //Ingame_Hard 초반 플레이용  
+Type		= 3
+Grade		= 100
+ModelID		= 364
+Scale		= 1.0f
+IconName   = "segyoung_d.dtx"
+
+[AIBot1056]
+Name		= "세경" //Ingame_Hard 초반 플레이용 -무기 없음
+Type		= 3
+Grade		= 100
+ModelID		= 364
+Scale		= 1.0f
+Weapon1		= 9
+Weapon2		= 0
+Weapon3		= 0
+ShaderType = 10
+IconName   = "segyoung_d.dtx"
+
+[AIBot1057]
+Name		= "보너스 랩터" //Ingame
+Type		= 2
+Grade		= 10
+ModelID		= 442
+Scale		= 0.5f
+ShaderType      = 2
+IconName   = "raptor_d.dtx"
+
+[AIBot1058] //플레이어 공격용 트리
+Name		= "수상한 트리케라톱스" //InGame_세뇌당한 트리케라톱스
+Type		= 3
+Grade		= 10
+ModelID		= 201
+Scale		= 0.5f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot1059] //플레이어 공격용 아서
+Name		= "아서" //InGame_세뇌당한 아서
+Type		= 3
+Grade		= 100
+ModelID		= 373
+Scale		= 0.5f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot1060] 
+Name		= "정체모를 종족" //Hard용 일반 좀비
+Type		= 2
+Grade		= 10
+//ModelID		= 381
+ModelID		= 418
+Scale		= 1.0f
+IconName   = "zombie_d.dtx"
+
+[AIBot1061] 
+Name		= "정체모를 '센' 종족" //Hard용 특수 좀비
+Type		= 2
+Grade		= 10
+//ModelID		= 381
+ModelID		= 418
+Scale		= 1.0f
+IconName   = "zombie_d.dtx"
+
+[AIBot1062]
+Name		= ""//우서의 뿔_힘 사용 중
+Type		= 1
+Grade		= 1000
+ModelID		= 430
+Scale		= 0.25f
+
+[AIBot1063]
+Name		= "부상당한 아서"//겁나 느리게 걸을 예정
+Type		= 3
+Grade		= 100
+ModelID		= 374
+Scale		= 0.5f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot1064]
+Name		= "각룡왕 아서" //아서 각성 버전,
+Type		= 3
+Grade		= 100
+ModelID		= 350
+Scale		= 0.75f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot1065] //정신차린 아서
+Name		= "아서" //InGame_정신차린 아서
+Type		= 3
+Grade		= 100
+ModelID		= 353
+Scale		= 0.5f
+IconName   = "pentaceratops_d.dtx"
+
+[AIBot1066] //빈 박스
+Name		= "" //투명 빈 박스
+Type		= 4
+Grade		= 1000
+ModelID		= 100
+Scale		= 1.0f
+
+[AIBot1067] 
+Name		= "자폭 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 418
+Scale		= 0.8f
+IconName   = "raptor_d.dtx"
+
+[AIBot1068] 
+Name		= "TNT 랩터" 
+Type		= 2
+Grade		= 10
+ModelID		= 419
+Scale		= 0.8f
+IconName   = "raptor_d.dtx"
+
+[AIBot1069]
+Name		= "모드레드" //하드 9wav 꿍용
+Type		= 4
+Grade		= 1000
+ModelID		= 351
+Scale		= 0.75f
+ShaderType = 9
+IconName   = "modred_d.dtx"
+
+[AIBot1070]
+Name		= "세경"//Ingame 출력용 - Hard 전투용
+Type		= 3
+Grade		= 100
+Weapon1		= 9
+Weapon2		= 0
+Weapon3		= 0
+ModelID		= 383
+Scale		= 1.0f
+ShaderType = 10
+IconName   = "segyoung_d.dtx"
+
+[AIBot1071] // Hard
+Name		= "기절한 세경"//Ingame 출력용
+Type		= 3
+Grade		= 100
+ModelID		= 376
+Scale		= 1.0f
+ShaderType = 10
+IconName   = "segyoung_d.dtx"
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////AI-BOt_크로스카운터 추가///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////레드캐릭/////////////////
+
+[AIBot1072] 	// 베이직 레드
+Name		= "베이직레드"
+Grade		= 4
+ModelID		= 0
+Weapon1		= 22
+Weapon2		= 19
+Weapon3		= 0
+
+[AIBot1073] 	// 베이직 레드
+Name		= "베이직레드"
+Grade		= 5
+ModelID		= 0
+Weapon1		= 22
+Weapon2		= 19
+Weapon3		= 0
+
+[AIBot1074]	 // 베테랑 레드
+Name		= "베테랑레드"
+Grade		= 7
+ModelID		= 20
+Weapon1		= 22
+Weapon2		= 19
+Weapon3		= 0
+
+
+[AIBot1075] 	// 베테랑 레드
+Name		= "베테랑레드"
+Grade		= 9
+ModelID		= 20
+Weapon1		= 22
+Weapon2		= 1
+Weapon3		= 48
+
+[AIBot1076] 	// 엘리트 레드
+Name		= "엘리트레드"
+Grade		= 11
+ModelID		= 42
+Weapon1		= 22
+Weapon2		= 1
+Weapon3		= 48
+
+[AIBot1077] 	// 엘리트 레드
+Name		= "엘리트레드"
+Grade		= 12
+ModelID		= 42
+Weapon1		= 22
+Weapon2		= 1
+Weapon3		= 48
+
+
+[AIBot1078] 	// 커멘더 레드
+Name		= "커멘더레드"
+Grade		= 14
+ModelID		= 24
+Weapon1		= 22
+Weapon2		= 135
+Weapon3		= 28
+
+[AIBot1079]	 // 커멘더 레드
+Name		= "커멘더레드"
+Grade		= 15
+ModelID		= 24
+Weapon1		= 22
+Weapon2		= 135
+Weapon3		= 28
+
+[AIBot1080] 	// 스트라이커
+Name		= "스트라이커"
+Grade		= 18
+ModelID		= 26
+Weapon1		= 22
+Weapon2		= 135
+Weapon3		= 28
+
+
+
+[AIBot1081]	// 잔호크
+Name		= "잔호크"
+Grade		= 20
+ModelID		= 10
+Weapon1		= 22
+Weapon2		= 1
+Weapon3		= 48
+
+[AIBot1082]	// 레드윈드(흑룡)
+Name		= "폭스리콘"
+Grade		= 25
+ModelID		= 30
+Weapon1		= 22
+Weapon2		= 1
+Weapon3		= 48
+
+[AIBot1083]	// 유니크레드
+Name		= "유니크레드"
+Grade		= 29
+ModelID		= 65
+Weapon1		= 22
+Weapon2		= 1
+Weapon3		= 48
+
+
+[AIBot1084]	// W-Scout
+Name		= "W-Scout"
+Grade		= 34
+ModelID		= 32
+Weapon1		= 22
+Weapon2		= 418
+Weapon3		= 28
+
+[AIBot1085]	// 무녀 레드
+Name		= "무녀"
+Grade		= 35
+ModelID		= 214
+Weapon1		= 22
+Weapon2		= 418
+Weapon3		= 28
+
+[AIBot1086]	// 트렌치 레드
+Name		= "트렌치걸"
+Grade		= 37
+ModelID		= 315
+Weapon1		= 22
+Weapon2		= 418
+Weapon3		= 28
+
+
+[AIBot1087]	// 한복 레드
+Name		= "댕기머리"
+Grade		= 40
+ModelID		= 349
+Weapon1		= 515
+Weapon2		= 418
+Weapon3		= 48
+
+[AIBot1088]	// 한복 레드
+Name		= "댕기머리"
+Grade		= 41
+ModelID		= 349
+Weapon1		= 515
+Weapon2		= 418
+Weapon3		= 48
+
+
+[AIBot1089]	// 코믹 뱀파이어 레드
+Name		= "코믹뱀파이어"
+Grade		= 43
+ModelID		= 363
+Weapon1		= 515
+Weapon2		= 418
+Weapon3		= 48
+
+
+[AIBot1090]	// 코믹 뱀파이어 레드
+Name		= "코믹뱀파이어"
+Grade		= 44
+ModelID		= 363
+Weapon1		= 515
+Weapon2		= 418
+Weapon3		= 28
+
+[AIBot1091]	// 유카타 레드
+Name		= "유카타소녀"
+Grade		= 46
+ModelID		= 351
+Weapon1		= 819
+Weapon2		= 822
+Weapon3		= 28
+
+[AIBot1092]	// 유카타 레드
+Name		= "유카타소녀"
+Grade		= 48
+ModelID		= 351
+Weapon1		= 819
+Weapon2		= 822
+Weapon3		= 28
+
+
+[AIBot1093]	// 비키니 레드
+Name		= "빨간비키니걸"
+Grade		= 50
+ModelID		= 457
+Weapon1		= 819
+Weapon2		= 366
+Weapon3		= 48
+
+[AIBot1094]	// 비키니 레드
+Name		= "빨간비키니걸"
+Grade		= 52
+ModelID		= 457
+Weapon1		= 819
+Weapon2		= 366
+Weapon3		= 48
+
+
+[AIBot1095]	// 천사 레드
+Name		= "☆천사☆"
+Grade		= 55
+ModelID		= 405
+Weapon1		= 555
+Weapon2		= 664
+Weapon3		= 48
+
+
+
+[AIBot1096]	// 곰돌이 레드
+Name		= "곰돌이Yoon"
+Grade		= 56
+ModelID		= 224
+Weapon1		= 482
+Weapon2		= 661
+Weapon3		= 28
+
+
+
+[AIBot1097]	// 곰돌이 레드
+Name		= "외모굿곰돌이"
+Grade		= 56
+ModelID		= 224
+Weapon1		= 482
+Weapon2		= 661
+Weapon3		= 28
+
+
+
+[AIBot1098]	// 곰돌이 레드
+Name		= "실력굿곰돌이"
+Grade		= 56
+ModelID		= 224
+Weapon1		= 482
+Weapon2		= 661
+Weapon3		= 28
+
+
+
+[AIBot1099]	// 곰돌이 레드
+Name		= "VIP곰돌이"
+Grade		= 57
+ModelID		= 403
+Weapon1		= 482
+Weapon2		= 661
+Weapon3		= 28
+
+
+
+[AIBot1100]	// 곰돌이 레드
+Name		= "UDT곰돌이"
+Grade		= 57
+ModelID		= 403
+Weapon1		= 482
+Weapon2		= 661
+Weapon3		= 28
+
+
+
+
+[AIBot1101]	// 곰돌이 레드
+Name		= "VVIP곰돌이"
+Grade		= 58
+ModelID		= 403
+Weapon1		= 482
+Weapon2		= 661
+Weapon3		= 28
+
+
+
+
+[AIBot1102]	// 곰돌이 레드
+Name		= "팬더 숀"
+Grade		= 58
+ModelID		= 455
+Weapon1		= 482
+Weapon2		= 661
+Weapon3		= 28
+
+
+
+
+[AIBot1103]	// 곰돌이 레드
+Name		= "팬더 숀"
+Grade		= 59
+ModelID		= 455
+Weapon1		= 482
+Weapon2		= 661
+Weapon3		= 28
+
+
+
+
+[AIBot1104]	// 곰돌이 레드
+Name		= "『0.2초컷』곰돌이"
+Grade		= 60
+ModelID		= 499
+Weapon1		= 482
+Weapon2		= 661
+Weapon3		= 28
+
+
+
+
+
+
+
+///////////////블루캐릭/////////////////
+
+
+[AIBot1105]	// 베이직 블루
+Name		= "베이직블루"
+Grade		= 3
+ModelID		= 1
+Weapon1		= 22
+Weapon2		= 19
+Weapon3		= 0
+
+[AIBot1106]	// 베이직 블루
+Name		= "베이직블루"
+Grade		= 5
+ModelID		= 1
+Weapon1		= 22
+Weapon2		= 19
+Weapon3		= 0
+
+[AIBot1107]	// 베테랑 블루
+Name		= "베테랑블루"
+Grade		= 7
+ModelID		= 21
+Weapon1		= 22
+Weapon2		= 19
+Weapon3		= 0
+
+
+
+[AIBot1108]	// 베테랑 블루
+Name		= "베테랑블루"
+Grade		= 9
+ModelID		= 21
+Weapon1		= 22
+Weapon2		= 1
+Weapon3		= 48
+
+[AIBot1109]	// 엘리트 블루
+Name		= "엘리트블루"
+Grade		= 11
+ModelID		= 43
+Weapon1		= 22
+Weapon2		= 1
+Weapon3		= 48
+
+[AIBot1110]	// 엘리트 블루
+Name		= "엘리트블루"
+Grade		= 12
+ModelID		= 43
+Weapon1		= 22
+Weapon2		= 1
+Weapon3		= 48
+
+
+
+[AIBot1111]	// 커멘더 블루
+Name		= "커멘더블루"
+Grade		= 13
+ModelID		= 25
+Weapon1		= 22
+Weapon2		= 135
+Weapon3		= 28
+
+[AIBot1112]	// 커멘더 블루
+Name		= "커멘더블루"
+Grade		= 14
+ModelID		= 25
+Weapon1		= 22
+Weapon2		= 135
+Weapon3		= 28
+
+[AIBot1113]	// 델타스쿼드
+Name		= "델타스쿼드"
+Grade		= 15
+ModelID		= 27
+Weapon1		= 22
+Weapon2		= 135
+Weapon3		= 28
+
+
+[AIBot1114]	// 카를로스
+Name		= "카를로스"
+Grade		= 20
+ModelID		= 29
+Weapon1		= 22
+Weapon2		= 1
+Weapon3		= 48
+
+[AIBot1115]	// 블랙캣
+Name		= "블랙캣"
+Grade		= 27
+ModelID		= 31
+Weapon1		= 22
+Weapon2		= 1
+Weapon3		= 48
+
+[AIBot1116]	// 무녀 블루
+Name		= "무녀"
+Grade		= 29
+ModelID		= 215
+Weapon1		= 22
+Weapon2		= 1
+Weapon3		= 48
+
+
+[AIBot1117]	// 쥬디스호크
+Name		= "쥬디스호크"
+Grade		= 34
+ModelID		= 35
+Weapon1		= 22
+Weapon2		= 418
+Weapon3		= 28
+
+[AIBot1118]	// 유니크 블루
+Name		= "유니크블루"
+Grade		= 35
+ModelID		= 66
+Weapon1		= 22
+Weapon2		= 418
+Weapon3		= 28
+
+[AIBot1119]	// 트렌치 블루
+Name		= "트렌치걸"
+Grade		= 37
+ModelID		= 316
+Weapon1		= 22
+Weapon2		= 418
+Weapon3		= 28
+
+
+
+[AIBot1120]	// 유카타 블루
+Name		= "유카타소녀"
+Grade		= 42
+ModelID		= 352
+Weapon1		= 819
+Weapon2		= 822
+Weapon3		= 48
+
+[AIBot1121]	// 유카타 블루
+Name		= "유카타소녀"
+Grade		= 44
+ModelID		= 352
+Weapon1		= 819
+Weapon2		= 822
+Weapon3		= 48
+
+[AIBot1122]	// 코믹 뱀파이어
+Name		= "코믹뱀파이어"
+Grade		= 43
+ModelID		= 364
+Weapon1		= 515
+Weapon2		= 418
+Weapon3		= 48
+
+
+[AIBot1123]	// 코믹 뱀파이어
+Name		= "코믹뱀파이어"
+Grade		= 44
+ModelID		= 364
+Weapon1		= 515
+Weapon2		= 418
+Weapon3		= 28
+
+
+[AIBot1124]	// 한복 블루
+Name		= "댕기머리"
+Grade		= 48
+ModelID		= 350
+Weapon1		= 515
+Weapon2		= 366
+Weapon3		= 28
+
+[AIBot1125]	// 한복블루
+Name		= "댕기머리"
+Grade		= 49
+ModelID		= 350
+Weapon1		= 515
+Weapon2		= 366
+Weapon3		= 28
+
+
+[AIBot1126]	// 비키니 블루
+Name		= "파란비키니걸"
+Grade		= 50
+ModelID		= 458
+Weapon1		= 819
+Weapon2		= 366
+Weapon3		= 48
+
+
+[AIBot1127]	// 비키니 블류
+Name		= "파란비키니걸"
+Grade		= 52
+ModelID		= 458
+Weapon1		= 819
+Weapon2		= 366
+Weapon3		= 48
+
+[AIBot1128]	// 악마블루
+Name		= "★악마★"
+Grade		= 55
+ModelID		= 408
+Weapon1		= 515
+Weapon2		= 418
+Weapon3		= 48
+
+
+[AIBot1129]	// 곰돌이 블루
+Name		= "곰돌이HOON"
+Grade		= 56
+ModelID		= 225
+Weapon1		= 504
+Weapon2		= 506
+Weapon3		= 28
+
+[AIBot1130]	// 곰돌이 블루
+Name		= "매너굿곰돌이"
+Grade		= 56
+ModelID		= 225
+Weapon1		= 504
+Weapon2		= 506
+Weapon3		= 28
+
+[AIBot1131]	// 곰돌이 블루
+Name		= "TOP피플곰돌이"
+Grade		= 56
+ModelID		= 225
+Weapon1		= 504
+Weapon2		= 506
+Weapon3		= 28
+
+
+[AIBot1132]	// 곰돌이 블루
+Name		= "UDT곰돌이"
+Grade		= 57
+ModelID		= 440
+Weapon1		= 504
+Weapon2		= 506
+Weapon3		= 28
+
+
+[AIBot1133]	// 곰돌이 블루
+Name		= "VIP곰돌이"
+Grade		= 57
+ModelID		= 440
+Weapon1		= 504
+Weapon2		= 506
+Weapon3		= 28
+
+
+[AIBot1134]	// 곰돌이 블루
+Name		= "VVIP곰돌이"
+Grade		= 58
+ModelID		= 440
+Weapon1		= 504
+Weapon2		= 506
+Weapon3		= 28
+
+
+[AIBot1135]	// 곰돌이 블루
+Name		= "팬더 숀"
+Grade		= 58
+ModelID		= 456
+Weapon1		= 504
+Weapon2		= 506
+Weapon3		= 28
+
+
+[AIBot1136]	// 곰돌이 블루
+Name		= "팬더 숀"
+Grade		= 59
+ModelID		= 456
+Weapon1		= 504
+Weapon2		= 506
+Weapon3		= 28
+
+
+[AIBot1137]	// 곰돌이 블루
+Name		= "『0.2초컷』곰돌이"
+Grade		= 60
+ModelID		= 500
+Weapon1		= 504
+Weapon2		= 506
+Weapon3		= 28
+
+[AIBot1138]
+
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+////////////////////////////////////////////
+// 넥슨을 털어라
+
+[AIBot1139]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "넥슨 경비"
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 456//(AIBotModelbute.txt)
+//ModelID		= 786//(Modelbute.txt)
+Weapon1		= 1535//휘슬
+Weapon2		= 1560 // 경비병총 아나콘다
+Weapon3		= 1560 // 경비병총 아나콘다
+WeaponDamageRate = 0.03f
+StateFX		= " ExclamationM = Attack_Nexon_exclamation_3, Question = Attack_Nexon_Question, Stun = Nexon_weapon_stun"
+RadarType	= 74
+
+[AIBot1140]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "특수 경비"
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 456//(AIBotModelbute.txt)
+//ModelID		= 787//(Modelbute.txt)
+Weapon1		= 1535//휘슬
+Weapon2		= 1526 // 경비병 총 매그넘
+Weapon3		= 1526 // 경비병 총 매그넘
+WeaponDamageRate = 0.15f
+Skin		= "SA_Characters\Skins\nexon\nexon_guard_yellow_default.dtx"
+StateFX		= " ExclamationM = Attack_Nexon_exclamation_3, Question = Attack_Nexon_Question, Stun = Nexon_weapon_stun"
+RadarType	= 74
+
+[AIBot1141]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "김대리"
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 457//(AIBotModelbute.txt)
+//ModelID		= 788
+Weapon1		= 1518 //핸드폰
+Weapon2		= 1518 //핸드폰
+Weapon3		= 1518 //핸드폰
+StateFX		= " ExclamationM = Attack_Nexon_exclamation_3, Question = Attack_Nexon_Question, Stun = Nexon_weapon_stun"
+RadarType	= 75
+WeaponDamageRate = 0.1f
+
+[AIBot1142]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "이대리"
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 458//(AIBotModelbute.txt)
+//ModelID		= 789
+Weapon1		= 1518 //핸드폰
+Weapon2		= 1518 //핸드폰
+Weapon3		= 1518 //핸드폰
+StateFX		= " ExclamationM = Attack_Nexon_exclamation_3, Question = Attack_Nexon_Question, Stun = Nexon_weapon_stun"
+RadarType	= 75
+WeaponDamageRate = 0.1f
+
+[AIBot1143]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "지원팀 신입"//a
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 459//(AIBotModelbute.txt) 
+Weapon1		= 1561 // 경비병용 구르카
+Weapon2		= 1561 // 경비병용 구르카
+Weapon3		= 1561 // 경비병용 구르카
+Skin		= "SA_Characters\Skins\nexon\nexon_red_whitecamo_default.dtx"
+WeaponDamageRate = 0.02f
+StateFX		= "Stun = Nexon_weapon_stun"
+RadarType	= 73
+
+[AIBot1144]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "지원팀 고참"//b
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 459//(AIBotModelbute.txt)
+//ModelID		= 790
+Weapon1		= 1565// 경비병 FAMAS
+Weapon2		= 1565// 경비병 FAMAS
+Weapon3		= 1565// 경비병 FAMAS
+Skin		= "SA_Characters\Skins\nexon\nexon_red_whitecamo_default.dtx"
+WeaponDamageRate = 0.03f
+StateFX		= "Stun = Nexon_weapon_stun"
+RadarType	= 73
+
+[AIBot1145]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "지원팀 정예"//c
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 459//(AIBotModelbute.txt)
+//ModelID		= 790
+Weapon1		= 1563 // 레드용 M4
+Weapon2		= 1563 // 레드용 M4
+Weapon3		= 1563 // 레드용 M4
+Skin		= "SA_Characters\Skins\nexon\nexon_mercenary_red_green_default.dtx"
+WeaponDamageRate = 0.04f
+StateFX		= "Stun = Nexon_weapon_stun"
+RadarType	= 73
+
+[AIBot1146]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "날카로운 해결사"//a
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 460//(AIBotModelbute.txt)
+//ModelID		= 791
+Weapon1		= 1566// 용병 스나 스나는 근거리에 가면 2번무기로 바꾸게 하드코딩 되어있으므로 2번에 반드시 무기가 있어야 한다.
+Weapon2		= 1566// 용병 스나
+Weapon3		= 1566// 용병 스나
+Skin		= "SA_Characters\Skins\nexon\nexon_blue_green_default.dtx"
+WeaponDamageRate = 0.1f
+StateFX		= "Stun = Nexon_weapon_stun"
+RadarType	= 73
+
+[AIBot1147]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "해결팀 고참"//b
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 460//(AIBotModelbute.txt)
+//ModelID		= 791
+Weapon1		= 1564// 용병용 라이플
+Weapon2		= 1564// 용병용 라이플
+Weapon3		= 1564// 용병용 라이플
+Skin		= "SA_Characters\Skins\nexon\nexon_blue_skyblue_default.dtx"
+WeaponDamageRate = 0.04f
+StateFX		= "Stun = Nexon_weapon_stun"
+RadarType	= 73
+
+[AIBot1148]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "해결팀 정예"//c
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 460//(AIBotModelbute.txt)
+//ModelID		= 791
+Weapon1		= 1519//Mp5 
+Weapon2		= 1519//Mp5 
+Weapon3		= 1519//Mp5 
+Skin		= "SA_Characters\Skins\nexon\nexon_blue_orange_default.dtx"
+WeaponDamageRate = 0.03f
+StateFX		= "Stun = Nexon_weapon_stun"
+RadarType	= 73
+
+[AIBot1149]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "철벽방어 해결사"
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 461//(AIBotModelbute.txt)
+//ModelID		= 792
+Weapon1		= 1560//경비용 권총 거리 짧게해야하는디..무한돌격시키자
+Weapon2		= 1560//경비용 권총 거리 짧게해야하는디..무한돌격시키자
+Weapon3		= 1560//경비용 권총 거리 짧게해야하는디..무한돌격시키자
+WeaponDamageRate = 0.02f
+StateFX		= "Stun = Nexon_weapon_stun"
+RadarType	= 73
+
+[AIBot1150]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "개발자"
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 462//(AIBotModelbute.txt)
+//ModelID		= 793
+//Weapon1		= 1561//아즈마용 도끼
+Weapon1		= 1567//아즈마용 개틀링
+Weapon2		= 1567//아즈마용 개틀링
+Weapon3		= 1567//아즈마용 개틀링
+WeaponDamageRate = 0.05f
+StateFX		= "Stun = Nexon_weapon_stun"
+RadarType	= 73
+
+[AIBot1151]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "우수 사원 배찌"
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 463//(AIBotModelbute.txt)
+//ModelID		= 794
+Weapon1		= 1524 // 배찌쌍칼
+NoModelWeapon2 = "ID = 1517 | DelayFire = 6.00 | Socket = RightHand | DirNoise = 0.0 | Emotion = 2 | MoveRate = 1.0 " // 무기를 이쪽이랑 저쪽을 다르게 만드는걸 생각해보자
+Weapon3		= 1524 // 배찌쌍칼
+WeaponDamageRate = 0.02f
+RadarType	= 73
+
+[AIBot1152]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "우수 사원 다오"
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 464//(AIBotModelbute.txt)
+//ModelID		= 795
+Weapon1		= 1529//다오총
+Weapon2		= 1521 // 다오폭탄
+Weapon3		= 1529//다오총
+RadarType	= 73
+WeaponDamageRate = 0.02f
+
+[AIBot1153]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "개발실 김실장"//일반
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 465//(AIBotModelbute.txt)
+//ModelID		= 796
+Weapon1		= 1518//핸드폰
+Weapon2		= 1518//핸드폰
+Weapon3		= 1518//핸드폰
+BigHead		= True
+Face		= "face_normal,face_smile,face_angry"
+NDeathFace	= 2
+SDeathFace	= 1
+RadarType	= 73
+StateFX		= "ExclamationM = Attack_Nexon_exclamation_3, Question = Attack_Nexon_Question"
+
+[AIBot1154]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "야근파워 캡틴 킴"
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 466//(AIBotModelbute.txt)
+Weapon1		= 1515  // 쌍권총
+Weapon2		= 1534//서류뭉치
+Weapon3		= 1515  // 쌍권총
+BigHead		= True
+Face		= "face_normal,face_smile,face_angry"
+NDeathFace	= 2
+SDeathFace	= 1
+RadarType	= 73
+WeaponDamageRate = 0.1f
+
+[AIBot1155]
+BrainType = 1
+ForceTeam            = 2
+Name                   = "탱크 김실장"//탱크
+Grade                   = 0
+Type                     = 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID               = 467//(AIBotModelbute.txt)
+NoModelWeapon1 = "ID = 1527 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0 | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon2 = "ID = 1527 | DelayFire = 0.4 | Socket = FX | DirNoise = 20.0 | Emotion = 2 | MoveRate = 1.0"
+BigHead               = True
+Face                     = "face_normal,face_smile,face_angry"
+NDeathFace          = 2
+SDeathFace           = 1
+RadarType	= 73
+WeaponDamageRate = 0.04f
+
+[AIBot1156]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "위대한 김사장"
+Grade		= 0
+Type                     = 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID               = 468//(AIBotModelbute.txt)
+// -	무기아이디 | 총속 | 시작소켓이름 | 노이즈값 | 이모션애니 | 이동속도 | 동시발사수
+NoModelWeapon1 = "ID = 1562 | DelayFire = 1.0 | Socket = LeftFX | DirNoise = 7.0 | Emotion = 2 | MoveRate = 0 | FireCount = 10" // 무기를 이쪽이랑 저쪽을 다르게 만드는걸 생각해보자
+NoModelWeapon2 = "ID = 1562 | DelayFire = 0.05 | Socket = RightFX | DirNoise = 5.0 | Emotion = 1 | MoveRate = 0 | FireCount = 4" // 
+NoModelWeapon3 = "ID = 1533 | DelayFire = 1.0 | Socket = RightFX | DirNoise = 5.0 | Emotion = 3 | MoveRate = 0 | FireCount = 1" // 
+
+BigHead               = True
+Face                     = "face_normal,face_smile,face_angry"
+NDeathFace          = 2
+SDeathFace           = 1
+RadarType	= 73
+WeaponDamageRate = 0.05f
+
+[AIBot1157]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "야식먹던 개발자"
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 462//(AIBotModelbute.txt)
+//ModelID		= 793
+Weapon1		= 328//레알닭다리
+Weapon2		= 328//레알닭다리
+Weapon3		= 328//레알닭다리
+WeaponDamageRate = 0.5f
+RadarType	= 73
+
+[AIBot1158]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "넥슨의 문장"
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 469//(AIBotModelbute.txt)
+NoModelWeapon1 = "ID = 1532 | DelayFire = 1.0 | Socket = Left_fire | DirNoise = 5.0 | Emotion = 1 | MoveRate = 2 " // 터져라!
+NoModelWeapon2 = "ID = 1532 | DelayFire = 1.0 | Socket = Right_fire | DirNoise = 5.0 | Emotion = 1 | MoveRate = 2 " // 터져라!
+WeaponDamageRate = 0.03f
+RadarType	= 73
+
+
+[AIBot1159]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "실장직속 해결사"//a
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 460//(AIBotModelbute.txt)
+//ModelID		= 791
+Weapon1		= 1566// 용병 스나
+Weapon2		= 1566// 용병 스나
+Weapon3		= 1566// 용병 스나
+Skin		= "SA_Characters\Skins\nexon\nexon_blue_orange_default.dtx"
+WeaponDamageRate = 0.3f
+Ray                      = "Tag = 3288, Move = 50, Speed = 3, Radius = 3"
+StateFX		= "Stun = Nexon_weapon_stun"
+RadarType	= 73
+
+[AIBot1160]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "이사직속 해결사"//a
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 460//(AIBotModelbute.txt)
+//ModelID		= 791
+Weapon1		= 1566// 용병 스나
+Weapon2		= 1566// 용병 스나
+Weapon3		= 1566// 용병 스나
+Skin		= "SA_Characters\Skins\nexon\nexon_blue_orange_default.dtx"
+WeaponDamageRate = 0.3f
+StateFX		= "Stun = Nexon_weapon_stun"
+RadarType	= 73
+Ray                      = "Tag = 4488, Move = 50, Speed = 3, Radius = 3"
+
+[AIBot1161]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "이사직속 해결사"//a
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 460//(AIBotModelbute.txt)
+//ModelID		= 791
+Weapon1		= 1566// 용병 스나
+Weapon2		= 1566// 용병 스나
+Weapon3		= 1566// 용병 스나
+Skin		= "SA_Characters\Skins\nexon\nexon_blue_orange_default.dtx"
+WeaponDamageRate = 0.3f
+StateFX		= "Stun = Nexon_weapon_stun"
+RadarType	= 73
+Ray                      = "Tag = 4489, Move = 50, Speed = 3, Radius = 3"
+
+
+[AIBot1162]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "사장직속 해결사"//a
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 460//(AIBotModelbute.txt)
+//ModelID		= 791
+Weapon1		= 1566// 용병 스나
+Weapon2		= 1566// 용병 스나
+Weapon3		= 1566// 용병 스나
+Skin		= "SA_Characters\Skins\nexon\nexon_blue_orange_default.dtx"
+WeaponDamageRate = 0.3f
+StateFX		= "Stun = Nexon_weapon_stun"
+RadarType	= 73
+Ray                      = "Tag = 4388, Move = 50, Speed = 3, Radius = 3"
+
+[AIBot1163]
+BrainType	= 1
+ForceTeam	= 2
+Name		= "사장직속 해결사"//b
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 460//(AIBotModelbute.txt)
+//ModelID		= 791
+Weapon1		= 1566// 용병 스나
+Weapon2		= 1566// 용병 스나
+Weapon3		= 1566// 용병 스나
+Skin		= "SA_Characters\Skins\nexon\nexon_blue_orange_default.dtx"
+WeaponDamageRate = 0.3f
+StateFX		= "Stun = Nexon_weapon_stun"
+RadarType	= 73
+Ray                      = "Tag = 4389, Move = 50, Speed = 3, Radius = 3"
+
+
+[AIBot1164]  // 아이템드랍용 특별경비 주차장 문 앞
+BrainType	= 1
+ForceTeam	= 2
+Name		= "넥슨 경비"
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 456//(AIBotModelbute.txt)
+//ModelID		= 786//(Modelbute.txt)
+Weapon1		= 1535//휘슬
+Weapon2		= 1560 // 경비병총 아나콘다
+Weapon3		= 1560 // 경비병총 아나콘다
+WeaponDamageRate = 0.03f
+StateFX		= " ExclamationM = Attack_Nexon_exclamation_3, Question = Attack_Nexon_Question, Stun = Nexon_weapon_stun"
+RadarType	= 74
+ShaderType      = 6
+
+
+[AIBot1165]  // 아이템드랍용 특별경비 시작위치 
+BrainType	= 1
+ForceTeam	= 2
+Name		= "넥슨 경비"
+Grade		= 0
+Type		= 4//공룡모드형 모델을 사용하려면 있어야 한다.
+ModelID		= 456//(AIBotModelbute.txt)
+//ModelID		= 786//(Modelbute.txt)
+Weapon1		= 1535//휘슬
+Weapon2		= 1560 // 경비병총 아나콘다
+Weapon3		= 1560 // 경비병총 아나콘다
+WeaponDamageRate = 0.03f
+StateFX		= " ExclamationM = Attack_Nexon_exclamation_3, Question = Attack_Nexon_Question, Stun = Nexon_weapon_stun"
+RadarType	= 74
+
+//놈놈놈 미끼 레드
+[AIBot1166]
+Name		= "미끼"
+ModelID		= -1 //(modelbutes.txt 에서 PC 에 해당되는 자를 부른다.) 
+ClientSolid	= false // 사람을 통과시킨다.
+weapon1 = 1692 // 활의 경우에는 idle1 을 idle 대신 사용하게끔 하드코딩
+RespawnFX		= "nom_charactersmoke"
+
+//놈놈놈 배달통
+[AIBot1167]
+Name                   = "놈놈놈철가방"
+BrainType = 1
+Grade                   = 0
+Type                     = 4
+ModelID               = 471
+
+
+
+[AIBot1168] //무한사냥 두더지 일반
+BrainType	= 1
+ForceTeam	= 2
+Name		= "두더지"
+Type		= 4
+Grade		= 0
+ModelID		= 472
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+IconName   = "sa_interface2\hud\Hunting\KillMark\moled.dtx"
+Scale		= 1.0f
+
+
+[AIBot1169] //무한사냥 새끼오리 일반
+BrainType	= 1
+ForceTeam	= 2
+Name		= "새끼오리"
+Type		= 4
+Grade		= 0
+ModelID		= 473
+NoModelWeapon1 = "ID = 1104| DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.4"
+NoModelWeapon2 = "ID = 1104 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.4"
+NoModelWeapon3 = "ID = 1104 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.4"
+IconName   = "sa_interface2\hud\Hunting\KillMark\Duckd.dtx"
+Scale		= 1.5f
+
+
+
+
+[AIBot1170] //무한사냥 돼지
+BrainType	= 1
+ForceTeam	= 2
+Name		= "돼지"
+Type		= 4
+Grade		= 0
+ModelID		= 474
+NoModelWeapon1 = "ID = 1104| DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon2 = "ID = 1104 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon3 = "ID = 1104 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+IconName   = "sa_interface2\hud\Hunting\KillMark\Pigd.dtx"
+Scale		= 1.5f
+
+
+[AIBot1171] //무한사냥 캥거루
+BrainType	= 1
+ForceTeam	= 2
+Name		= "캥거루"
+Type		= 4
+Grade		= 0
+ModelID		= 476
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+IconName   = "sa_interface2\hud\Hunting\KillMark\Kangarood.dtx"
+Scale		= 1.5f
+
+
+//놈놈놈 미끼 블루
+[AIBot1172]
+Name		= "미끼"
+ModelID		= -1 //(modelbutes.txt 에서 PC 에 해당되는 자를 부른다.) 
+ClientSolid	= false // 사람을 통과시킨다.
+weapon1 = 1692 // 활의 경우에는 idle1 을 idle 대신 사용하게끔 하드코딩
+RespawnFX		= "nom_charactersmoke"
+
+
+
+[AIBot1173] //무한사냥 앵무새
+BrainType	= 1
+ForceTeam	= 2
+Name		= "앵무새"
+Type		= 4
+Grade		= 0
+ModelID		= 477
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+IconName   = "sa_interface2\hud\Hunting\KillMark\parrotd.dtx"
+Scale		= 1.5f
+
+
+
+[AIBot1174] //무한사냥 박쥐
+BrainType	= 1
+ForceTeam	= 2
+Name		= "박쥐"
+Type		= 4
+Grade		= 0
+ModelID		= 478
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+IconName   = "sa_interface2\hud\Hunting\KillMark\Batd.dtx"
+Scale		= 2.25f
+
+[AIBot1175] //무한사냥 모기
+BrainType	= 1
+ForceTeam	= 2
+Name		= "모기"
+Type		= 4
+Grade		= 0
+ModelID		= 479
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+IconName   = "sa_interface2\hud\Hunting\KillMark\Moskitod.dtx"
+Scale		= 1.2f
+
+[AIBot1176] //무한사냥 보스 테스트
+BrainType	= 1
+ForceTeam	= 2
+Name		= "코뿔소"
+Type		= 4
+Grade		= 0
+ModelID		= 480
+NoModelWeapon1 = "ID = 1853| DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon2 = "ID = 1853 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon3 = "ID = 1853 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+IconName   = "sa_interface2\hud\Hunting\KillMark\rhinod.dtx"
+
+
+/////////////////////////////////////////
+
+[AIBot1177] //무한사냥 두더지 2단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "두더지"
+Type		= 4
+Grade		= 0
+ModelID		= 472
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+IconName   = "sa_interface2\hud\Hunting\KillMark\moled.dtx"
+Scale		= 1.0f
+
+
+[AIBot1178] //무한사냥 새끼오리 2단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "오리"
+Type		= 4
+Grade		= 0
+ModelID		= 473
+NoModelWeapon1 = "ID = 1104| DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon2 = "ID = 1104 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon3 = "ID = 1104 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+IconName   = "sa_interface2\hud\Hunting\KillMark\Duckd.dtx"
+Scale		= 1.2f
+
+
+
+[AIBot1179] //무한사냥 돼지 2단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "돼지"
+Type		= 4
+Grade		= 0
+ModelID		= 474
+NoModelWeapon1 = "ID = 1104| DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+NoModelWeapon2 = "ID = 1104 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+NoModelWeapon3 = "ID = 1104 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+IconName   = "sa_interface2\hud\Hunting\KillMark\Pigd.dtx"
+Scale		= 1.2f
+
+[AIBot1180] //무한사냥 캥거루 2단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "캥거루"
+Type		= 4
+Grade		= 0
+ModelID		= 476
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.65"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.65"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.65"
+IconName   = "sa_interface2\hud\Hunting\KillMark\Kangarood.dtx"
+Scale		= 1.2f
+
+[AIBot1181] //무한사냥 앵무새 2단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "앵무새"
+Type		= 4
+Grade		= 0
+ModelID		= 477
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.95"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.95"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.95"
+IconName   = "sa_interface2\hud\Hunting\KillMark\parrotd.dtx"
+Scale		= 1.2f
+
+[AIBot1182] //무한사냥 박쥐 2단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "박쥐"
+Type		= 4
+Grade		= 0
+ModelID		= 478
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.0"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.0"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.0"
+IconName   = "sa_interface2\hud\Hunting\KillMark\Batd.dtx"
+Scale		= 1.8f
+
+[AIBot1183] //무한사냥 모기 2단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "모기"
+Type		= 4
+Grade		= 0
+ModelID		= 479
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.0"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.0"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.0"
+IconName   = "sa_interface2\hud\Hunting\KillMark\Moskitod.dtx"
+Scale		= 0.8f
+
+
+[AIBot1184] //무한사냥 두더지 3단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "두더지"
+Type		= 4
+Grade		= 0
+ModelID		= 472
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+IconName   = "sa_interface2\hud\Hunting\KillMark\moled.dtx"
+Scale		= 1.0f
+
+
+[AIBot1185] //무한사냥 새끼오리 3단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "오리"
+Type		= 4
+Grade		= 0
+ModelID		= 473
+NoModelWeapon1 = "ID = 1104| DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon2 = "ID = 1104 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon3 = "ID = 1104 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+IconName   = "sa_interface2\hud\Hunting\KillMark\Duckd.dtx"
+Scale		= 0.9f
+
+
+
+[AIBot1186] //무한사냥 돼지 3단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "돼지"
+Type		= 4
+Grade		= 0
+ModelID		= 474
+NoModelWeapon1 = "ID = 1104| DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.0"
+NoModelWeapon2 = "ID = 1104 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.0"
+NoModelWeapon3 = "ID = 1104 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.0"
+IconName   = "sa_interface2\hud\Hunting\KillMark\Pigd.dtx"
+Scale		= 0.9f
+
+
+[AIBot1187] //무한사냥 캥거루 3단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "캥거루"
+Type		= 4
+Grade		= 0
+ModelID		= 476
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+IconName   = "sa_interface2\hud\Hunting\KillMark\Kangarood.dtx"
+Scale		= 0.9f
+
+
+[AIBot1188] //무한사냥 앵무새 3단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "앵무새"
+Type		= 4
+Grade		= 0
+ModelID		= 477
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.1"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.1"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.1"
+IconName   = "sa_interface2\hud\Hunting\KillMark\parrotd.dtx"
+Scale		= 0.9f
+
+[AIBot1189] //무한사냥 박쥐 3단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "박쥐"
+Type		= 4
+Grade		= 0
+ModelID		= 478
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.2"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.2"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.2"
+IconName   = "sa_interface2\hud\Hunting\KillMark\Batd.dtx"
+Scale		= 1.35f
+
+[AIBot1190] //무한사냥 모기 3단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "모기"
+Type		= 4
+Grade		= 0
+ModelID		= 479
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.7"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.7"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.7"
+IconName   = "sa_interface2\hud\Hunting\KillMark\Moskitod.dtx"
+Scale		= 0.9f
+
+///////////////////////////////////////////////
+
+[AIBot1191] //무한사냥 두더지 반짝이
+BrainType	= 1
+ForceTeam	= 2
+Name		= "두더지"
+Type		= 4
+Grade		= 0
+ModelID		= 472
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+ShaderType           = 7
+ShaderFactor1       = 0.1f
+ShaderFactor2       = 1.0f
+ShaderColorR        = 1.0f
+ShaderColorG        = 1.0f
+ShaderColorB        = 1.0f
+ShaderColorA        = 0.4f
+ShaderAlpha          = 1.0f
+IconName   = "sa_interface2\hud\Hunting\KillMark\moled.dtx"
+
+
+[AIBot1192] //무한사냥 오리 반짝이
+BrainType	= 1
+ForceTeam	= 2
+Name		= "오리"
+Type		= 4
+Grade		= 0
+ModelID		= 473
+NoModelWeapon1 = "ID = 1104| DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.4"
+NoModelWeapon2 = "ID = 1104 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.4"
+NoModelWeapon3 = "ID = 1104 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.4"
+ShaderType           = 7
+ShaderFactor1       = 0.1f
+ShaderFactor2       = 1.0f
+ShaderColorR        = 1.0f
+ShaderColorG        = 1.0f
+ShaderColorB        = 1.0f
+ShaderColorA        = 0.4f
+ShaderAlpha          = 1.0f
+IconName   = "sa_interface2\hud\Hunting\KillMark\Duckd.dtx"
+
+
+[AIBot1193] //무한사냥 돼지 반짝이
+BrainType	= 1
+ForceTeam	= 2
+Name		= "돼지"
+Type		= 4
+Grade		= 0
+ModelID		= 474
+NoModelWeapon1 = "ID = 1104| DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon2 = "ID = 1104 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon3 = "ID = 1104 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+ShaderType           = 7
+ShaderFactor1       = 0.1f
+ShaderFactor2       = 1.0f
+ShaderColorR        = 1.0f
+ShaderColorG        = 1.0f
+ShaderColorB        = 1.0f
+ShaderColorA        = 0.4f
+ShaderAlpha          = 1.0f
+IconName   = "sa_interface2\hud\Hunting\KillMark\Pigd.dtx"
+
+
+[AIBot1194] //무한사냥 캥거루 반짝이
+BrainType	= 1
+ForceTeam	= 2
+Name		= "캥거루"
+Type		= 4
+Grade		= 0
+ModelID		= 476
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+ShaderType           = 7
+ShaderFactor1       = 0.1f
+ShaderFactor2       = 1.0f
+ShaderColorR        = 1.0f
+ShaderColorG        = 1.0f
+ShaderColorB        = 1.0f
+ShaderColorA        = 0.4f
+ShaderAlpha          = 1.0f
+IconName   = "sa_interface2\hud\Hunting\KillMark\Kangarood.dtx"
+
+[AIBot1195] //무한사냥 앵무새 반짝이
+BrainType	= 1
+ForceTeam	= 2
+Name		= "앵무새"
+Type		= 4
+Grade		= 0
+ModelID		= 477
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+ShaderType           = 7
+ShaderFactor1       = 0.1f
+ShaderFactor2       = 1.0f
+ShaderColorR        = 1.0f
+ShaderColorG        = 1.0f
+ShaderColorB        = 1.0f
+ShaderColorA        = 0.4f
+ShaderAlpha          = 1.0f
+IconName   = "sa_interface2\hud\Hunting\KillMark\parrotd.dtx"
+
+[AIBot1196] //무한사냥 박쥐 반짝이
+BrainType	= 1
+ForceTeam	= 2
+Name		= "박쥐"
+Type		= 4
+Grade		= 0
+ModelID		= 478
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+ShaderType           = 7
+ShaderFactor1       = 0.1f
+ShaderFactor2       = 1.0f
+ShaderColorR        = 1.0f
+ShaderColorG        = 1.0f
+ShaderColorB        = 1.0f
+ShaderColorA        = 0.4f
+ShaderAlpha          = 1.0f
+IconName   = "sa_interface2\hud\Hunting\KillMark\Batd.dtx"
+
+
+[AIBot1197] //무한사냥 모기 반짝이
+BrainType	= 1
+ForceTeam	= 2
+Name		= "모기"
+Type		= 4
+Grade		= 0
+ModelID		= 479
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.5"
+ShaderType           = 7
+ShaderFactor1       = 0.1f
+ShaderFactor2       = 1.0f
+ShaderColorR        = 1.0f
+ShaderColorG        = 1.0f
+ShaderColorB        = 1.0f
+ShaderColorA        = 0.4f
+ShaderAlpha          = 1.0f
+IconName   = "sa_interface2\hud\Hunting\KillMark\Moskitod.dtx"
+
+
+[AIBot1198] //무한사냥 성인 오리
+BrainType	= 1
+ForceTeam	= 2
+Name		= "오리"
+Type		= 4
+Grade		= 0
+ModelID		= 481
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.3"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.3"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.3"
+IconName   = "sa_interface2\hud\Hunting\KillMark\duck_fly_D.dtx"
+Scale		= 1.75f
+
+
+[AIBot1199] //무한사냥 사람테스트
+BrainType	= 1
+ForceTeam	= 2
+Name		= "사람"
+Type		= 4
+Grade		= 0
+ModelID		= 482
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.0"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.0"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.0"
+IconName   = "sa_interface2\hud\Hunting\KillMark\human_targerd.dtx"
+Scale		= 3.0f
+
+[AIBot1200] //무한사냥 총든사람 1단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "사람"
+Type		= 4
+Grade		= 0
+WeaponDamageRate = 0.1f
+ModelID		= 483
+NoModelWeapon1 = "ID = 19 | DelayFire = 1.0 | Socket = GunFire | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon2 = "ID = 19 | DelayFire = 1.0 | Socket = GunFire | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon3 = "ID = 19 | DelayFire = 1.0 | Socket = GunFire | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+IconName   = "sa_interface2\hud\Hunting\KillMark\human_target_gunD.dtx"
+Scale		= 3.0f
+
+[AIBot1201] //무한사냥 좀비 테스트
+BrainType	= 1
+ForceTeam	= 2
+Name		= "좀비"
+Type		= 4
+Grade		= 0
+ModelID		= 484
+NoModelWeapon1 = "ID = 1850 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon2 = "ID = 1850 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon3 = "ID = 1850 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+IconName   = "sa_interface2\hud\Hunting\KillMark\zombied.dtx"
+Scale		= 2.0f
+
+[AIBot1202] //무한사냥 사람_헬프
+BrainType	= 1
+ForceTeam	= 2
+Name		= "민간인"
+Type		= 4
+Grade		= 0
+ModelID		= 489
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.0"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.0"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.0"
+IconName   = "sa_interface2\hud\Hunting\KillMark\human_targehelp.dtx"
+Scale		= 3.0f
+
+[AIBot1203] //무한사냥 잔호크
+BrainType	= 1
+ForceTeam	= 2
+Name		= "잔호크"
+Type		= 4
+Grade		= 0
+ModelID		= 486
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.2"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.8"
+IconName   = "sa_interface2\hud\Hunting\KillMark\j_hoked.dtx"
+Scale		= 2.0f
+
+[AIBot1204] //무한사냥 점프 폭탄
+BrainType	= 1
+ForceTeam	= 2
+Name		= "폭탄"
+Type		= 4
+Grade		= 0
+ModelID		= 487
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+IconName   = "sa_interface2\hud\Hunting\KillMark\bombd.dtx"
+Scale		= 3.0f
+
+
+[AIBot1205] //무한사냥 점프 폭탄 역방향
+BrainType	= 1
+ForceTeam	= 2
+Name		= "폭탄"
+Type		= 4
+Grade		= 0
+ModelID		= 488
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+IconName   = "sa_interface2\hud\Hunting\KillMark\bombd.dtx"
+Scale		= 3.0f
+
+
+[AIBot1206] //무한사냥 성인 오리 깜빡이
+BrainType	= 1
+ForceTeam	= 2
+Name		= "오리"
+Type		= 4
+Grade		= 0
+ModelID		= 481
+NoModelWeapon1 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.3"
+NoModelWeapon2 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.3"
+NoModelWeapon3 = "ID = 1771 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 1.3"
+IconName   = "sa_interface2\hud\Hunting\KillMark\duck_fly_D.dtx"
+Scale		= 1.75f
+ShaderType           = 7
+ShaderFactor1       = 0.1f
+ShaderFactor2       = 1.0f
+ShaderColorR        = 1.0f
+ShaderColorG        = 1.0f
+ShaderColorB        = 1.0f
+ShaderColorA        = 0.4f
+ShaderAlpha          = 1.0f
+
+
+[AIBot1207] //무한사냥 총든사람 2단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "사람"
+Type		= 4
+Grade		= 0
+WeaponDamageRate = 0.2f
+ModelID		= 483
+NoModelWeapon1 = "ID = 19 | DelayFire = 3.0 | Socket = GunFire | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon2 = "ID = 19 | DelayFire = 3.0 | Socket = GunFire | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+NoModelWeapon3 = "ID = 19 | DelayFire = 3.0 | Socket = GunFire | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.6"
+IconName   = "sa_interface2\hud\Hunting\KillMark\human_target_gunD.dtx"
+Scale		= 3.0f
+
+[AIBot1208] //무한사냥 보스 2단계
+BrainType	= 1
+ForceTeam	= 2
+Name		= "코뿔소"
+Type		= 4
+Grade		= 0
+ModelID		= 480
+NoModelWeapon1 = "ID = 1853| DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.9"
+NoModelWeapon2 = "ID = 1853 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.9"
+NoModelWeapon3 = "ID = 1853 | DelayFire = 2.0 | Socket = FX | DirNoise = 0.0  | Emotion = 1 | MoveRate = 0.9"
+IconName   = "sa_interface2\hud\Hunting\KillMark\rhinod.dtx"
+
+//저격vs탈출 Decoy
+[AIBot1209]
+Name		= ""
+ModelID		= -1 //(modelbutes.txt 에서 PC 에 해당되는 자를 부른다.) 
+ClientSolid	= false // 사람을 통과시킨다.
+weapon1 	= 0
+RespawnFX	= "nom_charactersmoke"
+
+//저격vs탈출 Decoy
+[AIBot1210]
+Name		= ""
+ModelID		= -1 //(modelbutes.txt 에서 PC 에 해당되는 자를 부른다.) 
+ClientSolid	= false // 사람을 통과시킨다.
+weapon1 	= 22
+RespawnFX	= "nom_charactersmoke"
+
+//진짜를 찾아라 테스트AI_1
+[AIBot1211]
+Name		= ""
+Type		= 4
+BrainType	= 2
+ModelID		= 490//(AIBotModelbute.txt)
+Face		= "face1,face2,face3,face4"
+NDeathFace	= 1
+SDeathFace	= 1
+
+//진짜를 찾아라 테스트AI_2
+[AIBot1212]
+Name		= ""
+Type		= 4
+BrainType	= 2
+ModelID		= 491//(AIBotModelbute.txt)
+Face		= "face1,face2,face3,face4"
+NDeathFace	= 1
+SDeathFace	= 1
+
+//진짜를 찾아라 테스트AI_3
+[AIBot1213]
+Name		= ""
+Type		= 4
+BrainType	= 2
+ModelID		= 492//(AIBotModelbute.txt)
+Face		= "face1,face2,face3,face4"
+NDeathFace	= 1
+SDeathFace	= 1
+
+//진짜를 찾아라 테스트AI_4
+[AIBot1214]
+Name		= ""
+Type		= 4
+BrainType	= 2
+ModelID		= 493//(AIBotModelbute.txt)
+Face		= "face1,face2,face3,face4"
+NDeathFace	= 1
+SDeathFace	= 1
+
+
+//진짜를 찾아라 테스트AI_5
+[AIBot1215]
+Name		= ""
+Type		= 4
+BrainType	= 2
+ModelID		= 494//(AIBotModelbute.txt)
+Face		= "face1,face2,face3,face4"
+NDeathFace	= 1
+SDeathFace	= 1
+
+
+//진짜를 찾아라 테스트AI_6
+[AIBot1216]
+Name		= ""
+Type		= 4
+BrainType	= 2
+ModelID		= 495//(AIBotModelbute.txt)
+Face		= "face1,face2,face3,face4"
+NDeathFace	= 1
+SDeathFace	= 1
+
+//파이널존 공중보급
+[AIBot1217]
+Name                   = "공중보급 드론"
+Type                     = 2
+ModelID               = 496
+//Scale                 = 1.1f
+BrainType = 3
+ClientSolid            = False
+BodyLifeTime         = 1
+FollowSound    = "sa_interface2/snd/survival/drone_move.wav"
+FollowSoundRadius = 4000
+
+//파이널존 공중보급
+[AIBot1218]
+Name                   = "드론 보급상자"
+Type                     = 2
+ModelID               = 497
+//Scale                    = 1.0f
+BrainType = 3
+BodyLifeTime         = 1
+NoDamage           = true
+
+//32_듀오 크리스마스 버전
+[AIBot1219]
+Name                   = "크리스마스 드론"
+Type                     = 2
+ModelID               = 498
+//Scale                 = 1.1f
+BrainType = 3
+ClientSolid            = False
+BodyLifeTime         = 1
+FollowSound    = "sa_interface2/snd/survival/drone_move.wav"
+FollowSoundRadius = 4000
+
+//32_듀오 크리스마스 버전
+[AIBot1220]
+Name                   = "크리스마스 선물상자"
+Type                     = 2
+ModelID               = 499
+//Scale                    = 1.0f
+BrainType = 3
+BodyLifeTime         = 1
+NoDamage           = true
+
+
+
+[AIBot1221]
+[AIBot1222]
+
+
+
+[AIBot1223]
+Name		= "일반 정비사"
+Type		= 2
+BrainType	= 3
+ModelID		= 591//(AIBotModelbute.txt)
+Face		= "face1,face2,face3,face4"
+NDeathFace	= 1
+SDeathFace	= 1
+//ForceTeam    = 0
+NoDamage=TRUE
+
+[AIBot1224]
+Name		= "일반 무기상"
+Type		= 2
+BrainType	= 3
+ModelID		= 593//(AIBotModelbute.txt)
+Face		= "face1,face2,face3,face4"
+NDeathFace	= 1
+SDeathFace	= 1
+//ForceTeam    = 3
+NoDamage=TRUE
+
+[AIBot1225]
+Name		= "스페셜 정비사"
+Type		= 2
+BrainType	= 3
+ModelID		= 592//(AIBotModelbute.txt)
+Face		= "face1,face2,face3,face4"
+NDeathFace	= 1
+SDeathFace	= 1
+//ForceTeam    = 0
+NoDamage=TRUE
+
+[AIBot1226]
+Name		= "스페셜 무기상"
+Type		= 2
+BrainType	= 3
+ModelID		= 594//(AIBotModelbute.txt)
+Face		= "face1,face2,face3,face4"
+NDeathFace	= 1
+SDeathFace	= 1
+//ForceTeam    = 0
+NoDamage=TRUE
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+[AIBot1227]
+//Desc=기본좀비A_파란색
+Name="파란 좀비"
+ModelID=501
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1228]
+//Desc=기본좀비B_파란색
+Name="파란 좀비"
+ModelID=502
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1229]
+//Desc=기본좀비C_파란색
+Name="파란 좀비"
+ModelID=503
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1230]
+//Desc=기본좀비A_녹색
+Name="녹색 좀비"
+ModelID=504
+Type=2
+Grade=1
+Scale=1.1f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1231]
+//Desc=기본좀비B_녹색
+Name="녹색 좀비"
+ModelID=505
+Type=2
+Grade=1
+Scale=1.1f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1232]
+//Desc=기본좀비C_녹색
+Name="녹색 좀비"
+ModelID=506
+Type=2
+Grade=1
+Scale=1.1f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1233]
+//Desc=기본좀비A_노란색
+Name="노란 좀비"
+ModelID=507
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1234]
+//Desc=기본좀비B_노란색
+Name="노란 좀비"
+ModelID=508
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1235]
+//Desc=기본좀비C_노란색
+Name="노란 좀비"
+ModelID=509
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1236]
+//Desc=기본좀비A_오렌지색
+Name="오렌지 좀비"
+ModelID=510
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1237]
+//Desc=기본좀비B_오렌지색
+Name="오렌지 좀비"
+ModelID=511
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1238]
+//Desc=기본좀비C_오렌지색
+Name="오렌지 좀비"
+ModelID=512
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1239]
+//Desc=기본좀비A_빨간색
+Name="빨간 좀비"
+ModelID=513
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1240]
+//Desc=기본좀비B_빨간색
+Name="빨간 좀비"
+ModelID=514
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1241]
+//Desc=기본좀비C_빨간색
+Name="빨간 좀비"
+ModelID=515
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1242]
+//Desc=방어좀비A_파란색
+Name="파란 방어좀비"
+ModelID=516
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1243]
+//Desc=방어좀비A_녹색
+Name="녹색 방어좀비"
+ModelID=517
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1244]
+//Desc=방어좀비A_노란색
+Name="노란 방어좀비"
+ModelID=518
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1245]
+//Desc=방어좀비A_오렌지색
+Name="오렌지 방어좀비"
+ModelID=519
+Type=2
+Grade=8
+Scale=1.1f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1246]
+//Desc=방어좀비A_빨간색
+Name="빨간 방어좀비"
+ModelID=520
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1247]
+//Desc=방어좀비B_파란색
+Name="파란 방어좀비"
+ModelID=521
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1248]
+//Desc=방어좀비B_녹색
+Name="녹색 방어좀비"
+ModelID=522
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1249]
+//Desc=방어좀비B_노란색
+Name="노란 방어좀비"
+ModelID=523
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1250]
+//Desc=방어좀비B_오렌지색
+Name="오렌지 방어좀비"
+ModelID=524
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1251]
+//Desc=방어좀비B_빨간색
+Name="빨간 방어좀비"
+ModelID=525
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1252]
+//Desc=방어좀비C_파란색
+Name="파란 방어좀비"
+ModelID=526
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1253]
+//Desc=방어좀비C_녹색
+Name="녹색 방어좀비"
+ModelID=527
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1254]
+//Desc=방어좀비C_노란색
+Name="노란 방어좀비"
+ModelID=528
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1255]
+//Desc=방어좀비C_오렌지색
+Name="오렌지 방어좀비"
+ModelID=529
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1256]//보스사용
+//Desc=방어좀비C_빨간색
+Name="[BOSS]방어좀비"
+ModelID=565
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1257]
+//Desc=곰돌이좀비_파란색
+Name="파란 곰돌이좀비"
+ModelID=531
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1258]
+//Desc=곰돌이좀비_녹색
+Name="녹색 곰돌이좀비"
+ModelID=532
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1259]
+//Desc=곰돌이좀비_노란색
+Name="노란 곰돌이좀비"
+ModelID=533
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1260]
+//Desc=곰돌이좀비_오렌지색
+Name="오렌지 곰돌이좀비"
+ModelID=534
+Type=2
+Grade=1
+Scale=1.1f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1261]
+//Desc=곰돌이좀비_빨간색
+Name="빨간 곰돌이좀비"
+ModelID=535
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1262]
+//Desc=포이즌좀비_파란색
+Name="파란 포이즌좀비"
+ModelID=536
+Type=2
+Grade=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1263]
+//Desc=포이즌좀비_노란색
+Name="노란 포이즌좀비"
+ModelID=537
+Type=2
+Grade=2
+Scale=1.1f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1264]
+//Desc=포이즌좀비_빨간색
+Name="빨간 포이즌좀비"
+ModelID=538
+Type=2
+Grade=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1265]
+//Desc=포이즌좀비_검정색
+Name="검정 포이즌좀비"
+ModelID=539
+Type=2
+Grade=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1266]
+//Desc=넉백좀비_파란색
+Name="파란 넉백좀비"
+ModelID=540
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1267]
+//Desc=넉백좀비_노란색
+Name="노란 넉백좀비"
+ModelID=541
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	    
+[AIBot1268] //보스층 사용 좀비입니다.
+//Desc=넉백좀비_빨간색
+Name="[BOSS]넉백좀비"
+ModelID=566
+Type=2
+Grade=8
+Scale=1.1f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1269]
+//Desc=도살자_파란색
+Name="파란 도살자"
+ModelID=543
+Type=2
+Grade=10
+Scale=1.5f
+BrainType=3
+BodyLifeTime=10
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1270]
+//Desc=도살자_녹색
+Name="녹색 도살자"
+ModelID=544
+Type=2
+Grade=10
+Scale=1.5f
+BrainType=3
+BodyLifeTime=10
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1271]
+//Desc=도살자_노란색
+Name="노란 도살자"
+ModelID=545
+Type=2
+Grade=10
+Scale=1.5f
+BrainType=3
+BodyLifeTime=10
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1272]
+//Desc=도살자_오렌지색
+Name="오렌지 도살자"
+ModelID=546
+Type=2
+Grade=10
+Scale=1.5f
+BrainType=3
+BodyLifeTime=10
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1273] //보스층 사용 좀비입니다.
+//Desc=도살자_빨간색
+Name="[BOSS]도살자"
+ModelID=567
+Type=2
+Grade=10
+Scale=1.7f
+BrainType=3
+BodyLifeTime=10
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1274]
+//Desc=자객_파란색
+Name="파란 자객"
+ModelID=548
+Type=2
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1275]
+//Desc=자객_녹색
+Name="녹색 자객"
+ModelID=549
+Type=2
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1276]
+//Desc=자객_노란색
+Name="노란 자객"
+ModelID=550
+Type=2
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1277] //보스층 사용 좀비입니다.
+//Desc=자객_오렌지색
+Name="[BOSS]자객"
+ModelID=568
+Type=2
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1278] //보스층 사용 좀비입니다.
+//Desc=자객_빨간색
+Name="[BOSS]자객"
+ModelID=569
+Type=2
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1279]
+//Desc=연금술사_파란색
+Name="파란 연금술사"
+ModelID=553
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1280]
+//Desc=연금술사_녹색
+Name="녹색 연금술사"
+ModelID=554
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1281]
+//Desc=연금술사_노란색
+Name="노란 연금술사"
+ModelID=555
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1282] //보스층 사용 좀비입니다.
+//Desc=연금술사_오렌지색
+Name="[BOSS]연금술사"
+ModelID=570
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1283] //보스층 사용 좀비입니다.
+//Desc=연금술사_빨간색
+Name="[BOSS]연금술사"
+ModelID=571
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1284]
+//Desc=코믹 뱀파이어(RED)
+Name="코믹 뱀파이어(RED)"
+ModelID=363
+Type=0
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1285]
+//Desc=코믹 뱀파이어(BLUE)
+Name="코믹 뱀파이어(BLUE)"
+ModelID=364
+Type=0
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1286]
+//Desc=라이칸
+Name="라이칸"
+ModelID=1033
+Type=0
+Grade=9
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1287]
+//Desc=황금잔호크
+Name="황금잔호크"
+ModelID=1032
+Type=0
+Grade=10
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1288]
+//Desc=처녀귀신
+Name="처녀귀신"
+ModelID=1329
+Type=0
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1289]
+//Desc=저승사자
+Name="저승사자"
+ModelID=1330
+Type=0
+Grade=4
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1290]
+//Desc=프랑켄슈타인(Red)
+Name="프랑켄슈타인(Red)"
+ModelID=1471
+Type=0
+Grade=10
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1291]
+//Desc=프랑켄슈타인(Blue)
+Name="프랑켄슈타인(Blue)"
+ModelID=1472
+Type=0
+Grade=9
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1292]
+//Desc=미라(Red)
+Name="미라(Red)"
+ModelID=1473
+Type=0
+Grade=9
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1293]
+//Desc=미라(Blue)
+Name="미라(Blue)"
+ModelID=1474
+Type=0
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1294]
+//Desc=백사(RED)
+Name="백사(RED)"
+ModelID=427
+Type=0
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1295]
+//Desc=생존(BLUE)
+Name="생존(BLUE)"
+ModelID=1224
+Type=0
+Grade=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1296]
+//Desc=백사(BLUE)
+Name="백사(BLUE)"
+ModelID=428
+Type=0
+Grade=6
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1297]
+//Desc=생존(RED)
+Name="생존(RED)"
+ModelID=1223
+Type=0
+Grade=4
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1298]
+//Desc=여도둑(RED)
+Name="여도둑(RED)"
+ModelID=511
+Type=0
+Grade=4
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1299]
+//Desc=여도둑(BLUE)
+Name="여도둑(BLUE)"
+ModelID=512
+Type=0
+Grade=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1300]
+//Desc=청마(BLUE)
+Name="청마(BLUE)"
+ModelID=608
+Type=0
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1301]
+//Desc=Woman
+Name="인디언(RED)"
+ModelID=1409
+Type=0
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1302]
+//Desc=Man
+Name="인디언(BLUE)"
+ModelID=1410
+Type=0
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1303]
+//Desc=스켈레톤
+Name="스켈레톤"
+ModelID=357
+Type=0
+Grade=7
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1304]
+//Desc=호박마녀
+Name="호박마녀"
+ModelID=358
+Type=0
+Grade=4
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1305]
+//Desc=뱀파이어(RED)
+Name="뱀파이어(RED)"
+ModelID=663
+Type=0
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1306]
+//Desc=뱀파이어(BLUE)
+Name="뱀파이어(BLUE)"
+ModelID=664
+Type=0
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1307]
+//Desc=악마(RED)
+Name="악마(RED)"
+ModelID=407
+Type=0
+Grade=7
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1308]
+//Desc=악마(BLUE)
+Name="악마(BLUE)"
+ModelID=408
+Type=0
+Grade=4
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1309]
+//Desc=슬레이어(RED)
+Name="슬레이어(RED)"
+ModelID=1054
+Type=0
+Grade=9
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1310]
+//Desc=슬레이어(BLUE)
+Name="슬레이어(BLUE)"
+ModelID=1055
+Type=0
+Grade=6
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1311]
+//Desc=닌자(RED)
+Name="닌자(RED)"
+ModelID=116
+Type=0
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1312]
+//Desc=닌자(BLUE)
+Name="닌자(BLUE)"
+ModelID=117
+Type=0
+Grade=4
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1313]
+//Desc=임프좀비_파란색
+Name="파란 임프좀비"
+ModelID=558
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1314]
+//Desc=임프좀비_오렌지색
+Name="오렌지 임프좀비"
+ModelID=559
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1315]
+//Desc=임프좀비_빨간색
+Name="빨간 임프좀비"
+ModelID=560
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1316]//보스층에서 사용됩니다.
+//Desc=임프좀비_검정색
+Name="[BOSS]임프좀비"
+ModelID=572
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1317]
+//Desc=마피아 잔호크(RED)
+Name="마피아 잔호크(RED)"
+ModelID=1211
+Type=0
+Grade=6
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1318]
+//Desc=마피아 잔호크(BLUE)
+Name="마피아 잔호크(BLUE)"
+ModelID=1212
+Type=0
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1319]
+//Desc=브라더(RED)
+Name="브라더(RED)"
+ModelID=531
+Type=0
+Grade=4
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1320]
+//Desc=브라더(BLUE)
+Name="브라더(BLUE)"
+ModelID=532
+Type=0
+Grade=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1321]
+//Desc=블랙쉐도우(RED)
+Name="블랙쉐도우(RED)"
+ModelID=722
+Type=0
+Grade=6
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1322]
+//Desc=블랙쉐도우(BLUE)
+Name="블랙쉐도우(BLUE)"
+ModelID=723
+Type=0
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1323]
+//Desc=잔호크
+Name="잔호크"
+ModelID=956
+Type=0
+Grade=7
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1324]
+//Desc=카를로스
+Name="카를로스"
+ModelID=957
+Type=0
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1325]
+//Desc=세르게이
+Name="세르게이"
+ModelID=1305
+Type=0
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1326]
+//Desc=쉴트
+Name="쉴트"
+ModelID=1306
+Type=0
+Grade=7
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1327]
+//Desc=자폭좀비_흰색
+Name="흰색 자폭좀비"
+ModelID=562
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1328]
+//Desc=자폭좀비_빨간색
+Name="빨간 자폭좀비"
+ModelID=563
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1329]//보스층 사용
+//Desc=자폭좀비_검정색
+Name="[BOSS]자폭좀비"
+ModelID=573
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	 
+
+	 
+
+
+	 
+	 
+	 
+	 
+[AIBot1330]
+[AIBot1331]
+[AIBot1332]
+[AIBot1333]
+[AIBot1334]
+[AIBot1335]
+[AIBot1336]
+[AIBot1337]
+[AIBot1338]
+[AIBot1339]
+[AIBot1340]
+[AIBot1341]
+[AIBot1342]
+[AIBot1343]
+[AIBot1344]
+[AIBot1345]
+[AIBot1346]
+[AIBot1347]
+[AIBot1348]
+[AIBot1349]
+[AIBot1350]
+
+
+[AIBot1351]
+//Desc=기둥_[기둥]상>하
+Name="프레스 기둥"
+ModelID=595
+Type=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+	   
+[AIBot1352]
+//Desc=회전_[회전]본축 회전
+Name="회전"
+ModelID=596
+Type=2
+Scale=0.7f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+	   
+[AIBot1353]
+//Desc=꼬챙이_[꼬챙이]상>하
+Name="뿔꼬챙이"
+ModelID=597
+Type=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+	   
+[AIBot1354]
+//Desc=기둥_[기둥]좌>우
+Name="뺑소니차"
+ModelID=598
+Type=2
+Scale=0.5f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+	   
+[AIBot1355]
+//Desc=클리어_
+Name="클리어"
+ModelID=599
+Type=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+Face        = "case_00,case_01,case_02,case_03,case_04"
+NDeathFace    = 1
+SDeathFace    = 1
+	 
+	 
+	 
+[AIBot1356]
+//Desc=회전_[회전]본축 회전
+Name="회전_소"
+ModelID=596
+Type=2
+Scale=0.3f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1357]
+Name="사각기둥"
+//Desc="사각기둥"
+ModelID=600
+Type=2
+Scale=0.8f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1358]
+Name="다중막대"
+//Desc="다중막대"
+ModelID=601
+Type=2
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1359]
+Name="회전 다중막대"
+//Desc="회전 다중막대"
+ModelID=602
+Type=2
+Scale=0.6f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1360]
+
+[AIBot1361]
+Name="회전 눈사람"
+//Desc="회전 눈사람"
+ModelID=604
+Type=2
+Scale=0.7f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1362]
+Name="시간차1 대피"
+//Desc="시간차1 대피"
+ModelID=605
+Type=2
+Scale=0.8f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1363]
+Name="시간차1 함정"
+//Desc="시간차1 함정"
+ModelID=606
+Type=2
+Scale=0.75f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1364]
+Name="시간차2 대피"
+//Desc="시간차2 대피"
+ModelID=607
+Type=2
+Scale=0.6f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1365]
+Name="시간차2 함정"
+//Desc="시간차2 함정"
+ModelID=608
+Type=2
+Scale=0.7f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1366]
+Name="지그재그"
+//Desc="지그재그"
+ModelID=609
+Type=2
+Scale=0.6f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1367]
+Name="회전문"
+//Desc="회전문"
+ModelID=610
+Type=2
+Scale=0.7f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1368]
+Name="2중 회전기둥"
+//Desc="2중 회전기둥"
+ModelID=611
+Type=2
+Scale=0.7f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1369]
+Name="칼날함정"
+//Desc="칼날함정"
+ModelID=612
+Type=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1370]
+Name="칼날함정 역방향"
+//Desc="칼날함정 역방향"
+ModelID=613
+Type=2
+Scale=0.8f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1371]
+Name="가로회전 기둥"
+//Desc="가로회전 기둥"
+ModelID=614
+Type=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1372]
+Name="푸시 오브젝트"
+//Desc="푸시 오브젝트"
+ModelID=615
+Type=2
+Scale=0.8f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1373]
+Name="굴곡 파이프"
+//Desc="굴곡 파이프"
+ModelID=616
+Type=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1374]
+Name="쥐덫"
+//Desc="쥐덫"
+ModelID=617
+Type=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1375]
+Name="일자파이프"
+//Desc="일자파이프"
+ModelID=618
+Type=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1376]
+Name="다중 일자파이프"
+//Desc="다중 일자파이프"
+ModelID=619
+Type=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=1
+NoDamage=TRUE
+ClientSolid=FALSE
+OBBSolid = true
+ForceTeam    = 3
+
+[AIBot1377]
+[AIBot1378]
+[AIBot1379]
+[AIBot1380]
+[AIBot1381]
+[AIBot1382]
+[AIBot1383]
+[AIBot1384]
+[AIBot1385]
+[AIBot1386]
+[AIBot1387]
+[AIBot1388]
+[AIBot1389]
+[AIBot1390]
+[AIBot1391]
+[AIBot1392]
+[AIBot1393]
+[AIBot1394]
+[AIBot1395]
+[AIBot1396]
+[AIBot1397]
+[AIBot1398]
+[AIBot1399]
+[AIBot1400]
+[AIBot1401]
+[AIBot1402]
+[AIBot1403]
+[AIBot1404]
+[AIBot1405]
+[AIBot1406]
+[AIBot1407]
+[AIBot1408]
+[AIBot1409]
+[AIBot1410]
+[AIBot1411]
+[AIBot1412]
+[AIBot1413]
+[AIBot1414]
+[AIBot1415]
+[AIBot1416]
+[AIBot1417]
+[AIBot1418]
+[AIBot1419]
+[AIBot1420]
+[AIBot1421]
+[AIBot1422]
+[AIBot1423]
+[AIBot1424]
+[AIBot1425]
+[AIBot1426]
+
+
+
+ 
+ 
+[AIBot1427]
+//Desc=[C]기본좀비A_파란색
+Name="파란 좀비"
+ModelID=501
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1428]
+//Desc=[C]기본좀비B_파란색
+Name="파란 좀비"
+ModelID=502
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1429]
+//Desc=[C]기본좀비C_파란색
+Name="파란 좀비"
+ModelID=503
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1430]
+//Desc=[C]기본좀비A_녹색
+Name="녹색 좀비"
+ModelID=504
+Type=2
+Grade=1
+Scale=1.1f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1431]
+//Desc=[C]기본좀비B_녹색
+Name="녹색 좀비"
+ModelID=505
+Type=2
+Grade=1
+Scale=1.1f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1432]
+//Desc=[C]기본좀비C_녹색
+Name="녹색 좀비"
+ModelID=506
+Type=2
+Grade=1
+Scale=1.1f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1433]
+//Desc=[C]기본좀비A_노란색
+Name="노란 좀비"
+ModelID=507
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1434]
+//Desc=[C]기본좀비B_노란색
+Name="노란 좀비"
+ModelID=508
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1435]
+//Desc=[C]기본좀비C_노란색
+Name="노란 좀비"
+ModelID=509
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1436]
+//Desc=[C]기본좀비A_오렌지색
+Name="오렌지 좀비"
+ModelID=510
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1437]
+//Desc=[C]기본좀비B_오렌지색
+Name="오렌지 좀비"
+ModelID=511
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1438]
+//Desc=[C]기본좀비C_오렌지색
+Name="오렌지 좀비"
+ModelID=512
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1439]
+//Desc=[C]기본좀비A_빨간색
+Name="빨간 좀비"
+ModelID=513
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1440]
+//Desc=[C]기본좀비B_빨간색
+Name="빨간 좀비"
+ModelID=514
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1441]
+//Desc=[C]기본좀비C_빨간색
+Name="빨간 좀비"
+ModelID=515
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1442]
+//Desc=[C]방어좀비A_파란색
+Name="파란 방어좀비"
+ModelID=516
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1443]
+//Desc=[C]방어좀비A_녹색
+Name="녹색 방어좀비"
+ModelID=517
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1444]
+//Desc=[C]방어좀비A_노란색
+Name="노란 방어좀비"
+ModelID=518
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1445]
+//Desc=[C]방어좀비A_오렌지색
+Name="오렌지 방어좀비"
+ModelID=519
+Type=2
+Grade=8
+Scale=1.1f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1446]//보스층 사용
+//Desc=[C]방어좀비A_빨간색
+Name="[BOSS]방어좀비"
+ModelID=574
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1447]
+//Desc=[C]방어좀비B_파란색
+Name="파란 방어좀비"
+ModelID=521
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1448]
+//Desc=[C]방어좀비B_녹색
+Name="녹색 방어좀비"
+ModelID=522
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1449]
+//Desc=[C]방어좀비B_노란색
+Name="노란 방어좀비"
+ModelID=523
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1450]//보스층 사용
+//Desc=[C]방어좀비B_오렌지색
+Name="[BOSS]방어좀비"
+ModelID=575
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1451]//보스층 사용
+//Desc=[C]방어좀비B_빨간색
+Name="[BOSS]방어좀비"
+ModelID=576
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1452]
+//Desc=[C]방어좀비C_파란색
+Name="파란 방어좀비"
+ModelID=526
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1453]
+//Desc=[C]방어좀비C_녹색
+Name="녹색 방어좀비"
+ModelID=527
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1454]
+//Desc=[C]방어좀비C_노란색
+Name="노란 방어좀비"
+ModelID=528
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1455]
+//Desc=[C]방어좀비C_오렌지색
+Name="오렌지 방어좀비"
+ModelID=529
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1456]//보스 사용
+//Desc=[C]방어좀비C_빨간색
+Name="[BOSS]방어좀비"
+ModelID=577
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1457]
+//Desc=[C]곰돌이좀비_파란색
+Name="파란 곰돌이좀비"
+ModelID=531
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1458]
+//Desc=[C]곰돌이좀비_녹색
+Name="녹색 곰돌이좀비"
+ModelID=532
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1459]
+//Desc=[C]곰돌이좀비_노란색
+Name="노란 곰돌이좀비"
+ModelID=533
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1460]
+//Desc=[C]곰돌이좀비_오렌지색
+Name="오렌지 곰돌이좀비"
+ModelID=534
+Type=2
+Grade=1
+Scale=1.1f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1461]
+//Desc=[C]곰돌이좀비_빨간색
+Name="빨간 곰돌이좀비"
+ModelID=535
+Type=2
+Grade=1
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1462]
+//Desc=[C]포이즌좀비_파란색
+Name="파란 포이즌좀비"
+ModelID=536
+Type=2
+Grade=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1463]
+//Desc=[C]포이즌좀비_노란색
+Name="노란 포이즌좀비"
+ModelID=537
+Type=2
+Grade=2
+Scale=1.1f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1464]
+//Desc=[C]포이즌좀비_빨간색
+Name="빨간 포이즌좀비"
+ModelID=538
+Type=2
+Grade=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1465]
+//Desc=[C]포이즌좀비_검정색
+Name="검정 포이즌좀비"
+ModelID=539
+Type=2
+Grade=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1466]
+//Desc=[C]넉백좀비_파란색
+Name="파란 넉백좀비"
+ModelID=540
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1467]//보스사용
+//Desc=[C]넉백좀비_노란색
+Name="[BOSS]넉백좀비"
+ModelID=578
+Type=2
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1468]//보스사용
+//Desc=[C]넉백좀비_빨간색
+Name="[BOSS]넉백좀비"
+ModelID=579
+Type=2
+Grade=8
+Scale=1.1f
+BrainType=3
+BodyLifeTime=5
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1469]
+//Desc=[C]도살자_파란색
+Name="파란 도살자"
+ModelID=543
+Type=2
+Grade=10
+Scale=1.5f
+BrainType=3
+BodyLifeTime=10
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1470]
+//Desc=[C]도살자_녹색
+Name="녹색 도살자"
+ModelID=544
+Type=2
+Grade=10
+Scale=1.5f
+BrainType=3
+BodyLifeTime=10
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1471]
+//Desc=[C]도살자_노란색
+Name="노란 도살자"
+ModelID=545
+Type=2
+Grade=10
+Scale=1.5f
+BrainType=3
+BodyLifeTime=10
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1472]
+//Desc=[C]도살자_오렌지색
+Name="오렌지 도살자"
+ModelID=546
+Type=2
+Grade=10
+Scale=1.5f
+BrainType=3
+BodyLifeTime=10
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1473]
+//Desc=[C]도살자_빨간색
+Name="[BOSS]도살자"
+ModelID=580
+Type=2
+Grade=10
+Scale=1.7f
+BrainType=3
+BodyLifeTime=10
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1474]
+//Desc=[C]자객_파란색
+Name="파란 자객"
+ModelID=548
+Type=2
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1475]
+//Desc=[C]자객_녹색
+Name="녹색 자객"
+ModelID=549
+Type=2
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1476]
+//Desc=[C]자객_노란색
+Name="노란 자객"
+ModelID=550
+Type=2
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1477]//보스사용
+//Desc=[C]자객_오렌지색
+Name="[BOSS]자객"
+ModelID=581
+Type=2
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1478]//보스사용
+//Desc=[C]자객_빨간색
+Name="[BOSS]자객"
+ModelID=582
+Type=2
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1479]
+//Desc=[C]연금술사_파란색
+Name="파란 연금술사"
+ModelID=553
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1480]
+//Desc=[C]연금술사_녹색
+Name="녹색 연금술사"
+ModelID=554
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1481]
+//Desc=[C]연금술사_노란색
+Name="노란 연금술사"
+ModelID=555
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1482]//보스사용
+//Desc=[C]연금술사_오렌지색
+Name="[BOSS]연금술사"
+ModelID=583
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1483]//보스사용
+//Desc=[C]연금술사_빨간색
+Name="[BOSS]연금술사"
+ModelID=584
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1484]
+//Desc=[C]코믹 뱀파이어(RED)
+Name="코믹 뱀파이어(RED)"
+ModelID=363
+Type=0
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1485]
+//Desc=[C]코믹 뱀파이어(BLUE)
+Name="코믹 뱀파이어(BLUE)"
+ModelID=364
+Type=0
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1486]
+//Desc=[C]라이칸
+Name="라이칸"
+ModelID=1033
+Type=0
+Grade=9
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1487]
+//Desc=[C]황금잔호크
+Name="[BOSS]황금잔호크"
+ModelID=1032
+Type=0
+Grade=10
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1488]
+//Desc=[C]처녀귀신
+Name="처녀귀신"
+ModelID=1329
+Type=0
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1489]
+//Desc=[C]저승사자
+Name="저승사자"
+ModelID=1330
+Type=0
+Grade=4
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1490]//보스사용
+//Desc=[C]프랑켄슈타인(Red)
+Name="[BOSS]프랑켄슈타인"
+ModelID=1529
+Type=0
+Grade=10
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1491]//보스사용
+//Desc=[C]프랑켄슈타인(Blue)
+Name="[BOSS]프랑켄슈타인"
+ModelID=1530
+Type=0
+Grade=9
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1492]//보스사용
+//Desc=[C]미라(Red)
+Name="[BOSS]미라"
+ModelID=1531
+Type=0
+Grade=9
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1493]
+//Desc=[C]미라(Blue)
+Name="미라(Blue)"
+ModelID=1474
+Type=0
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1494]
+//Desc=[C]백사(RED)
+Name="백사(RED)"
+ModelID=427
+Type=0
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1495]
+//Desc=[C]생존(BLUE)
+Name="생존(BLUE)"
+ModelID=1224
+Type=0
+Grade=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1496]
+//Desc=[C]백사(BLUE)
+Name="백사(BLUE)"
+ModelID=428
+Type=0
+Grade=6
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1497]
+//Desc=[C]생존(RED)
+Name="생존(RED)"
+ModelID=1223
+Type=0
+Grade=4
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1498]
+//Desc=[C]여도둑(RED)
+Name="여도둑(RED)"
+ModelID=511
+Type=0
+Grade=4
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1499]
+//Desc=[C]여도둑(BLUE)
+Name="여도둑(BLUE)"
+ModelID=512
+Type=0
+Grade=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1500]
+//Desc=[C]청마(BLUE)
+Name="청마(BLUE)"
+ModelID=608
+Type=0
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1501]
+//Desc=[C]Woman
+Name="인디언(RED)"
+ModelID=1409
+Type=0
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1502]
+//Desc=[C]Man
+Name="인디언(BLUE)"
+ModelID=1410
+Type=0
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1503]
+//Desc=[C]스켈레톤
+Name="스켈레톤"
+ModelID=357
+Type=0
+Grade=7
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1504]
+//Desc=[C]호박마녀
+Name="호박마녀"
+ModelID=358
+Type=0
+Grade=4
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1505]
+//Desc=[C]뱀파이어(RED)
+Name="뱀파이어(RED)"
+ModelID=663
+Type=0
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1506]
+//Desc=[C]뱀파이어(BLUE)
+Name="뱀파이어(BLUE)"
+ModelID=664
+Type=0
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1507]//보스사용
+//Desc=[C]악마(RED)
+Name="[BOSS]악마"
+ModelID=1532
+Type=0
+Grade=7
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1508]
+//Desc=[C]악마(BLUE)
+Name="악마(BLUE)"
+ModelID=408
+Type=0
+Grade=4
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1509]//보스사용
+//Desc=[C]슬레이어(RED)
+Name="[BOSS]슬레이어"
+ModelID=1533
+Type=0
+Grade=9
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1510]
+//Desc=[C]슬레이어(BLUE)
+Name="[BOSS]슬레이어"
+ModelID=1534
+Type=0
+Grade=6
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1511]//보스사용
+//Desc=[C]닌자(RED)
+Name="[BOSS]닌자"
+ModelID=1535
+Type=0
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1512]
+//Desc=[C]닌자(BLUE)
+Name="닌자(BLUE)"
+ModelID=117
+Type=0
+Grade=4
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1513]
+//Desc=[C]임프좀비_파란색
+Name="파란 임프좀비"
+ModelID=558
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1514]
+//Desc=[C]임프좀비_오렌지색
+Name="오렌지 임프좀비"
+ModelID=559
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1515]
+//Desc=[C]임프좀비_빨간색
+Name="빨간 임프좀비"
+ModelID=560
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1516]//보스사용
+//Desc=[C]임프좀비_검정색
+Name="[BOSS]임프좀비"
+ModelID=585
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1517]
+//Desc=[C]마피아 잔호크(RED)
+Name="마피아 잔호크(RED)"
+ModelID=1211
+Type=0
+Grade=6
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1518]
+//Desc=[C]마피아 잔호크(BLUE)
+Name="마피아 잔호크(BLUE)"
+ModelID=1212
+Type=0
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1519]
+//Desc=[C]브라더(RED)
+Name="브라더(RED)"
+ModelID=531
+Type=0
+Grade=4
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1520]
+//Desc=[C]브라더(BLUE)
+Name="브라더(BLUE)"
+ModelID=532
+Type=0
+Grade=2
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1521]//보스사용
+//Desc=[C]블랙쉐도우(RED)
+Name="[BOSS]블랙쉐도우"
+ModelID=1535
+Type=0
+Grade=6
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1522]
+//Desc=[C]블랙쉐도우(BLUE)
+Name="블랙쉐도우(BLUE)"
+ModelID=723
+Type=0
+Grade=3
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1523]//보스사용
+//Desc=[C]잔호크
+Name="[BOSS]잔호크"
+ModelID=1537
+Type=0
+Grade=7
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1524]
+//Desc=[C]카를로스
+Name="카를로스"
+ModelID=957
+Type=0
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1525]
+//Desc=[C]세르게이
+Name="세르게이"
+ModelID=1305
+Type=0
+Grade=8
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1526]
+//Desc=[C]쉴트
+Name="쉴트"
+ModelID=1306
+Type=0
+Grade=7
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1527]
+//Desc=[C]자폭좀비_흰색
+Name="흰색 자폭좀비"
+ModelID=562
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1528]
+//Desc=[C]자폭좀비_빨간색
+Name="빨간 자폭좀비"
+ModelID=563
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	   
+[AIBot1529]//보스층사용
+//Desc=[C]자폭좀비_검정색
+Name="[BOSS]자폭좀비"
+ModelID=586
+Type=2
+Grade=5
+Scale=1.0f
+BrainType=3
+BodyLifeTime=3
+NoDamage=FALSE
+OBBSolid=FALSE
+ForceTeam=3
+	 
+
+	 

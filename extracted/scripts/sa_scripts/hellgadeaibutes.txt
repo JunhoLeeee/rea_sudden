@@ -1,0 +1,89 @@
+//	[Move]
+//	Precision	= (도착포인트까지의 정확도)
+//	Move3D		= (이동을 3D로 해야 할 경우)
+//	Dir3D		= (방향을 3D로 바라봐야 할 경우)
+//	PathFinder	= (웨이포인터를 사용하여 길찾기여부)
+//	Offset		= (x,y,z)
+//	InstabilityTime	= (이동불안정시간)
+//	InstabilityFactor= (이동불안정시간)
+//	SuicideTime	= (몇초간 못움직일때 자살)
+//	Axis		= (x,y,z,f)
+
+//	[Combat]
+//	DetectMin	= (타겟발견할 수 있는 최소 범위)
+//	DetectMax	= (타겟발견할 수 있는 최대 범위)
+//	Fire		= (0 or 1)
+//	Delay		= (타겟 발견후 공격까지의 지연시간)
+//	Action		= (stop, path or dynamic [default = stop])
+
+//	[Event0~]
+//	ID		= (이벤트넘버)
+//	State		= (Move, Combat0 or Combat1)
+//	TargetType	= (Rand , Sequence [default = rand])
+//	Target		= (목적지 Tag or FindType[NearAlly, NearEnemy, NearNeutral, FarAlly, FarEnemy, FarNeutral], ...)
+//	TargetDetail	= (범위, 각도)
+//	Via		= (경유할 수 있는 Tag, ...)
+//	Delay		= (도착후 딜레이 시간, ...)
+//	NextID		= (다음이벤트넘버, ...)
+//	Command		= (미리정해진공백없는알파벳[$, REMOVE, FIRE0, FIRE1], ...)
+//	'...'이 찍혀 있는 것은 ','를 이용하여 여러개를 사용할 수 있다는 뜻이며
+//	여러개를 사용했을 시 그 이벤트가 발생할때 랜덤하게 하나를 선택한다.
+//	단, Target의 경우 TargetType을 sequence로 해 놓으면 순차적으로 선택하는것도 가능하다.
+
+// 탈것 구입
+[ai0]
+Move			= "Precision = 60.0 | Move3D = false | Dir3D = true | PathFinder = true | SuicideTime = 5"
+
+StartEvent		= "Default = -1 | Team0 = 0 | Team1 = 1"
+Event0			= "ID = 0 | TargetType = sequence | Target = 1 | Delay = 0"
+Event1			= "ID = 1 | TargetType = sequence | Target = 101 | Delay = 0"
+
+// 가드 타워
+[ai1]
+Move			= "Precision = 10.0 | Move3D = false | Dir3D = true | PathFinder = true"
+Combat0			= "DetectMin = 50 | DetectMax = 4000 | Fire = 0 | Delay = 0 | Action = stop"  //딜레이 0.5에서 0.2로 수정, 최소 거리 150에서 50으로 수정.
+
+StartEvent		= "Default = 0"
+Event0			= "ID = 0 | State = Combat0"
+
+// 우라늄 수집차//구 자원수집차량
+[ai2]
+Move			= "Precision = 100.0 | Move3D = false | Dir3D = false | PathFinder = true"
+
+StartEvent		= "Default = -1 | Team0 = 0	| Team1 = 10"
+Event0			= "ID = 0	| Target = 5	| OEvent = 1	| Delay  = 5	| NextID = 1"
+Event2			= "ID = 1	| Target = 4	| OEvent = 2	| Delay  = 5	| NextID = 2"
+Event3			= "ID = 2	| Target = 4	| Command = $	| NextID = 0"
+Event4			= "ID = 10	| Target = 105	| OEvent = 1	| Delay  = 5	| NextID = 11"
+Event6			= "ID = 11	| Target = 104	| OEvent = 2	| Delay  = 5	| NextID = 12"
+Event7			= "ID = 12	| Target = 104	| Command = $	| NextID = 10"
+
+// 공중폭격기
+[ai3]
+Move			= "Precision = 300.0 | Move3D = true | Dir3D = true | PathFinder = false | Offset = 0,3000,0"
+
+StartEvent		= "Default = 0 | Team0 = 0 | Team1 = 10"
+Event0			= "ID = 0 | TargetType = sequence | Target = 7 | Command = remove"
+Event1			= "ID = 10 | TargetType = sequence | Target = 107 | Command = remove"
+
+// 유도탄
+[ai4]
+Move			= "Precision = 0.0 | Move3D = true | Dir3D = true | PathFinder = false | InstabilityFactor = 3 | InstabilityTime = 0.4"
+StartEvent		= "Default = 0"
+//Event0			= "ID = 0 | Delay = 0.1 | NextID = 1"
+Event0			= "ID = 0 | Target = NearEnemy | TargetDetail = 10000, 180"// | NextID = 0"
+
+// 총기 유도탄 SMAW
+[ai5]
+Move			= "Precision = 3.0 | Move3D = true | Dir3D = true | PathFinder = false | Axis = 0,1,0,90 | InstabilityFactor = 0.1 | InstabilityTime = 0.1"
+StartEvent		= "Default = 0"
+//Event0			= "ID = 0 | Delay = 0.1 | NextID = 1"
+Event0			= "ID = 0 | Target = NearEnemy | TargetDetail = 10000, 180"
+
+// 총기 유도탄 2 x6
+[ai6]
+Move			= "Precision = 3.0 | Move3D = true | Dir3D = true | PathFinder = false | Axis = 0,1,0,90 | InstabilityFactor = 0.1 | InstabilityTime = 0.1"
+//Move			= "Precision = 3.0 | Move3D = true | Dir3D = true | PathFinder = false | Axis = 0,1,0,90 | InstabilityFactor = 3 | InstabilityTime = 0.2"
+//StartEvent		= "Default = 0"
+//Event0			= "ID = 0 | Delay = 0.1 | NextID = 1"
+//Event0			= "ID = 0 | Target = NearEnemy | TargetDetail = 10000, 0"

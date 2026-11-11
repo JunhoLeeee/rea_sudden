@@ -1,0 +1,161 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//   [WeaponEffectX] : 실질적으로 무기에 연결하는 스크립트 항목 정의.						//
+//	MaterialType												//
+//		0 : 텍스쳐 한개가 단순히 흐르기만 하는 매터리얼임을 정의.					//
+//		1 : 텍스쳐 한개가 이동 없이 점멸하는 매터리얼임을 정의.						//
+//	MatIndex : 아래 정의된 [MaterialX]의 인덱스 지정  "N,N+1" 식으로 매터리얼 추가 가능			//
+//	WeaponId : FX를 적용할 무기의 Weapon Index 지정								//
+//	PieceList : 메터리얼을 적용할 Weapon의 Piece 번호. ***1인칭 무기에 해당					//
+//		    모델 파일(LTA) Piece 가장 위에가 0, 아래 순서대로 넘버링 된다.				//
+//		    "1,2,3" 식으로 따옴표 안에 여러개 지정 가능.						//
+//	PieceList_Third : 위와 동일하나, 3인칭 무기에 해당한다.							//
+//														//
+//   [MaterialX] : 위 MatIndex 에서 호출하는 녀석으로, 메터리얼이 어떤 작동을 하는지 정의 한다.			//
+//	MaterialType												//
+//		0 : 텍스쳐 한개가 단순히 흐르기만 하는 매터리얼임을 정의.					//
+//		1 : 텍스쳐 한개가 이동 없이 점멸하는 매터리얼임을 정의.						//
+//	FlowX = 0.0f	: UV를 흐르게 할 경우, X방향 값								//
+//	FlowY = 0.0f	: UV를 흐르게 할 경우, Y방향 값								//
+//	FlowSpeed = 0.0f: UV를 흐르게 할 경우, 속도 값								//
+//	Texture = " "   : 보여주려는 1인칭 텍스쳐								//
+//	Texture_Third = " " :보여주려는 3인칭 텍스쳐								//
+//	AlphaFlow = 0.2f : 텍스트 점멸일 경우, 알파가 변하는 흐름. 이걸 시간에 곱해서 소수점만 취한다.		//
+//	MinBlinkAlpha = 0.3f	: 최소 알파									//	
+//	MaxBlinkAlpha = 1.0f    : 최대 알파									//
+//	MinFlow = 0.3f 	        : 총시간을 1로 하면 0~1 의 숫자로 이 기간에는 최소 알파가 유지됨.		//
+//	MaxFlow = 0.6f		: 위와 동일, MinFlow보다 커야 함.						//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+[WeaponEffect0]
+MaterialType = 0
+MatIndex = 0	
+WeaponId = 2060	
+PieceList = "3"		
+PieceList_Third = "0"	
+
+
+//ak47 Fire(A)
+[WeaponEffect1]		
+MaterialType = 0
+MatIndex = 2					
+WeaponId = 2083				
+PieceList = "3"				
+PieceList_Third = "0"	
+
+//trg21 Fire(A)
+[WeaponEffect2]				
+MaterialType = 0			
+MatIndex = 1					
+WeaponId = 2082				
+PieceList = "5"				
+PieceList_Third = "0"	
+
+//g18 Rifle Sakura(A)
+[WeaponEffect3]			
+MaterialType = 0		
+MatIndex = 3				
+WeaponId = 2172			
+PieceList = "6"					
+PieceList_Third = "3"		
+
+//g18 Rifle Survival
+[WeaponEffect4]					
+MaterialType = 0				
+MatIndex = 4						
+WeaponId = 2565					
+PieceList = "6"					
+PieceList_Third = "3"		
+
+//생존모드 마그마 장도리
+[WeaponEffect5]					
+MaterialType = 1			
+MatIndexList = "5"			
+WeaponId = 2594				
+PieceList = "3"			
+PieceList_Third = "0"			
+
+//D.Eagle 일렉트릭
+[WeaponEffect6]					
+MaterialType = 1			
+MatIndexList = "6"			
+WeaponId = 2623			
+PieceList = "7"	
+
+
+
+
+[Material0]
+MaterialType = 0					
+FlowX = 1.0f							
+FlowY = 0.0f							
+FlowSpeed = 0.1f					
+Texture = "sa_weapons\skins\SkinShader\fire_skin_1P.dtx"	
+Texture_Third = "sa_weapons\skins\SkinShader\fire_skin_3P.dtx"	
+ZOffset = 0.001f
+ZOffsetThird = 0.003f
+
+[Material1]
+MaterialType = 0	
+FlowX = 1.0f			
+FlowY = 0.0f			
+FlowSpeed = 0.1f	
+Texture = "sa_weapons\skins\SkinShader\fire_skin2_1P.dtx"	
+Texture_Third = "sa_weapons\skins\SkinShader\fire_skin3_3P.dtx"	
+ZOffset = 0.001f
+ZOffsetThird = 0.003f
+
+[Material2]
+MaterialType = 0	
+FlowX = 1.0f			
+FlowY = 0.0f			
+FlowSpeed = 0.1f	
+Texture = "sa_weapons\skins\SkinShader\fire_skin_1P.dtx"	
+Texture_Third = "sa_weapons\skins\SkinShader\fire_skin2_3P.dtx"
+ZOffset = 0.001f
+ZOffsetThird = 0.003f
+
+[Material3]
+MaterialType = 0	
+FlowX = 1.0f			
+FlowY = -1.0f			
+FlowSpeed = 0.03f	
+Texture = "sa_weapons\skins\SkinShader\Sakura_Skin_1P.dtx"	
+Texture_Third = "sa_weapons\skins\SkinShader\Sakura_Skin_1P.dtx"	
+ZOffset = 0.001f
+ZOffsetThird = 0.001f
+
+[Material4]
+MaterialType = 0			
+FlowX = 1.0f					
+FlowY = 0.0f					
+FlowSpeed = 0.1f			
+Texture = "sa_weapons\skins\SkinShader\Survival_skin_1p.dtx"	
+Texture_Third = "sa_weapons\skins\SkinShader\Survival_skin_3p.dtx"
+ZOffset = 0.001f
+ZOffsetThird = 0.01f
+
+[Material5]
+MaterialType = 1		
+FlowX = 0.0f				
+FlowY = 0.0f				
+FlowSpeed = 0.0f		
+Texture = "sa_weapons\skins\SkinShader\claw_magma_hammer_default.dtx"		
+Texture_Third = "sa_weapons\skins\SkinShader\claw_magma_hammer_3p.dtx"	
+AlphaFlow = 0.2f				
+MinBlinkAlpha = 0.3f		
+MaxBlinkAlpha = 1.0f		
+MinFlow = 0.3f					
+MaxFlow = 0.6f	
+ZOffset = 0.001f
+ZOffsetThird = 0.01f
+
+[Material6]
+MaterialType = 0			
+FlowX = 1.0f					
+FlowY = 0.0f					
+FlowSpeed = 0.7f			
+Texture = "sa_weapons\skins\SkinShader\Deagle_Electric.dtx"	
+ZOffset = 0.0005f
+ZOffsetThird = 0.01f
+

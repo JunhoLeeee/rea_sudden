@@ -1,0 +1,236 @@
+[AnimalUIData0] // ¹ÚÁã
+PartsTexName = "sa_interface2\menu\Hunting\Target_parts_Bat_0%d.dtx"
+PartsTexNameNormal = "sa_interface2\menu\Hunting\Target_parts_Bat_0%dw.dtx"
+PartsBackTexName = "sa_interface2\menu\Hunting\Target_parts_Bat_00.dtx"
+PartsNum = 6
+StrTitleNum = 15728
+StrDescNum = 15734
+StrConditionNum = 15740
+StrDescLen = 160
+
+[AnimalUIData1] // ¸ð±â
+PartsTexName = "sa_interface2\menu\Hunting\Target_parts_Moskito_0%d.dtx"
+PartsTexNameNormal = "sa_interface2\menu\Hunting\Target_parts_Moskito_0%dw.dtx"
+PartsBackTexName = "sa_interface2\menu\Hunting\Target_parts_Moskito_00.dtx"
+PartsNum = 7
+StrTitleNum = 15729
+StrDescNum = 15735
+StrConditionNum = 15741
+StrDescLen = 160
+
+[AnimalUIData2] // ¾Þ¹«»õ
+PartsTexName = "sa_interface2\menu\Hunting\Target_parts_Bird_0%d.dtx"
+PartsTexNameNormal = "sa_interface2\menu\Hunting\Target_parts_Bird_0%dw.dtx"
+PartsBackTexName = "sa_interface2\menu\Hunting\Target_parts_Bird_00.dtx"
+PartsNum = 6
+StrTitleNum = 15730
+StrDescNum = 15736
+StrConditionNum = 15742
+StrDescLen = 160
+
+
+[AnimalUIData3] // ¿À¸®
+PartsTexName = "sa_interface2\menu\Hunting\Target_parts_Duck_0%d.dtx"
+PartsTexNameNormal = "sa_interface2\menu\Hunting\Target_parts_Duck_0%dw.dtx"
+PartsBackTexName = "sa_interface2\menu\Hunting\Target_parts_Duck_00.dtx"
+PartsNum = 7
+StrTitleNum = 15731
+StrDescNum = 15737
+StrConditionNum = 15743
+StrDescLen = 160
+
+[AnimalUIData4] // Ä»°Å·ç
+PartsTexName = "sa_interface2\menu\Hunting\Target_parts_Kangaroo_0%d.dtx"
+PartsTexNameNormal = "sa_interface2\menu\Hunting\Target_parts_Kangaroo_0%dw.dtx"
+PartsBackTexName = "sa_interface2\menu\Hunting\Target_parts_Kangaroo_00.dtx"
+PartsNum = 7
+StrTitleNum = 15732
+StrDescNum = 15738
+StrConditionNum = 15744
+StrDescLen = 160
+
+[AnimalUIData5] // µÅÁö
+PartsTexName = "sa_interface2\menu\Hunting\Target_parts_Pig_0%d.dtx"
+PartsTexNameNormal = "sa_interface2\menu\Hunting\Target_parts_Pig_0%dw.dtx"
+PartsBackTexName = "sa_interface2\menu\Hunting\Target_parts_Pig_00.dtx"
+PartsNum = 8
+StrTitleNum = 15733
+StrDescNum = 15739
+StrConditionNum = 15745
+StrDescLen = 160
+
+///////////////////////////////////
+
+
+[Sound0]
+Type = "StageFirst"
+Priority = 2
+Path0 = "sa_interface2\snd\Hunting\Voice\00_GameStart_1.wav"
+
+
+[Sound1]
+Type = "StageStart"
+GameType = "NORMAL_KILL, CONDITION_KILL, TIME_OUT"
+Priority = 3
+Path0 = "sa_interface2\snd\Hunting\Voice\01_StageStart_1.wav"
+Path1 = "sa_interface2\snd\Hunting\Voice\01_StageStart_2.wav"
+Path2 = "sa_interface2\snd\Hunting\Voice\01_StageStart_3.wav"
+
+[Sound2]
+Type = "StageClear"
+Priority = 3
+Path0 = "sa_interface2\snd\Hunting\Voice\02_StageClear_1.wav"
+Path1 = "sa_interface2\snd\Hunting\Voice\02_StageClear_2.wav"
+Path2 = "sa_interface2\snd\Hunting\Voice\02_StageClear_3.wav"
+
+[Sound3]
+Type = "GameOver"
+Priority = 1
+Path0 = "sa_interface2\snd\Hunting\Voice\03_GameOver_1.wav"
+Path1 = "sa_interface2\snd\Hunting\Voice\03_GameOver_2.wav"
+Path2 = "sa_interface2\snd\Hunting\Voice\03_GameOver_3.wav"
+Path3 = "sa_interface2\snd\Hunting\Voice\03_GameOver_4.wav"
+
+[Sound4]
+Type = "5Kill"
+GameType = "NORMAL_KILL,TIME_OUT,BOSS_KILL,TIME_BONUS"
+Priority = 5
+Path0 = "sa_interface2\snd\Hunting\Voice\4_5Kill_1.wav"
+Path1 = "sa_interface2\snd\Hunting\Voice\4_5Kill_2.wav"
+Path2 = "sa_interface2\snd\Hunting\Voice\4_5Kill_3.wav"
+
+[Sound5]
+Type = "10Kill"
+GameType = "NORMAL_KILL,TIME_OUT,BOSS_KILL,TIME_BONUS"
+Priority = 5
+Path0 = "sa_interface2\snd\Hunting\Voice\5_10Kill_1.wav"
+Path1 = "sa_interface2\snd\Hunting\Voice\5_10Kill_2.wav"
+Path2 = "sa_interface2\snd\Hunting\Voice\5_10Kill_3.wav"
+
+[Sound6]
+Type = "15Kill"
+GameType = "NORMAL_KILL,TIME_OUT,BOSS_KILL,TIME_BONUS"
+Priority = 5
+Path0 = "sa_interface2\snd\Hunting\Voice\6_15Kill_1.wav"
+
+
+
+[Sound7]
+Type = "20Kill"
+GameType = "NORMAL_KILL,TIME_OUT,BOSS_KILL,TIME_BONUS"
+Priority = 5
+//Path0 = "sa_interface2\snd\Hunting\Voice\7_20Kill_1.wav"
+Path0 = "sa_interface2\snd\Hunting\Voice\7_20Kill_2.wav"
+Path1 = "sa_interface2\snd\Hunting\Voice\7_20Kill_3.wav"
+Path2 = "sa_interface2\snd\Hunting\Voice\7_20Kill_4.wav"
+
+[Sound8]
+Type = "3Upgrade"
+GameType = "NORMAL_KILL,TIME_OUT,BOSS_KILL,TIME_BONUS"
+Priority = 6
+Path0 = "sa_interface2\snd\Hunting\Voice\8_3Upgrade_1.wav"
+Path1 = "sa_interface2\snd\Hunting\Voice\8_3Upgrade_2.wav"
+Path2 = "sa_interface2\snd\Hunting\Voice\8_3Upgrade_3.wav"
+
+[Sound9]
+Type = "2Upgrade"
+GameType = "NORMAL_KILL,TIME_OUT,BOSS_KILL,TIME_BONUS"
+Priority = 6
+Path0 = "sa_interface2\snd\Hunting\Voice\9_2Upgrade_1.wav"
+Path1 = "sa_interface2\snd\Hunting\Voice\9_2Upgrade_2.wav"
+Path2 = "sa_interface2\snd\Hunting\Voice\9_2Upgrade_3.wav"
+
+[Sound10]
+Type = "1Upgrade"
+GameType = "NORMAL_KILL,TIME_OUT,BOSS_KILL,TIME_BONUS"
+Priority = 6
+Path0 = "sa_interface2\snd\Hunting\Voice\10_1Upgrade_1.wav"
+Path1 = "sa_interface2\snd\Hunting\Voice\10_1Upgrade_2.wav"
+Path2 = "sa_interface2\snd\Hunting\Voice\10_1Upgrade_3.wav"
+
+[Sound11]
+Type = "2Downgrade"
+GameType = "NORMAL_KILL,TIME_OUT,BOSS_KILL,TIME_BONUS"
+Priority = 6
+Path0 = "sa_interface2\snd\Hunting\Voice\11_2Downgrade_1.wav"
+Path1 = "sa_interface2\snd\Hunting\Voice\11_2Downgrade_2.wav"
+Path2 = "sa_interface2\snd\Hunting\Voice\11_2Downgrade_3.wav"
+
+[Sound12]
+Type = "3Downgrade"
+GameType = "NORMAL_KILL,TIME_OUT,BOSS_KILL,TIME_BONUS"
+Priority = 6
+Path0 = "sa_interface2\snd\Hunting\Voice\12_3Downgrade_1.wav"
+Path1 = "sa_interface2\snd\Hunting\Voice\12_3Downgrade_2.wav"
+Path2 = "sa_interface2\snd\Hunting\Voice\12_3Downgrade_3.wav"
+
+[Sound13]
+Type = "4Downgrade"
+GameType = "NORMAL_KILL,TIME_OUT,BOSS_KILL,TIME_BONUS"
+Priority = 6
+Path0 = "sa_interface2\snd\Hunting\Voice\13_4Downgrade_1.wav"
+Path1 = "sa_interface2\snd\Hunting\Voice\13_4Downgrade_2.wav"
+Path2 = "sa_interface2\snd\Hunting\Voice\13_4Downgrade_3.wav"
+
+
+[Sound14]
+Type = "DecreaseHP"
+Priority = 6
+Path0 = "sa_interface2\snd\Hunting\Voice\14_DecreaseHP_1.wav"
+Path1 = "sa_interface2\snd\Hunting\Voice\14_DecreaseHP_2.wav"
+Path2 = "sa_interface2\snd\Hunting\Voice\14_DecreaseHP_3.wav"
+Path3 = "sa_interface2\snd\Hunting\Voice\14_DecreaseHP_4.wav"
+
+[Sound15]
+Type = "0HP"
+Priority = 4
+Path0 = "sa_interface2\snd\Hunting\Voice\15_0HP_1.wav"
+Path1 = "sa_interface2\snd\Hunting\Voice\15_0HP_2.wav"
+Path2 = "sa_interface2\snd\Hunting\Voice\15_0HP_3.wav"
+
+[Sound16]
+Type = "FlagMissionSuccess"
+GameType = "CONDITION_KILL"
+Priority = 2
+Path0 = "sa_interface2\snd\Hunting\Flag_Success.wav"
+
+
+
+[Sound17]
+Type = "FlagMissionFail"
+GameType = "CONDITION_KILL"
+Priority = 2
+Path0 = "sa_interface2\snd\Hunting\Flag_Fail.wav"
+
+
+
+[Sound18]
+Type = "StageStart"
+GameType = "TIME_BONUS"
+Priority = 3
+Path0 = "sa_interface2\snd\Hunting\Voice\18_StageStart_1.wav"
+
+
+[Sound19]
+Type = "StageStart"
+GameType = "BOSS_KILL"
+Priority = 3
+Path0 = "sa_interface2\snd\zombie\DoomsDay_Wave_Start.wav"
+
+
+[Sound20]
+Type = "BuffItem"
+Priority = 1
+Path0 = "sa_interface2\snd\Hunting\Voice\Piece_Get.wav"
+
+[Sound21]
+Type = "BonusItem"
+Priority = 1
+Path0 = "sa_interface2\snd\Hunting\Item_Get.wav"
+
+
+[Sound22]
+Type = "GameClear"
+Priority = 1
+Path0 = "sa_interface2\snd\Hunting\Voice\7_20Kill_1.wav"
+

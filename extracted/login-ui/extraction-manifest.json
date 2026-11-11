@@ -1,0 +1,118 @@
+{
+  "package": "C:\\Nexon\\SuddenAttack\\game\\sa_interface_00002.pkg",
+  "header": {
+    "path": "C:\\Nexon\\SuddenAttack\\game\\sa_interface_00002.pkg",
+    "bytes": 107406336,
+    "version": 3,
+    "mask_bytes": 115,
+    "masked_string_units": 13,
+    "encrypted_header_offset": 146,
+    "index_padding_bytes": 180,
+    "observed_header_sha256": "de4a0eccefe875ac45ac5877048b4b78c413af0f6dec2ee457d18a88a8664229",
+    "identity_scope": "header-ranges-only",
+    "byteorder": "little",
+    "count": 6309,
+    "checksum": 138127
+  },
+  "index_raw_sha256": "90f87524b610a6bb996a5a2290f9650b3b01c70113aee0174a20a0ef9bb29ef0",
+  "selected_members": 9,
+  "extracted": [
+    {
+      "path": "sa_interface/menu/textures/login/login.dtx",
+      "offset": 28335104,
+      "stored_bytes": 9208,
+      "output_bytes": 131236,
+      "ciphertext_sha256": "0173c9ee032c07e77a97ec3fd430a01344922c09627aaf8a7958e7e65b1997aa",
+      "output_sha256": "f500793b6387e5b565b09b07dd5746552fe2e322bfe80cd77153a4e95610b16c",
+      "expected_md5": "9247939257b51937bef3bacf11a61fb7",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_interface/menu/textures/login/loginc.dtx",
+      "offset": 28344320,
+      "stored_bytes": 1444,
+      "output_bytes": 16548,
+      "ciphertext_sha256": "ac3f19faaef5d36cec40c7f55953ac062b4daa05baa4dc1ec6c1f710955af2e7",
+      "output_sha256": "d8c745187a820b13477b02c69652f2086b8b893d6072ad97239fbc3f723a6b02",
+      "expected_md5": "d9b07bf30c7d97ee726482963199f4f9",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_interface/menu/textures/login/logind.dtx",
+      "offset": 28346368,
+      "stored_bytes": 944,
+      "output_bytes": 16548,
+      "ciphertext_sha256": "5ddc8c1588d380ca331d8566fc2c8465f41b51b9456ce9b1574821c36068552c",
+      "output_sha256": "b7d916078ca1d6bce218c56346aeb6b7084c36a6b9edcf991886ba5eb7cc2732",
+      "expected_md5": "b2f4feb73def9c467f2151b8892d54fa",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_interface/menu/textures/login/loginh.dtx",
+      "offset": 28347392,
+      "stored_bytes": 948,
+      "output_bytes": 16548,
+      "ciphertext_sha256": "e444f841a266bb284cffc974e277080c4374ccea25e4207c4adf74524b42fe51",
+      "output_sha256": "80fb28513adbea08f64a7662db8ebaa83ab147eeaa5c938f7038d70613696527",
+      "expected_md5": "5f87dcf633e37c03855aa086a673081b",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_interface/menu/textures/login/loginn.dtx",
+      "offset": 28348416,
+      "stored_bytes": 956,
+      "output_bytes": 16548,
+      "ciphertext_sha256": "f7ab67ba73c64494c21cac3f2d2aa7150da675fc850d844854181c67e3cb8a5d",
+      "output_sha256": "7bf8163955440887098bb616d4d02954bc5dfaf5ebe5cc1f32597b11457a9f71",
+      "expected_md5": "fc3c4edf245525cf4bc3baa9837e7855",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_interface/menu/textures/login/logoutc.dtx",
+      "offset": 28349440,
+      "stored_bytes": 1444,
+      "output_bytes": 16548,
+      "ciphertext_sha256": "ac3f19faaef5d36cec40c7f55953ac062b4daa05baa4dc1ec6c1f710955af2e7",
+      "output_sha256": "d8c745187a820b13477b02c69652f2086b8b893d6072ad97239fbc3f723a6b02",
+      "expected_md5": "d9b07bf30c7d97ee726482963199f4f9",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_interface/menu/textures/login/logoutd.dtx",
+      "offset": 28351488,
+      "stored_bytes": 944,
+      "output_bytes": 16548,
+      "ciphertext_sha256": "5ddc8c1588d380ca331d8566fc2c8465f41b51b9456ce9b1574821c36068552c",
+      "output_sha256": "b7d916078ca1d6bce218c56346aeb6b7084c36a6b9edcf991886ba5eb7cc2732",
+      "expected_md5": "b2f4feb73def9c467f2151b8892d54fa",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_interface/menu/textures/login/logouth.dtx",
+      "offset": 28352512,
+      "stored_bytes": 948,
+      "output_bytes": 16548,
+      "ciphertext_sha256": "e444f841a266bb284cffc974e277080c4374ccea25e4207c4adf74524b42fe51",
+      "output_sha256": "80fb28513adbea08f64a7662db8ebaa83ab147eeaa5c938f7038d70613696527",
+      "expected_md5": "5f87dcf633e37c03855aa086a673081b",
+      "md5_verified": true
+    },
+    {
+      "path": "sa_interface/menu/textures/login/logoutn.dtx",
+      "offset": 28353536,
+      "stored_bytes": 956,
+      "output_bytes": 16548,
+      "ciphertext_sha256": "f7ab67ba73c64494c21cac3f2d2aa7150da675fc850d844854181c67e3cb8a5d",
+      "output_sha256": "7bf8163955440887098bb616d4d02954bc5dfaf5ebe5cc1f32597b11457a9f71",
+      "expected_md5": "fc3c4edf245525cf4bc3baa9837e7855",
+      "md5_verified": true
+    }
+  ],
+  "errors": [],
+  "status": "selected-members-verified",
+  "limitations": [
+    "Only profiles with flags in 0..7 and no block hash table are supported.",
+    "Archived code is never loaded or executed.",
+    "Full package digest remains unknown; selected read ranges have SHA-256."
+  ]
+}

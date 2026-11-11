@@ -1,0 +1,84 @@
+[Action0]
+Property = "Wait,  1,  2"
+
+[Action1]
+Property = "Wait,  3,  4"
+
+[Action2]
+Property = "Wait,  5,  6"
+
+[Action3]
+Property = "Wait,  7,  8"
+
+[Action4]
+Property = "Wait,  9,  10"
+
+[Action5]
+Property = "Wait,  11,  12"
+
+[Action6]
+Property = "Walk,  1,  5"
+
+[Action7]
+Property = "Walk,  6,  10"
+
+[Action8]
+Property = "BackWalk,  1,  2"
+
+[Action9]
+Property = "BackWalk,  3,  4"
+
+[Action10]
+Property = "Run,  1,  5"
+
+[Action11]
+Property = "Run,  6,  10"
+
+[Action12]
+Property = "BackRun,  1,  2"
+
+[Action13]
+Property = "BackRun,  3,  4"
+
+[Action14]
+Property = "Sit,  1,  2"
+
+[Action15]
+Property = "Sit,  3,  4"
+
+[Action16]
+Property = "SitWalk,  3,  4"
+
+[Action17]
+Property = "SitWalk,  5,  6"
+
+[Action18]
+Property = "Jump,  1"
+
+[Action19]
+Property = "Jump,  2"
+
+[Action20]
+Property = "JumpWalk,  1"
+
+[Action21]
+Property = "JumpWalk,  2"
+
+[Action22]
+Property = "JumpRun,  1"
+
+[Action23]
+Property = "JumpRun,  2"
+
+[Action24]
+Property = "Rotation,  1"
+
+[Action25]
+Property = "Rotation,  2"
+
+[Action26]
+Property = "Emotion,  1"
+
+[Action27]
+Property = "Emotion,  2"
+

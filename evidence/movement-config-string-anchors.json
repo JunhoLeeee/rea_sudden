@@ -1,0 +1,898 @@
+{
+  "path": "extracted\\game-file\\game_file\\CShell.dll",
+  "bytes": 33580904,
+  "sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110",
+  "image_base": "0x180000000",
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "raw_offset": 1024,
+      "raw_size": 21292032,
+      "virtual_size": 21291790
+    },
+    {
+      "name": ".rdata",
+      "rva": 21299200,
+      "raw_offset": 21293056,
+      "raw_size": 4760064,
+      "virtual_size": 4759922
+    },
+    {
+      "name": ".data",
+      "rva": 26062848,
+      "raw_offset": 26053120,
+      "raw_size": 446464,
+      "virtual_size": 2207224
+    },
+    {
+      "name": ".pdata",
+      "rva": 28270592,
+      "raw_offset": 26499584,
+      "raw_size": 999424,
+      "virtual_size": 998916
+    },
+    {
+      "name": ".rsrc",
+      "rva": 29270016,
+      "raw_offset": 27499008,
+      "raw_size": 1536,
+      "virtual_size": 1288
+    },
+    {
+      "name": ".reloc",
+      "rva": 29274112,
+      "raw_offset": 27500544,
+      "raw_size": 300544,
+      "virtual_size": 300208
+    },
+    {
+      "name": ".vm_sec",
+      "rva": 29577216,
+      "raw_offset": 27801088,
+      "raw_size": 49664,
+      "virtual_size": 49664
+    },
+    {
+      "name": ".vlizer",
+      "rva": 29630464,
+      "raw_offset": 27850752,
+      "raw_size": 5719549,
+      "virtual_size": 5719552
+    }
+  ],
+  "pattern": "^(Jump|Run|Walk|Duck|Crouch|Move|Player|Friction|Air|Gravity|Accel)[A-Za-z0-9_]*$|MoveMgr.cpp|ClientMovement|CanMove|MovingAccel",
+  "matches": [
+    {
+      "offset": 12765117,
+      "bytes": 7,
+      "encoding": "ascii",
+      "address": "0x180c2d3bd",
+      "value": "MoveRed"
+    },
+    {
+      "offset": 12765852,
+      "bytes": 7,
+      "encoding": "ascii",
+      "address": "0x180c2d69c",
+      "value": "MoveRed"
+    },
+    {
+      "offset": 21340040,
+      "bytes": 26,
+      "encoding": "ascii",
+      "address": "0x18145b788",
+      "value": "PlayerDeadItemDropDistance"
+    },
+    {
+      "offset": 21387544,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x181467118",
+      "value": "playerinfo"
+    },
+    {
+      "offset": 21387576,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x181467138",
+      "value": "playerinfo2"
+    },
+    {
+      "offset": 21387592,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x181467148",
+      "value": "playerinfo3"
+    },
+    {
+      "offset": 21575144,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x181494de8",
+      "value": "PlayerGrade"
+    },
+    {
+      "offset": 21575160,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x181494df8",
+      "value": "PlayerInfo"
+    },
+    {
+      "offset": 21622176,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x1814a05a0",
+      "value": "playerkillcount"
+    },
+    {
+      "offset": 21622192,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x1814a05b0",
+      "value": "playerhpap"
+    },
+    {
+      "offset": 21633464,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x1814a31b8",
+      "value": "playerwaitmsg"
+    },
+    {
+      "offset": 21659848,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x1814a98c8",
+      "value": "playerlist"
+    },
+    {
+      "offset": 21663984,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x1814aa8f0",
+      "value": "player1_1"
+    },
+    {
+      "offset": 21664008,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x1814aa908",
+      "value": "player1_2"
+    },
+    {
+      "offset": 21664112,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x1814aa970",
+      "value": "player3_1"
+    },
+    {
+      "offset": 21664128,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x1814aa980",
+      "value": "player3_2"
+    },
+    {
+      "offset": 21664200,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x1814aa9c8",
+      "value": "player2_1"
+    },
+    {
+      "offset": 21664272,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x1814aaa10",
+      "value": "player5_1"
+    },
+    {
+      "offset": 21664288,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x1814aaa20",
+      "value": "player5_2"
+    },
+    {
+      "offset": 21664368,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x1814aaa70",
+      "value": "player4_1"
+    },
+    {
+      "offset": 21842520,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x1814d6258",
+      "value": "MoveSize"
+    },
+    {
+      "offset": 22147432,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x181520968",
+      "value": "playercount"
+    },
+    {
+      "offset": 22292908,
+      "bytes": 4,
+      "encoding": "ascii",
+      "address": "0x1815441ac",
+      "value": "JUMP"
+    },
+    {
+      "offset": 22293148,
+      "bytes": 4,
+      "encoding": "ascii",
+      "address": "0x18154429c",
+      "value": "DUCK"
+    },
+    {
+      "offset": 22349008,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x181551cd0",
+      "value": "PlayerEnemy"
+    },
+    {
+      "offset": 22674176,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x1815a1300",
+      "value": "MOVE_FORWARD"
+    },
+    {
+      "offset": 22674192,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x1815a1310",
+      "value": "MOVE_BACK"
+    },
+    {
+      "offset": 22674208,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x1815a1320",
+      "value": "MOVE_LEFT"
+    },
+    {
+      "offset": 22674224,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x1815a1330",
+      "value": "MOVE_RIGHT"
+    },
+    {
+      "offset": 22674312,
+      "bytes": 7,
+      "encoding": "ascii",
+      "address": "0x1815a1388",
+      "value": "WALKING"
+    },
+    {
+      "offset": 22674320,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x1815a1390",
+      "value": "WALKING_RUNNING"
+    },
+    {
+      "offset": 23073000,
+      "bytes": 7,
+      "encoding": "ascii",
+      "address": "0x1816028e8",
+      "value": "movebtn"
+    },
+    {
+      "offset": 23085592,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x181605a18",
+      "value": "PlayerDims"
+    },
+    {
+      "offset": 23090952,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x181606f08",
+      "value": "MoveSpeedGrade"
+    },
+    {
+      "offset": 23093688,
+      "bytes": 27,
+      "encoding": "ascii",
+      "address": "0x1816079b8",
+      "value": "Move_Speed_Up_Continue_Time"
+    },
+    {
+      "offset": 23097976,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x181608a78",
+      "value": "move_gray_red"
+    },
+    {
+      "offset": 23097992,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x181608a88",
+      "value": "move_blue_red"
+    },
+    {
+      "offset": 23098008,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x181608a98",
+      "value": "move_gray_blue"
+    },
+    {
+      "offset": 23098024,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x181608aa8",
+      "value": "move_red_blue"
+    },
+    {
+      "offset": 23098104,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x181608af8",
+      "value": "MoveBlue"
+    },
+    {
+      "offset": 23102328,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x181609b78",
+      "value": "runaway_item_goldbar"
+    },
+    {
+      "offset": 23102352,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x181609b90",
+      "value": "runaway_point20"
+    },
+    {
+      "offset": 23102368,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x181609ba0",
+      "value": "runaway_item_bills"
+    },
+    {
+      "offset": 23102392,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x181609bb8",
+      "value": "runaway_point10"
+    },
+    {
+      "offset": 23102408,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x181609bc8",
+      "value": "runaway_item_gun01"
+    },
+    {
+      "offset": 23111464,
+      "bytes": 23,
+      "encoding": "ascii",
+      "address": "0x18160bf28",
+      "value": "MovementPenaltyStrength"
+    },
+    {
+      "offset": 23111488,
+      "bytes": 23,
+      "encoding": "ascii",
+      "address": "0x18160bf40",
+      "value": "MovementPenaltyDuration"
+    },
+    {
+      "offset": 23182080,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x18161d300",
+      "value": "MovementHintNode"
+    },
+    {
+      "offset": 23182232,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x18161d398",
+      "value": "MoveLock"
+    },
+    {
+      "offset": 23182264,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x18161d3b8",
+      "value": "JumpCheckHeight"
+    },
+    {
+      "offset": 23182280,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x18161d3c8",
+      "value": "MovementHintAni"
+    },
+    {
+      "offset": 23182368,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x18161d420",
+      "value": "WalkForward"
+    },
+    {
+      "offset": 23182384,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x18161d430",
+      "value": "WalkBackward"
+    },
+    {
+      "offset": 23182408,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x18161d448",
+      "value": "WalkStrafeLeft"
+    },
+    {
+      "offset": 23182432,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x18161d460",
+      "value": "WalkStrafeRight"
+    },
+    {
+      "offset": 23182456,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x18161d478",
+      "value": "RunForward"
+    },
+    {
+      "offset": 23182472,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x18161d488",
+      "value": "RunBackward"
+    },
+    {
+      "offset": 23182488,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x18161d498",
+      "value": "RunStrafeLeft"
+    },
+    {
+      "offset": 23182512,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x18161d4b0",
+      "value": "RunStrafeRight"
+    },
+    {
+      "offset": 23182536,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x18161d4c8",
+      "value": "JumpJump"
+    },
+    {
+      "offset": 23182552,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x18161d4d8",
+      "value": "WalkJump"
+    },
+    {
+      "offset": 23182568,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x18161d4e8",
+      "value": "JumpTuck"
+    },
+    {
+      "offset": 23182584,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x18161d4f8",
+      "value": "JumpLand"
+    },
+    {
+      "offset": 23185752,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x18161e158",
+      "value": "JumpSound"
+    },
+    {
+      "offset": 23210448,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x1816241d0",
+      "value": "Player_Info"
+    },
+    {
+      "offset": 23297492,
+      "bytes": 4,
+      "encoding": "ascii",
+      "address": "0x1816395d4",
+      "value": "walk"
+    },
+    {
+      "offset": 23300888,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x18163a318",
+      "value": "MOVE_LOUD_KEY"
+    },
+    {
+      "offset": 23300904,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x18163a328",
+      "value": "MOVE_QUIET_KEY"
+    },
+    {
+      "offset": 23300968,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x18163a368",
+      "value": "JUMP_KEY"
+    },
+    {
+      "offset": 23300984,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x18163a378",
+      "value": "JUMP_W_KEY"
+    },
+    {
+      "offset": 23301000,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x18163a388",
+      "value": "WALKSTEP_KEY"
+    },
+    {
+      "offset": 23304232,
+      "bytes": 5,
+      "encoding": "ascii",
+      "address": "0x18163b028",
+      "value": "Jump_"
+    },
+    {
+      "offset": 23315992,
+      "bytes": 7,
+      "encoding": "ascii",
+      "address": "0x18163de18",
+      "value": "Runaway"
+    },
+    {
+      "offset": 23316304,
+      "bytes": 7,
+      "encoding": "ascii",
+      "address": "0x18163df50",
+      "value": "RunGame"
+    },
+    {
+      "offset": 23316672,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x18163e0c0",
+      "value": "walkaccmul"
+    },
+    {
+      "offset": 23318000,
+      "bytes": 6,
+      "encoding": "ascii",
+      "address": "0x18163e5f0",
+      "value": "PLAYER"
+    },
+    {
+      "offset": 23336544,
+      "bytes": 6,
+      "encoding": "ascii",
+      "address": "0x181642e60",
+      "value": "Player"
+    },
+    {
+      "offset": 23339576,
+      "bytes": 26,
+      "encoding": "ascii",
+      "address": "0x181643a38",
+      "value": "PLAYER_MOVE_SPEED_MULTIPLY"
+    },
+    {
+      "offset": 23344656,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x181644e10",
+      "value": "MoveNoiseMod"
+    },
+    {
+      "offset": 23351104,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x181646740",
+      "value": "PlayerAttach"
+    },
+    {
+      "offset": 23351656,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x181646968",
+      "value": "PlayerMY"
+    },
+    {
+      "offset": 23351896,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x181646a58",
+      "value": "PlayerRadio"
+    },
+    {
+      "offset": 23351912,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x181646a68",
+      "value": "PlayerVoice"
+    },
+    {
+      "offset": 23351928,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x181646a78",
+      "value": "PlayerDead"
+    },
+    {
+      "offset": 23352016,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x181646ad0",
+      "value": "PlayerCapture"
+    },
+    {
+      "offset": 23352032,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x181646ae0",
+      "value": "PlayerMYDEAD"
+    },
+    {
+      "offset": 23352088,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x181646b18",
+      "value": "PlayerAlive"
+    },
+    {
+      "offset": 23352328,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x181646c08",
+      "value": "PlayerEnemyGetOut"
+    },
+    {
+      "offset": 23355144,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x181647708",
+      "value": "runaway_handcuffs"
+    },
+    {
+      "offset": 23355168,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x181647720",
+      "value": "runaway_count"
+    },
+    {
+      "offset": 23355184,
+      "bytes": 14,
+      "encoding": "ascii",
+      "address": "0x181647730",
+      "value": "runaway_count5"
+    },
+    {
+      "offset": 23373400,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x18164be58",
+      "value": "MOVERATE"
+    },
+    {
+      "offset": 23373488,
+      "bytes": 4,
+      "encoding": "ascii",
+      "address": "0x18164beb0",
+      "value": "MOVE"
+    },
+    {
+      "offset": 23384816,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x18164eaf0",
+      "value": "AirBasePos"
+    },
+    {
+      "offset": 23392632,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x181650978",
+      "value": "Run_Goal_1st"
+    },
+    {
+      "offset": 23392648,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x181650988",
+      "value": "Run_Goal_2nd"
+    },
+    {
+      "offset": 23392664,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x181650998",
+      "value": "Run_Goal_3rd"
+    },
+    {
+      "offset": 23426384,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x181658d50",
+      "value": "JumpScale"
+    },
+    {
+      "offset": 23426408,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x181658d68",
+      "value": "PlayerIndex"
+    },
+    {
+      "offset": 23430000,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x181659b70",
+      "value": "MoveToFloor"
+    },
+    {
+      "offset": 23452904,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x18165f4e8",
+      "value": "MoveSkill_PenaltySpeed"
+    },
+    {
+      "offset": 23452928,
+      "bytes": 21,
+      "encoding": "ascii",
+      "address": "0x18165f500",
+      "value": "MoveSkill_NormalSpeed"
+    },
+    {
+      "offset": 23452952,
+      "bytes": 23,
+      "encoding": "ascii",
+      "address": "0x18165f518",
+      "value": "MoveSkill_infecteeSpeed"
+    },
+    {
+      "offset": 23452976,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x18165f530",
+      "value": "MoveSpeed"
+    },
+    {
+      "offset": 23452992,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x18165f540",
+      "value": "MoveJump"
+    },
+    {
+      "offset": 23453008,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x18165f550",
+      "value": "MoveInfecteeSpeed"
+    },
+    {
+      "offset": 23453032,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x18165f568",
+      "value": "MoveInfecteeJump"
+    },
+    {
+      "offset": 23454168,
+      "bytes": 7,
+      "encoding": "ascii",
+      "address": "0x18165f9d8",
+      "value": "players"
+    },
+    {
+      "offset": 23455232,
+      "bytes": 4,
+      "encoding": "ascii",
+      "address": "0x18165fe00",
+      "value": "Jump"
+    },
+    {
+      "offset": 23484360,
+      "bytes": 8,
+      "encoding": "ascii",
+      "address": "0x181666fc8",
+      "value": "MoveType"
+    },
+    {
+      "offset": 23487480,
+      "bytes": 7,
+      "encoding": "ascii",
+      "address": "0x181667bf8",
+      "value": "Gravity"
+    },
+    {
+      "offset": 23488640,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x181668080",
+      "value": "GravityOverride"
+    },
+    {
+      "offset": 23507776,
+      "bytes": 12,
+      "encoding": "ascii",
+      "address": "0x18166cb40",
+      "value": "GravityScale"
+    },
+    {
+      "offset": 23612128,
+      "bytes": 7,
+      "encoding": "ascii",
+      "address": "0x1816862e0",
+      "value": "running"
+    },
+    {
+      "offset": 26037798,
+      "bytes": 10,
+      "encoding": "ascii",
+      "address": "0x1818d6626",
+      "value": "MoveWindow"
+    },
+    {
+      "offset": 26052472,
+      "bytes": 11,
+      "encoding": "ascii",
+      "address": "0x1818d9f78",
+      "value": "MoveFileExW"
+    },
+    {
+      "offset": 26458512,
+      "bytes": 37,
+      "encoding": "ascii",
+      "address": "0x18193df90",
+      "value": ".?AVCheckCanMoveDataObject@CMoveMgr@@"
+    },
+    {
+      "offset": 31565883,
+      "bytes": 6,
+      "encoding": "ascii",
+      "address": "0x181fcd03b",
+      "value": "runtvZ"
+    }
+  ],
+  "limitations": [
+    "Raw file-string anchors only; no references or function identities established.",
+    "Virtual addresses require one unique source-backed section mapping.",
+    "Only printable ASCII and ASCII-range UTF-16LE runs are scanned."
+  ]
+}

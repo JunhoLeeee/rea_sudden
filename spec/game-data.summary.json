@@ -1,0 +1,58 @@
+{
+  "database": "spec\\game-data.sqlite",
+  "files": [
+    {
+      "file": "weapons.txt",
+      "sections": 11215,
+      "fields": 583675,
+      "unparsed": 12,
+      "encoding": "cp949"
+    },
+    {
+      "file": "layout.txt",
+      "sections": 130,
+      "fields": 8529,
+      "unparsed": 308,
+      "encoding": "cp949"
+    },
+    {
+      "file": "mission.txt",
+      "sections": 212,
+      "fields": 4402,
+      "unparsed": 0,
+      "encoding": "cp949"
+    },
+    {
+      "file": "playerskill.txt",
+      "sections": 90,
+      "fields": 2700,
+      "unparsed": 0,
+      "encoding": "cp949"
+    },
+    {
+      "file": "modelbutes.txt",
+      "sections": 3940,
+      "fields": 133291,
+      "unparsed": 75,
+      "encoding": "cp949"
+    },
+    {
+      "file": "damagefx.txt",
+      "sections": 17,
+      "fields": 417,
+      "unparsed": 236,
+      "encoding": "utf-8-sig"
+    },
+    {
+      "file": "damagetypes.txt",
+      "sections": 45,
+      "fields": 206,
+      "unparsed": 28,
+      "encoding": "utf-8-sig"
+    }
+  ],
+  "limitations": [
+    "Declarations only; runtime reachability, units and overrides remain unverified.",
+    "Duplicate fields/sections preserved; inheritance and precedence are not inferred."
+  ]
+}

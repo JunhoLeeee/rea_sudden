@@ -1,0 +1,326 @@
+{
+	"level":
+	[
+		{
+            "keyvalue" : 0,
+            "name" : "브론즈",
+            "requirepoint" : 0
+		},
+        {
+            "keyvalue" : 1,
+            "name" : "실버",
+            "requirepoint" : 1000,
+            "reword" :
+            [
+                {
+                    "type" : "reword",
+                    "rewordtype" : "item",
+                    "code" : "eet0000"
+                },
+                {
+                    "type" : "buff",
+                    "rewordtype" : "buff",
+                    "bufftype" : "exp"
+                },
+                {
+                    "type" : "daily",
+                    "rewordtype" : "item",
+                    "code" : "eet0000"
+                }
+            ]
+		},
+        {
+            "keyvalue" : 2,
+            "name" : "골드",
+            "requirepoint" : 10000,
+            "reword" :
+            [
+                {
+                    "type" : "reword",
+                    "rewordtype" : "item",
+                    "code" : "eet0000"
+                },
+                {
+                    "type" : "buff",
+                    "rewordtype" : "buff",
+                    "bufftype" : "exp"
+                },
+                {
+                    "type" : "daily",
+                    "rewordtype" : "item",
+                    "code" : "eet0000"
+                }
+            ]
+		},
+        {
+            "keyvalue" : 3,
+            "name" : "플래티넘",
+            "requirepoint" : 50000,
+            "reword" :
+            [
+                {
+                    "type" : "reword",
+                    "rewordtype" : "item",
+                    "code" : "eet0000"
+                },
+                {
+                    "type" : "buff",
+                    "rewordtype" : "buff",
+                    "bufftype" : "exp"
+                },
+                {
+                    "type" : "daily",
+                    "rewordtype" : "item",
+                    "code" : "eet0000"
+                }
+            ]
+		},
+        {
+            "keyvalue" : 4,
+            "name" : "다이아",
+            "requirepoint" : 200000,
+            "reword" :
+            [
+                {
+                    "type" : "reword",
+                    "rewordtype" : "item",
+                    "code" : "eet0000"
+                },
+                {
+                    "type" : "buff",
+                    "rewordtype" : "buff",
+                    "bufftype" : "exp"
+                },
+                {
+                    "type" : "daily",
+                    "rewordtype" : "item",
+                    "code" : "eet0000"
+                }
+            ]
+		},
+        {
+            "keyvalue" : 5,
+            "name" : "VIP",
+            "requirepoint" : 500000,
+            "reword" :
+            [
+                {
+                    "type" : "reword",
+                    "rewordtype" : "item",
+                    "code" : "eet0000"
+                },
+                {
+                    "type" : "buff",
+                    "rewordtype" : "buff",
+                    "bufftype" : "exp"
+                },
+                {
+                    "type" : "daily",
+                    "rewordtype" : "item",
+                    "code" : "eet0000"
+                }
+            ]
+		},
+        {
+            "keyvalue" : 6,
+            "name" : "VVIP",
+            "requirepoint" : 1000000,
+            "reword" :
+            [
+                {
+                    "type" : "reword",
+                    "rewordtype" : "item",
+                    "code" : "eet0000"
+                },
+                {
+                    "type" : "buff",
+                    "rewordtype" : "buff",
+                    "bufftype" : "exp"
+                },
+                {
+                    "type" : "daily",
+                    "rewordtype" : "item",
+                    "code" : "eet0000"
+                }
+            ]
+		}
+    ],
+    "shop":
+    [
+       {
+            "grade" : 5,
+            "require_ticket" : 50,
+            "item_tpye" : "item",
+            "provision_type" : "first_come",
+            "code" : "EET07385001NYY", //마이건2 Lv.50 키트
+            "count" : 1,
+            "max_provision_count" : 3000
+        },
+		{
+            "grade" : 5,
+            "require_ticket" : 50,
+            "item_tpye" : "item",
+            "provision_type" : "limit",
+            "code" : "EET14717001NYY", //생존전 플래티넘 키카드
+            "count" : 1,
+			"max_provision_count" : 1
+        },
+        {
+            "grade" : 1,
+            "require_ticket" : 20,
+            "item_tpye" : "item",
+            "provision_type" : "first_come",
+            "code" : "EET10401300NYY", // 제작 재료 30000개
+            "count" : 1,
+            "max_provision_count" : 3000
+        },
+        {
+            "grade" : 1,
+            "require_ticket" : 20,
+            "item_tpye" : "item",
+            "provision_type" : "first_come",
+            "code" : "EET07134001NYY", //30000원 넥슨캐시 교환권
+            "count" : 1,
+            "max_provision_count" : 1000
+        },
+		{
+            "grade" : 1,
+            "require_ticket" : 10,
+            "item_tpye" : "item",
+            "provision_type" : "first_come",
+            "count" : 1,
+            "code" : "EET07135001NYY", //10000원 넥슨캐시 교환권
+            "max_provision_count" : 2000
+        },
+		{
+            "grade" : 1,
+            "require_ticket" : 10,
+            "item_tpye" : "item",
+            "provision_type" : "first_come",
+            "count" : 1,
+            "code" : "EET16787001NYY", //시즌4 마우스패드Ⅱ 당첨권
+            "max_provision_count" : 500
+        },
+		{
+            "grade" : 1,
+            "require_ticket" : 10,
+            "item_tpye" : "item",
+            "provision_type" : "limit",
+            "code" : "EET14716001NYY", //생존전 골드 키카드
+            "count" : 1,
+			"max_provision_count" : 5
+        },
+        {
+            "grade" : 1,
+            "require_ticket" : 10,
+            "item_tpye" : "item",
+            "provision_type" : "normal",
+            "code" : "EET04413001NYY", //영구제 밀봉 아이템
+            "count" : 1
+        },
+        {
+            "grade" : 1,
+            "require_ticket" : 10,
+            "item_tpye" : "item",
+            "provision_type" : "limit",
+            "code" : "EET09451001NYY", // 마이건2 주무기 점핑키트
+            "count" : 1,
+			"max_provision_count" : 10
+        },
+        {
+            "grade" : 1,
+            "require_ticket" : 5,
+            "item_tpye" : "item",
+            "provision_type" : "limit",
+            "code" : "EET09452001NYY", //마이건2 보조무기 점핑키트
+            "count" : 1,
+			"max_provision_count" : 10
+        },
+        {
+            "grade" : 1,
+            "require_ticket" : 5,
+            "item_tpye" : "item",
+            "provision_type" : "box",
+            "code" : "EET13219001NYY", // 기간연장 영구제 보급상자
+            "count" : 1,
+			"max_provision_count" : 5
+        },
+        {
+            "grade" : 1,
+            "require_ticket" : 5,
+            "item_tpye" : "item",
+            "provision_type" : "limit",
+            "code" : "EET14715001NYY", //생존전 실버 키카드
+            "count" : 1,
+			"max_provision_count" : 10
+        },
+        {
+            "grade" : 1,
+            "require_ticket" : 5,
+            "item_tpye" : "item",
+            "provision_type" : "normal",
+            "code" : "EET04571010NYN", //100000 EXP
+            "count" : 1
+        },
+		{
+            "grade" : 1,
+            "require_ticket" : 1,
+            "item_tpye" : "item",
+            "provision_type" : "limit",
+            "code" : "EET14714001NYY", //생존전 브론즈 키카드
+            "count" : 1,
+			"max_provision_count" : 10
+        }
+    ],
+    "gacha":
+    [
+        {
+            "item_tpye" : "item",
+            "provision_type" : "first_come",
+            "code" : "EET03012001NYY",
+            "count" : 1,
+            "max_provision_count" : 5
+        },
+        {
+            "item_tpye" : "item",
+            "provision_type" : "first_come",
+            "code" : "WPW03132998NYY",
+            "count" : 1,
+            "max_provision_count" : 50
+        },
+        {
+            "item_tpye" : "item",
+            "provision_type" : "first_come",
+            "code" : "EET04413001NYY",
+            "count" : 1,
+            "max_provision_count" : 100
+        },
+        {
+            "item_tpye" : "item",
+            "provision_type" : "normal",
+            "code" : "EET02551001NYY",
+            "count" : 1 
+        },
+        {
+            "item_tpye" : "item",
+            "provision_type" : "normal",
+            "code" : "EET02560001NYY",
+            "count" : 1
+        }
+    ],
+    "gacha_setting" :
+    {
+        "open" : 0,
+        "require_ticket" : 5
+    },
+    "service_noti_info_1" :
+    {
+        "start_date" : "20261216",
+        "end_date" : "20261222"
+    },
+    "service_noti_info_2" :
+    {
+        "start_date" : "20261223",
+        "end_date" : "20261228"
+    }
+}

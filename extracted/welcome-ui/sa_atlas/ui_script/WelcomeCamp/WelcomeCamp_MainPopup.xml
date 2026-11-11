@@ -1,0 +1,9 @@
+<UIEditor>
+    <UIInfo name="welcome_bg_0" x="0" y="0" w="800" h="600" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_main_bg" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="welcome_bg_1" x="0" y="0" w="800" h="600" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_mission_bg" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="topbtn_camp" x="44" y="6" w="64" h="32" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_main_camp_btn_on" comptype="CheckButton" groupname="" hudalign="0" hudstretch="false"/>
+    <UIInfo name="topbtn_mission" x="121" y="6" w="64" h="32" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_main_mission_btn_off" comptype="CheckButton" groupname="" hudalign="0" hudstretch="false"/>
+    <UIInfo name="btn_exit" x="740" y="13" w="38" h="14" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_exit_btn_n" comptype="Button" groupname="" hudalign="0" hudstretch="false"/>
+    <UIInfo name="welcomecamp_remain_day" x="646" y="12" w="30" h="16" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_main_remainingtime_0" comptype="Etc" groupname="" hudalign="0" hudstretch="false" ctrlname="CLTGUIMultiNumTexturePanelCtrl"/>
+    <UIInfo name="welcome_mission_reddot" x="160" y="5" w="7" h="7" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_reddot" comptype="BlinkTexture" groupname="" hudalign="0" hudstretch="false" cycletime="1"/>
+</UIEditor>

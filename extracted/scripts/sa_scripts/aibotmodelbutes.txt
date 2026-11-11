@@ -1,0 +1,6215 @@
+//AIBotModelbutes - Num 비면 문제 생김. 더미 필요.
+
+
+//관리를 위한 더미. 필요시 사용해도 무방
+
+//[Model0] //테스트용 현아
+//ModelFile		= "sa_characters\models\dino\3p\blue\HyunA_v2_blue.ltb"
+//Skin0			= "sa_characters\models\dino\3p\blue\HyunA_v2_Blue_default.dtx"
+//Skin1			= "sa_characters\models\dino\3p\blue\HyunA_v2_Blue_default.dtx"
+//Translucent		= 1
+//SkeletonID		= 32
+//Sex			= false
+//TeamID			= 2
+//AniSetID		= 16
+//RespawnFX		= "Dino_Teleport_Rapt"
+
+
+
+[Model0] //테스트용 아서
+ModelFile		= "SA_characters\models\dino\Stygimoloch.ltb"
+Skin0			= "SA_Characters\Skins\dino\stygimoloch_Red.dtx"
+Skin1			= "SA_Characters\Skins\dino\stygimoloch_Red.dtx"
+Translucent		= 1
+SkeletonID		= 29
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+
+
+[Model1] //테스트용 아서
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 29
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+ 
+
+[Model2] //더미박스
+//ModelFile             = "SA_characters\models\nexon\nexon_sentence.ltb"
+ModelFile		= "sa_props\models\WaySniping\box.ltb"
+Skin0                   = "sa_characters\skins\nexon\nexon_sentence_default.dtx"
+Translucent		= 1
+SkeletonID		= 53//43
+Sex			= true
+TeamID			= 2
+AniSetID		= 40//28
+
+
+[Model3]
+ModelFile		= "SA_characters\models\dino\arthurB.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+Skin1			= "SA_Characters\Skins\dino\arthur_d.dtx"
+Translucent		= 1
+SkeletonID		= 35
+Sex			= false
+TeamID			= 2
+AniSetID		= 19
+RespawnFX		= "Dino_Teleport_Penta"
+
+
+
+
+[Model4]
+[Model5]
+[Model6]
+[Model7]
+[Model8]
+[Model9]
+[Model10]
+
+[Model11]  //좀비 테스트용
+ModelFile	= "SA_characters\models\Zombie\ZombieA.ltb"
+Skin0			= "SA_Characters\Skins\Zombie\Zombie_Normal_Blue.dtx"
+Skin1			= "SA_Characters\Skins\Zombie\Zombie_Normal_Blue.dtx"
+Translucent		= 1
+SkeletonID		= 29
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model12]
+ModelFile	= "SA_characters\models\Zombie\Zombie_Jump.ltb"
+Skin0			= "SA_Characters\Skins\Zombie\Zombie_Jump_d.dtx.dtx"
+Skin1			= "SA_Characters\Skins\Zombie\Zombie_Jump_d.dtx.dtx"
+Translucent		= 1
+SkeletonID		= 29
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+
+[Model13]
+ModelFile	= "SA_characters\models\Zombie\Zombie_Defense.ltb"
+Skin0			= "SA_Characters\Skins\zombie\zombie_DefenceB_Red.dtx"
+Skin1			= "SA_Characters\Skins\zombie\zombie_DefenceB_Red.dtx"
+Translucent		= 1
+SkeletonID		= 29
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model14]
+[Model15]
+[Model16]
+[Model17]
+[Model18]
+[Model19]
+[Model20]
+[Model21]
+[Model22]
+[Model23]
+[Model24]
+[Model25]
+[Model26]
+[Model27]
+[Model28]
+[Model29]
+[Model30]
+[Model31]
+[Model32]
+[Model33]
+[Model34]
+[Model35]
+[Model36]
+[Model37]
+[Model38]
+[Model39]
+[Model40]
+[Model41]
+[Model42]
+[Model43]
+[Model44]
+[Model45]
+[Model46]
+[Model47]
+[Model48]
+[Model49]
+[Model50]
+[Model51]
+[Model52]
+[Model53]
+[Model54]
+
+[Model55]
+ModelFile		= "SA_characters\models\Zombie\Ai_Sentry_gun.ltb"
+Skin0			= "SA_Characters\Skins\Zombie\Sentry_gun_d.dtx"
+Skin1			= "SA_Characters\Skins\Zombie\level_W.dtx"
+Translucent		= 1
+SkeletonID		= 3
+Sex			= false
+TeamID			= 0
+AniSetID		= 15
+GameModelType		= 1
+
+[Model56]
+[Model57]
+[Model58]
+[Model59]
+
+
+
+
+
+// 시설물 모델(센트리건)
+[Model60]
+ModelFile		= "SA_characters\models\dino\Ai_Sentry_gun_1.ltb"
+Skin0			= "SA_Characters\Skins\dino\Sentry_gun_d.dtx"
+Skin1			= "SA_Characters\Skins\dino\level_W.dtx"
+Translucent		= 1
+SkeletonID		= 3
+Sex			= false
+TeamID			= 0
+AniSetID		= 3
+GameModelType		= 1
+
+[Model61]
+ModelFile		= "SA_characters\models\dino\Ai_Sentry_gun_2.ltb"
+Skin0			= "SA_Characters\Skins\dino\Sentry_gun_d.dtx"
+Skin1			= "SA_Characters\Skins\dino\level_Y.dtx"
+Translucent		= 1
+SkeletonID		= 3
+Sex			= false
+TeamID			= 0
+AniSetID		= 3
+GameModelType		= 1
+
+[Model62]
+ModelFile		= "SA_characters\models\dino\Ai_Sentry_gun_3.ltb"
+Skin0			= "SA_Characters\Skins\dino\Sentry_gun_d.dtx"
+Skin1			= "SA_Characters\Skins\dino\level_G.dtx"
+Translucent		= 1
+SkeletonID		= 3
+Sex			= false
+TeamID			= 0
+AniSetID		= 3
+GameModelType		= 1
+
+[Model63]
+ModelFile		= "SA_characters\models\dino\Ai_Sentry_gun_4.ltb"
+Skin0			= "SA_Characters\Skins\dino\Sentry_gun_d.dtx"
+Skin1			= "SA_Characters\Skins\dino\level_B.dtx"
+Translucent		= 1
+SkeletonID		= 3
+Sex			= false
+TeamID			= 0
+AniSetID		= 3
+GameModelType		= 1
+
+[Model64]
+ModelFile		= "SA_characters\models\dino\Ai_Sentry_gun_5.ltb"
+Skin0			= "SA_Characters\Skins\dino\Sentry_gun_d.dtx"
+Skin1			= "SA_Characters\Skins\dino\level_R.dtx"
+Translucent		= 1
+SkeletonID		= 3
+Sex			= false
+TeamID			= 0
+AniSetID		= 3
+GameModelType		= 1
+
+//시설물 모델 (유탄 발사기)
+[Model65]
+ModelFile		= "SA_characters\models\dino\mk19_3p.ltb"
+Skin0			= "SA_Characters\Skins\dino\MK19.dtx"
+Skin1			= "SA_Characters\Skins\dino\MK19_level_W.dtx"
+Translucent		= 1
+SkeletonID		= 3
+Sex			= false
+TeamID			= 0
+AniSetID		= 3
+GameModelType		= 2
+
+[Model66]
+ModelFile		= "SA_characters\models\dino\mk19_3p.ltb"
+Skin0			= "SA_Characters\Skins\dino\MK19.dtx"
+Skin1			= "SA_Characters\Skins\dino\MK19_level_Y.dtx"
+Translucent		= 1
+SkeletonID		= 3
+Sex			= false
+TeamID			= 0
+AniSetID		= 3
+GameModelType		= 2
+
+[Model67]
+ModelFile		= "SA_characters\models\dino\mk19_3p.ltb"
+Skin0			= "SA_Characters\Skins\dino\MK19.dtx"
+Skin1			= "SA_Characters\Skins\dino\MK19_level_G.dtx"
+Translucent		= 1
+SkeletonID		= 3
+Sex			= false
+TeamID			= 0
+AniSetID		= 3
+GameModelType		= 2
+
+[Model68]
+ModelFile		= "SA_characters\models\dino\mk19_3p.ltb"
+Skin0			= "SA_Characters\Skins\dino\MK19.dtx"
+Skin1			= "SA_Characters\Skins\dino\MK19_level_B.dtx"
+Translucent		= 1
+SkeletonID		= 3
+Sex			= false
+TeamID			= 0
+AniSetID		= 3
+GameModelType		= 2
+
+[Model69]
+ModelFile		= "SA_characters\models\dino\mk19_3p.ltb"
+Skin0			= "SA_Characters\Skins\dino\MK19.dtx.dtx"
+Skin1			= "SA_Characters\Skins\dino\MK19_level_R.dtx"
+Translucent		= 1
+SkeletonID		= 3
+Sex			= false
+TeamID			= 0
+AniSetID		= 3
+GameModelType		= 2
+
+
+//방책
+[Model70]
+ModelFile		= "sa_props\models\Dinosaur\dino_barricade.ltb"
+Skin0			= "sa_props\skins\Dinosaur\d_wall.dtx"
+Skin1			= "sa_props\skins\Dinosaur\d_wall.dtx"
+Translucent		= 1
+SkeletonID		= 5
+Sex			= false
+TeamID			= 0
+AniSetID		= 4
+GameModelType		= 3
+
+[Model71]
+ModelFile		= "sa_props\models\Dinosaur\dino_barricade.ltb"
+Skin0			= "sa_props\skins\Dinosaur\d_wall.dtx"
+Translucent		= 1
+SkeletonID		= 5
+Sex			= false
+TeamID			= 0
+AniSetID		= 5
+GameModelType		= 3
+
+[Model72]
+ModelFile		= "sa_props\models\Dinosaur\dino_barricade.ltb"
+Skin0			= "sa_props\skins\Dinosaur\d_wall.dtx"
+Translucent		= 1
+SkeletonID		= 5
+Sex			= false
+TeamID			= 0
+AniSetID		= 6
+GameModelType		= 3
+
+[Model73]
+ModelFile		= "sa_props\models\Dinosaur\dino_barricade.ltb"
+Skin0			= "sa_props\skins\Dinosaur\d_wall.dtx"
+Translucent		= 1
+SkeletonID		= 5
+Sex			= false
+TeamID			= 0
+AniSetID		= 7
+GameModelType		= 3
+
+[Model74]
+ModelFile		= "sa_props\models\Dinosaur\dino_barricade.ltb"
+Skin0			= "sa_props\skins\Dinosaur\d_wall.dtx"
+Translucent		= 1
+SkeletonID		= 5
+Sex			= false
+TeamID			= 0
+AniSetID		= 8
+GameModelType		= 3
+
+//사료 그릇
+[Model75]
+ModelFile		= "sa_props\models\Dinosaur\dino_dish.ltb"
+Skin0			= "sa_props\skins\Dinosaur\food_factory.dtx"
+Translucent		= 1
+SkeletonID		= 6
+Sex			= false
+TeamID			= 0
+AniSetID		= 9
+GameModelType		= 4
+
+[Model76]
+ModelFile		= "sa_props\models\Dinosaur\dino_dish.ltb"
+Skin0			= "sa_props\skins\Dinosaur\food_factory.dtx"
+Translucent		= 1
+SkeletonID		= 7
+Sex			= false
+TeamID			= 0
+AniSetID		= 10
+GameModelType		= 4
+
+[Model77]
+ModelFile		= "sa_props\models\Dinosaur\dino_dish.ltb"
+Skin0			= "sa_props\skins\Dinosaur\food_factory.dtx"
+Translucent		= 1
+SkeletonID		= 8
+Sex			= false
+TeamID			= 0
+AniSetID		= 11
+GameModelType		= 4
+
+//자동급식기
+[Model78]
+ModelFile		= "sa_props\models\Dinosaur\dino_factory.ltb"
+Skin0			= "sa_props\skins\Dinosaur\food_factory.dtx"
+Translucent		= 1
+SkeletonID		= 9
+Sex			= false
+TeamID			= 0
+AniSetID		= 12
+GameModelType		= 5
+
+[Model79]
+ModelFile		= "sa_props\models\Dinosaur\dino_factory.ltb"
+Skin0			= "sa_props\skins\Dinosaur\food_factory.dtx"
+Translucent		= 1
+SkeletonID		= 10
+Sex			= false
+TeamID			= 0
+AniSetID		= 13
+GameModelType		= 5
+
+//관리를 위한 더미. 필요시 사용해도 무방
+[Model80]
+[Model81]
+[Model82]
+[Model83]
+[Model84]
+[Model85]
+[Model86]
+[Model87]
+[Model88]
+[Model89]
+[Model90]
+[Model91]
+[Model92]
+[Model93]
+[Model94]
+[Model95]
+[Model96]
+[Model97]
+[Model98]
+[Model99]
+
+
+
+
+
+//랩터 컬러베리에이션 
+[Model100]
+ModelFile		= "SA_characters\models\dino\raptor.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Green.dtx"
+Translucent		= 1
+SkeletonID		= 0
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model101]
+ModelFile		= "SA_characters\models\dino\raptor_Red.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Red.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Red.dtx"
+Translucent		= 1
+SkeletonID		= 0
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model102]
+ModelFile		= "SA_characters\models\dino\raptor.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Brown.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Brown.dtx"
+Translucent		= 1
+SkeletonID		= 0
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model103]
+ModelFile		= "SA_characters\models\dino\raptor_Black.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Black.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Black.dtx"
+Translucent		= 1
+SkeletonID		= 0
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model104]
+ModelFile		= "SA_characters\models\dino\raptor.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Translucent		= 1
+SkeletonID		= 0
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model105]
+ModelFile		= "SA_characters\models\dino\raptor.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Orange.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Orange.dtx"
+Translucent		= 1
+SkeletonID		= 0
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model106]
+ModelFile		= "SA_characters\models\dino\raptor.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Blue.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Blue.dtx"
+Translucent		= 1
+SkeletonID		= 11
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model107]
+ModelFile		= "SA_characters\models\dino\raptor.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Violet.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Violet.dtx"
+Translucent		= 1
+SkeletonID		= 0
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+
+//관리를 위한 더미. 랩터 확장 이외에 사용불가.
+[Model108]
+[Model109]
+[Model110]
+
+
+//특수타입 랩터를 위한 필드
+[Model111] // 자폭 보너스 랩터 (폭만 면역)
+ModelFile		= "SA_characters\models\dino\raptor_Black.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Translucent		= 1
+SkeletonID		= 25
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+[Model112] //올 면역 보너스 랩터
+ModelFile		= "SA_characters\models\dino\raptor.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Translucent		= 1
+SkeletonID		= 22
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model113] //총/폭 면역, 칼 가중 대미지
+ModelFile		= "SA_characters\models\dino\raptor.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Translucent		= 1
+SkeletonID		= 26
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+[Model114] //폭만 면역  총/칼 가중 대미지 
+ModelFile		= "SA_characters\models\dino\raptor.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Translucent		= 1
+SkeletonID		= 28
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+[Model115] //폭만 면역
+ModelFile		= "SA_characters\models\dino\raptor.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Translucent		= 1
+SkeletonID		= 25
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+[Model116] //칼/폭 면역, 총 가중 대미지
+ModelFile		= "SA_characters\models\dino\raptor.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Translucent		= 1
+SkeletonID		= 27
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+
+[Model117]   //칼/폭 면역, 총만 대미지
+ModelFile		= "SA_characters\models\dino\raptor.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Translucent		= 1
+SkeletonID		= 23
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+[Model118]  // 슈퍼 자폭 랩터
+ModelFile		= "SA_characters\models\dino\raptor_Black2.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Black.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Black.dtx"
+Translucent		= 1
+SkeletonID		= 26
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+
+
+[Model119]//올 면역 제물 랩터
+ModelFile		= "SA_characters\models\dino\raptor.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Green.dtx"
+Translucent		= 1
+SkeletonID		= 22
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model120]
+[Model121]
+[Model122]
+[Model123]
+[Model124]
+[Model125]
+[Model126]
+[Model127]
+[Model128]
+[Model129]
+[Model130]
+[Model131]
+[Model132]
+[Model133]
+[Model134]
+[Model135]
+[Model136]
+[Model137]
+[Model138]
+[Model139]
+[Model140]
+[Model141]
+[Model142]
+[Model143]
+[Model144]
+[Model145]
+[Model146]
+[Model147]
+[Model148]
+[Model149]
+[Model150]
+[Model151]
+[Model152]
+[Model153]
+[Model154]
+[Model155]
+[Model156]
+[Model157]
+[Model158]
+[Model159]
+[Model160]
+[Model161]
+[Model162]
+[Model163]
+[Model164]
+[Model165]
+[Model166]
+[Model167]
+[Model168]
+[Model169]
+[Model170]
+[Model171]
+[Model172]
+[Model173]
+[Model174]
+[Model175]
+[Model176]
+[Model177]
+[Model178]
+[Model179]
+[Model180]
+[Model181]
+[Model182]
+[Model183]
+[Model184]
+[Model185]
+[Model186]
+[Model187]
+[Model188]
+[Model189]
+[Model190]
+[Model191]
+[Model192]
+[Model193]
+[Model194]
+[Model195]
+[Model196]
+[Model197]
+[Model198]
+[Model199]
+
+
+
+
+//트리케라톱스(펜타케라톱스) 컬러베리에이션
+[Model200]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 1
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+//트리케라톱스 레드버전
+[Model201]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Red.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Red.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 12
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model202]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Brown.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Brown.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 18
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model203] //트리케라톱스 레드버전(쥰내빠름)
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Red.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Red.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 1
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model204]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 1
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model205]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Orange.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Orange.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 16
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+//트리케라톱스 블루버전
+[Model206]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Blue.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Blue.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 13
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model207]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Violet.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Violet.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 17
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model208]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 29
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+
+//관리를 위한 더미. 펜타 확장 이외에 사용불가.
+[Model209]
+[Model210]
+[Model211]
+[Model212]
+[Model213]
+[Model214]
+[Model215]
+[Model216]
+[Model217]
+[Model218]
+[Model219]
+[Model220]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 1
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model221]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 1
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model222]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 1
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model223]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 1
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model224]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 1
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model225]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 1
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model226]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 1
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model227]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 1
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model228]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 1
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model229]
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Yellow.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 1
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+//레드 트리케라톱스 준내 빠름
+[Model230]
+ModelFile		= "SA_characters\models\dino\RedPenta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Red.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_Red.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 12
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model231] //흰색
+ModelFile		= "SA_characters\models\dino\Penta.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 29
+Sex			= false
+TeamID			= 2
+AniSetID		= 1
+RespawnFX		= "Dino_Teleport_Penta"
+
+
+
+[Model232]
+[Model233]
+[Model234]
+[Model235]
+[Model236]
+[Model237]
+[Model238]
+[Model239]
+[Model240]
+[Model241]
+[Model242]
+[Model243]
+[Model244]
+[Model245]
+[Model246]
+[Model247]
+[Model248]
+[Model249]
+[Model250]
+[Model251]
+[Model252]
+[Model253]
+[Model254]
+[Model255]
+[Model256]
+[Model257]
+[Model258]
+[Model259]
+[Model260]
+[Model261]
+[Model262]
+[Model263]
+[Model264]
+[Model265]
+[Model266]
+[Model267]
+[Model268]
+[Model269]
+[Model270]
+[Model271]
+[Model272]
+[Model273]
+[Model274]
+[Model275]
+[Model276]
+[Model277]
+[Model278]
+[Model279]
+[Model280]
+[Model281]
+[Model282]
+[Model283]
+[Model284]
+[Model285]
+[Model286]
+[Model287]
+[Model288]
+[Model289]
+[Model290]
+[Model291]
+[Model292]
+[Model293]
+[Model294]
+[Model295]
+[Model296]
+[Model297]
+[Model298]
+[Model299]
+
+
+
+
+//티라노 기본사이즈 컬러베리에이션
+[Model300]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+[Model301]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Red.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Red.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 15
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+[Model302]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Brown.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Brown.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 20
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+[Model303] //티라노 블랙 없음.
+
+[Model304]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Yellow.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+[Model305] //티라노 주황 없음.
+
+[Model306]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Blue.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Blue.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 14
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+[Model307]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Violet.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Violet.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 21
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+[Model308]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_White.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_White.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+//관리를 위한 더미. 티라노 확장 이외에 사용불가. (티라노 소형용)
+[Model309]
+[Model310]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model311] // 허약하지만 사나운 티라노. 빨강.
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Red.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Red.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 15
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+[Model312]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model313]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model314]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model315]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 15
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model316]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Blue.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Blue.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 14
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model317]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model318]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model319]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+
+//티라노 특대사이즈 컬러베리에이션
+[Model320]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 14
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model321]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 14
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model322]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 14
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model323] //티라노 블랙 없음
+
+[Model324]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 14
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model325] //티라노 주황 없음.
+
+[Model326]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 14
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model327]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 14
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model328]
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 2
+Sex			= false
+TeamID			= 2
+AniSetID		= 14
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model329]
+
+[Model330] //칼 대미지만 잘받는 티라노 (나머진 방탄)
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Red.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Red.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 30
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model331] //무적 티라노
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 31
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model332] //무적 티라노 -31웨이브 A 
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Red.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Red.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 31
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model333] //무적 티라노 - 31웨이브 B
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Blue.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Blue.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 31
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model334]
+[Model335]
+[Model336]
+[Model337]
+[Model338]
+[Model339]
+[Model340]
+[Model341]
+[Model342]
+[Model343]
+[Model344]
+[Model345]
+[Model346]
+[Model347]
+[Model348]
+[Model349]
+
+/////////////////////////////////////////////////////////
+[Model350] //각룡왕 아서
+ModelFile		= "SA_characters\models\dino\arthurB.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+Skin1			= "SA_Characters\Skins\dino\arthur_d.dtx"
+Translucent		= 1
+SkeletonID		= 35
+Sex			= false
+TeamID			= 1
+AniSetID		= 19
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model351] //모드레드
+ModelFile		= "SA_characters\models\dino\Mordred.ltb"
+Skin0			= "SA_Characters\Skins\dino\MordRed_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\MordRed_default.dtx"
+Translucent		= 1
+SkeletonID		= 36
+Sex			= false
+TeamID			= 2
+AniSetID		= 20
+RespawnFX		= "Dino_Teleport_Penta"
+//ClientFX0 = "DinoS_Mordred" // 모델에 FX 유지.  붙을 FX 명
+//ClientFXBone0  = "center"  //FX가 붙을 소켓 명
+
+[Model352] //다친 아서
+ModelFile		= "SA_characters\models\dino\ArthurA_2.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 1
+Sex			= false
+TeamID			= 1
+AniSetID		= 21
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model353] //아서A (각룡 왕자)
+ModelFile		= "SA_characters\models\dino\arthurA.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 35
+Sex			= false
+TeamID			= 1
+AniSetID		= 19
+RespawnFX		= "Dino_Teleport_Penta"
+
+
+[Model354] //우서
+ModelFile		= "SA_characters\models\dino\arthurB.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_Red.dtx"
+Skin1			= "SA_Characters\Skins\dino\arthur_d.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 35
+Sex			= false
+TeamID			= 2
+AniSetID		= 19
+RespawnFX		= "Dino_Teleport_Penta"
+
+
+[Model355] //감옥장, 티라노
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 45
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+[Model356] //경비대장 안테노라
+ModelFile		= "SA_characters\models\dino\GuardChief.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Black.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Black.dtx"
+Translucent		= 1
+SkeletonID		= 44
+Sex			= false
+TeamID			= 2
+AniSetID		= 34
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model357] //제사장 코큐토스
+ModelFile		= "SA_characters\models\dino\Dilopho.ltb"
+Skin0			= "SA_Characters\Skins\dino\Dilopho_red_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\Dilopho_red_default.dtx"
+Translucent		= 1
+SkeletonID		= 34
+Sex			= false
+TeamID			= 2
+AniSetID		= 18
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model358] //무적 모드레드
+ModelFile		= "SA_characters\models\dino\Mordred.ltb"
+Skin0			= "SA_Characters\Skins\dino\MordRed_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\MordRed_default.dtx"
+Translucent		= 1
+SkeletonID		= 36
+Sex			= false
+TeamID			= 2
+AniSetID		= 20
+RespawnFX		= "Dino_Teleport_Penta"
+//ClientFX0 = "DinoS_Mordred" // 모델에 FX 유지.  붙을 FX 명
+//ClientFXBone0  = "center"  //FX가 붙을 소켓 명
+
+[Model359] //무적 제사장 코큐토스
+ModelFile		= "SA_characters\models\dino\Priest.ltb"
+Skin0			= "SA_Characters\Skins\dino\Dilopho_red_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\Dilopho_red_default.dtx"
+Translucent		= 1
+SkeletonID		= 46
+Sex			= false
+TeamID			= 2
+AniSetID		= 18
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+[Model360] //테스트용 신세경
+ModelFile		= "SA_characters\models\dino\Sekyung.ltb"
+Skin0			= "SA_Characters\Skins\dino\Sekyung_Event_Blue_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\Sekyung_Event_Blue_default.dtx"
+Translucent		= 1
+SkeletonID		= 32
+Sex			= false
+TeamID			= 1
+AniSetID		= 22
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+[Model361] //테스트용 총든 신세경
+ModelFile		= "SA_characters\models\dino\Sekyung.ltb"
+Skin0			= "SA_Characters\Skins\dino\Sekyung_Event_Blue_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\Sekyung_Event_Blue_default.dtx"
+Translucent		= 1
+SkeletonID		= 32
+Sex			= false
+TeamID			= 1
+AniSetID		= 23
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+[Model362] //Easy 신세경 - 전투용
+ModelFile		= "SA_characters\models\dino\SeKyung_easy.ltb"
+Skin0			= "SA_Characters\Skins\dino\SeKyung_easy_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\SeKyung_easy_default.dtx"
+Translucent		= 1
+SkeletonID		= 32
+Sex			= false
+TeamID			= 1
+AniSetID		= 22
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model363] //normal 신세경 - 전투용
+ModelFile		= "SA_characters\models\dino\SeKyung_Normal.ltb"
+Skin0			= "SA_Characters\Skins\dino\SeKyung_normal_white_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\SeKyung_normal_white_default.dtx"
+Translucent		= 1
+SkeletonID		= 32
+Sex			= false
+TeamID			= 1
+AniSetID		= 22
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+[Model364] //hard 신세경
+ModelFile		= "SA_characters\models\dino\SeKyung_hard_npc.ltb"
+Skin0			= "SA_Characters\Skins\dino\Sekyung_npc_hard_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\Sekyung_npc_hard_default.dtx"
+Translucent		= 1
+SkeletonID		= 32
+Sex			= false
+TeamID			= 1
+AniSetID		= 22
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model365] //신세경 easy 영상용
+ModelFile		= "SA_characters\models\dino\SeKyung_easy_M.ltb"
+Skin0			= "SA_Characters\Skins\dino\SeKyung_easy_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\SeKyung_easy_default.dtx"
+Translucent		= 1
+SkeletonID		= 38
+Sex			= false
+TeamID			= 1
+AniSetID		= 24
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model366] //기절한 모드레드
+ModelFile		= "SA_characters\models\dino\Mordred.ltb"
+Skin0			= "SA_Characters\Skins\dino\MordRed_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\MordRed_default.dtx"
+Translucent		= 1
+SkeletonID		= 36
+Sex			= false
+TeamID			= 1
+AniSetID		= 26
+RespawnFX		= "Dino_Teleport_Penta"
+//ClientFX0 = "DinoS_Mordred" // 모델에 FX 유지.  붙을 FX 명
+//ClientFXBone0  = "center"  //FX가 붙을 소켓 명
+
+
+[Model367]//normal 신세경 -white
+ModelFile		= "SA_characters\models\dino\Sekyung_normal_m.ltb"
+Skin0			= "SA_Characters\Skins\dino\SeKyung_normal_white_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\SeKyung_normal_white_default.dtx"
+Translucent		= 1
+SkeletonID		= 32
+Sex			= false
+TeamID			= 1
+AniSetID		= 22
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+[Model368]//normal 신세경
+ModelFile		= "SA_characters\models\dino\SeKyung_Normal_M.ltb"
+Skin0			= "SA_Characters\Skins\dino\SeKyung_normal_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\SeKyung_normal_default.dtx"
+Translucent		= 1
+SkeletonID		= 32
+Sex			= false
+TeamID			= 1
+AniSetID		= 22
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model369] //다친 아서 각성 버전
+ModelFile		= "SA_characters\models\dino\arthurB.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+Skin1			= "SA_Characters\Skins\dino\arthur_d.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 35
+Sex			= false
+TeamID			= 1
+AniSetID		= 21
+RespawnFX		= "Dino_Teleport_Penta"
+
+
+[Model370] //쓰러진 신세경 easy
+ModelFile		= "SA_characters\models\dino\SeKyung_easy_M.ltb"
+Skin0			= "SA_Characters\Skins\dino\SeKyung_easy_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\SeKyung_easy_default.dtx"
+Translucent		= 1
+SkeletonID		= 41
+Sex			= false
+TeamID			= 1
+AniSetID		= 32
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model371]//신세경 easy 버프 걸어주기 용
+ModelFile		= "SA_characters\models\dino\SeKyung_easy_M.ltb"
+Skin0			= "SA_Characters\Skins\dino\SeKyung_easy_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\SeKyung_easy_default.dtx"
+Translucent		= 1
+SkeletonID		= 38
+Sex			= false
+TeamID			= 1
+AniSetID		= 33
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+[Model372]//hard 신세경 Scene
+ModelFile		= "SA_characters\models\dino\Sekyung_hard_m.ltb"
+Skin0			= "SA_Characters\Skins\dino\Sekyung_npc_hard_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\Sekyung_npc_hard_default.dtx"
+Translucent		= 1
+SkeletonID		= 32
+Sex			= false
+TeamID			= 1
+AniSetID		= 22
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model373] //아서A (플레이어공격용)
+ModelFile		= "SA_characters\models\dino\arthurA.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 35
+Sex			= false
+TeamID			= 2
+AniSetID		= 19
+RespawnFX		= "Dino_Teleport_Penta"
+
+
+[Model374] //걸을 아서
+ModelFile		= "SA_characters\models\dino\arthurA.ltb"
+Skin0			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+Skin1			= "SA_Characters\Skins\dino\pentaceratops_White.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Pentaceratops_N.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Pentaceratops_S.dtx"
+Translucent		= 1
+SkeletonID		= 35
+Sex			= false
+TeamID			= 1
+AniSetID		= 35
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model375] //모드레드 hard 9wav 꿍용
+ModelFile		= "SA_characters\models\dino\Mordred.ltb"
+Skin0			= "SA_Characters\Skins\dino\MordRed_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\MordRed_default.dtx"
+Translucent		= 1
+SkeletonID		= 36
+Sex			= false
+TeamID			= 2
+AniSetID		= 20
+RespawnFX		= "Dino_Teleport_Penta"
+//ClientFX0 = "DinoS_Mordred" // 모델에 FX 유지.  붙을 FX 명
+//ClientFXBone0  = "center"  //FX가 붙을 소켓 명
+
+[Model376] //쓰러진 신세경 Hard
+ModelFile		= "SA_characters\models\dino\Sekyung_hard_m.ltb"
+Skin0			= "SA_Characters\Skins\dino\Sekyung_npc_hard_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\Sekyung_npc_hard_default.dtx"
+Translucent		= 1
+SkeletonID		= 41
+Sex			= false
+TeamID			= 1
+AniSetID		= 32
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+[Model377]
+[Model378]
+[Model379]
+
+[Model380] //주술 딜로포
+ModelFile		= "SA_characters\models\dino\Priest.ltb"
+Skin0			= "SA_Characters\Skins\dino\Dilopho_violet_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\Dilopho_violet_default.dtx"
+Translucent		= 1
+SkeletonID		= 34
+Sex			= false
+TeamID			= 2
+AniSetID		= 25
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+[Model381] // 일반 좀비
+ModelFile		= "SA_characters\models\dino\ZombieA.ltb"
+Skin0			= "sa_characters\skins\Zombie\Zombie_Normal_Blue.dtx"
+Skin1			= "sa_characters\skins\Zombie\Zombie_Normal_Blue.dtx"
+Translucent		= 1
+SkeletonID		= 34
+Sex			= false
+TeamID			= 2
+AniSetID		= 25
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model382] //특수 좀비
+ModelFile		= "SA_characters\models\dino\Priest.ltb"
+Skin0			= "SA_Characters\Skins\dino\Dilopho_violet_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\Dilopho_violet_default.dtx"
+Translucent		= 1
+SkeletonID		= 34
+Sex			= false
+TeamID			= 2
+AniSetID		= 25
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model383] // 제자리 사냥 신세경 hard9
+ModelFile		= "SA_characters\models\dino\SeKyung_hard_npc.ltb"
+Skin0			= "SA_Characters\Skins\dino\Sekyung_npc_hard_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\Sekyung_npc_hard_default.dtx"
+Translucent		= 1
+SkeletonID		= 32
+Sex			= false
+TeamID			= 1
+AniSetID		= 22
+RespawnFX		= "Dino_Teleport_Rapt"
+//ClientFX0 = "DinoS_Safe" // 모델에 FX 유지.  붙을 FX 명
+//ClientFXBone0  = "center"  //FX가 붙을 소켓 명
+
+
+
+[Model384]
+[Model385]
+[Model386]
+[Model387]
+[Model388]
+[Model389]
+[Model390]
+[Model391]
+[Model392]
+[Model393]
+[Model394]
+[Model395]
+[Model396]
+[Model397]
+[Model398]
+[Model399]
+
+
+[Model400] //스티기몰로크 기본
+ModelFile		= "SA_characters\models\dino\Stygimoloch.ltb"
+Skin0			= "SA_Characters\Skins\dino\stygimoloch_green.dtx"
+Skin1			= "SA_Characters\Skins\dino\stygimoloch_green.dtx"
+Translucent		= 1
+SkeletonID		= 33
+Sex			= false
+TeamID			= 2
+AniSetID		= 17
+RespawnFX		= "Dino_Teleport_Penta"
+
+
+[Model401] //스티기몰로크 빨강
+ModelFile		= "SA_characters\models\dino\Stygimoloch.ltb"
+Skin0			= "SA_Characters\Skins\dino\stygimoloch_red.dtx"
+Skin1			= "SA_Characters\Skins\dino\stygimoloch_red.dtx"
+Translucent		= 1
+SkeletonID		= 33
+Sex			= false
+TeamID			= 2
+AniSetID		= 17
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model402] //스티기몰로크 갈색  - 빠져있네
+
+
+[Model403] //스티기몰로크 검정
+ModelFile		= "SA_characters\models\dino\Stygimoloch.ltb"
+Skin0			= "SA_Characters\Skins\dino\stygimoloch_Black.dtx"
+Skin1			= "SA_Characters\Skins\dino\stygimoloch_Black.dtx"
+Translucent		= 1
+SkeletonID		= 33
+Sex			= false
+TeamID			= 2
+AniSetID		= 17
+RespawnFX		= "Dino_Teleport_Penta"
+
+
+[Model404] //스티기몰로크 노랑
+ModelFile		= "SA_characters\models\dino\Stygimoloch.ltb"
+Skin0			= "SA_Characters\Skins\dino\stygimoloch_yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\stygimoloch_yellow.dtx"
+Translucent		= 1
+SkeletonID		= 33
+Sex			= false
+TeamID			= 2
+AniSetID		= 17
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model405] //스티기몰로크 주황 없음
+
+[Model406] //스티기몰로크 파랑
+ModelFile		= "SA_characters\models\dino\Stygimoloch.ltb"
+Skin0			= "SA_Characters\Skins\dino\stygimoloch_blue.dtx"
+Skin1			= "SA_Characters\Skins\dino\stygimoloch_blue.dtx"
+Translucent		= 1
+SkeletonID		= 33
+Sex			= false
+TeamID			= 2
+AniSetID		= 17
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model407]
+
+[Model408]
+[Model409]
+
+[Model410] //hard 랩터 교도관용
+ModelFile		= "SA_characters\models\dino\raptor_Black.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Black.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Black.dtx"
+Translucent		= 1
+SkeletonID		= 44
+Sex			= false
+TeamID			= 2
+AniSetID		= 34
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model411]
+[Model412]
+[Model413]
+[Model414]
+[Model415]
+[Model416]
+[Model417]
+
+[Model418]//일반 자폭 랩터
+ModelFile		= "SA_characters\models\dino\raptor_Black.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Black.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Black.dtx"
+Translucent		= 1
+SkeletonID		= 44
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+[Model419]  // 슈퍼 자폭 랩터
+ModelFile		= "SA_characters\models\dino\raptor_Black2.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Black.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Black.dtx"
+Translucent		= 1
+SkeletonID		= 44
+Sex			= false
+TeamID			= 2
+AniSetID		= 0
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model420] //딜로포 기본
+ModelFile		= "sa_characters\models\dino\Dilopho.ltb"
+//ModelFile		= "SA_characters\models\dino\Dilopho.ltb"
+Skin0			= "SA_Characters\Skins\dino\Dilopho_Green_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\Dilopho_Green_default.dtx"
+Translucent		= 1
+SkeletonID		= 34
+Sex			= false
+TeamID			= 2
+AniSetID		= 18
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model421] //딜로포 빨강
+ModelFile		= "SA_characters\models\dino\Dilopho.ltb"
+Skin0			= "SA_Characters\Skins\dino\Dilopho_red_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\Dilopho_red_default.dtx"
+Translucent		= 1
+SkeletonID		= 34
+Sex			= false
+TeamID			= 2
+AniSetID		= 18
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model422] //딜로포 갈색
+ModelFile		= "SA_characters\models\dino\Dilopho.ltb"
+Skin0			= "SA_Characters\Skins\dino\Dilopho_brown_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\Dilopho_brown_default.dtx"
+Translucent		= 1
+SkeletonID		= 34
+Sex			= false
+TeamID			= 2
+AniSetID		= 18
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model423] //딜로포 검정 없음
+
+[Model424] //딜로포 노랑
+ModelFile		= "SA_characters\models\dino\Dilopho.ltb"
+Skin0			= "SA_Characters\Skins\dino\Dilopho_yellow_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\Dilopho_yellow_default.dtx"
+Translucent		= 1
+SkeletonID		= 34
+Sex			= false
+TeamID			= 2
+AniSetID		= 18
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model425] //딜로포 주황 없음
+
+[Model426] //딜로포 파랑
+ModelFile		= "SA_characters\models\dino\Dilopho.ltb"
+Skin0			= "SA_Characters\Skins\dino\Dilopho_blue_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\Dilopho_blue_default.dtx"
+Translucent		= 1
+SkeletonID		= 34
+Sex			= false
+TeamID			= 2
+AniSetID		= 18
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model427] //딜로포 보라
+ModelFile		= "SA_characters\models\dino\Dilopho.ltb"
+Skin0			= "SA_Characters\Skins\dino\Dilopho_violet_default.dtx"
+Skin1			= "SA_Characters\Skins\dino\Dilopho_violet_default.dtx"
+Translucent		= 1
+SkeletonID		= 34
+Sex			= false
+TeamID			= 2
+AniSetID		= 18
+RespawnFX		= "Dino_Teleport_Rapt"
+
+
+
+[Model428] //케이지
+ModelFile		= "sa_props\models\Dinosaur2\c.ltb"
+Skin0			= "sa_props\skins\Dinosaur2\c.dtx"
+Skin1			= "sa_props\skins\Dinosaur2\c.dtx"
+Translucent		= 1
+SkeletonID		= 39
+Sex			= false
+TeamID			= 1
+AniSetID		= 28
+
+
+[Model429] //랩터 집
+ModelFile		= "sa_props\models\Dinosaur2\d.ltb"
+Skin0			= "sa_props\skins\Dinosaur2\d.dtx"
+Skin1			= "sa_props\skins\Dinosaur2\d.dtx"
+Translucent		= 1
+SkeletonID		= 39
+Sex			= false
+TeamID			= 0
+AniSetID		= 28
+
+
+[Model430]//우서 뿔 1단계
+ModelFile		= "sa_props\models\Dinosaur2\h.ltb"
+Skin0			= "sa_props\skins\Dinosaur2\h.dtx"
+Skin1			= "sa_props\skins\Dinosaur2\h.dtx"
+Translucent		= 1
+SkeletonID		= 40
+Sex			= false
+TeamID			= 0
+AniSetID		= 29
+
+
+
+[Model431] //바리케이트
+ModelFile		= "sa_props\models\Dinosaur2\p.ltb"
+Skin0			= "sa_props\skins\Dinosaur2\p.dtx"
+Skin1			= "sa_props\skins\Dinosaur2\p.dtx"
+Translucent		= 1
+SkeletonID		= 39
+Sex			= false
+TeamID			= 0
+AniSetID		= 28
+
+ 
+[Model432]//뒤에 숨는 오브젝트 1단계
+ModelFile		= "sa_props\models\Dinosaur2\s.ltb"
+Skin0			= "sa_props\skins\Dinosaur2\s1.dtx"
+Skin1			= "sa_props\skins\Dinosaur2\s1.dtx"
+Translucent		= 1
+SkeletonID		= 39
+Sex			= false
+TeamID			= 0
+AniSetID		= 28
+
+
+[Model433]//뒤에 숨는 오브젝트 2단계
+ModelFile		= "sa_props\models\Dinosaur2\s.ltb"
+Skin0			= "sa_props\skins\Dinosaur2\s2.dtx"
+Skin1			= "sa_props\skins\Dinosaur2\s2.dtx"
+Translucent		= 1
+SkeletonID		= 39
+Sex			= false
+TeamID			= 0
+AniSetID		= 28
+
+
+[Model434] //뒤에 숨는 오브젝트 3단계
+ModelFile		= "sa_props\models\Dinosaur2\s.ltb"
+Skin0			= "sa_props\skins\Dinosaur2\s3.dtx"
+Skin1			= "sa_props\skins\Dinosaur2\s3.dtx"
+Translucent		= 1
+SkeletonID		= 39
+Sex			= false
+TeamID			= 0
+AniSetID		= 28
+
+
+[Model435]//우서 뿔 2단계
+ModelFile		= "sa_props\models\Dinosaur2\h.ltb"
+Skin0			= "sa_props\skins\Dinosaur2\h.dtx"
+Skin1			= "sa_props\skins\Dinosaur2\h.dtx"
+Translucent		= 1
+SkeletonID		= 39
+Sex			= false
+TeamID			= 0
+AniSetID		= 30
+
+
+
+[Model436]//우서 뿔 3단계
+ModelFile		= "sa_props\models\Dinosaur2\h.ltb"
+Skin0			= "sa_props\skins\Dinosaur2\h.dtx"
+Skin1			= "sa_props\skins\Dinosaur2\h.dtx"
+Translucent		= 1
+SkeletonID		= 39
+Sex			= false
+TeamID			= 0
+AniSetID		= 31
+
+[Model437] //약초
+ModelFile		= "sa_props\models\Dinosaur2\herb01_all.ltb"
+Skin0			= "sa_props\skins\Dinosaur2\herb01.dtx"
+Skin1			= "sa_props\skins\Dinosaur2\herb02.dtx"
+Skin2			= "sa_props\skins\Dinosaur2\herb03.dtx"
+Translucent		= 1
+SkeletonID		= 41
+Sex			= false
+TeamID			= 2
+AniSetID		= 28
+
+[Model438]
+[Model439]
+
+
+[Model440] //스토리용 녹색 랩터
+ModelFile		= "SA_characters\models\dino\raptor.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Green.dtx"
+Translucent		= 1
+SkeletonID		= 44
+Sex			= false
+TeamID			= 2
+AniSetID		= 34
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model441] //스토리용 빨강 랩터
+ModelFile		= "SA_characters\models\dino\raptor_Red.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Red.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Red.dtx"
+Translucent		= 1
+SkeletonID		= 44
+Sex			= false
+TeamID			= 2
+AniSetID		= 34
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model442] //스토리용 노란 랩터
+ModelFile		= "SA_characters\models\dino\raptor.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Yellow.dtx"
+Translucent		= 1
+SkeletonID		= 44
+Sex			= false
+TeamID			= 2
+AniSetID		= 34
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model443] //스토리용 갈색 랩터
+ModelFile		= "SA_characters\models\dino\raptor.ltb"
+Skin0			= "SA_Characters\Skins\dino\Velociraptor_Brown.dtx"
+Skin1			= "SA_Characters\Skins\dino\Velociraptor_Brown.dtx"
+Translucent		= 1
+SkeletonID		= 44
+Sex			= false
+TeamID			= 2
+AniSetID		= 34
+RespawnFX		= "Dino_Teleport_Rapt"
+
+[Model444]
+[Model445]
+
+[Model446]
+[Model447]
+[Model448]
+[Model449]
+[Model450]
+
+
+[Model451] //스토리용 녹색 티라노
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Green.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 45
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+[Model452] //스토리용 빨간 티라노
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Red.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Red.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 45
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+[Model453] //스토리용 갈색 티라노
+ModelFile		= "SA_characters\models\dino\Tyrannosauru.ltb"
+Skin0			= "SA_Characters\Skins\dino\Tyrannosauru_Brown.dtx"
+Skin1			= "SA_Characters\Skins\dino\Tyrannosauru_Brown.dtx"
+ShaderTex0		= "SA_Characters\Skins\dino\Tyrannosauru_n.dtx"
+ShaderTex1		= "SA_Characters\Skins\dino\Tyrannosauru_s.dtx"
+Translucent		= 1
+SkeletonID		= 45
+Sex			= false
+TeamID			= 2
+AniSetID		= 2
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+
+[Model454]
+[Model455]
+
+[Model456]//경비병
+ModelFile		= "SA_characters\models\nexon\guard.ltb"
+Skin0			= "SA_Characters\Skins\nexon\nexon_guard_default.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 37
+
+[Model457]//민간인 남자
+ModelFile		= "SA_characters\models\nexon\developer.ltb"
+Skin0			= "SA_Characters\Skins\nexon\developer_default.dtx"
+Translucent		= 1
+SkeletonID		= 54
+Sex			= true
+TeamID			= 2
+AniSetID		= 37
+
+[Model458]//민간인 여자
+ModelFile		= "SA_characters\models\nexon\nexon_woman.ltb"
+Skin0			= "SA_Characters\Skins\nexon\nexon_woman_default.dtx"
+Translucent		= 1
+SkeletonID		= 54
+Sex			= true
+TeamID			= 2
+AniSetID		= 37
+
+[Model459]//용병레드
+ModelFile		= "SA_characters\models\nexon\nexon_red.ltb"
+Skin0			= "SA_Characters\Skins\nexon\nexon_red_normal_default.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 37
+
+[Model460]//용병블루
+ModelFile		= "SA_characters\models\nexon\nexon_blue.ltb"
+Skin0			= "SA_Characters\Skins\nexon\nexon_blue_normal_default.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 37
+
+[Model461]//방패병(더미)
+ModelFile		= "SA_characters\models\nexon\shield_man.ltb"
+Skin0			= "SA_Characters\Skins\nexon\nexon_blue_normal_default.dtx"
+Skin1			= "SA_Characters\Skins\nexon\nexon_shield_black.dtx"
+Translucent		= 1
+SkeletonID		= 49
+Sex			= true
+TeamID			= 2
+AniSetID		= 37
+
+[Model462]//아즈마
+ModelFile		= "SA_characters\models\nexon\izuma.ltb"
+Skin0			= "SA_Characters\Skins\nexon\izuma_default.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 37
+
+[Model463]//배찌
+ModelFile		= "SA_characters\models\nexon\Bazzi_nexon.ltb"
+Skin0			= "SA_Characters\Skins\nexon\Bazzi_red_default.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 37
+
+[Model464]//다오
+ModelFile		= "SA_characters\models\nexon\dao_nexon.ltb"
+Skin0			= "SA_Characters\Skins\nexon\Dao_blue_3p.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 37
+
+[Model465]//똑똑한김실장
+ModelFile		= "SA_characters\models\nexon\kim.ltb"
+Skin0			= "SA_Characters\Skins\nexon\Department_head_d.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 37
+
+[Model466]// 캡틴킴
+ModelFile		= "SA_characters\models\nexon\Kim_Boss.ltb"
+Skin0			= "SA_Characters\Skins\nexon\kim_boss_default.dtx"
+Translucent		= 1
+SkeletonID		= 50
+Sex			= true
+TeamID			= 2
+AniSetID		= 37
+
+[Model467]//탱크김실장
+ModelFile                           = "SA_characters\models\nexon\kim_tank.ltb"
+Skin0                                = "SA_Characters\Skins\nexon\kim_tank_3p.dtx"
+Skin1                                = "SA_Characters\Skins\nexon\Department_head_d.dtx"
+Translucent                         = 1
+SkeletonID                         = 51
+Sex                                   = true
+TeamID                              = 2
+AniSetID               = 38
+RespawnFX		= "Dino_Teleport_Tirano"
+
+
+[Model468]//김사장
+ModelFile                           = "SA_characters\models\nexon\nexon_boss.ltb"
+Skin0                         = "SA_Characters\Skins\nexon\nexon_boss_default.dtx"
+Skin1                         = "SA_Characters\Skins\nexon\nexon_chair_default.dtx"
+Skin2                         = "SA_Characters\Skins\nexon\nexon_boss_gun.dtx"
+Translucent                         = 1
+SkeletonID                         = 52
+Sex                                   = true
+TeamID                              = 2
+AniSetID               = 39
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model469]//넥슨의 문장 
+ModelFile                           = "SA_characters\models\nexon\nexon_sentence.ltb"
+Skin0                         = "sa_characters\skins\nexon\nexon_sentence_default.dtx"
+Translucent                         = 1
+SkeletonID                         = 53
+Sex                                   = true
+TeamID                              = 2
+AniSetID               = 40
+RespawnFX		= "Dino_Teleport_Penta"
+
+[Model470] // 놈놈놈 미끼 레드
+ModelFile		= "SA_characters\models\nomnomnom\red_combat.ltb"
+Skin0			= "SA_Characters\Skins\nomnomnom\basic_red_default.dtx"
+Skin1			= "SA_Weapons\Skins\TV\combatbow_Gold_3p.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= false
+AniSetID		= 41
+RespawnFX		= "nom_charactersmoke"
+
+
+[Model471] // 놈놈놈 철가방.
+ModelFile                           = "sa_characters\models\nomnomnom\nom_steel_container_3p_Npc.ltb"
+Skin0                                = "sa_characters\SKINS\steel_container_default_npc.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 55
+AniSetID		= 42
+
+
+[Model472] // 무한사냥 두더지 일반
+ModelFile                           = "sa_characters\models\Hunting\Mole.ltb"
+Skin0                                = "sa_characters\skins\Hunting\mole_target_default.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 56
+AniSetID		= 45
+
+
+[Model473]  //무한사냥 오리 일반
+ModelFile                           = "sa_characters\models\Hunting\Duck.ltb"
+Skin0                                = "sa_characters\skins\Hunting\duck_target_default.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 56
+AniSetID		= 43
+
+
+[Model474] //무한사냥 돼지 일반
+ModelFile                           = "sa_characters\models\Hunting\pig.ltb"
+Skin0                                = "sa_characters\skins\Hunting\pig_target_default.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 56
+AniSetID		= 43
+
+
+[Model475] // 놈놈놈 미끼 블루
+ModelFile		= "SA_characters\models\nomnomnom\blue_combat.ltb"
+Skin0			= "SA_Characters\Skins\nomnomnom\basic_blue_default.dtx"
+Skin1			= "SA_Weapons\Skins\TV\combatbow_Gold_3p.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= false
+AniSetID		= 41
+RespawnFX		= "nom_charactersmoke"
+
+
+[Model476] //무한사냥 캥거루 일반
+ModelFile                           = "sa_characters\models\Hunting\kangaroo.ltb"
+Skin0                                = "sa_characters\skins\Hunting\kangaroo_target_default.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 56
+AniSetID		= 43  // 걷는게 일반
+
+
+[Model477] //무한사냥 앵무새 일반
+ModelFile                           = "sa_characters\models\Hunting\parrot.ltb"
+Skin0                                = "sa_characters\skins\Hunting\parrot_target_default.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 58
+AniSetID		= 48  // move가 기본 
+
+[Model478] //무한사냥 박쥐 일반
+ModelFile                           = "sa_characters\models\Hunting\bat.ltb"
+Skin0                                = "sa_characters\skins\Hunting\bat_target_default.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 58
+AniSetID		= 48  // move가 기본 
+
+[Model479] //무한사냥 모기 일반
+ModelFile                           = "sa_characters\models\Hunting\mosquito.ltb"
+Skin0                                = "sa_characters\skins\Hunting\mosquito_target.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 58
+AniSetID		= 48  // move가 기본 
+
+
+[Model480] //무한사냥 코뿔소 일반
+ModelFile                           = "sa_characters\models\Hunting\rino.ltb"
+Skin0                                = "sa_characters\skins\Hunting\rino_default.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 57
+AniSetID		= 46  // Idle 기본 
+
+[Model481] //무한사냥 나는 오리
+ModelFile                           = "sa_characters\models\Hunting\duck_fly.ltb"
+Skin0                                = "sa_characters\skins\Hunting\duck_target_fly_default.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 59
+AniSetID		= 48  // Move가 기본 
+
+
+
+[Model482] //무한사냥 사람
+ModelFile                           = "sa_characters\models\Hunting\human.ltb"
+Skin0                                = "sa_characters\skins\Hunting\human_target_default.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 56
+AniSetID		= 47  // Idle 기본  - 사람 테스트
+
+[Model483] //무한사냥 총든 사람
+ModelFile                           = "sa_characters\models\Hunting\human_gun.ltb"
+Skin0                                = "sa_characters\skins\Hunting\human_gun_target_default.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 56
+AniSetID		= 47  // Idle 기본  - 사람 테스트
+
+[Model484] //무한사냥 좀비
+ModelFile                           = "sa_characters\models\Hunting\zombie.ltb"
+Skin0                                = "sa_characters\skins\Hunting\zombie_target_default.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 58
+AniSetID		= 46  // 코뿔소와 동일
+
+[Model485] //무한사냥 폭탄
+ModelFile                           = "sa_characters\models\Hunting\bomb.ltb"
+Skin0                                = "sa_characters\skins\Hunting\bomb_target_default.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 60
+AniSetID		= 47  // 휴먼과 같은거 사용
+
+[Model486] //무한사냥 잔호크
+ModelFile                           = "sa_characters\models\Hunting\j.hoke.ltb"
+Skin0                                = "sa_characters\skins\Hunting\j.hoke_target_default.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 56
+AniSetID		= 43  // 기본
+
+[Model487] //무한사냥 점프 폭탄
+ModelFile                           = "sa_characters\models\Hunting\bomb_Jump.ltb"
+Skin0                                = "sa_characters\skins\Hunting\bomb_target_default.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 61
+AniSetID		= 47  // 휴먼과 같은거 사용
+
+[Model488] //무한사냥 점프 폭탄 역방향
+ModelFile                           = "sa_characters\models\Hunting\bomb_Jump_R.ltb"
+Skin0                                = "sa_characters\skins\Hunting\bomb_target_default.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 60
+AniSetID		= 47  // 휴먼과 같은거 사용
+
+[Model489] //무한사냥 사람(헬프)
+ModelFile                           = "sa_characters\models\Hunting\human.ltb"
+Skin0                                = "sa_characters\skins\Hunting\human_target_default.dtx"
+Translucent		= 1
+Sex			= false
+SkeletonID		= 62
+AniSetID		= 47  // Idle 기본  - 사람 테스트
+
+[Model490] // 진짜를찾아라 AI 모델1 앵무새
+ModelFile		= "SA_characters\models\findreal\parrot.ltb"
+Skin0			= "SA_Characters\Skins\findreal\really_parrot_face.dtx"
+Skin1			= "SA_Characters\Skins\findreal\really_parrot_body.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 49
+
+
+[Model491] //진짜를찾아라 AI 모델2 시바견
+ModelFile		= "SA_characters\models\findreal\really_dog.ltb"
+Skin0			= "SA_Characters\Skins\findreal\really_dog_face.dtx"
+Skin1			= "SA_Characters\Skins\findreal\really_dog_body.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 49
+
+[Model492] //진짜를찾아라 AI 모델3 돼지
+ModelFile		= "SA_characters\models\findreal\pig.ltb"
+Skin0			= "SA_Characters\Skins\findreal\really_pig_face.dtx"
+Skin1			= "SA_Characters\Skins\findreal\really_pig_body.dtx"
+
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 49
+
+[Model493] // 진짜를찾아라 AI 모델4 토끼
+ModelFile		= "SA_characters\models\findreal\rabbit.ltb"
+Skin0			= "SA_Characters\Skins\findreal\really_rabbit_face.dtx"
+Skin1			= "SA_Characters\Skins\findreal\really_rabbit_body.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 49
+
+[Model494] // 진짜를찾아라 Hiding 모델5 고양이
+ModelFile		= "SA_characters\models\findreal\really_cat.ltb"
+Skin0			= "SA_Characters\Skins\findreal\really_cat_face.dtx"
+Skin1			= "SA_Characters\Skins\findreal\really_cat_body.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 49
+
+[Model495] // 진짜를찾아라 Hiding 모델6 곰돌이
+ModelFile		= "SA_characters\models\findreal\really_suddenbear.ltb"
+Skin0			= "SA_Characters\Skins\findreal\really_suddenbear_face.dtx"
+Skin1			= "SA_Characters\Skins\findreal\really_suddenbear_body.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 49
+
+
+[Model496] //드론 (파이널존 공중보급)
+ModelFile               = "sa_props\models\survival\Drone.ltb"
+Skin0                   = "sa_props\skins\survival\final_drone.dtx"
+Skin1                   = "sa_props\skins\survival\final_box.dtx"
+Translucent             = 1
+Sex                     = true
+TeamID                  = 2
+SkeletonID              = 63
+AniSetID                      = 50
+
+[Model497] //드론상자 (파이널존)
+ModelFile               = "sa_props\models\survival\Drone_box.ltb"
+Skin0                   = "sa_props\skins\survival\final_box.dtx"
+Translucent             = 1
+Sex                     = true
+TeamID                  = 2
+SkeletonID              = 64
+AniSetID                      = 51
+
+[Model498] //드론 (32_듀오 크리스마스 버전)
+ModelFile               = "sa_props\models\survival\Drone.ltb"
+Skin0                   = "sa_props\skins\survival\final_drone.dtx"
+Skin1                   = "sa_props\skins\survival_xmas\drone_box_01a.dtx"
+Translucent             = 1
+Sex                     = true
+TeamID                  = 2
+SkeletonID              = 63
+AniSetID                      = 50
+
+[Model499] //드론상자 (32_듀오 크리스마스 버전)
+ModelFile               = "sa_props\models\survival_xmas\xmas_box.ltb"
+Skin0                   = "sa_props\skins\survival_xmas\present_box_01a.dtx"
+Translucent             = 1
+Sex                     = true
+TeamID                  = 2
+SkeletonID              = 64
+AniSetID                      = 51
+
+[Model500]
+
+ 
+
+[Model501]
+//Desc_Model=기본좀비A
+//Desc_Color=파란색
+ModelFile="sa_characters\models\zombie\ZombieA.ltb"
+Skin0="sa_characters\skins\Zombie\Zombie_Normal_Blue.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model502]
+//Desc_Model=기본좀비B
+//Desc_Color=파란색
+ModelFile="sa_characters\models\zombie\ZombieB.ltb"
+Skin0="sa_characters\skins\Zombie\Zombie_NormalB_Blue.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model503]
+//Desc_Model=기본좀비C
+//Desc_Color=파란색
+ModelFile="sa_characters\models\zombie\ZombieC.ltb"
+Skin0="sa_characters\skins\Zombie\Zombie_NormalC_Blue.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model504]
+//Desc_Model=기본좀비A
+//Desc_Color=녹색
+ModelFile="sa_characters\models\zombie\ZombieA.ltb"
+Skin0="sa_characters\skins\Zombie\Zombie_Normal_Green.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model505]
+//Desc_Model=기본좀비B
+//Desc_Color=녹색
+ModelFile="sa_characters\models\zombie\ZombieB.ltb"
+Skin0="sa_characters\skins\Zombie\Zombie_NormalB_Green.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model506]
+//Desc_Model=기본좀비C
+//Desc_Color=녹색
+ModelFile="sa_characters\models\zombie\ZombieC.ltb"
+Skin0="sa_characters\skins\Zombie\Zombie_NormalC_Green.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model507]
+//Desc_Model=기본좀비A
+//Desc_Color=노란색
+ModelFile="sa_characters\models\zombie\ZombieA.ltb"
+Skin0="sa_characters\skins\Zombie\Zombie_Normal_Yellow.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model508]
+//Desc_Model=기본좀비B
+//Desc_Color=노란색
+ModelFile="sa_characters\models\zombie\ZombieB.ltb"
+Skin0="sa_characters\skins\Zombie\Zombie_NormalB_Yellow.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model509]
+//Desc_Model=기본좀비C
+//Desc_Color=노란색
+ModelFile="sa_characters\models\zombie\ZombieC.ltb"
+Skin0="sa_characters\skins\Zombie\Zombie_NormalC_Yellow.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model510]
+//Desc_Model=기본좀비A
+//Desc_Color=오렌지색
+ModelFile="sa_characters\models\zombie\ZombieA.ltb"
+Skin0="sa_characters\skins\Zombie\Zombie_Normal_Orange.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model511]
+//Desc_Model=기본좀비B
+//Desc_Color=오렌지색
+ModelFile="sa_characters\models\zombie\ZombieB.ltb"
+Skin0="sa_characters\skins\Zombie\Zombie_NormalB_Orange.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model512]
+//Desc_Model=기본좀비C
+//Desc_Color=오렌지색
+ModelFile="sa_characters\models\zombie\ZombieC.ltb"
+Skin0="sa_characters\skins\Zombie\Zombie_NormalC_Orange.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model513]
+//Desc_Model=기본좀비A
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\ZombieA.ltb"
+Skin0="sa_characters\skins\Zombie\Zombie_Normal_Red.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model514]
+//Desc_Model=기본좀비B
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\ZombieB.ltb"
+Skin0="sa_characters\skins\Zombie\Zombie_NormalB_Red.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model515]
+//Desc_Model=기본좀비C
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\ZombieC.ltb"
+Skin0="sa_characters\skins\Zombie\Zombie_NormalC_Red.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model516]
+//Desc_Model=방어좀비A
+//Desc_Color=파란색
+ModelFile="sa_characters\models\zombie\Zombie_Defense.ltb"
+Skin0="sa_characters\skins\Zombie\zombie_Defence_D_Blue.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model517]
+//Desc_Model=방어좀비A
+//Desc_Color=녹색
+ModelFile="sa_characters\models\zombie\Zombie_Defense.ltb"
+Skin0="sa_characters\skins\Zombie\zombie_Defence_D_Green.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model518]
+//Desc_Model=방어좀비A
+//Desc_Color=노란색
+ModelFile="sa_characters\models\zombie\Zombie_Defense.ltb"
+Skin0="sa_characters\skins\Zombie\zombie_Defence_D_Yellow.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model519]
+//Desc_Model=방어좀비A
+//Desc_Color=오렌지색
+ModelFile="sa_characters\models\zombie\Zombie_Defense.ltb"
+Skin0="sa_characters\skins\Zombie\zombie_Defence_D_Orange.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model520]
+//Desc_Model=방어좀비A
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\Zombie_Defense.ltb"
+Skin0="sa_characters\skins\Zombie\zombie_Defence_D_Red.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model521]
+//Desc_Model=방어좀비B
+//Desc_Color=파란색
+ModelFile="sa_characters\models\zombie\Zombie_DefenseB.ltb"
+Skin0="sa_characters\skins\Zombie\zombie_DefenceB_Blue.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model522]
+//Desc_Model=방어좀비B
+//Desc_Color=녹색
+ModelFile="sa_characters\models\zombie\Zombie_DefenseB.ltb"
+Skin0="sa_characters\skins\Zombie\zombie_DefenceB_Green.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model523]
+//Desc_Model=방어좀비B
+//Desc_Color=노란색
+ModelFile="sa_characters\models\zombie\Zombie_DefenseB.ltb"
+Skin0="sa_characters\skins\Zombie\zombie_DefenceB_Yellow.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model524]
+//Desc_Model=방어좀비B
+//Desc_Color=오렌지색
+ModelFile="sa_characters\models\zombie\Zombie_DefenseB.ltb"
+Skin0="sa_characters\skins\Zombie\zombie_DefenceB_Orange.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model525]
+//Desc_Model=방어좀비B
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\Zombie_DefenseB.ltb"
+Skin0="sa_characters\skins\Zombie\zombie_DefenceB_Red.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model526]
+//Desc_Model=방어좀비C
+//Desc_Color=파란색
+ModelFile="sa_characters\models\zombie\Zombie_DefenseC.ltb"
+Skin0="sa_characters\skins\Zombie\zombie_DefenceC_Blue.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model527]
+//Desc_Model=방어좀비C
+//Desc_Color=녹색
+ModelFile="sa_characters\models\zombie\Zombie_DefenseC.ltb"
+Skin0="sa_characters\skins\Zombie\zombie_DefenceC_Green.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model528]
+//Desc_Model=방어좀비C
+//Desc_Color=노란색
+ModelFile="sa_characters\models\zombie\Zombie_DefenseC.ltb"
+Skin0="sa_characters\skins\Zombie\zombie_DefenceC_Yellow.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model529]
+//Desc_Model=방어좀비C
+//Desc_Color=오렌지색
+ModelFile="sa_characters\models\zombie\Zombie_DefenseC.ltb"
+Skin0="sa_characters\skins\Zombie\zombie_DefenceC_Orange.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model530]
+//Desc_Model=방어좀비C
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\Zombie_DefenseC.ltb"
+Skin0="sa_characters\skins\Zombie\zombie_DefenceC_Red.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model531]
+//Desc_Model=곰돌이좀비
+//Desc_Color=파란색
+ModelFile="sa_characters\models\zombie\bear_ZombieA.ltb"
+Skin0="sa_characters\skins\Zombie\BearZombie_blue_d.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model532]
+//Desc_Model=곰돌이좀비
+//Desc_Color=녹색
+ModelFile="sa_characters\models\zombie\bear_ZombieA.ltb"
+Skin0="sa_characters\skins\Zombie\BearZombie_green_d.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model533]
+//Desc_Model=곰돌이좀비
+//Desc_Color=노란색
+ModelFile="sa_characters\models\zombie\bear_ZombieA.ltb"
+Skin0="sa_characters\skins\Zombie\BearZombie_Yellow_d.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model534]
+//Desc_Model=곰돌이좀비
+//Desc_Color=오렌지색
+ModelFile="sa_characters\models\zombie\bear_ZombieA.ltb"
+Skin0="sa_characters\skins\Zombie\BearZombie_orenge_d.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model535]
+//Desc_Model=곰돌이좀비
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\bear_ZombieA.ltb"
+Skin0="sa_characters\skins\Zombie\BearZombie_red_d.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model536]
+//Desc_Model=포이즌좀비
+//Desc_Color=파란색
+ModelFile="sa_characters\models\zombie\poison_zombie.ltb"
+Skin0="sa_characters\skins\Zombie\poison_zombie_default.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=FALSE
+TeamID=2
+	   
+[Model537]
+//Desc_Model=포이즌좀비
+//Desc_Color=노란색
+ModelFile="sa_characters\models\zombie\poison_zombie.ltb"
+Skin0="sa_characters\skins\Zombie\poison_zombie_Yellow_default.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=FALSE
+TeamID=2
+	   
+[Model538]
+//Desc_Model=포이즌좀비
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\poison_zombie.ltb"
+Skin0="sa_characters\skins\Zombie\poison_zombie_Red_default.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=FALSE
+TeamID=2
+	   
+[Model539]
+//Desc_Model=포이즌좀비
+//Desc_Color=검정색
+ModelFile="sa_characters\models\zombie\poison_zombie.ltb"
+Skin0="sa_characters\skins\Zombie\poison_zombie_black.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=FALSE
+TeamID=2
+	   
+[Model540]
+//Desc_Model=넉백좀비
+//Desc_Color=파란색
+ModelFile="sa_characters\models\zombie\knockback_zombie.ltb"
+Skin0="sa_characters\skins\Zombie\knockback_zombie_blue_default.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model541]
+//Desc_Model=넉백좀비
+//Desc_Color=노란색
+ModelFile="sa_characters\models\zombie\knockback_zombie.ltb"
+Skin0="sa_characters\skins\Zombie\knockback_zombie_default.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model542]
+//Desc_Model=넉백좀비
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\knockback_zombie.ltb"
+Skin0="sa_characters\skins\Zombie\knockback_zombie_red_default.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model543]
+//Desc_Model=도살자
+//Desc_Color=파란색
+ModelFile="sa_characters\models\zombie\butcher.ltb"
+Skin0="sa_characters\skins\Zombie\butcher_default.dtx"
+Skin1="sa_characters\skins\Zombie\butcher_weapon_default.dtx"
+SkeletonID=67
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model544]
+//Desc_Model=도살자
+//Desc_Color=녹색
+ModelFile="sa_characters\models\zombie\butcher.ltb"
+Skin0="sa_characters\skins\Zombie\butcher_green.dtx"
+Skin1="sa_characters\skins\Zombie\butcher_weapon_default.dtx"
+SkeletonID=67
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model545]
+//Desc_Model=도살자
+//Desc_Color=노란색
+ModelFile="sa_characters\models\zombie\butcher.ltb"
+Skin0="sa_characters\skins\Zombie\butcher_yellow.dtx"
+Skin1="sa_characters\skins\Zombie\butcher_weapon_default.dtx"
+SkeletonID=67
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model546]
+//Desc_Model=도살자
+//Desc_Color=오렌지색
+ModelFile="sa_characters\models\zombie\butcher.ltb"
+Skin0="sa_characters\skins\Zombie\butcher_orenge.dtx"
+Skin1="sa_characters\skins\Zombie\butcher_weapon_default.dtx"
+SkeletonID=67
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model547]
+//Desc_Model=도살자
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\butcher.ltb"
+Skin0="sa_characters\skins\Zombie\butcher_red.dtx"
+Skin1="sa_characters\skins\Zombie\butcher_weapon_default.dtx"
+SkeletonID=67
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model548]
+//Desc_Model=자객
+//Desc_Color=파란색
+ModelFile="sa_characters\models\zombie\assassin.ltb"
+Skin0="sa_characters\skins\Zombie\assassin_default.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model549]
+//Desc_Model=자객
+//Desc_Color=녹색
+ModelFile="sa_characters\models\zombie\assassin.ltb"
+Skin0="sa_characters\skins\Zombie\assassin_green.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model550]
+//Desc_Model=자객
+//Desc_Color=노란색
+ModelFile="sa_characters\models\zombie\assassin.ltb"
+Skin0="sa_characters\skins\Zombie\assassin_yellow.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model551]
+//Desc_Model=자객
+//Desc_Color=오렌지색
+ModelFile="sa_characters\models\zombie\assassin.ltb"
+Skin0="sa_characters\skins\Zombie\assassin_orenge.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model552]
+//Desc_Model=자객
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\assassin.ltb"
+Skin0="sa_characters\skins\Zombie\assassin_red.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model553]
+//Desc_Model=연금술사
+//Desc_Color=파란색
+ModelFile="sa_characters\models\zombie\alchemist.ltb"
+Skin0="sa_characters\skins\Zombie\alchemist_default.dtx"
+SkeletonID=67
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model554]
+//Desc_Model=연금술사
+//Desc_Color=녹색
+ModelFile="sa_characters\models\zombie\alchemist.ltb"
+Skin0="sa_characters\skins\Zombie\alchemist_green.dtx"
+SkeletonID=67
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model555]
+//Desc_Model=연금술사
+//Desc_Color=노란색
+ModelFile="sa_characters\models\zombie\alchemist.ltb"
+Skin0="sa_characters\skins\Zombie\alchemist_yellow.dtx"
+SkeletonID=67
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model556]
+//Desc_Model=연금술사
+//Desc_Color=오렌지색
+ModelFile="sa_characters\models\zombie\alchemist.ltb"
+Skin0="sa_characters\skins\Zombie\alchemist_orenge.dtx"
+SkeletonID=67
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model557]
+//Desc_Model=연금술사
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\alchemist.ltb"
+Skin0="sa_characters\skins\Zombie\alchemist_red.dtx"
+SkeletonID=67
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model558]
+//Desc_Model=임프좀비
+//Desc_Color=파란색
+ModelFile="sa_characters\models\zombie\rimpu_zombie.ltb"
+Skin0="sa_characters\skins\Zombie\rimpu_zombie_blue_default.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model559]
+//Desc_Model=임프좀비
+//Desc_Color=오렌지색
+ModelFile="sa_characters\models\zombie\rimpu_zombie.ltb"
+Skin0="sa_characters\skins\Zombie\rimpu_zombie_default.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model560]
+//Desc_Model=임프좀비
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\rimpu_zombie.ltb"
+Skin0="sa_characters\skins\Zombie\rimpu_zombie_red_default.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model561]
+//Desc_Model=임프좀비
+//Desc_Color=검정색
+ModelFile="sa_characters\models\zombie\rimpu_zombie.ltb"
+Skin0="sa_characters\skins\Zombie\rimpu_zombie_black_default.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model562]
+//Desc_Model=자폭좀비
+//Desc_Color=흰색
+ModelFile="sa_characters\models\zombie\suicide_zombie.ltb"
+Skin0="sa_characters\skins\Zombie\suicide_zombie_default.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model563]
+//Desc_Model=자폭좀비
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\suicide_zombie.ltb"
+Skin0="sa_characters\skins\Zombie\suicide_zombie_red_default.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	   
+[Model564]
+//Desc_Model=자폭좀비
+//Desc_Color=검정색
+ModelFile="sa_characters\models\zombie\suicide_zombie.ltb"
+Skin0="sa_characters\skins\Zombie\suicide_zombie_black_default.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+	 
+	 
+[Model565] // 보스층에서 사용되는 좀비입니다.
+//Desc_Model=방어좀비C
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\Zombie_DefenseC.ltb"
+Skin0="sa_characters\skins\zombie\boss\zombie_DefenceC_gold.DTX"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model566] // 보스층에서 사용되는 좀비입니다.
+//Desc_Model=넉백좀비
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\knockback_zombie.ltb"
+Skin0="sa_characters\skins\zombie\boss\knockback_zombie_gold.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model567] // 보스층에서 사용되는 좀비입니다.
+//Desc_Model=도살자
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\butcher.ltb"
+Skin0="sa_characters\skins\zombie\boss\butcher_gold.dtx"
+Skin1="sa_characters\skins\zombie\boss\butcher_weapon_gold.dtx"
+SkeletonID=67
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model568] // 보스층에서 사용되는 좀비입니다.
+//Desc_Model=자객
+//Desc_Color=오렌지색
+ModelFile="sa_characters\models\zombie\assassin.ltb"
+Skin0="sa_characters\skins\zombie\boss\assassin_gold.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model569] // 보스층에서 사용되는 좀비입니다.
+//Desc_Model=자객
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\assassin.ltb"
+Skin0="sa_characters\skins\zombie\boss\assassin_gold.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model570] // 보스층에서 사용되는 좀비입니다.
+//Desc_Model=연금술사
+//Desc_Color=오렌지색
+ModelFile="sa_characters\models\zombie\alchemist.ltb"
+Skin0="sa_characters\skins\zombie\boss\alchemist_gold.DTX"
+SkeletonID=67
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model571]// 보스층에서 사용되는 좀비입니다.
+//Desc_Model=연금술사
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\alchemist.ltb"
+Skin0="sa_characters\skins\zombie\boss\alchemist_gold.DTX"
+SkeletonID=67
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model572]// 보스층에서 사용되는 좀비입니다.
+//Desc_Model=임프좀비
+//Desc_Color=검정색
+ModelFile="sa_characters\models\zombie\rimpu_zombie.ltb"
+Skin0="sa_characters\skins\zombie\boss\rimpu_gold.DTX"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model573]// 보스층에서 사용되는 좀비입니다. 
+//Desc_Model=자폭좀비
+//Desc_Color=검정색
+ModelFile="sa_characters\models\zombie\suicide_zombie.ltb"
+Skin0="sa_characters\skins\zombie\boss\suicide_zombie_gold.DTX"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model574]
+//Desc_Model=방어좀비A
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\Zombie_Defense.ltb"
+Skin0="sa_characters\skins\zombie\boss\zombie_DefenceD_gold.DTX"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model575]
+//Desc_Model=방어좀비B
+//Desc_Color=오렌지색
+ModelFile="sa_characters\models\zombie\Zombie_DefenseB.ltb"
+Skin0="sa_characters\skins\zombie\boss\zombie_DefenceB_gold.DTX"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model576]
+//Desc_Model=방어좀비B
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\Zombie_DefenseB.ltb"
+Skin0="sa_characters\skins\zombie\boss\zombie_DefenceB_gold.DTX"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model577]
+//Desc_Model=방어좀비C
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\Zombie_DefenseC.ltb"
+Skin0="sa_characters\skins\zombie\boss\zombie_DefenceC_gold.DTX"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model578]
+//Desc_Model=넉백좀비
+//Desc_Color=노란색
+ModelFile="sa_characters\models\zombie\knockback_zombie.ltb"
+Skin0="sa_characters\skins\zombie\boss\knockback_zombie_gold.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model579]
+//Desc_Model=넉백좀비
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\knockback_zombie.ltb"
+Skin0="sa_characters\skins\zombie\boss\knockback_zombie_gold.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model580]
+//Desc_Model=도살자
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\butcher.ltb"
+Skin0="sa_characters\skins\zombie\boss\butcher_gold.dtx"
+Skin1="sa_characters\skins\zombie\boss\butcher_weapon_gold.dtx"
+SkeletonID=67
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model581]
+//Desc_Model=자객
+//Desc_Color=오렌지색
+ModelFile="sa_characters\models\zombie\assassin.ltb"
+Skin0="sa_characters\skins\zombie\boss\assassin_gold.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model582]
+//Desc_Model=자객
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\assassin.ltb"
+Skin0="sa_characters\skins\zombie\boss\assassin_gold.dtx"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model583]
+//Desc_Model=연금술사
+//Desc_Color=오렌지색
+ModelFile="sa_characters\models\zombie\alchemist.ltb"
+Skin0="sa_characters\skins\zombie\boss\alchemist_gold.DTX"
+SkeletonID=67
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model584]
+//Desc_Model=연금술사
+//Desc_Color=빨간색
+ModelFile="sa_characters\models\zombie\alchemist.ltb"
+Skin0="sa_characters\skins\zombie\boss\alchemist_gold.DTX"
+SkeletonID=67
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model585]
+//Desc_Model=임프좀비
+//Desc_Color=검정색
+ModelFile="sa_characters\models\zombie\rimpu_zombie.ltb"
+Skin0="sa_characters\skins\zombie\boss\rimpu_gold.DTX"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model586]//보스층사용
+//Desc_Model=자폭좀비
+//Desc_Color=검정색
+ModelFile="sa_characters\models\zombie\suicide_zombie.ltb"
+Skin0="sa_characters\skins\zombie\boss\suicide_zombie_gold.DTX"
+SkeletonID=66
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+
+[Model587]
+[Model588]
+[Model589]
+[Model590]
+
+[Model591]
+//Desc_Model=dj(RED)
+ModelFile		= "SA_Characters\Models\Red\dj_red.ltb"
+Skin0			= "SA_Characters\Skins\dj_red_default.dtx"
+SkeletonID=32
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+AniSetID= 54
+
+
+
+[Model592]
+//Desc_Model=dj(BLUE)
+ModelFile		= "SA_Characters\Models\blue\dj_blue.ltb"
+Skin0			= "SA_Characters\Skins\dj_blue_default.dtx"
+SkeletonID=32
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+AniSetID= 54
+
+
+
+[Model593]
+//Desc_Model=여도둑(RED)
+ModelFile		= "SA_characters\models\red\She_Thief_red.ltb"
+Skin0			= "SA_Characters\Skins\She_Thief_Red_default.dtx"
+SkeletonID=32
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+AniSetID= 54
+
+
+[Model594]
+//Desc_Model=여도둑(BLUE)
+ModelFile		= "SA_characters\models\blue\She_Thief_blue.ltb"
+Skin0			= "SA_Characters\Skins\She_Thief_Blue_default.dtx"
+SkeletonID=32
+EyeColor=2
+Translucent=1
+Sex=TRUE
+TeamID=2
+AniSetID= 54
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+
+
+
+
+[Model595]
+//Trap_Type=1.기둥
+//Trap_SubType=[기둥]상>하
+ModelFile="sa_props\models\WaySniping\box1.ltb"
+Skin0="sa_tex2015\run\1s_box_010.dtx"
+SkeletonID=53
+AniSetID		= 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+	   
+[Model596]
+//Trap_Type=3.회전
+//Trap_SubType=[회전]본축 회전
+ModelFile="sa_props\models\WaySniping\Sword.ltb"
+Skin0="sa_props\skins\GodMode\Sword.dtx"
+SkeletonID=53
+AniSetID		= 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+	   
+[Model597]
+//Trap_Type=2.꼬챙이
+//Trap_SubType=[꼬챙이]상>하
+ModelFile="sa_props\models\WaySniping\h1.ltb"
+Skin0="sa_props\skins\Dinosaur2\h.dtx"
+SkeletonID=53
+AniSetID		= 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+	   
+[Model598]
+//Trap_Type=1.기둥
+//Trap_SubType=[기둥]좌>우
+ModelFile="sa_props\models\WaySniping\box.ltb"
+Skin0="sa_tex2015\run\1s_box_010.dtx"
+SkeletonID=53
+AniSetID		= 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+	   
+[Model599]
+//Trap_Type=4.클리어
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\Goal_button.ltb"
+Skin0="sa_props\skins\Elevator\button_00.dtx"
+Skin1="sa_props\skins\Elevator\button_00.dtx"
+Skin2="sa_props\skins\Elevator\button_01.dtx"
+Skin3="sa_props\skins\Elevator\button_02.dtx"
+Skin4="sa_props\skins\Elevator\button_03.dtx"
+Skin5="sa_props\skins\Elevator\button_04.dtx"
+SkeletonID=68
+AniSetID		= 53
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+	 
+[Model600]
+//Trap_Type=사각기둥
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap01.ltb"
+Skin0="sa_props\skins\Elevator\trap\Trap01.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model601]
+//Trap_Type=다중막대
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap02.ltb"
+Skin0="sa_props\skins\Elevator\trap\Trap02031113.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model602]
+//Trap_Type=회전 다중막대 기둥
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap03.ltb"
+Skin0="sa_props\skins\Elevator\trap\Trap02031113.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+
+[Model603]
+//Trap_Type 회전 다중막대 날개
+//Trap_SubType=
+
+
+[Model604]
+//Trap_Type 회전 눈사람
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap04.ltb"
+Skin0="sa_props\skins\Elevator\trap\Trap04.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model605]
+//Trap_Type 시간차1 대피용 모델
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap05.ltb"
+Skin0="sa_props\skins\Elevator\trap\Trap05.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model606]
+//Trap_Type 시간차1 함정프랍
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap06.ltb"
+Skin0="sa_props\skins\Elevator\trap\Trap06.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model607]
+//Trap_Type 시간차2 대피용 모델
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap07.ltb"
+Skin0="sa_props\skins\Elevator\trap\Trap07.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model608]
+//Trap_Type 시간차2 함정 모델
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap08.ltb"
+Skin0="sa_props\skins\Elevator\trap\Trap08.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model609]
+//Trap_Type 지그재그
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap09.ltb"
+Skin0="sa_props\skins\Elevator\trap\Trap09.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model610]
+//Trap_Type 회전문
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap10.ltb"
+Skin0="sa_props\skins\Elevator\trap\Trap10.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model611]
+//Trap_Type 2중 회전기둥
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap11.ltb"
+Skin0="sa_props\skins\Elevator\trap\Trap02031113.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model612]
+//Trap_Type 칼날 함정
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap12b.ltb"
+Skin0="sa_props\skins\Elevator\trap\Trap12.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model613]
+//Trap_Type 칼날 함정 역방향
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap12.ltb"
+Skin0="sa_props\skins\Elevator\trap\Trap12.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model614]
+//Trap_Type 가로 회전기둥
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap13.ltb"
+Skin0="sa_props\skins\Elevator\trap\Trap02031113.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model615]
+//Trap_Type 푸시 오브젝트
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap14.ltb"
+Skin0="sa_props\skins\Elevator\trap\trap14.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model616]
+//Trap_Type 굴곡파이프
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap15.ltb"
+Skin0="sa_props\skins\Elevator\trap\trap15.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model617]
+//Trap_Type 쥐덫
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap16.ltb"
+Skin0="sa_props\skins\Elevator\trap\trap16.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model618]
+//Trap_Type 일자파이프
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap17.ltb"
+Skin0="sa_props\skins\Elevator\trap\Trap15.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+[Model619]
+//Trap_Type 다중 일자파이프
+//Trap_SubType=
+ModelFile="sa_props\models\Elevator\trap\trap18.ltb"
+Skin0="sa_props\skins\Elevator\trap\Trap15.dtx"
+SkeletonID = 53
+AniSetID = 40
+EyeColor=FALSE
+Translucent=1
+Sex=FALSE
+TeamID=2
+
+
+
+
+
+
+// 진짜를모아라 - 초이
+[Model620]
+ModelFile		= "SA_characters\models\Collectreal\Bread_3p.ltb"
+Skin0			= "SA_Characters\Skins\findreal\really_parrot_face.dtx"
+Skin1			= "SA_Characters\Skins\findreal\really_parrot_body.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 49
+
+// 진짜를모아라 - 슈가
+[Model621]
+ModelFile		= "SA_characters\models\Collectreal\Bread_3p.ltb"
+Skin0			= "SA_Characters\Skins\findreal\really_dog_face.dtx"
+Skin1			= "SA_Characters\Skins\findreal\really_dog_body.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 49
+
+// 진짜를모아라 - 포크
+[Model622]
+ModelFile		= "SA_characters\models\Collectreal\Bread_3p.ltb"
+Skin0			= "SA_Characters\Skins\findreal\really_pig_face.dtx"
+Skin1			= "SA_Characters\Skins\findreal\really_pig_body.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 49
+
+// 진짜를모아라 - 드기
+[Model623]
+ModelFile		= "SA_characters\models\Collectreal\Bread_3p.ltb"
+Skin0			= "SA_Characters\Skins\findreal\really_rabbit_face.dtx"
+Skin1			= "SA_Characters\Skins\findreal\really_rabbit_body.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 49
+
+// 진짜를모아라 - 썽
+[Model624]
+ModelFile		= "SA_characters\models\Collectreal\Bread_3p.ltb"
+Skin0			= "SA_Characters\Skins\findreal\really_cat_face.dtx"
+Skin1			= "SA_Characters\Skins\findreal\really_cat_body.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 49
+
+// 진짜를모아라 - 싸곰
+[Model625]
+ModelFile		= "SA_characters\models\Collectreal\Bread_3p.ltb"
+Skin0			= "SA_Characters\Skins\findreal\really_suddenbear_face.dtx"
+Skin1			= "SA_Characters\Skins\findreal\really_suddenbear_body.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 49
+
+// 진짜를모아라 - 브레드
+[Model626]
+ModelFile		= "SA_characters\models\Collectreal\Bread_3p.ltb"
+Skin0			= "SA_Characters\Skins\findreal\really_cookbear_face.dtx"
+Skin1			= "SA_Characters\Skins\findreal\really_cookbear_body.dtx"
+Translucent		= 1
+SkeletonID		= 48
+Sex			= true
+TeamID			= 2
+AniSetID		= 49
+
+
+
+ 
+
+
+ 
+ 
+
+
+
+[AniSet0]
+MovementHintNode		= "Bip01"
+MovementHintAni			= "attack1, attack4, attack6"
+TrackingNode			= ""//Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 60	//점프 판단 높이
+
+Base				= "base"
+Stand				= "idle"
+StandLeanL			= "idle"
+StandLeanR			= "idle"
+
+BotAction0			= "EM"
+BotAction1			= "attack1"
+BotAction2			= "attack2"
+BotAction3			= "attack3"
+BotAction4			= "attack4"
+BotAction5			= "attack5"
+BotAction6			= "attack6"
+
+
+//트리케라톱스 용
+[AniSet1]
+MovementHintNode		= "Bip01"
+MovementHintAni			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 60	//점프 판단 높이
+
+Base				= "base"
+Stand				= "idle"
+StandLeanL			= "idle"
+StandLeanR			= "idle"
+
+BotAction0			= "Attack0"
+BotAction1			= "Attack1"
+BotAction2			= "Attack2"
+BotAction3			= "Attack3"
+BotAction4			= "Attack4"
+BotAction5			= "Attack5"
+
+
+// 티라노 용
+[AniSet2] 
+MovementHintNode		= "Bip01"
+MovementHintAni			= "Attack4_Run"
+TrackingNode			= "Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 60	//점프 판단 높이
+
+Base				= "base"
+Stand				= "idle"
+StandLeanL			= "idle"
+StandLeanR			= "idle"
+
+BotAction0			= "attack0" // 원호요청
+BotAction1			= "attack1" // 물기
+BotAction2			= "attack2" // 밟기
+BotAction3			= "attack3_R" // 꼬리치기(우)
+BotAction4			= "attack3_L" // 꼬리치기(좌)
+BotAction5			= "Attack4_Run" // 돌진
+BotAction6			= "attack5" // 눈빛 공격
+BotAction7			= "attack6"  // 버프
+BotAction8			= "attack7" //스톰프
+
+[AniSet3]
+TrackingNode			= "Bone04"
+TrackingAngleOffset		= 0
+TrackingAngleRate		= -1.0f
+DirTrackingNode			= "Bone03"
+HeadNode			= "Dummy06"
+NeckNode			= "Dummy08"
+RotateLock			= true
+MoveLock			= true
+
+Base				= "idle_0"
+Stand				= "idle_0"
+StandLeanL			= "idle_0"
+StandLeanR			= "idle_0"
+
+BotAction0			= "fire"
+BotAction1			= "postfire"
+LastAction			= 1
+
+[AniSet4] //방책 1레벨
+DirTrackingNode			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+TrackingAngleRate		= -1.0f
+HeadNode			= "rootbone"
+NeckNode			= "rootbone"
+RotateLock			= true
+MoveLock			= true
+
+Base				= "start_01"
+Stand				= "start_01"
+StandLeanL			= "start_01"
+StandLeanR			= "start_01"
+BotAction0			= "start_01"
+
+[AniSet5] //방책 2레벨
+DirTrackingNode			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+TrackingAngleRate		= -1.0f
+HeadNode			= "rootbone"
+NeckNode			= "rootbone"
+RotateLock			= true
+MoveLock			= true
+
+Base				= "end_02"
+Stand				= "end_02"
+StandLeanL			= "end_02"
+StandLeanR			= "end_02"
+
+[AniSet6] //방책 3레벨
+DirTrackingNode			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+TrackingAngleRate		= -1.0f
+HeadNode			= "rootbone"
+NeckNode			= "rootbone"
+RotateLock			= true
+MoveLock			= true
+
+Base				= "end_03"
+Stand				= "end_03"
+StandLeanL			= "end_03"
+StandLeanR			= "end_03"
+
+[AniSet7] //방책 4레벨
+DirTrackingNode			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+TrackingAngleRate		= -1.0f
+HeadNode			= "rootbone"
+NeckNode			= "rootbone"
+RotateLock			= true
+MoveLock			= true
+
+Base				= "end_04"
+Stand				= "end_04"
+StandLeanL			= "end_04"
+StandLeanR			= "end_04"
+
+[AniSet8] //방책 5레벨
+DirTrackingNode			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+TrackingAngleRate		= -1.0f
+HeadNode			= "rootbone"
+NeckNode			= "rootbone"
+RotateLock			= true
+MoveLock			= true
+
+Base				= "end_05"
+Stand				= "end_05"
+StandLeanL			= "end_05"
+StandLeanR			= "end_05"
+
+
+[AniSet9] //미끼 1레벨
+DirTrackingNode			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+TrackingAngleRate		= -1.0f
+HeadNode			= "rootbone"
+NeckNode			= "rootbone"
+RotateLock			= true
+MoveLock			= true
+
+Base				= "start"
+Stand				= "start"
+StandLeanL			= "start"
+StandLeanR			= "start"
+
+[AniSet10] //미끼 2레벨
+DirTrackingNode			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+TrackingAngleRate		= -1.0f
+HeadNode			= "rootbone"
+NeckNode			= "rootbone"
+RotateLock			= true
+MoveLock			= true
+
+Base				= "move_02end"
+Stand				= "move_02end"
+StandLeanL			= "move_02end"
+StandLeanR			= "move_02end"
+
+[AniSet11] //미끼 3레벨
+DirTrackingNode			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+TrackingAngleRate		= -1.0f
+HeadNode			= "rootbone"
+NeckNode			= "rootbone"
+RotateLock			= true
+MoveLock			= true
+
+Base				= "move_03end"
+Stand				= "move_03end"
+StandLeanL			= "move_03end"
+StandLeanR			= "move_03end"
+
+[AniSet12] //미끼 4레벨
+DirTrackingNode			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+TrackingAngleRate		= -1.0f
+HeadNode			= "rootbone"
+NeckNode			= "rootbone"
+RotateLock			= true
+MoveLock			= true
+
+Base				= "start"
+Stand				= "start"
+StandLeanL			= "start"
+StandLeanR			= "start"
+
+[AniSet13] //미끼 5레벨
+DirTrackingNode			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+TrackingAngleRate		= -1.0f
+HeadNode			= "rootbone"
+NeckNode			= "rootbone"
+RotateLock			= true
+MoveLock			= true
+
+Base				= "end"
+Stand				= "end"
+StandLeanL			= "end"
+StandLeanR			= "end"
+
+BotAction0			= "move"
+
+
+[AniSet14] 
+MovementHintNode		= "Bip01"
+MovementHintAni			= "Attack4_Run"
+TrackingNode			= "Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 250	//점프 판단 높이
+
+Base				= "base"
+Stand				= "idle"
+StandLeanL			= "idle"
+StandLeanR			= "idle"
+
+BotAction0			= "attack0" // 원호요청
+BotAction1			= "attack1" // 물기
+BotAction2			= "attack2" // 밟기
+BotAction3			= "attack3_R" // 꼬리치기(우)
+BotAction4			= "attack3_L" // 꼬리치기(좌)
+BotAction5			= "Attack4_Run" // 돌진
+BotAction6			= "attack5" // 눈빛 공격
+BotAction7			= "attack6"  // 버프
+BotAction8			= "attack7" //스톰프
+
+
+[AniSet15]
+TrackingNode			= "Bone04"
+TrackingAngleOffset		= 0
+TrackingAngleRate		= -0.35f
+DirTrackingNode			= "Bone03"
+HeadNode			= "Dummy06"
+NeckNode			= "Dummy08"
+RotateLock			= true
+MoveLock			= true
+
+Base				= "idle_0"
+Stand				= "idle_0"
+StandLeanL			= "idle_0"
+StandLeanR			= "idle_0"
+
+BotAction0			= "fire"
+BotAction1			= "postfire"
+LastAction			= 1
+
+
+[AniSet16] //test 현아
+MovementHintNode		= "Bip01"
+MovementHintAni			= "attack1, attack4, attack6"
+TrackingNode			= ""//Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 60	//점프 판단 높이
+
+Base				= "if_select"
+Stand				= "if_select"
+StandLeanL			= "if_select"
+StandLeanR			= "if_select"
+
+
+
+[AniSet17] //스티기몰로크
+MovementHintNode		= "Bip01"
+MovementHintAni			= "attack2,attack3,attack4,attack5,attack7"
+TrackingNode			= "Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "base"
+Stand				= "idle"
+StandLeanL			= "idle"
+StandLeanR			= "idle"
+
+BotAction0			= "attack0" //원호
+BotAction1			= "attack1" //박치기
+BotAction2			= "attack2" //돌진
+BotAction3			= "attack3" //슈퍼박치기
+BotAction4			= "attack4" //엑시즈 낙하
+BotAction5			= "Attack5" //트리플 악셀
+BotAction6			= "attack6" //펜타곤쉴드
+BotAction7			= "attack7" //스크류드라이버
+
+
+[AniSet18] //딜로포사우루스
+MovementHintNode		= ""
+MovementHintAni			= ""
+TrackingNode			= ""//Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "base"
+Stand				= "idle"
+StandLeanL			= "idle"
+StandLeanR			= "idle"
+
+BotAction0			= "EM" //미끼
+BotAction1			= "attack0" //원호
+BotAction2			= "attack1" // 기본 공격
+BotAction3			= "attack2" //셔틀라이트 캐논
+BotAction4			= "attack3" // 부메랑
+
+
+[AniSet19]// 각룡왕 아서 버전
+MovementHintNode		= "Bip01"
+MovementHintAni			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "base"
+Stand				= "idle"
+StandLeanL			= "idle"
+StandLeanR			= "idle"
+
+BotAction0			= "Attack0"
+BotAction1			= "Attack1"
+BotAction2			= "Attack2"
+BotAction3			= "Attack3"
+BotAction4			= "Attack4"
+BotAction5			= "Attack5"
+BotAction6      = "Attack6"
+BotAction7      = "Attack7"
+
+
+[AniSet20] //모드레드용인듯?
+MovementHintNode		= "Bip01"
+MovementHintAni			= "Attack4_Run,Attack4_Run_2"
+TrackingNode			= "Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "base"
+Stand				= "idle"
+StandLeanL			= "idle"
+StandLeanR			= "idle"
+
+BotAction0			= "attack0" // 원호요청
+BotAction1			= "attack1" // 물기
+BotAction2			= "attack2" // 밟기
+BotAction3			= "Nova" // 꼬리치기(우)
+BotAction4			= "attack3_L" // 꼬리치기(좌)
+BotAction5			= "Attack4_Run" // 돌진
+BotAction6			= "attack5" // 눈빛 공격
+BotAction7			= "attack6"  // 버프
+BotAction8			= "attack7" //스톰프
+BotAction9			= "Attack4_Run_2" //돌진2
+BotAction10			= "cine_sneer"
+BotAction11			= "cine_angry"
+BotAction12			= "cine_seek"
+BotAction13			= "base"
+
+
+[AniSet21]  //죽은 트리케라톱스용
+MovementHintNode		= "Bip01"
+MovementHintAni			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "base"
+Stand				= "twitch"
+StandLeanL			= "twitch"
+StandLeanR			= "twitch"
+
+
+[AniSet22] //tes세경
+MovementHintNode		= "Bip01"
+MovementHintAni			= ""
+TrackingNode			= ""//Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "cine_w_idle"
+Stand				= "cine_idle"
+StandLeanL			= "cine_idle"
+StandLeanR			= "cine_idle"
+
+BotAction0			= "cine_pet_auther"
+
+
+
+[AniSet23] //전투용 신세경
+MovementHintNode		= "Bip01"
+MovementHintAni			= ""
+TrackingNode			= ""//Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "GRF"
+Stand				= "GRF"
+StandLeanL			= "GRF"
+StandLeanR			= "GRF"
+
+[AniSet24] //씨네마용 신세경
+MovementHintNode		= "Bip01"
+MovementHintAni			= ""
+TrackingNode			= ""//Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "cine_w_idle"
+Stand				= "cine_Idle"
+StandLeanL			= "cine_Idle"
+StandLeanR			= "cine_Idle"
+
+[AniSet25] //주술 딜로포 용
+MovementHintNode		= "Bip01"
+MovementHintAni			= ""
+TrackingNode			= ""//Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "cine_ritua"
+Stand				= "cine_ritua"
+StandLeanL			= "cine_ritua"
+StandLeanR			= "cine_ritua"
+
+[AniSet26] //죽은 모드레드
+MovementHintNode		= "Bip01"
+MovementHintAni			= ""
+TrackingNode			= "Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "base"
+Stand				= "twitch"
+StandLeanL			= "twitch"
+StandLeanR			= "twitch"
+
+
+[AniSet27] //경비대장
+MovementHintNode		= "Bip01"
+MovementHintAni			= "attack1, attack4, attack6,attack6_2 "
+TrackingNode			= ""//Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "base"
+Stand				= "idle"
+StandLeanL			= "idle"
+StandLeanR			= "idle"
+
+BotAction0			= "EM"
+BotAction1			= "attack1"
+BotAction2			= "attack2"
+BotAction3			= "attack3"
+BotAction4			= "attack4"
+BotAction5			= "attack5"
+BotAction6			= "attack6"
+BotAction7			= "attack6_2"
+
+[AniSet28] //프랍 기본
+DirTrackingNode			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+TrackingAngleRate		= -1.0f
+HeadNode			= "bone001"
+NeckNode			= "bone001"
+RotateLock			= true
+MoveLock			= true
+
+Base				= "base"
+Stand				= "base"
+StandLeanL			= "base"
+StandLeanR			= "base"
+BotAction0			= "base"
+
+[AniSet29] //우서 뿔A
+DirTrackingNode			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+TrackingAngleRate		= -1.0f
+HeadNode			= "bone001"
+NeckNode			= "bone001"
+RotateLock			= true
+MoveLock			= true
+
+Base				= "H"
+Stand				= "H"
+StandLeanL			= "H"
+StandLeanR			= "H"
+BotAction0			= "H"
+
+[AniSet30] //우서 뿔B
+DirTrackingNode			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+TrackingAngleRate		= -1.0f
+HeadNode			= "bone001"
+NeckNode			= "bone001"
+RotateLock			= true
+MoveLock			= true
+
+Base				= "H_1"
+Stand				= "H_1"
+StandLeanL			= "H_1"
+StandLeanR			= "H_1"
+BotAction0			= "H_1"
+
+[AniSet31] //우서 뿔C
+DirTrackingNode			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+TrackingAngleRate		= -1.0f
+HeadNode			= "bone001"
+NeckNode			= "bone001"
+RotateLock			= true
+MoveLock			= true
+
+Base				= "H_2"
+Stand				= "H_2"
+StandLeanL			= "H_2"
+StandLeanR			= "H_2"
+BotAction0			= "H_2"
+
+
+[AniSet32] //쓰러진 세경
+MovementHintNode		= "Bip01"
+MovementHintAni			= ""
+TrackingNode			= ""//Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "cine_w_idle"
+Stand				= "cine_down_wait"
+StandLeanL			= "cine_down_wait"
+StandLeanR			= "cine_down_wait"
+
+
+[AniSet33] //Easy_버프용 신세경
+MovementHintNode		= "Bip01"
+MovementHintAni			= ""
+TrackingNode			= ""//Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "cine_Idle"
+Stand				= "cine_Idle"
+StandLeanL			= "cine_Idle"
+StandLeanR			= "cine_Idle"
+
+BotAction0			= "cine_killyou"
+BotAction1			= "cine_pray"
+
+
+[AniSet34] // 랩터 - 공룡 스토리모드용 - 점프 기준 높이 낮음.
+MovementHintNode		= "Bip01"
+MovementHintAni			= "attack1, attack4, attack6"
+TrackingNode			= ""//Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "base"
+Stand				= "idle"
+StandLeanL			= "idle"
+StandLeanR			= "idle"
+
+BotAction0			= "EM"
+BotAction1			= "attack1"
+BotAction2			= "attack2"
+BotAction3			= "attack3"
+BotAction4			= "attack4"
+BotAction5			= "attack5"
+BotAction6			= "attack6"
+
+
+[AniSet35]// 아서A 소셜 버전
+MovementHintNode		= "Bip01"
+MovementHintAni			= ""
+TrackingNode			= ""
+TrackingAngleOffset		= 0
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "base"
+Stand				= "idle"
+StandLeanL			= "idle"
+StandLeanR			= "idle"
+
+BotAction0			= "Attack0"
+BotAction1			= "cine_charge"
+BotAction2			= "cine_down"
+BotAction3			= "cine_fallowme"
+BotAction4			= "cine_surprised"
+BotAction5			= "Attack3"
+
+[AniSet36] //꿍용 모드레드
+MovementHintNode		= "Bip01"
+MovementHintAni			= "Attack4_Run,Attack4_Run_2"
+TrackingNode			= "Bip01 Neck"
+TrackingAngleOffset		= 0
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "base"
+Stand				= "Nova"
+StandLeanL			= "Nova"
+StandLeanR			= "Nova"
+
+BotAction0			= "attack0" // 원호요청
+BotAction1			= "attack1" // 물기
+BotAction2			= "attack2" // 밟기
+BotAction3			= "Nova" // 꼬리치기(우)
+BotAction4			= "attack3_L" // 꼬리치기(좌)
+BotAction5			= "Attack4_Run" // 돌진
+BotAction6			= "attack5" // 눈빛 공격
+BotAction7			= "attack6"  // 버프
+BotAction8			= "attack7" //스톰프
+BotAction9			= "Attack4_Run_2" //돌진2
+BotAction10			= "cine_sneer"
+BotAction11			= "cine_angry"
+BotAction12			= "cine_seek"
+BotAction13			= "base"
+
+[AniSet37]  // 넥슨털어라 어지간한 공용
+TrackingNode			= "Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+Base				= "base"
+Stand				= "LST"
+StandLeanL			= "UMAm"
+StandLeanR			= "UMAm"
+
+[AniSet38]  // 탱크
+TrackingNode			= ""
+TrackingAngleOffset		= 30
+HeadNode			= "Head"
+NeckNode			= "Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+Base				= "base"
+Stand				= "LST"
+StandLeanL			= "LST"
+StandLeanR			= "LST"
+
+
+[AniSet39]  // 사장
+TrackingNode			= ""
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+Base				= "base"
+Stand				= "LST"
+StandLeanL			= "LST"
+StandLeanR			= "LST"
+
+[AniSet40]  // 넥슨의 문장
+
+TrackingNode			= ""
+TrackingAngleOffset		= 30
+JumpCheckHeight			= 20	//점프 판단 높이
+HeadNode			= "Bone001"
+NeckNode			= "Bone001"
+Base				= "base"
+Stand				= "LST"
+StandLeanL			= "LST"
+StandLeanR			= "LST"
+
+[AniSet41] // 놈놈놈용 센트리건
+TrackingNode			= ""
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+Base				= "base"
+Stand				= "base"
+//StandLeanL			= "UMAm"
+//StandLeanR			= "UMAm"
+
+
+
+[AniSet42] // 놈놈놈 철가방
+TrackingNode                                   = ""
+HeadNode                                       = "Dummy001"
+NeckNode                                       = "Dummy001"
+Base                                               = "base"
+Stand                                             = "base"
+StandLeanL                                      = "base"
+StandLeanR                                     = "base"
+
+[AniSet43] //무한사냥 일반
+TrackingNode                                   = ""
+HeadNode                                       = "head"
+NeckNode                                       = "head"
+Base                                               = "Move"
+Stand                                             = "Move"
+StandLeanL                                      = "Move"
+StandLeanR                                     = "Move"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+
+
+[AniSet44] //무한사냥 오리 프로토 - 점프
+TrackingNode                                   = ""
+HeadNode                                       = "head"
+NeckNode                                       = "head"
+Base                                               = "Idle"
+Stand                                             = "Idle"
+StandLeanL                                      = "Em1"
+StandLeanR                                     = "Em1"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+[AniSet45] //무한사냥 두더지 일반
+TrackingNode                                   = ""
+HeadNode                                       = "head"
+NeckNode                                       = "head"
+Base                                               = "Em2"
+Stand                                             = "Em2"
+StandLeanL                                      = "Em2"
+StandLeanR                                     = "Em2"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+[AniSet46] //무한사냥 코뿔소&좀비
+TrackingNode                                   = ""
+HeadNode                                       = "head"
+NeckNode                                       = "head"
+Base                                               = "Move"
+Stand                                             = "Idle"
+StandLeanL                                      = "Move"
+StandLeanR                                     = "Move"
+JumpCheckHeight			= 20//점프 판단 높이
+
+[AniSet47] //무한사냥 휴먼 / 폭탄
+MovementHintNode		= ""
+MovementHintAni			= ""
+TrackingNode                                   = ""
+HeadNode                                       = ""
+NeckNode                                       = ""
+Base                                               = "Idle"
+Stand                                             = "Idle"
+StandLeanL                                      = "Idle"
+StandLeanR                                     = "Idle"
+JumpCheckHeight			= 20	//점프 판단 높이
+BotAction0			= "Idle" // Idle
+BotAction1			= "Em11_Fast" 
+BotAction2			= "Em12_Fast" 
+BotAction3			= "Em3" 
+BotAction4			= "Em4" 
+BotAction5			= "Em5" 
+BotAction6			= "Em6" 
+BotAction7			= "Em7" 
+BotAction8			= "Em8" 
+BotAction9			= "Em9" 
+BotAction10			= "Em10" 
+BotAction11			= "Em11" 
+BotAction12			= "Em12"
+BotAction13			= "Em11_Help" // 이동헬프
+BotAction14			= "Em12_Help" // 이동헬프
+
+[AniSet48] //무한사냥 공중타겟
+TrackingNode                                   = ""
+HeadNode                                       = "head"
+NeckNode                                       = "head"
+Base                                               = "Move"
+Stand                                             = "Move"
+StandLeanL                                      = "Move"
+StandLeanR                                     = "Move"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+[AniSet49]  //진짜를 찾아라 공용
+TrackingNode			= "Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+Base				= "base"
+Stand				= "LST"
+StandLeanL			= "UMAm"
+StandLeanR			= "UMAm"
+BotAction0			= "social_idle1"
+BotAction1			= "social_idle2"
+BotAction2			= "social_idle3"
+
+[AniSet50] //파이널존 드론
+TrackingNode                                   = ""
+HeadNode                                       = "Bone_Drone"
+NeckNode                                       = "Bone_Drone"
+Base                                               = "Idle"
+Stand                                             = "Move"
+StandLeanL                                      = "Move"
+StandLeanR                                     = "Move"
+
+[AniSet51] //파이널존 드론박스
+TrackingNode                                   = ""
+HeadNode                                       = "Drone_Box"
+NeckNode                                       = "Drone_Box"
+Base                                               = "Box"
+Stand                                             = "Box"
+StandLeanL                                      = "Box"
+StandLeanR                                     = "Box"
+
+[AniSet52] //자동차 테스트용
+TrackingNode                                   = ""
+HeadNode                                       = "Bone001"
+NeckNode                                       = "Bone001"
+Base                                               = "go"
+Stand                                             = "go"
+StandLeanL                                      = "go"
+StandLeanR                                     = "go"
+//JumpCheckHeight			= 20	//점프 판단 높이
+
+[AniSet53]  // EXIT 골 트리거
+
+TrackingNode			= ""
+HeadNode			= ""
+NeckNode			= ""
+Base				= "Goal_Stand"
+Stand				= ""
+StandLeanL			= ""
+StandLeanR			= ""
+
+[AniSet54] //상점 NPC
+MovementHintNode		= "Bip01"
+MovementHintAni			= "EXIT_NPCIdle"
+TrackingNode			= ""//Bip01 Neck"
+TrackingAngleOffset		= 30
+HeadNode			= "Bip01 Head"
+NeckNode			= "Bip01 Neck"
+JumpCheckHeight			= 20	//점프 판단 높이
+
+Base				= "EXIT_NPCIdle"
+Stand				= "EXIT_NPCIdle"
+StandLeanL			= "EXIT_NPCIdle"
+StandLeanR			= "EXIT_NPCIdle"
+
+
+
+
+[Skeleton0]
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_S"
+Node0GunFX				= "Dino_Blood_S"
+Node0BombFX				= "Dino_Blood_S"
+
+[Skeleton1] //펜타용
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//""RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//""RclBBD"
+DefaultFrontShortRecoilAni		= " "//""RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//""RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_M"
+Node0GunFX				= "Dino_Blood_M"
+Node0BombFX				= "Dino_Blood_M"
+
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 0.2
+Node1MeleeFX				= "Dino_Surface_METAL"
+Node1GunFX				= "Dino_Surface_METAL"
+Node1BombFX				= "Dino_Surface_METAL"
+
+Node2Name				= "Bip01 Ponytail1"
+Node2Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node2DamageFactor			= 0.2
+Node2MeleeFX				= "Dino_Surface_METAL"
+Node2GunFX				= "Dino_Surface_METAL"
+Node2BombFX				= "Dino_Surface_METAL"
+
+[Skeleton2] //티라노용
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//"RclBBD"
+DefaultFrontShortRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//"RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_L"
+Node0GunFX				= "Dino_Blood_L"
+Node0BombFX				= "Dino_Blood_L"
+
+[Skeleton3]
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.1
+
+[Skeleton4]
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+
+[Skeleton5]//방책
+AutoDefault				= true
+DefaultFrontDeathAni			= "start_01"
+DefaultBackDeathAni			= "start_01"
+DefaultFrontLongRecoilAni		= "start_01"
+DefaultBackLongRecoilAni		= "start_01"
+DefaultFrontShortRecoilAni		= "start_01"
+DefaultBackShortRecoilAni		= "start_01"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+
+[Skeleton6] //접시 미끼 1단계
+AutoDefault				= true
+DefaultFrontDeathAni			= "start"
+DefaultBackDeathAni			= "start"
+DefaultFrontLongRecoilAni		= "start"
+DefaultBackLongRecoilAni		= "start"
+DefaultFrontShortRecoilAni		= "start"
+DefaultBackShortRecoilAni		= "start"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+
+[Skeleton7] //접시 미끼 2단계
+AutoDefault				= true
+DefaultFrontDeathAni			= "start"
+DefaultBackDeathAni			= "start"
+DefaultFrontLongRecoilAni		= "start"
+DefaultBackLongRecoilAni		= "start"
+DefaultFrontShortRecoilAni		= "start"
+DefaultBackShortRecoilAni		= "start"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+
+[Skeleton8] //접시 미끼 3단계
+AutoDefault				= true
+DefaultFrontDeathAni			= "start"
+DefaultBackDeathAni			= "start"
+DefaultFrontLongRecoilAni		= "start"
+DefaultBackLongRecoilAni		= "start"
+DefaultFrontShortRecoilAni		= "start"
+DefaultBackShortRecoilAni		= "start"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+
+[Skeleton9] //급식기 미끼4단계
+AutoDefault				= true
+DefaultFrontDeathAni			= "start"
+DefaultBackDeathAni			= "start"
+DefaultFrontLongRecoilAni		= "start"
+DefaultBackLongRecoilAni		= "start"
+DefaultFrontShortRecoilAni		= "start"
+DefaultBackShortRecoilAni		= "start"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+
+[Skeleton10] //급식기 미끼5단계
+AutoDefault				= true
+DefaultFrontDeathAni			= "start"
+DefaultBackDeathAni			= "start"
+DefaultFrontLongRecoilAni		= "start"
+DefaultBackLongRecoilAni		= "start"
+DefaultFrontShortRecoilAni		= "start"
+DefaultBackShortRecoilAni		= "start"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+
+[Skeleton11] //파란 랩터 용 (총알 면역)
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_S"
+Node0GunFX				= "Dino_Surface_METAL"
+Node0BombFX				= "Dino_Blood_M"
+
+[Skeleton12] //빨강 펜타용(빠르고 밀리어택 위주, 총알에 약함)
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//""RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//""RclBBD"
+DefaultFrontShortRecoilAni		= " "//""RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//""RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_M"
+Node0GunFX				= "Dino_Blood_M"
+Node0BombFX				= "Dino_Blood_M"
+
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 0.2
+Node1MeleeFX				= "Dino_Surface_METAL"
+Node1GunFX				= "Dino_Surface_METAL"
+Node1BombFX				= "Dino_Surface_METAL"
+
+Node2Name				= "Bip01 Ponytail1"
+Node2Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node2DamageFactor			= 0.2
+Node2MeleeFX				= "Dino_Surface_METAL"
+Node2GunFX				= "Dino_Surface_METAL"
+Node2BombFX				= "Dino_Surface_METAL"
+
+[Skeleton13] //파랑 펜타용 (느리고 원거리 위주, 칼에 약함)
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//""RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//""RclBBD"
+DefaultFrontShortRecoilAni		= " "//""RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//""RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_M"
+Node0GunFX				= "20_Surface_METAL_4"
+Node0BombFX				= "Dino_Blood_M"
+
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 0.2
+Node1MeleeFX				= "Dino_Surface_METAL"
+Node1GunFX				= "Dino_Surface_METAL"
+Node1BombFX				= "Dino_Surface_METAL"
+
+Node2Name				= "Bip01 Ponytail1"
+Node2Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node2DamageFactor			= 0.2
+Node2MeleeFX				= "Dino_Surface_METAL"
+Node2GunFX				= "Dino_Surface_METAL"
+Node2BombFX				= "Dino_Surface_METAL"
+
+[Skeleton14] // 파랑 티라노용
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//"RclBBD"
+DefaultFrontShortRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//"RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_L"
+Node0GunFX				= "Dino_Surface_METAL"
+Node0BombFX				= "Dino_Blood_L"
+
+[Skeleton15] // 빨강 티라노용
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//"RclBBD"
+DefaultFrontShortRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//"RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Surface_METAL"
+Node0GunFX				= "Dino_Blood_L"
+Node0BombFX				= "Dino_Blood_L"
+
+[Skeleton16] // 주황 펜타용
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//""RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//""RclBBD"
+DefaultFrontShortRecoilAni		= " "//""RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//""RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_M"
+Node0GunFX				= "Dino_Blood_M"
+Node0BombFX				= "Dino_Blood_M"
+
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 0.2
+Node1MeleeFX				= "Dino_Surface_METAL"
+Node1GunFX				= "Dino_Surface_METAL"
+Node1BombFX				= "Dino_Surface_METAL"
+
+Node2Name				= "Bip01 Ponytail1"
+Node2Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node2DamageFactor			= 0.2
+Node2MeleeFX				= "Dino_Surface_METAL"
+Node2GunFX				= "Dino_Surface_METAL"
+Node2BombFX				= "Dino_Surface_METAL"
+
+[Skeleton17] // 보라 펜타용
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//""RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//""RclBBD"
+DefaultFrontShortRecoilAni		= " "//""RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//""RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_M"
+Node0GunFX				= "Dino_Blood_M"
+Node0BombFX				= "Dino_Blood_M"
+
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 0.2
+Node1MeleeFX				= "Dino_Surface_METAL"
+Node1GunFX				= "Dino_Surface_METAL"
+Node1BombFX				= "Dino_Surface_METAL"
+
+Node2Name				= "Bip01 Ponytail1"
+Node2Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node2DamageFactor			= 0.2
+Node2MeleeFX				= "Dino_Surface_METAL"
+Node2GunFX				= "Dino_Surface_METAL"
+Node2BombFX				= "Dino_Surface_METAL"
+
+[Skeleton18] // 갈색 펜타용
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//""RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//""RclBBD"
+DefaultFrontShortRecoilAni		= " "//""RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//""RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_M"
+Node0GunFX				= "Dino_Blood_M"
+Node0BombFX				= "Dino_Blood_M"
+
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 0.2
+Node1MeleeFX				= "Dino_Surface_METAL"
+Node1GunFX				= "Dino_Surface_METAL"
+Node1BombFX				= "Dino_Surface_METAL"
+
+Node2Name				= "Bip01 Ponytail1"
+Node2Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node2DamageFactor			= 0.2
+Node2MeleeFX				= "Dino_Surface_METAL"
+Node2GunFX				= "Dino_Surface_METAL"
+Node2BombFX				= "Dino_Surface_METAL"
+
+[Skeleton19] // 블루 티라노용
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//"RclBBD"
+DefaultFrontShortRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//"RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_L"
+Node0GunFX				= "Dino_Surface_METAL"
+Node0BombFX				= "Dino_Blood_L"
+
+[Skeleton20] // 브라운 티라노용
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//"RclBBD"
+DefaultFrontShortRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//"RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Surface_METAL"
+Node0GunFX				= "Dino_Surface_METAL"
+Node0BombFX				= "Dino_Blood_L"
+
+
+[Skeleton21] // 보라 티라노용
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//"RclBBD"
+DefaultFrontShortRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//"RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Surface_METAL"
+Node0GunFX				= "Dino_Surface_METAL"
+Node0BombFX				= "Dino_Blood_L"
+
+
+
+[Skeleton22] //특수 랩터 용 (All 면역)
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Surface_METAL"
+Node0GunFX				= "Dino_Surface_METAL"
+Node0BombFX				= "Dino_Surface_METAL"
+
+
+[Skeleton23] //특수 랩터 용 (칼/폭 면역, 총만 대미지)
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Surface_METAL"
+Node0GunFX				= "Dino_Blood_S"
+Node0BombFX				= "Dino_Surface_METAL"
+
+
+[Skeleton24] //특수 랩터 용 (총/폭 면역, 칼만 대미지)
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_S"
+Node0GunFX				= "Dino_Surface_METAL"
+Node0BombFX				= "Dino_Surface_METAL"
+
+[Skeleton25] //특수 랩터 용 (폭 면역, 총/칼만 대미지)
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_S"
+Node0GunFX				= "Dino_Blood_S"
+Node0BombFX				= "Dino_Surface_METAL"
+
+[Skeleton26] //특수 랩터 용 (총/폭 면역, 칼 가중 대미지)
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_M"
+Node0GunFX				= "Dino_Surface_METAL"
+Node0BombFX				= "Dino_Surface_METAL"
+
+[Skeleton27] //특수 랩터 용 (칼/폭 면역, 총 가중 대미지)
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Surface_METAL"
+Node0GunFX				= "Dino_Blood_M"
+Node0BombFX				= "Dino_Surface_METAL"
+
+[Skeleton28] //특수 랩터 용 (폭만 면역  총/칼 가중 대미지)
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_M"
+Node0GunFX				= "Dino_Blood_M"
+Node0BombFX				= "Dino_Surface_METAL"
+
+[Skeleton29] //흰색 트리용 (총/폭 면역, 칼 기본 대미지)
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//""RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//""RclBBD"
+DefaultFrontShortRecoilAni		= " "//""RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//""RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_M"
+Node0GunFX				= "Dino_Surface_METAL"
+Node0BombFX				= "Dino_Surface_METAL"
+
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 0.2
+Node1MeleeFX				= "Dino_Surface_METAL"
+
+Node2Name				= "Bip01 Ponytail1"
+Node2Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node2DamageFactor			= 0.2
+Node2MeleeFX				= "Dino_Surface_METAL"
+
+[Skeleton30] // 근접만 대미지 티라노
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//"RclBBD"
+DefaultFrontShortRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//"RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_L"
+Node0GunFX				= "Dino_Surface_METAL"
+Node0BombFX				= "Dino_Surface_METAL"
+
+
+[Skeleton31] // 무적 티라노
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//"RclBBD"
+DefaultFrontShortRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//"RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Surface_METAL"
+Node0GunFX				= "Dino_Surface_METAL"
+Node0BombFX				= "Dino_Surface_METAL"
+
+
+[Skeleton32]  //현아 테스트
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_S"
+Node0GunFX				= "Dino_Blood_S"
+Node0BombFX				= "Dino_Blood_S"
+
+
+[Skeleton33] //스티기몰로크
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//"RclBBD"
+DefaultFrontShortRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//"RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_s"
+Node0GunFX				= "Dino_Blood_s"
+Node0BombFX				= "Dino_Blood_s"
+
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 2.0
+Node1MeleeFX				= "Dino_Blood_M"
+Node1GunFX				= "Dino_Blood_M"
+Node1BombFX				= "Dino_Blood_M"
+
+
+
+[Skeleton34] //딜로포 사우루스
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_S"
+Node0GunFX				= "Dino_Blood_S"
+Node0BombFX				= "Dino_Blood_S"
+
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 2.0
+Node1MeleeFX				= "Dino_Blood_S"
+Node1GunFX				= "Dino_Blood_S"
+Node1BombFX				= "Dino_Blood_S"
+
+[Skeleton35] //각룡왕 아서
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//""RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//""RclBBD"
+DefaultFrontShortRecoilAni		= " "//""RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//""RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_M"
+Node0GunFX				= "Dino_Blood_M"
+Node0BombFX				= "Dino_Blood_M"
+
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 0.2
+Node1MeleeFX				= "Dino_Surface_METAL"
+Node1GunFX				= "Dino_Surface_METAL"
+Node1BombFX				= "Dino_Surface_METAL"
+
+Node2Name				= "Bip01 Ponytail1"
+Node2Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node2DamageFactor			= 0.2
+Node2MeleeFX				= "Dino_Surface_METAL"
+Node2GunFX				= "Dino_Surface_METAL"
+Node2BombFX				= "Dino_Surface_METAL"
+
+[Skeleton36] //모드레드
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//"RclBBD"
+DefaultFrontShortRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//"RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Surface_METAL"
+Node0GunFX				= "Dino_Surface_METAL"
+Node0BombFX				= "Dino_Surface_METAL"
+
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 1.5
+Node1MeleeFX				= "Dino_Surface_METAL"
+Node1GunFX				= "Dino_Surface_METAL"
+Node1BombFX				= "Dino_Surface_METAL"
+
+[Skeleton37] //무적 딜로포
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 0.0
+Node0MeleeFX				= "Dino_Surface_METAL"
+Node0GunFX				= "Dino_Surface_METAL"
+Node0BombFX				= "Dino_Surface_METAL"
+
+[Skeleton38]  //영상용 캐릭터
+AutoDefault				= true
+DefaultFrontDeathAni			= "cine_down"//"D_ARMBa"
+DefaultBackDeathAni			= "cine_down"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "cine_cry"//RclFBD"
+DefaultBackLongRecoilAni		= "cine_cry"
+DefaultFrontShortRecoilAni		= "cine_cry"//"RclFBD"
+DefaultBackShortRecoilAni		= "cine_cry"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_S"
+Node0GunFX				= "Dino_Blood_S"
+Node0BombFX				= "Dino_Blood_S"
+
+
+[Skeleton39]//프랍_죽을때 상태 변화
+AutoDefault				= true
+DefaultFrontDeathAni			= "after"
+DefaultBackDeathAni			= "after"
+DefaultFrontLongRecoilAni		= ""
+DefaultBackLongRecoilAni		= ""
+DefaultFrontShortRecoilAni		= ""
+DefaultBackShortRecoilAni		= ""
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+
+[Skeleton40]//프랍_죽지 않음
+AutoDefault				= true
+DefaultFrontDeathAni			= "base"
+DefaultBackDeathAni			= "base"
+DefaultFrontLongRecoilAni		= ""
+DefaultBackLongRecoilAni		= ""
+DefaultFrontShortRecoilAni		= ""
+DefaultBackShortRecoilAni		= ""
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+
+
+[Skeleton41]  //쓰러진 세경 
+AutoDefault				= true
+DefaultFrontDeathAni			= "cine_down_wait"//"D_ARMBa"
+DefaultBackDeathAni			= "cine_down_wait"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= ""//"RclFBD"
+DefaultBackLongRecoilAni		= ""
+DefaultFrontShortRecoilAni		= ""//"RclFBD"
+DefaultBackShortRecoilAni		= ""
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_S"
+Node0GunFX				= "Dino_Blood_S"
+Node0BombFX				= "Dino_Blood_S"
+
+
+[Skeleton42] //약초용
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//"RclBBD"
+DefaultFrontShortRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//"RclBBD"
+Node0Name				= "bone001"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_s"
+
+
+[Skeleton43] //박스용
+AutoDefault				= true
+DefaultFrontDeathAni			= ""//"D_ARMBa"
+DefaultBackDeathAni			= ""//"D_ARMFr"
+DefaultFrontLongRecoilAni		= ""//"RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= ""//"RclBBD"
+DefaultFrontShortRecoilAni		= ""//"RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= ""//"RclBBD"
+Node0Name				= "bone001"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_s"
+
+[Skeleton44] //랩터 헤드샷 조절
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_S"
+Node0GunFX				= "Dino_Blood_S"
+Node0BombFX				= "Dino_Blood_S"
+
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 2.0
+Node1MeleeFX				= "Dino_Blood_S"
+Node1GunFX				= "Dino_Blood_S"
+Node1BombFX				= "Dino_Blood_S"
+
+[Skeleton45] //티라노 헤드샷 조절
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= " "//"RclBBD"
+DefaultFrontShortRecoilAni		= " "//"RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= " "//"RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_M"
+Node0GunFX				= "Dino_Blood_M"
+Node0BombFX				= "Dino_Blood_M"
+
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 2.0
+Node1MeleeFX				= "Dino_Blood_L"
+Node1GunFX				= "Dino_Blood_L"
+Node1BombFX				= "Dino_Blood_L"
+
+
+[Skeleton46] //무적 딜로포 사우루스
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"//"D_ARMBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Surface_METAL"
+Node0GunFX				= "Dino_Surface_METAL"
+Node0BombFX				= "Dino_Surface_METAL"
+
+
+[Skeleton47] //좀비 헤드샷 조절
+AutoDefault				= true
+DefaultFrontDeathAni			= "Death0"//"D_ARMBa"
+DefaultBackDeathAni			= "Death0"//"D_ARMFr"
+DefaultFrontLongRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Blood_S"
+Node0GunFX				= "Dino_Blood_S"
+Node0BombFX				= "Dino_Blood_S"
+
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 2.0
+Node1MeleeFX				= "Dino_Blood_S"
+Node1GunFX				= "Dino_Blood_S"
+Node1BombFX				= "Dino_Blood_S"
+
+[Skeleton48] // 경비병, 민간인
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_CHESTBa"
+DefaultBackDeathAni			= "D_CHESTFr"
+DefaultFrontLongRecoilAni		= "RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "SA_Blood_Normal"
+Node0GunFX				= "SA_Blood_Normal"
+Node0BombFX				= "SA_Blood_Normal"
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 2.0
+Node1MeleeFX				= "SA_Blood_HeadShot"
+Node1GunFX				= "SA_Blood_HeadShot"
+Node1BombFX				= "SA_Blood_HeadShot"
+
+
+
+
+[Skeleton49]  // 방패병 전용 
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_CHESTBa"
+DefaultBackDeathAni			= "D_CHESTFr"
+DefaultFrontLongRecoilAni		= "RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "SA_Blood_Normal"
+Node0GunFX				= "SA_Blood_Normal"
+Node0BombFX				= "SA_Blood_Normal"
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 2.0
+Node1MeleeFX				= "SA_Blood_HeadShot"
+Node1GunFX				= "SA_Blood_HeadShot"
+Node1BombFX				= "SA_Blood_HeadShot"
+Node2Name				= "Bip01 L Hand"
+Node2Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node2DamageFactor			= 0.2
+Node2MeleeFX				= "Nexon_shield_spark"
+Node2GunFX				= "Nexon_shield_spark"
+Node2BombFX				= "Nexon_shield_spark"
+
+[Skeleton50] // 보스전용 헤드샷없음 김대장 애니메이션 개수가 부족..
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_CHESTFr"
+DefaultBackDeathAni			= "D_CHESTFr"
+DefaultFrontLongRecoilAni		= "RclBBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "SA_Blood_Normal"
+Node0GunFX				= "SA_Blood_Normal"
+Node0BombFX				= "SA_Blood_Normal"
+
+[Skeleton51]  // 탱크실장 전용 
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"
+DefaultFrontLongRecoilAni		= "RclBBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "SA_Blood_Normal"
+Node0GunFX				= "SA_Blood_Normal"
+Node0BombFX				= "SA_Blood_Normal"
+Node1Name				= "All"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 0.05
+Node1MeleeFX				= "Nexon_shield_spark"
+Node1GunFX				= "Nexon_shield_spark"
+Node1BombFX				= "Nexon_shield_spark"
+
+[Skeleton52]  // 사장 전용
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_HEADSHOTBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa"
+DefaultFrontLongRecoilAni		= "RclBBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "SA_Blood_Normal"
+Node0GunFX				= "SA_Blood_Normal"
+Node0BombFX				= "SA_Blood_Normal"
+
+[Skeleton53] // 넥슨의 문장 전용 
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_CHESTFr"
+DefaultBackDeathAni			= "D_CHESTFr"
+DefaultFrontLongRecoilAni		= "RclFBD"
+DefaultBackLongRecoilAni		= "RclFBD"
+DefaultFrontShortRecoilAni		= "RclFBD"
+DefaultBackShortRecoilAni		= "RclFBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Nexon_shield_spark"
+Node0GunFX				= "Nexon_shield_spark"
+Node0BombFX				= "Nexon_shield_spark"
+
+[Skeleton54] // 민간인여자 전용
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_CHESTBa"
+DefaultBackDeathAni			= "D_HEADSHOTBa_A"
+DefaultFrontLongRecoilAni		= "RclFBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclFBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "SA_Blood_Normal"
+Node0GunFX				= "SA_Blood_Normal"
+Node0BombFX				= "SA_Blood_Normal"
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 2.0
+Node1MeleeFX				= "SA_Blood_HeadShot"
+Node1GunFX				= "SA_Blood_HeadShot"
+Node1BombFX				= "SA_Blood_HeadShot"
+
+[Skeleton55] // 놈놈놈 배달통
+AutoDefault                                                  = true
+DefaultFrontDeathAni                                     = "D_HEADSHOTBa"
+DefaultBackDeathAni                                      = "D_HEADSHOTBa"
+DefaultFrontLongRecoilAni                 = ""
+DefaultBackLongRecoilAni                  = ""
+DefaultFrontShortRecoilAni                 = ""
+DefaultBackShortRecoilAni                 = ""
+Node0Name                                                 = "Default"
+Node0Location                                              = 2         //1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor                                      = 1.0
+Node0MeleeFX                                              = "Nexon_shield_spark"
+Node0GunFX                                                 = "Nexon_shield_spark"
+Node0BombFX                                              = "Nexon_shield_spark"
+
+
+[Skeleton56] // 무한사냥 오리 프로토
+AutoDefault                                                  = true
+DefaultFrontDeathAni                                     = "Death"
+DefaultBackDeathAni                                      = "Death"
+DefaultFrontLongRecoilAni                 = "Recoil"
+DefaultBackLongRecoilAni                  = "Recoil"
+DefaultFrontShortRecoilAni                 = "Recoil"
+DefaultBackShortRecoilAni                 = "Recoil"
+Node0Name                                 = "Default"
+Node0Location                             = 2         //1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor                         = 1.0
+
+
+[Skeleton57] // 무한사냥 코뿔소
+AutoDefault                                                  = true
+DefaultFrontDeathAni                                     = "Death"
+DefaultBackDeathAni                                      = "Death"
+DefaultFrontLongRecoilAni                 = "Recoil"
+DefaultBackLongRecoilAni                  = "Recoil"
+DefaultFrontShortRecoilAni                 = "Recoil"
+DefaultBackShortRecoilAni                 = "Recoil"
+
+
+
+
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 0.5
+Node1Name				= "Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 1.0
+
+[Skeleton58] // 무한사냥 좀비
+AutoDefault                                                  = true
+DefaultFrontDeathAni                                     = "Death"
+DefaultBackDeathAni                                      = "Death"
+DefaultFrontLongRecoilAni                 = "Recoil"
+DefaultBackLongRecoilAni                  = "Recoil"
+DefaultFrontShortRecoilAni                 = "Recoil"
+DefaultBackShortRecoilAni                 = "Recoil"
+
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+
+Node1Name				= "Head_D"
+Node1Location				= 1	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 1.5
+
+Node2Name				= "Dummy002"
+Node2Location				= 1	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node2DamageFactor			= 2.0
+
+Node3Name				= "Dummy003"
+Node3Location				= 1	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node3DamageFactor			= 3.0
+
+
+[Skeleton59] // 무한사냥 공중타겟 
+AutoDefault                                                  = true
+DefaultFrontDeathAni                                     = "Death"
+DefaultBackDeathAni                                      = "Death"
+DefaultFrontLongRecoilAni                 = "Recoil"
+DefaultBackLongRecoilAni                  = "Recoil"
+DefaultFrontShortRecoilAni                 = "Recoil"
+DefaultBackShortRecoilAni                 = "Recoil"
+Node0Name                                 = "Default"
+Node0Location                             = 2         //1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor                         = 1.0
+
+[Skeleton60] // 무한사냥 폭탄 FX 위치에 따라 설정
+AutoDefault                                                  = true
+DefaultFrontDeathAni                                     = "Death"
+DefaultBackDeathAni                                      = "Death"
+DefaultFrontLongRecoilAni                 = "Recoil"
+DefaultBackLongRecoilAni                  = "Recoil"
+DefaultFrontShortRecoilAni                 = "Recoil"
+DefaultBackShortRecoilAni                 = "Recoil"
+Node0Name                                 = "Default"
+Node0Location                             = 2         //1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor                         = 1.0
+Node0MeleeFX				= "Hunt_Bomb"   //무한사냥에서는 틴설정, 랜덤출력등이 안되고, 해당 파일만 출력되도록 설정됨. (다른 모드에서는 안먹힐 수 있음..)
+Node0GunFX				= "Hunt_Bomb"
+Node0BombFX				= "Hunt_Bomb"
+
+[Skeleton61] // 무한사냥 폭탄
+AutoDefault                                                  = true
+DefaultFrontDeathAni                                     = "Death"
+DefaultBackDeathAni                                      = "Death"
+DefaultFrontLongRecoilAni                 = "Recoil"
+DefaultBackLongRecoilAni                  = "Recoil"
+DefaultFrontShortRecoilAni                 = "Recoil"
+DefaultBackShortRecoilAni                 = "Recoil"
+Node0Name                                 = "Default"
+Node0Location                             = 2         //1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor                         = 1.0
+Node0MeleeFX				= "Hunt_Bomb_L90"   //무한사냥에서는 틴설정, 랜덤출력등이 안되고, 해당 파일만 출력되도록 설정됨. (다른 모드에서는 안먹힐 수 있음..)
+Node0GunFX				= "Hunt_Bomb_L90"
+Node0BombFX				= "Hunt_Bomb_L90"
+
+[Skeleton62] // 무한사냥 사람(헬프)
+AutoDefault                                                  = true
+DefaultFrontDeathAni                                     = "Death_boom"
+DefaultBackDeathAni                                      = "Death_boom"
+DefaultFrontLongRecoilAni                 = "Recoil"
+DefaultBackLongRecoilAni                  = "Recoil"
+DefaultFrontShortRecoilAni                 = "Recoil"
+DefaultBackShortRecoilAni                 = "Recoil"
+Node0Name                                 = "Default"
+Node0Location                             = 2         //1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor                         = 1.0
+
+
+[Skeleton63]  // 차이나타운 드론 
+AutoDefault				= true
+DefaultFrontDeathAni			= "Boom"
+DefaultBackDeathAni			= "Boom"
+DefaultFrontLongRecoilAni		= "RclBBD"
+DefaultBackLongRecoilAni		= "RclBBD"
+DefaultFrontShortRecoilAni		= "RclBBD"
+DefaultBackShortRecoilAni		= "RclBBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Dino_Surface_METAL"
+Node0GunFX				= "Dino_Surface_METAL"
+Node0BombFX				= "Dino_Surface_METAL"
+
+
+[Skeleton64]  // 차이나타운 드론  Box
+AutoDefault				= true
+DefaultFrontDeathAni			= ""
+DefaultBackDeathAni			= ""
+DefaultFrontLongRecoilAni		= ""
+DefaultBackLongRecoilAni		= ""
+DefaultFrontShortRecoilAni		= ""
+DefaultBackShortRecoilAni		= ""
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 0.0
+
+
+//-------------------------------------------------------------
+// Zombie Model
+//-------------------------------------------------------------
+[Skeleton65]
+
+
+[Skeleton66]  // 로그라이크ai1
+Node0Name				= "Default"
+Node0FrontDeathAni			= "Death1"
+Node0BackDeathAni			= "Death2"
+Node0FrontShortRecoilAni		= "RclFBD"
+Node0BackShortRecoilAni			= "RclBBD"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Default"
+Node0GunFX				= "Default"
+Node0BombFX				= "Default"
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 2.0
+
+
+[Skeleton67]  // 로그라이크ai2
+Node0Name				= "Default"
+Node0FrontDeathAni			= "Death1"
+Node0BackDeathAni			= "Death2"
+Node0FrontShortRecoilAni		= ""
+Node0BackShortRecoilAni			= ""
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 1.0
+Node0MeleeFX				= "Default"
+Node0GunFX				= "Default"
+Node0BombFX				= "Default"
+Node1Name				= "Bip01 Head"
+Node1Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node1DamageFactor			= 2.0
+
+
+[Skeleton68] //골 트리거
+AutoDefault				= true
+DefaultFrontDeathAni			= "D_CHESTFr"
+DefaultBackDeathAni			= "D_CHESTFr"
+DefaultFrontLongRecoilAni		= "RclFBD"//"RclFBD"
+DefaultBackLongRecoilAni		= "RclFBD"
+DefaultFrontShortRecoilAni		= "RclFBD"//"RclFBD"
+DefaultBackShortRecoilAni		= "RclFBD"
+Node0Name				= "Default"
+Node0Location				= 2	//1:HL_HEAD, 2:HL_TORSO (, 3:HL_ARM, 4:HL_LEG)
+Node0DamageFactor			= 0.0
+Node0MeleeFX				= "Dino_Surface_METAL"
+Node0GunFX				= "Dino_Surface_METAL"
+Node0BombFX				= "Dino_Surface_METAL"

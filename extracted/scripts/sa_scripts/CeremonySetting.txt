@@ -1,0 +1,42 @@
+[BaseInfo]
+CameraPreset=0
+
+/*
+
+***   worklist   ***
+*   stop = 0
+*   forward = 1
+*   Backward = 2
+
+*/
+
+
+[Camerawork0]
+work=0
+speed=0.0
+time=0.8
+[Camerawork1]
+work=1
+speed=1.5
+time=1.0
+[Camerawork2]
+work=2
+speed=0.2
+time=2.0
+[Camerawork3]
+work=2
+speed=0.6
+time=0.0
+[Camerawork4]
+work=2
+speed=0.1
+time=5.0
+
+
+[CameraPreset0]
+camera="camera0"
+work0=0
+work1=1
+work2=2
+work3=3
+work4=4

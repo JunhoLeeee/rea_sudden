@@ -1,0 +1,324 @@
+/************************************************************************
+**
+** DamageTypes
+**
+**	These records define the attributes of the various damage types in the game
+**
+**	JarCamera (integer)
+**		
+**		Does this damage type cause the camera to be "jarred"
+**		(0 = false, 1 = true)
+**
+**	Gadget (integer)
+**		
+**		Is this type a gadget damage type?
+**		(0 = false, 1 = true)
+**
+**	Accuracy (integer)
+**		
+**		Does this damage type count towards player accuracy?
+**		(0 = false, 1 = true)
+**
+**	SlowMovement (float)
+**		
+**		How long (in seconds) does this type of damage slow the player?
+**		This is unrelated to the ForceWalk value
+**		(0.0 for no slow down)
+**
+*/
+
+[Unspecified]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 0
+SlowMovement		= 0.0
+
+[Bleeding]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 1
+SlowMovement	= 0.0
+
+[Bullet]
+JarCamera		= 1
+Gadget			= 0
+Accuracy		= 1
+SlowMovement	= 0.25
+
+[Burn]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 1
+SlowMovement	= 0.0
+
+[Choke]
+JarCamera		= 1
+Gadget			= 0
+Accuracy		= 0
+SlowMovement	= 0.0
+
+[Crush]
+JarCamera		= 1
+Gadget			= 0
+Accuracy		= 0
+SlowMovement	= 1.0
+
+[Electrocute]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 1
+SlowMovement	= 1.0
+
+[Explode]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 0
+SlowMovement	= 2.0
+
+[Freeze]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 0
+SlowMovement	= 3.0
+
+[Poison]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 1
+SlowMovement	= 1.0
+
+[EndlessFall]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[Sleeping]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[Stun]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 2.0
+
+[Melee]
+JarCamera		= 1
+Gadget			= 0
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement		= 0.25
+
+[CameraDisabler]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[Glue]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[BearTrap]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[Laughing]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[AntiSuperSoldierSerum]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 1
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[CodeDecipherer]
+JarCamera		= 0
+Gadget			= 1
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[Poodle]
+JarCamera		= 0
+Gadget			= 1
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[LockPick]
+JarCamera		= 0
+Gadget			= 1
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[Welder]
+JarCamera		= 0
+Gadget			= 1
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[Lighter]
+JarCamera		= 0
+Gadget			= 1
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[Camera]
+JarCamera		= 0
+Gadget			= 1
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[MineDetector]
+JarCamera		= 0
+Gadget			= 1
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[InfraRed]
+JarCamera		= 0
+Gadget			= 1
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[DecayPowder]
+JarCamera		= 0
+Gadget			= 1
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[TimeBomb]
+JarCamera		= 0
+Gadget			= 1
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[Slippery]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 0.0
+
+[HammerMelee]
+JarCamera		= 1
+Gadget			= 0
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement		= 0.25
+
+[HammerMelee2]
+JarCamera		= 1
+Gadget			= 0
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement		= 0.25
+
+[MassiveAttack]
+JarCamera		= 1
+Gadget			= 0
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement	= 2.0
+
+[HeartBeat]
+JarCamera		= 0
+Gadget			= 1
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement		= 0.0
+
+[FistMelee]
+JarCamera		= 1
+Gadget			= 0
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement		= 0.25
+
+[MagazineMelee]
+JarCamera		= 1
+Gadget			= 0
+Accuracy		= 0
+ForceWalk		= 0
+SlowMovement		= 0.25
+
+[Tornado]
+JarCamera		= 1
+Gadget			= 0
+Accuracy		= 1
+SlowMovement	= 0.25
+
+[Lightning]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 1
+SlowMovement	= 1.0
+
+[Meteor]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 0
+SlowMovement	= 2.0
+
+[ToxicGas]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 1
+SlowMovement	= 0.66
+
+[Blizzard]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 0
+SlowMovement	= 0.66
+
+[Flood]
+JarCamera		= 1
+Gadget			= 0
+Accuracy		= 0
+SlowMovement	= 0.0
+
+[SandStorm]
+JarCamera		= 0
+Gadget			= 0
+Accuracy		= 0
+SlowMovement	= 0.0
+
+[DotGas]
+JarCamera		= 1
+Gadget			= 0
+Accuracy		= 1
+SlowMovement	= 0.50
+
+[Reference]
+JarCamera		= 1
+Gadget			= 0
+Accuracy		= 1
+SlowMovement	= 0.5

@@ -1,0 +1,15 @@
+[Common]
+WeaponRespawnTime = 10
+BonusTargetIndex = 140					//보너스 타겟의 인덱스(HuntingAIBase의 인덱스)
+ContinueKillExceptTime = 0.5				//타겟을 명중 시키고 연속킬이 초기화 안되는 시간.
+PVSoundWeight = 1.0					//1인칭 사운드에 적용될 가중치. 현재는 1인칭 총기 발사 사운드에 적용되어 있음.
+HHSoundWeight = 0.5					//3인칭 사운드에 적용될 가중치. 현재는 3인칭 총기 발사 사운드에 적용되어 있음.
+
+// ------------------- 맵에 열린 툴백(구급상자,탄약통 등) 놓기 -----------------
+[MapOpenedToolBag0]
+PointObjectName	= "Point10"
+WeaponID		= 1856
+
+[MapOpenedToolBag1]
+PointObjectName	= "Point11"
+WeaponID		= 1856

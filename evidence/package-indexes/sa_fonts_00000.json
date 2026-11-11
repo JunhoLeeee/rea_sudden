@@ -1,0 +1,121 @@
+{
+  "header": {
+    "path": "C:\\Nexon\\SuddenAttack\\game\\sa_fonts_00000.pkg",
+    "bytes": 2526208,
+    "version": 3,
+    "mask_bytes": 34,
+    "masked_string_units": 13,
+    "encrypted_header_offset": 65,
+    "index_padding_bytes": 61,
+    "observed_header_sha256": "9b5ee1878d6fc67b8b2d9f30b3fb92fc34cc03b8355808acfb68cff239f8ad17",
+    "identity_scope": "header-ranges-only",
+    "byteorder": "little",
+    "count": 7,
+    "checksum": 524533
+  },
+  "index_offset": 134,
+  "index_plaintext_bytes": 628,
+  "index_read_bytes": 628,
+  "index_raw_sha256": "643d71cee22b96c53b329d457e84dae4e8ed41aac134639d4caa01ae5e0c60c9",
+  "payload_base": 1024,
+  "members": [
+    {
+      "index": 0,
+      "path": "sa_fonts/2002l.ttf",
+      "flags": 7,
+      "field8": 0,
+      "field12": 1968992,
+      "field16": 582476,
+      "field20": 0,
+      "checksum": 2553658,
+      "block_hashes": [],
+      "digest_hex": "c234fa192a835b9dbe38f6809441c1d7",
+      "extra_hex": ""
+    },
+    {
+      "index": 1,
+      "path": "sa_fonts/boramm.ttf",
+      "flags": 7,
+      "field8": 569,
+      "field12": 874364,
+      "field16": 255164,
+      "field20": 0,
+      "checksum": 1132363,
+      "block_hashes": [],
+      "digest_hex": "aad69bb43bf96b98f60266e6b217368a",
+      "extra_hex": ""
+    },
+    {
+      "index": 2,
+      "path": "sa_fonts/crechocom.ttf",
+      "flags": 7,
+      "field8": 819,
+      "field12": 918228,
+      "field16": 360028,
+      "field20": 0,
+      "checksum": 1281201,
+      "block_hashes": [],
+      "digest_hex": "751746eba3ce177f6caec22cbfce5698",
+      "extra_hex": ""
+    },
+    {
+      "index": 3,
+      "path": "sa_fonts/cregothicm.ttf",
+      "flags": 7,
+      "field8": 1171,
+      "field12": 1018184,
+      "field16": 360312,
+      "field20": 0,
+      "checksum": 1381587,
+      "block_hashes": [],
+      "digest_hex": "33885d4a188016719ceb5bd1b39beb0c",
+      "extra_hex": ""
+    },
+    {
+      "index": 4,
+      "path": "sa_fonts/eunhasu.ttf",
+      "flags": 7,
+      "field8": 1523,
+      "field12": 703808,
+      "field16": 202252,
+      "field20": 0,
+      "checksum": 910043,
+      "block_hashes": [],
+      "digest_hex": "c3ca12b933596fecc627db98d0cbc695",
+      "extra_hex": ""
+    },
+    {
+      "index": 5,
+      "path": "sa_fonts/gasiiim.ttf",
+      "flags": 7,
+      "field8": 1721,
+      "field12": 1332576,
+      "field16": 445776,
+      "field20": 0,
+      "checksum": 1781976,
+      "block_hashes": [],
+      "digest_hex": "9e385366568beb5d05a499b59d8e206e",
+      "extra_hex": ""
+    },
+    {
+      "index": 6,
+      "path": "sa_fonts/soodagongju.ttf",
+      "flags": 7,
+      "field8": 2157,
+      "field12": 1007836,
+      "field16": 315728,
+      "field20": 0,
+      "checksum": 1328078,
+      "block_hashes": [],
+      "digest_hex": "cf8ebbe1fad14252bfd25c5071369a58",
+      "extra_hex": ""
+    }
+  ],
+  "limitations": [
+    "Metadata checksums verified; member payloads are unverified.",
+    "Native config-dependent field20 validation is not performed.",
+    "field8/12/16/20 retain raw coordinates until their uses are traced.",
+    "Index path names do not authorize executing any archived binaries.",
+    "Full-file SHA-256 is not computed by this bounded index operation."
+  ]
+}

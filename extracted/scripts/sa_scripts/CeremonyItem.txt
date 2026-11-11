@@ -1,0 +1,1977 @@
+/*
+
+***  TYPE   ***
+*   1 = FX
+*   2 = ANI
+*     ...
+
+*/
+
+[Ceremony0]
+itemcode = 5172
+type = 1
+resource = "Win_FX_01"
+
+[Ceremony1]
+itemcode = 5165
+type = 2
+resource_m = "Win_M_Pose1"
+resource_w = "Win_W_Pose4"
+
+[Ceremony2]
+itemcode = 5166
+type = 2
+resource_m = "Win_M_Pose5"
+resource_w = "Win_W_Pose5"
+
+[Ceremony3]
+itemcode = 5167
+type = 2
+resource_m = "Win_M_Pose3"
+resource_w = "Win_W_Pose3"
+
+[Ceremony4]
+itemcode = 5168
+type = 2
+resource_m = "Win_M_Pose2"
+resource_w = "Win_W_Pose2"
+
+[Ceremony5]
+itemcode = 5169
+type = 2
+resource_m = "Win_M_Pose6"
+resource_w = "Win_W_Pose6"
+
+[Ceremony6]
+itemcode = 5457
+type = 2
+resource_m = "Win_M_Pose14"
+resource_w = "Win_W_Pose14"
+
+[Ceremony7]
+itemcode = 5472
+type = 2
+resource_m = "Win_EUGBAK_1"
+onlymodel= "1630,1631,1632,1633"
+
+[Ceremony8]
+itemcode = 5528
+type = 1
+resource = "Win_FX_02_Blue"
+
+[Ceremony9]
+itemcode = 5529
+type = 1
+resource = "Win_FX_02_Yellow"
+
+[Ceremony10]
+itemcode = 5535
+type = 2
+resource_m = "Win_M_Pose7"
+resource_w = "Win_W_Pose7"
+
+[Ceremony11]
+itemcode = 5536
+type = 2
+resource_m = "Win_M_Pose9"
+resource_w = "Win_W_Pose9"
+
+[Ceremony12]
+itemcode = 5537
+type = 2
+resource_m = "Win_M_Pose10"
+resource_w = "Win_W_Pose10"
+
+[Ceremony13]
+itemcode = 5538
+type = 2
+resource_m = "Win_M_Pose13"
+resource_w = "Win_W_Pose13"
+
+[Ceremony14]
+itemcode = 5539
+type = 1
+resource = "Win_FX_Meteor_01"
+
+[Ceremony15]
+itemcode = 5540
+type = 1
+resource = "Win_FX_Tornado_01"
+
+// 손나은 - 승리연출
+[Ceremony16]
+itemcode	= 5658
+type		= 2
+//resource_m	= "Win_M_Pose7"
+resource_w	= "Win_NAEUN_1"
+onlymodel	= "1646,1647,1648,1649"
+
+[Ceremony17] //승리효과_꽃잎
+itemcode = 5776
+type = 1
+resource = "Win_FX_FlowerShower"
+
+[Ceremony18] //승리효과_불꽃
+itemcode = 5777
+type = 1
+resource = "Win_FX_FireWiner"
+
+[Ceremony19] //승리효과_암흑
+itemcode = 5778
+type = 1
+resource = "Win_FX_Darkness"
+
+[Ceremony20] //승리효과_스포트라이트
+itemcode = 5779
+type = 1
+resource = "Win_FX_Spotlight"
+
+[Ceremony21] //승리포즈_공중부양
+itemcode = 5772
+type = 2
+resource_m = "Win_M_Pose15"
+resource_w = "Win_W_Pose15"
+
+[Ceremony22] //승리포즈_문워크
+itemcode = 5773
+type = 2
+resource_m = "Win_M_Pose16"
+resource_w = "Win_W_Pose16"
+
+[Ceremony23] //승리포즈_질주
+itemcode = 5774
+type = 2
+resource_m = "Win_M_Pose17"
+resource_w = "Win_W_Pose17"
+
+[Ceremony24] //승리포즈_메롱
+itemcode = 5775
+type = 2
+resource_m = "Win_M_Pose18"
+resource_w = "Win_W_Pose18"
+
+[Ceremony25] //승리포즈_조현
+itemcode = 6032
+type = 2
+resource_w = "Win_JOHYUN_1"
+onlymodel	= "1720,1721,1722,1723"
+
+[Ceremony26] //승리포즈_힙합
+itemcode = 6014
+type = 2
+resource_m = "Win_M_Pose8"
+resource_w = "Win_W_Pose8"
+
+[Ceremony27] //승리포즈_모델
+itemcode = 6015
+type = 2
+resource_m = "Win_M_Pose11"
+resource_w = "Win_W_Pose11"
+
+[Ceremony28] //승리포즈_신남
+itemcode = 6016
+type = 2
+resource_m = "Win_M_Pose12"
+resource_w = "Win_W_Pose12"
+
+[Ceremony29] //승리포즈_바보형
+itemcode = 6017
+type = 2
+resource_m = "Win_M_Pose19"
+resource_w = "Win_W_Pose19"
+
+// 블랙 인싸 - 승리연출
+[Ceremony30]
+itemcode	= 6075
+type		= 2
+resource_w	= "Win_Insider_1"
+onlymodel	= "1726,1727,1728,1729"
+
+// 블랙 바니 - 승리연출
+[Ceremony31]
+itemcode	= 6076
+type		= 2
+resource_w	= "Win_Bunny_1"
+onlymodel	= "1730,1731,1732,1733"
+
+// 블랙 단짝 - 승리연출
+[Ceremony32]
+itemcode	= 6077
+type		= 2
+resource_w	= "Win_School_1"
+onlymodel	= "1734,1735,1736,1737"
+
+// 선미2 - 승리연출
+[Ceremony33]
+itemcode	= 6105
+type		= 2
+resource_w	= "Win_Sunmi_1"
+onlymodel	= "1738,1739,1740,1741"
+
+// 여자친구 - 승리 연출
+[Ceremony34]
+itemcode	= 6197
+type		= 2
+resource_w	= "Win_GFriend_1"
+onlymodel	= "1746, 1747, 1748, 1749, 1750, 1751, 1752, 1753, 1754, 1755, 1756, 1757"
+
+// 선미3 - 승리연출
+[Ceremony35]
+itemcode	= 6212
+type		= 2
+resource_w	= "Win_Sunmi_2"
+onlymodel	= "1758,1759,1760,1761"
+
+[Ceremony36] //승리포즈_뜨거운춤
+itemcode = 6266
+type = 2
+resource_m = "Win_M_Pose20"
+resource_w = "Win_W_Pose20"
+
+[Ceremony37] //승리포즈_못말려춤
+itemcode = 6267
+type = 2
+resource_m = "Win_M_Pose21"
+resource_w = "Win_W_Pose21"
+
+[Ceremony38] //승리포즈_외계인춤
+itemcode = 6268
+type = 2
+resource_m = "Win_M_Pose22"
+resource_w = "Win_W_Pose22"
+
+[Ceremony39] //승리포즈_좀비춤
+itemcode = 6269
+type = 2
+resource_m = "Win_M_Pose23"
+resource_w = "Win_W_Pose23"
+
+[Ceremony40] //승리효과_UFO
+itemcode = 6270
+type = 1
+resource = "Win_FX_UFO"
+
+[Ceremony41] //승리효과_파도
+itemcode = 6271
+type = 1
+resource = "Win_FX_Wave"
+
+[Ceremony42] // 손담비 - 승리연출
+itemcode	= 6289
+type		= 2
+resource_w	= "Win_Dambi_1"
+onlymodel	= "1766,1767,1768,1769,1770,1771,1772,1773"
+
+// ITZY - 승리연출
+[Ceremony43]
+itemcode		= 6420
+type		= 2
+//resource_m	= "Win_M_Pose7"
+resource_w	= "Win_itzy_1"
+onlymodel	= "1786,1787,1788,1789,1790,1791,1792,1793,1794,1795,1796,1797,1798,1799,1800,1801,1802,1803,1804,1805"
+
+// 크리스마스 승리포즈
+[Ceremony44]
+itemcode		= 6467
+type		= 2
+//resource_m	= "Win_M_Pose7"
+resource_w	= "Win_Christmas_1"
+onlymodel	= "1820,1821,1822,1823,1824,1825,1826,1827"
+
+// 승리포즈_락킹댄스
+[Ceremony45]
+itemcode = 6508
+type = 2
+resource_m = "Win_M_Pose24"
+resource_w = "Win_W_Pose24"
+
+// 승리포즈_당랑권
+[Ceremony46]
+itemcode = 6509
+type = 2
+resource_m = "Win_M_Pose25"
+resource_w = "Win_W_Pose25"
+
+// 승리포즈_돌려돌려
+[Ceremony47]
+itemcode = 6510
+type = 2
+resource_m = "Win_M_Pose26"
+resource_w = "Win_W_Pose26"
+
+// 승리포즈_거만
+[Ceremony48]
+itemcode = 6511
+type = 2
+resource_m = "Win_M_Pose27"
+resource_w = "Win_W_Pose27"
+
+// 승리효과_페스티벌
+[Ceremony49]
+itemcode = 6512
+type = 1
+resource = "win_fx_firecracker"
+
+// 승리효과_눈꽃
+[Ceremony50]
+itemcode = 6513
+type = 1
+resource = "win_fx_snowflake"
+
+// twice - 승리연출
+[Ceremony51]
+itemcode		= 6542
+type		= 2
+//resource_m	= "Win_M_Pose7"
+resource_w	= "Win_twice_1"
+onlymodel	= "1834,1835,1836,1837,1838,1839,1840,1841,1842,1843,1844,1845,1846,1847,1848,1849,1850,1851"
+
+// ITZY - 승리연출Ⅱ
+[Ceremony52]
+itemcode		= 6628
+type		= 2
+resource_w	= "Win_Itzy_2"
+onlymodel	= "1870,1871,1872,1873,1874,1875,1876,1877,1878,1879,1880,1881,1882,1883,1884,1885,1886,1887,1888,1889"
+
+// 트와이스 승리포즈Ⅱ
+[Ceremony53]
+itemcode		= 6716
+type		= 2
+resource_w	= "Win_Twice_02"
+onlymodel	= "1902,1903,1904,1905,1906,1907,1908,1909,1910,1911,1912,1913,1914,1915,1916,1917,1918,1919,1920,1921,1922,1923,1924,1925,1926,1927,1928,1929,1930,1931,1932,1933,1934,1935,1936,1937"
+
+// 보드소녀 승리포즈Ⅱ
+[Ceremony54]
+itemcode		= 6808
+type		= 2
+resource_w	= "Win_board_1"
+onlymodel	= "1938,1939,1940,1941,1942,1943,2300,2301,2302,2303,2304,2305,3541,3542,3543,3544,3545,3546,3547,3548,3549,3550,3551,3552,3553,3554,3555,3556"
+
+// 승리포즈_드루와댄스
+[Ceremony55]
+itemcode		= 6819
+type		= 2
+resource_m 	= "Win_M_Pose28"
+resource_w 	= "Win_W_Pose28"
+
+// 승리포즈_스트릿댄스
+[Ceremony56]
+itemcode		= 6820
+type		= 2
+resource_m 	= "Win_M_Pose29"
+resource_w 	= "Win_W_Pose29"
+
+// 승리포즈_피리불기
+[Ceremony57]
+itemcode		= 6821
+type		= 2
+resource_m 	= "Win_M_Pose30"
+resource_w 	= "Win_W_Pose30"
+
+// 승리포즈_히어로착지
+[Ceremony58]
+itemcode		= 6822
+type		= 2
+resource_m 	= "Win_M_Pose31"
+resource_w 	= "Win_W_Pose31"
+
+// 승리효과_폭발
+[Ceremony59]
+itemcode = 6836
+type = 1
+resource = "Win_FX_Fire"
+
+// 승리효과_빛기둥
+[Ceremony60]
+itemcode = 6837
+type = 1
+resource = "Win_FX_Light_01"
+
+// 희진&츄 - 승리연출
+[Ceremony61]
+itemcode		= 6677
+type		= 2
+//resource_m	= "Win_M_Pose7"
+resource_w	= "win_loona_1"
+onlymodel	= "1892,1893,1894,1895,1900,1901"
+
+// 브레이브걸스 - 승리연출
+[Ceremony62]
+itemcode		= 6985
+type		= 2
+//resource_m	= "Win_M_Pose7"
+resource_w	= "Win_Bravegirls_1"
+onlymodel	= "1952,1953,1954,1955,1956,1957,1958,1959"
+
+// 랄랄 - 승리연출
+[Ceremony63]
+itemcode		= 7032
+type		= 2
+//resource_m	= "Win_M_Pose7"
+resource_w	= "Win_ralral_1"
+onlymodel	= "1964,1965,1966,1967,1968,1969,1970,1971"
+
+// 희진&츄2 - 승리연출
+[Ceremony64]
+itemcode		= 7050
+type		= 2
+//resource_m	= "Win_M_Pose7"
+resource_w	= "Win_loona_2"
+onlymodel	= "1972,1973,1974,1975"
+
+// 라붐 - 승리연출
+[Ceremony65]
+itemcode		= 7111
+type		= 2
+//resource_m	= "Win_M_Pose7"
+resource_w	= "Win_laboum_1"
+onlymodel	= "1976,1977,1978,1979,1980,1981,1982,1983,1984,1985"
+
+// 2021 서든패스 시즌3 승리연출 - 로봇
+[Ceremony66]
+itemcode		= 7079
+type		= 2
+resource_m	= "Win_M_Pose32"
+resource_w	= "Win_W_Pose32"
+//onlymodel	= "1986,1987"
+
+// 2021 서든패스 시즌3 승리연출 - 타조
+[Ceremony67]
+itemcode		= 7080
+type		= 2
+resource_m	= "Win_M_Pose33"
+resource_w	= "Win_W_Pose33"
+//onlymodel	= "1986,1987"
+
+// 2021 서든패스 시즌3 승리연출 - 흔들어
+[Ceremony68]
+itemcode		= 7081
+type		= 2
+resource_m	= "Win_M_Pose34"
+resource_w	= "Win_W_Pose34"
+//onlymodel	= "1986,1987"
+
+// 2021 서든패스 시즌3 승리연출 - 디스코
+[Ceremony69]
+itemcode		= 7082
+type		= 2
+resource_m	= "Win_M_Pose35"
+resource_w	= "Win_W_Pose35"
+//onlymodel	= "1986,1987"
+
+// 2021 서든패스 시즌3 승리효과_디스코
+[Ceremony70]
+itemcode = 7083
+type = 1
+resource = "Win_FX_DJ"
+
+// 2021 서든패스 시즌3 승리효과_두둠칫
+[Ceremony71]
+itemcode = 7084
+type = 1
+resource = "Win_FX_Shockwave"
+
+// 2021 서든패스 시즌3 승리효과_무지개
+[Ceremony72]
+itemcode = 7085
+type = 1
+resource = "Win_FX_Rainbow"
+
+// HipHop 승리포즈
+[Ceremony73]
+itemcode = 7150
+type = 2
+resource_w = "Win_Hiphop_1"
+onlymodel = "1990,1991,1992,1993,2316,2317,2318,2319"
+
+// 2021 오마이걸 - 승리연출
+[Ceremony74]
+itemcode		= 7187
+type		= 2
+//resource_m	= "Win_M_Pose7"
+resource_w	= "Win_ohmygirl_1"
+onlymodel	= "1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007"
+
+// 표은지 - 승리연출
+[Ceremony75]
+itemcode		= 7309
+type		= 2
+//resource_m	= "Win_M_Pose7"
+resource_w	= "Win_PyoEunji_1"
+onlymodel	= "2010,2011,2012,2013"
+
+// 김연경 - 승리연출
+[Ceremony76]
+itemcode		= 7383
+type		= 2
+//resource_m	= "Win_M_Pose7"
+resource_w	= "Win_Kimyk_1"
+onlymodel	= "2014,2015,2016,2017,2018,2019,2020,2021"
+
+// 2021 서든패스 시즌4 승리연출 - 개다리
+[Ceremony77]
+itemcode		= 7423
+type		= 2
+resource_m	= "Win_M_Pose36"
+resource_w	= "Win_W_Pose36"
+
+// 2021 서든패스 시즌4 승리연출 - 고양이
+[Ceremony78]
+itemcode		= 7424
+type		= 2
+resource_m	= "Win_M_Pose37"
+resource_w	= "Win_W_Pose37"
+
+// 2021 서든패스 시즌4 승리연출 - 부장님
+[Ceremony79]
+itemcode		= 7425
+type		= 2
+resource_m	= "Win_M_Pose38"
+resource_w	= "Win_W_Pose38"
+
+// 2021 서든패스 시즌4 승리연출 - 힙스터
+[Ceremony80]
+itemcode		= 7426
+type		= 2
+resource_m	= "Win_M_Pose39"
+resource_w	= "Win_W_Pose39"
+
+// 2021 서든패스 시즌4 승리효과_단풍
+[Ceremony81]
+itemcode = 7427
+type = 1
+resource = "Win_FX_MAPLE"
+
+// 노제 승리연출
+[Ceremony82]
+itemcode = 7473
+type		= 2
+resource_w	= "Win_Noze_1"
+onlymodel	= "2028,2029,2030,2031"
+
+// 스테이씨 승리연출
+[Ceremony83]
+itemcode = 7627
+type		= 2
+resource_w	= "Win_STAYC_1"
+onlymodel	= "2036,2037,2038,2039,2040,2041,2042,2043,2044,2045,2046,2047"
+
+// 신세경 승리연출
+[Ceremony84]
+itemcode = 7703
+type		= 2
+resource_w	= "Win_SaeKyeong_1"
+onlymodel	= "2050,2051,2052,2053,2054,2055,2056,2057"
+
+// 겨울소녀 승리연출
+[Ceremony85]
+itemcode = 7723
+type		= 2
+resource_w	= "Win_Wintergirl_1"
+onlymodel	= "2058,2059,2060,2061,2062,2063,2296,2297,2298,2299"
+
+// 2022 서든패스 시즌1 승리연출 - 승천
+[Ceremony86]
+itemcode		= 7735
+type		= 2
+resource_m	= "Win_M_Pose40"
+resource_w	= "Win_W_Pose40"
+
+// 2022 서든패스 시즌1 승리연출 - 응원
+[Ceremony87]
+itemcode		= 7736
+type		= 2
+resource_m	= "Win_M_Pose41"
+resource_w	= "Win_W_Pose41"
+
+// 2022 서든패스 시즌1 승리연출 - 콤보
+[Ceremony88]
+itemcode		= 7737
+type		= 2
+resource_m	= "Win_M_Pose42"
+resource_w	= "Win_W_Pose42"
+
+// 2022 서든패스 시즌1 승리연출 - 공룡
+[Ceremony89]
+itemcode		= 7738
+type		= 2
+resource_m	= "Win_M_Pose43"
+resource_w	= "Win_W_Pose43"
+
+// 2022 서든패스 시즌1 승리효과_새싹
+[Ceremony90]
+itemcode = 7739
+type = 1
+resource = "Win_FX_Sprout"
+
+// 2022 서든패스 시즌1 승리효과_엔젤
+// 서든패스 2022 시즌2 승리효과_엔젤
+[Ceremony91]
+itemcode	= 7740
+type 		= 1
+resource 	= "Win_FX_wing"
+
+// 2022 서든패스 시즌1 승리효과_흑호
+[Ceremony92]
+itemcode = 7741
+type = 1
+resource = "Win_FX_tiger"
+
+// 2022 서든패스 시즌1 승리효과_스컬 (resource는 승리효과_흑호와 동일하게 기입됐지만, 드랍되어 미구현으로 끝난 승리효과로 전달받음.)
+[Ceremony93]
+itemcode = 7742
+type = 1
+resource = "Win_FX_tiger"
+
+// 흑호 승리포즈
+[Ceremony94]
+itemcode = 7836
+type = 2
+resource_w = "Win_BlackTiger_1"
+onlymodel	= "2080,2081,2082,2083,2084,2085,2086,2087"
+
+// 미주 승리포즈
+[Ceremony95]
+itemcode = 7860
+type		= 2
+resource_w	= "Win_Mijoo_1"
+onlymodel	= "2088,2089,2090,2091"
+
+// 김연경Ⅱ - 승리연출
+[Ceremony96]
+itemcode		= 7882
+type		= 2
+resource_w	= "Win_Kimyk_2"
+onlymodel	= "2092,2093,2094,2095"
+
+// 비비 승리포즈
+[Ceremony97]
+itemcode		= 8011
+type		= 2
+resource_w	= "Win_Bibi_1"
+onlymodel	= "2100,2101"
+
+// 최예나 승리포즈
+[Ceremony98]
+itemcode		= 8013
+type		= 2
+resource_w	= "Win_Yena_1"
+onlymodel	= "2102,2103"
+
+// 조이현 승리포즈
+[Ceremony99]
+itemcode 	= 8091
+type		= 2
+resource_w	= "Win_Yihyun_1"
+onlymodel	= "2108,2109,2110,2111,2112,2113,2114,2115"
+
+// 서든패스 2022 시즌2 승리포즈_누워
+[Ceremony100]
+itemcode	= 8066
+type		= 2
+resource_m	= "Win_M_Pose44"
+resource_w	= "Win_W_Pose44"
+
+// 서든패스 2022 시즌2 승리포즈_다비켜
+[Ceremony101]
+itemcode	= 8067
+type		= 2
+resource_m	= "Win_M_Pose45"
+resource_w	= "Win_W_Pose45"
+
+// 서든패스 2022 시즌2 승리포즈_취권
+[Ceremony102]
+itemcode	= 8068
+type		= 2
+resource_m	= "Win_M_Pose46"
+resource_w	= "Win_W_Pose46"
+
+// 서든패스 2022 시즌2 승리포즈_목돌뱀
+[Ceremony103]
+itemcode	= 8069
+type		= 2
+resource_m	= "Win_M_Pose47"
+resource_w	= "Win_W_Pose47"
+
+// 서든패스 2022 시즌2 승리효과_다이노
+[Ceremony104]
+itemcode	= 8070
+type 		= 1
+resource 	= "Win_FX_Dino"
+
+// 신세경 승리포즈 Ⅱ
+[Ceremony105]
+itemcode		= 8135
+type		= 2
+resource_w	= "Win_SaeKyeong_2"
+onlymodel	= "2120,2121,2122,2123"
+
+// 프로미스나인 승리포즈
+[Ceremony106]
+itemcode		= 8187
+type		= 2
+resource_w	= "Win_fromis9_1"
+onlymodel	= "2124,2125,2126,2127,2128,2129,2130,2131,2132,2133,2134,2135,2136,2137,2138,2139,2140,2141,2142,2143,2144,2145,2146,2147,2148,2149,2150,2151,2152,2153,2154,2155"
+
+// 비비 승리포즈2
+[Ceremony107]
+itemcode		= 8310
+type		= 2
+resource_w	= "Win_Bibi_2"
+onlymodel	= "2162,2163"
+
+// 최예나 승리포즈2
+[Ceremony108]
+itemcode		= 8311
+type		= 2
+resource_w	= "Win_Yena_2"
+onlymodel	= "2164,2165"
+
+// VIVIZ 승리포즈
+[Ceremony109]
+itemcode		= 8368
+type		= 2
+resource_w	= "WIN_Viviz_1"
+onlymodel	= "2166,2167,2168,2169,2170,2171,2172,2173,2174,2175,2176,2177"
+
+// 2022 서든패스 시즌3 승리연출 - 우리바보형
+[Ceremony110]
+itemcode		= 8393
+type		= 2
+resource_m	= "Win_M_Pose48"
+resource_w	= "Win_W_Pose48"
+//onlymodel	= "1986,1987"
+
+// 2022 서든패스 시즌3 승리연출 - 셔플댄스
+[Ceremony111]
+itemcode		= 8394
+type		= 2
+resource_m	= "Win_M_Pose49"
+resource_w	= "Win_W_Pose49"
+//onlymodel	= "1986,1987"
+
+// 2022 서든패스 시즌3 승리연출 - 빠던
+[Ceremony112]
+itemcode		= 8395
+type		= 2
+resource_m	= "Win_M_Pose50"
+resource_w	= "Win_W_Pose50"
+//onlymodel	= "1986,1987"
+
+// 2022 서든패스 시즌3 승리연출 - 공중부양2
+[Ceremony113]
+itemcode		= 8396
+type		= 2
+resource_m	= "Win_M_Pose51"
+resource_w	= "Win_W_Pose51"
+//onlymodel	= "1986,1987"
+
+// 2022 서든패스 시즌3 승리효과 - 독가스
+[Ceremony114]
+itemcode = 8397
+type = 1
+resource = "Win_FX_poison"
+
+// 2022 서든패스 시즌3 승리효과 - 노이즈
+[Ceremony115]
+itemcode = 8398
+type = 1
+resource = "Win_FX_nois"
+
+// 쵸단 승리포즈
+[Ceremony116]
+itemcode		= 8456
+type		= 2
+resource_w	= "WIN_Chodan_1"
+onlymodel	= "2188,2189,2190,2191,2192,2193,2194,2195"
+
+// (G)I-DLE - 승리연출
+[Ceremony117]
+itemcode		= 8642
+type		= 2
+resource_w	= "Win_GIDLE_1"
+onlymodel	= "2200,2201,2202,2203,2204,2205,2206,2207,2208,2209,2210,2211,2212,2213,2214,2215,2216,2217,2218,2219"
+
+// 2022 트와이스 - 승리연출
+[Ceremony118]
+itemcode		= 8783
+type		= 2
+resource_w	= "Win_2022twice_1"
+onlymodel	= "2230,2231,2232,2233,2234,2235,2236,2237,2238,2239,2240,2241,2242,2243,2244,2245,2246,2247,2248,2249,2250,2251,2252,2253,2254,2255,2256,2257,2258,2259,2260,2261,2262,2263,2264,2265"
+
+// 2022 서든패스 시즌 4 승리포즈_팔짱무릎춤
+[Ceremony119]
+itemcode = 8721
+type = 2
+resource_m	= "Win_M_Pose52"
+resource_w	= "Win_W_Pose52"
+
+// 2022 서든패스 시즌 4 승리포즈_백조발레
+[Ceremony120]
+itemcode = 8722
+type = 2
+resource_m	= "Win_M_Pose53"
+resource_w	= "Win_W_Pose53"
+
+// 2022 서든패스 시즌 4 승리포즈_파도웨이브
+[Ceremony121]
+itemcode = 8723
+type = 2
+resource_m	= "Win_M_Pose54"
+resource_w	= "Win_W_Pose54"
+
+// 2022 서든패스 시즌 4 승리포즈_테크토닉
+[Ceremony122]
+itemcode = 8724
+type = 2
+resource_m	= "Win_M_Pose55"
+resource_w	= "Win_W_Pose55"
+
+// 2022 서든패스 시즌 4 승리효과_라이언
+[Ceremony123]
+itemcode = 8725
+type = 1
+resource = "Win_FX_Lion"
+
+// 2022 서든패스 시즌 4 승리효과_라이트닝
+[Ceremony124]
+itemcode = 8726
+type = 1
+resource = "Win_FX_Thunder"
+
+// 르세라핌 - 승리연출
+[Ceremony125]
+itemcode		= 8872
+type		= 2
+resource_w	= "Win_LESSERAFIM_1"
+onlymodel	= "2276,2277,2278,2279,2280,2281,2282,2283,2292,2293,2284,2285,2286,2287,2288,2289,2290,2291,2294,2295"
+
+// 응원소녀 승리포즈
+[Ceremony126]
+itemcode		= 9001
+type		= 2
+resource_w	= "Win_Cheergirl_1"
+onlymodel	= "2342,2343,2344,2345,3071,3072"
+
+// 김신영 승리포즈
+[Ceremony127]
+itemcode		= 9067
+type		= 2
+resource_w	= "Win_Kimsinyoung_1"
+onlymodel	= "2346,2347,2350,2351"
+
+// 김다비 승리포즈
+[Ceremony128]
+itemcode		= 9068
+type		= 2
+resource_w	= "Win_Kimdabi_1"
+onlymodel	= "2348,2349,2352,2353"
+
+// Xmas 탐정 - 승리연출
+[Ceremony129]
+itemcode		= 9139
+type		= 2
+//resource_m	= "Win_M_Pose7"
+resource_w	= "Win_Detective_1"
+onlymodel	= "2354,2355,2356,2357"
+
+// 2023 조유리 승리포즈
+[Ceremony130]
+itemcode		= 9174
+type		= 2
+resource_w	= "Win_2023yuri_1"
+onlymodel	= "2358,2359,2362,2363"
+
+// 2023 츄 승리포즈
+[Ceremony131]
+itemcode		= 9175
+type		= 2
+resource_w	= "Win_2023chu_1"
+onlymodel	= "2360,2361,2364,2365"
+
+// 2023 서든패스 시즌 1 승리포즈_노인
+[Ceremony132]
+itemcode = 9194
+type = 2
+resource_m	= "Win_M_Pose56"
+resource_w	= "Win_W_Pose56"
+
+// 2023 서든패스 시즌 1 승리포즈_복고댄스
+[Ceremony133]
+itemcode = 9195
+type = 2
+resource_m	= "Win_M_Pose57"
+resource_w	= "Win_W_Pose57"
+
+// 2023 서든패스 시즌 1 승리포즈_에어기타
+[Ceremony134]
+itemcode = 9196
+type = 2
+resource_m	= "Win_M_Pose58"
+resource_w	= "Win_W_Pose58"
+
+// 2023 서든패스 시즌 1 승리포즈_비둘기스텝
+[Ceremony135]
+itemcode = 9197
+type = 2
+resource_m	= "Win_M_Pose59"
+resource_w	= "Win_W_Pose59"
+
+// 2023 서든패스 시즌 1 승리효과_흑묘
+[Ceremony136]
+itemcode = 9198
+type = 1
+resource = "Win_FX_rabbit"
+
+// 2023 서든패스 시즌 1 승리효과_사이렌
+[Ceremony137]
+itemcode = 9199
+type = 1
+resource = "Win_FX_police"
+
+// 검은 토끼 승리포즈
+[Ceremony138]
+itemcode		= 9223
+type		= 2
+resource_w	= "Win_2023rabbit_1"
+onlymodel	= "2372,2373,2374,2375,2486,2487"
+
+// 채수빈 승리포즈
+[Ceremony139]
+itemcode		= 9265
+type		= 2
+resource_w	= "Win_Chaesoobin_1"
+onlymodel	= "2380,2381,2384,2385"
+
+// 다나카 승리포즈
+[Ceremony140]
+itemcode		= 9266
+type		= 2
+resource_m	= "Win_Tanaka_1"
+onlymodel	= "2382,2383,2386,2387"
+
+// 강혜원 승리포즈
+[Ceremony141]
+itemcode		= 9305
+type		= 2
+resource_w	= "Win_Hyewon_1"
+onlymodel	= "2392,2393,2396,2397"
+
+// 권은비 승리포즈
+[Ceremony142]
+itemcode		= 9306
+type		= 2
+resource_w	= "Win_Eunbi_1"
+onlymodel	= "2394,2395,2398,2399"
+
+// 추성훈 승리포즈
+[Ceremony143]
+itemcode		= 9432
+type		= 2
+resource_m	= "Win_SungHun_1"
+onlymodel	= "2410,2411,2414,2415"
+
+// 심으뜸 승리포즈
+[Ceremony144]
+itemcode		= 9433
+type		= 2
+resource_w	= "Win_Euddeum_1"
+onlymodel	= "2412,2413,2416,2417"
+
+// 2023 서든패스 시즌 2 승리포즈_잉여춤
+[Ceremony145]
+itemcode = 9438
+type = 2
+resource_m	= "Win_M_Pose60"
+resource_w	= "Win_W_Pose60"
+
+// 2023 서든패스 시즌 2 승리포즈_현란한스텝
+[Ceremony146]
+itemcode = 9439
+type = 2
+resource_m	= "Win_M_Pose61"
+resource_w	= "Win_W_Pose61"
+
+// 2023 서든패스 시즌 2 승리포즈_지켜본다
+[Ceremony147]
+itemcode = 9440
+type = 2
+resource_m	= "Win_M_Pose62"
+resource_w	= "Win_W_Pose62"
+
+// 2023 서든패스 시즌 2 승리포즈_올챙이춤
+[Ceremony148]
+itemcode = 9441
+type = 2
+resource_m	= "Win_M_Pose63"
+resource_w	= "Win_W_Pose63"
+
+// 2023 서든패스 시즌 2 승리효과_거미줄
+[Ceremony149]
+itemcode = 9442
+type = 1
+resource = "Win_FX_SpiderWeb"
+
+// 2023 서든패스 시즌 2 승리효과_미러볼
+[Ceremony150]
+itemcode = 9443
+type = 1
+resource = "Win_FX_MirrorballSilver"
+
+// 2023 스테이씨 승리포즈
+[Ceremony151]
+itemcode		= 9520
+type		= 2
+resource_w	= "Win_2023stayc_1"
+onlymodel	= "2428,2429,2430,2431,2432,2433,2434,2435,2436,2437,2438,2439,2440,2441,2442,2443,2444,2445,2446,2447,2448,2449,2450,2451"
+
+// 이다혜&조연주 승리포즈
+[Ceremony152]
+itemcode	= 9611
+type		= 2
+resource_w	= "Win_Cheer_1"
+onlymodel	= "2454, 2455, 2456, 2457, 2458, 2459, 2460, 2461, 2462, 2463, 2464, 2465"
+
+// 마갱단 승리포즈
+[Ceremony153]
+itemcode	= 9748
+type		= 2
+resource_w	= "Win_magangdan_1"
+onlymodel	= "2468,2469,2470,2471,2472,2473,2474,2475,2476,2477,2478,2479"
+
+// 2023 서든패스 시즌3 승리포즈_큰일이야
+[Ceremony154]
+itemcode	= 9763
+type		= 2
+resource_m	= "Win_M_Pose64"
+resource_w	= "Win_W_Pose64"
+
+// 2023 서든패스 시즌3 승리포즈_허세다리
+[Ceremony155]
+itemcode	= 9764
+type		= 2
+resource_m	= "Win_M_Pose65"
+resource_w	= "Win_W_Pose65"
+
+// 2023 서든패스 시즌3 승리포즈_X 웨이브
+[Ceremony156]
+itemcode	= 9765
+type		= 2
+resource_m	= "Win_M_Pose66"
+resource_w	= "Win_W_Pose66"
+
+// 2023 서든패스 시즌3 승리포즈_풍차춤
+[Ceremony157]
+itemcode	= 9766
+type		= 2
+resource_m	= "Win_M_Pose67"
+resource_w	= "Win_W_Pose67"
+
+// 2023 서든패스 시즌3 승리효과_열대어 무리
+[Ceremony158]
+itemcode	= 9767
+type		= 1
+resource	= "Win_FX_Fish"
+
+// 2023 서든패스 시즌3 승리효과_꼬마 문어
+[Ceremony159]
+itemcode	= 9768
+type		= 1
+resource	= "Win_FX_Octopus"
+
+// 2023 프로미스나인 승리포즈
+[Ceremony160]
+itemcode	= 10226
+type		= 2
+resource_w	= "Win_2023fromis9_1"
+onlymodel   = "2494,2495,2496,2497,2498,2499,2500,2501,2502,2503,2504,2505,2506,2507,2508,2509,2510,2511,2512,2513,2514,2515,2516,2517,2518,2519,2520,2521,2522,2523,2524,2525"
+
+// 나선욱 승리포즈
+[Ceremony161]
+itemcode		= 10308
+type		= 2
+resource_m	= "Win_Nasunuk_1"
+onlymodel	= "2528,2529,2530,2531,2532,2533,2534,2535"
+
+// 2023 ITZY 승리포즈
+[Ceremony162]
+itemcode	= 10346 
+type		= 2
+resource_w	= "Win_2023ITZY_1"
+onlymodel	= "2536,2537,2538,2539,2540,2541,2542,2543,2544,2545,2546,2547,2548,2549,2550,2551,2552,2553,2554,2555"
+
+// 2023 서든패스 시즌4 승리포즈_날개춤
+[Ceremony163]
+itemcode	= 10466
+type		= 2
+resource_m	= "Win_M_Pose68"
+resource_w	= "Win_W_Pose68"
+
+// 2023 서든패스 시즌4 승리포즈_까딱스텝
+[Ceremony164]
+itemcode	= 10467
+type		= 2
+resource_m	= "Win_M_Pose69"
+resource_w	= "Win_W_Pose69"
+
+// 2023 서든패스 시즌4 승리포즈_복싱
+[Ceremony165]
+itemcode	= 10468
+type		= 2
+resource_m	= "Win_M_Pose70"
+resource_w	= "Win_W_Pose70"
+
+// 2023 서든패스 시즌4 승리포즈_풍차춤
+[Ceremony166]
+itemcode	= 10469
+type		= 2
+resource_m	= "Win_M_Pose71"
+resource_w	= "Win_W_Pose71"
+
+// 2023 서든패스 시즌4 승리효과_에어쇼
+[Ceremony167]
+itemcode		= 10470
+type		= 1
+resource		= "Win_FX_airshow"
+
+// 2023 서든패스 시즌4 승리효과_월광
+[Ceremony168]
+itemcode		= 10471
+type		= 1
+resource		= "Win_FX_Moonlight"
+
+// 권은비 2차 승리포즈
+[Ceremony169]
+itemcode	= 10538
+type		= 2
+resource_w	= "Win_Eunbi_2"
+onlymodel	= "2566,2567,2568,2569,2570,2571,2572,2573"
+
+// 러셔 승리포즈
+[Ceremony170]
+itemcode	= 10625
+type		= 2
+resource_w	= "Win_Lusher_1"
+onlymodel   = "2580,2581,2588,2589"
+
+// 레디 승리포즈
+[Ceremony171]
+itemcode	= 10627
+type		= 2
+resource_w	= "Win_Redy_1"
+onlymodel   = "2582,2583,2590,2591"
+
+// 리아킴 승리포즈
+[Ceremony172]
+itemcode	= 10629
+type		= 2
+resource_w	= "Win_LiaKim_1"
+onlymodel   = "2584,2585,2592,2593"
+
+// 바다 승리포즈
+[Ceremony173]
+itemcode	= 10631
+type		= 2
+resource_w	= "Win_Bada_1"
+onlymodel   = "2586,2587,2594,2595"
+
+// NMIXX 승리포즈
+[Ceremony174]
+itemcode	= 11631
+type		= 2
+resource_w	= "Win_NMIXX_1"
+onlymodel	= "2598,2599,2600,2601,2602,2603,2604,2605,2606,2607,2608,2609,2610,2611,2612,2613,2614,2615,2616,2617,2618,2619,2620,2621"
+
+// 김원훈 승리포즈
+[Ceremony175]
+itemcode	= 11731
+type		= 2
+resource_m	= "Win_KimWonHun_1"
+onlymodel	= "2630,2631,2634,2635"
+
+// 김아영 승리포즈
+[Ceremony176]
+itemcode	= 11733
+type		= 2
+resource_w	= "Win_AhYoung_1"
+onlymodel   = "2632,2633,2636,2637"
+
+// 승리포즈_전력질주
+[Ceremony177]
+itemcode	= 11760
+type		= 2
+resource_m	= "Win_M_Pose73"
+resource_w	= "Win_W_Pose73"
+
+// 승리포즈_핸들댄스
+[Ceremony178]
+itemcode	= 11761
+type		= 2
+resource_m	= "Win_M_Pose74"
+resource_w	= "Win_W_Pose74"
+
+// 승리포즈_관절웨이브
+[Ceremony179]
+itemcode	= 11762
+type		= 2
+resource_m	= "Win_M_Pose72"
+resource_w	= "Win_W_Pose72"
+
+// 승리포즈_마임
+[Ceremony180]
+itemcode	= 11763
+type		= 2
+resource_m	= "Win_M_Pose75"
+resource_w	= "Win_W_Pose75"
+
+// 승리효과_2024청룡
+[Ceremony181]
+itemcode	= 11764
+type		= 1
+resource	= "Win_FX_Scroll2024"
+
+// 승리효과_홀로그램
+[Ceremony182]
+itemcode	= 11765
+type		= 1
+resource	= "Win_FX_hologramblueprint"
+
+// 한복 신세경 승리포즈
+[Ceremony183]
+itemcode	= 11910
+type		= 2
+resource_w	= "Win_SaeKyeong_3"
+onlymodel	= "2646,2647,2650,2651"
+
+// 여신 신세경 승리포즈
+[Ceremony184]
+itemcode	= 11912
+type		= 2
+resource_w	= "Win_SaeKyeong_4"
+onlymodel	= "2648,2649,2652,2653"
+
+// 2024 지원 승리포즈
+[Ceremony185]
+itemcode	= 11994
+type		= 2
+resource_w	= "Win_2024_JeeWon_1"
+onlymodel	= "2654,2655,2658,2659"
+
+// 2024 츄 승리포즈
+[Ceremony186]
+itemcode	= 11996
+type		= 2
+resource_w	= "Win_2024_Chuu_1"
+onlymodel	= "2656,2657,2660,2661"
+
+// 승리포즈_스트릿댄스2
+[Ceremony187]
+itemcode	= 12092
+type		= 2
+resource_m	= "Win_M_Pose76"
+resource_w	= "Win_W_Pose76"
+
+// 승리포즈_강림
+[Ceremony188]
+itemcode	= 12093
+type		= 2
+resource_m	= "Win_M_Pose77"
+resource_w	= "Win_W_Pose77"
+
+// 승리포즈_귀신댄스
+[Ceremony189]
+itemcode	= 12094
+type		= 2
+resource_m	= "Win_M_Pose78"
+resource_w	= "Win_W_Pose78"
+
+// 승리포즈_앙탈춤
+[Ceremony190]
+itemcode	= 12095
+type		= 2
+resource_m	= "Win_M_Pose79"
+resource_w	= "Win_W_Pose79"
+
+// 승리효과_폭탄
+[Ceremony191]
+itemcode = 12096
+type = 1
+resource = "Win_FX_Bomb"
+
+// 승리효과_하트
+[Ceremony192]
+itemcode = 12097
+type = 1
+resource = "Win_FX_Heart"
+
+// 승리포즈_바로너
+[Ceremony193]
+itemcode	= 12519
+type		= 2
+resource_m	= "Win_M_Pose80"
+resource_w	= "Win_W_Pose80"
+
+// 승리포즈_깽깽이춤
+[Ceremony194]
+itemcode	= 12520
+type		= 2
+resource_m	= "Win_M_Pose81"
+resource_w	= "Win_W_Pose81"
+
+// 승리포즈_해머타임
+[Ceremony195]
+itemcode	= 12521
+type		= 2
+resource_m	= "Win_M_Pose82"
+resource_w	= "Win_W_Pose82"
+
+// 승리포즈_물음표춤
+[Ceremony196]
+itemcode	= 12522
+type		= 2
+resource_m	= "Win_M_Pose83"
+resource_w	= "Win_W_Pose83"
+
+// 승리효과_웨폰마스터
+[Ceremony197]
+itemcode = 12523
+type = 1
+resource = "Win_FX_WeaponMaster"
+
+// 승리효과_플렉스
+[Ceremony198]
+itemcode = 12524
+type = 1
+resource = "Win_FX_Flex"
+
+// 승리포즈_G_IDLE
+[Ceremony199]
+itemcode	= 12506
+type		= 2
+resource_w	= "Win_2024_GIDLE_1"
+onlymodel	= "2733,2734,2735,2736,2737,2738,2739,2740,2741,2742,2743,2744,2745,2746,2747,2748,2749,2750,2751,2752,2753,2754,2755,2756,2757,2758,2759,2760,2761,2762"
+
+// 포이즌 승리포즈
+[Ceremony200]
+itemcode		= 12645
+type		= 2
+resource_m	= "Win_Poison_1"
+onlymodel	= "2763,2764,2767,2768"
+
+// 케이셉 승리포즈
+[Ceremony201]
+itemcode		= 12647
+type		= 2
+resource_m	= "Win_Ksap_1"
+onlymodel	= "2765,2766,2769,2770"
+
+// 고말숙 승리포즈
+[Ceremony202]
+itemcode		= 13074
+type		= 2
+resource_w	= "Win_MalSook_1"
+onlymodel	= "2773,2774,2777,2778"
+
+// 박민정 승리포즈
+[Ceremony203]
+itemcode		= 13076
+type		= 2
+resource_w	= "Win_MinJung_1"
+onlymodel	= "2775,2776,2779,2780"
+
+// 승리포즈_19th AWARDS
+[Ceremony204]
+itemcode	= 13095
+type		= 2
+resource_m	= "Win_M_Pose84"
+resource_w	= "Win_W_Pose84"
+
+// 2024 프로미스나인 승리포즈
+[Ceremony205]
+itemcode		= 13175
+type		= 2
+resource_w	= "Win_2024fromis9_1"
+onlymodel	= "2781,2782,2783,2784,2785,2786,2787,2788,2789,2790,2791,2792,2793,2794,2795,2796,2797,2798,2799,2800,2801,2802,2803,2804,2805,2806,2807,2808,2809,2810,2811,2812"
+
+// 승리연출 - 꽁냥댄스
+[Ceremony206]
+itemcode	= 13339
+type		= 2
+resource_m	= "Win_M_Pose85"
+resource_w	= "Win_W_Pose85"
+
+// 승리연출 - 바운스
+[Ceremony207]
+itemcode	= 13340
+type		= 2
+resource_m	= "Win_M_Pose87"
+resource_w	= "Win_W_Pose87"
+
+// 승리연출 - 깽깽이춤2
+[Ceremony208]
+itemcode	= 13341
+type		= 2
+resource_m	= "Win_M_Pose86"
+resource_w	= "Win_W_Pose86"
+
+// 승리연출 - 찌르기
+[Ceremony209]
+itemcode	= 13342
+type		= 2
+resource_m	= "Win_M_Pose88"
+resource_w	= "Win_W_Pose88"
+
+// 승리연출 - 모래폭풍
+[Ceremony210]
+itemcode = 13343
+type = 1
+resource = "Win_FX_SandStorm"
+
+// 승리연출 - 네온사인
+[Ceremony211]
+itemcode = 13344
+type = 1
+resource = "Win_FX_Neonsign"
+
+// 월화 승리포즈
+[Ceremony212]
+itemcode		= 13325
+type		= 2
+resource_w	= "Win_Wolhwa_1"
+onlymodel	= "2817,2818,2819,2820,2821,2822,2823,2824"
+
+// 고민시 승리포즈
+[Ceremony213]
+itemcode		= 13478
+type		= 2
+resource_w	= "Win_MinSi_1"
+onlymodel	= "2825,2826,2827,2828,2829,2830,2831,2832"
+
+// 피프티 승리포즈
+[Ceremony214]
+itemcode		= 13564
+type		= 2
+resource_w	= "Win_FIFTYFIFTY_1"
+onlymodel	= "2833,2834,2835,2836,2837,2838,2839,2840,2841,2842,2843,2844,2845,2846,2847,2848,2849,2850,2851,2852"
+
+// 2024 NMIXX 승리포즈
+[Ceremony215]
+itemcode		= 13636
+type		= 2
+resource_w	= "Win_2024NMIXX_1"
+onlymodel	= "2869,2870,2871,2872,2873,2874,2875,2876,2877,2878,2879,2880,2881,2882,2883,2884,2885,2886,2887,2888,2889,2890,2891,2892"
+
+// 혜리 승리포즈
+[Ceremony216]
+itemcode		= 13800
+type		= 2
+resource_w	= "Win_Hyeri_1"
+onlymodel	= "2921, 2922, 2923, 2924, 2925, 2926, 2927, 2928"
+
+// 2025 서든패스 시즌1 승리포즈_팔랑댄스
+[Ceremony217]
+itemcode	= 13776
+type		= 2
+resource_m	= "Win_M_Pose89"
+resource_w	= "Win_W_Pose89"
+
+// 2025 서든패스 시즌1 승리포즈_인사
+[Ceremony218]
+itemcode	= 13777
+type		= 2
+resource_m	= "Win_M_Pose90"
+resource_w	= "Win_W_Pose90"
+
+// 2025 서든패스 시즌1 승리포즈_자아도취
+[Ceremony219]
+itemcode	= 13778
+type		= 2
+resource_m	= "Win_M_Pose91"
+resource_w	= "Win_W_Pose91"
+
+// 2025 서든패스 시즌1 승리포즈_보디빌딩
+[Ceremony220]
+itemcode	= 13779
+type		= 2
+resource_m	= "Win_M_Pose92"
+resource_w	= "Win_W_Pose92"
+
+// 2025 서든패스 시즌1 승리효과_플렉스
+[Ceremony221]
+itemcode = 13780
+type = 1
+resource = "Win_FX_AttackSnake"
+
+// 2025 서든패스 시즌1 승리효과_레이싱
+[Ceremony222]
+itemcode = 13781
+type = 1
+resource = "Win_FX_Drift"
+
+// 청사 승리포즈
+[Ceremony223]
+itemcode		= 13833
+type			= 2
+//resource_m	= "Win_Poison_1"
+resource_w		= "Win_Bluesnake_1"
+onlymodel		= "2947,2948,2949,2950,2951,2952,2953,2954,3109,3110"
+
+// 2025 강혜원 승리포즈
+[Ceremony224]
+itemcode	    = 13997
+type		    = 2
+resource_w	    = "Win_2025Hyewon_1"
+onlymodel	    = "2955, 2956, 2959, 2960"
+
+// 2025 최예나 승리포즈
+[Ceremony225]
+itemcode	    = 13999
+type		    = 2
+resource_w	    = "Win_2025Yena_1"
+onlymodel	    = "2957, 2958, 2961, 2962"
+
+// 다샤타란 승리포즈
+[Ceremony226]
+itemcode	    = 14063
+type		    = 2
+resource_w	    = "Win_Dasha_1"
+onlymodel	    = "2981, 2982, 2983, 2984, 2985, 2986, 2987, 2988"
+
+// 2025 서든패스 시즌2 승리포즈_총쏘는춤
+[Ceremony227]
+itemcode	= 14096
+type		= 2
+resource_m	= "Win_M_Pose93"
+resource_w	= "Win_W_Pose93"
+
+// 2025 서든패스 시즌2 승리포즈_파워댄스
+[Ceremony228]
+itemcode	= 14097
+type		= 2
+resource_m	= "Win_M_Pose94"
+resource_w	= "Win_W_Pose94"
+
+// 2025 서든패스 시즌2 승리포즈_지휘
+[Ceremony229]
+itemcode	= 14098
+type		= 2
+resource_m	= "Win_M_Pose95"
+resource_w	= "Win_W_Pose95"
+
+// 2025 서든패스 시즌2 승리포즈_심쿵댄스
+[Ceremony230]
+itemcode	= 14099
+type		= 2
+resource_m	= "Win_M_Pose96"
+resource_w	= "Win_W_Pose96"
+
+// 2025 서든패스 시즌2 승리효과_머그샷
+[Ceremony231]
+itemcode = 14101
+type = 1
+resource = "Win_FX_MugShot"
+
+// 2025 서든패스 시즌2 승리효과_캔디밤
+[Ceremony232]
+itemcode = 14102
+type = 1
+resource = "Win_FX_CandyBomb"
+
+// 이주은 승리포즈
+[Ceremony233]
+itemcode	    = 14273
+type		    = 2
+resource_w	    = "Win_Jooeun_1"
+onlymodel	    = "3021, 3022, 3023, 3024, 3025, 3026, 3027, 3028"
+
+// 이수지 승리포즈
+[Ceremony234]
+itemcode		= 14380
+type			= 2
+resource_w		= "Win_Leesuji_1"
+onlymodel		= "3047,3048,3051,3052"
+
+// 지예은 승리포즈
+[Ceremony235]
+itemcode		= 14382
+type			= 2
+resource_w		= "Win_JiYeeun_1"
+onlymodel		= "3049,3050,3053,3054"
+
+// 2025 승리포즈_줄넘기
+[Ceremony236]
+itemcode	= 14450
+type		= 2
+resource_m	= "Win_M_Pose97"
+resource_w	= "Win_W_Pose97"
+
+// 2025 승리포즈_쿵짝댄스
+[Ceremony237]
+itemcode	= 14451
+type		= 2
+resource_m	= "Win_M_Pose98"
+resource_w	= "Win_W_Pose98"
+
+// 2025 승리포즈_태권도
+[Ceremony238]
+itemcode	= 14452
+type		= 2
+resource_m	= "Win_M_Pose99"
+resource_w	= "Win_W_Pose99"
+
+// 2025 승리포즈_괜찮아댄스
+[Ceremony239]
+itemcode	= 14453
+type		= 2
+resource_m	= "Win_M_Pose100"
+resource_w	= "Win_W_Pose100"
+
+// 2025 승리효과_태양계
+[Ceremony240]
+itemcode = 14454
+type = 1
+resource = "Win_FX_SolarSystem"
+
+// 2025 승리효과_여름과일
+[Ceremony241]
+itemcode = 14455
+type = 1
+resource = "Win_FX_SummerFruit"
+
+// 썸머 권은비 승리포즈
+[Ceremony242]
+itemcode		= 14700
+type			= 2
+resource_w		= "Win_SummerEunbi_1"
+onlymodel		= "3181,3182,3185,3186"
+
+// 썸머 츠키 승리포즈
+[Ceremony243]
+itemcode		= 14702
+type			= 2
+resource_w		= "Win_SummerTsuki_1"
+onlymodel		= "3183,3184,3187,3188"
+
+
+
+// 2025 시즌4 승리포즈_한국무용
+[Ceremony244]
+itemcode	= 14734
+type		= 2
+resource_m	= "Win_M_Pose101"
+resource_w	= "Win_W_Pose101"
+
+// 2025 시즌4  승리포즈_붐붐리믹스
+[Ceremony245]
+itemcode	= 14735
+type		= 2
+resource_m	= "Win_M_Pose102"
+resource_w	= "Win_W_Pose102"
+
+// 2025 시즌4  승리포즈_야타댄스
+[Ceremony246]
+itemcode	= 14736
+type		= 2
+resource_m	= "Win_M_Pose103"
+resource_w	= "Win_W_Pose103"
+
+// 2025 시즌4  승리포즈_장꾸그녀
+[Ceremony247]
+itemcode	= 14737
+type		= 2
+resource_m	= "Win_M_Pose104"
+resource_w	= "Win_W_Pose104"
+
+// 2025 시즌4  승리효과_빛구름
+[Ceremony248]
+itemcode = 14738
+type = 1
+resource = "Win_FX_RainBowCloud"
+
+// 2025 시즌4  승리효과_디지털
+[Ceremony249]
+itemcode = 14739
+type = 1
+resource = "Win_FX_Digital"
+
+// tripleS 승리포즈
+[Ceremony250]
+itemcode = 14892
+type = 2
+resource_w = "Win_tripleS_1"
+onlymodel		= "3215,3216,3217,3218,3219,3220,3221,3222,3223,3224,3225,3226,3227,3228,3229,3230,3231,3232,3233,3234"
+
+// 키스오브라이프 승리포즈
+[Ceremony251]
+itemcode = 15034
+type = 2
+resource_w = "Win_kiof_1"
+onlymodel		= "3257,3258,3259,3260,3261,3262,3263,3264,3265,3266,3267,3268,3269,3270,3271,3272,3273,3274,3275,3276,3277,3278,3279,3280"
+
+// 하지원 승리포즈
+[Ceremony252]
+itemcode = 15491
+type = 2
+resource_w = "Win_Hajiwon_1"
+onlymodel		= "3299,3300,3303,3304"
+
+// 이주은 승리포즈Ⅱ
+[Ceremony253]
+itemcode = 15493
+type = 2
+resource_w = "Win_Jooeun_2"
+onlymodel		= "3301,3302,3305,3306"
+
+
+// 2026 시즌1 승리포즈_솔로열창
+[Ceremony254]
+itemcode	= 15566
+type		= 2
+resource_m	= "Win_M_Pose105"
+resource_w	= "Win_W_Pose105"
+
+// 2026 시즌1  승리포즈_에어로빅
+[Ceremony255]
+itemcode	= 15567
+type		= 2
+resource_m	= "Win_M_Pose106"
+resource_w	= "Win_W_Pose106"
+
+// 2026 시즌1  승리포즈_어떡하지
+[Ceremony256]
+itemcode	= 15568
+type		= 2
+resource_m	= "Win_M_Pose107"
+resource_w	= "Win_W_Pose107"
+
+// 2026 시즌1  승리포즈_오작동댄스
+[Ceremony257]
+itemcode	= 15569
+type		= 2
+resource_m	= "Win_M_Pose108"
+resource_w	= "Win_W_Pose108"
+
+// 2026 시즌1  승리효과_현상수배
+[Ceremony258]
+itemcode = 15570
+type = 1
+resource = "Win_FX_Wanted"
+
+// 2026 시즌1  승리효과_병오년맞이
+[Ceremony259]
+itemcode = 15571
+type = 1
+resource = "Win_FX_Happy2026"
+
+// 김설현 승리포즈
+[Ceremony260]
+itemcode 		= 15733
+type 			= 2
+resource_w 		= "Win_Seolhyun_1"
+onlymodel		= "3345,3346,3347,3348,3349,3350,3351,3352,3369,3370,3371,3372"
+
+// 김동현 승리포즈
+[Ceremony261]
+itemcode 		= 15750
+type 			= 2
+resource_m 		= "Win_Donghyun_1"
+onlymodel		= "3373,3374"
+
+//2026 츄 승리포즈
+[Ceremony262]
+itemcode 		= 15796
+type 			= 2
+resource_w 		= "Win_2026chuu_1"
+onlymodel		= "3375,3376,3377,3378,3379,3380,3381,3382"
+
+//이주빈 승리포즈
+[Ceremony263]
+itemcode 		= 16002
+type 			= 2
+resource_w 		= "Win_Leejoobeen_1"
+onlymodel		= "3401,3402,3403,3404,3405,3406,3407,3408,3409,3410,3411,3412,3413,3414,3415,3416,3417,3418,3419,3420"
+
+
+// 2026 시즌2 승리포즈_마법의 댄스
+[Ceremony264]
+itemcode	= 16023
+type		= 2
+resource_m	= "Win_M_Pose109"
+resource_w	= "Win_W_Pose109"
+
+// 2026 시즌2  승리포즈_크럼프
+[Ceremony265]
+itemcode	= 16024
+type		= 2
+resource_m	= "Win_M_Pose110"
+resource_w	= "Win_W_Pose110"
+
+// 2026 시즌2  승리포즈_꽃게춤
+[Ceremony266]
+itemcode	= 16025
+type		= 2
+resource_m	= "Win_M_Pose111"
+resource_w	= "Win_W_Pose111"
+
+// 2026 시즌2  승리포즈_약오르는춤
+[Ceremony267]
+itemcode	= 16026
+type		= 2
+resource_m	= "Win_M_Pose112"
+resource_w	= "Win_W_Pose112"
+
+// 2026 시즌2  승리효과_아이돌
+[Ceremony268]
+itemcode = 16027
+type = 1
+resource = "Win_FX_Idol"
+
+// 2026 시즌2  승리효과_개화
+[Ceremony269]
+itemcode = 16028
+type = 1
+resource = "Win_FX_Butterfly"
+
+//웬디 승리포즈
+[Ceremony270]
+itemcode 		= 16140
+type 			= 2
+resource_w 		= "Win_Wendy_1"
+onlymodel		= "3473, 3474, 3475, 3476, 3477, 3478, 3479, 3480, 3481, 3482, 3483, 3484, 3485, 3486, 3487, 3488, 3489, 3490, 3491, 3492"
+
+//정채연 승리포즈
+[Ceremony271]
+itemcode 		= 16309
+type 			= 2
+resource_w 		= "Win_Jungchaeyeon_1"
+onlymodel		= "3521, 3522, 3523, 3524, 3525, 3526, 3527, 3528, 3529, 3530, 3531, 3532, 3533, 3534, 3535, 3536, 3537, 3538, 3539, 3540"
+
+//최예나 승리포즈
+[Ceremony272]
+itemcode 		= 16372
+type 			= 2
+resource_w 		= "Win_2026Yena_1"
+onlymodel		= "3557, 3558, 3559, 3560, 3561, 3562, 3563, 3564, 3565, 3566, 3567, 3568, 3569, 3570, 3571, 3572, 3573, 3574, 3575, 3576"
+
+// 2026 시즌3 승리포즈_슈가댄스
+[Ceremony273]
+itemcode	= 16397
+type		= 2
+resource_m	= "Win_M_Pose113"
+resource_w	= "Win_W_Pose113"
+
+// 2026 시즌3  승리포즈_배구
+[Ceremony274]
+itemcode	= 16398
+type		= 2
+resource_m	= "Win_M_Pose114"
+resource_w	= "Win_W_Pose114"
+
+// 2026 시즌3  승리포즈_락커
+[Ceremony275]
+itemcode	= 16399
+type		= 2
+resource_m	= "Win_M_Pose115"
+resource_w	= "Win_W_Pose115"
+
+// 2026 시즌3  승리포즈_쿵푸
+[Ceremony276]
+itemcode	= 16400
+type		= 2
+resource_m	= "Win_M_Pose116"
+resource_w	= "Win_W_Pose116"
+
+// 2026 시즌3  승리효과_아우라
+[Ceremony277]
+itemcode = 16401
+type = 1
+resource = "Win_FX_Aura"
+
+// 2026 시즌3  승리효과_거울
+[Ceremony278]
+itemcode = 16402
+type = 1
+resource = "Win_FX_Mirror"
+
+// 리센느 승리포즈Ⅰ
+[Ceremony279]
+itemcode		= 16617
+type			= 2
+resource_w		= "Win_Rescene_1"
+onlymodel		= "3657,3658,3659,3660,3661,3662,3663,3664,3665,3666,3667,3668,3669,3670,3671,3672,3673,3674,3675,3676,3677,3678,3679,3680,3681,3682,3683,3684,3685,3686,3687,3688,3689,3690,3691,3692,3693,3694,3695,3696,3697,3698,3699,3700,3701,3702,3703,3704,3705,3706,3707,3708,3709,3710,3711,3712,3713,3714,3715,3716"
+
+// 리센느 승리포즈Ⅱ
+[Ceremony280]
+itemcode		= 16618
+type			= 2
+resource_w		= "Win_Rescene_2"
+onlymodel		= "3657,3658,3659,3660,3661,3662,3663,3664,3665,3666,3667,3668,3669,3670,3671,3672,3673,3674,3675,3676,3677,3678,3679,3680,3681,3682,3683,3684,3685,3686,3687,3688,3689,3690,3691,3692,3693,3694,3695,3696,3697,3698,3699,3700,3701,3702,3703,3704,3705,3706,3707,3708,3709,3710,3711,3712,3713,3714,3715,3716"
+
+// 이예빈 승리포즈
+[Ceremony281]
+itemcode 		= 16712
+type 			= 2
+resource_w 		= "Win_Yebin_1"
+onlymodel		= "3745, 3746, 3749, 3750, 3753, 3754, 3757, 3758, 3759, 3760, 3761, 3762, 3763, 3764, 3765, 3766, 3767, 3768"
+
+// 김가현 승리포즈
+[Ceremony282]
+itemcode 		= 16714
+type 			= 2
+resource_w 		= "Win_Gahyun_1"
+onlymodel		= "3747, 3748, 3751, 3752, 3755, 3756, 3769, 3770, 3771, 3772, 3773, 3774, 3775, 3776, 3777, 3778, 3779, 3780"
+
+// 2026 시즌4 승리포즈_깡총댄스
+[Ceremony283]
+itemcode	= 16790
+type		= 2
+resource_m	= "Win_M_Pose117"
+resource_w	= "Win_W_Pose117"
+
+// 2026 시즌4 승리포즈_포인트댄스
+[Ceremony284]
+itemcode	= 16791
+type		= 2
+resource_m	= "Win_M_Pose118"
+resource_w	= "Win_W_Pose118"
+
+// 2026 시즌4  승리포즈_투수
+[Ceremony285]
+itemcode	= 16792
+type		= 2
+resource_m	= "Win_M_Pose119"
+resource_w	= "Win_W_Pose119"
+
+// 2026 시즌4  승리포즈_볼링
+[Ceremony286]
+itemcode	= 16793
+type		= 2
+resource_m	= "Win_M_Pose120"
+resource_w	= "Win_W_Pose120"
+
+// 2026 시즌4  승리효과_개기일식
+[Ceremony287]
+itemcode = 16794
+type = 1
+resource = "Win_FX_Eclipse"
+
+// 2026 시즌4  승리효과_투더문
+[Ceremony288]
+itemcode = 16795
+type = 1
+resource = "Win_FX_ToTheMoon"
+
+// KISS OF LIFE 승리포즈Ⅱ
+[Ceremony289]
+itemcode	= 16865
+type		= 2
+//resource_m	= "Win_M_Pose121"
+resource_w	= "Win_kiof_2"
+onlymodel	= "3809,3810,3811,3812,3813,3814,3815,3816,3817,3818,3819,3820,3821,3822,3823,3824,3825,3826,3827,3828,3829,3830,3831,3832,3833,3834,3835,3836,3837,3838,3839,3840,3841,3842,3843,3844,3845,3846,3847,3848,3849,3850,3851,3852,3853,3854,3855,3856"
+
+// 츠키 승리포즈
+[Ceremony290]
+itemcode	= 16957
+type		= 2
+resource_w	= "Win_tsuki_1"
+onlymodel	= "3881,3882,3883,3884,3885,3886,3887,3888,3889,3890,3891,3892,3893,3894,3895,3896,3897,3898,3899,3900"

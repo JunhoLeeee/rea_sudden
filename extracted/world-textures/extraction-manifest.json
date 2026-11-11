@@ -1,0 +1,849 @@
+{
+  "profile": "selected-warehouse-textures-v1",
+  "reference_reports": [
+    {
+      "path": "evidence\\warehouse-world-structure-v2.json",
+      "sha256": "194021fb2a6ede2720d5283200eadefb3258a2ba7721b3d7a622afa8bb777d0e"
+    }
+  ],
+  "packages": [
+    {
+      "package": "C:\\Nexon\\SuddenAttack\\game\\sa_ppl_00000.pkg",
+      "header": {
+        "path": "C:\\Nexon\\SuddenAttack\\game\\sa_ppl_00000.pkg",
+        "bytes": 7621632,
+        "version": 3,
+        "mask_bytes": 124,
+        "masked_string_units": 13,
+        "encrypted_header_offset": 155,
+        "index_padding_bytes": 243,
+        "observed_header_sha256": "8d7291087b908abdebff7c4522bd8eea0f11144e00167c5458427b9e443887e7",
+        "identity_scope": "header-ranges-only",
+        "byteorder": "little",
+        "count": 211,
+        "checksum": 262655
+      },
+      "index_raw_sha256": "e7f9ce8384dac803773f727649e5c68f6b712b49a307d88e65475a358db82c27",
+      "extracted": [
+        {
+          "path": "sa_ppl/ad1/warehouse_01_01.dtx",
+          "offset": 1280000,
+          "stored_bytes": 39292,
+          "output_bytes": 262308,
+          "ciphertext_sha256": "f7f2a1bdfea8fc2c28c3249152bb3710c22caea12180fa2ca43d2d599eb89e04",
+          "output_sha256": "92d6112ca90dda868bf30ae68bda100d13c34f0eedb598b9c970a901e820e349",
+          "expected_md5": "ff3a7ec1bf6c6cb7720cf827c06409e0",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_ppl/ad1/warehouse_01_02.dtx",
+          "offset": 1319936,
+          "stored_bytes": 35076,
+          "output_bytes": 262308,
+          "ciphertext_sha256": "5e967c409731df184ebe8c271088c37be9fbdf437fe6b0e1160235d1da16f64b",
+          "output_sha256": "f0956cafd0626fbe78c6994631d0b2eaf3fcf476757f2e5849e71bc3e1b5d76e",
+          "expected_md5": "a57fdaad1f2dd2bfd8b947da507543bd",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_ppl/ad1/warehouse_01_03.dtx",
+          "offset": 1355776,
+          "stored_bytes": 27556,
+          "output_bytes": 262308,
+          "ciphertext_sha256": "130635c992bd4f1c1dd41de7164dc6feaa1ca903ca6554a28cd9e34534618e3e",
+          "output_sha256": "77a4c1f0102f0a8ebe485ee05360f9ef072b1866366bf522947d7f793d06501f",
+          "expected_md5": "d00609b4f0055f2d53bc2f665b8aa08a",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_ppl/ad2/warehouse_02_01.dtx",
+          "offset": 3805184,
+          "stored_bytes": 27780,
+          "output_bytes": 262308,
+          "ciphertext_sha256": "e45a19ed8f78bb41850627bc781ae14556b9080a3260577f3994b14791df65f3",
+          "output_sha256": "357f1c499768af3a8f9d44e86cbf928a0d9647bba3cf46e68dc4284c18fff5af",
+          "expected_md5": "8bd4fb3c131b45e4068a4aae17836ffd",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_ppl/ad3/warehouse_03_01.dtx",
+          "offset": 5255168,
+          "stored_bytes": 39292,
+          "output_bytes": 262308,
+          "ciphertext_sha256": "f7f2a1bdfea8fc2c28c3249152bb3710c22caea12180fa2ca43d2d599eb89e04",
+          "output_sha256": "92d6112ca90dda868bf30ae68bda100d13c34f0eedb598b9c970a901e820e349",
+          "expected_md5": "ff3a7ec1bf6c6cb7720cf827c06409e0",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_ppl/ad3/warehouse_03_02.dtx",
+          "offset": 5295104,
+          "stored_bytes": 35076,
+          "output_bytes": 262308,
+          "ciphertext_sha256": "5e967c409731df184ebe8c271088c37be9fbdf437fe6b0e1160235d1da16f64b",
+          "output_sha256": "f0956cafd0626fbe78c6994631d0b2eaf3fcf476757f2e5849e71bc3e1b5d76e",
+          "expected_md5": "a57fdaad1f2dd2bfd8b947da507543bd",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_ppl/ad3/warehouse_03_03.dtx",
+          "offset": 5330944,
+          "stored_bytes": 27556,
+          "output_bytes": 262308,
+          "ciphertext_sha256": "130635c992bd4f1c1dd41de7164dc6feaa1ca903ca6554a28cd9e34534618e3e",
+          "output_sha256": "77a4c1f0102f0a8ebe485ee05360f9ef072b1866366bf522947d7f793d06501f",
+          "expected_md5": "d00609b4f0055f2d53bc2f665b8aa08a",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_ppl/ad4/warehouse_04_01.dtx",
+          "offset": 7489536,
+          "stored_bytes": 39292,
+          "output_bytes": 262308,
+          "ciphertext_sha256": "f7f2a1bdfea8fc2c28c3249152bb3710c22caea12180fa2ca43d2d599eb89e04",
+          "output_sha256": "92d6112ca90dda868bf30ae68bda100d13c34f0eedb598b9c970a901e820e349",
+          "expected_md5": "ff3a7ec1bf6c6cb7720cf827c06409e0",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_ppl/ad4/warehouse_04_02.dtx",
+          "offset": 7529472,
+          "stored_bytes": 35076,
+          "output_bytes": 262308,
+          "ciphertext_sha256": "5e967c409731df184ebe8c271088c37be9fbdf437fe6b0e1160235d1da16f64b",
+          "output_sha256": "f0956cafd0626fbe78c6994631d0b2eaf3fcf476757f2e5849e71bc3e1b5d76e",
+          "expected_md5": "a57fdaad1f2dd2bfd8b947da507543bd",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_ppl/ad4/warehouse_04_03.dtx",
+          "offset": 7565312,
+          "stored_bytes": 27556,
+          "output_bytes": 262308,
+          "ciphertext_sha256": "130635c992bd4f1c1dd41de7164dc6feaa1ca903ca6554a28cd9e34534618e3e",
+          "output_sha256": "77a4c1f0102f0a8ebe485ee05360f9ef072b1866366bf522947d7f793d06501f",
+          "expected_md5": "d00609b4f0055f2d53bc2f665b8aa08a",
+          "md5_verified": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "package": "C:\\Nexon\\SuddenAttack\\game\\sa_tex_00000.pkg",
+      "header": {
+        "path": "C:\\Nexon\\SuddenAttack\\game\\sa_tex_00000.pkg",
+        "bytes": 105126912,
+        "version": 3,
+        "mask_bytes": 129,
+        "masked_string_units": 13,
+        "encrypted_header_offset": 160,
+        "index_padding_bytes": 46,
+        "observed_header_sha256": "fc7f051f3094255743219faed2323fe951f22cd5fa54dd25e8a0f5e044758446",
+        "identity_scope": "header-ranges-only",
+        "byteorder": "little",
+        "count": 2729,
+        "checksum": 396334
+      },
+      "index_raw_sha256": "bbae04b42a6899d36b01a62095263b060e73e5760a2980b3b7cbb4867caed95a",
+      "extracted": [
+        {
+          "path": "sa_tex/alphazero.dtx",
+          "offset": 6787072,
+          "stored_bytes": 60,
+          "output_bytes": 1188,
+          "ciphertext_sha256": "684decd93d78a9013f9ce556b8f7d3ff75b7eb49c8855f7161295b5051ab405a",
+          "output_sha256": "71b03a855e8e3fd5cbdd230ac2de09b60897b469b39c5c1111c04d6dabbd8eab",
+          "expected_md5": "a0981de67df667e0b4120313f353d08d",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/black.dtx",
+          "offset": 37210112,
+          "stored_bytes": 148,
+          "output_bytes": 332,
+          "ciphertext_sha256": "d01b1f6b94b253b076b390ecb19f242265c69db03cd345db4d163e03256d9227",
+          "output_sha256": "dc08506e97f38a32f552c32cb5b99d731d1a0cc23ee5ae87020146145e3ce2be",
+          "expected_md5": "79e1ba7cb1b3dd3a3fa75f578ac568f0",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/blocker.dtx",
+          "offset": 37211136,
+          "stored_bytes": 2964,
+          "output_bytes": 87204,
+          "ciphertext_sha256": "498f129e370945a1944cd056e419680e9cd8e7bbedfa66431fe8d8fb57c76a42",
+          "output_sha256": "03557c070a29a81527984e4940c60a808e78ae0c4e6a04e082c09276273f97b9",
+          "expected_md5": "b9276612de871d8a35abe488dc0de34b",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/deathzone.dtx",
+          "offset": 51461120,
+          "stored_bytes": 1072,
+          "output_bytes": 11044,
+          "ciphertext_sha256": "fa28b9ea3a7d56c8b6cf76aa098797cec4b784c59135dae817dd8b5190307464",
+          "output_sha256": "73cb25241666786de8eab692bf954d7213ff7de37fda34a307f0d16cbe5d505e",
+          "expected_md5": "782d162ab3d6fe78a622a17d5fccb75b",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/egg/target01.dtx",
+          "offset": 54068224,
+          "stored_bytes": 10276,
+          "output_bytes": 21924,
+          "ciphertext_sha256": "6b98e1d6a0ae61689ec7f2cb3cda7b610e9f1f64c1f4714112d73376fdcb9529",
+          "output_sha256": "bd140615c6a62bcb83a11792983a285fdd84362db1d2c4f0649e7387d15862ba",
+          "expected_md5": "8215d7a0abd9f731eac446b3991afc6a",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/lab/door_patton1.dtx",
+          "offset": 82056192,
+          "stored_bytes": 8660,
+          "output_bytes": 21988,
+          "ciphertext_sha256": "95c4bd006c23624ece4a435c65206d96bb823282b48ea401aac3a6f565e9728a",
+          "output_sha256": "abae91dfc441b5756e6713fd06220f865ef6724b2b7470d4638aa2d3cce1b5b6",
+          "expected_md5": "9762ec617e6607bfa102478c1e4a4c81",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/lab/light01.dtx",
+          "offset": 82074624,
+          "stored_bytes": 712,
+          "output_bytes": 1444,
+          "ciphertext_sha256": "db8d8d4fabe860e4326beac4b063acd1e532e55eac0d32d0025f35a7263f45c1",
+          "output_sha256": "00b24e2b78f36d6af5a9abd6ce1165afee113b40eaf675d3afbce58dddf51a3f",
+          "expected_md5": "2ff186a483ed52c4fcd8fdf78b5fc98d",
+          "md5_verified": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "package": "C:\\Nexon\\SuddenAttack\\game\\sa_tex_00001.pkg",
+      "header": {
+        "path": "C:\\Nexon\\SuddenAttack\\game\\sa_tex_00001.pkg",
+        "bytes": 60230656,
+        "version": 3,
+        "mask_bytes": 130,
+        "masked_string_units": 13,
+        "encrypted_header_offset": 161,
+        "index_padding_bytes": 49,
+        "observed_header_sha256": "93e2f249758613d7c046060d5ecd99479d0b91c154b866ed1218f7bf9d1c7a07",
+        "identity_scope": "header-ranges-only",
+        "byteorder": "little",
+        "count": 1482,
+        "checksum": 395087
+      },
+      "index_raw_sha256": "222682dee33020aae74d41717aac9646af81f8a51b0f919ed2962ae4d6235634",
+      "extracted": [
+        {
+          "path": "sa_tex/sky.dtx",
+          "offset": 20561920,
+          "stored_bytes": 596,
+          "output_bytes": 2884,
+          "ciphertext_sha256": "262bad2f51a798945909a6a3fe5467cdea22e7100c2c4054950c12e53b162edd",
+          "output_sha256": "022d72d88e39de87fe81ae2dcf4503720d5afb1ea5598551f25f3828d79d8c50",
+          "expected_md5": "a481b0d719a5ed1fec29e5316e49be05",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/submarine/roof_center.dtx",
+          "offset": 23496704,
+          "stored_bytes": 10152,
+          "output_bytes": 21924,
+          "ciphertext_sha256": "e50e3ec7729c612424929ccf3be103b44e87fbbdb9bd92049b4b6e5903f2976c",
+          "output_sha256": "bc87f434a843246c9f6eaee69fb41a8e1499567482d2346cb69708540925cec3",
+          "expected_md5": "8d489c079af8a803f34eb4526af98b9a",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/tank/fan.dtx",
+          "offset": 27010048,
+          "stored_bytes": 21668,
+          "output_bytes": 21668,
+          "ciphertext_sha256": "74ea2202e0e7c5e83475d74ab120c1b6f99e05427e60ff1aa45c8ebd70cb15c8",
+          "output_sha256": "52feefd9b8a08df0e71974848f7fff0ba1abc47583394dba37676e3bf42422d8",
+          "expected_md5": "c8788b330c276e90fa398d346d61a4a6",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/tank/fance.dtx",
+          "offset": 27032576,
+          "stored_bytes": 30036,
+          "output_bytes": 87204,
+          "ciphertext_sha256": "910cf706551992d93562972da60e9f1f9a59c92551acb0752eefa660aece272e",
+          "output_sha256": "5cc92b1cbf1b2d96a3cd349f2a8f2a36dc6476eecf7ee7dbc0f729b0d5ee6193",
+          "expected_md5": "2c5fcd10592787c3c3ab41f17f57dd4d",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/tank/iron.dtx",
+          "offset": 27852800,
+          "stored_bytes": 21924,
+          "output_bytes": 21924,
+          "ciphertext_sha256": "57a1ef37244be8874e52f35e9adb0b4945c0bf38aa151054a17fadca9d11cedf",
+          "output_sha256": "afa8473dc51f9f6c61b2a8822875a9e63919f82fd942aacd342016c40ae3317e",
+          "expected_md5": "2f8d060d6f34ef80c47f378b426523b6",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/3map_step_wall.dtx",
+          "offset": 31169536,
+          "stored_bytes": 83836,
+          "output_bytes": 174756,
+          "ciphertext_sha256": "bca156b6f313f4dacc3533647b784e58d0f55992b50a8adffd40c9a5fa737c19",
+          "output_sha256": "280d5b6c02b7f2d66aebdc9f1961417c73d14c9402d6aac2a401953095916b26",
+          "expected_md5": "d4c0900f276f96b952b808ea8d67ad4a",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/3map_wall_window.dtx",
+          "offset": 31253504,
+          "stored_bytes": 12564,
+          "output_bytes": 43812,
+          "ciphertext_sha256": "40142112efaffc86942f96328cde375c6b8ce50a1142c221f89928de0e30cf66",
+          "output_sha256": "c27735d1ab2a3ede27cbe81e9daa97d3310caccd28c51845a32608fd3ee0c134",
+          "expected_md5": "7736f760ab97e244bd6d503cc91171df",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/air_road.dtx",
+          "offset": 31266816,
+          "stored_bytes": 87460,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "3ab36013f2d22d4d3c39e8ff5c1e45f11859a094ef2537d752e16020d74f0565",
+          "output_sha256": "6c16c486b3506e261b5c0d5443d09157788d250075604026816e2c9cfc37bb6f",
+          "expected_md5": "ccbf2c0b91a0ccbf993488f47db0295e",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/air_road_top.dtx",
+          "offset": 31354880,
+          "stored_bytes": 87460,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "4d4a2ffb8bc7f1015060dbd42b521ec46d8aeba7b090e6166d634ad8850c9702",
+          "output_sha256": "84bb4538e782f537b93354e2e0db958c6c611a5c9730b7f6e70da93024ffb8cf",
+          "expected_md5": "d2de44514943b68ead1eccd3995918c5",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/background_building.dtx",
+          "offset": 31442944,
+          "stored_bytes": 41804,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "f739d6496d28f36847f91fe19f528491dc72a74500688de68935194eaa483788",
+          "output_sha256": "4b9f9d52168eaf7558a3593818468dec3cae87295602a32da4c05ef59a6274bb",
+          "expected_md5": "9cc928e59b98aec98ad1d1a704bb9683",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/background_building_pole.dtx",
+          "offset": 31484928,
+          "stored_bytes": 5060,
+          "output_bytes": 11044,
+          "ciphertext_sha256": "a3e1524dcc41bdeb9e6a5aa340201c48e2181888a55f4b80347984eff77a390e",
+          "output_sha256": "2f4419072baf7e1fd5d4582090a4fabece664929285d964dc2631edde55a0fa0",
+          "expected_md5": "f4a84caff0153a50edb612bf045a2597",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/block.dtx",
+          "offset": 31522816,
+          "stored_bytes": 4876,
+          "output_bytes": 10916,
+          "ciphertext_sha256": "9ec95e278849bcd9d2e6df9a59e9f4d4b4df913237921ba3496dcfd252ca7e90",
+          "output_sha256": "00f520f9f1069c1a52b64b56980a720d641560559288473f6daf9c5453eaf90c",
+          "expected_md5": "137914ec918fc1ab91c713325a1ae866",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/box.dtx",
+          "offset": 31527936,
+          "stored_bytes": 40712,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "2ff100a64aac61b15197e621af02adf349aa98d163c729a011572d6b5fa754e4",
+          "output_sha256": "4c099bb1c334e63b6a9b1022c252708c60b7c133ba127ca4c85e458c3a26bb4c",
+          "expected_md5": "00435e2daba56a1b8ee5c92d1c8390bd",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/container.dtx",
+          "offset": 31568896,
+          "stored_bytes": 68120,
+          "output_bytes": 174756,
+          "ciphertext_sha256": "64df820c700db9f9ddabbae4dc84463be4d3d844c7875cb3998373efb540f053",
+          "output_sha256": "4ee880f3d6844caee63ddbcee1eaf1f81e84cce561f0a893b8efed1579763d90",
+          "expected_md5": "6d403a256e669515986a1cc532bad21d",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/container_door.dtx",
+          "offset": 31637504,
+          "stored_bytes": 42052,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "d1bb6a428c4da14603fba9f84f8e8186da5319d3fca9c17a3972fd07d29d9ac6",
+          "output_sha256": "33778ea270d9bb9f6c9eeb8ce5507d060c6e25c5c237dd5675e12b5959905714",
+          "expected_md5": "1b82d042bba409ceea5b19cb2a5c5f1e",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/container_inner.dtx",
+          "offset": 31680512,
+          "stored_bytes": 62204,
+          "output_bytes": 174756,
+          "ciphertext_sha256": "cb5c0bacae28433667521d47ae48575a5be5870cedccf11d2ca7a1475d80fb13",
+          "output_sha256": "79590177d54793a4a2d41c174782d091a69f69f10d0eec83cb9c76bac42de378",
+          "expected_md5": "9ca330938f4bc415be666e1a1ff97f27",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/container_s.dtx",
+          "offset": 31742976,
+          "stored_bytes": 35616,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "c453e57600cf9d0fe6787cf5b9cc21db1fecc7ae2337fa48c8df0ac2c48cebc9",
+          "output_sha256": "c99148766f9a3cdbf95009bce74a42f0a212e0999f15c9cc1775c38a78186623",
+          "expected_md5": "3363295acf43af39af69acc33e0b636c",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/desk.dtx",
+          "offset": 31778816,
+          "stored_bytes": 34224,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "16a1990266fe8479fa20ce656713393e18ead45e5c298655970b063cd507ba9d",
+          "output_sha256": "59715947685c2ed01da5c195ac1bcc97c414ddef2234104ac309bd6fb1cf586b",
+          "expected_md5": "9b8b394de1454c91723dae83d8b62227",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/door_hand.dtx",
+          "offset": 31835136,
+          "stored_bytes": 21988,
+          "output_bytes": 21988,
+          "ciphertext_sha256": "2df1e7e607caa9829a16057ad47a1b1b37003aca8b31c6bfcd97ff162f78fe80",
+          "output_sha256": "e55302870eb072b5ccd12ed4eea3c4b6924327c80ed65a6f5af1274585c9b952",
+          "expected_md5": "5b72b7221c31a4520fcf4e482faa2188",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/door_m.dtx",
+          "offset": 31857664,
+          "stored_bytes": 41572,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "49cfc160146a769bb28d0b673201f1b6bd5b95b4283dae907cf05dba4b28a0a2",
+          "output_sha256": "9b14a917b682eeb73015a6998891d550b19fc58edb33bd46c37cbc0b54a47edf",
+          "expected_md5": "4ae1faee84d611a33b25653b64cfb3b9",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/exit.dtx",
+          "offset": 31899648,
+          "stored_bytes": 43812,
+          "output_bytes": 43812,
+          "ciphertext_sha256": "36973c6ccd3fd94499abd7b032d12b86dc1a25176e29a8906966441faebc437a",
+          "output_sha256": "82667e6bc81279c3d4a370c45261888e783efdd56466c5cb3b1d111880a02890",
+          "expected_md5": "a8b449a9fcd001a4645e7fb44ac9c667",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/fance.dtx",
+          "offset": 31943680,
+          "stored_bytes": 30340,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "136dff7cfabd428739a34e0f15044edf2cb83820bca0f61b887871f54f722d71",
+          "output_sha256": "83bbe8f469e72401ccfc408c261088fb6a8dda6437c3cbabf606b89bc18fbe27",
+          "expected_md5": "08e9f114b919eb6c777cfed628b60931",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/ground.dtx",
+          "offset": 31974400,
+          "stored_bytes": 10472,
+          "output_bytes": 21988,
+          "ciphertext_sha256": "b1327340c900904dbf757b228512eddc874e2287e0d974edbac634fde695d962",
+          "output_sha256": "5b5616a7909dbda9eebdf9c3b0d94a0e573d87389518d1655f70e44c9aff880f",
+          "expected_md5": "0bd7e9da77a8c4483019f6638a183e31",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/ground7.dtx",
+          "offset": 31985664,
+          "stored_bytes": 87460,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "47981cf2d72274312e3fac89b0d8467ed5136f66b7384e76941de8bcf578c1d8",
+          "output_sha256": "64407e3385653b849f56b56f93b55a294cc96667575c8659efa212f8ced76c61",
+          "expected_md5": "d5b977d21f116c5076dbca6e84330edf",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/harbor_f.dtx",
+          "offset": 32073728,
+          "stored_bytes": 87460,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "c1b99053b7dbfa669e67ac1d696a74570ecf5a0a6a29a0088007aae57170e556",
+          "output_sha256": "d79dee7c4298db26bc17189797af4220f4c987dbb5c2aa9f33aaaa4b88dd68ff",
+          "expected_md5": "7d13cc4fea5084a5a70fb4f09fa90f91",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/hyungang.dtx",
+          "offset": 32161792,
+          "stored_bytes": 4008,
+          "output_bytes": 11044,
+          "ciphertext_sha256": "8cd38bba3c9161b818faaa3e0d3426c51f1cab44e60fcbdc320c8b37e4aa70b0",
+          "output_sha256": "335899fc404f8a9df0adeb983b33939adae2b129c7ae0d1298de26109bb651bd",
+          "expected_md5": "efbb4c23eeab87bd165ca902a8599e24",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/inner_door.dtx",
+          "offset": 32165888,
+          "stored_bytes": 19340,
+          "output_bytes": 43812,
+          "ciphertext_sha256": "3afcdec6ef185d8e1c1992aa114e353019720706d004f00e965c9391af406649",
+          "output_sha256": "b7bad8eb11a6c19267bc7a4fb69f3936136058b5be5050b5ff13ec3cb886df14",
+          "expected_md5": "f9e16c19ef6b52cca1eda63709f37610",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/iron_bone.dtx",
+          "offset": 32195584,
+          "stored_bytes": 10196,
+          "output_bytes": 21924,
+          "ciphertext_sha256": "1ea0a2b5fb31ea1024e15bef8f5d4fca64c93fba357a5656a0ed4de5949ce13e",
+          "output_sha256": "9ca2b1e46ac4ed5ae3a1146d04c53fd32038c4f44069d7755066d3002db0e5af",
+          "expected_md5": "2466a4e0d21c8fb0406a1e1f9f1a0b8e",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/iron_door.dtx",
+          "offset": 32205824,
+          "stored_bytes": 5452,
+          "output_bytes": 11044,
+          "ciphertext_sha256": "5df3906df60ad8532e75047226db5a3b2e7d54d16af718dcd5785e2417738a52",
+          "output_sha256": "6904d314f9e3b071b4c15adfcd3b824086f40c2a9b224461b18aa8b0b93bc8e4",
+          "expected_md5": "f7fca7a20b73a9593b72be31b2746dea",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/light2.dtx",
+          "offset": 32211968,
+          "stored_bytes": 8260,
+          "output_bytes": 21988,
+          "ciphertext_sha256": "35deb648a3f9d631874310c2350ad7a389155946cfac9c3b21814b085e566f70",
+          "output_sha256": "577a81df9ed6cec506998dc067871d44be554ba4751555d80beb5de3c184403b",
+          "expected_md5": "36a0c94e651f7d303fd23cbc6308bb8a",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/map.dtx",
+          "offset": 32221184,
+          "stored_bytes": 38112,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "99e3f5c5b4608eb212e3416563a47db4beef16c3d86799b926febda14455ae2e",
+          "output_sha256": "90976ffce1f30a1764b15de3dc5f97478faca478b523e52055ba1d4c0c190153",
+          "expected_md5": "160b24d61a02943cd8656e7654a97eec",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/new_top_wall.dtx",
+          "offset": 32260096,
+          "stored_bytes": 80172,
+          "output_bytes": 174756,
+          "ciphertext_sha256": "5c74f7825091626afee6b01903e315dcebda425fdee30f67dc7e978a1ad0dd3b",
+          "output_sha256": "4a9f1433a71514edbcb2f40dba8e00eaa3cb5273a0385e0628cea8258d1ae566",
+          "expected_md5": "67cb78ecfefa72cbe95c7fe69a7b24e2",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/new_wall.dtx",
+          "offset": 32340992,
+          "stored_bytes": 41064,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "75553d40ad509d5d83610d32ec7ccf7c6c5b9e452b9ddf27a03f04e068bd5b6b",
+          "output_sha256": "131dbb56c0ba93a1ef15f1955d8dafa056e7b2d82330bc6e39ec10bd72ab0d38",
+          "expected_md5": "6a3f7c578b721e9f9d63141860e156e6",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/new_wallout2.dtx",
+          "offset": 32405504,
+          "stored_bytes": 10720,
+          "output_bytes": 21988,
+          "ciphertext_sha256": "0e4222f144bf46e078908f25eb37bb8f1f1561f643163fd7dc675b910c73ce60",
+          "output_sha256": "ae8a72e17a1f5aba0f7f5beef0cd40eea4062b0e820915230d5331b65d7c0fdc",
+          "expected_md5": "36a91eec7ed5e042609f614f5259750b",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/o_paper_box.dtx",
+          "offset": 32416768,
+          "stored_bytes": 41816,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "9c96336ab2ec61c467b24a39810ddb5269bab20a5055a89e8ab49c33ec571e29",
+          "output_sha256": "fa852f40431ef5e159b4e64d8b5210adbb22431c45243019c37fa14e346d4a2c",
+          "expected_md5": "c2952236b97cc58c85911e4b9baebfb2",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/office_celling.dtx",
+          "offset": 32458752,
+          "stored_bytes": 10328,
+          "output_bytes": 21988,
+          "ciphertext_sha256": "6d3567ed5a559b23b05da8fb8c789163eb8ac9f671a1dfe2348a352015d19e70",
+          "output_sha256": "769b67eddc283041ed97d998c7d3da7a9a915bd7b76c914a47dce362fdc7f6af",
+          "expected_md5": "fec3d7443490663b48d4c8fe1f051aec",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/office_wall_block.dtx",
+          "offset": 32470016,
+          "stored_bytes": 38676,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "ce01e1efe461a75018a308a89eec5418a88bbdba289ee35da668eb437213e8ff",
+          "output_sha256": "5f33c67020e037138367a3dd1acf2daa7051549b773843fd35847ce59ca89740",
+          "expected_md5": "68529984d0a94dae2f560fe5bcb9c37e",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/office_wall_pole.dtx",
+          "offset": 32508928,
+          "stored_bytes": 4328,
+          "output_bytes": 10916,
+          "ciphertext_sha256": "155e41e6c125f04516bd3251528d58ea893bfca8b0cf978514dbf4513d554eaf",
+          "output_sha256": "62ec91ba905fd78a1162fc06993a39427d63269315bf47b32dfbfe786c9fdbcb",
+          "expected_md5": "1208d9d50a0ce3813e2613219be47ddc",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/out_light.dtx",
+          "offset": 32545792,
+          "stored_bytes": 5604,
+          "output_bytes": 5604,
+          "ciphertext_sha256": "e50ee9ef57fa62810e83ae9708a6555c986915e59cd91561aa58f8bc6efb9fe7",
+          "output_sha256": "c2a8f0c9bb4f48eb00a539a5d5132c705e05ead53938d66c49ebe87172845ccb",
+          "expected_md5": "038015a06df24c1d061d974eb5ba1a6f",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/paper_box.dtx",
+          "offset": 32551936,
+          "stored_bytes": 8008,
+          "output_bytes": 21924,
+          "ciphertext_sha256": "5f6e4f480200d83cad13395f731e2943df61c747fe0c317c48c3a236591a49d0",
+          "output_sha256": "7156a1937bba0db765f499e2c92be449aded3d39b43e1513aa2019f69f597825",
+          "expected_md5": "6b14a78214ff39fb8541597cafa508f5",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/paper_box_t.dtx",
+          "offset": 32560128,
+          "stored_bytes": 7316,
+          "output_bytes": 21924,
+          "ciphertext_sha256": "1584ffbe8ea8bd61e8a17edcd2d91773deca7be981e5c573aaf60c4ed5e146b0",
+          "output_sha256": "153b010020d47649dae6098110879a4152131f9f444a52f3dcb90a531200651c",
+          "expected_md5": "785ecd942f324017d53c641b76ec8bcf",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/roof.dtx",
+          "offset": 32568320,
+          "stored_bytes": 24596,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "37fac8c77d5c0e628345252f921db1006d34fda096ed4dcf7fe305bf92b36cbf",
+          "output_sha256": "a9def81a192834b841553d51841b92e2e882f87a47724a66150b37cec74cfe18",
+          "expected_md5": "a7c92a9eb05bc02c9767b6ccfd880f3c",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/shotter.dtx",
+          "offset": 32593920,
+          "stored_bytes": 146032,
+          "output_bytes": 349348,
+          "ciphertext_sha256": "1fb81d0b4c773891a799714e5a265c85f6fe2626585c2a292f7d9105a19571fe",
+          "output_sha256": "dfc7f91ac65dd74f4d1315dde76c8c18ea6737a39434bbccfdb0b1eb38064def",
+          "expected_md5": "0ba2b946cdfd0a3acf0f3e77549b28ae",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/tree_cabinet.dtx",
+          "offset": 32740352,
+          "stored_bytes": 29396,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "6b5ef64534ce9577be7cfbfbc8878a4daaabffbbeb2a37894f1445ed4ced0a24",
+          "output_sha256": "dfcdcc7f761fd297f6d706d594fdd0520a5a4fd8662fce517feaeff0103452bb",
+          "expected_md5": "d9e1b9d3ce1931e6a2a195c37b0c2e20",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/wall01.dtx",
+          "offset": 32770048,
+          "stored_bytes": 41476,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "b9a6670f36beeb6ba66cba0aea9a0ecf95392ce21a39d89604f40a997ffeab42",
+          "output_sha256": "73fc9fa9b708fdd89322b4858a69eaa5f3058c3bcaf5a588283a7c13e11bd409",
+          "expected_md5": "42c6603c23fac9051f3ca77ecaad08f0",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/wall_05.dtx",
+          "offset": 32812032,
+          "stored_bytes": 40912,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "56ad057e5725bd339d9cbf1a56013c1be58fdc06a279e464433a18287771bc42",
+          "output_sha256": "99bd1135f8f5e28ec1644ca10b3d969fd97f6c5bd44e2cd5f349234e8f84b4b2",
+          "expected_md5": "bff30d64dba580b78808b58610545665",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/wall_42.dtx",
+          "offset": 32852992,
+          "stored_bytes": 349348,
+          "output_bytes": 349348,
+          "ciphertext_sha256": "cc0ac0568d3cb4feae3501315205d7675a81b637bdb170ae570ca517943bd01e",
+          "output_sha256": "670bf58ca10a0cdb1d51619451b1a02e6ece56ebbace6a658a9de5cbff1ba729",
+          "expected_md5": "2bc4474de8ebb3ad5b6e124232e0e397",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/windows.dtx",
+          "offset": 33203200,
+          "stored_bytes": 37296,
+          "output_bytes": 87460,
+          "ciphertext_sha256": "bde4fa15558ee6dc090426357da447b936f117f441cfef3d57dd0db5b30be6ad",
+          "output_sha256": "5cb029ffa1e392d7cfd71facfaf08842b3d0a33d6b6a911d0f0644a7f3996742",
+          "expected_md5": "493176fb938df0af5c1902e685b2c875",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/ware_house/windows1.dtx",
+          "offset": 33241088,
+          "stored_bytes": 4936,
+          "output_bytes": 11044,
+          "ciphertext_sha256": "6c15fe9e27f077df845a2bf1bb5de1dd9a035839451e26bf4b2b7ab369ee9c16",
+          "output_sha256": "673e59dd5fd0e51decac34e213872688cbc0d242aea74aae2de23575e4f01aa5",
+          "expected_md5": "b9a6ff8d8eab35687c1342f86e680727",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/zerogravity/20060418_topblue_01.dtx",
+          "offset": 36444160,
+          "stored_bytes": 2168,
+          "output_bytes": 5540,
+          "ciphertext_sha256": "b768a4d8be4382b3b4ccd4678dc778961d027d2d5bafe0cb21af18d025379434",
+          "output_sha256": "5db7c329f3b699799c9b9bc6fdd4952590a21418bd2ddfd194bf8d4fb23246a1",
+          "expected_md5": "d723316eb7b4a9d9c3c1afd97bd6a4b4",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/zerogravity/20060418_topblue_02.dtx",
+          "offset": 36447232,
+          "stored_bytes": 2040,
+          "output_bytes": 5604,
+          "ciphertext_sha256": "97ceec1f8e006885989ed5f7db6aaa7a742294e9807ce4900141e93b5a69e53e",
+          "output_sha256": "f0ee9928960ba203004f53515a0fc079dc091426b038ebb6ddc52c8441e5b986",
+          "expected_md5": "33fe88725dec40064dc8c0f8255f5d0a",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/zerogravity/20060418_topblue_03.dtx",
+          "offset": 36449280,
+          "stored_bytes": 1928,
+          "output_bytes": 5604,
+          "ciphertext_sha256": "dbd485c25f51e5b455551e5c0188ecd057b6d2fdb760209370b37707fb3bd04c",
+          "output_sha256": "c78a6eef504d3360c2ab2b58c1904941c3f1dcd3add55bee8e1c05879c13e3b8",
+          "expected_md5": "a2feefdea99543f1c2e84579f985f6b5",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/zerogravity/20060419_cen_win03.dtx",
+          "offset": 36807680,
+          "stored_bytes": 2148,
+          "output_bytes": 5604,
+          "ciphertext_sha256": "8b08a4d54fb00146ac7e01cd8ef42fa21ee97a96981a8af22b0427e2e66a766f",
+          "output_sha256": "c28085de547bbd6609b47453d70cc1aa49c0e4574ed804128449a1acfc7e347b",
+          "expected_md5": "a66f915d13bdad8b87180249e3bdec0f",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_tex/zerogravity/bottom03.dtx",
+          "offset": 37732352,
+          "stored_bytes": 9568,
+          "output_bytes": 21988,
+          "ciphertext_sha256": "1ed43934d70e78357a28265776a523cc4404b534a63a2370b3e198d3b16ec0ff",
+          "output_sha256": "1ade306584445c7373ccee9ed4417b8074fd22775024afb209d0ff8c0b9f5e4d",
+          "expected_md5": "90b8dfd831ca83d4d2551e4bc641fa1f",
+          "md5_verified": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "package": "C:\\Nexon\\SuddenAttack\\game\\sa_texfx_00000.pkg",
+      "header": {
+        "path": "C:\\Nexon\\SuddenAttack\\game\\sa_texfx_00000.pkg",
+        "bytes": 15626240,
+        "version": 3,
+        "mask_bytes": 39,
+        "masked_string_units": 13,
+        "encrypted_header_offset": 70,
+        "index_padding_bytes": 76,
+        "observed_header_sha256": "f0ef733d80176989fcdbbc0d3a81b92bbece7207acdb126f6a513df40adb30c1",
+        "identity_scope": "header-ranges-only",
+        "byteorder": "little",
+        "count": 126,
+        "checksum": 524539
+      },
+      "index_raw_sha256": "e5bc2156f1522cccf84f48b1f8f558bc4377c6cb0c8f5ac7e2a686ebd50dfb0f",
+      "extracted": [
+        {
+          "path": "sa_texfx/sky/darkskybk.dtx",
+          "offset": 4029440,
+          "stored_bytes": 53924,
+          "output_bytes": 524452,
+          "ciphertext_sha256": "4fda32a016105914202604253c613d9a7e49639dc4ca8638be55f02f7a368409",
+          "output_sha256": "0ba28fcd03f1258e47d854bafe6128bf6c27c60137f291ede4bc486c75dc4c81",
+          "expected_md5": "7c6a9585bb8a86f21764f2c9aaf9f48f",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_texfx/sky/darkskyfr.dtx",
+          "offset": 4083712,
+          "stored_bytes": 52180,
+          "output_bytes": 524452,
+          "ciphertext_sha256": "a6665ced71afb4f549d898ba68b951b595be61f18e61c02a42f254f87d5286d7",
+          "output_sha256": "7d2afaa47cd932aa49ebf25a73f0bdcc84a743ec1c7759ff09cd60948d301184",
+          "expected_md5": "d314bafa45d864a8bdc9a540092dfee6",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_texfx/sky/darkskylf.dtx",
+          "offset": 4135936,
+          "stored_bytes": 51308,
+          "output_bytes": 524452,
+          "ciphertext_sha256": "e1baafcfd403b433d52243e5b033fff19cf3f9fe8ab6d4bfde4805115403d841",
+          "output_sha256": "e83c5868cf09b3f653344a2374bc648adae1f6440dd9276ea81d55f77610477d",
+          "expected_md5": "912e0eb8f65b83a6756f892204de2aef",
+          "md5_verified": true
+        },
+        {
+          "path": "sa_texfx/sky/darkskyup.dtx",
+          "offset": 4240384,
+          "stored_bytes": 103660,
+          "output_bytes": 1048740,
+          "ciphertext_sha256": "3bb3e7b21dc88a1d2f23083ad208caba0a1549f7fa2545426890097e1118371e",
+          "output_sha256": "b3e55f42963baf0451084f23551e60653a9965660a3d96735e4163a9205e39e2",
+          "expected_md5": "821ffbe9bfd7dfcf43d84385f64cd25e",
+          "md5_verified": true
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "Package header/index and selected ranges verified; full package SHA-256 was not computed.",
+    "Installed game modules and textures are never executed."
+  ]
+}

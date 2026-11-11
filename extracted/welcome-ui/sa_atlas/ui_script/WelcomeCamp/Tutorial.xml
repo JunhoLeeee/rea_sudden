@@ -1,0 +1,8 @@
+<UIEditor>
+    <UIInfo name="step_level_highlight" x="22" y="162" w="614" h="110" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_tutorial_wp_welcome" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="step_reward_highlight" x="22" y="252" w="757" h="243" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_tutorial_level" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="step_mission_highlight" x="103" y="0" w="250" h="95" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_tutorial_main_mission" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="step_attendance_check_highlight" x="338" y="177" w="425" h="137" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_tutorial_attendance_welcome" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="btn_tutorial_next_step" x="578" y="204" w="50" h="26" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_main_highlight_next_btn_n" comptype="Button" groupname="" hudalign="0" hudstretch="false"/>
+    <UIInfo name="list_tutorial_level_reward" x="22" y="308" w="762" h="187" type="1" commandid="" atlas="" texture="" comptype="ListEx" groupname="" hudalign="0" hudstretch="false" listname="CCampTabRewardList" itemwidth="127" itemheight="187" usescroll="false" drawback="false" widthitemcount="6" heightitemcount="1" script="WelcomeCamp/CampTab_RewardList"/>
+</UIEditor>

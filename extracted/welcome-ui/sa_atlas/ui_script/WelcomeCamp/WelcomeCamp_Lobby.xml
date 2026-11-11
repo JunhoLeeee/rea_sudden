@@ -1,0 +1,10 @@
+<UIEditor>
+    <UIInfo name="welcome_lobby_bg" x="0" y="0" w="191" h="73" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_lobby_title_bg01" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="Btn_EnterWelcomeCamp" x="136" y="41" w="50" h="26" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_lobby_enter_btn_n" comptype="Button" groupname="" hudalign="0" hudstretch="false"/>
+    <UIInfo name="welcome_reddot" x="177" y="43" w="7" h="7" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_reddot" comptype="BlinkTexture" groupname="" hudalign="0" hudstretch="false" cycletime="1"/>
+    <UIInfo name="lobby_level" x="0" y="46" w="26" h="16" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_lobby_big_0" comptype="Etc" groupname="" hudalign="0" hudstretch="false" ctrlname="CLTGUIMultiNumTexturePanelCtrl"/>
+    <UIInfo name="lobby_currentwp" x="52" y="45" w="16" h="16" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_lobby_small_0" comptype="Etc" groupname="" hudalign="0" hudstretch="false" ctrlname="CLTGUIMultiNumTexturePanelCtrl"/>
+    <UIInfo name="lobby_maxwp" x="79" y="45" w="16" h="16" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_lobby_small_0" comptype="Etc" groupname="" hudalign="0" hudstretch="false" ctrlname="CLTGUIMultiNumTexturePanelCtrl"/>
+    <UIInfo name="lobby_welcome_title" x="31" y="6" w="128" h="16" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_lobby_welcome_title_0" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="lobby_wp_gauge" x="36" y="60" w="95" h="6" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_lobby_progress_gauge" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+</UIEditor>

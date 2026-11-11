@@ -1,0 +1,15 @@
+{
+    "Info":
+    [
+        {
+            "Type" : 0,
+            "MapIndices" : [258],
+            "Party_sendRange" : 500,
+            "Party_sendtime" : 10,
+            "Party_confirmtime" : 10,
+            "party_ReviveRange" : 500,
+            "party_Revivetime" : 3,
+            "Party_ReviveHealth" : 10
+        }
+    ]
+}

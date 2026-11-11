@@ -1,0 +1,1946 @@
+[PartsItem0]//불꽃놀이폭죽
+ShopIndex	=2846
+Fx		="Hunt_Firework_Normal_0"
+SpecialFx	="Hunt_Firework_HeadShot"
+
+[PartsItem1]//카툰유령헤드
+ShopIndex	=2847
+Fx		="Hunt_Toon2_Normal_0"
+SpecialFx	="Hunt_Toon2_HeadShot"
+
+[PartsItem2]//카툰폭죽
+ShopIndex	=2848
+Fx		="Hunt_Toon_Normal_0"
+SpecialFx	="Hunt_Toon_HeadShot"
+
+[PartsItem3]//종이꽃가루폭죽
+ShopIndex	=2849
+Fx		="Hunt_Paper_Normal_0"
+SpecialFx	="Hunt_Paper_HeadShot"
+
+[PartsItem4]//일반 날개
+ShopIndex	=2839
+Fx		=""
+Model		= "sa_characters\models\parts\wing_low_bag.ltb"
+skin0		= "sa_characters\skins\parts\wingbag_default.dtx"
+skin1		= "sa_characters\skins\parts\wing_low_default.dtx"
+
+
+[PartsItem5]//중급 날개
+ShopIndex	=2840
+Fx		=""
+Model		= "sa_characters\models\parts\wing_medium_bag.ltb"
+skin0		= "sa_characters\skins\parts\wingbag_default.dtx"
+skin1		= "sa_characters\skins\parts\wing_medium_default.dtx"
+
+[PartsItem6]//상급 날개
+ShopIndex	=2841
+Fx		="10th_wing"
+Model		= "sa_characters\models\parts\bag_only.ltb"
+skin0		= "sa_characters\skins\parts\wingbag_default.dtx"
+
+[PartsItem7] // 브레드 가방
+ShopIndex	=3567
+Fx		=""
+Model		= "sa_characters\models\parts\Bag_Bear.ltb"
+skin0		= "sa_characters\skins\parts\Bag_bear_default.dtx"
+
+[PartsItem8] // 싸곰 가방
+ShopIndex	=3580
+Fx		=""
+Model		= "sa_characters\models\parts\Bag_Suddenbear.ltb"
+skin0		= "sa_characters\skins\parts\Bag_Suddenbear_default.dtx"
+
+[PartsItem9] // 초이 가방
+ShopIndex	=3581
+Fx		=""
+Model		= "sa_characters\models\parts\Bag_parrot.ltb"
+skin0		= "sa_characters\skins\parts\Bag_Parrot_default.dtx"
+
+
+[PartsItem10] // 브론즈 슬링백
+ShopIndex	=3697
+Fx		=""
+Model		= "sa_characters\models\parts\backpack_bronze_3p.ltb"
+skin0		= "sa_characters\skins\parts\Survival_SlingBag_khaki_default.dtx"
+bAniSplit = True  //남&여 성별에 따라 애니메이션 분리. (Woman - 여자 애니, Man-남자애니)
+
+
+[PartsItem11] // 실버 슬링백
+ShopIndex	=3698
+Fx		=""
+Model		= "sa_characters\models\parts\backpack_silver_3p.ltb"
+skin0		= "sa_characters\skins\parts\Survival_SlingBag_Camo_default.dtx"
+bAniSplit = True  //남&여 성별에 따라 애니메이션 분리. (Woman - 여자 애니, Man-남자애니)
+
+
+[PartsItem12] // 골드 슬링백
+ShopIndex	=3699
+Fx		=""
+Model		= "sa_characters\models\parts\backpack_gold_3p.ltb"
+skin0		= "sa_characters\skins\parts\Survival_SlingBag_Orange_default.dtx"
+bAniSplit = True  //남&여 성별에 따라 애니메이션 분리. (Woman - 여자 애니, Man-남자애니)
+
+
+[PartsItem13] // 다이아 백팩
+ShopIndex	=3700
+Fx		=""
+Model		= "sa_characters\models\parts\backpack_dia_3p.ltb"
+skin0		= "sa_characters\skins\parts\survival_backpack_blue_default.dtx"
+bAniSplit = True  //남&여 성별에 따라 애니메이션 분리. (Woman - 여자 애니, Man-남자애니)
+
+
+[PartsItem14] // 마스터즈 백팩
+ShopIndex	=3701
+Fx		=""
+Model		= "sa_characters\models\parts\backpack_Masters_3p.ltb"
+skin0		= "sa_characters\skins\parts\survival_backpack_leopard_default.dtx"
+bAniSplit = True  //남&여 성별에 따라 애니메이션 분리.
+
+[PartsItem15] // 랭커 클랜 보상 가방 1등
+ShopIndex	= 3765
+Fx		= "ClanBag_1st"
+Model		= "sa_characters\models\parts\clanbag.ltb"
+skin0		= "sa_characters\skins\parts\clanbag_default.dtx"
+skin1		= "sa_characters\skins\parts\ClanRank_01.dtx"
+UsePieceName	= "4"
+bAniSplit	= True
+
+[PartsItem16] // 랭커 클랜 보상 가방 2등
+ShopIndex	= 3766
+Fx		= "ClanBag_2nd"
+Model		= "sa_characters\models\parts\clanbag.ltb"
+skin0		= "sa_characters\skins\parts\clanbag_default.dtx"
+skin1		= "sa_characters\skins\parts\ClanRank_02.dtx"
+UsePieceName	= "3"
+bAniSplit 	= True
+
+[PartsItem17] // 랭커 클랜 보상 가방 3등
+ShopIndex	= 3767
+Fx		= ""
+Model		= "sa_characters\models\parts\clanbag.ltb"
+skin0		= "sa_characters\skins\parts\clanbag_default.dtx"
+skin1		= "sa_characters\skins\parts\ClanRank_03.dtx"
+UsePieceName	= "2"
+bAniSplit 	= True
+
+[PartsItem18] // 랭커 클랜 보상 가방 4등~10등
+ShopIndex	= 3768
+Fx		= ""
+Model		= "sa_characters\models\parts\clanbag.ltb"
+skin0		= "sa_characters\skins\parts\clanbag_default.dtx"
+skin1		= "sa_characters\skins\parts\ClanRank_04.dtx"
+UsePieceName	= "1"
+bAniSplit 	= True
+
+[PartsItem19] // 랭크전-시즌0 가방
+ShopIndex	=3954
+Fx		=""
+Model		= "sa_characters\models\parts\rank_season0_bag.ltb"
+skin0		= "sa_characters\skins\parts\rank_season0_bag_default.dtx"
+bAniSplit 	= True  //남&여 성별에 따라 애니메이션 분리.
+
+[PartsItem20]//아트탄 불곰 폭죽
+ShopIndex	=4027
+Fx		="Bear_Kill_Normal_0"
+SpecialFx	="Bear_Kill_HeadShot_0"
+
+// 아트탄 BAAM 폭죽
+[PartsItem21]
+ShopIndex	=4468
+Fx		="ArtBullet_BAAM_N_00"
+SpecialFx	="ArtBullet_BAAM_H_01"
+
+// 아트탄 표범 폭죽
+[PartsItem22]
+ShopIndex	=4780
+Fx		="Leopard_Kill_Normal_0"
+SpecialFx	="Leopard_Kill_HeadShot_0"
+
+// 랭크전-시즌 3vs3 가방
+[PartsItem23] 
+ShopIndex	=4781
+Fx		=""
+Model		= "sa_characters\models\parts\rank_season_bag1.ltb"
+skin0		= "sa_characters\skins\parts\rank_season_bag1_default.dtx"
+bAniSplit 	= True  //남&여 성별에 따라 애니메이션 분리.
+
+//영토전 보상 가방 1티어
+[PartsItem24]
+ShopIndex	= 4795
+Fx		= "ClanBag_1st"
+Model		= "sa_characters\models\parts\clanmark_bag.ltb"
+skin0		= "sa_characters\skins\parts\clanbag_default.dtx"
+skin1		= "sa_characters\skins\parts\ClanRank_01.dtx"
+UsePieceName	= "4"
+bAniSplit		= True
+bUseClanMark 	= True
+
+//영토전 보상 가방 2티어
+[PartsItem25]
+ShopIndex	= 4796
+Fx		= "ClanBag_2nd"
+Model		= "sa_characters\models\parts\clanmark_bag.ltb"
+skin0		= "sa_characters\skins\parts\clanbag_default.dtx"
+skin1		= "sa_characters\skins\parts\ClanRank_02.dtx"
+UsePieceName	= "3"
+bAniSplit 	= True
+bUseClanMark 	= True
+
+//영토전 보상 가방 3티어
+[PartsItem26]
+ShopIndex	= 4797
+Fx		= ""
+Model		= "sa_characters\models\parts\clanmark_bag.ltb"
+skin0		= "sa_characters\skins\parts\clanbag_default.dtx"
+skin1		= "sa_characters\skins\parts\ClanRank_03.dtx"
+UsePieceName	= "2"
+bAniSplit 	= True
+bUseClanMark 	= True
+
+//영토전 보상 가방 4티어
+[PartsItem27]
+ShopIndex	= 4798
+Fx		= ""
+Model		= "sa_characters\models\parts\clanmark_bag.ltb"
+skin0		= "sa_characters\skins\parts\clanbag_default.dtx"
+skin1		= "sa_characters\skins\parts\ClanRank_04.dtx"
+UsePieceName	= "1"
+bAniSplit 	= True
+bUseClanMark 	= True
+
+[PartsItem28]//카툰폭죽 - PC방
+ShopIndex	=4812
+Fx		="Hunt_Toon_Normal_0"
+SpecialFx	="Hunt_Toon_HeadShot"
+
+[PartsItem29] // 블랭백
+ShopIndex	=4877
+Fx		=""
+Model		= "sa_characters\models\parts\insider_bag.ltb"
+skin0		= "sa_characters\skins\parts\insider_bag_black_default.dtx"
+bAniSplit 	= True
+
+[PartsItem30] // 레몽백
+ShopIndex	=4878
+Fx		=""
+Model		= "sa_characters\models\parts\insider_bag.ltb"
+skin0		= "sa_characters\skins\parts\insider_bag_yellow_default.dtx"
+bAniSplit 	= True
+
+[PartsItem31] // 밍트백
+ShopIndex	=4879
+Fx		=""
+Model		= "sa_characters\models\parts\insider_bag.ltb"
+skin0		= "sa_characters\skins\parts\insider_bag_blue_default.dtx"
+bAniSplit 	= True
+
+[PartsItem32] // 핑쿠백
+ShopIndex	=4880
+Fx		=""
+Model		= "sa_characters\models\parts\insider_bag.ltb"
+skin0		= "sa_characters\skins\parts\insider_bag_red_default.dtx"
+bAniSplit 	= True
+
+// 아트탄 신예은
+[PartsItem33]
+ShopIndex	=4903
+Fx			="ArtBullet_Sinyeun_N_00"
+SpecialFx	="ArtBullet_Sinyeun_N_00"
+
+[PartsItem34] // 네온캘리 아트탄
+ShopIndex	=5182
+Fx			="ArtBullet_NeonCalli_N_00"
+SpecialFx	="ArtBullet_NeonCalli_H_00"
+
+[PartsItem35] // IU 도발탄
+ShopIndex	=5193
+Fx			="ArtBullet_IU_N_00"
+SpecialFx	="ArtBullet_IU_H_00"
+
+[PartsItem36] // 초이 가방_PC
+ShopIndex	=5197
+Fx		=""
+Model		= "sa_characters\models\parts\Bag_parrot.ltb"
+skin0		= "sa_characters\skins\parts\Bag_Parrot_default.dtx"
+
+// 아트탄 - 여신 엘리나 도발탄
+[PartsItem37]
+ShopIndex	=5323
+Fx		="ArtBullet_Elina_GD_N_00"
+SpecialFx	="ArtBullet_Elina_GD_H_00"
+
+// 아트탄 - 인싸 엘리나 도발탄
+[PartsItem38]
+ShopIndex	=5324
+Fx		="ArtBullet_Elina_IS_N_00"
+SpecialFx	="ArtBullet_Elina_IS_H_00"
+
+// 아트탄 - 좀비 폭죽 도발탄
+[PartsItem39]
+ShopIndex	=5352
+Fx		="ArtBullet_zombie_P"
+SpecialFx	="ArtBullet_zombie_H"
+
+[PartsItem40] // 특전대장 날개(2019)
+ShopIndex	=5519
+Fx		=""
+Model		= "sa_characters\models\parts\wing_low_bag.ltb"
+skin0		= "sa_characters\skins\parts\wingbag_gradeicon_s50.dtx"
+skin1		= "sa_characters\skins\parts\wing_low_default.dtx"
+
+[PartsItem41] // 특임대장 날개(2019)
+ShopIndex	=5520
+Fx		=""
+Model		= "sa_characters\models\parts\wing_low_bag.ltb"
+skin0		= "sa_characters\skins\parts\wingbag_gradeicon_s51.dtx"
+skin1		= "sa_characters\skins\parts\wing_low_default.dtx"
+
+[PartsItem42] // 특공대장 날개(2019)
+ShopIndex	=5521
+Fx		=""
+Model		= "sa_characters\models\parts\wing_low_bag.ltb"
+skin0		= "sa_characters\skins\parts\wingbag_gradeicon_s52.dtx"
+skin1		= "sa_characters\skins\parts\wing_low_default.dtx"
+
+[PartsItem43] // 부사령관 날개(2019)
+ShopIndex	=5522
+Fx		=""
+Model		= "sa_characters\models\parts\wing_low_bag.ltb"
+skin0		= "sa_characters\skins\parts\wingbag_gradeicon_s53.dtx"
+skin1		= "sa_characters\skins\parts\wing_low_default.dtx"
+
+[PartsItem44] // 사령관 날개(2019)
+ShopIndex	=5523
+Fx		=""
+Model		= "sa_characters\models\parts\wing_low_bag.ltb"
+skin0		= "sa_characters\skins\parts\wingbag_gradeicon_s54.dtx"
+skin1		= "sa_characters\skins\parts\wing_low_default.dtx"
+
+[PartsItem45] // 총사령관 날개(2019)
+ShopIndex	=5524
+Fx		=""
+Model		= "sa_characters\models\parts\wing_low_bag.ltb"
+skin0		= "sa_characters\skins\parts\wingbag_gradeicon_s55.dtx"
+skin1		= "sa_characters\skins\parts\wing_low_default.dtx"
+
+// 아트탄 - 겨울 세정 도발탄
+[PartsItem46]
+ShopIndex	=5616
+Fx		="ArtBullet_SJ_Winter_N"
+SpecialFx	="ArtBullet_SJ_Winter_H"
+
+// 아트탄 - 시크 세정 도발탄
+[PartsItem47]
+ShopIndex	=5617
+Fx		="ArtBullet_SJ_Chic_N"
+SpecialFx	="ArtBullet_SJ_Chic_H"
+
+// 키스 가방
+[PartsItem48]
+ShopIndex	= 5675
+Fx		= ""
+Model		= "sa_characters\models\parts\lipbag.ltb"
+skin0		= "sa_characters\skins\parts\lip_grenade_3p.dtx"
+bAniSplit 	= True
+
+// 아트탄 - 검스 민아 도발탄
+[PartsItem49]
+ShopIndex	=5721
+Fx		="ArtBullet_GumMina_N"
+SpecialFx		="ArtBullet_GumMina_H"
+
+// 아트탄 - 코커 민아 도발탄
+[PartsItem50]
+ShopIndex	=5722
+Fx		="ArtBullet_KoMina_N"
+SpecialFx		="ArtBullet_KoMina_H"
+
+// 스쿨 백팩 레인보우
+[PartsItem51]
+ShopIndex	= 5759
+Fx		= ""
+Model		= "sa_characters\models\parts\school_uniform_bag.ltb"
+skin0		= "sa_characters\skins\parts\school_bag_rainbow.dtx"
+bAniSplit 	= True
+
+// 스쿨 백팩
+[PartsItem52]
+ShopIndex	= 5758
+Fx		= ""
+Model		= "sa_characters\models\parts\school_uniform_bag.ltb"
+skin0		= "sa_characters\skins\parts\school_bag.dtx"
+bAniSplit 	= True
+
+// 아트탄 - 여신 남규리 도발탄
+[PartsItem53]
+ShopIndex	=5800
+Fx		="ArtBullet_NGR_GD_N"
+SpecialFx	="ArtBullet_NGR_GD_H"
+
+// 아트탄 - 라이더 남규리 도발탄
+[PartsItem54]
+ShopIndex	=5801
+Fx		="ArtBullet_NGR_Rider_N"
+SpecialFx	="ArtBullet_NGR_Rider_H"
+
+// 배심원 가방
+[PartsItem55]
+ShopIndex	= 5897
+Fx		= ""
+Model		= "sa_characters\models\parts\jury_bag.ltb"
+skin0		= "sa_characters\skins\parts\jury_bag01_3p.dtx"
+skin1		= "sa_characters\skins\parts\jury_bag02_3p.dtx"
+bAniSplit 	= False
+
+// 오마이걸 아트탄
+[PartsItem56]
+ShopIndex	=5928
+Fx		="ArtBullet_Ohmygirl_N"
+SpecialFx		="ArtBullet_Ohmygirl_H"
+
+// 조현 아트탄
+[PartsItem57]
+ShopIndex	=6033
+Fx		="ArtBullet_JH_N"
+SpecialFx		="ArtBullet_JH_H"
+
+// 슬링백 레인보우
+[PartsItem58]
+ShopIndex	=6106
+Fx		=""
+Model		= "sa_characters\models\parts\insider_bag.ltb"
+skin0		= "sa_characters\skins\parts\slingbag_rainbow.dtx"
+bAniSplit 	= True
+
+// 미러볼 조명 아트탄
+[PartsItem59] 
+ShopIndex	=6161
+Fx			="ArtBullet_Mball_N"
+SpecialFx	="ArtBullet_Mball_H"
+
+// 15th 브레드 가방
+[PartsItem60]
+ShopIndex	= 6162
+Fx			= ""
+Model		= "sa_characters\models\parts\Bread_bag_15th.ltb"
+skin0		= "sa_characters\skins\parts\Bread_bag_15th.dtx"
+skin1		= "sa_characters\skins\parts\sudden_attack_15th_band.dtx"
+bAniSplit 	= False
+
+// 15th 썽 가방
+[PartsItem61]
+ShopIndex	= 6163
+Fx			= ""
+Model		= "sa_characters\models\parts\Sseong_bag_15th.ltb"
+skin0		= "sa_characters\skins\parts\Sseong_bag_15th.dtx"
+skin1		= "sa_characters\skins\parts\sudden_attack_15th_band.dtx"
+bAniSplit 	= False
+
+// 여자친구2020 아트탄
+[PartsItem62]
+ShopIndex	= 6198
+Fx		="ArtBullet_GirlFriend_N"
+SpecialFx		="ArtBullet_GirlFriend_H"
+
+// 블러디로즈A 가방
+[PartsItem63]
+ShopIndex	= 6308
+Fx			= ""
+Model		= "sa_characters\models\parts\Halloween_Vampire_bag_a.ltb"
+skin0		= "sa_characters\skins\parts\Halloween_Vampire_bag_a.dtx"
+bAniSplit 	= False
+
+// 블러디로즈B 가방
+[PartsItem64]
+ShopIndex	= 6309
+Fx			= ""
+Model		= "sa_characters\models\parts\Halloween_Vampire_bag_b.ltb"
+skin0		= "sa_characters\skins\parts\Halloween_Vampire_bag_b.dtx"
+bAniSplit 	= False
+
+// 이나은 도발탄
+[PartsItem65]
+ShopIndex	= 6329
+Fx		="ArtBullet_Naeun_N"
+SpecialFx		="ArtBullet_Naeun_H"
+
+// 슬링백 레인보우
+[PartsItem66]
+ShopIndex	=6384
+Fx		=""
+Model		= "sa_characters\models\parts\insider_bag.ltb"
+skin0		= "sa_characters\skins\parts\slingbag_rainbow.dtx"
+bAniSplit 	= True
+
+// ITZY 도발탄
+[PartsItem67]
+ShopIndex	=6419
+Fx		="ArtBullet_ITZY_N"
+SpecialFx		="ArtBullet_ITZY_H"
+
+// 특급대장 날개(2020)
+[PartsItem68]
+ShopIndex	=6426
+Fx		="RankBag_01"
+Model		= "sa_characters\models\parts\2020_wingbag.ltb"
+skin0		= "sa_characters\skins\parts\wingbag_default.dtx"
+skin1		= "sa_characters\skins\parts\wing_low_default.dtx"
+skin2		= "sa_characters\skins\parts\2020_wingbag_s52.dtx"
+
+// 부사령관 날개(2020)
+[PartsItem69]
+ShopIndex	=6427
+Fx		="RankBag_01"
+Model		= "sa_characters\models\parts\2020_wingbag.ltb"
+skin0		= "sa_characters\skins\parts\wingbag_default.dtx"
+skin1		= "sa_characters\skins\parts\wing_low_default.dtx"
+skin2		= "sa_characters\skins\parts\2020_wingbag_s53.dtx"
+
+// 사령관 날개(2020)
+[PartsItem70]
+ShopIndex	=6428
+Fx		="RankBag_01"
+Model		= "sa_characters\models\parts\2020_wingbag.ltb"
+skin0		= "sa_characters\skins\parts\wingbag_default.dtx"
+skin1		= "sa_characters\skins\parts\wing_low_default.dtx"
+skin2		= "sa_characters\skins\parts\2020_wingbag_s54.dtx"
+
+// 총사령관 날개(2020)
+[PartsItem71]
+ShopIndex	=6429
+Fx		="RankBag_01"
+Model		= "sa_characters\models\parts\2020_wingbag.ltb"
+skin0		= "sa_characters\skins\parts\wingbag_default.dtx"
+skin1		= "sa_characters\skins\parts\wing_low_default.dtx"
+skin2		= "sa_characters\skins\parts\2020_wingbag_s55.dtx"
+
+// 군장 가방
+[PartsItem72]
+ShopIndex	= 6471
+Fx			= ""
+Model		= "sa_characters\models\parts\21SApass1_bag.ltb"
+skin0		= "sa_characters\skins\parts\21SApass1_bag.dtx"
+bAniSplit 	= False
+
+// 김소연 도발탄
+[PartsItem73]
+ShopIndex	= 6601
+Fx		="ArtBullet_KSY_N"
+SpecialFx		="ArtBullet_KSY_H"
+
+// 트와이스 아트탄
+[PartsItem74]
+ShopIndex	= 6715
+Fx		="ArtBullet_TWICE_N"
+SpecialFx		="ArtBullet_TWICE_H"
+
+// 스쿨 백팩 체크
+[PartsItem75]
+ShopIndex	= 6807
+Fx			= ""
+Model		= "sa_characters\models\parts\board_girl_bag.ltb"
+skin0		= "sa_characters\skins\parts\board_girl_bag.dtx"
+bAniSplit 	= False
+
+// 희진&츄 도발탄
+[PartsItem76]
+ShopIndex	=6676
+Fx		="ArtBullet_Heejin_N"
+SpecialFx		="ArtBullet_Heejin_H"
+
+// 브레이브걸스 도발탄
+[PartsItem77]
+ShopIndex	=6984
+Fx		="ArtBullet_BraveGirls_N"
+SpecialFx		="ArtBullet_BraveGirls_H"
+
+// 랄랄백
+[PartsItem78]
+ShopIndex	=7030
+Fx		=""
+Model		= "sa_characters\models\parts\insider_bag.ltb"
+skin0		= "sa_characters\skins\parts\insidebag_bj_ralral.dtx"
+bAniSplit 	= True
+
+// 랄랄 도발탄
+[PartsItem79]
+ShopIndex	=7031
+Fx		="ArtBullet_ralral_N"
+SpecialFx		="ArtBullet_ralral_H"
+
+// 희진&츄2 도발탄
+[PartsItem80]
+ShopIndex	=7049
+Fx		="ArtBullet_LOONA_N"
+SpecialFx		="ArtBullet_LOONA_H"
+
+// 라붐 도발탄
+[PartsItem81]
+ShopIndex	=7110
+Fx		="ArtBullet_Laboum_N"
+SpecialFx		="ArtBullet_Laboum_H"
+
+// 2021 오마이걸 도발탄
+[PartsItem82]
+ShopIndex	=7186
+Fx		="ArtBullet_Wave_N"
+SpecialFx		="ArtBullet_Wave_H"
+
+// 표은지 도발탄
+[PartsItem83]
+ShopIndex	=7308
+Fx		="artbullet_Eunji_n"
+SpecialFx		="artbullet_Eunji_h"
+
+// 김연경 도발탄A
+[PartsItem84]
+ShopIndex	=7381
+Fx		="ArtBullet_YeonKoungUniform_N"
+SpecialFx		="ArtBullet_YeonKoungUniform_H"
+
+// 김연경 도발탄B
+[PartsItem85]
+ShopIndex	=7382
+Fx		="ArtBullet_YeonKoungCasual_N"
+SpecialFx		="ArtBullet_YeonKoungCasual_H"
+
+// 노제 아트탄
+[PartsItem86]
+ShopIndex	=7472
+Fx		="ArtBullet_Noze_N"
+SpecialFx		="ArtBullet_Noze_H"
+
+// 블랙 하트 백팩
+[PartsItem87]
+ShopIndex	= 7625
+Fx			= ""
+Model		= "sa_characters\models\parts\rank_season_bag1.ltb"
+skin0		= "sa_characters\skins\parts\STAYC_bag.dtx"
+bAniSplit 	= True  //남&여 성별에 따라 애니메이션 분리.
+
+// 스테이씨 아트탄
+[PartsItem88]
+ShopIndex	=7626
+Fx		="ArtBullet_Stacey_N"
+SpecialFx		="ArtBullet_Stacey_H"
+
+// 신세경 아트탄
+[PartsItem89]
+ShopIndex	=7702
+Fx		="ArtBullet_ShinSaeKyeong_N"
+SpecialFx	="ArtBullet_ShinSaeKyeong_H"
+
+// MUSINSA 백팩
+[PartsItem90]
+ShopIndex	= 7687
+Fx			= ""
+Model		= "sa_characters\models\parts\rank_season_bag1.ltb"
+skin0		= "sa_characters\skins\parts\MUSINSA_bag_3p.dtx"
+bAniSplit 	= True
+
+// 정은지 도발탄
+[PartsItem91]
+ShopIndex	=7768
+Fx		="artbullet_drink_jej_N"
+SpecialFx		="artbullet_drink_jej_h"
+
+// 이선빈 도발탄
+[PartsItem92]
+ShopIndex	=7769
+Fx		="artbullet_drink_lsb_N"
+SpecialFx		="artbullet_drink_lsb_h"
+
+// 한선화 도발탄
+[PartsItem93]
+ShopIndex	=7770
+Fx		="artbullet_drink_hsh_N"
+SpecialFx		="artbullet_drink_hsh_h"
+
+//특급대장 날개(2021)
+[PartsItem94]
+ShopIndex	=7814
+Fx		="ClanBag_2021_wing"
+Model		= "sa_characters\models\parts\2021_wingbag.ltb"
+skin0		= "sa_characters\skins\parts\2021_wingbag_s52_3p.dtx"
+
+//부사령관 날개(2021)
+[PartsItem95]
+ShopIndex	=7813
+Fx		="ClanBag_2021_wing"
+Model		= "sa_characters\models\parts\2021_wingbag.ltb"
+skin0		= "sa_characters\skins\parts\2021_wingbag_s53_3p.dtx"
+
+//사령관 날개(2021)
+[PartsItem96]
+ShopIndex	=7812
+Fx		="ClanBag_2021_wing"
+Model		= "sa_characters\models\parts\2021_wingbag.ltb"
+skin0		= "sa_characters\skins\parts\2021_wingbag_s54_3p.dtx"
+
+//총사령관 날개(2021)
+[PartsItem97]
+ShopIndex	=7811
+Fx		="ClanBag_2021_wing"
+Model		= "sa_characters\models\parts\2021_wingbag.ltb"
+skin0		= "sa_characters\skins\parts\2021_wingbag_s55_3p.dtx"
+
+// 흑호 아트탄
+[PartsItem98]
+ShopIndex	=7844
+Fx		="ArtBullet_blacktiger_HN"
+SpecialFx		="ArtBullet_blacktiger_HN"
+
+// 미주 도발탄
+[PartsItem99]
+ShopIndex	=7859
+Fx		="artbullet_me_n"
+SpecialFx		="artbullet_me_h"
+
+// 김연경 도발탄C
+[PartsItem100]
+ShopIndex	=7881
+Fx		="ArtBullet_KYK_N"
+SpecialFx		="ArtBullet_KYK_H"
+
+// 스마일 백팩
+[PartsItem101]
+ShopIndex	= 8009
+Fx			= ""
+Model		= "sa_characters\models\parts\rank_season_bag1.ltb"
+skin0		= "sa_characters\skins\parts\smile_bag.dtx"
+bAniSplit 	= True
+
+// 비비 도발탄
+[PartsItem102]
+ShopIndex	=8010
+Fx		="artbullet_bb_n"
+SpecialFx		="artbullet_bb_h"
+
+// 최예나 도발탄
+[PartsItem103]
+ShopIndex	=8012
+Fx		="artbullet_yee_n"
+SpecialFx		="artbullet_yee_h"
+
+// 페어리 가방
+[PartsItem104]
+ShopIndex	= 8055
+Fx			= ""
+Model		= "sa_characters\models\parts\fairy_wing_bag.ltb"
+skin0		= "sa_characters\skins\parts\fairy_wing_bag_3p.dtx"
+bAniSplit 	= True
+
+// 조이현 도발탄
+[PartsItem105]
+ShopIndex		=8090
+Fx				="ArtBullet_Joy_N"
+SpecialFx		="ArtBullet_Joy_H"
+
+// 신세경 도발탄Ⅱ
+[PartsItem106]
+ShopIndex		=8134
+Fx				="artbullet_Shin_n"
+SpecialFx		="artbullet_Shin_h"
+
+// 발키리 아트탄
+[PartsItem107]
+ShopIndex		=8153
+Fx				="ArtBullet_Valkyrie_N"
+SpecialFx		="ArtBullet_Valkyrie_H"
+
+// 프로미스나인 아트탄
+[PartsItem108]
+ShopIndex		=8186
+Fx				="ArtBullet_fromis_N"
+SpecialFx		="ArtBullet_fromis_H"
+
+// 스마일 백팩2
+[PartsItem109]
+ShopIndex	= 8309
+Fx			= ""
+Model		= "sa_characters\models\parts\rank_season_bag1.ltb"
+skin0		= "sa_characters\skins\parts\smile_bag2.dtx"
+bAniSplit 	= True
+
+// 블링블링 백팩
+[PartsItem110]
+ShopIndex	= 8366
+Fx		= ""
+Model		= "sa_characters\models\parts\school_uniform_bag.ltb"
+skin0		= "sa_characters\skins\parts\viviz_bag.dtx"
+bAniSplit 	= True
+
+// VIVIZ 아트탄
+[PartsItem111]
+ShopIndex	=8367
+Fx		="ArtBullet_VIVIZ_N"
+SpecialFx		="ArtBullet_VIVIZ_H"
+
+// 의장대원 아트탄 - 꽃가루 폭죽
+[PartsItem112]
+ShopIndex	=8413
+Fx		="Hunt_Paper_Normal_0"
+SpecialFx		="Hunt_Paper_HeadShot"
+
+// 쵸단 도발탄
+[PartsItem113]
+ShopIndex	=8455
+Fx		="ArtBullet_ChoDan_N"
+SpecialFx		="ArtBullet_ChoDan_H"
+
+// (G)I-DLE 아트탄
+[PartsItem114]
+ShopIndex	=8641
+Fx		="ArtBullet_Gidle_N"
+SpecialFx		="ArtBullet_Gidle_H"
+
+// 허성태 아트탄
+[PartsItem115]
+ShopIndex	=8658
+Fx		="ArtBullet_Heo_N_00"
+SpecialFx		="ArtBullet_Heo_H_00"
+
+// 박지환 아트탄
+[PartsItem116]
+ShopIndex	=8659
+Fx		="ArtBullet_Park_N_00"
+SpecialFx		="ArtBullet_Park_H_00"
+
+// 2022 트와이스 아트탄
+[PartsItem117]
+ShopIndex	= 8782
+Fx			= "ArtBullet_Twice2022_N"
+SpecialFx	= "ArtBullet_Twice2022_H"
+
+// 서든패스4 가방
+[PartsItem118]
+ShopIndex	= 8785
+Fx			= ""
+Model		= "sa_characters\models\parts\22Sapass4_unflagbag_3p.ltb"
+skin0		= "sa_characters\skins\parts\22Sapass4_unflagbag.dtx"
+bAniSplit 	= True
+
+// 르세라핌 아트탄
+[PartsItem119]
+ShopIndex	=8871
+Fx		="ArtBullet_Lesserafim_N"
+SpecialFx		="ArtBullet_Lesserafim_H"
+
+// 아트탄 FearLess
+[PartsItem120]
+ShopIndex	= 8874
+Fx		= "ArtBullet_FearLess_HN"
+SpecialFx		= "ArtBullet_FearLess_HN"
+
+// 금따봉 백팩
+[PartsItem121]
+ShopIndex	= 8893
+Fx		= "Praise_tabom_gold"
+Model		= "sa_characters\models\parts\Tabom_bag.ltb"
+skin0		= "sa_characters\skins\parts\TaBom_bag_gold.dtx"
+
+// 은따봉 백팩
+[PartsItem122]
+ShopIndex	= 8894
+Fx		= "Praise_tabom_silver"
+Model		= "sa_characters\models\parts\Tabom_bag.ltb"
+skin0		= "sa_characters\skins\parts\TaBom_bag_silver.dtx"
+
+// 동따봉 백팩
+[PartsItem123]
+ShopIndex	= 8895
+Fx		=""
+Model		= "sa_characters\models\parts\Tabom_bag.ltb"
+skin0		= "sa_characters\skins\parts\TaBom_bag_bronze.dtx"
+
+// 황정민 도발탄
+[PartsItem124]
+ShopIndex	=8935
+Fx			="ArtBullet_Hwang_N"
+SpecialFx	="ArtBullet_Hwang_H"
+
+// 하정우 도발탄
+[PartsItem125]
+ShopIndex	=8936
+Fx			="ArtBullet_Ha_N"
+SpecialFx	="ArtBullet_Ha_H"
+
+// 김신영 아트탄
+[PartsItem126]
+ShopIndex	=9065
+Fx			="ArtBullet_ShinYoung_N"
+SpecialFx	="ArtBullet_ShinYoung_H"
+
+// 김다비 아트탄
+[PartsItem127]
+ShopIndex	=9066
+Fx			="ArtBullet_ShinYoungDaVi_N"
+SpecialFx	="ArtBullet_ShinYoungDaVi_H"
+
+// Xmas 백팩
+[PartsItem128]
+ShopIndex	= 9138
+Fx		= ""
+Model		= "sa_characters\models\parts\Christmas_detective_bag.ltb"
+skin0		= "sa_characters\skins\parts\Christmas_detective_bag.dtx"
+bAniSplit 	= True
+
+// 2023 조유리 도발탄
+[PartsItem129]
+ShopIndex	=9172
+Fx			="ArtBullet_Yuri_N"
+SpecialFx	="ArtBullet_Yuri_H"
+
+// 2023 츄 도발탄
+[PartsItem130]
+ShopIndex	=9173
+Fx			="ArtBullet_Chuu_N"
+SpecialFx	="ArtBullet_Chuu_H"
+
+// 특급대장 날개(2022)
+[PartsItem131]
+ShopIndex	= 9180
+Fx		= "ClanBag_2022_wing_01"
+Model		= "sa_characters\models\parts\2022_wingbag.ltb"
+skin0		= "sa_characters\skins\parts\2022_wingbag_s52.dtx"
+//bAniSplit 	= True
+
+// 부사령관 날개(2022)
+[PartsItem132]
+ShopIndex	= 9181
+Fx		= "ClanBag_2022_wing_02"
+Model		= "sa_characters\models\parts\2022_wingbag.ltb"
+skin0		= "sa_characters\skins\parts\2022_wingbag_s53.dtx"
+//bAniSplit 	= True
+
+// 사령관 날개(2022)
+[PartsItem133]
+ShopIndex	= 9182
+Fx		= "ClanBag_2022_wing_03"
+Model		= "sa_characters\models\parts\2022_wingbag.ltb"
+skin0		= "sa_characters\skins\parts\2022_wingbag_s54.dtx"
+//bAniSplit 	= True
+
+// 총사령관 날개(2022)
+[PartsItem134]
+ShopIndex	= 9183
+Fx		= "ClanBag_2022_wing_04"
+Model		= "sa_characters\models\parts\2022_wingbag.ltb"
+skin0		= "sa_characters\skins\parts\2022_wingbag_s55.dtx"
+//bAniSplit 	= True
+
+// 아트탄 Justice
+[PartsItem135]
+ShopIndex	=9247
+Fx			="ArtBullet_handcuffs_HN"
+SpecialFx	="ArtBullet_handcuffs_HN"
+
+// 채수빈 도발탄
+[PartsItem136]
+ShopIndex	=9263
+Fx			="ArtBullet_ChaeSooBin_N"
+SpecialFx	="ArtBullet_ChaeSooBin_H"
+
+// 다나카 도발탄
+[PartsItem137]
+ShopIndex	=9264
+Fx			="ArtBullet_Tanaka_N"
+SpecialFx	="ArtBullet_Tanaka_H"
+
+// 강혜원 도발탄
+[PartsItem138]
+ShopIndex	=9303
+Fx			="ArtBullet_Kanghyewon_N"
+SpecialFx	="ArtBullet_Kanghyewon_H"
+
+// 권은비 도발탄
+[PartsItem139]
+ShopIndex	=9304
+Fx			="ArtBullet_Kwoneunbi_N"
+SpecialFx	="ArtBullet_Kwoneunbi_H"
+
+// VX 가방
+[PartsItem140]
+ShopIndex	= 9415
+Fx		= ""
+Model		= "sa_characters\models\parts\VX_flag_bag_3p.ltb"
+skin0		= "sa_characters\skins\parts\vx_flag_Bag.dtx"
+bAniSplit 	= True
+
+// 추성훈 도발탄
+[PartsItem141]
+ShopIndex	=9430
+Fx			="ArtBullet_ChooSunghoon_N"
+SpecialFx	="ArtBullet_ChooSunghoon_H"
+
+// 심으뜸 도발탄
+[PartsItem142]
+ShopIndex	=9431
+Fx			="ArtBullet_SimEutteum_N"
+SpecialFx	="ArtBullet_SimEutteum_H"
+
+// 금따봉 백팩
+[PartsItem143]
+ShopIndex	= 9477
+Fx		= "Praise_tabom_gold"
+Model		= "sa_characters\models\parts\Tabom_bag.ltb"
+skin0		= "sa_characters\skins\parts\TaBom_bag_gold.dtx"
+
+// 은따봉 백팩
+[PartsItem144]
+ShopIndex	= 9478
+Fx		= "Praise_tabom_silver"
+Model		= "sa_characters\models\parts\Tabom_bag.ltb"
+skin0		= "sa_characters\skins\parts\TaBom_bag_silver.dtx"
+
+// 싸곰가방
+[PartsItem145]
+ShopIndex	= 9517
+Fx		=""
+Model		= "sa_characters\models\parts\Bag_Suddenbear.ltb"
+skin0		= "sa_characters\skins\parts\Bag_Suddenbear_default.dtx"
+
+// 스테이씨 도발탄
+[PartsItem146]
+ShopIndex	=9519
+Fx			="ArtBullet_STAYC_N"
+SpecialFx	="ArtBullet_STAYC_H"
+
+// 이다혜 도발탄
+[PartsItem147]
+ShopIndex	=9609
+Fx			="ArtBullet_Dahye_N"
+SpecialFx	="ArtBullet_Dahye_H"
+
+// 조연주 도발탄
+[PartsItem148]
+ShopIndex	=9610
+Fx			="ArtBullet_Yeonju_N"
+SpecialFx	="ArtBullet_Yeonju_H"
+
+// 마갱단 마젠타 도발탄
+[PartsItem149]
+ShopIndex	=9745
+Fx			="ArtBullet_MKD_magenta_N"
+SpecialFx	="ArtBullet_MKD_magenta_H"
+
+//마갱단 한갱 도발탄
+[PartsItem150]
+ShopIndex	=9746
+Fx			="ArtBullet_MKD_han_N"
+SpecialFx	="ArtBullet_MKD_han_H"
+
+//마갱단 쵸단 도발탄
+[PartsItem151]
+ShopIndex	=9747
+Fx			="ArtBullet_MKD_chodan_N"
+SpecialFx	="ArtBullet_MKD_chodan_H"
+
+
+// 공기통
+[PartsItem152]
+ShopIndex	= 9769
+Fx		= ""
+Model		= "sa_characters\models\parts\23SApass3_oxygentank.ltb"
+skin0		= "sa_characters\skins\parts\23SApass3_Marina_oxygentank.dtx"
+
+// 아트탄 BAAM 폭죽
+[PartsItem153]
+ShopIndex = 9819
+Fx		  = "ArtBullet_BAAM_N_00"
+SpecialFx = "ArtBullet_BAAM_H_01"
+
+// 미러볼 조명 아트탄
+[PartsItem154]
+ShopIndex  = 9820
+Fx		   = "ArtBullet_Mball_N"
+SpecialFx  = "ArtBullet_Mball_H"
+
+// 아트탄 좀비 폭죽
+[PartsItem155]
+ShopIndex = 9821
+Fx		  = "ArtBullet_zombie_P"
+SpecialFx = "ArtBullet_zombie_H"
+
+// 웃음 소리 아트탄
+[PartsItem156]
+ShopIndex	= 9822
+Fx			= "ArtBullet_smile_N"
+SpecialFx	= "ArtBullet_smile_H"
+
+// 2023 프로미스나인 아트탄
+[PartsItem157]
+ShopIndex	= 10225
+Fx			= "ArtBullet_fromis9_2023_N"
+SpecialFx	= "ArtBullet_fromis9_2023_H"
+
+// 브레드 아트탄Ⅱ
+[PartsItem158]
+ShopIndex	= 10291
+Fx			= "ArtBullet_Bread_02_N"
+SpecialFx	= "ArtBullet_Bread_02_H"
+
+// 브레드 아트탄 Ⅰ
+[PartsItem159]
+ShopIndex	= 10234
+Fx			= "ArtBullet_Bread_01_N"
+SpecialFx	= "ArtBullet_Bread_01_H"
+
+// 나선욱 도발탄
+[PartsItem160]
+ShopIndex	=10307
+Fx			="ArtBullet_NSW_N"
+SpecialFx	= "ArtBullet_NSW_H"
+
+// 2023 ITZY 아트탄
+[PartsItem161]
+ShopIndex	= 10345
+Fx			= "ArtBullet_ITZY2023_N"
+SpecialFx	= "ArtBullet_ITZY2023_H"
+
+// 가방 Revenant
+[PartsItem162]
+ShopIndex	= 10424
+Fx		= ""
+Model		= "sa_resource\weapons\ltb\23SApass4_Sling_Bag.ltb"
+skin0		= "sa_resource\weapons\dtx\23SApass4_Sling_Bag.dtx"
+bAniSplit 	= True  //남&여 성별에 따라 애니메이션 분리. (Woman - 여자 애니, Man-남자애니)
+
+// Revenant 아트탄
+[PartsItem163]
+ShopIndex	= 10459
+Fx		= "ArtBullet_Revenant_N"
+SpecialFx		= "ArtBullet_Revenant_H"
+
+// 아트탄 표범 폭죽
+[PartsItem164]
+ShopIndex	=10472
+Fx		="Leopard_Kill_Normal_0"
+SpecialFx	="Leopard_Kill_HeadShot_0"
+
+// 아트탄 불곰 폭죽
+[PartsItem165]
+ShopIndex	=10473
+Fx		="Bear_Kill_Normal_0"
+SpecialFx	="Bear_Kill_HeadShot_0"
+
+// 핑크 호피 백팩
+[PartsItem166]
+ShopIndex	= 10536
+Fx		= ""
+Model		= "sa_characters\models\parts\rank_season_bag1.ltb"
+skin0		= "sa_resource\weapons\dtx\Clan_Bag_Animal.dtx"
+bAniSplit 	= True  //남&여 성별에 따라 애니메이션 분리.
+
+// 권은비 도발탄
+[PartsItem167]
+ShopIndex	= 10537
+Fx			= "ArtBullet_Eunbi2023_N"
+SpecialFx	= "ArtBullet_Eunbi2023_H"
+
+// 러셔 도발탄
+[PartsItem168]
+ShopIndex	= 10624
+Fx			= "ArtBullet_SWF_Lusher_N"
+SpecialFx	= "ArtBullet_SWF_Lusher_H"
+
+// 레디 도발탄
+[PartsItem169]
+ShopIndex	= 10626
+Fx			= "ArtBullet_SWF_Redy_N"
+SpecialFx	= "ArtBullet_SWF_Redy_H"
+
+// 리아킴 도발탄
+[PartsItem170]
+ShopIndex	= 10628
+Fx			= "ArtBullet_SWF_Lia_N"
+SpecialFx	= "ArtBullet_SWF_Lia_H"
+
+// 바다 도발탄
+[PartsItem171]
+ShopIndex	= 10630
+Fx			= "ArtBullet_SWF_Bada_N"
+SpecialFx	= "ArtBullet_SWF_Bada_H"
+
+// NMIXX 아트탄
+[PartsItem172]
+ShopIndex	= 11630
+Fx			= "ArtBullet_nmixx_N"
+SpecialFx	= "ArtBullet_nmixx_H"
+
+// 김원훈 도발탄
+[PartsItem173]
+ShopIndex	= 11730
+Fx			= "ArtBullet_Wonhoon_N"
+SpecialFx	= "ArtBullet_Wonhoon_H"
+
+// 김아영 도발탄
+[PartsItem174]
+ShopIndex	= 11732
+Fx			= "ArtBullet_Ahyoung_N"
+SpecialFx	= "ArtBullet_Ahyoung_H"
+
+// 특급대장 날개(2023)
+[PartsItem175]
+ShopIndex	= 11672
+Fx		= "ClanBag_2023_wing_01"
+Model		= "sa_characters\models\parts\2023_wingbag.ltb"
+skin0		= "sa_characters\skins\parts\2023_wingbag_s52_3p.dtx"
+//bAniSplit 	= True
+
+// 부사령관 날개(2023)
+[PartsItem176]
+ShopIndex	= 11673
+Fx		= "ClanBag_2023_wing_02"
+Model		= "sa_characters\models\parts\2023_wingbag.ltb"
+skin0		= "sa_characters\skins\parts\2023_wingbag_s53_3p.dtx"
+//bAniSplit 	= True
+
+// 사령관 날개(2023)
+[PartsItem177]
+ShopIndex	= 11674
+Fx		= "ClanBag_2023_wing_03"
+Model		= "sa_characters\models\parts\2023_wingbag.ltb"
+skin0		= "sa_characters\skins\parts\2023_wingbag_s54_3p.dtx"
+//bAniSplit 	= True
+
+// 총사령관 날개(2023)
+[PartsItem178]
+ShopIndex	= 11675
+Fx		= "ClanBag_2023_wing_04"
+Model		= "sa_characters\models\parts\2023_wingbag.ltb"
+skin0		= "sa_characters\skins\parts\2023_wingbag_s55_3p.dtx"
+//bAniSplit 	= True
+
+// 한복 신세경 도발탄
+[PartsItem179]
+ShopIndex	= 11909
+Fx			= "ArtBullet_Shin_hanbok_N"
+SpecialFx	= "ArtBullet_Shin_hanbok_H"
+
+// 여신 신세경 도발탄
+[PartsItem180]
+ShopIndex	= 11911
+Fx			= "ArtBullet_Shin_goddess_N"
+SpecialFx	= "ArtBullet_Shin_goddess_H"
+
+// 조이 데빌 큐피드 날개
+[PartsItem181]
+ShopIndex	= 11943
+Model		= "sa_characters\models\parts\Wingbag_Cupid.ltb"
+skin0		= "sa_characters\skins\parts\BlackWingbag_Cupid.dtx"
+bAniSplit 	= True
+
+// 조이 엔젤 큐피드 날개
+[PartsItem182]
+ShopIndex	= 11944
+Model		= "sa_characters\models\parts\Wingbag_Cupid.ltb"
+skin0		= "sa_characters\skins\parts\WhiteWingbag_Cupid.dtx"
+bAniSplit 	= True
+
+// 2024 지원 도발탄
+[PartsItem183]
+ShopIndex	= 11993
+Fx			= "ArtBullet_Jiwon_N"
+SpecialFx	= "ArtBullet_Jiwon_H"
+
+// 2024 츄 도발탄
+[PartsItem184]
+ShopIndex	= 11995
+Fx			= "ArtBullet_Chuu2024_N"
+SpecialFx	= "ArtBullet_Chuu2024_H"
+
+// 캔디 아트탄
+[PartsItem185]
+ShopIndex	= 12073
+Fx			= "ArtBullet_Candy_N"
+SpecialFx	= "ArtBullet_Candy_H"
+
+// 신슬기 도발탄
+[PartsItem186]
+ShopIndex	= 12165
+Fx			= "ArtBullet_Seulki_N"
+SpecialFx	= "ArtBullet_Seulki_H"
+
+// 장다아 도발탄
+[PartsItem187]
+ShopIndex	= 12166
+Fx			= "ArtBullet_Da_a_N"
+SpecialFx	= "ArtBullet_Da_a_H"
+
+// 김지연 도발탄
+[PartsItem188]
+ShopIndex	= 12167
+Fx			= "ArtBullet_Jiyeon_N"
+SpecialFx	= "ArtBullet_Jiyeon_H"
+
+// 박세림 도발탄
+[PartsItem189]
+ShopIndex	= 12337
+Fx			= "ArtBullet_PSL_N"
+SpecialFx	= "ArtBullet_PSL_H"
+
+// 김미루 도발탄
+[PartsItem190]
+ShopIndex	= 12338
+Fx			= "ArtBullet_KMR_N"
+SpecialFx	= "ArtBullet_KMR_H"
+
+// 박종건 도발탄
+[PartsItem191]
+ShopIndex	= 12339
+Fx			= "ArtBullet_PJG_N"
+SpecialFx	= "ArtBullet_PJG_H"
+
+// 박형석 도발탄
+[PartsItem192]
+ShopIndex	= 12340
+Fx			= "ArtBullet_PHS_N"
+SpecialFx	= "ArtBullet_PHS_H"
+
+// 컷 아트탄
+[PartsItem193]
+ShopIndex	= 12347
+Fx			= "ArtBullet_Cut_N"
+SpecialFx	= "ArtBullet_Cut_H"
+
+// 신세경 아트탄
+[PartsItem194]
+ShopIndex	= 12398
+Fx			= "ArtBullet_SSK_N"
+SpecialFx	= "ArtBullet_SSK_H"
+
+// 아이들 아트탄
+[PartsItem195]
+ShopIndex	= 12505
+Fx			= "ArtBullet_IDLE2024_N"
+SpecialFx	= "ArtBullet_IDLE2024_H"
+
+// 맨스티어 도발탄 - 포이즌
+[PartsItem196]
+ShopIndex	= 12644
+Fx		= "ArtBullet_poison_N"
+SpecialFx		= "ArtBullet_poison_H"
+
+// 맨스티어 도발탄 - 케이셉
+[PartsItem197]
+ShopIndex	= 12646
+Fx		= "ArtBullet_Ksap_N"
+SpecialFx		= "ArtBullet_Ksap_H"
+
+// 주황 버섯 가방
+[PartsItem198]
+ShopIndex	= 12650
+Fx			= ""
+Model		= "sa_characters\models\parts\mushroom_bag_30th.ltb"
+skin0		= "sa_characters\skins\parts\mushroom_bag_30th_3p.dtx"
+
+// 바람의나라 아트탄
+[PartsItem199]
+ShopIndex	= 12651
+Fx			= "ArtBullet_Baram_N"
+SpecialFx	= "ArtBullet_Baram_H"
+
+// 고말숙 도발탄
+[PartsItem200]
+ShopIndex	= 13073
+Fx		= "ArtBullet_Malsook_N"
+SpecialFx		= "ArtBullet_Malsook_H"
+
+// 박민정 도발탄
+[PartsItem201]
+ShopIndex	= 13075
+Fx		= "ArtBullet_Minjung_N"
+SpecialFx		= "ArtBullet_Minjung_H"
+
+// 19금 아트탄
+[PartsItem202]
+ShopIndex	= 13102
+Fx			= "ArtBullet_19th_B"
+SpecialFx	= "ArtBullet_19th_B"
+
+// 찐 19금 아트탄
+[PartsItem203]
+ShopIndex	= 13103
+Fx			= "ArtBullet_19th_A"
+SpecialFx	= "ArtBullet_19th_A"
+
+// 2024 프로미스나인
+[PartsItem204]
+ShopIndex	= 13174
+Fx			= "ArtBullet_fromis9_2024_N"
+SpecialFx	= "ArtBullet_fromis9_2024_H"
+
+// 붓글씨 아트탄
+[PartsItem205]
+ShopIndex	= 13324
+Fx			= "ArtBullet_MoonFlower_N"
+SpecialFx	= "ArtBullet_MoonFlower_H"
+
+// 블랑 고민시 도발탄
+[PartsItem206]
+ShopIndex	= 13476
+Fx			= "ArtBullet_BlancMinsi_N"
+SpecialFx	= "ArtBullet_BlancMinsi_H"
+
+// 시크 고민시 도발탄
+[PartsItem207]
+ShopIndex	= 13477
+Fx			= "ArtBullet_ChicMinsi_N"
+SpecialFx	= "ArtBullet_ChicMinsi_H"
+
+// 피프티 아트탄
+[PartsItem208]
+ShopIndex	= 13563
+Fx			= "ArtBullet_fifty_N"
+SpecialFx	= "ArtBullet_fifty_H"
+
+// 피프티 아트탄
+[PartsItem209]
+ShopIndex	= 13568
+Fx			= "ArtBullet_Word_N"
+SpecialFx	= "ArtBullet_Word_H"
+
+// 2024 NMIXX 아트탄
+[PartsItem210]
+ShopIndex	= 13635
+Fx			= "ArtBullet_nmixx2024_N"
+SpecialFx	= "ArtBullet_nmixx2024_H"
+
+// [30주년] 넥슨 히어로 날개
+[PartsItem211]
+ShopIndex	= 13612
+Fx			= ""
+Model		= "sa_characters\models\parts\wing_medium_bag.ltb"
+skin0		= "sa_characters\skins\parts\wingbag_nexonhero.dtx"
+skin1		= "sa_characters\skins\parts\wing_nexonhero.dtx"
+
+// 꽁꽁 아트탄
+[PartsItem212]
+ShopIndex	= 13702
+Fx			= "ArtBullet_Cold_N"
+SpecialFx	= "ArtBullet_Cold_H"
+
+// 테디클로스 아트탄
+[PartsItem213]
+ShopIndex	= 13705
+Fx			= "ArtBullet_TaedyClaus_N"
+SpecialFx	= "ArtBullet_TaedyClaus_H"
+
+// 혜리 도발탄
+[PartsItem214]
+ShopIndex	= 13799
+Fx			= "ArtBullet_Hyeri_N"
+SpecialFx	= "ArtBullet_Hyeri_H"
+
+// 청사 도발탄
+[PartsItem215]
+ShopIndex	= 13832
+Fx			= "ArtBullet_BlueSnake_N"
+SpecialFx	= "ArtBullet_BlueSnake_H"
+
+// 2025 강혜원 도발탄
+[PartsItem216]
+ShopIndex	= 13996
+Fx			= "ArtBullet_Hyewon2025_N"
+SpecialFx	= "ArtBullet_Hyewon2025_H"
+
+// 2025 최예나 도발탄
+[PartsItem217]
+ShopIndex	= 13998
+Fx			= "ArtBullet_Yena2025_N"
+SpecialFx	= "ArtBullet_Yena2025_H"
+
+// 러블리 다샤 도발탄
+[PartsItem218]
+ShopIndex	= 14064
+Fx			= "ArtBullet_Dasha_Lovely_N"
+SpecialFx	= "ArtBullet_Dasha_Lovely_H"
+
+// 글램 다샤 도발탄
+[PartsItem219]
+ShopIndex	= 14065
+Fx			= "ArtBullet_Dasha_Glam_N"
+SpecialFx	= "ArtBullet_Dasha_Glam_H"
+
+// 두근두근 슬링백
+[PartsItem220]
+ShopIndex	= 14091
+Fx		    = ""
+Model		= "sa_characters\models\parts\insider_bag.ltb"
+skin0		= "sa_characters\skins\parts\slingbag_blossom.dtx"
+bAniSplit 	= True
+
+// 이주은 치어리더 도발탄
+[PartsItem221]
+ShopIndex	= 14275
+Fx			= "ArtBullet_Jueun_Cheer_N"
+SpecialFx	= "ArtBullet_Jueun_Cheer_H"
+
+// 이주은 데일리 도발탄
+[PartsItem222]
+ShopIndex	= 14276
+Fx			= "ArtBullet_Jueun_Daily_N"
+SpecialFx	= "ArtBullet_Jueun_Daily_H"
+
+// 이수지 도발탄
+[PartsItem223]
+ShopIndex	= 14381
+Fx			= "ArtBullet_Suji_N"
+SpecialFx	= "ArtBullet_Suji_H"
+
+// 지예은 도발탄
+[PartsItem224]
+ShopIndex	= 14383
+Fx			= "ArtBullet_Yeeun_N"
+SpecialFx	= "ArtBullet_Yeeun_H"
+
+// 아트탄-오리
+[PartsItem225]
+ShopIndex	= 14397
+Fx			= "ArtBullet_Duck_N"
+SpecialFx	= "ArtBullet_Duck_H"
+
+// 2025 프로미스나인 아트탄
+[PartsItem226]
+ShopIndex	= 14421
+Fx			= "ArtBullet_fromis9_2025_N"
+SpecialFx	= "ArtBullet_fromis9_2025_H"
+
+// 222번 준희 도발탄
+[PartsItem227]
+ShopIndex	= 14484
+Fx			= "ArtBullet_Joyuri222_N"
+SpecialFx	= "ArtBullet_Joyuri222_H"
+
+// 2025 조유리 도발탄
+[PartsItem228]
+ShopIndex	= 14485
+Fx			= "ArtBullet_Joyuri_N"
+SpecialFx	= "ArtBullet_Joyuri_H"
+
+[PartsItem229] // 오징어 게임 요원 브레드 가방
+ShopIndex	=14538
+Fx		=""
+Model		= "sa_characters\models\parts\bag_squid_pink_bear.ltb"
+skin0		= "sa_characters\skins\parts\bag_squid_pink_bear.dtx"
+
+// 오징어 게임 진행 요원 아트탄
+[PartsItem230]
+ShopIndex	= 14601
+Fx			= "ArtBullet_PinkGuard_HN"
+SpecialFx	= "ArtBullet_PinkGuard_HN"
+
+// 이명화 도발탄
+[PartsItem231]
+ShopIndex	= 14637
+Fx			= "ArtBullet_Myeonghwa_N"
+SpecialFx	= "ArtBullet_Myeonghwa_H"
+
+// 율 도발탄
+[PartsItem232]
+ShopIndex	= 14638
+Fx			= "ArtBullet_Yul_N"
+SpecialFx	= "ArtBullet_Yul_H"
+
+// 명화백
+[PartsItem233] 
+ShopIndex	= 14636
+Fx			= ""
+Model		= "sa_characters\models\parts\insider_bag.ltb"
+skin0		= "sa_characters\skins\parts\slingbag_ralral.dtx"
+bAniSplit 	= True
+
+//오징어 게임 참가자 슈가 가방 
+[PartsItem234] 
+ShopIndex    =14606
+Fx        =""
+Model        = "sa_characters\models\parts\bag_squid_green_sugar.ltb"
+skin0        = "sa_characters\skins\parts\bag_squid_green_sugar.dtx"
+
+// 오징어 게임 진행 요원 아트탄
+[PartsItem235]
+ShopIndex	= 14605
+Fx			= "ArtBullet_SG_logo_HN"
+SpecialFx	= "ArtBullet_SG_logo_HN"
+
+// 토끼 아트탄
+[PartsItem236]
+ShopIndex	= 14681
+Fx			= "ArtBullet_Bunny_N"
+SpecialFx	= "ArtBullet_Bunny_H"
+
+// 썸머 권은비 도발탄
+[PartsItem237]
+ShopIndex		= 14699
+Fx				= "ArtBullet_Eunbi2025_N"
+SpecialFx		= "ArtBullet_Eunbi2025_H"
+
+// 썸머 츠키 도발탄
+[PartsItem238]
+ShopIndex		= 14701
+Fx				= "ArtBullet_Tsuki_N"
+SpecialFx		= "ArtBullet_Tsuki_H"
+
+// 파워플랜트 가방
+[PartsItem239] 
+ShopIndex    	= 14784
+Fx              = ""
+Model           = "sa_characters\models\parts\bag_powerplant_3p.ltb"
+skin0           = "sa_characters\skins\parts\bag_powerplant.dtx"
+
+// 트리플S 아트탄
+[PartsItem240]
+ShopIndex		= 14891
+Fx				= "ArtBullet_tripleS_N"
+SpecialFx		= "ArtBullet_tripleS_H"
+
+// 넥슨 아트탄
+[PartsItem241]
+ShopIndex    	= 14783
+Fx              = "ArtBullet_Nexon_HN"
+SpecialFx      	= "ArtBullet_Nexon_HN"
+
+// 복구맵 3차: 통제구역 자판기 가방
+[PartsItem242] 
+ShopIndex    	= 14912
+Fx              = ""
+Model           = "sa_characters\models\parts\bag_vendingmachine_3p.ltb"
+skin0           = "sa_characters\skins\parts\bag_vendingmachine.dtx"
+
+// 키오라 아트탄
+[PartsItem243]
+ShopIndex		= 15033
+Fx				= "ArtBullet_Kiof_N"
+SpecialFx		= "ArtBullet_Kiof_H"
+
+// 복구맵 4차: 아트탄-진짜를 찾아라
+[PartsItem244] 
+ShopIndex    	= 14913
+Fx				= "ArtBullet_FindReal_HN"
+SpecialFx		= "ArtBullet_FindReal_HN"
+
+// 아트탄 - Overclock
+[PartsItem245]
+ShopIndex		= 15497
+Fx				= "ArtBullet_Xena_N"
+SpecialFx		= "ArtBullet_Xena_H"
+
+// 하지원 도발탄
+[PartsItem246]
+ShopIndex		= 15490
+Fx				= "ArtBullet_HaJiwon_N"
+SpecialFx		= "ArtBullet_HaJiwon_H"
+
+// 이주은 도발탄
+[PartsItem247]
+ShopIndex		= 15492
+Fx				= "ArtBullet_LeeJueun_N"
+SpecialFx		= "ArtBullet_LeeJueun_H"
+
+// 복구맵 5차: 컨테이너 가방
+[PartsItem248] 
+ShopIndex    	= 15092
+Fx              = ""
+Model           = "sa_characters\models\parts\bag_ware_container_3p.ltb"
+skin0           = "sa_characters\skins\parts\bag_ware_container_3p.dtx"
+
+// 복구맵 5차: 아트탄 - 베이직 레드
+[PartsItem249]
+ShopIndex		= 15093
+Fx				= "ArtBullet_BasicRed_HN"
+SpecialFx		= "ArtBullet_BasicRed_HN"
+
+// 서바이벌 김설현 도발탄
+[PartsItem250]
+ShopIndex		= 15732
+Fx				= "ArtBullet_Sh_Survival_N"
+SpecialFx		= "ArtBullet_Sh_Survival_H"
+
+// 캐주얼 김설현 도발탄
+[PartsItem251]
+ShopIndex		= 15736
+Fx				= "ArtBullet_Sh_Casual_N"
+SpecialFx		= "ArtBullet_Sh_Casual_H"
+
+// 김동현 도발탄
+[PartsItem252]
+ShopIndex		= 15749
+Fx				= "ArtBullet_Donghyun_N"
+SpecialFx		= "ArtBullet_Donghyun_H"
+
+// 스위트 큐피드 날개
+[PartsItem253]
+ShopIndex	= 15795
+Fx			= "Sweetcupid_bag"
+skin0		= "sa_characters\skins\parts\sweetcupid_wing_bag.dtx"
+Model		= "sa_characters\models\parts\sweetcupid_wing_bag.ltb"
+bAniSplit 	= True
+
+// 바니바니 백팩
+[PartsItem254]
+ShopIndex	= 15802
+Fx			= ""
+Model		= "sa_characters\models\parts\rank_season_bag1.ltb"
+skin0		= "sa_characters\skins\parts\bunnybunny_bag.dtx"
+bAniSplit 	= True  //남&여 성별에 따라 애니메이션 분리.
+
+// 퓨어 츄 도발탄
+[PartsItem255]
+ShopIndex		= 15797
+Fx				= "ArtBullet_Chuu_Pure_N"
+SpecialFx		= "ArtBullet_Chuu_Pure_H"
+
+// 러브 츄 도발탄
+[PartsItem256]
+ShopIndex		= 15798
+Fx				= "ArtBullet_Chuu_Love_N"
+SpecialFx		= "ArtBullet_Chuu_Love_H"
+
+// 아트탄 - 처치하기
+[PartsItem257]
+ShopIndex		= 15758
+Fx				= "ArtBullet_eliminate_HN"
+SpecialFx		= "ArtBullet_eliminate_HN"
+
+//스프링 이주빈 도발탄
+[PartsItem258]
+ShopIndex		= 16003
+Fx				= "ArtBullet_joobeen_spring_N"
+SpecialFx		= "ArtBullet_joobeen_spring_H"
+
+//모던 이주빈 도발탄
+[PartsItem259]
+ShopIndex		= 16004
+Fx				= "ArtBullet_joobeen_modern_N"
+SpecialFx		= "ArtBullet_joobeen_modern_H"
+
+// 생존전 5차 - 고성능 회복키트 가방
+[PartsItem260] 
+ShopIndex       = 15963
+Fx              = ""
+Model           = "sa_characters\models\parts\bag_first_aid_3p.ltb"
+skin0           = "sa_characters\skins\parts\bag_first_aid.dtx"
+
+// 리나 백팩
+[PartsItem261]
+ShopIndex       = 16051
+Fx              = ""
+Model           = "sa_characters\models\parts\lina_bag_26pass2.ltb"
+skin0           = "sa_characters\skins\parts\lina_bag_26pass2.dtx"
+
+// 린 백팩
+[PartsItem262]
+ShopIndex       = 16052
+Fx              = ""
+Model           = "sa_characters\models\parts\lynn_bag_26pass2.ltb"
+skin0           = "sa_characters\skins\parts\lynn_bag_26pass2.dtx"
+
+//펑키 웬디 도발탄
+[PartsItem263]
+ShopIndex		= 16141
+Fx				= "ArtBullet_wendy_funky_N"
+SpecialFx		= "ArtBullet_wendy_funky_H"
+
+//뮤즈 웬디 도발탄
+[PartsItem264]
+ShopIndex		= 16142
+Fx				= "ArtBullet_wendy_muse_N"
+SpecialFx		= "ArtBullet_wendy_muse_H"
+
+// 아트탄-성황할머니
+[PartsItem265]
+ShopIndex      = 16108
+Fx             = "ArtBullet_SHD_Grandmother_HN"
+SpecialFx      = "ArtBullet_SHD_Grandmother_HN"
+
+//시크 정채연 아트탄
+[PartsItem266]
+ShopIndex		= 16310
+Fx			= "ArtBullet_chaeyeon_black_N"
+SpecialFx		= "ArtBullet_chaeyeon_black_H"
+
+//캐주얼 정채연 아트탄
+[PartsItem267]
+ShopIndex		= 16311
+Fx			= "ArtBullet_chaeyeon_white_N"
+SpecialFx		= "ArtBullet_chaeyeon_white_H"
+
+//토끼 최예나 도발탄
+[PartsItem268]
+ShopIndex		= 16374
+Fx			= "ArtBullet_Yena_rabbit_N"
+SpecialFx		= "ArtBullet_Yena_rabbit_H"
+
+//구미호 최예나 도발탄
+[PartsItem269]
+ShopIndex		= 16375
+Fx			= "ArtBullet_Yena_fox_N"
+SpecialFx		= "ArtBullet_Yena_fox_H"
+
+// 아트탄-Persona
+[PartsItem270]
+ShopIndex		= 16381
+Fx				= "ArtBullet_persona"
+SpecialFx		= "ArtBullet_persona"
+
+// 아트탄-GRAND MASTERⅠ
+[PartsItem271]
+ShopIndex		= 16416
+Fx				= "ArtBullet_grand_master_1"
+SpecialFx		= "ArtBullet_grand_master_1"
+
+// 아트탄-GRAND MASTERⅡ
+[PartsItem272]
+ShopIndex		= 16417
+Fx				= "ArtBullet_grand_master_2"
+SpecialFx		= "ArtBullet_grand_master_2"
+
+// 아트탄-GRAND MASTERⅢ
+[PartsItem273]
+ShopIndex		= 16418
+Fx				= "ArtBullet_grand_master_3"
+SpecialFx		= "ArtBullet_grand_master_3"
+
+// 아트탄-LEGEND
+[PartsItem274]
+ShopIndex		= 16419
+Fx				= "ArtBullet_legend"
+SpecialFx		= "ArtBullet_legend"
+
+// 아트탄-RANKER
+[PartsItem275]
+ShopIndex		= 16420
+Fx				= "ArtBullet_ranker"
+SpecialFx		= "ArtBullet_ranker"
+
+// 아트탄-HIGH RANKER
+[PartsItem276]
+ShopIndex		= 16421
+Fx				= "ArtBullet_high_ranker"
+SpecialFx		= "ArtBullet_high_ranker"
+
+// 김지윤 공기통 가방
+[PartsItem277]
+ShopIndex       = 16509
+Fx              = ""
+Model           = "sa_characters\models\parts\jiyoon_bag.ltb"
+skin0           = "sa_characters\skins\parts\jiyoon_bag.dtx"
+
+//미야 백팩
+[PartsItem278]
+ShopIndex		= 16508
+Fx              = ""
+Model           = "sa_characters\models\parts\miya_bag.ltb"
+skin0           = "sa_characters\skins\parts\miya_bag.dtx"
+
+// 아트탄 - 미야
+[PartsItem279]
+ShopIndex	=16510
+Fx		="ArtBullet_miyakim_red_n"
+SpecialFx	="ArtBullet_miyakim_red_h"
+
+// 아트탄 - 김지윤
+[PartsItem280]
+ShopIndex	=16511
+Fx		="ArtBullet_miyakim_blue_n"
+SpecialFx	="ArtBullet_miyakim_blue_h"
+
+// 슈프림 리센느 도발탄
+[PartsItem281]
+ShopIndex		= 16619
+Fx				= "ArtBullet_rescene_n"
+SpecialFx		= "ArtBullet_rescene_h"
+
+// 베이비 브레드 가방
+[PartsItem282]
+ShopIndex       = 16525
+Fx              = ""
+Model           = "sa_characters\models\parts\bag_baby_bread_3p.ltb"
+skin0           = "sa_characters\skins\parts\baby_bread.dtx"
+
+// 베이비 슈가 가방
+[PartsItem283]
+ShopIndex       = 16526
+Fx              = ""
+Model           = "sa_characters\models\parts\bag_baby_sugar_3p.ltb"
+skin0           = "sa_characters\skins\parts\baby_sugar.dtx"
+
+// 아트탄-Paradox
+[PartsItem284]
+ShopIndex		= 16724
+Fx				= "ArtBullet_Paradox"
+SpecialFx		= "ArtBullet_Paradox"
+
+// 이예빈 도발탄
+[PartsItem285]
+ShopIndex		= 16713
+Fx				= "ArtBullet_leekim_pink_n"
+SpecialFx		= "ArtBullet_leekim_pink_h"
+
+// 김가현 도발탄
+[PartsItem286]
+ShopIndex		= 16715
+Fx				= "ArtBullet_leekim_blue_n"
+SpecialFx		= "ArtBullet_leekim_blue_h"
+
+// 생존전 실버 가방
+[PartsItem287]
+ShopIndex       = 16796
+Fx              = ""
+Model           = "sa_characters\models\parts\bag_survival_silver.ltb"
+skin0           = "sa_characters\skins\parts\bag_survival_silver.dtx"
+
+// 생존전 골드 가방
+[PartsItem288]
+ShopIndex       = 16797
+Fx              = ""
+Model           = "sa_characters\models\parts\bag_survival_gold.ltb"
+skin0           = "sa_characters\skins\parts\bag_survival_gold.dtx"
+
+// 생존전 마스터 가방
+[PartsItem289]
+ShopIndex       = 16798
+Fx              = ""
+Model           = "sa_characters\models\parts\bag_survival_master.ltb"
+skin0           = "sa_characters\skins\parts\bag_survival_master.dtx"
+
+// 생존전 레전드 가방
+[PartsItem290]
+ShopIndex       = 16799
+Fx              = ""
+Model           = "sa_characters\models\parts\bag_survival_legend.ltb"
+skin0           = "sa_characters\skins\parts\bag_survival_legend.dtx"
+
+// KISS OF LIFE 아트탄Ⅱ
+[PartsItem291]
+ShopIndex		= 16864
+Fx				= "ArtBullet_kiss_n"
+SpecialFx		= "ArtBullet_kiss_h"
+
+// 캔디바구니 가방
+[PartsItem292]
+ShopIndex		= 16873
+Fx              = ""
+Model           = "sa_characters\models\parts\bag_candybucket_3p.ltb"
+skin0           = "sa_characters\skins\parts\bag_candybucket_3p.dtx"
+bAniSplit 		= True  //남&여 성별에 따라 애니메이션 분리. (Model파일에 각 성별별로 ani가 나뉘어져 있을때 사용)
+
+// 아트탄-박쥐떼
+[PartsItem293]
+ShopIndex		= 16874
+Fx				= "ArtBullet_Bats"
+SpecialFx		= "ArtBullet_Bats"
+
+// 츠키 도발탄
+[PartsItem294]
+ShopIndex		= 16955
+Fx				= "ArtBullet_tuki_Vampire_n"
+SpecialFx		= "ArtBullet_tuki_Vampire_h"
+
+// 슈프림 츠키 도발탄
+[PartsItem295]
+ShopIndex		= 16958
+Fx				= "ArtBullet_tuki_Pierrot_n"
+SpecialFx		= "ArtBullet_tuki_Pierrot_h"

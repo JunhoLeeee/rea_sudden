@@ -1,0 +1,38 @@
+{
+  "package": "C:\\Nexon\\SuddenAttack\\game\\sa_worlds_00009.pkg",
+  "header": {
+    "path": "C:\\Nexon\\SuddenAttack\\game\\sa_worlds_00009.pkg",
+    "bytes": 107055104,
+    "version": 3,
+    "mask_bytes": 156,
+    "masked_string_units": 13,
+    "encrypted_header_offset": 187,
+    "index_padding_bytes": 215,
+    "observed_header_sha256": "00f94f80d5f7e6704f7d40e0c0e47c9283b58d80ac0f3dd7e5165ef926e6b6bd",
+    "identity_scope": "header-ranges-only",
+    "byteorder": "little",
+    "count": 95,
+    "checksum": 393778
+  },
+  "index_raw_sha256": "ee9a1937ab9389c80cabcd0e36131230a3d32a641a5f9f7462ecdc899860efd0",
+  "selected_members": 1,
+  "extracted": [
+    {
+      "path": "sa_worlds/project/ware_house.dat",
+      "offset": 82082816,
+      "stored_bytes": 580376,
+      "output_bytes": 1805073,
+      "ciphertext_sha256": "c92eda75622b58b60e2444a8eedbc4cd36702897e0d74d038749f53d455d1966",
+      "output_sha256": "d013c3f158f1ecfa849513c0778a7094f48d2e895a1053d69c0ef616b1ed24ea",
+      "expected_md5": "819cdf0428c69d44723855bc51f21c4a",
+      "md5_verified": true
+    }
+  ],
+  "errors": [],
+  "status": "selected-members-verified",
+  "limitations": [
+    "Only profiles with flags in 0..7 and no block hash table are supported.",
+    "Archived code is never loaded or executed.",
+    "Full package digest remains unknown; selected read ranges have SHA-256."
+  ]
+}

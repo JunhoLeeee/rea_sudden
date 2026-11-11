@@ -1,0 +1,1151 @@
+/*===============================통합이벤트 팝업 스크립트=====================================*/
+//			디파인빠진 이벤트 스크립트에 정의되면 크래시납니다.
+//
+//Enable		= 이벤트 생성 여부
+//EventID  		= CPopupIntegrationEvent::EVENTID enum값
+//EventCode		= 해당 이벤트의 EventCode (서버에서 전달해주는 값)
+//New			= New표시여부 (default false)
+/*============================================================================================*/
+ 
+// 버닝 이벤트
+[Event0]
+Enable		= TRUE
+EventID		= 4
+EventClass	= "CIntegrationSuperBurningEvent"
+EventCode	= 2026032602
+ServerCode0	= 2026032659
+BtnTex		= "tenyears_btn"
+
+//컴백 서든러 이벤트
+[Event1]
+Enable		= FALSE
+EventID		= 30
+EventClass	= "CSuddenlerEvent"
+EventGuide	= "CPopupSuddenlerEventHelp"
+EventCode 	= 2016122201
+BtnTex		= "btn_comebacksudden"
+
+// 퍼즐 이벤트
+[Event2]
+Enable		= TRUE
+EventID		= 0
+EventClass	= "CPuzzleEvent"
+EventGuide	= "CPopupPieceGuide"
+EventCode	= 2023081706
+BtnTex		= "btn_event03"
+
+//마스터즈 이벤트
+[Event3]
+Enable		= FALSE
+EventID		= 28
+EventClass	= "CPopupMastersEvent"
+EventGuide	= "CPopupMastersEventHelp"
+EventCode 	= 2017030202
+BtnTex		= "Mastersevent_btn"
+
+//코인 이벤트
+[Event4]
+Enable		= TRUE
+EventID		= 7
+EventClass	= "CPopupCoinEvent"
+EventGuide	= "CPopupCoinGuide"
+EventCode 	= 2020022704
+BtnTex		= "btn_event02"
+
+//PC방 이벤트 - PC방 슈퍼헤택 이벤트
+[Event5]
+Enable		= TRUE
+EventID		= 9
+EventClass	= "CPopupAttendEvent"
+EventGuide	= "CPopupAttendEventGuide"
+EventCode 	= 2019013104
+BtnTex		= "btn_pcbangevent"
+
+//클랜전 이벤트
+[Event6]
+Enable		= FALSE
+EventID		= 11
+EventClass	= "CClanBattleEvent"
+EventGuide	= "CPopupClanBattleEventHelp"
+EventCode 	= 2018041204
+BtnTex		= "clanmission_btn"
+
+//마스터즈 사전등록 이벤트
+[Event7]
+Enable		= FALSE
+EventID		= 29
+EventClass	= "CPreMastersEvent"
+EventCode 	= 2016121501
+BtnTex		= "event_mastersgoal_btn"
+
+//9월 주간 랭킹전
+[Event8]
+Enable		= FALSE
+EventID		= 26
+EventClass	= "CPopupWeeklyRankEvent"
+EventGuide	= "CPopupWeeklyRankEventHelp"
+EventCode 	= 2016090802
+BtnTex		= "WeekRank_btn"
+
+//쏴전등록 이벤트 팝업  (2024.05.16 베타서버 이벤트. 단순 웹연결 기능 제공 이벤트로 사용)
+[Event9]
+Enable		= TRUE
+EventID		= 13
+EventClass	= "CPopupSA2CBTEvent"
+EventCode 	= 2026021203
+BtnTex		= "daejagevent_btn"
+
+//골든 티켓 이벤트
+[Event10]
+Enable		= FALSE
+EventID		= 36
+EventClass	= "CGoldenTicketEvent"
+EventGuide	= "CGoldenTicketEventGuide"
+EventCode 	= 2017042704
+BtnTex		= "btn_goldenticket"
+
+//주간 랭킹전 3탄
+[Event11]
+Enable		= FALSE
+EventID		= 8
+EventClass	= "CPopupBigSupplyEvent"
+EventCode 	= 2016090802
+BtnTex		= "BigSupply_btn"
+
+//주간미션 이벤트
+[Event12]
+Enable		= FALSE
+EventID		= 10
+EventClass	= "CWeeklyMissionEvent"
+EventGuide	= "CPopupWeeklyMissionEventHelp"
+EventCode	= 2018052401
+BtnTex		= "weekmisson_btn"
+
+//쇼타임
+[Event13]
+Enable		= FALSE
+EventID		= 25
+EventClass	= "CCountingEvent"
+EventGuide	= "CPopupCountingEventHelp"
+EventCode 	= 2017122803
+BtnTex		= "Director_btn"
+
+//구매 이벤트
+[Event14]
+Enable		= FALSE
+EventID		= 31
+EventClass	= "C2017NewYearBuyEvent"
+EventCode 	= 2017092805
+BtnTex		= "2017Chusuck_btn"
+
+//탈출 모드 이벤트
+[Event15]
+Enable		= FALSE
+EventID		= 32
+EventClass	= "CPopupEscapeModeEvent"
+EventCode 	= 2017011906
+BtnTex		= "Escape_btn"
+
+//진짜를 찾아라
+[Event16]
+Enable		= FALSE
+EventID		= 35
+EventClass	= "CFindRealEvent"
+EventGuide	= "CPopupFindRealEventHelp"
+EventCode 	= 2017042701
+BtnTex		= "btn_findreal"
+
+//파이널존
+[Event17]
+Enable		= FALSE
+EventID		= 33
+EventClass	= ""
+EventCode 	= 2017051101
+BtnTex		= "btn_finalzone"
+
+//시즌전
+[Event18]
+Enable		= FALSE
+EventID		= 37
+EventClass	= ""
+EventCode 	= 2017052501
+BtnTex		= "btn_SurvivalSeason"
+
+//클랜전 버닝 이벤트
+[Event19]
+Enable		= FALSE
+EventID		= 38
+EventClass	= "CCommonBurningEvent"
+EventCode 	= 2017072704
+BtnTex		= "btn_SurvivalClan"
+
+//생존 버닝 이벤트
+[Event20]
+Enable		= FALSE
+EventID		= 39
+EventClass	= "CCommonBurningEvent"
+EventCode 	= 2017072705
+BtnTex		= "btn_Survival"
+
+//승리 버닝 이벤트
+[Event21]
+Enable		= TRUE
+EventID		= 40
+EventClass	= "CVictoryBurningEvent"
+EventGuide	= "CVictoryBurningEventGuide"
+EventCode 	= 2022052600
+BtnTex		= "tenyears_btn"
+
+// 출석체크 이벤트
+[Event22]
+Enable		= TRUE
+EventID		= 34
+EventClass	= "CPopupGWAttendEvent"
+EventGuide	= "CPopupGWAttendGuide"
+EventCode	= 2025010906
+ServerCode0	= 2025010905
+BtnTex		= "btn_pcbangcheckevent"
+
+// 샐리엄 플레이 이벤트
+[Event23]
+Enable		= FALSE
+EventID		= 41
+EventClass	= "CThalliumEvent"
+EventCode 	= 2017081002
+BtnTex		= "btn_thallium"
+
+// 샐리엄 랭커 클랜 이벤트
+[Event24]
+Enable		= FALSE
+EventID		= 42
+EventClass	= "CThalliumEventClan"
+EventCode 	= 2017081003
+BtnTex		= "btn_thalliumclan"
+
+// 영구제를 획득하라! (주간접속이벤트)
+[Event25]
+Enable		= FALSE
+EventID		= 43
+EventClass	= "CWeeklyAccessEvent"
+EventGuide	= "CWeeklyAccessEventHelp"
+EventCode 	= 2017083102
+BtnTex		= "btn_Weeklyaccess"
+
+// 32구역 듀오 이벤트
+[Event26]
+Enable		= FALSE
+EventID		= 44
+EventClass	= ""
+EventCode 	= 2017090701
+BtnTex		= "btn_32duo"
+
+// 호크아이 이벤트
+[Event27]
+Enable		= FALSE
+EventID		= 45
+EventClass	= "CPopupHawkeyeEvent"
+EventGuide	= "CHawkeyeEventItemGuide"
+EventCode 	= 2017092802
+BtnTex		= "btn_hawk_event"
+
+// 할로윈 맵 이벤트
+[Event28]
+Enable		= FALSE
+EventID		= 41
+EventClass	= "CThalliumEvent"
+EventCode 	= 2017101937
+BtnTex		= "btn_halloween_event"
+
+// 생존 시즌전 이벤트
+[Event29]
+Enable		= FALSE
+EventID		= 46
+EventClass	= ""
+EventCode 	= 2017113004
+BtnTex		= "btn_SurvivalSeason"
+
+// 주말 PC방으로 갓! 이벤트
+[Event30]
+Enable		= FALSE
+EventID		= 47
+EventClass	= "CPCBangGodEvent"
+EventCode 	= 2022110001
+ServerCode0	= 2022110014
+BtnTex		= "btn_pcbanggodevent"
+
+//갓모드2 이벤트1
+[Event31]
+Enable		= FALSE
+EventID		= 56
+EventClass	= "CPopupGODMode2Event1"
+EventCode 	= 2018050301
+BtnTex		= "GODmode2_btn"
+
+// PC방 듀오 이벤트
+[Event32]
+Enable		= TRUE
+EventID		= 50
+EventClass	= "CPopupPCRoomDuoEvent"
+EventGuide	= "CPopupDuoBoxGuide"
+EventCode	= 2023030901
+ServerCode0	= 2023030940
+BtnTex		= "btn_pcbangduoevent"
+
+//듀오 토너먼트 이벤트
+[Event33]
+Enable		= FALSE
+EventID		= 49
+EventClass	= "CPopupTournamentEvent"
+EventCode 	= 2018011801
+BtnTex		= "btn_Duo_event"
+
+//랭킹전 이벤트
+[Event34]
+Enable		= TRUE
+EventID		= 51
+EventClass	= "CPopupRankEvent"
+EventCode 	= 2022010601
+ServerCode0      	= 2022010637	  // 주로 멀티플렉스에서 사용함. 실제 서버값.
+BtnTex		= "btn_rankevent"
+
+// 쇼타임 이벤트
+[Event35]
+Enable		= TRUE
+EventID		= 53
+EventClass	= "CPopupShowtimeEvent"
+EventCode 	= 2024081401
+BtnTex		= "btn_333event"
+
+//스노우스톰 이벤트
+[Event36]
+Enable		= FALSE
+EventID		= 52
+EventClass	= ""
+EventCode 	= 2018030801
+BtnTex		= "btn_snowstorm"
+
+// PC방으로 갓 이벤트
+[Event37]
+Enable		= TRUE
+EventID		= 55
+EventClass	= "CPopupPCBangWeekendEvent"
+EventGuide	= "CPopupPCBangWeekendEventHelp"
+EventCode	= 2026091003
+ServerCode0	= 2026091014
+BtnTex		= "Pcgod_btn"
+New			= TRUE
+
+[Event38]
+Enable		= FALSE
+EventID		= 57
+EventClass	= "CPopupGODMode2Event2"
+EventCode 	= 2018051702
+BtnTex		= "GODmode2_2_btn"
+
+// 응모권 이벤트 - 스페셜 이벤트
+[Event39]
+Enable			= TRUE
+EventID			= 58
+EventClass		= "CPopupEntryEvent"
+EventGuide		= "CPopupEntryEventGuide"
+EventCode 		= 2026012902
+ServerCode0		= 2026012957
+BtnTex			= "SpecialEvent_btn"
+New				= TRUE
+
+// 맵 플레이 이벤트
+[Event40]
+Enable		= TRUE
+EventID		= 59
+EventClass	= "CPopupMapPlayEvent"
+EventCode 	= 2019062702
+ServerCode0 = 2019062737
+BtnTex		= "mapplayevent_btn"
+
+// 클린서버 이벤트
+[Event41]
+Enable		= FALSE
+EventID		= 60
+EventClass	= "CPopupCleanServerEvent"
+EventGuide	= "CPopupCleanServerEventHelp"
+EventCode 	= 2018072301
+BtnTex		= "cleanserver_btn"
+
+// 업박스 이벤트
+[Event42]
+Enable		= TRUE
+EventID		= 61
+EventClass	= "CPopupUpBoxEvent"
+EventCode 	= 2020032601
+BtnTex		= "13th_event_btn"
+
+// PC방 누적 이벤트
+[Event43]
+Enable		= TRUE
+EventID		= 63
+EventClass	= "CPCBangGago13th"
+EventCode 	= 2026102903
+BtnTex		= "ChusuckPC_event_btn"
+
+// 클랜하고13
+[Event44]
+Enable		= FALSE
+EventID		= 62
+EventClass	= "CPopupClanVoteEvent"
+EventCode 	= 2018081606
+BtnTex		= "clan13_event_btn"
+
+// 서든LIVE
+// 서든라이브는 이벤트코드를 바꾸지 않는다 - 고정
+[Event45]
+Enable		= TRUE
+EventID		= 64
+EventClass	= "CPopupSuddenLiveNoCoupon"				//쿠폰입력 O: CPopupSuddenLive, 쿠폰입력X: CPopupSuddenLiveNoCoupon
+EventGuide	= "CPopupSuddenLiveGuide"           //가이드는 공용으로 사용
+EventCode	= 2021121605 // 고정
+ServerCode0	= 2026080643
+BtnTex		= "Suddenlive_btn"
+
+// 버닝 이벤트 (미션)
+[Event46]
+Enable		= TRUE
+EventID		= 54
+EventClass	= "CIntegrationSuperBurningMissionEvent"
+EventGuide	= "CIntegrationSuperBurningMissionEventGuide"
+EventCode	= 2026080605
+ServerCode0	= 2026080659
+BtnTex		= "tenyears_btn"
+New			= TRUE
+
+// 주간미션2 이벤트
+[Event47]
+Enable		= TRUE
+EventID		= 65
+EventClass	= "CPopupWeekMissionEvent"
+EventGuide	= "CPopupWeekMissionEventHelp"
+EventCode 	= 2019051602
+BtnTex		= "btn_weekevent"
+
+// 신규&복귀 친구초대 이벤트
+[Event48]
+Enable		= TRUE
+EventID		= 66
+EventClass	= "CPopupFullChangeInviteEvent"
+EventGuide	= "CPopupFullChangeInviteEventInviteHelp"
+EventCode 	= 2023081707
+BtnTex		= "friendinvitation_btn"
+
+// 사전신청 이벤트 - 계급개편
+[Event49]
+Enable		= FALSE
+EventID		= 67
+EventClass	= "CPopupAdvReservation"
+EventCode 	= 2019011702
+BtnTex		= "btn_applyevent"
+
+// 믹스 이벤트
+[Event50]
+Enable		= TRUE
+EventID		= 68
+EventClass	= "CPopupMixFreeEvent"
+EventCode 	= 2019022103
+BtnTex		= "MixEvent_btn"
+
+// 클랜 출석체크 이벤트
+[Event51]
+Enable		= TRUE
+EventID		= 69
+EventClass	= "CPopupClanAttendEvent"
+EventGuide	= "CPopupClanAttendGuide"
+EventCode	= 2021081203
+BtnTex		= "btn_clanattendevent"
+
+// 랭크전 플레이 이벤트
+[Event52]
+Enable		= TRUE
+EventID		= 70
+EventClass	= "CPopupRankMatchPlayEvent"
+EventCode 	= 2019071104
+ServerCode0     = 2019071141				// 주로 멀티플렉스에서 사용함. 실제 서버값.
+BtnTex		= "btn_rankplayevent"
+
+// 어린이날 쇼타임 이벤트 5/4
+[Event53]
+Enable		= FALSE
+EventID		= 71
+EventClass	= "CPopupChildrensDayShowtimeEvent"
+EventCode 	= 2022050401
+BtnTex		= "btn_333event"
+
+// 어린이날 쇼타임 이벤트 5/5
+[Event54]
+Enable		= FALSE
+EventID		= 72
+EventClass	= "CPopupChildrensDayShowtimeEvent"
+EventCode 	= 2019050501
+ServerCode0     = 2019050532
+ServerCode1     = 2019050533
+ServerCode2     = 2019050534
+BtnTex		= "btn_showtime02"
+
+// 어린이날 쇼타임 이벤트 5/6
+[Event55]
+Enable		= FALSE
+EventID		= 73
+EventClass	= "CPopupChildrensDayShowtimeEvent"
+EventCode 	= 2019050601
+ServerCode0     = 2019050632
+ServerCode1     = 2019050633
+ServerCode2     = 2019050634
+BtnTex		= "btn_showtime03"
+
+// WEB LINK EVENT
+[Event56]
+Enable		= TRUE
+EventID		= 74
+EventClass	= "CPopupWebLinkageEvent"
+EventCode 	= 2026101503
+BtnTex		= "CrossEvent_btn"
+
+// 캐릭터를 모아라 이벤트
+[Event57]
+Enable		= TRUE
+EventID		= 75
+EventClass	= "CPopupPeriodEvent"
+EventGuide	= "CPopupPeriodEventGuide"
+EventCode 	= 2025073101
+ServerCode0	= 2025073116
+BtnTex		= "Event_Collect_btn"
+New			= TRUE
+
+// 2019 수집이벤트
+[Event58]
+Enable		= TRUE
+EventID		= 76
+EventClass	= "CPopupGatherEvent"
+EventGuide	= "CPopupGatherGuide"
+EventCode 	= 2019080102
+ServerCode0	= 2019080140
+BtnTex		= "CollectionEvent_btn"
+
+// 응모권 이벤트2 (20211209 이전 파이널응모권)
+[Event59]
+Enable		= TRUE
+EventID		= 77
+EventClass	= "CPopupPrizesRushEvent"
+EventGuide	= "CPopupPrizesRushEventGuide"
+EventCode 	= 2022082501
+ServerCode0	= 2022082552
+BtnTex		= "btn_baramcollabo"
+
+// 14주년 이벤트 연출
+[Event60]
+Enable		= TRUE
+EventID		= 78
+EventClass	= "CPopupNumericRouletteEvent"
+EventCode 	= 2019081403
+BtnTex		= "14Lucky_btn"
+
+// 핫타임 리뉴얼
+[Event61]
+Enable		= TRUE
+EventID		= 79
+EventClass	= "CPopupHottimeEvent"
+EventGuide	= "CPopupHottimeGuide"
+EventCode 	= 2019082901
+BtnTex		= "Burnning_btn"
+
+// 무기를 모아라 이벤트
+[Event62]
+Enable		= TRUE
+EventID		= 80
+EventClass	= "CPopupPeriodEvent"
+EventGuide	= "CPopupPeriodEventGuide"
+EventCode 	= 2026102201
+ServerCode0	= 2026102216
+BtnTex		= "Event_Collect_Weapon_btn"
+
+// SuddenPass Redirect 이벤트
+[Event63]
+Enable		= TRUE
+EventID		= 81
+EventClass	= "CPopupSuddenPassRedirectEvent"
+EventGuide	= "CPopupSuddenPassRedirectEventGuide"
+EventCode 	= 2026100105
+BtnTex		= "CrossEvent02_btn"
+
+// 수능묻고!영구제로 가!
+[Event64]
+Enable		= TRUE
+EventID		= 82
+EventClass	= "CPopupSweetEvent"
+EventCode 	= 2020110501
+ServerCode0	= 2020110540
+BtnTex		= "CrossEvent02_btn"
+
+// 클랜 부스팅 이벤트
+[Event65]
+Enable		= TRUE
+EventID		= 83
+EventClass	= "CPopupClanBoosting"
+EventGuide	= "CPopupClanBoostingHelp"
+EventCode 	= 2023011903
+BtnTex		= "Seasonclan_btn"
+
+// 유니크 수집 이벤트
+[Event66]
+Enable		= TRUE
+EventID		= 84
+EventClass	= "CPopupUniqueCollectionEvent"
+EventGuide	= "CPopupUniqueCollectionEventGuide"
+EventCode 	= 2020012302
+ServerCode0	= 2020012320
+BtnTex		= "Event_Unique_Collect_btn"
+
+// 3보급 생존 이벤트
+[Event67]
+Enable		= TRUE
+EventID		= 85
+EventClass	= "CPopupSurvivalEvent"
+EventGuide	= "CPopupSurvivalEventHelp"
+EventCode 	= 2020013003
+ServerCode0	= 2020013040
+BtnTex		= "3tankarea_btn"
+
+// 접속/DT 이벤트 - 쇼타임
+[Event68]
+Enable		= TRUE
+EventID		= 86
+EventClass	= "CPopupFinaleShowtimeEvent"
+EventGuide	= "CPopupFinaleShowtimeEventEventGuide"
+EventCode	= 2026100103
+BtnTex		= "btn_333event"
+
+// 화이트데이 생존 이벤트
+[Event69]
+Enable		= TRUE
+EventID		= 87
+EventClass	= "CPopupInGameCollectEvent"
+EventGuide	= "CPopupInGameCollectEventGuide"
+EventCode 	= 2022102704
+ServerCode0	= 2022102740
+BtnTex		= "btn_mapplay"
+
+// 피날레 레벨업 이벤트
+[Event70]
+Enable		= TRUE
+EventID		= 88
+EventClass	= "CPopupPassGiftEvent"
+EventCode	= 2026090303
+ServerCode0	= 2026090320
+BtnTex		= "btn_SuddenPass"
+
+// PC방 3InOne 이벤트 
+[Event71]
+Enable		= TRUE
+EventID		= 89
+EventClass	= "CPopupPCBang3InOneEvent"
+EventGuide	= "CPopupPCBang3InOneEventGuide"
+EventCode 	= 2022031003
+//ServerCode0	= 2022031003
+BtnTex		= "btn_Map_Back_Pcbang"
+
+// 부트캠프 이벤트
+[Event72]
+Enable		= TRUE
+EventID		= 90
+EventClass	= "CPopupBootCampEvent"
+EventCode	= 2021082604
+BtnTex		= "CollectionEvent_btn"
+
+// VIP Point 이벤트
+[Event73]
+Enable		= TRUE
+EventID		= 91
+EventClass	= "CPopupVIPPointEvent"
+EventGuide	= "CPopupVIPPointEventGuide"
+EventCode	= 2021091602
+ServerCode0	= 2026091742
+BtnTex		= "btn_seasonvip0"
+
+// 퍼즐이벤트_퍼스트존
+[Event74]
+Enable		= TRUE
+EventID		= 92
+EventClass	= "CPopupInGamePuzzleEvent"
+EventGuide	= "CPopupInGamePuzzleEventGuide"
+EventCode 	= 2022022405
+BtnTex		= "btn_firstzone"
+
+// 생존 수집 이벤트
+[Event75]
+Enable		= TRUE
+EventID		= 93
+EventClass	= "CPopupSurvivalCollectEvent"
+EventGuide	= "CPopupSurvivalCollectEventHelp"
+EventCode	= 2022042102
+BtnTex		= "btn_survivalcollect"
+
+// 17주년 출석체크 이벤트
+[Event76]
+Enable		= TRUE
+EventID		= 94
+EventClass	= "CPopupAttendMygun3LevelUpEvent"
+EventGuide	= "CPopupAttendMygun3LevelUpEventHelp"
+EventCode	= 2022081801
+ServerCode0	= 2022081843
+BtnTex		= "btn_17anniversary"
+
+// SP 보너스 이벤트
+[Event77]
+Enable		= TRUE
+EventID		= 95
+EventClass	= "CPopupSPBonusEvent"
+EventGuide	= "CPopupSPBonusEventGuide"
+EventCode	= 2023062903
+ServerCode0	= 2023062943
+BtnTex		= "btn_sp_bonus"
+
+// 포인트 멀티카운트 이벤트
+[Event78]
+Enable		= TRUE
+EventID		= 96
+EventClass	= "CPopupPointMultiCountEvent"
+EventGuide	= "CPopupPointMultiCountEventHelp"
+EventCode	= 2022100601
+BtnTex		= "Event_Collect_hangul_btn"
+
+// 클랜 주간 목표달성 이벤트
+[Event79]
+Enable		= TRUE
+EventID		= 97
+EventClass	= "CPopupClanWeeklyEvent"
+EventGuide	= "CPopupClanWeeklyGuide"
+EventCode 	= 2023040601
+BtnTex		= "ClanWeekly_Event_btn"
+
+// 연속출석체크 이벤트
+[Event80]
+Enable			= TRUE
+EventID			= 98
+EventClass		= "CPopupConsecutiveAttendanceEvent"
+EventGuide		= "CPopupConsecutiveAttendanceEventGuide"
+EventCode		= 2026100801
+ServerCode0		= 2026100805
+BtnTex			= "event_pcbangcheck_btn"
+
+// 커스텀을 모아라 이벤트
+[Event81]
+Enable		= TRUE
+EventID		= 99
+EventClass	= "CPopupCustomCollectEvent"
+EventGuide	= "CPopupPeriodEventGuide"
+EventCode	= 2026101501
+ServerCode0	= 2026101599 // 현재 단일 이벤트이므로 사용하지 않음. 해당 이벤트를 여러 이벤트로 분리하여 사용할경우 서버 이벤트 코드 추가 필요.
+BtnTex		= "Event_custom"
+
+//Web 응모권 교환 이벤트
+[Event82]
+Enable		= TRUE
+EventID		= 100
+EventClass	= "CPopupWebExchangeEvent"
+EventCode	= 2026091702
+BtnTex		= "daejagevent_btn"
+
+// 신규&복귀 친구초대 이벤트
+[Event83]
+Enable		= TRUE
+EventID		= 101
+EventClass	= "CPopupNewRetrunEvent"
+EventGuide	= "CPopupNewRetrunEventHelp"
+EventCode 	= 2023081708
+BtnTex		= "step_event_btn"
+
+// 다이너마트 컬렉션 수집 이벤트
+[Event84]
+Enable		= TRUE
+EventID		= 102
+EventClass	= "CPopupDMartCollectEvent"
+EventGuide	= "CPopupDMartCollectEventGuide"
+EventCode 	= 2026091005
+ServerCode0	= 2026091011
+BtnTex		= "D_collection_btn"
+
+// 패스티켓구입이벤트
+[Event85]
+Enable		= TRUE
+EventID		= 103
+EventClass	= "CPopupPassTicketBuyEvent"
+EventCode 	= 2026101502
+ServerCode0	= 2026101567
+BtnTex		= "btn_PassTicketPurchase"
+
+// 프리미엄 PC방 연계 출석 이벤트
+[Event86]
+Enable		= TRUE
+EventID		= 104
+EventClass	= "CPopupPCBangAttendEvent"
+EventGuide	= "CPopupPCBangAttendGuide"
+EventCode	= 2026091004
+ServerCode0	= 2026091089
+BtnTex		= "btn_holidaypcbangcheckevent"
+
+// 민속촌 이벤트
+[Event87]
+Enable		= TRUE
+EventID		= 105
+EventClass	= "CPopupFolkVillageEvent"
+EventGuide	= "CPopupFolkVillageEventGuide"
+EventCode 	= 2026041601
+ServerCode0	= 2026041602
+BtnTex		= "btn_folkvillage"
+
+// 연구소 이벤트
+[Event88]
+Enable		= TRUE
+EventID		= 106
+EventClass	= "CPopupLabEvent"
+EventCode 	= 2024101002
+ServerCode0	= 2024101068
+BtnTex		= "LabopenEvent_btn"
+
+// 캐릭터 수집 이벤트
+[Event89]
+Enable		= TRUE
+EventID		= 107
+EventClass	= "CPopupGatheringPuzzleEvent"
+EventGuide	= "CPopupGatheringPuzzleEventtGuide"
+EventCode 	= 2023110203
+BtnTex		= "ch_collection_btn"
+
+// 협동 이벤트
+[Event90]
+Enable		= TRUE
+EventID		= 108
+EventClass	= "CPopupCooperationEvent"
+EventGuide	= "CPopupCooperationEventGuide"
+EventCode	= 2026102202
+BtnTex		= "Event_coop_btn"
+
+// 커스텀무기 레벨업 이벤트
+[Event91]
+Enable		= TRUE
+EventID		= 109
+EventClass	= "CPopupCustomWeaponLevelupEvent"
+EventGuide	= "CPopupCustomWeaponLevelupEventGuide"
+EventCode 	= 2024020103
+BtnTex		= "btn_CustomWeaponLvUp"
+
+// 2024 서든에 정착해봄 - 계급을 올려봄 이벤트
+[Event92]
+Enable		= TRUE
+EventID		= 110 //POPUP_EVENT_2024_WELCOME_PROMOTION
+EventClass	= "CPopup2024WelcomePromotionEvent"
+EventGuide	= "CPopup2024WelcomePromotionEventHelp"
+EventCode 	= 2024030701
+BtnTex		= "Event_ClassUpgrade_btn"
+
+// 2024 서든에 정착해봄 - 신규/복귀 7일 미션 이벤트
+[Event93]
+Enable		= TRUE
+EventID		= 111 //POPUP_EVENT_2024_WELCOME_MISSION
+EventClass	= "CPopup2024WelcomeMissionEvent"
+EventGuide	= "CPopup2024WelcomeMissionEventHelp"
+EventCode 	= 2024030702
+BtnTex		= "Event_7mission_btn"
+
+// 다이너코인 SP 교환 이벤트
+[Event94]
+Enable		= TRUE
+EventID		= 112
+EventClass	= "CPopupDynacoinExchangeEvent"
+EventCode 	= 2025121803
+ServerCode0 = 2025091137
+BtnTex		= "coinexchange_btn"
+
+// 피라미드 이벤트
+[Event95]
+Enable		= TRUE
+EventID		= 113
+EventClass	= "CPopupPyramidEvent"
+EventGuide	= "CPopupPyramidEventGuide"
+EventCode 	= 2024040403
+BtnTex		= "SuddenPyramid_btn"
+
+// 2배 출석체크 이벤트
+[Event96]
+Enable		= TRUE
+EventID		= 114 //POPUP_EVENT_ATTENDANCECHECK_DOUBLE
+EventClass	= "CPCAttendanceCheckDoubleEvent"
+EventGuide	= "CPCAttendanceCheckDoubleEventHelp"
+EventCode 	= 2026061804
+ServerCode0	= 2026061826
+BtnTex		= "event_pcbangcheck2_btn"
+
+// 쾌감 원샷 챌린지 - 2024.07.18 (CPopupLabEvent와 거의 동일한 포맷이라 같은 헤더에 위치)
+[Event97]
+Enable		= TRUE
+EventID		= 115 //POPUP_EVENT_MODE_PLAY_MISSION_EVENT
+EventClass	= "CPopupModePlayMissionEvent"
+EventGuide	= "CPopupModePlayMissionEventGuide"
+EventCode 	= 2026110502
+ServerCode0	= 2026110568
+BtnTex		= "Event_modeplay_btn"
+
+// PC방 파티 이벤트
+[Event98]
+Enable		= TRUE
+EventID		= 116 //POPUP_EVENT_PCBANG_PARTY_EVENT
+EventClass	= "CPopupPCBangPartyEvent"
+EventGuide	= "CPopupPCBangPartyEventGuide"
+EventCode 	= 2026100104
+ServerCode0	= 2026100174
+BtnTex		= "PCbang_Party_btn"
+
+// 2024 친구초대 이벤트
+[Event99]
+Enable		= TRUE
+EventID		= 117 //POPUP_EVENT_NEW_FRIENDINVITE
+EventClass	= "CPopup2024FriendInviteEvent"
+EventGuide	= "CPopup2024FriendInviteEventHelp"
+EventCode 	= 2026043004
+BtnTex		= "acquisition_btn"
+
+// 넥슨 30주년 위클리 이벤트
+[Event100]
+Enable		= TRUE
+EventID		= 118 //POPUP_EVENT_WEEKLYMISSION30_EVENT
+EventClass	= "CWeeklyMission30Event"
+EventGuide	= "CWeeklyMission30EventHelp"
+EventCode 	= 2026080603
+BtnTex		= "Event_Weeklymission_btn"
+
+// 넥슨 30주년 콜라보 이벤트 (코인 현황 및 웹링크 버튼 제공 이벤트)
+[Event101]
+Enable		= TRUE
+EventID		= 119 //POPUP_EVENT_INGAME_COIN_DROP
+EventClass	= "CPopupIngameCoinDropEvent"
+EventCode 	= 2024080103
+ServerCode  = 2024080102
+BtnTex		= "btn_30thCollabo_btn"
+
+// 랭크 협동 이벤트
+[Event102]
+Enable		= TRUE
+EventID		= 120 // POPUP_EVENT_RANK_COOPERATION
+EventClass	= "CPopupRankCooperationEvent"
+EventGuide	= "CPopupRankCooperationEventGuide"
+EventCode 	= 2026091704
+ServerCode0 = 2026091711
+BtnTex		= "Event_rank_coop_btn"
+New			= TRUE
+
+// [프라임/슈프림] 캐릭터를 모아라 이벤트
+[Event103]
+Enable			= TRUE
+EventID			= 121
+EventClass		= "CPopupCollectPrimeCharacterEvent"
+EventGuide		= "CPopupCollectPrimeCharacterEventGuide"
+EventCode 		= 2026102901
+ServerCode0		= 2026102916
+BtnTex			= "Event_Collect2_btn"
+New				= TRUE
+
+// 기부 프로모션
+[Event104]
+Enable		= TRUE
+EventID		= 122
+EventClass	= "CPopupDonationEvent"
+EventCode	= 2024120501
+//ServerCode0	= 2024120533
+BtnTex		= "30thEvent_btn"
+New		= TRUE
+
+// 업모드 전용 이벤트
+[Event105]
+Enable		= TRUE
+EventID		= 123
+EventClass	= "CPopupMapStepEvent"
+EventGuide	= "CPopupMapStepEventGuide"
+EventCode 	= 2026080604
+ServerCode0	= 2026080612
+BtnTex		= "uptogether_event_btn"
+New			= TRUE
+
+// 서든혜택 이벤트
+[Event106]
+Enable		= TRUE
+EventID		= 124 //POPUP_EVENT_SUDDEN_BENEFIT
+EventClass	= "CPopupSuddenBenefitEvent"
+EventGuide	= "CPopupSuddenBenefitEventGuide"
+EventCode	= 2025010904
+ServerCode0	= 2025010968
+BtnTex		= "SuddenBenefitEvent_btn"
+
+// 응모권 이벤트 Ex - 스페셜 이벤트
+[Event107]
+Enable			= TRUE
+EventID			= 125 // POPUP_EVENT_ENTRY_EVENT_EX
+EventClass		= "CPopupEntryEventEx"
+EventGuide		= "CPopupEntryEventExGuide"
+EventCode 		= 2026102902
+ServerCode0		= 2026102957
+BtnTex			= "SpecialEventEx_btn"
+New				= TRUE
+
+// 캐릭터를 모아라 이벤트 Ex
+[Event108]
+Enable		= TRUE
+EventID		= 126 // POPUP_EVENT_PERIOD_EX
+EventClass	= "CPopupPeriodEventEx"
+EventGuide	= "CPopupPeriodEventExGuide"
+//EventCode 	= 2025073101
+//ServerCode0	= 2025073116
+EventCode 	= 2025011601
+ServerCode0	= 2025011616
+BtnTex		= "Event_CollectEx_btn"
+New			= TRUE
+
+// 마이건마트 응모권 이벤트
+[Event109]
+Enable		= TRUE
+EventID		= 127 //POPUP_EVENT_MYGUN_ENTRY_EVENT
+EventClass	= "CPopupMygunEntryEvent"
+EventGuide	= "CPopupMygunEntryEventGuide"
+EventCode	= 2026110501
+ServerCode0	= 2026080666
+BtnTex		= "mgEvent_btn"
+New			= TRUE
+
+// 정착 응원 이벤트
+[Event110]
+Enable		= TRUE
+EventID		= 128 // POPUP_EVENT_SETTLEMENT_EVENT
+EventClass	= "CPopupSettlementEvent"
+EventGuide	= "CPopupSettlementEventGuide"
+EventCode	= 2025082108
+ServerCode0	= 2025082133
+BtnTex		= "Event_Settle_btn"
+New			= TRUE
+
+// 메가카운트 SP 교환 이벤트
+[Event111]
+Enable		= TRUE
+EventID		= 129 // POPUP_EVENT_MEGACOUNT_SP_EXCHANGE_EVENT
+EventClass	= "CPopupMegaCountSPExchangeEvent"
+EventCode 	= 2026082701
+ServerCode0	= 2026082737
+BtnTex		= "MegacountExchange_btn"
+
+// 마이건 니케 레벨업 이벤트
+[Event112]
+Enable		= TRUE
+EventID		= 130 // POPUP_EVENT_MYGUN_LEVELUP_EVENT
+EventClass	= "CPopupMyGunLevelUpEvent"
+EventGuide	= "CPopupMyGunLevelUpEventGuide"
+EventCode 	= 2025082105
+BtnTex		= "event_Levelup_btn"
+
+// PC방 접속구매 이벤트 (NOBLE)
+[Event113]
+Enable		= TRUE
+EventID		= 132 // POPUP_EVENT_PCBANG_ACCESS_PURCHASE
+EventClass	= "CPopupPCBangAccessPurchaseEvent"
+EventGuide	= "CPopupPCBangAccessPurchaseEventGuide"
+EventCode 	= 2025082106
+BtnTex		= "20th_NobleEvent"	// 수정해야함
+
+// 단계 돌파 이벤트
+[Event114]
+Enable		= TRUE
+EventID		= 131 // POPUP_EVENT_STEP_BREAK_EVENT
+EventClass	= "CPopupStepbreakEvent"
+EventGuide	= "CPopupStepbreakEventGuide"
+EventCode 	= 2026011501
+BtnTex		= "20thstep_event_btn"
+
+// 서든패스 연말정산 이벤트
+[Event115]
+Enable		= TRUE
+EventID		= 133 // POPUP_EVENT_SUDDENPASS_BUY_REWARD_EVENT
+EventClass	= "CPopupSuddenPassBuyRewardEvent"
+EventGuide	= "CPopupSuddenPassBuyRewardEventGuide"
+EventCode 	= 2025121101
+BtnTex		= "btn_PassBuyCare"
+
+// 생존전 키카드 SP 구매 이벤트 (다이너코인 SP 교환 이벤트 EX)
+[Event116]
+Enable		= TRUE
+EventID		= 134 // POPUP_EVENT_SP_EXCHANGE_EVENT_EX
+EventClass	= "CPopupDynacoinExchangeEventEx"
+EventCode 	= 2026010205
+ServerCode0 = 2026101541
+BtnTex		= "btn_keycard_event"
+
+// 연구소 분해 이벤트
+[Event117]
+Enable		= TRUE
+EventID		= 135 // POPUP_EVENT_LAB_DISASSEMBLE_EVENT
+EventClass	= "CPopupLabDisassembleEvent"
+EventGuide  = "CPopupLabDisassembleEventGuide"
+EventCode 	= 2026011502
+BtnTex		= "Lap_DisassembleEvent_btn"
+
+// 다이너마트 응모권 이벤트
+[Event118]
+Enable		= TRUE
+EventID		= 136 //POPUP_EVENT_DMART_ENTRY_EVENT
+EventClass	= "CPopupMygunEntryEvent"
+EventGuide	= "CPopupMygunEntryEventGuide"
+EventCode	= 2026091002
+ServerCode0	= 2026091066
+BtnTex		= "dmart_event_btn"
+New			= TRUE
+
+// 황금연휴 PC방 이벤트
+[Event119]
+Enable		= TRUE
+EventID		= 137 //POPUP_EVENT_PCBANG_ACCESS_RANK
+EventClass	= "CPopupPCBangAccessRankEvent"
+EventGuide	= "CPopupPCBangAccessRankEventGuide"
+EventCode	= 2026043003
+BtnTex		= "event_pcbangcheck3_btn"
+
+// 짝꿍과 협동 이벤트
+[Event120]
+Enable		= TRUE
+EventID		= 138 // POPUP_EVENT_PARTNER_COOPRATION
+EventClass	= "CPopupPartnerCoopEvent"
+EventGuide	= "CPopupPartnerCoopEventGuide"
+EventCode 	= 2026082002
+ServerCode0	= 2026082077
+BtnTex		= "event_partnercoop_btn"
+
+// 블랙마켓 이벤트
+[Event121]
+Enable		= TRUE
+EventID		= 139 //POPUP_EVENT_BLACKMARKET_EVENT
+EventClass	= "CPopupBlackMarketEvent"
+EventCode	= 2026082005
+//ServerCode0	= 2026080666
+BtnTex		= "BlackMarketevent_btn"
+New			= TRUE
+
+// 핫플레이타임 이벤트
+[Event122]
+Enable		= TRUE
+EventID		= 140 //POPUP_EVENT_HOTPLAYTIME_EVENT
+EventClass	= "CPopupHotPlayTimeEvent"
+EventGuide	= "CPopupHotPlayTimeEventGuide"
+EventCode	= 2026082003
+ServerCode0	= 2026082030
+BtnTex		= "hottimeplayevent_btn"
+
+// 21주년 PC방 이벤트 (황금연휴 PC방 이벤트와 같은 dtx명을 사용, 동시에 사용될 일 없어서 문제 없음)
+[Event123]
+Enable		= TRUE
+EventID		= 141 //POPUP_EVENT_PCBANG_ACCESS_21TH 
+EventClass	= "CPopupPCBangAccess21thEvent"
+EventGuide	= "CPopupPCBangAccess21thEventGuide"
+EventCode	= 2026082001
+BtnTex		= "event_pcbangcheck3_btn"

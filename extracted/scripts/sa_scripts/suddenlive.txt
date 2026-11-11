@@ -1,0 +1,36 @@
+{
+	"mission":[
+		{
+			"keyvalue": "0",
+			"title" : "점프하기"
+		},
+		{
+			"keyvalue": "1",
+			"title" : "앉아서 점프하기"
+		},
+		{
+			"keyvalue": "2",
+			"title" : "뒤돌기"
+		},
+		{
+			"keyvalue": "3",
+			"title" : "무기 버리기"
+		},
+		{
+			"keyvalue": "4",
+			"title" : "무기 줍기"
+		},
+		{
+			"keyvalue": "5",
+			"title" : "킬하기"
+		},
+		{
+			"keyvalue": "6",
+			"title" : "저격 킬하기"
+		},
+		{
+			"keyvalue": "7",
+			"title" : "보조무기 킬하기"
+		}
+	]
+}

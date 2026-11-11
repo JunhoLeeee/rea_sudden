@@ -1,0 +1,499 @@
+{
+  "path": "extracted\\game-file\\game_file\\CShell.dll",
+  "bytes": 33580904,
+  "sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110",
+  "image_base": "0x180000000",
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "raw_offset": 1024,
+      "raw_size": 21292032,
+      "virtual_size": 21291790
+    },
+    {
+      "name": ".rdata",
+      "rva": 21299200,
+      "raw_offset": 21293056,
+      "raw_size": 4760064,
+      "virtual_size": 4759922
+    },
+    {
+      "name": ".data",
+      "rva": 26062848,
+      "raw_offset": 26053120,
+      "raw_size": 446464,
+      "virtual_size": 2207224
+    },
+    {
+      "name": ".pdata",
+      "rva": 28270592,
+      "raw_offset": 26499584,
+      "raw_size": 999424,
+      "virtual_size": 998916
+    },
+    {
+      "name": ".rsrc",
+      "rva": 29270016,
+      "raw_offset": 27499008,
+      "raw_size": 1536,
+      "virtual_size": 1288
+    },
+    {
+      "name": ".reloc",
+      "rva": 29274112,
+      "raw_offset": 27500544,
+      "raw_size": 300544,
+      "virtual_size": 300208
+    },
+    {
+      "name": ".vm_sec",
+      "rva": 29577216,
+      "raw_offset": 27801088,
+      "raw_size": 49664,
+      "virtual_size": 49664
+    },
+    {
+      "name": ".vlizer",
+      "rva": 29630464,
+      "raw_offset": 27850752,
+      "raw_size": 5719549,
+      "virtual_size": 5719552
+    }
+  ],
+  "pattern": "HitMarker|MoveMgr|PlayerMgr|WalkSpeed|JumpSpeed|serverbutes|GameplaySettings|CInterfaceMgr|FireRecoilPitch",
+  "matches": [
+    {
+      "offset": 21509384,
+      "bytes": 31,
+      "encoding": "ascii",
+      "address": "0x181484d08",
+      "value": "sa_scripts\\GameplaySettings.txt"
+    },
+    {
+      "offset": 21509432,
+      "bytes": 9,
+      "encoding": "ascii",
+      "address": "0x181484d38",
+      "value": "HitMarker"
+    },
+    {
+      "offset": 22303224,
+      "bytes": 41,
+      "encoding": "ascii",
+      "address": "0x1815469f8",
+      "value": "sa_interface2\\snd\\hitmarker\\killSound.wav"
+    },
+    {
+      "offset": 23082489,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x181604df9",
+      "value": "[ERROR] PlayerMgr Init"
+    },
+    {
+      "offset": 23106016,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x18160a9e0",
+      "value": "CHFireRecoilPitch"
+    },
+    {
+      "offset": 23106064,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x18160aa10",
+      "value": "CHFireRecoilPitchMax"
+    },
+    {
+      "offset": 23108488,
+      "bytes": 15,
+      "encoding": "ascii",
+      "address": "0x18160b388",
+      "value": "FireRecoilPitch"
+    },
+    {
+      "offset": 23108520,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x18160b3a8",
+      "value": "FireRecoilPitchMax"
+    },
+    {
+      "offset": 23108544,
+      "bytes": 24,
+      "encoding": "ascii",
+      "address": "0x18160b3c0",
+      "value": "RifleZoomFireRecoilPitch"
+    },
+    {
+      "offset": 23108608,
+      "bytes": 27,
+      "encoding": "ascii",
+      "address": "0x18160b400",
+      "value": "RifleZoomFireRecoilPitchMax"
+    },
+    {
+      "offset": 23108800,
+      "bytes": 22,
+      "encoding": "ascii",
+      "address": "0x18160b4c0",
+      "value": "FireRecoilPitchSpecial"
+    },
+    {
+      "offset": 23120752,
+      "bytes": 61,
+      "encoding": "ascii",
+      "address": "0x18160e370",
+      "value": "ERROR in CInterfaceMgr::Init():  Could not initialize Cursor!"
+    },
+    {
+      "offset": 23120912,
+      "bytes": 64,
+      "encoding": "ascii",
+      "address": "0x18160e410",
+      "value": "ERROR in CInterfaceMgr::Init():  Could not initialize LayoutMgr!"
+    },
+    {
+      "offset": 23120992,
+      "bytes": 70,
+      "encoding": "ascii",
+      "address": "0x18160e460",
+      "value": "ERROR in CInterfaceMgr::Init():  Could not initialize InterfaceResMgr!"
+    },
+    {
+      "offset": 23121072,
+      "bytes": 64,
+      "encoding": "ascii",
+      "address": "0x18160e4b0",
+      "value": "ERROR in CInterfaceMgr::Init():  Could not initialize ScreenMgr!"
+    },
+    {
+      "offset": 23121152,
+      "bytes": 67,
+      "encoding": "ascii",
+      "address": "0x18160e500",
+      "value": "ERROR in CInterfaceMgr::Init():  Could not initialize Player Stats!"
+    },
+    {
+      "offset": 23121224,
+      "bytes": 61,
+      "encoding": "ascii",
+      "address": "0x18160e548",
+      "value": "ERROR in CInterfaceMgr::Init():  Could not initialize HUDMgr!"
+    },
+    {
+      "offset": 23123128,
+      "bytes": 57,
+      "encoding": "ascii",
+      "address": "0x18160ecb8",
+      "value": "[ERROR] GameType CInterfaceMgr::UpdateExitingLevelState()"
+    },
+    {
+      "offset": 23128280,
+      "bytes": 53,
+      "encoding": "ascii",
+      "address": "0x1816100d8",
+      "value": "CInterfaceMgr::Disconnected - eDisconnect_NotSameGUID"
+    },
+    {
+      "offset": 23128376,
+      "bytes": 55,
+      "encoding": "ascii",
+      "address": "0x181610138",
+      "value": "CInterfaceMgr::Disconnected - eDisconnect_WrongPassword"
+    },
+    {
+      "offset": 23128432,
+      "bytes": 37,
+      "encoding": "ascii",
+      "address": "0x181610170",
+      "value": "CInterfaceMgr::Disconnected - KickBan"
+    },
+    {
+      "offset": 23128512,
+      "bytes": 51,
+      "encoding": "ascii",
+      "address": "0x1816101c0",
+      "value": "CInterfaceMgr::Disconnected - InvalidDediPlayerInfo"
+    },
+    {
+      "offset": 23128672,
+      "bytes": 40,
+      "encoding": "ascii",
+      "address": "0x181610260",
+      "value": "CInterfaceMgr::Disconnected - NSRKickBan"
+    },
+    {
+      "offset": 23128816,
+      "bytes": 43,
+      "encoding": "ascii",
+      "address": "0x1816102f0",
+      "value": "CInterfaceMgr::Disconnected - Missing World"
+    },
+    {
+      "offset": 23128928,
+      "bytes": 43,
+      "encoding": "ascii",
+      "address": "0x181610360",
+      "value": "CInterfaceMgr::Disconnected - SilentKickBan"
+    },
+    {
+      "offset": 23128976,
+      "bytes": 60,
+      "encoding": "ascii",
+      "address": "0x181610390",
+      "value": "CInterfaceMgr::Disconnected - Load Failed World Resource PKG"
+    },
+    {
+      "offset": 23129144,
+      "bytes": 59,
+      "encoding": "ascii",
+      "address": "0x181610438",
+      "value": "CInterfaceMgr::Disconnected - DisconnectedFromServer D - %d"
+    },
+    {
+      "offset": 23129208,
+      "bytes": 57,
+      "encoding": "ascii",
+      "address": "0x181610478",
+      "value": "CInterfaceMgr::Disconnected - DisconnectedFromServer - %d"
+    },
+    {
+      "offset": 23129504,
+      "bytes": 59,
+      "encoding": "ascii",
+      "address": "0x1816105a0",
+      "value": "CInterfaceMgr::ShowSelectFX:  Could not create client fx %s"
+    },
+    {
+      "offset": 23153176,
+      "bytes": 17,
+      "encoding": "ascii",
+      "address": "0x181616218",
+      "value": "TAFireRecoilPitch"
+    },
+    {
+      "offset": 23153200,
+      "bytes": 20,
+      "encoding": "ascii",
+      "address": "0x181616230",
+      "value": "TAFireRecoilPitchMax"
+    },
+    {
+      "offset": 23181856,
+      "bytes": 13,
+      "encoding": "ascii",
+      "address": "0x18161d220",
+      "value": "ShowHitMarker"
+    },
+    {
+      "offset": 23317736,
+      "bytes": 47,
+      "encoding": "ascii",
+      "address": "0x18163e4e8",
+      "value": "[CMoveMgr] CheckThroughWorldEndLess - CP_DAMAGE"
+    },
+    {
+      "offset": 23445952,
+      "bytes": 56,
+      "encoding": "ascii",
+      "address": "0x18165d9c0",
+      "value": "[CClientMultiplayerMgr::StartServerAsHost] GameType : %d"
+    },
+    {
+      "offset": 26243296,
+      "bytes": 85,
+      "encoding": "ascii",
+      "address": "0x1819096e0",
+      "value": ".?AV?$_Binder@U_Unforced@std@@P8CInterfaceMgr@@EAAXH@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@"
+    },
+    {
+      "offset": 26249248,
+      "bytes": 66,
+      "encoding": "ascii",
+      "address": "0x18190ae20",
+      "value": ".?AV?$_Binder@U_Unforced@std@@P8CPlayerMgr@@EAA_NXZAEAPEAV3@@std@@"
+    },
+    {
+      "offset": 26267600,
+      "bytes": 68,
+      "encoding": "ascii",
+      "address": "0x18190f5d0",
+      "value": ".?AV?$_Binder@U_Unforced@std@@P8CInterfaceMgr@@EAAXXZAEAPEAV3@@std@@"
+    },
+    {
+      "offset": 26286080,
+      "bytes": 65,
+      "encoding": "ascii",
+      "address": "0x181913e00",
+      "value": ".?AV?$_Binder@U_Unforced@std@@P8CInterfaceMgr@@EAAXXZPEAV3@@std@@"
+    },
+    {
+      "offset": 26321952,
+      "bytes": 116,
+      "encoding": "ascii",
+      "address": "0x18191ca20",
+      "value": ".?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CInterfaceMgr@@EAAXH@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@XH@std@@"
+    },
+    {
+      "offset": 26334016,
+      "bytes": 100,
+      "encoding": "ascii",
+      "address": "0x18191f940",
+      "value": ".?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CPlayerMgr@@EAA_NXZAEAPEAV3@@std@@_N$$V@std@@"
+    },
+    {
+      "offset": 26381848,
+      "bytes": 19,
+      "encoding": "ascii",
+      "address": "0x18192b418",
+      "value": ".?AVCInterfaceMgr@@"
+    },
+    {
+      "offset": 26382360,
+      "bytes": 18,
+      "encoding": "ascii",
+      "address": "0x18192b618",
+      "value": ".?AVCSAPlayerMgr@@"
+    },
+    {
+      "offset": 26382400,
+      "bytes": 16,
+      "encoding": "ascii",
+      "address": "0x18192b640",
+      "value": ".?AVCPlayerMgr@@"
+    },
+    {
+      "offset": 26384768,
+      "bytes": 101,
+      "encoding": "ascii",
+      "address": "0x18192bf80",
+      "value": ".?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CInterfaceMgr@@EAAXXZAEAPEAV3@@std@@X$$V@std@@"
+    },
+    {
+      "offset": 26450392,
+      "bytes": 41,
+      "encoding": "ascii",
+      "address": "0x18193bfd8",
+      "value": ".?AVChangeStateDataObject@CInterfaceMgr@@"
+    },
+    {
+      "offset": 26450464,
+      "bytes": 48,
+      "encoding": "ascii",
+      "address": "0x18193c020",
+      "value": ".?AVPlayerArmorMessageDataObject@CInterfaceMgr@@"
+    },
+    {
+      "offset": 26450536,
+      "bytes": 41,
+      "encoding": "ascii",
+      "address": "0x18193c068",
+      "value": ".?AVPlayerRadioDataObject@CInterfaceMgr@@"
+    },
+    {
+      "offset": 26450784,
+      "bytes": 98,
+      "encoding": "ascii",
+      "address": "0x18193c160",
+      "value": ".?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CInterfaceMgr@@EAAXXZPEAV3@@std@@X$$V@std@@"
+    },
+    {
+      "offset": 26451848,
+      "bytes": 40,
+      "encoding": "ascii",
+      "address": "0x18193c588",
+      "value": ".?AVWeaponChangedDataObject@CPlayerMgr@@"
+    },
+    {
+      "offset": 26451920,
+      "bytes": 47,
+      "encoding": "ascii",
+      "address": "0x18193c5d0",
+      "value": ".?AVCheckAllowWeaponFireDataObject@CPlayerMgr@@"
+    },
+    {
+      "offset": 26451984,
+      "bytes": 34,
+      "encoding": "ascii",
+      "address": "0x18193c610",
+      "value": ".?AVCommandDataObject@CPlayerMgr@@"
+    },
+    {
+      "offset": 26452040,
+      "bytes": 46,
+      "encoding": "ascii",
+      "address": "0x18193c648",
+      "value": ".?AVAfterProcessMessageDataObject@CPlayerMgr@@"
+    },
+    {
+      "offset": 26452104,
+      "bytes": 41,
+      "encoding": "ascii",
+      "address": "0x18193c688",
+      "value": ".?AVSetPlayerStateDataObject@CPlayerMgr@@"
+    },
+    {
+      "offset": 26452176,
+      "bytes": 47,
+      "encoding": "ascii",
+      "address": "0x18193c6d0",
+      "value": ".?AVCheckPlayDamageSoundDataObject@CPlayerMgr@@"
+    },
+    {
+      "offset": 26452240,
+      "bytes": 36,
+      "encoding": "ascii",
+      "address": "0x18193c710",
+      "value": ".?AVBeginZoomDataObject@CPlayerMgr@@"
+    },
+    {
+      "offset": 26452296,
+      "bytes": 34,
+      "encoding": "ascii",
+      "address": "0x18193c748",
+      "value": ".?AVEndZoomDataObject@CPlayerMgr@@"
+    },
+    {
+      "offset": 26452352,
+      "bytes": 53,
+      "encoding": "ascii",
+      "address": "0x18193c780",
+      "value": ".?AVHandleMsgPlayerOrientationDataObject@CPlayerMgr@@"
+    },
+    {
+      "offset": 26452432,
+      "bytes": 56,
+      "encoding": "ascii",
+      "address": "0x18193c7d0",
+      "value": ".?AVCheckMandateOrRejoinHostExistDataObject@CPlayerMgr@@"
+    },
+    {
+      "offset": 26458512,
+      "bytes": 37,
+      "encoding": "ascii",
+      "address": "0x18193df90",
+      "value": ".?AVCheckCanMoveDataObject@CMoveMgr@@"
+    },
+    {
+      "offset": 26468816,
+      "bytes": 27,
+      "encoding": "ascii",
+      "address": "0x1819407d0",
+      "value": ".?AVCClientMultiplayerMgr@@"
+    },
+    {
+      "offset": 26476512,
+      "bytes": 30,
+      "encoding": "ascii",
+      "address": "0x1819425e0",
+      "value": ".?AVSaBasePlayerMgrComponent@@"
+    }
+  ],
+  "limitations": [
+    "Raw file-string anchors only; no references or function identities established.",
+    "Virtual addresses require one unique source-backed section mapping.",
+    "Only printable ASCII and ASCII-range UTF-16LE runs are scanned."
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "schema": "observed-model-skill-flags-v1",
+  "source_binary_sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110",
+  "source_observation": "evidence\\cshell-model-flags-loader-flow.json",
+  "source_observation_sha256": "558d58cdda670a1d3f6727c902833b9d29caecbd4d003ca440e0a7ef8dc823d2",
+  "reader": "0x180d9fef0",
+  "setter": "0x180da03b0",
+  "record_stride": "0x2f10",
+  "base_flags_offset": "0x2e88",
+  "fields": [
+    {
+      "field": "ShowKillerHP",
+      "bit": 1,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180d9ff07",
+      "getter_call": "0x180d9ff1f",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180d9ff35"
+    },
+    {
+      "field": "ShowDamageInfo",
+      "bit": 2,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180d9ff3d",
+      "getter_call": "0x180d9ff4f",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180d9ff63"
+    },
+    {
+      "field": "FourthRadio",
+      "bit": 3,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180d9ff6b",
+      "getter_call": "0x180d9ff7d",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180d9ff91"
+    },
+    {
+      "field": "ShowTarget",
+      "bit": 4,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180d9ff99",
+      "getter_call": "0x180d9ffab",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180d9ffbf"
+    },
+    {
+      "field": "FootStepAmplify",
+      "bit": 5,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180d9ffc7",
+      "getter_call": "0x180d9ffd9",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180d9ffed"
+    },
+    {
+      "field": "ShowObserverList",
+      "bit": 6,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180d9fff5",
+      "getter_call": "0x180da0007",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da001b"
+    },
+    {
+      "field": "ShowAttackEffect",
+      "bit": 7,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da0023",
+      "getter_call": "0x180da0035",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da0049"
+    },
+    {
+      "field": "ShowShoulderFX",
+      "bit": 8,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da0051",
+      "getter_call": "0x180da0063",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da0077"
+    },
+    {
+      "field": "Emotion",
+      "bit": 9,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da007f",
+      "getter_call": "0x180da0091",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da00a5"
+    },
+    {
+      "field": "bGhostEffect",
+      "bit": 11,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da00ad",
+      "getter_call": "0x180da00bf",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da00d3"
+    },
+    {
+      "field": "TeamFootStepMute",
+      "bit": 15,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da00db",
+      "getter_call": "0x180da00ed",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da0101"
+    },
+    {
+      "field": "MuteSelfFootStep",
+      "bit": 16,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da0109",
+      "getter_call": "0x180da011b",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da012f"
+    },
+    {
+      "field": "ShowHitMarker",
+      "bit": 18,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da0137",
+      "getter_call": "0x180da0149",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da015d"
+    },
+    {
+      "field": "GrenadeWarning",
+      "bit": 19,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da0165",
+      "getter_call": "0x180da0177",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da018b"
+    },
+    {
+      "field": "MinimapUpgrade",
+      "bit": 20,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da0193",
+      "getter_call": "0x180da01a5",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da01b9"
+    },
+    {
+      "field": "ShowCustomTarget",
+      "bit": 21,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da01c1",
+      "getter_call": "0x180da01d3",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da01e7"
+    },
+    {
+      "field": "ShowTargetHP",
+      "bit": 22,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da01ef",
+      "getter_call": "0x180da0201",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da0215"
+    },
+    {
+      "field": "RandomCustomVoice",
+      "bit": 27,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da021d",
+      "getter_call": "0x180da022f",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da0243"
+    },
+    {
+      "field": "EmotionSndCustum",
+      "bit": 28,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da024b",
+      "getter_call": "0x180da025d",
+      "getter": "0x181327c30",
+      "setter_transfer": "0x180da0271"
+    },
+    {
+      "field": "RenderClanMark",
+      "bit": 30,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da0279",
+      "getter_call": "0x180da028b",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da029f"
+    },
+    {
+      "field": "AdditionalWalkingAcceleration",
+      "bit": 31,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da02a7",
+      "getter_call": "0x180da02b9",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da02cd"
+    },
+    {
+      "field": "ShowRemainInfo",
+      "bit": 32,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da02d5",
+      "getter_call": "0x180da02e7",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da02fb"
+    },
+    {
+      "field": "SkinChangeable",
+      "bit": 23,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da0303",
+      "getter_call": "0x180da0315",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da0329"
+    },
+    {
+      "field": "HitDirAlert",
+      "bit": 25,
+      "enabled_when": "nonzero",
+      "default": 0,
+      "field_reference": "0x180da0331",
+      "getter_call": "0x180da0343",
+      "getter": "0x1813277d0",
+      "setter_transfer": "0x180da0357"
+    },
+    {
+      "field": "JumpSound",
+      "bit": 14,
+      "enabled_when": "zero",
+      "default": 1,
+      "field_reference": "0x180da035f",
+      "getter_call": "0x180da0371",
+      "getter": "0x181327c30",
+      "setter_transfer": "0x180da03a0"
+    }
+  ],
+  "conditional_fields": [
+    {
+      "field": "MyEmotionView",
+      "bit": 29,
+      "default": 0,
+      "requires_field": "Emotion",
+      "enabled_when": "nonzero",
+      "field_reference": "0x180da0484",
+      "setter_transfer": "0x180da04aa"
+    }
+  ],
+  "limitations": [
+    "Capstone byte observations, not a REA Evidence record.",
+    "Field mapping and flag storage only; skill callbacks and all runtime modes are not recreated.",
+    "Inputs must already reflect any Bute defaults/inheritance; that resolver is not reconstructed.",
+    "Setter ORs bits; false declarations do not clear previously set bits."
+  ]
+}

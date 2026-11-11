@@ -1,0 +1,2150 @@
+{
+  "source_sha256": "7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8",
+  "evidence_ids": [
+    "ev_403fd4c97dd7d5f92d6072cc9c79617e1236a45733ad63ffec88a376beb1bb38",
+    "ev_97af9998d70b1ae62bb965d76682b33b9c13ebc10ab3fe183fcbe7c0fa1b99f0",
+    "ev_fe63ace296d8568ca3ebf132a022107a63ecbee179ff47dec870131d0e1b4695"
+  ],
+  "commands": [
+    {
+      "index": 0,
+      "pointer_address": "0x1403dbed0",
+      "string_address": "0x140309730",
+      "command": "numconsolelines 2"
+    },
+    {
+      "index": 1,
+      "pointer_address": "0x1403dbed8",
+      "string_address": "0x140309748",
+      "command": "FarZ 10000"
+    },
+    {
+      "index": 2,
+      "pointer_address": "0x1403dbee0",
+      "string_address": "0x140309758",
+      "command": "ModelShadow_proj_perspective 1"
+    },
+    {
+      "index": 3,
+      "pointer_address": "0x1403dbee8",
+      "string_address": "0x140309778",
+      "command": "VS_SPRITES_NOZ 128"
+    },
+    {
+      "index": 4,
+      "pointer_address": "0x1403dbef0",
+      "string_address": "0x140309790",
+      "command": "CardDesc HAL"
+    },
+    {
+      "index": 5,
+      "pointer_address": "0x1403dbef8",
+      "string_address": "0x1403097a0",
+      "command": "NormalTurnRate 1.500000"
+    },
+    {
+      "index": 6,
+      "pointer_address": "0x1403dbf00",
+      "string_address": "0x1403097b8",
+      "command": "DetailTextureScale 1.0"
+    },
+    {
+      "index": 7,
+      "pointer_address": "0x1403dbf08",
+      "string_address": "0x1403097d0",
+      "command": "MaxModelShadows 1"
+    },
+    {
+      "index": 8,
+      "pointer_address": "0x1403dbf10",
+      "string_address": "0x1403097e8",
+      "command": "GammaB 1.000000"
+    },
+    {
+      "index": 9,
+      "pointer_address": "0x1403dbf18",
+      "string_address": "0x1403097f8",
+      "command": "VS_PARTICLESYSTEMS 1024"
+    },
+    {
+      "index": 10,
+      "pointer_address": "0x1403dbf20",
+      "string_address": "0x140309810",
+      "command": "WeaponFXMaxImpactDist 5000"
+    },
+    {
+      "index": 11,
+      "pointer_address": "0x1403dbf28",
+      "string_address": "0x140309830",
+      "command": "FogEnable 1.000000"
+    },
+    {
+      "index": 12,
+      "pointer_address": "0x1403dbf30",
+      "string_address": "0x140309848",
+      "command": "ScreenFlash 0.000000"
+    },
+    {
+      "index": 13,
+      "pointer_address": "0x1403dbf38",
+      "string_address": "0x140309860",
+      "command": "MouseScaleBase 0.00015"
+    },
+    {
+      "index": 14,
+      "pointer_address": "0x1403dbf40",
+      "string_address": "0x140309878",
+      "command": "EnvPanSpeed 0.000500"
+    },
+    {
+      "index": 15,
+      "pointer_address": "0x1403dbf48",
+      "string_address": "0x140309890",
+      "command": "ModelLOD 2.000000"
+    },
+    {
+      "index": 16,
+      "pointer_address": "0x1403dbf50",
+      "string_address": "0x1403098a8",
+      "command": "ModelShadow_proj_textureres 256"
+    },
+    {
+      "index": 17,
+      "pointer_address": "0x1403dbf58",
+      "string_address": "0x1403098c8",
+      "command": "GammaG 1.000000"
+    },
+    {
+      "index": 18,
+      "pointer_address": "0x1403dbf60",
+      "string_address": "0x1403098d8",
+      "command": "Difficulty 1"
+    },
+    {
+      "index": 19,
+      "pointer_address": "0x1403dbf68",
+      "string_address": "0x1403098e8",
+      "command": "SnowDensityScale 1.000000"
+    },
+    {
+      "index": 20,
+      "pointer_address": "0x1403dbf70",
+      "string_address": "0x140309908",
+      "command": "RunLock 1"
+    },
+    {
+      "index": 21,
+      "pointer_address": "0x1403dbf78",
+      "string_address": "0x140309918",
+      "command": "BackBufferCount 1"
+    },
+    {
+      "index": 22,
+      "pointer_address": "0x1403dbf80",
+      "string_address": "0x140309930",
+      "command": "windowed 0"
+    },
+    {
+      "index": 23,
+      "pointer_address": "0x1403dbf88",
+      "string_address": "0x140309940",
+      "command": "WeaponSway 0.900000"
+    },
+    {
+      "index": 24,
+      "pointer_address": "0x1403dbf90",
+      "string_address": "0x140309958",
+      "command": "VS_SPRITES 512"
+    },
+    {
+      "index": 25,
+      "pointer_address": "0x1403dbf98",
+      "string_address": "0x140309968",
+      "command": "ModelShadowProj 0"
+    },
+    {
+      "index": 26,
+      "pointer_address": "0x1403dbfa0",
+      "string_address": "0x140309980",
+      "command": "LeanAngle 18"
+    },
+    {
+      "index": 27,
+      "pointer_address": "0x1403dbfa8",
+      "string_address": "0x140309990",
+      "command": "Tracers 1"
+    },
+    {
+      "index": 28,
+      "pointer_address": "0x1403dbfb0",
+      "string_address": "0x1403099a0",
+      "command": "VehicleContour 0"
+    },
+    {
+      "index": 29,
+      "pointer_address": "0x1403dbfb8",
+      "string_address": "0x1403099b8",
+      "command": "LightMap 1"
+    },
+    {
+      "index": 30,
+      "pointer_address": "0x1403dbfc0",
+      "string_address": "0x1403099c8",
+      "command": "MusicActive 0"
+    },
+    {
+      "index": 31,
+      "pointer_address": "0x1403dbfc8",
+      "string_address": "0x1403099d8",
+      "command": "SoundFilters 1"
+    },
+    {
+      "index": 32,
+      "pointer_address": "0x1403dbfd0",
+      "string_address": "0x1403099e8",
+      "command": "screendepth 16"
+    },
+    {
+      "index": 33,
+      "pointer_address": "0x1403dbfd8",
+      "string_address": "0x1403099f8",
+      "command": "DetailLevel 0"
+    },
+    {
+      "index": 34,
+      "pointer_address": "0x1403dbfe0",
+      "string_address": "0x140309a08",
+      "command": "GammaR 1.000000"
+    },
+    {
+      "index": 35,
+      "pointer_address": "0x1403dbfe8",
+      "string_address": "0x140309a18",
+      "command": "VS_POLYGRIDS_TRANSLUCENT 64"
+    },
+    {
+      "index": 36,
+      "pointer_address": "0x1403dbff0",
+      "string_address": "0x140309a38",
+      "command": "MouseSensitivity 0.000000"
+    },
+    {
+      "index": 37,
+      "pointer_address": "0x1403dbff8",
+      "string_address": "0x140309a58",
+      "command": "CrosshairStyle 0"
+    },
+    {
+      "index": 38,
+      "pointer_address": "0x1403dc000",
+      "string_address": "0x140309a70",
+      "command": "FastTurnRate 2.300000"
+    },
+    {
+      "index": 39,
+      "pointer_address": "0x1403dc008",
+      "string_address": "0x140309a88",
+      "command": "Saturate 1"
+    },
+    {
+      "index": 40,
+      "pointer_address": "0x1403dc010",
+      "string_address": "0x140309a98",
+      "command": "Sound16Bit 1"
+    },
+    {
+      "index": 41,
+      "pointer_address": "0x1403dc018",
+      "string_address": "0x140309aa8",
+      "command": "BitDepth 16"
+    },
+    {
+      "index": 42,
+      "pointer_address": "0x1403dc020",
+      "string_address": "0x140309ab8",
+      "command": "HardwareCursor 0"
+    },
+    {
+      "index": 43,
+      "pointer_address": "0x1403dc028",
+      "string_address": "0x140309ad0",
+      "command": "CrosshairColorR 0.874510"
+    },
+    {
+      "index": 44,
+      "pointer_address": "0x1403dc030",
+      "string_address": "0x140309af0",
+      "command": "ScatterEnable 1"
+    },
+    {
+      "index": 45,
+      "pointer_address": "0x1403dc038",
+      "string_address": "0x140309b00",
+      "command": "VehicleTurnRateScale 1.000000"
+    },
+    {
+      "index": 46,
+      "pointer_address": "0x1403dc040",
+      "string_address": "0x140309b20",
+      "command": "VS_POLYGRIDS 64"
+    },
+    {
+      "index": 47,
+      "pointer_address": "0x1403dc048",
+      "string_address": "0x140309b30",
+      "command": "speechsoundmultiplier 1.000000"
+    },
+    {
+      "index": 48,
+      "pointer_address": "0x1403dc050",
+      "string_address": "0x140309b50",
+      "command": "ModelShadowProjLOD 1.000000"
+    },
+    {
+      "index": 49,
+      "pointer_address": "0x1403dc058",
+      "string_address": "0x140309b70",
+      "command": "screenwidth 800"
+    },
+    {
+      "index": 50,
+      "pointer_address": "0x1403dc060",
+      "string_address": "0x140309b80",
+      "command": "CacheTexture 1"
+    },
+    {
+      "index": 51,
+      "pointer_address": "0x1403dc068",
+      "string_address": "0x140309b90",
+      "command": "Trilinear 0"
+    },
+    {
+      "index": 52,
+      "pointer_address": "0x1403dc070",
+      "string_address": "0x140309ba0",
+      "command": "RenderDll d3d.ren"
+    },
+    {
+      "index": 53,
+      "pointer_address": "0x1403dc078",
+      "string_address": "0x140309bb8",
+      "command": "ModelShadow_Proj_MaxShadowsPerFrame 2"
+    },
+    {
+      "index": 54,
+      "pointer_address": "0x1403dc080",
+      "string_address": "0x140309be0",
+      "command": "CrosshairAlpha 159"
+    },
+    {
+      "index": 55,
+      "pointer_address": "0x1403dc088",
+      "string_address": "0x140309bf8",
+      "command": "VSyncOnFlip 0"
+    },
+    {
+      "index": 56,
+      "pointer_address": "0x1403dc090",
+      "string_address": "0x140309c08",
+      "command": "SpecialFX 2.000000"
+    },
+    {
+      "index": 57,
+      "pointer_address": "0x1403dc098",
+      "string_address": "0x140309c20",
+      "command": "modelshadow_proj_blurenable 0"
+    },
+    {
+      "index": 58,
+      "pointer_address": "0x1403dc0a0",
+      "string_address": "0x140309c40",
+      "command": "MusicQuality 0"
+    },
+    {
+      "index": 59,
+      "pointer_address": "0x1403dc0a8",
+      "string_address": "0x140309c50",
+      "command": "EnvironmentalDetail 0"
+    },
+    {
+      "index": 60,
+      "pointer_address": "0x1403dc0b0",
+      "string_address": "0x140309c68",
+      "command": "UpdateRateInitted 1"
+    },
+    {
+      "index": 61,
+      "pointer_address": "0x1403dc0b8",
+      "string_address": "0x140309c80",
+      "command": "BulletHoles 300"
+    },
+    {
+      "index": 62,
+      "pointer_address": "0x1403dc0c0",
+      "string_address": "0x140309c90",
+      "command": "MuzzleLight 1"
+    },
+    {
+      "index": 63,
+      "pointer_address": "0x1403dc0c8",
+      "string_address": "0x140309ca0",
+      "command": "ObjectiveMessages 1"
+    },
+    {
+      "index": 64,
+      "pointer_address": "0x1403dc0d0",
+      "string_address": "0x140309cb8",
+      "command": "NumRuns 6699.000000"
+    },
+    {
+      "index": 65,
+      "pointer_address": "0x1403dc0d8",
+      "string_address": "0x140309cd0",
+      "command": "bandwidthtargetserver 262144.000000"
+    },
+    {
+      "index": 66,
+      "pointer_address": "0x1403dc0e0",
+      "string_address": "0x140309cf8",
+      "command": "VS_CANVASES 32"
+    },
+    {
+      "index": 67,
+      "pointer_address": "0x1403dc0e8",
+      "string_address": "0x140309d08",
+      "command": "Detailtextures 0"
+    },
+    {
+      "index": 68,
+      "pointer_address": "0x1403dc0f0",
+      "string_address": "0x140309d20",
+      "command": "Anisotropic 0"
+    },
+    {
+      "index": 69,
+      "pointer_address": "0x1403dc0f8",
+      "string_address": "0x140309d30",
+      "command": "Savewidth 800"
+    },
+    {
+      "index": 70,
+      "pointer_address": "0x1403dc100",
+      "string_address": "0x140309d40",
+      "command": "envbumpmapenable 0"
+    },
+    {
+      "index": 71,
+      "pointer_address": "0x1403dc108",
+      "string_address": "0x140309d58",
+      "command": "UseJoystick 0"
+    },
+    {
+      "index": 72,
+      "pointer_address": "0x1403dc110",
+      "string_address": "0x140309d68",
+      "command": "VS_CANVASES_TRANSLUCENT 128"
+    },
+    {
+      "index": 73,
+      "pointer_address": "0x1403dc118",
+      "string_address": "0x140309d88",
+      "command": "LodOffset -200.000000"
+    },
+    {
+      "index": 74,
+      "pointer_address": "0x1403dc120",
+      "string_address": "0x140309da0",
+      "command": "IgnoreTaunts 0"
+    },
+    {
+      "index": 75,
+      "pointer_address": "0x1403dc128",
+      "string_address": "0x140309db0",
+      "command": "LeanOutTime 0.15"
+    },
+    {
+      "index": 76,
+      "pointer_address": "0x1403dc130",
+      "string_address": "0x140309dc8",
+      "command": "EnvMapEnable 0"
+    },
+    {
+      "index": 77,
+      "pointer_address": "0x1403dc138",
+      "string_address": "0x140309dd8",
+      "command": "EnvMapWorld 0"
+    },
+    {
+      "index": 78,
+      "pointer_address": "0x1403dc140",
+      "string_address": "0x140309de8",
+      "command": "ModelShadow_proj_enable 1"
+    },
+    {
+      "index": 79,
+      "pointer_address": "0x1403dc148",
+      "string_address": "0x140309e08",
+      "command": "musicvolume -2500"
+    },
+    {
+      "index": 80,
+      "pointer_address": "0x1403dc150",
+      "string_address": "0x140309e20",
+      "command": "ModelShadow_Proj_BackFaceCull 1"
+    },
+    {
+      "index": 81,
+      "pointer_address": "0x1403dc158",
+      "string_address": "0x140309e40",
+      "command": "SnowEnable 1"
+    },
+    {
+      "index": 82,
+      "pointer_address": "0x1403dc160",
+      "string_address": "0x140309e50",
+      "command": "multiplayer 1"
+    },
+    {
+      "index": 83,
+      "pointer_address": "0x1403dc168",
+      "string_address": "0x140309e60",
+      "command": "VS_LINESYSTEMS 128"
+    },
+    {
+      "index": 84,
+      "pointer_address": "0x1403dc170",
+      "string_address": "0x140309e78",
+      "command": "AutoWeaponSwitch 1"
+    },
+    {
+      "index": 85,
+      "pointer_address": "0x1403dc178",
+      "string_address": "0x140309e90",
+      "command": "Forceclear 0"
+    },
+    {
+      "index": 86,
+      "pointer_address": "0x1403dc180",
+      "string_address": "0x140309ea0",
+      "command": "FastLight 0.000000"
+    },
+    {
+      "index": 87,
+      "pointer_address": "0x1403dc188",
+      "string_address": "0x140309eb8",
+      "command": "SoundVolume 50"
+    },
+    {
+      "index": 88,
+      "pointer_address": "0x1403dc190",
+      "string_address": "0x140309ec8",
+      "command": "inputrate 12.000000"
+    },
+    {
+      "index": 89,
+      "pointer_address": "0x1403dc198",
+      "string_address": "0x140309ee0",
+      "command": "PolyGrids 1.000000"
+    },
+    {
+      "index": 90,
+      "pointer_address": "0x1403dc1a0",
+      "string_address": "0x140309ef8",
+      "command": "VS_MODELS 4096"
+    },
+    {
+      "index": 91,
+      "pointer_address": "0x1403dc1a8",
+      "string_address": "0x140309f08",
+      "command": "FresnelPolyGrids 0"
+    },
+    {
+      "index": 92,
+      "pointer_address": "0x1403dc1b0",
+      "string_address": "0x140309f20",
+      "command": "GroupOffset0 0.000000"
+    },
+    {
+      "index": 93,
+      "pointer_address": "0x1403dc1b8",
+      "string_address": "0x140309f38",
+      "command": "DrawShadows 1"
+    },
+    {
+      "index": 94,
+      "pointer_address": "0x1403dc1c0",
+      "string_address": "0x140309f48",
+      "command": "MouseLook 1"
+    },
+    {
+      "index": 95,
+      "pointer_address": "0x1403dc1c8",
+      "string_address": "0x140309f58",
+      "command": "BumpMapPolyGrids 0"
+    },
+    {
+      "index": 96,
+      "pointer_address": "0x1403dc1d0",
+      "string_address": "0x140309f70",
+      "command": "Subtitles 0"
+    },
+    {
+      "index": 97,
+      "pointer_address": "0x1403dc1d8",
+      "string_address": "0x140309f80",
+      "command": "FadeBodies 0"
+    },
+    {
+      "index": 98,
+      "pointer_address": "0x1403dc1e0",
+      "string_address": "0x140309f90",
+      "command": "GroupOffset1 1"
+    },
+    {
+      "index": 99,
+      "pointer_address": "0x1403dc1e8",
+      "string_address": "0x140309fa0",
+      "command": "ModelShadow_proj_alpha 3.000000"
+    },
+    {
+      "index": 100,
+      "pointer_address": "0x1403dc1f0",
+      "string_address": "0x140309fc0",
+      "command": "SendBandwidth 10000000"
+    },
+    {
+      "index": 101,
+      "pointer_address": "0x1403dc1f8",
+      "string_address": "0x140309fd8",
+      "command": "mipmapbias 0"
+    },
+    {
+      "index": 102,
+      "pointer_address": "0x1403dc200",
+      "string_address": "0x140309fe8",
+      "command": "GroupOffset2 1"
+    },
+    {
+      "index": 103,
+      "pointer_address": "0x1403dc208",
+      "string_address": "0x140309ff8",
+      "command": "musictype ima"
+    },
+    {
+      "index": 104,
+      "pointer_address": "0x1403dc210",
+      "string_address": "0x14030a008",
+      "command": "DrawPortals 1"
+    },
+    {
+      "index": 105,
+      "pointer_address": "0x1403dc218",
+      "string_address": "0x14030a018",
+      "command": "CrosshairGreen 255"
+    },
+    {
+      "index": 106,
+      "pointer_address": "0x1403dc220",
+      "string_address": "0x14030a030",
+      "command": "GroupOffset3 2"
+    },
+    {
+      "index": 107,
+      "pointer_address": "0x1403dc228",
+      "string_address": "0x14030a040",
+      "command": "ModelShadow_proj_MaxProjDist 200.000000"
+    },
+    {
+      "index": 108,
+      "pointer_address": "0x1403dc230",
+      "string_address": "0x14030a068",
+      "command": "PVWeapons 0.000000"
+    },
+    {
+      "index": 109,
+      "pointer_address": "0x1403dc238",
+      "string_address": "0x14030a080",
+      "command": "ModelShadowAlpha 96"
+    },
+    {
+      "index": 110,
+      "pointer_address": "0x1403dc240",
+      "string_address": "0x14030a098",
+      "command": "MouseScaleIncrement 0.00003"
+    },
+    {
+      "index": 111,
+      "pointer_address": "0x1403dc248",
+      "string_address": "0x14030a0b8",
+      "command": "TextureDetail 2.000000"
+    },
+    {
+      "index": 112,
+      "pointer_address": "0x1403dc250",
+      "string_address": "0x14030a0d0",
+      "command": "consolealpha 0.25"
+    },
+    {
+      "index": 113,
+      "pointer_address": "0x1403dc258",
+      "string_address": "0x14030a0e8",
+      "command": "ClientFXDetailLevel 0"
+    },
+    {
+      "index": 114,
+      "pointer_address": "0x1403dc260",
+      "string_address": "0x14030a100",
+      "command": "VS_WORLDMODELS_TRANSLUCENT 512"
+    },
+    {
+      "index": 115,
+      "pointer_address": "0x1403dc268",
+      "string_address": "0x14030a120",
+      "command": "GroupOffset4 -2"
+    },
+    {
+      "index": 116,
+      "pointer_address": "0x1403dc270",
+      "string_address": "0x14030a130",
+      "command": "MouseInvertY 0"
+    },
+    {
+      "index": 117,
+      "pointer_address": "0x1403dc278",
+      "string_address": "0x14030a140",
+      "command": "pvmodelaspect 1.333333"
+    },
+    {
+      "index": 118,
+      "pointer_address": "0x1403dc280",
+      "string_address": "0x14030a158",
+      "command": "GroupOffset5 -2"
+    },
+    {
+      "index": 119,
+      "pointer_address": "0x1403dc288",
+      "string_address": "0x14030a168",
+      "command": "VS_LIGHTS 64"
+    },
+    {
+      "index": 120,
+      "pointer_address": "0x1403dc290",
+      "string_address": "0x14030a178",
+      "command": "bandwidthtargetclient 10240000.000000"
+    },
+    {
+      "index": 121,
+      "pointer_address": "0x1403dc298",
+      "string_address": "0x14030a1a0",
+      "command": "GroupOffset6 -2"
+    },
+    {
+      "index": 122,
+      "pointer_address": "0x1403dc2a0",
+      "string_address": "0x14030a1b0",
+      "command": "ModelShadowProjRes 128.000000"
+    },
+    {
+      "index": 123,
+      "pointer_address": "0x1403dc2a8",
+      "string_address": "0x14030a1d0",
+      "command": "SaveHeight 600"
+    },
+    {
+      "index": 124,
+      "pointer_address": "0x1403dc2b0",
+      "string_address": "0x14030a1e0",
+      "command": "ModelFullbrite 0"
+    },
+    {
+      "index": 125,
+      "pointer_address": "0x1403dc2b8",
+      "string_address": "0x14030a1f8",
+      "command": "ModelLODOffset 0"
+    },
+    {
+      "index": 126,
+      "pointer_address": "0x1403dc2c0",
+      "string_address": "0x14030a210",
+      "command": "CrosshairBlue 255"
+    },
+    {
+      "index": 127,
+      "pointer_address": "0x1403dc2c8",
+      "string_address": "0x14030a228",
+      "command": "LeanCenterTime 0.2"
+    },
+    {
+      "index": 128,
+      "pointer_address": "0x1403dc2d0",
+      "string_address": "0x14030a240",
+      "command": "DebugLevel 0"
+    },
+    {
+      "index": 129,
+      "pointer_address": "0x1403dc2d8",
+      "string_address": "0x14030a250",
+      "command": "ShadowDetail 0"
+    },
+    {
+      "index": 130,
+      "pointer_address": "0x1403dc2e0",
+      "string_address": "0x14030a260",
+      "command": "DynamicLightWorld 1"
+    },
+    {
+      "index": 131,
+      "pointer_address": "0x1403dc2e8",
+      "string_address": "0x14030a278",
+      "command": "AxisForwardBackwardDeadZone 0.200000"
+    },
+    {
+      "index": 132,
+      "pointer_address": "0x1403dc2f0",
+      "string_address": "0x14030a2a0",
+      "command": "CloudMapLight 1.000000"
+    },
+    {
+      "index": 133,
+      "pointer_address": "0x1403dc2f8",
+      "string_address": "0x14030a2b8",
+      "command": "FixedAxisPitch 0.000000"
+    },
+    {
+      "index": 134,
+      "pointer_address": "0x1403dc300",
+      "string_address": "0x14030a2d0",
+      "command": "PreCacheAssets 0"
+    },
+    {
+      "index": 135,
+      "pointer_address": "0x1403dc308",
+      "string_address": "0x14030a2e8",
+      "command": "screenheight 600"
+    },
+    {
+      "index": 136,
+      "pointer_address": "0x1403dc310",
+      "string_address": "0x14030a300",
+      "command": "VS_MODELS_TRANSLUCENT 256"
+    },
+    {
+      "index": 137,
+      "pointer_address": "0x1403dc318",
+      "string_address": "0x14030a320",
+      "command": "TripleBuffer 0"
+    },
+    {
+      "index": 138,
+      "pointer_address": "0x1403dc320",
+      "string_address": "0x14030a330",
+      "command": "HUDLayout 0"
+    },
+    {
+      "index": 139,
+      "pointer_address": "0x1403dc328",
+      "string_address": "0x14030a340",
+      "command": "prediction 1"
+    },
+    {
+      "index": 140,
+      "pointer_address": "0x1403dc330",
+      "string_address": "0x14030a350",
+      "command": "defaultsoundmultiplier 0.750000"
+    },
+    {
+      "index": 141,
+      "pointer_address": "0x1403dc338",
+      "string_address": "0x14030a370",
+      "command": "performancelevel 3"
+    },
+    {
+      "index": 142,
+      "pointer_address": "0x1403dc340",
+      "string_address": "0x14030a388",
+      "command": "musicenable 1"
+    },
+    {
+      "index": 143,
+      "pointer_address": "0x1403dc348",
+      "string_address": "0x14030a398",
+      "command": "CrosshairColorB 1.000000"
+    },
+    {
+      "index": 144,
+      "pointer_address": "0x1403dc350",
+      "string_address": "0x14030a3b8",
+      "command": "weaponssoundmultiplier 1.000000"
+    },
+    {
+      "index": 145,
+      "pointer_address": "0x1403dc358",
+      "string_address": "0x14030a3d8",
+      "command": "CrosshairRed 255"
+    },
+    {
+      "index": 146,
+      "pointer_address": "0x1403dc360",
+      "string_address": "0x14030a3f0",
+      "command": "CrosshairDynamic 1"
+    },
+    {
+      "index": 147,
+      "pointer_address": "0x1403dc368",
+      "string_address": "0x14030a408",
+      "command": "DynamicLight 1"
+    },
+    {
+      "index": 148,
+      "pointer_address": "0x1403dc370",
+      "string_address": "0x14030a418",
+      "command": "ImpactFXLevel 2"
+    },
+    {
+      "index": 149,
+      "pointer_address": "0x1403dc378",
+      "string_address": "0x14030a428",
+      "command": "soundenable 1"
+    },
+    {
+      "index": 150,
+      "pointer_address": "0x1403dc380",
+      "string_address": "0x14030a438",
+      "command": "SoundPack 0"
+    },
+    {
+      "index": 151,
+      "pointer_address": "0x1403dc388",
+      "string_address": "0x140308458",
+      "command": "InitSoundSystem 0"
+    },
+    {
+      "index": 152,
+      "pointer_address": "0x1403dc390",
+      "string_address": "0x14030a448",
+      "command": "PerformanceConfig .DefaultHigh"
+    },
+    {
+      "index": 153,
+      "pointer_address": "0x1403dc398",
+      "string_address": "0x14030a468",
+      "command": "ModelAdd 50 50 50"
+    },
+    {
+      "index": 154,
+      "pointer_address": "0x1403dc3a0",
+      "string_address": "0x14030a480",
+      "command": "LookUpRate 2.500000"
+    },
+    {
+      "index": 155,
+      "pointer_address": "0x1403dc3a8",
+      "string_address": "0x14030a494",
+      "command": "Gore 1"
+    },
+    {
+      "index": 156,
+      "pointer_address": "0x1403dc3b0",
+      "string_address": "0x14030a4a0",
+      "command": "pvmodelfov 68.000000"
+    },
+    {
+      "index": 157,
+      "pointer_address": "0x1403dc3b8",
+      "string_address": "0x14030a4b8",
+      "command": "EnableWeatherFX 1"
+    },
+    {
+      "index": 158,
+      "pointer_address": "0x1403dc3c0",
+      "string_address": "0x14030a4d0",
+      "command": "HeadBob 5.600000"
+    },
+    {
+      "index": 159,
+      "pointer_address": "0x1403dc3c8",
+      "string_address": "0x14030a4e8",
+      "command": "DebrisFXLevel 0"
+    },
+    {
+      "index": 160,
+      "pointer_address": "0x1403dc3d0",
+      "string_address": "0x14030a4f8",
+      "command": "VS_WORLDMODELS 512"
+    },
+    {
+      "index": 161,
+      "pointer_address": "0x1403dc3d8",
+      "string_address": "0x14030a510",
+      "command": "PickupMessageDuration 5.000000"
+    },
+    {
+      "index": 162,
+      "pointer_address": "0x1403dc3e0",
+      "string_address": "0x14030a530",
+      "command": "SaveBitdepth 16"
+    },
+    {
+      "index": 163,
+      "pointer_address": "0x1403dc3e8",
+      "string_address": "0x14030a540",
+      "command": "ShellCasings 1"
+    },
+    {
+      "index": 164,
+      "pointer_address": "0x1403dc3f0",
+      "string_address": "0x14030a550",
+      "command": "LookSpring 0.000000"
+    },
+    {
+      "index": 165,
+      "pointer_address": "0x1403dc3f8",
+      "string_address": "0x14030a568",
+      "command": "CrosshairColorG 0.874510"
+    },
+    {
+      "index": 166,
+      "pointer_address": "0x1403dc400",
+      "string_address": "0x14030a588",
+      "command": "MessageDuration 0.800000"
+    },
+    {
+      "index": 167,
+      "pointer_address": "0x1403dc408",
+      "string_address": "0x14030a5a8",
+      "command": "ProfileName Player_0"
+    },
+    {
+      "index": 168,
+      "pointer_address": "0x1403dc410",
+      "string_address": "0x14030a5c0",
+      "command": "AddAction Forward 0"
+    },
+    {
+      "index": 169,
+      "pointer_address": "0x1403dc418",
+      "string_address": "0x14030a5d8",
+      "command": "AddAction Backward 1"
+    },
+    {
+      "index": 170,
+      "pointer_address": "0x1403dc420",
+      "string_address": "0x14030a5f0",
+      "command": "AddAction Activate 2"
+    },
+    {
+      "index": 171,
+      "pointer_address": "0x1403dc428",
+      "string_address": "0x14030a608",
+      "command": "AddAction Reload 3"
+    },
+    {
+      "index": 172,
+      "pointer_address": "0x1403dc430",
+      "string_address": "0x14030a620",
+      "command": "AddAction TurnAround 4"
+    },
+    {
+      "index": 173,
+      "pointer_address": "0x1403dc438",
+      "string_address": "0x14030a638",
+      "command": "AddAction Duck 5"
+    },
+    {
+      "index": 174,
+      "pointer_address": "0x1403dc440",
+      "string_address": "0x14030a650",
+      "command": "AddAction Jump 6"
+    },
+    {
+      "index": 175,
+      "pointer_address": "0x1403dc448",
+      "string_address": "0x14030a668",
+      "command": "AddAction Speed 7"
+    },
+    {
+      "index": 176,
+      "pointer_address": "0x1403dc450",
+      "string_address": "0x14030a680",
+      "command": "AddAction Fire 8"
+    },
+    {
+      "index": 177,
+      "pointer_address": "0x1403dc458",
+      "string_address": "0x14030a698",
+      "command": "AddAction Strafe 9"
+    },
+    {
+      "index": 178,
+      "pointer_address": "0x1403dc460",
+      "string_address": "0x14030a6b0",
+      "command": "AddAction Left 10"
+    },
+    {
+      "index": 179,
+      "pointer_address": "0x1403dc468",
+      "string_address": "0x14030a6c8",
+      "command": "AddAction Right 11"
+    },
+    {
+      "index": 180,
+      "pointer_address": "0x1403dc470",
+      "string_address": "0x14030a6e0",
+      "command": "AddAction RunLock 12"
+    },
+    {
+      "index": 181,
+      "pointer_address": "0x1403dc478",
+      "string_address": "0x14030a6f8",
+      "command": "AddAction StrafeLeft 13"
+    },
+    {
+      "index": 182,
+      "pointer_address": "0x1403dc480",
+      "string_address": "0x14030a710",
+      "command": "AddAction StrafeRight 14"
+    },
+    {
+      "index": 183,
+      "pointer_address": "0x1403dc488",
+      "string_address": "0x14030a730",
+      "command": "AddAction LookUp 16"
+    },
+    {
+      "index": 184,
+      "pointer_address": "0x1403dc490",
+      "string_address": "0x14030a748",
+      "command": "AddAction LookDown 17"
+    },
+    {
+      "index": 185,
+      "pointer_address": "0x1403dc498",
+      "string_address": "0x14030a760",
+      "command": "AddAction LeanLeft 18"
+    },
+    {
+      "index": 186,
+      "pointer_address": "0x1403dc4a0",
+      "string_address": "0x14030a778",
+      "command": "AddAction LeanRight 19"
+    },
+    {
+      "index": 187,
+      "pointer_address": "0x1403dc4a8",
+      "string_address": "0x14030a790",
+      "command": "AddAction Weapon_1 20"
+    },
+    {
+      "index": 188,
+      "pointer_address": "0x1403dc4b0",
+      "string_address": "0x14030a7a8",
+      "command": "AddAction Weapon_2 21"
+    },
+    {
+      "index": 189,
+      "pointer_address": "0x1403dc4b8",
+      "string_address": "0x14030a7c0",
+      "command": "AddAction Weapon_3 22"
+    },
+    {
+      "index": 190,
+      "pointer_address": "0x1403dc4c0",
+      "string_address": "0x14030a7d8",
+      "command": "AddAction Weapon_4 23"
+    },
+    {
+      "index": 191,
+      "pointer_address": "0x1403dc4c8",
+      "string_address": "0x14030a7f0",
+      "command": "AddAction Weapon_5 24"
+    },
+    {
+      "index": 192,
+      "pointer_address": "0x1403dc4d0",
+      "string_address": "0x14030a808",
+      "command": "AddAction Weapon_6 25"
+    },
+    {
+      "index": 193,
+      "pointer_address": "0x1403dc4d8",
+      "string_address": "0x14030a820",
+      "command": "AddAction Weapon_7 26"
+    },
+    {
+      "index": 194,
+      "pointer_address": "0x1403dc4e0",
+      "string_address": "0x14030a838",
+      "command": "AddAction Weapon_8 27"
+    },
+    {
+      "index": 195,
+      "pointer_address": "0x1403dc4e8",
+      "string_address": "0x14030a850",
+      "command": "AddAction Weapon_9 28"
+    },
+    {
+      "index": 196,
+      "pointer_address": "0x1403dc4f0",
+      "string_address": "0x14030a868",
+      "command": "AddAction Weapon_10 29"
+    },
+    {
+      "index": 197,
+      "pointer_address": "0x1403dc4f8",
+      "string_address": "0x14030a880",
+      "command": "AddAction Weapon_11 30"
+    },
+    {
+      "index": 198,
+      "pointer_address": "0x1403dc500",
+      "string_address": "0x14030a898",
+      "command": "AddAction Weapon_12 31"
+    },
+    {
+      "index": 199,
+      "pointer_address": "0x1403dc508",
+      "string_address": "0x14030a8b0",
+      "command": "AddAction Weapon_13 32"
+    },
+    {
+      "index": 200,
+      "pointer_address": "0x1403dc510",
+      "string_address": "0x14030a8c8",
+      "command": "AddAction Weapon_14 33"
+    },
+    {
+      "index": 201,
+      "pointer_address": "0x1403dc518",
+      "string_address": "0x14030a8e0",
+      "command": "AddAction Weapon_15 34"
+    },
+    {
+      "index": 202,
+      "pointer_address": "0x1403dc520",
+      "string_address": "0x14030a8f8",
+      "command": "AddAction Weapon_16 35"
+    },
+    {
+      "index": 203,
+      "pointer_address": "0x1403dc528",
+      "string_address": "0x14030a910",
+      "command": "AddAction Weapon_17 36"
+    },
+    {
+      "index": 204,
+      "pointer_address": "0x1403dc530",
+      "string_address": "0x14030a928",
+      "command": "AddAction Weapon_18 37"
+    },
+    {
+      "index": 205,
+      "pointer_address": "0x1403dc538",
+      "string_address": "0x14030a940",
+      "command": "AddAction Weapon_19 38"
+    },
+    {
+      "index": 206,
+      "pointer_address": "0x1403dc540",
+      "string_address": "0x14030a958",
+      "command": "AddAction Weapon_20 39"
+    },
+    {
+      "index": 207,
+      "pointer_address": "0x1403dc548",
+      "string_address": "0x14030a970",
+      "command": "AddAction Weapon_21 40"
+    },
+    {
+      "index": 208,
+      "pointer_address": "0x1403dc550",
+      "string_address": "0x14030a988",
+      "command": "AddAction Weapon_22 41"
+    },
+    {
+      "index": 209,
+      "pointer_address": "0x1403dc558",
+      "string_address": "0x14030a9a0",
+      "command": "AddAction Weapon_23 42"
+    },
+    {
+      "index": 210,
+      "pointer_address": "0x1403dc560",
+      "string_address": "0x14030a9b8",
+      "command": "AddAction Weapon_24 43"
+    },
+    {
+      "index": 211,
+      "pointer_address": "0x1403dc568",
+      "string_address": "0x14030a9d0",
+      "command": "AddAction Weapon_25 44"
+    },
+    {
+      "index": 212,
+      "pointer_address": "0x1403dc570",
+      "string_address": "0x14030a9e8",
+      "command": "AddAction Weapon_26 45"
+    },
+    {
+      "index": 213,
+      "pointer_address": "0x1403dc578",
+      "string_address": "0x14030aa00",
+      "command": "AddAction Weapon_27 46"
+    },
+    {
+      "index": 214,
+      "pointer_address": "0x1403dc580",
+      "string_address": "0x14030aa18",
+      "command": "AddAction Weapon_28 47"
+    },
+    {
+      "index": 215,
+      "pointer_address": "0x1403dc588",
+      "string_address": "0x14030aa30",
+      "command": "AddAction Weapon_29 48"
+    },
+    {
+      "index": 216,
+      "pointer_address": "0x1403dc590",
+      "string_address": "0x14030aa48",
+      "command": "AddAction Weapon_30 49"
+    },
+    {
+      "index": 217,
+      "pointer_address": "0x1403dc598",
+      "string_address": "0x14030aa60",
+      "command": "AddAction Weapon_31 50"
+    },
+    {
+      "index": 218,
+      "pointer_address": "0x1403dc5a0",
+      "string_address": "0x14030aa78",
+      "command": "AddAction Weapon_32 51"
+    },
+    {
+      "index": 219,
+      "pointer_address": "0x1403dc5a8",
+      "string_address": "0x14030aa90",
+      "command": "AddAction Weapon_33 52"
+    },
+    {
+      "index": 220,
+      "pointer_address": "0x1403dc5b0",
+      "string_address": "0x14030aaa8",
+      "command": "AddAction Weapon_34 53"
+    },
+    {
+      "index": 221,
+      "pointer_address": "0x1403dc5b8",
+      "string_address": "0x14030aac0",
+      "command": "AddAction Weapon_35 54"
+    },
+    {
+      "index": 222,
+      "pointer_address": "0x1403dc5c0",
+      "string_address": "0x14030aad8",
+      "command": "AddAction Weapon_36 55"
+    },
+    {
+      "index": 223,
+      "pointer_address": "0x1403dc5c8",
+      "string_address": "0x14030aaf0",
+      "command": "AddAction Weapon_37 56"
+    },
+    {
+      "index": 224,
+      "pointer_address": "0x1403dc5d0",
+      "string_address": "0x14030ab08",
+      "command": "AddAction Weapon_38 57"
+    },
+    {
+      "index": 225,
+      "pointer_address": "0x1403dc5d8",
+      "string_address": "0x14030ab20",
+      "command": "AddAction Weapon_39 58"
+    },
+    {
+      "index": 226,
+      "pointer_address": "0x1403dc5e0",
+      "string_address": "0x14030ab38",
+      "command": "AddAction Weapon_40 59"
+    },
+    {
+      "index": 227,
+      "pointer_address": "0x1403dc5e8",
+      "string_address": "0x14030ab50",
+      "command": "AddAction NextAmmo 60"
+    },
+    {
+      "index": 228,
+      "pointer_address": "0x1403dc5f0",
+      "string_address": "0x14030ab68",
+      "command": "AddAction ZoomIn 61"
+    },
+    {
+      "index": 229,
+      "pointer_address": "0x1403dc5f8",
+      "string_address": "0x14030ab80",
+      "command": "AddAction ZoomOut 62"
+    },
+    {
+      "index": 230,
+      "pointer_address": "0x1403dc600",
+      "string_address": "0x14030ab98",
+      "command": "AddAction NextVisMode 64"
+    },
+    {
+      "index": 231,
+      "pointer_address": "0x1403dc608",
+      "string_address": "0x14030abb8",
+      "command": "AddAction Alt-Fire 65"
+    },
+    {
+      "index": 232,
+      "pointer_address": "0x1403dc610",
+      "string_address": "0x14030abd0",
+      "command": "AddAction PrevWeapon 66"
+    },
+    {
+      "index": 233,
+      "pointer_address": "0x1403dc618",
+      "string_address": "0x14030abe8",
+      "command": "AddAction NextWeapon 67"
+    },
+    {
+      "index": 234,
+      "pointer_address": "0x1403dc620",
+      "string_address": "0x14030ac00",
+      "command": "AddAction Score 68"
+    },
+    {
+      "index": 235,
+      "pointer_address": "0x1403dc628",
+      "string_address": "0x14030ac18",
+      "command": "AddAction Mission 69"
+    },
+    {
+      "index": 236,
+      "pointer_address": "0x1403dc630",
+      "string_address": "0x14030ac30",
+      "command": "AddAction MouseAim 70"
+    },
+    {
+      "index": 237,
+      "pointer_address": "0x1403dc638",
+      "string_address": "0x14030ac48",
+      "command": "AddAction CursorTog 71"
+    },
+    {
+      "index": 238,
+      "pointer_address": "0x1403dc640",
+      "string_address": "0x14030ac60",
+      "command": "AddAction CenterView 72"
+    },
+    {
+      "index": 239,
+      "pointer_address": "0x1403dc648",
+      "string_address": "0x14030ac78",
+      "command": "AddAction HolsterWeapon 73"
+    },
+    {
+      "index": 240,
+      "pointer_address": "0x1403dc650",
+      "string_address": "0x14030ac98",
+      "command": "AddAction SendMessage 74"
+    },
+    {
+      "index": 241,
+      "pointer_address": "0x1403dc658",
+      "string_address": "0x14030acb8",
+      "command": "AddAction IncLayout 75"
+    },
+    {
+      "index": 242,
+      "pointer_address": "0x1403dc660",
+      "string_address": "0x14030acd0",
+      "command": "AddAction DecLayout 76"
+    },
+    {
+      "index": 243,
+      "pointer_address": "0x1403dc668",
+      "string_address": "0x14030ace8",
+      "command": "AddAction Inventory 77"
+    },
+    {
+      "index": 244,
+      "pointer_address": "0x1403dc670",
+      "string_address": "0x14030ad00",
+      "command": "AddAction NextWeapon_1 78"
+    },
+    {
+      "index": 245,
+      "pointer_address": "0x1403dc678",
+      "string_address": "0x14030ad20",
+      "command": "AddAction NextWeapon_2 79"
+    },
+    {
+      "index": 246,
+      "pointer_address": "0x1403dc680",
+      "string_address": "0x14030ad40",
+      "command": "AddAction NextWeapon_3 80"
+    },
+    {
+      "index": 247,
+      "pointer_address": "0x1403dc688",
+      "string_address": "0x14030ad60",
+      "command": "AddAction NextWeapon_4 81"
+    },
+    {
+      "index": 248,
+      "pointer_address": "0x1403dc690",
+      "string_address": "0x14030ad80",
+      "command": "AddAction NextWeapon_5 82"
+    },
+    {
+      "index": 249,
+      "pointer_address": "0x1403dc698",
+      "string_address": "0x14030ada0",
+      "command": "AddAction NextWeapon_6 83"
+    },
+    {
+      "index": 250,
+      "pointer_address": "0x1403dc6a0",
+      "string_address": "0x14030adc0",
+      "command": "AddAction Choose_1 84"
+    },
+    {
+      "index": 251,
+      "pointer_address": "0x1403dc6a8",
+      "string_address": "0x14030add8",
+      "command": "AddAction Choose_2 85"
+    },
+    {
+      "index": 252,
+      "pointer_address": "0x1403dc6b0",
+      "string_address": "0x14030adf0",
+      "command": "AddAction Choose_3 86"
+    },
+    {
+      "index": 253,
+      "pointer_address": "0x1403dc6b8",
+      "string_address": "0x14030ae08",
+      "command": "AddAction Choose_4 87"
+    },
+    {
+      "index": 254,
+      "pointer_address": "0x1403dc6c0",
+      "string_address": "0x14030ae20",
+      "command": "AddAction Choose_5 88"
+    },
+    {
+      "index": 255,
+      "pointer_address": "0x1403dc6c8",
+      "string_address": "0x14030ae38",
+      "command": "AddAction Choose_6 89"
+    },
+    {
+      "index": 256,
+      "pointer_address": "0x1403dc6d0",
+      "string_address": "0x14030ae50",
+      "command": "AddAction DuckLock 92"
+    },
+    {
+      "index": 257,
+      "pointer_address": "0x1403dc6d8",
+      "string_address": "0x14030ae68",
+      "command": "AddAction LastWeapon 93"
+    },
+    {
+      "index": 258,
+      "pointer_address": "0x1403dc6e0",
+      "string_address": "0x14030ae80",
+      "command": "AddAction TeamMessage 94"
+    },
+    {
+      "index": 259,
+      "pointer_address": "0x1403dc6e8",
+      "string_address": "0x14030aea0",
+      "command": "AddAction CompassToggle 101"
+    },
+    {
+      "index": 260,
+      "pointer_address": "0x1403dc6f0",
+      "string_address": "0x14030aec0",
+      "command": "AddAction ViewKeys 102"
+    },
+    {
+      "index": 261,
+      "pointer_address": "0x1403dc6f8",
+      "string_address": "0x14030aed8",
+      "command": "AddAction ViewIntel 103"
+    },
+    {
+      "index": 262,
+      "pointer_address": "0x1403dc700",
+      "string_address": "0x14030aef0",
+      "command": "AddAction MoveBody 104"
+    },
+    {
+      "index": 263,
+      "pointer_address": "0x1403dc708",
+      "string_address": "0x14030af08",
+      "command": "AddAction Flashlight 105"
+    },
+    {
+      "index": 264,
+      "pointer_address": "0x1403dc710",
+      "string_address": "0x14030af28",
+      "command": "AddAction Radio 106"
+    },
+    {
+      "index": 265,
+      "pointer_address": "0x1403dc718",
+      "string_address": "0x14030af40",
+      "command": "AddAction SpecialKey 107"
+    },
+    {
+      "index": 266,
+      "pointer_address": "0x1403dc720",
+      "string_address": "0x14030af60",
+      "command": "AddAction MiniMap 111"
+    },
+    {
+      "index": 267,
+      "pointer_address": "0x1403dc728",
+      "string_address": "0x14030af78",
+      "command": "AddAction Spray 112"
+    },
+    {
+      "index": 268,
+      "pointer_address": "0x1403dc730",
+      "string_address": "0x14030af90",
+      "command": "AddAction ActRadio4 113"
+    },
+    {
+      "index": 269,
+      "pointer_address": "0x1403dc738",
+      "string_address": "0x14030afa8",
+      "command": "AddAction SpecialKey3 114"
+    },
+    {
+      "index": 270,
+      "pointer_address": "0x1403dc740",
+      "string_address": "0x14030afc8",
+      "command": "AddAction Target 115"
+    },
+    {
+      "index": 271,
+      "pointer_address": "0x1403dc748",
+      "string_address": "0x14030afe0",
+      "command": "AddAction ClanMission 116"
+    },
+    {
+      "index": 272,
+      "pointer_address": "0x1403dc750",
+      "string_address": "0x14030b000",
+      "command": "AddAction SpecialKey4 117"
+    },
+    {
+      "index": 273,
+      "pointer_address": "0x1403dc758",
+      "string_address": "0x14030b020",
+      "command": "AddAction SpecialKey5 118"
+    },
+    {
+      "index": 274,
+      "pointer_address": "0x1403dc760",
+      "string_address": "0x14030b040",
+      "command": "AddAction SpecialKey6 119"
+    },
+    {
+      "index": 275,
+      "pointer_address": "0x1403dc768",
+      "string_address": "0x14030b060",
+      "command": "AddAction Compliment 120"
+    },
+    {
+      "index": 276,
+      "pointer_address": "0x1403dc770",
+      "string_address": "0x14030b080",
+      "command": "AddAction TacticalMoving 121"
+    },
+    {
+      "index": 277,
+      "pointer_address": "0x1403dc778",
+      "string_address": "0x14030b0a0",
+      "command": "AddAction OperationPing1 122"
+    },
+    {
+      "index": 278,
+      "pointer_address": "0x1403dc780",
+      "string_address": "0x14030b0c0",
+      "command": "AddAction OperationPing2 123"
+    },
+    {
+      "index": 279,
+      "pointer_address": "0x1403dc788",
+      "string_address": "0x14030b0e0",
+      "command": "AddAction LeaveUnassigned 201"
+    },
+    {
+      "index": 280,
+      "pointer_address": "0x1403dc790",
+      "string_address": "0x14030b100",
+      "command": "AddAction Axis3 -3"
+    },
+    {
+      "index": 281,
+      "pointer_address": "0x1403dc798",
+      "string_address": "0x14030b118",
+      "command": "AddAction Axis2 -2"
+    },
+    {
+      "index": 282,
+      "pointer_address": "0x1403dc7a0",
+      "string_address": "0x14030b130",
+      "command": "AddAction Axis1 -1"
+    },
+    {
+      "index": 283,
+      "pointer_address": "0x1403dc7a8",
+      "string_address": "0x14030b148",
+      "command": "AddAction AxisYaw -10001"
+    },
+    {
+      "index": 284,
+      "pointer_address": "0x1403dc7b0",
+      "string_address": "0x14030b168",
+      "command": "AddAction AxisPitch -10002"
+    },
+    {
+      "index": 285,
+      "pointer_address": "0x1403dc7b8",
+      "string_address": "0x14030b188",
+      "command": "AddAction AxisLeftRight -10003"
+    },
+    {
+      "index": 286,
+      "pointer_address": "0x1403dc7c0",
+      "string_address": "0x14030b1a8",
+      "command": "AddAction AxisForwardBackward -10004"
+    },
+    {
+      "index": 287,
+      "pointer_address": "0x1403dc7c8",
+      "string_address": "0x14030b1d0",
+      "command": "rangebind ##keyboard ##28 0.000000 0.000000 SendMessage"
+    },
+    {
+      "index": 288,
+      "pointer_address": "0x1403dc7d0",
+      "string_address": "0x14030b208",
+      "command": "rangebind ##keyboard ##47 0.000000 0.000000 ActRadio4"
+    },
+    {
+      "index": 289,
+      "pointer_address": "0x1403dc7d8",
+      "string_address": "0x14030b240",
+      "command": "rangebind ##keyboard ##15 0.000000 0.000000 Mission"
+    },
+    {
+      "index": 290,
+      "pointer_address": "0x1403dc7e0",
+      "string_address": "0x14030b278",
+      "command": "rangebind ##keyboard ##208 0.000000 0.000000 LookDown"
+    },
+    {
+      "index": 291,
+      "pointer_address": "0x1403dc7e8",
+      "string_address": "0x14030b2b0",
+      "command": "rangebind ##keyboard ##200 0.000000 0.000000 LookUp"
+    },
+    {
+      "index": 292,
+      "pointer_address": "0x1403dc7f0",
+      "string_address": "0x14030b2e8",
+      "command": "rangebind ##keyboard ##16 0.000000 0.000000 LastWeapon"
+    },
+    {
+      "index": 293,
+      "pointer_address": "0x1403dc7f8",
+      "string_address": "0x14030b320",
+      "command": "rangebind ##keyboard ##19 0.000000 0.000000 Reload"
+    },
+    {
+      "index": 294,
+      "pointer_address": "0x1403dc800",
+      "string_address": "0x14030b358",
+      "command": "rangebind ##keyboard ##34 0.000000 0.000000 Activate"
+    },
+    {
+      "index": 295,
+      "pointer_address": "0x1403dc808",
+      "string_address": "0x14030b390",
+      "command": "rangebind ##keyboard ##58 0.000000 0.000000 RunLock"
+    },
+    {
+      "index": 296,
+      "pointer_address": "0x1403dc810",
+      "string_address": "0x14030b3c8",
+      "command": "rangebind ##keyboard ##18 0.000000 0.000000 LeanRight"
+    },
+    {
+      "index": 297,
+      "pointer_address": "0x1403dc818",
+      "string_address": "0x14030b400",
+      "command": "rangebind ##keyboard ##14 0.000000 0.000000 TurnAround"
+    },
+    {
+      "index": 298,
+      "pointer_address": "0x1403dc820",
+      "string_address": "0x14030b438",
+      "command": "rangebind ##keyboard ##29 0.000000 0.000000 Duck"
+    },
+    {
+      "index": 299,
+      "pointer_address": "0x1403dc828",
+      "string_address": "0x14030b470",
+      "command": "rangebind ##keyboard ##57 0.000000 0.000000 Jump"
+    },
+    {
+      "index": 300,
+      "pointer_address": "0x1403dc830",
+      "string_address": "0x14030b4a8",
+      "command": "rangebind ##keyboard ##42 0.000000 0.000000 Speed"
+    },
+    {
+      "index": 301,
+      "pointer_address": "0x1403dc838",
+      "string_address": "0x14030b4e0",
+      "command": "rangebind ##keyboard ##205 0.000000 0.000000 Right"
+    },
+    {
+      "index": 302,
+      "pointer_address": "0x1403dc840",
+      "string_address": "0x14030b518",
+      "command": "rangebind ##keyboard ##203 0.000000 0.000000 Left"
+    },
+    {
+      "index": 303,
+      "pointer_address": "0x1403dc848",
+      "string_address": "0x14030b550",
+      "command": "rangebind ##keyboard ##32 0.000000 0.000000 StrafeRight"
+    },
+    {
+      "index": 304,
+      "pointer_address": "0x1403dc850",
+      "string_address": "0x14030b588",
+      "command": "rangebind ##keyboard ##30 0.000000 0.000000 StrafeLeft"
+    },
+    {
+      "index": 305,
+      "pointer_address": "0x1403dc858",
+      "string_address": "0x14030b5c0",
+      "command": "rangebind ##keyboard ##31 0.000000 0.000000 Backward"
+    },
+    {
+      "index": 306,
+      "pointer_address": "0x1403dc860",
+      "string_address": "0x14030b5f8",
+      "command": "rangebind ##keyboard ##17 0.000000 0.000000 Forward"
+    },
+    {
+      "index": 307,
+      "pointer_address": "0x1403dc868",
+      "string_address": "0x14030b630",
+      "command": "rangebind ##keyboard ##40 0.000000 0.000000 CompassToggle"
+    },
+    {
+      "index": 308,
+      "pointer_address": "0x1403dc870",
+      "string_address": "0x14030b670",
+      "command": "rangebind ##keyboard ##48 0.000000 0.000000 Score"
+    },
+    {
+      "index": 309,
+      "pointer_address": "0x1403dc878",
+      "string_address": "0x14030b6a8",
+      "command": "rangebind ##keyboard ##23 0.000000 0.000000 ViewIntel"
+    },
+    {
+      "index": 310,
+      "pointer_address": "0x1403dc880",
+      "string_address": "0x14030b6e0",
+      "command": "rangebind ##keyboard ##49 0.000000 0.000000 ViewKeys"
+    },
+    {
+      "index": 311,
+      "pointer_address": "0x1403dc888",
+      "string_address": "0x14030b718",
+      "command": "rangebind ##keyboard ##50 0.000000 0.000000 Inventory"
+    },
+    {
+      "index": 312,
+      "pointer_address": "0x1403dc890",
+      "string_address": "0x14030b750",
+      "command": "rangebind ##keyboard ##207 0.000000 0.000000 CenterView"
+    },
+    {
+      "index": 313,
+      "pointer_address": "0x1403dc898",
+      "string_address": "0x14030b788",
+      "command": "rangebind ##keyboard ##33 0.000000 0.000000 NextAmmo"
+    },
+    {
+      "index": 314,
+      "pointer_address": "0x1403dc8a0",
+      "string_address": "0x14030b7c0",
+      "command": "rangebind ##keyboard ##56 0.000000 0.000000 Strafe"
+    },
+    {
+      "index": 315,
+      "pointer_address": "0x1403dc8a8",
+      "string_address": "0x14030b7f8",
+      "command": "rangebind ##keyboard ##36 0.000000 0.000000 Spray"
+    },
+    {
+      "index": 316,
+      "pointer_address": "0x1403dc8b0",
+      "string_address": "0x14030b830",
+      "command": "rangebind ##keyboard ##20 0.000000 0.000000 MiniMap"
+    },
+    {
+      "index": 317,
+      "pointer_address": "0x1403dc8b8",
+      "string_address": "0x14030b868",
+      "command": "rangebind ##keyboard ##35 0.000000 0.000000 SpecialKey3"
+    },
+    {
+      "index": 318,
+      "pointer_address": "0x1403dc8c0",
+      "string_address": "0x14030b8a0",
+      "command": "rangebind ##keyboard ##7 0.000000 0.000000 NextWeapon_6 0.000000 0.000000 Choose_6"
+    },
+    {
+      "index": 319,
+      "pointer_address": "0x1403dc8c8",
+      "string_address": "0x14030b900",
+      "command": "rangebind ##keyboard ##6 0.000000 0.000000 NextWeapon_5 0.000000 0.000000 Choose_5"
+    },
+    {
+      "index": 320,
+      "pointer_address": "0x1403dc8d0",
+      "string_address": "0x14030b960",
+      "command": "rangebind ##keyboard ##5 0.000000 0.000000 NextWeapon_4 0.000000 0.000000 Choose_4"
+    },
+    {
+      "index": 321,
+      "pointer_address": "0x1403dc8d8",
+      "string_address": "0x14030b9c0",
+      "command": "rangebind ##keyboard ##4 0.000000 0.000000 NextWeapon_3 0.000000 0.000000 Choose_3"
+    },
+    {
+      "index": 322,
+      "pointer_address": "0x1403dc8e0",
+      "string_address": "0x14030ba20",
+      "command": "rangebind ##keyboard ##3 0.000000 0.000000 NextWeapon_2 0.000000 0.000000 Choose_2"
+    },
+    {
+      "index": 323,
+      "pointer_address": "0x1403dc8e8",
+      "string_address": "0x14030ba80",
+      "command": "rangebind ##keyboard ##2 0.000000 0.000000 NextWeapon_1 0.000000 0.000000 Choose_1"
+    },
+    {
+      "index": 324,
+      "pointer_address": "0x1403dc8f0",
+      "string_address": "0x14030bad8",
+      "command": "rangebind ##keyboard ##13 0.000000 0.000000 DecLayout"
+    },
+    {
+      "index": 325,
+      "pointer_address": "0x1403dc8f8",
+      "string_address": "0x14030bb10",
+      "command": "rangebind ##keyboard ##12 0.000000 0.000000 IncLayout"
+    },
+    {
+      "index": 326,
+      "pointer_address": "0x1403dc900",
+      "string_address": "0x14030bb48",
+      "command": "rangebind ##keyboard ##65 0.000000 0.000000 Alt-Fire"
+    },
+    {
+      "index": 327,
+      "pointer_address": "0x1403dc908",
+      "string_address": "0x14030bb80",
+      "command": "rangebind ##keyboard ##64 0.000000 0.000000 NextVisMode"
+    },
+    {
+      "index": 328,
+      "pointer_address": "0x1403dc910",
+      "string_address": "0x14030bbb8",
+      "command": "rangebind ##keyboard ##27 0.000000 0.000000 ZoomOut"
+    },
+    {
+      "index": 329,
+      "pointer_address": "0x1403dc918",
+      "string_address": "0x14030bbf0",
+      "command": "rangebind ##keyboard ##20 0.000000 0.000000 SpecialKey"
+    },
+    {
+      "index": 330,
+      "pointer_address": "0x1403dc920",
+      "string_address": "0x14030bc28",
+      "command": "rangebind ##keyboard ##53 0.000000 0.000000 Target"
+    },
+    {
+      "index": 331,
+      "pointer_address": "0x1403dc928",
+      "string_address": "0x14030bc60",
+      "command": "ModelAdd 0.000000 0.000000 0.000000"
+    },
+    {
+      "index": 332,
+      "pointer_address": "0x1403dc930",
+      "string_address": "0x14030bc88",
+      "command": "LockSendUUF 0.1"
+    },
+    {
+      "index": 333,
+      "pointer_address": "0x1403dc938",
+      "string_address": "0x14030bc98",
+      "command": "LockFPS 0.014"
+    },
+    {
+      "index": 334,
+      "pointer_address": "0x1403dc940",
+      "string_address": "0x14030bca8",
+      "command": "rangebind ##mouse ##z-axis 0.10 255.0 SpecialKey4"
+    },
+    {
+      "index": 335,
+      "pointer_address": "0x1403dc948",
+      "string_address": "0x14030bce0",
+      "command": "rangebind ##mouse ##z-axis -0.10,-255.0 SpecialKey5"
+    },
+    {
+      "index": 336,
+      "pointer_address": "0x1403dc950",
+      "string_address": "0x14030bd18",
+      "command": "rangebind ##mouse ##5 0.000000 0.000000 SpecialKey6"
+    },
+    {
+      "index": 337,
+      "pointer_address": "0x1403dc958",
+      "string_address": "0x14030bd50",
+      "command": "rangebind ##keyboard ##22 0.000000 0.000000 Compliment"
+    },
+    {
+      "index": 338,
+      "pointer_address": "0x1403dc960",
+      "string_address": "0x14030bd88",
+      "command": "rangebind ##keyboard ##58 0.000000 0.000000 TacticalMoving"
+    },
+    {
+      "index": 339,
+      "pointer_address": "0x1403dc968",
+      "string_address": "0x14030bdc8",
+      "command": "rangebind ##mouse ##7 0.000000 0.000000 OperationPing1"
+    },
+    {
+      "index": 340,
+      "pointer_address": "0x1403dc970",
+      "string_address": "0x14030be00",
+      "command": "rangebind ##mouse ##6 0.000000 0.000000 OperationPing2"
+    },
+    {
+      "index": 341,
+      "pointer_address": "0x1403dc978",
+      "string_address": "0x14030be38",
+      "command": "NameRadar 1"
+    },
+    {
+      "index": 342,
+      "pointer_address": "0x1403dc980",
+      "string_address": "0x14030be48",
+      "command": "FreeSpectate 1"
+    },
+    {
+      "index": 343,
+      "pointer_address": "0x1403dc988",
+      "string_address": "0x14030be58",
+      "command": "FXDetail 1"
+    },
+    {
+      "index": 344,
+      "pointer_address": "0x1403dc990",
+      "string_address": "0x14030be68",
+      "command": "RejectWhisper 0"
+    },
+    {
+      "index": 345,
+      "pointer_address": "0x1403dc998",
+      "string_address": "0x14030be78",
+      "command": "RejectInvite 0"
+    },
+    {
+      "index": 346,
+      "pointer_address": "0x1403dc9a0",
+      "string_address": "0x14030be88",
+      "command": "RadioLanguage 0"
+    },
+    {
+      "index": 347,
+      "pointer_address": "0x1403dc9a8",
+      "string_address": "0x14030be98",
+      "command": "VoiceChatEnable 0"
+    },
+    {
+      "index": 348,
+      "pointer_address": "0x1403dc9b0",
+      "string_address": "0x14030beb0",
+      "command": "MarkTalkPlayerEnable 0"
+    },
+    {
+      "index": 349,
+      "pointer_address": "0x1403dc9b8",
+      "string_address": "0x14030bec8",
+      "command": "InputDevLastIndex -1"
+    },
+    {
+      "index": 350,
+      "pointer_address": "0x1403dc9c0",
+      "string_address": "0x14030bee0",
+      "command": "InputDevArrayIndex -1"
+    },
+    {
+      "index": 351,
+      "pointer_address": "0x1403dc9c8",
+      "string_address": "0x14030bef8",
+      "command": "InputVolume -1"
+    },
+    {
+      "index": 352,
+      "pointer_address": "0x1403dc9d0",
+      "string_address": "0x14030bf08",
+      "command": "VCOutputVolume 100"
+    },
+    {
+      "index": 353,
+      "pointer_address": "0x1403dc9d8",
+      "string_address": "0x14030bf20",
+      "command": "MicAmplify 1"
+    },
+    {
+      "index": 354,
+      "pointer_address": "0x1403dc9e0",
+      "string_address": "0x14030bf30",
+      "command": "ShowPPL 1"
+    },
+    {
+      "index": 355,
+      "pointer_address": "0x1403dc9e8",
+      "string_address": "0x14030bf40",
+      "command": "AuteVote 1"
+    }
+  ],
+  "limitations": [
+    "Static embedded autoexec command table, not live user settings.",
+    "Command callback behavior and later overrides are separate evidence."
+  ]
+}

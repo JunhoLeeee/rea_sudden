@@ -1,0 +1,112 @@
+{
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_eb4c9d2ed8f04c390ed4973dd1563d34173005220b7f019c216e39d72b6c3c39\",\"subject\":{\"name\":\"suddenattack.exe\",\"digest\":{\"sha256\":\"7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8\"},\"local_path\":\"C:\\\\Nexon\\\\SuddenAttack\\\\suddenattack.exe\",\"format\":\"pe\",\"architecture\":\"x86_64\"},\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"analysis_profile\":{\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"parameters\":{\"target_kind\":\"executable\",\"target_format\":\"pe\",\"executable_role\":\"application\",\"managed\":false,\"native_aot_metadata\":{\"contract_revision\":\"rtr-9.1-x64-pe-read-only-v7\",\"source_bytes\":134217728,\"work_units\":67108864,\"working_memory_bytes\":67108864,\"report_bytes\":4194304},\"architecture\":\"x86_64\",\"available_architectures\":[\"x86_64\"],\"import_mode\":\"ephemeral-source-immutable\",\"pdb_observations\":\"program-info-v5\",\"annotation_policy\":\"atomic-function-entry-metadata-v1\",\"load_image_observations\":\"source-mappings-entry-context-v2\",\"function_body_evidence\":\"complete-inclusive-ranges-v1\",\"function_references\":\"complete-body-and-entry-reference-manager-v2\",\"call_relationship_coverage\":\"function-body-call-coverage-v5\",\"function_dossier_coverage\":\"observed-facets-and-call-relationships-v1\",\"string_inventory_evidence\":\"defined-data-coverage-v1\",\"location_resolution\":\"explicit-address-exact-entry-symbol-first-v3\",\"procedure_file_offset_resolution\":\"address-first-unique-target-source-mapping-v2\",\"instruction_flow_evidence\":\"decoded-return-pcode-v1\",\"instruction_references\":\"exact-address-incoming-without-synthetic-entry-v2\",\"function_boundary_observations\":\"ghidra-function-boundary-limitations-v4\",\"no_return_repair\":\"disabled-windows-p0\",\"process_launch\":\"official-headless-script-v1\",\"jump_table_evidence\":\"typed-case-default-blocks-v1\",\"decompiler_jump_loads\":true,\"loader\":\"auto-from-header\",\"language_id\":\"auto-from-header\",\"compiler_spec_id\":\"auto-default\",\"analyzer_preset\":\"ghidra-default\",\"function_coordinate_context\":{\"kind\":\"native-function-coordinate-context-v1\",\"selected_image\":null,\"mapping_sha256\":\"55a7964dc0bcdf067484a281c658e6ca8457a49405e0ea9dbd080366ee4c3198\"}},\"digest\":\"9b537ee6fdad293e1c8ea50e7b50d0b6b22972a83032bca093d279ab7e770ce4\"},\"predicate_type\":\"rea.analysis\",\"operation\":\"procedure_pseudo_code\",\"parameters\":{\"procedure\":\"0x14029c2a0\"},\"raw_result\":null,\"normalized_result\":\"\\r\\n/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */\\r\\n\\r\\nundefined8 * FUN_14029c2a0(undefined8 *param_1,undefined8 *param_2,undefined8 *param_3)\\r\\n\\r\\n{\\r\\n  longlong lVar1;\\r\\n  int *piVar2;\\r\\n  longlong *plVar3;\\r\\n  int iVar4;\\r\\n  undefined4 uVar5;\\r\\n  void *pvVar6;\\r\\n  undefined8 uVar7;\\r\\n  longlong *plVar8;\\r\\n  bool bVar9;\\r\\n  undefined1 auStack_218 [32];\\r\\n  undefined4 local_1f8;\\r\\n  undefined4 local_1f0;\\r\\n  undefined4 local_1e8;\\r\\n  undefined4 local_1d8;\\r\\n  undefined8 local_1d0;\\r\\n  undefined8 uStack_1c8;\\r\\n  undefined8 *local_1c0;\\r\\n  longlong *plStack_1b8;\\r\\n  undefined8 *local_1b0;\\r\\n  void *local_1a8;\\r\\n  undefined ***local_1a0;\\r\\n  undefined **local_198;\\r\\n  undefined1 local_190 [184];\\r\\n  int local_d8;\\r\\n  undefined1 local_c8 [128];\\r\\n  ulonglong local_48;\\r\\n  \\r\\n  local_48 = DAT_1403eef38 ^ (ulonglong)auStack_218;\\r\\n  uVar7 = 0;\\r\\n  local_1d8 = 0;\\r\\n  lVar1 = param_2[1] + 0x30;\\r\\n  local_1b0 = param_1;\\r\\n  if ((*(byte *)(param_2[1] + 4) & 0x20) == 0) {\\r\\n    bVar9 = *(char *)param_2[2] != '\\\\0';\\r\\n    if (!bVar9) {\\r\\n      FUN_1402a83f0(*param_2,lVar1,local_c8);\\r\\n      goto LAB_14029c329;\\r\\n    }\\r\\n    if (!bVar9) {\\r\\n      if (bVar9 != true) goto LAB_14029c329;\\r\\n      goto LAB_14029c30f;\\r\\n    }\\r\\n    uVar5 = *(undefined4 *)param_2[3];\\r\\n  }\\r\\n  else {\\r\\nLAB_14029c30f:\\r\\n    uVar5 = FUN_1402a8630(*param_2);\\r\\n  }\\r\\n  FUN_1402a84a0(*param_2,lVar1,uVar5,local_c8);\\r\\nLAB_14029c329:\\r\\n  pvVar6 = operator_new(0x58);\\r\\n  local_1a8 = pvVar6;\\r\\n  if (pvVar6 != (void *)0x0) {\\r\\n    local_1a0 = &local_198;\\r\\n    local_1c0 = &local_1d0;\\r\\n    iVar4 = *(int *)param_2[6];\\r\\n    local_198 = Lambda::SnowCipher::vftable;\\r\\n    local_1e8 = 0;\\r\\n    local_1f0 = 0;\\r\\n    local_1f8 = 0;\\r\\n    FUN_1402abee0(local_190,local_c8,0x80,0);\\r\\n    local_d8 = (int)(iVar4 + (iVar4 >> 0x1f & 3U)) >> 2;\\r\\n    FUN_1402ace20(local_190,local_d8);\\r\\n    uStack_1c8 = 0;\\r\\n    if (param_3[1] != 0) {\\r\\n      LOCK();\\r\\n      piVar2 = (int *)(param_3[1] + 8);\\r\\n      *piVar2 = *piVar2 + 1;\\r\\n      UNLOCK();\\r\\n      uStack_1c8 = param_3[1];\\r\\n    }\\r\\n    local_1d0 = *param_3;\\r\\n    uVar7 = FUN_14029aba0(pvVar6,&local_1d0,&local_198,0);\\r\\n  }\\r\\n  FUN_140299bf0(param_1,uVar7);\\r\\n  local_1c0 = (undefined8 *)*param_1;\\r\\n  plVar8 = (longlong *)0x0;\\r\\n  if (param_1[1] != 0) {\\r\\n    LOCK();\\r\\n    piVar2 = (int *)(param_1[1] + 8);\\r\\n    *piVar2 = *piVar2 + 1;\\r\\n    UNLOCK();\\r\\n    plVar8 = (longlong *)param_1[1];\\r\\n  }\\r\\n  local_1d8 = 3;\\r\\n  plStack_1b8 = plVar8;\\r\\n  FUN_14029d9d0(local_1c0,*(undefined4 *)param_2[4]);\\r\\n  local_1d8 = 1;\\r\\n  if (plVar8 != (longlong *)0x0) {\\r\\n    LOCK();\\r\\n    plVar3 = plVar8 + 1;\\r\\n    lVar1 = *plVar3;\\r\\n    *(int *)plVar3 = (int)*plVar3 + -1;\\r\\n    UNLOCK();\\r\\n    if ((int)lVar1 == 1) {\\r\\n      (**(code **)*plVar8)(plVar8);\\r\\n      LOCK();\\r\\n      piVar2 = (int *)((longlong)plVar8 + 0xc);\\r\\n      iVar4 = *piVar2;\\r\\n      *piVar2 = *piVar2 + -1;\\r\\n      UNLOCK();\\r\\n      if (iVar4 == 1) {\\r\\n        (**(code **)(*plVar8 + 8))(plVar8);\\r\\n      }\\r\\n    }\\r\\n  }\\r\\n  return param_1;\\r\\n}\\r\\n\\r\\n\",\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.\",\"The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.\",\"Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.\",\"Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.\",\"Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.\",\"External functions and functions without an analyzable body return null; other decompiler failures remain explicit.\",\"Windows Ghidra P0 accepts native x86, x86-64, ARMNT (Thumb-2) and ARM64 PE applications and DLLs, and explicitly selected raw 6502 images; managed, hostile, sensitive, and mutable-path targets are unsupported.\",\"The Windows bridge uses authenticated IPv4 loopback because Node path-based IPC does not expose Java AF_UNIX sockets; the endpoint file contains no bearer token.\",\"Windows sessions require the matching packaged Windows x64 native addon, local NTFS targets and runtimes, and Windows 10 or later. Native handles enforce path admission, private DACLs, and Job Object ownership automatically.\",\"The Ghidra Program references PDB SuddenAttack.pdb (GUID a63e89e7-f71f-4a19-bd72-6b57d676ad47, age (hex) 1, signature unknown, version RSDS); Ghidra reports load state unknown. Original names and types may be missing; an empty name search does not prove a procedure is absent. Use list_procedures and address-based analysis to inspect recovered functions. REA does not admit a caller-selected PDB companion.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_eb4c9d2ed8f04c390ed4973dd1563d34173005220b7f019c216e39d72b6c3c39",
+      "subject": {
+        "name": "suddenattack.exe",
+        "digest": {
+          "sha256": "7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8"
+        },
+        "local_path": "C:\\Nexon\\SuddenAttack\\suddenattack.exe",
+        "format": "pe",
+        "architecture": "x86_64"
+      },
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "analysis_profile": {
+        "provider": {
+          "id": "ghidra",
+          "name": "Ghidra",
+          "version": "12.1.4"
+        },
+        "parameters": {
+          "target_kind": "executable",
+          "target_format": "pe",
+          "executable_role": "application",
+          "managed": false,
+          "native_aot_metadata": {
+            "contract_revision": "rtr-9.1-x64-pe-read-only-v7",
+            "source_bytes": 134217728,
+            "work_units": 67108864,
+            "working_memory_bytes": 67108864,
+            "report_bytes": 4194304
+          },
+          "architecture": "x86_64",
+          "available_architectures": [
+            "x86_64"
+          ],
+          "import_mode": "ephemeral-source-immutable",
+          "pdb_observations": "program-info-v5",
+          "annotation_policy": "atomic-function-entry-metadata-v1",
+          "load_image_observations": "source-mappings-entry-context-v2",
+          "function_body_evidence": "complete-inclusive-ranges-v1",
+          "function_references": "complete-body-and-entry-reference-manager-v2",
+          "call_relationship_coverage": "function-body-call-coverage-v5",
+          "function_dossier_coverage": "observed-facets-and-call-relationships-v1",
+          "string_inventory_evidence": "defined-data-coverage-v1",
+          "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+          "procedure_file_offset_resolution": "address-first-unique-target-source-mapping-v2",
+          "instruction_flow_evidence": "decoded-return-pcode-v1",
+          "instruction_references": "exact-address-incoming-without-synthetic-entry-v2",
+          "function_boundary_observations": "ghidra-function-boundary-limitations-v4",
+          "no_return_repair": "disabled-windows-p0",
+          "process_launch": "official-headless-script-v1",
+          "jump_table_evidence": "typed-case-default-blocks-v1",
+          "decompiler_jump_loads": true,
+          "loader": "auto-from-header",
+          "language_id": "auto-from-header",
+          "compiler_spec_id": "auto-default",
+          "analyzer_preset": "ghidra-default",
+          "function_coordinate_context": {
+            "kind": "native-function-coordinate-context-v1",
+            "selected_image": null,
+            "mapping_sha256": "55a7964dc0bcdf067484a281c658e6ca8457a49405e0ea9dbd080366ee4c3198"
+          }
+        },
+        "digest": "9b537ee6fdad293e1c8ea50e7b50d0b6b22972a83032bca093d279ab7e770ce4"
+      },
+      "predicate_type": "rea.analysis",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x14029c2a0"
+      },
+      "raw_result": null,
+      "normalized_result": "\r\n/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */\r\n\r\nundefined8 * FUN_14029c2a0(undefined8 *param_1,undefined8 *param_2,undefined8 *param_3)\r\n\r\n{\r\n  longlong lVar1;\r\n  int *piVar2;\r\n  longlong *plVar3;\r\n  int iVar4;\r\n  undefined4 uVar5;\r\n  void *pvVar6;\r\n  undefined8 uVar7;\r\n  longlong *plVar8;\r\n  bool bVar9;\r\n  undefined1 auStack_218 [32];\r\n  undefined4 local_1f8;\r\n  undefined4 local_1f0;\r\n  undefined4 local_1e8;\r\n  undefined4 local_1d8;\r\n  undefined8 local_1d0;\r\n  undefined8 uStack_1c8;\r\n  undefined8 *local_1c0;\r\n  longlong *plStack_1b8;\r\n  undefined8 *local_1b0;\r\n  void *local_1a8;\r\n  undefined ***local_1a0;\r\n  undefined **local_198;\r\n  undefined1 local_190 [184];\r\n  int local_d8;\r\n  undefined1 local_c8 [128];\r\n  ulonglong local_48;\r\n  \r\n  local_48 = DAT_1403eef38 ^ (ulonglong)auStack_218;\r\n  uVar7 = 0;\r\n  local_1d8 = 0;\r\n  lVar1 = param_2[1] + 0x30;\r\n  local_1b0 = param_1;\r\n  if ((*(byte *)(param_2[1] + 4) & 0x20) == 0) {\r\n    bVar9 = *(char *)param_2[2] != '\\0';\r\n    if (!bVar9) {\r\n      FUN_1402a83f0(*param_2,lVar1,local_c8);\r\n      goto LAB_14029c329;\r\n    }\r\n    if (!bVar9) {\r\n      if (bVar9 != true) goto LAB_14029c329;\r\n      goto LAB_14029c30f;\r\n    }\r\n    uVar5 = *(undefined4 *)param_2[3];\r\n  }\r\n  else {\r\nLAB_14029c30f:\r\n    uVar5 = FUN_1402a8630(*param_2);\r\n  }\r\n  FUN_1402a84a0(*param_2,lVar1,uVar5,local_c8);\r\nLAB_14029c329:\r\n  pvVar6 = operator_new(0x58);\r\n  local_1a8 = pvVar6;\r\n  if (pvVar6 != (void *)0x0) {\r\n    local_1a0 = &local_198;\r\n    local_1c0 = &local_1d0;\r\n    iVar4 = *(int *)param_2[6];\r\n    local_198 = Lambda::SnowCipher::vftable;\r\n    local_1e8 = 0;\r\n    local_1f0 = 0;\r\n    local_1f8 = 0;\r\n    FUN_1402abee0(local_190,local_c8,0x80,0);\r\n    local_d8 = (int)(iVar4 + (iVar4 >> 0x1f & 3U)) >> 2;\r\n    FUN_1402ace20(local_190,local_d8);\r\n    uStack_1c8 = 0;\r\n    if (param_3[1] != 0) {\r\n      LOCK();\r\n      piVar2 = (int *)(param_3[1] + 8);\r\n      *piVar2 = *piVar2 + 1;\r\n      UNLOCK();\r\n      uStack_1c8 = param_3[1];\r\n    }\r\n    local_1d0 = *param_3;\r\n    uVar7 = FUN_14029aba0(pvVar6,&local_1d0,&local_198,0);\r\n  }\r\n  FUN_140299bf0(param_1,uVar7);\r\n  local_1c0 = (undefined8 *)*param_1;\r\n  plVar8 = (longlong *)0x0;\r\n  if (param_1[1] != 0) {\r\n    LOCK();\r\n    piVar2 = (int *)(param_1[1] + 8);\r\n    *piVar2 = *piVar2 + 1;\r\n    UNLOCK();\r\n    plVar8 = (longlong *)param_1[1];\r\n  }\r\n  local_1d8 = 3;\r\n  plStack_1b8 = plVar8;\r\n  FUN_14029d9d0(local_1c0,*(undefined4 *)param_2[4]);\r\n  local_1d8 = 1;\r\n  if (plVar8 != (longlong *)0x0) {\r\n    LOCK();\r\n    plVar3 = plVar8 + 1;\r\n    lVar1 = *plVar3;\r\n    *(int *)plVar3 = (int)*plVar3 + -1;\r\n    UNLOCK();\r\n    if ((int)lVar1 == 1) {\r\n      (**(code **)*plVar8)(plVar8);\r\n      LOCK();\r\n      piVar2 = (int *)((longlong)plVar8 + 0xc);\r\n      iVar4 = *piVar2;\r\n      *piVar2 = *piVar2 + -1;\r\n      UNLOCK();\r\n      if (iVar4 == 1) {\r\n        (**(code **)(*plVar8 + 8))(plVar8);\r\n      }\r\n    }\r\n  }\r\n  return param_1;\r\n}\r\n\r\n",
+      "confidence": "observed",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+        "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+        "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+        "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+        "Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.",
+        "External functions and functions without an analyzable body return null; other decompiler failures remain explicit.",
+        "Windows Ghidra P0 accepts native x86, x86-64, ARMNT (Thumb-2) and ARM64 PE applications and DLLs, and explicitly selected raw 6502 images; managed, hostile, sensitive, and mutable-path targets are unsupported.",
+        "The Windows bridge uses authenticated IPv4 loopback because Node path-based IPC does not expose Java AF_UNIX sockets; the endpoint file contains no bearer token.",
+        "Windows sessions require the matching packaged Windows x64 native addon, local NTFS targets and runtimes, and Windows 10 or later. Native handles enforce path admission, private DACLs, and Job Object ownership automatically.",
+        "The Ghidra Program references PDB SuddenAttack.pdb (GUID a63e89e7-f71f-4a19-bd72-6b57d676ad47, age (hex) 1, signature unknown, version RSDS); Ghidra reports load state unknown. Original names and types may be missing; an empty name search does not prove a procedure is absent. Use list_procedures and address-based analysis to inspect recovered functions. REA does not admit a caller-selected PDB companion."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 110
+}

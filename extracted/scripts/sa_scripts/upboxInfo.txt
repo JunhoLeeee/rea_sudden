@@ -1,0 +1,192 @@
+[IDUpBoxInfo0]
+date = 20200326
+fmission0 = "일반전"
+fmission1 = "플레이 3회 달성"
+fmission2 = ""
+fmissionmaxcount = 3
+
+smission0 = "갓크전"
+smission1 = "킬 20회 달성"
+smission2 = ""
+smissionmaxcount = 20
+
+
+
+[IDUpBoxInfo1]
+date = 20200327
+fmission0 = "일반전"
+fmission1 = "승리 2회 달성"
+fmission2 = ""
+fmissionmaxcount = 2
+
+smission0 = "클랜전"
+smission1 = "어시스트 10회 달성"
+smission2 = ""
+smissionmaxcount = 10
+
+
+
+[IDUpBoxInfo2]
+date = 20200328
+fmission0 = "일반전"
+fmission1 = "킬 10회 달성"
+fmission2 = ""
+fmissionmaxcount = 10
+
+smission0 = "갓크전"
+smission1 = "플레이 5회 달성"
+smission2 = ""
+smissionmaxcount = 5
+
+
+
+[IDUpBoxInfo3]
+date = 20200329
+fmission0 = "일반전"
+fmission1 = "어시스트 5회 달성"
+fmission2 = ""
+fmissionmaxcount = 1
+
+smission0 = "갓크전"
+smission1 = "승리 3회 달성"
+smission2 = ""
+smissionmaxcount = 3
+
+
+
+[IDUpBoxInfo4]
+date = 20200330
+fmission0 = "일반전"
+fmission1 = "플레이 3회 달성"
+fmission2 = ""
+fmissionmaxcount = 3
+
+smission0 = "생존모드"
+smission1 = "킬 5회 달성"
+smission2 = ""
+smissionmaxcount = 5
+
+
+
+[IDUpBoxInfo5]
+date = 20200331
+fmission0 = "일반전"
+fmission1 = "승리 2회 달성"
+fmission2 = ""
+fmissionmaxcount = 2
+
+smission0 = "갓크전"
+smission1 = "어시스트 10회 달성"
+smission2 = ""
+smissionmaxcount = 10
+
+
+
+[IDUpBoxInfo6]
+date = 20200401
+fmission0 = "일반전"
+fmission1 = "킬 10회 달성"
+fmission2 = ""
+fmissionmaxcount = 10
+
+smission0 = "클랜전"
+smission1 = "플레이 5회 달성"
+smission2 = ""
+smissionmaxcount = 5
+
+
+
+[IDUpBoxInfo7]
+date = 20200402
+fmission0 = "일반전"
+fmission1 = "어시스트 5회 달성"
+fmission2 = ""
+fmissionmaxcount = 5
+
+smission0 = "생존모드"
+smission1 = "파밍 100회 달성"
+smission2 = ""
+smissionmaxcount = 100
+
+
+
+[IDUpBoxInfo8]
+date = 20200403
+fmission0 = "일반전"
+fmission1 = "플레이 3회 달성"
+fmission2 = ""
+fmissionmaxcount = 3
+
+smission0 = "클랜전"
+smission1 = "어시스트 10회 달성"
+smission2 = ""
+smissionmaxcount = 10
+
+
+
+[IDUpBoxInfo9]
+date = 20200404
+fmission0 = "일반전"
+fmission1 = "승리 2회 달성"
+fmission2 = ""
+fmissionmaxcount = 2
+
+smission0 = "갓크전"
+smission1 = "킬 20회 달성"
+smission2 = ""
+smissionmaxcount = 20
+
+
+
+[IDUpBoxInfo10]
+date = 20200405
+fmission0 = "일반전"
+fmission1 = "킬 10회 달성"
+fmission2 = ""
+fmissionmaxcount = 10
+
+smission0 = "갓크전"
+smission1 = "플레이 5회 달성"
+smission2 = ""
+smissionmaxcount = 5
+
+
+[IDUpBoxInfo11]
+date = 20200406
+fmission0 = "일반전"
+fmission1 = "어시스트 5회 달성"
+fmission2 = ""
+fmissionmaxcount = 5
+
+smission0 = "클랜전"
+smission1 = "승리 3회 달성"
+smission2 = ""
+smissionmaxcount = 3
+
+
+
+[IDUpBoxInfo12]
+date = 20200407
+fmission0 = "일반전"
+fmission1 = "플레이 3회 완료"
+fmission2 = ""
+fmissionmaxcount = 3
+
+smission0 = "생존모드"
+smission1 = "킬 5회 달성"
+smission2 = ""
+smissionmaxcount = 5
+
+
+
+[IDUpBoxInfo13]
+date = 20200408
+fmission0 = "일반전"
+fmission1 = "승리 2회 달성"
+fmission2 = ""
+fmissionmaxcount = 2
+
+smission0 = "갓크전"
+smission1 = "킬 20회 달성"
+smission2 = ""
+smissionmaxcount = 20

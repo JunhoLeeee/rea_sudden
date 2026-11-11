@@ -1,0 +1,229 @@
+[ClanMark]
+BackgroundCount	= 6
+PatternCount	= 7
+
+//배경버튼
+MarkMainBackRt		= (14,126,95,156)
+MarkMainBackC		= "sa_interface\menu\Textures\clan\popup\00mark_mainB1_1c.dtx"
+MarkMainBackH		= "sa_interface\menu\Textures\clan\popup\00mark_mainB1_2h.dtx"
+MarkMainBackN		= "sa_interface\menu\Textures\clan\popup\00mark_mainB1_3n.dtx"
+MarkMainBackD		= "sa_interface\menu\Textures\clan\popup\00mark_mainB1_4d.dtx"
+
+//문양버튼
+MarkMainFrontRt		= (97,126,178,156)
+MarkMainFrontC		= "sa_interface\menu\Textures\clan\popup\00mark_mainB2_1c.dtx"
+MarkMainFrontH		= "sa_interface\menu\Textures\clan\popup\00mark_mainB2_2h.dtx"
+MarkMainFrontN		= "sa_interface\menu\Textures\clan\popup\00mark_mainB2_3n.dtx"
+MarkMainFrontD		= "sa_interface\menu\Textures\clan\popup\00mark_mainB2_4d.dtx"
+
+
+//--------------------------------------------------------------
+// Background
+//--------------------------------------------------------------
+[Background_0]	//기본
+Count=2
+NameID=0
+Path="SA_ClanMark_0"
+SubIndex=0
+BtnRect=(0,0,0,0)
+BtnTx_N=""
+BtnTx_C=""
+BtnTx_D=""
+BtnTx_H=""
+NewBtnRect=(0,0,0,0)
+NewBtnTx_N=""
+NewBtnTx_C=""
+NewBtnTx_D=""
+NewBtnTx_H=""
+
+[Background_1]	//방패
+Count=186
+NameID=0
+Path="SA_ClanMark_0"
+SubIndex=11
+StartNew=137
+BtnRect=(16,166,87,191)
+BtnTx_N="sa_interface\menu\Textures\clan\popup\00mark_subB1_3n.dtx"
+BtnTx_C="sa_interface\menu\Textures\clan\popup\00mark_subB1_1c.dtx"
+BtnTx_D="sa_interface\menu\Textures\clan\popup\00mark_subB1_4d.dtx"
+BtnTx_H="sa_interface\menu\Textures\clan\popup\00mark_subB1_2h.dtx"
+NewBtnRect=(17,173,85,237)
+NewBtnTx_H="sa_interface\menu\Textures\clan\popupnew\CL_btn_shield_c.dtx"
+NewBtnTx_D="sa_interface\menu\Textures\clan\popupnew\CL_btn_shield_n.dtx"
+
+[Background_2]	//원형
+Count=233
+NameID=0
+Path="SA_ClanMark_0"
+SubIndex=12
+StartNew=159
+BtnRect=(16,194,87,219)
+BtnTx_N="sa_interface\menu\Textures\clan\popup\00mark_subB2_3n.dtx"
+BtnTx_C="sa_interface\menu\Textures\clan\popup\00mark_subB2_1c.dtx"
+BtnTx_D="sa_interface\menu\Textures\clan\popup\00mark_subB2_4d.dtx"
+BtnTx_H="sa_interface\menu\Textures\clan\popup\00mark_subB2_2h.dtx"
+NewBtnRect=(17,241,85,305)
+NewBtnTx_H="sa_interface\menu\Textures\clan\popupnew\CL_btn_circle_c.dtx"
+NewBtnTx_D="sa_interface\menu\Textures\clan\popupnew\CL_btn_circle_n.dtx"
+
+[Background_3]	//기타
+Count=232
+NameID=0
+Path="SA_ClanMark_0"
+SubIndex=13
+StartNew=158
+BtnRect=(16,222,87,247)
+BtnTx_N="sa_interface\menu\Textures\clan\popup\00mark_subB3_3n.dtx"
+BtnTx_C="sa_interface\menu\Textures\clan\popup\00mark_subB3_1c.dtx"
+BtnTx_D="sa_interface\menu\Textures\clan\popup\00mark_subB3_4d.dtx"
+BtnTx_H="sa_interface\menu\Textures\clan\popup\00mark_subB3_2h.dtx"
+NewBtnRect=(17,309,85,373)
+NewBtnTx_H="sa_interface\menu\Textures\clan\popupnew\CL_btn_etc_c.dtx"
+NewBtnTx_D="sa_interface\menu\Textures\clan\popupnew\CL_btn_etc_n.dtx"
+
+[Background_4]	//레더 보상 
+Hide=1
+Count=10
+NameID=0
+Path="SA_ClanMark_0"
+SubIndex=99
+BtnRect=(0,0,0,0)
+BtnTx_N=""
+BtnTx_C=""
+BtnTx_D=""
+BtnTx_H=""
+NewBtnRect=(0,0,0,0)
+NewBtnTx_N=""
+NewBtnTx_C=""
+NewBtnTx_D=""
+NewBtnTx_H=""
+
+[Background_5]	//토너먼트 보상 
+Hide=1
+Count=5
+NameID=0
+Path="SA_ClanMark_0"
+SubIndex=98
+BtnRect=(0,0,0,0)
+BtnTx_N=""
+BtnTx_C=""
+BtnTx_D=""
+BtnTx_H=""
+NewBtnRect=(0,0,0,0)
+NewBtnTx_N=""
+NewBtnTx_C=""
+NewBtnTx_D=""
+NewBtnTx_H=""
+
+//--------------------------------------------------------------
+// Pattern
+//--------------------------------------------------------------
+[Pattern_0]	//기본
+Count=2
+NameID=0
+Path="SA_ClanMark_1"
+SubIndex=0
+BtnRect=(0,0,0,0)
+BtnTx_N=""
+BtnTx_C=""
+BtnTx_D=""
+BtnTx_H=""
+NewBtnRect=(0,0,0,0)
+NewBtnTx_N=""
+NewBtnTx_C=""
+NewBtnTx_D=""
+NewBtnTx_H=""
+
+[Pattern_1]	//동물
+Count=923
+NameID=0
+Path="SA_ClanMark_1"
+SubIndex=21
+StartNew=724
+BtnRect=(16,166,87,191)
+BtnTx_N="sa_interface\menu\Textures\clan\popup\00mark_subP1_3n.dtx"
+BtnTx_C="sa_interface\menu\Textures\clan\popup\00mark_subP1_1c.dtx"
+BtnTx_D="sa_interface\menu\Textures\clan\popup\00mark_subP1_4d.dtx"
+BtnTx_H="sa_interface\menu\Textures\clan\popup\00mark_subP1_2h.dtx"
+NewBtnRect=(17,173,85,237)
+NewBtnTx_H="sa_interface\menu\Textures\clan\popupnew\CL_btn_animal_c.dtx"
+NewBtnTx_D="sa_interface\menu\Textures\clan\popupnew\CL_btn_animal_n.dtx"
+
+[Pattern_2]	//도형
+Count=319
+NameID=0
+Path="SA_ClanMark_1"
+SubIndex=22
+StartNew=250
+BtnRect=(16,194,87,219)
+BtnTx_N="sa_interface\menu\Textures\clan\popup\00mark_subP2_3n.dtx"
+BtnTx_C="sa_interface\menu\Textures\clan\popup\00mark_subP2_1c.dtx"
+BtnTx_D="sa_interface\menu\Textures\clan\popup\00mark_subP2_4d.dtx"
+BtnTx_H="sa_interface\menu\Textures\clan\popup\00mark_subP2_2h.dtx"
+NewBtnRect=(17,241,85,305)
+NewBtnTx_H="sa_interface\menu\Textures\clan\popupnew\CL_btn_Shapes_c.dtx"
+NewBtnTx_D="sa_interface\menu\Textures\clan\popupnew\CL_btn_Shapes_n.dtx"
+
+[Pattern_3]	//기호
+Count=635
+NameID=0
+Path="SA_ClanMark_1"
+SubIndex=23
+StartNew=536
+BtnRect=(16,222,87,247)
+BtnTx_N="sa_interface\menu\Textures\clan\popup\00mark_subP3_3n.dtx"
+BtnTx_C="sa_interface\menu\Textures\clan\popup\00mark_subP3_1c.dtx"
+BtnTx_D="sa_interface\menu\Textures\clan\popup\00mark_subP3_4d.dtx"
+BtnTx_H="sa_interface\menu\Textures\clan\popup\00mark_subP3_2h.dtx"
+NewBtnRect=(17,309,85,373)
+NewBtnTx_H="sa_interface\menu\Textures\clan\popupnew\CL_btn_Symbol_c.dtx"
+NewBtnTx_D="sa_interface\menu\Textures\clan\popupnew\CL_btn_Symbol_n.dtx"
+
+[Pattern_4]	//기타
+Count=1076
+NameID=0
+Path="SA_ClanMark_1"
+SubIndex=24
+StartNew=847
+BtnRect=(16,250,87,275)
+BtnTx_N="sa_interface\menu\Textures\clan\popup\00mark_subP4_3n.dtx"
+BtnTx_C="sa_interface\menu\Textures\clan\popup\00mark_subP4_1c.dtx"
+BtnTx_D="sa_interface\menu\Textures\clan\popup\00mark_subP4_4d.dtx"
+BtnTx_H="sa_interface\menu\Textures\clan\popup\00mark_subP4_2h.dtx"
+NewBtnRect=(17,377,85,441)
+NewBtnTx_H="sa_interface\menu\Textures\clan\popupnew\CL_btn_etc_c.dtx"
+NewBtnTx_D="sa_interface\menu\Textures\clan\popupnew\CL_btn_etc_n.dtx"
+
+[Pattern_5]	//레더 보상 
+Hide=1
+Count=10
+NameID=0
+Path="SA_ClanMark_1"
+SubIndex=99
+BtnRect=(0,0,0,0)
+BtnTx_N=""
+BtnTx_C=""
+BtnTx_D=""
+BtnTx_H=""
+NewBtnRect=(0,0,0,0)
+NewBtnTx_N=""
+NewBtnTx_C=""
+NewBtnTx_D=""
+NewBtnTx_H=""
+
+[Pattern_6]	//토너먼트 보상 
+Hide=1
+Count=5
+NameID=0
+Path="SA_ClanMark_1"
+SubIndex=98
+BtnRect=(0,0,0,0)
+BtnTx_N=""
+BtnTx_C=""
+BtnTx_D=""
+BtnTx_H=""
+NewBtnRect=(0,0,0,0)
+NewBtnTx_N=""
+NewBtnTx_C=""
+NewBtnTx_D=""
+NewBtnTx_H=""

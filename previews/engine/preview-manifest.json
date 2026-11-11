@@ -1,0 +1,15 @@
+{
+  "converted": [
+    {
+      "source": "extracted\\engine-rez\\CONSOLE\\CONSOLE_FONT.DTX",
+      "output": "previews\\engine\\CONSOLE\\CONSOLE_FONT.png",
+      "source_sha256": "2cb6d35d59b3982334edfa6d1e3ecd4985cddb82361949872edf7979ddb10753",
+      "png_sha256": "629737ceb8aebb779ce46e8b3b501e5950db4b7b1c12b3961ec1c1cc5b18fa12",
+      "width": 128,
+      "height": 128,
+      "bpp": 32,
+      "interpretation": "inferred-BGRA8"
+    }
+  ],
+  "unsupported": []
+}

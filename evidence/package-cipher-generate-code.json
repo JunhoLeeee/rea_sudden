@@ -1,0 +1,112 @@
+{
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_5a495758a7f07a234a3918fe89e582eb5f1e3ba838448a7ec8787481d07249c9\",\"subject\":{\"name\":\"suddenattack.exe\",\"digest\":{\"sha256\":\"7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8\"},\"local_path\":\"C:\\\\Nexon\\\\SuddenAttack\\\\suddenattack.exe\",\"format\":\"pe\",\"architecture\":\"x86_64\"},\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"analysis_profile\":{\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"parameters\":{\"target_kind\":\"executable\",\"target_format\":\"pe\",\"executable_role\":\"application\",\"managed\":false,\"native_aot_metadata\":{\"contract_revision\":\"rtr-9.1-x64-pe-read-only-v7\",\"source_bytes\":134217728,\"work_units\":67108864,\"working_memory_bytes\":67108864,\"report_bytes\":4194304},\"architecture\":\"x86_64\",\"available_architectures\":[\"x86_64\"],\"import_mode\":\"ephemeral-source-immutable\",\"pdb_observations\":\"program-info-v5\",\"annotation_policy\":\"atomic-function-entry-metadata-v1\",\"load_image_observations\":\"source-mappings-entry-context-v2\",\"function_body_evidence\":\"complete-inclusive-ranges-v1\",\"function_references\":\"complete-body-and-entry-reference-manager-v2\",\"call_relationship_coverage\":\"function-body-call-coverage-v5\",\"function_dossier_coverage\":\"observed-facets-and-call-relationships-v1\",\"string_inventory_evidence\":\"defined-data-coverage-v1\",\"location_resolution\":\"explicit-address-exact-entry-symbol-first-v3\",\"procedure_file_offset_resolution\":\"address-first-unique-target-source-mapping-v2\",\"instruction_flow_evidence\":\"decoded-return-pcode-v1\",\"instruction_references\":\"exact-address-incoming-without-synthetic-entry-v2\",\"function_boundary_observations\":\"ghidra-function-boundary-limitations-v4\",\"no_return_repair\":\"disabled-windows-p0\",\"process_launch\":\"official-headless-script-v1\",\"jump_table_evidence\":\"typed-case-default-blocks-v1\",\"decompiler_jump_loads\":true,\"loader\":\"auto-from-header\",\"language_id\":\"auto-from-header\",\"compiler_spec_id\":\"auto-default\",\"analyzer_preset\":\"ghidra-default\",\"function_coordinate_context\":{\"kind\":\"native-function-coordinate-context-v1\",\"selected_image\":null,\"mapping_sha256\":\"55a7964dc0bcdf067484a281c658e6ca8457a49405e0ea9dbd080366ee4c3198\"}},\"digest\":\"9b537ee6fdad293e1c8ea50e7b50d0b6b22972a83032bca093d279ab7e770ce4\"},\"predicate_type\":\"rea.analysis\",\"operation\":\"procedure_pseudo_code\",\"parameters\":{\"procedure\":\"0x1402ad020\"},\"raw_result\":null,\"normalized_result\":\"\\r\\nvoid FUN_1402ad020(undefined8 *param_1)\\r\\n\\r\\n{\\r\\n  undefined8 *puVar1;\\r\\n  undefined8 uVar2;\\r\\n  undefined8 uVar3;\\r\\n  undefined8 uVar4;\\r\\n  undefined8 uVar5;\\r\\n  undefined8 uVar6;\\r\\n  undefined8 uVar7;\\r\\n  undefined8 uVar8;\\r\\n  undefined8 uVar9;\\r\\n  undefined8 uVar10;\\r\\n  undefined8 uVar11;\\r\\n  undefined8 uVar12;\\r\\n  undefined8 uVar13;\\r\\n  undefined8 uVar14;\\r\\n  undefined8 uVar15;\\r\\n  undefined8 uVar16;\\r\\n  undefined8 uVar17;\\r\\n  undefined8 uVar18;\\r\\n  undefined4 local_a8;\\r\\n  undefined4 uStack_a4;\\r\\n  undefined4 uStack_a0;\\r\\n  undefined4 uStack_9c;\\r\\n  undefined4 local_98;\\r\\n  undefined4 uStack_94;\\r\\n  undefined4 uStack_90;\\r\\n  undefined4 uStack_8c;\\r\\n  undefined4 local_88;\\r\\n  undefined4 uStack_84;\\r\\n  undefined4 uStack_80;\\r\\n  undefined4 uStack_7c;\\r\\n  undefined4 local_78;\\r\\n  undefined4 uStack_74;\\r\\n  undefined4 uStack_70;\\r\\n  undefined4 uStack_6c;\\r\\n  undefined4 local_68;\\r\\n  undefined4 uStack_64;\\r\\n  undefined4 uStack_60;\\r\\n  undefined4 uStack_5c;\\r\\n  undefined4 local_58;\\r\\n  undefined4 uStack_54;\\r\\n  undefined4 uStack_50;\\r\\n  undefined4 uStack_4c;\\r\\n  undefined4 local_48;\\r\\n  undefined4 uStack_44;\\r\\n  undefined4 uStack_40;\\r\\n  undefined4 uStack_3c;\\r\\n  undefined4 local_38;\\r\\n  undefined4 uStack_34;\\r\\n  undefined4 uStack_30;\\r\\n  undefined4 uStack_2c;\\r\\n  undefined4 local_28;\\r\\n  undefined4 uStack_24;\\r\\n  undefined4 uStack_20;\\r\\n  undefined4 uStack_1c;\\r\\n  undefined4 local_18;\\r\\n  \\r\\n  local_a8 = *(undefined4 *)param_1;\\r\\n  uStack_a4 = *(undefined4 *)((longlong)param_1 + 4);\\r\\n  uStack_a0 = *(undefined4 *)(param_1 + 1);\\r\\n  uStack_9c = *(undefined4 *)((longlong)param_1 + 0xc);\\r\\n  uVar2 = param_1[1];\\r\\n  local_98 = *(undefined4 *)(param_1 + 2);\\r\\n  uStack_94 = *(undefined4 *)((longlong)param_1 + 0x14);\\r\\n  uVar3 = param_1[2];\\r\\n  uStack_90 = *(undefined4 *)(param_1 + 3);\\r\\n  uStack_8c = *(undefined4 *)((longlong)param_1 + 0x1c);\\r\\n  uVar4 = param_1[3];\\r\\n  local_88 = *(undefined4 *)(param_1 + 4);\\r\\n  uStack_84 = *(undefined4 *)((longlong)param_1 + 0x24);\\r\\n  uVar5 = param_1[4];\\r\\n  uStack_80 = *(undefined4 *)(param_1 + 5);\\r\\n  uStack_7c = *(undefined4 *)((longlong)param_1 + 0x2c);\\r\\n  uVar6 = param_1[5];\\r\\n  local_78 = *(undefined4 *)(param_1 + 6);\\r\\n  uStack_74 = *(undefined4 *)((longlong)param_1 + 0x34);\\r\\n  uVar7 = param_1[6];\\r\\n  uStack_70 = *(undefined4 *)(param_1 + 7);\\r\\n  uStack_6c = *(undefined4 *)((longlong)param_1 + 0x3c);\\r\\n  uVar8 = param_1[7];\\r\\n  local_68 = *(undefined4 *)(param_1 + 8);\\r\\n  uStack_64 = *(undefined4 *)((longlong)param_1 + 0x44);\\r\\n  uVar9 = param_1[8];\\r\\n  uStack_60 = *(undefined4 *)(param_1 + 9);\\r\\n  uStack_5c = *(undefined4 *)((longlong)param_1 + 0x4c);\\r\\n  uVar10 = param_1[9];\\r\\n  local_58 = *(undefined4 *)(param_1 + 10);\\r\\n  uStack_54 = *(undefined4 *)((longlong)param_1 + 0x54);\\r\\n  uVar11 = param_1[10];\\r\\n  uStack_50 = *(undefined4 *)(param_1 + 0xb);\\r\\n  uStack_4c = *(undefined4 *)((longlong)param_1 + 0x5c);\\r\\n  uVar12 = param_1[0xb];\\r\\n  local_48 = *(undefined4 *)(param_1 + 0xc);\\r\\n  uStack_44 = *(undefined4 *)((longlong)param_1 + 100);\\r\\n  uVar13 = param_1[0xc];\\r\\n  uStack_40 = *(undefined4 *)(param_1 + 0xd);\\r\\n  uStack_3c = *(undefined4 *)((longlong)param_1 + 0x6c);\\r\\n  uVar14 = param_1[0xd];\\r\\n  local_38 = *(undefined4 *)(param_1 + 0xe);\\r\\n  uStack_34 = *(undefined4 *)((longlong)param_1 + 0x74);\\r\\n  uVar15 = param_1[0xe];\\r\\n  uStack_30 = *(undefined4 *)(param_1 + 0xf);\\r\\n  uStack_2c = *(undefined4 *)((longlong)param_1 + 0x7c);\\r\\n  uVar16 = param_1[0xf];\\r\\n  local_28 = *(undefined4 *)(param_1 + 0x10);\\r\\n  uStack_24 = *(undefined4 *)((longlong)param_1 + 0x84);\\r\\n  uVar17 = param_1[0x10];\\r\\n  uStack_20 = *(undefined4 *)(param_1 + 0x11);\\r\\n  uStack_1c = *(undefined4 *)((longlong)param_1 + 0x8c);\\r\\n  uVar18 = param_1[0x11];\\r\\n  local_18 = *(undefined4 *)(param_1 + 0x12);\\r\\n  puVar1 = (undefined8 *)param_1[0x15];\\r\\n  if (puVar1 != (undefined8 *)param_1[0x16]) {\\r\\n    *puVar1 = *param_1;\\r\\n    puVar1[1] = uVar2;\\r\\n    puVar1[2] = uVar3;\\r\\n    puVar1[3] = uVar4;\\r\\n    puVar1[4] = uVar5;\\r\\n    puVar1[5] = uVar6;\\r\\n    puVar1[6] = uVar7;\\r\\n    puVar1[7] = uVar8;\\r\\n    puVar1[8] = uVar9;\\r\\n    puVar1[9] = uVar10;\\r\\n    puVar1[10] = uVar11;\\r\\n    puVar1[0xb] = uVar12;\\r\\n    puVar1[0xc] = uVar13;\\r\\n    puVar1[0xd] = uVar14;\\r\\n    puVar1[0xe] = uVar15;\\r\\n    puVar1[0xf] = uVar16;\\r\\n    puVar1[0x10] = uVar17;\\r\\n    puVar1[0x11] = uVar18;\\r\\n    *(undefined4 *)(puVar1 + 0x12) = local_18;\\r\\n    param_1[0x15] = param_1[0x15] + 0x94;\\r\\n    return;\\r\\n  }\\r\\n  FUN_1402ab990(param_1 + 0x14,puVar1,&local_a8);\\r\\n  return;\\r\\n}\\r\\n\\r\\n\",\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.\",\"The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.\",\"Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.\",\"Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.\",\"Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.\",\"External functions and functions without an analyzable body return null; other decompiler failures remain explicit.\",\"Windows Ghidra P0 accepts native x86, x86-64, ARMNT (Thumb-2) and ARM64 PE applications and DLLs, and explicitly selected raw 6502 images; managed, hostile, sensitive, and mutable-path targets are unsupported.\",\"The Windows bridge uses authenticated IPv4 loopback because Node path-based IPC does not expose Java AF_UNIX sockets; the endpoint file contains no bearer token.\",\"Windows sessions require the matching packaged Windows x64 native addon, local NTFS targets and runtimes, and Windows 10 or later. Native handles enforce path admission, private DACLs, and Job Object ownership automatically.\",\"The Ghidra Program references PDB SuddenAttack.pdb (GUID a63e89e7-f71f-4a19-bd72-6b57d676ad47, age (hex) 1, signature unknown, version RSDS); Ghidra reports load state unknown. Original names and types may be missing; an empty name search does not prove a procedure is absent. Use list_procedures and address-based analysis to inspect recovered functions. REA does not admit a caller-selected PDB companion.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_5a495758a7f07a234a3918fe89e582eb5f1e3ba838448a7ec8787481d07249c9",
+      "subject": {
+        "name": "suddenattack.exe",
+        "digest": {
+          "sha256": "7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8"
+        },
+        "local_path": "C:\\Nexon\\SuddenAttack\\suddenattack.exe",
+        "format": "pe",
+        "architecture": "x86_64"
+      },
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "analysis_profile": {
+        "provider": {
+          "id": "ghidra",
+          "name": "Ghidra",
+          "version": "12.1.4"
+        },
+        "parameters": {
+          "target_kind": "executable",
+          "target_format": "pe",
+          "executable_role": "application",
+          "managed": false,
+          "native_aot_metadata": {
+            "contract_revision": "rtr-9.1-x64-pe-read-only-v7",
+            "source_bytes": 134217728,
+            "work_units": 67108864,
+            "working_memory_bytes": 67108864,
+            "report_bytes": 4194304
+          },
+          "architecture": "x86_64",
+          "available_architectures": [
+            "x86_64"
+          ],
+          "import_mode": "ephemeral-source-immutable",
+          "pdb_observations": "program-info-v5",
+          "annotation_policy": "atomic-function-entry-metadata-v1",
+          "load_image_observations": "source-mappings-entry-context-v2",
+          "function_body_evidence": "complete-inclusive-ranges-v1",
+          "function_references": "complete-body-and-entry-reference-manager-v2",
+          "call_relationship_coverage": "function-body-call-coverage-v5",
+          "function_dossier_coverage": "observed-facets-and-call-relationships-v1",
+          "string_inventory_evidence": "defined-data-coverage-v1",
+          "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+          "procedure_file_offset_resolution": "address-first-unique-target-source-mapping-v2",
+          "instruction_flow_evidence": "decoded-return-pcode-v1",
+          "instruction_references": "exact-address-incoming-without-synthetic-entry-v2",
+          "function_boundary_observations": "ghidra-function-boundary-limitations-v4",
+          "no_return_repair": "disabled-windows-p0",
+          "process_launch": "official-headless-script-v1",
+          "jump_table_evidence": "typed-case-default-blocks-v1",
+          "decompiler_jump_loads": true,
+          "loader": "auto-from-header",
+          "language_id": "auto-from-header",
+          "compiler_spec_id": "auto-default",
+          "analyzer_preset": "ghidra-default",
+          "function_coordinate_context": {
+            "kind": "native-function-coordinate-context-v1",
+            "selected_image": null,
+            "mapping_sha256": "55a7964dc0bcdf067484a281c658e6ca8457a49405e0ea9dbd080366ee4c3198"
+          }
+        },
+        "digest": "9b537ee6fdad293e1c8ea50e7b50d0b6b22972a83032bca093d279ab7e770ce4"
+      },
+      "predicate_type": "rea.analysis",
+      "operation": "procedure_pseudo_code",
+      "parameters": {
+        "procedure": "0x1402ad020"
+      },
+      "raw_result": null,
+      "normalized_result": "\r\nvoid FUN_1402ad020(undefined8 *param_1)\r\n\r\n{\r\n  undefined8 *puVar1;\r\n  undefined8 uVar2;\r\n  undefined8 uVar3;\r\n  undefined8 uVar4;\r\n  undefined8 uVar5;\r\n  undefined8 uVar6;\r\n  undefined8 uVar7;\r\n  undefined8 uVar8;\r\n  undefined8 uVar9;\r\n  undefined8 uVar10;\r\n  undefined8 uVar11;\r\n  undefined8 uVar12;\r\n  undefined8 uVar13;\r\n  undefined8 uVar14;\r\n  undefined8 uVar15;\r\n  undefined8 uVar16;\r\n  undefined8 uVar17;\r\n  undefined8 uVar18;\r\n  undefined4 local_a8;\r\n  undefined4 uStack_a4;\r\n  undefined4 uStack_a0;\r\n  undefined4 uStack_9c;\r\n  undefined4 local_98;\r\n  undefined4 uStack_94;\r\n  undefined4 uStack_90;\r\n  undefined4 uStack_8c;\r\n  undefined4 local_88;\r\n  undefined4 uStack_84;\r\n  undefined4 uStack_80;\r\n  undefined4 uStack_7c;\r\n  undefined4 local_78;\r\n  undefined4 uStack_74;\r\n  undefined4 uStack_70;\r\n  undefined4 uStack_6c;\r\n  undefined4 local_68;\r\n  undefined4 uStack_64;\r\n  undefined4 uStack_60;\r\n  undefined4 uStack_5c;\r\n  undefined4 local_58;\r\n  undefined4 uStack_54;\r\n  undefined4 uStack_50;\r\n  undefined4 uStack_4c;\r\n  undefined4 local_48;\r\n  undefined4 uStack_44;\r\n  undefined4 uStack_40;\r\n  undefined4 uStack_3c;\r\n  undefined4 local_38;\r\n  undefined4 uStack_34;\r\n  undefined4 uStack_30;\r\n  undefined4 uStack_2c;\r\n  undefined4 local_28;\r\n  undefined4 uStack_24;\r\n  undefined4 uStack_20;\r\n  undefined4 uStack_1c;\r\n  undefined4 local_18;\r\n  \r\n  local_a8 = *(undefined4 *)param_1;\r\n  uStack_a4 = *(undefined4 *)((longlong)param_1 + 4);\r\n  uStack_a0 = *(undefined4 *)(param_1 + 1);\r\n  uStack_9c = *(undefined4 *)((longlong)param_1 + 0xc);\r\n  uVar2 = param_1[1];\r\n  local_98 = *(undefined4 *)(param_1 + 2);\r\n  uStack_94 = *(undefined4 *)((longlong)param_1 + 0x14);\r\n  uVar3 = param_1[2];\r\n  uStack_90 = *(undefined4 *)(param_1 + 3);\r\n  uStack_8c = *(undefined4 *)((longlong)param_1 + 0x1c);\r\n  uVar4 = param_1[3];\r\n  local_88 = *(undefined4 *)(param_1 + 4);\r\n  uStack_84 = *(undefined4 *)((longlong)param_1 + 0x24);\r\n  uVar5 = param_1[4];\r\n  uStack_80 = *(undefined4 *)(param_1 + 5);\r\n  uStack_7c = *(undefined4 *)((longlong)param_1 + 0x2c);\r\n  uVar6 = param_1[5];\r\n  local_78 = *(undefined4 *)(param_1 + 6);\r\n  uStack_74 = *(undefined4 *)((longlong)param_1 + 0x34);\r\n  uVar7 = param_1[6];\r\n  uStack_70 = *(undefined4 *)(param_1 + 7);\r\n  uStack_6c = *(undefined4 *)((longlong)param_1 + 0x3c);\r\n  uVar8 = param_1[7];\r\n  local_68 = *(undefined4 *)(param_1 + 8);\r\n  uStack_64 = *(undefined4 *)((longlong)param_1 + 0x44);\r\n  uVar9 = param_1[8];\r\n  uStack_60 = *(undefined4 *)(param_1 + 9);\r\n  uStack_5c = *(undefined4 *)((longlong)param_1 + 0x4c);\r\n  uVar10 = param_1[9];\r\n  local_58 = *(undefined4 *)(param_1 + 10);\r\n  uStack_54 = *(undefined4 *)((longlong)param_1 + 0x54);\r\n  uVar11 = param_1[10];\r\n  uStack_50 = *(undefined4 *)(param_1 + 0xb);\r\n  uStack_4c = *(undefined4 *)((longlong)param_1 + 0x5c);\r\n  uVar12 = param_1[0xb];\r\n  local_48 = *(undefined4 *)(param_1 + 0xc);\r\n  uStack_44 = *(undefined4 *)((longlong)param_1 + 100);\r\n  uVar13 = param_1[0xc];\r\n  uStack_40 = *(undefined4 *)(param_1 + 0xd);\r\n  uStack_3c = *(undefined4 *)((longlong)param_1 + 0x6c);\r\n  uVar14 = param_1[0xd];\r\n  local_38 = *(undefined4 *)(param_1 + 0xe);\r\n  uStack_34 = *(undefined4 *)((longlong)param_1 + 0x74);\r\n  uVar15 = param_1[0xe];\r\n  uStack_30 = *(undefined4 *)(param_1 + 0xf);\r\n  uStack_2c = *(undefined4 *)((longlong)param_1 + 0x7c);\r\n  uVar16 = param_1[0xf];\r\n  local_28 = *(undefined4 *)(param_1 + 0x10);\r\n  uStack_24 = *(undefined4 *)((longlong)param_1 + 0x84);\r\n  uVar17 = param_1[0x10];\r\n  uStack_20 = *(undefined4 *)(param_1 + 0x11);\r\n  uStack_1c = *(undefined4 *)((longlong)param_1 + 0x8c);\r\n  uVar18 = param_1[0x11];\r\n  local_18 = *(undefined4 *)(param_1 + 0x12);\r\n  puVar1 = (undefined8 *)param_1[0x15];\r\n  if (puVar1 != (undefined8 *)param_1[0x16]) {\r\n    *puVar1 = *param_1;\r\n    puVar1[1] = uVar2;\r\n    puVar1[2] = uVar3;\r\n    puVar1[3] = uVar4;\r\n    puVar1[4] = uVar5;\r\n    puVar1[5] = uVar6;\r\n    puVar1[6] = uVar7;\r\n    puVar1[7] = uVar8;\r\n    puVar1[8] = uVar9;\r\n    puVar1[9] = uVar10;\r\n    puVar1[10] = uVar11;\r\n    puVar1[0xb] = uVar12;\r\n    puVar1[0xc] = uVar13;\r\n    puVar1[0xd] = uVar14;\r\n    puVar1[0xe] = uVar15;\r\n    puVar1[0xf] = uVar16;\r\n    puVar1[0x10] = uVar17;\r\n    puVar1[0x11] = uVar18;\r\n    *(undefined4 *)(puVar1 + 0x12) = local_18;\r\n    param_1[0x15] = param_1[0x15] + 0x94;\r\n    return;\r\n  }\r\n  FUN_1402ab990(param_1 + 0x14,puVar1,&local_a8);\r\n  return;\r\n}\r\n\r\n",
+      "confidence": "observed",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+        "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+        "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+        "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+        "Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.",
+        "External functions and functions without an analyzable body return null; other decompiler failures remain explicit.",
+        "Windows Ghidra P0 accepts native x86, x86-64, ARMNT (Thumb-2) and ARM64 PE applications and DLLs, and explicitly selected raw 6502 images; managed, hostile, sensitive, and mutable-path targets are unsupported.",
+        "The Windows bridge uses authenticated IPv4 loopback because Node path-based IPC does not expose Java AF_UNIX sockets; the endpoint file contains no bearer token.",
+        "Windows sessions require the matching packaged Windows x64 native addon, local NTFS targets and runtimes, and Windows 10 or later. Native handles enforce path admission, private DACLs, and Job Object ownership automatically.",
+        "The Ghidra Program references PDB SuddenAttack.pdb (GUID a63e89e7-f71f-4a19-bd72-6b57d676ad47, age (hex) 1, signature unknown, version RSDS); Ghidra reports load state unknown. Original names and types may be missing; an empty name search does not prove a procedure is absent. Use list_procedures and address-based analysis to inspect recovered functions. REA does not admit a caller-selected PDB companion."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 84
+}

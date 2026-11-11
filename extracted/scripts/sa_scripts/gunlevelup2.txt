@@ -1,0 +1,198 @@
+[Common]
+LoserWeapon	= "19"				//ex."708,1126" 일단 루저 무기는 같은 타입(ex. 주무기)만 가능함.
+LoserDeath	= "999"				//ex."2,4" 위의 무기와 동일한 개수만큼 셋업이 되어야 정상 동작함.
+HighLevelNotLoser = 0			//28레벨 부터는 루저웨폰이 셋업되지 않는다.
+
+[GunLevel_0]
+Level 		= 1
+DefaultWeapon 	= 10
+NeedLevelUPKill = 1
+LevelDown 	= 0
+HPRecovery	= 0
+SameAmmo =  0
+
+[GunLevel_1]
+Level 		= 2
+DefaultWeapon 	= 677
+NeedLevelUPKill = 1
+LevelDown 	= 0
+HPRecovery	= 0
+SameAmmo =  0
+
+[GunLevel_2]
+Level 		= 3
+DefaultWeapon 	= 19
+NeedLevelUPKill = 1
+LevelDown 	= 0
+HPRecovery	= 0
+SameAmmo =  0
+
+[GunLevel_3]
+Level 		= 4
+DefaultWeapon 	= 49
+NeedLevelUPKill = 1
+LevelDown 	= 0
+HPRecovery	= 0
+SameAmmo =  0
+
+[GunLevel_4]
+Level 		= 5
+DefaultWeapon 	= 23
+HPRecovery 	= true
+MaxHP 		= 500
+NeedLevelUPKill = 7			//7킬 해야 다음레벨로...
+LevelDown 	= 1  			//죽으면 해당 레벨로 다운됨
+SameAmmo =  0
+
+[GunLevel_5]
+Level 		= 6
+DefaultWeapon 	= 753                                  //금색Trex
+HPRecovery 	= true
+MaxHP 		= 800
+NeedLevelUPKill = 999
+LevelDown 	= 1
+SameAmmo =  0
+
+[GunLevel_6]
+Level 		= 7
+DefaultWeapon 	= 1176
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_7]
+Level 		= 8
+DefaultWeapon 	= 13
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_8]
+Level 		= 9
+DefaultWeapon 	= 1126
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_9]
+Level 		= 10
+DefaultWeapon 	= 12
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_10]
+Level 		= 11
+DefaultWeapon 	= 25
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_11]
+Level 		= 12
+DefaultWeapon 	= 125
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_12]
+Level 		= 13
+DefaultWeapon 	= 14
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_13]
+Level 		= 14
+DefaultWeapon 	= 9
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_14]
+Level 		= 15
+DefaultWeapon 	= 390
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_15]
+Level 		= 16
+DefaultWeapon 	= 24
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_16]
+Level 		= 17
+DefaultWeapon 	= 99
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_17]
+Level 		= 18
+DefaultWeapon 	= 4
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_18]
+Level 		= 19
+DefaultWeapon 	= 478
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_19]
+Level 		= 20
+DefaultWeapon 	= 35
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_20]
+Level 		= 21
+DefaultWeapon 	= 391
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_21]
+Level 		= 22
+DefaultWeapon 	= 181
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_22]
+Level 		= 23
+DefaultWeapon 	= 22
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_23]
+Level 		= 24
+DefaultWeapon 	= 23
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_24]
+Level 		= 25
+DefaultWeapon 	= 1
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_25]
+Level 		= 26
+DefaultWeapon 	= 2
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_26]
+Level 		= 27
+DefaultWeapon 	= 52
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_27]
+Level 		= 28
+DefaultWeapon 	= 10
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_28]
+Level 		= 29
+DefaultWeapon 	= 19
+NeedLevelUPKill = 1
+SameAmmo =  0
+
+[GunLevel_29]
+Level 		= 30
+DefaultWeapon 	= 0
+NeedLevelUPKill = 1
+SameAmmo =  0

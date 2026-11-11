@@ -1,0 +1,27 @@
+{
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"result\":{\"path\":\"C:\\\\Users\\\\PC\\\\Desktop\\\\REA\\\\extracted\\\\game-file\\\\game_file\\\\CShell.dll\",\"format\":\"pe\",\"kind\":\"executable\",\"sha256\":\"099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110\",\"architecture\":\"x86_64\"}}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "path": "C:\\Users\\PC\\Desktop\\REA\\extracted\\game-file\\game_file\\CShell.dll",
+        "format": "pe",
+        "kind": "executable",
+        "sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110",
+        "architecture": "x86_64"
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 119
+}

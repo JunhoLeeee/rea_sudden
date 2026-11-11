@@ -1,0 +1,1226 @@
+//==============================================================================
+//bullet 계열 시작.
+//bullet 계열이 사용되는 것들은 대부분 보병의 총기나 탈것의 총기형 무기.
+//``````````````````````````````````````````````````````````````````````````````
+
+
+
+//기본 탄환(BulletBasic) 
+//종전의 vsSkin.
+//DamageType 관련 정보가 없을 경우 이를 디폴트로 처리하는 코드가 존재하므로, 바이너리 코드에 있는 vsSkin을 이걸로 바꿔야 함. 
+//저티어 보병용. 최악의 경우에도 적 중장갑 탈것(특히 자원 수집 차량)을 공격해 돈을 벌 수 있게 한다.
+//애초에 대미지가 약하게 세팅될 것이므로 돈은 벌 수 있어도 실질적 피해는 주기 힘들다.
+
+[bulletBasic]
+Infantry = 100 //Infantry는 종전의 skin. 의미가 명확하지 않아 바꾸었음.
+LightArmor	=  2.8
+HeavyArmor	= 2
+Building	= 1 // 0.1
+BuildingWeak = 2 // 0.2 // 1  -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+Bomb	= 0 //Bomb는 종전의 Installation. 무인 포탑 등의 폭탄외의 설치물이 발생할 것을 감안해서 Installation이라고 했었지만 적 포탑은 파괴대상이지 수리총으로 해체할 대상이 아님.
+LandMine = 10
+
+
+InfantryRandomMod = 0 //20
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+
+//대인탄(BulletAntiPersonnel)
+//신규.
+//중~고 티어 대인보병용으로, 적 보병을 빠르게 죽일 때 사용한다. 경장갑에는 기본 탄환보다 못하며, 중장갑 이상에는 전혀 대미지를 주지 못한다.
+
+[bulletAntiPersonnel]
+Infantry = 100
+LightArmor	= 2.8
+HeavyArmor	= 0.5
+Building	= 1 // 0.1
+BuildingWeak = 2 // 0.2 // 1 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+Bomb	= 0
+LandMine = 10
+
+InfantryRandomMod = 0 //20
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+///대 경장갑 탄(BulletAntiLightArmor) 
+//종전의 vsLightArmor. 
+//통상적으로 저격총 계열이나 장갑차/기동 차량의 무기에 사용. 보병과 적 경장갑(LightArmor) 차량을 빠른 속도로 파괴하는데 쓰인다.
+//vs??? 식의 네이밍이 혼동을 불러오는 것 같아서 결벽증이 발동, 10시간쯤 고민한 끝에 네이밍 컨벤션 재결정.
+//연사력 및 DPS문제로 수정. 조대환 20140709 
+
+[bulletAntiLightArmor]
+Infantry		= 100
+LightArmor	= 9.73
+HeavyArmor	= 0.81
+Building	= 0.3 // 0.03
+BuildingWeak = 0.6 // 0.06 // 1.1  -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+Bomb	= 0
+LandMine = 10
+
+InfantryRandomMod = 0 //20
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//중기관총(instDmgVehicleMG)
+//험비나 가드타워에 사용될 기관총에 쓰이며, 주로 보병을 잡기 위해 사용되고 경장갑과 중장갑 차량에 제한적 대미지를 준다.
+[instDmgVehicleMG]
+Infantry		= 100
+LightArmor	= 3 //10
+HeavyArmor	= 2 //8
+Building	= 0.5 // 0.05 // 0.1 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+BuildingWeak = 1 // 0.1 // 1 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+Bomb	= 0
+LandMine = 10
+
+InfantryRandomMod = 90 //20
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+
+//``````````````````````````````````````````````````````````````````````````````
+//bullet 계열 끝.
+//==============================================================================
+
+
+
+
+
+//==============================================================================
+//기타 계열 시작.
+//``````````````````````````````````````````````````````````````````````````````
+
+
+
+//범용탄(AllRoundType)
+//종전의 vsAll
+//보병의 경우 최고 티어에 다다랐을 때, 조준 실력만 좋다면 상성을 거의 씹어먹을 수 있는데, 이럴 때 사용하라고 만든 것.
+
+[allRoundType]
+Infantry		= 100
+LightArmor	= 50
+HeavyArmor	= 50
+Building	= 20 // 2
+BuildingWeak = 40 // 4
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0 //20
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+//수리(Repair)
+//신규이나 기존의 vsInstallation을 대체하는 성향이 있음.
+//수리/해체 총을 고급에서 일반으로 변경했음. 어차피 변경할 거였는데, 엔지니어를 약하게 하자는 이야기가 나왔으니 일반으로 변경하면서 대미지 팩터 수정하는 김에... 다만 일반으로 변경했으니 수리력이 절반으로 떨어질텐데, 절반은 좀 너무하므로-_- 60% 선에 맞춘다.
+//절반 * N = 0.6. 따라서 N은 1.2 그래서 120.
+//탈것 수리 존나 느려 ㅡㅜ 건물만 1.2배 하고 나머진 200 찍자 ㅡㅜ
+
+[repair]
+Infantry		= 1000 // 200
+LightArmor	= 800 // 200
+HeavyArmor	= 800 // 200
+Building	=  675 //750 //15 30
+BuildingWeak = 1350 //1500 //30 60
+Bomb	= 400 //120
+LandMine = 300 //120
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+
+//대미지 팩터에 의한 변경 없음(notModify)
+//신규. 정직하게 그냥 대미지를 줄 때. 단, 폭탄 해체는 예외.
+//일단 폭발 안하는 무기의 폭발 타입을 이걸로 설정해놓았으며, 반대로 폭발로만 대미지를 입히는 폭탄류의 인스턴트 대미지도 이것으로 해놓음.
+//테스트용으로 사용 권장.
+
+[notModify]
+Infantry		= 100
+LightArmor	= 100
+HeavyArmor	= 100
+Building	= 1000 // 100
+BuildingWeak = 1000 // 100
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//대미지 팩터에 의한 변경은 없지만 빌딩에는 대미지를 주지 못함(notModifyButZeroForBuilding)
+//수류탄 때문에 만들었지만 나중에 쓸 데가 있을 것 같음...
+[notModifyButZeroForBuilding]
+Infantry		= 100
+LightArmor	= 100
+HeavyArmor	= 100
+Building	= 0
+BuildingWeak = 0
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+//AllZero
+//대미지 막을 때. 수류탄에 맞아 죽는 것 때문에....
+
+[AllZero]
+Infantry		= 0
+LightArmor	= 0
+HeavyArmor	= 0
+Building	= 0
+BuildingWeak = 0
+Bomb	= 0
+LandMine = 0
+
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+
+//수류탄(handGrenade)
+//기본적으로 보병처치용. 탈것과 빌딩엔 극히 적은 영향만 준다.
+//새로 바꾸면서 탈것에 대미지 만빵-_-/
+
+[handGrenade]
+Infantry		= 100
+LightArmor	= 40 // 4
+HeavyArmor	= 40 // 2
+Building	= 20 // 2 // 0.25
+BuildingWeak = 40 // 4 // 2
+Bomb	= 0
+LandMine = 1000
+
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//칼(knife)
+//보병 처치용으로, 탈것이나 빌딩엔 영향을 주지 못한다. 좀 강력하게 바꿔놨..었는데 HP가 모조리 0이 되면서 그냥 100.
+[knife]
+Infantry		= 270
+LightArmor	= 0
+HeavyArmor	= 0
+Building	= 0
+BuildingWeak = 3 // 0.3
+Bomb	= 0
+LandMine = 1000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+//``````````````````````````````````````````````````````````````````````````````
+//기타 계열 끝
+//==============================================================================
+
+
+
+
+
+//==============================================================================
+//instDmg 계열 시작
+//Dmg는 Damage의 약어.
+//유탄, 로켓, 탈것에 장착된 주포에 사용되며, 적 탈것이나 건물을 파괴하기 위한 목적.
+//직격 대미지(InstDamage)에 사용된다.
+//``````````````````````````````````````````````````````````````````````````````
+
+
+
+//일반 프로젝타일에 의한 직격 대미지(instDmgByGeneralProjectile)
+//종전의 vsHeavyArmor
+//적 탈것이나 적 건물을 파괴하기 위한 기본적인 수단들에 사용된다.
+
+[instDmgByGeneralProjectile]
+Infantry		= 10 // 40
+LightArmor	= 9
+HeavyArmor	= 8
+Building	= 10 // 1
+BuildingWeak = 20 // 2
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0 //20
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+[instDmgByAdvGLauncher]
+Infantry		= 10
+LightArmor	= 9
+HeavyArmor	= 8
+Building	= 10 // 1
+BuildingWeak = 20 // 2
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0 //20
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+
+//포격용 프로젝타일에 의한 직격 대미지(instDmgByArtillery)
+//종전의 vsBuilding
+//포격 차량이나 스텔스 전차 등 공격력은 강한데 건물에 너무 큰 대미지는 주지 않게 할 때 쓰인다.(그래도 대부분 결과값은 다른 애들보다 강하다)
+//사용처: 포격 차량
+
+[instDmgByArtillery]
+Infantry		= 100
+LightArmor	= 100 // 29.545
+HeavyArmor	= 80 // 29.545
+Building	= 120 //60.195 // 40.13 // 4.013 // 5.3 -> 8.206 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+BuildingWeak = 82.06 // 8.206 // 13  -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 20
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//포격용 프로젝타일 특수탄에 의한 직격 대미지(instDmgByArtillerySpecial)
+
+[instDmgByArtillerySpecial]
+Infantry		= 100
+LightArmor	= 100// 29.545
+HeavyArmor	= 80 // 29.545
+Building	= 200 //115.32 // 76.88 // 7.688 // 15.376 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+BuildingWeak = 153.76 // 15.376 // 30.752 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 20
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+
+//탱크에 의한 직격 대미지(instDmgByTank)
+//신규
+//중장갑(HeavyArmor) 탈것에 대해 강한 대미지를 가지고 있지만 다른 것엔 평범한 대미지를 줄 때 사용.
+
+[instDmgByTank]
+Infantry		= 100
+LightArmor	= 28.725
+HeavyArmor	= 28.725
+Building	= 76.65 // 51.1 // 5.110 // 6.6 -> 10.219 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+BuildingWeak = 102.19 // 10.219 // 20.438 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0 //20
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//대형 전차에 의한 특수탄 직격 대미지
+//사용처: 대형 전차
+
+[instDmgByHeavyTankSpecial]
+Infantry		= 100
+LightArmor	= 48
+HeavyArmor	= 48
+Building	= 139.15 //76.65 // 51.1 // 5.110 // 10.219 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+BuildingWeak = 102.19 //  10.219 // 20.438 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//스텔스 탱크에 의한 특수탄 직격 대미지(instDmgByStealthTankSpecial)
+//사용처: 스텔스 전차이지만 일단 소형전차로 세팅.
+
+[instDmgByStealthTankSpecial]
+Infantry		= 100
+LightArmor	= 28.725
+HeavyArmor	= 28.725
+Building	= 200 //125.55 //  83.7 // 8.37 // 16.74 // 6.25 -> 16.74 -> -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+BuildingWeak = 167.4 // 16.74 // 33.48 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0 //20
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+
+//``````````````````````````````````````````````````````````````````````````````-
+//instDmg 계열 끝
+//==============================================================================
+
+
+
+
+
+//==============================================================================
+//areaDmg 계열 시작
+//Dmg는 Damage의 약어.
+//유탄, 로켓, 탈것에 장착된 주포에 사용되며, 적 탈것이나 건물을 파괴하기 위한 목적.
+//범위 대미지(AreaDamage)에 사용된다.
+//``````````````````````````````````````````````````````````````````````````````
+
+
+//일반 프로젝타일에 의한 범위 대미지(areaDmgByGeneralProjectile)
+//신규
+//적 탈것이나 적 건물을 파괴하기 위한 기본적인 수단들에 사용된다.
+//스플래쉬 대미지로 적 보병들을 잡기 위한 목적도 존재한다.
+//예외적으로, 소형 전차의 직격 대미지에 사용되기도 함.
+
+[areaDmgByGeneralProjectile]
+Infantry		= 50
+LightArmor	= 30
+HeavyArmor	= 30
+Building	= 50 // 5
+BuildingWeak = 100 // 10
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+[areaDmgByAdvGLauncher]
+Infantry		= 10
+LightArmor	= 30
+HeavyArmor	= 30
+Building	= 10 // 1
+BuildingWeak = 20 // 2
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+//전략무기에 의한 범위 대미지(areaDmgByStrategicWeapon)
+//신규
+//핵폭탄 유도기 등 전략 무기에 의한 범위 대미지를 표현하기 위한 것.
+
+[areaDmgByStrategicWeapon]
+Infantry		= 200
+LightArmor	= 200
+HeavyArmor	= 200
+Building	= 100 // 1000
+BuildingWeak = 100 // 1000
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0 //20
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//폭탄류에 의한 범위 대미지(areaDmgByBomb)
+//신규
+//시한 폭탄, 원격 폭탄의 범위 대미지에 사용.
+//참고로 지뢰는 밸런싱상의 이유로 areaDmgByGeneralProjectile 를 사용.
+
+[areaDmgByBomb]
+Infantry		= 100
+LightArmor	= 100
+HeavyArmor	= 100
+Building	= 50 // 5
+BuildingWeak = 833.33 // 1875 // 625 // 62.5 //50 //34 // 50
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+[areaDmgByRemoteBomb]
+Infantry		= 100
+LightArmor	= 100
+HeavyArmor	= 100
+Building	= 50 // 5
+BuildingWeak = 500 // 50. 500일 때 1000 닳음.
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+//전차에 의한 범위 대미지(areaDmgByTank)
+//전차는 직격 대미지들이 하도 커서 수치가 살짝 줄어들었음.
+//사용처: 소형 전차
+
+[areaDmgByTank]
+Infantry		= 170  // 350 // 500에서 바꿈. 김문기 2014.06.12
+LightArmor	= 22
+HeavyArmor	= 22
+Building	= 50.175 //33.45 // 3.345 // 4.32 -> 6.689 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+BuildingWeak = 66.89 // 6.689 //13.378 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+//포격 차량에 의한 범위 대미지(areaDmgByArtillery)
+//사용처: 포격 차량
+
+[areaDmgByArtillery]
+Infantry		= 150 // 70 // 350 // 500에서 바꿈. 김문기 2014.06.12
+LightArmor	= 22
+HeavyArmor	= 22
+Building	= 80.955 //53.97 // 5.397 // 6.972 -> 10.795 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+BuildingWeak = 107.95 // 10.795 // 21.59 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+//소형 전차에 의한 특수탄 대미지(areaDmgBySmallTankSpecial)
+//사용처: 소형 전차
+
+[areaDmgBySmallTankSpecial]
+Infantry		= 320
+LightArmor	= 22
+HeavyArmor	= 22
+Building	= 100.35 // 6.689  // 13.378 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+BuildingWeak = 133.78 // 13.378 // 18 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//가드타워에 의한 범위 대미지(areaDmgByTower)
+//가드타워의 프로젝타일 무기 대미지에 사용.
+
+[areaDmgByTower]
+Infantry		= 100
+LightArmor	= 100
+HeavyArmor	= 100
+Building	= 0
+BuildingWeak = 0
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0 //10
+HeavyArmorRandomMod	= 0 //10
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+//가드타워에 의한 범위 대미지 임시(areaDmgByTowerTemp)
+//가드타워 완성 전까지 임시로 사용. 실제 가드 타워의 모델이 나오고 기관총과 유도 미사일이 달리면 제거.
+
+[areaDmgByTowerTemp]
+Infantry		= 10 // 39
+LightArmor	= 30 // 15 //한 방에 강한 대미지를 줄 로켓이 없으니 이걸로라도 땜빵 한동안은 부자연스러울 것임. by 조대환 2014.07.08
+HeavyArmor	= 30 // 15
+Building	= 0
+BuildingWeak = 0
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 20 //10
+HeavyArmorRandomMod	= 20 //10
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+
+//``````````````````````````````````````````````````````````````````````````````-
+//areaDmg 계열 끝
+//==============================================================================
+
+//==============================================================================
+//로켓 클베 긴급 수정
+//``````````````````````````````````````````````````````````````````````````````
+
+
+[instDmgByM202x6]
+Infantry		= 100 // 10
+LightArmor	= 100 // 18 // 9 -> 18. 2.5배를 생각했는데 이건 좀 너무해서 2배로 ..
+HeavyArmor	= 50 //  16 //8
+Building	= 5 // 0.5 // 1 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+BuildingWeak = 10 // 1 // 2 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+[areaDmgByM202x6]
+Infantry		= 50
+LightArmor	= 60 // 30
+HeavyArmor	= 60 // 30
+Building	= 25 // 2.5 // 5 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+BuildingWeak = 50 // 5 // 10 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//``````````````````````````````````````````````````````````````````````````````-
+//로켓 클베 긴급 수정 끝
+//==============================================================================
+
+
+//==============================================================================
+//고급 로켓이 개겨서-_-
+//``````````````````````````````````````````````````````````````````````````````
+
+//allRoundType를 카피해서 조정해 사용.
+[InstSMAW]
+Infantry		= 100
+LightArmor	= 200 // 100
+HeavyArmor	= 100 // 50
+Building	= 10 // 1 // 2 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+BuildingWeak = 20 // 2 // 5 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//areaDmgByGeneralProjectile를 카피해서 조정해 사용.
+
+[areaSMAW] 
+Infantry		= 50
+LightArmor	= 120 // 30
+HeavyArmor	= 120 // 30
+Building	= 25 // 2.5 // 5 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+BuildingWeak = 50 // 5 // 10 -> 현재값. 건물 대미지 감소 테스트 20140813 조대환
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+
+
+
+//``````````````````````````````````````````````````````````````````````````````-
+//고급 로켓이 개겨서-_-끝
+//==============================================================================
+
+
+//==============================================================================
+//무기별 디폴트 타입 계열 시작.
+//대부분 값은 BulletBasic과 동일하다. 본 모드용으로 만들어진 무기 외의 다른 무기를 특별한 대미지팩터 지정 없이 사용했을 때의
+//각 무기별 대미지 팩터들.
+//``````````````````````````````````````````````````````````````````````````````
+
+
+
+//머신건 직격 디폴트(Default_01_Machinegun_Inst) 
+
+[Default_01_Machinegun_Inst]
+Infantry = 100
+LightArmor	= 2.8
+HeavyArmor	= 2
+Building	= 1 // 0.1
+BuildingWeak = 2 // 0.2
+Bomb	= 0
+LandMine = 10000
+
+
+InfantryRandomMod = 0 
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+//머신건 범위 디폴트(Default_01_Machinegun_Area) 
+
+[Default_01_Machinegun_Area]
+Infantry		= 0
+LightArmor	= 0
+HeavyArmor	= 0
+Building	= 0
+BuildingWeak = 0
+Bomb	= 0
+LandMine = 0
+
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//돌격소총 직격 디폴트(Default_02_AssaultRifle_Inst) 
+
+[Default_02_AssaultRifle_Inst]
+Infantry = 100
+LightArmor	= 2.8
+HeavyArmor	= 2
+Building	= 1 // 0.1
+BuildingWeak = 2 // 0.2
+Bomb	= 0
+LandMine = 10000
+
+
+InfantryRandomMod = 0 
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//돌격소총 범위 디폴트(Default_02_AssaultRifle_Area) 
+
+[Default_02_AssaultRifle_Area]
+Infantry		= 0
+LightArmor	= 0
+HeavyArmor	= 0
+Building	= 0
+BuildingWeak = 0
+Bomb	= 0
+LandMine = 0
+
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//SMG 직격 디폴트(Default_03_SMG_Inst) 
+
+[Default_03_SMG_Inst]
+Infantry = 100
+LightArmor	= 2.8
+HeavyArmor	= 2
+Building	= 1 // 0.1
+BuildingWeak = 2 // 0.2
+Bomb	= 0
+LandMine = 10000
+
+
+InfantryRandomMod = 0 
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//SMG 범위 디폴트(Default_03_SMG_Area) 
+
+[Default_03_SMG_Area]
+Infantry		= 0
+LightArmor	= 0
+HeavyArmor	= 0
+Building	= 0
+BuildingWeak = 0
+Bomb	= 0
+LandMine = 0
+
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//수리총 직격 디폴트(Default_04_RepairGun_Inst) Repair 카피 201407016 조대환
+
+[Default_04_RepairGun_Inst]
+Infantry = 100
+LightArmor	= 2000 //100
+HeavyArmor	= 2000 //100
+Building	= 180 // 50 // 5 //25
+BuildingWeak = 360 // 100 // 10 //50
+Bomb	= 1000
+LandMine = 3000
+
+
+InfantryRandomMod = 0 
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//수리총 범위 디폴트(Default_04_RepairGun_Area)
+
+[Default_04_RepairGun_Area]
+Infantry		= 0
+LightArmor	= 0
+HeavyArmor	= 0
+Building	= 0
+BuildingWeak = 0
+Bomb	= 0
+LandMine = 0
+
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+
+//권총 직격 디폴트(Default_05_HandGun_Inst) 
+
+[Default_05_HandGun_Inst]
+Infantry = 100
+LightArmor	= 2.8
+HeavyArmor	= 2
+Building	= 1 // 0.1
+BuildingWeak = 2 // 0.2
+Bomb	= 0
+LandMine = 10000
+
+
+InfantryRandomMod = 0 
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//권총 범위 디폴트(Default_05_HandGun_Area) 
+
+[Default_05_HandGun_Area]
+Infantry		= 0
+LightArmor	= 0
+HeavyArmor	= 0
+Building	= 0
+BuildingWeak = 0
+Bomb	= 0
+LandMine = 0
+
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//근접무기 직격 디폴트(Default_06_Melee_Inst) knife 복사. 201407016 조대환
+
+[Default_06_Melee_Inst]
+Infantry		= 270
+LightArmor	= 0
+HeavyArmor	= 0
+Building	= 0
+BuildingWeak = 3 // 0.3
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+
+//근접무기 범위 디폴트(Default_06_Melee_Area) 
+
+[Default_06_Melee_Area]
+Infantry		= 0
+LightArmor	= 0
+HeavyArmor	= 0
+Building	= 0
+BuildingWeak = 0
+Bomb	= 0
+LandMine = 0
+
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//던지는 무기 직격 디폴트(Default_07_Throwing_Inst) 맞아서 죽을 일 없게 죄다 0. 201407016 조대환
+
+[Default_07_Throwing_Inst]
+Infantry		= 0
+LightArmor	= 0
+HeavyArmor	= 0
+Building	= 0
+BuildingWeak = 0
+Bomb	= 0
+LandMine = 0
+
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+
+//던지는 무기 범위 디폴트(Default_07_Throwing_Area) handGrenade 카피 201407016 조대환
+
+[Default_07_Throwing_Area]
+Infantry		= 100
+LightArmor	= 4
+HeavyArmor	= 2
+Building	= 2.5 // 0.25
+BuildingWeak = 20 // 2
+Bomb	= 0
+LandMine = 10000
+
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+
+//저격총 직격 디폴트(Default_08_Sniper_Inst) 
+
+[Default_08_Sniper_Inst]
+Infantry = 100
+LightArmor	= 2.8
+HeavyArmor	= 2
+Building	= 1 // 0.1
+BuildingWeak = 2 // 0.2
+Bomb	= 0
+LandMine = 10000
+
+
+InfantryRandomMod = 0 
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+
+//저격총 범위 디폴트(Default_08_Sniper_Area) 
+
+[Default_08_Sniper_Area]
+Infantry		= 0
+LightArmor	= 0
+HeavyArmor	= 0
+Building	= 0
+BuildingWeak = 0
+Bomb	= 0
+LandMine = 0
+
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+
+//샷건 직격 디폴트(Default_09_ShotGun_Inst) 
+
+[Default_09_ShotGun_Inst]
+Infantry = 100
+LightArmor	= 2.8
+HeavyArmor	= 2
+Building	= 1 // 0.1
+BuildingWeak = 2 // 0.2
+Bomb	= 0
+LandMine = 10000
+
+
+InfantryRandomMod = 0 
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//샷건 범위 디폴트(Default_09_ShotGun_Area) 
+
+[Default_09_ShotGun_Area]
+Infantry		= 0
+LightArmor	= 0
+HeavyArmor	= 0
+Building	= 0
+BuildingWeak = 0
+Bomb	= 0
+LandMine = 0
+
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+
+//폭탄 직격 디폴트(Default_10_Bomb_Inst) 
+
+[Default_10_Bomb_Inst]
+Infantry		= 0
+LightArmor	= 0
+HeavyArmor	= 0
+Building	= 0
+BuildingWeak = 0
+Bomb	= 0
+LandMine = 0
+
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//폭탄 범위 디폴트(Default_10_Bomb_Area)  areaDmgByBomb 카피  201407016 조대환
+
+[Default_10_Bomb_Area]
+Infantry		= 100
+LightArmor	= 100
+HeavyArmor	= 100
+Building	= 50 // 5
+BuildingWeak = 500 // 50
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+
+
+//폭파형 무기 직격 디폴트(Default_11_Explosive_Inst)  instDmgByGeneralProjectile 값 카피. 201407016 조대환
+
+[Default_11_Explosive_Inst]
+Infantry		= 40
+LightArmor	= 9
+HeavyArmor	= 8
+Building	= 10 // 1
+BuildingWeak = 20 // 2
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+
+//폭파형 무기 범위 디폴트(Default_11_Explosive_Area)  areaDmgByGeneralProjectile 값 카피. 201407016 조대환
+
+[Default_11_Explosive_Area]
+Infantry		= 100
+LightArmor	= 30
+HeavyArmor	= 30
+Building	= 50 // 5
+BuildingWeak = 100 // 10
+Bomb	= 0
+LandMine = 10000
+
+InfantryRandomMod = 0
+LightArmorRandomMod	= 0
+HeavyArmorRandomMod	= 0
+BuildingRandomMod	= 0
+BuildingWeakRandomMod	= 0
+BombRandomMod	= 0
+LandMineRandomMod	= 0
+
+

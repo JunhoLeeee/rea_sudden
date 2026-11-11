@@ -1,0 +1,174 @@
+{
+"normal":
+
+[{
+"grade": 1,
+"Sort": 1,
+"item_type": 1,
+"index": 1,
+"type": "EXCHANGE",
+"code": "EET14717001NYY",
+"itemcount": 0,
+"price": 25,
+"LimitCount": 1,
+"open_box": 0,
+
+
+},{
+"grade": 1,
+"Sort": 2,
+"item_type": 1,
+"index": 2,
+"type": "EXCHANGE",
+"code": "EET14716001NYY",
+"itemcount": 0,
+"price": 15,
+"LimitCount": 3,
+"open_box": 0,
+
+},{
+"grade": 0,
+"Sort": 3,
+"item_type": 1,
+"index": 3,
+"type": "EXCHANGE",
+"code": "EET13836001NYY",
+"itemcount": 0,
+"price": 2,
+"LimitCount": 0,
+"open_box": 0,
+
+
+},{
+"grade": 0,
+"Sort": 4,
+"item_type": 1,
+"index": 4,
+"type": "EXCHANGE",
+"code": "EET10401050NYY",
+"itemcount": 0,
+"price": 5,
+"LimitCount": 0,
+"open_box": 0,
+
+
+},{
+"grade": 0,
+"Sort": 5,
+"item_type": 1,
+"index": 5,
+"type": "EXCHANGE_WEEKLY_LIMIT",
+"code": "EET04571010NYN",
+"itemcount": 0,
+"price": 5,
+"LimitCount": 1,
+"open_box": 0,
+
+
+},{
+"grade": 0,
+"Sort": 6,
+"item_type": 1,
+"index": 6,
+"type": "EXCHANGE",
+"code": "EET04194050NYY",
+"itemcount": 0,
+"price": 10,
+"LimitCount": 1,
+"open_box": 0,
+
+
+},{
+"grade": 1,
+"Sort": 7,
+"item_type": 1,
+"index": 7,
+"type": "EXCHANGE",
+"code": "EET11783001NYY",
+"itemcount": 0,
+"price": 10,
+"LimitCount": 1,
+"open_box": 0,
+
+},{
+"grade": 1,
+"Sort": 8,
+"item_type": 1,
+"index": 8,
+"type": "EXCHANGE",
+"code": "EET05353020NYY",
+"itemcount": 20,
+"price": 15,
+"LimitCount": 1,
+"open_box": 0,
+
+
+
+},{
+"grade": 1,
+"Sort": 9,
+"item_type": 1,
+"index": 9,
+"type": "EXCHANGE",
+"code": "EET04413001NYY",
+"itemcount": 0,
+"price": 15,
+"LimitCount": 2,
+"open_box": 0,
+
+
+},{
+"grade": 1,
+"Sort": 10,
+"item_type": 1,
+"index": 10,
+"type": "EXCHANGE",
+"code": "EET09490001NYY",
+"itemcount": 0,
+"price": 20,
+"LimitCount": 2,
+"open_box": 0,
+
+
+},{
+"grade": 1,
+"Sort": 11,
+"item_type": 1,
+"index": 11,
+"type": "EXCHANGE",
+"code": "EET10229001NYY",
+"itemcount": 0,
+"price": 20,
+"LimitCount": 5,
+"open_box": 1,
+
+
+},{
+"grade": 1,
+"Sort": 12,
+"item_type": 1,
+"index": 12,
+"type": "EXCHANGE",
+"code": "EET09524001NYY",
+"itemcount": 0,
+"price": 20,
+"LimitCount": 1,
+"open_box": 1,
+
+
+},{
+"grade": 1,
+"Sort": 13,
+"item_type": 1,
+"index": 13,
+"type": "EXCHANGE",
+"code": "EET12178001NYY",
+"itemcount": 0,
+"price": 25,
+"LimitCount": 1,
+"open_box": 0,
+
+},
+
+]}
+

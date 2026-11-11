@@ -1,0 +1,43 @@
+{
+  "header": {
+    "path": "C:\\Nexon\\SuddenAttack\\game\\sa_text_00000.pkg",
+    "bytes": 1507328,
+    "version": 3,
+    "mask_bytes": 245,
+    "masked_string_units": 13,
+    "encrypted_header_offset": 276,
+    "index_padding_bytes": 182,
+    "observed_header_sha256": "fb603764eab80b5104ada9a2b0cac6fe8392c4166e11c754442b5345fed86e64",
+    "identity_scope": "header-ranges-only",
+    "byteorder": "little",
+    "count": 1,
+    "checksum": 459073
+  },
+  "index_offset": 466,
+  "index_plaintext_bytes": 84,
+  "index_read_bytes": 84,
+  "index_raw_sha256": "4be633ec9ba92de56acb80c3fb8ef7eea2909dbce2d250392e0135b6e6775111",
+  "payload_base": 1024,
+  "members": [
+    {
+      "index": 0,
+      "path": "sa_text/satext.dat",
+      "flags": 7,
+      "field8": 0,
+      "field12": 14936597,
+      "field16": 1505324,
+      "field20": 0,
+      "checksum": 16443637,
+      "block_hashes": [],
+      "digest_hex": "37c77f01290b0820ffb6e0b360746a4d",
+      "extra_hex": ""
+    }
+  ],
+  "limitations": [
+    "Metadata checksums verified; member payloads are unverified.",
+    "Native config-dependent field20 validation is not performed.",
+    "field8/12/16/20 retain raw coordinates until their uses are traced.",
+    "Index path names do not authorize executing any archived binaries.",
+    "Full-file SHA-256 is not computed by this bounded index operation."
+  ]
+}

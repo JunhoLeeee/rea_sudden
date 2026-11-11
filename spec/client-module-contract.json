@@ -1,0 +1,123 @@
+{
+  "schema": "observed-client-module-contract-v1",
+  "scope": "Current local installation; static observations only",
+  "original_target_executed": false,
+  "artifacts": {
+    "engine": {"path": "C:/Nexon/SuddenAttack/suddenattack.exe", "sha256": "7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8"},
+    "client_shell": {"path": "extracted/game-file/game_file/CShell.dll", "sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110"},
+    "object_module": {"path": "extracted/game-file/game_file/Object.lto", "sha256": "ee0971dc86703b1bc0a81b0315d144f807f26e797fb4a1c68ab6d9400b6225b6"}
+  },
+  "evidence": {
+    "engine_resource_init": {"path": "evidence/engine-resource-init-code.json", "id": "ev_e8a7a2d3714d0f3f9ddbd98984f782a360d6a6a9218f692631593050cd131fd2", "procedure": "0x14007a2f0"},
+    "engine_client_init": {"path": "evidence/client-init-code.json", "id": "ev_bfa9da601801d17a8bd7acd99239cba660a95f415a221270dbdfa3fe6a910063", "procedure": "0x14008fc10"},
+    "shell_loader": {"path": "evidence/cshell-loader-code.json", "id": "ev_641f4327e2815f1408b69c794bfdb2a3c9f1834315731243a614487eb6672dad", "procedure": "0x1400bef00"},
+    "module_bind": {"path": "evidence/client-module-load-code.json", "id": "ev_e7defb17c4f5a5ae1a53524051e647a4c9ff8c2cace59f819b4754262387465c", "procedure": "0x140073ea0"},
+    "module_resolver": {"path": "evidence/client-file-resolver-code.json", "id": "ev_e1d2b325dc9f292e936d46fb14d9afcf7d454695ca522f2c46c5fce70640f1bd", "procedure": "0x1400bdc40"},
+    "shell_exports": {"path": "evidence/cshell-exports.json", "id": "ev_26e4d172154751eae1254bd76814be44ea7bda26f5a79453df5fb9978395755d"},
+    "object_exports": {"path": "evidence/object-exports.json", "id": "ev_a69faf9ce8d86ac80f84dcec53154e1055e8643a63727aec1d0d664b485da3d3"},
+    "interface_name_xrefs": {"path": "evidence/client-shell-interface-xrefs.json", "id": "ev_858757605219574369c52bae6ec9982b568cdb59b089010623e9d4937712a92e"},
+    "local_probe": {"path": "evidence/module-contract-static-probe-v2.json", "kind": "source-backed PE bytes and Capstone; not an REA Evidence ID"},
+    "shell_master_bytes": {"path": "evidence/module-contract-cshell-master-code.json", "kind": "source-backed PE bytes and Capstone"},
+    "object_setup_bytes": {"path": "evidence/module-contract-object-master-code.json", "kind": "source-backed PE bytes and Capstone"}
+  },
+  "module_loading": {
+    "resolver": "0x1400bdc40",
+    "resource_prefix": "game_file/",
+    "file_resolution_success": 0,
+    "copy_flag_set_when_resource_copied_to_working_directory": true,
+    "binder": "0x140073ea0",
+    "bind_failure": 0,
+    "bind_success": 4294967295,
+    "on_not_already_loaded": {
+      "optional_named_export": "SetMasterDatabase",
+      "argument_source": "0x1400e3330 return value",
+      "argument_interpretation": "opaque shared interface registry; not the weapons/settings database",
+      "called_only_if_export_found": true
+    },
+    "client_manager_fields": {
+      "0x32e0": "cres.dll binding",
+      "0x32e8": "cleared; semantics unresolved",
+      "0x32f0": "cshell.dll binding"
+    },
+    "binding_record_bytes": 48,
+    "binding_record_observed_fields": {"0x00": "module handle", "0x08": "32-bit constant 1; meaning unresolved", "0x10": "path string storage, retained only when resolver copy flag is set"}
+  },
+  "set_master_database": {
+    "cshell_export": "0x1803d5ba0",
+    "object_export": "0x180019680",
+    "observed_argument": "RCX points to shared registry object",
+    "null_argument": "immediate return",
+    "return_value": "not consumed by engine caller; exact C++ type unresolved",
+    "module_local_state_bytes": 72,
+    "observed_state_offsets": {"0x00": "existing registry pointer", "0x18": "linked master registry reference", "0x30": "linked active registry reference"},
+    "linked_reference_node_offsets": {"0x00": "registry pointer", "0x08": "one link", "0x10": "other link"},
+    "semantics": "links module-local interface registrations to the supplied master registry",
+    "confidence": "pointer/link operations observed; high-level registry role derived from IClientShell provider/holder connection"
+  },
+  "client_shell_interface": {
+    "name": "IClientShell.Default",
+    "version": 4,
+    "provider_registration_initializer": "0x180019a50",
+    "provider_registration_function": "0x1803d2d80",
+    "provider_object": "0x181952b30",
+    "provider_construction_initializer": "0x180019a90",
+    "provider_constructor": "0x180566560",
+    "primary_vtable": "0x181520a88",
+    "rtti_complete_object_locator": "0x1816b5978",
+    "rtti_type_descriptor": "0x18192afa8",
+    "rtti_mangled_name": ".?AVCSAGameClientShell@@",
+    "rtti_base_chain": ["CSAGameClientShell", "CGameClientShell", "IClientShellStub", "IClientShell", "IBase"],
+    "engine_holder_vtable": "0x1403042a8",
+    "engine_holders": [
+      {"initializer": "0x14001a6b0", "holder": "0x1403feac0", "destination": "0x1403fe650", "version": 4, "use": "client initialization virtual callbacks"},
+      {"initializer": "0x14001b9e0", "holder": "0x140406208", "destination": "0x140406160", "version": 4, "use": "shell loader presence check"}
+    ],
+    "engine_holder_methods": {
+      "0x08": {"target": "0x140077320", "operation": "set pointer at holder+0x18 destination to zero"},
+      "0x10": {"target": "0x140077330", "operation": "store RDX at pointer destination held in holder+0x18"},
+      "0x18": {"target": "0x140077340", "operation": "return pointer value from holder+0x18 destination"}
+    },
+    "selected_primary_vtable_slots": [
+      {"byte_offset": "0x40", "target": "0x180566860", "direct_tail_target": "0x180c03580", "engine_label": "OnEnginePreInit", "observed_arguments": ["this", "render-init structure at caller local_3e8", "client manager+0xb20"], "return": "nonzero aborts client initialization", "coverage": "target prefix observed; indirect protected branch remains unresolved"},
+      {"byte_offset": "0x48", "target": "0x180566740", "engine_label": "OnEngineInitialized", "return": "returned by engine client-init fallback", "coverage": "direct target code observed; called implementations unresolved"},
+      {"byte_offset": "0x120", "target": "0x180c06ae0", "engine_label": "InitStartLogo", "return": "zero sets engine flags and returns success; nonzero enters fallback", "coverage": "vtable target and caller observed; target body not yet decompiled"},
+      {"byte_offset": "0x140", "target": "0x180c06980", "engine_label": "unnamed fallback cleanup", "operation": "zero qwords this+0x100a0 through this+0x100e0 and dword this+0x10458", "coverage": "complete short source-backed instruction sequence observed"},
+      {"byte_offset": "0x170", "target": "0x180c0ce90", "engine_label": "assigning NXGSM instance to CShell", "operation": "store RDX at this+0x21fe0", "coverage": "complete two-instruction source-backed target observed"},
+      {"byte_offset": "0x180", "target": "0x180c02820", "engine_label": "EAC Start", "coverage": "target prefix observed; indirect protected branch remains unresolved"}
+    ]
+  },
+  "object_module_setup": {
+    "export": "ObjectDLLSetup",
+    "address": "0x180018210",
+    "observed_parameters": {"RCX": "output class count pointer (32-bit)", "RDX": "opaque engine pointer stored at module global 0x180690760", "R8": "output version/status pointer written as 32-bit constant 1"},
+    "return": "pointer to allocated array of class-registration pointers",
+    "list_head": "0x180611960",
+    "array_global": "0x180611968",
+    "list_node": {"0x00": "class-registration pointer", "0x08": "next node"},
+    "scope_limit": "caller-side ObjectDLLSetup use and class-registration layout not established"
+  },
+  "initialization_order": [
+    {"stage": 1, "procedure": "0x14007a2f0", "operation": "construct resource tree list and config paths; default config names autoexec.cfg and display.cfg"},
+    {"stage": 2, "procedure": "0x14008fc10", "operation": "initialize package support via 0x140091d30 before attaching resource trees"},
+    {"stage": 3, "procedure": "0x14008fc10", "operation": "attach up to 40 resource-tree names; failure returns 0x39 or 0x1b"},
+    {"stage": 4, "procedure": "0x1400bef00", "operation": "resolve/bind CShell.dll; verify IClientShell destination nonzero; resolve/bind cres.dll; optional instance-handle callback"},
+    {"stage": 5, "procedure": "0x14008fc10", "operation": "if shell pointer available, invoke selected slots +0x170 then +0x180; afterward check shell-loader return"},
+    {"stage": 6, "procedure": "0x14008fc10", "operation": "initialize console/input dependencies; replay config files with execution flag 2, then command-line overrides flag 2"},
+    {"stage": 7, "procedure": "0x14008fc10", "operation": "replay config files with execution flag 1, then command-line overrides flag 1"},
+    {"stage": 8, "procedure": "0x14008fc10", "operation": "construct render-init block and initialize sound dependencies before shell slot +0x40"},
+    {"stage": 9, "procedure": "0x14008fc10", "operation": "shell slot +0x120 result selects deferred logo path or +0x140/+0x48 fallback"}
+  ],
+  "negative_findings": [
+    {"claim": "CShell export directory contains no InitClientShellDE export", "boundary": "complete 125-entry export inventory", "meaning": "engine diagnostic label, not an exported entry point"},
+    {"claim": "SetMasterDatabase is not established as a gameplay declaration database setter", "boundary": "observed registry-linking operations and interface registration/holder match"}
+  ],
+  "unknowns": [
+    "full shared-registry object layout and provider resolution order",
+    "all interface names/version pairs required by CShell",
+    "complete IClientShell vtable extent and callback signatures",
+    "render-init block field types and lifetime",
+    "cres.dll exported contract and instance-handle callback identity",
+    "protected indirect branches inside OnEnginePreInit and EAC-labelled target",
+    "original runtime initialization order, state transitions and server dependence"
+  ]
+}

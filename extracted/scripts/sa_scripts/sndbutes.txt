@@ -1,0 +1,694 @@
+/************************************************************************
+**
+** S O U N D  B U T E S
+**
+** The SoundButes definitions define all of the attributes associated with
+** a particular Sound Bute.  Defining a SoundBute in this way allows us to
+** easily make global changes to all the Sounds.
+**
+**
+** All SoundBute definitions should contain the following properties:
+**
+**	Parent (String) - OPTIONAL
+**
+**		If a SoundBute wants to inherit some properties from another SoundBute
+**		it should list the name of a valid SoundBute as it's parent.
+**
+**	Path0 - N (String)
+**
+**		The name of the sound to be played.  If more than one a random one will
+**		be selected.	
+**
+**
+**	Weight0 - N (Integer)
+**
+**		The random chance 'weight' of the sound. These numbers will get added
+**      	together and then randomly chosen between.   For instance, if you had
+**      	two sound to choose from and the first had a weight '1' and the second
+**      	had a weight '2'... then the first sound would get played 33% of the time
+**      	and the second one would get played 66% of the time.
+**
+**      	This value will default to '1' if the parameter doesn't exist.
+**
+**
+**	PlaySoundLocal (1 or 0)
+**
+**		Should the sound be played locally or 3D?
+**
+**
+**	InnerRadius (Float)
+**
+**		The inner dimension of the sound radius in game units.  Note that lip-synced
+**		sounds ignore this and set the inner radius to be 25% of outer radius.
+**
+**
+**	OuterRadius (Float)
+**
+**		The outer dimension of the sound radius in game units.
+**
+**
+**	Pitch (Float)
+**
+**		The pitch adjustment to the sound. 1.0 would play the sound as recorded.
+**
+**	
+**	Volume (Int)
+**
+**		The volume of the sound, 100 = Max.
+**
+**
+**	LoopSound (1 or 0)
+**
+**		Should the sound be played looping.
+**
+**
+**	AllowReverb (1 or 0)
+**
+**		Should the sound be allowed to reverberate.
+**
+**
+**	PlayOnce (1 or 0)
+**
+**		Should the sound be played only once, (reduces memory overhead).
+**
+**
+**	PlayChance (Float)
+**
+**		The percent chance that a sound will be played at all, 1.0 = 100%.
+**
+**
+**	Priority (0, 1, 2)
+**
+**		The sound priority, 0 = Low, 1 = Medium, 2 = High.
+**
+**  	LipSync (1 or 0)
+**		
+**		If set to 1, the sound will try to be lip-synced by the character playing it.
+**      	If the character cannot lip sync, the sound will not be played!
+**
+**
+**  	MinDelay (seconds)
+**  	MaxDelay (seconds)
+**		
+**		Characters will wait between MinDelay and MaxDelay seconds before trying to play from this sound-set again 
+**	    	If PlayChance is less than 1, they will not play the sound but they will still wait this long
+**      	before trying again. The wait time includes the time spent playing the sound! So if the sound 
+**		is 3 seconds long and the wait time is 3.5 seconds, there will only by 0.5 seconds between each sound.
+**
+*/
+
+
+
+/************************************************************************
+**	Base Parents
+*/
+
+[BaseLocalSound]
+
+PlaysoundLocal      = 1			// DON'T CHANGE: If this is true, the sound is client only, else it is 3D
+InnerRadius         = 0.0
+OuterRadius         = 0.0
+Pitch               = 1.0
+Volume              = 100
+PlayClientLocal     = 0			// Sound is played with PLAYSOUND_LOCAL for player specified
+LoopSound           = 0			// Loop the sound
+AllowReverb         = 1			// Allow reverb
+PlayOnce            = 0			// This sound will only be played once (reduces memory overhead)
+Priority            = 0
+PlayChance          = 1.0
+
+
+[Base3DSound]
+
+PlaysoundLocal      = 0			// DON'T CHANGE: If this is true, the sound is client only, else it is 3D
+InnerRadius         = 300.0
+OuterRadius         = 1200.0
+Pitch               = 1.0
+Volume              = 100
+PlayClientLocal     = 0			// Sound is played with PLAYSOUND_LOCAL for player specified
+LoopSound           = 0			// Loop the sound
+AllowReverb         = 1			// Allow reverb
+PlayOnce            = 0			// This sound will only be played once (reduces memory overhead)
+Priority            = 0
+PlayChance          = 1.0
+
+[BaseSFXObjSound]
+
+PlaysoundLocal      = 0			// DON'T CHANGE: If this is true, the sound is client only, else it is 3D
+InnerRadius         = 50.0
+OuterRadius         = 600.0
+Pitch               = 1.0
+Volume              = 100
+PlayClientLocal     = 0			// Sound is played with PLAYSOUND_LOCAL for player specified
+LoopSound           = 0			// Loop the sound
+AllowReverb         = 1			// Allow reverb
+PlayOnce            = 0			// This sound will only be played once (reduces memory overhead)
+Priority            = 0
+PlayChance          = 1.0
+
+
+/************************************************************************
+**	Sound - Null Sound needed for DEdit
+*/
+
+[None]
+
+/************************************************************************
+**	Sound - Li_Dagger fire
+*/
+
+[Li_DaggerFire]
+Parent			= "Base3DSound"
+Path0	       	        = "Li_Weapons\Sounds\Dagger\FireSingle1.wav"
+Path1			= "Li_Weapons\Sounds\Dagger\FireSingle2.wav"
+
+/************************************************************************
+**	Sound - Gs_Default Key Item pickup sound
+*/
+
+[Gs_DefaultKeyItemSound]
+Parent			= "Base3DSound"
+InnerRadius		= 500
+OuterRadius		= 2500
+Path0			= "snd\powerups\pu_keyitem.wav"	
+
+
+/************************************************************************
+**	Sound - Gs_First Aid pickup
+*/
+
+[Gs_FirstAidPickupSound]
+Parent			= "Base3DSound"
+InnerRadius		= 500
+OuterRadius		= 2500
+Path0			= "snd\powerups\pu_armor.wav"
+
+
+/************************************************************************
+**	Sound - Gs_First Aid respawn
+*/
+
+[Gs_FirstAidRespawnSound]
+Parent			= "Base3DSound"
+InnerRadius		= 500
+OuterRadius		= 2500
+Path0			= "snd\powerups\spawn.wav"
+
+
+/************************************************************************
+**	Sound - Dino_Raptor_Attack1
+*/
+
+[Dino_Raptor_Attack1]
+Parent			= "Base3DSound"
+InnerRadius		= 200
+OuterRadius		= 1000
+Path0			= "sa_interface2\snd\Dino\Raptor_Attack1_1.wav"
+Path1			= "sa_interface2\snd\Dino\Raptor_Attack1_2.wav"
+Path2			= "sa_interface2\snd\Dino\Raptor_Attack1_3.wav"
+
+/************************************************************************
+**	Sound - Dino_Raptor_Red_Attack1
+*/
+
+[Dino_Raptor_Red_Attack1]
+Parent			= "Base3DSound"
+InnerRadius		= 200
+OuterRadius		= 1000
+Path0			= "sa_interface2\snd\Dino\Raptor_Red_Attack1_1.wav"
+Path1			= "sa_interface2\snd\Dino\Raptor_Red_Attack1_2.wav"
+Path2			= "sa_interface2\snd\Dino\Raptor_Red_Attack1_3.wav"
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó °æºñº´ ÈÖ½½
+*/
+
+[NEXON_whistle1]
+Parent			= "Base3DSound"
+InnerRadius		= 2000
+OuterRadius		= 2500
+Path0			= "sa_characters\snd\nexon\whistle.wav"
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ¿ëº´ ·¹µå»ç¸Á »ç¿îµå
+*/
+
+[nexon_01]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\mppainsounds\damage02_victory.wav"
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ¿ëº´ ºí·ç »ç¸Á
+*/
+
+[nexon_02]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\mppainsounds\damage02_sun.wav"
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ¿ëº´ ¹æÆÐº´ »ç¸Á »ç¿îµå
+*/
+
+[nexon_03]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_03.wav"
+
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - °æºñ¿ø »ç¸Á »ç¿îµå
+*/
+
+[nexon_04]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_04.wav"
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ¾ÆÁî¸¶ »ç¸Á »ç¿îµå
+*/
+
+[nexon_05]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_05.wav"
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ¾ÆÁî¸¶ °ø°Ý »ç¿îµå
+*/
+
+[nexon_06]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_06.wav"
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ¿©ÀÚ °³¹ßÀÚ ºñ¸í
+*/
+
+[nexon_07]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_07.wav"
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ¿©ÀÚ °³¹ßÀÚ »ç¸Á
+*/
+
+[nexon_08]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_08.wav"
+Path1			= "sa_characters\snd\nexon\nexon_11.wav"
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ¿©ÀÚ °³¹ßÀÚ ³î±â
+*/
+
+[nexon_09]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_09.wav"
+Path1			= "sa_characters\snd\nexon\nexon_10.wav"
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ³²ÀÚ °³¹ßÀÚ »ç¸Á
+*/
+
+[nexon_10]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_12.wav"
+Path1			= "sa_characters\snd\nexon\nexon_13.wav"
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ½ÇÀå °í¹Î
+*/
+
+[nexon_11]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_14.wav"
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ½ÇÀå ´©±¸³Ä
+*/
+
+[nexon_12]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_15.wav"
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ½ÇÀå ÅÊÅ© Æ¯¼ö°ø°Ý
+*/
+
+[nexon_13]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_16.wav"
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ½ÇÀå ÅÊÅ© ÇÇ°Ý
+*/
+
+[nexon_14]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= ""
+
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ½ÇÀå »ç¸Á
+*/
+
+[nexon_15]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_19.wav"
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - º»ºÎÀå ³Í ¹¹¾ß
+*/
+
+[nexon_16]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_20.wav"
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - º»ºÎÀå ÀÏ¹Ý °ø°Ý
+*/
+
+[nexon_17]
+Parent			= "Base3DSound"
+InnerRadius		= 500
+OuterRadius		= 600
+Path0			= "sa_characters\snd\nexon\nexon_21.wav"
+Path1			= "sa_characters\snd\nexon\nexon_22.wav"
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - º»ºÎÀå Æ¯¼ö °ø°Ý
+*/
+
+[nexon_18]
+Parent			= "Base3DSound"
+InnerRadius		= 500
+OuterRadius		= 600
+Path0			= "sa_characters\snd\nexon\nexon_23.wav"
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - º»ºÎÀå ÇÇ°Ý
+*/
+
+[nexon_19]
+Parent			= "Base3DSound"
+InnerRadius		= 500
+OuterRadius		= 800
+Path0			= ""
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - º»ºÎÀå »ç¸Á 
+*/
+
+[nexon_20]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 800
+Path0			= "sa_characters\snd\nexon\nexon_25.wav"
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - »çÀå ±â´Ù¸®°í ÀÖ¾ú´Ù
+*/
+
+[nexon_21]
+Parent			= "Base3DSound"
+InnerRadius		= 1000
+OuterRadius		= 2000
+Path0			= "sa_characters\snd\nexon\nexon_26.wav"
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - »çÀå ÀÏ¹Ý °ø°Ý
+*/
+
+[nexon_22]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_28.wav"
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - »çÀå Æ¯¼ö°ø°Ý
+*/
+
+[nexon_23]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_29.wav"
+
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - »çÀå »ç¸Á
+*/
+
+[nexon_24]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_31.wav"
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ¹èÂî »ç¸Á
+*/
+
+[nexon_25]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_32.wav"
+
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ´Ù¿À ÇÇ°Ý
+*/
+
+[nexon_26]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_33.wav"
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - 3´ë Á¡°Ë
+*/
+
+[nexon_27]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_34.wav"
+Path1			= "sa_characters\snd\nexon\nexon_35.wav"
+Path2			= "sa_characters\snd\nexon\nexon_36.wav"
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ½ÇÀå ÅÊÅ© ÇÇÇØºÁ¶ó
+*/
+
+[nexon_28]
+Parent			= "Base3DSound"
+InnerRadius		= 300
+OuterRadius		= 500
+Path0			= "sa_characters\snd\nexon\nexon_39.wav"
+
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - °æºñº´ À½?
+*/
+
+[nexon_29]
+Parent			= "Base3DSound"
+InnerRadius		= 700
+OuterRadius		= 800
+Path0			= "sa_characters\snd\nexon\guard1.wav"
+
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ¹èÂî »ç¸Á
+*/
+
+[nexon_30]
+Parent			= "Base3DSound"
+InnerRadius		= 400
+OuterRadius		= 600
+Path0			= "sa_characters\customvoice\667\death\death_4.wav"
+
+/************************************************************************
+** ³Ø½¼À» ÅÐ¾î¶ó - ´Ù¿À »ç¸Á
+*/
+
+[nexon_31]
+Parent			= "Base3DSound"
+InnerRadius		= 400
+OuterRadius		= 600
+Path0			= "sa_characters\customvoice\667\death\death_6.wav"
+
+/************************************************************************
+** ¼­¹ÙÀÌ¹ú ¾Ï»ì 
+*/
+
+[Survival_1]
+Parent			= "Base3DSound"
+InnerRadius		= 400
+OuterRadius		= 600
+Path0			= "sa_interface2\snd\survival\assassination_attack.wav"
+
+/************************************************************************
+** ¼­¹ÙÀÌ¹ú ¾Ï»ìÀ» ´çÇØ »ç¸Á
+*/
+
+[Survival_2]
+Parent			= "Base3DSound"
+InnerRadius		= 400
+OuterRadius		= 600
+Path0			= "sa_interface2\snd\survival\assassination_death.wav"
+
+/************************************************************************
+** ¼­¹ÙÀÌ¹ú ¾Ï»ì2 
+*/
+
+[Survival_3]
+Parent			= "Base3DSound"
+InnerRadius		= 400
+OuterRadius		= 600
+Path0			= "sa_interface2\snd\survival\assassination_attack_knee.wav"
+
+
+/************************************************************************
+** ¼­¹ÙÀÌ¹ú ºó»ç »óÅÂ ÀûÀ» »ç»ì
+*/
+
+[Survival_4]
+Parent			= "Base3DSound"
+InnerRadius		= 400
+OuterRadius		= 600
+Path0			= "sa_interface2\snd\survival\assassination_attack_crawl.wav"
+
+/************************************************************************
+** ¼­¹ÙÀÌ¹ú ºó»ç »óÅÂ¿¡¼­ »ç»ì´çÇÔ
+*/
+
+[Survival_5]
+Parent			= "Base3DSound"
+InnerRadius		= 400
+OuterRadius		= 600
+Path0			= "sa_interface2\snd\survival\assassination_death_crawl.wav"
+
+
+/************************************************************************
+** ¼­¹ÙÀÌ¹ú ¾Ï»ì - ÇÏÀÌÅ± 
+*/
+
+[Survival_6]
+Parent			= "Base3DSound"
+InnerRadius		= 400
+OuterRadius		= 600
+Path0			= "sa_interface2\snd\survival\assassination_HighKick.wav"
+
+/************************************************************************
+** ¼­¹ÙÀÌ¹ú ºó»ç »ç»ì - »çÄ¿Å±
+*/
+
+[Survival_7]
+Parent			= "Base3DSound"
+InnerRadius		= 400
+OuterRadius		= 600
+Path0			= "sa_interface2\snd\survival\assassination_Scoccerkick.wav"
+
+
+/************************************************************************
+** ¼­¹ÙÀÌ¹ú ºó»ç ÀüÁø
+*/
+
+[Survival_crawl_1]
+Parent			= "Base3DSound"
+InnerRadius		= 400
+OuterRadius		= 600
+Path0			= "sa_interface2\snd\survival\Crawl_Step1.wav"
+
+/************************************************************************
+** ¼­¹ÙÀÌ¹ú ºó»ç ÈÄÁø
+*/
+
+[Survival_crawl_2]
+Parent			= "Base3DSound"
+InnerRadius		= 400
+OuterRadius		= 600
+Path0			= "sa_interface2\snd\survival\Crawl_Step2.wav"
+
+/************************************************************************
+** ¼­¹ÙÀÌ¹ú ºó»ç È¸Àü
+*/
+
+[Survival_crawl_3]
+Parent			= "Base3DSound"
+InnerRadius		= 400
+OuterRadius		= 600
+Path0			= "sa_interface2\snd\survival\Crawl_Step3.wav"
+
+
+/************************************************************************
+** Àú°ÝvsÅ»Ãâ ±â½À 
+*/
+
+[Escape_1]
+Parent			= "Base3DSound"
+InnerRadius		= 400
+OuterRadius		= 600
+Path0			= "sa_interface2\snd\SnipeVSEscape\Inf_neckbreak.wav"
+
+/************************************************************************
+** Àú°ÝvsÅ»Ãâ ±â½À´çÇØ »ç¸Á
+*/
+
+[Escape_2]
+Parent			= "Base3DSound"
+InnerRadius		= 400
+OuterRadius		= 600
+Path0			= "sa_interface2\snd\survival\assassination_death.wav"

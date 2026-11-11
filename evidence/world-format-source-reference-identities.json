@@ -1,0 +1,21 @@
+{
+  "references": [
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/master/runtime/world/src/world_shared_bsp.cpp",
+      "bytes": 24653,
+      "sha256": "6d1d4b032df974432ef43411dc6cc2e25f943923c7ac82ccbbe32e0c734c07ad"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/master/runtime/world/src/world_tree.cpp",
+      "bytes": 18177,
+      "sha256": "ba509c8bb89518e9023b10e0cc317cde47ee2297640a19fe15c645820651e194"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jsj2008/lithtech/master/tools/PreProcessor/Packer_PC/PCWorldPacker.cpp",
+      "bytes": 30528,
+      "sha256": "6fefa7084bd0edeb4ffad9c7c6100f36f6adfffdeeba1b7022033e8570763a4d"
+    }
+  ],
+  "role": "external source comparison, not the installed SuddenAttack source or proof of binary equivalence",
+  "retrieved_date": "2026-11-10"
+}

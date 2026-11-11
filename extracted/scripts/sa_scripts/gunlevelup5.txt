@@ -1,0 +1,274 @@
+[Common]
+LoserWeapon	= "1313"				//ex."708,1126" 일단 루저 무기는 같은 타입(ex. 주무기)만 가능함.
+LoserDeath	= "5"				//ex."2,4" 위의 무기와 동일한 개수만큼 셋업이 되어야 정상 동작함.
+HighLevelNotLoser = 24			//24레벨 부터는 루저웨폰이 셋업되지 않는다.
+RespawnDistance = 1000
+
+[GunLevel_0]
+Level = 0
+DefaultWeapon = 397 //AK47
+NeedLevelUPKill = 1
+SubTreeWeapon = 22 //TRG21
+DefaultWeaponChance = 100 // 스킨무기가 선택되지 않을 확률 (트리에 따라 DefaultWeapon 혹은 SubTreeWeapon이나 SameAmmo로 인벤 무기가 선택될 확률)
+SameAmmo = 0
+
+
+[GunLevel_1]
+Level = 1
+DefaultWeapon = 4413 //SCAR_v2
+NeedLevelUPKill = 1
+SubTreeWeapon = 8448 //AWP
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_2]
+Level = 2
+DefaultWeapon = 1175 //MP7
+NeedLevelUPKill = 1
+SubTreeWeapon = 7523 //AWX
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_3]
+Level = 3
+DefaultWeapon = 3105 //FAMAS
+NeedLevelUPKill = 1
+SubTreeWeapon = 4602 //MSR-200
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_4]
+Level = 4
+DefaultWeapon = 3106 //SIG556
+NeedLevelUPKill = 1
+SubTreeWeapon = 4505 //윈체스터
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_5]
+Level = 5
+DefaultWeapon = 2853 //NA-94
+NeedLevelUPKill = 1
+SubTreeWeapon = 6183 //TSR
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_6]
+Level = 6
+DefaultWeapon = 5730 //P90_v2
+NeedLevelUPKill = 1
+SubTreeWeapon = 1746 //TRG21
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_7]
+Level = 7
+DefaultWeapon = 4800 //UAR_v2
+NeedLevelUPKill = 1
+SubTreeWeapon = 3290 //장궁
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_8]
+Level = 8
+DefaultWeapon = 5944 //DSG-12
+NeedLevelUPKill = 1
+SubTreeWeapon = 2024 //C.Crossbow
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_9]
+Level = 9
+DefaultWeapon = 3104 //SG-12
+NeedLevelUPKill = 1
+SubTreeWeapon = 4147 //GSR-6
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_10]
+Level = 10
+DefaultWeapon = 7758 //ANR Circle
+NeedLevelUPKill = 1
+SubTreeWeapon = 8272 //MSR-200 Circle
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_11]
+Level = 11
+DefaultWeapon = 7236 //TAS
+NeedLevelUPKill = 1
+SubTreeWeapon = 1746 //TRG21 반투명
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_12]
+Level = 12
+DefaultWeapon = 1200 //Kriss
+NeedLevelUPKill = 1
+SubTreeWeapon = 7954 //AWP(MG) Devil 반투명
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_13]
+Level = 13
+DefaultWeapon = 6331 //XM68
+NeedLevelUPKill = 1
+SubTreeWeapon =8161 //AWX 반투명
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_14]
+Level = 14
+DefaultWeapon = 8256 //mk76
+NeedLevelUPKill = 1
+SubTreeWeapon = 7884 //MSR-200(IS) 바이크
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_15]
+Level = 15
+DefaultWeapon = 708 //M134
+NeedLevelUPKill = 1
+SubTreeWeapon = 7928 //윈체스터 반투명
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_16]
+Level = 16
+DefaultWeapon = 4074 //M249
+NeedLevelUPKill = 1
+SubTreeWeapon = 6811 //TSR 반투명
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_17]
+Level = 17
+DefaultWeapon = 6551 //MP-X3
+NeedLevelUPKill = 1
+SubTreeWeapon = 7429 //AWP MEOW
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_18]
+Level = 18
+DefaultWeapon = 413 //AK103
+NeedLevelUPKill = 1
+SubTreeWeapon = 7947 //컴뱃보우 Overclock
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_19]
+Level = 19
+DefaultWeapon = 6941 //GAL-1_v2
+NeedLevelUPKill = 1
+SubTreeWeapon = 5998 //GSR-6 반투명
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_20]
+Level = 20
+DefaultWeapon = 8225 //M4A1 Marble lv.100
+NeedLevelUPKill = 1
+SubTreeWeapon = 8492 //AWP Marble lv.100
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_21]
+Level = 21
+DefaultWeapon = 4737 //NA-34
+NeedLevelUPKill = 1
+SubTreeWeapon = 8304 //TRG21(IK)
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_22]
+Level = 22
+DefaultWeapon = 7232 //DRT-6
+NeedLevelUPKill = 1
+SubTreeWeapon = 3346 //C.Crossbow Paper
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_23]
+Level = 23
+DefaultWeapon = 5619 //RA-PDW Rumble lv.50
+NeedLevelUPKill = 1
+SubTreeWeapon = 5467 //GRS-6 Rumble lv.50
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_24]
+Level = 24
+DefaultWeapon = 6624 //PPS
+NeedLevelUPKill = 1
+SubTreeWeapon = 5122 //VS-9
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_25]
+Level = 25
+DefaultWeapon = 7032 //TAC-9
+NeedLevelUPKill = 1
+SubTreeWeapon = 8619 //DAP-2
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_26]
+Level = 26
+DefaultWeapon = 3843 //D.Eagle
+NeedLevelUPKill = 1
+SubTreeWeapon = 3399 //Magnum(S)
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_27]
+Level = 27
+DefaultWeapon = 2008 //DoubleBarrel
+NeedLevelUPKill = 1
+SubTreeWeapon = 3698 //T.Contender
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_28]
+Level = 28
+DefaultWeapon = 3270 //Throw Axe
+NeedLevelUPKill = 1
+SubTreeWeapon = 3270 //Throw Axe
+DefaultWeaponChance = 100
+SameAmmo = 0
+
+
+[GunLevel_29]
+Level = 29
+DefaultWeapon = 7108 //태평소
+NeedLevelUPKill = 1
+SubTreeWeapon = 7108 //태평소
+DefaultWeaponChance = 100
+SameAmmo = 0

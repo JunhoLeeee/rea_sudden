@@ -1,0 +1,303 @@
+/************************************************************************
+**
+**		<*> Project Limit <*> Server Sound Attributes file
+**
+** This file contains attributes for the following:
+**
+**  Sound paths
+**  Body Sounds
+**  AI Sounds
+**
+*/
+
+/************************************************************************
+**
+** Path Sound Attributes
+**
+**  The following specifies paths to id based sounds
+**  
+*/
+
+[Paths]
+
+Dialogue                     = "Voice\"
+
+/*
+**
+** AI Sound Attributes
+**
+**  Each record below maps to a ModelButeMgr SoundTemplate
+** 
+** "Parent" is used to specify a parent sound attribute record to look in if the
+**  requested sound isn't found in the current record.  For example, the "Isako"
+**  sound attribute record may only specify a few key sounds and would specify
+**  "Ninja" as its parent (for death, pain, etc. sounds)
+**
+** Available sound types:
+**
+** Accident
+** Alarm                   
+** AlertAllyMajor		- when one AI tells another he is suspicious.
+** AlertAllyMinor       - when one AI tells another he is alarmed.
+** Apprehend               
+** AssistTrappedAlly       
+** Attack                  
+** BackupCryWolf        - when AIs have responded too many times without finding anything.
+** BackupFail           - when an AI gets to a BackupNode, and no one is there.
+** Bleeding                
+** Burning
+** CatchBreath                 
+** Charge                  
+** Chase                   
+** Choking                 
+** Cover                   
+** Crush                   
+** DamageBearTrap          
+** DamageGlue              
+** DamageLaughing          
+** DamageSleeping          
+** DamageSlippery          
+** DamageStun              
+** Death                   
+** DeathQuiet    
+** Disappear
+** Disarmed              - AI wakes up without a weapon          
+** DiscoveryBad            
+** DiscoveryGood           
+** DisposeBody             
+** Distress                
+** DisturbanceHeardAlarming
+** DisturbanceHeardMajor   
+** DisturbanceHeardMinor   
+** DisturbanceSeenAlarming 
+** DisturbanceSeenMajor    
+** DisturbanceSeenMinor
+** DisturbanceSeenUnsure  - AI sees a leaning enemy
+** Drowsy                  
+** Electrocute             
+** Explode                 
+** Fall                    
+** FallStairs
+** FindBackup             - "I need help!" 
+** FollowFootprint         
+** Grenade                 
+** Idle                    
+** InvestigateFail         
+** JunctionDilemma         
+** LightsOff               
+** LightsOn                
+** LightSwitch  
+** Lunge           
+** None                    	
+** OhNo                    - "Oh no!"	
+** OrderBackup             - "Come with me!"
+** OrderCrouch             - ally yells "Get down!"
+** Pain                    
+** Panic                   
+** PointOfInterest
+** Poisoning         
+** Prone         
+** Reappear
+** Retreat          
+** Search                  
+** SearchFail              
+** SeeBody   
+** Snore              
+** SplitUp                 
+** Tail                    	
+** Urinal                  	- "Aaahhh"
+*/
+
+[Li_Sound_STUD]
+
+Parent                       = ""
+
+Alarm0                       = ""
+AlertAllyMajor0              = ""
+AlertAllyMinor0              = ""
+Apprehend0                   = ""
+AssistTrappedAlly0           = ""
+Attack0			     = "" 
+Attack1			     = "" 
+Attack2			     = "" 
+Attack3			     = "" 
+Attack4			     = "" 
+Attack5			     = "" 
+Attack6			     = "" 
+Attack7			     = "" 
+Attack8			     = "" 
+Attack9			     = "" 
+Attack10		     = "" 
+Backup0                      = ""
+BackupCryWolf0               = ""
+BackupFail0                  = ""
+Bleeding0                    = ""
+Burning0                     = ""
+Charge0                      = ""
+Chase0                       = ""
+Choking0                     = ""
+Cover0                       = ""
+Crush0			     = "" 
+DamageBearTrap0              = ""
+DamageGlue0                  = ""
+DamageLaughing0              = ""
+DamageSleeping0              = ""
+DamageSlippery0              = ""
+DamageStun0                  = ""
+Death0			     = ""
+Death1			     = ""
+Death2			     = "" 
+Death3			     = "" 
+Death4			     = "" 
+Death5			     = "" 
+DeathQuiet0		     = "" 
+DeathQuiet1		     = "" 
+DeathQuiet2		     = "" 
+DeathQuiet3		     = "" 
+DeathQuiet4		     = "" 
+DiscoveryBad0                = ""
+DiscoveryGood0               = ""
+DisposeBody0                 = ""
+Distress0                    = ""
+DisturbanceHeardAlarming0    = ""
+DisturbanceHeardMajor0       = ""
+DisturbanceHeardMinor0       = ""
+DisturbanceSeenAlarming0     = ""
+DisturbanceSeenMajor0        = ""
+DisturbanceSeenMinor0        = ""
+Drowsy0                      = ""
+Electrocute0                 = ""
+Explode0                     = ""
+Fall0			     = "" 
+Fall1			     = "" 
+FallStairs0		     = "" 
+FallStairs1		     = "" 
+FallStairs2		     = "" 
+FollowFootprint0	     = "" 
+FollowFootprint1	     = "" 
+FollowFootprint2	     = "" 
+Grenade0                     = ""
+Idle0                        = ""
+InvestigateFail0             = ""
+JunctionDilemma0             = ""
+LightsOff0                   = ""
+LightsOn0                    = ""
+LightSwitch0                 = ""
+None0                        = ""
+OhNo0                        = ""
+OrderCrouch0                 = ""
+Pain0			     = "" 
+Pain1			     = "" 
+Pain2			     = "" 
+Pain3			     = "" 
+Pain4			     = "" 
+Pain5			     = "" 
+Pain6			     = "" 
+Panic0                       = ""
+PointOfInterest0             = ""
+Poisoning0                   = ""
+Prone0                       = ""
+Search0                      = ""
+SearchFail0                  = ""
+SeeBody0                     = ""
+Snore0			     = ""
+SplitUp0                     = ""
+Tail0                        = ""
+Urinal0                      = ""
+
+[Li_Sound_REPLICA]
+
+Parent                       = ""
+
+Alarm0                       = ""
+AlertAllyMajor0              = ""
+AlertAllyMinor0              = ""
+Apprehend0                   = ""
+AssistTrappedAlly0           = ""
+Attack0			     = "" 
+Attack1			     = "" 
+Attack2			     = "" 
+Attack3			     = "" 
+Attack4			     = "" 
+Attack5			     = "" 
+Attack6			     = "" 
+Attack7			     = "" 
+Attack8			     = "" 
+Attack9			     = "" 
+Attack10		     = "" 
+Backup0                      = ""
+BackupCryWolf0               = ""
+BackupFail0                  = ""
+Bleeding0                    = ""
+Burning0                     = ""
+Charge0                      = ""
+Chase0                       = ""
+Choking0                     = ""
+Cover0                       = ""
+Crush0			     = "" 
+DamageBearTrap0              = ""
+DamageGlue0                  = ""
+DamageLaughing0              = ""
+DamageSleeping0              = ""
+DamageSlippery0              = ""
+DamageStun0                  = ""
+Death0			     = ""
+Death1			     = ""
+Death2			     = "" 
+Death3			     = "" 
+Death4			     = "" 
+Death5			     = "" 
+DeathQuiet0		     = "" 
+DeathQuiet1		     = "" 
+DeathQuiet2		     = "" 
+DeathQuiet3		     = "" 
+DeathQuiet4		     = "" 
+DiscoveryBad0                = ""
+DiscoveryGood0               = ""
+DisposeBody0                 = ""
+Distress0                    = ""
+DisturbanceHeardAlarming0    = ""
+DisturbanceHeardMajor0       = ""
+DisturbanceHeardMinor0       = ""
+DisturbanceSeenAlarming0     = ""
+DisturbanceSeenMajor0        = ""
+DisturbanceSeenMinor0        = ""
+Drowsy0                      = ""
+Electrocute0                 = ""
+Explode0                     = ""
+Fall0			     = "" 
+Fall1			     = "" 
+FallStairs0		     = "" 
+FallStairs1		     = "" 
+FallStairs2		     = "" 
+FollowFootprint0	     = "" 
+FollowFootprint1	     = "" 
+FollowFootprint2	     = "" 
+Grenade0                     = ""
+Idle0                        = ""
+InvestigateFail0             = ""
+JunctionDilemma0             = ""
+LightsOff0                   = ""
+LightsOn0                    = ""
+LightSwitch0                 = ""
+None0                        = ""
+OhNo0                        = ""
+OrderCrouch0                 = ""
+Pain0			     = "" 
+Pain1			     = "" 
+Pain2			     = "" 
+Pain3			     = "" 
+Pain4			     = "" 
+Pain5			     = "" 
+Pain6			     = "" 
+Panic0                       = ""
+PointOfInterest0             = ""
+Poisoning0                   = ""
+Prone0                       = ""
+Search0                      = ""
+SearchFail0                  = ""
+SeeBody0                     = ""
+Snore0			     = ""
+SplitUp0                     = ""
+Tail0                        = ""
+Urinal0                      = ""

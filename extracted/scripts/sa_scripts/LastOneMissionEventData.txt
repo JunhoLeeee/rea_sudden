@@ -1,0 +1,59 @@
+[Data1]	//ID 가 0인 것은 절대 써서는 안됨. 완성 못한 퍼즐의 ID 임.
+ID = 1
+Slot = 1
+Tex = "sa_interface2\menu\IntegrationEvent\survival3\Finalpuzzle_e.dtx"
+
+[Data2]
+ID = 2
+Slot = 2
+Tex = "sa_interface2\menu\IntegrationEvent\survival3\Finalpuzzle_xp.dtx"
+
+[Data3]
+ID = 3
+Slot = 3
+Tex = "sa_interface2\menu\IntegrationEvent\survival3\Finalpuzzle_10.dtx"
+ExpIndex = 0
+
+[Data4]
+ID = 4
+Slot = 3
+Tex = "sa_interface2\menu\IntegrationEvent\survival3\Finalpuzzle_20.dtx"
+
+[Data5]
+ID = 5
+Slot = 3
+Tex = "sa_interface2\menu\IntegrationEvent\survival3\Finalpuzzle_30.dtx"
+
+[Data6]
+ID = 6
+Slot = 3
+Tex = "sa_interface2\menu\IntegrationEvent\survival3\Finalpuzzle_40.dtx"
+
+[Data7]
+ID = 7
+Slot = 3
+Tex = "sa_interface2\menu\IntegrationEvent\survival3\Finalpuzzle_50.dtx"
+
+[Data8]
+ID = 8
+Slot = 3
+Tex = "sa_interface2\menu\IntegrationEvent\survival3\Finalpuzzle_100.dtx"
+
+[Data9]
+ID = 9
+Slot = 4
+Tex = "sa_interface2\menu\IntegrationEvent\survival3\Finalpuzzle_00.dtx"
+
+[Data10]
+ID = 10
+Slot = 4
+Tex = "sa_interface2\menu\IntegrationEvent\survival3\Finalpuzzle_000.dtx"
+
+[Percent1] //퍼센트 꼭 3개를 넣어야 함. 얼음 텍스처 퍼센트에 따라 보이는 정도
+Num = 30
+
+[Percent2] //퍼센트 꼭 3개를 넣어야 함. 얼음 텍스처 퍼센트에 따라 보이는 정도
+Num = 60
+
+[Percent3] //퍼센트 꼭 3개를 넣어야 함. 얼음 텍스처 퍼센트에 따라 보이는 정도
+Num = 99.9f

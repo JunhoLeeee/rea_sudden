@@ -1,0 +1,197 @@
+[HellgadeClass0] // = [HellgadeItem1972]
+ArmorType	= "Infantry"
+Stealth		= false
+Name		= "소총"
+
+[HellgadeClass1] // = [HellgadeItem1973]
+ArmorType	= "Infantry"
+Stealth		= false
+Name		= "유탄 소총 세트"
+
+[HellgadeClass2] // = [HellgadeItem1974]
+ArmorType	= "Infantry"
+Stealth		= false
+Name		= "저격"
+
+[HellgadeClass3] // = [HellgadeItem1975]
+ArmorType	= "Infantry"
+Stealth		= false
+Name		= "대물 저격 세트"
+
+[HellgadeClass4] // = [HellgadeItem1976]
+ArmorType	= "Infantry"
+Stealth		= false
+Name		= "유탄 세트"
+
+[HellgadeClass5] // = [HellgadeItem1977]
+ArmorType	= "Infantry"
+Stealth		= false
+Name		= "로켓 세트"
+
+[HellgadeClass6] // = [HellgadeItem1978]
+ArmorType	= "Infantry"
+Stealth		= false
+Name		= "고속 유탄 세트"
+
+[HellgadeClass7] // = [HellgadeItem1979]
+ArmorType	= "Infantry"
+Stealth		= false
+Name		= "유도 미사일 세트"
+
+[HellgadeClass8] // = [HellgadeItem1980]
+ArmorType	= "Infantry"
+Stealth		= false
+Name		= "수리 폭파 세트"
+
+[HellgadeClass9] // = [HellgadeItem1981]
+ArmorType	= "Infantry"
+Stealth		= false
+Name		= "수리 폭파"
+
+[HellgadeClass10] // = [HellgadeItem1982]
+ArmorType	= "Infantry"
+Stealth		= true
+Name		= "은신 암살"
+StealthRefractiveMin = 0.008 // 0.1%를 의미.  은신상태의 굴절률을 말함.
+StealthRefractiveMax = 1.000 // 0.8%를 의미.  비은신상태의 굴절률을 말함.
+
+[HellgadeClass11] // = [HellgadeItem1983]
+ArmorType	= "Infantry"
+Stealth		= false
+Name		= "긴급 방어 세트"
+
+[HellgadeClass100]
+ArmorType	= "LightArmor"
+Stealth		= false
+Name		= "기동 차량"//구 험비
+WeaponIconImageRed = "sa_interface2\hud\HellGade\Humvee_Rd.dtx"
+WeaponIconImageBlue = "sa_interface2\hud\HellGade\Humveed.dtx"
+
+[HellgadeClass101]
+ArmorType	= "LightArmor"
+Stealth		= false
+Name		= "포격 차량"//구 자주포
+WeaponIconImageRed = "sa_interface2\hud\HellGade\M019_Rd.dtx"
+WeaponIconImageBlue = "sa_interface2\hud\HellGade\M019d.dtx"
+
+
+[HellgadeClass102]
+ArmorType	= "HeavyArmor"
+Stealth		= false
+Name		= "장갑차"
+WeaponIconImageRed = "sa_interface2\hud\HellGade\M113_Rd.dtx"
+WeaponIconImageBlue = "sa_interface2\hud\HellGade\M113d.dtx"
+
+
+[HellgadeClass103]
+ArmorType	= "HeavyArmor"
+Stealth		= true
+StealthRefractiveIndex = 8 //1000분의 8 
+Name		= "스텔스 전차"//구 스텔스탱크
+WeaponIconImageRed = "sa_interface2\hud\HellGade\PL01_Rd.dtx"
+WeaponIconImageBlue = "sa_interface2\hud\HellGade\PL01d.dtx"
+
+
+[HellgadeClass104]
+ArmorType	= "HeavyArmor"
+Stealth		= false
+Name		= "소형 전차"//구 라이트탱크
+WeaponIconImageRed = "sa_interface2\hud\HellGade\M60_Rd.dtx"
+WeaponIconImageBlue = "sa_interface2\hud\HellGade\M60d.dtx"
+
+
+[HellgadeClass105]
+ArmorType	= "HeavyArmor"
+Stealth		= false
+Name		= "대형 전차"//구 헤비탱크
+WeaponIconImageRed = "sa_interface2\hud\HellGade\M1_Rd.dtx"
+WeaponIconImageBlue = "sa_interface2\hud\HellGade\M1d.dtx"
+
+
+[HellgadeClass200]
+ArmorType	= "Bomb"
+Stealth		= false
+Name		= "핵폭탄 유도기"//구 핵폭탄
+
+[HellgadeClass201]
+ArmorType	= "Bomb"
+Stealth		= true
+Name		= "시한 폭탄"//구 타이머C4
+
+[HellgadeClass202]
+ArmorType	= "Bomb"
+Stealth		= false
+Name		= "원격 폭탄"//구 원격C4
+
+[HellgadeClass203]
+ArmorType	= "LandMine"
+Stealth		= false
+Name		= "지뢰"
+
+[HellgadeClass204]
+ArmorType	= "LightArmor" //비행체들은 모두 LightArmor를 쓸 예정입니다 2014.05.10. 조대환
+Stealth		= false
+Name		= "비행기"
+
+[HellgadeClass205] // = [HellgadeItem1164]
+ArmorType	= "Item"
+Stealth		= false
+Name		= "로켓"
+
+[HellgadeClass206] // = [HellgadeItem1165]
+ArmorType	= "Item"
+Stealth		= false
+Name		= "미사일"
+
+[HellgadeClass300]
+ArmorType	= "Building"
+Stealth		= false
+Name		= "가드 타워"
+DamageNotice = "70=31300#32300|50=31300#32300|10=31300#32300" // HP백분율=같은팀알림#적팀알림|HP백분율=같은팀알림#적팀알림|.....
+DamageNoticeDelay = 7 // 7초간 같은 이벤트 무시.
+
+[HellgadeClass301]
+ArmorType	= "Building"
+Stealth		= false
+Name		= "우라늄 창고"//구 정제소
+DamageNotice = "70=31301#32301|50=31301#32301|10=31301#32301"
+DamageNoticeDelay = 7
+
+[HellgadeClass302]
+ArmorType	= "Building"
+Stealth		= false
+//Name		= "레이더 기지"//구 발전소
+Name		= "병영"//구 발전소
+DamageNotice = "70=31302#32302|50=31302#32302|10=31302#32302"
+DamageNoticeDelay = 7
+
+[HellgadeClass303]
+ArmorType	= "Building"
+Stealth		= false
+//Name		= "병영"//구 병영막사
+Name		= "사령실"//구 병영막사
+DamageNotice = "70=31303#32303|50=31303#32303|10=31303#32303"
+DamageNoticeDelay = 7
+
+[HellgadeClass304]
+ArmorType	= "Building"
+Stealth		= false
+Name		= "군수 공장"//구 차량생산소
+DamageNotice = "70=31304#32304|50=31304#32304|10=31304#32304"
+DamageNoticeDelay = 7
+
+[HellgadeClass399]
+ArmorType	= "Building"
+Stealth		= false
+Name		= "전진 기지"//구 베이스캠프
+DamageNotice = "70=31399#32399|50=31399#32399|10=31399#32399"
+DamageNoticeDelay = 7
+
+[HellgadeClass400]
+ArmorType	= "HeavyArmor"
+Stealth		= false
+Name		= "우라늄 수집차"//구 자원수집차량
+ResourceScavenger = true
+DamageNotice = "70=31400#32400|50=31400#32400|10=31400#32400"
+DamageNoticeDelay = 7
+

@@ -1,0 +1,1808 @@
+{
+  "source_sha256": "d013c3f158f1ecfa849513c0778a7094f48d2e895a1053d69c0ef616b1ed24ea",
+  "exact_cyclic_position_overlap": [],
+  "same_shader_duplicates": [
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1309,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1403,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1310,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1404,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1311,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1405,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1312,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1406,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1313,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1407,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1314,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1408,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1315,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1409,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1316,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1410,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1317,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1411,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1318,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1412,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1319,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1413,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1320,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1414,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1321,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1415,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1322,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1416,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1323,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1417,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1324,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1418,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1325,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1419,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1326,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1420,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1327,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1421,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1328,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1422,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1329,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1423,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1330,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1424,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1331,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1425,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1332,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1426,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1333,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1427,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1334,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1428,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1335,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1429,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1336,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1430,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1337,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1431,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1338,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1432,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1339,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1433,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1340,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1434,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1341,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1435,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1342,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1436,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1343,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1437,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1344,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1438,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1345,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1439,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1346,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1440,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1347,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1441,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1348,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1442,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1349,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1443,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1350,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1444,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1351,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1445,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1352,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1446,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1353,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1447,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1354,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1448,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1355,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1449,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1356,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1450,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1357,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1451,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1358,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1452,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1359,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1453,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1360,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1454,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1361,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1455,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1362,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1456,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1363,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1457,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1364,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1458,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1365,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1459,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1366,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1460,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1367,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1461,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1368,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1462,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1369,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1463,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1370,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1464,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1371,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1465,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1372,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1466,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1373,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1467,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1374,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1468,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1375,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1469,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1376,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1470,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1377,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1471,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1378,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1472,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1379,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1473,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1380,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1474,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1381,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1475,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1382,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1476,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1383,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1477,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1384,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1478,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1385,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1479,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1386,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1480,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1387,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1481,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1388,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1482,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1389,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1483,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1390,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1484,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1391,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1485,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1392,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1486,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1393,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1487,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1394,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1488,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1395,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1489,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1396,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1490,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1397,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1491,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1398,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1492,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1399,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1493,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1400,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1494,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1401,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1495,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 9,
+      "shader": 1,
+      "items": [
+        [
+          1402,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ],
+        [
+          1496,
+          11,
+          "SA_TEX\\ware_house\\Light2.dtx"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 14,
+      "shader": 1,
+      "items": [
+        [
+          502,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ],
+        [
+          514,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 14,
+      "shader": 1,
+      "items": [
+        [
+          503,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ],
+        [
+          515,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 14,
+      "shader": 1,
+      "items": [
+        [
+          504,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ],
+        [
+          516,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 14,
+      "shader": 1,
+      "items": [
+        [
+          505,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ],
+        [
+          517,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 14,
+      "shader": 1,
+      "items": [
+        [
+          506,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ],
+        [
+          518,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 14,
+      "shader": 1,
+      "items": [
+        [
+          507,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ],
+        [
+          519,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 14,
+      "shader": 1,
+      "items": [
+        [
+          508,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ],
+        [
+          520,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 14,
+      "shader": 1,
+      "items": [
+        [
+          509,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ],
+        [
+          521,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 14,
+      "shader": 1,
+      "items": [
+        [
+          510,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ],
+        [
+          522,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 14,
+      "shader": 1,
+      "items": [
+        [
+          511,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ],
+        [
+          523,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 14,
+      "shader": 1,
+      "items": [
+        [
+          512,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ],
+        [
+          524,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ]
+      ]
+    },
+    {
+      "world": "MAIN",
+      "block": 14,
+      "shader": 1,
+      "items": [
+        [
+          513,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ],
+        [
+          525,
+          7,
+          "SA_TEX\\ware_house\\box.DTX"
+        ]
+      ]
+    }
+  ]
+}

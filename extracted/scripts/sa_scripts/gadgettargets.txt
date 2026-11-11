@@ -1,0 +1,368 @@
+/************************************************************************
+**
+** G A D G E T  T A R G E T S
+**
+** The GadgetTarget definitions define all of the attributes associated with
+** a particular Gadget Target.  Defining a GadgetTarget in this way allows us to
+** easily make global changes to all the GadgetTargets.
+**
+**
+** All GadgetTarget definitions should contain the following properties:
+**
+**  Name (String)
+**
+**      The user friendly name of the GadgetTarget (what shows up in DEdit). 
+**
+**	Filename (String)
+**
+**		Name of the model file
+**
+**	Skin0-N (String)
+**
+**		Name of the skin file dtx(s).
+**      There can be any number of skins: Skin0, Skin1, ..., SkinN
+** 
+**  RenderStyle0-N (String)
+**
+**		Name of the render style file ltb(s).
+**      There can be any number of render styles: RenderStyle0, RenderStyle1, ..., RenderStyleN
+**
+** DebrisType (String)
+**
+**		What type of debris should this GadgetTarget create when it is destroyed
+**		(NOTE:  This should map directly to the name of a DEBRIS object in the
+**		Attributes\Debris.txt file).
+**	
+**	Scale (Vector)
+**
+**		How the GadgetTarget should be scaled.
+**
+**	ObjectColor (Vector)
+**
+**		The GadgetTarget's color.
+**
+**	Alpha (Float)
+**
+**		The GadgetTarget's alpha value.
+**
+**  HitPoints (Integer)
+**
+**		How many hit points the GadgetTarget has (set to -1 for CanDamage = FALSE)
+**
+**	Solid (Boolean)
+**
+**		Should the GadgetTarget be solid (1=true, 0=false)
+**
+**	Visible (Boolean)
+**
+**		Should the GadgetTarget be visible (1=true, 0=false)
+**
+**	Shadow (Boolean)
+**
+**		Should the GadgetTarget cast a shadow (1=true, 0=false)
+**
+**	MoveToFloor (Boolean)
+**
+**		Should the GadgetTarget be moved to the floor (1=true, 0=false)
+**
+**	DetailTexture (Boolean)
+**
+**		Should the GadgetTarget use detail textures (1=true, 0=false)
+**
+**	Chrome (Boolean)
+**
+**		Should the GadgetTarget use chrome (environment mapping) (1=true, 0=false)
+**
+**	Chromakey (Boolean)
+**
+**		Should the GadgetTarget use chromakey (1=true, 0=false)
+**
+**	Additive (Boolean)
+**
+**		Should the GadgetTarget use additive blending (1=true, 0=false)
+**
+**	Multiply (Boolean)
+**
+**		Should the GadgetTarget use multiplicative blending (1=true, 0=false)
+**
+**	Type (Integer)
+**
+**		Specifies what type of GadgetTarget this is?  This detrimines what gadget will interact
+**		with the target, whether or not the GadgetTarget can be shot at (destroyed) and whether
+**		or not the status bar will appear.  The valid types are:
+**				
+**				Type		Gadget		
+**
+**			1 - KeyPad			Code Breaker		
+**			2 - Card Reader		Code Breaker
+**			3 - Coded Text		Code Breaker
+**			4 - ComboLock		Welder - Can Shoot
+**			5 - PadLock			Lock Pick - Can Shoot
+**			6 - Door Knob		Lock Pick
+**			7 - Telephone		Eavesdrop bug
+**			8 - Photographable	Camera
+**			9 - Bombable		Time Bomb
+**			10 - Invisible Ink	Perfume (Ink Reagent)
+**	
+**	MinTime	(Float) - Overridable in DEdit
+**
+**		The minimum amount of time it takes to disable the GadgetTarget.  This property is also exposed 
+**		in DEdit so each GadgetTarget can override the defaults.
+**
+**	MaxTime	(Float) - Overridable in DEdit
+**
+**		If this is non zero the time to disable the GadgetTarget is randomized between Min and MaxTime.
+**		This property is also exposed in DEdit so each GadgetTarget can override the defaults.
+**
+**	DisablingSound	(String)
+**
+**		Name of the optional .wav file to loop while the GadgetTarget is being hacked.
+**
+**	DisabledSound	(String)
+**
+**		Name of the optional .wav file to play once as soon as the GadgetTarget is disabled.
+**
+**	SoundRadius	(Float)
+**
+**		Radius that the sounds are heard.
+**
+**	CodeID	(Integer) - Overridable in DEdit
+**
+**		This specifies a code to use when disabling a GadgetTarget. For KeyPap GadgetTarget types this is the 
+**		actual digit code that will gradually display as the KeyPad is being disabled.  For Coded Text GadgetTarget
+**		types this is the ID into CRes.dll of the coded text.
+**
+**  RemoveWhenDisabled	(Boolean)
+**
+**		Should the gadget target be removed once it is disabled.
+**
+**  InfiniteDisables (Boolean)
+**
+**		Can the gadget trget be disabled more than once.
+**
+**  InfiniteActivates (Boolean)
+**
+**		Can the gadget target be activated more than once.
+**
+** 	LightType (Integer) (OPTIONAL)
+**
+**		Specifies what type of light to create for this gadget target.  The light is represented
+**		by either two sprites or two models (light 1 and light 2).  If LightType is 1 or 2,
+**		Light 1 will be on until the gadget target is deactivated.  Once deactivated, Light 1
+**		will turn off and Light 2 will turn on.
+**				
+**			Type
+**
+**			  0 -	No light	
+**			  1 -	Light refers to a sprite		
+**			  2 -	Light refers to a model		
+**
+**	Light1Filename (String) (OPTIONAL)
+**
+**		Name of the light 1 sprite / model file
+**
+**	Light1Skin0-N (String) (OPTIONAL)
+**
+**		Name of the light 1 model skin file dtx(s).
+**      There can be any number of skins: Light1Skin0, Light1Skin1, ..., Light1SkinN
+**  
+**  LightRenderStyle0-N (String) (OPTIONAL)
+**
+**		Name of the light 1 and 2 model render style file ltb(s).
+**      There can be any number of render styles: Light1RenderStyle0, Light1RenderStyle1, ..., Light1RenderStyleN
+**
+**	LightScale (Vector) (OPTIONAL)
+**
+**		How the light 1 and 2 sprite / model should be scaled.
+**
+**	Light1Socket (String) (OPTIONAL)
+**
+**		The socket that light 1 is attached to.
+**
+**	Light2Filename (String) (OPTIONAL)
+**
+**		Name of the light 2 sprite / model file
+**
+**	Light2Skin0-N (String) (OPTIONAL)
+**
+**		Name of the light 2 model skin file dtx(s).
+**      There can be any number of skins: LightSkin0, LightSkin1, ..., LightSkinN
+**  
+**	Light2Socket (String) (OPTIONAL)
+**
+**		The socket that light 2 is attached to.
+**
+*/
+
+/*
+** GadgetTarget0 - DoorKnob
+*/
+
+[GadgetTarget0]
+
+Name				= "DoorKnob1 Left Bronze"
+FileName			= "Props\Models\GenDorKnob1L.ltb"
+Skin0				= "Props\Skins\GenDorKnob1B.dtx"
+RenderStyle0			= "RS\default.ltb"
+DebrisType			= "Charred chunks"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <255.0, 255.0, 255.0>
+HitPoints			= -1
+Solid				= 0
+Visible				= 1
+Shadow				= 0
+MoveToFloor			= 0
+DetailTexture			= 0
+Chrome				= 0
+Chromakey			= 0
+Additive			= 0
+Multiply			= 0
+Type				= 6
+MinTime				= 8.0
+MaxTime				= 0.0
+DisablingSound			= ""
+DisabledSound			= ""
+SoundRadius			= 400.0
+CodeID				= 0 
+RemoveWhenDisabled		= 0
+InfiniteDisables		= 0
+InfiniteActivates		= 0
+LightType			= 0
+LightScale			= <1.0, 1.0, 1.0>
+LightRenderStyle0		= ""
+Light1Filename			= ""
+Light1Skin0			= ""
+Light1Socket			= ""
+Light2Filename			= ""
+Light2Skin0			= ""
+Light2Socket			= ""
+
+/*
+** GadgetTarget1 - DoorKnob
+*/
+
+[GadgetTarget1]
+
+Name				= "DoorKnob2"
+FileName			= "Props\Models\GenDorKnob2L.ltb"
+Skin0				= "Props\Skins\GenDorKnob2B.dtx"
+RenderStyle0			= "RS\default.ltb"
+DebrisType			= "Charred chunks"
+Scale				= <1.0, 1.0, 1.0>
+ObjectColor			= <255.0, 255.0, 255.0>
+HitPoints			= -1
+Solid				= 0
+Visible				= 1
+Shadow				= 0
+MoveToFloor			= 0
+DetailTexture			= 0
+Chrome				= 0
+Chromakey			= 0
+Additive			= 0
+Multiply			= 0
+Type				= 6
+MinTime				= 8.0
+MaxTime				= 0.0
+DisablingSound			= ""
+DisabledSound			= ""
+SoundRadius			= 400.0
+CodeID				= 0 
+RemoveWhenDisabled		= 0
+InfiniteDisables		= 0
+InfiniteActivates		= 0
+LightType			= 0
+LightScale			= <1.0, 1.0, 1.0>
+LightRenderStyle0		= ""
+Light1Filename			= ""
+Light1Skin0			= ""
+Light1Socket			= ""
+Light2Filename			= ""
+Light2Skin0			= ""
+Light2Socket			= ""
+
+/*
+** GadgetTarget2 - Photo item
+*/
+
+[GadgetTarget2]
+
+Name				= "Photographable01"
+FileName			= "Models\1x1_square.ltb"
+Skin0				= ""
+RenderStyle0			= ""
+DebrisType			= "Charred chunks"
+Scale				= <32.0, 32.0, 32.0>
+ObjectColor			= <255.0, 255.0, 255.0>
+HitPoints			= -1
+Solid				= 0
+Visible				= 0
+Shadow				= 0
+MoveToFloor			= 0
+DetailTexture			= 0
+Chrome				= 0
+Chromakey			= 0
+Additive			= 0
+Multiply			= 0
+Type				= 8
+MinTime				= 0.0
+MaxTime				= 0.0
+DisablingSound			= ""
+DisabledSound			= ""
+SoundRadius			= 0.0
+CodeID				= 0
+RemoveWhenDisabled		= 0
+InfiniteDisables		= 0
+InfiniteActivates		= 0
+LightType			= 0
+LightScale			= <1.0, 1.0, 1.0>
+LightRenderStyle0		= ""
+Light1Filename			= ""
+Light1Skin0			= ""
+Light1Socket			= ""
+Light2Filename			= ""
+Light2Skin0			= ""
+Light2Socket			= ""
+
+/*
+** GadgetTarget3 - Bombable
+*/
+
+[GadgetTarget3]
+
+Name				= "Bombable01"
+FileName			= "SA_PROPS\models\bombtarget.ltb"
+Skin0				= "SA_PROPS\skins\bombtarget.dtx"
+DebrisType			= ""
+Scale				= <1.0, 1.0, 1.0>
+HitPoints			= -1
+Solid				= 0
+Visible				= 0
+Shadow				= 0
+MoveToFloor			= 0
+DetailTexture			= 0
+Chrome				= 0
+Chromakey			= 0
+RenderStyle0			= "RENDERSTYLES\optical.ltb"
+ObjectColor			= <255.0, 255.0, 255.0>
+Alpha				= 1
+Additive			= 0
+Multiply			= 0
+Type				= 9
+MinTime				= 0.0
+MaxTime				= 0.0
+DisablingSound			= "SA_WEAPONS\SND\TimeBomb\defusing.wav"
+DisabledSound			= "SA_WEAPONS\SND\TimeBomb\defused.wav"
+SoundRadius			= 2500.0
+CodeID				= 0
+RemoveWhenDisabled		= 0
+InfiniteDisables		= 0
+InfiniteActivates		= 0
+LightType			= 0
+LightScale			= <1.0, 1.0, 1.0>
+LightRenderStyle0		= ""
+Light1Filename			= ""
+Light1Skin0			= ""
+Light1Socket			= ""
+Light2Filename			= ""
+Light2Skin0			= ""
+Light2Socket			= ""

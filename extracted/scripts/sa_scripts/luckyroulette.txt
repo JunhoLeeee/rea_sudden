@@ -1,0 +1,6 @@
+[LuckyRoulette0]
+ItemCode = "EET1575"
+Title 	 = "SA_Interface2\Menu\Shop\LuckyRoulette\bigroulette_title.dtx"
+Roulette = "SA_Interface2\Menu\Shop\LuckyRoulette\roulette_board.dtx"
+Result0  = "SA_Interface2\Menu\Shop\LuckyRoulette\roulette_lose.dtx"
+Result1  = "SA_Interface2\Menu\Shop\LuckyRoulette\roulette_win.dtx"

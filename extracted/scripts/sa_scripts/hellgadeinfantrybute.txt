@@ -1,0 +1,159 @@
+//모든 항목에는 아래 형식으로 주석을 붙여줍니다.
+//[종류] 클라이언트상에 유저에게 표시되는 이름 || 웨폰스크립트의 Name
+//-1은 "비움"이라고 써주세요.
+//Weapon 뒤에 숫자는 별 의미 없음. -1 넣을 필요 없음. 무기 갯수 제한 없음.
+//다음 버전에서 -1 들어간 항목 싹 지우고 Weapon뒤의 숫자를 지우든가 체계화해서 수정하든가 할 예정 2014.06.26.조대환.
+//항목명 Weapon 뒤에 붙는 숫자 체계화. 10단위는 주무기, 20단위는 핸드건, 30단위는 나이프, 40단위는 투척 무기. 아 젭라 시원하다. 2014.06.27.조대환.
+//UseInventoryWeapon 인벤토리 무기 사용. ture false로 씀
+
+//총기 계열--------------------------------------------------------------------
+
+
+//소총 세트
+[HellgadeItem1972]
+//Weapon10 = 1166       //[주무기] CM901 || CM901_Hellgade
+//Weapon20 = 19         //[핸드건] C.USP || SA_USP45
+//Weapon30 = 0          //[나이프] Knife || SA_Knife
+Weapon40 = 8         //[수류탄] G400 || S_Grenade
+//Weapon41 = 1173      //[폭탄] 시한 폭탄 || Hellgade_Timed_Bomb1
+Weapon41 = 1197      //[폭탄] 시한 폭탄 || Hellgade_Timed_Bomb2
+// 기능이 안되어있는 스크립트입니다. >> HoldingWeapon = 10    //들고 있을 무기. 본 스크립트 상의 Weapon뒤의 번호 사용. 예를 들어, 여기의 값1은 Weapon1의 1임.
+ImageName = "HellClassSet001"
+UseInventoryMainWeapon		= true
+UseInventorySecondaryWeapon	= true
+UseInventoryMeleeWeapon		= true
+UseInventoryThrowWeapon		= false
+
+//유탄 소총 세트
+[HellgadeItem1973]
+Weapon10 = 1161       //[주무기] 유탄 소총 || hg_m203
+Weapon20 = 1          //[핸드건] D.Eagle || SA_DesertEagle
+Weapon30 = 49          //[나이프] TigerStripe || SA_TIGER_STRIPE
+Weapon40 = 8         //[수류탄] G400 || S_Grenade
+Weapon41 = 1173      //[폭탄] 시한 폭탄 || Hellgade_Timed_Bomb1
+HoldingWeapon = 10
+ImageName = "HellClassSet002" //011
+
+
+//저격 세트//구 TRG21 세트(1회용)
+[HellgadeItem1974]
+Weapon10 = 1169       //[주무기] TRG-21 || hg_TRG21
+Weapon20 = 2          //[핸드건] C.Anaconda || SA_Anaconda
+Weapon30 = 28         //[나이프] Gurkha Knife || SA_Kukri
+Weapon40 = 8         //[수류탄] G400 || S_Grenade
+//Weapon41 = 1173      //[폭탄] 시한 폭탄 || Hellgade_Timed_Bomb1
+Weapon41 = 1197      //[폭탄] 시한 폭탄 || Hellgade_Timed_Bomb2
+HoldingWeapon = 10
+ImageName = "HellClassSet003" //010
+UseInventoryWeapon = true
+
+
+//대물 저격 세트
+[HellgadeItem1975]
+Weapon10 = 1162       //[주무기] 고급 저격총 || barrett_m82
+Weapon20 = 135        //[핸드건] BH.Magnum || BH_Magnum
+Weapon30 = 48         //[나이프] AXE Knife || SA_AXE_KNIFE
+Weapon40 = 8         //[수류탄] G400 || S_Grenade
+Weapon41 = 1173      //[폭탄] 시한 폭탄 || Hellgade_Timed_Bomb1
+HoldingWeapon = 10
+ImageName = "HellClassSet004" //009
+
+
+
+//중화기 계열--------------------------------------------------------------------
+
+
+//유탄 세트(구 유탄병)
+[HellgadeItem1976]
+Weapon10 = 1160      //[주무기] 유탄 발사기 || hg_Milkor_MGL
+Weapon20 = 19         //[핸드건] C.USP || SA_USP45
+Weapon30 = 0          //[나이프] Knife || SA_Knife
+Weapon40 = 8         //[수류탄] G400 || S_Grenade
+Weapon41 = 1173      //[폭탄] 시한 폭탄 || Hellgade_Timed_Bomb1
+HoldingWeapon = 10
+ImageName = "HellClassSet005" //012
+
+
+//로켓 세트(구 대전차병)
+[HellgadeItem1977]
+Weapon10 = 1164       //[주무기] 로켓 || hg_m202_X6
+Weapon20 = 1          //[핸드건] D.Eagle || SA_DesertEagle
+Weapon30 = 49          //[나이프] TigerStripe || SA_TIGER_STRIPE
+Weapon40 = 8         //[수류탄] G400 || S_Grenade
+Weapon41 = 1173      //[폭탄] 시한 폭탄 || Hellgade_Timed_Bomb1
+HoldingWeapon = 10
+ImageName = "HellClassSet006" //014
+
+
+//고속 유탄 세트
+[HellgadeItem1978]
+Weapon10 = 1159       //[주무기] 고급 유탄 발사기 || hg_neopup
+Weapon20 = 2          //[핸드건] C.Anaconda || SA_Anaconda
+Weapon30 = 28         //[나이프] Gurkha Knife || SA_Kukri
+Weapon40 = 8         //[수류탄] G400 || S_Grenade
+Weapon41 = 1173      //[폭탄] 시한 폭탄 || Hellgade_Timed_Bomb1
+HoldingWeapon = 10
+ImageName = "HellClassSet007" //013
+
+
+//유도 미사일 세트 //구 SMAW 세트(1회용)
+[HellgadeItem1979]
+Weapon10 = 1165       //[주무기] 고급 로켓 || hg_SMAW
+Weapon20 = 135        //[핸드건] BH.Magnum || BH_Magnum
+Weapon30 = 48         //[나이프] AXE Knife || SA_AXE_KNIFE
+Weapon40 = 8         //[수류탄] G400 || S_Grenade
+Weapon41 = 1173      //[폭탄] 시한 폭탄 || Hellgade_Timed_Bomb1
+HoldingWeapon = 10
+ImageName = "HellClassSet008" //015
+
+
+//특수전 계열--------------------------------------------------------------------
+
+
+//수리 폭파 세트//구 엔지니어 세트
+[HellgadeItem1980]
+Weapon10 = 1157       //[주무기] 수리/해체 총 || hg_repair gun //이 빈칸은 뭐야 ㅠㅠ
+Weapon20 = 1          //[핸드건] D.Eagle || SA_DesertEagle
+Weapon30 = 0          //[나이프] Knife || SA_Knife
+Weapon40 = 1172      //[폭탄] 원격 폭탄 || Hellgade_Remote_Bomb
+Weapon41 = 1173      //[폭탄] 시한 폭탄 || Hellgade_Timed_Bomb1
+HoldingWeapon = 10
+ImageName = "HellClassSet009" //016
+
+
+//단독 침투 세트//고급 엔지니어 세트
+[HellgadeItem1981]
+Weapon10 = 1158       //[주무기] 고급 수리/해체 총 || hg_repair gun_adv //그러니까 이 빈칸은 뭐냐고 ㅠㅠ
+//Weapon11 = 5     	  //[주무기] mp5 || mp5 // 엔지니어의 주무기 중 화력을 부가
+//Weapon20 = 2          //[핸드건] C.Anaconda || SA_Anaconda
+//Weapon30 = 49          //[나이프] TigerStripe || SA_TIGER_STRIPE
+Weapon40 = 1172      //[폭탄] 원격 폭탄 || Hellgade_Remote_Bomb
+Weapon41 = 1197      //[폭탄] 시한 폭탄 || Hellgade_Timed_Bomb2
+Weapon42 = 1171      //[폭탄] 지뢰 || hg_mine
+HoldingWeapon = 10
+ImageName = "HellClassSet010" //017
+UseInventorySecondaryWeapon	= true
+UseInventoryMeleeWeapon		= true
+
+
+//은신 암살 세트//구 Stealth 세트(1회용) ***잠입 엔지니어 세트***
+[HellgadeItem1982]
+//Weapon10 = 1158       //[주무기] 고급 수리/해체 총 || hg_repair gun_adv
+Weapon10 = 1157       //[주무기] 수리/해체 총 || hg_repair gun 
+//Weapon20 = 557       //[핸드건] BH Magnum(s)
+//Weapon30 = 28         //[나이프] Gurkha Knife || SA_Kukri
+Weapon40 = 1197      //[폭탄] 시한 폭탄 || Hellgade_Timed_Bomb2
+HoldingWeapon = 30
+ImageName = "HellClassSet011" // 20
+UseInventoryMeleeWeapon		= true
+
+//긴급 방어 세트//구 플라즈마 세트
+[HellgadeItem1983]
+Weapon10 = 1163       //[주무기] 입자포 || hg_ParticleCannon
+Weapon11 = 1158       //[주무기] 고급 수리/해체 총 || hg_repair gun_adv
+Weapon20 = 135        //[핸드건] BH.Magnum || BH_Magnum
+Weapon30 = 48         //[나이프] AXE Knife || SA_AXE_KNIFE
+Weapon40 = 8         //[수류탄] G400 || S_Grenade
+Weapon41 = 1173      //[폭탄] 시한 폭탄 || Hellgade_Timed_Bomb1
+HoldingWeapon = 10
+ImageName = "HellClassSet012" //4

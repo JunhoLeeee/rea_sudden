@@ -1,0 +1,774 @@
+[Collection0]
+category = 3
+type = 0
+level = 0
+base = -1
+collectionname = "기본값"
+TileTip0 = "기본값"
+TileTip1 = "기본값"
+TileTip2 = "기본값"
+TileTip3 = "기본값"
+TileTip4 = "기본값"
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "기본값"
+collectiontip2 = "기본값"
+collectiontip3 = "기본값"
+
+[Collection1]
+category = 3
+type = 1
+level = 0
+base = -1
+collectionname = "10주년 블루"
+TileTip0 = "10주년 이벤트 기념 엠블럼"
+TileTip1 = "지난 10년동안 서든어택에"
+TileTip2 = "보내주신 사랑에 감사드립니다."
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "10주년 한정 엠블럼"
+collectiontip2 = "획득 불가"
+collectiontip3 = ""
+
+[Collection2]
+category = 3
+type = 2
+level = 0
+base = -1
+collectionname = "10주년 골드"
+TileTip0 = "지난 10년 동안 서든어택을"
+TileTip1 = "아껴주신 분들을 위한"
+TileTip2 = "10주년 골드 엠블럼"
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "남은 기간: "
+RemainCount1 = "일"
+collectiontip1 = "캐릭터 생성 10년 후"
+collectiontip2 = "접속 시 획득"
+collectiontip3 = ""
+rewarditem0 = "EET2925"
+rewarditeminfo0 = " (1개)"
+
+[Collection3]
+category = 3
+type = 3
+level = 0
+base = -1
+collectionname = "대작 업데이트"
+TileTip0 = "2015년 대작 업데이트 전용"
+TileTip1 = "한정판 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "2015년 대작 업데이트"
+collectiontip2 = "사전 등록 참여"
+collectiontip3 = ""
+
+[Collection4]
+category = 3
+type = 4
+level = 0
+base = -1
+collectionname = "PC방 매니아"
+TileTip0 = "PC방 플레이어를 위한"
+TileTip1 = "PC방 매니아 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "남은 시간: "
+RemainCount1 = "시간"
+collectiontip1 = "PC방에서 플레이 한 시간을"
+collectiontip2 = "누적하여 획득"
+collectiontip3 = ""
+rewarditem0 = "EET3013"
+rewarditeminfo0 = " (7일)"
+
+[Collection5]
+category = 3
+type = 5
+level = 0
+base = -1
+collectionname = "핫타임 매니아"
+TileTip0 = "핫타임 이벤트 전용"
+TileTip1 = "핫타임 매니아 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "남은 참여 횟수: "
+RemainCount1 = "회"
+collectiontip1 = "핫타임 이벤트를 완료한"
+collectiontip2 = "횟수를 누적하여 획득"
+collectiontip3 = ""
+rewarditem0 = "EET4571"
+rewarditeminfo0 = " (3만)"
+
+[Collection6]
+category = 3
+type = 6
+level = 0
+base = -1
+collectionname = "코인 매니아"
+TileTip0 = "코인 이벤트를 통해 얻는 코인 전용"
+TileTip1 = "코인 매니아 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "남은 코인 개수: "
+RemainCount1 = "개"
+collectiontip1 = "코인 이벤트에 참여해"
+collectiontip2 = "코인을 획득한 횟수를"
+collectiontip3 = "누적하여 획득"
+rewarditem0 = "EET2125"
+rewarditeminfo0 = " (1개)"
+
+[Collection7]
+category = 3
+type = 7
+level = 0
+base = -1
+collectionname = "AK47의 달인"
+TileTip0 = "AK47 돌격소총의 달인을 위한"
+TileTip1 = "AK47의 달인 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "남은 Kill 수: "
+RemainCount1 = "회"
+collectiontip1 = "AK47 주무기를 착용하고"
+collectiontip2 = "Kill 한 횟수를 누적하여 획득"
+collectiontip3 = "(AK47류 총기 모두 포함)"
+rewarditem0 = "WPW1815"
+rewarditeminfo0 = " (15일)"
+
+[Collection8]
+category = 3
+type = 8
+level = 0
+base = -1
+collectionname = "TRG21의 달인"
+TileTip0 = "TRG 저격소총의 달인을 위한"
+TileTip1 = "TRG21의 달인 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "남은 Kill 수: "
+RemainCount1 = "회"
+collectiontip1 = "TRG21 주무기를 착용하고"
+collectiontip2 = "Kill 한 횟수를 누적하여 획득"
+collectiontip3 = "(TRG21류 총기 모두 포함)"
+rewarditem0 = "WPW1814"
+rewarditeminfo0 = " (15일)"
+
+[Collection9]
+category = 3
+type = 9
+level = 0
+base = -1
+collectionname = "클랜전 매니아"
+TileTip0 = "클랜전을 열심히 달린 당신을 위해"
+TileTip1 = "준비된 클랜전 매니아 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "남은 참여 횟수: "
+RemainCount1 = "회"
+collectiontip1 = "클랜전 참여 횟수를"
+collectiontip2 = "누적하여 획득"
+collectiontip3 = "(용병 참여도 가능)"
+rewarditem0 = "EET158"
+rewarditeminfo0 = " (1개)"
+
+[Collection10]
+category = 3
+type = 10
+level = 0
+base = -1
+collectionname = "복수혈전"
+TileTip0 = "복수에 의한 복수를 위한 !!"
+TileTip1 = "복수혈전 엠블럼"
+TileTip2 = ""
+TileTip3 = "복수: 1판동안 바로직전에 나를 죽인"
+TileTip4 = "        상대방을 내가 죽였을 때"
+RemainCount0 = "남은 Kill 수: "
+RemainCount1 = "회"
+collectiontip1 = "복수의 Kill 횟수를"
+collectiontip2 = "누적하여 획득"
+collectiontip3 = ""
+rewarditem0 = "EET4571"
+rewarditeminfo0 = " (5만)"
+
+[Collection11]
+category = 3
+type = 11
+level = 0
+base = -1
+collectionname = "승부사"
+TileTip0 = "게임의 승부는 내가 짓는다 !!"
+TileTip1 = "승부사 엠블럼"
+TileTip2 = ""
+TileTip3 = "승부: 킬에 의해서 WIN 이 결정나는"
+TileTip4 = "        경우에만 승부로 인정"
+RemainCount0 = "남은 Kill 수: "
+RemainCount1 = "회"
+collectiontip1 = "승부가 결정나는"
+collectiontip2 = "Kill을 누적하여 획득"
+collectiontip3 = ""
+rewarditem0 = "EET4571"
+rewarditeminfo0 = " (5만)"
+
+[Collection12]
+category = 3
+type = 12
+level = 0
+base = -1
+collectionname = "원샷 원 킬러"
+TileTip0 = "한 발에 한 킬씩 ~"
+TileTip1 = "원샷 원 킬러 엠블럼"
+TileTip2 = ""
+TileTip3 = "원샷원킬: HP 100인 유저를 한방에"
+TileTip4 = "              죽인 킬"
+RemainCount0 = "남은 Kill 수: "
+RemainCount1 = "회"
+collectiontip1 = "원샷 원킬 횟수를"
+collectiontip2 = "누적하여 획득"
+collectiontip3 = "(수류탄을 제외한 무기)"
+rewarditem0 = "EET4571"
+rewarditeminfo0 = " (5만)"
+
+[Collection13]
+category = 3
+type = 13
+level = 0
+base = -1
+collectionname = "스페셜 킬러"
+TileTip0 = "전장을 지배한 당신을 위한"
+TileTip1 = "스페셜 킬러 엠블럼"
+TileTip2 = ""
+TileTip3 = "스페셜킬: 더블킬 이상으로 킬을 하면"
+TileTip4 = "              발생되는 킬"
+RemainCount0 = "남은 Kill 수: "
+RemainCount1 = "회"
+collectiontip1 = "스페셜킬 횟수를"
+collectiontip2 = "누적하여 획득"
+collectiontip3 = ""
+rewarditem0 = "EET4571"
+rewarditeminfo0 = " (5만)"
+
+[Collection14]
+category = 3
+type = 14
+level = 0
+base = -1
+collectionname = "헤드샷의 달인"
+TileTip0 = "화끈하게 헤드 한방!!"
+TileTip1 = "헤드샷 달인 분들을 위한"
+TileTip2 = "헤드샷의 달인 엠블럼"
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "남은 Kill 수: "
+RemainCount1 = "회"
+collectiontip1 = "헤드샷 횟수를"
+collectiontip2 = "누적하여 획득"
+collectiontip3 = ""
+rewarditem0 = "EET4571"
+rewarditeminfo0 = " (5만)"
+
+[Collection15]
+category = 3
+type = 15
+level = 0
+base = -1
+collectionname = "SG870의 달인"
+TileTip0 = "SG870 특수총의 달인을 위한"
+TileTip1 = "SG870의 달인 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "남은 Kill 수: "
+RemainCount1 = "회"
+collectiontip1 = "SG870 주무기를 착용하고"
+collectiontip2 = "Kill 한 횟수를 누적하여 획득"
+collectiontip3 = "(SG870류 총기 모두 포함)"
+rewarditem0 = "EET4571"
+rewarditeminfo0 = " (5만)"
+
+[Collection16]
+category = 3
+type = 16
+level = 0
+base = -1
+collectionname = "소드 마스터"
+TileTip0 = "나이프!! 칼!! 서든은 칼로 하는 것!!"
+TileTip1 = "근접무기라면 자신 있는 분들에게"
+TileTip2 = "안성맞춤인 소드 마스터 엠블럼"
+TileTip3 = ""
+TileTip4 = "※ 총기 착검 포함"
+RemainCount0 = "남은 Kill 수: "
+RemainCount1 = "회"
+collectiontip1 = "근접무기를 이용해"
+collectiontip2 = "Kill 한 횟수를 누적하여 획득"
+collectiontip3 = "(모든 근접무기 포함)"
+rewarditem0 = "EET4571"
+rewarditeminfo0 = " (5만)"
+
+[Collection17]
+category = 3
+type = 17
+level = 0
+base = -1
+collectionname = "슈퍼리치"
+TileTip0 = "무려 100만! 백만! 백마안~!!"
+TileTip1 = "서든을 하며 포인트 100만을 썼다!!"
+TileTip2 = "이제 당신을 슈퍼리치로 인정합니다."
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "남은 소비량: "
+RemainCount1 = "포인트"
+collectiontip1 = "게임에서 소비한 포인트를"
+collectiontip2 = "누적하여 획득"
+collectiontip3 = "(연구소 소비 제외)"
+rewarditem0 = "EET2125"
+rewarditeminfo0 = " (1개)"
+rewarditem1 = "EET4571"
+rewarditeminfo1 = " (3만)"
+
+[Collection18]
+category = 3
+type = 18
+level = 0
+base = -1
+collectionname = "세이브 마스터"
+TileTip0 = "이번 라운드는 내가 지켜냈다."
+TileTip1 = "클랜전 최고의 실력자!"
+TileTip2 = "수 많은 세이브를 만들어낸 당신!"
+TileTip3 = "세이브 마스터 엠블럼을 가져라~"
+TileTip4 = ""
+RemainCount0 = "남은 횟수: "
+RemainCount1 = "회"
+collectiontip1 = "클랜전 중 1vs3 이상의 상황에서"
+collectiontip2 = "적을 모두 Kill 한 경우 세이브 1회"
+collectiontip3 = "해당 횟수를 누적하여 획득"
+rewarditem0 = "567"
+rewarditeminfo0 = "567"
+rewarditem1 = "EET4571"
+rewarditeminfo1 = " (5만)"
+
+[Collection19]
+category = 3
+type = 19
+level = 0
+base = -1
+collectionname = "생존의 제왕"
+TileTip0 = "존경의 대상인 1인자"
+TileTip1 = "생존의 1인자인 당신에게 드리는"
+TileTip2 = "생존의 제왕 엠블럼"
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "남은 1등 횟수: "
+RemainCount1 = "회"
+collectiontip1 = "생존전에서"
+collectiontip2 = "1등을 한 횟수를 누적하여 획득"
+collectiontip3 = ""
+
+[Collection20]
+category = 3
+type = 20
+level = 0
+base = -1
+collectionname = "출발 런런런"
+TileTip0 = "출발 런런런 ~"
+TileTip1 = "골을 향해 뛰어 뛰어 ~"
+TileTip2 = "열심히 달린 당신에게 드리는"
+TileTip3 = "출발 런런런 엠블럼"
+TileTip4 = ""
+RemainCount0 = "남은 골 수: "
+RemainCount1 = "회"
+collectiontip1 = "출발 런런런에서 골에 들어간"
+collectiontip2 = "횟수를 누적하여 획득"
+collectiontip3 = ""
+rewarditem0 = "575"
+rewarditeminfo0 = "575"
+rewarditem1 = "EET4571"
+rewarditeminfo1 = " (3만)"
+
+[Collection21]
+category = 3
+type = 21
+level = 0
+base = -1
+collectionname = "어쎄신"
+TileTip0 = "소리 없이 다가가 순식간에 슥삭~"
+TileTip1 = "항상 등 뒤를 조심 할 것…"
+TileTip2 = "조용한 킬러에게 드리는"
+TileTip3 = "어쎄신 엠블럼"
+TileTip4 = ""
+RemainCount0 = "남은 암살 수: "
+RemainCount1 = "회"
+collectiontip1 = "생존전에서 암살 Kill 횟수를"
+collectiontip2 = "누적하여 획득"
+collectiontip3 = ""
+
+[Collection22]
+category = 3
+type = 22
+level = 0
+base = -1
+collectionname = "어레스트"
+TileTip0 = "한 자루의 저격총으로"
+TileTip1 = "감옥 섬을 지키는자!"
+TileTip2 = "탈출을 시도하는 죄수를 저지하라!!"
+TileTip3 = "어레스트 엠블럼"
+TileTip4 = ""
+RemainCount0 = "남은 Kill 수: "
+RemainCount1 = "회"
+collectiontip1 = "감옥탈출에서 블루팀으로"
+collectiontip2 = "Kill 한 횟수를 누적하여 획득"
+collectiontip3 = ""
+rewarditem0 = "WPW2024"
+rewarditeminfo0 = " (7일)"
+rewarditem1 = "EET4571"
+rewarditeminfo1 = " (3만)"
+
+[Collection23]
+category = 3
+type = 23
+level = 0
+base = -1
+collectionname = "이스케이프"
+TileTip0 = "드디어 기회가 왔다…"
+TileTip1 = "이 섬을 반드시 탈출 하겠다!"
+TileTip2 = "감시탑 꼭대기를 향해 돌격!!"
+TileTip3 = "이스케이프 엠블럼"
+TileTip4 = ""
+RemainCount0 = "남은 Kill 수: "
+RemainCount1 = "회"
+collectiontip1 = "감옥탈출에서 레드팀으로"
+collectiontip2 = "Kill 한 횟수를 누적하여 획득"
+collectiontip3 = ""
+rewarditem0 = "WKN1229"
+rewarditeminfo0 = " (15일)"
+rewarditem1 = "EET4571"
+rewarditeminfo1 = " (3만)"
+
+[Collection24]
+category = 3
+type = 24
+level = 0
+base = -1
+collectionname = "폭탄 마스터"
+TileTip0 = "폭파에 성공하였다!!"
+TileTip1 = "폭탄을 해체하였다!!"
+TileTip2 = "폭파미션의 달인에게 드리는"
+TileTip3 = "폭탄 마스터 엠블럼"
+TileTip4 = ""
+RemainCount0 = "남은 횟수: "
+RemainCount1 = "회"
+collectiontip1 = "폭탄 폭파성공 또는 해체성공"
+collectiontip2 = "횟수를 누적하여 획득"
+collectiontip3 = "(폭탄설치 맵 모두 포함)"
+rewarditem0 = "EET4571"
+rewarditeminfo0 = " (5만)"
+
+[Collection25]
+category = 3
+type = 25
+level = 0
+base = -1
+collectionname = "트랩퍼"
+TileTip0 = "이번엔 부비 트랩이다"
+TileTip1 = "비밀리에 설치하고 매복하라!"
+TileTip2 = "G400 부비트랩 달인에게 드리는"
+TileTip3 = "트랩퍼 엠블럼"
+TileTip4 = ""
+RemainCount0 = "남은 Kill 수: "
+RemainCount1 = "회"
+collectiontip1 = "G400 부비트랩으로 Kill 한"
+collectiontip2 = "횟수를 누적하여 획득"
+collectiontip3 = "2025년 12월 11일 이후 달성불가"
+
+[Collection26]
+category = 3
+type = 26
+level = 0
+base = -1
+collectionname = "수류탄 마스터"
+TileTip0 = "실력이든 운이든 수류탄으로 킬!!"
+TileTip1 = "수류탄 마스터 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "남은 Kill 수: "
+RemainCount1 = "회"
+collectiontip1 = "수류탄을 던져 Kill 한 "
+collectiontip2 = "횟수를 누적하여 획득"
+collectiontip3 = ""
+rewarditem0 = "WET1832 "
+rewarditeminfo0 = " (7일)"
+rewarditem1 = "EET4571"
+rewarditeminfo1 = " (3만)"
+
+[Collection27]
+category = 3
+type = 27
+level = 0
+base = -1
+collectionname = "핵배송 마스터"
+TileTip0 = "밀고 밀리는 팽팽한 전장에서"
+TileTip1 = "골을 넣는데 크게 기여한 "
+TileTip2 = "당신에게 드리는"
+TileTip3 = "핵배송 마스터 엠블럼"
+TileTip4 = "(2018년 7월 5일 이후로 획득불가)"
+RemainCount0 = "남은 골 수: "
+RemainCount1 = "회"
+collectiontip1 = "수송모드에서 폭탄 차량을 "
+collectiontip2 = "골인 지점으로 완전히 밀어 넣어"
+collectiontip3 = "게임을 이긴 횟수를 누적"
+rewarditem0 = "WPW2023 "
+rewarditeminfo0 = " (7일)"
+rewarditem1 = "EET4571"
+rewarditeminfo1 = " (3만)"
+
+[Collection28]
+category = 3
+type = 28
+level = 0
+base = -1
+collectionname = "리퍼"
+TileTip0 = "예측불허의 죽음의 방!!"
+TileTip1 = "데스룸 업데이트 기념 이벤트 전용"
+TileTip2 = "한정판 엠블럼"
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "이벤트 기간 동안"
+collectiontip2 = "데스룸 클랜전 10판 정상완료"
+collectiontip3 = ""
+
+[Collection29]
+category = 3
+type = 29
+level = 0
+base = -1
+collectionname = "매의눈"
+TileTip0 = "적의 위치가 보인다!!"
+TileTip1 = "A보급-클리어 업데이트 기념 2탄"
+TileTip2 = "이벤트 전용 한정판 엠블럼"
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "이벤트 기간 동안 미션 모두 달성"
+collectiontip2 = "* A보급-클리어 15판 정상 완료"
+collectiontip3 = "* A보급-클리어 클랜전 5승"
+
+[Collection30]
+category = 3
+type = 30
+level = 0
+base = -1
+collectionname = "파도"
+TileTip0 = "2016 여름 시원한 물폭탄이 터진다!"
+TileTip1 = "썸머가든 업데이트 기념 이벤트 전용"
+TileTip2 = "한정판 엠블럼"
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "이벤트 기간 동안"
+collectiontip2 = "썸머가든 10판 정상완료"
+collectiontip3 = ""
+
+[Collection31]
+category = 3
+type = 31
+level = 0
+base = -1
+collectionname = "진짜를 찾아라"
+TileTip0 = "진짜 도둑은 누구?!"
+TileTip1 = "진짜를 찾아라 업데이트 기념"
+TileTip2 = "이벤트 전용 한정판 엠블럼"
+TileTip3 = "이벤트 기간 동안"
+TileTip4 = "진짜를 찾아라 모든 이벤트 미션 달성!"
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "이벤트 기간 동안"
+collectiontip2 = "진짜를 찾아라 이벤트 모든 미션"
+collectiontip3 = "(미션1~4)을 달성 시 지급"
+
+[Collection32]
+category = 3
+type = 32
+level = 0
+base = -1
+collectionname = "2018 새해맞이"
+TileTip0 = "2018년을 기념하는"
+TileTip1 = "새해맞이 한정판 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "갓모드 쇼타임 접속 이벤트"
+collectiontip2 = "달성 후 보상 선택으로 획득"
+collectiontip3 = ""
+
+[Collection33]
+category = 3
+type = 33
+level = 0
+base = -1
+collectionname = "랭크전-시즌0"
+TileTip0 = "랭크전 시범 서비스를"
+TileTip1 = "기념하여 제공되는"
+TileTip2 = "이벤트 전용 한정판 엠블럼"
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "랭크전 플레이 이벤트의"
+collectiontip2 = "모든 미션 달성 시 지급"
+collectiontip3 = ""
+rewarditem0 = "EBP3954"
+rewarditeminfo0 = "(영구제)"
+
+[Collection34]
+category = 3
+type = 34
+level = 0
+base = -1
+collectionname = "오진어택"
+TileTip0 = "오진어택 4차 업데이트 기념"
+TileTip1 = "쏴전등록 한정판 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "4차 쏴전등록 보상으로"
+collectiontip2 = "웹 이벤트 페이지에서 기간 내"
+collectiontip3 = "보상받기 선택 시 획득"
+
+[Collection35]
+category = 3
+type = 35
+level = 0
+base = -1
+collectionname = "2019 시즌계급"
+TileTip0 = "2019 시즌계급 참여자에게"
+TileTip1 = "지급되는 한정판 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "2019 시즌계급 참여"
+collectiontip2 = ""
+collectiontip3 = ""
+
+[Collection36]
+category = 3
+type = 36
+level = 0
+base = -1
+collectionname = "2020 시즌계급"
+TileTip0 = "2020 시즌계급 참여자에게"
+TileTip1 = "지급되는 한정판 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "2020 시즌계급 참여"
+collectiontip2 = ""
+collectiontip3 = ""
+
+[Collection37]
+category = 3
+type = 37
+level = 0
+base = -1
+collectionname = "2021 시즌계급"
+TileTip0 = "2021 시즌계급 참여자에게"
+TileTip1 = "지급되는 한정판 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "2021 시즌계급 참여"
+collectiontip2 = ""
+collectiontip3 = ""
+
+[Collection38]
+category = 3
+type = 38
+level = 0
+base = -1
+collectionname = "2022 시즌계급"
+TileTip0 = "2022 시즌계급 참여자에게"
+TileTip1 = "지급되는 한정판 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "2022 시즌계급"
+collectiontip2 = "특전하사 이상 달성"
+collectiontip3 = ""
+
+[Collection39]
+category = 3
+type = 39
+level = 0
+base = -1
+collectionname = "2023 시즌계급"
+TileTip0 = "2023 시즌계급 참여자에게"
+TileTip1 = "지급되는 한정판 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "2023 시즌계급"
+collectiontip2 = "특전하사 이상 달성"
+collectiontip3 = ""
+
+[Collection40]
+category = 3
+type = 40
+level = 0
+base = -1
+collectionname = "2024 시즌계급"
+TileTip0 = "2024 시즌계급 참여자에게"
+TileTip1 = "지급되는 한정판 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "2024 시즌계급"
+collectiontip2 = "특전하사 이상 달성"
+collectiontip3 = ""
+
+[Collection41]
+category = 3
+type = 41
+level = 0
+base = -1
+collectionname = "2025 시즌계급"
+TileTip0 = "2025 시즌계급 참여자에게"
+TileTip1 = "지급되는 한정판 엠블럼"
+TileTip2 = ""
+TileTip3 = ""
+TileTip4 = ""
+RemainCount0 = "이벤트 참여: "
+RemainCount1 = "회"
+collectiontip1 = "2025 시즌계급"
+collectiontip2 = "특전하사 이상 달성"
+collectiontip3 = ""
+

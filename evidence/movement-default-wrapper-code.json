@@ -1,0 +1,87 @@
+{
+  "path": "C:\\Users\\PC\\Desktop\\REA\\extracted\\game-file\\game_file\\CShell.dll",
+  "sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110",
+  "decoder": "Capstone 5.0.7",
+  "image_base": "0x180000000",
+  "slices": [
+    {
+      "requested_address": "0x180f038e0",
+      "traversal": "direct-branch-reachable, calls not followed",
+      "instruction_count": 3,
+      "unknowns": [],
+      "instructions": [
+        {
+          "address": "0x180f038e0",
+          "bytes": "f30f1109",
+          "mnemonic": "movss",
+          "operands": "dword ptr [rcx], xmm1",
+          "references": []
+        },
+        {
+          "address": "0x180f038e4",
+          "bytes": "488bc1",
+          "mnemonic": "mov",
+          "operands": "rax, rcx",
+          "references": []
+        },
+        {
+          "address": "0x180f038e7",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": "",
+          "references": []
+        }
+      ]
+    },
+    {
+      "requested_address": "0x180f038f0",
+      "traversal": "direct-branch-reachable, calls not followed",
+      "instruction_count": 3,
+      "unknowns": [],
+      "instructions": [
+        {
+          "address": "0x180f038f0",
+          "bytes": "c70100000000",
+          "mnemonic": "mov",
+          "operands": "dword ptr [rcx], 0",
+          "references": []
+        },
+        {
+          "address": "0x180f038f6",
+          "bytes": "488bc1",
+          "mnemonic": "mov",
+          "operands": "rax, rcx",
+          "references": []
+        },
+        {
+          "address": "0x180f038f9",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": "",
+          "references": []
+        }
+      ]
+    },
+    {
+      "requested_address": "0x180f039f0",
+      "traversal": "direct-branch-reachable, calls not followed",
+      "instruction_count": 1,
+      "unknowns": [],
+      "instructions": [
+        {
+          "address": "0x180f039f0",
+          "bytes": "c20000",
+          "mnemonic": "ret",
+          "operands": "0",
+          "references": []
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Static byte observations only; target not executed.",
+    "Unwind extents can be fragments; leaf probes are bounded.",
+    "Linear decoding does not establish reachability or recover indirect targets.",
+    "RIP memory references do not dereference pointers or prove runtime values."
+  ]
+}

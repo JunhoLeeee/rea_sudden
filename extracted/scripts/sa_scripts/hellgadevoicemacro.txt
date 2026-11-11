@@ -1,0 +1,200 @@
+[VoiceMacro0]
+Type 	= 0	// Z
+Num	= 1	
+Radio 	= "적 발견."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_z0.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_z0.wav"
+
+[VoiceMacro1]
+Type 	= 0	// Z
+Num	= 2	
+Radio 	= "따라와라."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_z1.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_z1.wav"
+
+[VoiceMacro2]
+Type 	= 0	// Z
+Num	= 3	
+Radio 	= "적 기지 잠입 제안."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_z2.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_z2.wav"
+
+[VoiceMacro3]
+Type 	= 0	// Z
+Num	= 4	
+Radio 	= "차량 침투 제안."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_z3.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_z3.wav"
+
+[VoiceMacro4]
+Type 	= 0	// Z
+Num	= 5	
+Radio 	= "고맙다."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_z4.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_z4.wav"
+
+[VoiceMacro5]
+Type 	= 0	// Z
+Num	= 6	
+Radio 	= "아니다."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_z5.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_z5.wav"
+
+[VoiceMacro6]
+Type 	= 0	// Z
+Num	= 7	
+Radio 	= "엄호"
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_z6.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_z6.wav"
+
+[VoiceMacro7]
+Type 	= 0	// Z
+Num	= 8	
+Radio 	= "미션 진행."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_z9.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_z9.wav"
+
+[VoiceMacro8]
+Type 	= 0	// Z
+Num	= 9	
+Radio 	= "비켜."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_z8.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_z8.wav"
+
+[VoiceMacro9]
+Type 	= 1	// X
+Num	= 10  //탈것에 탑승했을 때 사운드 
+Radio 	= "내 차에 탑승하라."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_x3.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_x3.wav"
+
+[VoiceMacro10]
+Type 	= 1	// X
+Num	= 11  //11을 입력하지 않을 시 오류남
+Radio 	= "내 차에 탑승하라."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_x3.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_x3.wav"
+
+[VoiceMacro11]
+Type 	= 1	// X
+Num	= 2
+Radio 	= "멈춰! 수리해주겠다."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_x2.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_x2.wav"
+
+[VoiceMacro12]
+Type 	= 1	// X
+Num	= 3
+Radio 	= "전차를 수리해."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_x1.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_x1.wav"
+
+[VoiceMacro13]
+Type 	= 1	// X
+Num	= 4
+Radio 	= "건물을 수리해."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_x0.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_x0.wav"
+
+[VoiceMacro14]
+Type 	= 1	// X
+Num	= 5
+Radio 	= "집중 공격!"
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_x5.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_x5.wav"
+
+[VoiceMacro15]
+Type 	= 1	// X
+Num	= 6
+Radio 	= "군수 공장 집중 공격."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_x6.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_x6.wav"
+
+[VoiceMacro16]
+Type 	= 1	// X
+Num	= 7
+Radio 	= "가드 타워 집중 공격."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_x8.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_x8.wav"
+
+[VoiceMacro17]
+Type 	= 1	// X
+Num	= 8
+Radio 	= "우라늄 창고 집중 공격."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_x7.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_x7.wav"
+
+[VoiceMacro18]
+Type 	= 2	// C
+Num	= 1
+Radio 	= "필드에 병력 요청."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_c0.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_c0.wav"
+
+[VoiceMacro19]
+Type 	= 2	// C
+Num	= 2	
+Radio 	= "터널에 병력 요청."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_c1.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_c1.wav"
+
+[VoiceMacro20]
+Type 	= 2	// C
+Num	= 3
+Radio 	= "폭탄 해체 지원 요청."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_c2.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_c2.wav"
+
+[VoiceMacro21]
+Type 	= 2	// C
+Num	= 4	
+Radio 	= "군수 공장 폭탄 해체."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_c3.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_c3.wav"
+
+[VoiceMacro22]
+Type 	= 2	// C
+Num	= 5
+Radio 	= "가드 타워 폭탄 해체."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_c5.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_c5.wav"
+
+[VoiceMacro23]
+Type 	= 2	// C
+Num	= 6
+Radio 	= "핵폭탄 해체."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_c6.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_c6.wav"
+
+[VoiceMacro24]
+Type 	= 2	// C
+Num	= 7
+Radio 	= "우라늄 창고 폭탄 해체."
+Voice	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_m_c4.wav"
+VoiceW	= "SA_INTERFACE\SND\Radio\hg_radio\hg_voice_w_c4.wav"
+
+[VoiceMacro25]
+[VoiceMacro26]
+[VoiceMacro27]
+[VoiceMacro28]
+[VoiceMacro29]
+[VoiceMacro30]
+[VoiceMacro31]
+[VoiceMacro32]
+[VoiceMacro33]
+[VoiceMacro34]
+[VoiceMacro35]
+[VoiceMacro36]
+[VoiceMacro37]
+[VoiceMacro38]
+[VoiceMacro39]
+[VoiceMacro40]
+[VoiceMacro41]
+[VoiceMacro42]
+
+[VoiceMacro43]
+Type 	= 5	// System.
+Num	= 0	
+Radio 	= "수류탄 투척!"
+Voice	= "SA_INTERFACE\SND\Radio\fireinhole_Kor.wav"
+VoiceW	= "SA_INTERFACE\SND\WRadio\fireinhole_Kor.wav"

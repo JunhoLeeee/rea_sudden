@@ -1,0 +1,483 @@
+[Block0] // 교체박스
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex11.dtx"
+Icon = "sa_interface2/hud/clanagit/clanpageobjlist/Clanagit_boxicon00.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/objectlist/ca_clanpage_objicon00.dtx"
+ObjectType = 0
+BenefitLevel = 9
+SurfaceType = 0
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = False
+
+[Block1] // 흙 블록
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex01.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon01.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon01.dtx"
+ObjectType = 1
+BenefitLevel = 0
+SurfaceType = 19
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block2] // 벽돌 블록
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex02.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon02.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon02.dtx"
+ObjectType = 1
+BenefitLevel = 0
+SurfaceType = 212
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block3] // 청록 블록
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex03.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon03.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon03.dtx"
+ObjectType = 1
+BenefitLevel = 0
+SurfaceType = 241
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block4] // 나무 박스1
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex04.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon04.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon04.dtx"
+ObjectType = 1
+BenefitLevel = 0
+SurfaceType = 216
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block5] // 붉은 블록
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex05.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon05.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon05.dtx"
+ObjectType = 1
+BenefitLevel = 0
+SurfaceType = 241
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block6] // 돌 블록
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex06.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon06.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon06.dtx"
+ObjectType = 1
+BenefitLevel = 0
+SurfaceType = 212
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block7] // 잔디 블록
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex07.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon07.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon07.dtx"
+ObjectType = 1
+BenefitLevel = 0
+SurfaceType = 22
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block8] // 유리 블록1
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex08.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon08.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon08.dtx"
+ObjectType = 1
+BenefitLevel = 0
+SurfaceType = 217
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block9] // 가로 기본 벽
+Model = "sa_props/models/clanagit/CAgit_Object1.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex09.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon09.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon09.dtx"
+ObjectType = 2
+BenefitLevel = 0
+SurfaceType = 212
+ReplaceIndex = 11
+Dimension = <150, 100, 25>
+InventoryVisible = True
+
+[Block10] // 세로 기본벽
+Model = "sa_props/models/clanagit/CAgit_Object2.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex10.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon10.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon10.dtx"
+ObjectType = 3
+BenefitLevel = 0
+ReplaceIndex = 12
+SurfaceType = 212
+Dimension = <25, 100, 150>
+InventoryVisible = True
+
+[Block11] // 교체 가로 벽
+Model = "sa_props/models/clanagit/CAgit_Object1.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex12.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon11.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon11.dtx"
+ObjectType = 0
+BenefitLevel = 9
+SurfaceType = 212
+RepalceType = 2
+ReplaceIndex = 11
+Dimension = <150, 100, 25>
+InventoryVisible = False
+
+[Block12] // 교체 세로 벽
+Model = "sa_props/models/clanagit/CAgit_Object2.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex12.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon12.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon12.dtx"
+ObjectType = 0
+BenefitLevel = 9
+SurfaceType = 212
+RepalceType = 3
+ReplaceIndex = 12
+Dimension = <25, 100, 150>
+InventoryVisible = False
+
+[Block13] // 교체 가로 바닥
+Model = "sa_props/models/clanagit/CAgit_Object3.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex34.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon13.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon13.dtx"
+ObjectType = 0
+BenefitLevel = 9
+SurfaceType = 212
+RepalceType = 4
+ReplaceIndex = 13
+Dimension = <150, 25, 100>
+InventoryVisible = False
+
+[Block14] // 교체 세로 바닥
+Model = "sa_props/models/clanagit/CAgit_Object4.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex34.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon14.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon14.dtx"
+ObjectType = 0
+BenefitLevel = 9
+SurfaceType = 212
+RepalceType = 5
+ReplaceIndex = 14
+Dimension = <100, 25, 150>
+InventoryVisible = False
+
+[Block15] // 브론즈 보상
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex13.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon15.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon15.dtx"
+ObjectType = 6
+BenefitLevel = 10
+SurfaceType = 19
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block16] // 실버 보상
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex14.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon16.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon16.dtx"
+ObjectType = 6
+BenefitLevel = 11
+SurfaceType = 212
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block17] // 골드 보상
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex15.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon17.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon17.dtx"
+ObjectType = 6
+BenefitLevel = 12
+SurfaceType = 241
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block18] // 플래티넘 보상
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex16.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon18.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon18.dtx"
+ObjectType = 6
+BenefitLevel = 13
+SurfaceType = 216
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block19] // VIP 보상
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex17.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon19.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon19.dtx"
+ObjectType = 6
+BenefitLevel = 14
+SurfaceType = 241
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block20] // 블랙 박스
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex18.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon20.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon20.dtx"
+ObjectType = 1
+BenefitLevel = 1
+SurfaceType = 212
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block21] // 블루 박스
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex19.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon21.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon21.dtx"
+ObjectType = 1
+BenefitLevel = 1
+SurfaceType = 22
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block22] // 그린 박스
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex20.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon22.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon22.dtx"
+ObjectType = 1
+BenefitLevel = 1
+SurfaceType = 217
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block23] // 옐로우 박스
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex21.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon23.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon23.dtx"
+ObjectType = 1
+BenefitLevel = 1
+SurfaceType = 212
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block24] // 퍼플 박스
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex22.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon24.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon24.dtx"
+ObjectType = 1
+BenefitLevel = 1
+SurfaceType = 22
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block25] // 브라운 박스
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex23.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon25.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon25.dtx"
+ObjectType = 1
+BenefitLevel = 1
+SurfaceType = 217
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block26] // 가로 투톤브릭 벽
+Model = "sa_props/models/clanagit/CAgit_Object1.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex24.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon26.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon26.dtx"
+ObjectType = 2
+BenefitLevel = 2
+SurfaceType = 212
+ReplaceIndex = 11
+Dimension = <150, 100, 25>
+InventoryVisible = True
+
+[Block27] // 세로 투톤브릭 벽
+Model = "sa_props/models/clanagit/CAgit_Object2.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex24.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon27.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon27.dtx"
+ObjectType = 3
+BenefitLevel = 2
+SurfaceType = 212
+ReplaceIndex = 12
+Dimension = <25, 100, 150>
+InventoryVisible = True
+
+[Block28] // 가로 모래 바닥
+Model = "sa_props/models/clanagit/CAgit_Object3.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex25.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon28.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon28.dtx"
+ObjectType = 4
+BenefitLevel = 2
+SurfaceType = 212
+ReplaceIndex = 13
+Dimension = <150, 25, 100>
+InventoryVisible = True
+
+[Block29] // 세로 모래 바닥
+Model = "sa_props/models/clanagit/CAgit_Object4.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex25.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon29.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon29.dtx"
+ObjectType = 5
+BenefitLevel = 2
+SurfaceType = 212
+ReplaceIndex = 14
+Dimension = <100, 25, 150>
+InventoryVisible = True
+
+[Block30] // 눈 박스
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex26.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon30.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon30.dtx"
+ObjectType = 1
+BenefitLevel = 3
+SurfaceType = 212
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block31] // 스카이 박스
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex27.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon31.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon31.dtx"
+ObjectType = 1
+BenefitLevel = 3
+SurfaceType = 22
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block32] // 짚단 박스
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex28.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon32.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon32.dtx"
+ObjectType = 1
+BenefitLevel = 3
+SurfaceType = 217
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block33] // SF 박스
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex29.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon33.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon33.dtx"
+ObjectType = 1
+BenefitLevel = 3
+SurfaceType = 212
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block34] // 스타라이트 박스
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex30.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon34.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon34.dtx"
+ObjectType = 1
+BenefitLevel = 3
+SurfaceType = 22
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block35] // 크로스 박스
+Model = "sa_props/models/clanagit/CAgit_Object0.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex31.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon35.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon35.dtx"
+ObjectType = 1
+BenefitLevel = 3
+SurfaceType = 217
+ReplaceIndex = 0
+Dimension = <25, 25, 25>
+InventoryVisible = True
+
+[Block36] // 가로 우드패턴 벽
+Model = "sa_props/models/clanagit/CAgit_Object1.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex32.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon36.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon36.dtx"
+ObjectType = 2
+BenefitLevel = 2
+SurfaceType = 212
+ReplaceIndex = 11
+Dimension = <150, 100, 25>
+InventoryVisible = True
+
+[Block37] // 세로 우드패턴 벽
+Model = "sa_props/models/clanagit/CAgit_Object2.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex32.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon37.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon37.dtx"
+ObjectType = 3
+BenefitLevel = 2
+SurfaceType = 212
+ReplaceIndex = 12
+Dimension = <25, 100, 150>
+InventoryVisible = True
+
+[Block38] // 가로 심플타일 바닥
+Model = "sa_props/models/clanagit/CAgit_Object3.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex33.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon38.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon38.dtx"
+ObjectType = 4
+BenefitLevel = 2
+SurfaceType = 212
+ReplaceIndex = 13
+Dimension = <150, 25, 100>
+InventoryVisible = True
+
+[Block39] // 세로 심플타일 바닥
+Model = "sa_props/models/clanagit/CAgit_Object4.ltb"
+Texture = "sa_props/skins/clanagit/CAgit_Objtex33.dtx"
+Icon = "sa_interface2/hud/clanagit/objectlist/Clanagit_boxicon39.dtx"
+ClanPageIcon = "sa_interface2/hud/clanagit/clanpageobjlist/ca_clanpage_objicon39.dtx"
+ObjectType = 5
+BenefitLevel = 2
+SurfaceType = 212
+ReplaceIndex = 14
+Dimension = <100, 25, 150>
+InventoryVisible = True

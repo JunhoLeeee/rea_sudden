@@ -1,0 +1,2381 @@
+// AIBotAbility 는 봇의 공격 a.i를 담당
+// 소수점은 뒤에 f를 붙인다. 
+
+////////////////////////////////////////    웨어 전용  0 ~ 3 /////////////////////////////////////////
+
+[Ability0]	// 웨어 - 난이도: 쉬움 (라이플)
+SenseDist		= 0.0f			      // 인식거리
+ViewDist		= 5000			      // 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 1.5f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 1			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		  // = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+
+// 테스트 --->
+
+ShotDelayTime		= 1.8f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 2.3f				// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= -40			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 1			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 40			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 70			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 20			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 10			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+[Ability1]	// 웨어 - 난이도: 쉬움 (스나)
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 5000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 1.5f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 1			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 1.8f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 2.0f		// (조준 후) 샷 지연 최대시간 
+
+ShotAccuracy		= -30			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 1			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 40			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 70			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 20			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 10			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+
+[Ability2]	// 웨어 - 난이도: 보통 (라이플)
+SenseDist		= 300.0f		// 인식거리
+ViewDist		= 5000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 1.0f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 5			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.2f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 0.65f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 1.1f		// (조준 후) 샷 지연 최대시간 
+
+
+ShotAccuracy		= 5			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+SniperStopDelay		= 0.7f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 2			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 70			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 60			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 15			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 25			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+[Ability3]	// 웨어 - 난이도: 보통 (스나)
+SenseDist		= 300.0f		// 인식거리
+ViewDist		= 5000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 1.0f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 5			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.2f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 0.65f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.9f		// (조준 후) 샷 지연 최대시간 
+
+
+ShotAccuracy		= 15			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+SniperStopDelay		= 0.7f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 2			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 70			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 60			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 15			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 25			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+
+
+[Ability4]	// 웨어 - 난이도: 어려움 (라이플)
+SenseDist		= 400.0f		// 인식거리
+ViewDist		= 5000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.3f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 12			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.1f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.5f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 0.2f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.8f				// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 50			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+
+SniperStopDelay		= 0.35f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 2			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 85			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 20			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 70			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+
+[Ability5]	// 웨어 - 난이도: 어려움 (스나)
+SenseDist		= 400.0f		// 인식거리
+ViewDist		= 5000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.3f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 5			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.1f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.8f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 0.2f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.58f		// (조준 후) 샷 지연 최대시간 
+
+ShotAccuracy		= 55			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+
+SniperStopDelay		= 0.35f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 2			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 80			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 20			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 70			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+
+[Ability6]	// 웨어 - 난이도: 매우 어려움 (라이플)
+SenseDist		= 600.0f		// 인식거리
+ViewDist		= 5000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.1f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 24			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.1f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.6f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 0.16f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.48f		// (조준 후) 샷 지연 최대시간 
+
+ShotAccuracy		= 55			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+
+SniperStopDelay		= 0.25f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 3			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 90			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 10			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 80			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+[Ability7]	// 웨어 - 난이도: 매우 어려움 (스나)
+SenseDist		= 600.0f		// 인식거리
+ViewDist		= 5000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.1f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 10			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.1f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.6f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 0.16f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.28f		// (조준 후) 샷 지연 최대시간 
+
+ShotAccuracy		= 65			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+
+SniperStopDelay		= 0.25f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 3			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 90			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 10			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 80			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////		A보급 전용  8 ~ 7 		///////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[Ability8]	// A보급 - 난이도: 쉬움 (라이플) A보급 레드팀
+SenseDist		      = 2000.0f	  // 인식거리
+ViewDist			    = 5000	    // 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		  = 5		      // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f		    // 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		    // 전투 종료 후 대기 시간
+ShotDelayTime		= 1.0f			  // (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax		= 1.3f		// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 10			    // 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.8f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 1			    // 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			    // 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			    // 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 65			        // 공격시 움직일 때, 전진 확률			
+MAReverse		= 15			        // 공격시 움직일 때, 후진 확률
+MALeftRight		= 20			      // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			    // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability9]	// A보급 - 난이도: 쉬움 (스나) A보급 레드팀
+SenseDist		= 2000.0f			    // 인식거리
+ViewDist		= 5000			      // 뷰거리
+SenseDelayTime		= 0.0f	    // 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 1.5f	    // 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 5			      // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f		    // 전투 종료 후 대기 시간
+AttentionMax		= 1.5f		    // 전투 종료 후 대기 시간
+ShotDelayTime		= 1.8f		    // (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 2.2f	    // (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= -5			    // 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.8f	    // 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 1			    // 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			    // 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			    // 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 65		    	    // 공격시 움직일 때, 전진 확률			
+MAReverse		= 15			        // 공격시 움직일 때, 후진 확률
+MALeftRight		= 20			      // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			    // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability55]	// A보급 - 난이도: 쉬움 (라이플) A보급 블루팀
+SenseDist		= 800.0f			    // 인식거리
+ViewDist			= 5000			    // 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 5			      // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f		    // 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		    // 전투 종료 후 대기 시간
+ShotDelayTime		= 1.0f			  // (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax		= 1.3f		// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 15			    // 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.8f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 3			    // 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 0			    // 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			    // 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 30			        // 공격시 움직일 때, 전진 확률			
+MAReverse		= 40			        // 공격시 움직일 때, 후진 확률
+MALeftRight		= 30			      // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			    // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability56]	// A보급 - 난이도: 쉬움 (스나) A보급 블루팀
+SenseDist		= 1000.0f			    // 인식거리
+ViewDist		= 5000			      // 뷰거리
+SenseDelayTime		= 0.0f	    // 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 1.5f	    // 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 5			      // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f		    // 전투 종료 후 대기 시간
+AttentionMax		= 1.5f		    // 전투 종료 후 대기 시간
+ShotDelayTime		= 1.8f		    // (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 2.2f	    // (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 10			    // 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.8f	    // 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 3			    // 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 0			    // 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			    // 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 30		    	    // 공격시 움직일 때, 전진 확률			
+MAReverse		= 40			        // 공격시 움직일 때, 후진 확률
+MALeftRight		= 30			      // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			    // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability10]	// A보급 - 난이도: 보통 (라이플) 레드팀
+SenseDist		= 2000.0f		  // 인식거리
+ViewDist		= 5000			  // 뷰거리
+SenseDelayTime		= 0.0f	// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 1.0f	// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 10			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 0.7f		// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 1.1f	// (조준 후) 샷 지연 최대시간
+ShotAccuracy		= 20			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.6f	// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 1			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 60			    // 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			    // 공격시 움직일 때, 후진 확률
+MALeftRight		= 30			  // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability11]	// A보급 - 난이도: 보통 (스나) 레드팀
+SenseDist		= 2000.0f		  // 인식거리
+ViewDist		= 5000			  // 뷰거리
+SenseDelayTime		= 0.0f	// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 1.0f	// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 7			  // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.5f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 0.7f		// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 1.0f	// (조준 후) 샷 지연 최대시간
+ShotAccuracy		= 25			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.6f	// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 2		  // 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2		  // 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100		  // 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 45			    // 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			    // 공격시 움직일 때, 후진 확률
+MALeftRight		= 45			  // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 		  // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability57]	// A보급 - 난이도: 보통 (라이플) 블루팀
+SenseDist		= 500.0f		  // 인식거리
+ViewDist		= 5000			  // 뷰거리
+SenseDelayTime		= 0.0f	// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 1.0f	// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 10			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 0.7f		// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 1.1f	// (조준 후) 샷 지연 최대시간
+ShotAccuracy		= 20			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.6f	// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 5			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 0			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 10			    // 공격시 움직일 때, 전진 확률			
+MAReverse		= 50			    // 공격시 움직일 때, 후진 확률
+MALeftRight		= 40			  // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability58]	// A보급 - 난이도: 보통 (스나) 블루팀
+SenseDist		= 1200.0f		  // 인식거리
+ViewDist		= 5000			  // 뷰거리
+SenseDelayTime		= 0.0f	// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 1.0f	// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 7			  // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.5f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 0.7f		// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 1.0f	// (조준 후) 샷 지연 최대시간
+ShotAccuracy		= 25			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.6f	// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 5		  // 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 0		  // 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100		  // 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 10			    // 공격시 움직일 때, 전진 확률			
+MAReverse		= 35			    // 공격시 움직일 때, 후진 확률
+MALeftRight		= 55			  // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 		  // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability12]	// A보급 - 난이도: 어려움 (라이플) 레드팀
+SenseDist		= 2000.0f		  // 인식거리
+ViewDist		= 5000			  // 뷰거리
+SenseDelayTime		= 0.0f	// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.3f	// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 14			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.1f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 0.2f		// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.88f	// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 59			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.3f	// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 2			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 35			    // 공격시 움직일 때, 전진 확률			
+MAReverse		= 5 			    // 공격시 움직일 때, 후진 확률
+MALeftRight		= 60			  // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability13]	// A보급 - 난이도: 어려움 (스나) 레드팀
+SenseDist		= 2000.0f		  // 인식거리
+ViewDist		= 5000			  // 뷰거리
+SenseDelayTime		= 0.0f	// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.3f	// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 7			  // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.1f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.4f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 0.2f		// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.5f	// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 60			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.3f	// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 2			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 20		    	// 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			    // 공격시 움직일 때, 후진 확률
+MALeftRight		= 70			  // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability59]	// A보급 - 난이도: 어려움 (라이플) 블루팀
+SenseDist		= 800.0f		  // 인식거리
+ViewDist		= 5000			  // 뷰거리
+SenseDelayTime		= 0.0f	// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.3f	// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 14			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.1f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 0.2f		// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.88f	// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 59			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.3f	// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 5			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 0			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 30			    // 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			    // 공격시 움직일 때, 후진 확률
+MALeftRight		= 60			  // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability60]	// A보급 - 난이도: 어려움 (스나) 블루팀
+SenseDist		= 1200.0f		  // 인식거리
+ViewDist		= 5000			  // 뷰거리
+SenseDelayTime		= 0.0f	// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.3f	// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 7			  // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.1f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.4f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 0.2f		// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.5f	// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 60			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.3f	// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 5			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 0			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 20		    	// 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			    // 공격시 움직일 때, 후진 확률
+MALeftRight		= 70			  // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability14]	// A보급 - 난이도: 매우 어려움 (라이플) 레드팀
+SenseDist		= 2000.0f		      // 인식거리
+ViewDist		= 5000			      // 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.1f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 20			    // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.0f		    // 전투 종료 후 대기 시간
+AttentionMax		= 1.5f		    // 전투 종료 후 대기 시간
+ShotDelayTime		= 0.16f			  // (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.45f	  	// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 60			    // 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.22f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 3		    	// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1		    	// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100	    		// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 20			        // 공격시 움직일 때, 전진 확률			
+MAReverse		= 5 		        	// 공격시 움직일 때, 후진 확률
+MALeftRight		= 75			      // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True		  	  // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability15]	// A보급 - 난이도: 매우 어려움 (스나) 레드팀
+SenseDist		= 2000.0f		      // 인식거리
+ViewDist		= 5000			      // 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.1f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 10			    // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.0f		    // 전투 종료 후 대기 시간
+AttentionMax		= 2.0f	    	// 전투 종료 후 대기 시간
+ShotDelayTime		= 0.15f			  // (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.27f		  // (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 75			    // 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.22f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 3		    	// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			    // 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100	    		// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 10			       // 공격시 움직일 때, 전진 확률			
+MAReverse		= 5			          // 공격시 움직일 때, 후진 확률
+MALeftRight		= 85			      // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True			    // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability61]	// A보급 - 난이도: 매우 어려움 (라이플) 블루팀
+SenseDist		= 800.0f		      // 인식거리
+ViewDist		= 5000			      // 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.1f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 20			    // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.0f		    // 전투 종료 후 대기 시간
+AttentionMax		= 1.5f		    // 전투 종료 후 대기 시간
+ShotDelayTime		= 0.16f			  // (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.45f	  	// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 60			    // 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.22f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 5		    	// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1		    	// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100	    		// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 0	  		        // 공격시 움직일 때, 전진 확률			
+MAReverse		= 20		          // 공격시 움직일 때, 후진 확률
+MALeftRight		= 80			      // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True		  	  // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability62]	// A보급 - 난이도: 매우 어려움 (스나) 블루팀
+SenseDist		= 1000.0f		      // 인식거리
+ViewDist		= 5000			      // 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.1f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 10			    // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.0f		    // 전투 종료 후 대기 시간
+AttentionMax		= 2.0f	    	// 전투 종료 후 대기 시간
+ShotDelayTime		= 0.15f			  // (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.27f		  // (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 75			    // 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.22f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 5		    	// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			    // 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100	    		// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 0			          // 공격시 움직일 때, 전진 확률			
+MAReverse		= 15			          // 공격시 움직일 때, 후진 확률
+MALeftRight		= 85			      // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True			    // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////		크로스카운터 전용  16 ~ 27 		///////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////// 쉬움 16 ~ 18 ///////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+[Ability16]	// 크로스카운터 - 난이도: 쉬움(하) (스나)
+SenseDist		= 1000.0f			// 인식거리
+ViewDist		= 15000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 1.2f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 5			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.8f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 3.8f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 4.0f		// (조준 후) 샷 지연 최대시간 
+
+ShotAccuracy		= 70			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 2			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 40			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 30			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 30			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 40			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability17]	// 크로스카운터 - 난이도: 쉬움(중) (스나)
+SenseDist		= 1200.0f			// 인식거리
+ViewDist		= 15000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 1.2f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 5			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.8f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 3.7f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 4.0f		// (조준 후) 샷 지연 최대시간 
+
+ShotAccuracy		= 80			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 2			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 40			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 30			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 30			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 40			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability18]	// 크로스카운터 - 난이도: 쉬움(상) (스나)
+SenseDist		= 1500.0f			// 인식거리
+ViewDist		= 15000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 1.2f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 5			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.8f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 3.5f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 4.0f		// (조준 후) 샷 지연 최대시간 
+
+ShotAccuracy		= 90			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 2			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 40			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 30			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 30			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 40			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////// 보통 19 ~ 21 ///////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+[Ability19]	// 크로스카운터 - 난이도: 보통(하) (스나)
+SenseDist		= 1000.0f		// 인식거리
+ViewDist		= 15000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.8f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 5			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.2f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.8f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 2.2f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 2.6f		// (조준 후) 샷 지연 최대시간 
+
+
+ShotAccuracy		=80			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+SniperStopDelay		= 0.7f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 2			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 70			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 25			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 25			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 50			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability20]	// 크로스카운터 - 난이도: 보통(중) (스나)
+SenseDist		= 1200.0f		// 인식거리
+ViewDist		= 15000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.8f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 5			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.2f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.8f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 2.0f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 2.4f		// (조준 후) 샷 지연 최대시간 
+
+
+ShotAccuracy		=90			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+SniperStopDelay		= 0.7f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 2			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 70			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 25			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 25			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 50			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+[Ability21]	// 크로스카운터 - 난이도: 보통(상) (스나)
+SenseDist		= 1500.0f		// 인식거리
+ViewDist		= 15000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.8f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 5			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.2f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.8f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 1.8f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 2.2f		// (조준 후) 샷 지연 최대시간 
+
+
+ShotAccuracy		=100			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+SniperStopDelay		= 0.7f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 2			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 70			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 25			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 25			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 50			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////// 어려움 22 ~ 24 ///////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+[Ability22]	// 크로스카운터 - 난이도: 어려움 (스나)
+SenseDist		= 1000.0f		// 인식거리
+ViewDist		= 15000		// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.3f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 5			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.1f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.6f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 0.8f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 1.6f		// (조준 후) 샷 지연 최대시간 
+
+ShotAccuracy		= 90			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+
+SniperStopDelay		= 0.35f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 2			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 80			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 20			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 70			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+[Ability23]	// 크로스카운터 - 난이도: 어려움 (스나)
+SenseDist		= 1200.0f		// 인식거리
+ViewDist		= 15000		// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.3f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 5			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.1f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.6f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 0.7f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 1.2f		// (조준 후) 샷 지연 최대시간 
+
+ShotAccuracy		= 90			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+
+SniperStopDelay		= 0.35f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 2			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 80			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 20			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 70			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+[Ability24]	// 크로스카운터 - 난이도: 어려움 (스나)
+SenseDist		= 1500.0f		// 인식거리
+ViewDist		= 15000		// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.3f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 5			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.1f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.6f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 0.5f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.8f		// (조준 후) 샷 지연 최대시간 
+
+ShotAccuracy		= 100			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+
+SniperStopDelay		= 0.35f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 2			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 80			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 20			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 70			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////// 매우 어려움 25~ 27 ///////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+[Ability25]	// 크로스카운터 - 난이도: 매우 어려움 (스나)
+SenseDist		= 1000.0f		// 인식거리
+ViewDist		= 15000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.1f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 10			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.1f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.6f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 0.5f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.8f		// (조준 후) 샷 지연 최대시간 
+
+ShotAccuracy		= 100			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+
+SniperStopDelay		= 0.25f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 3			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 90			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 10			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 80			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+[Ability26]	// 크로스카운터 - 난이도: 매우 어려움 (스나)
+SenseDist		= 1200.0f		// 인식거리
+ViewDist		= 15000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.1f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 10			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.1f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.6f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 0.5f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.6f		// (조준 후) 샷 지연 최대시간 
+
+ShotAccuracy		= 100			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+
+SniperStopDelay		= 0.25f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 3			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 90			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 10			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 80			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+[Ability27]	// 크로스카운터 - 난이도: 매우 어려움 (스나)
+SenseDist		= 1500.0f		// 인식거리
+ViewDist		= 15000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.1f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 10			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.1f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.6f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 0.45f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.55f		// (조준 후) 샷 지연 최대시간 
+
+ShotAccuracy		= 100			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+
+SniperStopDelay		= 0.25f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 3			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 90			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 10			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 80			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+[Ability28]	// 크로스카운터 - 난이도: 매우 어려움 (스나)
+SenseDist		= 1800.0f		// 인식거리
+ViewDist		= 15000			// 뷰거리
+SenseDelayTime		= 0.0f			// 감지 지연시간 (시야에 보였을 떄, 오차범위 +0.1초)
+ShotResponseTime	= 0.1f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 10			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+// MoveAfterAim		// = False			// (조준 후) 이동.. 사용 안함 
+
+AttentionMin		= 0.1f		// 전투 종료 후 대기 시간
+AttentionMax		= 0.6f		// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 0.2f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.5f		// (조준 후) 샷 지연 최대시간 
+
+ShotAccuracy		= 100			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+
+SniperStopDelay		= 0.25f			// 스나이퍼 격발시 정지 시간 
+
+AttackModeTime		= 3			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 90			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 10			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 80			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+
+[Ability29]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 5000			// 뷰거리
+
+//DefaultState		= "None"		// Battle, Messenger, None
+
+ShotResponseTime	= 1.5f			// 피격 반응시간 (오차범위 +0.1초)
+
+TakeAimAtHead		= 1			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+
+
+AttentionMin		= 0.5f			// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f			// 전투 종료 후 대기 시간
+
+ShotDelayTime		= 1.8f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 2.3f			// (조준 후) 샷 지연 최대시간 
+
+ShotAccuracy		= -40			// 샷 정확도 퍼센트 (-100 ~ 100) 
+
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간
+
+AttackModeTime		= 1			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+
+MovingAttack		= 40			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+
+MAForward		= 70			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 20			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 10			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+
+
+////// 넥슨을 털어라
+
+
+
+
+// [MovePoint]		:   MovePoint = "1001,2001,3001,4001"	: THEN에서 사용할 MovePoint의 이동 위치
+// [DropItem0]		:	DropItem0 = "kkk1"					: 드랍아이템을 지정한다 후에 THEN 에서 사용한다.
+// IF *****************************
+// [Type]
+//	[계속 체크되는 항목]
+//	Time			:	Type = Time & TimeMin = 1.0 & TimeMax = 2.0			:	시간이 되었으면
+//	NearEnemy		:	Type = NearEnemy & Dist = 200 & Angle = 90			:	근처에 적이 있으면
+//	SearchAI		:	Type = SearchAI & Dist = 200 & Angle = 90 & Command = Attack	:	해당 AI의 State가 Cammand와 같으면
+//	Body			:	Type = Body & Dist = 200 & Angle = 90				:	시체가 있으면
+//	[이벤트 발생시 체크되는 항목]
+//	FireSound		:	Type = FireSound & Dist = 0 & Angle =90				:	근처에 사운드 발생시(체크범위: 총기에 부여된 거리+Dist)
+// 	Command			:	Type = FireSound & Command = "1530"					: 	만약 이 소리의 범위가 1530무기로 인해 발생한 것일 경우. // 수류탄 전용임. 총에 붙이지 말 것.
+//	Install			:	Type = Install & Dist = 200 & Angle = 90			:	설치시도
+//	FireAI			:	Type = FireAI & Dist = 200 & Angle = 90				:	AI를 공격하려는 시점
+//	FireUser		:	Type = FireUser & Dist = 200 & Angle = 90			:	User를 공격하려는 시점
+//	AIAssailant		:	Type = AIAssailant & Dist = 200 & Angle = 90			:	AI에게 맞는 시점
+//	UserAssailant		:	Type = UserAssailant & Dist = 200 & Angle = 90			:	User에게 맞는 시점
+//	ModelKey		:	Type = ModelKey & Command = Whistle				:	애니메이션키 확인
+// [Target]
+//	숫자			:	Target = 1140							:	타겟의 베이스아이디가 1140일때
+//	None			:	Target = None							:	타겟이 없을때
+//	Near			:	Target = Near							:	타겟이 가장 가까운 적과 같을때
+//	SelObj			:	Target = SelObj							:	타겟이 Type에서 체크된 오브젝트와 같을때
+//	Nothing			:	Target = Nothing						:	타겟체크 안함
+// [DynamicSwitch]		:	DynamicSwitch = On						:	동적 스위치가 켜져있다면
+// [State]			:	State = Attack							:	State가 Attack이라면
+
+// THEN *****************************
+// [Target]
+//	숫자			:	Target = 1140							:	베이스아이디가 1140인 AI를 타겟으로한다
+//	None			:	Target = None							:	타겟을 없앤다
+//	Near			:	Target = Near							:	가까이에 있는 적을 타겟으로 한다
+//	SelObj			:	Target = SelObj							:	조건에서 체크했던 오브젝트를 타겟으로한다
+//	Nothing			:	Target = Nothing						:	아무것도안함
+// [MovingTowards]		:	MovingTowards = true						:	조건에서 체크했던 위치쪽으로 감
+// [SpecialAttack]		:	SpecialAttack = 100						:	0~100의 확률값으로 스페셜어택을 할지 결정함
+// [DynamicSwitch]		:	DynamicSwitch = On						:	동적 스위치를 켠다
+// [Pattern]			:	Pattern = 56							:	패턴을 바꾼다
+// [Ani]			:	Ani = emotion1							:	emotion1,emotion2,emotion3,emotion4,emotion5,emotion6중 하나선택
+// [State]			:	State = Attack							:	자유롭게 현재상태를 State로 기록한다
+// [TargetRun]			:	TargetRun = true						:	TargetRun을 변경한다
+// [Face]			:	Face = face_normal						:	페이스등록된 피스들중 해당 이름의 피스만 보이게 한다
+// [SelWeaponIdx]		:	SelWeaponIdx = 1						:	장착된 1~3번 무기중 하나 선택
+// [Stand]			:	Stand = 1.0							:	1초동안 제자리에 있게 한다
+// [DEATH]			:	DEATH = True							: 사망한다.(디스폰) 일반적인 사망 루틴은 따르지 않는다 아이템 드랍 등 안함.
+// [DropItem]		:	DropItem = 0						: DropItem0 에서 지정한 아이템을 드랍한다. 0 외의 숫자도 사용 가능하다.
+// [MovePoint]		:	MovePoint = Near					:Near Far Rand 중 택일. 해당 위치로 달려간다.
+// [MoveTarget]		: 	MoveTarget = SelObj & MovePoint = 	: MovePoint와 같이 쓴다. 해당 타겟을 MovePoint위치로 이동시킨다. (김대장 전용)
+// [Stun]			:	Stun - 5.0//1						: 5초간 스턴
+
+[Ability30]	// 공격용 민간인
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+ShotResponseTime	= 0//1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 0			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 2.0f			// 전투 종료 후 대기 시간
+AttentionMax		= 2.0f			// 전투 종료 후 대기 시간
+ShotDelayTime		= 0//1.8f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0//2.3f			// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 100			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 20			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 0			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 100			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 0			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 0			// 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+MovePoint		= "1101, 2101, 3101, 4101"
+
+// 새로 추가된 기능
+GrudgeTime		= -1
+//CheckTargetDist	= True			//타겟 발견후에도 거리체크하여 유효한지 판단한다.(디폴트 False)
+//SpecialAttack		= 0			//공격시 스페셜어택을 할 확률
+TargetRun		= True			//타겟이 있을때만 뛴다.(디폴트 항상 뛴다. False)
+TorqueSpeed = 0.4f
+FireSoundCheck = "Melee=100, Pistol=800, Rifle=1500, Machine=2000, Submachine=1000, Sniper=1800, Shotgun=1600, CombatBow=100, Run = 400, Default=1000" 
+
+
+
+// 스턴 및 알람후 공격
+Search0 = "IF ( Type = FireSound & Command = 1530) THEN ( State = Stun & Stun = 3.0  & Ani = Emotion4)"   									// 스턴 맞으면 스턴모션 및 스턴상황
+Search1 = "IF ( DynamicSwitch = On & State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5                                ) THEN ( State = None )" // 다이나믹 상태에서 스턴시 스탯 None
+Search2 = "IF (	DynamicSwitch = On	& Type = Time & TimeMin = 20.0 & TimeMax = 20.0	) THEN ( DEATH = True )"								// 다이나믹 켜지면 10초뒤 사망
+Search3 = "IF (	DynamicSwitch = On								) THEN ( TargetRun = false & MovePoint = Rand & Target = None)"								// 특정스위치켜지면 달리기모드로 위치로 도망
+Search4 = "IF ( State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5                                ) THEN ( State = ExclamationM )" // 일반상황에서 스턴시 스탯 ExclamationM
+Search5	= "IF ( State = Stun) THEN ()"
+
+// 휘슬 및 알람
+Search6 = "IF (	State = ExclamationM & Type = Time & TimeMin = 1.0 & TimeMax = 1.0		) THEN (TargetRun = false & SenseDist = 1500 )"						// ExclamationM 상태가 몇초간 유지되면, 센스를 활성화해서 공격한다
+
+// 유저에게 공격 당한 경우
+Search7 = "IF ( Type = UserAssailant & Dist = 4000) THEN ( State = ExclamationM  )"                  // 범위내 유저공격을 받으면 ExclamationM 상태로 바꾼다// 유저에게 공격 당한 경우
+
+// AI에게 공격 당한 경우, 공격당한 AI가 있는 경우, 시체발견, 가까운거리에 유저발견
+Search8 = "IF ( Type = SearchAI & Command = ExclamationM & Dist = 600 & Angle = 360) THEN ( State = ExclamationM )"                     // 범위내에 특정State의 AI가 존재하면 ExclamationM 상태로 바꾼다
+Search9  = "IF ( Type = Body & Dist = 600 & Angle = 360) THEN ( State = ExclamationM )"                     // 바로 근처에 시체를 발견하면 ExclamationM 상태로 바꾼다
+
+// 총소리, 멀리 적이 보일때
+Search10 = "IF ( State = None & Type = Body & Dist = 800 & Angle = 120) THEN ( SAni = Emotion5 & State = Question & MovingTowards = true )"                 // 설정 범위 내에 시체가 있으면 해당 위치로 이동
+Search11 = "IF ( State = None & Type = FireSound) THEN ( Ani = Emotion5 & State = Question & MovingTowards = true )"                 // 소리가 나면 그쪽으로 간다
+Search12 = "IF ( State = Question & MovingTowards = false & Time & TimeMin = 4.0 & TimeMax = 4.0) THEN ( State = None )"                                            // 시간이 지난후 Question 스테이트 초기화
+
+// 이모션
+Search13 = "IF ( State = None & Type = Time & TimeMin = 10.0 & TimeMax = 25.0                                          ) THEN ( Ani = emotion2 )"
+
+
+
+
+
+
+
+[Ability31]	// 알리는 민간인
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+ShotResponseTime	= 0//1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 0			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 2.0f			// 전투 종료 후 대기 시간
+AttentionMax		= 2.0f			// 전투 종료 후 대기 시간
+ShotDelayTime		= 0//1.8f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0//2.3f			// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 100			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 20			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 100			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 0			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 0			// 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+MovePoint		= "1101, 2101, 3101, 4101"
+
+// 새로 추가된 기능
+GrudgeTime		= -1
+//CheckTargetDist	= True			//타겟 발견후에도 거리체크하여 유효한지 판단한다.(디폴트 False)
+//SpecialAttack		= 0			//공격시 스페셜어택을 할 확률
+TargetRun		= True			//타겟이 있을때만 뛴다.(디폴트 항상 뛴다. False)
+TorqueSpeed = 0.4f
+FireSoundCheck = "Melee=100, Pistol=800, Rifle=1500, Machine=2000, Submachine=1000, Sniper=1800, Shotgun=1600, CombatBow=100, Run = 400, Default=1000" 
+
+
+// 스턴 및 알람후 공격
+Search0 = "IF ( Type = FireSound & Command = 1530) THEN ( State = Stun & Stun = 3.0  & Ani = Emotion4)"   									// 스턴 맞으면 스턴모션 및 스턴상황
+Search1 = "IF ( DynamicSwitch = On & State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5      ) THEN ( State = None )" // 다이나믹 상태에서 스턴시 스탯 None
+Search2 = "IF (	DynamicSwitch = On	& Type = Time & TimeMin = 20.0 & TimeMax = 20.0	) THEN ( DEATH = True )"								// 다이나믹 켜지면 10초뒤 사망
+Search3 = "IF (	DynamicSwitch = On								) THEN ( TargetRun = false & MovePoint = Near & Target = None)"								// 특정스위치켜지면 달리기모드로 위치로 도망
+Search4 = "IF ( State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5                                ) THEN ( State = ExclamationM )" // 일반상황에서 스턴시 스탯 ExclamationM
+Search5	= "IF ( State = Stun) THEN ()"
+
+// 휘슬 및 알람
+Search6	= "IF ( Target = SelObj & Type = FireAI & Dist = 200					) THEN ( State = None & Target = None )"						// AI를 공격(알림)했으면 상태,타겟초기화
+Search7 = "IF (	State = ExclamationM & Type = Time & TimeMin = 1.0 & TimeMax = 1.0		) THEN ( Target = 1139 & SpecialAttack = 100 )"						// ExclamationM 상태가 몇초간 유지되면, 특정 경비병에게 스페셜공격(알림)
+
+// 유저에게 공격 당한 경우
+Search8 = "IF ( Type = UserAssailant & Dist = 4000) THEN ( State = ExclamationM  )"                  // 범위내 유저공격을 받으면 ExclamationM 상태로 바꾼다// 유저에게 공격 당한 경우
+
+// AI에게 공격 당한 경우, 공격당한 AI가 있는 경우, 시체발견, 가까운거리에 유저발견
+Search9 = "IF ( Type = SearchAI & Command = ExclamationM & Dist = 600 & Angle = 360) THEN ( State = ExclamationM )"                     // 범위내에 특정State의 AI가 존재하면 ExclamationM 상태로 바꾼다
+Search10  = "IF ( Type = Body & Dist = 600 & Angle = 360) THEN ( State = ExclamationM )"                     // 바로 근처에 시체를 발견하면 ExclamationM 상태로 바꾼다
+// 총소리, 멀리 적이 보일때
+Search11 = "IF ( State = None & Type = Body & Dist = 800 & Angle = 120) THEN ( Ani = Emotion5 & State = Question & MovingTowards = true )"                 // 설정 범위 내에 시체가 있으면 해당 위치로 이동
+Search12 = "IF ( State = None & Type = FireSound) THEN ( State = Ani = Emotion5 & State = Question & MovingTowards = true )"                 // 소리가 나면 그쪽으로 간다
+Search13 = "IF ( State = Question & MovingTowards = false & Time & TimeMin = 4.0 & TimeMax = 4.0) THEN ( State = None )"                                            // 시간이 지난후 Question 스테이트 초기화
+// 이모션
+Search14 = "IF ( State = None & Type = Time & TimeMin = 10.0 & TimeMax = 25.0                                          ) THEN ( Ani = emotion2 )"
+
+
+[Ability32]	// 공격만 하는 경비병 (특수 경비)
+SenseDist		= 0.0f		// 인식거리
+ViewDist		= 0.0f		// 뷰거리
+ShotResponseTime	= 0//1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 20			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f			// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f			// 전투 종료 후 대기 시간
+ShotDelayTime		= 0.5f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 1.5f			// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 0			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 20			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 45			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 25			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 30			// 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+TargetRun		= True			//타겟이 있을때만 뛴다.(디폴트 항상 뛴다. False)
+
+// 새로 추가된 기능
+GrudgeTime		= -1
+TorqueSpeed = 0.4f
+StandEmotion = 3
+FireSoundCheck = "Melee=100, Pistol=800, Rifle=1500, Machine=2000, Submachine=1000, Sniper=1800, Shotgun=1600, CombatBow=100, Run = 400, Default=1000" 
+
+
+// 스턴 및 알람후 공격
+Search0         = "IF ( Type = FireSound & Command = 1530) THEN ( State = Stun & Stun = 3.0  & Ani = Emotion4)"    
+Search1         = "IF ( DynamicSwitch = On & State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5) THEN ( State = None )" // 알람중 스턴시 깨면서 스탯 논
+Search2         = "IF ( DynamicSwitch = On) THEN ( TargetRun = false & SelWeaponIdx = 2 & SenseDist = 1500 )"    // 스위치 올라가면 무조건달리기모드로 변경하고 권총바꾸고 적감지모드 발동
+Search3         = "IF ( State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5) THEN ( State = ExclamationM )" // 스턴시 깨면서 알람상황
+Search4			= "IF ( State = Stun) THEN ()"
+
+// 휘슬 및 알람
+Search5 = "IF (	State = ExclamationM & Type = Time & TimeMin = 0.5 & TimeMax = 0.5		) THEN ( TargetRun = false & SelWeaponIdx = 2 & SenseDist = 1500 )"				// ExclamationM 상태가 몇초간 유지되면, 권총바꾸고  센스 ON
+
+// 유저에게 공격 당한 경우
+Search6 = "IF ( Type = UserAssailant & Dist = 4000) THEN ( State = ExclamationM  )"                                                                 // 범위내 유저공격을 받으면 ExclamationM 상태로 바꾼다
+
+// AI에게 공격 당한 경우, 공격당한 AI가 있는 경우, 시체발견, 가까운거리에 유저발견
+Search7 = "IF ( Type = SearchAI & Command = ExclamationM & Dist = 400 & Angle = 360) THEN ( State = ExclamationM  )"                     // 범위내에 특정State의 AI가 존재하면 ExclamationM 상태로 바꾼다
+Search8  = "IF ( Type = Body & Dist = 400 & Angle = 360) THEN ( State = ExclamationM  )"                     // 바로 근처에 시체를 발견하면 ExclamationM 상태로 바꾼다
+Search9 = "IF ( Type = NearEnemy & Dist = 500 & Angle = 120) THEN ( State = ExclamationM )"                      // 범위내 적이 있을 시 ExclamationM상태로 바꾼다
+
+// 총소리, 멀리 적이 보일때
+Search10 = "IF ( State = None & Type = Body & Dist = 800 & Angle = 120) THEN ( Ani = Emotion2 & State = Question & MovingTowards = true )"                 // 설정 범위 내에 시체가 있으면 해당 위치로 이동
+Search11 = "IF ( State = None & Type = FireSound) THEN ( Ani = Emotion2 & State = Question & MovingTowards = true )"                 // 소리가 나면 그쪽으로 간다
+Search12 = "IF ( State = None & Type = NearEnemy & Dist = 800 & Angle = 120) THEN ( Ani = Emotion2 & State = Question & MovingTowards = true )"                 // 설정 범위 내에 PC가 있으면 해당 위치로 이동한다
+Search13 = "IF ( State = Question & MovingTowards = false & Time & TimeMin = 4.0 & TimeMax = 4.0) THEN ( State = None )"                                            // 시간이 지난후 Question 스테이트 초기화
+
+
+[Ability33]	// 휘슬 부는 경비병 (넥슨경비)
+SenseDist		= 0.0f		// 인식거리
+ViewDist		= 0.0f		// 뷰거리
+ShotResponseTime	= 0//1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 0			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f			// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f			// 전투 종료 후 대기 시간
+ShotDelayTime		= 1.8f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 2.3f			// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= -40			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 20			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 60			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 30			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 10			// 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+TargetRun		= True			//타겟이 있을때만 뛴다.(디폴트 항상 뛴다. False)
+FireSoundCheck = "Melee=100, Pistol=800, Rifle=1500, Machine=2000, Submachine=1000, Sniper=1800, Shotgun=1600, CombatBow=100, Run = 400, Default=1000" 
+// 새로 추가된 기능
+GrudgeTime		= -1
+TorqueSpeed = 0.4f
+StandEmotion = 2
+
+// 스턴 및 알람후 공격
+Search0         = "IF ( Type = FireSound & Command = 1530) THEN ( State = Stun & Stun = 3.0  & Ani = Emotion4)"    
+Search1         = "IF ( DynamicSwitch = On & State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5) THEN ( State = None )" // 알람중 스턴시 깨면서 스탯 논
+Search2         = "IF ( DynamicSwitch = On) THEN ( TargetRun = false & SelWeaponIdx = 2 & SenseDist = 1500 )"    // 스위치 올라가면 무조건달리기모드로 변경하고 권총바꾸고 적감지모드 발동
+Search3         = "IF ( State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5) THEN ( State = ExclamationM )" // 스턴시 깨면서 알람상황
+Search4			= "IF ( State = Stun) THEN ()"
+
+// 휘슬 및 알람
+Search5 = "IF ( Type = ModelKey & Command = WHISTLE) THEN ( DynamicSwitch = On )"                                      // 모델키에서 휘슬이 오면 특정스위치를 올림 
+Search6 = "IF ( State = ExclamationM & Type = Time & TimeMin = 0.5 & TimeMax = 0.5) THEN ( State = ExclamationM & Ani = emotion1 )"                   // ExclamationM상태가 지속되면 휘슬
+
+
+// 유저에게 공격 당한 경우
+Search7 = "IF ( Type = UserAssailant & Dist = 4000) THEN ( State = ExclamationM  )"                                                                 // 범위내 유저공격을 받으면 ExclamationM 상태로 바꾼다
+
+// AI에게 공격 당한 경우, 공격당한 AI가 있는 경우, 시체발견, 가까운거리에 유저발견
+Search8 = "IF ( Type = AIAssailant) THEN ( State = ExclamationM  )"                     // AI의 공격(알림)을 받으면 ExclamationM 상태로 바꾼다. 
+Search9 = "IF ( Type = SearchAI & Command = ExclamationM & Dist = 400 & Angle = 360) THEN ( State = ExclamationM )"                     // 범위내에 특정State의 AI가 존재하면 ExclamationM 상태로 바꾼다
+Search10  = "IF ( Type = Body & Dist = 400 & Angle = 360) THEN ( State = ExclamationM)"                     // 바로 근처에 시체를 발견하면 ExclamationM 상태로 바꾼다
+Search11 = "IF ( Type = NearEnemy & Dist = 500 & Angle = 120) THEN ( State = ExclamationM)"                      // 범위내 적이 있을 시 ExclamationM상태로 바꾼다
+
+
+// 총소리, 멀리 적이 보일때
+Search12 = "IF ( State = None & Type = Body & Dist = 800 & Angle = 120) THEN ( Ani = Emotion2 & State = Question & MovingTowards = true )"                 // 설정 범위 내에 시체가 있으면 해당 위치로 이동
+Search13 = "IF ( State = None & Type = FireSound) THEN ( Ani = Emotion2 & State = Question & MovingTowards = true )"                 // 소리가 나면 그쪽으로 간다
+Search14 = "IF ( State = None & Type = NearEnemy & Dist = 800 & Angle = 120 ) THEN ( Ani = Emotion2 & State = Question & MovingTowards = true )"                 // 설정 범위 내에 PC가 있으면 해당 위치로 이동한다
+Search15 = "IF ( State = Question & MovingTowards = false & Time & TimeMin = 4.0 & TimeMax = 4.0) THEN ( State = None )"                                            // 시간이 지난후 Question 스테이트 초기화
+
+
+
+
+[Ability34]	// 군인 C급 칼 (지원팀 신입)
+SenseDist		= 8000.0f			// 인식거리
+ViewDist		= 15000			// 뷰거리
+ShotResponseTime	= 1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 0			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 2.0f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 3.0f		// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 15		// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 10		// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 85			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 0			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 15			// 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+DotShotDist = 150.0f
+DotShotTime = 2.0f
+// 새로 추가된 기능
+Search0 = "IF ( Type = FireSound & Command = 1530    ) THEN ( State = Stun & Stun = 3.0  & Ani = Emotion4)"    
+Search1 = "IF ( State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5                                ) THEN ( State = None )"
+Search2	= "IF ( State = Stun) THEN ()"
+
+[Ability35]	// 건물 외부 스나이퍼 (직속 해결사)
+
+SenseDist		= 5000.0f			// 인식거리
+ViewDist		= 15000			// 뷰거리
+ShotResponseTime	= 1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 0			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 1.0f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 1.0f		// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 80			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 2.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 0			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 0			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 0			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 50			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 50			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 0			// 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+// 새로 추가된 기능
+BaseModeMoveLock		= True
+GrudgeTime		= -1
+
+Search0 = "IF ( Type = FireSound & Command = 1530    ) THEN ( State = Stun & Stun = 3.0  & Ani = Emotion4)"    
+Search1 = "IF ( State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5                                ) THEN ( State = None )"
+Search2	= "IF ( State = Stun) THEN ()"
+
+
+[Ability36]	// 캡틴킴
+SenseDist		= 550.0f		// 인식거리
+ViewDist		= 1500.0f		// 뷰거리
+ShotResponseTime	= 0//1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 20			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f			// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f			// 전투 종료 후 대기 시간
+ShotDelayTime		= 0.1f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.1f			// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 40			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 5			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 50			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 10			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 40			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+TargetRun		= True			//타겟이 있을때만 뛴다.(디폴트 항상 뛴다. False)
+
+// 새로 추가된 기능
+GrudgeTime		= -1
+MovePoint 		= "4404, 4904"
+ReturnWayPointTag = 4499  // 본부장실에서 700 떨어지면 무적귀환
+ReturnWayPointDist = 700.0f // 본부장실에서 700 떨어지면 무적귀환 
+
+Search0	= "IF ( Type = Death									) THEN ( DropItem = 81 & Death = 1160 & Death = 1161) "						// 사망시 아이템 드랍
+Search1 = "IF ( State = Special & Target = SelObj & Type = FireUser & Dist = 200                    ) THEN ( MoveTarget = SelObj & MovePoint = Rand & Target = Near & State = None & SelWeaponIdx = 1)" //  
+Search2	= "IF (	State = Special & Type = Time & TimeMin = 10.0 & TimeMax = 10.0			) THEN ( State = None & SelWeaponIdx = 1 & Target = Near )"
+Search3	= "IF ( State = None & Type = Time & & TimeMin = 15.0 & TimeMax = 15.0			) THEN ( State = Special & SelWeaponIdx = 2 & Target = Near )"
+Search4 = "IF (	State = None									) THEN ( SelWeaponIdx = 1 & Target = Near )"
+
+[Ability37]	// 돌격병 B급 (지원팀/해결팀 고참)
+SenseDist		= 8000.0f			// 인식거리
+ViewDist		= 15000			// 뷰거리
+ShotResponseTime	= 1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 0			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 1.5f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 2.5f		// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 40			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 10		// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 90			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 75			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 5			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 20			// 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+DotShotDist = 150.0f
+DotShotTime = 1.5f
+// 새로 추가된 기능
+GrudgeTime		= -1
+Search0 = "IF ( Type = FireSound & Command = 1530    ) THEN ( State = Stun & Stun = 3.0  & Ani = Emotion4)"    
+Search1 = "IF ( State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5                                ) THEN ( State = None )"
+Search2	= "IF ( State = Stun) THEN ()"
+
+
+[Ability38]	// 돌격병 A급  (지원팀/해결팀 정예)
+SenseDist		=8000.0f		// 인식거리
+ViewDist		= 15000			// 뷰거리
+ShotResponseTime	= 1.0f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 0			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.2f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 1.0f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 2.0f		// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 40			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 0.7f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 5			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 80			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 5			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 15			// 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+DotShotDist = 150.0f
+DotShotTime = 1.0f
+// 새로 추가된 기능
+GrudgeTime		= -1
+Search0 = "IF ( Type = FireSound & Command = 1530    ) THEN ( State = Stun & Stun = 3.0  & Ani = Emotion4)"    
+Search1 = "IF ( State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5                                ) THEN ( State = None )"
+Search2	= "IF ( State = Stun) THEN ()"
+   
+
+[Ability39]	// 스나병 공통 (날카로운 해결사)
+SenseDist		= 8000.0f			// 인식거리
+ViewDist		= 15000			// 뷰거리
+ShotResponseTime	= 1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 0			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 2.0f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 5.0f		// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 50			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 2.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 10		// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 10			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 70			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 20			// 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+// 새로 추가된 기능
+GrudgeTime		= -1
+Search0 = "IF ( Type = FireSound & Command = 1530    ) THEN ( State = Stun & Stun = 3.0  & Ani = Emotion4)"    
+Search1 = "IF ( State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5                                ) THEN ( State = None )"
+Search2	= "IF ( State = Stun) THEN ()"
+  
+
+[Ability40]	// 방패병 (철벽방어 해결사)
+SenseDist		= 8000.0f			// 인식거리
+ViewDist		= 15000			// 뷰거리
+ShotResponseTime	= 1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 0			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 1.8f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 5.0f		// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 0			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 10		// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 85			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 5			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 10			// 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+// 새로 추가된 기능
+GrudgeTime		= -1
+DotShotDist = 150.0f
+DotShotTime = 1.0f
+Search0 = "IF ( Type = FireSound & Command = 1530    ) THEN ( State = Stun & Stun = 3.0  & Ani = Emotion4)"    
+Search1 = "IF ( State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5                                ) THEN ( State = None )"
+Search2	= "IF ( State = Stun) THEN ()"
+
+
+
+[Ability41]	// 김실장  노말상태에서 웨이브가 발동되면 디스폰된다 민간인 디스폰과 동일. 
+SenseDist		= 0.0f		// 인식거리
+ViewDist		= 0.0f		// 뷰거리
+ShotResponseTime	= 0//1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 0			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f			// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f			// 전투 종료 후 대기 시간
+ShotDelayTime		= 1.8f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 2.3f			// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= -40			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 1			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 1			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 0			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 98			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 2			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 0			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+TargetRun		= True			//타겟이 있을때만 뛴다.(디폴트 항상 뛴다. False)
+
+// 새로 추가된 기능
+GrudgeTime		= -1
+//FireSoundCheck = "Melee=100, Pistol=800, Rifle=2000, Machine=4000, Submachine=1200, Sniper=2400, Shotgun=1600, CombatBow=100, Run = 400, Default=1000"
+StandEmotion = 1
+
+Search0 = "IF ( Type = Death									) THEN ( Face = face_smile & DropItem = 80 & Death = 1159 & Message = 13) "						// 사망시 USB드랍 1159사망
+Search1 = "IF ( DynamicSwitch = On								) THEN ( wave = 9 & DynamicSwitch = On & DEATH = True )"    // 스위치 올라가면 보스웨이브로 작동하면서 사망
+Search2	= "IF ( Type = ModelKey & Command = WHISTLE						) THEN (wave = 9 & DynamicSwitch = On & DEATH = True)"						// 모델키에서 휘슬이 오면 보스웨이브 다이나믹으로 작동하면서 사망.
+Search3	= "IF ( State = None & Type = UserAssailant & Dist = 1000				) THEN ( Target = SelObj & Face = face_angry & State = ExclamationM &  Ani = emotion2 )"				// 범위내 유저공격을 받으면 휘슬분다.
+Search4 = "IF (	State = None & Type = NearEnemy & Dist = 600 & Angle = 120			) THEN ( Target = SelObj & Face = face_angry & State = ExclamationM &  Ani = emotion2 )"				// 범위내 적이 있을 시 휘슬분다
+Search5 = "IF ( State = None ) THEN (Face = face_normal)"
+
+
+[Ability42] // 탱크김실장
+SenseDist       = 800.0f                  // 인식거리
+ViewDist        = 1500.0f               // 뷰거리
+ShotResponseTime = 0//1.5f                           // 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead    = 0                                   // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin     = 0.1f                                // 전투 종료 후 대기 시간
+AttentionMax      = 0.1f                                // 전투 종료 후 대기 시간
+ShotDelayTime     = 0.1f                                // (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax = 0.1f                                // (조준 후) 샷 지연 최대시간 
+ShotAccuracy      = -40                                // 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay    = 1.0f                                // 스나이퍼 격발시 정지 시간 
+AttackModeTime     = 30                                   // 적이 보이지 않을때 공격유지시간
+AttackModeAction  = 2                                   // 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack        = 100                                // 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward           = 60                                 // 공격시 움직일 때, 전진 확률                                    
+MAReverse           = 40                                 // 공격시 움직일 때, 후진 확률
+MALeftRight          = 0                                   // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion         = True                               // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+//TargetRun          = True                               // 걷는 애니메이션이 없으므로 없애야 함. 그렇게 하지 않으면 오동작함
+// 새로 추가된 기능
+GrudgeTime                        = -1
+ReturnWayPointTag = 3299  // 실장실 중심 위치에서 850 떨어지면 무적귀환
+ReturnWayPointDist = 850.0f //실장실 중심 위치에서 850 떨어지면 무적귀환
+
+Search0   = "IF ( Type = Death                 ) THEN ( DropItem = 80 & Death = 1159 & Message = 14) " // 나타날때 다이나믹이 ON이므로 변경없음
+Search1   = "IF (     State = Special & Type = Time & TimeMin = 4.0 & TimeMax = 6.0                         ) THEN ( Face = face_angry & State = None & SelWeaponIdx = 1 )" // 필살기시간에서 4~6초 지나면 원래대로.
+Search2   = "IF ( State = None & Type = Time & & TimeMin = 15.0 & TimeMax = 15.0                            ) THEN ( Face = face_smile & State = Angry & ani = emotion3  )" // 필살기 시작 전에 부릉부릉
+Search3   = "IF ( State = Angry & Type = Time & & TimeMin = 1.0 & TimeMax = 1.0                            ) THEN ( Face = face_smile & State = Special & SelWeaponIdx = 2 & Stand = 10.0 & Target = Rand )" // 부릉부릉 후에 필살기 시전
+Search3 = "IF (      State = None                                 ) THEN ( Face = face_angry & SelWeaponIdx = 1 )"  // 아무것도 없으면 노말상태로 복귀.
+
+//여기부터 사장실
+
+[Ability43] // 사장
+SenseDist                           = 900.0f                  // 인식거리
+ViewDist                            = 900.0f               // 뷰거리
+ShotResponseTime = 0//1.5f                           // 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead                   = 0                                   // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin                      = 0.5f                                // 전투 종료 후 대기 시간
+AttentionMax                      = 1.0f                                // 전투 종료 후 대기 시간
+ShotDelayTime                    = 0.0f                                // (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax = 0.0f                                // (조준 후) 샷 지연 최대시간 
+ShotAccuracy                     = 90                                // 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay                  = 1.0f                                // 스나이퍼 격발시 정지 시간 
+AttackModeTime                 = 1                                   // 적이 보이지 않을때 공격유지시간
+AttackModeAction  = 0                                   // 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack                     = 0                                // 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward                        = 50                                 // 공격시 움직일 때, 전진 확률                                    
+MAReverse                         = 50                                 // 공격시 움직일 때, 후진 확률
+MALeftRight                       = 0                                   // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion                          = True                               // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+//TargetRun                        = True                               // 걷는 애니메이션이 없으므로 없애야 함. 그렇게 하지 않으면 오동작함
+// 새로 추가된 기능
+GrudgeTime                        = -1
+//ReturnWayPointTag = 4399  // 사장실에서 900 떨어지면 무적귀환 (할일없지만) <- 이거 있으면 이동함. 
+//ReturnWayPointDist = 900.0f // 사장실에서 900 떨어지면 무적귀환 (할일없지만)
+BaseModeMoveLock		= True  // 무슨일이 있어도 움직이지 않게 하는 기능
+
+Search0   = "IF ( Type = Death                        ) THEN (DropItem = 82 & Death = 1162 & Death = 1163) " // 나타날때 다이나믹이 ON이므로 변경없음
+Search1 = "IF ( State = None & Type = UserAssailant & Dist = 1500                               ) THEN ( State = Idle )"    // 공격받으면 Idle로 전환
+Search2 = "IF (  State = None & Type = NearEnemy & Dist = 800 & Angle = 120                    ) THEN ( State = Idle )"                                    // 범위내 적이 있을 시 Idle로 전환
+Search3   = "IF (     State = Special1 & Type = Time & TimeMin = 3.0 & TimeMax = 3.0                         ) THEN ( State = Special2 & SelWeaponIdx = 2 & TornadoTime = 6 & TornadoSpeed = 3.0)" // 스페셜 6초 후 Idle
+Search4   = "IF (     State = Special2 & Type = Time & TimeMin = 6.0 & TimeMax = 6.0                         ) THEN ( State = Idle & SelWeaponIdx = 1 & Target = Rand & TornadoTime = 0 )" // 스페셜 6초 후 Idle
+Search5   = "IF ( State = Idle & Type = Time & & TimeMin = 10.0 & TimeMax = 10.0                            ) THEN ( State = Special1 & SelWeaponIdx = 3 & TornadoTime = 3 & TornadoSpeed = 5.0 )" // 10초간 Idle전투 후 스페셜
+
+
+[Ability44] // 다오
+SenseDist                           = 650.0f                  // 인식거리
+ViewDist                            = 900.0f               // 뷰거리
+ShotResponseTime = 0//1.5f                           // 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead                   = 0                                   // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin                      = 0.5f                                // 전투 종료 후 대기 시간
+AttentionMax                      = 1.0f                                // 전투 종료 후 대기 시간
+ShotDelayTime                    = 0.5f                                // (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax = 2.3f                                // (조준 후) 샷 지연 최대시간 
+ShotAccuracy                     = 0                                // 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay                  = 1.0f                                // 스나이퍼 격발시 정지 시간 
+AttackModeTime                 = 20                                   // 적이 보이지 않을때 공격유지시간
+AttackModeAction  = 1                                   // 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack                     = 100                                // 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward                        = 10                                 // 공격시 움직일 때, 전진 확률                                    
+MAReverse                         = 30                                 // 공격시 움직일 때, 후진 확률
+MALeftRight                       = 60                                   // 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion                          = True                               // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+//TargetRun                        = True                               // 걷는 애니메이션이 없으므로 없애야 함. 그렇게 하지 않으면 오동작함
+// 새로 추가된 기능
+GrudgeTime                        = -1
+ReturnWayPointTag = 4399  // 실장실 중심 위치에서 850 떨어지면 무적귀환
+ReturnWayPointDist = 800.0f //실장실 중심 위치에서 850 떨어지면 무적귀환
+
+Search1 = "IF ( State = Special & Target = SelObj & Type = FireUser & Dist = 200                    ) THEN ( MoveTarget = SelObj & MovePoint = Near & Target = None )" //   총맞으면 해당유저 공격
+Search2	= "IF (	State = Special & Type = Time & TimeMin = 10.0 & TimeMax = 10.0			) THEN ( State = None & SelWeaponIdx = 1 & Target = Near )" // 특수공격 10초 후 일반공격
+Search3	= "IF ( State = None & Type = Time & & TimeMin = 30.0 & TimeMax = 30.0			) THEN ( State = Special & SelWeaponIdx = 2 & Target = Near )"  // 30초에 한번 특수공격
+Search4 = "IF (	State = None									) THEN ( SelWeaponIdx = 1 & Target = Near )" // 별일없으면 옆에놈 공격
+
+[Ability45] // 배찌
+SenseDist                           = 650.0f                  // 인식거리
+ViewDist                            = 900.0f               // 뷰거리
+ShotResponseTime = 0//1.5f                           // 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead                   = 0                                   // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin                      = 0.5f                                // 전투 종료 후 대기 시간
+AttentionMax                      = 1.0f                                // 전투 종료 후 대기 시간
+ShotDelayTime                    = 0.5f                                // (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax = 0.5f                                // (조준 후) 샷 지연 최대시간 
+ShotAccuracy                     = 40                                // 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay                  = 1.0f                                // 스나이퍼 격발시 정지 시간 
+AttackModeTime                 = 20                                   // 적이 보이지 않을때 공격유지시간
+AttackModeAction  = 2                                   // 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack                     = 100                                // 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward                        = 80                                 // 공격시 움직일 때, 전진 확률                                    
+MAReverse                         = 0                                 // 공격시 움직일 때, 후진 확률
+MALeftRight                       = 20                                   // 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion                          = True                               // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+//TargetRun                        = True                               // 걷는 애니메이션 없으므로 없애야 함. 그렇게 하지 않으면 오동작함
+// 새로 추가된 기능
+GrudgeTime                        = -1
+ReturnWayPointTag = 4399  // 사장실 중심 위치에서 800 떨어지면 무적귀환
+ReturnWayPointDist = 800.0f //실장실 중심 위치에서 800 떨어지면 무적귀환
+
+Search1 = "IF ( State = Special & Target = SelObj & Type = FireUser & Dist = 200                    ) THEN ( MoveTarget = SelObj & MovePoint = Near & Target = None )" //   총맞으면 해당유저 공격
+Search2	= "IF (	State = Special & Type = Time & TimeMin = 6.0 & TimeMax = 6.0			) THEN ( State = None & SelWeaponIdx = 1 & Target = Near )" // 특수공격 6초 후 일반공격
+Search3	= "IF ( State = None & Type = Time & & TimeMin = 10.0 & TimeMax = 20.0			) THEN ( State = Special & SelWeaponIdx = 2 & Target = Near )"  // 10~20초에 한번 특수공격
+Search4 = "IF (	State = None									) THEN ( SelWeaponIdx = 1 & Target = Near )" // 별일없으면 옆에놈 공격
+
+[Ability46] // 넥슨의 문장
+SenseDist                           = 550.0f                  // 인식거리
+ViewDist                            = 700.0f               // 뷰거리
+ShotResponseTime = 0//1.5f                           // 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead                   = 0                                   // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin                      = 0.5f                                // 전투 종료 후 대기 시간
+AttentionMax                      = 1.0f                                // 전투 종료 후 대기 시간
+ShotDelayTime                    = 0.5f                                // (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax = 0.5f                                // (조준 후) 샷 지연 최대시간 
+ShotAccuracy                     = 40                                // 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay                  = 1.0f                                // 스나이퍼 격발시 정지 시간 
+AttackModeTime                 = 1                                   // 적이 보이지 않을때 공격유지시간
+AttackModeAction  = 0                                   // 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack                     = 100                                // 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward                        = 80                                 // 공격시 움직일 때, 전진 확률                                    
+MAReverse                         = 0                                 // 공격시 움직일 때, 후진 확률
+MALeftRight                       = 20                                   // 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion                          = True                               // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+//TargetRun                        = True                               // 걷는 애니메이션이 없으므로 없애야 함. 그렇게 하지 않으면 오동작함
+// 새로 추가된 기능
+GrudgeTime                        = -1
+//ReturnWayPointTag = 4499  // 사장실에서 700 떨어지면 무적귀환 (할일없지만) <- 이거 있으면 이동함. 
+//ReturnWayPointDist = 800.0f // 사장실에서 700 떨어지면 무적귀환 (할일없지만)
+
+Search0 = "IF (	State = None									) THEN ( SelWeaponIdx = 1 & Target = Near )" // 별일없으면 옆에놈 공격
+
+[Ability47]	// 건물 외부 스나이퍼 노말상황용 (실장실 전용, 웨이브시 사망)
+
+SenseDist		= 5000.0f			// 인식거리
+ViewDist		= 15000			// 뷰거리
+ShotResponseTime	= 1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 0			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 1.0f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 1.0f		// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 60			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 2.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 0			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 0			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 0			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 50			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 50			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 0			// 공격시 움직일 때, 좌우 이동 확률 
+Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+// 새로 추가된 기능
+BaseModeMoveLock		= True
+GrudgeTime		= -1
+//Ray                      = "Tag = 1009, Move = 50, Speed = 3, Radius = 3"
+
+Search0 = "IF ( State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5                                ) THEN ( State = None )"
+Search1 = "IF ( Type = FireSound & Command = 1530    ) THEN ( State = Stun & Stun = 3.0  & Ani = Emotion4)" 
+Search2 = "IF (	DynamicSwitch = On	& Type = Time & TimeMin = 2 & TimeMax = 2	) THEN ( DEATH = True )"								// 다이나믹 켜지면 2초뒤 사망
+
+
+
+
+[Ability48]	// 휘슬 부는 경비병 튜터리얼용 (B1 주차장 문 앞)
+SenseDist		= 0.0f		// 인식거리
+ViewDist		= 0.0f		// 뷰거리
+ShotResponseTime	= 0//1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 0			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f			// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f			// 전투 종료 후 대기 시간
+ShotDelayTime		= 1.8f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 2.3f			// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= -40			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 20			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 60			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 30			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 10			// 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+TargetRun		= True			//타겟이 있을때만 뛴다.(디폴트 항상 뛴다. False)
+FireSoundCheck = "Melee=100, Pistol=800, Rifle=1500, Machine=2000, Submachine=1000, Sniper=1800, Shotgun=1600, CombatBow=100, Run = 400, Default=1000" 
+// 새로 추가된 기능
+GrudgeTime		= -1
+TorqueSpeed = 0.4f
+StandEmotion = 2
+
+// 스턴 및 알람후 공격
+Search0 = "IF ( Type = Death									) THEN ( DropItem = 0 & Message = 4 ) "						// 사망시 드랍 0, 메시지 1
+Search1         = "IF ( Type = FireSound & Command = 1530) THEN ( State = Stun & Stun = 3.0  & Ani = Emotion4)"    
+Search2         = "IF ( DynamicSwitch = On & State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5) THEN ( State = None )" // 알람중 스턴시 깨면서 스탯 논
+Search3         = "IF ( DynamicSwitch = On) THEN ( TargetRun = false & SelWeaponIdx = 2 & SenseDist = 1500 )"    // 스위치 올라가면 무조건달리기모드로 변경하고 권총바꾸고 적감지모드 발동
+Search4         = "IF ( State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5) THEN ( State = ExclamationM )" // 스턴시 깨면서 알람상황
+Search5			= "IF ( State = Stun) THEN ()"
+
+// 휘슬 및 알람
+Search6 = "IF ( Type = ModelKey & Command = WHISTLE) THEN ( DynamicSwitch = On )"                                      // 모델키에서 휘슬이 오면 특정스위치를 올림 
+Search7 = "IF ( State = ExclamationM & Type = Time & TimeMin = 0.5 & TimeMax = 0.5) THEN ( State = ExclamationM & Ani = emotion1 )"                   // ExclamationM상태가 지속되면 휘슬
+
+
+// 유저에게 공격 당한 경우
+Search8 = "IF ( Type = UserAssailant & Dist = 4000) THEN ( State = ExclamationM  )"                                                                 // 범위내 유저공격을 받으면 ExclamationM 상태로 바꾼다
+
+// AI에게 공격 당한 경우, 공격당한 AI가 있는 경우, 시체발견, 가까운거리에 유저발견
+Search9 = "IF ( Type = AIAssailant) THEN ( State = ExclamationM)"                     // AI의 공격(알림)을 받으면 ExclamationM 상태로 바꾼다. 
+Search10 = "IF ( Type = SearchAI & Command = ExclamationM & Dist = 400 & Angle = 360) THEN ( State = ExclamationM)"                     // 범위내에 특정State의 AI가 존재하면 ExclamationM 상태로 바꾼다
+Search11  = "IF ( Type = Body & Dist = 400 & Angle = 360) THEN ( State = ExclamationM )"                     // 바로 근처에 시체를 발견하면 ExclamationM 상태로 바꾼다
+Search12 = "IF ( Type = NearEnemy & Dist = 500 & Angle = 120) THEN ( State = ExclamationM  )"                      // 범위내 적이 있을 시 ExclamationM상태로 바꾼다
+
+
+// 총소리, 멀리 적이 보일때
+Search13 = "IF ( State = None & Type = Body & Dist = 800 & Angle = 120) THEN ( State = Question & MovingTowards = true )"                 // 설정 범위 내에 시체가 있으면 해당 위치로 이동
+Search14 = "IF ( State = None & Type = FireSound) THEN ( State = Question & MovingTowards = true )"                 // 소리가 나면 그쪽으로 간다
+Search15 = "IF ( State = None & Type = NearEnemy & Dist = 800 & Angle = 120) THEN ( State = Question & MovingTowards = true )"                 // 설정 범위 내에 PC가 있으면 해당 위치로 이동한다
+Search16 = "IF ( State = Question & MovingTowards = true) THEN ( State = None )"                                            // 시간이 지난후 Question 스테이트 초기화
+
+
+[Ability49] // 탈출저지용 다오 
+SenseDist                           = 450.0f                  // 인식거리
+ViewDist                            = 1500.0f               // 뷰거리
+ShotResponseTime = 0//1.5f                           // 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead                   = 0                                   // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin                      = 0.5f                                // 전투 종료 후 대기 시간
+AttentionMax                      = 1.0f                                // 전투 종료 후 대기 시간
+ShotDelayTime                    = 0.5f                                // (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax = 2.3f                                // (조준 후) 샷 지연 최대시간 
+ShotAccuracy                     = 0                                // 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay                  = 1.0f                                // 스나이퍼 격발시 정지 시간 
+AttackModeTime                 = 20                                   // 적이 보이지 않을때 공격유지시간
+AttackModeAction  = 1                                   // 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack                     = 100                                // 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward                        = 10                                 // 공격시 움직일 때, 전진 확률                                    
+MAReverse                         = 30                                 // 공격시 움직일 때, 후진 확률
+MALeftRight                       = 60                                   // 공격시 움직일 때, 좌우 이동 확률 
+Dispersion                          = True                               // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+//TargetRun                        = True                               // 걷는 애니메이션이 없으므로 없애야 함. 그렇게 하지 않으면 오동작함
+// 새로 추가된 기능
+GrudgeTime                        = -1
+
+Search1 = "IF ( State = Special & Target = SelObj & Type = FireUser & Dist = 200                    ) THEN ( MoveTarget = SelObj & MovePoint = Near & Target = None )" //   총맞으면 해당유저 공격
+Search2	= "IF (	State = Special & Type = Time & TimeMin = 10.0 & TimeMax = 10.0			) THEN ( State = None & SelWeaponIdx = 1 & Target = Near )" // 특수공격 10초 후 일반공격
+Search3	= "IF ( State = None & Type = Time & & TimeMin = 30.0 & TimeMax = 30.0			) THEN ( State = Special & SelWeaponIdx = 2 & Target = Near )"  // 30초에 한번 특수공격
+Search4 = "IF (	State = None									) THEN ( SelWeaponIdx = 1 & Target = Near )" // 별일없으면 옆에놈 공격
+
+
+
+[Ability50] // 탈출 저지용 배찌 
+SenseDist                           = 450.0f                  // 인식거리
+ViewDist                            = 1500.0f               // 뷰거리
+ShotResponseTime = 0//1.5f                           // 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead                   = 0                                   // 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin                      = 0.5f                                // 전투 종료 후 대기 시간
+AttentionMax                      = 1.0f                                // 전투 종료 후 대기 시간
+ShotDelayTime                    = 0.5f                                // (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax = 0.5f                                // (조준 후) 샷 지연 최대시간 
+ShotAccuracy                     = 40                                // 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay                  = 1.0f                                // 스나이퍼 격발시 정지 시간 
+AttackModeTime                 = 20                                   // 적이 보이지 않을때 공격유지시간
+AttackModeAction  = 2                                   // 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack                     = 100                                // 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward                        = 80                                 // 공격시 움직일 때, 전진 확률                                    
+MAReverse                         = 0                                 // 공격시 움직일 때, 후진 확률
+MALeftRight                       = 20                                   // 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion                          = True                               // 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+//TargetRun                        = True                               // 걷는 애니메이션 없으므로 없애야 함. 그렇게 하지 않으면 오동작함
+// 새로 추가된 기능
+GrudgeTime                        = -1
+
+
+Search1 = "IF ( State = Special & Target = SelObj & Type = FireUser & Dist = 200                    ) THEN ( MoveTarget = SelObj & MovePoint = Near & Target = None )" //   총맞으면 해당유저 공격
+Search2	= "IF (	State = Special & Type = Time & TimeMin = 6.0 & TimeMax = 6.0			) THEN ( State = None & SelWeaponIdx = 1 & Target = Near )" // 특수공격 6초 후 일반공격
+Search3	= "IF ( State = None & Type = Time & & TimeMin = 10.0 & TimeMax = 20.0			) THEN ( State = Special & SelWeaponIdx = 2 & Target = Near )"  // 10~20초에 한번 특수공격
+Search4 = "IF (	State = None									) THEN ( SelWeaponIdx = 1 & Target = Near )" // 별일없으면 옆에놈 공격
+
+
+[Ability51]	// 철벽가드 탈출 저지용
+SenseDist		= 100.0f			// 인식거리
+ViewDist		= 950			// 뷰거리
+ShotResponseTime	= 1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 0			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 1.8f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 5.0f		// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 0			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 30		// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 0			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 0			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 85			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 5			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 10			// 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+// 새로 추가된 기능
+GrudgeTime		= -1
+DotShotDist = 150.0f
+DotShotTime = 1.0f
+Search0 = "IF ( Type = FireSound & Command = 1530    ) THEN ( State = Stun & Stun = 3.0  & Ani = Emotion4)"    
+Search1 = "IF ( State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5                                ) THEN ( State = None )"
+Search2	= "IF ( State = Stun) THEN ()"
+
+[Ability52]	// 탈출 저지용 칼 신입
+SenseDist		= 450.0f			// 인식거리
+ViewDist		= 1500			// 뷰거리
+ShotResponseTime	= 1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 0			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f		// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f		// 전투 종료 후 대기 시간
+ShotDelayTime		= 0.0f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 0.0f		// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= 50		// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 20		// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 85			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 0			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 15			// 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+
+// 새로 추가된 기능
+Search0 = "IF ( Type = FireSound & Command = 1530    ) THEN ( State = Stun & Stun = 3.0  & Ani = Emotion4)"    
+Search1 = "IF ( State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5                                ) THEN ( State = None )"
+Search2	= "IF ( State = Stun) THEN ()"
+
+[Ability53]	// 휘슬 부는 경비병 튜터리얼용 (문 앞 위치)
+SenseDist		= 0.0f		// 인식거리
+ViewDist		= 0.0f		// 뷰거리
+ShotResponseTime	= 0//1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 0			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f			// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f			// 전투 종료 후 대기 시간
+ShotDelayTime		= 1.8f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 2.3f			// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= -40			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 20			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 60			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 30			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 10			// 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+TargetRun		= True			//타겟이 있을때만 뛴다.(디폴트 항상 뛴다. False)
+FireSoundCheck = "Melee=100, Pistol=800, Rifle=1500, Machine=2000, Submachine=1000, Sniper=1800, Shotgun=1600, CombatBow=100, Run = 400, Default=1000" 
+// 새로 추가된 기능
+GrudgeTime		= -1
+TorqueSpeed = 0.4f
+StandEmotion = 2
+
+// 스턴 및 알람후 공격
+Search0 = "IF ( Type = Death									) THEN ( Message = 2) "						// 사망시 메시지 3
+Search1         = "IF ( Type = FireSound & Command = 1530) THEN ( State = Stun & Stun = 3.0  & Ani = Emotion4)"    
+Search2         = "IF ( DynamicSwitch = On & State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5) THEN ( State = None )" // 알람중 스턴시 깨면서 스탯 논
+Search3         = "IF ( DynamicSwitch = On) THEN ( TargetRun = false & SelWeaponIdx = 2 & SenseDist = 1500 )"    // 스위치 올라가면 무조건달리기모드로 변경하고 권총바꾸고 적감지모드 발동
+Search4         = "IF ( State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5) THEN ( State = ExclamationM )" // 스턴시 깨면서 알람상황
+Search5			= "IF ( State = Stun) THEN ()"
+
+// 휘슬 및 알람
+Search6 = "IF ( Type = ModelKey & Command = WHISTLE) THEN ( DynamicSwitch = On )"                                      // 모델키에서 휘슬이 오면 특정스위치를 올림 
+Search7 = "IF ( State = ExclamationM & Type = Time & TimeMin = 0.5 & TimeMax = 0.5) THEN ( State = ExclamationM & Ani = emotion1 )"                   // ExclamationM상태가 지속되면 휘슬
+
+
+// 유저에게 공격 당한 경우
+Search8 = "IF ( Type = UserAssailant & Dist = 4000) THEN ( State = ExclamationM  )"                                                                 // 범위내 유저공격을 받으면 ExclamationM 상태로 바꾼다
+
+// AI에게 공격 당한 경우, 공격당한 AI가 있는 경우, 시체발견, 가까운거리에 유저발견
+Search9 = "IF ( Type = AIAssailant) THEN ( State = ExclamationM)"                     // AI의 공격(알림)을 받으면 ExclamationM 상태로 바꾼다. 
+Search10 = "IF ( Type = SearchAI & Command = ExclamationM & Dist = 400 & Angle = 360) THEN ( State = ExclamationM)"                     // 범위내에 특정State의 AI가 존재하면 ExclamationM 상태로 바꾼다
+Search11  = "IF ( Type = Body & Dist = 400 & Angle = 360) THEN ( State = ExclamationM )"                     // 바로 근처에 시체를 발견하면 ExclamationM 상태로 바꾼다
+Search12 = "IF ( Type = NearEnemy & Dist = 500 & Angle = 120) THEN ( State = ExclamationM  )"                      // 범위내 적이 있을 시 ExclamationM상태로 바꾼다
+
+
+// 총소리, 멀리 적이 보일때
+Search13 = "IF ( State = None & Type = Body & Dist = 800 & Angle = 120) THEN ( State = Question & MovingTowards = true )"                 // 설정 범위 내에 시체가 있으면 해당 위치로 이동
+Search14 = "IF ( State = None & Type = FireSound) THEN ( State = Question & MovingTowards = true )"                 // 소리가 나면 그쪽으로 간다
+Search15 = "IF ( State = None & Type = NearEnemy & Dist = 800 & Angle = 120) THEN ( State = Question & MovingTowards = true )"                 // 설정 범위 내에 PC가 있으면 해당 위치로 이동한다
+Search16 = "IF ( State = Question & MovingTowards = true) THEN ( State = None )"      
+
+
+
+
+[Ability54]	// 휘슬 부는 경비병 도망치는 버전 (넥슨경비)
+SenseDist		= 0.0f		// 인식거리
+ViewDist		= 0.0f		// 뷰거리
+ShotResponseTime	= 0//1.5f			// 피격 반응시간 (오차범위 +0.1초)
+TakeAimAtHead		= 0			// 머리조준여부 (0~100의 확률로 적 조준시마다 헤드를 조준할지 결정됨)
+AttentionMin		= 0.5f			// 전투 종료 후 대기 시간
+AttentionMax		= 1.0f			// 전투 종료 후 대기 시간
+ShotDelayTime		= 1.8f			// (조준 후) 샷 지연 최소시간
+ShotDelayTimeMax	= 2.3f			// (조준 후) 샷 지연 최대시간 
+ShotAccuracy		= -40			// 샷 정확도 퍼센트 (-100 ~ 100) 
+SniperStopDelay		= 1.0f			// 스나이퍼 격발시 정지 시간 
+AttackModeTime		= 20			// 적이 보이지 않을때 공격유지시간
+AttackModeAction	= 2			// 공격 유지시간 동안 액션....... [0:정지 / 1: 유지시간동안 타겟이 보이지 않을때 움직이게 / 2:따라가기]
+MovingAttack		= 100			// 타겟 공격시 움직일 확률 (0~100의 확률로 리스폰때 결정됨)
+MAForward		= 60			// 공격시 움직일 때, 전진 확률			
+MAReverse		= 30			// 공격시 움직일 때, 후진 확률
+MALeftRight		= 10			// 공격시 움직일 때, 좌우 이동 확률 
+//Dispersion		= True 			// 분산 이동 여부 (True 로 할 시 이동해야하는 캠핑 지점에 아군이 몰려있으면 다른 캠핑 지점으로 분산 이동)
+// 새로 추가된 기능
+TargetRun		= True			//타겟이 있을때만 뛴다.(디폴트 항상 뛴다. False)
+FireSoundCheck = "Melee=100, Pistol=800, Rifle=1500, Machine=2000, Submachine=1000, Sniper=1800, Shotgun=1600, CombatBow=100, Run = 400, Default=1000" 
+MovePoint		= "1101, 2101, 3101, 4101"
+GrudgeTime		= -1
+TorqueSpeed = 0.4f
+StandEmotion = 2
+
+// 스턴 및 알람후 공격
+Search0         = "IF ( Type = FireSound & Command = 1530) THEN ( State = Stun & Stun = 3.0  & Ani = Emotion4)"    
+Search1         = "IF ( DynamicSwitch = On & State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5) THEN ( State = None )" // 알람중 스턴시 깨면서 스탯 논
+Search2 = "IF (	DynamicSwitch = On	& Type = Time & TimeMin = 20.0 & TimeMax = 20.0	) THEN ( DEATH = True )"								// 다이나믹 켜지면 10초뒤 사망
+Search3 = "IF (	DynamicSwitch = On								) THEN ( TargetRun = false & MovePoint = Near & Target = Near)"								// 특정스위치켜지면 달리기모드로 위치로 도망
+Search4         = "IF ( State = Stun & Type = Time & TimeMin = 3.5 & TimeMax = 3.5) THEN ( State = ExclamationM )" // 스턴시 깨면서 알람상황
+Search5			= "IF ( State = Stun) THEN ()"
+
+// 휘슬 및 알람
+Search6 = "IF ( Type = ModelKey & Command = WHISTLE) THEN ( DynamicSwitch = On )"                                      // 모델키에서 휘슬이 오면 특정스위치를 올림 
+Search7 = "IF ( State = ExclamationM & Type = Time & TimeMin = 0.5 & TimeMax = 0.5) THEN ( State = ExclamationM & Ani = emotion1 )"                   // ExclamationM상태가 지속되면 휘슬
+
+
+// 유저에게 공격 당한 경우
+Search8 = "IF ( Type = UserAssailant & Dist = 4000) THEN ( State = ExclamationM  )"                                                                 // 범위내 유저공격을 받으면 ExclamationM 상태로 바꾼다
+
+// AI에게 공격 당한 경우, 공격당한 AI가 있는 경우, 시체발견, 가까운거리에 유저발견
+Search9 = "IF ( Type = AIAssailant) THEN ( State = ExclamationM  )"                     // AI의 공격(알림)을 받으면 ExclamationM 상태로 바꾼다. 
+Search10 = "IF ( Type = SearchAI & Command = ExclamationM & Dist = 400 & Angle = 360) THEN ( State = ExclamationM )"                     // 범위내에 특정State의 AI가 존재하면 ExclamationM 상태로 바꾼다
+Search11  = "IF ( Type = Body & Dist = 400 & Angle = 360) THEN ( State = ExclamationM)"                     // 바로 근처에 시체를 발견하면 ExclamationM 상태로 바꾼다
+Search12 = "IF ( Type = NearEnemy & Dist = 500 & Angle = 120) THEN ( State = ExclamationM)"                      // 범위내 적이 있을 시 ExclamationM상태로 바꾼다
+
+
+// 총소리, 멀리 적이 보일때
+Search13 = "IF ( State = None & Type = Body & Dist = 800 & Angle = 120) THEN ( Ani = Emotion2 & State = Question & MovingTowards = true )"                 // 설정 범위 내에 시체가 있으면 해당 위치로 이동
+Search14 = "IF ( State = None & Type = FireSound) THEN ( Ani = Emotion2 & State = Question & MovingTowards = true )"                 // 소리가 나면 그쪽으로 간다
+Search15 = "IF ( State = None & Type = NearEnemy & Dist = 800 & Angle = 120 ) THEN ( Ani = Emotion2 & State = Question & MovingTowards = true )"                 // 설정 범위 내에 PC가 있으면 해당 위치로 이동한다
+Search16 = "IF ( State = Question & MovingTowards = false & Time & TimeMin = 4.0 & TimeMax = 4.0) THEN ( State = None )"                                            // 시간이 지난후 Question 스테이트 초기화
+
+
+////////////////////////////////////////////////////////////////놈놈놈////////////////
+[Ability63]
+SenseDist              = 0.0f                                // 인식거리
+ViewDist               = 0.0f                                // 뷰거리
+GrudgeTime          = -1
+
+
+//출발 무한사냥 일반 공용
+[Ability64]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+ShortestPath = True
+
+
+//출발 무한사냥  점프
+[Ability65]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+Search0	= "IF (  Type = Time & TimeMin = 2.0 & TimeMax = 2.0 ) THEN ( Ani = Emotion1 )"  
+ShortestPath = True
+
+
+//출발 무한사냥 두더지 1단계
+[Ability66]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+ShortestPath = True
+Search0 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = None ) THEN ( Ani = Emotion1 & state = UP )"
+Search1 = "IF ( Type = Time & TimeMin = 0.7 & TimeMax = 0.7 & state = UP ) THEN ( Ani = Emotion2 & state = Idle )"
+Search2 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = Idle ) THEN ( Ani = Emotion3 & state = Down )"
+Search3 = "IF ( Type = Time & TimeMin = 0.7 & TimeMax = 0.7 & state = Down ) THEN ( DEATH = True )"
+
+//출발 무한사냥 두더지 2단계
+[Ability67]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+ShortestPath = True
+Search0 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = None ) THEN ( Ani = Emotion1 & state = UP )"
+Search1 = "IF ( Type = Time & TimeMin = 0.7 & TimeMax = 0.7 & state = UP ) THEN ( Ani = Emotion2 & state = Idle )"
+Search2 = "IF ( Type = Time & TimeMin = 1.0 & TimeMax = 1.5 & state = Idle ) THEN ( Ani = Emotion3 & state = Down )"
+Search3 = "IF ( Type = Time & TimeMin = 0.7 & TimeMax = 0.7 & state = Down ) THEN ( DEATH = True )"
+
+
+//출발 무한사냥 두더지 3단계
+[Ability68]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+ShortestPath = True
+Search0 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = None ) THEN ( Ani = Emotion1 & state = UP )"
+Search1 = "IF ( Type = Time & TimeMin = 0.7 & TimeMax = 0.7 & state = UP ) THEN ( Ani = Emotion2 & state = Idle )"
+Search2 = "IF ( Type = Time & TimeMin = 0.5 & TimeMax = 1.0 & state = Idle ) THEN ( Ani = Emotion3 & state = Down )"
+Search3 = "IF ( Type = Time & TimeMin = 0.7 & TimeMax = 0.7 & state = Down ) THEN ( DEATH = True )"
+
+//출발 무한사냥 오리 1단계
+[Ability69]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+Search0	= "IF (  Type = Time & TimeMin = 2.0 & TimeMax = 2.0 ) THEN ( Ani = Emotion1 )|( Ani = Emotion2 )"  
+ShortestPath = True
+
+//출발 무한사냥 오리 2단계
+[Ability70]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+Search0	= "IF (  Type = Time & TimeMin = 1.5 & TimeMax = 2.0 ) THEN ( Ani = Emotion1 )|( Ani = Emotion2 )"  
+ShortestPath = True
+
+//출발 무한사냥 오리 3단계
+[Ability71]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+Search0	= "IF (  Type = Time & TimeMin = 0.75 & TimeMax = 1.25 ) THEN ( Ani = Emotion1 )|( Ani = Emotion2 )"  
+ShortestPath = True
+
+//출발 무한사냥 캥거루 
+[Ability72]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+Search0	= "IF (  Type = Time & TimeMin = 0.5 & TimeMax = 1.0 ) THEN ( Ani = Emotion1 & state = Jump1 )|( Ani = Emotion2 & state = Jump2 )|( Ani = Emotion3 & state = Jump3 )"  
+Search1	= "IF (  Type = Time & TimeMin = 0.66 & TimeMax = 0.66 & state = Jump1) THEN ( Ani = Emotion1 & state = Jump1 )|( Ani = Emotion2 & state = Jump2 )|( Ani = Emotion3 & state = Jump3 )"
+Search2	= "IF (  Type = Time & TimeMin = 0.73 & TimeMax = 0.73 & state = Jump2) THEN ( Ani = Emotion1 & state = Jump1 )|( Ani = Emotion2 & state = Jump2 )|( Ani = Emotion3 & state = Jump3 )"
+Search3	= "IF (  Type = Time & TimeMin = 0.76 & TimeMax = 0.76 & state = Jump3) THEN ( Ani = Emotion1 & state = Jump1 )|( Ani = Emotion2 & state = Jump2 )|( Ani = Emotion3 & state = Jump3 )"
+ShortestPath = True
+
+//출발 무한사냥 캥거루 3단계  //아직 점프가 추가로 안나와서 작업 안함.
+[Ability73]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+Search0	= "IF (  Type = Time & TimeMin = 1.5 & TimeMax = 2.0 ) THEN ( Ani = Emotion1 )"  
+ShortestPath = True
+
+//출발 무한사냥 앵무새 1단계 
+[Ability74]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+Search0	= "IF (  Type = Time & TimeMin = 1.33 & TimeMax = 1.33) THEN ( Ani = Emotion1 )"  
+ShortestPath = True
+
+//출발 무한사냥 앵무새 3단계  //아직 애니가 추가로 안나와서 작업 안함.
+[Ability75]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+Search0	= "IF (  Type = Time & TimeMin = 1.5 & TimeMax = 2.0 ) THEN ( Ani = Emotion1 )"  
+ShortestPath = True
+
+//출발 무한사냥 박쥐 롤링어택 1단계
+[Ability76]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+Search0	= "IF (  Type = Time & TimeMin = 0.1 & TimeMax = 0.5 ) THEN ( Ani = Emotion1 & State = Wing )"  
+Search1	= "IF (  Type = Time & TimeMin = 2.17 & TimeMax = 3.0 & State = Wing ) THEN ( Ani = Emotion1 )"  
+ShortestPath = True
+
+
+//출발 무한사냥 박쥐 롤링어택 2단계
+[Ability77]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+Search0	= "IF (  Type = Time & TimeMin = 0.1 & TimeMax = 0.5 & State = None ) THEN ( Ani = Emotion1 & State = Wing1 )|( Ani = Emotion2 & State = Wing2 )"  
+Search1	= "IF (  Type = Time & TimeMin = 1.67 & TimeMax = 2.0 & State = Wing1 ) THEN ( Ani = Emotion2 & State = Wing2 )"  
+Search2	= "IF (  Type = Time & TimeMin = 1.17 & TimeMax = 2.0 & State = Wing2 ) THEN ( Ani = Emotion1 & State = Wing1 )" 
+ShortestPath = True
+
+
+//출발 무한사냥 박쥐 롤링어택 3단계
+[Ability78]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+Search0	= "IF (  Type = Time & TimeMin = 0.1 & TimeMax = 0.5 & State = None ) THEN ( Ani = Emotion2 & State = Wing2 )|( Ani = Emotion3 & State = Wing3 )"  
+Search1	= "IF (  Type = Time & TimeMin = 1.17 & TimeMax = 1.53 & State = Wing2 ) THEN ( Ani = Emotion2 & State = Wing2 )|( Ani = Emotion3 & State = Wing3 )"  
+Search2	= "IF (  Type = Time & TimeMin = 0.84 & TimeMax = 1.2 & State = Wing3 ) THEN ( Ani = Emotion2 & State = Wing2 )|( Ani = Emotion3 & State = Wing3 )" 
+ShortestPath = True
+
+
+
+//출발 무한사냥 모기
+[Ability79]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+Search0	= "IF (  state = None & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion1 & state = Wing1 )|( Ani = Emotion2 & state = Wing2 )|( Ani = Emotion4 & state = Wing4 )|( Ani = Emotion5 & state = Wing5 )"  
+Search1	= "IF (  state = Wing1 & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion2 & state = Wing2 )|( Ani = Emotion4 & state = Wing4 )|( Ani = Emotion5 & state = Wing5 )"  
+Search2	= "IF (  state = Wing2 & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion1 & state = Wing1 )|( Ani = Emotion4 & state = Wing4 )|( Ani = Emotion5 & state = Wing5 )"  
+Search3	= "IF (  state = Wing4 & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion1 & state = Wing1 )|( Ani = Emotion2 & state = Wing2 )|( Ani = Emotion5 & state = Wing5 )"  
+Search4	= "IF (  state = Wing5 & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion1 & state = Wing1 )|( Ani = Emotion2 & state = Wing2 )|( Ani = Emotion4 & state = Wing4 )"  
+ShortestPath = True
+
+
+//출발 무한사냥 모기 2단계
+[Ability80]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+Search0	= "IF (  state = None & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion1 & state = Wing1 )|( Ani = Emotion2 & state = Wing2 )|( Ani = Emotion4 & state = Wing4 )|( Ani = Emotion5 & state = Wing5 )|( Ani = Emotion6 & state = Wing6 )"  
+Search1	= "IF (  state = Wing1 & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion2 & state = Wing2 )|( Ani = Emotion4 & state = Wing4 )|( Ani = Emotion5 & state = Wing5 )|( Ani = Emotion6 & state = Wing6 )"  
+Search2	= "IF (  state = Wing2 & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion1 & state = Wing1 )|( Ani = Emotion4 & state = Wing4 )|( Ani = Emotion5 & state = Wing5 )|( Ani = Emotion6 & state = Wing6 )"  
+Search3	= "IF (  state = Wing4 & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion1 & state = Wing1 )|( Ani = Emotion2 & state = Wing2 )|( Ani = Emotion5 & state = Wing5 )|( Ani = Emotion6 & state = Wing6 )"  
+Search4	= "IF (  state = Wing5 & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion1 & state = Wing1 )|( Ani = Emotion2 & state = Wing2 )|( Ani = Emotion4 & state = Wing4 )|( Ani = Emotion6 & state = Wing6 )"  
+Search5	= "IF (  state = Wing6 & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion1 & state = Wing1 )|( Ani = Emotion2 & state = Wing2 )|( Ani = Emotion4 & state = Wing4 )|( Ani = Emotion5 & state = Wing5 )"  
+ShortestPath = True
+
+
+//출발 무한사냥 모기 3단계
+[Ability81]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+Search0	= "IF (  state = None & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion1 & state = Wing1 )|( Ani = Emotion2 & state = Wing2 )|( Ani = Emotion4 & state = Wing4 )|( Ani = Emotion5 & state = Wing5 )|( Ani = Emotion6 & state = Wing6 )|( Ani = Emotion7 & state = Wing7 )"  
+Search1	= "IF (  state = Wing1 & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion2 & state = Wing2 )|( Ani = Emotion4 & state = Wing4 )|( Ani = Emotion5 & state = Wing5 )|( Ani = Emotion6 & state = Wing6 )|( Ani = Emotion7 & state = Wing7 )"  
+Search2	= "IF (  state = Wing2 & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion1 & state = Wing1 )|( Ani = Emotion4 & state = Wing4 )|( Ani = Emotion5 & state = Wing5 )|( Ani = Emotion6 & state = Wing6 )|( Ani = Emotion7 & state = Wing7 )"  
+Search3	= "IF (  state = Wing4 & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion1 & state = Wing1 )|( Ani = Emotion2 & state = Wing2 )|( Ani = Emotion5 & state = Wing5 )|( Ani = Emotion6 & state = Wing6 )|( Ani = Emotion7 & state = Wing7 )"  
+Search4	= "IF (  state = Wing5 & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion1 & state = Wing1 )|( Ani = Emotion2 & state = Wing2 )|( Ani = Emotion4 & state = Wing4 )|( Ani = Emotion6 & state = Wing6 )|( Ani = Emotion7 & state = Wing7 )"  
+Search5	= "IF (  state = Wing6 & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion1 & state = Wing1 )|( Ani = Emotion2 & state = Wing2 )|( Ani = Emotion4 & state = Wing4 )|( Ani = Emotion5 & state = Wing5 )|( Ani = Emotion7 & state = Wing7 )"  
+Search6	= "IF (  state = Wing7 & Type = Time & TimeMin = 1.0 & TimeMax = 1.0 ) THEN ( Ani = Emotion1 & state = Wing1 )|( Ani = Emotion2 & state = Wing2 )|( Ani = Emotion4 & state = Wing4 )|( Ani = Emotion5 & state = Wing5 )|( Ani = Emotion6 & state = Wing6 )"  
+ShortestPath = True
+
+
+//출발 무한사냥 보스 테스트용
+[Ability82]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+ShortestPath = True
+AttackModeTime                 = 1                                   // 적이 보이지 않을때 공격유지시간
+//Search0 = "IF ( Type = FireUser & state = Attack ) THEN ( Target = None & state = None )"
+//Search1 = "IF ( Type = Time & TimeMin = 1.0 & TimeMax = 2.0 & state = Attack ) THEN ( Target = None & state = None )"
+//Search2 = "IF ( WayPoint = 1001 & state = None ) THEN ( Target = Near & state = Attack )"
+
+//Search0 = "IF ( Type = FireUser & state = PostAttack ) THEN (state = None )"
+Search0 = "IF ( Type = Time & TimeMin = 3.0 & TimeMax = 3.0 & state = AttackAni ) THEN ( Target = Near )"
+Search1 = "IF ( WayPoint = 301 & state = None ) THEN ( state = AttackAni & Target = Near )"  //1001 포인트에 위치 시, Emotion1애니가 출력되며 AttackAni 상태로 변경
+Search2 = "IF ( WayPoint = 302 & state = None ) THEN ( state = AttackAni & Target = Near )"  //1002 포인트에 위치 시, Emotion1애니가 출력되며 AttackAni 상태로 변경
+Search3 = "IF ( WayPoint = 303 & state = None ) THEN ( state = AttackAni & Target = Near )"  //1003 포인트에 위치 시, Emotion1애니가 출력되며 AttackAni 상태로 변경
+Search4 = "IF ( WayPoint = 304 & state = None ) THEN ( state = AttackAni & Target = Near )"  //1004 포인트에 위치 시, Emotion1애니가 출력되며 AttackAni 상태로 변경
+Search5 = "IF ( WayPoint = 305 & state = None ) THEN ( state = AttackAni & Target = Near )"  //1005 포인트에 위치 시, Emotion1애니가 출력되며 AttackAni 상태로 변경
+
+
+//출발 무한사냥 사람(일반사람)
+[Ability83]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+ShortestPath = True
+//Search0 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = None ) THEN ( Ani = Action11 & state = Move )|( Ani = Action12 & state = Move )"
+Search0 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = None ) THEN ( Ani = Action11 & state = Move )|( Ani = Action12 & state = Move )"
+Search1 = "IF ( Type = Time & TimeMin = 1.5 & TimeMax = 1.52 & state = Move ) THEN ( Ani = Action0 & state = Idle )"
+Search2 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = Idle ) THEN ( DEATH = True )"
+
+
+
+
+//출발 무한사냥 총든 사람테스트
+[Ability84]
+SenseDist		= 5000.0f			// 인식거리
+ViewDist		= 5000.0f			// 뷰거리
+//GrudgeTime		= -1
+Dispersion		= false
+ShortestPath = True
+ShotAccuracy		= 100
+TakeAimAtHead		= 14
+//Search0 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = None ) THEN ( Ani = Emotion2 & state = Attack & Target = Near) "
+//Search0 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = None ) THEN ( state = Attack & Ani = Emotion2) "
+//Search0 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = None ) THEN ( Ani = Emotion2 & state = Attack) "
+//Search0 = "IF ( Type = Time & TimeMin = 0.5 & TimeMax = 0.5 & state = None ) THEN ( Ani = Emotion2 & state = Idle )"
+//Search0 = "IF ( Type = Time & TimeMin = 0.5 & TimeMax = 0.5 & state = None ) THEN ( Ani = Emotion2 & state = Idle )"
+//Search1 = "IF ( Type = Time & TimeMin = 0.5 & TimeMax = 0.5 & state = None ) THEN ( Target = Near & state = Attack )"
+//Search2 = "IF ( Type = Time & TimeMin = 10.0 & TimeMax = 10.0 & state = Attack ) THEN ( DEATH = True )"
+//Search2 = "IF ( Type = Time & TimeMin = 2.0 & TimeMax = 3.0 & state = Idle ) THEN ( Ani = Emotion3 & state = Down )"
+//Search3 = "IF ( Type = Time & TimeMin = 0.7 & TimeMax = 0.7 & state = Down ) THEN ( DEATH = True )"
+//Search0 = "IF (  WayPoint = 3705 & state = None ) THEN ( state = Idle )"
+//Search1 = "IF (  Type = Time & TimeMin = 2.0 & TimeMax = 2.0 & state = Idle ) THEN ( Target = Near & state = Fire )"
+//Search2 = "IF (  Type = Time & TimeMin = 2.0 & TimeMax = 2.0 & state = Fire ) THEN ( Target = Near & state = Idle )"
+Search0 = "IF ( Time & TimeMin = 2.5 & TimeMax = 2.5 & state = None) THEN ( state = Fire & Ani = Emotion4 )"
+Search1 = "IF (  State = Fire & Type = Time & TimeMin = 0.5 & TimeMax = 0.5  ) THEN ( Death = True )"
+
+
+
+//출발 무한사냥 좀비 테스트용
+[Ability85]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+ShortestPath = True
+//AttackModeTime                 = 1                                   // 적이 보이지 않을때 공격유지시간
+//Search0 = "IF ( Type = FireUser & state = Attack ) THEN ( Target = None & state = None )"
+//Search1 = "IF ( Type = Time & TimeMin = 1.0 & TimeMax = 2.0 & state = Attack ) THEN ( Target = None & state = None )"
+//Search2 = "IF ( WayPoint = 1001 & state = None ) THEN ( Target = Near & state = Attack )"
+
+Search0 = "IF ( Type = Time & TimeMin = 3.0 & TimeMax = 3.0 & state = AttackAni ) THEN ( Target = Near & Ani = Emotion2 )"
+Search1 = "IF ( WayPoint = 301 & state = None ) THEN ( state = AttackAni & Target = Near & Ani = Emotion2 )"  //301 포인트에 위치 시, Emotion1애니가 출력되며 AttackAni 상태로 변경
+Search2 = "IF ( WayPoint = 302 & state = None ) THEN ( state = AttackAni & Target = Near & Ani = Emotion2 )"  //302 포인트에 위치 시, Emotion1애니가 출력되며 AttackAni 상태로 변경
+Search3 = "IF ( WayPoint = 303 & state = None ) THEN ( state = AttackAni & Target = Near & Ani = Emotion2 )"  //303 포인트에 위치 시, Emotion1애니가 출력되며 AttackAni 상태로 변경
+Search4 = "IF ( WayPoint = 304 & state = None ) THEN ( state = AttackAni & Target = Near & Ani = Emotion2 )"  //304 포인트에 위치 시, Emotion1애니가 출력되며 AttackAni 상태로 변경
+Search5 = "IF ( WayPoint = 305 & state = None ) THEN ( state = AttackAni & Target = Near & Ani = Emotion2 )"  //305 포인트에 위치 시, Emotion1애니가 출력되며 AttackAni 상태로 변경
+
+//출발 무한사냥 폭탄
+[Ability86]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+ShortestPath = True
+Search0 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.2 & state = None ) THEN ( Ani = Emotion1 & state = Move )"
+Search1 = "IF ( Type = Time & TimeMin = 2.4 & TimeMax = 2.4 & state = Move ) THEN ( DEATH = True )"
+//Search2 = "IF ( Type = Time & TimeMin = 1.0 & TimeMax = 1.0 & state = Idle ) THEN ( DEATH = True )"
+
+//출발 무한사냥 사람(헬프)
+[Ability87]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+ShortestPath = True
+//Search0 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = None ) THEN ( Ani = Action13 & state = Move )|( Ani = Action14 & state = Move )"
+Search0 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = None ) THEN ( Ani = Action13 & state = Move )|( Ani = Action14 & state = Move )"
+Search1 = "IF ( Type = Time & TimeMin = 1.5 & TimeMax = 1.5 & state = Move ) THEN ( Ani = Action0 & state = Idle )"
+Search2 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = Idle ) THEN ( DEATH = True )"
+
+//출발 무한사냥 잔호크
+[Ability88]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+ShortestPath = True
+MovePoint 		= "1101, 1111"
+Search0 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = None ) THEN ( Ani = Emotion1 & state = Jump )"
+Search1 = "IF ( Type = Time & TimeMin = 0.66 & TimeMax = 0.66 & state = Jump ) THEN ( Ani = Emotion2 & state = Walk & SelWeaponidx = 1)|( Ani = Emotion3 & state = Run & SelWeaponidx = 2)"
+Search2 = "IF ( Type = Time & TimeMin = 2.0 & TimeMax = 2.0 & state = Walk ) THEN ( Ani = Emotion1 & state = Jump  )"
+Search3 = "IF ( Type = Time & TimeMin = 2.0 & TimeMax = 2.0 & state = Run ) THEN ( Ani = Emotion1 & state = Jump )"
+
+
+//출발 무한사냥  점프
+[Ability89]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+Search0	= "IF (  Type = Time & TimeMin = 1.0 & TimeMax = 3.0 ) THEN ( Ani = Emotion1 )"  
+ShortestPath = True
+
+//출발 무한사냥 빠른 사람(헬프사람)
+[Ability90]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+ShortestPath = True
+//Search0 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = None ) THEN ( Ani = Action13 & state = Move )|( Ani = Action14 & state = Move )"
+Search0 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = None ) THEN ( Ani = Action13 & state = Move )|( Ani = Action14 & state = Move )"
+Search1 = "IF ( Type = Time & TimeMin = 1.5 & TimeMax = 1.5 & state = Move ) THEN ( Ani = Action0 & state = Idle )"
+Search2 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = Idle ) THEN ( DEATH = True )"
+
+//출발 무한사냥 빠른 사람(일반사람)
+[Ability91]
+SenseDist		= 0.0f			// 인식거리
+ViewDist		= 0.0f			// 뷰거리
+GrudgeTime		= -1
+Dispersion		= false
+ShortestPath = True
+//Search0 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = None ) THEN ( Ani = Action1 & state = Move )|( Ani = Action2 & state = Move )"
+Search0 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = None ) THEN ( Ani = Action1 & state = Move )|( Ani = Action2 & state = Move )"
+Search1 = "IF ( Type = Time & TimeMin = 1.0 & TimeMax = 1.0 & state = Move ) THEN ( Ani = Action0 & state = Idle )"
+Search2 = "IF ( Type = Time & TimeMin = 0.0 & TimeMax = 0.0 & state = Idle ) THEN ( DEATH = True )"
+

@@ -1,0 +1,1603 @@
+//	"Index"				// 아이템 Index -> Unique!!!
+//	"Name"				// 해당 아이템 이름
+//	"MainFX"				// 기본 FX
+//	"StartFX"				// 시작 FX
+//	"EndFX"				// 없어질 때 FX
+//	"ModelFilename"			// 모델 파일 이름
+//	"ModelSkin"			// 모델 스킨 이름
+//	"Desc"				// 아이템 설명
+//	"NameColor"			// 이름 색
+//	"NameEdgeColor"			// 이름 외곽색
+
+[SSItem0]
+Index = 0
+Name = "무기효과 특화"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\tirano\up_item01.ltb"
+ModelSkin0			= "sa_props\skins\tirano\item_01.dtx"
+
+[SSItem1]
+Index = 1
+Name = "무기효과 특화[전체]"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\tirano\up_item02.ltb"
+ModelSkin0			= "sa_props\skins\tirano\item_02.dtx"
+
+[SSItem2]
+Index = 2
+Name = "공격력 UP"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_attack_person.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\drop_item.dtx"
+
+[SSItem3]
+Index = 3
+Name = "공격력 UP[전체]"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_attack_all.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\drop_item.dtx"
+
+[SSItem4]
+Index = 4
+Name = "방어력 UP"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_shield_person.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\drop_item.dtx"
+
+[SSItem5]
+Index = 5
+Name = "방어력 UP[전체]"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_shield_all.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\drop_item.dtx"
+
+[SSItem6]
+Index = 6
+Name = "수류탄 보급상자"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_grenade.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\drop_item.dtx"
+
+[SSItem7]
+Index = 7
+Name = "체력회복제[소]"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_cure_low.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\drop_item.dtx"
+
+[SSItem8]
+Index = 8
+Name = "체력회복제[중]"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_cure_high.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\drop_item.dtx"
+
+[SSItem9]
+Index = 9
+Name = "10$"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_coin_10.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\drop_coin.dtx"
+
+[SSItem10]
+Index = 10
+Name = "1000$"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_coin_1000.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\drop_coin.dtx"
+
+[SSItem11]
+Index = 11
+Name = "3000$"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_coin_3000.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\drop_coin.dtx"
+
+[SSItem12]
+Index = 12
+Name = "5000$"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_coin_5000.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\drop_coin.dtx"
+
+[SSItem13]
+Index = 13
+Name = "탄약 보급상자"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+//ModelFilename			= "sa_props\models\Dinosaur\dino_item_grenade.ltb"
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_bulletbox.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\drop_item.dtx"
+
+[SSItem14]
+Index = 14
+Name = "탄약 보급상자[전체]"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\tirano\up_item02.ltb"
+ModelSkin0			= "sa_props\skins\tirano\item_02.dtx"
+
+[SSItem15]
+Index = 1012001
+Name = "알파벳 S"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_text.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\dino_textline.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1012001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1012001.dtx"
+Desc				= "알파벳 S| |이벤트 전용 아이템으로,|알파벳 SUDDEN ATTACK을|모두 수집할 시|한정판 유니크 무기를 획득할 수 있다.| |※ 이벤트 무기: M134 T-Rex (100일)|※ 이벤트 기간: 2.28(목) 점검 전까지|※ 지급 방법: 선물함 지급"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem16]
+Index = 1012002
+Name = "알파벳 U"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_text.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\dino_textline.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1012002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1012002.dtx"
+Desc				= "알파벳 U| |이벤트 전용 아이템으로,|알파벳 SUDDEN ATTACK을|모두 수집할 시|한정판 유니크 무기를 획득할 수 있다.| |※ 이벤트 무기: M134 T-Rex (100일)|※ 이벤트 기간: 2.28(목) 점검 전까지|※ 지급 방법: 선물함 지급"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem17]
+Index = 1012003
+Name = "알파벳 D"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_text.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\dino_textline.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1012003.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1012003.dtx"
+Desc				= "알파벳 D| |이벤트 전용 아이템으로,|알파벳 SUDDEN ATTACK을|모두 수집할 시|한정판 유니크 무기를 획득할 수 있다.| |※ 이벤트 무기: M134 T-Rex (100일)|※ 이벤트 기간: 2.28(목) 점검 전까지|※ 지급 방법: 선물함 지급"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0,0.0,0.0>
+
+[SSItem18]
+Index = 1012004
+Name = "알파벳 D(두번째)"
+MainFX = "Dino_RairFeed_Red"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_text.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\dino_textline.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1012004.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1012004.dtx"
+Desc				= "알파벳 D(두번째)| |이벤트 전용 아이템으로,|알파벳 SUDDEN ATTACK을|모두 수집할 시|한정판 유니크 무기를 획득할 수 있다.| |※ 이벤트 무기: M134 T-Rex (100일)|※ 이벤트 기간: 2.28(목) 점검 전까지|※ 지급 방법: 선물함 지급"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem19]
+Index = 1012005
+Name = "알파벳 E"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_text.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\dino_textline.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1012005.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1012005.dtx"
+Desc				= "알파벳 E| |이벤트 전용 아이템으로,|알파벳 SUDDEN ATTACK을|모두 수집할 시|한정판 유니크 무기를 획득할 수 있다.| |※ 이벤트 무기: M134 T-Rex (100일)|※ 이벤트 기간: 2.28(목) 점검 전까지|※ 지급 방법: 선물함 지급"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem20]
+Index = 1012006
+Name = "알파벳 N"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_text.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\dino_textline.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1012006.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1012006.dtx"
+Desc				= "알파벳 N| |이벤트 전용 아이템으로,|알파벳 SUDDEN ATTACK을|모두 수집할 시|한정판 유니크 무기를 획득할 수 있다.| |※ 이벤트 무기: M134 T-Rex (100일)|※ 이벤트 기간: 2.28(목) 점검 전까지|※ 지급 방법: 선물함 지급"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem21]
+Index = 1012007
+Name = "알파벳 A"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_text.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\dino_textline.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1012007.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1012007.dtx"
+Desc				= "알파벳 A| |이벤트 전용 아이템으로,|알파벳 SUDDEN ATTACK을|모두 수집할 시|한정판 유니크 무기를 획득할 수 있다.| |※ 이벤트 무기: M134 T-Rex (100일)|※ 이벤트 기간: 2.28(목) 점검 전까지|※ 지급 방법: 선물함 지급"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem22]
+Index = 1012008
+Name = "알파벳 T"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_text.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\dino_textline.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1012008.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1012008.dtx"
+Desc				= "알파벳 T| |이벤트 전용 아이템으로,|알파벳 SUDDEN ATTACK을|모두 수집할 시|한정판 유니크 무기를 획득할 수 있다.| |※ 이벤트 무기: M134 T-Rex (100일)|※ 이벤트 기간: 2.28(목) 점검 전까지|※ 지급 방법: 선물함 지급"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem23]
+Index = 1012009
+Name = "알파벳 T(두번째)"
+MainFX = "Dino_RairFeed_Red"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_text.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\dino_textline.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1012009.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1012009.dtx"
+Desc				= "알파벳 T(두번째)| |이벤트 전용 아이템으로,|알파벳 SUDDEN ATTACK을|모두 수집할 시|한정판 유니크 무기를 획득할 수 있다.| |※ 이벤트 무기: M134 T-Rex (100일)|※ 이벤트 기간: 2.28(목) 점검 전까지|※ 지급 방법: 선물함 지급"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem24]
+Index = 1012010
+Name = "알파벳 A(두번째)"
+MainFX = "Dino_RairFeed_Red"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_text.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\dino_textline.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1012010.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1012010.dtx"
+Desc				= "알파벳 A(두번째)| |이벤트 전용 아이템으로,|알파벳 SUDDEN ATTACK을|모두 수집할 시|한정판 유니크 무기를 획득할 수 있다.| |※ 이벤트 무기: M134 T-Rex (100일)|※ 이벤트 기간: 2.28(목) 점검 전까지|※ 지급 방법: 선물함 지급"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem25]
+Index = 1012011
+Name = "알파벳 C"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_text.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\dino_textline.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1012011.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1012011.dtx"
+Desc				= "알파벳 C| |이벤트 전용 아이템으로,|알파벳 SUDDEN ATTACK을|모두 수집할 시|한정판 유니크 무기를 획득할 수 있다.| |※ 이벤트 무기: M134 T-Rex (100일)|※ 이벤트 기간: 2.28(목) 점검 전까지|※ 지급 방법: 선물함 지급"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem26]
+Index = 1012012
+Name = "알파벳 K"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_item_text.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\dino_textline.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1012012.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1012012.dtx"
+Desc				= "알파벳 K| |이벤트 전용 아이템으로,|알파벳 SUDDEN ATTACK을|모두 수집할 시|한정판 유니크 무기를 획득할 수 있다.| |※ 이벤트 무기: M134 T-Rex (100일)|※ 이벤트 기간: 2.28(목) 점검 전까지|※ 지급 방법: 선물함 지급"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem27]			
+Index = 	1121001	//	제조: 무딘 본슈터
+Name = "제조: 무딘 본슈터"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1121001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1121001.dtx"
+Desc				= ""
+NameColor			= <128.0, 128.0, 128.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+
+[SSItem28]			
+Index = 	1121002	//	제조: 무딘 일발장전
+Name = "제조: 무딘 일발장전"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1121002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1121002.dtx"
+Desc				= ""
+NameColor			= <128.0, 128.0, 128.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem29]			
+Index = 	1102001	//	제조: 회복약(소)
+Name = "제조: 회복약(소)"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1102001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1102001.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem30]			
+Index = 	1102002	//	제조: 회복약(대)
+Name = "제조: 회복약(대)"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1102002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1102002.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem31]			
+Index = 	1112001	//	제조: 마비 탄창
+Name = "제조: 마비 탄창"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1112001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1112001.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+
+[SSItem32]			
+Index = 	1112002	//	제조: 독 탄창
+Name = "제조: 독 탄창"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1112002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1112002.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem33]			
+Index = 	1112003	//	제조: 수면 탄창
+Name = "제조: 수면 탄창"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1112003.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1112003.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem34]			
+Index = 	1112004	//	제조: 폭발 탄창
+Name = "제조: 폭발 탄창"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1112004.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1112004.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem35]			
+Index = 	1113001	//	제조: 마비 수류탄
+Name = "제조: 마비 수류탄"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1113001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1113001.dtx"
+Desc				= ""
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem36]			
+Index = 	1113002	//	제조: 독 수류탄
+Name = "제조: 독 수류탄"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1113002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1113002.dtx"
+Desc				= ""
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem37]			
+Index = 	1113003	//	제조: 수면 수류탄
+Name = "제조: 수면 수류탄"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1113003.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1113003.dtx"
+Desc				= ""
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem38]			
+Index = 	1113004	//	제조: 폭발 수류탄
+Name = "제조: 폭발 수류탄"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1113004.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1113004.dtx"
+Desc				= ""
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem39]			
+Index = 	1114001	//	제조: 월야
+Name = "제조: 월야"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1124001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1124001.dtx"
+Desc				= ""
+NameColor			= <255.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem40]			
+Index = 	1212001	//	강화: 본슈터
+Name = "강화: 본슈터"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1212001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1212001.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem41]			
+Index = 	1212002	//	강화: 일발장전
+Name = "강화: 일발장전"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1212002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1212002.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem42]			
+Index = 	1213001	//	강화: 본 블레스터
+Name = "강화: 본 블레스터"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1213001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1213001.dtx"
+Desc				= ""
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem43]			
+Index = 	1213002	//	강화: 원샷원킬
+Name = "강화: 원샷원킬"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1213002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1213002.dtx"
+Desc				= ""
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem44]			
+Index = 	1214001	//	강화: 본 블레스터II
+Name = "강화: 본 블레스터II"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1214001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1214001.dtx"
+Desc				= ""
+NameColor			= <255.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem45]			
+Index = 	1214002	//	강화: 암향
+Name = "강화: 암향"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1214002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1214002.dtx"
+Desc				= ""
+NameColor			= <255.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem46]			
+Index = 	1215001	//	강화: 사생결단
+Name = "강화: 사생결단"
+MainFX = "Dino_RairFeed_Brown"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1215001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1215001.dtx"
+Desc				= ""
+NameColor			= <148.0, 138.0, 84.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem47]			
+Index = 	1215002	//	강화: 필사즉생
+Name = "강화: 필사즉생"
+MainFX = "Dino_RairFeed_Brown"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1215002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1215002.dtx"
+Desc				= ""
+NameColor			= <148.0, 138.0, 84.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem48]			
+Index = 	1215003	//	강화: 난폭의 월야
+Name = "강화: 난폭의 월야"
+MainFX = "Dino_RairFeed_Brown"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1215003.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1215003.dtx"
+Desc				= ""
+NameColor			= <148.0, 138.0, 84.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem49]			
+Index = 	1216001	//	강화: 달의 노래
+Name = "강화: 달의 노래"
+MainFX = "Dino_RairFeed_Red"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1216001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1216001.dtx"
+Desc				= ""
+NameColor			= <255.0, 0.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem50]			
+Index = 	1216002	//	강화: 필사즉생[사]
+Name = "강화: 필사즉생[사]"
+MainFX = "Dino_RairFeed_Red"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1216002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1216002.dtx"
+Desc				= ""
+NameColor			= <255.0, 0.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem51]			
+Index = 	1216003	//	강화: 필사즉생[생]
+Name = "강화: 필사즉생[생]"
+MainFX = "Dino_RairFeed_Red"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1216003.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1216003.dtx"
+Desc				= ""
+NameColor			= <255.0, 0.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem52]			
+Index = 	1216004	//	강화: 아포칼립스
+Name = "강화: 아포칼립스"
+MainFX = "Dino_RairFeed_Red"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1216004.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1216004.dtx"
+Desc				= ""
+NameColor			= <255.0, 0.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem53]			
+Index = 	1312001	//	회복약(소)
+Name = "회복약(소)"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1312001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1312001.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem54]			
+Index = 	1312002	//	회복약(대)
+Name = "회복약(대)"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1312002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1312002.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem55]			
+Index = 	1322003	//	마비 탄창
+Name = "마비 탄창"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1322003.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1322003.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem56]			
+Index = 	1322004	//	독 탄창
+Name = "독 탄창"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1322004.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1322004.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem57]			
+Index = 	1322005	//	수면 탄창
+Name = "수면 탄창"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1322005.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1322005.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem58]			
+Index = 	1322006	//	폭발 탄창
+Name = "폭발 탄창"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1322006.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1322006.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem59]			
+Index = 	1333001	//	마비 수류탄
+Name = "마비 수류탄"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1333001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1333001.dtx"
+Desc				= ""
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem60]			
+Index = 	1333002	//	독 수류탄
+Name = "독 수류탄"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1333002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1333002.dtx"
+Desc				= ""
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem61]			
+Index = 	1333003	//	수면 수류탄
+Name = "수면 수류탄"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1333003.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1333003.dtx"
+Desc				= ""
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem62]			
+Index = 	1333004	//	폭발 수류탄
+Name = "폭발 수류탄"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1333004.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1333004.dtx"
+Desc				= ""
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem63]			
+Index = 	1412001	//	랩터의 이빨
+Name = "랩터의 이빨"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1412001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1412001.dtx"
+Desc				= "랩터의 이빨| |랩터 사냥 시 획득할 수 있는 전리품.|날카롭지만 제련하기가 쉬워|다양한 아이템의 재료로 사용된다."
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem64]			
+Index = 	1412002	//	랩터의 발톱
+Name = "랩터의 발톱"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1412002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1412002.dtx"
+Desc				= "랩터의 발톱| |랩터 사냥 시 획득할 수 있는 전리품.|랩터 이빨보다 날카롭지만 |제련하기는 약간 까다롭다. |다양한 아이템의 재료로 사용된다."
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem65]			
+Index = 	1412003	//	랩터의 꼬리
+Name = "랩터의 꼬리"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1412003.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1412003.dtx"
+Desc				= "랩터의 꼬리| |랩터 사냥 시 획득할 수 있는 전리품.|유연하면서도 단단하여|다양한 아이템의 재료로 사용된다."
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem66]			
+Index = 	1412004	//	랩터의 머리
+Name = "랩터의 머리"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1412004.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1412004.dtx"
+Desc				= "랩터의 머리| |랩터 사냥 시 획득할 수 있는 전리품.|온전한 머리를 얻기가 쉽지 않다.|장식용으로도 쓰이지만|그밖의 다양한 용도로도 사용된다."
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem67]			
+Index = 	1412005	//	랩터 비늘
+Name = "랩터 비늘"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1412005.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1412005.dtx"
+Desc				= "랩터 비늘| |랩터 사냥 시 획득할 수 있는 전리품.|어느정도 단단한 편이라|다용도로 쓰여 인기가 높은 재료이다."
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem68]			
+Index = 	1412006	//	랩터의 눈알
+Name = "랩터의 눈알"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1412006.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1412006.dtx"
+Desc				= "랩터의 눈알| |랩터 사냥 시 획득할 수 있는 전리품.|맑고 투명한 구체로, |장식용으로 널리 사용된다.|또한, 이를 가진 이에게|행운을 가져다 준다고도 알려져 있다."
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem69]			
+Index = 	1412007	//	랩터의 혀
+Name = "랩터의 혀"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1412007.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1412007.dtx"
+Desc				= "랩터의 혀| |랩터 사냥 시 획득할 수 있는 전리품.|상처나 있는게 대부분이라|온전한 것을 찾기가 힘들다.|부드럽지만 꽤 질겨서|다양한 아이템의 재료로 사용된다."
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem70]			
+Index = 	1413001	//	랩터의 골수
+Name = "랩터의 골수"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1413001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1413001.dtx"
+Desc				= "랩터의 골수| |랩터 사냥 시 획득할 수 있는 전리품.|채취하기가 까다로운만큼|선호되는 재료 중 하나이다."
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem71]			
+Index = 	1413002	//	랩터의 피
+Name = "랩터의 피"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1413002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1413002.dtx"
+Desc				= "랩터의 피| |랩터 사냥 시 획득할 수 있는 전리품.|오염되지 않은 순수한 랩터의 피이다.|주로 연구용으로 많이 사용된다."
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem72]			
+Index = 	1414001	//	랩터 역비늘
+Name = "랩터 역비늘"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1414001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1414001.dtx"
+Desc				= "랩터 역비늘| |랩터 사냥 시 획득할 수 있는 전리품.|비늘보다 훨씬 단단하지만|발견하기가 매우 어렵다."
+NameColor			= <255.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem73]			
+Index = 	1422001	//	각룡의 이빨
+Name = "각룡의 이빨"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1422001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1422001.dtx"
+Desc				= "각룡의 이빨| |트리케라톱스 사냥 시 획득할 수 있는|전리품.|구하기 어렵지만 날카롭고 단단하여|희귀한 아이템의 재료로 사용된다."
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem74]			
+Index = 	1422002	//	각룡의 발톱
+Name = "각룡의 발톱"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1422002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1422002.dtx"
+Desc				= "각룡의 발톱| |트리케라톱스 사냥 시 획득할 수 있는|전리품.|발톱보다 단단해서 인기가 좋다."
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem75]			
+Index = 	1422003	//	각룡의 꼬리
+Name = "각룡의 꼬리"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1422003.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1422003.dtx"
+Desc				= "각룡의 꼬리| |트리케라톱스 사냥 시 획득할 수 있는|전리품.|랩터의 꼬리보다 더 단단하여|제련하기는 다소 까다롭다."
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem76]			
+Index = 	1422004	//	각룡의 머리
+Name = "각룡의 머리"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1422004.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1422004.dtx"
+Desc				= "각룡의 머리| |트리케라톱스 사냥 시 획득할 수 있는|전리품.|온전한 머리만 그 가치가 인정받는다."
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem77]			
+Index = 	1422005	//	각룡 비늘
+Name = "각룡 비늘"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1422005.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1422005.dtx"
+Desc				= "각룡 비늘| |트리케라톱스 사냥 시 획득할 수 있는|전리품.|폭발에도 강한 내성을 갖고 있는 |재질로 구성되어 있어|폭발성 아이템의 재련에 필수적이다."
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem78]			
+Index = 	1423001	//	각룡의 골수
+Name = "각룡의 골수"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1423001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1423001.dtx"
+Desc				= "각룡의 골수| |트리케라톱스 사냥 시 획득할 수 있는|전리품.|랩터의 골수보다 채취하기가 어렵다."
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem79]			
+Index = 	1423002	//	각룡의 피
+Name = "각룡의 피"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1423002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1423002.dtx"
+Desc				= "각룡의 피| |트리케라톱스 사냥 시 획득할 수 있는|전리품.|랩터의 피에 비해 구하기 어렵지만|연구가치는 그만큼 높다."
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+
+[SSItem80]			
+Index = 	1423003	//	각룡의 뿔
+Name = "각룡의 뿔"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1423003.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1423003.dtx"
+Desc				= "각룡의 뿔| |트리케라톱스 사냥 시 획득할 수 있는|전리품.|트리케라톱스의 온전한 뿔을 찾기란|매우 어렵지만, 그 어떤 부위보다|단단하기에 인기가 매우 높다."
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem81]			
+Index = 	1424001	//	각룡 역비늘
+Name = "각룡 역비늘"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1424001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1424001.dtx"
+Desc				= "각룡 역비늘| |트리케라톱스 사냥 시 획득할 수 있는|전리품.|수천개의 비늘 중|단 하나만이 역비늘로 발견된다.|비늘보다 강도가 훨씬 높다."
+NameColor			= <255.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem82]			
+Index = 	1425001	//	기형적인 뿔
+Name = "기형적인 뿔"
+MainFX = "Dino_RairFeed_Brown"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1425001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1425001.dtx"
+Desc				= "기형적인 뿔| |트리케라톱스 사냥 시 획득할 수 있는|전리품.|극히 드문 확률로 발견되는 |트리케라톱스의 돌연변이 뿔이다.|보통의 뿔보다 훨씬 단단하면서도|날카롭다."
+NameColor			= <255.0, 0.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem83]			
+Index = 	1433001	//	렉스의 이빨
+Name = "렉스의 이빨"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1433001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1433001.dtx"
+Desc				= "렉스의 이빨| |티라노사우루스 사냥 시 획득할 수 있는|전리품.|크고 단단한 렉스의 이빨은|바위라도 간단히 부순다."
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem84]			
+Index = 	1433002	//	렉스의 머리
+Name = "렉스의 머리"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1433002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1433002.dtx"
+Desc				= "렉스의 머리| |티라노사우루스 사냥 시 획득할 수 있는|전리품.|극단적으로 공격적인 골격을 갖춰|여러모로 연구가치가 높다."
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem85]			
+Index = 	1433003	//	거대한 꼬리
+Name = "거대한 꼬리"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1433003.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1433003.dtx"
+Desc				= "거대한 꼬리| |티라노사우루스 사냥 시 획득할 수 있는|전리품.|유연하면서도 강력한 힘을 내는 |근육조직으로 구성되어있어|매우 높은 연구가치를 지닌다."
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem86]			
+Index = 	1433004	//	렉스 비늘
+Name = "렉스 비늘"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1433004.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1433004.dtx"
+Desc				= "렉스 비늘| |티라노사우루스 사냥 시 획득할 수 있는|전리품.|강력한 충격과 높은 열을 견뎌내는|아이템 제련에 필수적인 재료이다."
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem87]			
+Index = 	1434001	//	거대한 발톱
+Name = "거대한 발톱"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1434001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1434001.dtx"
+Desc				= "거대한 발톱| |티라노사우루스 사냥 시 획득할 수 있는|전리품.|날카로우면서 단단한 이 거대한 발톱은|제련하기가 매우 까다롭지만|그만큼 강력한 효과를 가져다 준다."
+NameColor			= <255.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem88]			
+Index = 	1434002	//	렉스의 피
+Name = "렉스의 피"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1434002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1434002.dtx"
+Desc				= "렉스의 피| |티라노사우루스 사냥 시 획득할 수 있는|전리품.|지치지 않는 티라노를 연구하기에|더없이 좋은 연구소재이다."
+NameColor			= <255.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem89]			
+Index = 	1434003	//	렉스의 뿔
+Name = "렉스의 뿔"
+MainFX = "Dino_RairFeed_Yellow"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1434003.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1434003.dtx"
+Desc				= "렉스의 뿔| |티라노사우루스 사냥 시 획득할 수 있는|전리품.|티라노사우루스의 부위 중 |가장 단단한 부위이다.|강력한 무기 제련에 필수적이지만|그 수가 많지 않아 희소가치가 높다."
+NameColor			= <255.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem90]			
+Index = 	1435001	//	렉스 역비늘
+Name = "렉스 역비늘"
+MainFX = "Dino_RairFeed_Brown"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1435001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1435001.dtx"
+Desc				= "렉스 역비늘| |티라노사우루스 사냥 시 획득할 수 있는|전리품.|렉스 비늘의 모든 장점에 유연성까지|가진 신배의 소재.|구하기가 매우 어려워|존재하는지조차 의문인 재료이다."
+NameColor			= <148.0, 138.0, 84.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem91]			
+Index = 	1435002	//	거대한 송곳니
+Name = "거대한 송곳니"
+MainFX = "Dino_RairFeed_Brown"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1435002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1435002.dtx"
+Desc				= "거대한 송곳니| |티라노사우루스 사냥 시 획득할 수 있는|전리품.|날카로움과 단단함의 결정체이다.|제련하기가 매우 까다롭지만|성공할 시 누구보다 강력한|무기를 가질 수 있다."
+NameColor			= <148.0, 138.0, 84.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem92]			
+Index = 	1436001	//	렉스의 심장
+Name = "렉스의 심장"
+MainFX = "Dino_RairFeed_Red"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1436001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1436001.dtx"
+Desc				= "렉스의 심장| |티라노사우루스 사냥 시 획득할 수 있는|전리품.|죽어서도 힘차게 뛰고 있다.|실제로 발견되는 사례가 극히 적지만|연구가치가 매우 높다."
+NameColor			= <255.0, 0.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem93]			
+Index = 	1546001	//	달의 조각
+Name = "달의 조각"
+MainFX = "Dino_RairFeed_Red"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1546001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1546001.dtx"
+Desc				= "달의 조각| |그 존재조차 전설로만 여겨지는|달의 파편 중 일부.|발견한 자에게 어둠의 힘을 |가져다준다고 알려져 있다.|전설급 무기의 재료로 사용된다."
+NameColor			= <255.0, 0.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem94]			
+Index = 	1546002	//	태양의 조각
+Name = "태양의 조각"
+MainFX = "Dino_RairFeed_Red"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1546002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1546002.dtx"
+Desc				= "태양의 조각| |그 존재조차 전설로만 여겨지는|태양의 파편 중 일부.|발견한 자에게 무한의 힘을 |가져다준다고 알려져 있다.|전설급 무기의 재료로 사용된다."
+NameColor			= <255.0, 0.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem95]			
+Index = 	1612001	//	푸른 약초
+Name = "푸른 약초"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1612001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1612001.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem96]			
+Index = 	1613001	//	한방약
+Name = "한방약"
+MainFX = "Dino_RairFeed_Green"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1613001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1613001.dtx"
+Desc				= ""
+NameColor			= <0.0, 255.0, 0.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem97]			
+Index = 	1621001	//	빈 탄창
+Name = "빈 탄창"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1621001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1621001.dtx"
+Desc				= ""
+NameColor			= <128.0, 128.0, 128.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem98]			
+Index = 	1621002	//	빈 수류탄
+Name = "빈 수류탄"
+MainFX = ""
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1621002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1621002.dtx"
+Desc				= ""
+NameColor			= <128.0, 128.0, 128.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem99]			
+Index = 	1632001	//	전광충
+Name = "전광충"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1632001.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1632001.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem100]			
+Index = 	1632002	//	독거미
+Name = "독거미"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1632002.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1632002.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem101]			
+Index = 	1632003	//	수면 파리
+Name = "수면 파리"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1632003.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1632003.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem102]			
+Index = 	1632004	//	폭발 벌레
+Name = "폭발 벌레"
+MainFX = "Dino_RairFeed_White"
+StartFX = ""
+EndFX = ""
+ModelFilename			= "sa_props\models\Dinosaur\dino_itemsign_box.ltb"
+ModelSkin0			= "sa_props\skins\Dinosaur\itemsign_box_001.dtx"
+ModelSkin1			= "sa_interface2\menu\SSItem\bigicon_1632004.dtx"
+ModelSkin2			= "sa_interface2\menu\SSItem\bigicon_1632004.dtx"
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+//좀비용 돈
+[SSItem103]			
+Index = 	101
+Name = "달러 300"
+MainFX = "drop_dollar_300"
+StartFX = ""
+EndFX = ""
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+
+[SSItem104]			
+Index = 	102
+Name = "달러 500"
+MainFX = "drop_dollar_500"
+StartFX = ""
+EndFX = ""
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+
+[SSItem105]			
+Index = 	103
+Name = "달러 1000"
+MainFX = "drop_dollar_1000"
+StartFX = ""
+EndFX = ""
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+
+[SSItem106]			
+Index = 	104
+Name = "달러 2000"
+MainFX = "drop_dollar_2000"
+StartFX = ""
+EndFX = ""
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+
+//좀비용 돈
+[SSItem107]			
+Index = 	111
+Name = "코인 300"
+MainFX = "drop_coin_300"
+StartFX = ""
+EndFX = ""
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+
+[SSItem108]			
+Index = 	112
+Name = "코인 500"
+MainFX = "drop_coin_500"
+StartFX = ""
+EndFX = ""
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+
+[SSItem109]			
+Index = 	113
+Name = "코인 1000"
+MainFX = "drop_coin_1000"
+StartFX = ""
+EndFX = ""
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+
+[SSItem110]			
+Index = 	114
+Name = "코인 2000"
+MainFX = "drop_coin_2000"
+StartFX = ""
+EndFX = ""
+Desc				= ""
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem111]			
+Index = 	115
+Name = "Exp"
+MainFX = "Zombi8_coin_exp"
+StartFX = ""
+EndFX = ""
+Desc				= "경험치 아이템"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem112]
+Index = 	116
+Name = "GlueGrenade"
+MainFX = "Ghost_GlueGrenade"
+StartFX = ""
+EndFX = ""
+Desc				= "글루수류탄"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem113]
+Index = 	117
+Name = "Cushion"
+MainFX = "Ghost_cushion"
+StartFX = ""
+EndFX = ""
+Desc				= "쿠션무기"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem114]
+Index = 	118
+Name = "Exp"
+MainFX = "Ghost_coin_exp"
+StartFX = ""
+EndFX = ""
+Desc				= "경험치 아이템"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem115]
+Index = 	119
+Name = "SpeedUP"
+MainFX = "Ghost_Speedup"
+StartFX = ""
+EndFX = ""
+Desc				= "이동속도 업"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem116]
+Index = 	200
+Name = "Scan"
+MainFX = "Ghost_lens"
+StartFX = ""
+EndFX = ""
+Desc				= "고스트 스캔"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem117]
+Index = 	201
+Name = "파이어볼"
+MainFX = "Run_Fireb_item"
+StartFX = ""
+EndFX = ""
+Desc				= "파이어볼"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem118]
+Index = 	202
+Name = "스노우볼"
+MainFX = "Run_Snowb_item"
+StartFX = ""
+EndFX = ""
+Desc				= "눈뭉치"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem119]			
+Index = 	203
+Name = "Exp"
+MainFX = "FOP_FX_Exp_3"
+//MainFX = ""
+StartFX = ""
+EndFX = ""
+Desc				= "경험치 아이템1"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+//ModelFilename			= "sa_props\models\Dinosaur\dino_item_attack_person.ltb"
+//ModelSkin0			= "sa_props\skins\Dinosaur\drop_item.dtx"
+
+[SSItem120]			
+Index = 	204
+Name = "Exp"
+MainFX = "FOP_FX_Exp_5"
+StartFX = ""
+EndFX = ""
+Desc				= "경험치 아이템2"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem121]			
+Index = 	205
+Name = "Exp"
+MainFX = "FOP_FX_Exp_10"
+StartFX = ""
+EndFX = ""
+Desc				= "경험치 아이템3"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem122]			
+Index = 	206
+Name = "Exp"
+MainFX = "FOP_FX_Exp_100"
+StartFX = ""
+EndFX = ""
+Desc				= "경험치 아이템4"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>
+
+[SSItem123]			
+Index = 	207
+Name = "Thunder"
+MainFX = "Run_bigicon_item"
+StartFX = ""
+EndFX = ""
+Desc				= "썬더나이프"
+NameColor			= <255.0,255.0,255.0>
+NameEdgeColor			= <0.0, 0.0, 0.0>

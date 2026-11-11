@@ -1,0 +1,147 @@
+{
+"normal":
+
+[{
+"grade": 0,
+"Sort": 1,
+"item_type": 1,
+"index": 1,
+"type": "EXCHANGE_DAILY_LIMIT",
+"code": "EET14333001NYY",
+"itemcount": 3,
+"price": 1,
+"LimitCount": 5,
+"open_box": 0,
+"loop_buy": 1,
+
+
+},{
+"grade": 0,
+"Sort": 2,
+"item_type": 1,
+"index": 2,
+"type": "EXCHANGE_DAILY_LIMIT",
+"code": "EET04571003NYN",
+"itemcount": 1,
+"price": 10,
+"LimitCount": 1,
+"open_box": 0,
+"loop_buy": 0,
+
+
+},{
+"grade": 0,
+"Sort": 3,
+"item_type": 1,
+"index": 3,
+"type": "EXCHANGE_DAILY_LIMIT",
+"code": "EET10401050NYY",
+"itemcount": 1,
+"price": 5,
+"LimitCount": 1,
+"open_box": 0,
+"loop_buy": 0,
+
+
+},{
+"grade": 0,
+"Sort": 4,
+"item_type": 1,
+"index": 4,
+"type": "EXCHANGE_DAILY_LIMIT",
+"code": "EET12179001NYY",
+"itemcount": 1,
+"price": 15,
+"LimitCount": 1,
+"open_box": 1,
+"loop_buy": 0,
+
+
+},{
+"grade": 1,
+"Sort": 5,
+"item_type": 1,
+"index": 5,
+"type": "EXCHANGE",
+"code": "EET12180001NYY",
+"itemcount": 1,
+"price": 80,
+"LimitCount": 5,
+"open_box": 1,
+"loop_buy": 0,
+
+
+},{
+"grade": 1,
+"Sort": 6,
+"item_type": 1,
+"index": 6,
+"type": "EXCHANGE",
+"code": "EET14682001NYY",
+"itemcount": 1,
+"price": 50,
+"LimitCount": 1,
+"open_box": 0,
+"loop_buy": 0,
+
+
+},{
+"grade": 1,
+"Sort": 7,
+"item_type": 1,
+"index": 7,
+"type": "EXCHANGE",
+"code": "EET14683001NYY",
+"itemcount": 1,
+"price": 30,
+"LimitCount": 2,
+"open_box": 0,
+"loop_buy": 0,
+
+
+},{
+"grade": 1,
+"Sort": 8,
+"item_type": 1,
+"index": 8,
+"type": "EXCHANGE",
+"code": "WPW09260998NYY",
+"itemcount": 1,
+"price": 40,
+"LimitCount": 1,
+"open_box": 0,
+"loop_buy": 0,
+
+
+},{
+"grade": 1,
+"Sort": 9,
+"item_type": 1,
+"index": 9,
+"type": "EXCHANGE",
+"code": "WPW09259998NYY",
+"itemcount": 1,
+"price": 50,
+"LimitCount": 1,
+"open_box": 0,
+"loop_buy": 0,
+
+
+},{
+"grade": 1,
+"Sort": 10,
+"item_type": 1,
+"index": 10,
+"type": "EXCHANGE",
+"code": "EET04194100NYY",
+"itemcount": 1,
+"price": 150,
+"LimitCount": 1,
+"open_box": 0,
+"loop_buy": 0,
+
+
+},
+
+]}
+

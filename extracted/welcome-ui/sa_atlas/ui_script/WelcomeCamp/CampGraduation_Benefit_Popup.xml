@@ -1,0 +1,7 @@
+<UIEditor>
+    <UIInfo name="welcome_gradu_benefit_popup" x="0" y="0" w="486" h="463" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_gradu_benefit_popup" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="gradu_benefit_title" x="115" y="19" w="256" h="32" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_gradu_benefit_title_welcome" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="btn_popup_close" x="118" y="399" w="120" h="38" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_gradu_benefit_close_btn_n" comptype="Button" groupname="" hudalign="0" hudstretch="false"/>
+    <UIInfo name="btn_camp_graduation" x="248" y="399" w="120" h="38" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_gradu_benefit_gradu_btn_n" comptype="Button" groupname="" hudalign="0" hudstretch="false"/>
+    <UIInfo name="gradu_benefit_item" x="58" y="116" w="370" h="254" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_gradu_benefit_item_welcome" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+</UIEditor>

@@ -1,0 +1,74 @@
+{
+  "path": "extracted\\game-file\\game_file\\CShell.dll",
+  "sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110",
+  "candidates": [
+    {
+      "source_address": "0x1808d83a6",
+      "file_offset": 9271206,
+      "bytes_hex": "488d15db8fcc00",
+      "target": "0x1815a1388",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x1808d80e0",
+      "unwind_owner_end": "0x1808d9228"
+    },
+    {
+      "source_address": "0x180c0fbe9",
+      "file_offset": 12644329,
+      "bytes_hex": "488d0d285e9f00",
+      "target": "0x181605a18",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180c0fb08",
+      "unwind_owner_end": "0x180c0fc0e"
+    },
+    {
+      "source_address": "0x180ef0ca2",
+      "file_offset": 15663266,
+      "bytes_hex": "488d3d17d47400",
+      "target": "0x18163e0c0",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180ef0aa0",
+      "unwind_owner_end": "0x180ef0e1d"
+    },
+    {
+      "source_address": "0x180f018a1",
+      "file_offset": 15731873,
+      "bytes_hex": "488d1540cc7300",
+      "target": "0x18163e4e8",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180f01740",
+      "unwind_owner_end": "0x180f01cff"
+    },
+    {
+      "source_address": "0x180f6c914",
+      "file_offset": 16170260,
+      "bytes_hex": "488d151d716d00",
+      "target": "0x181643a38",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x180f6c8f0",
+      "unwind_owner_end": "0x180f6c933"
+    },
+    {
+      "source_address": "0x1811375e4",
+      "file_offset": 18049508,
+      "bytes_hex": "4c8d05457f5200",
+      "target": "0x18165f530",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x1811371c0",
+      "unwind_owner_end": "0x181137d00"
+    },
+    {
+      "source_address": "0x181137610",
+      "file_offset": 18049552,
+      "bytes_hex": "4c8d05297f5200",
+      "target": "0x18165f540",
+      "candidate_operation": "LEA",
+      "unwind_owner_start": "0x1811371c0",
+      "unwind_owner_end": "0x181137d00"
+    }
+  ],
+  "limitations": [
+    "Pattern matches can occur within other instructions or data; instruction boundaries are unverified.",
+    "Unwind entries can describe fragments; they do not establish canonical function starts.",
+    "This bounded search does not cover all x86 instruction forms or indirect references."
+  ]
+}

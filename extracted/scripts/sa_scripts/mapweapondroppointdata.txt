@@ -1,0 +1,415 @@
+[CommonInfo]
+InteractionTime		= 1.0f
+InteractionRange	= 200.0f
+
+// index 0~99 중 순서없이 사용 가능
+[RandomGroup0] //탄통
+DropWeaponList = "0"
+
+
+[RandomGroup1] //구급상자
+DropWeaponList = "1"
+//DropWeaponList = "8,12,13"
+
+[RandomGroup2] //크리스
+DropWeaponList = "34"
+
+[RandomGroup3] //권총
+DropWeaponList = "3,4,5,6,7"
+
+[RandomGroup4] //라이플 + 샷건
+DropWeaponList = "8,9,10"
+
+[RandomGroup5] //저격총
+DropWeaponList = "11,12,13"
+
+[RandomGroup6] //머신건
+DropWeaponList = "14,15,16"
+
+[RandomGroup7] //정조준 무기
+DropWeaponList = "17,18,19"
+
+[RandomGroup8] //소음기 총
+DropWeaponList = "20,21,22,23"
+
+[RandomGroup9] //수류탄
+DropWeaponList = "24"
+
+[RandomGroup10] //스턴그레네이드
+DropWeaponList = "25"
+
+[RandomGroup11] //저소음폭탄
+DropWeaponList = "26"
+
+[RandomGroup12] //AK47 전용
+DropWeaponList = "8,32,33"
+
+[RandomGroup13] //CM901 전용
+DropWeaponList = "10,30,31"
+
+[RandomGroup14] //TRG21 전용
+DropWeaponList = "11,35,36"
+
+[RandomGroup15] //컴뱃보우 전용
+DropWeaponList = "27,28,29"
+
+[RandomGroup16] //MP5
+DropWeaponList = "2,22"
+
+[RandomGroup17] //레어(ISR)
+DropWeaponList = "37,38"
+
+[RandomGroup18] //무한사냥 "RA-PDW"
+DropWeaponList = "39"
+
+[RandomGroup19] //무한사냥 sg-870_v2"
+DropWeaponList = "40"
+
+[RandomGroup20] //무한사냥 asg-12_v2
+DropWeaponList = "41"
+
+[RandomGroup21] //무한사냥 mp5aim
+DropWeaponList = "42"
+
+[RandomGroup22] //무한사냥 kriss)
+DropWeaponList = "43"
+
+[RandomGroup23] //무한사냥 ak74u)
+DropWeaponList = "44"
+
+[RandomGroup24] //무한사냥 ak47
+DropWeaponList = "45"
+
+[RandomGroup25] //무한사냥 cm901
+DropWeaponList = "46"
+
+[RandomGroup26] //무한사냥 m4a1
+DropWeaponList = "47"
+
+[RandomGroup27] //무한사냥 famas
+DropWeaponList = "48"
+
+[RandomGroup28] //무한사냥 TRG-21)
+DropWeaponList = "49"
+
+[RandomGroup29] //무한사냥 컴뱃보우)
+DropWeaponList = "50"
+
+[RandomGroup30] //무한사냥 dragnov)
+DropWeaponList = "51"
+
+[RandomGroup31] //무한사냥 윈체스터)
+DropWeaponList = "52"
+
+[RandomGroup32] //무한사냥 아나콘다)
+DropWeaponList = "53"
+
+[RandomGroup33] //무한사냥 데저트이글)
+DropWeaponList = "54"
+
+[RandomGroup34] //무한사냥 F.Gun)
+DropWeaponList = "55"
+
+[RandomGroup35] //무한사냥 매그넘)
+DropWeaponList = "56"
+
+
+
+
+// index 0~99 중 순서없이 사용 가능
+[DropWeapon0]
+DropWeaponID	= 1522
+DropWeaponModel	= "sa_weapons\models\tv\cartridge_3p.ltb"
+DropWeaponSkin	= "sa_weapons\SKINS\tv\cartridge_3p.dtx"
+
+
+[DropWeapon1]
+DropWeaponID	= 1523
+DropWeaponModel	= "sa_weapons\models\tv\first_aid_kit_3p.ltb"
+DropWeaponSkin	= "sa_weapons\SKINS\tv\first aid kit_3p.dtx"
+
+[DropWeapon2]
+DropWeaponID	= 599
+DropWeaponModel	= "SA_Weapons\Models\TV\Mp5_EX_Initial_3p.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\mp5_ex_d.dtx"
+
+[DropWeapon3]
+DropWeaponID	= 19  //c.usp
+DropWeaponModel	= "SA_Weapons\Models\TV\USP45.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\USP45.dtx"
+CustomDims		= <15,15,15>
+
+[DropWeapon4]
+DropWeaponID	= 2 //anaconda
+DropWeaponModel	= "SA_Weapons\Models\TV\Anaconda.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\Anaconda.dtx"
+CustomDims		= <15,15,15>
+
+[DropWeapon5]
+DropWeaponID	= 1 //D.Eagle
+DropWeaponModel	= "SA_Weapons\Models\TV\DesertEgle.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\DesertEagle.dtx"
+CustomDims		= <15,15,15>
+
+[DropWeapon6]
+DropWeaponID	= 10  // F92
+DropWeaponModel	= "SA_Weapons\Models\TV\Beretta92fs.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\Beretta92fs.dtx"
+CustomDims		= <15,15,15>
+
+[DropWeapon7]
+DropWeaponID	= 135  //magnum
+DropWeaponModel	= "SA_Weapons\Models\TV\BHmagnum.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\BH_magnum.dtx"
+CustomDims		= <15,15,15>
+
+[DropWeapon8]
+DropWeaponID	= 9  //ak47
+DropWeaponModel	= "SA_Weapons\Models\TV\AK47.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\ak47.dtx"
+
+[DropWeapon9]
+DropWeaponID	= 12  //remington870
+DropWeaponModel	= "SA_Weapons\Models\TV\Remington870.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\SG_870_v2.dtx"
+
+[DropWeapon10]
+DropWeaponID	= 478  //cm901
+DropWeaponModel	= "SA_Weapons\Models\TV\cm901.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\cm901.dtx"
+
+[DropWeapon11]
+DropWeaponID	= 22 //trg21
+DropWeaponModel	= "SA_Weapons\Models\TV\Trg21.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\Trg21.dtx"
+
+[DropWeapon12]
+DropWeaponID	= 65 //ScoutSR69
+DropWeaponModel	= "SA_Weapons\Models\TV\SSG69.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\SSG69.dtx"
+
+[DropWeapon13]
+DropWeaponID	= 391 //winchester m73
+DropWeaponModel	= "SA_Weapons\Models\TV\Winchester_m73.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\Winchester_m73.dtx"
+
+
+[DropWeapon14]
+DropWeaponID	= 708 //M134
+DropWeaponModel	= "SA_Weapons\Models\TV\M134_3p.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\M134_3p_d.dtx"
+
+[DropWeapon15]
+DropWeaponID	= 753 //Trex
+DropWeaponModel	= "SA_Weapons\Models\TV\M134_3p.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\M134_gold_T_rex_3p.dtx"
+
+[DropWeapon16]
+DropWeaponID	= 68 //MG43
+DropWeaponModel	= "SA_Weapons\Models\TV\MG43.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\MG43.dtx"
+
+[DropWeapon17]
+DropWeaponID	= 1482 //ak47 - aim
+DropWeaponModel	= "SA_Weapons\Models\TV\Ak472014_new_3p.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\ak472014_Vintage_3p.dtx"
+
+[DropWeapon18]
+DropWeaponID	= 1483 //"M4A1_Aim"
+DropWeaponModel	= "SA_Weapons\Models\TV\M4A1_aim_3p.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\M4A1_3p.dtx"
+
+[DropWeapon19]
+DropWeaponID	= 1484 //"mp5_Aim"
+DropWeaponModel	= "SA_Weapons\Models\TV\mp5_aim_3p.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\mp5_3p.dtx"
+
+
+
+[DropWeapon20]
+DropWeaponID	= 133 //"TRG21_Sil"
+DropWeaponModel	= "SA_Weapons\Models\TV\TRG21_silencer.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\Trg21.dtx"
+
+[DropWeapon21]
+DropWeaponID	= 134 //"M4A1_Sil"
+DropWeaponModel	= "SA_Weapons\Models\TV\M4A1_silencer.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\m4a1_infinity.dtx"
+
+[DropWeapon22]
+DropWeaponID	= 150 //"SA_MP5_Sil_Infi"
+DropWeaponModel	= "SA_Weapons\Models\TV\MP5_Infinity(S).ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\MP5_Infinity(S).dtx"
+
+[DropWeapon23]
+DropWeaponID	= 221 //"AK47_Infi_Sil"
+DropWeaponModel	= "SA_Weapons\Models\TV\AK47_Infi_Sil.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\AK47_Infi_Sil.dtx"
+
+[DropWeapon24]
+DropWeaponID	= 8 //"Grenade"
+DropWeaponModel	= "SA_Weapons\Models\TV\grenade.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\Grenade.dtx"
+CustomDims		= <15,15,15>
+
+[DropWeapon25]
+DropWeaponID	= 1530 //"SA_Sturn_Grenade"
+DropWeaponModel	= "sa_weapons\models\tv\nexon_stun_grenade_3p.ltb"
+DropWeaponSkin	= "sa_weapons\SKINS\tv\nexon_stun_grenade_3p.dtx"
+CustomDims		= <15,15,15>
+
+[DropWeapon26]
+DropWeaponID	= 1525 //"DoorBombTool"
+DropWeaponModel	= "sa_weapons\models\tv\quiet_bomb_3p.ltb"
+DropWeaponSkin	= "sa_weapons\SKINS\tv\quiet_bomb_3p.dtx"
+CustomDims		= <15,15,15>
+
+[DropWeapon27]
+DropWeaponID	= 1594 //"CombatBOW"
+DropWeaponModel	= "SA_Weapons\Models\TV\CombatBow.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\CombatBow_3p.dtx"
+
+[DropWeapon28]
+DropWeaponID	= 1595 //"CombatBOW_Rouge"
+DropWeaponModel	= "SA_Weapons\Models\TV\CombatBow.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\CombatBow_RED_3p.dtx"
+
+[DropWeapon29]
+DropWeaponID	= 1596 //"CombatBOW_AZUR"
+DropWeaponModel	= "SA_Weapons\Models\TV\CombatBow.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\CombatBow_BLUE_3p.dtx"
+
+[DropWeapon30]
+DropWeaponID	= 1217 //"CM901_IS_BH"
+DropWeaponModel	= "SA_Weapons\Models\TV\CM901_is_3p_new.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\CM901_isk_bluehorse_3p.dtx"
+
+[DropWeapon31]
+DropWeaponID	= 1060 //"CM901_BSnake"
+DropWeaponModel	= "SA_Weapons\Models\TV\CM901_isk_bdragon_3p.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\CM901_isk_blacksnake_3p.dtx"
+
+[DropWeapon32]
+DropWeaponID	= 969 //"AK47_IS_RDragon"
+DropWeaponModel	= "SA_Weapons\Models\TV\AK47_Infi_Sil.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\AK47_IS_RedDragon_3p.dtx"
+
+[DropWeapon33]
+DropWeaponID	= 815 //"AK47_WSnake"
+DropWeaponModel	= "SA_Weapons\Models\TV\Ak_blackdragon.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\AK47_ISK_White_Snake_3p.dtx"
+
+[DropWeapon34]
+DropWeaponID	= 1176 //"KRISS"
+DropWeaponModel	= "SA_Weapons\Models\TV\kriss_3p.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\Kriss_3p.dtx"
+
+[DropWeapon35]
+DropWeaponID	= 130 //"TRG21_Sil_Infi"
+DropWeaponModel	= "SA_Weapons\Models\TV\TRG21_super.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\TRG21_super.dtx"
+
+[DropWeapon36]
+DropWeaponID	= 819 //"TRG21(IS) Sakura"
+DropWeaponModel	= "SA_Weapons\Models\TV\trg21_IS_cow.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\TRG_is_sakura_3p.dtx"
+
+[DropWeapon37]
+DropWeaponID	= 554 //"AK47(ISR)_Angel"
+DropWeaponModel	= "SA_Weapons\Models\TV\AK_isr.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\ak(isr)skin_angel_d_3p.dtx"
+
+[DropWeapon38]
+DropWeaponID	= 556 //"M4A1(IS)_Angel"
+DropWeaponModel	= "SA_Weapons\Models\TV\M4A1_isr.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\m4a1_isr(angel_skin)_3p_d.dtx"
+
+[DropWeapon39]  // 출발무한사냥
+DropWeaponID	= 1780 //"RA-PDW"
+DropWeaponModel	= "SA_Weapons\Models\TV\RA_PDW_3p.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\RA_PDW_3p.dtx"
+
+[DropWeapon40]
+DropWeaponID	= 12 //"sg-870_v2"
+DropWeaponModel	= "SA_Weapons\Models\TV\Remington870.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\SG_870_v2.dtx"
+
+[DropWeapon41]
+DropWeaponID	= 13 //"asg-12_v2"
+DropWeaponModel	= "SA_Weapons\Models\TV\Spas12.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\ASG_12_v2.dtx"
+
+[DropWeapon42]
+DropWeaponID	= 1484 //"mp5aim"
+DropWeaponModel	= "SA_Weapons\Models\TV\mp5_aim_3p.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\mp5_3p.dtx"
+
+[DropWeapon43]
+DropWeaponID	= 1176 //"kriss"
+DropWeaponModel	= "SA_Weapons\Models\TV\kriss_3p.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\Kriss_3p.dtx"
+
+[DropWeapon44]
+DropWeaponID	= 3 //"ak74u"
+DropWeaponModel	= "SA_Weapons\Models\TV\Aks74u.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\Aks74u.dtx"
+
+[DropWeapon45]
+DropWeaponID	= 9 //"ak47u"
+DropWeaponModel	= "SA_Weapons\Models\TV\AK47.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\AK47.dtx"
+
+[DropWeapon46]
+DropWeaponID	= 478 //"cm901"
+DropWeaponModel	= "SA_Weapons\Models\TV\cm901.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\cm901.dtx"
+
+[DropWeapon47]
+DropWeaponID	= 4 //"m4a1"
+DropWeaponModel	= "SA_Weapons\Models\TV\M4A1.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\M4A1.dtx"
+
+[DropWeapon48]
+DropWeaponID	= 14 //"famas"
+DropWeaponModel	= "SA_Weapons\Models\TV\Famasf1.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\famas.dtx"
+
+[DropWeapon49]
+DropWeaponID	= 22 //"trg21"
+DropWeaponModel	= "SA_Weapons\Models\TV\Trg21.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\Trg21.dtx"
+
+[DropWeapon50]
+DropWeaponID	= 1594 //"combat bow"
+DropWeaponModel	= "SA_Weapons\Models\TV\CombatBow.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\CombatBow_3p.dtx"
+
+[DropWeapon51]
+DropWeaponID	= 6 //"dragnov"
+DropWeaponModel	= "SA_Weapons\Models\TV\dragunov.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\dragunvo.dtx"
+
+[DropWeapon52]
+DropWeaponID	= 391 //"winchester"
+DropWeaponModel	= "SA_Weapons\Models\TV\Winchester_m73.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\Winchester_m73.dtx"
+
+[DropWeapon53]
+DropWeaponID	= 2 //"아나콘다"
+DropWeaponModel	= "SA_Weapons\Models\TV\Anaconda.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\Anaconda.dtx"
+
+[DropWeapon54]
+DropWeaponID	= 1 //"D.Egale"
+DropWeaponModel	= "SA_Weapons\Models\TV\DesertEgle.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\DesertEagle.dtx"
+
+[DropWeapon55]
+DropWeaponID	= 1442 //"F.Gun"
+DropWeaponModel	= "SA_Weapons\Models\TV\finger_gun_3p.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\finger_gun_red_3p.dtx"
+
+[DropWeapon56]
+DropWeaponID	= 135 //"Magnum"
+DropWeaponModel	= "SA_Weapons\Models\TV\BHmagnum.ltb"
+DropWeaponSkin	= "SA_Weapons\Skins\TV\BH_magnum.dtx"

@@ -1,0 +1,17 @@
+{
+  "converted": [
+    {
+      "source": "extracted\\welcome-atlas\\sa_atlas\\atlas_script\\Welcomecamp.dtx",
+      "output": "previews\\welcome-atlas\\sa_atlas\\atlas_script\\Welcomecamp.png",
+      "source_sha256": "9cf85ce35f4d8a7852ef1b46a79cbdef084d5f79feab6d1503f1dbf3764b8473",
+      "png_sha256": "e75f2a05de4db0f4d0d3df64c6683e42f10f887fc4e9cd7bd8d8e9c458dd9887",
+      "width": 2048,
+      "height": 2048,
+      "mip_count": 1,
+      "mip_previewed": 0,
+      "dtx_format": 3,
+      "interpretation": "inferred-BGRA8"
+    }
+  ],
+  "unsupported": []
+}

@@ -1,0 +1,151 @@
+{
+  "kind": "movement-initial-scalar-observation-v1",
+  "artifact_sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110",
+  "initializer": "0x180ef0aa0",
+  "selector": "0x180f031e0",
+  "source_evidence": [
+    {
+      "path": "evidence\\movement-init-ghidra.json",
+      "evidence_id": "ev_f9ba51017d9b9bd3f4b4638c33f9359cba636823dfb0381dc0903b03cb00098e",
+      "sha256": "7f90599f8a970b991597365bc1a0edd38f4fd3ea5b82c83f20470b36af970e6b"
+    },
+    {
+      "path": "evidence\\movement-constant-selector-ghidra.json",
+      "evidence_id": "ev_f9a7f4f83b4e3f61ac365d5e3cfa5c264cc41d3a24162a5de4c04f54b51da558",
+      "sha256": "5722be4d05f6256e3b53d9486e68a650eeb37d2eced93e1e9ac6da4ee9f4c0a2"
+    }
+  ],
+  "static_literals": {
+    "A": {
+      "address": "0x18146159c",
+      "value": 90.0
+    },
+    "B": {
+      "address": "0x18145b458",
+      "value": 10.0
+    },
+    "C": {
+      "address": "0x18145bb10",
+      "value": 50.0
+    },
+    "TWO": {
+      "address": "0x181456014",
+      "value": 2.0
+    },
+    "THREE": {
+      "address": "0x181456018",
+      "value": 3.0
+    },
+    "FOUR": {
+      "address": "0x18145601c",
+      "value": 4.0
+    },
+    "FIVE": {
+      "address": "0x181456020",
+      "value": 5.0
+    },
+    "SEVEN": {
+      "address": "0x18145db54",
+      "value": 7.0
+    }
+  },
+  "verified_wrapper_bytes": [
+    {
+      "address": "0x180f038e0",
+      "bytes_hex": "f30f1109488bc1c3"
+    },
+    {
+      "address": "0x180f038f0",
+      "bytes_hex": "c70100000000488bc1c3"
+    },
+    {
+      "address": "0x180f039f0",
+      "bytes_hex": "c20000"
+    },
+    {
+      "address": "0x180f03ab0",
+      "bytes_hex": "8b028901488bc1c3"
+    },
+    {
+      "address": "0x180f03ac0",
+      "bytes_hex": "f30f11090f28c1c3"
+    },
+    {
+      "address": "0x180f03ad0",
+      "bytes_hex": "f30f1001c3"
+    }
+  ],
+  "records": [
+    {
+      "index": 0,
+      "case_address": "0x180f03265",
+      "value": 180.0,
+      "initializer_store_offset": "0xf8",
+      "meaning": "unresolved",
+      "unit": "unresolved"
+    },
+    {
+      "index": 1,
+      "case_address": "0x180f03335",
+      "value": 330.0,
+      "initializer_store_offset": "0x100",
+      "meaning": "unresolved",
+      "unit": "unresolved"
+    },
+    {
+      "index": 2,
+      "case_address": "0x180f033e1",
+      "value": 250.0,
+      "initializer_store_offset": "0xf4",
+      "meaning": "unresolved",
+      "unit": "unresolved"
+    },
+    {
+      "index": 3,
+      "case_address": "0x180f03478",
+      "value": 567.0,
+      "initializer_store_offset": "0xb8",
+      "meaning": "unresolved",
+      "unit": "unresolved"
+    },
+    {
+      "index": 4,
+      "case_address": "0x180f03478",
+      "value": 567.0,
+      "initializer_store_offset": "0xbc",
+      "meaning": "unresolved",
+      "unit": "unresolved"
+    },
+    {
+      "index": 5,
+      "case_address": "0x180f03644",
+      "value": 0.0,
+      "initializer_store_offset": "0xc0",
+      "meaning": "unresolved",
+      "unit": "unresolved"
+    },
+    {
+      "index": 6,
+      "case_address": "0x180f035a3",
+      "value": 300.0,
+      "initializer_store_offset": "0x104",
+      "meaning": "unresolved",
+      "unit": "unresolved"
+    }
+  ],
+  "formulae": [
+    "(C+A)+(B*FOUR)",
+    "((A*THREE)+C)+B",
+    "FIVE*C",
+    "((((A*FOUR)+C)+C)+(C*TWO))+SEVEN",
+    "same as index 3",
+    "0",
+    "(C+C)*THREE"
+  ],
+  "limitations": [
+    "No original executable or DLL code executed.",
+    "Formulae reconstructed from selected Ghidra/Capstone switch arms.",
+    "Values are initial scalar returns, not verified final game movement rules.",
+    "Initializer allocation-success path enters protected code; runtime reachability and later overrides remain unverified."
+  ]
+}

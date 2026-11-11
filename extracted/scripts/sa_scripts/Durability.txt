@@ -1,0 +1,34 @@
+{
+	"DurabilityType" :
+	[	
+		{
+		"Index" : 0,
+		"Max" : 500,
+		"Cost_M1_Cnt" : 2,
+		"Disarm" : 30
+		}
+	],
+	
+	"Durability_Item" :	
+	[	
+		{ "Item" : "WPW05598", "DurabilityType" : 0},
+		{ "Item" : "WPW05599", "DurabilityType" : 0},
+		{ "Item" : "WPW05600", "DurabilityType" : 0},
+		{ "Item" : "WPW05601", "DurabilityType" : 0},
+		{ "Item" : "WPW05854", "DurabilityType" : 0},
+		{ "Item" : "WPW06008", "DurabilityType" : 0},
+		{ "Item" : "WPW06277", "DurabilityType" : 0},
+		{ "Item" : "WPW06471", "DurabilityType" : 0},
+		{ "Item" : "WPW06472", "DurabilityType" : 0},
+		{ "Item" : "WPW06473", "DurabilityType" : 0},
+		{ "Item" : "WPW06474", "DurabilityType" : 0},
+		{ "Item" : "WPW06413", "DurabilityType" : 0},
+		{ "Item" : "WPW07115", "DurabilityType" : 0},
+		{ "Item" : "WPW07233", "DurabilityType" : 0},
+		{ "Item" : "WPW08450", "DurabilityType" : 0},
+	]	
+
+	
+}
+
+	

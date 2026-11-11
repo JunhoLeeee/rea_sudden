@@ -1,0 +1,6 @@
+<UIEditor>
+    <UIInfo name="attendance_bg_new" x="0" y="0" w="666" h="508" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_welcome_attendance_popup" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="attendance_bg_back" x="0" y="0" w="782" h="350" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_welcomeback_attendance_popup" comptype="Texture" groupname="" hudalign="0" hudstretch="false" select="false" over="false"/>
+    <UIInfo name="btn_popupclose" x="273" y="444" w="120" h="38" type="0" commandid="" atlas="WelcomeCamp" texture="welcome_attendance_confirm_btn_n" comptype="Button" groupname="" hudalign="0" hudstretch="false"/>
+    <UIInfo name="list_attendance_reward" x="54" y="77" w="584" h="314" type="1" commandid="" atlas="" texture="" comptype="ListEx" groupname="" hudalign="0" hudstretch="false" listname="CCampAttendanceRewardList" itemwidth="146" itemheight="157" usescroll="false" drawback="false" widthitemcount="4" heightitemcount="2" script="WelcomeCamp/AttendanceCheck_Popup_ListItem"/>
+</UIEditor>

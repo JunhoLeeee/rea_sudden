@@ -1,0 +1,38 @@
+// texture 교체 방식의 진행 표시 UI
+// 10개까지 등록할 수 있다
+[TextureChangeProgress0]
+Tex0	= "sa_interface2\hud\WelcomeToNexon\progress\Nexon_progress0.dtx"		// tex0은 바탕이자 0% 로 사용된다
+Tex1	= "sa_interface2\hud\WelcomeToNexon\progress\Nexon_progress1.dtx"
+Tex2	= "sa_interface2\hud\WelcomeToNexon\progress\Nexon_progress2.dtx"
+Tex3	= "sa_interface2\hud\WelcomeToNexon\progress\Nexon_progress3.dtx"
+Tex4	= "sa_interface2\hud\WelcomeToNexon\progress\Nexon_progress4.dtx"
+Tex5	= "sa_interface2\hud\WelcomeToNexon\progress\Nexon_progress5.dtx"
+
+// 설정된 텍스처들을 번갈아 가며 보여주는 이미지 컨트롤
+// 마우스 왼쪽 클릭 도움 이미지
+[SwitchImage0]
+AlignType 		= "AT_RIGHT_BOTTOM"
+Pos				= ( 0, 100 )
+SwitchTime		= 0.5f
+Tex0			= "sa_interface_chn\hud\tutorial\mouse_0.dtx"
+Tex1			= "sa_interface_chn\hud\tutorial\mouse_1.dtx"
+
+[SwitchImage1]
+AlignType 		= "AT_CENTER"
+Pos				= ( -60, 60 )
+SwitchTime		= 0.5f
+Tex0			= ""
+Tex1			= ""
+Text 			= ""	// 이미지 우측에 나올꺼다
+TextColor		= "255,255,0"	// r, g, b
+
+[WeaponSoundRadius]
+Melee = 100
+Pistol = 800
+Rifle = 1500
+Machine = 2000
+Submachine = 1000
+Sniper = 1800
+Shotgun = 1600
+CombatBow = 100
+Default = 1000

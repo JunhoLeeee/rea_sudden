@@ -1,0 +1,12 @@
+/*
+** Popup for Messages
+*/
+
+[PopupItem0]
+Frame               		= "Interface\Menu\Sprtex\paper1.dtx"
+Font				= 2
+FontSize			= 13
+Size				= (278,370)
+TextOffset			= (25,50)
+TextWidth			= 230
+TextColor			= <0.0, 0.0, 0.0>
