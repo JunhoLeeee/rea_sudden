@@ -1,0 +1,358 @@
+{
+  "profile": "installed-run-control-fragment-v1",
+  "path": "C:\\Users\\PC\\Desktop\\REA\\extracted\\game-file\\game_file\\CShell.dll",
+  "sha256": "099d69b5b3af0562ebde39094a5daa72cf2cea455a91625fedb06f55c2300110",
+  "source_evidence": [
+    "ev_70eab8203e5cf8208bbfd337a8da4cf493a7e864b23b4bd5c62900ab61bd662d",
+    "ev_4121fd8c4097d004c725f84c9bef2cb487f82cd2aefc24112094e4cf51bb6325"
+  ],
+  "observed_contract": {
+    "action": 7,
+    "mask": "0x200",
+    "current": "+0x8c",
+    "runlock": "+0xdc",
+    "weapon_gate_first_dword": "player+0x458 pointer",
+    "comparison": "raw uint8 action byte != int(runlock != 0)",
+    "mode_13_requires_nonzero_runlock": true,
+    "mode_36_override_return": 1,
+    "mutation": "OR only; no bit clear"
+  },
+  "normal_path_selected_instructions": [
+    {
+      "address": "0x180efa484",
+      "bytes": "33ed",
+      "mnemonic": "xor",
+      "operands": "ebp, ebp",
+      "references": []
+    },
+    {
+      "address": "0x180efa892",
+      "bytes": "488b05cff3b100",
+      "mnemonic": "mov",
+      "operands": "rax, qword ptr [rip + 0xb1f3cf]",
+      "references": [
+        {
+          "kind": "rip-memory",
+          "address": "0x181a19c68",
+          "width": 8,
+          "read": true,
+          "write": false,
+          "preview": null
+        }
+      ]
+    },
+    {
+      "address": "0x180efa899",
+      "bytes": "488b9058040000",
+      "mnemonic": "mov",
+      "operands": "rdx, qword ptr [rax + 0x458]",
+      "references": []
+    },
+    {
+      "address": "0x180efa8a0",
+      "bytes": "392a",
+      "mnemonic": "cmp",
+      "operands": "dword ptr [rdx], ebp",
+      "references": []
+    },
+    {
+      "address": "0x180efa8a2",
+      "bytes": "0f8558010000",
+      "mnemonic": "jne",
+      "operands": "0x180efaa00",
+      "references": [
+        {
+          "kind": "direct-control-flow",
+          "address": "0x180efaa00"
+        }
+      ]
+    },
+    {
+      "address": "0x180efa8a8",
+      "bytes": "488b0589e4b000",
+      "mnemonic": "mov",
+      "operands": "rax, qword ptr [rip + 0xb0e489]",
+      "references": [
+        {
+          "kind": "rip-memory",
+          "address": "0x181a08d38",
+          "width": 8,
+          "read": true,
+          "write": false,
+          "preview": null
+        }
+      ]
+    },
+    {
+      "address": "0x180efa8af",
+      "bytes": "83b8e0e9000013",
+      "mnemonic": "cmp",
+      "operands": "dword ptr [rax + 0xe9e0], 0x13",
+      "references": []
+    },
+    {
+      "address": "0x180efa8b6",
+      "bytes": "7508",
+      "mnemonic": "jne",
+      "operands": "0x180efa8c0",
+      "references": [
+        {
+          "kind": "direct-control-flow",
+          "address": "0x180efa8c0"
+        }
+      ]
+    },
+    {
+      "address": "0x180efa8b8",
+      "bytes": "39afdc000000",
+      "mnemonic": "cmp",
+      "operands": "dword ptr [rdi + 0xdc], ebp",
+      "references": []
+    },
+    {
+      "address": "0x180efa8be",
+      "bytes": "7431",
+      "mnemonic": "je",
+      "operands": "0x180efa8f1",
+      "references": [
+        {
+          "kind": "direct-control-flow",
+          "address": "0x180efa8f1"
+        }
+      ]
+    },
+    {
+      "address": "0x180efa8c0",
+      "bytes": "488b057981a500",
+      "mnemonic": "mov",
+      "operands": "rax, qword ptr [rip + 0xa58179]",
+      "references": [
+        {
+          "kind": "rip-memory",
+          "address": "0x181952a40",
+          "width": 8,
+          "read": true,
+          "write": false,
+          "preview": null
+        }
+      ]
+    },
+    {
+      "address": "0x180efa8c7",
+      "bytes": "b907000000",
+      "mnemonic": "mov",
+      "operands": "ecx, 7",
+      "references": []
+    },
+    {
+      "address": "0x180efa8cc",
+      "bytes": "488b90c0030000",
+      "mnemonic": "mov",
+      "operands": "rdx, qword ptr [rax + 0x3c0]",
+      "references": []
+    },
+    {
+      "address": "0x180efa8d3",
+      "bytes": "ffd2",
+      "mnemonic": "call",
+      "operands": "rdx",
+      "references": []
+    },
+    {
+      "address": "0x180efa8d5",
+      "bytes": "39afdc000000",
+      "mnemonic": "cmp",
+      "operands": "dword ptr [rdi + 0xdc], ebp",
+      "references": []
+    },
+    {
+      "address": "0x180efa8db",
+      "bytes": "0fb6c8",
+      "mnemonic": "movzx",
+      "operands": "ecx, al",
+      "references": []
+    },
+    {
+      "address": "0x180efa8de",
+      "bytes": "8bc5",
+      "mnemonic": "mov",
+      "operands": "eax, ebp",
+      "references": []
+    },
+    {
+      "address": "0x180efa8e0",
+      "bytes": "0f95c0",
+      "mnemonic": "setne",
+      "operands": "al",
+      "references": []
+    },
+    {
+      "address": "0x180efa8e3",
+      "bytes": "3bc8",
+      "mnemonic": "cmp",
+      "operands": "ecx, eax",
+      "references": []
+    },
+    {
+      "address": "0x180efa8e5",
+      "bytes": "740a",
+      "mnemonic": "je",
+      "operands": "0x180efa8f1",
+      "references": [
+        {
+          "kind": "direct-control-flow",
+          "address": "0x180efa8f1"
+        }
+      ]
+    },
+    {
+      "address": "0x180efa8e7",
+      "bytes": "818f8c00000000020000",
+      "mnemonic": "or",
+      "operands": "dword ptr [rdi + 0x8c], 0x200",
+      "references": []
+    },
+    {
+      "address": "0x180efa8f1",
+      "bytes": "488b0540e4b000",
+      "mnemonic": "mov",
+      "operands": "rax, qword ptr [rip + 0xb0e440]",
+      "references": [
+        {
+          "kind": "rip-memory",
+          "address": "0x181a08d38",
+          "width": 8,
+          "read": true,
+          "write": false,
+          "preview": null
+        }
+      ]
+    },
+    {
+      "address": "0x180efa8f8",
+      "bytes": "83b8e0e9000036",
+      "mnemonic": "cmp",
+      "operands": "dword ptr [rax + 0xe9e0], 0x36",
+      "references": []
+    },
+    {
+      "address": "0x180efa8ff",
+      "bytes": "7523",
+      "mnemonic": "jne",
+      "operands": "0x180efa924",
+      "references": [
+        {
+          "kind": "direct-control-flow",
+          "address": "0x180efa924"
+        }
+      ]
+    },
+    {
+      "address": "0x180efa901",
+      "bytes": "e82a221a00",
+      "mnemonic": "call",
+      "operands": "0x18109cb30",
+      "references": [
+        {
+          "kind": "direct-control-flow",
+          "address": "0x18109cb30"
+        }
+      ]
+    },
+    {
+      "address": "0x180efa906",
+      "bytes": "488bc8",
+      "mnemonic": "mov",
+      "operands": "rcx, rax",
+      "references": []
+    },
+    {
+      "address": "0x180efa909",
+      "bytes": "e892301a00",
+      "mnemonic": "call",
+      "operands": "0x18109d9a0",
+      "references": [
+        {
+          "kind": "direct-control-flow",
+          "address": "0x18109d9a0"
+        }
+      ]
+    },
+    {
+      "address": "0x180efa90e",
+      "bytes": "8bc8",
+      "mnemonic": "mov",
+      "operands": "ecx, eax",
+      "references": []
+    },
+    {
+      "address": "0x180efa910",
+      "bytes": "e87b1c0900",
+      "mnemonic": "call",
+      "operands": "0x180f8c590",
+      "references": [
+        {
+          "kind": "direct-control-flow",
+          "address": "0x180f8c590"
+        }
+      ]
+    },
+    {
+      "address": "0x180efa915",
+      "bytes": "83f801",
+      "mnemonic": "cmp",
+      "operands": "eax, 1",
+      "references": []
+    },
+    {
+      "address": "0x180efa918",
+      "bytes": "750a",
+      "mnemonic": "jne",
+      "operands": "0x180efa924",
+      "references": [
+        {
+          "kind": "direct-control-flow",
+          "address": "0x180efa924"
+        }
+      ]
+    },
+    {
+      "address": "0x180efa91a",
+      "bytes": "818f8c00000000020000",
+      "mnemonic": "or",
+      "operands": "dword ptr [rdi + 0x8c], 0x200",
+      "references": []
+    }
+  ],
+  "setter": {
+    "requested_address": "0x180ef48b0",
+    "unwind_extent": null,
+    "bytes_requested": 512,
+    "bytes_decoded": 7,
+    "decoded_sha256": "70762f84c5a9116948f54ad621af17963fbf40bb7688e783661cac2e9953a6fb",
+    "stopped_at_leaf_terminator": true,
+    "undecoded_tail": false,
+    "instructions": [
+      {
+        "address": "0x180ef48b0",
+        "bytes": "8991dc000000",
+        "mnemonic": "mov",
+        "operands": "dword ptr [rcx + 0xdc], edx",
+        "references": []
+      },
+      {
+        "address": "0x180ef48b6",
+        "bytes": "c3",
+        "mnemonic": "ret",
+        "operands": "",
+        "references": []
+      }
+    ]
+  },
+  "limitations": [
+    "Local static bytes; original DLL was not loaded or executed.",
+    "Normal-path UI/mode/weapon gates outside this interval are caller supplied.",
+    "Runtime command values and actual RunLock selection remain unobserved.",
+    "Ghidra bool casts do not override the observed MOVZX/CMP byte semantics."
+  ]
+}

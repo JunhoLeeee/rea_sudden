@@ -56,6 +56,29 @@ def poll_basic_direction_bits(commands):
     return result
 
 
+def poll_run_control_bit(commands, current, *, runlock, mode, player_458_first,
+                         mode_36_override=0):
+    """Replay 180efa892..180efa924 after the caller's normal-path gates.
+
+    Action 7's raw byte is compared with (runlock != 0), rather than first
+    converting both operands to bool. The source only ORs 0x200; no branch
+    clears an existing run bit. mode_36_override is the supplied return of
+    FUN_180f8c590, not a fabricated mode state.
+    """
+    flags = _flags(current)
+    for value in (runlock, mode, player_458_first, mode_36_override):
+        if type(value) is not int or not -(1 << 31) <= value < 1 << 31:
+            raise ValueError('int32 context fields required')
+    if player_458_first != 0:
+        return flags
+    if mode != 0x13 or runlock != 0:
+        if commands.query(7) != int(runlock != 0):
+            flags |= 0x200
+    if mode == 0x36 and mode_36_override == 1:
+        flags |= 0x200
+    return flags
+
+
 @dataclass(frozen=True)
 class ControlPostprocess:
     flags: int
@@ -80,3 +103,14 @@ def postprocess_control_flags(current, previous):
 def begin_control_frame(current):
     """180ef9f7e..180ef9f8a copies +0x8c to +0xe4 and clears current."""
     return {'previous': _flags(current), 'current': 0}
+
+
+def mode_50_control_filter(current, previous):
+    """Replay 180efa1de..180efa1ff only after its mode/state gates pass.
+
+    The enclosing frame calls this after normal-control postprocessing and
+    before a later player-supplied flag OR. It explicitly clears +0x46c.
+    Calling postprocess_control_flags again here would invent a source step.
+    """
+    flags, old = _flags(current), _flags(previous)
+    return ControlPostprocess((flags & 0xfdfcf400) | (old & 0x20), 0)

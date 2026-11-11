@@ -12,7 +12,10 @@ import math
 from pathlib import Path
 import struct
 
-from world_dat import Reader, MAX_FILE
+if __package__:
+    from .world_dat import Reader, MAX_FILE
+else:
+    from world_dat import Reader, MAX_FILE
 
 VERTEX_LAYOUT = ('x', 'y', 'z', 'u0', 'v0', 'u1', 'v1', 'argb', 'nx', 'ny', 'nz')
 PROFILE = 'observed-warehouse-dat85-render44-v1'

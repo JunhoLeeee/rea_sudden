@@ -1,5 +1,21 @@
 # 진행 목표와 사용자 지시
 
+## 최신 지속 작업 (2026-11-11, 업로드 비교와 입력 후속 쓰기)
+
+- `client_core/lightmap.py`: 설치본 lightmap format 선택과 6개 candidate의 tightly-packed 업로드. 32BitLightMaps!=0이면 20→22→21, 이어 24→25, 모두 실패하면 unchecked 23. HRESULT는 정확히0만 성공이다.
+- 16비트 quantization은 floor(channel*max/255)이며 단순 bit truncation이 아니다. 32비트 BGR0, 24비트 native copy의 R/B 반전도 구현했다. 실제 장치 format은 미확인.
+- `tools/lightmap_selection_probe.py`/`evidence/engine-lightmap-selection-v1.json`: selection·lookup 생성·convar 초기화 바이트 기록. 이전 Saturate default=1.0은 옆 Bilinear를 잘못 연결한 오류였다. 실제 default float는 `0x1403eaca0`의0.0이다. `engine-render-saturate-corrected-v1.json` 참고. 과거 보고서는 보존.
+- `tools/audit_lightmap_upload.py`/`evidence/warehouse-lightmap-upload-replay-v1.json`: 원본27개에서 형식별 업로드 hash. 21/22 RGB roundtrip0, 16비트 nearest8bit maxerror8, 24bitR/B차이56.
+- 뷰어 업로드 비교 추가. 원본 DAT 해시/decoded triplet 해시를 확인하고 allowlist된 binary endpoints 제공. GL packed16 texture로 필터링 전에 양자화. source/worldmodel 배열은 변경하지 않았다.
+- REA browser `ev_dacf9423ca429344672d97d54dbcf34e67175d61207ac5e707b6d03b3935770d`: comparison과20→24→23→21 모두완료, errors0, native mips284/실패0. 저장 PNG `previews/warehouse-lightmap-upload-32.png`.
+- `native_input.poll_run_control_bit`: action7 raw byte != int(runlock!=0), mode/weapon gate와 OR-only 보존. `mode_50_control_filter`: normal 후 mask0xfdfcf400 및 previous duck 복원, jump latch=0. 마지막 외부OR가 다시비트를 쓸수있다. 전체 frame으로 조합하지 않는다.
+- 근거 `evidence/movement-run-control-contract-v2.json`: CShell 해시와32앵커 대조. 부모가 재실행한 결과도 byte-for-byte 같았다.
+- 후속 Gouraud_Texture 코드도 Saturate에 따라 MODULATE/MODULATE2X를 선택하고 alpha는 일반 곱셈임을 확인했다. 뷰어에 반영. `evidence/engine-gouraud-color-contract-v1.json` 참고.
+- 입력 속도 float32 경계 검토 및 검사 3개 추가. `evidence/movement-max-velocity-review-flow.json`은 현재 CShell의 153 명령을 보존한다.
+- 최신 검증: client_core 85, world_render 12, input_command_probe 3 = 100개 통과. JS 문법 통과. Gouraud/Saturate+RGB565 브라우저 전환도 오류 0. `ev_c94fead1205b32d33b95e57a8f3e30a22220a095b89f73b6d4ed0df355b5034d`.
+- 원본 EXE/DLL은 실행하지 않았다. source vertex stride 0x44(68바이트)와 DAT 44바이트를 혼동하지 않는다. loader→확장 runtime vertex의 전체 연결은 미확인이다.
+- 다음: 정점 조명 소비/셰이더 합성의 남은 차이, 입력 helper/상위 gate 추적. 실제 runtime format과 최종화면·전체 physics는 여전히 미확인이다.
+
 ## 최신 결과 (2026-11-11, 색 채널과 다른 노트북 재개)
 
 - GitHub `JunhoLeeee/rea_sudden`의 main에 초기 작업을 보존했다. `CONTINUE_ON_LAPTOP.md` 참고.

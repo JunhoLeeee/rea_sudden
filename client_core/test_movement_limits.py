@@ -57,6 +57,32 @@ class MovementLimitTests(unittest.TestCase):
                           global_ecee0_present=True,global_ecee0_cf8=1)
         self.assertEqual(result.limit,135)
 
+    def test_player_cap_keeps_two_float32_subtractions(self):
+        # SUBSS(selected, slow), then SUBSS(selected, difference) is not
+        # interchangeable with selecting slow after a wide magnitude gap.
+        result = self.value(flags=0x200, scalar_f8=1, scalar_100=100000000,
+                            player_byte_540=1)
+        self.assertEqual(result.pre_penalty_limit, 0)
+        self.assertEqual(result.limit, 0)
+
+    def test_non_mode_d_fallback_replaces_cvar_with_positive_override_or_zero(self):
+        for mode in (0, 0x13, 0x16, 0x22, 0x2f, 0x44):
+            with self.subTest(mode=mode):
+                result = self.value(mode=mode, damage_timer_450=1,
+                                    damage_move_penalty_cvar=.75)
+                self.assertEqual(result.effective_penalty, 0)
+                self.assertEqual(result.limit, 180)
+                result = self.value(mode=mode, damage_timer_450=1,
+                                    damage_move_penalty_cvar=.75,
+                                    damage_penalty_b28=.25)
+                self.assertEqual(result.effective_penalty, .25)
+                self.assertEqual(result.limit, 135)
+
+    def test_penalty_is_not_clamped_to_one(self):
+        result = self.value(damage_timer_450=1, damage_penalty_b28=2)
+        self.assertEqual(result.effective_penalty, 2)
+        self.assertEqual(result.limit, -180)
+
     def test_out_of_profile_inputs(self):
         with self.assertRaises(ValueError):self.value(flags=-1)
         with self.assertRaises(ValueError):self.value(scalar_f8=float('nan'))

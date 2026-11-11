@@ -40,9 +40,11 @@ void main(){if(uClip&&vY>uHeight)discard;vec2 uv=vec2(vUV.x,uFlip?1.0-vUV.y:vUV.
  if(uMode==5||uMode==6||uMode==7){vec3 light=uHasLightmap?${modern?'texture':'texture2D'}(uLightmap,vLightmapUV).rgb:vColor.rgb;
   // The installed lightmap texture pass selects DESTCOLOR/SRCCOLOR when
   // Saturate is nonzero: source*destination + destination*source.
-  // Apply that branch only to paired lightmaps; Gouraud saturation is unverified.
-  float gain=(uMode==7&&uHasLightmap)?2.0:1.0;
-  if(uMode==5)color=vec4(light,color.a);else color.rgb=clamp(color.rgb*light*gain,0.0,1.0);}
+  // Gouraud_Texture stage 0 also selects MODULATE/MODULATE2X from Saturate.
+  float gain=uMode==7?2.0:1.0;
+  if(uMode==5)color=vec4(light,color.a);else{
+   color.rgb=clamp(color.rgb*light*gain,0.0,1.0);
+   if(!uHasLightmap)color.a*=vColor.a;}}
  if(color.a<.001)discard;${modern?'finalColor':'gl_FragColor'}=color;}`));
  gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(program));
 }catch(error){fail(error.message);return;}
@@ -53,6 +55,7 @@ const uniforms=Object.fromEntries(['Eye','Forward','Right','Up','Aspect','Textur
 const textureCache=new Map(),lightmapCache=new Map();let scene,worlds=[],groups=[],pointBuffer;
 let target=[0,0,0],yaw=.8,elevation=.7,distance=3300,drag=null,ready=false;
 let renderedTriangles=0,textureFailures=0,unsupportedWrapping=0;
+let lightmapFormat='21',lightmapGeneration=0;
 const normalize=v=>{const n=Math.hypot(...v)||1;return v.map(x=>x/n);};
 function makeTexture(image,levels,clamp=false){
  const t=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,t);
@@ -75,6 +78,55 @@ function makeTexture(image,levels,clamp=false){
 }
 const fallback=makeTexture(null);
 function loadImage(url){return new Promise((resolve,reject)=>{const image=new Image();image.onload=()=>resolve(image);image.onerror=()=>reject(Error('PNG '+url));image.src=url;});}
+function makeUploadedLightmap(row,code,bytes){
+ const pixelCount=row.width*row.height,view=new Uint8Array(bytes);
+ const stride=code===20?3:code===21||code===22?4:2;
+ if(view.length!==pixelCount*stride)throw Error('라이트맵 업로드 크기 불일치');
+ const t=gl.createTexture();
+ gl.bindTexture(gl.TEXTURE_2D,t);gl.pixelStorei(gl.UNPACK_ALIGNMENT,1);
+ if(stride===2){
+  const input=new DataView(bytes),packed=new Uint16Array(pixelCount);
+  for(let i=0;i<pixelCount;i++){
+   const word=input.getUint16(i*2,true);
+   // D3D 1555 -> GL 5551 rearranges bit positions, retaining channel values.
+   packed[i]=code===23?word:((word&0x7fff)<<1)|(word>>>15);
+  }
+  const format=code===23?gl.RGB:gl.RGBA;
+  const internal=modern?(code===23?gl.RGB565:gl.RGB5_A1):format;
+  gl.texImage2D(gl.TEXTURE_2D,0,internal,row.width,row.height,0,format,
+   code===23?gl.UNSIGNED_SHORT_5_6_5:gl.UNSIGNED_SHORT_5_5_5_1,packed);
+ }else{
+  const rgba=new Uint8Array(pixelCount*4);
+  for(let i=0;i<pixelCount;i++){
+   rgba[i*4]=view[i*stride+2];rgba[i*4+1]=view[i*stride+1];rgba[i*4+2]=view[i*stride];
+   rgba[i*4+3]=stride===4?view[i*stride+3]:255;
+  }
+  gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,row.width,row.height,0,gl.RGBA,gl.UNSIGNED_BYTE,rgba);
+ }
+ gl.pixelStorei(gl.UNPACK_ALIGNMENT,4);
+ gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);
+ gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);
+ gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);
+ gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);
+ const error=gl.getError();if(error!==gl.NO_ERROR){gl.deleteTexture(t);throw Error('Lightmap WebGL '+error);}
+ return t;
+}
+async function changeLightmapFormat(){
+ const generation=++lightmapGeneration,requested=$('lightmap-format').value,next=new Map();
+ const results=await Promise.allSettled(scene.lightmap_uploads.map(async row=>{
+  const response=await fetch(row.formats[requested]);if(!response.ok)throw Error('Lightmap HTTP '+response.status);
+  next.set(row.url,makeUploadedLightmap(row,Number(requested),await response.arrayBuffer()));
+ }));
+ const rejected=results.find(result=>result.status==='rejected');
+ if(generation!==lightmapGeneration||rejected){
+  for(const texture of next.values())gl.deleteTexture(texture);
+  if(generation===lightmapGeneration){$('lightmap-format').value=lightmapFormat;fail(rejected.reason.message);}
+  return;
+ }
+ for(const texture of lightmapCache.values())gl.deleteTexture(texture);
+ lightmapCache.clear();for(const [url,texture] of next)lightmapCache.set(url,texture);
+ lightmapFormat=requested;document.body.dataset.lightmapFormat=requested;
+}
 async function loadTexture(row){
  try{const images=await Promise.all(row.levels.map(level=>loadImage(level.url)));
   textureCache.set(row.key,makeTexture(images[0],images));
@@ -178,6 +230,7 @@ canvas.addEventListener('pointermove',event=>{
 });
 canvas.addEventListener('wheel',event=>{event.preventDefault();distance=Math.max(30,Math.min(30000,distance*Math.exp(event.deltaY*.001)));},{passive:false});
 $('reset').addEventListener('click',reset);
+$('lightmap-format').addEventListener('change',()=>changeLightmapFormat().catch(error=>fail(error.message)));
 $('model').addEventListener('change',()=>{reset();updateStats();});
 $('start').addEventListener('change',()=>{
  if($('start').value==='')return;const start=scene.starts[Number($('start').value)];
@@ -194,10 +247,11 @@ fetch('/api/scene').then(response=>{if(!response.ok)throw Error('Scene HTTP '+re
  await Promise.all([...scene.textures.map(loadTexture),...lightmaps.map(async url=>{
   try{lightmapCache.set(url,makeTexture(await loadImage(url),null,true));}catch(_){textureFailures++;}
  })]);ready=true;updateStats();document.body.dataset.ready='true';
+ $('lightmap-format').disabled=false;document.body.dataset.lightmapFormat=lightmapFormat;
  if(textureFailures||scene.missing_diffuse_textures.length)fail(`원본 텍스처 연결 문제: 누락 ${scene.missing_diffuse_textures.length}, 로드 실패 ${textureFailures}`);
 }).catch(error=>fail(error.message));
 window.worldViewerDiagnostics=()=>({ready,worlds:worlds.length,renderedTriangles,texturesLoaded:textureCache.size,
  nativeMipLevels:scene?.textures.reduce((n,t)=>n+t.levels.length,0),nativeMipSampling:modern,
- lightmapsLoaded:lightmapCache.size,
+ lightmapsLoaded:lightmapCache.size,lightmapFormat,
  textureFailures,unsupportedWrapping,source:scene?.source_sha256,webgl:modern?2:1});
 })();

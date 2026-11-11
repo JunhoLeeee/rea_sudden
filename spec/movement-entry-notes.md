@@ -130,3 +130,115 @@ REA/Ghidra 근거:
 다음은 필드 `+0xf8/+0x100/+0xf4/+0xb8/+0xbc/+0xc0/+0x104`의 소비·덮어쓰기 함수와
 input action → movement flags의 실제 경로를 연결하는 것이다. 그 뒤에만 속도·점프·축·단위를
 이름 붙이고 원본 근거를 가진 독립 이동 코어로 구현할 수 있다.
+
+## Action 7 → run 비트 → 속도 선택의 확인된 구간 (2026-11-11)
+
+`client_core/native_input.py`의 `poll_run_control_bit`은 normal-controls 함수의
+`0x180efa892..0x180efa924` 구간만 재생한다. 전체 입력/이동 상태 머신을 대신하지 않는다.
+이 구간 진입 전 UI·캐릭터·모드 gate가 통과했다는 전제는 호출자가 책임지고 전달한다.
+
+- player `+0x458`이 가리키는 첫 DWORD가 0이 아니면 이 구간은 run flag를 설정하지 않는다.
+- mode `0x13`에서는 객체 `+0xdc`가 0일 때 action 7 조회를 건너뛴다.
+- 그 외 조회 경로에서 action 7의 **원본 byte**와 `int(+0xdc != 0)`이 다르면
+  현재 flags `+0x8c`에 `0x200`을 OR한다.
+- mode `0x36`에서 `0x180f8c590`의 반환값이 정확히 1인 경우에도 `0x200`을 OR한다.
+  반환값 2를 같은 것으로 해석하지 않는다. 이 helper의 상위 상태는 아직 supplied 값이다.
+- 이 구간에는 run bit를 clear하는 쓰기가 없다. 프레임 시작의 flag 초기화와 구분한다.
+- setter `0x180ef48b0`은 EDX를 `+0xdc`에 그대로 저장한다. 독립 모델도 0/1로
+  제한하지 않고 int32를 받은 뒤 조건에 필요한 `!= 0`만 계산한다.
+
+중요한 의사코드와 실제 바이트 차이: Ghidra는 action 결과 비교를 bool cast처럼 표시하지만,
+`0x180efa8db`의 `MOVZX ECX, AL` 다음 `CMP ECX, EAX`는 원래 byte를 보존한다.
+예를 들어 supplied command byte가 200이고 `+0xdc`가 1이면 200과 1은 다르므로
+run bit가 설정된다. 양쪽을 Python bool로 바꾸는 XOR 구현은 이 입력에서 원본과 달라진다.
+실제 장치가 200을 기록하는지까지 관찰했다는 뜻은 아니다.
+
+이 결과를 기존 `movement_limit`의 supplied flags에 넘기는 연결 검사도 추가했다.
+action 7이 `0x200`을 만든 경우 일반 조건에서 `+0x100` 스칼라를 선택하지만,
+같은 flags에 duck `0x20`이 있으면 `+0xf8`을 선택한다. 테스트의 180/330 값은
+기존 초기 스칼라 예시이며 새로운 이동 규칙이나 최종 runtime 값으로 채택한 수치가 아니다.
+
+근거:
+
+- normal-controls Ghidra: `evidence/movement-normal-controls-ghidra.json`,
+  `ev_70eab8203e5cf8208bbfd337a8da4cf493a7e864b23b4bd5c62900ab61bd662d`.
+- setter Ghidra: `evidence/movement-runlock-toggle-ghidra.json`,
+  `ev_4121fd8c4097d004c725f84c9bef2cb487f82cd2aefc24112094e4cf51bb6325`.
+- `evidence/movement-run-control-contract.json`: 현재 CShell 해시를 다시 계산한 뒤
+  16개 명령 앵커와 zero register 초기화·setter를 직접 파일 바이트로 검사한 로컬 기록.
+  이 파일에 새 REA Evidence ID를 임의 부여하지 않았다.
+- 원본 CShell SHA-256은 이 문서 첫머리와 같으며, 원본 게임/DLL 실행은 하지 않았다.
+
+```powershell
+python tools/run_control_probe.py --output evidence/movement-run-control-contract-new.json
+python -m unittest client_core.test_native_input client_core.test_movement_limits -v
+```
+
+검증: 위 코어 22개 검사 통과. raw byte 비교, runlock 반전, mode/weapon gate,
+정확히 1인 override, gated 조회 생략, 기존 flags 보존 및 속도 선택 연결을 포함한다.
+실제 key/device→command byte 쓰기·상위 normal path 도달·최종 가속/충돌/점프는 여전히 미확인이다.
+
+## 입력 fragment의 원본 순서와 후속 덮어쓰기
+
+기존 편의 함수들을 단순히 나열한 결과를 완전한 원본 frame으로 간주하면 안 된다.
+`0x180ef9f70`의 static 분기와 `0x180efa3f0` 내부에서 확인된 순서는 다음과 같다.
+
+| 구간 | 확인된 효과 | 독립 구현의 범위 |
+|---|---|---|
+| `0x180ef9f7e..0x180ef9f94` | current `+0x8c`를 previous `+0xe4`로 복사하고 current=0. actor `+0x20`가 없어도 이 쓰기는 수행 | `begin_control_frame` |
+| outer의 상태 분기 | 한 경로는 normal-controls 호출, 다른 경로는 `+0x40` flags를 current에 직접 복사. 직접 복사한 flags의 jump bit가 있으면 `+0x46c`=1 | 상위 경로 자동 선택 미구현 |
+| normal의 앞부분 | UI·모드 gate 후 action 10/11이 `0x8/0x4`를 OR. duck 설정·해제·복원 분기 수행 | `poll_basic_direction_bits`는 query→mask 관찰 묶음이며 실제 순서를 온전히 재생하지 않음 |
+| `0x180efa892..0x180efa924` | 조건부 action 7 비교와 mode `0x36` override가 `0x200`을 OR | `poll_run_control_bit` |
+| 그 이후 | jump query/latch, mode별 추가 상태 변경, `0x180f02170` 호출 | 상위 상태와 helper 효과 미구현 |
+| `0x180efabf4..0x180efaccf` | 별도 gate 후 action 0/1/14/13, strafe 확장, activity summary, jump rising edge latch 쓰기 | `poll_basic_direction_bits`의 나머지 매핑 + `postprocess_control_flags`. 중간 gate를 건너뛰는 전체 프레임 API는 제공하지 않음 |
+| normal 반환 후 outer mode `0x50` 분기 | 추가 lookup과 `0x180e9d200`이 성공하면 current mask 필터와 previous duck 복원. jump latch를 0으로 덮어씀 | caller-gated `mode_50_control_filter` |
+| outer 말미 | player `+0x458` 포인터의 두 번째 DWORD를 current에 OR | 외부 입력으로 구분하며 별도 원천 상태 미복원 |
+
+mode `0x50` 필터의 실제 쓰기는 `0x180efa1de..0x180efa1ff`에 있다.
+
+```text
+current = (current & 0xfdfcf400) | (previous & 0x20)
+jump_latch(+0x46c) = 0
+```
+
+이 필터는 normal-controls가 이미 만든 run `0x200`, jump `0x10`, activity `0x800` 등을
+지울 수 있다. current의 duck은 지우고 previous의 duck만 가져온다.
+`postprocess_control_flags`를 이 뒤에 다시 호출하는 원본 단계는 확인되지 않았으므로
+필터가 지운 summary나 jump latch를 편의상 재생성하지 않는다.
+더 늦은 player flags OR가 run bit 등을 다시 추가할 수도 있다. 따라서 직전에 설명한
+action→속도 선택 검사는 **supplied flags의 데이터 의존성 검사**이며, 모든 외부 쓰기까지
+포함한 최종 입력 frame이나 physics update의 실제 호출 순서를 검증한 결과가 아니다.
+
+근거 파일은 `evidence/movement-control-frame-ghidra.json` 및
+`ev_7e8c9c6762365e2f8b5dca5a3fceccf58643925aa9b7216e93584ef82d4ec4a2`다.
+`tools/run_control_probe.py`를 확장하여 기존 run 16개와 순서 관련 16개 명령 앵커를
+현재 CShell 바이트에서 대조했고, `evidence/movement-run-control-contract-v2.json`에
+선택된 frame 쓰기·분기·호출을 저장했다. 원래 v1 보고서는 그대로 보존한다.
+
+추가 검사 2개는 normal의 jump latch 1이 mode 필터의 0으로 덮이는 순서,
+previous duck만의 복원 및 필터 뒤 summary 재생성 부재를 검증한다.
+`python -m unittest client_core.test_native_input client_core.test_movement_limits -v`는
+현재 **24개 통과**한다. runtime frame 스케줄, helper 내부 쓰기, 외부 flags 원천 및
+실제 서버/플레이어 상태의 선택은 계속 미확인이다.
+
+## 입력·속도 fragment 독립 재검토
+
+새 run/mode filter와 `movement_limit`을 기존 REA 의사코드 및 현재 파일 바이트와
+대조한 결과, 이 제한된 입력 프로파일 안에서 확정할 수 있는 구현 오류는 찾지 못했다.
+정수 문맥은 native int32, flags는 uint32, command 결과는 원본 byte를 보존한다.
+`movement_limit`의 유한 scalar 제한은 Python 모델의 검증 범위이며 원본이 NaN·무한대나
+float32 overflow를 동일하게 거부한다는 뜻은 아니다. 그러한 입력의 원본 SSE 예외·
+rounding mode·FTZ/DAZ 동작은 현재 검증 범위에 포함하지 않는다.
+
+`evidence/movement-max-velocity-review-flow.json`에 같은 CShell 해시의 직접 분기
+153개 명령을 저장했다. `0x180ef2140/2144`는 두 번의 SUBSS이므로
+`selected - (selected - slow)`를 단순히 slow 값 선택으로 바꿀 수 없다.
+float32 supplied selected=100000000, slow=1에서는 결과가 0이 되는 경우를
+검사에 추가했다. 또한 `0x180ef2233..223f`의 non-mode-D fallback은 cvar를
+그대로 유지하지 않고 `max(override, 0)`으로 덮어쓰며,
+`0x180ef2250/2259`는 `(1-penalty)*selected` 뒤에 0 clamp를 하지 않는다.
+penalty=2이면 음수 limit가 나오는 supplied 입력도 원본 연산대로 보존한다.
+
+이 세 가지 경계 검사 추가 후 입력·속도 코어 검사는 **27개 통과**한다.
+앞서 추가한 연결 검사는 특정 fragment를 supplied 상태에서 비교하기 위한 것이며,
+원본 runtime의 도달 여부나 모든 mode에서의 frame 호출 순서를 가정하지 않는다.

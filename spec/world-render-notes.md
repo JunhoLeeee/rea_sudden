@@ -140,7 +140,9 @@ SRCBLEND=DESTCOLOR, DESTBLEND=ZERO/SRCCOLOR 분기와 대응한다.
 단일 WebGL shader의 비교 계산이므로 원본의 두 패스 사이 정밀도·양자화·알파·안개까지
 재현한 것으로 간주하지 않는다. 원본 게임에서 현재 선택되는 경로도 미확인이다.
 
-`Saturate` 문자열과 기본 float 1.0의 저장 위치는 각 probe의 `saturation_record`에 있다.
+`Saturate` 문자열과 cached int 위치는 각 probe의 `saturation_record`에 있다.
+이 절에서 처음 기록한 기본 float 1.0은 옆의 Bilinear 레코드 값이었다.
+후속 초기화 코드 조사로 Saturate 기본 선언 0.0을 확인했다(아래 정정 절).
 기본 선언을 실제 실행 중 설정값으로 간주하지 않는다.
 
 업로드 경로 `0x14021df70` → `0x1400da5a0`은 원본 triplet run/span 해제와 연결된다.
@@ -191,3 +193,109 @@ destination `[s2,s1,s0,0]`를 만든다. destination의 red mask가 `0xff0000`�
 경로 순회와 모호한 참조를 거부하고 기존 PNG SHA 검증을 유지한다.
 뷰어와 lightmap export audit 모두 이를 사용한다. 실제 임시 폴더로 previews를 복사한 뒤
 모든 texture/mip와 lightmap 27개가 새 폴더에서 로드되는 회귀 검사를 추가했다.
+
+## 형식 선택·16비트 변환·Saturate 기본값 정정 (2026-11-11)
+
+`evidence/engine-lightmap-selection-v1.json`은 설치본 EXE 해시를 확인하고
+형식 선택 함수 `0x1401e0e90`, 레코드 setter `0x1401e1560`,
+FormatMgr 생성자 `0x140126a10`, 16비트 변환기 `0x140122810`,
+convar 초기화/갱신 루프의 직접 decode를 보존한다.
+
+`0x1401e11c0..0x1401e130f`의 lightmap 선택 순서는 다음과 같다.
+
+| 조건 | 검사할 D3D 형식 | 순서/효과 |
+|---|---|---|
+| `32BitLightMaps` cached int가 0이 아님 | 20(R8G8B8), 22(X8R8G8B8), 21(A8R8G8B8) | 각 후보 전 설정 재검사, 반환값이 정확히 0인 첫 후보 선택 |
+| 위 후보 선택 실패 또는 설정 0 | 24(X1R5G5B5), 25(A1R5G5B5) | 같은 zero 검사 |
+| 모든 후보 실패 | 23(R5G6B5) | 이 형식 지원을 추가 조회하지 않고 할당 |
+
+setter는 manager slot 5의 `+0x8c`부터 valid/format/bytes-per-pixel을 기록한다.
+이는 업로드의 `0x1403ea17c`, format `0x1403ea180`과 맞는다.
+`client_core/lightmap.py`는 setting과 CheckDeviceFormat HRESULT를 supplied 입력으로 받는
+선택 코어다. 호출 사이 설정값은 안정적이라고 제한한다. 실제 장치 조회는 하지 않는다.
+
+공개 [d3d_texture.cpp](https://raw.githubusercontent.com/jsj2008/lithtech/master/runtime/render_a/src/sys/d3d/d3d_texture.cpp)는
+마지막 lightmap 실패 시 false를 반환한다. 설치본은 23을 할당하고 진행하므로 공개 소스 분기를
+그대로 복제하면 달라진다. 비교본 SHA-256은
+`d3cf7a5c7cc96fee8137226865555dabd8bcca711cbe0f624ea78047320177df`이다.
+D3D 형식 번호와 메모리의 BGR 순서는 [Microsoft D3DFORMAT 문서](https://learn.microsoft.com/en-us/windows/win32/direct3d9/d3dformat)와 대조했다.
+
+FormatMgr의 9개 lookup bank는 채널별 비트 수에 대해
+`floor(byte * ((1 << bits) - 1) / 255)`를 생성한다. `0x140126b90`의
+`MUL 0x80808081`의 high DWORD를 7만큼 오른쪽으로 이동하는 정수 나눗셈과 연결된다.
+16비트 변환기는 source RGB를 임시 BGR0으로 구성하고 이 bank와 destination shift를 사용한다.
+R5G5B5 및 R5G6B5의 alpha는 0이다. 단순 `byte >> 3` 구현과 다르다.
+
+6개 형식 모두에 대한 tightly-packed 업로드를 `upload_rgb`에 구현했다.
+24비트 type8→8은 row copy이고 D3DFMT_R8G8B8은 메모리 BGR이므로,
+이 경로에서는 source RGB의 R/B가 뒤바뀌어 해석된다. 이 정적 결과를 임의로 보정하지 않는다.
+실제 장치에서 이 24비트 후보가 성공하는지는 관찰하지 않았다.
+기존 PNG는 32비트 변환과 같은 RGB를 유지한다.
+
+`evidence/warehouse-lightmap-upload-replay-v1.json`은 원본 DAT·기존 PNG 27개를 검증하고
+6개 형식의 업로드 해시 및 mask 해석 결과를 기록한다. 21/22의 RGB roundtrip 오차는 0,
+16비트의 nearest-8-bit 환산 최대 오차는 8, 24비트 R/B 반전의 최대 차이는 56이었다.
+이 수치는 CPU의 텍셀별 환산이며 GPU 필터링/합성 오차의 측정이 아니다.
+
+### Saturate 정정 근거
+
+convar는 vtable/+8 기본 float/+0x10 이름/+0x18 handle/+0x20 next/+0x28 cached value로
+연결된다. `0x140199470`은 +8과 +0x10을 읽어 변수를 찾거나 기본값으로 만든 뒤
+handle을 +0x18에 저장한다. `0x140199560`은 각 handle 값을 vtable setter에 넘긴다.
+정수 setter `0x1401e3ab0`은 +0x28에 기록한다.
+
+따라서 Saturate 객체 `0x1403eac98`의 기본 float는 `0x1403eaca0`의 **0.0**이며,
+cached int는 `0x1403eacc0`이다. 이전 probe의 `0x1403eacd0`/1.0은 다음 Bilinear 객체의
+기본값을 잘못 연결한 것이었다. 과거 증거 파일은 보존하고 생성 도구를 고쳤으며,
+`evidence/engine-render-saturate-corrected-v1.json`과 이번 selection 보고서로 정정한다.
+이는 기본 선언의 정정이며 실행 중 설정 0을 관찰한 것은 아니다.
+
+### 뷰어 연결과 검증
+
+뷰어는 해시를 확인한 원본 DAT에서 라이트맵을 해제해 6개 업로드 byte 경로를 준비한다.
+HTTP는 등록된 endpoint만 제공한다. 32비트는 BGR0 채널을 GL RGBA에 대응시키고,
+24비트는 native copy 이후의 D3D BGR 해석을 보존한다. 16비트는 GL RGB565/RGB5_A1에
+실제 packed 값을 올려 **필터링 전에** 양자화를 적용한다. D3D 1555→GL 5551은
+bit 위치만 재배열하고 색 값은 유지한다. fragment shader에서 필터링된 색을 다시
+양자화하는 구현은 사용하지 않는다. 실제 D3D와 GL의 필터링/정밀도 일치는 미확인이다.
+
+`evidence/warehouse-lightmap-upload-browser-v1.json`,
+REA `ev_dacf9423ca429344672d97d54dbcf34e67175d61207ac5e707b6d03b3935770d`에서
+comparison 모드와 20→24→23→21 전환이 모두 완료됐다. console/page 오류 0,
+native mip 284, 누락 0/실패 0이었다. 스크린샷은
+`previews/warehouse-lightmap-upload-32.png`다.
+
+검증: client_core 전체 82개, world_render 12개, input_command_probe 3개 통과,
+JS 문법 검사 통과. 모든 device-support 조합, HRESULT의 양수 비zero,
+16비트 lookup 전체 입력 0..255, HTTP 업로드의 저장 replay 해시 일치를 포함한다.
+원본 전체 클라이언트/physics/장치 상태/최종 화면과의 동등성은 여전히 미확인이다.
+
+## Gouraud_Texture의 색상·알파 연산 후속 확인
+
+`evidence/engine-gouraud-color-contract-v1.json`은 기존 RTTI로 식별한
+`CRenderShader_Gouraud_Texture` vtable `+0xe8 → 0x140214d20`과
+`+0x120 → 0x140215760`, Gouraud의 `0x140215350`, validation의 `0x140218340`을 보존한다.
+0x140214d20은 stage 0 COLORARG1=2(TEX), COLORARG2=0(DIFFUSE),
+COLOROP=`4 + int(Saturate != 0)`을 setter에 전달한다.
+즉 [D3DTEXTUREOP](https://learn.microsoft.com/en-us/windows/win32/direct3d9/d3dtextureop)의
+MODULATE/MODULATE2X다. 같은 함수는 ALPHAARG1=2, ALPHAARG2=0,
+ALPHAOP=4로 알파의 일반 곱셈을 설정한다. 상태 번호는
+[D3DTEXTURESTAGESTATETYPE](https://learn.microsoft.com/en-us/windows/win32/direct3d9/d3dtexturestagestatetype)과 대조했다.
+
+따라서 뷰어 Saturate 비교를 저장 정점 색상에도 확대하고, 조명 합성 모드의
+Gouraud 면 alpha도 diffuse texture alpha × vertex alpha로 계산한다.
+lightmap two-pass 정밀도, runtime의 실제 shader 선택·다른 effect stage·동적 조명 및
+opaque/alpha-blend 상태의 전체 재현까지 확인한 것은 아니다.
+
+vertex translation 코드의 source stride는 **0x44=68바이트**로 DAT의 **44바이트**와 다르다.
+Gouraud는 source 0/4/8의 position과 +28의 color DWORD를 output 16바이트에 복사한다.
+Gouraud_Texture는 position, source +32/+36/+40의 normal, +28 color,
++12/+16의 UV0를 output 36바이트에 복사한다. 색 DWORD를 여기서 보정하지 않는다.
+DAT loader→확장 runtime vertex의 전체 연결은 별도 확인 대상이며, 저장 배열 전체를
+68바이트 입력이라고 해석해서는 안 된다.
+
+변경 후 client_core 85개, world_render 12개, input_command_probe 3개로 **100개 통과**했다.
+comparison→saturate와 packed RGB565 전환은
+`evidence/warehouse-gouraud-saturate-browser-v1.json`,
+REA `ev_c94fead1205b32d33b95e57a8f3e30a22220a095b89f73b6d4ed0df355b5034d`에 있다.
+모든 step 완료, console/page 오류 0, provider-owned Chrome 종료 완료다.

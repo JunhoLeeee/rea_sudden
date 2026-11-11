@@ -21,6 +21,8 @@ python -m client_core.world_viewer
 
 드래그로 회전하고 Shift+드래그로 초점을 이동하며 휠로 확대한다.
 위쪽 구조에 가려진 내부를 보려면 Y 좌표 절단을 사용한다. 원본 diffuse, 저장 정점 색상, 법선, 삼각형 경계를 비교할 수 있다.
+lightmap과 조명 합성 모드에서는 24비트 복사·32비트·16비트 555/565 업로드 경로 및 Saturate를 비교할 수 있다.
+실제 게임 장치의 형식 선택은 관찰하지 않았으며, 원본 코드에서 확인한 변환을 비교하는 기능이다.
 추가 Python 패키지나 Tcl이 필요하지 않으며 서버는 `127.0.0.1`의 임의 포트에서 읽기 전용으로 실행된다.
 서버 종료는 실행 창의 Ctrl+C다.
 
@@ -97,6 +99,7 @@ DTX 헤더와 형식 번호 해석은 이 설치본에서 관찰한 재구성 �
 python -m unittest discover -s tools -p "test_*.py" -v
 python -m unittest client_core.test_config -v
 python -m unittest client_core.test_hitmarker -v
+python -m unittest client_core.test_lightmap client_core.test_native_input client_core.test_movement_limits -v
 python -m unittest client_core.test_practice -v
 python -m client_core.hitmarker_preview --smoke
 python -m client_core.preview --smoke

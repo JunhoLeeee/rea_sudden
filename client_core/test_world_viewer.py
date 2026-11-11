@@ -95,7 +95,19 @@ class WorldViewerTests(unittest.TestCase):
                 self.assertEqual(loaded['source_sha256'], WAREHOUSE_SHA256)
             with urlopen(base+loaded['textures'][0]['url'], timeout=5) as response:
                 self.assertEqual(response.read(8), b'\x89PNG\r\n\x1a\n')
-            for path in ('/../README.md', '/texture/../../README.md', '/unknown'):
+            # Compare served destination bytes with the saved all-lightmap
+            # controlled replay, including all six native format candidates.
+            replay = json.loads((ROOT/'evidence/warehouse-lightmap-upload-replay-v1.json').read_text())
+            row = loaded['lightmap_uploads'][0]
+            for expected in replay['lightmaps'][0]['formats']:
+                with urlopen(base+row['formats'][str(expected['code'])], timeout=5) as response:
+                    data = response.read()
+                    self.assertEqual(response.headers['Content-Type'], 'application/octet-stream')
+                    self.assertEqual(len(data), expected['upload_bytes'])
+                    self.assertEqual(hashlib.sha256(data).hexdigest(), expected['upload_sha256'])
+            for path in ('/../README.md', '/texture/../../README.md', '/unknown',
+                         row['formats']['21'].replace('upload-21', 'upload-26'),
+                         row['formats']['21'].replace('/0/0/0/', '/0/0/999/')):
                 with self.assertRaises(HTTPError) as error:
                     urlopen(base+path, timeout=3)
                 self.assertEqual(error.exception.code, 404)

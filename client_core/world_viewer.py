@@ -8,6 +8,8 @@ from urllib.parse import urlsplit
 import webbrowser
 
 from tools.artifact_paths import preview_path
+from tools.world_render import lightmap_triplets
+from .lightmap import upload_rgb
 
 ROOT = Path(__file__).resolve().parents[1]
 UI = Path(__file__).with_name('world_ui')
@@ -58,6 +60,7 @@ def load_scene():
                              width=row['width'], height=row['height'], levels=levels,
                              max_stored_level=mip['max_stored_level']))
     worlds = [render['world']] + render['world']['models']
+    lightmap_uploads = []
     for world_index, world in enumerate(worlds):
         for block in world['blocks']:
             for section in block['sections']:
@@ -66,6 +69,10 @@ def load_scene():
                     url = f'/lightmap/{world_index}/{block["index"]}/{section["index"]}.png'
                     assets[url] = verified_asset(preview_path(lightmap['png_path'], ROOT), lightmap['png_sha256'])
                     lightmap['url'] = url
+                    lightmap_uploads.append(dict(url=url, width=lightmap['width'], height=lightmap['height'],
+                        offset=lightmap['offset'], compressed_bytes=lightmap['compressed_bytes'],
+                        rgb_sha256=lightmap['decoded_triplets_sha256'],
+                        formats={code:url.removesuffix('.png')+f'/upload-{code}.bin' for code in range(20, 26)}))
                     del lightmap['png_path']
     starts = []
     for obj in collision['objects']:
@@ -83,7 +90,8 @@ def load_scene():
     if links['source_sha256'] != WAREHOUSE_SHA256 or links['mesh_sha256'] != hashlib.sha256(mesh_bytes).hexdigest():
         raise ValueError('Lightmap pairing is bound to a different mesh')
     scene = dict(source_sha256=WAREHOUSE_SHA256, render=render, textures=textures,
-                 starts=starts, lightmap_links=links['blocks'], missing_diffuse_textures=missing,
+                 starts=starts, lightmap_links=links['blocks'], lightmap_uploads=lightmap_uploads,
+                 missing_diffuse_textures=missing,
                  limitations=['Original stored geometry and UVs; model transforms not reconstructed.',
                               'Shader-pass composition and lighting are inspection modes, not original pixel equivalence.',
                               'Camera controls inspect resources; original player movement is not implemented here.'])
@@ -92,6 +100,17 @@ def load_scene():
 
 def create_server(port=0):
     scene, assets = load_scene()
+    source = (ROOT / 'extracted/world-warehouse/sa_worlds/project/ware_house.dat').read_bytes()
+    if hashlib.sha256(source).hexdigest() != WAREHOUSE_SHA256:
+        raise ValueError('Lightmap uploads require the original warehouse source identity')
+    uploads = {}
+    for row in scene['lightmap_uploads']:
+        offset = row['offset']
+        rgb = lightmap_triplets(source[offset:offset+row['compressed_bytes']], row['width'], row['height'])
+        if hashlib.sha256(rgb).hexdigest() != row['rgb_sha256']:
+            raise ValueError('Lightmap source triplets differ from mesh metadata')
+        for code, url in row['formats'].items():
+            uploads[url] = upload_rgb(rgb, code)
     payload = json.dumps(scene, ensure_ascii=False, separators=(',', ':'), allow_nan=False).encode('utf-8')
     files = {'/': ('index.html', 'text/html; charset=utf-8'),
              '/viewer.js': ('viewer.js', 'text/javascript; charset=utf-8')}
@@ -109,6 +128,8 @@ def create_server(port=0):
                 data = (UI/name).read_bytes()
             elif route in assets:
                 data, content_type = assets[route].read_bytes(), 'image/png'
+            elif route in uploads:
+                data, content_type = uploads[route], 'application/octet-stream'
             else:
                 self.send_error(404)
                 return
