@@ -1,5 +1,14 @@
 # 진행 목표와 사용자 지시
 
+## 최신 검증 fallback 후속 (2026-11-12)
+
+- `shader_validation_fallback` 및 `resolve_shader_validation` 추가. native failure table:7→1→0,12→1→0,11→0,15→14→12→1→0 등.20개 allocation candidate 전부 검사.
+- `engine-warehouse-shader-candidate-v3.json`:17개 method, 모든 failure target,0의 Validate=상수 byte1, section pre-bind 경로 기록. 할당 실패와 cache/삭제는 코어 범위 밖이다.
+- 원본 candidate0의 failure target은 자기재시도지만 정상 Validate가항상1이므로 allocation 성공 조건에서 종료. 이를 실제 OOM 처리 구현이라고 해석하지 않는다.
+- section loader request는+0x18, pre-bind의 bound shaderID는+0x1c로 다르다.0x1401eef50이 null일때21,그외GetShaderID/preview callback을 쓰는 경로 확인.
+- 앞 절의 'fallback 미확인'은 전이 순서에 한해 해소됐다. 실제 장치 결과,Preview/draw scheduling,최종 alpha/framebuffer state는 여전히 미확인.
+- 최신 검증: client_core104 + world_render12 + input_command_probe3 =119개 통과. diff 공백 검사 통과. 이번 턴에서 연 로컬 뷰어 서버와 provider-owned Chrome은 모두 종료했다.
+
 ## 최신 재료 선언/Fullbright 작업 (2026-11-12)
 
 - `texture_material.py`: DTX header 선언→RTexture flags 및 조건부 shader state. native mapping `(flags&1)|((flags>>9)&0xe)`. raw offset32가 아니라 internal flags offset16에서 온다.

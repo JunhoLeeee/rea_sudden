@@ -1,7 +1,8 @@
 import unittest
 
 from .render_shader import (translate_shader_code, warehouse_shader_candidate,
-                            ShaderFeatures, TextureShaderState)
+                            ShaderFeatures, TextureShaderState,
+                            shader_validation_fallback, resolve_shader_validation)
 
 
 class RenderShaderTests(unittest.TestCase):
@@ -65,6 +66,43 @@ class RenderShaderTests(unittest.TestCase):
                      (0, None, ShaderFeatures(True, 0, 0, 0))):
             with self.assertRaises(ValueError):
                 warehouse_shader_candidate(*args)
+
+    def test_fullbright_can_fall_back_to_textured_then_constant_valid_base(self):
+        result = resolve_shader_validation(7, lambda code: 0 if code == 7 else 200)
+        self.assertEqual((result.selected, result.attempted), (1, (7, 1)))
+        calls = []
+
+        def fail(code):
+            calls.append(code)
+            return 0
+
+        result = resolve_shader_validation(7, fail)
+        self.assertEqual((result.selected, result.attempted), (0, (7, 1, 0)))
+        self.assertEqual(calls, [7, 1])
+        result = resolve_shader_validation(11, fail)
+        self.assertEqual(result.attempted, (11, 0))
+
+    def test_all_failure_paths_reach_base_and_preserve_special_fallbacks(self):
+        for candidate in range(20):
+            result = resolve_shader_validation(candidate, lambda code: 0)
+            self.assertEqual(result.selected, 0)
+            self.assertEqual(len(set(result.attempted)), len(result.attempted))
+        self.assertEqual(resolve_shader_validation(15, lambda code: 0).attempted,
+                         (15, 14, 12, 1, 0))
+        self.assertEqual(resolve_shader_validation(8, lambda code: 0).attempted, (8, 2, 1, 0))
+        self.assertEqual(shader_validation_fallback(0), 0)
+
+    def test_null_selection_makes_no_validation_call_and_rejects_bad_bytes(self):
+        def no_call(code):
+            raise AssertionError('No validation expected')
+
+        self.assertEqual(resolve_shader_validation(None, no_call).attempted, ())
+        self.assertEqual(resolve_shader_validation(0, no_call).selected, 0)
+        for code in (-1, 20, True):
+            with self.assertRaises(ValueError):
+                resolve_shader_validation(code, no_call)
+        with self.assertRaises(ValueError):
+            resolve_shader_validation(1, lambda code: 256)
 
 
 if __name__ == '__main__':

@@ -168,3 +168,42 @@ Fullbright off/on과 Saturate 전환이 완료됐다. 오류0, mip284, 누락/�
 전체 DTX 선언→조건부 후보, native flags repack, current-alpha 혼합, stage0 clamp 순서,
 알 수 없는 command 거부를 포함한다. AlphaRef 간접 parser와 실제 alpha test/framebuffer state,
 실제 validation/fallback 선택은 남아 있다.
+
+## 검증 실패 전이의 후속 해소
+
+`engine-warehouse-shader-candidate-v3.json`은 failure table18개의 target을 독립 decode하고,
+기본 Gouraud Validate `0x1402157d0`의 `MOV AL,1; RET`를 보존한다.
+candidate18/19는 table 범위 밖 분기로0에 내려간다.
+
+| 실패 candidate | 다음 candidate |
+|---|---:|
+| 1,11,18,19 | 0 |
+| 2,3,4,6,7,10,12 | 1 |
+| 5,9 | 3 |
+| 8 | 2 |
+| 13,14,16,17 | 12 |
+| 15 | 14 |
+| 0 | 0으로 재시도하는 target |
+
+0의 정상 검증은 상수1이므로, 모든 객체 할당이 성공했다는 조건에서 실패 전이는
+유한하게0으로 도달한다. 할당 실패 시0 경로가 다시 자신을 시도하는 부분은 별도이며,
+무한 재시도나 메모리 실패를 독립 코어에서 원본처럼 실행하지 않는다.
+
+`shader_validation_fallback`은 한 단계 전이, `resolve_shader_validation`은 할당 성공 조건의
+검증 결과 재생을 제공한다. callback의 native uint8 결과가0이면 fallback, 비zero이면 성공이다.
+상수 성공인0에는 device callback을 요청하지 않는다. 실제 device 호출·객체 cache·삭제는
+수행하지 않는다. cache에 객체가 존재해도 원본은 material을 넘겨 Validate를 다시 호출하며,
+실패한 새 객체의 삭제와 기존 cache 객체 보존을 구분하므로 임의 cache 정책을 추가하지 않았다.
+
+예를 들어7 실패 후1 성공이면 결과1, 둘 다 실패하면0이다.15의 전부 실패 경로는
+15→14→12→1→0이다. 원본의20개 allocation candidate에 대해 실패 경로가 도달하고
+단순화 과정에서 중간 shader를 건너뛰지 않는 검사를 추가했다.
+
+`0x1401eef50`의 section pre-bind도 기록했다. factory가 null이면 section+0x1c에21을 저장한다.
+그 외에는 shader의 vtable+0x50 반환 ID를 +0x1c에 저장하고, block 내 그 ID의 index가-1일 때만
+PreviewRenderBlock을 호출한 뒤 각 section에 PreviewSection을 호출한다.
+따라서 loader request(+0x18)와 bound ID(+0x1c)가 분리되는 원본 경로도 연결했다.
+Preview/실제 draw scheduling 자체는 아직 독립 코어로 조립하지 않았다.
+
+이로써 정적 fallback **순서**는 해소했지만, 원본 장치가 어느 후보에서 성공하는지와
+최종 framebuffer/AlphaRef state는 여전히 미확인이다.

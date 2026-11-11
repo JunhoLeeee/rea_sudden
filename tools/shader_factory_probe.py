@@ -45,7 +45,8 @@ def probe(engine):
                             rtti_name=pe.string(pe.base+td+16),
                             vtable_assignment=instruction,
                             allocation_entry=hex(pe.base+allocation_targets[code])))
-    entries = {0x1401b28c0, 0x1401b295a, 0x1401b2b50}
+    entries = {0x1401b28c0, 0x1401b295a, 0x1401b2b50, 0x1402157d0, 0x1401eef50}
+    entries.update(pe.base+rva for rva in fallback_targets)
     entries.update(pe.base+allocation_targets[code] for code in (0, 1, 7, 11, 12))
     return dict(profile='installed-warehouse-shader-candidate-v1', source_sha256=pe.sha256,
                 source_path=str(pe.path.resolve()), convars=features,
@@ -57,12 +58,15 @@ def probe(engine):
                     targets=[hex(pe.base+rva) for rva in allocation_targets]),
                 validation_failure_table=dict(address='0x1401b3608', bytes=pe.read(0x1401b3608, 72).hex(),
                     targets=[hex(pe.base+rva) for rva in fallback_targets]),
+                derived_failure_transitions=[0, 0, 1, 1, 1, 3, 1, 1, 2, 3, 1, 0, 1, 12, 12, 14, 12, 12, 0, 0],
+                base_validation=dict(entry='0x1402157d0', result_byte=1,
+                                     allocation_failure='Not covered by constant-success validation; native candidate-0 failure target retries itself.'),
                 identified_candidates=classes,
                 methods=[flow(pe, address) for address in sorted(entries)],
                 supplied_fields=dict(texture_pointer='section +0', texture_mode='texture +0x38',
                     texture_flag='texture +0x3c', pixel_data='result of 0x1400b5820, stack rbp-0x10',
                     tested_pixel_bit='pixel_data +0x24 bit0'),
-                scope='Candidate selection before allocation/cache/validation, for requested IDs 0, 11, 12 only.',
+                scope='Candidate selection for requested IDs 0/11/12 and one-hop validation-failure transitions; actual device state remains unobserved.',
                 limitations=['Direct source-backed bytes and analyst-resolved bounded tables; not authenticated REA Evidence.',
                              'Original game and DLL were not loaded or executed; device validation results are unobserved.',
                              'The supplied texture +0x38/+0x3c producer and mapping from DTX metadata remain untraced.',

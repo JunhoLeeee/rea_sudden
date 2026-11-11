@@ -30,6 +30,47 @@ class TextureShaderState:
     pixel_flags24: int | None  # Renderer texture +0x24; None means its pointer is null.
 
 
+_VALIDATION_FALLBACK = (0, 0, 1, 1, 1, 3, 1, 1, 2, 3, 1, 0, 1, 12, 12, 14, 12, 12, 0, 0)
+
+
+def shader_validation_fallback(candidate):
+    """One failed-validation transition at 0x1401b34fc..0x1401b355f.
+
+    Native candidate 0 targets itself on the failure path. Its actual Validate
+    method always returns byte 1; allocation failure is a separate concern.
+    """
+    if type(candidate) is not int or not 0 <= candidate < 20:
+        raise ValueError('Expected a candidate from the observed allocation table')
+    return _VALIDATION_FALLBACK[candidate]
+
+
+@dataclass(frozen=True)
+class ValidatedShader:
+    selected: int | None
+    attempted: tuple[int, ...]
+
+
+def resolve_shader_validation(candidate, validate):
+    """Replay fallback after successful allocations, with supplied byte results.
+
+    Cache ownership/destruction, memory failures and actual device calls are
+    outside this model. Base Gouraud's native Validate returns constant 1, so
+    the supplied device callback is only used for candidates 1..19.
+    """
+    if candidate is None:
+        return ValidatedShader(None, ())
+    shader_validation_fallback(candidate)  # Validate the supplied profile value.
+    attempted = []
+    while True:
+        attempted.append(candidate)
+        result = 1 if candidate == 0 else validate(candidate)
+        if type(result) is not int or not 0 <= result <= 255:
+            raise ValueError('Expected a native uint8 validation result')
+        if result != 0:
+            return ValidatedShader(candidate, tuple(attempted))
+        candidate = shader_validation_fallback(candidate)
+
+
 def warehouse_shader_candidate(requested, texture, features):
     """Replay the factory's pre-validation branch for warehouse request IDs.
 
