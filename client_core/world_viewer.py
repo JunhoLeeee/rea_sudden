@@ -10,6 +10,7 @@ import webbrowser
 from tools.artifact_paths import preview_path
 from tools.world_render import lightmap_triplets
 from .lightmap import upload_rgb
+from .render_shader import translate_shader_code
 
 ROOT = Path(__file__).resolve().parents[1]
 UI = Path(__file__).with_name('world_ui')
@@ -91,6 +92,7 @@ def load_scene():
         raise ValueError('Lightmap pairing is bound to a different mesh')
     scene = dict(source_sha256=WAREHOUSE_SHA256, render=render, textures=textures,
                  starts=starts, lightmap_links=links['blocks'], lightmap_uploads=lightmap_uploads,
+                 native_requested_shader_ids={code:translate_shader_code(code) for code in (1, 2, 4)},
                  missing_diffuse_textures=missing,
                  limitations=['Original stored geometry and UVs; model transforms not reconstructed.',
                               'Shader-pass composition and lighting are inspection modes, not original pixel equivalence.',

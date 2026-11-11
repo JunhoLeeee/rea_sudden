@@ -25,6 +25,8 @@ Saturate 기본값 1.0이라는 과거 기록은 옆 Bilinear 레코드를 잘�
 
 입력 코어는 action 7→run 비트와 mode 0x50의 후속 덮어쓰기까지 구현했다. 전체 frame/physics가 아니며 각 fragment 사이 gate와 helper를 건너뛰어 조합하지 않는다. 다음 조사에서는 정점 조명 소비와 입력 helper의 실제 효과를 좁힌다. 게임/DLL을 실행하지 않고 원본 바이트를 정적으로 분석한다.
 
+정점 로더와 셰이더 후보의 후속은 `spec/native-render-contract.md`에 있다. DAT85는44바이트를 읽고68바이트 runtime stride를 사용한다. 미기록 tail24바이트를0으로 꾸미지 않는다. 저장code→요청ID→검증 전 후보→실제 shader binding은 서로 다른 단계다.
+
 코드·증거·추출 자료·미리보기는 함께 보존한다. 원본 전체 설치 파일과 REA/Ghidra 분석 환경 자체는 포함하지 않는다. 원본 EXE·패키지 재분석 및 일부 통합 검사는 같은 버전의 서든어택 설치가 필요하다. 도구의 기본 설치 경로는 주로 `C:\Nexon\SuddenAttack`이며 입력 해시가 다르면 같은 빌드로 간주하지 않는다.
 
 `tools/rea_session.py`의 Node/REA/Ghidra/JDK 경로는 이전 PC에 맞춰져 있다. 다른 노트북에서는 연결된 REA 도구를 사용하거나 해당 경로를 실제 설치 위치에 맞춘다. 과거 세션 번호·증거의 로컬 절대 경로·PID는 기록이며 재사용 가능한 실행 상태가 아니다. 자동 컴퓨터 종료 지시는 취소된 상태다.

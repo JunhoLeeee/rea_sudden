@@ -1,0 +1,298 @@
+{
+  "profile": "installed-render-shader-code-v1",
+  "source_path": "C:\\Nexon\\SuddenAttack\\suddenattack.exe",
+  "source_sha256": "7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8",
+  "table_address": "0x1401ef29c",
+  "table_bytes": "96f21e007bf21e007ef21e0096f21e0084f21e0096f21e0096f21e0096f21e008af21e0090f21e00",
+  "entry": {
+    "entry": "0x1401ef260",
+    "instruction_count": 9,
+    "decoded_records_sha256": "948d52b2ea73e9925aec18cc69acba681ca50239307b2cc60b4defb82176bece",
+    "unknowns": [
+      {
+        "address": "0x1401ef279",
+        "reason": "unresolved indirect branch"
+      }
+    ],
+    "instructions": [
+      {
+        "address": "0x1401ef260",
+        "bytes": "83fa09",
+        "mnemonic": "cmp",
+        "operands": "edx, 9",
+        "references": []
+      },
+      {
+        "address": "0x1401ef263",
+        "bytes": "7731",
+        "mnemonic": "ja",
+        "operands": "0x1401ef296",
+        "references": [
+          {
+            "kind": "direct-control-flow",
+            "address": "0x1401ef296"
+          }
+        ]
+      },
+      {
+        "address": "0x1401ef265",
+        "bytes": "4863c2",
+        "mnemonic": "movsxd",
+        "operands": "rax, edx",
+        "references": []
+      },
+      {
+        "address": "0x1401ef268",
+        "bytes": "488d15910de1ff",
+        "mnemonic": "lea",
+        "operands": "rdx, [rip - 0x1ef26f]",
+        "references": [
+          {
+            "kind": "rip-memory",
+            "address": "0x140000000",
+            "width": 8,
+            "read": true,
+            "write": false
+          }
+        ]
+      },
+      {
+        "address": "0x1401ef26f",
+        "bytes": "8b8c829cf21e00",
+        "mnemonic": "mov",
+        "operands": "ecx, dword ptr [rdx + rax*4 + 0x1ef29c]",
+        "references": []
+      },
+      {
+        "address": "0x1401ef276",
+        "bytes": "4803ca",
+        "mnemonic": "add",
+        "operands": "rcx, rdx",
+        "references": []
+      },
+      {
+        "address": "0x1401ef279",
+        "bytes": "ffe1",
+        "mnemonic": "jmp",
+        "operands": "rcx",
+        "references": []
+      },
+      {
+        "address": "0x1401ef296",
+        "bytes": "b815000000",
+        "mnemonic": "mov",
+        "operands": "eax, 0x15",
+        "references": []
+      },
+      {
+        "address": "0x1401ef29b",
+        "bytes": "c3",
+        "mnemonic": "ret",
+        "operands": "",
+        "references": []
+      }
+    ]
+  },
+  "arms": [
+    {
+      "entry": "0x1401ef296",
+      "instruction_count": 2,
+      "decoded_records_sha256": "c0015fbed16140a21d7c3c2934add765c13941dc359912d8b834b312c69b4ee5",
+      "unknowns": [],
+      "instructions": [
+        {
+          "address": "0x1401ef296",
+          "bytes": "b815000000",
+          "mnemonic": "mov",
+          "operands": "eax, 0x15",
+          "references": []
+        },
+        {
+          "address": "0x1401ef29b",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": "",
+          "references": []
+        }
+      ]
+    },
+    {
+      "entry": "0x1401ef27b",
+      "instruction_count": 2,
+      "decoded_records_sha256": "b7291a555e108a6fa217fb83397a364a01ee02234933f855c969d2868a5bd0ea",
+      "unknowns": [],
+      "instructions": [
+        {
+          "address": "0x1401ef27b",
+          "bytes": "33c0",
+          "mnemonic": "xor",
+          "operands": "eax, eax",
+          "references": []
+        },
+        {
+          "address": "0x1401ef27d",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": "",
+          "references": []
+        }
+      ]
+    },
+    {
+      "entry": "0x1401ef27e",
+      "instruction_count": 2,
+      "decoded_records_sha256": "607b67bd40ff8dbcc7fcf102d23e152c6015ee9f3a3a62e994604e3b2c6b6b5d",
+      "unknowns": [],
+      "instructions": [
+        {
+          "address": "0x1401ef27e",
+          "bytes": "b80b000000",
+          "mnemonic": "mov",
+          "operands": "eax, 0xb",
+          "references": []
+        },
+        {
+          "address": "0x1401ef283",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": "",
+          "references": []
+        }
+      ]
+    },
+    {
+      "entry": "0x1401ef284",
+      "instruction_count": 2,
+      "decoded_records_sha256": "654ee6f012d8c0a09fc4e68134fcf2dff47eaebce2b17f4af89cb5232d03f984",
+      "unknowns": [],
+      "instructions": [
+        {
+          "address": "0x1401ef284",
+          "bytes": "b80c000000",
+          "mnemonic": "mov",
+          "operands": "eax, 0xc",
+          "references": []
+        },
+        {
+          "address": "0x1401ef289",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": "",
+          "references": []
+        }
+      ]
+    },
+    {
+      "entry": "0x1401ef28a",
+      "instruction_count": 2,
+      "decoded_records_sha256": "5d990d4efe46fa0ed81cbe7ebff7bb8e0d83c53d9f4c705dbc820bcf1c17ccac",
+      "unknowns": [],
+      "instructions": [
+        {
+          "address": "0x1401ef28a",
+          "bytes": "b80a000000",
+          "mnemonic": "mov",
+          "operands": "eax, 0xa",
+          "references": []
+        },
+        {
+          "address": "0x1401ef28f",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": "",
+          "references": []
+        }
+      ]
+    },
+    {
+      "entry": "0x1401ef290",
+      "instruction_count": 2,
+      "decoded_records_sha256": "b7b955cceca9bcb822eac7cf060bc6d83d6b22b91fe39e1fd8ed251b6434648a",
+      "unknowns": [],
+      "instructions": [
+        {
+          "address": "0x1401ef290",
+          "bytes": "b811000000",
+          "mnemonic": "mov",
+          "operands": "eax, 0x11",
+          "references": []
+        },
+        {
+          "address": "0x1401ef295",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": "",
+          "references": []
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "stored_code": 0,
+      "target": "0x1401ef296",
+      "requested_shader_id": 21
+    },
+    {
+      "stored_code": 1,
+      "target": "0x1401ef27b",
+      "requested_shader_id": 0
+    },
+    {
+      "stored_code": 2,
+      "target": "0x1401ef27e",
+      "requested_shader_id": 11
+    },
+    {
+      "stored_code": 3,
+      "target": "0x1401ef296",
+      "requested_shader_id": 21
+    },
+    {
+      "stored_code": 4,
+      "target": "0x1401ef284",
+      "requested_shader_id": 12
+    },
+    {
+      "stored_code": 5,
+      "target": "0x1401ef296",
+      "requested_shader_id": 21
+    },
+    {
+      "stored_code": 6,
+      "target": "0x1401ef296",
+      "requested_shader_id": 21
+    },
+    {
+      "stored_code": 7,
+      "target": "0x1401ef296",
+      "requested_shader_id": 21
+    },
+    {
+      "stored_code": 8,
+      "target": "0x1401ef28a",
+      "requested_shader_id": 10
+    },
+    {
+      "stored_code": 9,
+      "target": "0x1401ef290",
+      "requested_shader_id": 17
+    }
+  ],
+  "default": {
+    "unsigned_argument_greater_than": 9,
+    "target": "0x1401ef296",
+    "requested_shader_id": 21
+  },
+  "loader_call": {
+    "address": "0x1401ee326",
+    "supplied_edx": "MOVZX of stored byte from stack +0x21",
+    "destination": "section +0x18"
+  },
+  "limitations": [
+    "Source-backed PE/Capstone observation, not authenticated REA Evidence.",
+    "No game/DLL execution; table bounds and labels are specific to this source hash.",
+    "IDs are loader requests; runtime texture/effect/device-dependent binding is separate.",
+    "The direct-branch walker still reports an unresolved indirect branch; targets are explicitly resolved from this bounded table."
+  ]
+}

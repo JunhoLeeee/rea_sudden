@@ -1,5 +1,18 @@
 # 진행 목표와 사용자 지시
 
+## 최신 후속 (2026-11-12, 정점과 셰이더 후보)
+
+- `spec/native-render-contract.md`에 다음 경로와 근거를 모았다. 부모/독립 검토 완료 후 기록.
+- `engine-render-vertex-loader-v1.json`: 헤더 버전>=85를 전역에 저장. loader는 count*68 할당 후 vertex reader 반복. 버전85는44바이트만, >=86은68바이트 읽기.
+- `client_core/render_vertex.py`: 뒤24바이트 미기록을 None으로 보존. Gouraud16/Gouraud_Texture36 출력 복사. 실제19332개 전부 대조 통과.
+- `warehouse-vertex-copy-replay-v1.json`:39 block source/output stream hash. 이전 절의 loader→확장 vertex 연결 미확인은 이번에 앞44바이트 범위에서 해소됐다. 후속 tail 생성/조명 변경은 미확인.
+- `render_shader.py`: 저장code1/2/4→요청0/11/12. jump table 및 factory selector/할당 분기를 직접 읽어 요청 이후 후보를 구분했다.
+- `warehouse_shader_candidate`: 요청0/11/12의 pre-validation 후보만 supplied texture/feature 상태로 계산. mode4/bump off/env on→14의 jump를 독립 검토에서 수정하고 교차검사 추가.
+- `engine-render-shader-code-v1.json`, `engine-warehouse-shader-candidate-v1.json`에 native table bytes/선택 flow/RTTI 기록. texture 상태 producer, cache/Validate 실패 fallback와 실제 device 선택은 미확인.
+- 뷰어 scene API에 `native_requested_shader_ids` 추가. 검증 전 후보를 실제 runtime shader로 자동 채택하지 않는다.
+- 최신 검증: client_core 96개 + world_render 12개 + input_command_probe 3개 = 111개 통과. 정점/후보 독립 검토 반영, git diff 공백 검사 통과.
+- 다음: texture+0x38/+0x3c 및 pixel-data+0x24의 producer를 추적. 전체 가속/충돌/점프와 최종 렌더 픽셀도 여전히 미확인.
+
 ## 최신 지속 작업 (2026-11-11, 업로드 비교와 입력 후속 쓰기)
 
 - `client_core/lightmap.py`: 설치본 lightmap format 선택과 6개 candidate의 tightly-packed 업로드. 32BitLightMaps!=0이면 20→22→21, 이어 24→25, 모두 실패하면 unchecked 23. HRESULT는 정확히0만 성공이다.
