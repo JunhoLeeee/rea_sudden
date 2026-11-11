@@ -155,3 +155,39 @@ SRCBLEND=DESTCOLOR, DESTBLEND=ZERO/SRCCOLOR 분기와 대응한다.
 이 파일들은 Capstone 직접 바이트 관찰이며 REA의 인증된 Evidence 레코드와 구분한다.
 원본 EXE SHA-256은 `7e37a8098930836fc4ebcfd6e3cded7a616b789f162af68be6e34287c568b0d8`이고
 이번 probe에서도 현재 파일 해시가 일치해야만 보고서를 생성하도록 검사했다.
+
+## 라이트맵 색 채널 dispatch 해소 (2026-11-11)
+
+`tools/lightmap_format_probe.py`는 같은 EXE 해시를 확인한 뒤 `0x1401ffc10`의
+입력 20..64를 45바이트 selector와 13개의 image-relative target으로 명시적으로 푼다.
+전체 selector/target 바이트와 각 target의 독립 정적 decode를
+`evidence/engine-lightmap-format-dispatch-v1.json`에 보존했다. 간접 분기 일반 해석기를
+구현한 것이 아니며 이 해시·주소·guard에 한정한 해석이다.
+
+- 형식 20: 24bpp, alpha 0, R/G/B mask `0xff0000/0xff00/0xff`.
+- 형식 21: 32bpp, alpha `0xff000000`, 같은 R/G/B mask.
+- 형식 22: 32bpp, alpha 0, 같은 R/G/B mask.
+- `0x1401ff6e0`은 32bpp를 내부 type 3, 24bpp를 type 8로 만든다.
+- `0x140126ca0`의 변환 table은 `source_type*10+destination_type`이다.
+  type 8→3의 pointer는 `0x140120b80`, 8→8은 `0x140120550`이다.
+
+중요한 것은 source mask 선언만으로 triplet을 BGR로 판단할 수 없다는 점이다.
+type 8→3은 범용 mask 추출이 아닌 전용 변환을 사용한다. 업로드의
+`0x140220f57`은 R8을 0으로 지워 color-key 없는 경로를 선택한다.
+변환기의 `0x140120c70..0x140120c95`는 source `[s0,s1,s2]`에서
+destination `[s2,s1,s0,0]`를 만든다. destination의 red mask가 `0xff0000`이므로
+이 경로의 source triplet은 **RGB**다. 현재 저장 PNG는 RGB 그대로 유지하며 swizzle하지 않는다.
+32비트 업로드의 alpha byte 0은 확인된 저장 동작이며, 이를 PNG alpha나 최종 합성 alpha로
+확장해서 해석하지 않는다. 8→8은 row copy이며 이 경로의 실제 선택·색 해석은 별도 미확인이다.
+
+이로써 32비트 변환 경로의 채널 문제는 해소했다. 실제 장치가 선택하는 texture format,
+16비트 변환의 양자화, fog, 실제 Saturate 상태와 최종 픽셀 일치는 아직 미확인이다.
+이 기록은 원본을 실행하지 않은 직접 바이트 관찰·정적 해석이며 REA 인증 Evidence와 구분한다.
+
+## 작업 폴더 이동 지원 (2026-11-11)
+
+기존 mesh의 `png_path`는 생성 PC의 절대 경로를 보존한다. 원본 증거와 mesh hash를 바꾸지 않고
+`tools/artifact_paths.py`로 `previews` 하위 참조를 현재 checkout에 연결한다.
+경로 순회와 모호한 참조를 거부하고 기존 PNG SHA 검증을 유지한다.
+뷰어와 lightmap export audit 모두 이를 사용한다. 실제 임시 폴더로 previews를 복사한 뒤
+모든 texture/mip와 lightmap 27개가 새 폴더에서 로드되는 회귀 검사를 추가했다.

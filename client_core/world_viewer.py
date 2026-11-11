@@ -7,6 +7,8 @@ from pathlib import Path
 from urllib.parse import urlsplit
 import webbrowser
 
+from tools.artifact_paths import preview_path
+
 ROOT = Path(__file__).resolve().parents[1]
 UI = Path(__file__).with_name('world_ui')
 WAREHOUSE_SHA256 = 'd013c3f158f1ecfa849513c0778a7094f48d2e895a1053d69c0ef616b1ed24ea'
@@ -62,7 +64,7 @@ def load_scene():
                 lightmap = section['lightmap']
                 if lightmap.get('png_path'):
                     url = f'/lightmap/{world_index}/{block["index"]}/{section["index"]}.png'
-                    assets[url] = verified_asset(Path(lightmap['png_path']), lightmap['png_sha256'])
+                    assets[url] = verified_asset(preview_path(lightmap['png_path'], ROOT), lightmap['png_sha256'])
                     lightmap['url'] = url
                     del lightmap['png_path']
     starts = []

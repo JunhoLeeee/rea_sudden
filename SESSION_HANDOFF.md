@@ -1,5 +1,15 @@
 # 진행 목표와 사용자 지시
 
+## 최신 결과 (2026-11-11, 색 채널과 다른 노트북 재개)
+
+- GitHub `JunhoLeeee/rea_sudden`의 main에 초기 작업을 보존했다. `CONTINUE_ON_LAPTOP.md` 참고.
+- `tools/lightmap_format_probe.py`와 `evidence/engine-lightmap-format-dispatch-v1.json`: 45개 format case, type8 converter table 및 각 target의 정적 decode.
+- type8→3 변환은 source RGB를 destination BGR0으로 쓴다. 현재 PNG RGB를 유지하는 것이 이 경로와 맞다. 실제 장치의 format 선택·16비트 변환·최종 픽셀은 미확인.
+- 뷰어와 render audit에 남은 이전 PC의 lightmap 절대 경로 의존성을 제거했다. 증거 파일과 mesh hash는 유지한다.
+- 검증: world viewer 7개(실제 임시 폴더 재배치 포함), world render 12개 통과.
+- 다음 작업: texture 생성 시 선택되는 D3D format 후보와 장치 지원에 따른 선택 분기를 확인하고, 16비트 변환·정점 조명 경로의 범위를 좁힌다.
+- 이전 절의 '간접 dispatch 미해결'은 이번 절에서 32비트 경로에 한해 해소했다. 과거 PID/세션 번호는 재사용하지 않는다.
+
 ## 최신 재개 결과 (2026-11-11, Saturate 비교)
 
 - 아래의 이전 세션 번호·PID·작성 중 표시는 과거 기록이다. 이번 턴에서는 기존 프로세스에 의존하지 않았다.

@@ -5,6 +5,7 @@
 현재는 실제 웨어하우스 렌더 메쉬·UV·텍스처를 표시하고, 설정·명중 표시·모델 스킬 비트의 확인된 부분을 재생할 수 있다.
 원본 게임 전체와 동등한 플레이 가능 클라이언트는 아직 완성되지 않았다.
 진행 근거와 미해결 항목은 [INVESTIGATION.md](INVESTIGATION.md)에 정리했다.
+다른 PC에서 복제·재개하는 방법은 [CONTINUE_ON_LAPTOP.md](CONTINUE_ON_LAPTOP.md)에 있다.
 
 ## 원본 웨어하우스 리소스 보기
 

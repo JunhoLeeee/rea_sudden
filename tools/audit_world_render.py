@@ -11,6 +11,7 @@ from pathlib import Path
 
 import world_dat
 import world_render
+from artifact_paths import preview_path
 
 ROOT = Path(__file__).resolve().parents[1]
 EXPECTED_SOURCE = 'd013c3f158f1ecfa849513c0778a7094f48d2e895a1053d69c0ef616b1ed24ea'
@@ -113,7 +114,7 @@ def verify_lightmap_exports(data, mesh):
                 lm = section['lightmap']
                 if not lm['compressed_bytes']:
                     continue
-                path = Path(lm['png_path'])
+                path = preview_path(lm['png_path'], ROOT)
                 path.resolve().relative_to(ROOT.resolve())
                 if hashlib.sha256(path.read_bytes()).hexdigest() != lm['png_sha256']:
                     raise ValueError('Lightmap PNG digest differs')

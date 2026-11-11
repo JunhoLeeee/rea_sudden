@@ -1,12 +1,16 @@
 import hashlib
 import json
 from pathlib import Path
+import shutil
+import tempfile
 import threading
 import unittest
+from unittest.mock import patch
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 from .world_viewer import ROOT, WAREHOUSE_SHA256, create_server, load_scene, verified_asset
+from tools.artifact_paths import preview_path
 
 
 class WorldViewerTests(unittest.TestCase):
@@ -46,6 +50,25 @@ class WorldViewerTests(unittest.TestCase):
         path = next(iter(self.assets.values()))
         with self.assertRaises(ValueError):
             verified_asset(path, '0'*64)
+
+    def test_relocated_checkout_loads_all_assets_from_new_root(self):
+        with tempfile.TemporaryDirectory() as directory:
+            relocated = Path(directory)
+            shutil.copytree(ROOT / 'previews', relocated / 'previews')
+            with patch('client_core.world_viewer.ROOT', relocated):
+                scene, assets = load_scene()
+            self.assertEqual(scene['source_sha256'], WAREHOUSE_SHA256)
+            self.assertEqual(len(assets), len(self.assets))
+            self.assertEqual(sum(url.startswith('/lightmap/') for url in assets), 27)
+            for path in assets.values():
+                self.assertTrue(path.is_relative_to(relocated))
+
+    def test_recorded_preview_references_reject_traversal_and_ambiguity(self):
+        for recorded in ('../previews/a.png', 'previews/../README.md',
+                         'other/previews/a.png', 'C:/previews/previews/a.png',
+                         'C:/elsewhere/a.png'):
+            with self.subTest(recorded=recorded), self.assertRaises(ValueError):
+                preview_path(recorded, ROOT)
 
     def test_paired_lightmap_uvs_use_exact_original_corner_positions(self):
         worlds = {w['name']:w for w in [self.scene['render']['world']]+self.scene['render']['world']['models']}
