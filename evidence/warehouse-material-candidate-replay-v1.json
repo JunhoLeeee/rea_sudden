@@ -1,0 +1,1185 @@
+{
+  "profile": "warehouse-material-candidate-replay-v1",
+  "source_sha256": "d013c3f158f1ecfa849513c0778a7094f48d2e895a1053d69c0ef616b1ed24ea",
+  "manifest_sha256": "577a8ee14ffd048e4b4f8bafc14f4894a5c937df9bb95cc19e02011b0c5500d2",
+  "textures": [
+    {
+      "key": "sa_ppl/ad1/warehouse_01_01.dtx",
+      "source_sha256": "92d6112ca90dda868bf30ae68bda100d13c34f0eedb598b9c970a901e820e349",
+      "material": {
+        "internal_flags": 9,
+        "render_flags": 1,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 1
+      }
+    },
+    {
+      "key": "sa_ppl/ad1/warehouse_01_02.dtx",
+      "source_sha256": "f0956cafd0626fbe78c6994631d0b2eaf3fcf476757f2e5849e71bc3e1b5d76e",
+      "material": {
+        "internal_flags": 9,
+        "render_flags": 1,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 1
+      }
+    },
+    {
+      "key": "sa_ppl/ad1/warehouse_01_03.dtx",
+      "source_sha256": "77a4c1f0102f0a8ebe485ee05360f9ef072b1866366bf522947d7f793d06501f",
+      "material": {
+        "internal_flags": 9,
+        "render_flags": 1,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 1
+      }
+    },
+    {
+      "key": "sa_ppl/ad2/warehouse_02_01.dtx",
+      "source_sha256": "357f1c499768af3a8f9d44e86cbf928a0d9647bba3cf46e68dc4284c18fff5af",
+      "material": {
+        "internal_flags": 9,
+        "render_flags": 1,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 1
+      }
+    },
+    {
+      "key": "sa_ppl/ad3/warehouse_03_01.dtx",
+      "source_sha256": "92d6112ca90dda868bf30ae68bda100d13c34f0eedb598b9c970a901e820e349",
+      "material": {
+        "internal_flags": 9,
+        "render_flags": 1,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 1
+      }
+    },
+    {
+      "key": "sa_ppl/ad3/warehouse_03_02.dtx",
+      "source_sha256": "f0956cafd0626fbe78c6994631d0b2eaf3fcf476757f2e5849e71bc3e1b5d76e",
+      "material": {
+        "internal_flags": 9,
+        "render_flags": 1,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 1
+      }
+    },
+    {
+      "key": "sa_ppl/ad3/warehouse_03_03.dtx",
+      "source_sha256": "77a4c1f0102f0a8ebe485ee05360f9ef072b1866366bf522947d7f793d06501f",
+      "material": {
+        "internal_flags": 9,
+        "render_flags": 1,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 1
+      }
+    },
+    {
+      "key": "sa_ppl/ad4/warehouse_04_01.dtx",
+      "source_sha256": "92d6112ca90dda868bf30ae68bda100d13c34f0eedb598b9c970a901e820e349",
+      "material": {
+        "internal_flags": 9,
+        "render_flags": 1,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 1
+      }
+    },
+    {
+      "key": "sa_ppl/ad4/warehouse_04_02.dtx",
+      "source_sha256": "f0956cafd0626fbe78c6994631d0b2eaf3fcf476757f2e5849e71bc3e1b5d76e",
+      "material": {
+        "internal_flags": 9,
+        "render_flags": 1,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 1
+      }
+    },
+    {
+      "key": "sa_ppl/ad4/warehouse_04_03.dtx",
+      "source_sha256": "77a4c1f0102f0a8ebe485ee05360f9ef072b1866366bf522947d7f793d06501f",
+      "material": {
+        "internal_flags": 9,
+        "render_flags": 1,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 1
+      }
+    },
+    {
+      "key": "sa_tex/alphazero.dtx",
+      "source_sha256": "71b03a855e8e3fd5cbdd230ac2de09b60897b469b39c5c1111c04d6dabbd8eab",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 128,
+        "command": "alpharef 128"
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/black.dtx",
+      "source_sha256": "dc08506e97f38a32f552c32cb5b99d731d1a0cc23ee5ae87020146145e3ce2be",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/blocker.dtx",
+      "source_sha256": "03557c070a29a81527984e4940c60a808e78ae0c4e6a04e082c09276273f97b9",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/deathzone.dtx",
+      "source_sha256": "73cb25241666786de8eab692bf954d7213ff7de37fda34a307f0d16cbe5d505e",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/egg/target01.dtx",
+      "source_sha256": "bd140615c6a62bcb83a11792983a285fdd84362db1d2c4f0649e7387d15862ba",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 100,
+        "command": "alpharef 100"
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/lab/door_patton1.dtx",
+      "source_sha256": "abae91dfc441b5756e6713fd06220f865ef6724b2b7470d4638aa2d3cce1b5b6",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/lab/light01.dtx",
+      "source_sha256": "00b24e2b78f36d6af5a9abd6ce1165afee113b40eaf675d3afbce58dddf51a3f",
+      "material": {
+        "internal_flags": 9,
+        "render_flags": 1,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 1
+      }
+    },
+    {
+      "key": "sa_tex/sky.dtx",
+      "source_sha256": "022d72d88e39de87fe81ae2dcf4503720d5afb1ea5598551f25f3828d79d8c50",
+      "material": {
+        "internal_flags": 266,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/submarine/roof_center.dtx",
+      "source_sha256": "bc87f434a843246c9f6eaee69fb41a8e1499567482d2346cb69708540925cec3",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/tank/fan.dtx",
+      "source_sha256": "52feefd9b8a08df0e71974848f7fff0ba1abc47583394dba37676e3bf42422d8",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/tank/fance.dtx",
+      "source_sha256": "5cc92b1cbf1b2d96a3cd349f2a8f2a36dc6476eecf7ee7dbc0f729b0d5ee6193",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 80,
+        "command": "alpharef 80"
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/tank/iron.dtx",
+      "source_sha256": "afa8473dc51f9f6c61b2a8822875a9e63919f82fd942aacd342016c40ae3317e",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/3map_step_wall.dtx",
+      "source_sha256": "280d5b6c02b7f2d66aebdc9f1961417c73d14c9402d6aac2a401953095916b26",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/3map_wall_window.dtx",
+      "source_sha256": "c27735d1ab2a3ede27cbe81e9daa97d3310caccd28c51845a32608fd3ee0c134",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/air_road.dtx",
+      "source_sha256": "6c16c486b3506e261b5c0d5443d09157788d250075604026816e2c9cfc37bb6f",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/air_road_top.dtx",
+      "source_sha256": "84bb4538e782f537b93354e2e0db958c6c611a5c9730b7f6e70da93024ffb8cf",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/background_building.dtx",
+      "source_sha256": "4b9f9d52168eaf7558a3593818468dec3cae87295602a32da4c05ef59a6274bb",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/background_building_pole.dtx",
+      "source_sha256": "2f4419072baf7e1fd5d4582090a4fabece664929285d964dc2631edde55a0fa0",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/block.dtx",
+      "source_sha256": "00f520f9f1069c1a52b64b56980a720d641560559288473f6daf9c5453eaf90c",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/box.dtx",
+      "source_sha256": "4c099bb1c334e63b6a9b1022c252708c60b7c133ba127ca4c85e458c3a26bb4c",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/container.dtx",
+      "source_sha256": "4ee880f3d6844caee63ddbcee1eaf1f81e84cce561f0a893b8efed1579763d90",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/container_door.dtx",
+      "source_sha256": "33778ea270d9bb9f6c9eeb8ce5507d060c6e25c5c237dd5675e12b5959905714",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/container_inner.dtx",
+      "source_sha256": "79590177d54793a4a2d41c174782d091a69f69f10d0eec83cb9c76bac42de378",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/container_s.dtx",
+      "source_sha256": "c99148766f9a3cdbf95009bce74a42f0a212e0999f15c9cc1775c38a78186623",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/desk.dtx",
+      "source_sha256": "59715947685c2ed01da5c195ac1bcc97c414ddef2234104ac309bd6fb1cf586b",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/door_hand.dtx",
+      "source_sha256": "e55302870eb072b5ccd12ed4eea3c4b6924327c80ed65a6f5af1274585c9b952",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/door_m.dtx",
+      "source_sha256": "9b14a917b682eeb73015a6998891d550b19fc58edb33bd46c37cbc0b54a47edf",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/exit.dtx",
+      "source_sha256": "82667e6bc81279c3d4a370c45261888e783efdd56466c5cb3b1d111880a02890",
+      "material": {
+        "internal_flags": 9,
+        "render_flags": 1,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 1
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/fance.dtx",
+      "source_sha256": "83bbe8f469e72401ccfc408c261088fb6a8dda6437c3cbabf606b89bc18fbe27",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 80,
+        "command": "alpharef 80"
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/ground.dtx",
+      "source_sha256": "5b5616a7909dbda9eebdf9c3b0d94a0e573d87389518d1655f70e44c9aff880f",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/ground7.dtx",
+      "source_sha256": "64407e3385653b849f56b56f93b55a294cc96667575c8659efa212f8ced76c61",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/harbor_f.dtx",
+      "source_sha256": "d79dee7c4298db26bc17189797af4220f4c987dbb5c2aa9f33aaaa4b88dd68ff",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/hyungang.dtx",
+      "source_sha256": "335899fc404f8a9df0adeb983b33939adae2b129c7ae0d1298de26109bb651bd",
+      "material": {
+        "internal_flags": 9,
+        "render_flags": 1,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 1
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/inner_door.dtx",
+      "source_sha256": "b7bad8eb11a6c19267bc7a4fb69f3936136058b5be5050b5ff13ec3cb886df14",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/iron_bone.dtx",
+      "source_sha256": "9ca2b1e46ac4ed5ae3a1146d04c53fd32038c4f44069d7755066d3002db0e5af",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/iron_door.dtx",
+      "source_sha256": "6904d314f9e3b071b4c15adfcd3b824086f40c2a9b224461b18aa8b0b93bc8e4",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/light2.dtx",
+      "source_sha256": "577a81df9ed6cec506998dc067871d44be554ba4751555d80beb5de3c184403b",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/map.dtx",
+      "source_sha256": "90976ffce1f30a1764b15de3dc5f97478faca478b523e52055ba1d4c0c190153",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/new_top_wall.dtx",
+      "source_sha256": "4a9f1433a71514edbcb2f40dba8e00eaa3cb5273a0385e0628cea8258d1ae566",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/new_wall.dtx",
+      "source_sha256": "131dbb56c0ba93a1ef15f1955d8dafa056e7b2d82330bc6e39ec10bd72ab0d38",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/new_wallout2.dtx",
+      "source_sha256": "ae8a72e17a1f5aba0f7f5beef0cd40eea4062b0e820915230d5331b65d7c0fdc",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/o_paper_box.dtx",
+      "source_sha256": "fa852f40431ef5e159b4e64d8b5210adbb22431c45243019c37fa14e346d4a2c",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/office_celling.dtx",
+      "source_sha256": "769b67eddc283041ed97d998c7d3da7a9a915bd7b76c914a47dce362fdc7f6af",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/office_wall_block.dtx",
+      "source_sha256": "5f33c67020e037138367a3dd1acf2daa7051549b773843fd35847ce59ca89740",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/office_wall_pole.dtx",
+      "source_sha256": "62ec91ba905fd78a1162fc06993a39427d63269315bf47b32dfbfe786c9fdbcb",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/out_light.dtx",
+      "source_sha256": "c2a8f0c9bb4f48eb00a539a5d5132c705e05ead53938d66c49ebe87172845ccb",
+      "material": {
+        "internal_flags": 9,
+        "render_flags": 1,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 1
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/paper_box.dtx",
+      "source_sha256": "7156a1937bba0db765f499e2c92be449aded3d39b43e1513aa2019f69f597825",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/paper_box_t.dtx",
+      "source_sha256": "153b010020d47649dae6098110879a4152131f9f444a52f3dcb90a531200651c",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/roof.dtx",
+      "source_sha256": "a9def81a192834b841553d51841b92e2e882f87a47724a66150b37cec74cfe18",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/shotter.dtx",
+      "source_sha256": "dfc7f91ac65dd74f4d1315dde76c8c18ea6737a39434bbccfdb0b1eb38064def",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/tree_cabinet.dtx",
+      "source_sha256": "dfcdcc7f761fd297f6d706d594fdd0520a5a4fd8662fce517feaeff0103452bb",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/wall01.dtx",
+      "source_sha256": "73fc9fa9b708fdd89322b4858a69eaa5f3058c3bcaf5a588283a7c13e11bd409",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/wall_05.dtx",
+      "source_sha256": "99bd1135f8f5e28ec1644ca10b3d969fd97f6c5bd44e2cd5f349234e8f84b4b2",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/wall_42.dtx",
+      "source_sha256": "670bf58ca10a0cdb1d51619451b1a02e6ece56ebbace6a658a9de5cbff1ba729",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/windows.dtx",
+      "source_sha256": "5cb029ffa1e392d7cfd71facfaf08842b3d0a33d6b6a911d0f0644a7f3996742",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/ware_house/windows1.dtx",
+      "source_sha256": "673e59dd5fd0e51decac34e213872688cbc0d242aea74aae2de23575e4f01aa5",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/zerogravity/20060418_topblue_01.dtx",
+      "source_sha256": "5db7c329f3b699799c9b9bc6fdd4952590a21418bd2ddfd194bf8d4fb23246a1",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/zerogravity/20060418_topblue_02.dtx",
+      "source_sha256": "f0ee9928960ba203004f53515a0fc079dc091426b038ebb6ddc52c8441e5b986",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/zerogravity/20060418_topblue_03.dtx",
+      "source_sha256": "c78a6eef504d3360c2ab2b58c1904941c3f1dcd3add55bee8e1c05879c13e3b8",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/zerogravity/20060419_cen_win03.dtx",
+      "source_sha256": "c28085de547bbd6609b47453d70cc1aa49c0e4574ed804128449a1acfc7e347b",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_tex/zerogravity/bottom03.dtx",
+      "source_sha256": "1ade306584445c7373ccee9ed4417b8074fd22775024afb209d0ff8c0b9f5e4d",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_texfx/sky/darkskybk.dtx",
+      "source_sha256": "0ba28fcd03f1258e47d854bafe6128bf6c27c60137f291ede4bc486c75dc4c81",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_texfx/sky/darkskyfr.dtx",
+      "source_sha256": "7d2afaa47cd932aa49ebf25a73f0bdcc84a743ec1c7759ff09cd60948d301184",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_texfx/sky/darkskylf.dtx",
+      "source_sha256": "e83c5868cf09b3f653344a2374bc648adae1f6440dd9276ea81d55f77610477d",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    },
+    {
+      "key": "sa_texfx/sky/darkskyup.dtx",
+      "source_sha256": "b3e55f42963baf0451084f23551e60653a9965660a3d96735e4163a9205e39e2",
+      "material": {
+        "internal_flags": 8,
+        "render_flags": 0,
+        "alpha_ref": 0,
+        "command": ""
+      },
+      "fresh_shared_texture_state": {
+        "mode_38": 0,
+        "flag_3c": 0,
+        "pixel_flags24": 0
+      }
+    }
+  ],
+  "fullbright_declarations": 14,
+  "alpha_ref_counts": {
+    "0": 71,
+    "128": 1,
+    "100": 1,
+    "80": 2
+  },
+  "section_counts": [
+    {
+      "stored_code": 1,
+      "requested_id": 0,
+      "candidate_lightmap_on": 1,
+      "candidate_lightmap_off": 1,
+      "sections": 144
+    },
+    {
+      "stored_code": 1,
+      "requested_id": 0,
+      "candidate_lightmap_on": 7,
+      "candidate_lightmap_off": 7,
+      "sections": 20
+    },
+    {
+      "stored_code": 2,
+      "requested_id": 11,
+      "candidate_lightmap_on": 11,
+      "candidate_lightmap_off": null,
+      "sections": 27
+    },
+    {
+      "stored_code": 4,
+      "requested_id": 12,
+      "candidate_lightmap_on": 12,
+      "candidate_lightmap_off": 1,
+      "sections": 135
+    }
+  ],
+  "native_evidence": [
+    "evidence/engine-texture-material-producers-v1.json",
+    "evidence/engine-warehouse-shader-candidate-v2.json"
+  ],
+  "assumptions": [
+    "Fresh SharedTexture fields +0x38/+0x3c retain constructor zero for captured empty/AlphaRef-only commands.",
+    "Renderer texture creation succeeded, so its mapped flags are supplied to the candidate model.",
+    "Both feature presets explicitly set DetailTextures/EnvMapEnable/EnvBumpMap=1 and vary only LightMap."
+  ],
+  "limitations": [
+    "Static declarations and controlled CPU replay, not actual runtime-selected shaders.",
+    "Do not confuse TextureData (DTX header copy at +4) with RTexture (SharedTexture +0x10).",
+    "Unknown DTX command strings are rejected; general command parsing/link loading is not implemented.",
+    "AlphaRef decimal interpretation matches comparison source; original indirect conversion target is unresolved.",
+    "Cache/validation/fallback, later SharedTexture changes, alpha test and framebuffer blend remain unobserved."
+  ]
+}

@@ -29,7 +29,7 @@ ${modern?'in':'varying'} vec2 vUV;${modern?'in':'varying'} vec4 vColor;
 ${modern?'in':'varying'} vec3 vNormal;${modern?'in':'varying'} float vY;
 ${modern?'in':'varying'} vec2 vLightmapUV;
 uniform sampler2D uTexture;uniform int uMode;uniform bool uFlip,uClip;uniform float uHeight;
-uniform sampler2D uLightmap;uniform bool uHasLightmap;
+uniform sampler2D uLightmap;uniform bool uHasLightmap,uFullbright;
 ${modern?'out vec4 finalColor;':''}
 void main(){if(uClip&&vY>uHeight)discard;vec2 uv=vec2(vUV.x,uFlip?1.0-vUV.y:vUV.y);
  vec4 color=${modern?'texture':'texture2D'}(uTexture,uv);
@@ -43,15 +43,18 @@ void main(){if(uClip&&vY>uHeight)discard;vec2 uv=vec2(vUV.x,uFlip?1.0-vUV.y:vUV.
   // Gouraud_Texture stage 0 also selects MODULATE/MODULATE2X from Saturate.
   float gain=uMode==7?2.0:1.0;
   if(uMode==5)color=vec4(light,color.a);else{
+   vec3 unlit=color.rgb;
    color.rgb=clamp(color.rgb*light*gain,0.0,1.0);
-   if(!uHasLightmap)color.a*=vColor.a;}}
+   if(!uHasLightmap){color.a*=vColor.a;
+    // Fullbright stage 1: TEXTURE/CURRENT with BLENDCURRENTALPHA.
+    if(uFullbright)color.rgb=mix(color.rgb,unlit,color.a);}}}
  if(color.a<.001)discard;${modern?'finalColor':'gl_FragColor'}=color;}`));
  gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(program));
 }catch(error){fail(error.message);return;}
 gl.useProgram(program);gl.enable(gl.DEPTH_TEST);gl.disable(gl.CULL_FACE);
 gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);
 const attrs=Object.fromEntries(['Position','UV','Color','Normal','LightmapUV'].map(name=>[name,gl.getAttribLocation(program,'a'+name)]));
-const uniforms=Object.fromEntries(['Eye','Forward','Right','Up','Aspect','Texture','Mode','Flip','Clip','Height','Lightmap','HasLightmap'].map(name=>[name,gl.getUniformLocation(program,'u'+name)]));
+const uniforms=Object.fromEntries(['Eye','Forward','Right','Up','Aspect','Texture','Mode','Flip','Clip','Height','Lightmap','HasLightmap','Fullbright'].map(name=>[name,gl.getUniformLocation(program,'u'+name)]));
 const textureCache=new Map(),lightmapCache=new Map();let scene,worlds=[],groups=[],pointBuffer;
 let target=[0,0,0],yaw=.8,elevation=.7,distance=3300,drag=null,ready=false;
 let renderedTriangles=0,textureFailures=0,unsupportedWrapping=0;
@@ -163,6 +166,7 @@ function buildGroup(world){
      lines:buffer(gl.ELEMENT_ARRAY_BUFFER,new Uint16Array(part.lines)),count:part.indices.length,lineCount:part.lines.length,
      texture:section.textures[0].replace(/\\/g,'/').toLowerCase(),shader:section.shader_code,
      lightmap:lmSection>=0?block.sections[lmSection].lightmap.url:null,
+     fullbright:Boolean(scene.textures.find(row=>row.key===section.textures[0].replace(/\\/g,'/').toLowerCase())?.material.fullbright),
      sourceBlock:block.index,sourceSection:section.index});
    }
   }
@@ -212,6 +216,7 @@ function render(){
    bindVertex(b.vertex);gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,textureCache.get(b.texture)||fallback);
    gl.activeTexture(gl.TEXTURE1);gl.bindTexture(gl.TEXTURE_2D,lightmapCache.get(b.lightmap)||fallback);
    gl.uniform1i(uniforms.HasLightmap,Boolean(b.lightmap));
+   gl.uniform1i(uniforms.Fullbright,Boolean(b.fullbright&&$('fullbright').checked));
    gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,wire?b.lines:b.indices);gl.drawElements(wire?gl.LINES:gl.TRIANGLES,wire?b.lineCount:b.count,gl.UNSIGNED_SHORT,0);
    renderedTriangles+=b.count/3;
   }
@@ -253,5 +258,7 @@ fetch('/api/scene').then(response=>{if(!response.ok)throw Error('Scene HTTP '+re
 window.worldViewerDiagnostics=()=>({ready,worlds:worlds.length,renderedTriangles,texturesLoaded:textureCache.size,
  nativeMipLevels:scene?.textures.reduce((n,t)=>n+t.levels.length,0),nativeMipSampling:modern,
  lightmapsLoaded:lightmapCache.size,lightmapFormat,
+ fullbrightTextures:scene?.textures.filter(row=>row.material.fullbright).length,
+ fullbrightComparison:$('fullbright').checked,
  textureFailures,unsupportedWrapping,source:scene?.source_sha256,webgl:modern?2:1});
 })();

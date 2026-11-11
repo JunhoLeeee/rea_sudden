@@ -26,6 +26,8 @@ class WorldViewerTests(unittest.TestCase):
         self.assertFalse(self.scene['missing_diffuse_textures'])
         self.assertEqual(len(self.scene['render']['world']['models']), 22)
         self.assertEqual(sum(len(row['levels']) for row in self.scene['textures']), 284)
+        self.assertEqual(sum(row['material']['fullbright'] for row in self.scene['textures']), 14)
+        self.assertEqual(sum(bool(row['material']['command']) for row in self.scene['textures']), 4)
         for row in self.scene['textures']:
             self.assertEqual([level['level'] for level in row['levels']], list(range(row['max_stored_level']+1)))
             self.assertTrue(all(level['url'] in self.assets for level in row['levels']))
@@ -55,6 +57,12 @@ class WorldViewerTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             relocated = Path(directory)
             shutil.copytree(ROOT / 'previews', relocated / 'previews')
+            manifest = json.loads((ROOT/'previews/warehouse-textures/textures-map.json').read_text(encoding='utf-8'))
+            for row in manifest['textures']:
+                if row['status'] == 'decoded':
+                    target = relocated / row['dtx_path']
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copyfile(ROOT / row['dtx_path'], target)
             with patch('client_core.world_viewer.ROOT', relocated):
                 scene, assets = load_scene()
             self.assertEqual(scene['source_sha256'], WAREHOUSE_SHA256)

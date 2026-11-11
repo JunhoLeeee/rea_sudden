@@ -11,6 +11,7 @@ from tools.artifact_paths import preview_path
 from tools.world_render import lightmap_triplets
 from .lightmap import upload_rgb
 from .render_shader import translate_shader_code
+from .texture_material import material_from_dtx_header
 
 ROOT = Path(__file__).resolve().parents[1]
 UI = Path(__file__).with_name('world_ui')
@@ -44,6 +45,12 @@ def load_scene():
     for index, row in enumerate(manifest['textures']):
         if row['status'] != 'decoded':
             continue
+        dtx = (ROOT / row['dtx_path']).resolve(strict=True)
+        dtx.relative_to((ROOT/'extracted').resolve(strict=True))
+        dtx_bytes = dtx.read_bytes()
+        if hashlib.sha256(dtx_bytes).hexdigest() != row['output_sha256']:
+            raise ValueError('Material DTX identity differs')
+        material = material_from_dtx_header(dtx_bytes)
         url = f'/texture/{index}.png'
         assets[url] = verified_asset(ROOT / row['png'], row['png_sha256'])
         mip = mip_rows[texture_key(row['key'])]
@@ -60,6 +67,9 @@ def load_scene():
         textures.append(dict(key=texture_key(row['key']), url=url, sha256=row['png_sha256'],
                              width=row['width'], height=row['height'], levels=levels,
                              max_stored_level=mip['max_stored_level']))
+        textures[-1]['material'] = dict(internal_flags=material.internal_flags,
+                                       render_flags=material.render_flags, alpha_ref=material.alpha_ref,
+                                       command=material.command, fullbright=bool(material.render_flags & 1))
     worlds = [render['world']] + render['world']['models']
     lightmap_uploads = []
     for world_index, world in enumerate(worlds):

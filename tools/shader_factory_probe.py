@@ -31,6 +31,7 @@ def probe(engine):
     classes = []
     for code, vtable, setter in ((0, 0x14031c960, 0x1401b2bed),
                                   (1, 0x14031cbf0, 0x1401b2c84),
+                                  (7, 0x14031da08, 0x1401b2f34),
                                   (11, 0x14031df28, 0x1401b3096),
                                   (12, 0x14031e1b8, 0x1401b312d)):
         locator = pe.pointers(vtable-8, 1)[0]
@@ -45,7 +46,7 @@ def probe(engine):
                             vtable_assignment=instruction,
                             allocation_entry=hex(pe.base+allocation_targets[code])))
     entries = {0x1401b28c0, 0x1401b295a, 0x1401b2b50}
-    entries.update(pe.base+allocation_targets[code] for code in (0, 1, 11, 12))
+    entries.update(pe.base+allocation_targets[code] for code in (0, 1, 7, 11, 12))
     return dict(profile='installed-warehouse-shader-candidate-v1', source_sha256=pe.sha256,
                 source_path=str(pe.path.resolve()), convars=features,
                 selector_table=dict(address='0x1401b35a0', bytes=selectors.hex(),

@@ -12,6 +12,7 @@
   <label for="start">시작 지점 선언으로 초점 이동</label><select id="start"><option value="">선택하지 않음</option></select>
   <label for="shading">표시 방식</label><select id="shading"><option value="texture">원본 diffuse 텍스처</option><option value="vertex">diffuse × 저장 정점 색상</option><option value="lightmap">저장 lightmap / 정점 색상</option><option value="comparison">diffuse × 조명 (Saturate 꺼짐 비교)</option><option value="saturate">조명 2배 합성 (Saturate 켜짐 비교)</option><option value="normal">저장 법선 확인</option><option value="wire">삼각형 경계</option></select>
   <label for="lightmap-format">라이트맵 업로드 비교</label><select id="lightmap-format" disabled><option value="21">저장 RGB / 32비트 색상</option><option value="20">24비트 복사 경로</option><option value="24">16비트 RGB 555</option><option value="23">16비트 RGB 565 fallback</option></select>
+  <label class="check"><input id="fullbright" type="checkbox" checked>Fullbright 후보 합성 비교</label>
   <label class="check"><input id="clip" type="checkbox" checked>상부 절단 (Y 좌표)</label>
   <input id="height" type="range" min="-500" max="600" value="80" aria-label="절단 높이">
   <label class="check"><input id="flip" type="checkbox">UV의 V 방향 반전 확인</label>
@@ -21,6 +22,7 @@
   <p>렌더 정점·UV·원본 DTX와 저장된 mip 체인을 사용합니다. WebGL 2에서 원본 mip 축소를 적용합니다. 원본 조명·셰이더 합성·동적 배치의 화면 일치는 아직 검증하지 않았습니다.</p>
   <p>Saturate 비교는 라이트맵 및 저장 정점 색상에 적용합니다. 실제 게임의 현재 설정값과 최종 화면은 미확인입니다.</p>
   <p>업로드 비교는 저장 lightmap 및 조명 합성 모드에서 확인합니다. 원본 코드의 색 변환을 비교하며, 실제 장치에서 선택된 형식은 미확인입니다.</p>
+  <p>Fullbright 비교는 해당 DTX 비트가 있는 면의 조명 합성에 적용합니다. 실제 검증 fallback·불투명/알파 테스트·최종 화면은 미확인입니다.</p>
   <div id="source"></div>
 </aside>
 <div id="status" role="status">준비 중</div><div id="error" hidden role="alert"></div>

@@ -1,5 +1,18 @@
 # 진행 목표와 사용자 지시
 
+## 최신 재료 선언/Fullbright 작업 (2026-11-12)
+
+- `texture_material.py`: DTX header 선언→RTexture flags 및 조건부 shader state. native mapping `(flags&1)|((flags>>9)&0xe)`. raw offset32가 아니라 internal flags offset16에서 온다.
+- 원본 TextureData(header+4)와 SharedTexture+0x10의 RTexture를 구분했다. 빈/AlphaRef-only 명령만 지원하며 unknown command를 일반 texture로 처리하지 않는다.
+- `engine-texture-material-producers-v1.json`:7함수/1378명령 실제바이트 대조 독립검토 완료. `engine-texture-material-bind-v1.json`은 bind/create 소비 코드.
+- `audit_texture_materials.py`/`warehouse-material-candidate-replay-v1.json`:75 DTX 해시확인, Fullbright14, AlphaRef 명령4. supplied fresh/success 조건에서 code1 sections164 = candidate1 144 + candidate7 20.
+- factory probe에 candidate7 Fullbright RTTI를 추가해 `engine-warehouse-shader-candidate-v2.json` 생성.
+- Fullbright stage1은 BLENDCURRENTALPHA: factor=texture.a*vertex.a. stage0 clamp 후 texture RGB와 lit RGB를 섞고 alpha를 유지. 코어와 viewer checkbox로 비교 가능.
+- 뷰어는 DTX SHA도 확인하고 material metadata를 공급한다. relocation 검사에 source DTX75개도 포함했다.
+- 최신검사: client_core101 + world_render12 + input_command_probe3 =116 통과, JS문법 통과. 브라우저 Fullbright off/on/Saturate 완료, 오류0, mip284,누락/실패0. REA `ev_a1361e41c21f9b3467791235b442274dd80b78c8838b8c512802f43e47286b75`.
+- AlphaRef 숫자 의미는 공개 atoi/WORD 비교와 실제 captured 선언에 한정. 원본 간접 converter 함수이름은 미해결. 최종 opaque/alpha-test/framebuffer-blend/검증fallback는 미확인이다.
+- 다음우선: world pass의 ALPHAFUNC/ALPHABLENDENABLE 경로. 초기 state 함수 후보0x1401987a0은 state0x19에7(GREATEREQUAL)을 전달하는 바이트 후보가 있으나 world draw 시점까지 연결하지 않았고 아직 근거파일/구현에 채택하지 않았다.
+
 ## 최신 후속 (2026-11-12, 정점과 셰이더 후보)
 
 - `spec/native-render-contract.md`에 다음 경로와 근거를 모았다. 부모/독립 검토 완료 후 기록.

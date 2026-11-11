@@ -93,3 +93,78 @@ unsigned 경계, 후보 gate·특수 mode·feature 비zero·pixel pointer/bit·m
 남은 것은 texture 상태 producer, validation 실패 fallback의 완전한 의미,
 실제 shader binding과 runtime vertex lighting/추가24바이트 처리다.
 이 결과는 렌더 리소스 복원의 확인된 조각이며 전체 플레이 가능 클라이언트의 완성을 뜻하지 않는다.
+
+## DTX 선언에서 renderer texture와 Fullbright 후보로
+
+후속 producer 추적으로 위의 texture 상태 일부를 연결했다.
+`evidence/engine-texture-material-producers-v1.json`에 아래7개 함수의 원본 바이트가 있다.
+독립 검토에서7개 method/1,378개 명령의 바이트를 현재 EXE와 대조했다.
+
+| 주소 | 확인한 효과 |
+|---|---|
+| `0x1400c10d0` | DTX header164바이트 읽기. resource type0/version-5 검사 후 TextureData+4에 header 복사 |
+| `0x1400a8120` | 새 SharedTexture의+0x38/+0x3c를 포함한 QWORD를0으로 초기화 |
+| `0x140129210` | TextureData+0x28의 command 문자열에서 DetailTex/EnvMap/EnvMapAlpha/EnvBumpMap/EnvBumpMapNoFallback을 검색하고 mode+0x38을1/2/3/4/5로 설정 |
+| `0x1401e0440` | TextureData internal flags를 renderer texture의+0x24 flags로 변환, AlphaRef 명령 결과의 AX를+0x26에 저장 |
+| `0x1400b5820` | SharedTexture+0x10 포인터 반환 |
+| `0x14021a250` | Fullbright의 두 texture stage 연산 설정 |
+| `0x140219a80` | 같은 texture를 stage0과1에 바인딩 |
+
+중요한 구분: TextureData는 DTX header가+4에 복사된 CPU 자료이고,
+SharedTexture+0x10에서 꺼내는 포인터는 renderer texture(비교 소스의 RTexture)다.
+**shader가 검사하는+0x24 bit0을 raw DTX offset0x20의 bit로 읽으면 안 된다.**
+`0x1401e04a8..0x1401e05bd`에서 raw DTX offset16의 internal flags를 읽어
+다음과 같이 repack한다.
+
+```text
+renderer_flags = (internal_flags & 1) | ((internal_flags >> 9) & 0xe)
+```
+
+raw DTX command offset36은 TextureData+0x28이다. 알파 reference는 raw header의
+기존 word를 그대로 사용하는 것이 아니라 CreateRTexture에서 AlphaRef 명령을 다시 검색한다.
+호출 `0x1401e0665`의 간접 변환 함수 이름은 원본 import 자료만으로 해소하지 못했다.
+저장된 공개 d3d_texture.cpp의 atoi/WORD 동작과 비교하여, 현재 자료에 실제 존재하는
+양의 decimal 명령 형식만 코어에서 지원한다. 임의 command grammar 전체의 복원으로 간주하지 않는다.
+
+`client_core/texture_material.py`는 빈 문자열 또는 현재 관찰한 AlphaRef 형식만 허용한다.
+다른 명령을 일반 texture로 조용히 바꾸지 않고 거부한다. 새 SharedTexture의 mode/flag가
+초기값을 유지하고 renderer texture 생성이 성공했다는 조건으로 `TextureShaderState`를 만든다.
+실제 객체 수명 중 다른+0x3c 쓰기를 전부 추적한 것은 아니다.
+
+`evidence/warehouse-material-candidate-replay-v1.json`에서 원본 DTX75개 해시를 확인했다.
+14개가 internal bit0을 가지며, 명령은 빈 문자열71개, AlphaRef80 두 개,100 한 개,128 한 개다.
+feature preset을 명시한 정적 replay에서 stored code1의164개 section은 candidate1(144개)과
+Fullbright candidate7(20개)로 나뉜다. 이는 **후보**이며 ValidateShader 결과를 관찰하지 않았다.
+`engine-warehouse-shader-candidate-v2.json`의 allocation vtable/RTTI는7을
+`CRenderShader_Gouraud_Texture_Fullbright`와 연결한다.
+
+### Fullbright의 두 단계 색상 비교
+
+0x14021a250의 stage0은 기존 texture×vertex RGB(MODULATE/MODULATE2X)와
+alpha texture×vertex를 계산한다. stage1은 TEXTURE/CURRENT를 사용해
+COLOROP16(BLENDCURRENTALPHA), ALPHAOP3(SELECTARG2)를 설정한다.
+따라서 ideal normalized 비교식은 다음과 같다.
+
+```text
+lit = clamp(texture.rgb * vertex.rgb * (Saturate != 0 ? 2 : 1), 0, 1)
+a = texture.a * vertex.a
+fullbright.rgb = texture.rgb * a + lit * (1-a)
+fullbright.a = a
+```
+
+stage0 clamp를 먼저 적용하며 단순히 조명을 끄거나 texel alpha만 계수로 사용하지 않는다.
+`gouraud_texel`에 이 단계 계산을 제공하고, 뷰어에는 선언된 Fullbright bit가 있는 면의
+조명 합성 비교 checkbox로 연결했다. base lightmap 면에는 이 식을 적용하지 않는다.
+현재 WebGL의 전역 framebuffer blend와 간단한 alpha discard는 원본의 opaque/AlphaRef
+state를 완전히 복원하지 않았다. 최종 픽셀 일치나 actual shader7 선택을 주장하지 않는다.
+
+뷰어 material 선언은 매번 원본 DTX SHA 검증 후 공급한다. 다른 checkout으로 옮기는 검사도
+이75개 자료를 복사해 재실행한다. `warehouse-fullbright-browser-v1.json`, REA
+`ev_a1361e41c21f9b3467791235b442274dd80b78c8838b8c512802f43e47286b75`에서
+Fullbright off/on과 Saturate 전환이 완료됐다. 오류0, mip284, 누락/실패0이며 Chrome도 종료됐다.
+스크린샷은 `previews/warehouse-fullbright-comparison.png`다.
+
+검증은 client_core101개, world_render12개, input_command_probe3개로 **116개 통과**했다.
+전체 DTX 선언→조건부 후보, native flags repack, current-alpha 혼합, stage0 clamp 순서,
+알 수 없는 command 거부를 포함한다. AlphaRef 간접 parser와 실제 alpha test/framebuffer state,
+실제 validation/fallback 선택은 남아 있다.

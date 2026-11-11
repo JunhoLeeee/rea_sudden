@@ -27,7 +27,7 @@ class TextureShaderState:
     # Field names retain their offsets until their complete producer is traced.
     mode_38: int
     flag_3c: int
-    pixel_flags24: int | None  # None is a null pixel-data pointer, not a zero flag.
+    pixel_flags24: int | None  # Renderer texture +0x24; None means its pointer is null.
 
 
 def warehouse_shader_candidate(requested, texture, features):
