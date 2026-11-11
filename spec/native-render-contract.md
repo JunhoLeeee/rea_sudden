@@ -207,3 +207,22 @@ Preview/실제 draw scheduling 자체는 아직 독립 코어로 조립하지 �
 
 이로써 정적 fallback **순서**는 해소했지만, 원본 장치가 어느 후보에서 성공하는지와
 최종 framebuffer/AlphaRef state는 여전히 미확인이다.
+
+## 개발 종료 시 저장한 알파 상태 조사
+
+`evidence/engine-world-alpha-state-v1.json`에8개 method의 직접 decode를 보존했다.
+초기 state 함수 `0x1401987a0`은 ALPHAFUNC=7을 설정하지만,
+월드 draw 경로 `0x1401b9d20`의 `0x1401ba26b..0x1401ba27b`는 state0x19에5를 전달한 뒤
+render block 처리와 shader flush loop로 진행한다.
+[D3DCMPFUNC](https://learn.microsoft.com/en-us/windows/win32/direct3d9/d3dcmpfunc)에 따르면
+5는GREATER,7은GREATEREQUAL이다. 초기값만으로 실제 월드 alpha 비교를 결정하면 안 된다.
+
+`0x1402058d0`은 ALPHABLENDENABLE=0이며, CL이 nonzero일 때만 ZWRITEENABLE=1을 쓴다.
+CL=0일 때 depth write를 항상1로 복원한다고 모델링하면 원본과 달라진다.
+`0x1402057a0`은 blend=1/ZWRITE=0으로 바꾸고, CL=0이면 SRCALPHA/INVSRCALPHA,
+nonzero이면 ONE/ONE을 선택한다. 상태 번호는
+[D3DRENDERSTATETYPE](https://learn.microsoft.com/en-us/windows/win32/direct3d9/d3drenderstatetype)과 대조했다.
+
+객체 loop `0x140241740`은 객체 상태에 따라 두 helper를 선택한다. 하지만 정적 월드 geometry의
+모든 draw와 framebuffer state까지 연결한 것은 아니다. 사용자 요청으로 여기서 개발을 중단했으며,
+이번 추가분은 증거·문서 보존이다. 기존 뷰어의 alpha discard/전역 blend는 변경하지 않았다.

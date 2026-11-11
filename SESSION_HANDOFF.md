@@ -1,5 +1,15 @@
 # 진행 목표와 사용자 지시
 
+## 종료 정리 (2026-11-12, 사용자 요청)
+
+- 사용자가 개발 중단·정리·커밋을 요청했다. 추가 개발은 중단한 상태다.
+- 날짜별 전체 진행 기록은 `PROGRESS_BY_DATE.md`에 모았다. 원본 복원과 중단된 practice 프로토타입을 구분했다.
+- 코드 최신 검증은119개 통과이며, 이후 추가분은 `engine-world-alpha-state-v1.json`과 종료 문서다.
+- 새 정적 관찰: 초기 ALPHAFUNC=7과 달리 world draw `0x1401b9d20`은 `0x1401ba26b..27b`에서5(GREATER)를 설정한다. 초기값만으로 AlphaRef 비교 경계를 정하지 않는다.
+- `0x1402058d0`: blend=0, CL이 nonzero일 때만 ZWRITE=1. CL=0은 기존 depth-write 상태를 유지한다.
+- `0x1402057a0`: blend=1/ZWRITE=0. CL=0이면 SRCALPHA/INVSRCALPHA, nonzero이면 ONE/ONE. 객체 선택 gate와 월드 정적 geometry에 이 helper가 적용되는 전체 경로는 아직 분리 조사 중이다.
+- 위 상태 관찰을 뷰어 alpha 처리 변경에는 적용하지 않았다. 원본 실행·새 GUI 서버 시작 없이 정리했다.
+
 ## 최신 검증 fallback 후속 (2026-11-12)
 
 - `shader_validation_fallback` 및 `resolve_shader_validation` 추가. native failure table:7→1→0,12→1→0,11→0,15→14→12→1→0 등.20개 allocation candidate 전부 검사.
